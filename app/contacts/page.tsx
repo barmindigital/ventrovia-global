@@ -3,9 +3,9 @@ import Link from "next/link";
 import { RequestForm } from "../components/RequestForm";
 
 export const metadata: Metadata = {
-  title: "Запрос на подбор оборудования",
+  title: "Контакты и запрос на подбор оборудования",
   description:
-    "Отправьте модель, артикул или описание промышленного оборудования для подбора и проверки совместимости.",
+    "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 495 698 60 76, e-mail sales@vitrologistics.com.",
 };
 
 type ContactsPageProps = {
@@ -21,26 +21,25 @@ export default async function ContactsPage({ searchParams }: ContactsPageProps) 
           <div className="breadcrumbs">
             <Link href="/">Главная</Link><span>/</span><span>Запрос</span>
           </div>
-          <p className="eyebrow">Подбор оборудования</p>
-          <h1>Расскажите,<br />что нужно найти</h1>
+          <p className="eyebrow">География бизнеса</p>
+          <h1>Офис в Москве</h1>
           <p>
-            Достаточно модели, артикула, фотографии шильдика или описания
-            задачи. Чем полнее маркировка, тем точнее результат.
+            г. Москва, ул. Бауманская, БЦ «Центральный Ярд», д. 7, стр. 1
           </p>
         </div>
       </section>
       <section className="section shell contact-layout">
         <aside className="contact-aside">
-          <p className="eyebrow">Что приложить</p>
-          <h2>Данные для точного подбора</h2>
+          <p className="eyebrow">Контакты</p>
+          <h2>Свяжитесь с нами</h2>
+          <div className="contact-lines">
+            <a href="tel:+74956986076">+7 495 698 60 76</a>
+            <a href="mailto:sales@vitrologistics.com">sales@vitrologistics.com</a>
+          </div>
           <p>
-            Укажите количество, желаемый срок, город поставки и возможность
-            предложить аналог. Для замены установленного компонента полезна
-            фотография шильдика.
-          </p>
-          <p>
-            Корпоративные телефон и e-mail пока не заданы. Форма сохраняет
-            заполненный запрос как локальный черновик и не имитирует отправку.
+            Для подбора достаточно модели, артикула, фотографии шильдика или
+            описания задачи. Укажите количество, желаемый срок и возможность
+            предложить аналог.
           </p>
         </aside>
         <RequestForm defaultProduct={product} />

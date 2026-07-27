@@ -21,14 +21,15 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
       await navigator.clipboard.writeText(text);
       localStorage.setItem("promsnab-request-draft", text);
       setFeedback(
-        "Заявка сохранена на этом устройстве и скопирована. Контакты получателя подключим перед запуском продаж.",
+        "Заявка сохранена и скопирована. Сейчас откроется письмо на sales@vitrologistics.com.",
       );
     } catch {
       localStorage.setItem("promsnab-request-draft", text);
       setFeedback(
-        "Заявка сохранена на этом устройстве. Контакты получателя подключим перед запуском продаж.",
+        "Заявка сохранена. Сейчас откроется письмо на sales@vitrologistics.com.",
       );
     }
+    window.location.href = `mailto:sales@vitrologistics.com?subject=${encodeURIComponent("Запрос на подбор оборудования")}&body=${encodeURIComponent(text)}`;
   };
 
   return (
@@ -60,7 +61,7 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
           Сохранить заявку
         </button>
         <span className="form-feedback" aria-live="polite">
-          {feedback || "Форма работает как локальный черновик до подключения корпоративной почты."}
+          {feedback || "Заявка откроется в вашей почтовой программе и сохранится как локальный черновик."}
         </span>
       </div>
     </form>

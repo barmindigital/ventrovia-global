@@ -4,9 +4,9 @@ import { ProductArt } from "./components/ProductArt";
 import { categories, manufacturers, products, formatCount } from "./lib/catalog-data";
 
 export const metadata: Metadata = {
-  title: "Промышленное оборудование и комплектующие",
+  title: "Глобальные промышленные закупки и оборудование",
   description:
-    "Каталог промышленного оборудования: гидравлика, насосы, электродвигатели, датчики, автоматика и запчасти. Подбор по артикулу и модели.",
+    "Международная торговая компания полного цикла: поиск промышленного оборудования, оплата, таможенное оформление, логистика и доставка.",
 };
 
 export default function Home() {
@@ -15,16 +15,18 @@ export default function Home() {
       <section className="hero">
         <div className="shell hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Поставки для промышленности</p>
+            <p className="eyebrow">Глобальные промышленные закупки</p>
             <h1>
-              Всё необходимое
+              Ваш надежный партнёр
               <br />
-              для производства
+              в сфере глобальных
+              <br />
+              промышленных закупок
             </h1>
             <p className="hero-lead">
-              Находим оборудование и комплектующие по модели, артикулу или
-              техническому описанию. Проверяем совместимость и готовим
-              предложение под вашу задачу.
+              От поиска товара до доставки — берём всё на себя. Находим
+              проверенных поставщиков, контролируем качество, организуем оплату
+              инвойсов, логистику и таможенное оформление.
             </p>
             <form className="hero-search" action="/catalog">
               <label className="sr-only" htmlFor="hero-query">
@@ -58,6 +60,15 @@ export default function Home() {
               <strong>по 115 370 артикулам</strong>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="service-points" aria-label="Наши услуги">
+        <div className="shell service-points-grid">
+          <div><span>01</span><p>Поиск оригинального товара и надежного поставщика</p></div>
+          <div><span>02</span><p>Таможенное оформление, декларирование и сертификация товара</p></div>
+          <div><span>03</span><p>Доставка товара без нарушения сроков</p></div>
+          <div><span>04</span><p>Построение выгодного и быстрого логистического маршрута</p></div>
         </div>
       </section>
 
@@ -96,6 +107,35 @@ export default function Home() {
               <span className="round-arrow" aria-hidden="true">↗</span>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section className="section shell">
+        <div className="company-intro">
+          <div>
+            <p className="eyebrow">О компании</p>
+            <h2>Международная торговая компания полного цикла</h2>
+          </div>
+          <div>
+            <p>
+              Профессиональный интегратор между заказчиком и глобальным рынком.
+              Мы берём на себя все этапы сделки: от поиска труднодоступного
+              оборудования до его доставки, таможенного оформления и финальных
+              рисков. Мы находим то, чего нет в свободном доступе. Каждый заказ
+              — строго под потребность клиента, без складских остатков и лишних
+              издержек.
+            </p>
+            <Link className="text-link" href="/about">
+              Подробнее о компании <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+        </div>
+        <div className="business-stats" aria-label="Компания в цифрах">
+          <div><strong>10+</strong><span>лет на рынке промышленного оборудования</span></div>
+          <div><strong>200</strong><span>тендеров в день</span></div>
+          <div><strong>30%</strong><span>маржинальности по сделкам</span></div>
+          <div><strong>13</strong><span>сделок в квартал</span></div>
+          <div><strong>60+</strong><span>стран мира, в которых мы работаем</span></div>
         </div>
       </section>
 
@@ -138,8 +178,15 @@ export default function Home() {
       <section className="section shell">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Производители</p>
-            <h2>Подбор по бренду</h2>
+            <p className="eyebrow">Поставки по всему миру</p>
+            <h2>Работаем с ведущими мировыми производителями</h2>
+            <p className="section-intro">
+              Осуществляем поставки промышленного оборудования и запасных
+              частей, компрессорного оборудования, генераторов, насосов,
+              электродвигателей, редукторов, лабораторного оборудования,
+              промышленной автоматики и другого оборудования ведущих мировых
+              производителей.
+            </p>
           </div>
           <Link className="text-link" href="/manufacturers">
             Все производители <span aria-hidden="true">→</span>
@@ -147,31 +194,55 @@ export default function Home() {
         </div>
         <div className="brand-cloud">
           <Link className="brand-chip brand-featured" href="/manufacturers/abb">ABB</Link>
-          {manufacturers.slice(0, 11).map((brand) => (
+          {manufacturers.slice(0, 7).map((brand) => (
             <Link className="brand-chip" href={`/manufacturers/${brand.slug}`} key={brand.slug}>
               {brand.name}
             </Link>
           ))}
+          {["Kaeser", "Honeywell", "Andritz", "JOEST", "Flottweg", "Bronswerk", "Auma", "Volpak", "RTP POWER"].map((brand) => (
+            <span className="brand-chip" key={brand}>{brand}</span>
+          ))}
+        </div>
+      </section>
+
+      <section className="section section-tint">
+        <div className="shell">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Опыт поставок</p>
+              <h2>Реализованные проекты</h2>
+              <p className="section-intro">
+                Среди наших заказчиков — государственные корпорации,
+                инфраструктурные предприятия и федеральные медицинские центры.
+              </p>
+            </div>
+          </div>
+          <div className="projects-grid">
+            <article><span>Энергетика</span><h3>АО «Росатом Возобновляемая энергия»</h3><p>Ветроэнергетика и возобновляемые источники энергии.</p></article>
+            <article><span>Инфраструктура</span><h3>ГУП «Мосводосток»</h3><p>Водоснабжение и водоотведение Москвы.</p></article>
+            <article><span>Авиация</span><h3>ОАО «Омский аэропорт»</h3><p>Авиационная инфраструктура и наземное обслуживание.</p></article>
+            <article><span>Медицина</span><h3>ФГАУ «НМИЦ ЛРЦ Минздрава России»</h3><p>Федеральный медицинский исследовательский центр.</p></article>
+          </div>
         </div>
       </section>
 
       <section className="section shell">
         <div className="process-panel">
           <div>
-            <p className="eyebrow eyebrow-light">Как мы работаем</p>
-            <h2>От запроса до поставки — прозрачно</h2>
+            <p className="eyebrow eyebrow-light">Ключевой фокус</p>
+            <h2>Работаем под конкретный спрос</h2>
             <p>
-              Один запрос может включать позиции разных брендов. Мы сверяем
-              маркировку, уточняем исполнение и объединяем поставку.
+              Каждая закупка запускается под конкретный тендер или прямой запрос
+              — без лишних складских рисков.
             </p>
             <Link className="button button-light" href="/contacts">
               Обсудить задачу
             </Link>
           </div>
           <ol className="process-list">
-            <li><span>01</span><div><strong>Получаем спецификацию</strong><p>Артикул, модель, фото шильдика или техническое описание.</p></div></li>
-            <li><span>02</span><div><strong>Проверяем соответствие</strong><p>Уточняем производителя, исполнение и совместимость.</p></div></li>
-            <li><span>03</span><div><strong>Готовим предложение</strong><p>Фиксируем состав, сроки и условия поставки.</p></div></li>
+            <li><span>01</span><div><strong>Одна точка ответственности</strong><p>Коммерческий отдел сопровождает сделку и координирует все внутренние подразделения.</p></div></li>
+            <li><span>02</span><div><strong>Собственный платёжный контур</strong><p>Финлогистика обеспечивает расчёты с иностранными поставщиками без посредников.</p></div></li>
+            <li><span>03</span><div><strong>Фокус на сложном импорте</strong><p>Работаем с товарами, где важны поиск, экспертиза и проверенные каналы поставки.</p></div></li>
           </ol>
         </div>
       </section>

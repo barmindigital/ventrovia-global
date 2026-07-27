@@ -27,7 +27,7 @@ export function SiteFooter() {
         </div>
         <div className="footer-status">
           <span className="status-dot" />
-          <p><strong>Каталог обновляется</strong><br />Данные проходят техническую проверку перед публикацией.</p>
+          <p><strong>Офис в Москве</strong><br /><a href="tel:+74956986076">+7 495 698 60 76</a><br /><a href="mailto:sales@vitrologistics.com">sales@vitrologistics.com</a></p>
         </div>
       </div>
       <div className="shell footer-bottom">
