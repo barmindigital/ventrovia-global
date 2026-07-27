@@ -749,6 +749,7 @@ img {
   position: relative;
   min-height: 260px;
   overflow: hidden;
+  margin: 0;
   background:
     radial-gradient(circle at 35% 15%, rgba(255, 255, 255, 0.5), transparent 30%),
     linear-gradient(150deg, #eee4fb, #d6c1f1);
@@ -771,6 +772,24 @@ img {
   min-height: 170px;
   background: transparent;
   opacity: 0.9;
+}
+
+.product-art-image {
+  background: #f2ecfa;
+}
+
+.product-art-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-art-image.product-art-compact {
+  border-radius: 12px;
+  box-shadow: 0 14px 28px rgba(52, 18, 88, 0.1);
+  opacity: 1;
 }
 
 .art-orb {
@@ -1335,6 +1354,7 @@ img {
 }
 
 .manufacturer-card h2 {
+  margin: 24px 0 0;
   font-size: 23px;
 }
 
@@ -1351,24 +1371,91 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.brand-card-visual {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  border: 1px solid rgba(93, 47, 158, 0.16);
+  border-radius: 16px;
+  background:
+    linear-gradient(rgba(247, 243, 253, 0.72), rgba(247, 243, 253, 0.72)),
+    url("/images/brands/global-sourcing-cover.webp") center / cover;
+  box-shadow: 0 10px 24px rgba(52, 18, 88, 0.12);
+}
+
+.brand-card-visual i {
+  color: var(--violet-deep);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.manufacturer-card:hover .brand-card-visual,
+.manufacturer-card.brand-featured .brand-card-visual {
+  border-color: rgba(255, 255, 255, 0.26);
+  background:
+    linear-gradient(rgba(52, 18, 88, 0.45), rgba(52, 18, 88, 0.45)),
+    url("/images/brands/global-sourcing-cover.webp") center / cover;
+}
+
+.manufacturer-card:hover .brand-card-visual i,
+.manufacturer-card.brand-featured .brand-card-visual i {
+  color: white;
+}
+
 .brand-hero {
   display: grid;
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.72fr);
   gap: 60px;
   align-items: center;
 }
 
+.brand-visual {
+  position: relative;
+  min-height: 265px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.brand-visual > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brand-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(24, 7, 45, 0.12), rgba(24, 7, 45, 0.54));
+}
+
 .brand-monogram {
+  position: absolute;
+  z-index: 1;
+  left: 28px;
+  bottom: 26px;
   display: grid;
   place-items: center;
-  width: 230px;
-  aspect-ratio: 1;
-  border-radius: 50%;
+  min-width: 96px;
+  height: 78px;
+  padding-inline: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
   color: white;
-  background: radial-gradient(circle at 30% 25%, #8955c7, #42196b 62%, #1b0730);
-  box-shadow: var(--shadow);
+  background: rgba(24, 7, 45, 0.68);
+  box-shadow: 0 18px 40px rgba(24, 7, 45, 0.26);
+  backdrop-filter: blur(8px);
   font-family: "Onest Variable", Onest, sans-serif;
-  font-size: 52px;
+  font-size: 29px;
+  font-weight: 720;
 }
 
 .brand-sections {
@@ -2055,8 +2142,8 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .brand-monogram {
-    width: 190px;
+  .brand-visual {
+    min-height: 240px;
   }
 
   .product-gallery .product-art {

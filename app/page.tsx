@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ProductArt } from "./components/ProductArt";
-import { categories, manufacturers, products, formatCount } from "./lib/catalog-data";
+import {
+  categories,
+  categoryImageBySlug,
+  manufacturers,
+  products,
+  productImage,
+  formatCount,
+} from "./lib/catalog-data";
 
 export const metadata: Metadata = {
   title: "Глобальные промышленные закупки и оборудование",
@@ -98,7 +105,12 @@ export default function Home() {
               href={`/catalog?category=${category.slug}`}
               key={category.slug}
             >
-              <ProductArt tone={index % 4} compact />
+              <ProductArt
+                compact
+                imageSrc={categoryImageBySlug(category.slug)}
+                label={category.name}
+                tone={index % 4}
+              />
               <span className="category-index">
                 {String(index + 1).padStart(2, "0")}
               </span>
@@ -154,7 +166,11 @@ export default function Home() {
             {products.slice(0, 4).map((product, index) => (
               <article className="product-card" key={product.slug}>
                 <Link className="product-art-link" href={`/catalog/${product.slug}`}>
-                  <ProductArt tone={index} label={product.manufacturer} />
+                  <ProductArt
+                    imageSrc={productImage(product)}
+                    label={product.name}
+                    tone={index}
+                  />
                 </Link>
                 <div className="product-card-body">
                   <p className="product-brand">{product.manufacturer}</p>

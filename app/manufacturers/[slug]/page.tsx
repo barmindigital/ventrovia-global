@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProductArt } from "../../components/ProductArt";
@@ -6,6 +7,7 @@ import {
   formatCount,
   manufacturerBySlug,
   manufacturers,
+  productImage,
   products,
 } from "../../lib/catalog-data";
 
@@ -72,8 +74,16 @@ export default async function BrandPage({ params }: BrandPageProps) {
               для этого каталога.
             </p>
           </div>
-          <div className="brand-monogram" aria-label={`Монограмма ${brand.name}`}>
-            {initials}
+          <div className="brand-visual" aria-label={`Иллюстрация раздела ${brand.name}`} role="img">
+            <Image
+              alt=""
+              height={900}
+              priority
+              src="/images/brands/global-sourcing-cover.webp"
+              unoptimized
+              width={1600}
+            />
+            <span className="brand-monogram">{initials}</span>
           </div>
         </div>
       </section>
@@ -150,7 +160,11 @@ export default async function BrandPage({ params }: BrandPageProps) {
               {brandProducts.map((product, index) => (
                 <article className="product-card" key={product.slug}>
                   <Link href={`/catalog/${product.slug}`}>
-                    <ProductArt tone={index} label={product.manufacturer} />
+                    <ProductArt
+                      imageSrc={productImage(product)}
+                      label={product.name}
+                      tone={index}
+                    />
                   </Link>
                   <div className="product-card-body">
                     <p className="product-brand">{product.manufacturer}</p>
