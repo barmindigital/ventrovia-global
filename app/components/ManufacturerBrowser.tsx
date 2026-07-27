@@ -6,14 +6,17 @@ import { formatCount, manufacturers } from "../lib/catalog-data";
 
 export function ManufacturerBrowser() {
   const [query, setQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(60);
   const filtered = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase("ru");
-    return manufacturers.filter((manufacturer) =>
-      [manufacturer.name, manufacturer.country ?? ""].some((value) =>
+    return manufacturers.filter((manufacturer) => {
+      if (!normalized && manufacturer.slug === "abb") return false;
+      return [manufacturer.name, manufacturer.country ?? ""].some((value) =>
         value.toLocaleLowerCase("ru").includes(normalized),
-      ),
-    );
+      );
+    });
   }, [query]);
+  const visibleManufacturers = filtered.slice(0, visibleCount);
 
   return (
     <>
@@ -23,12 +26,15 @@ export function ManufacturerBrowser() {
         </label>
         <input
           id="manufacturer-query"
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setVisibleCount(60);
+          }}
           placeholder="Найти производителя"
           type="search"
           value={query}
         />
-        <span>{filtered.length} в витрине</span>
+        <span>{formatCount(query ? filtered.length : manufacturers.length)} в базе</span>
       </div>
       <div className="manufacturer-list">
         {!query && (
@@ -40,7 +46,7 @@ export function ManufacturerBrowser() {
             <p><span>Автоматика и электрификация</span><span>Открыть ↗</span></p>
           </Link>
         )}
-        {filtered.map((manufacturer) => {
+        {visibleManufacturers.map((manufacturer) => {
           const initials = manufacturer.name
             .split(/\s+/)
             .slice(0, 2)
@@ -69,6 +75,21 @@ export function ManufacturerBrowser() {
           );
         })}
       </div>
+      {visibleCount < filtered.length && (
+        <div className="manufacturer-more">
+          <button
+            className="button button-outline"
+            onClick={() => setVisibleCount((count) => count + 60)}
+            type="button"
+          >
+            Показать ещё 60
+          </button>
+          <span>
+            Показано {formatCount(Math.min(visibleCount, filtered.length))} из{" "}
+            {formatCount(filtered.length)}
+          </span>
+        </div>
+      )}
     </>
   );
 }

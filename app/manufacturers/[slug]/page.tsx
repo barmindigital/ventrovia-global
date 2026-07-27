@@ -27,7 +27,9 @@ const specialBrands = {
 export function generateStaticParams() {
   return [
     { slug: "abb" },
-    ...manufacturers.map((manufacturer) => ({ slug: manufacturer.slug })),
+    ...manufacturers
+      .filter((manufacturer) => manufacturer.slug !== "abb")
+      .map((manufacturer) => ({ slug: manufacturer.slug })),
   ];
 }
 

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
+import { FULL_MANUFACTURER_COUNT } from "../generated/full-catalog";
+import { formatCount } from "../lib/catalog-data";
 
 export const metadata: Metadata = {
   title: "Производители промышленного оборудования",
@@ -27,7 +29,7 @@ export default function ManufacturersPage() {
               </p>
             </div>
             <div className="page-count">
-              <strong>2 806</strong>
+              <strong>{formatCount(FULL_MANUFACTURER_COUNT)}</strong>
               <span>производителей в базе</span>
             </div>
           </div>
