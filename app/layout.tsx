@@ -3,7 +3,7 @@ import "./globals.css";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
-const siteUrl = "https://promsnab-catalog-ru-2026.openai.site";
+const siteUrl = "https://promsnab-catalog-ru-2026.romabarmin111.chatgpt.site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
