@@ -1,8 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { formatCount, manufacturers } from "../lib/catalog-data";
+import { brandLogoBySlug } from "../lib/brand-logos";
 
 export function ManufacturerBrowser() {
   const [query, setQuery] = useState("");
@@ -39,14 +41,21 @@ export function ManufacturerBrowser() {
       <div className="manufacturer-list">
         {!query && (
           <Link className="manufacturer-card brand-featured" href="/manufacturers/abb">
-            <span className="brand-card-visual" role="img" aria-label="Фирменная карточка ABB">
-              <i>ABB</i>
+            <span className="brand-card-visual has-logo">
+              <Image
+                alt="ABB — логотип производителя"
+                height={80}
+                src="/images/brand-logos/abb.svg"
+                unoptimized
+                width={180}
+              />
             </span>
             <h2>ABB</h2>
             <p><span>Автоматика и электрификация</span><span>Открыть ↗</span></p>
           </Link>
         )}
         {visibleManufacturers.map((manufacturer) => {
+          const logo = brandLogoBySlug(manufacturer.slug);
           const initials = manufacturer.name
             .split(/\s+/)
             .slice(0, 2)
@@ -59,12 +68,18 @@ export function ManufacturerBrowser() {
               href={`/manufacturers/${manufacturer.slug}`}
               key={manufacturer.slug}
             >
-              <span
-                className="brand-card-visual"
-                role="img"
-                aria-label={`Фирменная карточка ${manufacturer.name}`}
-              >
-                <i>{initials}</i>
+              <span className={`brand-card-visual${logo ? " has-logo" : ""}`}>
+                {logo ? (
+                  <Image
+                    alt={`${manufacturer.name} — логотип производителя`}
+                    height={80}
+                    src={logo.src}
+                    unoptimized
+                    width={180}
+                  />
+                ) : (
+                  <i aria-hidden="true">{initials}</i>
+                )}
               </span>
               <h2>{manufacturer.name}</h2>
               <p>
@@ -90,6 +105,12 @@ export function ManufacturerBrowser() {
           </span>
         </div>
       )}
+      <p className="trademark-note">
+        Товарные знаки принадлежат соответствующим правообладателям и
+        используются для идентификации продукции. Наличие логотипа не означает
+        статус официального дилера.{" "}
+        <Link href="/manufacturers/logos">Источники и лицензии</Link>
+      </p>
     </>
   );
 }

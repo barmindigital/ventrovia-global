@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProductArt } from "../../components/ProductArt";
+import { brandLogoBySlug } from "../../lib/brand-logos";
 import {
   formatCount,
   manufacturerBySlug,
@@ -57,6 +58,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
     .map((part) => part[0])
     .join("")
     .toUpperCase();
+  const logo = brandLogoBySlug(slug);
 
   return (
     <>
@@ -85,7 +87,19 @@ export default async function BrandPage({ params }: BrandPageProps) {
               unoptimized
               width={1600}
             />
-            <span className="brand-monogram">{initials}</span>
+            {logo ? (
+              <span className="brand-hero-logo">
+                <Image
+                  alt={`${brand.name} — логотип производителя`}
+                  height={150}
+                  src={logo.src}
+                  unoptimized
+                  width={360}
+                />
+              </span>
+            ) : (
+              <span className="brand-monogram">{initials}</span>
+            )}
           </div>
         </div>
       </section>
@@ -144,6 +158,17 @@ export default async function BrandPage({ params }: BrandPageProps) {
             </Link>
           </article>
         </div>
+        <p className="trademark-note">
+          Товарный знак {brand.name} принадлежит соответствующему
+          правообладателю и используется для идентификации продукции. Страница
+          не подтверждает статус официального дилера или представителя.
+          {logo && (
+            <>
+              {" "}
+              <Link href="/manufacturers/logos">Источник логотипа</Link>
+            </>
+          )}
+        </p>
       </section>
 
       {brandProducts.length > 0 && (
