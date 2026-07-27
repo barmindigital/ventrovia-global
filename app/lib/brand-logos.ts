@@ -108,6 +108,182 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Kübler",
   },
+  {
+    slug: "siemens",
+    name: "Siemens",
+    src: "/images/brand-logos/siemens.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Siemens-logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Siemens-logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Siemens AG",
+  },
+  {
+    slug: "schneider-electric",
+    name: "Schneider Electric",
+    src: "/images/brand-logos/schneider-electric.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SchneiderElectric_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/SchneiderElectric_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Schneider Electric",
+  },
+  {
+    slug: "rockwell-automation",
+    name: "Rockwell Automation",
+    src: "/images/brand-logos/rockwell-automation.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rockwell_Automation_logo_(2019).svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Rockwell_Automation_logo_%282019%29.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Rockwell Automation",
+  },
+  {
+    slug: "parker-hannifin-gmbh",
+    name: "Parker Hannifin",
+    src: "/images/brand-logos/parker-hannifin-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Parker_Hannifin.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Parker_Hannifin.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Parker Hannifin",
+  },
+  {
+    slug: "grundfos",
+    name: "Grundfos",
+    src: "/images/brand-logos/grundfos.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_Grundfos.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_Grundfos.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Grundfos",
+  },
+  {
+    slug: "sew-eurodrive",
+    name: "SEW Eurodrive",
+    src: "/images/brand-logos/sew-eurodrive.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SEW_LOGO.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/SEW_LOGO.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: SEW-Eurodrive",
+  },
+  {
+    slug: "fanuc",
+    name: "FANUC",
+    src: "/images/brand-logos/fanuc.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Fanuc_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fanuc_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: FANUC",
+  },
+  {
+    slug: "yaskawa",
+    name: "Yaskawa",
+    src: "/images/brand-logos/yaskawa.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Yaskawa_Electric_company_new_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Yaskawa_Electric_company_new_logo.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Yaskawa Electric",
+  },
+  {
+    slug: "lenze-gmbh",
+    name: "Lenze",
+    src: "/images/brand-logos/lenze-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Lenze_Gruppe_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/62/Lenze_Gruppe_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Lenze Group",
+  },
+  {
+    slug: "atlas-copco",
+    name: "Atlas Copco",
+    src: "/images/brand-logos/atlas-copco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Atlas_Copco_Group_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/09/Atlas_Copco_Group_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Atlas Copco Group",
+  },
+  {
+    slug: "alfa-laval",
+    name: "Alfa Laval",
+    src: "/images/brand-logos/alfa-laval.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:AlfaLaval-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/AlfaLaval-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Alfa Laval",
+  },
+  {
+    slug: "gea",
+    name: "GEA",
+    src: "/images/brand-logos/gea.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:GEA_Logo_2022.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/GEA_Logo_2022.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: GEA Group",
+  },
+  {
+    slug: "wika",
+    name: "WIKA",
+    src: "/images/brand-logos/wika.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:WIKA_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/WIKA_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: WIKA",
+  },
+  {
+    slug: "hydac",
+    name: "HYDAC",
+    src: "/images/brand-logos/hydac.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hydac_International_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hydac_International_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: HYDAC International",
+  },
+  {
+    slug: "flowserve",
+    name: "Flowserve",
+    src: "/images/brand-logos/flowserve.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Flowserve.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Flowserve.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Flowserve",
+  },
+  {
+    slug: "heidenhain",
+    name: "HEIDENHAIN",
+    src: "/images/brand-logos/heidenhain.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Heidenhain_2022_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5d/Heidenhain_2022_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: HEIDENHAIN",
+  },
 ];
 
 const brandLogoMap = new Map(
