@@ -527,6 +527,83 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Eaton Corporation",
   },
+  {
+    slug: "gardner-denver",
+    name: "Gardner Denver",
+    src: "/images/brand-logos/gardner-denver.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Gardner_Denver_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gardner_Denver_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Gardner Denver",
+  },
+  {
+    slug: "ebmpapst",
+    name: "ebm-papst",
+    src: "/images/brand-logos/ebmpapst.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ebmpapst.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ebmpapst.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: ebm-papst",
+  },
+  {
+    slug: "carrier",
+    name: "Carrier",
+    src: "/images/brand-logos/carrier.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_of_the_Carrier_Corporation.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_of_the_Carrier_Corporation.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Carrier Corporation",
+  },
+  {
+    slug: "leroy-somer",
+    name: "Leroy-Somer",
+    src: "/images/brand-logos/leroy-somer.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Leroy-Somer.gif",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Leroy-Somer.gif",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Emerson Leroy-Somer",
+  },
+  {
+    slug: "mahle",
+    name: "MAHLE",
+    src: "/images/brand-logos/mahle.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mahle.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mahle.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: MAHLE GmbH",
+  },
+  {
+    slug: "kaeser",
+    name: "KAESER",
+    src: "/images/brand-logos/kaeser.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kaeser_Kompressoren_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kaeser_Kompressoren_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: KAESER Kompressoren",
+  },
+  {
+    slug: "nordson",
+    name: "Nordson",
+    src: "/images/brand-logos/nordson.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nordson_Corporation_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nordson_Corporation_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Nordson Corporation",
+  },
 ];
 
 const brandLogoMap = new Map(
