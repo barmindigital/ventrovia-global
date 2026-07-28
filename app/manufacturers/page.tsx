@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Производители промышленного оборудования",
   description:
     "Каталог производителей промышленного оборудования и комплектующих. Поиск бренда и подбор позиции по точной маркировке.",
+  alternates: { canonical: "/manufacturers" },
+  openGraph: { url: "/manufacturers" },
 };
 
 export default function ManufacturersPage() {

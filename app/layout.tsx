@@ -3,11 +3,10 @@ import "@fontsource-variable/onest";
 import "./globals.css";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
-
-const siteUrl = "https://promsnab-catalog-ru-2026.romabarmin111.chatgpt.site";
+import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Индустрия поставок — промышленное оборудование и комплектующие",
     template: "%s | Индустрия поставок",
@@ -37,6 +36,35 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
+  name: "Индустрия поставок",
+  url: SITE_URL,
+  logo: `${SITE_URL}/favicon.svg`,
+  description:
+    "Подбор и поставка промышленного оборудования и комплектующих по модели, артикулу и производителю.",
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  url: SITE_URL,
+  name: "Индустрия поставок",
+  inLanguage: "ru-RU",
+  publisher: { "@id": `${SITE_URL}/#organization` },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${SITE_URL}/catalog?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -51,6 +79,16 @@ export default function RootLayout({
         <SiteHeader />
         <main id="content">{children}</main>
         <SiteFooter />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: serializeJsonLd(organizationJsonLd),
+          }}
+          type="application/ld+json"
+        />
+        <script
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(websiteJsonLd) }}
+          type="application/ld+json"
+        />
       </body>
     </html>
   );

@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   title: "Глобальные промышленные закупки и оборудование",
   description:
     "Международная торговая компания полного цикла: поиск промышленного оборудования, оплата, таможенное оформление, логистика и доставка.",
+  alternates: { canonical: "/" },
+  openGraph: { url: "/" },
 };
 
 export default function Home() {

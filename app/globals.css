@@ -1474,6 +1474,37 @@ img {
   letter-spacing: -0.02em;
 }
 
+.brand-card-visual.wordmark {
+  align-content: center;
+  justify-items: start;
+  width: 148px;
+  height: 72px;
+  padding: 12px 13px;
+  text-align: left;
+}
+
+.brand-card-visual.wordmark strong {
+  display: -webkit-box;
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--violet-deep);
+  font-size: 12px;
+  font-weight: 760;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.brand-card-visual.wordmark small {
+  margin-top: 5px;
+  color: rgba(107, 100, 89, 0.72);
+  font-size: 8px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .brand-card-visual.has-logo {
   width: 112px;
   padding: 10px;
@@ -1503,6 +1534,16 @@ img {
 .manufacturer-card:hover .brand-card-visual i,
 .manufacturer-card.brand-featured .brand-card-visual i {
   color: white;
+}
+
+.manufacturer-card:hover .brand-card-visual.wordmark strong,
+.manufacturer-card.brand-featured .brand-card-visual.wordmark strong {
+  color: white;
+}
+
+.manufacturer-card:hover .brand-card-visual.wordmark small,
+.manufacturer-card.brand-featured .brand-card-visual.wordmark small {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .brand-hero {
@@ -1554,6 +1595,39 @@ img {
   font-family: "Onest Variable", Onest, sans-serif;
   font-size: 29px;
   font-weight: 720;
+}
+
+.brand-wordmark-hero {
+  position: absolute;
+  z-index: 1;
+  left: 28px;
+  bottom: 26px;
+  display: grid;
+  width: min(360px, calc(100% - 56px));
+  min-height: 104px;
+  align-content: center;
+  padding: 20px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
+  color: white;
+  background: rgba(107, 100, 89, 0.82);
+  box-shadow: 0 18px 40px rgba(107, 100, 89, 0.22);
+  backdrop-filter: blur(8px);
+}
+
+.brand-wordmark-hero strong {
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: 720;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+
+.brand-wordmark-hero small {
+  margin-top: 9px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
 .brand-hero-logo {
@@ -1811,6 +1885,42 @@ img {
   display: flex;
   gap: 14px;
   margin-top: 27px;
+}
+
+.product-description {
+  margin-top: 38px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.product-description h2 {
+  margin: 30px 0 10px;
+  font-family: "Onest Variable", Onest, sans-serif;
+  font-size: 24px;
+  font-weight: 560;
+  line-height: 1.2;
+}
+
+.product-description h2:first-child {
+  margin-top: 0;
+}
+
+.product-description p,
+.product-description li {
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.product-description ul {
+  margin: 14px 0 0;
+  padding-left: 20px;
+}
+
+.related-products {
+  margin-top: 88px;
+  padding-top: 64px;
+  border-top: 1px solid var(--line);
 }
 
 .seo-note {

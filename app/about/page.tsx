@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "О компании",
   description:
     "Международная торговая компания полного цикла: поиск промышленного оборудования, расчёты, таможенное оформление, логистика и контроль рисков.",
+  alternates: { canonical: "/about" },
+  openGraph: { url: "/about" },
 };
 
 export default function AboutPage() {

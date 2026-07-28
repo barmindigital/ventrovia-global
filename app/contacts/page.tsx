@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: "Контакты и запрос на подбор оборудования",
   description:
     "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 495 698 60 76, e-mail sales@vitrologistics.com.",
+  alternates: { canonical: "/contacts" },
+  openGraph: { url: "/contacts" },
 };
 
 type ContactsPageProps = {

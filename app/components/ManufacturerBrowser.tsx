@@ -56,19 +56,21 @@ export function ManufacturerBrowser() {
         )}
         {visibleManufacturers.map((manufacturer) => {
           const logo = brandLogoBySlug(manufacturer.slug);
-          const initials = manufacturer.name
-            .split(/\s+/)
-            .slice(0, 2)
-            .map((part) => part[0])
-            .join("")
-            .toUpperCase();
           return (
             <Link
               className="manufacturer-card"
               href={`/manufacturers/${manufacturer.slug}`}
               key={manufacturer.slug}
             >
-              <span className={`brand-card-visual${logo ? " has-logo" : ""}`}>
+              <span
+                aria-label={
+                  logo
+                    ? undefined
+                    : `Текстовая карточка производителя ${manufacturer.name}`
+                }
+                className={`brand-card-visual${logo ? " has-logo" : " wordmark"}`}
+                role={logo ? undefined : "img"}
+              >
                 {logo ? (
                   <Image
                     alt={`${manufacturer.name} — логотип производителя`}
@@ -78,7 +80,10 @@ export function ManufacturerBrowser() {
                     width={180}
                   />
                 ) : (
-                  <i aria-hidden="true">{initials}</i>
+                  <>
+                    <strong>{manufacturer.name}</strong>
+                    <small>производитель</small>
+                  </>
                 )}
               </span>
               <h2>{manufacturer.name}</h2>

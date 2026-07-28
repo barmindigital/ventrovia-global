@@ -604,6 +604,72 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Nordson Corporation",
   },
+  {
+    slug: "kuka",
+    name: "KUKA",
+    src: "/images/brand-logos/kuka.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kuka-logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kuka-logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: KUKA AG",
+  },
+  {
+    slug: "legrand",
+    name: "Legrand",
+    src: "/images/brand-logos/legrand.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Legrand_SA.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_Legrand_SA.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Legrand S.A.",
+  },
+  {
+    slug: "toshiba",
+    name: "Toshiba",
+    src: "/images/brand-logos/toshiba.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Toshiba_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Toshiba_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Toshiba Corporation",
+  },
+  {
+    slug: "daikin",
+    name: "Daikin",
+    src: "/images/brand-logos/daikin.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:DAIKIN_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/DAIKIN_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Daikin Industries",
+  },
+  {
+    slug: "sandvik",
+    name: "Sandvik",
+    src: "/images/brand-logos/sandvik.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SANDVIK.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/SANDVIK.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Sandvik AB",
+  },
+  {
+    slug: "smc",
+    name: "SMC",
+    src: "/images/brand-logos/smc.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_SMC_Corporation.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_SMC_Corporation.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: SMC Corporation",
+  },
 ];
 
 const brandLogoMap = new Map(

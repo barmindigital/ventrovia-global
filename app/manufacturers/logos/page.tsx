@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
+  alternates: { canonical: "/manufacturers" },
 };
 
 export default function BrandLogoSourcesPage() {
