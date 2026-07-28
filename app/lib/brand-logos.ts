@@ -284,6 +284,160 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: HEIDENHAIN",
   },
+  {
+    slug: "bonfiglioli",
+    name: "Bonfiglioli",
+    src: "/images/brand-logos/bonfiglioli.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Bonfiglioli.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/Bonfiglioli.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Bonfiglioli",
+  },
+  {
+    slug: "weg",
+    name: "WEG",
+    src: "/images/brand-logos/weg.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:WEG_Equipamentos_El%C3%A9tricos.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/WEG_Equipamentos_El%C3%A9tricos.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: WEG Equipamentos Elétricos",
+  },
+  {
+    slug: "nidec",
+    name: "Nidec",
+    src: "/images/brand-logos/nidec.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nidec_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Nidec_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Nidec",
+  },
+  {
+    slug: "burkert",
+    name: "Bürkert",
+    src: "/images/brand-logos/burkert.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Burkert_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Burkert_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Bürkert Fluid Control Systems",
+  },
+  {
+    slug: "ebara-pump",
+    name: "Ebara",
+    src: "/images/brand-logos/ebara-pump.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ebara.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ebara.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Ebara Corporation",
+  },
+  {
+    slug: "voith-gmbh",
+    name: "Voith",
+    src: "/images/brand-logos/voith-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Voith-logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Voith-logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Voith",
+  },
+  {
+    slug: "ingersoll-rand",
+    name: "Ingersoll Rand",
+    src: "/images/brand-logos/ingersoll-rand.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ingersoll_Rand_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ingersoll_Rand_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Ingersoll Rand",
+  },
+  {
+    slug: "pfeiffer-vacuum",
+    name: "Pfeiffer Vacuum",
+    src: "/images/brand-logos/pfeiffer-vacuum.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Pfeiffer_Vacuum_%2B_Fab_Solutions_Logo_2024.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pfeiffer_Vacuum_%2B_Fab_Solutions_Logo_2024.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Pfeiffer Vacuum + Fab Solutions",
+  },
+  {
+    slug: "spirax-sarco",
+    name: "Spirax Sarco",
+    src: "/images/brand-logos/spirax-sarco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Spirax-Sarco_Engineering_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c6/Spirax-Sarco_Engineering_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Spirax-Sarco Engineering",
+  },
+  {
+    slug: "belimo",
+    name: "Belimo",
+    src: "/images/brand-logos/belimo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Belimo-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/Belimo-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Belimo",
+  },
+  {
+    slug: "pentair",
+    name: "Pentair",
+    src: "/images/brand-logos/pentair.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Pentair_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pentair_Logo.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Pentair",
+  },
+  {
+    slug: "honeywell",
+    name: "Honeywell",
+    src: "/images/brand-logos/honeywell.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Honeywell_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Honeywell_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Honeywell",
+  },
+  {
+    slug: "turck",
+    name: "Turck",
+    src: "/images/brand-logos/turck.jpeg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Firmenlogo_Turck_2015.jpeg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Firmenlogo_Turck_2015.jpeg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Hans Turck GmbH & Co. KG",
+  },
+  {
+    slug: "leuze-electronic",
+    name: "Leuze Electronic",
+    src: "/images/brand-logos/leuze-electronic.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Leuze_electronic.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Leuze_electronic.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Leuze Electronic",
+  },
 ];
 
 const brandLogoMap = new Map(

@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div>
           <Link className="brand brand-footer" href="/">
             <span className="brand-mark" aria-hidden="true"><i /></span>
-            <span className="brand-copy"><strong>ПРОМСНАБЖЕНИЕ</strong><small>Промышленная комплектация</small></span>
+            <span className="brand-copy"><strong>ИНДУСТРИЯ ПОСТАВОК</strong><small>Промышленная комплектация</small></span>
           </Link>
           <p className="footer-note">
             Подбор оборудования и комплектующих по модели, артикулу и техническому заданию.
@@ -31,7 +31,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="shell footer-bottom">
-        <span>© 2026 Промснабжение</span>
+        <span>© 2026 Индустрия поставок</span>
         <span>Информация на сайте не является публичной офертой.</span>
       </div>
     </footer>

@@ -4,12 +4,12 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <Link className="brand" href="/" aria-label="Промснабжение — главная">
+        <Link className="brand" href="/" aria-label="Индустрия поставок — главная">
           <span className="brand-mark" aria-hidden="true">
             <i />
           </span>
           <span className="brand-copy">
-            <strong>ПРОМСНАБЖЕНИЕ</strong>
+            <strong>ИНДУСТРИЯ ПОСТАВОК</strong>
             <small>Промышленная комплектация</small>
           </span>
         </Link>
