@@ -670,6 +670,61 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: SMC Corporation",
   },
+  {
+    slug: "moog",
+    name: "Moog",
+    src: "/images/brand-logos/moog.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Moog_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Moog_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Moog Inc.",
+  },
+  {
+    slug: "nord",
+    name: "NORD",
+    src: "/images/brand-logos/nord.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nord_Drivesystems_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nord_Drivesystems_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Nord Drivesystems",
+  },
+  {
+    slug: "pall",
+    name: "Pall Corporation",
+    src: "/images/brand-logos/pall.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Pall-Corporation-Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pall-Corporation-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Pall Corporation",
+  },
+  {
+    slug: "hilti",
+    name: "Hilti",
+    src: "/images/brand-logos/hilti.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hilti_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hilti_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Hilti AG",
+  },
+  {
+    slug: "nsk",
+    name: "NSK",
+    src: "/images/brand-logos/nsk.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:NSK_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/NSK_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: NSK Ltd.",
+  },
 ];
 
 const brandLogoMap = new Map(
