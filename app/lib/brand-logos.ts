@@ -725,6 +725,61 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: NSK Ltd.",
   },
+  {
+    slug: "caterpillar",
+    name: "Caterpillar",
+    src: "/images/brand-logos/caterpillar.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Caterpillar_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Caterpillar_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Caterpillar Inc.",
+  },
+  {
+    slug: "timken",
+    name: "Timken",
+    src: "/images/brand-logos/timken.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Timken.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Timken.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Timken Company",
+  },
+  {
+    slug: "kawasaki-heavy-industries",
+    name: "Kawasaki Heavy Industries",
+    src: "/images/brand-logos/kawasaki-heavy-industries.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kawasaki-logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kawasaki-logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Kawasaki Heavy Industries",
+  },
+  {
+    slug: "fag-schaeffler",
+    name: "FAG Schaeffler",
+    src: "/images/brand-logos/fag-schaeffler.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Schaeffler_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Schaeffler_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Schaeffler Group",
+  },
+  {
+    slug: "ntn",
+    name: "NTN",
+    src: "/images/brand-logos/ntn.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:NTN_Corporation_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/NTN_Corporation_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: NTN Corporation",
+  },
 ];
 
 const brandLogoMap = new Map(
