@@ -438,6 +438,95 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Leuze Electronic",
   },
+  {
+    slug: "endress-hauser",
+    name: "Endress+Hauser",
+    src: "/images/brand-logos/endress-hauser.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Endress%2BHauser_Logo.jpg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Endress%2BHauser_Logo.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "EndressHauserUS, Wikimedia Commons",
+  },
+  {
+    slug: "emerson-industrial",
+    name: "Emerson",
+    src: "/images/brand-logos/emerson-industrial.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Emerson.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_Emerson.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Rosemount Inc. / Emerson",
+  },
+  {
+    slug: "danfoss",
+    name: "Danfoss",
+    src: "/images/brand-logos/danfoss.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Danfoss-Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Danfoss-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Danfoss",
+  },
+  {
+    slug: "festo",
+    name: "Festo",
+    src: "/images/brand-logos/festo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Festo_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Festo_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Festo KG",
+  },
+  {
+    slug: "skf",
+    name: "SKF",
+    src: "/images/brand-logos/skf.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SKF_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/SKF_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: SKF; SVG version: Gr1st",
+  },
+  {
+    slug: "yokogawa",
+    name: "Yokogawa",
+    src: "/images/brand-logos/yokogawa.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Yokogawa_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yokogawa_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Yokogawa Electric",
+  },
+  {
+    slug: "xylem",
+    name: "Xylem",
+    src: "/images/brand-logos/xylem.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Xylem_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Xylem_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Xylem Inc.",
+  },
+  {
+    slug: "moeller-eaton",
+    name: "Moeller Electric (Eaton)",
+    src: "/images/brand-logos/moeller-eaton.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Eaton_Corporation_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Eaton_Corporation_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Eaton Corporation",
+  },
 ];
 
 const brandLogoMap = new Map(
