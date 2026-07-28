@@ -780,6 +780,61 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: NTN Corporation",
   },
+  {
+    slug: "makita",
+    name: "Makita",
+    src: "/images/brand-logos/makita.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Makita_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Makita_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Makita Corporation",
+  },
+  {
+    slug: "baker-hughes",
+    name: "Baker Hughes",
+    src: "/images/brand-logos/baker-hughes.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Baker_Hughes_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Baker_Hughes_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Baker Hughes",
+  },
+  {
+    slug: "ina",
+    name: "INA",
+    src: "/images/brand-logos/ina.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ina_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ina_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: INA / Schaeffler Group",
+  },
+  {
+    slug: "schunk",
+    name: "SCHUNK",
+    src: "/images/brand-logos/schunk.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Schunk.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_Schunk.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: SCHUNK",
+  },
+  {
+    slug: "denso-wave",
+    name: "DENSO WAVE",
+    src: "/images/brand-logos/denso-wave.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:DENSO_WAVE_Logp.png",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/DENSO_WAVE_Logp.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: DENSO WAVE Incorporated",
+  },
 ];
 
 const brandLogoMap = new Map(
