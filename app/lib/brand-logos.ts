@@ -57,11 +57,11 @@ export const brandLogoRegistry: BrandLogo[] = [
     name: "IFM Electronic",
     src: "/images/brand-logos/ifm-electronic.svg",
     sourcePage:
-      "https://commons.wikimedia.org/wiki/File:Ifm_electronic_logo.svg",
+      "https://commons.wikimedia.org/wiki/File:Logo_ifm-Unternehmensgruppe.svg",
     originalFile:
-      "https://upload.wikimedia.org/wikipedia/commons/1/18/Ifm_electronic_logo.svg",
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_ifm-Unternehmensgruppe.svg",
     license: "Public domain (PD-textlogo)",
-    attribution: "ifm-Unternehmensgruppe",
+    attribution: "Source artwork: ifm-Unternehmensgruppe",
   },
   {
     slug: "marelli-motori",
@@ -834,6 +834,62 @@ export const brandLogoRegistry: BrandLogo[] = [
       "https://commons.wikimedia.org/wiki/Special:Redirect/file/DENSO_WAVE_Logp.png",
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: DENSO WAVE Incorporated",
+  },
+  {
+    slug: "thk",
+    name: "THK",
+    src: "/images/brand-logos/thk.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:THK_Logo_Red1.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/THK_Logo_Red1.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Neerol34, Wikimedia Commons",
+  },
+  {
+    slug: "trumpf",
+    name: "TRUMPF",
+    src: "/images/brand-logos/trumpf.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Trumpf.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_Trumpf.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: TRUMPF",
+  },
+  {
+    slug: "wago",
+    name: "WAGO",
+    src: "/images/brand-logos/wago.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_WAGO_2020.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_WAGO_2020.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: WAGO",
+  },
+  {
+    slug: "yanmar",
+    name: "Yanmar",
+    src: "/images/brand-logos/yanmar.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Yanmar_logo_2013_full_horizontal.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yanmar_logo_2013_full_horizontal.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Yanmar; design: Kashiwa Satō",
+  },
+  {
+    slug: "zf-friedrichshafen-ag",
+    name: "ZF Friedrichshafen",
+    src: "/images/brand-logos/zf-friedrichshafen-ag.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:ZF_Official_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/ZF_Official_Logo.svg",
+    license: "Public domain (PD-shape)",
+    attribution: "Source artwork: ZF Friedrichshafen",
   },
 ];
 
