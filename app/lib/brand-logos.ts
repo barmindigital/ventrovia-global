@@ -891,6 +891,73 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-shape)",
     attribution: "Source artwork: ZF Friedrichshafen",
   },
+  {
+    slug: "interroll",
+    name: "Interroll",
+    src: "/images/brand-logos/interroll.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Interroll-logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Interroll-logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Interroll",
+  },
+  {
+    slug: "ziehl-abegg",
+    name: "ZIEHL-ABEGG",
+    src: "/images/brand-logos/ziehl-abegg.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ziehl_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ziehl_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: ZIEHL-ABEGG",
+  },
+  {
+    slug: "tetra-pak",
+    name: "Tetra Pak",
+    src: "/images/brand-logos/tetra-pak.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:TetraPak-Logo_EN.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/TetraPak-Logo_EN.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Tetra Pak",
+  },
+  {
+    slug: "valeo",
+    name: "Valeo",
+    src: "/images/brand-logos/valeo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Valeo_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Valeo_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Valeo",
+  },
+  {
+    slug: "webasto",
+    name: "Webasto",
+    src: "/images/brand-logos/webasto.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Webasto_Logo_2024.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Webasto_Logo_2024.svg",
+    license: "CC0 1.0",
+    licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    attribution: "Webasto Group Global, Wikimedia Commons",
+  },
+  {
+    slug: "viessmann",
+    name: "Viessmann",
+    src: "/images/brand-logos/viessmann.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Viessmann-logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Viessmann-logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Viessmann",
+  },
 ];
 
 const brandLogoMap = new Map(
