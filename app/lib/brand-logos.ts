@@ -1080,6 +1080,61 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Liebherr Group",
   },
+  {
+    slug: "demag",
+    name: "Demag",
+    src: "/images/brand-logos/demag.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Demag_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Demag_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Demag Cranes & Components",
+  },
+  {
+    slug: "weidmueller",
+    name: "Weidmüller",
+    src: "/images/brand-logos/weidmueller.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Weidm%C3%BCller.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Weidm%C3%BCller.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Weidmüller",
+  },
+  {
+    slug: "jungheinrich",
+    name: "Jungheinrich",
+    src: "/images/brand-logos/jungheinrich.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Jungheinrich-Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jungheinrich-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Jungheinrich",
+  },
+  {
+    slug: "thyssen-krupp",
+    name: "thyssenkrupp",
+    src: "/images/brand-logos/thyssen-krupp.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Thyssenkrupp_AG_Logo_2015.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thyssenkrupp_AG_Logo_2015.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: thyssenkrupp AG",
+  },
+  {
+    slug: "valmet",
+    name: "Valmet",
+    src: "/images/brand-logos/valmet.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Valmet.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Valmet.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Valmet",
+  },
 ];
 
 const brandLogoMap = new Map(
