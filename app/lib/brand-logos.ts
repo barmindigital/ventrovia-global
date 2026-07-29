@@ -2959,6 +2959,121 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: VISHAY",
   },
+  {
+    slug: "oventrop",
+    name: "OVENTROP",
+    src: "/images/brand-logos/oventrop.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Oventrop_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Oventrop_logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "OventropRK",
+  },
+  {
+    slug: "hermle",
+    name: "HERMLE",
+    src: "/images/brand-logos/hermle.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hermle_AG_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Hermle_AG_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Hermle AG",
+  },
+  {
+    slug: "anton-paar",
+    name: "ANTON PAAR",
+    src: "/images/brand-logos/anton-paar.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Anton_Paar.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_Anton_Paar.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "http://www.aachen-dresden-denkendorf.de/fileadmin/user_upload/itc/_logos/anton_paar.jpg",
+  },
+  {
+    slug: "bourns",
+    name: "BOURNS",
+    src: "/images/brand-logos/bourns.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Bourns_wordmark.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bourns_wordmark.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Bourns, Inc.",
+  },
+  {
+    slug: "brabender",
+    name: "BRABENDER",
+    src: "/images/brand-logos/brabender.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Brabender.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Logo_Brabender.gif",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: BRABENDER",
+  },
+  {
+    slug: "bredel",
+    name: "BREDEL",
+    src: "/images/brand-logos/bredel.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Bredel_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Bredel_logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Watson Marlow Pumps Group",
+  },
+  {
+    slug: "bw-papersystems",
+    name: "BW PAPERSYSTEMS",
+    src: "/images/brand-logos/bw-papersystems.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:BW_Papersystems_company_Logo.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/BW_Papersystems_company_Logo.gif",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    attribution: "BW Papersystems",
+  },
+  {
+    slug: "cedes",
+    name: "CEDES",
+    src: "/images/brand-logos/cedes.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Cedes.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/Cedes.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Cedes Holding AG",
+  },
+  {
+    slug: "carl-stahl",
+    name: "CARL STAHL",
+    src: "/images/brand-logos/carl-stahl.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Carl_Stahl_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Carl_Stahl_logo.svg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Carl Stahl GmbH",
+  },
+  {
+    slug: "chocotech",
+    name: "CHOCOTECH",
+    src: "/images/brand-logos/chocotech.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Chocotech-logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chocotech-logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "HormEntU",
+  },
 ];
 
 const brandLogoMap = new Map(
