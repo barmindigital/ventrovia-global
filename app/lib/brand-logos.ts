@@ -1800,6 +1800,107 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Anritsu Corporation",
   },
+  {
+    slug: "azbil",
+    name: "Azbil",
+    src: "/images/brand-logos/azbil.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Azbil_Corporation_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/Azbil_Corporation_logo.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Azbil Corporation",
+  },
+  {
+    slug: "bartec",
+    name: "BARTEC",
+    src: "/images/brand-logos/bartec.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Bartec.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bartec.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: BARTEC",
+  },
+  {
+    slug: "biesse",
+    name: "Biesse",
+    src: "/images/brand-logos/biesse.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Biesse.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Biesse.png",
+    license: "CC0 1.0",
+    licenseUrl:
+      "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    attribution: "Sonia.pachecomejia, Wikimedia Commons",
+  },
+  {
+    slug: "chicago-pneumatic",
+    name: "Chicago Pneumatic",
+    src: "/images/brand-logos/chicago-pneumatic.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Chicago_Pneumatic_CP_Full_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chicago_Pneumatic_CP_Full_Logo.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Chicago Pneumatic",
+  },
+  {
+    slug: "danieli",
+    name: "Danieli",
+    src: "/images/brand-logos/danieli.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_danieli.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_danieli.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Danieli & C. S.p.A.",
+  },
+  {
+    slug: "deutz",
+    name: "DEUTZ",
+    src: "/images/brand-logos/deutz.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Deutz_Logo_2026.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Deutz_Logo_2026.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: DEUTZ AG",
+  },
+  {
+    slug: "esab",
+    name: "ESAB",
+    src: "/images/brand-logos/esab.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:ESAB.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/ESAB.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: ESAB",
+  },
+  {
+    slug: "exide-technologies",
+    name: "Exide Technologies",
+    src: "/images/brand-logos/exide-technologies.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Exide_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Exide_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Exide Technologies",
+  },
+  {
+    slug: "fuji-electric",
+    name: "Fuji Electric",
+    src: "/images/brand-logos/fuji-electric.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Fuji_Electric_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/Fuji_Electric_company_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Fuji Electric Co., Ltd.",
+  },
 ];
 
 const brandLogoMap = new Map(
