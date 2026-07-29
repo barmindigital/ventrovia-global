@@ -1013,6 +1013,73 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: WABCO Holdings",
   },
+  {
+    slug: "mettler-toledo",
+    name: "Mettler Toledo",
+    src: "/images/brand-logos/mettler-toledo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mettler_Toledo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mettler_Toledo.svg",
+    license: "Public domain (PD-textlogo, PD-shape)",
+    attribution: "Source artwork: Mettler Toledo",
+  },
+  {
+    slug: "okuma",
+    name: "Okuma",
+    src: "/images/brand-logos/okuma.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Okuma_Corporation_company_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Okuma_Corporation_company_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Okuma Corporation",
+  },
+  {
+    slug: "amada",
+    name: "Amada",
+    src: "/images/brand-logos/amada.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Amada.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Amada.svg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "Amada Co., Ltd., Wikimedia Commons",
+  },
+  {
+    slug: "andritz-gouda",
+    name: "ANDRITZ",
+    src: "/images/brand-logos/andritz-gouda.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Andritz_Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Andritz_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: ANDRITZ",
+  },
+  {
+    slug: "3m",
+    name: "3M",
+    src: "/images/brand-logos/3m.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:3M_wordmark.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/3M_wordmark.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: 3M; design: Stephen Dunne, Siegel & Gale",
+  },
+  {
+    slug: "liebherr",
+    name: "Liebherr",
+    src: "/images/brand-logos/liebherr.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Liebherr_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Liebherr_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Liebherr Group",
+  },
 ];
 
 const brandLogoMap = new Map(
