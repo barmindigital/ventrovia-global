@@ -3401,6 +3401,97 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Sullair",
   },
+  {
+    slug: "monforts",
+    name: "MONFORTS",
+    src: "/images/brand-logos/monforts.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Monforts_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/36/Monforts_logo.png",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Aleksander Lobasevich",
+  },
+  {
+    slug: "palazzoli",
+    name: "PALAZZOLI",
+    src: "/images/brand-logos/palazzoli.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo-palazzoli.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/17/Logo-palazzoli.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "ChiaraBastianelli",
+  },
+  {
+    slug: "ravioli",
+    name: "RAVIOLI",
+    src: "/images/brand-logos/ravioli.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ravioli-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ravioli-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Arge Heimat",
+  },
+  {
+    slug: "reyher",
+    name: "REYHER",
+    src: "/images/brand-logos/reyher.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:REYHER_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/REYHER_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "F. REYHER Nchfg. GmbH & Co. KG",
+  },
+  {
+    slug: "saf-fro",
+    name: "SAF-FRO",
+    src: "/images/brand-logos/saf-fro.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Saf-Fro.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/Logo_Saf-Fro.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Papafra16",
+  },
+  {
+    slug: "scheuch",
+    name: "SCHEUCH",
+    src: "/images/brand-logos/scheuch.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Scheuch_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Scheuch_Logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Scheuch Gruppe",
+  },
+  {
+    slug: "sodick",
+    name: "SODICK",
+    src: "/images/brand-logos/sodick.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Sodick_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/Sodick_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Sodick Inc",
+  },
+  {
+    slug: "stanley-engineered-fastening",
+    name: "STANLEY ENGINEERED FASTENING",
+    src: "/images/brand-logos/stanley-engineered-fastening.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:STANLEY_Engineered_Fastening_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/STANLEY_Engineered_Fastening_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: STANLEY ENGINEERED FASTENING",
+  },
 ];
 
 const brandLogoMap = new Map(
