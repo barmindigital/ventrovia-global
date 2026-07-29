@@ -1258,6 +1258,88 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: BOGE Kompressoren",
   },
+  {
+    slug: "murrelektronik-gmbh",
+    name: "Murrelektronik",
+    src: "/images/brand-logos/murrelektronik-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Murrelektronik_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Murrelektronik_logo.svg",
+    license: "CC BY 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+    attribution: "Murrelektronik Online Marketing, Wikimedia Commons",
+  },
+  {
+    slug: "kirloskar-brothers-limited-kbl",
+    name: "Kirloskar Brothers Limited",
+    src: "/images/brand-logos/kirloskar-brothers-limited-kbl.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kirloskar_Brothers_Limited_Logo.JPG",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kirloskar_Brothers_Limited_Logo.JPG",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "KirloskarPumps, Wikimedia Commons",
+  },
+  {
+    slug: "koganei",
+    name: "KOGANEI",
+    src: "/images/brand-logos/koganei.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Koganei.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Logo_Koganei.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Willtzang, Wikimedia Commons",
+  },
+  {
+    slug: "wenglor-sensoric",
+    name: "Wenglor",
+    src: "/images/brand-logos/wenglor-sensoric.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Wenglor_sensoric_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Wenglor_sensoric_logo.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: wenglor sensoric group",
+  },
+  {
+    slug: "siko-gmbh",
+    name: "SIKO",
+    src: "/images/brand-logos/siko-gmbh.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SIKO_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/SIKO_Logo.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "Sikocf, Wikimedia Commons",
+  },
+  {
+    slug: "leister",
+    name: "Leister",
+    src: "/images/brand-logos/leister.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Leister_DB-A1_LAG_Logo_CMYK_pos.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Leister_DB-A1_LAG_Logo_CMYK_pos.svg",
+    license: "CC BY-SA 3.0 DE",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    attribution: "Nancyrenning, Wikimedia Commons",
+  },
+  {
+    slug: "wacker",
+    name: "Wacker Neuson",
+    src: "/images/brand-logos/wacker.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Wacker_Neuson_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/Wacker_Neuson_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Wacker Neuson",
+  },
 ];
 
 const brandLogoMap = new Map(
