@@ -3300,6 +3300,107 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Maina",
   },
+  {
+    slug: "nachi-fujikoshi",
+    name: "NACHI-FUJIKOSHI",
+    src: "/images/brand-logos/nachi-fujikoshi.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nachi-Fujikoshi_Corp._Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5d/Nachi-Fujikoshi_Corp._Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: NACHI-FUJIKOSHI",
+  },
+  {
+    slug: "nikkiso",
+    name: "NIKKISO",
+    src: "/images/brand-logos/nikkiso.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nikkiso.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Nikkiso.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Template:Ll Sub wiki",
+  },
+  {
+    slug: "reishauer",
+    name: "REISHAUER",
+    src: "/images/brand-logos/reishauer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Reishauer_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Reishauer_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Reishauer AG, Schweiz",
+  },
+  {
+    slug: "rollon",
+    name: "ROLLON",
+    src: "/images/brand-logos/rollon.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rollon.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Rollon.gif",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Rollon",
+  },
+  {
+    slug: "rosen",
+    name: "ROSEN",
+    src: "/images/brand-logos/rosen.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_ROSEN_Group.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Logo_ROSEN_Group.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Rosen Group, Switzerland",
+  },
+  {
+    slug: "saia-burgess",
+    name: "SAIA BURGESS",
+    src: "/images/brand-logos/saia-burgess.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Saia_Burgess_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Saia_Burgess_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Aktiengesellschaft Saia-Burgess",
+  },
+  {
+    slug: "sigmatek",
+    name: "SIGMATEK",
+    src: "/images/brand-logos/sigmatek.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SIGMATEK_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/SIGMATEK_Logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "SIGMATEK GmbH & Co KG",
+  },
+  {
+    slug: "stauff",
+    name: "STAUFF",
+    src: "/images/brand-logos/stauff.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:STAUFF_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/STAUFF_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Janin Neuhaus",
+  },
+  {
+    slug: "sullair",
+    name: "SULLAIR",
+    src: "/images/brand-logos/sullair.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Sullair_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sullair_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Sullair",
+  },
 ];
 
 const brandLogoMap = new Map(
