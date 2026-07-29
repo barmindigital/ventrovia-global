@@ -1135,6 +1135,61 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Valmet",
   },
+  {
+    slug: "hiwin",
+    name: "HIWIN",
+    src: "/images/brand-logos/hiwin.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hiwin_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hiwin_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: HIWIN Technologies",
+  },
+  {
+    slug: "schmalz",
+    name: "Schmalz",
+    src: "/images/brand-logos/schmalz.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Schmalz.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Schmalz.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: J. Schmalz GmbH",
+  },
+  {
+    slug: "mayr",
+    name: "mayr",
+    src: "/images/brand-logos/mayr.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mayr_logo.jpg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mayr_logo.jpg",
+    license: "Public domain (PD-text)",
+    attribution: "Firma mayr, Wikimedia Commons",
+  },
+  {
+    slug: "konecranes",
+    name: "Konecranes",
+    src: "/images/brand-logos/konecranes.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Konecranes-Logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Konecranes-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Konecranes",
+  },
+  {
+    slug: "aeg",
+    name: "AEG",
+    src: "/images/brand-logos/aeg.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Allgemeine_Elektricit%C3%A4ts-Gesellschaft_(logo).svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Allgemeine_Elektricit%C3%A4ts-Gesellschaft_(logo).svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: AEG; design: Peter Behrens",
+  },
 ];
 
 const brandLogoMap = new Map(
