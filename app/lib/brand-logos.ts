@@ -2847,6 +2847,118 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     attribution: "Konulzadeh",
   },
+  {
+    slug: "waldmann",
+    name: "WALDMANN",
+    src: "/images/brand-logos/waldmann.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Waldmann_Group_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Waldmann_Group_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: WALDMANN",
+  },
+  {
+    slug: "studer",
+    name: "STUDER",
+    src: "/images/brand-logos/studer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Studer_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Studer_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Studer",
+  },
+  {
+    slug: "neugart",
+    name: "NEUGART",
+    src: "/images/brand-logos/neugart.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Neugart_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Neugart_Logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Neugart Holding GmbH",
+  },
+  {
+    slug: "flottweg",
+    name: "FLOTTWEG",
+    src: "/images/brand-logos/flottweg.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Flottweg-logo.JPG",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Flottweg-logo.JPG",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "No machine-readable author provided. Anoniem1~commonswiki assumed (based on copyright claims).",
+  },
+  {
+    slug: "coperion",
+    name: "COPERION",
+    src: "/images/brand-logos/coperion.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Coperion_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/63/Coperion_Logo.jpg",
+    license: "Copyrighted free use",
+    attribution: "Coperion GmbH, Theodorstrasse 10, 70469 Stuttgart, Germany",
+  },
+  {
+    slug: "gessmann",
+    name: "GESSMANN",
+    src: "/images/brand-logos/gessmann.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Gessmann_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Gessmann_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "W. Gessmann GMBH",
+  },
+  {
+    slug: "hoerbiger",
+    name: "HOERBIGER",
+    src: "/images/brand-logos/hoerbiger.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Hoerbiger_Holding.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Logo_Hoerbiger_Holding.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Hoerbiger Holding",
+  },
+  {
+    slug: "hobart",
+    name: "HOBART",
+    src: "/images/brand-logos/hobart.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hobart_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/84/Hobart_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Hobart Corporation",
+  },
+  {
+    slug: "berthold",
+    name: "BERTHOLD",
+    src: "/images/brand-logos/berthold.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Berthold_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/Berthold_logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "ProcessC",
+  },
+  {
+    slug: "vishay-nobel",
+    name: "VISHAY",
+    src: "/images/brand-logos/vishay-nobel.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Vishay_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Vishay_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: VISHAY",
+  },
 ];
 
 const brandLogoMap = new Map(
