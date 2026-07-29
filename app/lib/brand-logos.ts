@@ -2269,6 +2269,293 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Rittal GmbH & Co. KG, converted by Manuel Funk at German Wikipedia",
   },
+  {
+    slug: "br-automation",
+    name: "B&R Automation",
+    src: "/images/brand-logos/br-automation.svg",
+    sourcePage:
+      "https://www.br-automation.com",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/bandrautomation.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: B&R Automation",
+  },
+  {
+    slug: "husqvarna",
+    name: "Husqvarna",
+    src: "/images/brand-logos/husqvarna.svg",
+    sourcePage:
+      "https://www.husqvarna.com",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/husqvarna.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Husqvarna",
+  },
+  {
+    slug: "dell",
+    name: "Dell",
+    src: "/images/brand-logos/dell.svg",
+    sourcePage:
+      "https://www.dell.com",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/dell.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Dell",
+  },
+  {
+    slug: "ericsson",
+    name: "Ericsson",
+    src: "/images/brand-logos/ericsson.svg",
+    sourcePage:
+      "https://www.ericsson.com/en/newsroom/media-kits/logo",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/ericsson.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Ericsson",
+  },
+  {
+    slug: "fujifilm",
+    name: "Fujifilm",
+    src: "/images/brand-logos/fujifilm.svg",
+    sourcePage:
+      "https://www.fujifilm.com",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/fujifilm.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Fujifilm",
+  },
+  {
+    slug: "general-electric",
+    name: "General Electric",
+    src: "/images/brand-logos/general-electric.svg",
+    sourcePage:
+      "https://www.ge.com/brand/",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/generalelectric.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: General Electric",
+  },
+  {
+    slug: "intel",
+    name: "Intel",
+    src: "/images/brand-logos/intel.svg",
+    sourcePage:
+      "https://www.intel.com/content/www/us/en/newsroom/resources/press-kits-intel-overview.html",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/intel.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Intel",
+  },
+  {
+    slug: "john-deere",
+    name: "John Deere",
+    src: "/images/brand-logos/john-deere.svg",
+    sourcePage:
+      "https://en.wikipedia.org/wiki/File:John_Deere_logo.svg",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/johndeere.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: John Deere",
+  },
+  {
+    slug: "panasonic",
+    name: "Panasonic",
+    src: "/images/brand-logos/panasonic.svg",
+    sourcePage:
+      "https://www.panasonic.com",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/panasonic.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Panasonic",
+  },
+  {
+    slug: "samsung",
+    name: "Samsung",
+    src: "/images/brand-logos/samsung.svg",
+    sourcePage:
+      "https://www.samsung.com/us/about-us/brand-identity/logo/",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/samsung.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Samsung",
+  },
+  {
+    slug: "seagate",
+    name: "Seagate",
+    src: "/images/brand-logos/seagate.svg",
+    sourcePage:
+      "https://branding.seagate.com/productpage/3fc51aba-c35a-4eff-a833-a258b0440bd2",
+    originalFile:
+      "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/seagate.svg",
+    license: "CC0-1.0 (Simple Icons)",
+    licenseUrl:
+      "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    attribution: "Simple Icons contributors; source artwork: Seagate",
+  },
+  {
+    slug: "schneider-kreuznach-695010",
+    name: "Schneider Kreuznach",
+    src: "/images/brand-logos/schneider-kreuznach-695010.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Schneider_kreuznach_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Schneider_kreuznach_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Schneider Kreuznach",
+  },
+  {
+    slug: "schnell",
+    name: "Schnell",
+    src: "/images/brand-logos/schnell.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Schnell_Group_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/90/Schnell_Group_logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Schnell Group",
+  },
+  {
+    slug: "schurter",
+    name: "Schurter",
+    src: "/images/brand-logos/schurter.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Schurter_Holding_AG.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Logo_Schurter_Holding_AG.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Schurter Holding",
+  },
+  {
+    slug: "semikron",
+    name: "Semikron",
+    src: "/images/brand-logos/semikron.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Semikron-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/Semikron-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Semikron",
+  },
+  {
+    slug: "semperit",
+    name: "Semperit",
+    src: "/images/brand-logos/semperit.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Semperit.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/23/Semperit.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Semperit AG",
+  },
+  {
+    slug: "sms-meer",
+    name: "SMS Meer",
+    src: "/images/brand-logos/sms-meer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:SMSGroup.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/SMSGroup.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: SMS Meer",
+  },
+  {
+    slug: "steinel",
+    name: "STEINEL",
+    src: "/images/brand-logos/steinel.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Steinel_(Unternehmen)_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Steinel_%28Unternehmen%29_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: STEINEL",
+  },
+  {
+    slug: "steris",
+    name: "Steris",
+    src: "/images/brand-logos/steris.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Steris_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/Steris_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Steris",
+  },
+  {
+    slug: "stork",
+    name: "Stork",
+    src: "/images/brand-logos/stork.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Stork_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/Stork_logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Stork",
+  },
+  {
+    slug: "sundyne",
+    name: "Sundyne",
+    src: "/images/brand-logos/sundyne.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Sundyne_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sundyne_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Sundyne",
+  },
+  {
+    slug: "systemair",
+    name: "Systemair",
+    src: "/images/brand-logos/systemair.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Systemair_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Systemair_logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "KarinMariaCox",
+  },
+  {
+    slug: "te-connectivity",
+    name: "TE Connectivity",
+    src: "/images/brand-logos/te-connectivity.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:TE_Connectivity_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b1/TE_Connectivity_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "TE Connectivity",
+  },
+  {
+    slug: "texas-instruments",
+    name: "Texas Instruments",
+    src: "/images/brand-logos/texas-instruments.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:TexasInstruments-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/TexasInstruments-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Texas Instruments",
+  },
 ];
 
 const brandLogoMap = new Map(
