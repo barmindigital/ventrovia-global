@@ -958,6 +958,61 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Viessmann",
   },
+  {
+    slug: "tektronix",
+    name: "Tektronix",
+    src: "/images/brand-logos/tektronix.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tektronix_logo_(2016).svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tektronix_logo_(2016).svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Tektronix",
+  },
+  {
+    slug: "tomra",
+    name: "TOMRA",
+    src: "/images/brand-logos/tomra.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tomra_Systems_newer_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tomra_Systems_newer_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: TOMRA Systems",
+  },
+  {
+    slug: "teledyne",
+    name: "Teledyne Technologies",
+    src: "/images/brand-logos/teledyne.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Teledyne_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Teledyne_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Teledyne Technologies",
+  },
+  {
+    slug: "vaisala",
+    name: "Vaisala",
+    src: "/images/brand-logos/vaisala.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Vaisala_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vaisala_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Vaisala",
+  },
+  {
+    slug: "wabco",
+    name: "WABCO",
+    src: "/images/brand-logos/wabco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:WABCO_logo.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/WABCO_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: WABCO Holdings",
+  },
 ];
 
 const brandLogoMap = new Map(
