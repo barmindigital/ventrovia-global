@@ -3130,6 +3130,62 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Doosan Group",
   },
+  {
+    slug: "infineon",
+    name: "INFINEON",
+    src: "/images/brand-logos/infineon.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Infineon-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bb/Infineon-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "™/®Infineon Technologies AG",
+  },
+  {
+    slug: "homag",
+    name: "HOMAG",
+    src: "/images/brand-logos/homag.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:HOMAG_Logo_2018.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c7/HOMAG_Logo_2018.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Homag AG",
+  },
+  {
+    slug: "giacomini",
+    name: "GIACOMINI",
+    src: "/images/brand-logos/giacomini.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Giacomini.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Logo_Giacomini.png",
+    license: "CC0",
+    licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    attribution: "Clarissa Arrigoni",
+  },
+  {
+    slug: "leco",
+    name: "LECO",
+    src: "/images/brand-logos/leco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:LECO_Corporation_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/LECO_Corporation_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "LECO Corporation",
+  },
+  {
+    slug: "mapal",
+    name: "MAPAL",
+    src: "/images/brand-logos/mapal.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mapal_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mapal_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: MAPAL",
+  },
 ];
 
 const brandLogoMap = new Map(
