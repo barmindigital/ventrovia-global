@@ -2690,6 +2690,163 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Leser",
   },
+  {
+    slug: "dunkermotoren",
+    name: "DUNKERMOTOREN",
+    src: "/images/brand-logos/dunkermotoren.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Dunkermotoren_Logo_2012.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dunkermotoren_Logo_2012.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Dunkermotoren GmbH",
+  },
+  {
+    slug: "lenord-bauer",
+    name: "LENORD BAUER",
+    src: "/images/brand-logos/lenord-bauer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Lenord_Bauer.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Logo_Lenord_Bauer.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Lenord, Bauer & Co. GmbH",
+  },
+  {
+    slug: "thermo-fisher-scientific",
+    name: "THERMO FISHER SCIENTIFIC",
+    src: "/images/brand-logos/thermo-fisher-scientific.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Thermo_Fisher_Scientific_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/Thermo_Fisher_Scientific_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Thermo Fisher Scientific",
+  },
+  {
+    slug: "knoll",
+    name: "KNOLL",
+    src: "/images/brand-logos/knoll.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KNOLL_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/dc/KNOLL_Logo.jpg",
+    license: "CC BY 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    attribution: "KNOLL Maschinenbau",
+  },
+  {
+    slug: "drager",
+    name: "DRAGER",
+    src: "/images/brand-logos/drager.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Dr%C3%A4ger_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Dr%C3%A4ger_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Drägerwerk AG & Co. KGaA",
+  },
+  {
+    slug: "gudel",
+    name: "GUDEL AG",
+    src: "/images/brand-logos/gudel.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_G%C3%BCdel.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Logo_G%C3%BCdel.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Güdel. Original uploader was Wdwd at de.wikipedia",
+  },
+  {
+    slug: "rotronic",
+    name: "ROTRONIC",
+    src: "/images/brand-logos/rotronic.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rotronic_Corporate_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Rotronic_Corporate_Logo.jpg",
+    license: "Copyrighted free use",
+    attribution: "Rotronic AG",
+  },
+  {
+    slug: "emhart-glass",
+    name: "EMHART GLASS",
+    src: "/images/brand-logos/emhart-glass.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Emhart_Glass.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Logo_Emhart_Glass.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: EMHART GLASS",
+  },
+  {
+    slug: "kaltenbach",
+    name: "KALTENBACH",
+    src: "/images/brand-logos/kaltenbach.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KALTENBACH_LOGO.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/74/KALTENBACH_LOGO.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "User:Emes",
+  },
+  {
+    slug: "sollich",
+    name: "SOLLICH",
+    src: "/images/brand-logos/sollich.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Sollich_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sollich_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Sollich",
+  },
+  {
+    slug: "gestra",
+    name: "GESTRA",
+    src: "/images/brand-logos/gestra.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Gestra_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Gestra_Logo.png",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Micus",
+  },
+  {
+    slug: "ghh-rand",
+    name: "GHH RAND",
+    src: "/images/brand-logos/ghh-rand.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:GHH_RAND_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/GHH_RAND_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: GHH RAND",
+  },
+  {
+    slug: "netzsch",
+    name: "NETZSCH",
+    src: "/images/brand-logos/netzsch.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Netzsch_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/Netzsch_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Erich Netzsch GmbH & Co Holding KG, 95100 Selb",
+  },
+  {
+    slug: "lns",
+    name: "LNS",
+    src: "/images/brand-logos/lns.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:LNS_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/LNS_logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Konulzadeh",
+  },
 ];
 
 const brandLogoMap = new Map(

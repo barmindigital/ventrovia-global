@@ -131,10 +131,15 @@ for (const report of reports) {
 
 await fs.mkdir(logoDirectory, { recursive: true });
 const downloaded = [];
+const failed = [];
 for (const slug of selectedSlugs) {
   const candidate = candidates.get(slug);
   if (!candidate) {
-    throw new Error(`Verified candidate not found: ${slug}`);
+    failed.push({
+      slug,
+      error: "Verified candidate not found",
+    });
+    continue;
   }
   const existingAsset = (
     await Promise.all(
@@ -157,20 +162,29 @@ for (const slug of selectedSlugs) {
     });
     continue;
   }
-  const result = await download(candidate);
-  const extension = extensionByMime[result.mime];
-  if (!extension) {
-    throw new Error(`Unsupported downloaded MIME type for ${slug}: ${result.mime}`);
+  try {
+    const result = await download(candidate);
+    const extension = extensionByMime[result.mime];
+    if (!extension) {
+      throw new Error(
+        `Unsupported downloaded MIME type for ${slug}: ${result.mime}`,
+      );
+    }
+    const assetPath = path.join(logoDirectory, `${slug}.${extension}`);
+    await fs.writeFile(assetPath, result.bytes);
+    downloaded.push({
+      slug,
+      status: "downloaded",
+      assetPath,
+      bytes: result.bytes.length,
+      mime: result.mime,
+    });
+  } catch (error) {
+    failed.push({
+      slug,
+      error: error instanceof Error ? error.message : String(error),
+    });
   }
-  const assetPath = path.join(logoDirectory, `${slug}.${extension}`);
-  await fs.writeFile(assetPath, result.bytes);
-  downloaded.push({
-    slug,
-    status: "downloaded",
-    assetPath,
-    bytes: result.bytes.length,
-    mime: result.mime,
-  });
   await delay(250);
 }
 
@@ -180,11 +194,13 @@ process.stdout.write(
       processed: downloaded.length,
       downloaded: downloaded.filter((item) => item.status === "downloaded")
         .length,
+      failed: failed.length,
       files: downloaded.map((item) => ({
         slug: item.slug,
         status: item.status,
         bytes: item.bytes,
       })),
+      failures: failed,
     },
     null,
     2,
