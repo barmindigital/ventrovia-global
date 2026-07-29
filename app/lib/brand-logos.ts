@@ -1510,6 +1510,296 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Testo AG",
   },
+  {
+    slug: "raychem",
+    name: "Raychem",
+    src: "/images/brand-logos/raychem.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Raychem_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/Raychem_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Raychem",
+  },
+  {
+    slug: "lewa",
+    name: "LEWA",
+    src: "/images/brand-logos/lewa.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:LEWA_LOGO.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/LEWA_LOGO.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: LEWA GmbH",
+  },
+  {
+    slug: "renk-ag",
+    name: "RENK",
+    src: "/images/brand-logos/renk-ag.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:RENK_Logo_RGB.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/RENK_Logo_RGB.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Renk GmbH",
+  },
+  {
+    slug: "altra-industrial-motion",
+    name: "Altra Industrial Motion",
+    src: "/images/brand-logos/altra-industrial-motion.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:AIMLogo_rgb_t.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ea/AIMLogo_rgb_t.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Altra Industrial Motion",
+  },
+  {
+    slug: "oriental-motor",
+    name: "Oriental Motor",
+    src: "/images/brand-logos/oriental-motor.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Oriental_Motor-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Oriental_Motor-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Oriental Motor Europa",
+  },
+  {
+    slug: "toray",
+    name: "Toray",
+    src: "/images/brand-logos/toray.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Toray_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Toray_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Toray Industries",
+  },
+  {
+    slug: "tyrolit",
+    name: "Tyrolit",
+    src: "/images/brand-logos/tyrolit.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tyrolit-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/11/Tyrolit-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Tyrolit",
+  },
+  {
+    slug: "aerzen",
+    name: "Aerzen",
+    src: "/images/brand-logos/aerzen.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:AERZEN_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/AERZEN_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Aerzener Maschinenfabrik GmbH, Wikimedia Commons",
+  },
+  {
+    slug: "neles",
+    name: "Neles",
+    src: "/images/brand-logos/neles.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Neles_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Neles_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Neles Oyj",
+  },
+  {
+    slug: "grob",
+    name: "GROB",
+    src: "/images/brand-logos/grob.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:GROB_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e9/GROB_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: GROB-WERKE",
+  },
+  {
+    slug: "meyn",
+    name: "Meyn",
+    src: "/images/brand-logos/meyn.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Meyn_logo_rgb.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Meyn_logo_rgb.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Meyn Food Processing Technology",
+  },
+  {
+    slug: "bekaert",
+    name: "Bekaert",
+    src: "/images/brand-logos/bekaert.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Bekaert_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bekaert_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Bekaert, Wikimedia Commons",
+  },
+  {
+    slug: "trelleborg-ab",
+    name: "Trelleborg",
+    src: "/images/brand-logos/trelleborg-ab.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Trelleborg_(Unternehmen)_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/Trelleborg_%28Unternehmen%29_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Trelleborg Group",
+  },
+  {
+    slug: "anest-iwata",
+    name: "Anest Iwata",
+    src: "/images/brand-logos/anest-iwata.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Anest_Iwata_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Anest_Iwata_company_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Anest Iwata Corporation",
+  },
+  {
+    slug: "nabtesco",
+    name: "Nabtesco",
+    src: "/images/brand-logos/nabtesco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nabtesco_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Nabtesco_company_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Nabtesco",
+  },
+  {
+    slug: "outotec",
+    name: "Outotec",
+    src: "/images/brand-logos/outotec.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Outotec-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Outotec-Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Outotec",
+  },
+  {
+    slug: "siad",
+    name: "SIAD",
+    src: "/images/brand-logos/siad.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_SIAD.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_SIAD.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: SIAD S.p.A.",
+  },
+  {
+    slug: "ae-advanced-energy",
+    name: "Advanced Energy",
+    src: "/images/brand-logos/ae-advanced-energy.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Advanced_Energy.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Advanced_Energy.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Advanced Energy",
+  },
+  {
+    slug: "ensto",
+    name: "Ensto",
+    src: "/images/brand-logos/ensto.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ensto_logo_2017.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Ensto_logo_2017.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Ensto",
+  },
+  {
+    slug: "haas-automation",
+    name: "Haas Automation",
+    src: "/images/brand-logos/haas-automation.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Haas_Automation_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Haas_Automation_Logo.png",
+    license: "CC0 1.0",
+    licenseUrl:
+      "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    attribution: "Pouya.asghari, Wikimedia Commons",
+  },
+  {
+    slug: "fluke",
+    name: "Fluke",
+    src: "/images/brand-logos/fluke.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Fluke_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fluke_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Fluke",
+  },
+  {
+    slug: "allgaier",
+    name: "Allgaier",
+    src: "/images/brand-logos/allgaier.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Allgaier.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/Allgaier.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Allgaier Group",
+  },
+  {
+    slug: "allison-transmission",
+    name: "Allison Transmission",
+    src: "/images/brand-logos/allison-transmission.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Allison_Transmission.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Allison_Transmission.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Allison Transmission",
+  },
+  {
+    slug: "amphenol-339272",
+    name: "Amphenol",
+    src: "/images/brand-logos/amphenol-339272.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Amphenol.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_Amphenol.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Amphenol",
+  },
+  {
+    slug: "analog-devices",
+    name: "Analog Devices",
+    src: "/images/brand-logos/analog-devices.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Analog_Devices_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Analog_Devices_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Analog Devices",
+  },
+  {
+    slug: "anritsu",
+    name: "Anritsu",
+    src: "/images/brand-logos/anritsu.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Anritsu.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Anritsu.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Anritsu Corporation",
+  },
 ];
 
 const brandLogoMap = new Map(
