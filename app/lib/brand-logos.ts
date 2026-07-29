@@ -3242,6 +3242,64 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Futurhit12",
   },
+  {
+    slug: "hsb-automation",
+    name: "HSB AUTOMATION",
+    src: "/images/brand-logos/hsb-automation.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:HSB_Automation_-_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/HSB_Automation_-_Logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Kerschdin76",
+  },
+  {
+    slug: "linsinger",
+    name: "LINSINGER",
+    src: "/images/brand-logos/linsinger.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:LINSINGER_-_LOGO.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/LINSINGER_-_LOGO.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Markus Renner",
+  },
+  {
+    slug: "hydrotechnik",
+    name: "HYDROTECHNIK",
+    src: "/images/brand-logos/hydrotechnik.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Hydrotechnik_GmbH.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Logo_Hydrotechnik_GmbH.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Migeis",
+  },
+  {
+    slug: "grammer",
+    name: "GRAMMER",
+    src: "/images/brand-logos/grammer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Grammer_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6c/Grammer_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Grammer AG",
+  },
+  {
+    slug: "maina",
+    name: "MAINA",
+    src: "/images/brand-logos/maina.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Maina_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Maina_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Maina",
+  },
 ];
 
 const brandLogoMap = new Map(
