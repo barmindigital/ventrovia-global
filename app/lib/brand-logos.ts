@@ -1901,6 +1901,374 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Fuji Electric Co., Ltd.",
   },
+  {
+    slug: "grainger",
+    name: "Grainger",
+    src: "/images/brand-logos/grainger.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:W._W._Grainger_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/W._W._Grainger_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "W. W. Grainger, Inc.",
+  },
+  {
+    slug: "greenlee",
+    name: "Greenlee",
+    src: "/images/brand-logos/greenlee.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:GreenleeLogo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/31/GreenleeLogo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Mechatoine",
+  },
+  {
+    slug: "haldex",
+    name: "Haldex",
+    src: "/images/brand-logos/haldex.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Haldex-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Haldex-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Haldex",
+  },
+  {
+    slug: "halliburton",
+    name: "Halliburton",
+    src: "/images/brand-logos/halliburton.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Halliburton_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8b/Halliburton_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Halliburton",
+  },
+  {
+    slug: "harting",
+    name: "Harting",
+    src: "/images/brand-logos/harting.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Harting-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Harting-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Harting",
+  },
+  {
+    slug: "heraeus",
+    name: "Heraeus",
+    src: "/images/brand-logos/heraeus.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Heraeus.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Logo_Heraeus.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Unknown author Unknown author Connum at de.wikipedia",
+  },
+  {
+    slug: "horiba",
+    name: "Horiba",
+    src: "/images/brand-logos/horiba.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Horiba_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Horiba_company_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Horiba",
+  },
+  {
+    slug: "igus",
+    name: "igus",
+    src: "/images/brand-logos/igus.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Igus_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/Igus_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "igus",
+  },
+  {
+    slug: "isuzu",
+    name: "Isuzu",
+    src: "/images/brand-logos/isuzu.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Isuzu.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Isuzu.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Isuzu",
+  },
+  {
+    slug: "itron",
+    name: "Itron",
+    src: "/images/brand-logos/itron.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Itron_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/Itron_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Itron",
+  },
+  {
+    slug: "itt",
+    name: "ITT",
+    src: "/images/brand-logos/itt.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:ITT_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/ITT_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "ITT, Inc.",
+  },
+  {
+    slug: "jeol",
+    name: "JEOL",
+    src: "/images/brand-logos/jeol.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:JEOL_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/JEOL_company_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "JEOL, Ltd.",
+  },
+  {
+    slug: "kasto",
+    name: "Kasto",
+    src: "/images/brand-logos/kasto.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_von_Kasto_Maschinenbau.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Logo_von_Kasto_Maschinenbau.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Vherter",
+  },
+  {
+    slug: "kiepe-elektrik",
+    name: "Kiepe Elektrik",
+    src: "/images/brand-logos/kiepe-elektrik.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KIEPE_Electric_Logo_links.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/KIEPE_Electric_Logo_links.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Leonhardt-Erik",
+  },
+  {
+    slug: "klinger",
+    name: "Klinger",
+    src: "/images/brand-logos/klinger.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KLINGERtrustedworldwide_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/KLINGERtrustedworldwide_Logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "KLINGER International",
+  },
+  {
+    slug: "knf",
+    name: "KNF",
+    src: "/images/brand-logos/knf.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KNF_LOGO.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/KNF_LOGO.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: KNF",
+  },
+  {
+    slug: "kongsberg-automotive",
+    name: "Kongsberg Automotive",
+    src: "/images/brand-logos/kongsberg-automotive.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KA_logo_150x150.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/KA_logo_150x150.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Kongsberg Automotive",
+  },
+  {
+    slug: "kubota",
+    name: "Kubota",
+    src: "/images/brand-logos/kubota.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kubota-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/90/Kubota-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Kubota",
+  },
+  {
+    slug: "mennekes",
+    name: "Mennekes",
+    src: "/images/brand-logos/mennekes.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mennekes_Logo_Claim_rgb.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Mennekes_Logo_Claim_rgb.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Unknown author Unknown author ( Monokel 3D ?)",
+  },
+  {
+    slug: "mersen",
+    name: "Mersen",
+    src: "/images/brand-logos/mersen.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mersen_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mersen_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Mersen",
+  },
+  {
+    slug: "mikron",
+    name: "Mikron",
+    src: "/images/brand-logos/mikron.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Mikron.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Logo_Mikron.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Mikron Technology Group",
+  },
+  {
+    slug: "minebea",
+    name: "Minebea",
+    src: "/images/brand-logos/minebea.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:MinebeaMitsumi_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/MinebeaMitsumi_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "MinebeaMitsumi",
+  },
+  {
+    slug: "minimax",
+    name: "Minimax",
+    src: "/images/brand-logos/minimax.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Minimax_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Minimax_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Minimax",
+  },
+  {
+    slug: "mitutoyo",
+    name: "Mitutoyo",
+    src: "/images/brand-logos/mitutoyo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mitutoyo_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Mitutoyo_company_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Mitutoyo Corporation",
+  },
+  {
+    slug: "molex",
+    name: "Molex",
+    src: "/images/brand-logos/molex.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Molex-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4b/Molex-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Molex",
+  },
+  {
+    slug: "motorola",
+    name: "Motorola",
+    src: "/images/brand-logos/motorola.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Motorola_Solutions_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Motorola_Solutions_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Motorola",
+  },
+  {
+    slug: "optima",
+    name: "OPTIMA",
+    src: "/images/brand-logos/optima.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Optima_packaging_group_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Optima_packaging_group_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: OPTIMA",
+  },
+  {
+    slug: "panduit",
+    name: "Panduit",
+    src: "/images/brand-logos/panduit.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_of_Panduit_Corporation.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Logo_of_Panduit_Corporation.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Panduit Corporation",
+  },
+  {
+    slug: "poclain-hydraulics",
+    name: "Poclain Hydraulics",
+    src: "/images/brand-logos/poclain-hydraulics.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Poclain_Hydraulics.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Poclain_Hydraulics.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Famille Bataille",
+  },
+  {
+    slug: "rational",
+    name: "Rational",
+    src: "/images/brand-logos/rational.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rational_AG_201x_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/Rational_AG_201x_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Rational",
+  },
+  {
+    slug: "ridgid",
+    name: "RIDGID",
+    src: "/images/brand-logos/ridgid.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ridgid_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ridgid_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Ridgid",
+  },
+  {
+    slug: "riello",
+    name: "Riello",
+    src: "/images/brand-logos/riello.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:RIELLO_MARCHIO_CON_PAYOFF_RGB255.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/RIELLO_MARCHIO_CON_PAYOFF_RGB255.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Riello1922",
+  },
+  {
+    slug: "rittal",
+    name: "Rittal",
+    src: "/images/brand-logos/rittal.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rittal-Logo_2010.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Rittal-Logo_2010.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Rittal GmbH & Co. KG, converted by Manuel Funk at German Wikipedia",
+  },
 ];
 
 const brandLogoMap = new Map(
