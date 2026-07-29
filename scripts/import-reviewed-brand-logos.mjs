@@ -93,12 +93,26 @@ for (const slug of selectedSlugs) {
   if (!candidate) {
     throw new Error(`Verified candidate not found: ${slug}`);
   }
-  const extension = extensionByMime[candidate.mime];
-  if (!extension) {
-    throw new Error(`Unsupported MIME type for ${slug}: ${candidate.mime}`);
+  const expectedExtension = extensionByMime[candidate.mime];
+  const supportedExtensions = [
+    expectedExtension,
+    ...new Set(Object.values(extensionByMime)),
+  ].filter(Boolean);
+  let extension;
+  for (const candidateExtension of supportedExtensions) {
+    try {
+      await fs.access(
+        path.join(logoDirectory, `${slug}.${candidateExtension}`),
+      );
+      extension = candidateExtension;
+      break;
+    } catch {
+      // Continue until a downloaded original or thumbnail is found.
+    }
   }
-  const assetPath = path.join(logoDirectory, `${slug}.${extension}`);
-  await fs.access(assetPath);
+  if (!extension) {
+    throw new Error(`Downloaded asset not found for ${slug}`);
+  }
   entries.push(renderEntry(candidate, extension));
 }
 

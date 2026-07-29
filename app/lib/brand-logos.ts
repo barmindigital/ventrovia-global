@@ -2556,6 +2556,140 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Texas Instruments",
   },
+  {
+    slug: "tork",
+    name: "Tork",
+    src: "/images/brand-logos/tork.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Tork.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Logo_Tork.jpg",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    attribution: "SCA Hygiene Products AFH Sales GmbH",
+  },
+  {
+    slug: "tornos",
+    name: "Tornos",
+    src: "/images/brand-logos/tornos.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tornos_Bildmarke.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Tornos_Bildmarke.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Tornos Holding AG",
+  },
+  {
+    slug: "vahterus",
+    name: "Vahterus",
+    src: "/images/brand-logos/vahterus.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Vahterus-logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Vahterus-logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Graphical design by Hennamari Asunta",
+  },
+  {
+    slug: "weatherford",
+    name: "Weatherford",
+    src: "/images/brand-logos/weatherford.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Weatherford_International_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b9/Weatherford_International_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Weatherford",
+  },
+  {
+    slug: "weeke",
+    name: "Weeke",
+    src: "/images/brand-logos/weeke.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Weeke_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/62/Weeke_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Weeke",
+  },
+  {
+    slug: "wieland",
+    name: "Wieland Electric",
+    src: "/images/brand-logos/wieland.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Wieland-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7f/Wieland-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Wieland Electric",
+  },
+  {
+    slug: "woodward",
+    name: "Woodward",
+    src: "/images/brand-logos/woodward.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Woodward_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Woodward_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Woodward, Inc.",
+  },
+  {
+    slug: "rechner-sensors",
+    name: "RECHNER SENSORS",
+    src: "/images/brand-logos/rechner-sensors.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rechner_Sensors_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Rechner_Sensors_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: RECHNER SENSORS",
+  },
+  {
+    slug: "novotechnik",
+    name: "NOVOTECHNIK",
+    src: "/images/brand-logos/novotechnik.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Novotechnik_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Novotechnik_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: NOVOTECHNIK",
+  },
+  {
+    slug: "pizzato-elettrica",
+    name: "PIZZATO ELETTRICA",
+    src: "/images/brand-logos/pizzato-elettrica.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Pizzato_Elettrica.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/27/Logo_Pizzato_Elettrica.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Pizzato Elettrica",
+  },
+  {
+    slug: "elmo-rietschle",
+    name: "ELMO RIETSCHLE",
+    src: "/images/brand-logos/elmo-rietschle.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Elmo-rietschle.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Elmo-rietschle.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Source artwork: ELMO RIETSCHLE",
+  },
+  {
+    slug: "leser",
+    name: "LESER",
+    src: "/images/brand-logos/leser.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Leser-logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Leser-logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Leser",
+  },
 ];
 
 const brandLogoMap = new Map(

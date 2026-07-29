@@ -30,14 +30,53 @@ function delay(milliseconds) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }
 
+function thumbnailDownload(candidate) {
+  try {
+    const original = new URL(candidate.originalFile);
+    const marker = "/wikipedia/commons/";
+    if (!original.pathname.includes(marker)) return null;
+    const fileName = original.pathname.split("/").at(-1);
+    const rasterized = new Set([
+      "image/gif",
+      "image/svg+xml",
+      "image/tiff",
+    ]).has(candidate.mime);
+    original.pathname = original.pathname.replace(
+      marker,
+      "/wikipedia/commons/thumb/",
+    );
+    original.pathname = `${original.pathname}/500px-${fileName}${
+      rasterized ? ".png" : ""
+    }`;
+    return {
+      url: original.toString(),
+      mime: rasterized ? "image/png" : candidate.mime,
+    };
+  } catch {
+    return null;
+  }
+}
+
 async function download(candidate, attempts = 5) {
   let lastError;
+  const downloadUrls = [
+    { url: candidate.originalFile, mime: candidate.mime },
+    thumbnailDownload(candidate),
+    candidate.fileName
+      ? {
+          url: `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(candidate.fileName.replaceAll(" ", "_"))}`,
+          mime: candidate.mime,
+        }
+      : null,
+  ].filter(Boolean);
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      const response = await fetch(candidate.originalFile, {
+      const downloadTarget =
+        downloadUrls[Math.min(attempt - 1, downloadUrls.length - 1)];
+      const response = await fetch(downloadTarget.url, {
         headers: {
           "user-agent": userAgent,
-          accept: candidate.mime,
+          accept: downloadTarget.mime,
         },
       });
       if (!response.ok) {
@@ -51,17 +90,24 @@ async function download(candidate, attempts = 5) {
         throw new Error(`Downloaded file is too small (${bytes.length} bytes)`);
       }
       if (
-        candidate.mime === "image/svg+xml" &&
+        downloadTarget.mime === "image/svg+xml" &&
         !new TextDecoder().decode(bytes.slice(0, 500)).includes("<svg")
       ) {
         throw new Error("Downloaded SVG does not contain an svg element");
       }
-      return bytes;
+      return {
+        bytes,
+        mime:
+          response.headers.get("content-type")?.split(";")[0] ||
+          downloadTarget.mime,
+      };
     } catch (error) {
       lastError = error;
       if (attempt < attempts) {
         const retryDelay =
-          error.retryAfter != null
+          attempt < downloadUrls.length
+            ? 250
+            : error.retryAfter != null
             ? Math.min(error.retryAfter * 1000, 15000)
             : attempt * 1500;
         await delay(retryDelay);
@@ -90,25 +136,40 @@ for (const slug of selectedSlugs) {
   if (!candidate) {
     throw new Error(`Verified candidate not found: ${slug}`);
   }
-  const extension = extensionByMime[candidate.mime];
+  const existingAsset = (
+    await Promise.all(
+      [...new Set(Object.values(extensionByMime))].map(async (extension) => {
+        const assetPath = path.join(logoDirectory, `${slug}.${extension}`);
+        try {
+          await fs.access(assetPath);
+          return assetPath;
+        } catch {
+          return null;
+        }
+      }),
+    )
+  ).find(Boolean);
+  if (existingAsset) {
+    downloaded.push({
+      slug,
+      status: "already-present",
+      assetPath: existingAsset,
+    });
+    continue;
+  }
+  const result = await download(candidate);
+  const extension = extensionByMime[result.mime];
   if (!extension) {
-    throw new Error(`Unsupported MIME type for ${slug}: ${candidate.mime}`);
+    throw new Error(`Unsupported downloaded MIME type for ${slug}: ${result.mime}`);
   }
   const assetPath = path.join(logoDirectory, `${slug}.${extension}`);
-  try {
-    await fs.access(assetPath);
-    downloaded.push({ slug, status: "already-present", assetPath });
-    continue;
-  } catch {
-    // The candidate is ready to download.
-  }
-  const bytes = await download(candidate);
-  await fs.writeFile(assetPath, bytes);
+  await fs.writeFile(assetPath, result.bytes);
   downloaded.push({
     slug,
     status: "downloaded",
     assetPath,
-    bytes: bytes.length,
+    bytes: result.bytes.length,
+    mime: result.mime,
   });
   await delay(250);
 }
