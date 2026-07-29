@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ProductArt } from "./components/ProductArt";
+import { ScrollHeroOrb } from "./components/ScrollHeroOrb";
 import {
   categories,
   categoryImageBySlug,
@@ -58,12 +59,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-visual" aria-label="Абстрактная композиция в фирменных цветах">
-            <div className="hero-orb">
-              <span className="hero-tile hero-tile-one" />
-              <span className="hero-tile hero-tile-two" />
-              <span className="hero-tile hero-tile-three" />
-              <span className="hero-ring" />
-            </div>
+            <ScrollHeroOrb />
             <div className="hero-badge">
               <span>Точный поиск</span>
               <strong>по 115 370 артикулам</strong>

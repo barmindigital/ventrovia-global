@@ -421,6 +421,7 @@ img {
 }
 
 .hero-orb {
+  --hero-scroll-rotation: 0deg;
   position: relative;
   width: min(530px, 43vw);
   aspect-ratio: 1;
@@ -431,6 +432,9 @@ img {
     0 38px 80px rgba(180, 83, 60, 0.22),
     inset -24px -30px 70px rgba(107, 100, 89, 0.24),
     inset 20px 12px 46px rgba(242, 235, 221, 0.18);
+  transform: rotate(var(--hero-scroll-rotation));
+  transform-origin: center;
+  will-change: transform;
 }
 
 .hero-orb::before {
@@ -507,6 +511,13 @@ img {
 .hero-badge strong {
   font-family: "Onest Variable", Onest, sans-serif;
   font-size: 17px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-orb {
+    transform: none;
+    will-change: auto;
+  }
 }
 
 .stats-bar {
