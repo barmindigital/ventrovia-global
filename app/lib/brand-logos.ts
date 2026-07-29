@@ -3186,6 +3186,62 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: MAPAL",
   },
+  {
+    slug: "gostol-tst",
+    name: "GOSTOL TST",
+    src: "/images/brand-logos/gostol-tst.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Gostol_TST.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/Logo_Gostol_TST.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Gostol tst marketing",
+  },
+  {
+    slug: "seco",
+    name: "SECO",
+    src: "/images/brand-logos/seco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Seco_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Seco_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Original: Q135258578 Vector: Scip.",
+  },
+  {
+    slug: "wolf",
+    name: "WOLF",
+    src: "/images/brand-logos/wolf.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Wolf_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/Wolf_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: WOLF",
+  },
+  {
+    slug: "fkl",
+    name: "FKL",
+    src: "/images/brand-logos/fkl.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_FKL.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Logo_FKL.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Mushusasa",
+  },
+  {
+    slug: "haulotte",
+    name: "HAULOTTE",
+    src: "/images/brand-logos/haulotte.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Haulotte.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Logo_Haulotte.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Futurhit12",
+  },
 ];
 
 const brandLogoMap = new Map(
