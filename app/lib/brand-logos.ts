@@ -3074,6 +3074,62 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     attribution: "HormEntU",
   },
+  {
+    slug: "magtrol",
+    name: "MAGTROL",
+    src: "/images/brand-logos/magtrol.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Magtrol.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/70/Logo_Magtrol.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Инженер Валентин",
+  },
+  {
+    slug: "agilent-101367",
+    name: "AGILENT",
+    src: "/images/brand-logos/agilent-101367.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Agilent.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/14/Agilent.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Agilent",
+  },
+  {
+    slug: "arburg",
+    name: "ARBURG",
+    src: "/images/brand-logos/arburg.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Arburg.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/Logo_Arburg.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: ARBURG",
+  },
+  {
+    slug: "eckart",
+    name: "ECKART",
+    src: "/images/brand-logos/eckart.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:ECKART_Logo_2018.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/ECKART_Logo_2018.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: ECKART",
+  },
+  {
+    slug: "doosan",
+    name: "DOOSAN",
+    src: "/images/brand-logos/doosan.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Doosan_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/Doosan_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Doosan Group",
+  },
 ];
 
 const brandLogoMap = new Map(
