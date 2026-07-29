@@ -1340,6 +1340,176 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: Wacker Neuson",
   },
+  {
+    slug: "eurotherm",
+    name: "Eurotherm",
+    src: "/images/brand-logos/eurotherm.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Eurotherm_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/Eurotherm_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Eurotherm",
+  },
+  {
+    slug: "ruhrpumpen",
+    name: "Ruhrpumpen",
+    src: "/images/brand-logos/ruhrpumpen.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_RP.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Logo_RP.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "Ruhrpumpen, Wikimedia Commons",
+  },
+  {
+    slug: "bauer-kompressoren",
+    name: "Bauer Kompressoren",
+    src: "/images/brand-logos/bauer-kompressoren.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_2015_BAUER_GROUP.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_2015_BAUER_GROUP.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Bauer Group",
+  },
+  {
+    slug: "mp-filtri",
+    name: "MP Filtri",
+    src: "/images/brand-logos/mp-filtri.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:MP_Filtri_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/19/MP_Filtri_logo.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: MP Filtri",
+  },
+  {
+    slug: "hammelmann",
+    name: "Hammelmann",
+    src: "/images/brand-logos/hammelmann.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hammelmann_GmbH_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Hammelmann_GmbH_Logo.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Hammelmann GmbH",
+  },
+  {
+    slug: "rulmeca",
+    name: "Rulmeca",
+    src: "/images/brand-logos/rulmeca.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rulmeca-logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/26/Rulmeca-logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Rulmeca, Wikimedia Commons",
+  },
+  {
+    slug: "kohler-motors",
+    name: "Kohler",
+    src: "/images/brand-logos/kohler-motors.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kohler_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Kohler_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Kohler Company",
+  },
+  {
+    slug: "wittenstein",
+    name: "Wittenstein",
+    src: "/images/brand-logos/wittenstein.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Wittenstein_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/Wittenstein_Logo.png",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "Wittenstein SE, Wikimedia Commons",
+  },
+  {
+    slug: "flender",
+    name: "Flender",
+    src: "/images/brand-logos/flender.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Flender_AG_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Flender_AG_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Flender",
+  },
+  {
+    slug: "inficon",
+    name: "INFICON",
+    src: "/images/brand-logos/inficon.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:INFICON-Corporate-Logo-2-Color.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/34/INFICON-Corporate-Logo-2-Color.png",
+    license: "CC BY-SA 2.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
+    attribution: "INFICON, Wikimedia Commons",
+  },
+  {
+    slug: "elobau",
+    name: "Elobau",
+    src: "/images/brand-logos/elobau.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Elobau_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Elobau_logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Elobau, Wikimedia Commons",
+  },
+  {
+    slug: "enerpac",
+    name: "Enerpac",
+    src: "/images/brand-logos/enerpac.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:EnerpacLogo2.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6f/EnerpacLogo2.png",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Enerpac",
+  },
+  {
+    slug: "mankenberg",
+    name: "Mankenberg",
+    src: "/images/brand-logos/mankenberg.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Mankenberg_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mankenberg_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Mankenberg GmbH",
+  },
+  {
+    slug: "solar-turbines",
+    name: "Solar Turbines",
+    src: "/images/brand-logos/solar-turbines.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Solar_Turbines_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Solar_Turbines_logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Solar Turbines",
+  },
+  {
+    slug: "testo-ag",
+    name: "Testo",
+    src: "/images/brand-logos/testo-ag.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_testo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Logo_testo.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: Testo AG",
+  },
 ];
 
 const brandLogoMap = new Map(
