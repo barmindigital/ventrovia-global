@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProductArt } from "../../components/ProductArt";
 import { brandLogoBySlug } from "../../lib/brand-logos";
+import { brandInitials, brandWordmarkTone } from "../../lib/brand-wordmark";
 import {
   formatCount,
   manufacturerBySlug,
@@ -148,11 +149,16 @@ export default async function BrandPage({ params }: BrandPageProps) {
             ) : (
               <span
                 aria-label={`Текстовая карточка производителя ${brand.name}`}
-                className="brand-wordmark-hero"
+                className={`brand-wordmark-hero ${brandWordmarkTone(slug)}`}
                 role="img"
               >
-                <strong>{brand.name}</strong>
-                <small>производитель</small>
+                <span className="brand-wordmark-initials" aria-hidden="true">
+                  {brandInitials(brand.name)}
+                </span>
+                <span className="brand-wordmark-copy">
+                  <strong>{brand.name}</strong>
+                  <small>производитель</small>
+                </span>
               </span>
             )}
           </div>

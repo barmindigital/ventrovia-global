@@ -1486,12 +1486,32 @@ img {
 }
 
 .brand-card-visual.wordmark {
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: stretch;
+  justify-items: stretch;
+  width: 172px;
+  height: 72px;
+  padding: 0;
+  text-align: left;
+  background: white;
+}
+
+.brand-wordmark-initials {
+  display: grid;
+  place-items: center;
+  color: var(--wordmark-ink, white);
+  background: var(--wordmark-accent, #d31027);
+  font-size: 17px;
+  font-weight: 820;
+  letter-spacing: -0.04em;
+}
+
+.brand-wordmark-copy {
+  display: grid;
+  min-width: 0;
   align-content: center;
   justify-items: start;
-  width: 148px;
-  height: 72px;
-  padding: 12px 13px;
-  text-align: left;
+  padding: 10px 11px;
 }
 
 .brand-card-visual.wordmark strong {
@@ -1516,6 +1536,26 @@ img {
   text-transform: uppercase;
 }
 
+.wordmark-tone-0 {
+  --wordmark-accent: #d31027;
+  --wordmark-ink: #ffffff;
+}
+
+.wordmark-tone-1 {
+  --wordmark-accent: #b4533c;
+  --wordmark-ink: #ffffff;
+}
+
+.wordmark-tone-2 {
+  --wordmark-accent: #f2ebdd;
+  --wordmark-ink: #6b6459;
+}
+
+.wordmark-tone-3 {
+  --wordmark-accent: #6b6459;
+  --wordmark-ink: #ffffff;
+}
+
 .brand-card-visual.has-logo {
   width: 112px;
   padding: 10px;
@@ -1537,6 +1577,7 @@ img {
 }
 
 .manufacturer-card:hover .brand-card-visual.has-logo,
+.manufacturer-card:hover .brand-card-visual.wordmark,
 .manufacturer-card.brand-featured .brand-card-visual.has-logo {
   border-color: rgba(255, 255, 255, 0.42);
   background: white;
@@ -1549,12 +1590,12 @@ img {
 
 .manufacturer-card:hover .brand-card-visual.wordmark strong,
 .manufacturer-card.brand-featured .brand-card-visual.wordmark strong {
-  color: white;
+  color: var(--violet-deep);
 }
 
 .manufacturer-card:hover .brand-card-visual.wordmark small,
 .manufacturer-card.brand-featured .brand-card-visual.wordmark small {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(107, 100, 89, 0.72);
 }
 
 .brand-hero {
@@ -1614,16 +1655,26 @@ img {
   left: 28px;
   bottom: 26px;
   display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  align-items: stretch;
   width: min(360px, calc(100% - 56px));
   min-height: 104px;
-  align-content: center;
-  padding: 20px 24px;
+  padding: 0;
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.34);
   border-radius: 16px;
-  color: white;
-  background: rgba(107, 100, 89, 0.82);
+  color: var(--violet-deep);
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 18px 40px rgba(107, 100, 89, 0.22);
   backdrop-filter: blur(8px);
+}
+
+.brand-wordmark-hero .brand-wordmark-initials {
+  font-size: 28px;
+}
+
+.brand-wordmark-hero .brand-wordmark-copy {
+  padding: 20px 22px;
 }
 
 .brand-wordmark-hero strong {
@@ -1635,7 +1686,7 @@ img {
 
 .brand-wordmark-hero small {
   margin-top: 9px;
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(107, 100, 89, 0.72);
   font-size: 9px;
   letter-spacing: 0.16em;
   text-transform: uppercase;

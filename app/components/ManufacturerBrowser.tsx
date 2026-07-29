@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { formatCount, manufacturers } from "../lib/catalog-data";
 import { brandLogoBySlug } from "../lib/brand-logos";
+import { brandInitials, brandWordmarkTone } from "../lib/brand-wordmark";
 
 export function ManufacturerBrowser() {
   const [query, setQuery] = useState("");
@@ -68,7 +69,11 @@ export function ManufacturerBrowser() {
                     ? undefined
                     : `Текстовая карточка производителя ${manufacturer.name}`
                 }
-                className={`brand-card-visual${logo ? " has-logo" : " wordmark"}`}
+                className={`brand-card-visual${
+                  logo
+                    ? " has-logo"
+                    : ` wordmark ${brandWordmarkTone(manufacturer.slug)}`
+                }`}
                 role={logo ? undefined : "img"}
               >
                 {logo ? (
@@ -81,8 +86,13 @@ export function ManufacturerBrowser() {
                   />
                 ) : (
                   <>
-                    <strong>{manufacturer.name}</strong>
-                    <small>производитель</small>
+                    <span className="brand-wordmark-initials" aria-hidden="true">
+                      {brandInitials(manufacturer.name)}
+                    </span>
+                    <span className="brand-wordmark-copy">
+                      <strong>{manufacturer.name}</strong>
+                      <small>производитель</small>
+                    </span>
                   </>
                 )}
               </span>
