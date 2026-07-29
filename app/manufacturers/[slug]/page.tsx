@@ -12,8 +12,8 @@ import {
   products,
 } from "../../lib/catalog-data";
 import {
+  manufacturerEditorialFor,
   manufacturerMetaDescription,
-  manufacturerOverview,
   serializeJsonLd,
   SITE_URL,
 } from "../../lib/seo-content";
@@ -73,7 +73,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
     (product) => product.manufacturerSlug === slug,
   );
   const logo = brandLogoBySlug(slug);
-  const overview = manufacturerOverview(brand);
+  const editorial = manufacturerEditorialFor(brand);
   const brandUrl = `${SITE_URL}/manufacturers/${slug}`;
   const brandJsonLd = {
     "@context": "https://schema.org",
@@ -182,20 +182,11 @@ export default async function BrandPage({ params }: BrandPageProps) {
           </aside>
           <article className="content-card">
             <h2>О бренде {brand.name}</h2>
-            <p>{overview}</p>
+            <p>{editorial.overview}</p>
             <h3>Ассортимент в каталоге</h3>
-            <p>
-              {brand.count > 0
-                ? `В разделе доступно ${formatCount(brand.count)} позиций. Для поиска используйте полную модель, артикул или маркировку с корпуса — так можно отделить близкие по названию, но несовместимые исполнения.`
-                : "Позиции этого производителя добавляются по мере проверки исходных данных. Уже сейчас можно отправить модель или фотографию маркировки для адресного поиска."}
-            </p>
+            <p>{editorial.assortment}</p>
             <h3>Применение оборудования</h3>
-            <p>
-              Компоненты {brand.name} запрашивают для действующих
-              производственных линий, ремонтного фонда, модернизации и новых
-              инженерных проектов. Область применения конкретной позиции
-              определяем по её документации и полному коду заказа.
-            </p>
+            <p>{editorial.applications}</p>
             <h3>Подбор и заказ</h3>
             <p>
               Для уверенного подбора укажите полную модель и артикул. Если
@@ -206,11 +197,23 @@ export default async function BrandPage({ params }: BrandPageProps) {
             </p>
             <h3>Что желательно указать</h3>
             <ul>
-              <li>полный артикул и серийную маркировку;</li>
-              <li>напряжение, мощность, тип подключения или интерфейс;</li>
-              <li>количество, требуемый срок и город поставки;</li>
-              <li>допустимость функционального аналога.</li>
+              {editorial.selection.map((item) => (
+                <li key={item}>{item};</li>
+              ))}
             </ul>
+            {editorial.sourceUrl && (
+              <p className="editorial-source">
+                Справочная информация подготовлена по открытому{" "}
+                <a
+                  href={editorial.sourceUrl}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  каталогу производителя
+                </a>
+                .
+              </p>
+            )}
             {slug === "abb" && (
               <>
                 <h3>Основные направления ABB</h3>

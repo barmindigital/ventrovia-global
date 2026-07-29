@@ -1796,6 +1796,20 @@ img {
   padding-left: 20px;
 }
 
+.content-card .editorial-source {
+  margin: 26px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.editorial-source a {
+  color: var(--violet-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .product-detail {
   padding-block: 62px 100px;
 }

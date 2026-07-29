@@ -1190,6 +1190,74 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (PD-textlogo)",
     attribution: "Source artwork: AEG; design: Peter Behrens",
   },
+  {
+    slug: "hawe-hydraulic",
+    name: "HAWE Hydraulik",
+    src: "/images/brand-logos/hawe-hydraulic.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:HAWE_Hydraulik_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/HAWE_Hydraulik_Logo.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: HAWE Hydraulik",
+  },
+  {
+    slug: "euchner-gmbh",
+    name: "EUCHNER",
+    src: "/images/brand-logos/euchner-gmbh.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:EUCHNER_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/EUCHNER_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "EUCHNER More than Safety, Wikimedia Commons",
+  },
+  {
+    slug: "prominent",
+    name: "ProMinent",
+    src: "/images/brand-logos/prominent.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:ProMinent_Logo_rgb.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/ProMinent_Logo_rgb.jpg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: ProMinent",
+  },
+  {
+    slug: "samson",
+    name: "SAMSON",
+    src: "/images/brand-logos/samson.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Samson_logo_wiki.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Samson_logo_wiki.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "SAMSON AG, Wikimedia Commons",
+  },
+  {
+    slug: "vega",
+    name: "VEGA",
+    src: "/images/brand-logos/vega.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_VEGA_Grieshaber.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Logo_VEGA_Grieshaber.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: VEGA Grieshaber",
+  },
+  {
+    slug: "boge",
+    name: "BOGE",
+    src: "/images/brand-logos/boge.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Boge.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5d/Logo_Boge.svg",
+    license: "Public domain (PD-textlogo)",
+    attribution: "Source artwork: BOGE Kompressoren",
+  },
 ];
 
 const brandLogoMap = new Map(
