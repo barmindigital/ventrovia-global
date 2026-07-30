@@ -5844,6 +5844,28 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Ansaldo Energia S.p.A.",
   },
+  {
+    slug: "elma",
+    name: "Elma Electronic",
+    src: "/images/brand-logos/elma.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_ELMA.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_ELMA.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Elma Electronic",
+  },
+  {
+    slug: "miba",
+    name: "Miba AG",
+    src: "/images/brand-logos/miba.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Miba_(Unternehmen)_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0e/Miba_%28Unternehmen%29_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Miba AG",
+  },
 ];
 
 const brandLogoMap = new Map(
