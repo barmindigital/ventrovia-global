@@ -5324,6 +5324,97 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     attribution: "Hydroscands marketing appartment",
   },
+  {
+    slug: "schmidt",
+    name: "SCHMIDT",
+    src: "/images/brand-logos/schmidt.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Schmidt_Logo_2026.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Schmidt_Logo_2026.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: SCHMIDT",
+  },
+  {
+    slug: "hasler",
+    name: "HASLER",
+    src: "/images/brand-logos/hasler.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Hasler.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_Hasler.gif",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Firmen Autophon, Gfeller, Hasler, Zellweger",
+  },
+  {
+    slug: "braun",
+    name: "BRAUN",
+    src: "/images/brand-logos/braun.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Braun_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/Braun_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Braun",
+  },
+  {
+    slug: "elmo",
+    name: "ELMO",
+    src: "/images/brand-logos/elmo.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Elmo_(company)_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Elmo_%28company%29_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Elmo",
+  },
+  {
+    slug: "hks",
+    name: "HKS",
+    src: "/images/brand-logos/hks.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:HKS_(company)_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/HKS_%28company%29_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "HKS Co., Ltd.. 718 Bot at English Wikipedia",
+  },
+  {
+    slug: "nexen",
+    name: "Nexen",
+    src: "/images/brand-logos/nexen.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nexen_Tire_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Nexen_Tire_Logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Nexen Tire",
+  },
+  {
+    slug: "crouzet",
+    name: "CROUZET",
+    src: "/images/brand-logos/crouzet.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:LogoCrouzet.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/LogoCrouzet.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    attribution: "Crouzet",
+  },
+  {
+    slug: "lincoln",
+    name: "LINCOLN INDUSTRIAL",
+    src: "/images/brand-logos/lincoln.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Lincolnindustrial_logo.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lincolnindustrial_logo.gif",
+    license: "CC0",
+    licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    attribution: "Lincoln Industrial",
+  },
 ];
 
 const brandLogoMap = new Map(
