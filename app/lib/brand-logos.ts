@@ -5493,6 +5493,53 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Amazone (Germany)",
   },
+  {
+    slug: "groschopp",
+    name: "GROSCHOPP",
+    src: "/images/brand-logos/groschopp.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Groschopp-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/Groschopp-Logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Groschopp AG",
+  },
+  {
+    slug: "ipsen",
+    name: "IPSEN",
+    src: "/images/brand-logos/ipsen.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ipsen_Logo.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ipsen_Logo.gif",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Ipsen International Holding",
+  },
+  {
+    slug: "schindler",
+    name: "SCHINDLER",
+    src: "/images/brand-logos/schindler.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Web_big-Schindler_Logo_Original_(RGB)_(1).jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Web_big-Schindler_Logo_Original_%28RGB%29_%281%29.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Schindler Group",
+  },
+  {
+    slug: "huttenes-albertus",
+    name: "HUTTENES ALBERTUS",
+    src: "/images/brand-logos/huttenes-albertus.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:H%C3%BCttenes-Albertus_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/H%C3%BCttenes-Albertus_Logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Hüttenes-Albertus Chemische Werke GmbH",
+  },
 ];
 
 const brandLogoMap = new Map(
