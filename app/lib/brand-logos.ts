@@ -5562,6 +5562,50 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://www.donaldson.com/en/branding/",
     attribution: "Donaldson Company, Inc.",
   },
+  {
+    slug: "tyco",
+    name: "TYCO",
+    src: "/images/brand-logos/tyco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tyco.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Tyco.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Gump Stump; source artwork: Tyco International",
+  },
+  {
+    slug: "zwick-roell",
+    name: "ZWICK ROELL",
+    src: "/images/brand-logos/zwick-roell.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Zwick_Roell_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Zwick_Roell_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Zwick Roell",
+  },
+  {
+    slug: "trox",
+    name: "TROX",
+    src: "/images/brand-logos/trox.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Trox_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Trox_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: TROX Group",
+  },
+  {
+    slug: "zimmer",
+    name: "ZIMMER GROUP",
+    src: "/images/brand-logos/zimmer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Zimmer_Group.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/75/Zimmer_Group.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Zimmer Group",
+  },
 ];
 
 const brandLogoMap = new Map(
