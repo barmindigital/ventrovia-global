@@ -110,6 +110,20 @@ function exactFileMatch(manufacturerName, fileTitle) {
   return manufacturerCore(manufacturerName) === fileCore(fileTitle);
 }
 
+function potentialFileMatch(manufacturerName, fileTitle) {
+  const manufacturer = manufacturerCore(manufacturerName);
+  const file = fileCore(fileTitle);
+  if (!manufacturer || !file) return false;
+  if (manufacturer === file) return true;
+
+  const manufacturerTokens = manufacturer.split(" ");
+  const fileTokens = new Set(file.split(" "));
+  return (
+    manufacturer.length >= 3 &&
+    manufacturerTokens.every((token) => fileTokens.has(token))
+  );
+}
+
 function commonsSearchUrl(manufacturerName) {
   const params = new URLSearchParams({
     action: "query",
@@ -148,12 +162,12 @@ async function fetchJson(url, attempts = 4) {
   throw lastError;
 }
 
-function candidateFromPage(manufacturer, page) {
+function candidateFromPage(manufacturer, page, matchFile) {
   const image = page.imageinfo?.[0];
   const metadata = image?.extmetadata ?? {};
   const license = stripHtml(metadata.LicenseShortName?.value);
   if (
-    !exactFileMatch(manufacturer.name, page.title) ||
+    !matchFile(manufacturer.name, page.title) ||
     !image?.url ||
     !image?.descriptionurl ||
     !image?.mime?.startsWith("image/") ||
@@ -207,7 +221,9 @@ async function discoverManufacturer(manufacturer) {
     const data = await fetchJson(commonsSearchUrl(manufacturer.name));
     const pages = Object.values(data.query?.pages ?? {});
     const candidates = pages
-      .map((page) => candidateFromPage(manufacturer, page))
+      .map((page) =>
+        candidateFromPage(manufacturer, page, exactFileMatch),
+      )
       .filter(Boolean);
     const unique = [
       ...new Map(
@@ -217,10 +233,30 @@ async function discoverManufacturer(manufacturer) {
     if (unique.length === 1) {
       return unique[0];
     }
+    const potentialCandidates = [
+      ...new Map(
+        pages
+          .map((page) =>
+            candidateFromPage(manufacturer, page, potentialFileMatch),
+          )
+          .filter(Boolean)
+          .map((candidate) => [candidate.originalFile, candidate]),
+      ).values(),
+    ].filter(
+      (candidate) =>
+        !unique.some(
+          (exactCandidate) =>
+            exactCandidate.originalFile === candidate.originalFile,
+        ),
+    );
     return {
       manufacturer,
-      status: unique.length ? "ambiguous-candidates" : "no-exact-file",
-      candidates: unique,
+      status: unique.length
+        ? "ambiguous-candidates"
+        : potentialCandidates.length
+          ? "review-candidates"
+          : "no-exact-file",
+      candidates: unique.length ? unique : potentialCandidates,
     };
   } catch (error) {
     return {
