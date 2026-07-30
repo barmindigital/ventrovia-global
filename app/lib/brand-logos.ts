@@ -3750,6 +3750,62 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Dow Corning",
   },
+  {
+    slug: "cameron",
+    name: "CAMERON",
+    src: "/images/brand-logos/cameron.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Cameron.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/94/Logo_Cameron.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Cameron International",
+  },
+  {
+    slug: "borgwarner",
+    name: "BORGWARNER",
+    src: "/images/brand-logos/borgwarner.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:BorgWarner.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4b/BorgWarner.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Borgwarner",
+  },
+  {
+    slug: "ganter-griff",
+    name: "GANTER GRIFF",
+    src: "/images/brand-logos/ganter-griff.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo-Ganter-Griff.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/Logo-Ganter-Griff.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Norbert Zimmermann, Z-Design",
+  },
+  {
+    slug: "merlin-gerin",
+    name: "MERLIN GERIN",
+    src: "/images/brand-logos/merlin-gerin.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Merlin_Gerin_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Merlin_Gerin_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Merlin Gerin",
+  },
+  {
+    slug: "maschinenfabrik-reinhausen",
+    name: "MASCHINENFABRIK REINHAUSEN",
+    src: "/images/brand-logos/maschinenfabrik-reinhausen.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Maschinenfabrik_Reinhausen.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logo_Maschinenfabrik_Reinhausen.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "MR Maschinenfabrik Reinhausen GmbH",
+  },
 ];
 
 const brandLogoMap = new Map(
