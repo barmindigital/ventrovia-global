@@ -5606,6 +5606,62 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: Zimmer Group",
   },
+  {
+    slug: "dwyer",
+    name: "DWYER",
+    src: "/images/brand-logos/dwyer.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:DWYER.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/DWYER.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    attribution: "Rotal Group",
+  },
+  {
+    slug: "blickle",
+    name: "BLICKLE",
+    src: "/images/brand-logos/blickle.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Blickle_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Blickle_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Blickle",
+  },
+  {
+    slug: "fujikura",
+    name: "FUJIKURA",
+    src: "/images/brand-logos/fujikura.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Fujikura.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Fujikura.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Fujikura",
+  },
+  {
+    slug: "mtu",
+    name: "MTU",
+    src: "/images/brand-logos/mtu.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:MTU_Friedrichshafen_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/MTU_Friedrichshafen_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "MTU Friedrichshafen GmbH",
+  },
+  {
+    slug: "vetter-gmbh",
+    name: "VETTER GMBH",
+    src: "/images/brand-logos/vetter-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Vetter-logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/54/Vetter-logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Vetter GmbH",
+  },
 ];
 
 const brandLogoMap = new Map(
