@@ -4119,6 +4119,332 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     attribution: "Marketing georgin",
   },
+  {
+    slug: "argo-hytos",
+    name: "ARGO HYTOS GMBH",
+    src: "/images/brand-logos/argo-hytos.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AArgo-Hytos_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/Argo-Hytos_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Logo: Argo-Hytos Vectorization: Marsupilami",
+  },
+  {
+    slug: "apc",
+    name: "APC",
+    src: "/images/brand-logos/apc.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AAPC-logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/APC-logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Alex43223 at English Wikipedia",
+  },
+  {
+    slug: "emag",
+    name: "EMAG",
+    src: "/images/brand-logos/emag.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AEMAG_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/EMAG_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: EMAG",
+  },
+  {
+    slug: "metabo",
+    name: "METABO",
+    src: "/images/brand-logos/metabo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMetabo_logo_(no_tagline).svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Metabo_logo_%28no_tagline%29.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Metabo",
+  },
+  {
+    slug: "loos",
+    name: "LOOS INTERNATIONAL",
+    src: "/images/brand-logos/loos.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALoos_International_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Loos_International_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Loos International",
+  },
+  {
+    slug: "chint",
+    name: "CHINT",
+    src: "/images/brand-logos/chint.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ACHINT_LOGO.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/CHINT_LOGO.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "CHINT GROUP",
+  },
+  {
+    slug: "ari-armaturen",
+    name: "ARI ARMATUREN",
+    src: "/images/brand-logos/ari-armaturen.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AARI-Armaturen.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/ARI-Armaturen.gif",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Toropovea",
+  },
+  {
+    slug: "perkins",
+    name: "PERKINS",
+    src: "/images/brand-logos/perkins.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3APerkins-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/14/Perkins-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: PERKINS",
+  },
+  {
+    slug: "buhler",
+    name: "BUHLER",
+    src: "/images/brand-logos/buhler.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_B%C3%BChler_AG.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/14/Logo_B%C3%BChler_AG.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Bühler AG",
+  },
+  {
+    slug: "behringer",
+    name: "BEHRINGER",
+    src: "/images/brand-logos/behringer.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Behringer.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/65/Logo_Behringer.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Behringer GmbH",
+  },
+  {
+    slug: "etatron",
+    name: "ETATRON",
+    src: "/images/brand-logos/etatron.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AEtatron_logo.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Etatron_logo.gif",
+    license: "GFDL",
+    licenseUrl: "http://www.gnu.org/copyleft/fdl.html",
+    attribution: "etatron",
+  },
+  {
+    slug: "carlo-gavazzi",
+    name: "CARLO GAVAZZI",
+    src: "/images/brand-logos/carlo-gavazzi.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Carlo_Gavazzi.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_Carlo_Gavazzi.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: CARLO GAVAZZI",
+  },
+  {
+    slug: "e-t-a",
+    name: "E-T-A",
+    src: "/images/brand-logos/e-t-a.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_E-T-A.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Logo_E-T-A.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "E-T-A Elektrotechnische Apparate GmbH",
+  },
+  {
+    slug: "pneumofore",
+    name: "PNEUMOFORE",
+    src: "/images/brand-logos/pneumofore.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3APneumofore_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Pneumofore_Logo.svg",
+    license: "CC BY 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    attribution: "Pneumofore S.p.A",
+  },
+  {
+    slug: "sauter",
+    name: "SAUTER",
+    src: "/images/brand-logos/sauter.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Sauter_AG.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Logo_Sauter_AG.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Sauter AG",
+  },
+  {
+    slug: "fibro",
+    name: "FIBRO",
+    src: "/images/brand-logos/fibro.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Fibro.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Logo_Fibro.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: FIBRO",
+  },
+  {
+    slug: "mwm",
+    name: "MWM",
+    src: "/images/brand-logos/mwm.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMWM_Logo_CMYK.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/MWM_Logo_CMYK.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "http://www.mwm.net",
+  },
+  {
+    slug: "allen-bradley",
+    name: "ALLEN BRADLEY",
+    src: "/images/brand-logos/allen-bradley.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AAllen-Bradley_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Allen-Bradley_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Allen-Bradley",
+  },
+  {
+    slug: "certuss",
+    name: "CERTUSS",
+    src: "/images/brand-logos/certuss.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ACERTUSS_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/CERTUSS_Logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "CERTUSS",
+  },
+  {
+    slug: "continental",
+    name: "CONTINENTAL",
+    src: "/images/brand-logos/continental.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AContinental_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Continental_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Great Brightstar",
+  },
+  {
+    slug: "emg-automation",
+    name: "EMG AUTOMATION",
+    src: "/images/brand-logos/emg-automation.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AEMG_Automation_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/EMG_Automation_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: EMG AUTOMATION",
+  },
+  {
+    slug: "belden",
+    name: "BELDEN",
+    src: "/images/brand-logos/belden.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ABelden.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Belden.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Belden, Inc.",
+  },
+  {
+    slug: "aventics",
+    name: "AVENTICS",
+    src: "/images/brand-logos/aventics.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AAventics_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Aventics_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Anzelmi",
+  },
+  {
+    slug: "atb-motors",
+    name: "ATB",
+    src: "/images/brand-logos/atb-motors.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AATB_AG_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/ATB_AG_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "ATB AG",
+  },
+  {
+    slug: "bystronic",
+    name: "BYSTRONIC",
+    src: "/images/brand-logos/bystronic.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ABystronic_Logo_rgb.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bystronic_Logo_rgb.jpg",
+    license: "CC BY-SA 2.5",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5",
+    attribution: "Bystronic",
+  },
+  {
+    slug: "camille-bauer",
+    name: "CAMILLE BAUER",
+    src: "/images/brand-logos/camille-bauer.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ACamille_Bauer_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f9/Camille_Bauer_Logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Camille Bauer Metrawatt",
+  },
+  {
+    slug: "ckd",
+    name: "CKD",
+    src: "/images/brand-logos/ckd.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ACKD_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/CKD_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: CKD",
+  },
+  {
+    slug: "dewalt",
+    name: "DEWALT",
+    src: "/images/brand-logos/dewalt.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ADeWalt_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/DeWalt_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: DEWALT",
+  },
+  {
+    slug: "eberspacher",
+    name: "EBERSPACHER",
+    src: "/images/brand-logos/eberspacher.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AEbersp%C3%A4cher_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ebersp%C3%A4cher_logo.png",
+    license: "CC0",
+    licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    attribution: "nagualdesign",
+  },
 ];
 
 const brandLogoMap = new Map(
