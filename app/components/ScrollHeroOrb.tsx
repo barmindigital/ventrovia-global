@@ -255,7 +255,7 @@ export function ScrollHeroOrb() {
       resizeCanvas();
       renderPlanet();
     };
-    planetTexture.src = "/images/hero/planet-surface-map.webp";
+    planetTexture.src = "/images/hero/planet-surface-map.webp?v=56";
 
     const resizeObserver = new ResizeObserver(resizeCanvas);
     resizeObserver.observe(canvas);
@@ -286,7 +286,7 @@ export function ScrollHeroOrb() {
         className="hero-planet-fallback"
         draggable={false}
         height={960}
-        src="/images/hero/supply-planet-transparent.webp"
+        src="/images/hero/supply-planet-transparent.webp?v=56"
         width={960}
       />
       <canvas
