@@ -5014,6 +5014,293 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Scholz at Micro-Epsilon",
   },
+  {
+    slug: "verlinde",
+    name: "VERLINDE",
+    src: "/images/brand-logos/verlinde.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_verlinde.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_verlinde.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "verlinde",
+  },
+  {
+    slug: "diosna",
+    name: "DIOSNA",
+    src: "/images/brand-logos/diosna.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ADIOSNA_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/DIOSNA_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "DIOSNA",
+  },
+  {
+    slug: "bihl-wiedemann",
+    name: "BIHL WIEDEMANN",
+    src: "/images/brand-logos/bihl-wiedemann.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Bihl%2BWiedemann.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Logo_Bihl%2BWiedemann.png",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Slang B+W",
+  },
+  {
+    slug: "esbe",
+    name: "ESBE",
+    src: "/images/brand-logos/esbe.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AESBE_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/ESBE_logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Bublies Kommunikation",
+  },
+  {
+    slug: "ist-metz-holding",
+    name: "IST METZ HOLDING",
+    src: "/images/brand-logos/ist-metz-holding.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AIST_Metz_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/IST_Metz_Logo.jpg",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    attribution: "Istmetz2013",
+  },
+  {
+    slug: "morgan-advanced-materials",
+    name: "MORGAN ADVANCED MATERIALS",
+    src: "/images/brand-logos/morgan-advanced-materials.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMorgan_Advanced_Materials.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/21/Morgan_Advanced_Materials.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: MORGAN ADVANCED MATERIALS",
+  },
+  {
+    slug: "mse-filterpressen",
+    name: "MSE FILTERPRESSEN",
+    src: "/images/brand-logos/mse-filterpressen.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMSE_Filterpressen_GmbH_-_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/MSE_Filterpressen_GmbH_-_Logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Technikfreund1213",
+  },
+  {
+    slug: "oilon",
+    name: "OILON",
+    src: "/images/brand-logos/oilon.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AOilon_logo_RGB.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Oilon_logo_RGB.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Oilon Oy",
+  },
+  {
+    slug: "sic-marking",
+    name: "SIC MARKING",
+    src: "/images/brand-logos/sic-marking.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ASIC_Marking.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/SIC_Marking.svg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Sic-marking",
+  },
+  {
+    slug: "georg-fischer",
+    name: "GEORG FISCHER",
+    src: "/images/brand-logos/georg-fischer.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AGeorg_Fischer_AG_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Georg_Fischer_AG_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: GEORG FISCHER",
+  },
+  {
+    slug: "vem-motors",
+    name: "VEM",
+    src: "/images/brand-logos/vem-motors.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AVEM_logo_2000.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/VEM_logo_2000.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "VEM-Gruppe",
+  },
+  {
+    slug: "lloyd-dynamowerke",
+    name: "LLOYD DYNAMOWERKE",
+    src: "/images/brand-logos/lloyd-dynamowerke.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALloyd_Dynamowerke_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Lloyd_Dynamowerke_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Lloyd Dynamowerke",
+  },
+  {
+    slug: "dalgakiran",
+    name: "DALGAKIRAN",
+    src: "/images/brand-logos/dalgakiran.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ANew_logo_DALGAKIRAN_2019_RGB.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/63/New_logo_DALGAKIRAN_2019_RGB.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Вячеслав Ісаєнко",
+  },
+  {
+    slug: "fafnir",
+    name: "FAFNIR",
+    src: "/images/brand-logos/fafnir.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AFAFNIR_GmbH_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/FAFNIR_GmbH_Logo.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "FAFNIR GmbH",
+  },
+  {
+    slug: "ima",
+    name: "IMA",
+    src: "/images/brand-logos/ima.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_IMA_Industria_Macchine_Automatiche.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_IMA_Industria_Macchine_Automatiche.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Ordnassela1991",
+  },
+  {
+    slug: "karcher",
+    name: "KARCHER",
+    src: "/images/brand-logos/karcher.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AK%C3%84RCHER_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6c/K%C3%84RCHER_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Kärcher",
+  },
+  {
+    slug: "kellenberger",
+    name: "KELLENBERGER",
+    src: "/images/brand-logos/kellenberger.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKellenberger_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Kellenberger_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Kellenberger Switzerland AG",
+  },
+  {
+    slug: "kemet-101875",
+    name: "KEMET",
+    src: "/images/brand-logos/kemet-101875.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKEMET_Corporation_wordmark.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/KEMET_Corporation_wordmark.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Yageo",
+  },
+  {
+    slug: "schramminc",
+    name: "SCHRAMM, INC.",
+    src: "/images/brand-logos/schramminc.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ASchramm_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Schramm_Logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Schramm1923",
+  },
+  {
+    slug: "henkel",
+    name: "HENKEL",
+    src: "/images/brand-logos/henkel.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AHenkel-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/Henkel-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: HENKEL",
+  },
+  {
+    slug: "spx-flow",
+    name: "SPX",
+    src: "/images/brand-logos/spx-flow.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_SPX_Corporation.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Logo_SPX_Corporation.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "SPX Corporation",
+  },
+  {
+    slug: "tecsis",
+    name: "TECSIS",
+    src: "/images/brand-logos/tecsis.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo-tecsis.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/Logo-tecsis.gif",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Lucas Eloi",
+  },
+  {
+    slug: "edwards",
+    name: "EDWARDS",
+    src: "/images/brand-logos/edwards.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AEdwards_Vacuum_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/Edwards_Vacuum_Logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Atlas Copco Group",
+  },
+  {
+    slug: "flygt",
+    name: "FLYGT",
+    src: "/images/brand-logos/flygt.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AFlygt-xylem-logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/Flygt-xylem-logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "The original uploader was Rvsuvarna at English Wikipedia .",
+  },
+  {
+    slug: "schubert-salzer",
+    name: "SCHUBERT & SALZER",
+    src: "/images/brand-logos/schubert-salzer.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ASchubert-Salzer-CMYK.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Schubert-Salzer-CMYK.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Schubert & Salzer Firmengruppe, Ingolstadt",
+  },
 ];
 
 const brandLogoMap = new Map(
