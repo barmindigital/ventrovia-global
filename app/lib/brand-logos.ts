@@ -5415,6 +5415,84 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
     attribution: "Lincoln Industrial",
   },
+  {
+    slug: "tsubaki",
+    name: "TSUBAKI",
+    src: "/images/brand-logos/tsubaki.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tsubakimoto_Chain_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Tsubakimoto_Chain_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Tsubakimoto Chain",
+  },
+  {
+    slug: "hbm",
+    name: "HBM",
+    src: "/images/brand-logos/hbm.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Hottinger_Baldwin_Messtechnik.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logo_Hottinger_Baldwin_Messtechnik.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Hottinger Baldwin Messtechnik (HBM)",
+  },
+  {
+    slug: "agfa-gevaert-group",
+    name: "AGFA-GEVAERT GROUP",
+    src: "/images/brand-logos/agfa-gevaert-group.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Agfa_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Agfa_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Original uploader: Vargklo; source artwork: Agfa-Gevaert",
+  },
+  {
+    slug: "broadcom-avago",
+    name: "BROADCOM / AVAGO",
+    src: "/images/brand-logos/broadcom-avago.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Broadcom_logo_(2016-present).svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Broadcom_logo_%282016-present%29.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Broadcom",
+  },
+  {
+    slug: "carel",
+    name: "CAREL",
+    src: "/images/brand-logos/carel.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Carel_Industries_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/Carel_Industries_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Carel Industries S.p.A.",
+  },
+  {
+    slug: "dayco",
+    name: "DAYCO",
+    src: "/images/brand-logos/dayco.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Dayco-Tagline-Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dayco-Tagline-Logo.png",
+    license: "CC0",
+    licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    attribution: "Enzo Rabante",
+  },
+  {
+    slug: "amazone",
+    name: "AMAZONE",
+    src: "/images/brand-logos/amazone.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Amazone_H._Dreyer_GmbH_%26_Co._KG.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Logo_wordmark_Amazone_H._Dreyer_GmbH_%26_Co._KG.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Amazone (Germany)",
+  },
 ];
 
 const brandLogoMap = new Map(
