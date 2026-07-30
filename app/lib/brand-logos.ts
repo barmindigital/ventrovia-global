@@ -5866,6 +5866,40 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Miba AG",
   },
+  {
+    slug: "hamamatsu-photonics",
+    name: "Hamamatsu Photonics",
+    src: "/images/brand-logos/hamamatsu-photonics.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hamamatsu_Photonics_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/09/Hamamatsu_Photonics_company_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Hamamatsu Photonics K.K.; extracted from Hamamatsu Photonics Annual Report (2015)",
+  },
+  {
+    slug: "trotec",
+    name: "Trotec",
+    src: "/images/brand-logos/trotec.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Trotec_Logo_2020_rgb_highres.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Trotec_Logo_2020_rgb_highres.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Trotec Laser GmbH",
+  },
+  {
+    slug: "syntegon-technology",
+    name: "Syntegon Technology",
+    src: "/images/brand-logos/syntegon-technology.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Syntegon_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Syntegon_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "SYNTEGON; extracted from the official Syntegon image brochure",
+  },
 ];
 
 const brandLogoMap = new Map(
