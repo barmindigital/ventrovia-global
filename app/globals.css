@@ -428,34 +428,63 @@ img {
 }
 
 .hero-orb {
-  --hero-scroll-rotation: 0deg;
-  --hero-scroll-scale: 1;
   position: relative;
   width: min(570px, 46vw);
   aspect-ratio: 1;
-  transform: rotateX(var(--hero-scroll-rotation)) scale(var(--hero-scroll-scale));
-  transform-origin: center 65%;
-  transform-style: preserve-3d;
-  will-change: transform;
+  isolation: isolate;
 }
 
-.hero-planet {
+.hero-orb::before {
+  position: absolute;
+  z-index: -1;
+  right: 13%;
+  bottom: 1.5%;
+  left: 13%;
+  height: 8%;
+  border-radius: 50%;
+  background: rgba(99, 41, 25, 0.23);
+  filter: blur(20px);
+  content: "";
+}
+
+.hero-orb::after {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 31% 20%, rgba(255, 246, 226, 0.3), transparent 24%),
+    radial-gradient(circle at 68% 73%, transparent 47%, rgba(56, 12, 9, 0.2) 78%, rgba(38, 8, 7, 0.34) 100%);
+  box-shadow:
+    inset -18px -20px 34px rgba(52, 10, 8, 0.22),
+    0 28px 54px rgba(104, 46, 28, 0.16);
+  pointer-events: none;
+  content: "";
+}
+
+.hero-planet-fallback,
+.hero-planet-canvas {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  mix-blend-mode: multiply;
+  border-radius: 50%;
+  object-fit: cover;
   filter: saturate(1.08) contrast(1.025);
-  animation: planet-float 5.5s ease-in-out infinite;
+  transition: opacity 0.2s ease;
 }
 
-@keyframes planet-float {
-  0%,
-  100% {
-    translate: 0 0;
-  }
-  50% {
-    translate: 0 -10px;
-  }
+.hero-planet-canvas {
+  z-index: 1;
+  opacity: 0;
+}
+
+.hero-orb[data-ready="true"] .hero-planet-canvas {
+  opacity: 1;
+}
+
+.hero-orb[data-ready="true"] .hero-planet-fallback {
+  opacity: 0;
 }
 
 .hero-badge {
@@ -487,13 +516,9 @@ img {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-orb {
-    transform: none;
-    will-change: auto;
-  }
-
-  .hero-planet {
-    animation: none;
+  .hero-planet-fallback,
+  .hero-planet-canvas {
+    transition: none;
   }
 }
 
