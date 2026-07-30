@@ -5833,6 +5833,17 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "ELKO EP, s.r.o.",
   },
+  {
+    slug: "ansaldo",
+    name: "Ansaldo Energia",
+    src: "/images/brand-logos/ansaldo.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ansaldo_Energia.svg",
+    originalFile:
+      "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ansaldo_Energia.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Ansaldo Energia S.p.A.",
+  },
 ];
 
 const brandLogoMap = new Map(
