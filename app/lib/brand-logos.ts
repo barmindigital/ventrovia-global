@@ -5799,6 +5799,17 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "STÖBER ANTRIEBSTECHNIK GmbH & Co. KG",
   },
+  {
+    slug: "jsw",
+    name: "JSW",
+    src: "/images/brand-logos/jsw.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:JSW.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/JSW.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: The Japan Steel Works, Ltd.",
+  },
 ];
 
 const brandLogoMap = new Map(
