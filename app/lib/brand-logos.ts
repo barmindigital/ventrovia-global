@@ -5810,6 +5810,29 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: The Japan Steel Works, Ltd.",
   },
+  {
+    slug: "hydroline",
+    name: "HYDROLINE",
+    src: "/images/brand-logos/hydroline.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hydroline_horizontal_blue_slogan.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Hydroline_horizontal_blue_slogan.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Hydroline",
+  },
+  {
+    slug: "elko",
+    name: "ELKO",
+    src: "/images/brand-logos/elko.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:L1_elko_ep_color_version.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/27/L1_elko_ep_color_version.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "ELKO EP, s.r.o.",
+  },
 ];
 
 const brandLogoMap = new Map(
