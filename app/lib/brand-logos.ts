@@ -5540,6 +5540,28 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Hüttenes-Albertus Chemische Werke GmbH",
   },
+  {
+    slug: "schmersal",
+    name: "SCHMERSAL GMBH",
+    src: "/images/brand-logos/schmersal.png",
+    sourcePage: "https://www.schmersal.in/press/company-logo",
+    originalFile:
+      "https://www.schmersal.in/fileadmin/content/deutschland/pics/Presse/Images/Logos/Web/schmersal_logo_rgb.png",
+    license: "Official media asset — use unmodified",
+    licenseUrl: "https://www.schmersal.in/press/company-logo",
+    attribution: "K.A. Schmersal GmbH & Co. KG",
+  },
+  {
+    slug: "donaldson",
+    name: "DONALDSON",
+    src: "/images/brand-logos/donaldson.svg",
+    sourcePage: "https://www.donaldson.com/en/branding/",
+    originalFile:
+      "https://www.donaldson.com/content/dam/donaldson/shared-assets/brands-logos/donaldson-logos/Prefered-Donaldson-Logos.zip",
+    license: "Official brand asset — use subject to brand guidelines",
+    licenseUrl: "https://www.donaldson.com/en/branding/",
+    attribution: "Donaldson Company, Inc.",
+  },
 ];
 
 const brandLogoMap = new Map(
