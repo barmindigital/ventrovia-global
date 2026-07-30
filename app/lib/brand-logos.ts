@@ -3492,6 +3492,96 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: STANLEY ENGINEERED FASTENING",
   },
+  {
+    slug: "poly-clip-system",
+    name: "POLY-CLIP SYSTEM",
+    src: "/images/brand-logos/poly-clip-system.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Poly-clip_System-Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0b/Poly-clip_System-Logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Poly-clip System",
+  },
+  {
+    slug: "rosenberg-ventilatoren-gmbh",
+    name: "ROSENBERG VENTILATOREN GMBH",
+    src: "/images/brand-logos/rosenberg-ventilatoren-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Rosenberg_Ventilatoren_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Rosenberg_Ventilatoren_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: ROSENBERG VENTILATOREN GMBH",
+  },
+  {
+    slug: "sew-usocome",
+    name: "SEW USOCOME",
+    src: "/images/brand-logos/sew-usocome.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_SEW-USOCOME.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Logo_SEW-USOCOME.jpg",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    attribution: "SEW-Usocome",
+  },
+  {
+    slug: "fmc",
+    name: "TECHNIPFMC",
+    src: "/images/brand-logos/fmc.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:TechnipFMC_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/TechnipFMC_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "TechnipFMC",
+  },
+  {
+    slug: "tox-pressotechnik",
+    name: "TOX PRESSOTECHNIK",
+    src: "/images/brand-logos/tox-pressotechnik.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:TOX%C2%AE_PRESSOTECHNIK_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/TOX%C2%AE_PRESSOTECHNIK_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "NachISO",
+  },
+  {
+    slug: "wafios",
+    name: "WAFIOS",
+    src: "/images/brand-logos/wafios.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Wafios_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Wafios_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: WAFIOS",
+  },
+  {
+    slug: "waters",
+    name: "WATERS",
+    src: "/images/brand-logos/waters.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Waters_Corporation_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Waters_Corporation_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Waters Corporation",
+  },
+  {
+    slug: "werma",
+    name: "WERMA",
+    src: "/images/brand-logos/werma.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:WERMA_LOGO.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cb/WERMA_LOGO.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "WERMA",
+  },
 ];
 
 const brandLogoMap = new Map(
