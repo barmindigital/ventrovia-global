@@ -5662,6 +5662,120 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: Vetter GmbH",
   },
+  {
+    slug: "speck-pumpen",
+    name: "SPECK PUMPEN",
+    src: "/images/brand-logos/speck-pumpen.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Speck_Pumpen_red_grey_rgb_100mm_144dpi.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bb/Logo_Speck_Pumpen_red_grey_rgb_100mm_144dpi.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Tckrueger",
+  },
+  {
+    slug: "garlock",
+    name: "GARLOCK",
+    src: "/images/brand-logos/garlock.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:The_Offical_Garlock_Sealing_Technologies_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Offical_Garlock_Sealing_Technologies_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Aflagg43",
+  },
+  {
+    slug: "busch-vacuum",
+    name: "BUSCH VACUUM",
+    src: "/images/brand-logos/busch-vacuum.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Busch_Vacuum_Solutions_Logo_2020.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/Busch_Vacuum_Solutions_Logo_2020.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Busch Dienste GmbH",
+  },
+  {
+    slug: "saacke",
+    name: "SAACKE",
+    src: "/images/brand-logos/saacke.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Saacke_(Unternehmen)_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Saacke_%28Unternehmen%29_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: SAACKE",
+  },
+  {
+    slug: "rohm",
+    name: "RÖHM",
+    src: "/images/brand-logos/rohm.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:R%C3%B6hm_GmbH_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/62/R%C3%B6hm_GmbH_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: RÖHM",
+  },
+  {
+    slug: "aaf-international",
+    name: "AAF INTERNATIONAL",
+    src: "/images/brand-logos/aaf-international.webp",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:AAF-Logo-White.webp",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/AAF-Logo-White.webp",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "De1101",
+  },
+  {
+    slug: "eriks",
+    name: "ERIKS",
+    src: "/images/brand-logos/eriks.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:ERIKS_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/14/ERIKS_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "ERIKS NV",
+  },
+  {
+    slug: "kessler--co",
+    name: "KESSLER + CO",
+    src: "/images/brand-logos/kessler--co.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kessler.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Kessler.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Kessler + Co. GmbH & Co. KG",
+  },
+  {
+    slug: "jbc",
+    name: "JBC",
+    src: "/images/brand-logos/jbc.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Jbc-logo-2016.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/Jbc-logo-2016.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "JBC",
+  },
+  {
+    slug: "ult",
+    name: "ULT",
+    src: "/images/brand-logos/ult.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_ULT_AG.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/Logo_ULT_AG.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Besitz der ULT AG",
+  },
 ];
 
 const brandLogoMap = new Map(
