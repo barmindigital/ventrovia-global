@@ -5301,6 +5301,29 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     attribution: "Schubert & Salzer Firmengruppe, Ingolstadt",
   },
+  {
+    slug: "azo",
+    name: "AZO",
+    src: "/images/brand-logos/azo.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:AZO-GROUP-Balken-RGB-20.09.2013.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/AZO-GROUP-Balken-RGB-20.09.2013.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "AZO GmbH + Co. KG, Osterburken",
+  },
+  {
+    slug: "hydroscand",
+    name: "HYDROSCAND",
+    src: "/images/brand-logos/hydroscand.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hydroscand_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Hydroscand_logo.jpg",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    attribution: "Hydroscands marketing appartment",
+  },
 ];
 
 const brandLogoMap = new Map(
