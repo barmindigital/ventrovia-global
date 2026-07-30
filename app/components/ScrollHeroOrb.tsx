@@ -52,10 +52,12 @@ export function ScrollHeroOrb() {
       <Image
         alt="Объёмная красная планета — символ глобальных поставок"
         className="hero-planet"
+        draggable={false}
         height={1100}
         priority
         sizes="(max-width: 820px) 88vw, 44vw"
         src="/images/hero/supply-planet.webp"
+        unoptimized
         width={1100}
       />
     </div>
