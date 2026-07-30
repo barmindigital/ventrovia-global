@@ -4733,6 +4733,287 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     attribution: "Agaveweb",
   },
+  {
+    slug: "podem",
+    name: "PODEM",
+    src: "/images/brand-logos/podem.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Podem.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Logo_Podem.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Fer1997",
+  },
+  {
+    slug: "oms-group",
+    name: "OMS GROUP",
+    src: "/images/brand-logos/oms-group.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AOMS-Group_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b2/OMS-Group_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "OMS-Group",
+  },
+  {
+    slug: "prysmian",
+    name: "PRYSMIAN",
+    src: "/images/brand-logos/prysmian.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3APrysmian_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Prysmian_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Prysmian S.p.A.",
+  },
+  {
+    slug: "schaffner",
+    name: "SCHAFFNER",
+    src: "/images/brand-logos/schaffner.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Schaffner.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/Logo_Schaffner.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: SCHAFFNER",
+  },
+  {
+    slug: "selectron",
+    name: "SELECTRON",
+    src: "/images/brand-logos/selectron.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Selectron.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/Logo_Selectron.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Selectron",
+  },
+  {
+    slug: "shimadzu",
+    name: "SHIMADZU",
+    src: "/images/brand-logos/shimadzu.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AShimadzu_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f6/Shimadzu_logo.svg",
+    license: "CC BY 2.5",
+    licenseUrl: "https://creativecommons.org/licenses/by/2.5",
+    attribution: "SHIMADZU CORPORATION",
+  },
+  {
+    slug: "sml-maschinengesellschaft",
+    name: "SML MASCHINENGESELLSCHAFT",
+    src: "/images/brand-logos/sml-maschinengesellschaft.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ASML_Maschinengesellschaft_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fe/SML_Maschinengesellschaft_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "SML Maschinengesellschaft mbH",
+  },
+  {
+    slug: "swarco",
+    name: "SWARCO",
+    src: "/images/brand-logos/swarco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ASwarco_Holding_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e7/Swarco_Holding_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: SWARCO",
+  },
+  {
+    slug: "sylvania",
+    name: "SYLVANIA",
+    src: "/images/brand-logos/sylvania.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ASylvania_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sylvania_logo.png",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Creator:External Agency",
+  },
+  {
+    slug: "stabilus",
+    name: "STABILUS",
+    src: "/images/brand-logos/stabilus.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AStabilus.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Stabilus.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Stabilus SE",
+  },
+  {
+    slug: "tadano",
+    name: "TADANO",
+    src: "/images/brand-logos/tadano.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ATadano_company_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Tadano_company_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Tadano Ltd.",
+  },
+  {
+    slug: "tente",
+    name: "TENTE",
+    src: "/images/brand-logos/tente.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AOfficial_Logo_TENTE_2013.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Official_Logo_TENTE_2013.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "TENTE International GmbH",
+  },
+  {
+    slug: "tt-electronics",
+    name: "TT ELECTRONICS PLC",
+    src: "/images/brand-logos/tt-electronics.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ATT_Electronics_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/TT_Electronics_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "TT Electronics Plc",
+  },
+  {
+    slug: "telemecanique",
+    name: "TELEMECANIQUE",
+    src: "/images/brand-logos/telemecanique.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ATelemecanique_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Telemecanique_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: TELEMECANIQUE",
+  },
+  {
+    slug: "tgw",
+    name: "TGW",
+    src: "/images/brand-logos/tgw.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ATGW_Logo_RGB.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/TGW_Logo_RGB.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "www.tgw-group.com",
+  },
+  {
+    slug: "thiele",
+    name: "THIELE",
+    src: "/images/brand-logos/thiele.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ATHIELE_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/THIELE_Logo.png",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Thiele GmbH &Co. KG",
+  },
+  {
+    slug: "videojet",
+    name: "VIDEOJET",
+    src: "/images/brand-logos/videojet.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AVideojet-logo-blue-black-rgb.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Videojet-logo-blue-black-rgb.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "DL548",
+  },
+  {
+    slug: "wohner",
+    name: "WOHNER",
+    src: "/images/brand-logos/wohner.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_w%C3%B6hner.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_w%C3%B6hner.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Wöhner",
+  },
+  {
+    slug: "howden",
+    name: "HOWDEN",
+    src: "/images/brand-logos/howden.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Howden.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Howden.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "BernDstein",
+  },
+  {
+    slug: "zimmer-gmbh",
+    name: "ZIMMER GROUP",
+    src: "/images/brand-logos/zimmer-gmbh.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AZimmer_Group.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/75/Zimmer_Group.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: ZIMMER GROUP",
+  },
+  {
+    slug: "dresser-rand-101624",
+    name: "DRESSER RAND",
+    src: "/images/brand-logos/dresser-rand-101624.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ADresser-Rand_Group_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Dresser-Rand_Group_Logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Dresser-Rand Corporation",
+  },
+  {
+    slug: "ika",
+    name: "IKA",
+    src: "/images/brand-logos/ika.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AIKA_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/65/IKA_Logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "IKA Werke",
+  },
+  {
+    slug: "grindex",
+    name: "GRINDEX",
+    src: "/images/brand-logos/grindex.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_Grindex.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_Grindex.gif",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Grindex",
+  },
+  {
+    slug: "harmonic-drive",
+    name: "HARMONIC DRIVE",
+    src: "/images/brand-logos/harmonic-drive.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AHarmonic_Drive_AG_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Harmonic_Drive_AG_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: HARMONIC DRIVE",
+  },
+  {
+    slug: "micro-epsilon-messtechnik",
+    name: "MICRO-EPSILON MESSTECHNIK",
+    src: "/images/brand-logos/micro-epsilon-messtechnik.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMicro-Epsilon_Messtechnik_Logo_1968.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Micro-Epsilon_Messtechnik_Logo_1968.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Scholz at Micro-Epsilon",
+  },
 ];
 
 const brandLogoMap = new Map(
