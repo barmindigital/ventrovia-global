@@ -3660,6 +3660,96 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "Source artwork: LAPP KABEL",
   },
+  {
+    slug: "kral",
+    name: "KRAL",
+    src: "/images/brand-logos/kral.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KRAL_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/KRAL_logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "TheUnitedStatesOfEurope",
+  },
+  {
+    slug: "firestone",
+    name: "FIRESTONE",
+    src: "/images/brand-logos/firestone.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Firestone.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Firestone.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Firestone",
+  },
+  {
+    slug: "messer-cutting-systems",
+    name: "MESSER CUTTING SYSTEMS",
+    src: "/images/brand-logos/messer-cutting-systems.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Messer_Cutting_Systems_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5d/Messer_Cutting_Systems_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: MESSER CUTTING SYSTEMS",
+  },
+  {
+    slug: "friatec",
+    name: "FRIATEC",
+    src: "/images/brand-logos/friatec.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:FRIATEC_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/FRIATEC_Logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Webmaster FRIATEC",
+  },
+  {
+    slug: "hauni-maschinenbau",
+    name: "HAUNI MASCHINENBAU",
+    src: "/images/brand-logos/hauni-maschinenbau.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Hauni_Maschinenbau_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Hauni_Maschinenbau_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: HAUNI MASCHINENBAU",
+  },
+  {
+    slug: "kba",
+    name: "KBA",
+    src: "/images/brand-logos/kba.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:KBA-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/KBA-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: KBA",
+  },
+  {
+    slug: "cnh-industrial",
+    name: "CNH INDUSTRIAL",
+    src: "/images/brand-logos/cnh-industrial.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:CNH_Industrial.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/CNH_Industrial.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: CNH INDUSTRIAL",
+  },
+  {
+    slug: "dow-corning",
+    name: "DOW CORNING",
+    src: "/images/brand-logos/dow-corning.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Dow_Corning_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dow_Corning_logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Dow Corning",
+  },
 ];
 
 const brandLogoMap = new Map(
