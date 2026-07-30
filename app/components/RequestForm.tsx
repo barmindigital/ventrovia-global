@@ -2,6 +2,8 @@
 
 import { FormEvent, useState } from "react";
 
+const REQUEST_DRAFT_KEY = "industria-postavok-request-draft";
+
 export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }) {
   const [feedback, setFeedback] = useState("");
   const [sending, setSending] = useState(false);
@@ -43,7 +45,7 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
       };
 
       if (response.ok && result.ok) {
-        localStorage.removeItem("promsnab-request-draft");
+        localStorage.removeItem(REQUEST_DRAFT_KEY);
         setFeedback(
           result.message ||
             "Заявка отправлена. Мы свяжемся с вами по указанному контакту.",
@@ -53,7 +55,7 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
       }
 
       await navigator.clipboard.writeText(text).catch(() => undefined);
-      localStorage.setItem("promsnab-request-draft", text);
+      localStorage.setItem(REQUEST_DRAFT_KEY, text);
       setFeedback(
         `${result.message || "Почтовый канал временно недоступен"} Открываем резервное письмо на sales@industriapostavok.ru.`,
       );
@@ -61,7 +63,7 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
         "Запрос на подбор оборудования",
       )}&body=${encodeURIComponent(text)}`;
     } catch {
-      localStorage.setItem("promsnab-request-draft", text);
+      localStorage.setItem(REQUEST_DRAFT_KEY, text);
       setFeedback(
         "Заявка сохранена. Открываем резервное письмо на sales@industriapostavok.ru.",
       );

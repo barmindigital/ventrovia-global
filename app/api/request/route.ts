@@ -4,6 +4,8 @@ const REQUEST_EMAIL =
   process.env.REQUEST_TO_EMAIL || "sales@industriapostavok.ru";
 const FROM_EMAIL =
   process.env.REQUEST_FROM_EMAIL || "Заявки сайта <requests@industriapostavok.ru>";
+const MAX_REQUEST_BYTES = 32_000;
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 type RequestPayload = {
   name?: unknown;
@@ -28,6 +30,22 @@ function escapeHtml(value: string) {
 }
 
 export async function POST(request: Request) {
+  const contentType = request.headers.get("content-type")?.toLowerCase() ?? "";
+  if (!contentType.startsWith("application/json")) {
+    return NextResponse.json(
+      { ok: false, message: "Ожидается заявка в формате JSON." },
+      { status: 415 },
+    );
+  }
+
+  const contentLength = Number(request.headers.get("content-length") ?? 0);
+  if (Number.isFinite(contentLength) && contentLength > MAX_REQUEST_BYTES) {
+    return NextResponse.json(
+      { ok: false, message: "Размер заявки превышает допустимый." },
+      { status: 413 },
+    );
+  }
+
   let payload: RequestPayload;
   try {
     payload = (await request.json()) as RequestPayload;
@@ -97,21 +115,38 @@ export async function POST(request: Request) {
     </table>
   `;
 
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from: FROM_EMAIL,
-      to: [REQUEST_EMAIL],
-      reply_to: fields.contact.includes("@") ? fields.contact : undefined,
-      subject: `Заявка: ${fields.product.slice(0, 90)}`,
-      text,
-      html,
-    }),
-  });
+  let response: Response;
+  try {
+    response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: FROM_EMAIL,
+        to: [REQUEST_EMAIL],
+        reply_to: EMAIL_PATTERN.test(fields.contact)
+          ? fields.contact
+          : undefined,
+        subject: `Заявка: ${fields.product
+          .replace(/[\r\n]+/g, " ")
+          .slice(0, 90)}`,
+        text,
+        html,
+      }),
+      signal: AbortSignal.timeout(10_000),
+    });
+  } catch {
+    return NextResponse.json(
+      {
+        ok: false,
+        fallback: true,
+        message: "Почтовый сервис временно недоступен.",
+      },
+      { status: 502 },
+    );
+  }
 
   if (!response.ok) {
     return NextResponse.json(
