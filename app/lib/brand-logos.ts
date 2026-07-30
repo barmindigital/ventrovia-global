@@ -4445,6 +4445,294 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     attribution: "nagualdesign",
   },
+  {
+    slug: "extrude-hone",
+    name: "EXTRUDE HONE",
+    src: "/images/brand-logos/extrude-hone.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AExtrude_Hone_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/80/Extrude_Hone_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Extrude Hone",
+  },
+  {
+    slug: "fagor",
+    name: "FAGOR",
+    src: "/images/brand-logos/fagor.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALOGO_FAGOR.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/LOGO_FAGOR.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Katharina1501",
+  },
+  {
+    slug: "franke",
+    name: "FRANKE",
+    src: "/images/brand-logos/franke.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AFranke_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Franke_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Franke Holding AG",
+  },
+  {
+    slug: "freudenberg",
+    name: "FREUDENBERG",
+    src: "/images/brand-logos/freudenberg.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Freudenberg.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_Freudenberg.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "FST-Corporate",
+  },
+  {
+    slug: "haco",
+    name: "HACO",
+    src: "/images/brand-logos/haco.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AHaco_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Haco_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: HACO",
+  },
+  {
+    slug: "ggb",
+    name: "GGB",
+    src: "/images/brand-logos/ggb.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AGGB_Logo_2019_without_EnPro_tagline_(1).jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/GGB_Logo_2019_without_EnPro_tagline_%281%29.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "GGB",
+  },
+  {
+    slug: "hydro-vacuum",
+    name: "HYDRO-VACUUM",
+    src: "/images/brand-logos/hydro-vacuum.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AHydro_Vacuum_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hydro_Vacuum_logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Magnum045",
+  },
+  {
+    slug: "kalmar",
+    name: "KALMAR",
+    src: "/images/brand-logos/kalmar.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKalmar_Logo_2024.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/Kalmar_Logo_2024.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Kalmar Oyj",
+  },
+  {
+    slug: "kraussmaffei",
+    name: "KRAUSSMAFFEI",
+    src: "/images/brand-logos/kraussmaffei.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKraussMaffei_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/KraussMaffei_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "LiMaPl",
+  },
+  {
+    slug: "krohne",
+    name: "KROHNE",
+    src: "/images/brand-logos/krohne.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Krohne.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Krohne.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "KROHNE Messtechnik GmbH",
+  },
+  {
+    slug: "junker",
+    name: "JUNKER GROUP",
+    src: "/images/brand-logos/junker.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AJunker_Logo_2015.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Junker_Logo_2015.jpg",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Junker Maschinenfabrik GmbH bzw. Wolf Lux (Freigabeformulare liegen vor)",
+  },
+  {
+    slug: "kanthal",
+    name: "KANTHAL",
+    src: "/images/brand-logos/kanthal.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKanthal.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/Kanthal.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "FOEK",
+  },
+  {
+    slug: "knorr-bremse",
+    name: "KNORR BREMSE",
+    src: "/images/brand-logos/knorr-bremse.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKnorr-Bremse_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/Knorr-Bremse_logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "MarilyneB",
+  },
+  {
+    slug: "koncar",
+    name: "KONCAR",
+    src: "/images/brand-logos/koncar.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AKon%C4%8Dar_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kon%C4%8Dar_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "KONČAR Group , vectorisation by Vhorvat This W3C-unspecified vector image was created with Inkscape .",
+  },
+  {
+    slug: "korting-hannover",
+    name: "KORTING HANNOVER",
+    src: "/images/brand-logos/korting-hannover.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AK%C3%B6rting_Hannover_Logo_2020.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1b/K%C3%B6rting_Hannover_Logo_2020.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Koerting Hannover",
+  },
+  {
+    slug: "landis-gyr",
+    name: "LANDIS GYR",
+    src: "/images/brand-logos/landis-gyr.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo_Landis%2BGyr.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logo_Landis%2BGyr.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: LANDIS GYR",
+  },
+  {
+    slug: "mahr",
+    name: "MAHR",
+    src: "/images/brand-logos/mahr.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMahr_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/Mahr_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: MAHR",
+  },
+  {
+    slug: "marel",
+    name: "MAREL",
+    src: "/images/brand-logos/marel.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMarel_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Marel_Logo.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Grétar Berg Henrysson",
+  },
+  {
+    slug: "leistritz",
+    name: "LEISTRITZ",
+    src: "/images/brand-logos/leistritz.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALeistritz_Logo_new.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Leistritz_Logo_new.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Leistritz",
+  },
+  {
+    slug: "lisec",
+    name: "LISEC",
+    src: "/images/brand-logos/lisec.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALiSEC_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/LiSEC_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: LISEC",
+  },
+  {
+    slug: "mayser",
+    name: "MAYSER",
+    src: "/images/brand-logos/mayser.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMayser_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Mayser_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Mayser GmbH & Co. KG",
+  },
+  {
+    slug: "multivac",
+    name: "MULTIVAC",
+    src: "/images/brand-logos/multivac.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AMULTIVAC_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6f/MULTIVAC_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "MULTIVAC",
+  },
+  {
+    slug: "nexans",
+    name: "NEXANS",
+    src: "/images/brand-logos/nexans.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ANexans_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Nexans_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Nexans SA",
+  },
+  {
+    slug: "auma",
+    name: "AUMA",
+    src: "/images/brand-logos/auma.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3AAUMA_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/AUMA_Logo.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "AUMA",
+  },
+  {
+    slug: "ave",
+    name: "AVE",
+    src: "/images/brand-logos/ave.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File%3ALogo-ave_2.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo-ave_2.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Agaveweb",
+  },
 ];
 
 const brandLogoMap = new Map(
