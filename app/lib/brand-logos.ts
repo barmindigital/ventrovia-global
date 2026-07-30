@@ -3806,6 +3806,96 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "MR Maschinenfabrik Reinhausen GmbH",
   },
+  {
+    slug: "ukf",
+    name: "UKF GMBH",
+    src: "/images/brand-logos/ukf.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:UKF-LOGO.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/UKF-LOGO.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "UKF",
+  },
+  {
+    slug: "amk",
+    name: "AMK",
+    src: "/images/brand-logos/amk.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:AMK.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/AMK.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: AMK",
+  },
+  {
+    slug: "ariel-corporation",
+    name: "ARIEL CORPORATION",
+    src: "/images/brand-logos/ariel-corporation.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Ariel-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ariel-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: ARIEL CORPORATION",
+  },
+  {
+    slug: "getinge",
+    name: "GETINGE",
+    src: "/images/brand-logos/getinge.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Getinge.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Getinge.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Getinge",
+  },
+  {
+    slug: "autonics",
+    name: "AUTONICS",
+    src: "/images/brand-logos/autonics.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Autonics_logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/Autonics_logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Autonics Corporation",
+  },
+  {
+    slug: "autronica",
+    name: "AUTRONICA",
+    src: "/images/brand-logos/autronica.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Autronica.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_Autronica.gif",
+    license: "CC BY-SA 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "Autronica",
+  },
+  {
+    slug: "inotec",
+    name: "INOTEC",
+    src: "/images/brand-logos/inotec.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Inotec.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/Logo_Inotec.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Unknown photographer",
+  },
+  {
+    slug: "tapflo",
+    name: "TAPFLO",
+    src: "/images/brand-logos/tapflo.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Tapflo_Group_Logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tapflo_Group_Logo.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Aleksander Ma",
+  },
 ];
 
 const brandLogoMap = new Map(
