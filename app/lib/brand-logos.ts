@@ -5776,6 +5776,29 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     attribution: "Besitz der ULT AG",
   },
+  {
+    slug: "kiesel",
+    name: "KIESEL",
+    src: "/images/brand-logos/kiesel.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Kiesel_Logo_NEU.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Kiesel_Logo_NEU.svg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Kiesel GmbH E-Commerce Marketing",
+  },
+  {
+    slug: "stober",
+    name: "STOBER ANTRIEBSTECHNIK",
+    src: "/images/brand-logos/stober.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:STOEBER-antriebstechnik.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/STOEBER-antriebstechnik.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "STÖBER ANTRIEBSTECHNIK GmbH & Co. KG",
+  },
 ];
 
 const brandLogoMap = new Map(
