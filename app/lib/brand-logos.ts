@@ -5900,6 +5900,28 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "SYNTEGON; extracted from the official Syntegon image brochure",
   },
+  {
+    slug: "moba",
+    name: "MOBA",
+    src: "/images/brand-logos/moba.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Moba_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/Moba_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Moba B.V.; source: moba.net",
+  },
+  {
+    slug: "pago",
+    name: "PAGO",
+    src: "/images/brand-logos/pago.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Pago.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pago.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Pago, Grabs; source: pago.com",
+  },
 ];
 
 const brandLogoMap = new Map(
