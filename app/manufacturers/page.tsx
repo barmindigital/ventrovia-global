@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
-import { FULL_MANUFACTURER_COUNT } from "../generated/full-catalog";
-import { formatCount } from "../lib/catalog-data";
 
 export const metadata: Metadata = {
   title: "Производители промышленного оборудования",
   description:
-    "Каталог производителей промышленного оборудования и комплектующих. Поиск бренда и подбор позиции по точной маркировке.",
+    "Более 2 800 производителей промышленного оборудования и комплектующих. Поиск бренда и подбор позиции по точной маркировке.",
   alternates: { canonical: "/manufacturers" },
   openGraph: { url: "/manufacturers" },
 };
@@ -31,7 +29,7 @@ export default function ManufacturersPage() {
               </p>
             </div>
             <div className="page-count">
-              <strong>{formatCount(FULL_MANUFACTURER_COUNT)}</strong>
+              <strong>Более 2 800</strong>
               <span>производителей в базе</span>
             </div>
           </div>

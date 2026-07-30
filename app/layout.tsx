@@ -3,6 +3,7 @@ import "@fontsource-variable/onest";
 import "./globals.css";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
+import { ContactDock } from "./components/ContactDock";
 import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
 
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Индустрия поставок",
   },
   description:
-    "Подбор промышленного оборудования и комплектующих по модели, артикулу и производителю. Каталог из 156 917 товарных позиций.",
+    "Подбор промышленного оборудования и комплектующих по модели, артикулу и производителю. Более 156 000 товарных позиций.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Индустрия поставок",
     title: "Индустрия поставок — промышленное оборудование",
     description:
-      "156 917 товарных позиций, 2 806 производителей и подбор по точному артикулу.",
+      "Более 156 000 товарных позиций, более 2 800 производителей и подбор по точному артикулу.",
     images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: {
@@ -34,6 +35,9 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
+  verification: process.env.YANDEX_WEBMASTER_VERIFICATION
+    ? { yandex: process.env.YANDEX_WEBMASTER_VERIFICATION }
+    : undefined,
 };
 
 const organizationJsonLd = {
@@ -79,6 +83,7 @@ export default function RootLayout({
         <SiteHeader />
         <main id="content">{children}</main>
         <SiteFooter />
+        <ContactDock />
         <script
           dangerouslySetInnerHTML={{
             __html: serializeJsonLd(organizationJsonLd),

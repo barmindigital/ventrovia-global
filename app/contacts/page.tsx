@@ -5,7 +5,7 @@ import { RequestForm } from "../components/RequestForm";
 export const metadata: Metadata = {
   title: "Контакты и запрос на подбор оборудования",
   description:
-    "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 495 698 60 76, e-mail sales@vitrologistics.com.",
+    "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 495 698 60 76, e-mail sales@industriapostavok.ru.",
   alternates: { canonical: "/contacts" },
   openGraph: { url: "/contacts" },
 };
@@ -36,7 +36,7 @@ export default async function ContactsPage({ searchParams }: ContactsPageProps) 
           <h2>Свяжитесь с нами</h2>
           <div className="contact-lines">
             <a href="tel:+74956986076">+7 495 698 60 76</a>
-            <a href="mailto:sales@vitrologistics.com">sales@vitrologistics.com</a>
+            <a href="mailto:sales@industriapostavok.ru">sales@industriapostavok.ru</a>
           </div>
           <p>
             Для подбора достаточно модели, артикула, фотографии шильдика или

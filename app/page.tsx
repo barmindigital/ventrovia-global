@@ -1,15 +1,40 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ProductArt } from "./components/ProductArt";
+import { RevealOnScroll } from "./components/RevealOnScroll";
 import { ScrollHeroOrb } from "./components/ScrollHeroOrb";
 import {
   categories,
   categoryImageBySlug,
-  manufacturers,
   products,
   productImage,
   formatCount,
 } from "./lib/catalog-data";
+import { brandLogoBySlug } from "./lib/brand-logos";
+
+const featuredManufacturers = [
+  { slug: "abb", name: "ABB" },
+  { slug: "siemens", name: "Siemens" },
+  { slug: "schneider-electric", name: "Schneider Electric" },
+  { slug: "bosch-rexroth", name: "Bosch Rexroth" },
+  { slug: "festo", name: "Festo" },
+  { slug: "skf", name: "SKF" },
+  { slug: "danfoss", name: "Danfoss" },
+  { slug: "honeywell", name: "Honeywell" },
+  { slug: "emerson-industrial", name: "Emerson" },
+  { slug: "yokogawa", name: "Yokogawa" },
+  { slug: "endress-hauser", name: "Endress+Hauser" },
+  { slug: "parker-hannifin-gmbh", name: "Parker Hannifin" },
+  { slug: "atlas-copco", name: "Atlas Copco" },
+  { slug: "grundfos", name: "Grundfos" },
+  { slug: "sew-eurodrive", name: "SEW-Eurodrive" },
+  { slug: "fanuc", name: "FANUC" },
+  { slug: "yaskawa", name: "Yaskawa" },
+  { slug: "rockwell-automation", name: "Rockwell Automation" },
+  { slug: "weg", name: "WEG" },
+  { slug: "sick-ag", name: "SICK" },
+];
 
 export const metadata: Metadata = {
   title: "Глобальные промышленные закупки и оборудование",
@@ -58,11 +83,11 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="hero-visual" aria-label="Абстрактная композиция в фирменных цветах">
+          <div className="hero-visual" aria-label="Объёмная планета в фирменных цветах">
             <ScrollHeroOrb />
             <div className="hero-badge">
-              <span>Точный поиск</span>
-              <strong>по 115 370 артикулам</strong>
+              <span>Каталог оборудования</span>
+              <strong>Более 156 000 позиций</strong>
             </div>
           </div>
         </div>
@@ -79,10 +104,10 @@ export default function Home() {
 
       <section className="stats-bar" aria-label="Каталог в цифрах">
         <div className="shell stats-grid">
-          <div><strong>156 917</strong><span>товарных позиций</span></div>
-          <div><strong>2 806</strong><span>производителей</span></div>
+          <div><strong>Более 156 000</strong><span>товарных позиций</span></div>
+          <div><strong>Более 2 800</strong><span>производителей</span></div>
           <div><strong>28</strong><span>направлений</span></div>
-          <div><strong>115 370</strong><span>точных идентификаторов</span></div>
+          <div><strong>Под запрос</strong><span>подбор по точной маркировке</span></div>
         </div>
       </section>
 
@@ -140,20 +165,22 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="business-stats" aria-label="Компания в цифрах">
+        <RevealOnScroll
+          className="business-stats"
+          stagger
+        >
           <div><strong>10+</strong><span>лет на рынке промышленного оборудования</span></div>
           <div><strong>200</strong><span>тендеров в день</span></div>
           <div><strong>30%</strong><span>маржинальности по сделкам</span></div>
           <div><strong>13</strong><span>сделок в квартал</span></div>
           <div><strong>60+</strong><span>стран мира, в которых мы работаем</span></div>
-        </div>
+        </RevealOnScroll>
       </section>
 
       <section className="section section-tint">
         <div className="shell">
           <div className="section-heading">
             <div>
-              <p className="eyebrow">Проверенные данные</p>
               <h2>Популярные позиции</h2>
             </div>
             <Link className="text-link" href="/catalog">
@@ -207,15 +234,30 @@ export default function Home() {
           </Link>
         </div>
         <div className="brand-cloud">
-          <Link className="brand-chip brand-featured" href="/manufacturers/abb">ABB</Link>
-          {manufacturers.slice(0, 7).map((brand) => (
-            <Link className="brand-chip" href={`/manufacturers/${brand.slug}`} key={brand.slug}>
-              {brand.name}
-            </Link>
-          ))}
-          {["Kaeser", "Honeywell", "Andritz", "JOEST", "Flottweg", "Bronswerk", "Auma", "Volpak", "RTP POWER"].map((brand) => (
-            <span className="brand-chip" key={brand}>{brand}</span>
-          ))}
+          {featuredManufacturers.map((brand) => {
+            const logo = brandLogoBySlug(brand.slug);
+            return (
+              <Link
+                className="brand-chip brand-chip-logo"
+                href={`/manufacturers/${brand.slug}`}
+                key={brand.slug}
+              >
+                {logo ? (
+                  <Image
+                    alt={`${brand.name} — логотип производителя`}
+                    height={72}
+                    loading="lazy"
+                    src={logo.src}
+                    unoptimized
+                    width={180}
+                  />
+                ) : (
+                  <strong>{brand.name}</strong>
+                )}
+                <span>{brand.name}</span>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -231,12 +273,12 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="projects-grid">
+          <RevealOnScroll className="projects-grid" stagger>
             <article><span>Энергетика</span><h3>АО «Росатом Возобновляемая энергия»</h3><p>Ветроэнергетика и возобновляемые источники энергии.</p></article>
             <article><span>Инфраструктура</span><h3>ГУП «Мосводосток»</h3><p>Водоснабжение и водоотведение Москвы.</p></article>
             <article><span>Авиация</span><h3>ОАО «Омский аэропорт»</h3><p>Авиационная инфраструктура и наземное обслуживание.</p></article>
             <article><span>Медицина</span><h3>ФГАУ «НМИЦ ЛРЦ Минздрава России»</h3><p>Федеральный медицинский исследовательский центр.</p></article>
-          </div>
+          </RevealOnScroll>
         </div>
       </section>
 

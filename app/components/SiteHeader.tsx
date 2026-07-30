@@ -10,7 +10,6 @@ export function SiteHeader() {
           </span>
           <span className="brand-copy">
             <strong>ИНДУСТРИЯ ПОСТАВОК</strong>
-            <small>Промышленная комплектация</small>
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Основная навигация">
@@ -27,6 +26,7 @@ export function SiteHeader() {
             <Link href="/manufacturers">Производители</Link>
             <Link href="/about">О компании</Link>
             <Link href="/contacts">Контакты</Link>
+            <Link href="/contacts">Отправить запрос</Link>
           </nav>
         </details>
       </div>

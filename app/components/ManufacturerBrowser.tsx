@@ -9,7 +9,7 @@ import { brandInitials, brandWordmarkTone } from "../lib/brand-wordmark";
 
 export function ManufacturerBrowser() {
   const [query, setQuery] = useState("");
-  const [visibleCount, setVisibleCount] = useState(60);
+  const [visibleCount, setVisibleCount] = useState(62);
   const filtered = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase("ru");
     return manufacturers.filter((manufacturer) => {
@@ -20,6 +20,9 @@ export function ManufacturerBrowser() {
     });
   }, [query]);
   const visibleManufacturers = filtered.slice(0, visibleCount);
+  const shownCount =
+    Math.min(visibleCount, filtered.length) + (query ? 0 : 1);
+  const totalCount = query ? filtered.length : manufacturers.length;
 
   return (
     <>
@@ -30,8 +33,9 @@ export function ManufacturerBrowser() {
         <input
           id="manufacturer-query"
           onChange={(event) => {
-            setQuery(event.target.value);
-            setVisibleCount(60);
+            const nextQuery = event.target.value;
+            setQuery(nextQuery);
+            setVisibleCount(nextQuery ? 63 : 62);
           }}
           placeholder="Найти производителя"
           type="search"
@@ -109,14 +113,13 @@ export function ManufacturerBrowser() {
         <div className="manufacturer-more">
           <button
             className="button button-outline"
-            onClick={() => setVisibleCount((count) => count + 60)}
+            onClick={() => setVisibleCount((count) => count + 63)}
             type="button"
           >
-            Показать ещё 60
+            Показать ещё 63
           </button>
           <span>
-            Показано {formatCount(Math.min(visibleCount, filtered.length))} из{" "}
-            {formatCount(filtered.length)}
+            Показано {formatCount(shownCount)} из {formatCount(totalCount)}
           </span>
         </div>
       )}

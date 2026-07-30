@@ -17,7 +17,7 @@ export default function AboutPage() {
           <div className="breadcrumbs">
             <Link href="/">Главная</Link><span>/</span><span>О компании</span>
           </div>
-          <p className="eyebrow">Промышленная комплектация</p>
+          <p className="eyebrow">Поставки полного цикла</p>
           <h1>Международная торговая<br />компания полного цикла</h1>
           <p>
             Профессиональный интегратор между заказчиком и глобальным рынком.
@@ -65,7 +65,7 @@ export default function AboutPage() {
               товарами, где важны поиск, экспертиза и проверенные каналы
               поставки.
             </p>
-            <Link className="button button-primary" href="/contacts">
+            <Link className="button button-primary specification-button" href="/contacts">
               Отправить спецификацию
             </Link>
           </article>

@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 
-const DEGREES_PER_PIXEL = 0.16;
+const DEGREES_PER_PIXEL = 0.045;
 
 export function ScrollHeroOrb() {
   const orbRef = useRef<HTMLDivElement>(null);
@@ -14,12 +15,16 @@ export function ScrollHeroOrb() {
     const updateRotation = () => {
       const rotation = reducedMotion.matches
         ? 0
-        : window.scrollY * DEGREES_PER_PIXEL;
+        : Math.min(window.scrollY * DEGREES_PER_PIXEL, 24);
+      const scale = reducedMotion.matches
+        ? 1
+        : Math.min(1 + window.scrollY * 0.00008, 1.045);
 
       orbRef.current?.style.setProperty(
         "--hero-scroll-rotation",
-        `${rotation}deg`,
+        `${-rotation}deg`,
       );
+      orbRef.current?.style.setProperty("--hero-scroll-scale", `${scale}`);
       animationFrame = 0;
     };
 
@@ -44,10 +49,15 @@ export function ScrollHeroOrb() {
 
   return (
     <div className="hero-orb" ref={orbRef}>
-      <span className="hero-tile hero-tile-one" />
-      <span className="hero-tile hero-tile-two" />
-      <span className="hero-tile hero-tile-three" />
-      <span className="hero-ring" />
+      <Image
+        alt="Объёмная красная планета — символ глобальных поставок"
+        className="hero-planet"
+        height={1100}
+        priority
+        sizes="(max-width: 820px) 88vw, 44vw"
+        src="/images/hero/supply-planet.webp"
+        width={1100}
+      />
     </div>
   );
 }
