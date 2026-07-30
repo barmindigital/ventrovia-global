@@ -232,7 +232,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
                 </p>
               </>
             )}
-            <Link className="button button-primary" href={`/contacts?product=${encodeURIComponent(brand.name)}`}>
+            <Link
+              className="button button-primary content-card-cta"
+              href={`/contacts?product=${encodeURIComponent(brand.name)}`}
+            >
               Запросить оборудование
             </Link>
           </article>
