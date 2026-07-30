@@ -3582,6 +3582,84 @@ export const brandLogoRegistry: BrandLogo[] = [
     license: "Public domain (Wikimedia Commons)",
     attribution: "WERMA",
   },
+  {
+    slug: "walton",
+    name: "WALTON",
+    src: "/images/brand-logos/walton.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Walton_Group_Logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Walton_Group_Logo.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Imamul H. Ifaz",
+  },
+  {
+    slug: "watlow",
+    name: "WATLOW",
+    src: "/images/brand-logos/watlow.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Watlow_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b4/Watlow_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Watlow Electric Manufacturing Co.",
+  },
+  {
+    slug: "welding-alloys-group",
+    name: "WELDING ALLOYS GROUP",
+    src: "/images/brand-logos/welding-alloys-group.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Welding_Alloys_Group_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Welding_Alloys_Group_logo.jpg",
+    license: "GPL",
+    licenseUrl: "http://www.gnu.org/licenses/gpl.html",
+    attribution: "Home Page",
+  },
+  {
+    slug: "zollern",
+    name: "ZOLLERN",
+    src: "/images/brand-logos/zollern.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Zollern_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Zollern_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Zollern GmbH und Co. KG",
+  },
+  {
+    slug: "renold",
+    name: "RENOLD",
+    src: "/images/brand-logos/renold.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Renold.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/65/Renold.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Renold plc.",
+  },
+  {
+    slug: "guntner",
+    name: "GUNTNER",
+    src: "/images/brand-logos/guntner.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:G%C3%BCntner.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/G%C3%BCntner.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Kopiersperre ( talk )",
+  },
+  {
+    slug: "lapp-kabel",
+    name: "LAPP KABEL",
+    src: "/images/brand-logos/lapp-kabel.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Lapp-Kabel-Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Lapp-Kabel-Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: LAPP KABEL",
+  },
 ];
 
 const brandLogoMap = new Map(
