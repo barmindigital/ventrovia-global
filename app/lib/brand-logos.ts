@@ -3896,6 +3896,229 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     attribution: "Aleksander Ma",
   },
+  {
+    slug: "avery-dennison-694905",
+    name: "Avery Dennison",
+    src: "/images/brand-logos/avery-dennison-694905.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Avery_Dennison_logo_red.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Avery_Dennison_logo_red.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Avery Dennison",
+  },
+  {
+    slug: "beru",
+    name: "Beru",
+    src: "/images/brand-logos/beru.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:BorgWarner_Beru_Systems_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/BorgWarner_Beru_Systems_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Beru",
+  },
+  {
+    slug: "borsig",
+    name: "Borsig",
+    src: "/images/brand-logos/borsig.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Borsig_logo_2021.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Borsig_logo_2021.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Borsig GmbH",
+  },
+  {
+    slug: "cifa",
+    name: "CIFA",
+    src: "/images/brand-logos/cifa.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo-ufficiale-azienda-cifa.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo-ufficiale-azienda-cifa.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "CIFA S.p.A",
+  },
+  {
+    slug: "ckd-group",
+    name: "CKD",
+    src: "/images/brand-logos/ckd-group.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:CKD_Logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/CKD_Logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: CKD",
+  },
+  {
+    slug: "durst",
+    name: "Durst",
+    src: "/images/brand-logos/durst.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Durst_Phototechnik_AG.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Durst_Phototechnik_AG.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Durst Phototechnik AG",
+  },
+  {
+    slug: "elko-ep",
+    name: "ELKO EP",
+    src: "/images/brand-logos/elko-ep.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:L1_elko_ep_color_version.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/27/L1_elko_ep_color_version.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "ELKO EP, s.r.o.",
+  },
+  {
+    slug: "flexlink",
+    name: "Flexlink",
+    src: "/images/brand-logos/flexlink.gif",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:FlexLink-logo.gif",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/FlexLink-logo.gif",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "FlexLink",
+  },
+  {
+    slug: "flir",
+    name: "FLIR",
+    src: "/images/brand-logos/flir.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Teledyne_FLIR_logo_(3).svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/Teledyne_FLIR_logo_%283%29.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Teledyne FLIR",
+  },
+  {
+    slug: "fms-technologies",
+    name: "FMC Technologies",
+    src: "/images/brand-logos/fms-technologies.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_FMC_Technologies.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_FMC_Technologies.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "FMC Technologies, Inc.",
+  },
+  {
+    slug: "fraba",
+    name: "Fraba",
+    src: "/images/brand-logos/fraba.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:FRABA_LOGO.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/FRABA_LOGO.jpg",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "MD Europe",
+  },
+  {
+    slug: "fresenius-medical-care",
+    name: "Fresenius Medical Care",
+    src: "/images/brand-logos/fresenius-medical-care.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Fresenius_Medical_Care_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Fresenius_Medical_Care_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Fresenius Medical Care",
+  },
+  {
+    slug: "nice",
+    name: "Nice",
+    src: "/images/brand-logos/nice.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Nice-spa-logo.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Nice-spa-logo.png",
+    license: "Attribution-only license (Wikimedia Commons)",
+    attribution: "Nice S.p.A.",
+  },
+  {
+    slug: "weishaupt",
+    name: "Weishaupt",
+    src: "/images/brand-logos/weishaupt.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Logo_Weishaupt.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/Logo_Weishaupt.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source artwork: Weishaupt",
+  },
+  {
+    slug: "bae",
+    name: "BAE",
+    src: "/images/brand-logos/bae.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:BAE_Systems_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/7/73/BAE_Systems_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "™/®BAE Systems plc",
+  },
+  {
+    slug: "johnson-controls",
+    name: "Johnson Controls",
+    src: "/images/brand-logos/johnson-controls.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Johnson_Controls_old_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/Johnson_Controls_old_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Source: Extracted from a PDF file by Kalel2007 ( talk )",
+  },
+  {
+    slug: "teka",
+    name: "Teka",
+    src: "/images/brand-logos/teka.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Teka_New_Logo_2019.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Teka_New_Logo_2019.png",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Teka",
+  },
+  {
+    slug: "vickers",
+    name: "VICKERS",
+    src: "/images/brand-logos/vickers.svg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Vickers_plc_logo.svg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Vickers_plc_logo.svg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "Vickers",
+  },
+  {
+    slug: "sang-a",
+    name: "Sang A",
+    src: "/images/brand-logos/sang-a.jpg",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Sangaloglo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Sangaloglo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    attribution: "http://www.sanga.com",
+  },
+  {
+    slug: "georgin",
+    name: "GEORGIN",
+    src: "/images/brand-logos/georgin.png",
+    sourcePage:
+      "https://commons.wikimedia.org/wiki/File:Georgin_logo,_2012.png",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Georgin_logo%2C_2012.png",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Marketing georgin",
+  },
 ];
 
 const brandLogoMap = new Map(
