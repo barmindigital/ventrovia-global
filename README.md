@@ -38,6 +38,8 @@ pnpm check
 - `pnpm dev` — локальная разработка
 - `pnpm build` — производственная сборка
 - `pnpm start` — локальный запуск собранного приложения
+- `pnpm build:timeweb` — стандартная Next.js-сборка для Timeweb App Platform
+- `pnpm start:timeweb` — запуск Next.js-приложения в Timeweb App Platform
 - `pnpm lint` — статический анализ кода
 - `pnpm typecheck` — строгая проверка TypeScript
 - `pnpm test` — сборка и интеграционные тесты
@@ -92,3 +94,8 @@ Resend и добавить серверный `RESEND_API_KEY` в окружен
 Метаданные текущего проекта Sites хранятся в `.openai/hosting.json`. Файл не
 содержит секретов. В публикацию должна попадать только версия, которая прошла
 `pnpm check` и соответствует зафиксированному Git-коммиту.
+
+Для Timeweb App Platform используется тот же исходный код из приватного
+Git-репозитория. Команда сборки — `pnpm build:timeweb`, команда запуска —
+`pnpm start:timeweb`. Значения из `.env.example` задаются в настройках
+приложения; секретный `RESEND_API_KEY` в репозиторий не добавляется.
