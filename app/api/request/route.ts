@@ -68,9 +68,9 @@ export async function POST(request: Request) {
     message: clean(payload.message, 3000),
   };
 
-  if (!fields.name || !fields.contact || !fields.product) {
+  if (!fields.name || !fields.contact) {
     return NextResponse.json(
-      { ok: false, message: "Заполните имя, контакт и позицию." },
+      { ok: false, message: "Заполните имя и контакт." },
       { status: 400 },
     );
   }
@@ -91,7 +91,7 @@ export async function POST(request: Request) {
     ["Имя", fields.name],
     ["Компания", fields.company || "—"],
     ["Телефон / e-mail", fields.contact],
-    ["Позиция", fields.product],
+    ["Позиция", fields.product || "—"],
     ["Комментарий", fields.message || "—"],
   ];
   const text = [
@@ -129,9 +129,9 @@ export async function POST(request: Request) {
         reply_to: EMAIL_PATTERN.test(fields.contact)
           ? fields.contact
           : undefined,
-        subject: `Заявка: ${fields.product
-          .replace(/[\r\n]+/g, " ")
-          .slice(0, 90)}`,
+        subject: fields.product
+          ? `Заявка: ${fields.product.replace(/[\r\n]+/g, " ").slice(0, 90)}`
+          : "Новая заявка с сайта",
         text,
         html,
       }),

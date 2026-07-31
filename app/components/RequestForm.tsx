@@ -91,11 +91,13 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
           <input id="contact" name="contact" required />
         </div>
         <div className="field field-full">
-          <label htmlFor="product">Артикул, модель или оборудование</label>
-          <input defaultValue={defaultProduct} id="product" name="product" required />
+          <label htmlFor="product">
+            Артикул, модель или оборудование (необязательно)
+          </label>
+          <input defaultValue={defaultProduct} id="product" name="product" />
         </div>
         <div className="field field-full">
-          <label htmlFor="message">Комментарий</label>
+          <label htmlFor="message">Комментарий (необязательно)</label>
           <textarea id="message" name="message" placeholder="Количество, срок, технические требования" />
         </div>
         <div className="request-honeypot" aria-hidden="true">
@@ -110,7 +112,7 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
       </div>
       <div className="form-actions">
         <button
-          className="button button-light button-submit"
+          className="button button-primary button-submit"
           disabled={sending}
           type="submit"
         >
