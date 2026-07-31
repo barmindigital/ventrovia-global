@@ -47,8 +47,24 @@ const organizationJsonLd = {
   name: "Индустрия поставок",
   url: SITE_URL,
   logo: `${SITE_URL}/favicon.svg`,
+  telephone: "+7-495-148-59-67",
+  email: "sales@industriapostavok.ru",
   description:
     "Подбор и поставка промышленного оборудования и комплектующих по модели, артикулу и производителю.",
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "sales",
+    telephone: "+7-495-148-59-67",
+    email: "sales@industriapostavok.ru",
+    areaServed: "RU",
+    availableLanguage: "ru",
+    hoursAvailable: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  },
 };
 
 const websiteJsonLd = {

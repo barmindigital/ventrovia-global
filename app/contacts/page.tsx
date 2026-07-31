@@ -5,7 +5,7 @@ import { RequestForm } from "../components/RequestForm";
 export const metadata: Metadata = {
   title: "Контакты и запрос на подбор оборудования",
   description:
-    "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 495 698 60 76, e-mail sales@industriapostavok.ru.",
+    "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 (495) 148-59-67, e-mail sales@industriapostavok.ru. Работаем по будням с 09:00 до 18:00.",
   alternates: { canonical: "/contacts" },
   openGraph: { url: "/contacts" },
 };
@@ -35,8 +35,13 @@ export default async function ContactsPage({ searchParams }: ContactsPageProps) 
           <p className="eyebrow">Контакты</p>
           <h2>Свяжитесь с нами</h2>
           <div className="contact-lines">
-            <a href="tel:+74956986076">+7 495 698 60 76</a>
+            <a href="tel:+74951485967">+7 (495) 148-59-67</a>
             <a href="mailto:sales@industriapostavok.ru">sales@industriapostavok.ru</a>
+          </div>
+          <div className="contact-hours" aria-label="График работы">
+            <strong>График работы</strong>
+            <span>Понедельник–пятница: 09:00–18:00</span>
+            <span>Суббота и воскресенье: выходные</span>
           </div>
           <p>
             Для подбора достаточно модели, артикула, фотографии шильдика или

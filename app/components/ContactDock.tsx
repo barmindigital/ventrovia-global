@@ -13,7 +13,7 @@ export function ContactDock() {
       <a
         aria-label="Позвонить в Индустрию поставок"
         className="contact-dock-action"
-        href="tel:+74956986076"
+        href="tel:+74951485967"
       >
         <svg aria-hidden="true" viewBox="0 0 24 24">
           <path d="M7.2 3.8 9.8 8l-2.1 2.1c1.2 2.4 3.1 4.3 5.5 5.5l2.1-2.1 4.2 2.6v2.8c0 .7-.5 1.3-1.2 1.4C10.4 21.2 3 13.8 3.9 5.9c.1-.7.7-1.2 1.4-1.2l1.9-.9Z" />

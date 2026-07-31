@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RevealOnScroll } from "../components/RevealOnScroll";
 
 export const metadata: Metadata = {
   title: "О компании",
@@ -8,6 +9,51 @@ export const metadata: Metadata = {
   alternates: { canonical: "/about" },
   openGraph: { url: "/about" },
 };
+
+const companyHistory = [
+  {
+    year: "2016",
+    title: "Основание компании",
+    description:
+      "Компания «Индустрия Поставок» основана в Москве. Началось долгосрочное сотрудничество с китайскими поставщиками и заказчиками, а ежемесячный объём поставок стал увеличиваться более чем на 200 товарных единиц.",
+  },
+  {
+    year: "2017",
+    title: "Рост партнёрской сети",
+    description:
+      "Сеть партнёрских проектов вышла за пределы Москвы. Компания получила первые предложения об открытии офисов в других округах России, а объём поставок достиг 800 контейнеров в месяц.",
+  },
+  {
+    year: "2018",
+    title: "Филиалы в двух городах",
+    description:
+      "Открыты филиалы в Санкт-Петербурге и Владивостоке. Благодаря офису рядом с ключевыми маршрутами из Китая объём поставок превысил 2 000 контейнеров в месяц.",
+  },
+  {
+    year: "2020",
+    title: "Ребрендинг и аутсорсинг ВЭД",
+    description:
+      "Компания провела масштабный ребрендинг и сосредоточилась на комплексном аутсорсинге внешнеэкономической деятельности. Ежемесячно услугами компании пользовались около 50 партнёров и заказчиков.",
+  },
+  {
+    year: "2022",
+    title: "Выход на международный рынок",
+    description:
+      "Началась международная деятельность и открылся первый офис в Дубае, ОАЭ. Расширились профиль компании и объём выполняемых работ, а штат достиг 1 500 сотрудников.",
+  },
+  {
+    year: "2025",
+    title: "Государственные закупки",
+    description:
+      "Открыто новое направление по государственным закупкам промышленного оборудования и запасных частей. Заключены контракты с ГУП «Мосводосток», АО «Росатом Возобновляемая Энергия», ОАО «Омский аэропорт», ФГАУ «НМИЦ ЛРЦ» Минздрава России и другими организациями.",
+  },
+  {
+    year: "2026",
+    title: "Расширение международной сети",
+    description:
+      "Открыты новые филиалы в Турции и ОАЭ. Партнёрская сеть компании превысила 2 600 производителей промышленного оборудования и комплектующих.",
+  },
+] as const;
 
 export default function AboutPage() {
   return (
@@ -44,6 +90,36 @@ export default function AboutPage() {
             <h2>Контроль рисков</h2>
             <p>Юридические, финансовые и логистические риски проверяются до запуска каждой сделки.</p>
           </article>
+        </div>
+      </section>
+      <section className="section company-history-section">
+        <div className="shell">
+          <div className="company-history-heading">
+            <div>
+              <p className="eyebrow">2016–2026</p>
+              <h2>История компании</h2>
+            </div>
+            <p>
+              От первых поставок из Китая до международной сети и комплексного
+              снабжения промышленным оборудованием.
+            </p>
+          </div>
+          <ol className="company-timeline" aria-label="История компании по годам">
+            {companyHistory.map((event, index) => (
+              <li className="company-timeline-item" key={event.year}>
+                <RevealOnScroll className="company-timeline-reveal">
+                  <article className="company-timeline-card">
+                    <div className="company-timeline-meta">
+                      <span>{String(index + 1).padStart(2, "0")}</span>
+                      <time dateTime={event.year}>{event.year}</time>
+                    </div>
+                    <h3>{event.title}</h3>
+                    <p>{event.description}</p>
+                  </article>
+                </RevealOnScroll>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
       <section className="section section-tint">

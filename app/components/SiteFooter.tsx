@@ -27,7 +27,13 @@ export function SiteFooter() {
         </div>
         <div className="footer-status">
           <span className="status-dot" />
-          <p><strong>Офис в Москве</strong><br /><a href="tel:+74956986076">+7 495 698 60 76</a><br /><a href="mailto:sales@industriapostavok.ru">sales@industriapostavok.ru</a></p>
+          <p>
+            <strong>Офис в Москве</strong><br />
+            <a href="tel:+74951485967">+7 (495) 148-59-67</a><br />
+            <a href="mailto:sales@industriapostavok.ru">sales@industriapostavok.ru</a><br />
+            Пн–пт: 09:00–18:00<br />
+            Сб–вс: выходные
+          </p>
         </div>
       </div>
       <div className="shell footer-bottom">
