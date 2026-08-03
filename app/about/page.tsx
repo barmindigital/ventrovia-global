@@ -1,52 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fragment } from "react";
 import { RevealOnScroll } from "../components/RevealOnScroll";
+import { renderHeadingLines, siteContent } from "../lib/site-content";
+
+const pageContent = siteContent.pages.about;
 
 export const metadata: Metadata = {
-  title: "О компании",
-  description:
-    "Международная торговая компания полного цикла: поиск промышленного оборудования, расчёты, таможенное оформление, логистика и контроль рисков.",
+  title: pageContent.seoTitle,
+  description: pageContent.seoDescription,
   alternates: { canonical: "/about" },
-  openGraph: { url: "/about" },
+  openGraph: {
+    title: pageContent.seoTitle,
+    description: pageContent.seoDescription,
+    url: "/about",
+  },
 };
-
-const companyHistory = [
-  {
-    year: "2016",
-    description:
-      "Основание компании «Индустрия Поставок» в Москве, начало большого партнерства с китайскими поставщиками и заказчиками. Мы являемся одними из первопроходцев сотрудничества с Китаем, с каждым месяцев объем поставляемых контейнеров увеличивается более чем на 200 единиц товара.",
-  },
-  {
-    year: "2017",
-    description:
-      "Сеть наших партнерских проектов растет. К нам поступают предложения открыть офисы нашей компании в других округах России. Объем контейнеров увеличивается до 800 штук в месяц.",
-  },
-  {
-    year: "2018",
-    description:
-      "«Индустрия поставок» открывает филиалы в Санкт-Петербурге, Владивостоке. Объем контейнеров увеличивается от 2000 штук в месяц за счет близкого к Китаю офиса во Владивостоке.",
-  },
-  {
-    year: "2020",
-    description:
-      "Большой ребрендинг компании. Индустрия Поставок перепрофилируется в аутсорс ВЭД. Количество наших партнеров и заказчиков составляет 50 компаний в месяц.",
-  },
-  {
-    year: "2022",
-    description:
-      "Начало международной деятельности, открытие первого офиса в Дубае, ОАЭ. Профиль компании и объем работ увеличивается. Штат сотрудников насчитывает 1500 человек.",
-  },
-  {
-    year: "2025",
-    description:
-      "Открытие нового направления в сфере государственных закупок промышленного оборудования и запасных частей к нему. Заключение контрактов с такими компаниями как ГУП «Мосводосток», АО «Росатом Возобновляемая Энергия», ОАО «Омский аэропорт», ФГАУ «НМИЦ ЛРЦ Минздрава России» и другие.",
-  },
-  {
-    year: "2026",
-    description:
-      "Расширение международной сети, открытие новых филиалов в Турции и ОАЭ. Работа более чем с 2600 производителями.",
-  },
-] as const;
 
 export default function AboutPage() {
   return (
@@ -56,14 +25,16 @@ export default function AboutPage() {
           <div className="breadcrumbs">
             <Link href="/">Главная</Link><span>/</span><span>О компании</span>
           </div>
-          <p className="eyebrow">Поставки полного цикла</p>
-          <h1>Международная торговая<br />компания полного цикла</h1>
-          <p>
-            Профессиональный интегратор между заказчиком и глобальным рынком.
-            Мы берём на себя все этапы сделки: от поиска труднодоступного
-            оборудования до его доставки, таможенного оформления и финальных
-            рисков.
-          </p>
+          <p className="eyebrow">{pageContent.eyebrow}</p>
+          <h1>
+            {renderHeadingLines(pageContent.heading).map((line, index, lines) => (
+              <Fragment key={line}>
+                {line}
+                {index < lines.length - 1 && <br />}
+              </Fragment>
+            ))}
+          </h1>
+          <p>{pageContent.intro}</p>
         </div>
       </section>
       <section className="section shell">
@@ -98,7 +69,7 @@ export default function AboutPage() {
             </p>
           </div>
           <ol className="company-timeline" aria-label="История компании по годам">
-            {companyHistory.map((event, index) => (
+            {siteContent.companyHistory.map((event, index) => (
               <li className="company-timeline-item" key={event.year}>
                 <RevealOnScroll className="company-timeline-reveal">
                   <article className="company-timeline-card">
@@ -106,7 +77,7 @@ export default function AboutPage() {
                       <span>{String(index + 1).padStart(2, "0")}</span>
                       <time dateTime={event.year}>{event.year} год</time>
                     </div>
-                    <p>{event.description}</p>
+                    <p>{event.text}</p>
                   </article>
                 </RevealOnScroll>
               </li>

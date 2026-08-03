@@ -1,10 +1,12 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { siteContent } from "@/app/lib/site-content";
 
 const REQUEST_DRAFT_KEY = "industria-postavok-request-draft";
 
 export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }) {
+  const fallbackEmail = siteContent.contacts.email;
   const [feedback, setFeedback] = useState("");
   const [sending, setSending] = useState(false);
 
@@ -57,17 +59,17 @@ export function RequestForm({ defaultProduct = "" }: { defaultProduct?: string }
       await navigator.clipboard.writeText(text).catch(() => undefined);
       localStorage.setItem(REQUEST_DRAFT_KEY, text);
       setFeedback(
-        `${result.message || "Почтовый канал временно недоступен"} Открываем резервное письмо на sales@industriapostavok.ru.`,
+        `${result.message || "Почтовый канал временно недоступен"} Открываем резервное письмо на ${fallbackEmail}.`,
       );
-      window.location.href = `mailto:sales@industriapostavok.ru?subject=${encodeURIComponent(
+      window.location.href = `mailto:${fallbackEmail}?subject=${encodeURIComponent(
         "Запрос на подбор оборудования",
       )}&body=${encodeURIComponent(text)}`;
     } catch {
       localStorage.setItem(REQUEST_DRAFT_KEY, text);
       setFeedback(
-        "Заявка сохранена. Открываем резервное письмо на sales@industriapostavok.ru.",
+        `Заявка сохранена. Открываем резервное письмо на ${fallbackEmail}.`,
       );
-      window.location.href = `mailto:sales@industriapostavok.ru?subject=${encodeURIComponent(
+      window.location.href = `mailto:${fallbackEmail}?subject=${encodeURIComponent(
         "Запрос на подбор оборудования",
       )}&body=${encodeURIComponent(text)}`;
     } finally {

@@ -34,7 +34,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     ...manufacturers
-      .filter((manufacturer) => manufacturer.count > 0)
+      .filter(
+        (manufacturer) =>
+          manufacturer.slug !== "abb" && manufacturer.count > 0,
+      )
       .map((manufacturer) => ({
         url: `${SITE_URL}/manufacturers/${manufacturer.slug}`,
         changeFrequency: "monthly" as const,

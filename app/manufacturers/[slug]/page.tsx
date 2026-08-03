@@ -18,6 +18,7 @@ import {
   serializeJsonLd,
   SITE_URL,
 } from "../../lib/seo-content";
+import { applySeoTemplate, siteContent } from "../../lib/site-content";
 
 type BrandPageProps = {
   params: Promise<{ slug: string }>;
@@ -48,9 +49,24 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
   if (!brand) return {};
   const canonical = `/manufacturers/${slug}`;
   const shouldIndex = slug === "abb" || brand.count > 0;
+  const templateValues = {
+    name: brand.name,
+    slug,
+    count: brand.count,
+    country: brand.country,
+  };
+  const title = applySeoTemplate(
+    siteContent.templates.manufacturerTitle,
+    templateValues,
+  );
+  const description =
+    applySeoTemplate(
+      siteContent.templates.manufacturerDescription,
+      templateValues,
+    ) || manufacturerMetaDescription(brand);
   return {
-    title: `${brand.name} — оборудование и комплектующие`,
-    description: manufacturerMetaDescription(brand),
+    title,
+    description,
     alternates: { canonical },
     robots: {
       index: shouldIndex,
@@ -59,8 +75,8 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     openGraph: {
       type: "website",
       url: canonical,
-      title: `${brand.name} — оборудование и комплектующие`,
-      description: manufacturerMetaDescription(brand),
+      title,
+      description,
     },
   };
 }
@@ -76,12 +92,19 @@ export default async function BrandPage({ params }: BrandPageProps) {
   const logo = brandLogoBySlug(slug);
   const editorial = manufacturerEditorialFor(brand);
   const brandUrl = `${SITE_URL}/manufacturers/${slug}`;
+  const brandDescription =
+    applySeoTemplate(siteContent.templates.manufacturerDescription, {
+      name: brand.name,
+      slug,
+      count: brand.count,
+      country: brand.country,
+    }) || manufacturerMetaDescription(brand);
   const brandJsonLd = {
     "@context": "https://schema.org",
     "@type": "Brand",
     name: brand.name,
     url: brandUrl,
-    description: manufacturerMetaDescription(brand),
+    description: brandDescription,
     logo: logo ? `${SITE_URL}${logo.src}` : undefined,
   };
   const breadcrumbJsonLd = {

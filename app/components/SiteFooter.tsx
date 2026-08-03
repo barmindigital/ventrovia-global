@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteContent } from "../lib/site-content";
 
 export function SiteFooter() {
   return (
@@ -7,7 +8,7 @@ export function SiteFooter() {
         <div>
           <Link className="brand brand-footer" href="/">
             <span className="brand-mark" aria-hidden="true"><i /></span>
-            <span className="brand-copy"><strong>ИНДУСТРИЯ ПОСТАВОК</strong></span>
+            <span className="brand-copy"><strong>{siteContent.site.name.toUpperCase()}</strong></span>
           </Link>
           <p className="footer-note">
             Подбор оборудования и комплектующих по модели, артикулу и техническому заданию.
@@ -29,15 +30,15 @@ export function SiteFooter() {
           <span className="status-dot" />
           <p>
             <strong>Офис в Москве</strong><br />
-            <a href="tel:+74951485967">+7 (495) 148-59-67</a><br />
-            <a href="mailto:sales@industriapostavok.ru">sales@industriapostavok.ru</a><br />
-            Пн–пт: 09:00–18:00<br />
-            Сб–вс: выходные
+            <a href={siteContent.contacts.phoneHref}>{siteContent.contacts.phoneDisplay}</a><br />
+            <a href={`mailto:${siteContent.contacts.email}`}>{siteContent.contacts.email}</a><br />
+            {siteContent.contacts.weekdays}<br />
+            {siteContent.contacts.weekend}
           </p>
         </div>
       </div>
       <div className="shell footer-bottom">
-        <span>© 2026 Индустрия поставок</span>
+        <span>© 2026 {siteContent.site.name}</span>
         <span>Информация на сайте не является публичной офертой.</span>
       </div>
     </footer>

@@ -1,0 +1,274 @@
+.page {
+  min-height: 100vh;
+  padding: 40px 20px 80px;
+  color: #241f1b;
+  background:
+    radial-gradient(circle at 88% 8%, rgba(211, 16, 39, 0.1), transparent 32%),
+    #f2ebdd;
+}
+
+.shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.header,
+.toolbar,
+.section,
+.loginCard {
+  border: 1px solid rgba(107, 100, 89, 0.22);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 18px 60px rgba(57, 45, 38, 0.08);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #b4533c;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+}
+
+.lead,
+.hint,
+.status {
+  color: #5c554c;
+  font-size: 15px;
+  font-weight: 560;
+  line-height: 1.55;
+}
+
+.lead {
+  max-width: 720px;
+  margin: 14px 0 0;
+}
+
+.badge {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  border-radius: 999px;
+  color: #fff;
+  background: #3d3933;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.loginWrap {
+  display: grid;
+  min-height: 68vh;
+  place-items: center;
+}
+
+.loginCard {
+  width: min(460px, 100%);
+  padding: 32px;
+}
+
+.loginCard h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.toolbar {
+  position: sticky;
+  z-index: 10;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 18px 0;
+  padding: 14px 16px;
+  backdrop-filter: blur(16px);
+}
+
+.toolbarActions,
+.rowActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button,
+.buttonGhost,
+.buttonDanger {
+  min-height: 44px;
+  border: 0;
+  border-radius: 12px;
+  padding: 0 18px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.button {
+  color: #fff;
+  background: #d31027;
+  box-shadow: 0 10px 24px rgba(211, 16, 39, 0.18);
+}
+
+.buttonGhost {
+  color: #332e29;
+  background: #eee7dc;
+}
+
+.buttonDanger {
+  color: #9d1323;
+  background: #fae9e7;
+}
+
+.button:disabled,
+.buttonGhost:disabled,
+.buttonDanger:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.section {
+  margin-top: 18px;
+  padding: 26px;
+}
+
+.section h2 {
+  margin: 0 0 6px;
+  font-size: clamp(22px, 3vw, 30px);
+  letter-spacing: -0.025em;
+}
+
+.grid,
+.historyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.pageCard,
+.historyCard {
+  padding: 20px;
+  border: 1px solid rgba(107, 100, 89, 0.2);
+  border-radius: 17px;
+  background: #fbf8f2;
+}
+
+.pageCard h3,
+.historyCard h3 {
+  margin: 0 0 16px;
+  font-size: 19px;
+}
+
+.field {
+  display: grid;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.field span {
+  color: #4f4840;
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid #cfc6b8;
+  border-radius: 12px;
+  outline: none;
+  padding: 12px 14px;
+  color: #211d19;
+  background: #fff;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 560;
+  line-height: 1.45;
+}
+
+.field textarea {
+  min-height: 112px;
+  resize: vertical;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: #d31027;
+  box-shadow: 0 0 0 3px rgba(211, 16, 39, 0.11);
+}
+
+.counter {
+  justify-self: end;
+  color: #756d63;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.error,
+.success,
+.notice {
+  margin: 12px 0 0;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.error {
+  color: #8c1523;
+  background: #fde8e8;
+}
+
+.success {
+  color: #246342;
+  background: #e5f5e9;
+}
+
+.notice {
+  color: #5e462d;
+  background: #f4e8d2;
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding: 18px 12px 60px;
+  }
+
+  .header,
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .grid,
+  .historyGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .section,
+  .header,
+  .loginCard {
+    padding: 20px;
+  }
+
+  .toolbarActions > * {
+    flex: 1 1 auto;
+  }
+}

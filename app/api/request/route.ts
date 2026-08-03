@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
+import { siteContent } from "@/app/lib/site-content";
 
 const REQUEST_EMAIL =
-  process.env.REQUEST_TO_EMAIL || "sales@industriapostavok.ru";
+  process.env.REQUEST_TO_EMAIL || siteContent.contacts.email;
 const FROM_EMAIL =
-  process.env.REQUEST_FROM_EMAIL || "Заявки сайта <requests@industriapostavok.ru>";
+  process.env.REQUEST_FROM_EMAIL ||
+  `Заявки сайта <requests@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://industriapostavok.ru").hostname}>`;
 const MAX_REQUEST_BYTES = 32_000;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -95,7 +97,7 @@ export async function POST(request: Request) {
     ["Комментарий", fields.message || "—"],
   ];
   const text = [
-    "Новая заявка с сайта «Индустрия поставок»",
+    `Новая заявка с сайта «${siteContent.site.name}»`,
     "",
     ...rows.map(([label, value]) => `${label}: ${value}`),
   ].join("\n");

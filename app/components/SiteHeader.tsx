@@ -1,15 +1,20 @@
 import Link from "next/link";
+import { siteContent } from "@/app/lib/site-content";
 
 export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <Link className="brand" href="/" aria-label="Индустрия поставок — главная">
+        <Link
+          className="brand"
+          href="/"
+          aria-label={`${siteContent.site.name} — главная`}
+        >
           <span className="brand-mark" aria-hidden="true">
             <i />
           </span>
           <span className="brand-copy">
-            <strong>ИНДУСТРИЯ ПОСТАВОК</strong>
+            <strong>{siteContent.site.name.toLocaleUpperCase("ru-RU")}</strong>
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Основная навигация">

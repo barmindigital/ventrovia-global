@@ -5,15 +5,15 @@ import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { ContactDock } from "./components/ContactDock";
 import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
+import { siteContent } from "./lib/site-content";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Индустрия поставок — промышленное оборудование и комплектующие",
-    template: "%s | Индустрия поставок",
+    default: siteContent.site.defaultSeoTitle,
+    template: `%s | ${siteContent.site.name}`,
   },
-  description:
-    "Подбор промышленного оборудования и комплектующих по модели, артикулу и производителю. Более 156 000 товарных позиций.",
+  description: siteContent.site.defaultSeoDescription,
   robots: {
     index: true,
     follow: true,
@@ -21,10 +21,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    siteName: "Индустрия поставок",
-    title: "Индустрия поставок — промышленное оборудование",
-    description:
-      "Более 156 000 товарных позиций, более 2 800 производителей и подбор по точному артикулу.",
+    siteName: siteContent.site.name,
+    title: siteContent.site.openGraphTitle,
+    description: siteContent.site.openGraphDescription,
     images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: {
@@ -44,18 +43,17 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
-  name: "Индустрия поставок",
+  name: siteContent.site.name,
   url: SITE_URL,
   logo: `${SITE_URL}/favicon.svg`,
-  telephone: "+7-495-148-59-67",
-  email: "sales@industriapostavok.ru",
-  description:
-    "Подбор и поставка промышленного оборудования и комплектующих по модели, артикулу и производителю.",
+  telephone: siteContent.contacts.phoneDisplay,
+  email: siteContent.contacts.email,
+  description: siteContent.site.defaultSeoDescription,
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "sales",
-    telephone: "+7-495-148-59-67",
-    email: "sales@industriapostavok.ru",
+    telephone: siteContent.contacts.phoneDisplay,
+    email: siteContent.contacts.email,
     areaServed: "RU",
     availableLanguage: "ru",
     hoursAvailable: {
@@ -72,7 +70,7 @@ const websiteJsonLd = {
   "@type": "WebSite",
   "@id": `${SITE_URL}/#website`,
   url: SITE_URL,
-  name: "Индустрия поставок",
+  name: siteContent.site.name,
   inLanguage: "ru-RU",
   publisher: { "@id": `${SITE_URL}/#organization` },
   potentialAction: {

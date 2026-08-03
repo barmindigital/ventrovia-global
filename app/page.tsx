@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment } from "react";
 import { ProductArt } from "./components/ProductArt";
 import { RevealOnScroll } from "./components/RevealOnScroll";
 import { ScrollHeroOrb } from "./components/ScrollHeroOrb";
@@ -12,6 +13,7 @@ import {
   formatCount,
 } from "./lib/catalog-data";
 import { brandLogoBySlug } from "./lib/brand-logos";
+import { renderHeadingLines, siteContent } from "./lib/site-content";
 
 const featuredManufacturers = [
   { slug: "abb", name: "ABB" },
@@ -36,12 +38,17 @@ const featuredManufacturers = [
   { slug: "sick-ag", name: "SICK" },
 ];
 
+const pageContent = siteContent.pages.home;
+
 export const metadata: Metadata = {
-  title: "Глобальные промышленные закупки и оборудование",
-  description:
-    "Международная торговая компания полного цикла: поиск промышленного оборудования, оплата, таможенное оформление, логистика и доставка.",
+  title: pageContent.seoTitle,
+  description: pageContent.seoDescription,
   alternates: { canonical: "/" },
-  openGraph: { url: "/" },
+  openGraph: {
+    url: "/",
+    title: pageContent.seoTitle,
+    description: pageContent.seoDescription,
+  },
 };
 
 export default function Home() {
@@ -50,19 +57,16 @@ export default function Home() {
       <section className="hero">
         <div className="shell hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Глобальные промышленные закупки</p>
+            <p className="eyebrow">{pageContent.eyebrow}</p>
             <h1>
-              Ваш надежный партнёр
-              <br />
-              в сфере глобальных
-              <br />
-              промышленных закупок
+              {renderHeadingLines(pageContent.heading).map((line, index) => (
+                <Fragment key={`${line}-${index}`}>
+                  {index > 0 ? <br /> : null}
+                  {line}
+                </Fragment>
+              ))}
             </h1>
-            <p className="hero-lead">
-              От поиска товара до доставки — берём всё на себя. Находим
-              проверенных поставщиков, контролируем качество, организуем оплату
-              инвойсов, логистику и таможенное оформление.
-            </p>
+            <p className="hero-lead">{pageContent.intro}</p>
             <form className="hero-search" action="/catalog">
               <label className="sr-only" htmlFor="hero-query">
                 Поиск по каталогу

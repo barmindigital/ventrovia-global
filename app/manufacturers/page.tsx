@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fragment } from "react";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
+import { renderHeadingLines, siteContent } from "../lib/site-content";
+
+const pageContent = siteContent.pages.manufacturers;
 
 export const metadata: Metadata = {
-  title: "Производители промышленного оборудования",
-  description:
-    "Более 2 800 производителей промышленного оборудования и комплектующих. Поиск бренда и подбор позиции по точной маркировке.",
+  title: pageContent.seoTitle,
+  description: pageContent.seoDescription,
   alternates: { canonical: "/manufacturers" },
-  openGraph: { url: "/manufacturers" },
+  openGraph: { url: "/manufacturers", title: pageContent.seoTitle, description: pageContent.seoDescription },
 };
 
 export default function ManufacturersPage() {
@@ -20,13 +23,13 @@ export default function ManufacturersPage() {
           </div>
           <div className="page-hero-row">
             <div>
-              <p className="eyebrow">Поиск по бренду</p>
-              <h1>Производители</h1>
-              <p>
-                Страницы брендов объединяют модели, категории и подсказки для
-                точного запроса. Названия используются только для идентификации
-                совместимого оборудования.
-              </p>
+              <p className="eyebrow">{pageContent.eyebrow}</p>
+              <h1>{renderHeadingLines(pageContent.heading).map((line, index) => (
+                <Fragment key={`${line}-${index}`}>
+                  {index > 0 ? <br /> : null}{line}
+                </Fragment>
+              ))}</h1>
+              <p>{pageContent.intro}</p>
             </div>
             <div className="page-count">
               <strong>Более 2 800</strong>
