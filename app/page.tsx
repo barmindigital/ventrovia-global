@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-trust-shell">
-          <ul className="shell hero-trust" aria-label="Условия поставки">
+          <ul className="hero-trust" aria-label="Условия поставки">
             {heroTrustItems.map((item) => (
               <li key={item}>{item}</li>
             ))}
