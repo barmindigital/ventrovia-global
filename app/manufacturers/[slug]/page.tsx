@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProductArt } from "../../components/ProductArt";
+import { RequestCta } from "../../components/RequestCta";
 import { brandLogoBySlug } from "../../lib/brand-logos";
 import { brandInitials, brandWordmarkTone } from "../../lib/brand-wordmark";
 import {
@@ -255,12 +256,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
                 </p>
               </>
             )}
-            <Link
+            <RequestCta
               className="button button-primary content-card-cta"
-              href={`/contacts?product=${encodeURIComponent(brand.name)}`}
-            >
-              Запросить оборудование
-            </Link>
+              defaultProduct={brand.name}
+            />
           </article>
         </div>
         <p className="trademark-note">

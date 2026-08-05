@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Fragment } from "react";
 import { RequestForm } from "../components/RequestForm";
+import { PhoneAction } from "../components/PhoneAction";
 import { renderHeadingLines, siteContent } from "../lib/site-content";
 
 const pageContent = siteContent.pages.contacts;
@@ -47,9 +48,9 @@ export default async function ContactsPage({ searchParams }: ContactsPageProps) 
           <p className="eyebrow">Контакты</p>
           <h2>Свяжитесь с нами</h2>
           <div className="contact-lines">
-            <a href={`tel:${siteContent.contacts.phoneHref}`}>
+            <PhoneAction>
               {siteContent.contacts.phoneDisplay}
-            </a>
+            </PhoneAction>
             <a href={`mailto:${siteContent.contacts.email}`}>
               {siteContent.contacts.email}
             </a>

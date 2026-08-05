@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteContent } from "@/app/lib/site-content";
+import { RequestCta } from "./RequestCta";
 
 export function SiteHeader() {
   return (
@@ -18,20 +19,22 @@ export function SiteHeader() {
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Основная навигация">
+          <Link href="/#services">Услуги</Link>
           <Link href="/catalog">Каталог</Link>
           <Link href="/manufacturers">Производители</Link>
           <Link href="/about">О компании</Link>
           <Link href="/contacts">Контакты</Link>
         </nav>
-        <Link className="header-cta" href="/contacts">Отправить запрос</Link>
+        <RequestCta className="header-cta" />
         <details className="mobile-menu">
           <summary aria-label="Открыть меню"><span /><span /></summary>
           <nav aria-label="Мобильная навигация">
+            <Link href="/#services">Услуги</Link>
             <Link href="/catalog">Каталог</Link>
             <Link href="/manufacturers">Производители</Link>
             <Link href="/about">О компании</Link>
             <Link href="/contacts">Контакты</Link>
-            <Link href="/contacts">Отправить запрос</Link>
+            <RequestCta className="mobile-menu-cta" />
           </nav>
         </details>
       </div>

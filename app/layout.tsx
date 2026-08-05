@@ -4,6 +4,8 @@ import "./globals.css";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { ContactDock } from "./components/ContactDock";
+import { CookieBanner } from "./components/CookieBanner";
+import { RequestModal } from "./components/RequestModal";
 import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
 import { siteContent } from "./lib/site-content";
 
@@ -98,6 +100,8 @@ export default function RootLayout({
         <main id="content">{children}</main>
         <SiteFooter />
         <ContactDock />
+        <RequestModal />
+        <CookieBanner />
         <script
           dangerouslySetInnerHTML={{
             __html: serializeJsonLd(organizationJsonLd),

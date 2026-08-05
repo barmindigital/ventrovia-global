@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Fragment } from "react";
 import { RevealOnScroll } from "../components/RevealOnScroll";
+import { RequestCta } from "../components/RequestCta";
 import { renderHeadingLines, siteContent } from "../lib/site-content";
 
 const pageContent = siteContent.pages.about;
@@ -56,7 +57,7 @@ export default function AboutPage() {
           </article>
         </div>
       </section>
-      <section className="section company-history-section">
+      <section className="section company-history-section" id="history">
         <div className="shell">
           <div className="company-history-heading">
             <div>
@@ -104,9 +105,16 @@ export default function AboutPage() {
               товарами, где важны поиск, экспертиза и проверенные каналы
               поставки.
             </p>
-            <Link className="button button-primary specification-button" href="/contacts">
-              Отправить спецификацию
-            </Link>
+            <div className="company-actions specification-button">
+              <RequestCta />
+              <a
+                className="button button-outline"
+                download
+                href="/documents/industriya-postavok-presentation.pdf"
+              >
+                Скачать презентацию
+              </a>
+            </div>
           </article>
         </div>
       </section>

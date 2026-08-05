@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment } from "react";
 import { ProductArt } from "./components/ProductArt";
+import { RequestCta } from "./components/RequestCta";
+import { RequestForm } from "./components/RequestForm";
 import { RevealOnScroll } from "./components/RevealOnScroll";
 import { ScrollHeroOrb } from "./components/ScrollHeroOrb";
 import {
   categories,
   categoryImageBySlug,
-  products,
-  productImage,
   formatCount,
 } from "./lib/catalog-data";
 import { brandLogoBySlug } from "./lib/brand-logos";
 import { renderHeadingLines, siteContent } from "./lib/site-content";
 
 const featuredManufacturers = [
-  { slug: "abb", name: "ABB" },
   { slug: "siemens", name: "Siemens" },
   { slug: "schneider-electric", name: "Schneider Electric" },
   { slug: "bosch-rexroth", name: "Bosch Rexroth" },
@@ -36,6 +34,13 @@ const featuredManufacturers = [
   { slug: "rockwell-automation", name: "Rockwell Automation" },
   { slug: "weg", name: "WEG" },
   { slug: "sick-ag", name: "SICK" },
+];
+
+const caseCategories = [
+  "Энергетика",
+  "Инфраструктура",
+  "Промышленность",
+  "Медицина",
 ];
 
 const pageContent = siteContent.pages.home;
@@ -59,32 +64,16 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow">{pageContent.eyebrow}</p>
             <h1>
-              {renderHeadingLines(pageContent.heading).map((line, index) => (
-                <Fragment key={`${line}-${index}`}>
-                  {index > 0 ? <br /> : null}
-                  {line}
-                </Fragment>
+              {renderHeadingLines(pageContent.heading).map((line) => (
+                <span key={line}>{line}</span>
               ))}
             </h1>
             <p className="hero-lead">{pageContent.intro}</p>
-            <form className="hero-search" action="/catalog">
-              <label className="sr-only" htmlFor="hero-query">
-                Поиск по каталогу
-              </label>
-              <input
-                id="hero-query"
-                name="q"
-                placeholder="Введите артикул, модель или производителя"
-              />
-              <button type="submit">Найти</button>
-            </form>
             <div className="hero-links">
               <Link className="button button-primary" href="/catalog">
                 Открыть каталог
               </Link>
-              <Link className="text-link" href="/contacts">
-                Запросить подбор <span aria-hidden="true">↗</span>
-              </Link>
+              <RequestCta className="button button-outline" />
             </div>
           </div>
           <div className="hero-visual" aria-label="Объёмная планета в фирменных цветах">
@@ -97,21 +86,25 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="service-points" aria-label="Наши услуги">
-        <div className="shell service-points-grid">
-          <div><span>01</span><p>Поиск оригинального товара и надежного поставщика</p></div>
-          <div><span>02</span><p>Таможенное оформление, декларирование и сертификация товара</p></div>
-          <div><span>03</span><p>Доставка товара без нарушения сроков</p></div>
-          <div><span>04</span><p>Построение выгодного и быстрого логистического маршрута</p></div>
-        </div>
-      </section>
-
-      <section className="stats-bar" aria-label="Каталог в цифрах">
-        <div className="shell stats-grid">
-          <div><strong>Более 156 000</strong><span>товарных позиций</span></div>
-          <div><strong>Более 2 800</strong><span>производителей</span></div>
-          <div><strong>28</strong><span>направлений</span></div>
-          <div><strong>Под запрос</strong><span>подбор по точной маркировке</span></div>
+      <section className="section services-section" id="services">
+        <div className="shell">
+          <div className="section-heading services-heading">
+            <div>
+              <p className="eyebrow">Полный цикл или отдельный этап</p>
+              <h2>Услуги</h2>
+              <p className="section-intro">
+                Можно передать нам всю поставку под ключ или подключить команду
+                на конкретном этапе: от поиска позиции до доставки на ваш
+                объект.
+              </p>
+            </div>
+          </div>
+          <div className="service-points-grid service-cards">
+            <article><span>01</span><h3>Поиск и проверка</h3><p>Находим оригинальный товар и проверяем поставщика.</p></article>
+            <article><span>02</span><h3>Оплата и документы</h3><p>Организуем расчёты, декларирование и сертификацию.</p></article>
+            <article><span>03</span><h3>Логистика</h3><p>Строим подходящий маршрут и контролируем сроки.</p></article>
+            <article><span>04</span><h3>Поставка под ключ</h3><p>Координируем весь цикл и отвечаем за результат.</p></article>
+          </div>
         </div>
       </section>
 
@@ -149,72 +142,87 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section shell">
+      <section className="section shell" id="about">
         <div className="company-intro">
           <div>
             <p className="eyebrow">О компании</p>
-            <h2>Международная торговая компания полного цикла</h2>
+            <h2>
+              <span>Международная торговая</span>
+              <span>компания полного цикла</span>
+            </h2>
           </div>
           <div>
             <p>
               Профессиональный интегратор между заказчиком и глобальным рынком.
-              Мы берём на себя все этапы сделки: от поиска труднодоступного
-              оборудования до его доставки, таможенного оформления и финальных
-              рисков. Мы находим то, чего нет в свободном доступе. Каждый заказ
-              — строго под потребность клиента, без складских остатков и лишних
-              издержек.
+              Мы берём на себя этапы сделки: от поиска труднодоступного
+              оборудования до доставки, таможенного оформления и контроля
+              рисков. Каждый заказ формируется под потребность клиента.
             </p>
-            <Link className="text-link" href="/about">
-              Подробнее о компании <span aria-hidden="true">→</span>
-            </Link>
+            <div className="company-actions">
+              <Link className="text-link" href="/about">
+                Подробнее о компании <span aria-hidden="true">→</span>
+              </Link>
+              <a
+                className="button button-outline"
+                download
+                href="/documents/industriya-postavok-presentation.pdf"
+              >
+                Скачать презентацию
+              </a>
+            </div>
           </div>
         </div>
-        <RevealOnScroll
-          className="business-stats"
-          stagger
-        >
-          <div><strong>10+</strong><span>лет на рынке промышленного оборудования</span></div>
-          <div><strong>200</strong><span>тендеров в день</span></div>
-          <div><strong>30%</strong><span>маржинальности по сделкам</span></div>
-          <div><strong>13</strong><span>сделок в квартал</span></div>
-          <div><strong>60+</strong><span>стран мира, в которых мы работаем</span></div>
+        <RevealOnScroll className="business-stats company-facts" stagger>
+          <Link href="/about#history"><strong>10+</strong><span>лет работы компании</span></Link>
+          <Link href="/catalog"><strong>156 000+</strong><span>доступных позиций</span></Link>
+          <Link href="/manufacturers"><strong>2 800+</strong><span>производителей в базе</span></Link>
+          <Link href="#geography"><strong>60+</strong><span>стран в географии работы</span></Link>
         </RevealOnScroll>
+        <div className="geography-panel" id="geography">
+          <div>
+            <p className="eyebrow">География</p>
+            <h3>Международная сеть поставок</h3>
+            <p>
+              Работаем с поставщиками и логистическими партнёрами в разных
+              регионах мира. Карта показывает общий международный охват, а
+              конкретный маршрут подтверждаем для каждой заявки.
+            </p>
+          </div>
+          <Image
+            alt="Схема международной географии поставок"
+            height={941}
+            src="/images/company/international-reach-map.png"
+            unoptimized
+            width={1672}
+          />
+        </div>
       </section>
 
-      <section className="section section-tint">
+      <section className="section section-tint" id="cases">
         <div className="shell">
           <div className="section-heading">
             <div>
-              <h2>Популярные позиции</h2>
+              <p className="eyebrow">Опыт поставок</p>
+              <h2>Реализованные проекты</h2>
+              <p className="section-intro">
+                Публикуем задачу, состав поставки, сложность, решение и результат
+                только после согласования с заказчиком.
+              </p>
             </div>
-            <Link className="text-link" href="/catalog">
-              Смотреть витрину <span aria-hidden="true">→</span>
-            </Link>
           </div>
-          <div className="product-grid">
-            {products.slice(0, 4).map((product, index) => (
-              <article className="product-card" key={product.slug}>
-                <Link className="product-art-link" href={`/catalog/${product.slug}`}>
-                  <ProductArt
-                    imageSrc={productImage(product)}
-                    label={product.name}
-                    tone={index}
-                  />
-                </Link>
-                <div className="product-card-body">
-                  <p className="product-brand">{product.manufacturer}</p>
-                  <h3>
-                    <Link href={`/catalog/${product.slug}`}>{product.name}</Link>
-                  </h3>
-                  <dl className="product-meta">
-                    <div><dt>Модель</dt><dd>{product.model}</dd></div>
-                    <div><dt>Раздел</dt><dd>{product.subcategory}</dd></div>
-                  </dl>
-                  <Link className="button button-outline" href={`/catalog/${product.slug}`}>
-                    Подробнее
-                  </Link>
+          <div className="projects-grid case-consent-grid">
+            {caseCategories.map((category) => (
+              <details key={category}>
+                <summary>
+                  <span>{category}</span>
+                  <h3>Кейс готовится к публикации</h3>
+                  <p>Открыть статус <span aria-hidden="true">↗</span></p>
+                </summary>
+                <div>
+                  Подробности будут доступны после письменного согласования с
+                  представленной компанией.
                 </div>
-              </article>
+              </details>
             ))}
           </div>
         </div>
@@ -226,11 +234,9 @@ export default function Home() {
             <p className="eyebrow">Поставки по всему миру</p>
             <h2>Работаем с ведущими мировыми производителями</h2>
             <p className="section-intro">
-              Осуществляем поставки промышленного оборудования и запасных
-              частей, компрессорного оборудования, генераторов, насосов,
-              электродвигателей, редукторов, лабораторного оборудования,
-              промышленной автоматики и другого оборудования ведущих мировых
-              производителей.
+              Подбираем промышленное оборудование, запасные части, насосы,
+              электродвигатели, редукторы, лабораторное оборудование и
+              автоматику по точной маркировке.
             </p>
           </div>
           <Link className="text-link" href="/manufacturers">
@@ -265,43 +271,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-tint">
-        <div className="shell">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">Опыт поставок</p>
-              <h2>Реализованные проекты</h2>
-              <p className="section-intro">
-                Среди наших заказчиков — государственные корпорации,
-                инфраструктурные предприятия и федеральные медицинские центры.
-              </p>
-            </div>
-          </div>
-          <RevealOnScroll className="projects-grid" stagger>
-            <article><span>Энергетика</span><h3>АО «Росатом Возобновляемая энергия»</h3><p>Ветроэнергетика и возобновляемые источники энергии.</p></article>
-            <article><span>Инфраструктура</span><h3>ГУП «Мосводосток»</h3><p>Водоснабжение и водоотведение Москвы.</p></article>
-            <article><span>Авиация</span><h3>ОАО «Омский аэропорт»</h3><p>Авиационная инфраструктура и наземное обслуживание.</p></article>
-            <article><span>Медицина</span><h3>ФГАУ «НМИЦ ЛРЦ Минздрава России»</h3><p>Федеральный медицинский исследовательский центр.</p></article>
-          </RevealOnScroll>
-        </div>
-      </section>
-
-      <section className="section shell">
-        <div className="process-panel">
-          <div>
-            <p className="eyebrow eyebrow-light">Ключевой фокус</p>
-            <h2>Работаем под конкретный спрос</h2>
+      <section className="section shell" id="request">
+        <div className="process-panel request-process-panel">
+          <div className="process-form-column">
+            <p className="eyebrow eyebrow-light">Заявка на поставку</p>
+            <h2>Расскажите, что нужно поставить</h2>
             <p>
-              Каждая закупка запускается под конкретный тендер или прямой запрос
-              — без лишних складских рисков.
+              Укажите модель или приложите спецификацию. Если точной маркировки
+              нет, опишите задачу — поможем собрать исходные данные.
             </p>
-            <Link className="button button-light" href="/contacts">
-              Обсудить задачу
-            </Link>
+            <RequestForm compact />
           </div>
           <ol className="process-list">
-            <li><span>01</span><div><strong>Одна точка ответственности</strong><p>Коммерческий отдел сопровождает сделку и координирует все внутренние подразделения.</p></div></li>
-            <li><span>02</span><div><strong>Собственный платёжный контур</strong><p>Финлогистика обеспечивает расчёты с иностранными поставщиками без посредников.</p></div></li>
+            <li><span>01</span><div><strong>Одна точка ответственности</strong><p>Коммерческий отдел сопровождает сделку и координирует все этапы.</p></div></li>
+            <li><span>02</span><div><strong>Организация расчётов</strong><p>Выстраиваем подходящий платёжный контур для работы с иностранными поставщиками.</p></div></li>
             <li><span>03</span><div><strong>Фокус на сложном импорте</strong><p>Работаем с товарами, где важны поиск, экспертиза и проверенные каналы поставки.</p></div></li>
           </ol>
         </div>
