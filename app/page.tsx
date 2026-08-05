@@ -43,6 +43,14 @@ const caseCategories = [
   "Медицина",
 ];
 
+const heroTrustItems = [
+  "Договор и расчёты в рублях",
+  "Поиск редких и снятых с производства позиций",
+  "Оригинал или согласованный аналог",
+  "Доставка по России и СНГ",
+  "Персональный менеджер по всей сделке",
+];
+
 const pageContent = siteContent.pages.home;
 
 export const metadata: Metadata = {
@@ -84,6 +92,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="hero-trust-shell">
+          <ul className="shell hero-trust" aria-label="Условия поставки">
+            {heroTrustItems.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </div>
       </section>
 
       <section className="section services-section" id="services">
@@ -108,7 +123,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section shell">
+      <section className="section shell" id="catalog">
         <div className="section-heading">
           <div>
             <p className="eyebrow">Основные направления</p>
@@ -212,23 +227,16 @@ export default function Home() {
           </div>
           <div className="projects-grid case-consent-grid">
             {caseCategories.map((category) => (
-              <details key={category}>
-                <summary>
-                  <span>{category}</span>
-                  <h3>Кейс готовится к публикации</h3>
-                  <p>Открыть статус <span aria-hidden="true">↗</span></p>
-                </summary>
-                <div>
-                  Подробности будут доступны после письменного согласования с
-                  представленной компанией.
-                </div>
-              </details>
+              <article key={category}>
+                <span>{category}</span>
+                <h3>Кейс готовится к публикации</h3>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="section shell">
+      <section className="section shell" id="manufacturers">
         <div className="section-heading">
           <div>
             <p className="eyebrow">Поставки по всему миру</p>

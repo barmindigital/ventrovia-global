@@ -265,15 +265,17 @@ export function RequestForm({
         >
           {sending ? "Отправляем…" : "Оставить заявку"}
         </button>
-        <span className="form-feedback" aria-live="polite">
-          {feedback || `Заявка будет направлена на ${fallbackEmail}.`}
-          {fallbackMailto && (
-            <>
-              {" "}
-              <a href={fallbackMailto}>Отправить по почте</a>
-            </>
-          )}
-        </span>
+        {(feedback || fallbackMailto) && (
+          <span className="form-feedback" aria-live="polite">
+            {feedback}
+            {fallbackMailto && (
+              <>
+                {" "}
+                <a href={fallbackMailto}>Отправить по почте</a>
+              </>
+            )}
+          </span>
+        )}
       </div>
     </form>
   );
