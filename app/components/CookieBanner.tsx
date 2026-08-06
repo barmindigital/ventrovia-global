@@ -2,15 +2,17 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
-const COOKIE_CONSENT_KEY = "industria-postavok-cookie-consent";
+import {
+  readCookieConsent,
+  saveCookieConsent,
+} from "@/app/lib/cookie-consent";
 
 export function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
-      setVisible(localStorage.getItem(COOKIE_CONSENT_KEY) !== "accepted");
+      setVisible(readCookieConsent() === null);
     }, 0);
     return () => window.clearTimeout(timer);
   }, []);
@@ -20,19 +22,32 @@ export function CookieBanner() {
   return (
     <aside aria-label="Уведомление о cookie" className="cookie-banner">
       <p>
-        Мы используем cookie-файлы, чтобы сайт работал корректно. Подробнее — в{" "}
+        Мы используем обязательные cookie для работы сайта и, только с вашего
+        согласия, Яндекс Метрику для аналитики и Вебвизора. Подробнее — в{" "}
         <Link href="/privacy">политике конфиденциальности</Link>.
       </p>
-      <button
-        className="button button-primary"
-        onClick={() => {
-          localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
-          setVisible(false);
-        }}
-        type="button"
-      >
-        Принять
-      </button>
+      <div className="cookie-banner-actions">
+        <button
+          className="button button-primary"
+          onClick={() => {
+            saveCookieConsent("accepted");
+            setVisible(false);
+          }}
+          type="button"
+        >
+          Принять
+        </button>
+        <button
+          className="button button-outline"
+          onClick={() => {
+            saveCookieConsent("declined");
+            setVisible(false);
+          }}
+          type="button"
+        >
+          Отклонить
+        </button>
+      </div>
     </aside>
   );
 }

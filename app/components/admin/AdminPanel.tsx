@@ -225,7 +225,7 @@ export function AdminPanel() {
     return (
       <main className={styles.page}>
         <div className={styles.loginWrap}>
-          <form className={styles.loginCard} onSubmit={login}>
+          <form className={`${styles.loginCard} ym-disable-keys`} onSubmit={login}>
             <p className={styles.eyebrow}>Индустрия поставок</p>
             <h1>Вход в управление сайтом</h1>
             <p className={styles.hint}>Здесь маркетолог может менять тексты, контакты и SEO без работы с кодом.</p>

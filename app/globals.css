@@ -1088,8 +1088,24 @@ img {
 }
 
 .cookie-banner .button {
+  min-width: 132px;
   min-height: 44px;
   flex: 0 0 auto;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.cookie-banner .button-outline {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.34);
+}
+
+.legal-cookie-settings {
+  margin-top: 8px;
 }
 
 .phone-popover {
@@ -1366,6 +1382,11 @@ img {
 
   .cookie-banner .button {
     width: 100%;
+  }
+
+  .cookie-banner-actions {
+    width: 100%;
+    flex-direction: column;
   }
 
   .phone-popover {

@@ -285,7 +285,7 @@ export function RequestForm({
 
   return (
     <form
-      className={`request-form${compact ? " request-form-compact" : ""}`}
+      className={`request-form ym-disable-keys${compact ? " request-form-compact" : ""}`}
       data-request-source={source}
       data-request-type={requestType}
       encType="multipart/form-data"
