@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
-  verification: process.env.YANDEX_WEBMASTER_VERIFICATION
-    ? { yandex: process.env.YANDEX_WEBMASTER_VERIFICATION }
-    : undefined,
+  verification: {
+    yandex: "2c78c9b70d149211",
+  },
 };
 
 const organizationJsonLd = {
