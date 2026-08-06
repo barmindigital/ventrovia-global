@@ -31,9 +31,11 @@ export function RequestModal() {
       if (event.key === "Escape") setOpen(false);
     };
     window.addEventListener("keydown", handleKeyDown);
-    window.setTimeout(() => {
-      dialogRef.current?.querySelector<HTMLInputElement>("input")?.focus();
-    }, 0);
+    if (window.matchMedia("(min-width: 821px)").matches) {
+      window.setTimeout(() => {
+        dialogRef.current?.querySelector<HTMLInputElement>("input")?.focus();
+      }, 0);
+    }
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener("keydown", handleKeyDown);

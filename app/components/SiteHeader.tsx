@@ -90,6 +90,7 @@ export function SiteHeader() {
           className="brand"
           href="/"
           aria-label={`${siteContent.site.name} — главная`}
+          onClick={closeMobileMenu}
         >
           <span className="brand-mark" aria-hidden="true">
             <i />

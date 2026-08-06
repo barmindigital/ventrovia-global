@@ -7,6 +7,7 @@ const FROM_EMAIL =
   process.env.REQUEST_FROM_EMAIL ||
   `Заявки сайта <requests@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://industriapostavok.ru").hostname}>`;
 const MAX_FILE_BYTES = 15 * 1024 * 1024;
+const MAX_FILES = 5;
 const MAX_REQUEST_BYTES = MAX_FILE_BYTES + 128_000;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const ALLOWED_FILE_PATTERN = /\.(pdf|xls|xlsx|doc|docx|jpg|jpeg|png)$/i;
@@ -65,13 +66,14 @@ export async function POST(request: Request) {
   }
 
   let payload: RequestPayload;
-  let attachment: File | null = null;
+  let uploadedFiles: File[] = [];
   try {
     if (isMultipart) {
       const form = await request.formData();
       payload = Object.fromEntries(form.entries()) as RequestPayload;
-      const file = form.get("file");
-      attachment = file instanceof File && file.size > 0 ? file : null;
+      uploadedFiles = form
+        .getAll("file")
+        .filter((file): file is File => file instanceof File && file.size > 0);
     } else {
       payload = (await request.json()) as RequestPayload;
     }
@@ -123,14 +125,25 @@ export async function POST(request: Request) {
     );
   }
 
-  if (attachment) {
-    if (attachment.size > MAX_FILE_BYTES) {
+  if (uploadedFiles.length > MAX_FILES) {
+    return NextResponse.json(
+      { ok: false, message: `Можно прикрепить не более ${MAX_FILES} файлов.` },
+      { status: 400 },
+    );
+  }
+
+  if (uploadedFiles.length) {
+    const totalFileSize = uploadedFiles.reduce(
+      (total, file) => total + file.size,
+      0,
+    );
+    if (totalFileSize > MAX_FILE_BYTES) {
       return NextResponse.json(
-        { ok: false, message: "Файл превышает допустимый размер 15 МБ." },
+        { ok: false, message: "Общий размер файлов превышает 15 МБ." },
         { status: 413 },
       );
     }
-    if (!ALLOWED_FILE_PATTERN.test(attachment.name)) {
+    if (uploadedFiles.some((file) => !ALLOWED_FILE_PATTERN.test(file.name))) {
       return NextResponse.json(
         { ok: false, message: "Недопустимый формат файла." },
         { status: 400 },
@@ -157,7 +170,12 @@ export async function POST(request: Request) {
     ["E-mail", fields.email || "—"],
     ["Позиция", fields.product || "—"],
     ["Комментарий", fields.message || "—"],
-    ["Файл", attachment?.name || "—"],
+    [
+      "Файлы",
+      uploadedFiles.length
+        ? uploadedFiles.map((file) => file.name).join(", ")
+        : "—",
+    ],
     ["Согласие", "получено"],
   ];
   const text = [
@@ -181,13 +199,13 @@ export async function POST(request: Request) {
     </table>
   `;
 
-  const attachments = attachment
-    ? [
-        {
-          filename: attachment.name.replace(/[\r\n]/g, " ").slice(0, 180),
-          content: arrayBufferToBase64(await attachment.arrayBuffer()),
-        },
-      ]
+  const attachments = uploadedFiles.length
+    ? await Promise.all(
+        uploadedFiles.map(async (file) => ({
+          filename: file.name.replace(/[\r\n]/g, " ").slice(0, 180),
+          content: arrayBufferToBase64(await file.arrayBuffer()),
+        })),
+      )
     : undefined;
 
   let response: Response;

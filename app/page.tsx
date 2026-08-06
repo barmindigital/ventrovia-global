@@ -34,6 +34,7 @@ const featuredManufacturers = [
   { slug: "rockwell-automation", name: "Rockwell Automation" },
   { slug: "weg", name: "WEG" },
   { slug: "sick-ag", name: "SICK" },
+  { slug: "xylem", name: "Xylem" },
 ];
 
 const caseCategories = [

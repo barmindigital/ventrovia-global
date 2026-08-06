@@ -6,6 +6,7 @@ import { siteContent } from "@/app/lib/site-content";
 
 const REQUEST_DRAFT_KEY = "industria-postavok-request-draft";
 const MAX_FILE_SIZE = 15 * 1024 * 1024;
+const MAX_FILES = 5;
 const ALLOWED_FILE_PATTERN = /\.(pdf|xls|xlsx|doc|docx|jpg|jpeg|png)$/i;
 
 type RequestDraft = {
@@ -26,6 +27,11 @@ const emptyDraft: RequestDraft = {
   message: "",
 };
 
+function formatFileSize(size: number) {
+  if (size < 1024 * 1024) return `${Math.ceil(size / 1024)} КБ`;
+  return `${(size / (1024 * 1024)).toFixed(1).replace(".0", "")} МБ`;
+}
+
 export function RequestForm({
   compact = false,
   defaultProduct = "",
@@ -37,6 +43,7 @@ export function RequestForm({
   const formId = useId().replaceAll(":", "");
   const phoneRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
   const [draft, setDraft] = useState<RequestDraft>({
     ...emptyDraft,
     product: defaultProduct,
@@ -44,6 +51,7 @@ export function RequestForm({
   const [feedback, setFeedback] = useState("");
   const [fallbackMailto, setFallbackMailto] = useState("");
   const [sending, setSending] = useState(false);
+  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -75,7 +83,8 @@ export function RequestForm({
     event.preventDefault();
     const formElement = event.currentTarget;
     const form = new FormData(formElement);
-    const file = form.get("file");
+    form.delete("file");
+    selectedFiles.forEach((file) => form.append("file", file, file.name));
 
     if (!draft.phone.trim() && !draft.email.trim()) {
       const message = "Укажите телефон или e-mail.";
@@ -86,15 +95,23 @@ export function RequestForm({
       return;
     }
 
-    if (file instanceof File && file.size > 0) {
-      if (file.size > MAX_FILE_SIZE) {
-        setFeedback("Файл превышает допустимый размер 15 МБ.");
-        return;
-      }
-      if (!ALLOWED_FILE_PATTERN.test(file.name)) {
-        setFeedback("Допустимы PDF, XLS/XLSX, DOC/DOCX и JPG/PNG.");
-        return;
-      }
+    if (selectedFiles.length > MAX_FILES) {
+      setFeedback(`Можно прикрепить не более ${MAX_FILES} файлов.`);
+      return;
+    }
+
+    if (selectedFiles.some((file) => !ALLOWED_FILE_PATTERN.test(file.name))) {
+      setFeedback("Допустимы PDF, XLS/XLSX, DOC/DOCX и JPG/PNG.");
+      return;
+    }
+
+    const totalFileSize = selectedFiles.reduce(
+      (total, file) => total + file.size,
+      0,
+    );
+    if (totalFileSize > MAX_FILE_SIZE) {
+      setFeedback("Общий размер файлов превышает 15 МБ.");
+      return;
     }
 
     const text = [
@@ -105,7 +122,9 @@ export function RequestForm({
       `E-mail: ${draft.email || "—"}`,
       `Позиция: ${draft.product || "—"}`,
       `Комментарий: ${draft.message || "—"}`,
-      file instanceof File && file.size > 0 ? `Файл: ${file.name}` : "Файл: —",
+      selectedFiles.length
+        ? `Файлы: ${selectedFiles.map((file) => file.name).join(", ")}`
+        : "Файлы: —",
     ].join("\n");
 
     setSending(true);
@@ -126,11 +145,13 @@ export function RequestForm({
       if (response.ok && result.ok) {
         localStorage.removeItem(REQUEST_DRAFT_KEY);
         setDraft(emptyDraft);
+        setSelectedFiles([]);
         setFeedback(
           result.message ||
             "Заявка отправлена. Мы свяжемся с вами по указанному контакту.",
         );
         formElement.reset();
+        if (fileInputRef.current) fileInputRef.current.value = "";
         return;
       }
 
@@ -140,7 +161,7 @@ export function RequestForm({
         `mailto:${fallbackEmail}?subject=${encodeURIComponent("Заявка с сайта")}&body=${encodeURIComponent(text)}`,
       );
       setFeedback(
-        `${result.message || "Почтовый канал временно недоступен"} Поля и выбранный файл сохранены в форме.`,
+        `${result.message || "Почтовый канал временно недоступен"} Поля и выбранные файлы сохранены в форме.`,
       );
     } catch {
       localStorage.setItem(REQUEST_DRAFT_KEY, JSON.stringify(draft));
@@ -148,7 +169,7 @@ export function RequestForm({
         `mailto:${fallbackEmail}?subject=${encodeURIComponent("Заявка с сайта")}&body=${encodeURIComponent(text)}`,
       );
       setFeedback(
-        "Не удалось отправить заявку. Поля и выбранный файл сохранены в форме.",
+        "Не удалось отправить заявку. Поля и выбранные файлы сохранены в форме.",
       );
     } finally {
       setSending(false);
@@ -230,14 +251,71 @@ export function RequestForm({
           />
         </div>
         <div className="field field-full file-field">
-          <label htmlFor={`${formId}-file`}>Прикрепить файл (необязательно)</label>
+          <span className="field-label">Прикрепить файлы (необязательно)</span>
           <input
             accept=".pdf,.xls,.xlsx,.doc,.docx,.jpg,.jpeg,.png"
+            className="file-input"
             id={`${formId}-file`}
+            multiple
             name="file"
+            onChange={(event) => {
+              const addedFiles = Array.from(event.target.files ?? []);
+              if (!addedFiles.length) return;
+
+              setSelectedFiles((current) => {
+                const uniqueFiles = [...current];
+                for (const file of addedFiles) {
+                  const duplicate = uniqueFiles.some(
+                    (item) =>
+                      item.name === file.name &&
+                      item.size === file.size &&
+                      item.lastModified === file.lastModified,
+                  );
+                  if (!duplicate) uniqueFiles.push(file);
+                }
+
+                if (uniqueFiles.length > MAX_FILES) {
+                  setFeedback(`Можно прикрепить не более ${MAX_FILES} файлов.`);
+                } else {
+                  setFeedback("");
+                }
+                return uniqueFiles.slice(0, MAX_FILES);
+              });
+              event.target.value = "";
+            }}
+            ref={fileInputRef}
             type="file"
           />
-          <small>PDF, XLS/XLSX, DOC/DOCX, JPG/PNG — до 15 МБ.</small>
+          <div className="file-picker-row">
+            <label className="file-picker-button" htmlFor={`${formId}-file`}>
+              Выбрать файлы
+            </label>
+            <small>До 5 файлов, общий объём — до 15 МБ.</small>
+          </div>
+          {selectedFiles.length > 0 && (
+            <ul className="selected-files" aria-label="Выбранные файлы">
+              {selectedFiles.map((file) => (
+                <li key={`${file.name}-${file.size}-${file.lastModified}`}>
+                  <span className="selected-file-name">
+                    <strong>{file.name}</strong>
+                    <small>{formatFileSize(file.size)}</small>
+                  </span>
+                  <button
+                    aria-label={`Удалить файл ${file.name}`}
+                    onClick={() => {
+                      setSelectedFiles((current) =>
+                        current.filter((item) => item !== file),
+                      );
+                      setFeedback("");
+                    }}
+                    type="button"
+                  >
+                    Удалить
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
         <div className="request-honeypot" aria-hidden="true">
           <label htmlFor={`${formId}-website`}>Сайт</label>

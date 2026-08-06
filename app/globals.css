@@ -830,25 +830,117 @@ img {
   min-height: 100px;
 }
 
+.file-field .field-label {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .file-field small {
   color: rgba(255, 255, 255, 0.58);
   font-size: 11px;
   line-height: 1.45;
 }
 
-.file-field input[type="file"] {
-  padding: 8px;
+.file-field .file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
-.file-field input[type="file"]::file-selector-button {
-  margin-right: 12px;
-  padding: 9px 12px;
-  border: 0;
+.file-picker-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.file-field .file-picker-button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 6px;
   color: var(--ink);
   background: #f2ebdd;
+  font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
   cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.file-field .file-picker-button:hover,
+.file-field .file-picker-button:focus-visible,
+.file-input:focus-visible + .file-picker-row .file-picker-button {
+  border-color: var(--violet-bright);
+  color: white;
+  background: var(--violet-bright);
+}
+
+.selected-files {
+  display: grid;
+  gap: 8px;
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.selected-files li {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.selected-file-name {
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+}
+
+.selected-file-name strong {
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.selected-file-name small {
+  flex: 0 0 auto;
+}
+
+.selected-files button {
+  flex: 0 0 auto;
+  padding: 5px 0;
+  border: 0;
+  color: #fff;
+  background: transparent;
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.selected-files button:hover,
+.selected-files button:focus-visible {
+  color: #ffd6da;
 }
 
 .consent-field {
@@ -1202,17 +1294,46 @@ img {
 
   .request-modal-backdrop {
     padding: 0;
-    align-items: end;
+    align-items: stretch;
   }
 
   .request-modal {
-    max-height: 94vh;
-    padding: 26px 18px;
-    border-radius: 18px 18px 0 0;
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    padding: max(24px, env(safe-area-inset-top)) 18px
+      max(28px, env(safe-area-inset-bottom));
+    border-radius: 0;
+    overscroll-behavior: contain;
   }
 
   .request-modal-heading {
     margin-bottom: 22px;
+  }
+
+  .request-modal-close {
+    position: fixed;
+    z-index: 510;
+    top: max(12px, env(safe-area-inset-top));
+    right: 12px;
+    background: rgba(61, 56, 50, 0.92);
+    box-shadow: 0 8px 24px rgba(34, 30, 27, 0.3);
+  }
+
+  .file-picker-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .file-field .file-picker-button {
+    width: 100%;
+  }
+
+  .selected-file-name {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
   }
 
   .cookie-banner {
