@@ -213,9 +213,12 @@ export function RequestForm({
         if (fileInputRef.current) fileInputRef.current.value = "";
         const analyticsEvent = {
           event: "request_submit_success",
-          request_source: source,
-          request_type: requestType,
-          request_context: requestContext,
+          request_source: requestSourceLabel,
+          request_source_id: source,
+          request_type: requestTypeLabel,
+          request_type_id: requestType,
+          request_context: requestContext || "Контекст не указан",
+          page_title: pageTitle,
         };
         const analyticsWindow = window as typeof window & {
           dataLayer?: Array<Record<string, unknown>>;
