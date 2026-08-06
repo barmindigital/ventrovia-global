@@ -27,7 +27,7 @@ export function SiteFooter() {
           <Link href="/about">О компании</Link>
           <Link href="/contacts">Контакты</Link>
           <Link href="/privacy">Политика конфиденциальности</Link>
-          <RequestCta className="footer-request-cta" />
+          <RequestCta className="footer-request-cta" source="footer" />
         </div>
         <div className="footer-status">
           <span className="status-dot" />

@@ -82,7 +82,10 @@ export default function Home() {
               <Link className="button button-primary" href="/catalog">
                 Открыть каталог
               </Link>
-              <RequestCta className="button button-outline" />
+              <RequestCta
+                className="button button-outline"
+                source="hero_home"
+              />
             </div>
           </div>
           <div className="hero-visual" aria-label="Объёмная планета в фирменных цветах">
@@ -289,13 +292,8 @@ export default function Home() {
               Укажите модель или приложите спецификацию. Если точной маркировки
               нет, опишите задачу — поможем собрать исходные данные.
             </p>
-            <RequestForm compact />
+            <RequestForm compact source="home_bottom" />
           </div>
-          <ol className="process-list">
-            <li><span>01</span><div><strong>Одна точка ответственности</strong><p>Коммерческий отдел сопровождает сделку и координирует все этапы.</p></div></li>
-            <li><span>02</span><div><strong>Организация расчётов</strong><p>Выстраиваем подходящий платёжный контур для работы с иностранными поставщиками.</p></div></li>
-            <li><span>03</span><div><strong>Фокус на сложном импорте</strong><p>Работаем с товарами, где важны поиск, экспертиза и проверенные каналы поставки.</p></div></li>
-          </ol>
         </div>
       </section>
     </>

@@ -1,5 +1,11 @@
 import { NextResponse } from "next/server";
 import { siteContent } from "@/app/lib/site-content";
+import {
+  REQUEST_SOURCE_LABELS,
+  REQUEST_TYPE_LABELS,
+  type RequestSourceId,
+  type RequestType,
+} from "@/app/lib/request-attribution";
 
 const REQUEST_EMAIL =
   process.env.REQUEST_TO_EMAIL || siteContent.contacts.email;
@@ -22,6 +28,21 @@ type RequestPayload = {
   message?: unknown;
   consent?: unknown;
   website?: unknown;
+  requestType?: unknown;
+  requestSource?: unknown;
+  requestContext?: unknown;
+  pageTitle?: unknown;
+  pageUrl?: unknown;
+  landingPage?: unknown;
+  referrer?: unknown;
+  utmSource?: unknown;
+  utmMedium?: unknown;
+  utmCampaign?: unknown;
+  utmTerm?: unknown;
+  utmContent?: unknown;
+  yclid?: unknown;
+  gclid?: unknown;
+  submittedAt?: unknown;
 };
 
 function clean(value: unknown, maxLength: number) {
@@ -89,6 +110,22 @@ export async function POST(request: Request) {
   }
 
   const legacyContact = clean(payload.contact, 180);
+  const rawRequestType = clean(payload.requestType, 40);
+  const rawRequestSource = clean(payload.requestSource, 80);
+  const requestTypeId: RequestType = Object.hasOwn(
+    REQUEST_TYPE_LABELS,
+    rawRequestType,
+  )
+    ? (rawRequestType as RequestType)
+    : "supply";
+  const requestSourceId: RequestSourceId = Object.hasOwn(
+    REQUEST_SOURCE_LABELS,
+    rawRequestSource,
+  )
+    ? (rawRequestSource as RequestSourceId)
+    : "unattributed";
+  const requestTypeLabel = REQUEST_TYPE_LABELS[requestTypeId];
+  const requestSourceLabel = REQUEST_SOURCE_LABELS[requestSourceId];
   const fields = {
     name: clean(payload.name, 120),
     company: clean(payload.company, 160),
@@ -99,6 +136,21 @@ export async function POST(request: Request) {
     product: clean(payload.product, 500),
     message: clean(payload.message, 3000),
     consent: clean(payload.consent, 12),
+    requestType: requestTypeId,
+    requestSource: requestSourceId,
+    requestContext: clean(payload.requestContext, 700),
+    pageTitle: clean(payload.pageTitle, 300),
+    pageUrl: clean(payload.pageUrl, 1200),
+    landingPage: clean(payload.landingPage, 1200),
+    referrer: clean(payload.referrer, 1200),
+    utmSource: clean(payload.utmSource, 300),
+    utmMedium: clean(payload.utmMedium, 300),
+    utmCampaign: clean(payload.utmCampaign, 500),
+    utmTerm: clean(payload.utmTerm, 500),
+    utmContent: clean(payload.utmContent, 500),
+    yclid: clean(payload.yclid, 300),
+    gclid: clean(payload.gclid, 300),
+    submittedAt: clean(payload.submittedAt, 80),
   };
 
   if (!fields.name || !fields.company || (!fields.phone && !fields.email)) {
@@ -163,7 +215,29 @@ export async function POST(request: Request) {
     );
   }
 
+  const receivedAt = new Intl.DateTimeFormat("ru-RU", {
+    dateStyle: "medium",
+    timeStyle: "medium",
+    timeZone: "Europe/Moscow",
+  }).format(new Date());
   const rows = [
+    ["Тип заявки", requestTypeLabel],
+    ["Источник заявки", requestSourceLabel],
+    ["ID источника", fields.requestSource],
+    ["Страница", fields.pageTitle || "—"],
+    ["URL страницы", fields.pageUrl || "—"],
+    ["Товар / категория", fields.requestContext || fields.product || "—"],
+    ["Первая страница визита", fields.landingPage || "—"],
+    ["Источник перехода (referrer)", fields.referrer || "—"],
+    ["UTM source", fields.utmSource || "—"],
+    ["UTM medium", fields.utmMedium || "—"],
+    ["UTM campaign", fields.utmCampaign || "—"],
+    ["UTM term", fields.utmTerm || "—"],
+    ["UTM content", fields.utmContent || "—"],
+    ["YCLID", fields.yclid || "—"],
+    ["GCLID", fields.gclid || "—"],
+    ["Дата и время отправки (Москва)", receivedAt],
+    ["Время на устройстве", fields.submittedAt || "—"],
     ["Имя", fields.name],
     ["Компания", fields.company],
     ["Телефон", fields.phone || "—"],
@@ -178,13 +252,25 @@ export async function POST(request: Request) {
     ],
     ["Согласие", "получено"],
   ];
+  const safeProduct = fields.product
+    .replace(/[\r\n]+/g, " ")
+    .slice(0, 90);
+  const subject = [
+    "Заявка с сайта",
+    requestTypeLabel,
+    requestSourceLabel,
+    fields.requestType === "product" ? safeProduct : "",
+  ]
+    .filter(Boolean)
+    .join(" | ")
+    .slice(0, 220);
   const text = [
-    `Новая заявка с сайта «${siteContent.site.name}»`,
+    subject,
     "",
     ...rows.map(([label, value]) => `${label}: ${value}`),
   ].join("\n");
   const html = `
-    <h1>Новая заявка с сайта</h1>
+    <h1>${escapeHtml(subject)}</h1>
     <table cellpadding="8" cellspacing="0" style="border-collapse:collapse">
       ${rows
         .map(
@@ -220,9 +306,7 @@ export async function POST(request: Request) {
         from: FROM_EMAIL,
         to: [REQUEST_EMAIL],
         reply_to: fields.email || undefined,
-        subject: fields.product
-          ? `Заявка: ${fields.product.replace(/[\r\n]+/g, " ").slice(0, 90)}`
-          : "Новая заявка с сайта",
+        subject,
         text,
         html,
         attachments,
@@ -253,6 +337,6 @@ export async function POST(request: Request) {
 
   return NextResponse.json({
     ok: true,
-    message: `Заявка отправлена на ${REQUEST_EMAIL}.`,
+    message: "Заявка успешно отправлена.",
   });
 }

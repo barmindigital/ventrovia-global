@@ -3,20 +3,29 @@
 import { useEffect, useRef, useState } from "react";
 import { RequestForm } from "./RequestForm";
 import { REQUEST_MODAL_EVENT } from "./RequestCta";
+import type {
+  RequestSourceId,
+  RequestType,
+} from "../lib/request-attribution";
 
 type RequestModalDetail = {
   defaultProduct?: string;
+  requestContext?: string;
+  requestType?: RequestType;
+  source?: RequestSourceId;
 };
 
 export function RequestModal() {
   const [open, setOpen] = useState(false);
-  const [defaultProduct, setDefaultProduct] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [requestDetail, setRequestDetail] = useState<RequestModalDetail>({});
   const dialogRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleOpen = (event: Event) => {
       const detail = (event as CustomEvent<RequestModalDetail>).detail;
-      setDefaultProduct(detail?.defaultProduct ?? "");
+      setRequestDetail(detail ?? {});
+      setSubmitted(false);
       setOpen(true);
     };
     window.addEventListener(REQUEST_MODAL_EVENT, handleOpen);
@@ -44,36 +53,56 @@ export function RequestModal() {
 
   if (!open) return null;
 
+  const closeModal = () => {
+    setOpen(false);
+    setSubmitted(false);
+  };
+
   return (
     <div
       className="request-modal-backdrop"
       onMouseDown={(event) => {
-        if (event.target === event.currentTarget) setOpen(false);
+        if (event.target === event.currentTarget) closeModal();
       }}
     >
       <div
         aria-labelledby="request-modal-title"
         aria-modal="true"
-        className="request-modal"
+        className={`request-modal${submitted ? " is-success" : ""}`}
         ref={dialogRef}
         role="dialog"
       >
-        <div className="request-modal-heading">
-          <div>
-            <p className="eyebrow">Заявка на поставку</p>
-            <h2 id="request-modal-title">Оставить заявку</h2>
-            <p>Ответим в рабочее время и уточним детали поставки.</p>
+        {submitted ? (
+          <span className="sr-only" id="request-modal-title">
+            Заявка успешно отправлена
+          </span>
+        ) : (
+          <div className="request-modal-heading">
+            <div>
+              <p className="eyebrow">Заявка на поставку</p>
+              <h2 id="request-modal-title">Оставить заявку</h2>
+              <p>Ответим в рабочее время и уточним детали поставки.</p>
+            </div>
+            <button
+              aria-label="Закрыть форму"
+              className="request-modal-close"
+              onClick={closeModal}
+              type="button"
+            >
+              ×
+            </button>
           </div>
-          <button
-            aria-label="Закрыть форму"
-            className="request-modal-close"
-            onClick={() => setOpen(false)}
-            type="button"
-          >
-            ×
-          </button>
-        </div>
-        <RequestForm compact defaultProduct={defaultProduct} key={defaultProduct} />
+        )}
+        <RequestForm
+          compact
+          defaultProduct={requestDetail.defaultProduct}
+          key={`${requestDetail.source}-${requestDetail.defaultProduct}`}
+          onSuccessChange={setSubmitted}
+          onSuccessClose={closeModal}
+          requestContext={requestDetail.requestContext}
+          requestType={requestDetail.requestType}
+          source={requestDetail.source ?? "unattributed"}
+        />
       </div>
     </div>
   );

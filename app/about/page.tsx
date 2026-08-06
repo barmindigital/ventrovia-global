@@ -106,7 +106,7 @@ export default function AboutPage() {
               поставки.
             </p>
             <div className="company-actions specification-button">
-              <RequestCta />
+              <RequestCta source="about_page" />
               <a
                 className="button button-outline"
                 download

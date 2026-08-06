@@ -259,6 +259,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
             <RequestCta
               className="button button-primary content-card-cta"
               defaultProduct={brand.name}
+              requestContext={`Производитель: ${brand.name}`}
+              requestType="product"
+              source="manufacturer_page"
             />
           </article>
         </div>

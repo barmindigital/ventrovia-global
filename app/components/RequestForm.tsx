@@ -3,6 +3,13 @@
 import Link from "next/link";
 import { FormEvent, useEffect, useId, useRef, useState } from "react";
 import { siteContent } from "@/app/lib/site-content";
+import {
+  readRequestAttribution,
+  REQUEST_SOURCE_LABELS,
+  REQUEST_TYPE_LABELS,
+  type RequestSourceId,
+  type RequestType,
+} from "@/app/lib/request-attribution";
 
 const REQUEST_DRAFT_KEY = "industria-postavok-request-draft";
 const MAX_FILE_SIZE = 15 * 1024 * 1024;
@@ -35,9 +42,19 @@ function formatFileSize(size: number) {
 export function RequestForm({
   compact = false,
   defaultProduct = "",
+  onSuccessChange,
+  onSuccessClose,
+  requestContext = "",
+  requestType = "supply",
+  source,
 }: {
   compact?: boolean;
   defaultProduct?: string;
+  onSuccessChange?: (submitted: boolean) => void;
+  onSuccessClose?: () => void;
+  requestContext?: string;
+  requestType?: RequestType;
+  source: RequestSourceId;
 }) {
   const fallbackEmail = siteContent.contacts.email;
   const formId = useId().replaceAll(":", "");
@@ -52,6 +69,7 @@ export function RequestForm({
   const [fallbackMailto, setFallbackMailto] = useState("");
   const [sending, setSending] = useState(false);
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -114,8 +132,50 @@ export function RequestForm({
       return;
     }
 
-    const text = [
+    const attribution = readRequestAttribution();
+    const pageTitle = document.title;
+    const pageUrl = window.location.href;
+    const submittedAt = new Date().toISOString();
+    const metadata = {
+      requestType,
+      requestSource: source,
+      requestContext,
+      pageTitle,
+      pageUrl,
+      submittedAt,
+      ...attribution,
+    };
+    Object.entries(metadata).forEach(([key, value]) => form.set(key, value));
+
+    const requestTypeLabel = REQUEST_TYPE_LABELS[requestType];
+    const requestSourceLabel = REQUEST_SOURCE_LABELS[source];
+    const fallbackSubject = [
       "Заявка с сайта",
+      requestTypeLabel,
+      requestSourceLabel,
+      requestType === "product" && draft.product ? draft.product : "",
+    ]
+      .filter(Boolean)
+      .join(" | ");
+
+    const text = [
+      fallbackSubject,
+      `Тип заявки: ${requestTypeLabel}`,
+      `Источник заявки: ${requestSourceLabel}`,
+      `ID источника: ${source}`,
+      `Страница: ${pageTitle}`,
+      `URL страницы: ${pageUrl}`,
+      `Контекст: ${requestContext || "—"}`,
+      `Первая страница визита: ${attribution.landingPage || "—"}`,
+      `Источник перехода: ${attribution.referrer || "—"}`,
+      `UTM source: ${attribution.utmSource || "—"}`,
+      `UTM medium: ${attribution.utmMedium || "—"}`,
+      `UTM campaign: ${attribution.utmCampaign || "—"}`,
+      `UTM term: ${attribution.utmTerm || "—"}`,
+      `UTM content: ${attribution.utmContent || "—"}`,
+      `YCLID: ${attribution.yclid || "—"}`,
+      `GCLID: ${attribution.gclid || "—"}`,
+      `Время на устройстве: ${submittedAt}`,
       `Имя: ${draft.name}`,
       `Компания: ${draft.company}`,
       `Телефон: ${draft.phone || "—"}`,
@@ -144,21 +204,36 @@ export function RequestForm({
 
       if (response.ok && result.ok) {
         localStorage.removeItem(REQUEST_DRAFT_KEY);
-        setDraft(emptyDraft);
+        setDraft({ ...emptyDraft, product: defaultProduct });
         setSelectedFiles([]);
-        setFeedback(
-          result.message ||
-            "Заявка отправлена. Мы свяжемся с вами по указанному контакту.",
-        );
+        setFeedback("");
+        setSubmitted(true);
+        onSuccessChange?.(true);
         formElement.reset();
         if (fileInputRef.current) fileInputRef.current.value = "";
+        const analyticsEvent = {
+          event: "request_submit_success",
+          request_source: source,
+          request_type: requestType,
+          request_context: requestContext,
+        };
+        const analyticsWindow = window as typeof window & {
+          dataLayer?: Array<Record<string, unknown>>;
+        };
+        analyticsWindow.dataLayer = analyticsWindow.dataLayer ?? [];
+        analyticsWindow.dataLayer.push(analyticsEvent);
+        window.dispatchEvent(
+          new CustomEvent("industria-postavok:request-sent", {
+            detail: analyticsEvent,
+          }),
+        );
         return;
       }
 
       localStorage.setItem(REQUEST_DRAFT_KEY, JSON.stringify(draft));
       await navigator.clipboard?.writeText(text).catch(() => undefined);
       setFallbackMailto(
-        `mailto:${fallbackEmail}?subject=${encodeURIComponent("Заявка с сайта")}&body=${encodeURIComponent(text)}`,
+        `mailto:${fallbackEmail}?subject=${encodeURIComponent(fallbackSubject)}&body=${encodeURIComponent(text)}`,
       );
       setFeedback(
         `${result.message || "Почтовый канал временно недоступен"} Поля и выбранные файлы сохранены в форме.`,
@@ -166,7 +241,7 @@ export function RequestForm({
     } catch {
       localStorage.setItem(REQUEST_DRAFT_KEY, JSON.stringify(draft));
       setFallbackMailto(
-        `mailto:${fallbackEmail}?subject=${encodeURIComponent("Заявка с сайта")}&body=${encodeURIComponent(text)}`,
+        `mailto:${fallbackEmail}?subject=${encodeURIComponent(fallbackSubject)}&body=${encodeURIComponent(text)}`,
       );
       setFeedback(
         "Не удалось отправить заявку. Поля и выбранные файлы сохранены в форме.",
@@ -176,9 +251,43 @@ export function RequestForm({
     }
   };
 
+  if (submitted) {
+    return (
+      <section
+        aria-live="polite"
+        className={`request-success${compact ? " request-success-compact" : ""}`}
+        role="status"
+      >
+        <button
+          aria-label="Закрыть сообщение"
+          className="request-success-close"
+          onClick={() => {
+            setSubmitted(false);
+            onSuccessChange?.(false);
+            onSuccessClose?.();
+          }}
+          type="button"
+        >
+          ×
+        </button>
+        <span className="request-success-mark" aria-hidden="true">
+          ✓
+        </span>
+        <p className="eyebrow eyebrow-light">Заявка принята</p>
+        <h3>Заявка успешно отправлена</h3>
+        <p>
+          Спасибо! Менеджер отдела поставок свяжется с вами по указанному
+          контакту в рабочее время.
+        </p>
+      </section>
+    );
+  }
+
   return (
     <form
       className={`request-form${compact ? " request-form-compact" : ""}`}
+      data-request-source={source}
+      data-request-type={requestType}
       encType="multipart/form-data"
       onSubmit={handleSubmit}
     >

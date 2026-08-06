@@ -66,7 +66,12 @@ export default async function ContactsPage({ searchParams }: ContactsPageProps) 
             предложить аналог.
           </p>
         </aside>
-        <RequestForm defaultProduct={product} />
+        <RequestForm
+          defaultProduct={product}
+          requestContext={product ? `Товар из перехода: ${product}` : ""}
+          requestType={product ? "product" : "supply"}
+          source="contacts_page"
+        />
       </section>
     </>
   );

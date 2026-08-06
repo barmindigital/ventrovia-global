@@ -68,7 +68,7 @@ export function ContactDock() {
           </svg>
           <span className="sr-only">Написать</span>
         </a>
-        <RequestCta className="contact-dock-cta">
+        <RequestCta className="contact-dock-cta" source="contact_dock">
           <span>Оставить заявку</span>
           <svg aria-hidden="true" viewBox="0 0 20 20">
             <path d="m7 4 6 6-6 6" />

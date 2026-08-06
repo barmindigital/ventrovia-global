@@ -6,6 +6,7 @@ import { SiteHeader } from "./components/SiteHeader";
 import { ContactDock } from "./components/ContactDock";
 import { CookieBanner } from "./components/CookieBanner";
 import { RequestModal } from "./components/RequestModal";
+import { AttributionCapture } from "./components/AttributionCapture";
 import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
 import { siteContent } from "./lib/site-content";
 
@@ -93,6 +94,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
+        <AttributionCapture />
         <a className="skip-link" href="#content">
           Перейти к содержимому
         </a>

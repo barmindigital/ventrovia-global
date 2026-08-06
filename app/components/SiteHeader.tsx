@@ -102,12 +102,16 @@ export function SiteHeader() {
         <nav className="desktop-nav" aria-label="Основная навигация">
           {navigationItems.map((item) => renderNavigationLink(item))}
         </nav>
-        <RequestCta className="header-cta" />
+        <RequestCta className="header-cta" source="header_desktop" />
         <details className="mobile-menu" ref={mobileMenuRef}>
           <summary aria-label="Открыть меню"><span /><span /></summary>
           <nav aria-label="Мобильная навигация">
             {navigationItems.map((item) => renderNavigationLink(item, true))}
-            <RequestCta className="mobile-menu-cta" onTrigger={closeMobileMenu} />
+            <RequestCta
+              className="mobile-menu-cta"
+              onTrigger={closeMobileMenu}
+              source="header_mobile"
+            />
           </nav>
         </details>
       </div>
