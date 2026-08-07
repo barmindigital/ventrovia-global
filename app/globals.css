@@ -2106,13 +2106,6 @@ img {
   color: white;
 }
 
-.brand-featured {
-  color: white;
-  background: var(--violet-deep);
-  font-size: 30px;
-  letter-spacing: 0.03em;
-}
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2741,8 +2734,7 @@ img {
   object-fit: contain;
 }
 
-.manufacturer-card:hover .brand-card-visual,
-.manufacturer-card.brand-featured .brand-card-visual {
+.manufacturer-card:hover .brand-card-visual {
   border-color: rgba(255, 255, 255, 0.26);
   background:
     linear-gradient(rgba(180, 83, 60, 0.58), rgba(180, 83, 60, 0.58)),
@@ -2750,24 +2742,20 @@ img {
 }
 
 .manufacturer-card:hover .brand-card-visual.has-logo,
-.manufacturer-card:hover .brand-card-visual.wordmark,
-.manufacturer-card.brand-featured .brand-card-visual.has-logo {
+.manufacturer-card:hover .brand-card-visual.wordmark {
   border-color: rgba(255, 255, 255, 0.42);
   background: white;
 }
 
-.manufacturer-card:hover .brand-card-visual i,
-.manufacturer-card.brand-featured .brand-card-visual i {
+.manufacturer-card:hover .brand-card-visual i {
   color: white;
 }
 
-.manufacturer-card:hover .brand-card-visual.wordmark strong,
-.manufacturer-card.brand-featured .brand-card-visual.wordmark strong {
+.manufacturer-card:hover .brand-card-visual.wordmark strong {
   color: var(--violet-deep);
 }
 
-.manufacturer-card:hover .brand-card-visual.wordmark small,
-.manufacturer-card.brand-featured .brand-card-visual.wordmark small {
+.manufacturer-card:hover .brand-card-visual.wordmark small {
   color: rgba(107, 100, 89, 0.72);
 }
 

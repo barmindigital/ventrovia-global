@@ -10,17 +10,15 @@ import { manufacturerMatchesQuery } from "../lib/manufacturer-normalization";
 
 export function ManufacturerBrowser() {
   const [query, setQuery] = useState("");
-  const [visibleCount, setVisibleCount] = useState(62);
+  const [visibleCount, setVisibleCount] = useState(63);
   const filtered = useMemo(() => {
-    return manufacturers.filter((manufacturer) => {
-      if (!query.trim() && manufacturer.slug === "abb") return false;
-      return manufacturerMatchesQuery(manufacturer, query);
-    });
+    return manufacturers.filter((manufacturer) =>
+      manufacturerMatchesQuery(manufacturer, query),
+    );
   }, [query]);
   const visibleManufacturers = filtered.slice(0, visibleCount);
-  const shownCount =
-    Math.min(visibleCount, filtered.length) + (query ? 0 : 1);
-  const totalCount = query ? filtered.length : manufacturers.length;
+  const shownCount = Math.min(visibleCount, filtered.length);
+  const totalCount = filtered.length;
 
   return (
     <>
@@ -33,7 +31,7 @@ export function ManufacturerBrowser() {
           onChange={(event) => {
             const nextQuery = event.target.value;
             setQuery(nextQuery);
-            setVisibleCount(nextQuery ? 63 : 62);
+            setVisibleCount(63);
           }}
           placeholder="Найти производителя"
           type="search"
@@ -42,21 +40,6 @@ export function ManufacturerBrowser() {
         <span>{formatCount(query ? filtered.length : manufacturers.length)} в базе</span>
       </div>
       <div className="manufacturer-list">
-        {!query && (
-          <Link className="manufacturer-card brand-featured" href="/manufacturers/abb">
-            <span className="brand-card-visual has-logo">
-              <Image
-                alt="ABB — логотип производителя"
-                height={80}
-                src="/images/brand-logos/abb.svg"
-                unoptimized
-                width={180}
-              />
-            </span>
-            <h2>ABB</h2>
-            <p><span>Автоматика и электрификация</span><span>Открыть ↗</span></p>
-          </Link>
-        )}
         {visibleManufacturers.map((manufacturer) => {
           const logo = brandLogoBySlug(manufacturer.slug);
           return (
