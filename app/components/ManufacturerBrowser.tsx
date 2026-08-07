@@ -6,17 +6,15 @@ import Link from "next/link";
 import { formatCount, manufacturers } from "../lib/catalog-data";
 import { brandLogoBySlug } from "../lib/brand-logos";
 import { brandInitials, brandWordmarkTone } from "../lib/brand-wordmark";
+import { manufacturerMatchesQuery } from "../lib/manufacturer-normalization";
 
 export function ManufacturerBrowser() {
   const [query, setQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(62);
   const filtered = useMemo(() => {
-    const normalized = query.trim().toLocaleLowerCase("ru");
     return manufacturers.filter((manufacturer) => {
-      if (!normalized && manufacturer.slug === "abb") return false;
-      return [manufacturer.name, manufacturer.country ?? ""].some((value) =>
-        value.toLocaleLowerCase("ru").includes(normalized),
-      );
+      if (!query.trim() && manufacturer.slug === "abb") return false;
+      return manufacturerMatchesQuery(manufacturer, query);
     });
   }, [query]);
   const visibleManufacturers = filtered.slice(0, visibleCount);
@@ -90,9 +88,11 @@ export function ManufacturerBrowser() {
                   />
                 ) : (
                   <>
-                    <span className="brand-wordmark-initials" aria-hidden="true">
-                      {brandInitials(manufacturer.name)}
-                    </span>
+                    <span
+                      aria-hidden="true"
+                      className="brand-wordmark-initials"
+                      data-initials={brandInitials(manufacturer.name)}
+                    />
                     <span className="brand-wordmark-copy">
                       <strong>{manufacturer.name}</strong>
                       <small>производитель</small>

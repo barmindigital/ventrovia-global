@@ -2675,6 +2675,10 @@ img {
   letter-spacing: -0.04em;
 }
 
+.brand-wordmark-initials::before {
+  content: attr(data-initials);
+}
+
 .brand-wordmark-copy {
   display: grid;
   min-width: 0;

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ProductArt } from "../../components/ProductArt";
 import { RequestCta } from "../../components/RequestCta";
 import { brandLogoBySlug } from "../../lib/brand-logos";
@@ -11,8 +11,12 @@ import {
   manufacturerBySlug,
   manufacturers,
   productImage,
-  products,
+  productsByManufacturerSlug,
 } from "../../lib/catalog-data";
+import {
+  canonicalManufacturerSlug,
+  legacyManufacturerSlugsFor,
+} from "../../lib/manufacturer-normalization";
 import {
   manufacturerEditorialFor,
   manufacturerMetaDescription,
@@ -25,34 +29,24 @@ type BrandPageProps = {
   params: Promise<{ slug: string }>;
 };
 
-const specialBrands = {
-  abb: {
-    slug: "abb",
-    name: "ABB",
-    country: "Международная группа",
-    focus: "Электрификация, автоматизация и приводная техника",
-    count: 0,
-  },
-};
-
 export function generateStaticParams() {
-  return [
-    { slug: "abb" },
-    ...manufacturers
-      .filter((manufacturer) => manufacturer.slug !== "abb")
-      .map((manufacturer) => ({ slug: manufacturer.slug })),
-  ];
+  const slugs = manufacturers.flatMap((manufacturer) => [
+    manufacturer.slug,
+    ...legacyManufacturerSlugsFor(manufacturer.slug),
+  ]);
+  return Array.from(new Set(slugs)).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: BrandPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const brand = slug === "abb" ? specialBrands.abb : manufacturerBySlug(slug);
+  const brand = manufacturerBySlug(slug);
   if (!brand) return {};
-  const canonical = `/manufacturers/${slug}`;
-  const shouldIndex = slug === "abb" || brand.count > 0;
+  const canonical = `/manufacturers/${brand.slug}`;
+  const shouldIndex =
+    brand.verificationStatus === "verified" && brand.count > 0;
   const templateValues = {
     name: brand.name,
-    slug,
+    slug: brand.slug,
     count: brand.count,
     country: brand.country,
   };
@@ -84,30 +78,30 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
 
 export default async function BrandPage({ params }: BrandPageProps) {
   const { slug } = await params;
-  const brand = slug === "abb" ? specialBrands.abb : manufacturerBySlug(slug);
+  const canonicalSlug = canonicalManufacturerSlug(slug);
+  if (canonicalSlug !== slug) redirect(`/manufacturers/${canonicalSlug}`);
+  const brand = manufacturerBySlug(slug);
   if (!brand) notFound();
 
-  const brandProducts = products.filter(
-    (product) => product.manufacturerSlug === slug,
-  );
-  const logo = brandLogoBySlug(slug);
+  const brandProducts = productsByManufacturerSlug(brand.slug);
+  const logo = brandLogoBySlug(brand.slug);
   const editorial = manufacturerEditorialFor(brand);
-  const brandUrl = `${SITE_URL}/manufacturers/${slug}`;
+  const brandUrl = `${SITE_URL}/manufacturers/${brand.slug}`;
   const brandDescription =
     applySeoTemplate(siteContent.templates.manufacturerDescription, {
       name: brand.name,
-      slug,
+      slug: brand.slug,
       count: brand.count,
       country: brand.country,
     }) || manufacturerMetaDescription(brand);
-  const brandJsonLd = {
+  const brandJsonLd = brand.verificationStatus === "verified" ? {
     "@context": "https://schema.org",
     "@type": "Brand",
     name: brand.name,
     url: brandUrl,
     description: brandDescription,
     logo: logo ? `${SITE_URL}${logo.src}` : undefined,
-  };
+  } : null;
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -173,12 +167,14 @@ export default async function BrandPage({ params }: BrandPageProps) {
             ) : (
               <span
                 aria-label={`Текстовая карточка производителя ${brand.name}`}
-                className={`brand-wordmark-hero ${brandWordmarkTone(slug)}`}
+                className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`}
                 role="img"
               >
-                <span className="brand-wordmark-initials" aria-hidden="true">
-                  {brandInitials(brand.name)}
-                </span>
+                <span
+                  aria-hidden="true"
+                  className="brand-wordmark-initials"
+                  data-initials={brandInitials(brand.name)}
+                />
                 <span className="brand-wordmark-copy">
                   <strong>{brand.name}</strong>
                   <small>производитель</small>
@@ -206,7 +202,11 @@ export default async function BrandPage({ params }: BrandPageProps) {
               </li>
               <li>
                 <span>Статус</span>
-                <strong>Подбор по запросу</strong>
+                <strong>
+                  {brand.verificationStatus === "verified"
+                    ? "Проверено редакцией"
+                    : "Требует проверки"}
+                </strong>
               </li>
             </ul>
           </aside>
@@ -244,18 +244,6 @@ export default async function BrandPage({ params }: BrandPageProps) {
                 .
               </p>
             )}
-            {slug === "abb" && (
-              <>
-                <h3>Основные направления ABB</h3>
-                <p>
-                  В запросах по ABB чаще всего встречаются компоненты
-                  автоматизации, низковольтное оборудование, электроприводы и
-                  элементы управления. Точную серию определяем по маркировке,
-                  поскольку внешне похожие исполнения могут иметь разные
-                  параметры.
-                </p>
-              </>
-            )}
             <RequestCta
               className="button button-primary content-card-cta"
               defaultProduct={brand.name}
@@ -286,7 +274,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
                 <p className="eyebrow">Позиции витрины</p>
                 <h2>{brand.name} в каталоге</h2>
               </div>
-              <Link className="text-link" href={`/catalog?manufacturer=${slug}`}>
+              <Link className="text-link" href={`/catalog?manufacturer=${brand.slug}`}>
                 Все позиции <span aria-hidden="true">→</span>
               </Link>
             </div>
@@ -313,10 +301,12 @@ export default async function BrandPage({ params }: BrandPageProps) {
           </div>
         </section>
       )}
-      <script
-        dangerouslySetInnerHTML={{ __html: serializeJsonLd(brandJsonLd) }}
-        type="application/ld+json"
-      />
+      {brandJsonLd && (
+        <script
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(brandJsonLd) }}
+          type="application/ld+json"
+        />
+      )}
       <script
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
         type="application/ld+json"
