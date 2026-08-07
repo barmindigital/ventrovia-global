@@ -223,17 +223,12 @@ export default function Home() {
             <div>
               <p className="eyebrow">Опыт поставок</p>
               <h2>Реализованные проекты</h2>
-              <p className="section-intro">
-                Публикуем задачу, состав поставки, сложность, решение и результат
-                только после согласования с заказчиком.
-              </p>
             </div>
           </div>
           <div className="projects-grid case-consent-grid">
             {caseCategories.map((category) => (
               <article key={category}>
                 <span>{category}</span>
-                <h3>Кейс готовится к публикации</h3>
               </article>
             ))}
           </div>
