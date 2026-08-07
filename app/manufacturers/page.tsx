@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Fragment } from "react";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
+import { manufacturers } from "../lib/catalog-data";
 import { renderHeadingLines, siteContent } from "../lib/site-content";
 
 const pageContent = siteContent.pages.manufacturers;
@@ -39,7 +40,18 @@ export default function ManufacturersPage() {
         </div>
       </section>
       <section className="section shell">
-        <ManufacturerBrowser />
+        <ManufacturerBrowser
+          manufacturers={manufacturers.map(
+            ({ aliases, count, country, name, slug, verificationStatus }) => ({
+              aliases,
+              count,
+              country,
+              name,
+              slug,
+              verificationStatus,
+            }),
+          )}
+        />
       </section>
     </>
   );

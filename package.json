@@ -13,6 +13,7 @@
     "start:timeweb": "next start -p ${PORT:-3000}",
     "quality:catalog": "node scripts/generate-catalog-quality.mjs && node scripts/generate-catalog-search-routing.mjs && node scripts/audit-catalog-integrity.mjs",
     "audit:catalog": "node scripts/generate-catalog-quality.mjs --check && node scripts/generate-catalog-search-routing.mjs --check && node scripts/audit-catalog-integrity.mjs --check",
+    "audit:bundle": "node scripts/audit-public-bundle.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "typecheck": "tsc --noEmit --incremental false",

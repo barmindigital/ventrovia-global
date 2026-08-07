@@ -3,19 +3,26 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { formatCount, manufacturers } from "../lib/catalog-data";
+import {
+  formatCount,
+  type CatalogManufacturerOption,
+} from "../lib/catalog-public";
 import { brandLogoBySlug } from "../lib/brand-logos";
 import { brandInitials, brandWordmarkTone } from "../lib/brand-wordmark";
-import { manufacturerMatchesQuery } from "../lib/manufacturer-normalization";
+import { manufacturerMatchesQuery } from "../lib/manufacturer-identifiers";
 
-export function ManufacturerBrowser() {
+export function ManufacturerBrowser({
+  manufacturers,
+}: {
+  manufacturers: CatalogManufacturerOption[];
+}) {
   const [query, setQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(63);
   const filtered = useMemo(() => {
     return manufacturers.filter((manufacturer) =>
       manufacturerMatchesQuery(manufacturer, query),
     );
-  }, [query]);
+  }, [manufacturers, query]);
   const visibleManufacturers = filtered.slice(0, visibleCount);
   const shownCount = Math.min(visibleCount, filtered.length);
   const totalCount = filtered.length;
