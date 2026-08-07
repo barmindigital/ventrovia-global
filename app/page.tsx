@@ -134,7 +134,7 @@ export default function Home() {
           {categories.slice(0, 8).map((category, index) => (
             <Link
               className={`category-card category-tone-${(index % 4) + 1}`}
-              href={`/catalog?category=${category.slug}`}
+              href={`/catalog/category/${category.slug}`}
               key={category.slug}
             >
               <ProductArt

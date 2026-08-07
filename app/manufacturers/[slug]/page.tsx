@@ -55,10 +55,12 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     templateValues,
   );
   const description =
-    applySeoTemplate(
-      siteContent.templates.manufacturerDescription,
-      templateValues,
-    ) || manufacturerMetaDescription(brand);
+    brand.verificationStatus === "verified"
+      ? applySeoTemplate(
+          siteContent.templates.manufacturerDescription,
+          templateValues,
+        ) || manufacturerMetaDescription(brand)
+      : `${brand.name}: поиск оборудования по модели и артикулу. Справочные данные и товарные связи публикуются после редакторской проверки.`;
   return {
     title,
     description,
@@ -85,16 +87,33 @@ export default async function BrandPage({ params }: BrandPageProps) {
 
   const brandProducts = productsByManufacturerSlug(brand.slug);
   const logo = brandLogoBySlug(brand.slug);
-  const editorial = manufacturerEditorialFor(brand);
+  const verified = brand.verificationStatus === "verified";
+  const editorial = verified
+    ? manufacturerEditorialFor(brand)
+    : {
+        overview: `Для ${brand.name} выполняем адресный поиск по полной модели, артикулу и маркировке. Справочные сведения из импорта не используем как подтверждённые факты без редакторской проверки.`,
+        assortment:
+          "Поиск выполняется по исходным записям каталога. Перед предложением название производителя и связь с конкретной позицией проверяются по документации или фотографии шильдика.",
+        applications:
+          "Область применения определяется только для конкретной подтверждённой модели. Общие технические характеристики бренду автоматически не приписываются.",
+        selection: [
+          "полную маркировку без сокращений",
+          "фотографию шильдика и разъёмов",
+          "документацию изготовителя, если она есть",
+          "количество и назначение узла",
+        ],
+        sourceUrl: undefined,
+      };
   const brandUrl = `${SITE_URL}/manufacturers/${brand.slug}`;
-  const brandDescription =
-    applySeoTemplate(siteContent.templates.manufacturerDescription, {
-      name: brand.name,
-      slug: brand.slug,
-      count: brand.count,
-      country: brand.country,
-    }) || manufacturerMetaDescription(brand);
-  const brandJsonLd = brand.verificationStatus === "verified" ? {
+  const brandDescription = verified
+    ? applySeoTemplate(siteContent.templates.manufacturerDescription, {
+        name: brand.name,
+        slug: brand.slug,
+        count: brand.count,
+        country: brand.country,
+      }) || manufacturerMetaDescription(brand)
+    : `${brand.name}: адресный поиск по полной модели и артикулу; справочные сведения требуют редакторской проверки.`;
+  const brandJsonLd = verified ? {
     "@context": "https://schema.org",
     "@type": "Brand",
     name: brand.name,
@@ -140,9 +159,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
             <p className="eyebrow">Производитель</p>
             <h1>{brand.name}</h1>
             <p>
-              Подбор оборудования {brand.name} по точной модели, артикулу или
-              маркировке с шильдика. Страница и тексты подготовлены специально
-              для этого каталога.
+              {verified
+                ? `Подбор оборудования ${brand.name} по точной модели, артикулу или маркировке с шильдика.`
+                : `Адресный поиск ${brand.name} по исходной маркировке. Название и сведения проверяются перед использованием.`}
             </p>
           </div>
           <div className="brand-visual" aria-label={`Иллюстрация раздела ${brand.name}`} role="img">
@@ -191,7 +210,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
             <p className="eyebrow">Кратко о разделе</p>
             <ul className="brand-facts">
               <li><span>Бренд</span><strong>{brand.name}</strong></li>
-              <li><span>Регион</span><strong>{brand.country ?? "Международный рынок"}</strong></li>
+              <li>
+                <span>Регион</span>
+                <strong>{verified ? brand.country ?? "Не указан" : "уточняется"}</strong>
+              </li>
               <li>
                 <span>Позиций в базе</span>
                 <strong>

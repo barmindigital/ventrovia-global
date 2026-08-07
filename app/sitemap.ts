@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { manufacturers, products } from "./lib/catalog-data";
+import { categories, manufacturers, products } from "./lib/catalog-data";
+import { isProductIndexable } from "./lib/catalog-verification";
 import { SITE_URL } from "./lib/seo-content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -27,31 +28,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const manufacturerPages: MetadataRoute.Sitemap = [
-    {
-      url: `${SITE_URL}/manufacturers/abb`,
-      changeFrequency: "monthly",
+  const categoryPages: MetadataRoute.Sitemap = categories
+    .filter((category) => category.count > 0)
+    .map((category) => ({
+      url: `${SITE_URL}/catalog/category/${category.slug}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    }));
+
+  const manufacturerPages: MetadataRoute.Sitemap = manufacturers
+    .filter(
+      (manufacturer) =>
+        manufacturer.verificationStatus === "verified" &&
+        manufacturer.count > 0,
+    )
+    .map((manufacturer) => ({
+      url: `${SITE_URL}/manufacturers/${manufacturer.slug}`,
+      changeFrequency: "monthly" as const,
       priority: 0.7,
-    },
-    ...manufacturers
-      .filter(
-        (manufacturer) =>
-          manufacturer.slug !== "abb" && manufacturer.count > 0,
-      )
-      .map((manufacturer) => ({
-        url: `${SITE_URL}/manufacturers/${manufacturer.slug}`,
-        changeFrequency: "monthly" as const,
-        priority: 0.7,
-      })),
-  ];
+    }));
 
   const verifiedProductPages: MetadataRoute.Sitemap = products
-    .filter((product) => product.completeness >= 65)
+    .filter(isProductIndexable)
     .map((product) => ({
       url: `${SITE_URL}/catalog/${product.slug}`,
       changeFrequency: "monthly" as const,
       priority: 0.65,
     }));
 
-  return [...staticPages, ...manufacturerPages, ...verifiedProductPages];
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...manufacturerPages,
+    ...verifiedProductPages,
+  ];
 }
