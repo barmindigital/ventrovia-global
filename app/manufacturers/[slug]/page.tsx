@@ -18,6 +18,10 @@ import {
   legacyManufacturerSlugsFor,
 } from "../../lib/manufacturer-normalization";
 import {
+  isCatalogPimEntityIndexable,
+  toCatalogPimManufacturer,
+} from "../../lib/catalog-pim";
+import {
   manufacturerEditorialFor,
   manufacturerMetaDescription,
   serializeJsonLd,
@@ -42,8 +46,9 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
   const brand = manufacturerBySlug(slug);
   if (!brand) return {};
   const canonical = `/manufacturers/${brand.slug}`;
-  const shouldIndex =
-    brand.verificationStatus === "verified" && brand.count > 0;
+  const shouldIndex = isCatalogPimEntityIndexable(
+    toCatalogPimManufacturer(brand),
+  );
   const templateValues = {
     name: brand.name,
     slug: brand.slug,

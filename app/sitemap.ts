@@ -1,6 +1,11 @@
 import type { MetadataRoute } from "next";
 import { categories, manufacturers, products } from "./lib/catalog-data";
-import { isProductIndexable } from "./lib/catalog-verification";
+import {
+  isCatalogPimEntityIndexable,
+  toCatalogPimCategory,
+  toCatalogPimManufacturer,
+  toCatalogPimProduct,
+} from "./lib/catalog-pim";
 import { SITE_URL } from "./lib/seo-content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -29,7 +34,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const categoryPages: MetadataRoute.Sitemap = categories
-    .filter((category) => category.count > 0)
+    .filter((category) =>
+      isCatalogPimEntityIndexable(toCatalogPimCategory(category)),
+    )
     .map((category) => ({
       url: `${SITE_URL}/catalog/category/${category.slug}`,
       changeFrequency: "weekly" as const,
@@ -37,10 +44,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   const manufacturerPages: MetadataRoute.Sitemap = manufacturers
-    .filter(
-      (manufacturer) =>
-        manufacturer.verificationStatus === "verified" &&
-        manufacturer.count > 0,
+    .filter((manufacturer) =>
+      isCatalogPimEntityIndexable(toCatalogPimManufacturer(manufacturer)),
     )
     .map((manufacturer) => ({
       url: `${SITE_URL}/manufacturers/${manufacturer.slug}`,
@@ -49,7 +54,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   const verifiedProductPages: MetadataRoute.Sitemap = products
-    .filter(isProductIndexable)
+    .filter((product) =>
+      isCatalogPimEntityIndexable(toCatalogPimProduct(product)),
+    )
     .map((product) => ({
       url: `${SITE_URL}/catalog/${product.slug}`,
       changeFrequency: "monthly" as const,
