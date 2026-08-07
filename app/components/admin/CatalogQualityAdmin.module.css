@@ -42,7 +42,7 @@
 .tablePanel { padding: 0; overflow: hidden; }
 .tableHeader, .pagination { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 15px 18px; }
 .tableWrap { overflow-x: auto; border-top: 1px solid #e4ded5; border-bottom: 1px solid #e4ded5; }
-.tableWrap table { width: 100%; min-width: 1320px; border-collapse: collapse; font-size: 13px; }
+.tableWrap table { width: 100%; min-width: 1480px; border-collapse: collapse; font-size: 13px; }
 .tableWrap th, .tableWrap td { padding: 12px; border-bottom: 1px solid #ece7df; text-align: left; vertical-align: top; }
 .tableWrap th { position: sticky; top: 0; background: #f7f4ef; color: #6d665e; }
 .tableWrap td strong, .tableWrap td small { display: block; max-width: 260px; }
@@ -56,6 +56,13 @@
 .decisionPanel { position: relative; scroll-margin-top: 20px; }
 .decisionPanel form { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; margin-top: 20px; }
 .decisionPanel textarea { min-height: 110px; resize: vertical; }
+.evidenceSummary { margin-top: 16px; padding: 14px 16px; border: 1px solid #e0d8ce; border-radius: 12px; background: #f8f5f0; }
+.evidenceSummary p { margin: 7px 0 0; color: #665f57; }
+.evidenceFields { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 12px 18px; margin: 0; padding: 14px; border: 1px solid #cbc3b9; border-radius: 10px; }
+.evidenceFields legend { padding: 0 5px; font-size: 13px; font-weight: 800; }
+.evidenceFields label { display: flex; align-items: center; grid-template-columns: auto 1fr; gap: 7px; }
+.evidenceFields input { width: 18px; min-height: 18px; margin: 0; padding: 0; }
+.evidenceFields small { flex-basis: 100%; color: #746e66; }
 .fullField { grid-column: 1 / -1; }
 .formActions { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: 10px; }
 .formActions button { min-width: 150px; padding: 0 16px; }
