@@ -34,10 +34,14 @@ type BrandPageProps = {
 };
 
 export function generateStaticParams() {
-  const slugs = manufacturers.flatMap((manufacturer) => [
-    manufacturer.slug,
-    ...legacyManufacturerSlugsFor(manufacturer.slug),
-  ]);
+  const slugs = manufacturers
+    .filter((manufacturer) =>
+      isCatalogPimEntityIndexable(toCatalogPimManufacturer(manufacturer)),
+    )
+    .flatMap((manufacturer) => [
+      manufacturer.slug,
+      ...legacyManufacturerSlugsFor(manufacturer.slug),
+    ]);
   return Array.from(new Set(slugs)).map((slug) => ({ slug }));
 }
 
