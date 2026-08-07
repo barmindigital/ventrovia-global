@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { FormEvent } from "react";
+import Link from "next/link";
 import type { PageContent, SiteContent } from "@/app/lib/site-content";
 import styles from "./AdminPanel.module.css";
 
@@ -260,6 +261,8 @@ export function AdminPanel() {
             {message ? <p className={styles[message.kind]}>{message.text}</p> : null}
           </div>
           <div className={styles.toolbarActions}>
+            <Link className={styles.buttonGhost} href="/admin/catalog-review">Очередь каталога</Link>
+            <Link className={styles.buttonGhost} href="/admin/catalog-health">Качество данных</Link>
             <button
               className={styles.buttonGhost}
               type="button"
