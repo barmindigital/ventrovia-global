@@ -37,13 +37,6 @@ const featuredManufacturers = [
   { slug: "xylem", name: "Xylem" },
 ];
 
-const caseCategories = [
-  "Энергетика",
-  "Инфраструктура",
-  "Промышленность",
-  "Медицина",
-];
-
 const heroTrustItems = [
   "Договор и расчёты в рублях",
   "Поиск редких и снятых с производства позиций",
@@ -214,24 +207,6 @@ export default function Home() {
             unoptimized
             width={1672}
           />
-        </div>
-      </section>
-
-      <section className="section section-tint" id="cases">
-        <div className="shell">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">Опыт поставок</p>
-              <h2>Реализованные проекты</h2>
-            </div>
-          </div>
-          <div className="projects-grid case-consent-grid">
-            {caseCategories.map((category) => (
-              <article key={category}>
-                <span>{category}</span>
-              </article>
-            ))}
-          </div>
         </div>
       </section>
 
