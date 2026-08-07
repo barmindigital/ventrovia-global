@@ -85,8 +85,12 @@ export function ManufacturerBrowser() {
               </span>
               <h2>{manufacturer.name}</h2>
               <p>
-                <span>{manufacturer.country ?? "Международный бренд"}</span>
-                <span>{formatCount(manufacturer.count)} поз.</span>
+                <span>
+                  {manufacturer.verificationStatus === "verified"
+                    ? manufacturer.country ?? "Регион не указан"
+                    : "Данные на проверке"}
+                </span>
+                <span>{formatCount(manufacturer.count)} исх. поз.</span>
               </p>
             </Link>
           );
