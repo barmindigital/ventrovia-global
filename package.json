@@ -17,6 +17,7 @@
     "evidence:catalog": "node scripts/build-official-evidence.mjs",
     "audit:evidence": "node scripts/build-official-evidence.mjs --check",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
+    "benchmark:catalog": "node scripts/benchmark-catalog-search.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "typecheck": "tsc --noEmit --incremental false",
