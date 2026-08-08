@@ -16,6 +16,8 @@
     "acquire:catalog-sources": "node scripts/acquire-official-sources.mjs",
     "evidence:catalog": "node scripts/build-official-evidence.mjs",
     "audit:evidence": "node scripts/build-official-evidence.mjs --check",
+    "trust:catalog": "node scripts/generate-catalog-trust.mjs",
+    "audit:trust": "node scripts/generate-catalog-trust.mjs --check",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
     "benchmark:catalog": "node scripts/benchmark-catalog-search.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",
