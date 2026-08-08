@@ -69,9 +69,29 @@
 .history { margin-top: 24px; }
 .history article { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 12px 0; border-top: 1px solid #ece7df; }
 .history article p, .history article small { grid-column: 1 / -1; margin: 0; }
+.evidenceWorkspace { margin: 0 0 24px; padding: 22px; border: 1px solid #cfc5b8; border-radius: 18px; background: #2f2c28; color: #fff; }
+.workspaceHeader { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+.workspaceHeader h2 { margin: 0; font-size: 28px; }
+.workspaceHeader > p { margin: 0; color: #c8c1b8; font-size: 13px; }
+.evidenceMetrics { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-top: 18px; }
+.evidenceMetrics > div { padding: 13px; border: 1px solid #544e47; border-radius: 11px; background: #393531; }
+.evidenceMetrics span { display: block; min-height: 32px; color: #beb6ac; font-size: 12px; }
+.evidenceMetrics strong { display: block; margin-top: 8px; font-size: 24px; }
+.brandPacks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 16px; }
+.brandPacks article { padding: 16px; border: 1px solid #544e47; border-radius: 12px; background: #393531; }
+.brandPacks h3, .brandPacks p { margin: 0; }
+.brandPacks article > p { margin-top: 8px; color: #d6d0c8; font-size: 13px; }
+.brandPacks .summaryRow span { border-color: #615a52; background: #2f2c28; }
+.sourceLine a, .evidenceTable a { color: #ffad92; }
+.batchLine { padding-top: 8px; border-top: 1px solid #544e47; }
+.evidenceTable { margin-top: 18px; }
+.evidenceTable h3 { margin: 0 0 12px; }
+.evidenceTable .tableWrap { border-color: #544e47; border-radius: 10px; }
+.evidenceTable .tableWrap table { min-width: 1120px; color: #302d29; }
 
 @media (max-width: 1100px) {
   .metricGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .evidenceMetrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .filters { grid-template-columns: 1fr 1fr; }
 }
 
@@ -81,6 +101,8 @@
   .nav { overflow-x: auto; }
   .nav a { white-space: nowrap; }
   .metricGrid { grid-template-columns: 1fr 1fr; }
+  .evidenceMetrics, .brandPacks { grid-template-columns: 1fr; }
+  .workspaceHeader { flex-direction: column; }
   .twoColumns, .filters, .decisionPanel form { grid-template-columns: 1fr; }
   .fullField, .formActions { grid-column: auto; }
   .tableHeader { align-items: flex-start; flex-direction: column; }
