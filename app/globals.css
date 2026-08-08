@@ -3098,6 +3098,15 @@ img {
   background: var(--success);
 }
 
+.data-status-structural {
+  background: #fff1e8;
+  color: #7a3c2e;
+}
+
+.data-status-structural::before {
+  background: #c4533c;
+}
+
 .spec-table {
   margin: 28px 0;
   border-top: 1px solid var(--line);

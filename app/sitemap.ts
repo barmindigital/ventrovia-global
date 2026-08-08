@@ -7,6 +7,10 @@ import {
   toCatalogPimProduct,
 } from "./lib/catalog-pim";
 import { SITE_URL } from "./lib/seo-content";
+import {
+  CATALOG_TRUST_ROLLOUT_PHASE,
+  catalogTrustPilotProducts,
+} from "./generated/catalog-trust-pilot";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -63,10 +67,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.65,
     }));
 
+  const structuralPilotPages: MetadataRoute.Sitemap =
+    CATALOG_TRUST_ROLLOUT_PHASE === "pilot"
+      ? catalogTrustPilotProducts.map(({ id }) => ({
+          url: `${SITE_URL}/catalog/position/${id}`,
+          changeFrequency: "monthly" as const,
+          priority: 0.55,
+        }))
+      : [];
+
   return [
     ...staticPages,
     ...categoryPages,
     ...manufacturerPages,
     ...verifiedProductPages,
+    ...structuralPilotPages,
   ];
 }

@@ -70,6 +70,16 @@
 .history article { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 12px 0; border-top: 1px solid #ece7df; }
 .history article p, .history article small { grid-column: 1 / -1; margin: 0; }
 .evidenceWorkspace { margin: 0 0 24px; padding: 22px; border: 1px solid #cfc5b8; border-radius: 18px; background: #2f2c28; color: #fff; }
+.trustWorkspace { margin: 0 0 24px; padding: 22px; border: 1px solid #8b3c2e; border-radius: 18px; background: #742f24; color: #fff; }
+.trustWorkspace .evidenceMetrics > div { border-color: #9d5144; background: #62271f; }
+.trustWorkspace .evidenceMetrics span { color: #edd9d3; }
+.trustWorkspace .twoColumns { margin-top: 16px; }
+.trustPanel { padding: 16px; border: 1px solid #9d5144; border-radius: 12px; background: #62271f; }
+.trustPanel h3 { margin: 0 0 10px; }
+.trustPanel .simpleList > div { border-color: #8b4034; }
+.trustNote { margin: 16px 0 0; color: #f0ded9; }
+.trustWorkspace .evidenceTable .tableWrap { border-color: #9d5144; border-radius: 10px; }
+.trustWorkspace .evidenceTable .tableWrap table { min-width: 1180px; color: #302d29; }
 .workspaceHeader { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
 .workspaceHeader h2 { margin: 0; font-size: 28px; }
 .workspaceHeader > p { margin: 0; color: #c8c1b8; font-size: 13px; }
