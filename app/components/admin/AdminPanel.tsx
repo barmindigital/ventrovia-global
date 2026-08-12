@@ -261,6 +261,7 @@ export function AdminPanel() {
             {message ? <p className={styles[message.kind]}>{message.text}</p> : null}
           </div>
           <div className={styles.toolbarActions}>
+            <Link className={styles.buttonGhost} href="/admin/brand-health">Brand Health</Link>
             <Link className={styles.buttonGhost} href="/admin/catalog-review">Очередь каталога</Link>
             <Link className={styles.buttonGhost} href="/admin/catalog-health">Качество данных</Link>
             <button
