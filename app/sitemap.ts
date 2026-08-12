@@ -8,7 +8,7 @@ import {
 } from "./lib/catalog-pim";
 import { SITE_URL } from "./lib/seo-content";
 import {
-  CATALOG_TRUST_ROLLOUT_PHASE,
+  CATALOG_TRUST_ROLLOUT_ENABLED,
   catalogTrustPilotProducts,
 } from "./generated/catalog-trust-pilot";
 
@@ -68,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   const structuralPilotPages: MetadataRoute.Sitemap =
-    CATALOG_TRUST_ROLLOUT_PHASE === "pilot"
+    CATALOG_TRUST_ROLLOUT_ENABLED
       ? catalogTrustPilotProducts.map(({ id }) => ({
           url: `${SITE_URL}/catalog/position/${id}`,
           changeFrequency: "monthly" as const,
