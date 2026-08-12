@@ -2568,6 +2568,34 @@ img {
   outline: 0;
 }
 
+.manufacturer-alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: -12px 0 30px;
+}
+
+.manufacturer-alphabet button {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.56);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.manufacturer-alphabet button:hover,
+.manufacturer-alphabet button.is-active {
+  border-color: var(--violet-deep);
+  color: white;
+  background: var(--violet-deep);
+}
+
 .manufacturer-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2973,6 +3001,85 @@ img {
   font-family: "Onest Variable", Onest, sans-serif;
   font-size: 20px;
   font-weight: 500;
+}
+
+.brand-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.brand-official-link {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 22px;
+  color: var(--violet-deep);
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.brand-knowledge-section {
+  margin-top: 30px;
+}
+
+.brand-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.brand-tag-list span {
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--violet-deep);
+  background: rgba(242, 235, 221, 0.58);
+  font-size: 12px;
+  font-weight: 630;
+}
+
+.brand-scope-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.brand-document-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.brand-document-list a {
+  color: var(--violet-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.brand-rfq-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.brand-rfq-panel h2 {
+  margin: 0 0 10px;
+}
+
+.brand-rfq-panel p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.brand-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.brand-faq-grid .content-card h3 {
+  margin-top: 0;
 }
 
 .content-card {
@@ -4041,6 +4148,21 @@ img {
   }
 
   .brand-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-rfq-panel,
+  .brand-hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .brand-rfq-panel .button,
+  .brand-hero-actions .button {
+    width: 100%;
+  }
+
+  .brand-faq-grid {
     grid-template-columns: 1fr;
   }
 

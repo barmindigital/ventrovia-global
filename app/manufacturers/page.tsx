@@ -3,6 +3,12 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
 import { manufacturers } from "../lib/catalog-data";
+import { brandLogoBySlug } from "../lib/brand-logos";
+import {
+  brandDisplayName,
+  brandKnowledgeFor,
+  brandReadinessFor,
+} from "../lib/brand-knowledge.server";
 import { renderHeadingLines, siteContent } from "../lib/site-content";
 import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "../lib/catalog-visibility";
 
@@ -45,10 +51,17 @@ export default function ManufacturersPage() {
           showProductCounts={PRODUCT_CATALOG_PUBLIC_ENABLED}
           manufacturers={manufacturers.map(
             ({ aliases, count, country, name, slug, verificationStatus }) => ({
-              aliases,
+              aliases: [
+                name,
+                ...aliases,
+                ...(brandKnowledgeFor(slug)?.aliases ?? []),
+              ],
               count: PRODUCT_CATALOG_PUBLIC_ENABLED ? count : 0,
               country,
-              name,
+              descriptor: brandKnowledgeFor(slug)?.productCategories.slice(0, 2).join(" · "),
+              logoSrc: brandLogoBySlug(slug)?.src,
+              name: brandDisplayName(slug, name),
+              readiness: brandReadinessFor(slug),
               slug,
               verificationStatus,
             }),

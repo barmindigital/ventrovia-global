@@ -2,33 +2,23 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { ProductArt } from "../../components/ProductArt";
 import { RequestCta } from "../../components/RequestCta";
 import { brandLogoBySlug } from "../../lib/brand-logos";
 import { brandInitials, brandWordmarkTone } from "../../lib/brand-wordmark";
 import {
-  formatCount,
-  manufacturerBySlug,
-  manufacturers,
-  productImage,
-  productsByManufacturerSlug,
-} from "../../lib/catalog-data";
+  brandDisplayName,
+  brandKnowledgeFor,
+  brandMetaDescription,
+  brandReadinessFor,
+  brandSeoTitle,
+  isBrandIndexable,
+} from "../../lib/brand-knowledge.server";
+import { manufacturerBySlug, manufacturers } from "../../lib/catalog-data";
 import {
   canonicalManufacturerSlug,
   legacyManufacturerSlugsFor,
 } from "../../lib/manufacturer-normalization";
-import {
-  isCatalogPimEntityIndexable,
-  toCatalogPimManufacturer,
-} from "../../lib/catalog-pim";
-import {
-  manufacturerEditorialFor,
-  manufacturerMetaDescription,
-  serializeJsonLd,
-  SITE_URL,
-} from "../../lib/seo-content";
-import { applySeoTemplate, siteContent } from "../../lib/site-content";
-import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "../../lib/catalog-visibility";
+import { serializeJsonLd, SITE_URL } from "../../lib/seo-content";
 
 type BrandPageProps = {
   params: Promise<{ slug: string }>;
@@ -36,9 +26,7 @@ type BrandPageProps = {
 
 export function generateStaticParams() {
   const slugs = manufacturers
-    .filter((manufacturer) =>
-      isCatalogPimEntityIndexable(toCatalogPimManufacturer(manufacturer)),
-    )
+    .filter((manufacturer) => isBrandIndexable(manufacturer.slug))
     .flatMap((manufacturer) => [
       manufacturer.slug,
       ...legacyManufacturerSlugsFor(manufacturer.slug),
@@ -50,44 +38,44 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
   const { slug } = await params;
   const brand = manufacturerBySlug(slug);
   if (!brand) return {};
+  const name = brandDisplayName(brand.slug, brand.name);
   const canonical = `/manufacturers/${brand.slug}`;
-  const shouldIndex = isCatalogPimEntityIndexable(
-    toCatalogPimManufacturer(brand),
-  );
-  const templateValues = {
-    name: brand.name,
-    slug: brand.slug,
-    count: brand.count,
-    country: brand.country,
-  };
-  const title = applySeoTemplate(
-    siteContent.templates.manufacturerTitle,
-    templateValues,
-  );
-  const description = !PRODUCT_CATALOG_PUBLIC_ENABLED
-    ? `${brand.name}: подбор продукции по полной модели, артикулу, маркировке или спецификации.`
-    : brand.verificationStatus === "verified"
-      ? applySeoTemplate(
-          siteContent.templates.manufacturerDescription,
-          templateValues,
-        ) || manufacturerMetaDescription(brand)
-      : `${brand.name}: поиск оборудования по модели и артикулу. Справочные данные и товарные связи публикуются после редакторской проверки.`;
+  const title = brandSeoTitle(brand.slug, brand.name);
+  const description = brandMetaDescription(brand.slug, brand.name);
+  const logo = brandLogoBySlug(brand.slug);
   return {
     title,
     description,
     alternates: { canonical },
-    robots: {
-      index: shouldIndex,
-      follow: true,
-    },
+    robots: { index: isBrandIndexable(brand.slug), follow: true },
     openGraph: {
       type: "website",
       url: canonical,
       title,
       description,
+      images: logo ? [{ url: logo.src, alt: `${name} — логотип` }] : undefined,
     },
   };
 }
+
+const commercialFaq = (name: string) => [
+  {
+    question: `Как заказать оборудование ${name}?`,
+    answer: "Отправьте полную модель, артикул или фотографию шильдика. Мы проверим идентификацию позиции, возможность поставки, цену и срок.",
+  },
+  {
+    question: "Можно ли запросить снятую с производства модель?",
+    answer: "Да. Для такой позиции проверяются доступность, возможная замена и условия предложения. Статус модели подтверждается перед расчётом.",
+  },
+  {
+    question: "Можно ли подобрать аналог?",
+    answer: "Подбор возможен после проверки технических параметров и условий эксплуатации. Текстовое сходство артикулов не используется как доказательство совместимости.",
+  },
+  {
+    question: "Можно ли отправить спецификацию?",
+    answer: "Да. Приложите список позиций с производителем и полной маркировкой — так можно обработать несколько строк одним запросом.",
+  },
+];
 
 export default async function BrandPage({ params }: BrandPageProps) {
   const { slug } = await params;
@@ -96,70 +84,33 @@ export default async function BrandPage({ params }: BrandPageProps) {
   const brand = manufacturerBySlug(slug);
   if (!brand) notFound();
 
-  const brandProducts = PRODUCT_CATALOG_PUBLIC_ENABLED
-    ? productsByManufacturerSlug(brand.slug)
-    : [];
+  const profile = brandKnowledgeFor(brand.slug);
+  const readiness = brandReadinessFor(brand.slug);
+  const displayName = brandDisplayName(brand.slug, brand.name);
   const logo = brandLogoBySlug(brand.slug);
-  const verified = brand.verificationStatus === "verified";
-  const editorial = verified
-    ? manufacturerEditorialFor(brand)
-    : {
-        overview: `Для ${brand.name} выполняем адресный поиск по полной модели, артикулу и маркировке. Справочные сведения из импорта не используем как подтверждённые факты без редакторской проверки.`,
-        assortment:
-          "Поиск выполняется по исходным записям каталога. Перед предложением название производителя и связь с конкретной позицией проверяются по документации или фотографии шильдика.",
-        applications:
-          "Область применения определяется только для конкретной подтверждённой модели. Общие технические характеристики бренду автоматически не приписываются.",
-        selection: [
-          "полную маркировку без сокращений",
-          "фотографию шильдика и разъёмов",
-          "документацию изготовителя, если она есть",
-          "количество и назначение узла",
-        ],
-        sourceUrl: undefined,
-      };
   const brandUrl = `${SITE_URL}/manufacturers/${brand.slug}`;
-  const brandDescription = !PRODUCT_CATALOG_PUBLIC_ENABLED
-    ? `${brand.name}: подбор продукции по полной модели, артикулу, маркировке или спецификации.`
-    : verified
-    ? applySeoTemplate(siteContent.templates.manufacturerDescription, {
-        name: brand.name,
-        slug: brand.slug,
-        count: brand.count,
-        country: brand.country,
-      }) || manufacturerMetaDescription(brand)
-    : `${brand.name}: адресный поиск по полной модели и артикулу; справочные сведения требуют редакторской проверки.`;
-  const brandJsonLd = verified ? {
+  const summary = profile?.shortDescription
+    ?? `Для ${displayName} выполняем адресный поиск по полной модели, артикулу и маркировке. Сведения о производителе и продукции проверяются перед подготовкой предложения.`;
+  const brandJsonLd = profile ? {
     "@context": "https://schema.org",
     "@type": "Brand",
-    name: brand.name,
+    name: profile.officialName,
+    alternateName: profile.aliases,
     url: brandUrl,
-    description: brandDescription,
+    description: profile.shortDescription,
     logo: logo ? `${SITE_URL}${logo.src}` : undefined,
+    sameAs: [profile.officialWebsite],
   } : null;
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Главная",
-        item: SITE_URL,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Производители",
-        item: `${SITE_URL}/manufacturers`,
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: brand.name,
-        item: brandUrl,
-      },
+      { "@type": "ListItem", position: 1, name: "Главная", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Производители", item: `${SITE_URL}/manufacturers` },
+      { "@type": "ListItem", position: 3, name: displayName, item: brandUrl },
     ],
   };
+  const faq = commercialFaq(displayName);
 
   return (
     <>
@@ -169,50 +120,40 @@ export default async function BrandPage({ params }: BrandPageProps) {
             <div className="breadcrumbs">
               <Link href="/">Главная</Link><span>/</span>
               <Link href="/manufacturers">Производители</Link><span>/</span>
-              <span>{brand.name}</span>
+              <span>{displayName}</span>
             </div>
-            <p className="eyebrow">Производитель</p>
-            <h1>{brand.name}</h1>
-            <p>
-              {verified
-                ? `Подбор оборудования ${brand.name} по точной модели, артикулу или маркировке с шильдика.`
-                : `Адресный поиск ${brand.name} по исходной маркировке. Название и сведения проверяются перед использованием.`}
-            </p>
+            <p className="eyebrow">База производителей</p>
+            <h1>{displayName}</h1>
+            <p>{summary}</p>
+            <div className="brand-hero-actions">
+              <RequestCta
+                defaultProduct={displayName}
+                requestContext={`Производитель: ${displayName}`}
+                requestType="product"
+                source="manufacturer_page"
+              >
+                Запросить цену и срок
+              </RequestCta>
+              <RequestCta
+                className="button button-outline"
+                defaultProduct={displayName}
+                requestContext={`Спецификация по производителю: ${displayName}`}
+                source="manufacturer_page"
+              >
+                Загрузить спецификацию
+              </RequestCta>
+            </div>
           </div>
-          <div className="brand-visual" aria-label={`Иллюстрация раздела ${brand.name}`} role="img">
-            <Image
-              alt=""
-              height={900}
-              priority
-              src="/images/brands/global-sourcing-cover.webp"
-              unoptimized
-              width={1600}
-            />
+          <div className="brand-visual" aria-label={`Иллюстрация раздела ${displayName}`} role="img">
+            <Image alt="" height={900} priority src="/images/brands/global-sourcing-cover.webp" unoptimized width={1600} />
             {logo ? (
               <span className="brand-hero-logo">
-                <Image
-                  alt={`${brand.name} — логотип производителя`}
-                  height={150}
-                  src={logo.src}
-                  unoptimized
-                  width={360}
-                />
+                <Image alt={`${displayName} — логотип производителя`} height={150} src={logo.src} unoptimized width={360} />
               </span>
             ) : (
-              <span
-                aria-label={`Текстовая карточка производителя ${brand.name}`}
-                className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`}
-                role="img"
-              >
-                <span
-                  aria-hidden="true"
-                  className="brand-wordmark-initials"
-                  data-initials={brandInitials(brand.name)}
-                />
-                <span className="brand-wordmark-copy">
-                  <strong>{brand.name}</strong>
-                  <small>производитель</small>
-                </span>
+              <span aria-label={`Текстовая карточка производителя ${displayName}`} className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`} role="img">
+                <span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(displayName)} />
+                <span className="brand-wordmark-copy"><strong>{displayName}</strong><small>производитель</small></span>
               </span>
             )}
           </div>
@@ -222,138 +163,79 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <section className="section shell">
         <div className="brand-sections">
           <aside>
-            <p className="eyebrow">Кратко о разделе</p>
+            <p className="eyebrow">Проверенные сведения</p>
             <ul className="brand-facts">
-              <li><span>Бренд</span><strong>{brand.name}</strong></li>
-              <li>
-                <span>Регион</span>
-                <strong>{verified ? brand.country ?? "Не указан" : "уточняется"}</strong>
-              </li>
-              {PRODUCT_CATALOG_PUBLIC_ENABLED && (
-                <li>
-                  <span>Позиций в базе</span>
-                  <strong>
-                    {"count" in brand && brand.count > 0
-                      ? formatCount(brand.count)
-                      : "на верификации"}
-                  </strong>
-                </li>
-              )}
-              <li>
-                <span>Статус</span>
-                <strong>
-                  {brand.verificationStatus === "verified"
-                    ? "Проверено редакцией"
-                    : "Требует проверки"}
-                </strong>
-              </li>
+              <li><span>Бренд</span><strong>{profile?.officialName ?? displayName}</strong></li>
+              {profile?.country && <li><span>Происхождение бренда</span><strong>{profile.country}</strong></li>}
+              {profile?.headquarters && <li><span>Штаб-квартира</span><strong>{profile.headquarters}</strong></li>}
+              {profile?.foundedYear && <li><span>Основан</span><strong>{profile.foundedYear}</strong></li>}
+              {profile?.parentCompany && <li><span>Группа</span><strong>{profile.parentCompany}</strong></li>}
+              <li><span>Статус страницы</span><strong>{readiness === "BRAND_SAFE" ? "Источник подтверждён" : "Сведения уточняются"}</strong></li>
             </ul>
+            {profile && (
+              <a className="brand-official-link" href={profile.officialWebsite} rel="noreferrer" target="_blank">
+                Официальный сайт <span aria-hidden="true">↗</span>
+              </a>
+            )}
           </aside>
           <article className="content-card">
-            <h2>О бренде {brand.name}</h2>
-            <p>{editorial.overview}</p>
-            <h3>
-              {PRODUCT_CATALOG_PUBLIC_ENABLED
-                ? "Ассортимент в каталоге"
-                : "Направления и подбор"}
-            </h3>
-            <p>{editorial.assortment}</p>
-            <h3>Применение оборудования</h3>
-            <p>{editorial.applications}</p>
-            <h3>Подбор и заказ</h3>
-            <p>
-              Для уверенного подбора укажите полную модель и артикул. Если
-              маркировка повреждена, приложите фото шильдика и опишите узел,
-              в котором установлено оборудование. Это помогает исключить
-              похожие исполнения с другими электрическими или механическими
-              параметрами.
-            </p>
-            <h3>Что желательно указать</h3>
-            <ul>
-              {editorial.selection.map((item) => (
-                <li key={item}>{item};</li>
-              ))}
-            </ul>
-            {editorial.sourceUrl && (
-              <p className="editorial-source">
-                Справочная информация подготовлена по открытому{" "}
-                <a
-                  href={editorial.sourceUrl}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  каталогу производителя
-                </a>
-                .
-              </p>
+            <h2>О производителе</h2>
+            {profile ? profile.fullDescription.map((paragraph) => <p key={paragraph}>{paragraph}</p>) : (
+              <p>Публичная карточка содержит только безопасные сведения для идентификации бренда. Подтверждённое описание и направления продукции будут добавлены после проверки официального источника.</p>
             )}
-            <RequestCta
-              className="button button-primary content-card-cta"
-              defaultProduct={brand.name}
-              requestContext={`Производитель: ${brand.name}`}
-              requestType="product"
-              source="manufacturer_page"
-            />
+
+            {profile && profile.productCategories.length > 0 && (
+              <section className="brand-knowledge-section">
+                <h3>Основные направления продукции</h3>
+                <div className="brand-tag-list">{profile.productCategories.map((item) => <span key={item}>{item}</span>)}</div>
+              </section>
+            )}
+            {profile && (profile.productFamilies.length > 0 || profile.series.length > 0) && (
+              <section className="brand-knowledge-section">
+                <h3>Подтверждённые семейства и серии</h3>
+                <div className="brand-tag-list">{[...profile.productFamilies, ...profile.series].map((item) => <span key={item}>{item}</span>)}</div>
+                <p className="brand-scope-note">Принадлежность к семейству не подтверждает характеристики отдельной модели.</p>
+              </section>
+            )}
+            {profile && profile.industries.length > 0 && (
+              <section className="brand-knowledge-section">
+                <h3>Области применения</h3>
+                <p>{profile.industries.join(" · ")}</p>
+              </section>
+            )}
+            {profile && (profile.officialCatalogs.length > 0 || profile.documentationSources.length > 0) && (
+              <section className="brand-knowledge-section">
+                <h3>Официальные каталоги и документация</h3>
+                <ul className="brand-document-list">
+                  {profile.officialCatalogs.map((url, index) => <li key={url}><a href={url} rel="noreferrer" target="_blank">Официальный каталог{profile.officialCatalogs.length > 1 ? ` ${index + 1}` : ""} ↗</a></li>)}
+                  {profile.documentationSources.map((url, index) => <li key={url}><a href={url} rel="noreferrer" target="_blank">Техническая документация{profile.documentationSources.length > 1 ? ` ${index + 1}` : ""} ↗</a></li>)}
+                </ul>
+              </section>
+            )}
           </article>
         </div>
+      </section>
+
+      <section className="section section-tint">
+        <div className="shell brand-rfq-panel">
+          <div><p className="eyebrow">Запрос поставки</p><h2>Поставка оборудования {displayName}</h2><p>Отправьте артикул, модель или спецификацию — проверим возможность поставки, цену и срок.</p></div>
+          <RequestCta defaultProduct={displayName} requestContext={`Производитель: ${displayName}`} requestType="product" source="manufacturer_page">Отправить заявку</RequestCta>
+        </div>
+      </section>
+
+      <section className="section shell">
+        <div className="section-heading"><div><p className="eyebrow">Вопросы и ответы</p><h2>Как оформить запрос</h2></div></div>
+        <div className="brand-faq-grid">
+          {faq.map((item) => <article className="content-card" key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></article>)}
+        </div>
         <p className="trademark-note">
-          Товарный знак {brand.name} принадлежит соответствующему
-          правообладателю и используется для идентификации продукции. Страница
-          не подтверждает статус официального дилера или представителя.
-          {logo && (
-            <>
-              {" "}
-              <Link href="/manufacturers/logos">Источник логотипа</Link>
-            </>
-          )}
+          Товарный знак {displayName} принадлежит соответствующему правообладателю и используется для идентификации продукции. Страница не подтверждает статус официального дилера или представителя.
+          {logo && <> <Link href="/manufacturers/logos">Источник логотипа</Link></>}
         </p>
       </section>
 
-      {PRODUCT_CATALOG_PUBLIC_ENABLED && brandProducts.length > 0 && (
-        <section className="section section-tint">
-          <div className="shell">
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">Позиции витрины</p>
-                <h2>{brand.name} в каталоге</h2>
-              </div>
-              <Link className="text-link" href={`/catalog?manufacturer=${brand.slug}`}>
-                Все позиции <span aria-hidden="true">→</span>
-              </Link>
-            </div>
-            <div className="product-grid">
-              {brandProducts.map((product, index) => (
-                <article className="product-card" key={product.slug}>
-                  <Link href={`/catalog/${product.slug}`}>
-                    <ProductArt
-                      imageSrc={productImage(product)}
-                      label={product.name}
-                      tone={index}
-                    />
-                  </Link>
-                  <div className="product-card-body">
-                    <p className="product-brand">{product.manufacturer}</p>
-                    <h3><Link href={`/catalog/${product.slug}`}>{product.name}</Link></h3>
-                    <Link className="button button-outline" href={`/catalog/${product.slug}`}>
-                      Подробнее
-                    </Link>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-      {brandJsonLd && (
-        <script
-          dangerouslySetInnerHTML={{ __html: serializeJsonLd(brandJsonLd) }}
-          type="application/ld+json"
-        />
-      )}
-      <script
-        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
-        type="application/ld+json"
-      />
+      {brandJsonLd && <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(brandJsonLd) }} type="application/ld+json" />}
+      <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }} type="application/ld+json" />
     </>
   );
 }

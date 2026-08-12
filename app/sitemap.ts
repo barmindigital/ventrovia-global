@@ -3,7 +3,6 @@ import { categories, manufacturers, products } from "./lib/catalog-data";
 import {
   isCatalogPimEntityIndexable,
   toCatalogPimCategory,
-  toCatalogPimManufacturer,
   toCatalogPimProduct,
 } from "./lib/catalog-pim";
 import { SITE_URL } from "./lib/seo-content";
@@ -12,6 +11,7 @@ import {
   catalogTrustPilotProducts,
 } from "./generated/catalog-trust-pilot";
 import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "./lib/catalog-visibility";
+import { isBrandIndexable } from "./lib/brand-knowledge.server";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -54,9 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     : [];
 
   const manufacturerPages: MetadataRoute.Sitemap = manufacturers
-    .filter((manufacturer) =>
-      isCatalogPimEntityIndexable(toCatalogPimManufacturer(manufacturer)),
-    )
+    .filter((manufacturer) => isBrandIndexable(manufacturer.slug))
     .map((manufacturer) => ({
       url: `${SITE_URL}/manufacturers/${manufacturer.slug}`,
       changeFrequency: "monthly" as const,

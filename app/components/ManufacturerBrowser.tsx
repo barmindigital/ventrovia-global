@@ -5,29 +5,55 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   formatCount,
-  type CatalogManufacturerOption,
 } from "../lib/catalog-public";
-import { brandLogoBySlug } from "../lib/brand-logos";
 import { brandInitials, brandWordmarkTone } from "../lib/brand-wordmark";
-import { manufacturerMatchesQuery } from "../lib/manufacturer-identifiers";
+import {
+  manufacturerMatchesQuery,
+  normalizeSearchText,
+} from "../lib/manufacturer-identifiers";
+
+type PublicManufacturer = {
+  slug: string;
+  name: string;
+  count: number;
+  aliases: string[];
+  country?: string;
+  verificationStatus?: "verified" | "needs_review";
+  logoSrc?: string;
+  descriptor?: string;
+  readiness: "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
+};
 
 export function ManufacturerBrowser({
   manufacturers,
   showProductCounts = true,
 }: {
-  manufacturers: CatalogManufacturerOption[];
+  manufacturers: PublicManufacturer[];
   showProductCounts?: boolean;
 }) {
   const [query, setQuery] = useState("");
+  const [letter, setLetter] = useState("Все");
   const [visibleCount, setVisibleCount] = useState(63);
   const filtered = useMemo(() => {
-    return manufacturers.filter((manufacturer) =>
-      manufacturerMatchesQuery(manufacturer, query),
+    const normalizedQuery = normalizeSearchText(query);
+    const hasExactAlias = normalizedQuery && manufacturers.some((manufacturer) =>
+      manufacturer.aliases.some((alias) => normalizeSearchText(alias) === normalizedQuery),
     );
-  }, [manufacturers, query]);
+    return manufacturers.filter((manufacturer) => {
+      const matchesLetter = letter === "Все" || manufacturer.name.toLocaleUpperCase("ru").startsWith(letter);
+      const matchesQuery = hasExactAlias
+        ? manufacturer.aliases.some((alias) => normalizeSearchText(alias) === normalizedQuery)
+        : manufacturerMatchesQuery(manufacturer, query);
+      return matchesLetter && matchesQuery;
+    });
+  }, [letter, manufacturers, query]);
   const visibleManufacturers = filtered.slice(0, visibleCount);
   const shownCount = Math.min(visibleCount, filtered.length);
   const totalCount = filtered.length;
+  const letters = useMemo(() => {
+    const available = new Set(manufacturers.map(({ name }) => name.trim().charAt(0).toLocaleUpperCase("ru")));
+    return ["Все", ...[...available].filter(Boolean).sort((left, right) => left.localeCompare(right, "ru"))];
+  }, [manufacturers]);
 
   return (
     <>
@@ -48,9 +74,25 @@ export function ManufacturerBrowser({
         />
         <span>{formatCount(query ? filtered.length : manufacturers.length)} в базе</span>
       </div>
+      <div aria-label="Алфавитный указатель производителей" className="manufacturer-alphabet">
+        {letters.map((item) => (
+          <button
+            aria-pressed={letter === item}
+            className={letter === item ? "is-active" : undefined}
+            key={item}
+            onClick={() => {
+              setLetter(item);
+              setVisibleCount(63);
+            }}
+            type="button"
+          >
+            {item}
+          </button>
+        ))}
+      </div>
       <div className="manufacturer-list">
         {visibleManufacturers.map((manufacturer) => {
-          const logo = brandLogoBySlug(manufacturer.slug);
+          const logo = manufacturer.logoSrc;
           return (
             <Link
               className="manufacturer-card"
@@ -74,7 +116,7 @@ export function ManufacturerBrowser({
                   <Image
                     alt={`${manufacturer.name} — логотип производителя`}
                     height={80}
-                    src={logo.src}
+                    src={logo}
                     unoptimized
                     width={180}
                   />
@@ -94,11 +136,7 @@ export function ManufacturerBrowser({
               </span>
               <h2>{manufacturer.name}</h2>
               <p>
-                <span>
-                  {manufacturer.verificationStatus === "verified"
-                    ? manufacturer.country ?? "Регион не указан"
-                    : "Данные на проверке"}
-                </span>
+                <span>{manufacturer.descriptor ?? "Подбор по модели и маркировке"}</span>
                 {showProductCounts && (
                   <span>{formatCount(manufacturer.count)} исх. поз.</span>
                 )}
