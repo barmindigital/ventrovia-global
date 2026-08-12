@@ -36,6 +36,8 @@
     "audit:pilot-html-check": "node scripts/audit-catalog-pilot-html.mjs --check",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
     "audit:visibility": "node scripts/audit-catalog-visibility.mjs",
+    "brands:knowledge": "node --experimental-strip-types scripts/generate-brand-knowledge.mjs",
+    "audit:brands": "node --experimental-strip-types scripts/generate-brand-knowledge.mjs --check",
     "generate:catalog-runtime-loaders": "node scripts/generate-private-catalog-loaders.mjs",
     "benchmark:catalog": "node scripts/benchmark-catalog-search.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",

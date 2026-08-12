@@ -5596,17 +5596,6 @@ export const brandLogoRegistry: BrandLogo[] = [
     attribution: "Source artwork: TROX Group",
   },
   {
-    slug: "zimmer",
-    name: "ZIMMER GROUP",
-    src: "/images/brand-logos/zimmer.svg",
-    sourcePage:
-      "https://commons.wikimedia.org/wiki/File:Zimmer_Group.svg",
-    originalFile:
-      "https://upload.wikimedia.org/wikipedia/commons/7/75/Zimmer_Group.svg",
-    license: "Public domain (Wikimedia Commons)",
-    attribution: "Source artwork: Zimmer Group",
-  },
-  {
     slug: "dwyer",
     name: "DWYER",
     src: "/images/brand-logos/dwyer.png",
