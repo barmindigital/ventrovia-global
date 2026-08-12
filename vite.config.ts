@@ -9,9 +9,10 @@ const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
   assets: {
-    // Product JSON must always reach the Worker visibility/auth gate before
-    // Cloudflare's static asset layer can serve it.
-    run_worker_first: ["/data/catalog/*"],
+    // Sites currently ignores path-scoped Worker-first asset rules. Route all
+    // assets through the Worker so the product JSON gate cannot be bypassed;
+    // ordinary assets still fall through to the standard vinext handler.
+    run_worker_first: true,
   },
 };
 
