@@ -24,6 +24,8 @@
     "audit:taxonomy-expansion": "node scripts/prepare-mass-taxonomy-expansion.mjs --check",
     "prepare:source-reconnaissance": "node scripts/prepare-source-reconnaissance.mjs",
     "audit:source-reconnaissance": "node scripts/prepare-source-reconnaissance.mjs --check",
+    "evidence:taxonomy": "node scripts/build-official-taxonomy-evidence.mjs",
+    "audit:taxonomy-evidence": "node scripts/build-official-taxonomy-evidence.mjs --check",
     "audit:pilot-html": "node scripts/audit-catalog-pilot-html.mjs",
     "audit:pilot-html-check": "node scripts/audit-catalog-pilot-html.mjs --check",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
