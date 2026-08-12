@@ -23,7 +23,11 @@ const homeSections = [
   { id: "request", key: "contacts" },
 ] as const;
 
-export function SiteHeader() {
+export function SiteHeader({
+  productCatalogPublicEnabled,
+}: {
+  productCatalogPublicEnabled: boolean;
+}) {
   const pathname = usePathname();
   const mobileMenuRef = useRef<HTMLDetailsElement>(null);
   const [activeHomeSection, setActiveHomeSection] = useState("");
@@ -58,6 +62,10 @@ export function SiteHeader() {
   const closeMobileMenu = () => {
     mobileMenuRef.current?.removeAttribute("open");
   };
+
+  const visibleNavigationItems = productCatalogPublicEnabled
+    ? navigationItems
+    : navigationItems.filter(({ key }) => key !== "catalog");
 
   const isActive = (key: (typeof navigationItems)[number]["key"]) =>
     pathname === "/"
@@ -100,13 +108,13 @@ export function SiteHeader() {
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Основная навигация">
-          {navigationItems.map((item) => renderNavigationLink(item))}
+          {visibleNavigationItems.map((item) => renderNavigationLink(item))}
         </nav>
         <RequestCta className="header-cta" source="header_desktop" />
         <details className="mobile-menu" ref={mobileMenuRef}>
           <summary aria-label="Открыть меню"><span /><span /></summary>
           <nav aria-label="Мобильная навигация">
-            {navigationItems.map((item) => renderNavigationLink(item, true))}
+            {visibleNavigationItems.map((item) => renderNavigationLink(item, true))}
             <RequestCta
               className="mobile-menu-cta"
               onTrigger={closeMobileMenu}

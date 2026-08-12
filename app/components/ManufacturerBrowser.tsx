@@ -13,8 +13,10 @@ import { manufacturerMatchesQuery } from "../lib/manufacturer-identifiers";
 
 export function ManufacturerBrowser({
   manufacturers,
+  showProductCounts = true,
 }: {
   manufacturers: CatalogManufacturerOption[];
+  showProductCounts?: boolean;
 }) {
   const [query, setQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(63);
@@ -97,7 +99,9 @@ export function ManufacturerBrowser({
                     ? manufacturer.country ?? "Регион не указан"
                     : "Данные на проверке"}
                 </span>
-                <span>{formatCount(manufacturer.count)} исх. поз.</span>
+                {showProductCounts && (
+                  <span>{formatCount(manufacturer.count)} исх. поз.</span>
+                )}
               </p>
             </Link>
           );

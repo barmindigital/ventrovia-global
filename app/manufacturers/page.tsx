@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
 import { manufacturers } from "../lib/catalog-data";
 import { renderHeadingLines, siteContent } from "../lib/site-content";
+import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "../lib/catalog-visibility";
 
 const pageContent = siteContent.pages.manufacturers;
 
@@ -41,10 +42,11 @@ export default function ManufacturersPage() {
       </section>
       <section className="section shell">
         <ManufacturerBrowser
+          showProductCounts={PRODUCT_CATALOG_PUBLIC_ENABLED}
           manufacturers={manufacturers.map(
             ({ aliases, count, country, name, slug, verificationStatus }) => ({
               aliases,
-              count,
+              count: PRODUCT_CATALOG_PUBLIC_ENABLED ? count : 0,
               country,
               name,
               slug,

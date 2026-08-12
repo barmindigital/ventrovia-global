@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteContent } from "../lib/site-content";
+import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "../lib/catalog-visibility";
 import { PhoneAction } from "./PhoneAction";
 import { RequestCta } from "./RequestCta";
 
@@ -17,8 +18,10 @@ export function SiteFooter() {
           </p>
         </div>
         <div>
-          <h2>Каталог</h2>
-          <Link href="/catalog">Все категории</Link>
+          <h2>Подбор</h2>
+          {PRODUCT_CATALOG_PUBLIC_ENABLED && (
+            <Link href="/catalog">Каталог оборудования</Link>
+          )}
           <Link href="/manufacturers">Производители</Link>
           <Link href="/#services">Услуги</Link>
         </div>

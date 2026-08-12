@@ -11,15 +11,11 @@ import {
   CATALOG_TRUST_ROLLOUT_ENABLED,
   catalogTrustPilotProducts,
 } from "./generated/catalog-trust-pilot";
+import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "./lib/catalog-visibility";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
-    {
-      url: `${SITE_URL}/catalog`,
-      changeFrequency: "daily",
-      priority: 0.9,
-    },
     {
       url: `${SITE_URL}/manufacturers`,
       changeFrequency: "weekly",
@@ -37,7 +33,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const categoryPages: MetadataRoute.Sitemap = categories
+  if (PRODUCT_CATALOG_PUBLIC_ENABLED) {
+    staticPages.splice(1, 0, {
+      url: `${SITE_URL}/catalog`,
+      changeFrequency: "daily",
+      priority: 0.9,
+    });
+  }
+
+  const categoryPages: MetadataRoute.Sitemap = PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? categories
     .filter((category) =>
       isCatalogPimEntityIndexable(toCatalogPimCategory(category)),
     )
@@ -45,7 +50,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/catalog/category/${category.slug}`,
       changeFrequency: "weekly" as const,
       priority: 0.75,
-    }));
+    }))
+    : [];
 
   const manufacturerPages: MetadataRoute.Sitemap = manufacturers
     .filter((manufacturer) =>
@@ -57,7 +63,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     }));
 
-  const verifiedProductPages: MetadataRoute.Sitemap = products
+  const verifiedProductPages: MetadataRoute.Sitemap = PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? products
     .filter((product) =>
       isCatalogPimEntityIndexable(toCatalogPimProduct(product)),
     )
@@ -65,10 +72,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/catalog/${product.slug}`,
       changeFrequency: "monthly" as const,
       priority: 0.65,
-    }));
+    }))
+    : [];
 
   const structuralPilotPages: MetadataRoute.Sitemap =
-    CATALOG_TRUST_ROLLOUT_ENABLED
+    PRODUCT_CATALOG_PUBLIC_ENABLED && CATALOG_TRUST_ROLLOUT_ENABLED
       ? catalogTrustPilotProducts.map(({ id }) => ({
           url: `${SITE_URL}/catalog/position/${id}`,
           changeFrequency: "monthly" as const,

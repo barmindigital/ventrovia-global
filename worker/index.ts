@@ -5,6 +5,15 @@ import {
   handleImageOptimization,
 } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
+import {
+  PRODUCT_CATALOG_PUBLIC_ENABLED,
+  catalogPublicEnabledFrom,
+  isPublicProductDataPath,
+} from "../app/lib/catalog-visibility";
+import {
+  ADMIN_COOKIE_NAME,
+  verifyAdminSessionWithSecret,
+} from "../app/lib/admin-session";
 
 interface AssetFetcher {
   fetch(request: Request): Promise<Response>;
@@ -12,6 +21,8 @@ interface AssetFetcher {
 
 interface Env {
   ASSETS: AssetFetcher;
+  ADMIN_SESSION_SECRET?: string;
+  PRODUCT_CATALOG_PUBLIC_ENABLED?: string;
   IMAGES: {
     input(stream: ReadableStream): {
       transform(options: Record<string, unknown>): {
@@ -42,6 +53,51 @@ const worker = {
     ctx: ExecutionContext,
   ): Promise<Response> {
     const url = new URL(request.url);
+
+    if (isPublicProductDataPath(url.pathname)) {
+      const runtimePublicEnabled =
+        env.PRODUCT_CATALOG_PUBLIC_ENABLED === undefined
+          ? PRODUCT_CATALOG_PUBLIC_ENABLED
+          : catalogPublicEnabledFrom(env.PRODUCT_CATALOG_PUBLIC_ENABLED);
+      if (runtimePublicEnabled) {
+        return env.ASSETS.fetch(request);
+      }
+
+      const cookie = request.headers
+        .get("cookie")
+        ?.split(";")
+        .map((part) => part.trim())
+        .find((part) => part.startsWith(`${ADMIN_COOKIE_NAME}=`))
+        ?.slice(ADMIN_COOKIE_NAME.length + 1);
+      const adminAuthenticated = await verifyAdminSessionWithSecret(
+        cookie ? decodeURIComponent(cookie) : undefined,
+        env.ADMIN_SESSION_SECRET ?? process.env.ADMIN_SESSION_SECRET,
+      );
+
+      if (!adminAuthenticated) {
+        return new Response("Not found", {
+          status: 404,
+          headers: {
+            "Cache-Control": "private, no-store, max-age=0",
+            "Content-Type": "text/plain; charset=utf-8",
+            "X-Content-Type-Options": "nosniff",
+            "X-Robots-Tag": "noindex, nofollow",
+          },
+        });
+      }
+
+      const response = await env.ASSETS.fetch(request);
+      const headers = new Headers(response.headers);
+      headers.set("Cache-Control", "private, no-store, max-age=0");
+      headers.set("Vary", "Cookie");
+      headers.set("X-Content-Type-Options", "nosniff");
+      headers.set("X-Robots-Tag", "noindex, nofollow");
+      return new Response(response.body, {
+        status: response.status,
+        statusText: response.statusText,
+        headers,
+      });
+    }
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];

@@ -8,6 +8,11 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
+  assets: {
+    // Product JSON must always reach the Worker visibility/auth gate before
+    // Cloudflare's static asset layer can serve it.
+    run_worker_first: ["/data/catalog/*"],
+  },
 };
 
 export default defineConfig(async () => {

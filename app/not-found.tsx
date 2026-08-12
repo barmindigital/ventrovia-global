@@ -6,9 +6,9 @@ export default function NotFound() {
       <div className="shell">
         <p className="eyebrow">Ошибка 404</p>
         <h1>Страница не найдена</h1>
-        <p>Возможно, позиция ещё не опубликована в открытой части каталога.</p>
-        <Link className="button button-primary" href="/catalog">
-          Перейти в каталог
+        <p>Проверьте адрес или перейдите к списку производителей.</p>
+        <Link className="button button-primary" href="/manufacturers">
+          Производители
         </Link>
       </div>
     </section>

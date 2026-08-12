@@ -33,6 +33,7 @@
     "audit:pilot-html": "node scripts/audit-catalog-pilot-html.mjs",
     "audit:pilot-html-check": "node scripts/audit-catalog-pilot-html.mjs --check",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
+    "audit:visibility": "node scripts/audit-catalog-visibility.mjs",
     "benchmark:catalog": "node scripts/benchmark-catalog-search.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",

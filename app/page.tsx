@@ -13,6 +13,7 @@ import {
 } from "./lib/catalog-data";
 import { brandLogoBySlug } from "./lib/brand-logos";
 import { renderHeadingLines, siteContent } from "./lib/site-content";
+import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "./lib/catalog-visibility";
 
 const featuredManufacturers = [
   { slug: "siemens", name: "Siemens" },
@@ -49,12 +50,16 @@ const pageContent = siteContent.pages.home;
 
 export const metadata: Metadata = {
   title: pageContent.seoTitle,
-  description: pageContent.seoDescription,
+  description: PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? pageContent.seoDescription
+    : "Поставка промышленного оборудования по модели, артикулу или спецификации. Найдите производителя или отправьте заявку на адресный подбор.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
     title: pageContent.seoTitle,
-    description: pageContent.seoDescription,
+    description: PRODUCT_CATALOG_PUBLIC_ENABLED
+      ? pageContent.seoDescription
+      : "Поставка промышленного оборудования по модели, артикулу или спецификации. Найдите производителя или отправьте заявку на адресный подбор.",
   },
 };
 
@@ -72,8 +77,8 @@ export default function Home() {
             </h1>
             <p className="hero-lead">{pageContent.intro}</p>
             <div className="hero-links">
-              <Link className="button button-primary" href="/catalog">
-                Открыть каталог
+              <Link className="button button-primary" href="/manufacturers">
+                Найти производителя
               </Link>
               <RequestCta
                 className="button button-outline"
@@ -84,8 +89,8 @@ export default function Home() {
           <div className="hero-visual" aria-label="Объёмная планета в фирменных цветах">
             <ScrollHeroOrb />
             <div className="hero-badge">
-              <span>Каталог оборудования</span>
-              <strong>Более 156 000 позиций</strong>
+              <span>Подбор оборудования</span>
+              <strong>По модели, артикулу или спецификации</strong>
             </div>
           </div>
         </div>
@@ -120,39 +125,66 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section shell" id="catalog">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">Основные направления</p>
-            <h2>Каталог оборудования</h2>
-          </div>
-          <Link className="text-link" href="/catalog">
-            Все категории <span aria-hidden="true">→</span>
-          </Link>
-        </div>
-        <div className="category-grid">
-          {categories.slice(0, 8).map((category, index) => (
-            <Link
-              className={`category-card category-tone-${(index % 4) + 1}`}
-              href={`/catalog/category/${category.slug}`}
-              key={category.slug}
-            >
-              <ProductArt
-                compact
-                imageSrc={categoryImageBySlug(category.slug)}
-                label={category.name}
-                tone={index % 4}
-              />
-              <span className="category-index">
-                {String(index + 1).padStart(2, "0")}
-              </span>
-              <h3>{category.name}</h3>
-              <p>{formatCount(category.count)} позиций</p>
-              <span className="round-arrow" aria-hidden="true">↗</span>
+      {PRODUCT_CATALOG_PUBLIC_ENABLED ? (
+        <section className="section shell" id="catalog">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">Основные направления</p>
+              <h2>Каталог оборудования</h2>
+            </div>
+            <Link className="text-link" href="/catalog">
+              Все категории <span aria-hidden="true">→</span>
             </Link>
-          ))}
-        </div>
-      </section>
+          </div>
+          <div className="category-grid">
+            {categories.slice(0, 8).map((category, index) => (
+              <Link
+                className={`category-card category-tone-${(index % 4) + 1}`}
+                href={`/catalog/category/${category.slug}`}
+                key={category.slug}
+              >
+                <ProductArt
+                  compact
+                  imageSrc={categoryImageBySlug(category.slug)}
+                  label={category.name}
+                  tone={index % 4}
+                />
+                <span className="category-index">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <h3>{category.name}</h3>
+                <p>{formatCount(category.count)} позиций</p>
+                <span className="round-arrow" aria-hidden="true">↗</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : (
+        <section className="section shell" id="catalog">
+          <div className="company-intro">
+            <div>
+              <p className="eyebrow">Адресный подбор</p>
+              <h2>Найдём оборудование по вашей маркировке</h2>
+            </div>
+            <div>
+              <p>
+                Пришлите производителя, модель, артикул или спецификацию. Мы
+                проверим исполнение и возможность поставки до подготовки
+                предложения.
+              </p>
+              <div className="company-actions">
+                <Link className="text-link" href="/manufacturers">
+                  Найти производителя <span aria-hidden="true">→</span>
+                </Link>
+                <RequestCta
+                  className="button button-outline"
+                  source="catalog_help"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section shell" id="about">
         <div className="company-intro">
@@ -186,7 +218,11 @@ export default function Home() {
         </div>
         <RevealOnScroll className="business-stats company-facts" stagger>
           <Link href="/about#history"><strong>10+</strong><span>лет работы компании</span></Link>
-          <Link href="/catalog"><strong>156 000+</strong><span>доступных позиций</span></Link>
+          {PRODUCT_CATALOG_PUBLIC_ENABLED ? (
+            <Link href="/catalog"><strong>156 000+</strong><span>доступных позиций</span></Link>
+          ) : (
+            <Link href="#request"><strong>RFQ</strong><span>подбор по спецификации</span></Link>
+          )}
           <Link href="/manufacturers"><strong>2 800+</strong><span>производителей в базе</span></Link>
           <Link href="#geography"><strong>60+</strong><span>стран в географии работы</span></Link>
         </RevealOnScroll>

@@ -28,6 +28,7 @@ import {
   SITE_URL,
 } from "../../lib/seo-content";
 import { applySeoTemplate, siteContent } from "../../lib/site-content";
+import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "../../lib/catalog-visibility";
 
 type BrandPageProps = {
   params: Promise<{ slug: string }>;
@@ -63,8 +64,9 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     siteContent.templates.manufacturerTitle,
     templateValues,
   );
-  const description =
-    brand.verificationStatus === "verified"
+  const description = !PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? `${brand.name}: подбор продукции по полной модели, артикулу, маркировке или спецификации.`
+    : brand.verificationStatus === "verified"
       ? applySeoTemplate(
           siteContent.templates.manufacturerDescription,
           templateValues,
@@ -94,7 +96,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
   const brand = manufacturerBySlug(slug);
   if (!brand) notFound();
 
-  const brandProducts = productsByManufacturerSlug(brand.slug);
+  const brandProducts = PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? productsByManufacturerSlug(brand.slug)
+    : [];
   const logo = brandLogoBySlug(brand.slug);
   const verified = brand.verificationStatus === "verified";
   const editorial = verified
@@ -114,7 +118,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
         sourceUrl: undefined,
       };
   const brandUrl = `${SITE_URL}/manufacturers/${brand.slug}`;
-  const brandDescription = verified
+  const brandDescription = !PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? `${brand.name}: подбор продукции по полной модели, артикулу, маркировке или спецификации.`
+    : verified
     ? applySeoTemplate(siteContent.templates.manufacturerDescription, {
         name: brand.name,
         slug: brand.slug,
@@ -223,14 +229,16 @@ export default async function BrandPage({ params }: BrandPageProps) {
                 <span>Регион</span>
                 <strong>{verified ? brand.country ?? "Не указан" : "уточняется"}</strong>
               </li>
-              <li>
-                <span>Позиций в базе</span>
-                <strong>
-                  {"count" in brand && brand.count > 0
-                    ? formatCount(brand.count)
-                    : "на верификации"}
-                </strong>
-              </li>
+              {PRODUCT_CATALOG_PUBLIC_ENABLED && (
+                <li>
+                  <span>Позиций в базе</span>
+                  <strong>
+                    {"count" in brand && brand.count > 0
+                      ? formatCount(brand.count)
+                      : "на верификации"}
+                  </strong>
+                </li>
+              )}
               <li>
                 <span>Статус</span>
                 <strong>
@@ -244,7 +252,11 @@ export default async function BrandPage({ params }: BrandPageProps) {
           <article className="content-card">
             <h2>О бренде {brand.name}</h2>
             <p>{editorial.overview}</p>
-            <h3>Ассортимент в каталоге</h3>
+            <h3>
+              {PRODUCT_CATALOG_PUBLIC_ENABLED
+                ? "Ассортимент в каталоге"
+                : "Направления и подбор"}
+            </h3>
             <p>{editorial.assortment}</p>
             <h3>Применение оборудования</h3>
             <p>{editorial.applications}</p>
@@ -297,7 +309,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
         </p>
       </section>
 
-      {brandProducts.length > 0 && (
+      {PRODUCT_CATALOG_PUBLIC_ENABLED && brandProducts.length > 0 && (
         <section className="section section-tint">
           <div className="shell">
             <div className="section-heading">

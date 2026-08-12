@@ -10,6 +10,11 @@ import { AttributionCapture } from "./components/AttributionCapture";
 import { YandexMetrika } from "./components/YandexMetrika";
 import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
 import { siteContent } from "./lib/site-content";
+import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "./lib/catalog-visibility";
+
+const publicSiteDescription = PRODUCT_CATALOG_PUBLIC_ENABLED
+  ? siteContent.site.defaultSeoDescription
+  : "Поставка промышленного оборудования по модели, артикулу или спецификации. Адресный поиск производителей и подготовка коммерческого предложения.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -17,7 +22,7 @@ export const metadata: Metadata = {
     default: siteContent.site.defaultSeoTitle,
     template: `%s | ${siteContent.site.name}`,
   },
-  description: siteContent.site.defaultSeoDescription,
+  description: publicSiteDescription,
   robots: {
     index: true,
     follow: true,
@@ -27,7 +32,9 @@ export const metadata: Metadata = {
     locale: "ru_RU",
     siteName: siteContent.site.name,
     title: siteContent.site.openGraphTitle,
-    description: siteContent.site.openGraphDescription,
+    description: PRODUCT_CATALOG_PUBLIC_ENABLED
+      ? siteContent.site.openGraphDescription
+      : publicSiteDescription,
     images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: {
@@ -52,7 +59,7 @@ const organizationJsonLd = {
   logo: `${SITE_URL}/favicon.svg`,
   telephone: siteContent.contacts.phoneDisplay,
   email: siteContent.contacts.email,
-  description: siteContent.site.defaultSeoDescription,
+  description: publicSiteDescription,
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "sales",
@@ -77,14 +84,18 @@ const websiteJsonLd = {
   name: siteContent.site.name,
   inLanguage: "ru-RU",
   publisher: { "@id": `${SITE_URL}/#organization` },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: `${SITE_URL}/catalog?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
-  },
+  ...(PRODUCT_CATALOG_PUBLIC_ENABLED
+    ? {
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${SITE_URL}/catalog?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      }
+    : {}),
 };
 
 export default function RootLayout({
@@ -100,7 +111,9 @@ export default function RootLayout({
         <a className="skip-link" href="#content">
           Перейти к содержимому
         </a>
-        <SiteHeader />
+        <SiteHeader
+          productCatalogPublicEnabled={PRODUCT_CATALOG_PUBLIC_ENABLED}
+        />
         <main id="content">{children}</main>
         <SiteFooter />
         <ContactDock />
