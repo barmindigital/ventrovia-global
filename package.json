@@ -20,6 +20,8 @@
     "audit:trust": "node scripts/generate-catalog-trust.mjs --check",
     "analyze:b-weak-families": "node scripts/analyze-b-weak-family-opportunities.mjs",
     "audit:b-weak-families": "node scripts/analyze-b-weak-family-opportunities.mjs --check",
+    "inventory:media": "node scripts/build-media-datasheet-inventory.mjs",
+    "audit:media-inventory": "node scripts/build-media-datasheet-inventory.mjs --check",
     "validate:trust": "node scripts/analyze-catalog-trust-validation.mjs",
     "audit:trust-validation": "node scripts/analyze-catalog-trust-validation.mjs --check",
     "prepare:taxonomy-expansion": "node scripts/prepare-mass-taxonomy-expansion.mjs",
