@@ -7,8 +7,10 @@
   },
   "scripts": {
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
+    "prebuild": "node scripts/generate-private-catalog-loaders.mjs",
     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
+    "prebuild:timeweb": "node scripts/generate-private-catalog-loaders.mjs",
     "build:timeweb": "next build",
     "start:timeweb": "next start -p ${PORT:-3000}",
     "quality:catalog": "node scripts/generate-catalog-quality.mjs && node scripts/generate-catalog-search-routing.mjs && node scripts/audit-catalog-integrity.mjs && node scripts/build-official-evidence.mjs && node scripts/build-official-taxonomy-evidence.mjs && node scripts/generate-catalog-trust.mjs && node scripts/analyze-b-weak-family-opportunities.mjs",
@@ -34,6 +36,7 @@
     "audit:pilot-html-check": "node scripts/audit-catalog-pilot-html.mjs --check",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
     "audit:visibility": "node scripts/audit-catalog-visibility.mjs",
+    "generate:catalog-runtime-loaders": "node scripts/generate-private-catalog-loaders.mjs",
     "benchmark:catalog": "node scripts/benchmark-catalog-search.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
