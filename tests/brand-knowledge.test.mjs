@@ -20,12 +20,12 @@ test("all manufacturers receive a deterministic conservative brand classificatio
   assert.equal(health.length, 2806);
   assert.equal(sample.seed, "brand-sample-v1");
   assert.equal(sample.sample.length, 100);
-  assert.equal(manifest.profileCount, 21);
-  assert.equal(manifest.indexableManufacturerPages, 21);
+  assert.equal(manifest.profileCount, 31);
+  assert.equal(manifest.indexableManufacturerPages, 31);
   assert.equal(manifest.productCatalogPublic, false);
   assert.equal(manifest.productSitemapUrls, 0);
   assert.equal(PRODUCT_CATALOG_PUBLIC_ENABLED, false);
-  assert.equal(health.filter(({ seoReadiness }) => seoReadiness === "BRAND_SAFE").length, 21);
+  assert.equal(health.filter(({ seoReadiness }) => seoReadiness === "BRAND_SAFE").length, 31);
   assert.ok(health.filter(({ seoReadiness }) => seoReadiness === "BRAND_WEAK").every(({ indexable }) => !indexable));
 });
 
@@ -43,7 +43,7 @@ test("brand facts are source-backed, unique, and contain no fake dealer claim", 
     assert.equal(descriptions.has(profile.shortDescription), false);
     descriptions.add(profile.shortDescription);
   }
-  assert.equal(audit.length, 21);
+  assert.equal(audit.length, 31);
   assert.ok(audit.every(({ prohibitedDealerClaim, outcome }) => !prohibitedDealerClaim && outcome === "PASS"));
 });
 
