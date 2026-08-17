@@ -62,17 +62,17 @@ export function brandDisplayName(slug: string, fallback: string) {
 }
 
 export function brandSeoTitle(slug: string, fallback: string) {
-  const name = brandDisplayName(slug, fallback);
-  return profiles.has(slug)
-    ? `${name} — оборудование и подбор`
-    : `${name}: подбор по модели`;
+  const profile = profiles.get(slug);
+  if (!profile) return `${fallback}: подбор по модели`;
+  const primaryCategory = profile.productCategories[0].toLocaleLowerCase("ru");
+  return `${profile.displayName} — ${primaryCategory}`;
 }
 
 export function brandMetaDescription(slug: string, fallback: string) {
   const profile = profiles.get(slug);
   if (profile) {
     const areas = profile.productCategories.slice(0, 3).join(", ").toLocaleLowerCase("ru");
-    return `${profile.displayName}: ${areas}. Подбор оборудования по модели, артикулу или спецификации; цена и срок поставки — по запросу.`;
+    return `Поставка оборудования ${profile.displayName}: ${areas}. Отправьте артикул или спецификацию для расчёта цены и срока.`;
   }
   return `${fallback}: подбор продукции по полной модели, артикулу, маркировке или спецификации. Данные проверяются перед подготовкой предложения.`;
 }

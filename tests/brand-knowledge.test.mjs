@@ -21,8 +21,8 @@ test("all manufacturers receive a deterministic conservative brand classificatio
   assert.equal(sample.seed, "brand-sample-v2");
   assert.equal(sample.sample.length, 200);
   assert.equal(sample.coverage.BRAND_SAFE, manifest.indexableManufacturerPages);
-  assert.equal(manifest.profileCount, 72);
-  assert.equal(manifest.indexableManufacturerPages, 72);
+  assert.equal(manifest.profileCount, 102);
+  assert.equal(manifest.indexableManufacturerPages, 102);
   assert.equal(manifest.productCatalogPublic, false);
   assert.equal(manifest.productSitemapUrls, 0);
   assert.equal(PRODUCT_CATALOG_PUBLIC_ENABLED, false);
@@ -73,6 +73,38 @@ test("Wave 2 official domains and factual content remain source-traceable", asyn
   assert.equal(wave.productSitemapUrls, 0);
 });
 
+test("Wave 3 completes the remaining priority cohort with professional factual SEO", async () => {
+  const [wave, seoHealth, seoAudit, logoCoverage] = await Promise.all([
+    loadJson("../data/brand-knowledge/wave-3-progress.json"),
+    loadJson("../data/brand-knowledge/seo-health.json"),
+    loadJson("../data/brand-knowledge/seo-audit.json"),
+    loadJson("../data/brand-knowledge/logo-coverage-wave-3.json"),
+  ]);
+  assert.equal(wave.baselineBrandSafe, 72);
+  assert.equal(wave.promoted, 30);
+  assert.equal(wave.reviewCount, 1);
+  assert.equal(wave.top100.remaining, 0);
+  assert.equal(wave.productCatalogChanged, false);
+  assert.equal(wave.productSitemapUrls, 0);
+  assert.equal(seoHealth.indexable, 102);
+  assert.equal(seoHealth.uniqueTitles, 102);
+  assert.equal(seoHealth.uniqueMetaDescriptions, 102);
+  assert.deepEqual(seoHealth.duplicateTitles, []);
+  assert.deepEqual(seoHealth.duplicateDescriptions, []);
+  assert.deepEqual(seoHealth.nearDuplicateContent, []);
+  assert.equal(seoHealth.productSchemaPages, 0);
+  assert.equal(seoHealth.outcome, "PASS");
+  assert.equal(logoCoverage.wave3SafeWithLogo, 20);
+  assert.equal(logoCoverage.rejectedWrongIdentity, 0);
+  const safeSeo = seoAudit.filter(({ indexable }) => indexable);
+  assert.ok(safeSeo.every(({ title, metaDescription, primaryIntent, productSchemaAllowed }) =>
+    title.includes("—")
+      && metaDescription.startsWith("Поставка оборудования")
+      && primaryIntent.length > 10
+      && productSchemaAllowed === false,
+  ));
+});
+
 test("logo identity is exact and every published asset has explicit reuse metadata", async () => {
   const [manifest, logoAudit] = await Promise.all([
     loadJson("../data/brand-knowledge/manifest.json"),
@@ -109,6 +141,7 @@ test("alias and transliteration search find the canonical manufacturer safely", 
     assert.equal(manufacturerMatchesQuery(manufacturer, query), true);
   }
   assert.equal(normalizeSearchText("Kübler"), normalizeSearchText("Kubler"));
+  assert.equal(manufacturerMatchesQuery({ aliases: ["Bosch Rexroth", "Бош Рексрот"] }, "Бош Рексрот"), true);
 });
 
 test("public brand code never imports private health, evidence, or product datasets", async () => {

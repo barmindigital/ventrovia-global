@@ -39,6 +39,9 @@ Logos are never generated, taken from Dalkos or inferred from a favicon. Identit
 - Product families are shown only when their relationship to the brand is supported by an official source. Family membership never proves a SKU specification.
 - `Brand` structured data is emitted only for `BRAND_SAFE`; `Product` and `Offer` structured data are never emitted on brand pages.
 - Sitemap inclusion is limited to `BRAND_SAFE`. Product sitemap URLs remain zero.
+- A safe page's primary search intent is the canonical brand plus its leading officially confirmed product group. Secondary intent is limited to equipment and supply requests; it never creates a new factual claim.
+- Safe titles and meta descriptions must be unique across the indexable cohort. The generator fails the release review when duplicate metadata or high-similarity content appears in `seo-health.json`.
+- Publishing a logo is independent from publishing the brand page. Logo mapping requires an exact canonical manufacturer ID and explicit reuse metadata; fuzzy-only and favicon mappings are rejected.
 
 ## Operations
 
@@ -49,6 +52,6 @@ pnpm brands:knowledge
 pnpm audit:brands
 ```
 
-The first command regenerates the complete 2,806-brand health model, review queue, FAST_PATH list, Pareto ranking, completeness report, deterministic sample and logo/content/similarity/SEO audits. The second command fails when any generated report is stale. Private reports are served only through authenticated, `private, no-store` admin endpoints.
+The first command regenerates the complete 2,806-brand health model, review queue, FAST_PATH list, Pareto ranking, completeness report, deterministic sample, Wave progress, logo coverage and content/similarity/SEO audits. The second command fails when any generated report is stale. Private reports are served only through authenticated, `private, no-store` admin endpoints.
 
 To improve a brand, add or update its reviewed facts and sources, run the generator, review the dry-run reports, run all gates, then publish. Never promote a profile merely because a similarly named domain or logo exists.
