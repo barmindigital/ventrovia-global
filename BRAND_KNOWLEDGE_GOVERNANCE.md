@@ -12,7 +12,7 @@ The public site treats manufacturers as an evidence-backed B2B knowledge base. P
 - `Tier D`: reseller, competitor, historical import or unknown origin; cannot confirm a public brand fact.
 - Historical product relations may prioritize research but never prove a public brand category, family, country or corporate fact.
 
-Every public factual profile is stored in `data/brand-knowledge/curated-brand-facts.json`. A profile becomes `BRAND_SAFE` only when it has an available Tier A/B source, a confirmed identity and unique factual copy. Missing sections are omitted. Unconfirmed raw country, founding year and taxonomy are not shown.
+Public factual profiles are stored in reviewed, append-only wave files under `data/brand-knowledge/` and merged by the server-only loader. A profile becomes `BRAND_SAFE` only when it has an available Tier A/B source, a confirmed identity and unique factual copy. Missing sections are omitted. Unconfirmed raw country, founding year and taxonomy are not shown.
 
 ## Publication classes
 
@@ -53,5 +53,7 @@ pnpm audit:brands
 ```
 
 The first command regenerates the complete 2,806-brand health model, review queue, FAST_PATH list, Pareto ranking, completeness report, deterministic sample, Wave progress, logo coverage and content/similarity/SEO audits. The second command fails when any generated report is stale. Private reports are served only through authenticated, `private, no-store` admin endpoints.
+
+`brand-category-candidates.json` is a research artifact only. It contains source-backed Brand × Category opportunities for a future SEO layer, sets every item to `CANDIDATE_NOT_PUBLISHED`, and never creates a route or sitemap entry.
 
 To improve a brand, add or update its reviewed facts and sources, run the generator, review the dry-run reports, run all gates, then publish. Never promote a profile merely because a similarly named domain or logo exists.
