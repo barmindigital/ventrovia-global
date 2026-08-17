@@ -20,6 +20,10 @@ type Manifest = {
   fullDescriptionsReady: number;
   categoryEvidenceBrands: number;
   familyEvidenceBrands: number;
+  sourceRecords: number;
+  tierASourceRecords: number;
+  documentedBrands: number;
+  brandComplete: number;
   indexableManufacturerPages: number;
   noindexManufacturerPages: number;
   brandSafeWithLogo: number;
@@ -44,6 +48,8 @@ const labels: Array<[keyof Manifest, string]> = [
   ["fullDescriptionsReady", "Описания готовы"],
   ["categoryEvidenceBrands", "Категории подтверждены"],
   ["familyEvidenceBrands", "Семейства подтверждены"],
+  ["documentedBrands", "Есть документация"],
+  ["brandComplete", "BRAND_COMPLETE"],
   ["indexableManufacturerPages", "Можно индексировать"],
 ];
 

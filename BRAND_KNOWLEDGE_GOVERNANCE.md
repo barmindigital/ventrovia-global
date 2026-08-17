@@ -22,6 +22,10 @@ Every public factual profile is stored in `data/brand-knowledge/curated-brand-fa
 
 Logo absence does not block `BRAND_SAFE`. Product catalog counts, SKU, product cards and product schema are forbidden on manufacturer pages while the product catalog is disabled.
 
+## Completeness is not verification
+
+`BRAND_COMPLETE` is an internal quality metric, never a replacement for source verification. The transparent 100-point score is recorded in `data/brand-knowledge/brand-completeness.json`: identity source 20, official domain 10, publishable logo 10, description 15, categories 10, families 10, country/headquarters 10, catalogs/documentation 10 and SEO readiness 5. A profile can be `BRAND_SAFE` without being complete, while no score can promote a profile that lacks official identity evidence.
+
 ## Logo policy
 
 Each accepted local logo records its source page, original asset URL, format, pixel/view-box dimensions, SHA-256 checksum, checked date, brand scope, license, rights status and publication status in `data/brand-knowledge/logo-audit.json`.
@@ -45,6 +49,6 @@ pnpm brands:knowledge
 pnpm audit:brands
 ```
 
-The first command regenerates the complete 2,806-brand health model, review queue, FAST_PATH list, Pareto ranking, deterministic sample and logo/content/SEO audits. The second command fails when any generated report is stale. Private reports are served only through authenticated, `private, no-store` admin endpoints.
+The first command regenerates the complete 2,806-brand health model, review queue, FAST_PATH list, Pareto ranking, completeness report, deterministic sample and logo/content/similarity/SEO audits. The second command fails when any generated report is stale. Private reports are served only through authenticated, `private, no-store` admin endpoints.
 
 To improve a brand, add or update its reviewed facts and sources, run the generator, review the dry-run reports, run all gates, then publish. Never promote a profile merely because a similarly named domain or logo exists.
