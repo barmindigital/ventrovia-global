@@ -18,14 +18,17 @@ test("all manufacturers receive a deterministic conservative brand classificatio
   ]);
   assert.equal(manifest.manufacturerCount, 2806);
   assert.equal(health.length, 2806);
-  assert.equal(sample.seed, "brand-sample-v1");
-  assert.equal(sample.sample.length, 100);
-  assert.equal(manifest.profileCount, 31);
-  assert.equal(manifest.indexableManufacturerPages, 31);
+  assert.equal(sample.seed, "brand-sample-v2");
+  assert.equal(sample.sample.length, 200);
+  assert.equal(sample.coverage.BRAND_SAFE, manifest.indexableManufacturerPages);
+  assert.equal(manifest.profileCount, 72);
+  assert.equal(manifest.indexableManufacturerPages, 72);
   assert.equal(manifest.productCatalogPublic, false);
   assert.equal(manifest.productSitemapUrls, 0);
   assert.equal(PRODUCT_CATALOG_PUBLIC_ENABLED, false);
-  assert.equal(health.filter(({ seoReadiness }) => seoReadiness === "BRAND_SAFE").length, 31);
+  assert.equal(health.filter(({ seoReadiness }) => seoReadiness === "BRAND_SAFE").length, manifest.profileCount);
+  assert.ok(health.every(({ completenessScore }) => Number.isInteger(completenessScore) && completenessScore >= 0 && completenessScore <= 100));
+  assert.equal(health.filter(({ qualityMetric }) => qualityMetric === "BRAND_COMPLETE").length, manifest.brandComplete);
   assert.ok(health.filter(({ seoReadiness }) => seoReadiness === "BRAND_WEAK").every(({ indexable }) => !indexable));
 });
 
@@ -43,8 +46,31 @@ test("brand facts are source-backed, unique, and contain no fake dealer claim", 
     assert.equal(descriptions.has(profile.shortDescription), false);
     descriptions.add(profile.shortDescription);
   }
-  assert.equal(audit.length, 31);
+  assert.equal(audit.length, facts.profiles.length);
   assert.ok(audit.every(({ prohibitedDealerClaim, outcome }) => !prohibitedDealerClaim && outcome === "PASS"));
+});
+
+test("Wave 2 official domains and factual content remain source-traceable", async () => {
+  const [facts, similarity, wave] = await Promise.all([
+    loadJson("../data/brand-knowledge/curated-brand-facts.json"),
+    loadJson("../data/brand-knowledge/content-similarity-audit.json"),
+    loadJson("../data/brand-knowledge/wave-2-progress.json"),
+  ]);
+  for (const profile of facts.profiles) {
+    const domains = profile.officialDomains.map((domain) => domain.replace(/^www\./u, ""));
+    assert.ok(profile.sources.some(({ tier, status, url }) => {
+      const hostname = new URL(url).hostname.replace(/^www\./u, "");
+      return ["A", "B"].includes(tier)
+        && status === "AVAILABLE"
+        && domains.some((domain) => hostname === domain || hostname.endsWith(`.${domain}`));
+    }), `${profile.manufacturerId} must have an official-domain source`);
+  }
+  assert.equal(similarity.outcome, "PASS");
+  assert.equal(similarity.findings.length, 0);
+  assert.equal(wave.promotedToBrandSafe.length, 41);
+  assert.equal(wave.retainedForReview.length, 4);
+  assert.equal(wave.productCatalogChanged, false);
+  assert.equal(wave.productSitemapUrls, 0);
 });
 
 test("logo identity is exact and every published asset has explicit reuse metadata", async () => {
