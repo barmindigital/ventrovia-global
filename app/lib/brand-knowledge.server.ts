@@ -1,5 +1,6 @@
 import "server-only";
 import facts from "../../data/brand-knowledge/curated-brand-facts.json";
+import wave4Facts from "../../data/brand-knowledge/curated-brand-facts-wave-4.json";
 
 export type BrandSource = {
   sourceId: string;
@@ -37,12 +38,15 @@ export type BrandKnowledgeProfile = {
 export type BrandReadiness = "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
 
 const profiles = new Map(
-  (facts.profiles as BrandKnowledgeProfile[]).map((profile) => [
+  ([...facts.profiles, ...wave4Facts.profiles] as BrandKnowledgeProfile[]).map((profile) => [
     profile.manufacturerId,
     profile,
   ]),
 );
-const blocked = new Set(facts.blockedIdentities.map((entry) => entry.manufacturerId));
+const blocked = new Set(
+  [...facts.blockedIdentities, ...wave4Facts.blockedIdentities]
+    .map((entry) => entry.manufacturerId),
+);
 
 export function brandKnowledgeFor(slug: string) {
   return profiles.get(slug) ?? null;

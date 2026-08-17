@@ -21,8 +21,8 @@ test("all manufacturers receive a deterministic conservative brand classificatio
   assert.equal(sample.seed, "brand-sample-v2");
   assert.equal(sample.sample.length, 200);
   assert.equal(sample.coverage.BRAND_SAFE, manifest.indexableManufacturerPages);
-  assert.equal(manifest.profileCount, 102);
-  assert.equal(manifest.indexableManufacturerPages, 102);
+  assert.equal(manifest.profileCount, 146);
+  assert.equal(manifest.indexableManufacturerPages, 146);
   assert.equal(manifest.productCatalogPublic, false);
   assert.equal(manifest.productSitemapUrls, 0);
   assert.equal(PRODUCT_CATALOG_PUBLIC_ENABLED, false);
@@ -33,12 +33,14 @@ test("all manufacturers receive a deterministic conservative brand classificatio
 });
 
 test("brand facts are source-backed, unique, and contain no fake dealer claim", async () => {
-  const [facts, audit] = await Promise.all([
+  const [facts, wave4Facts, audit] = await Promise.all([
     loadJson("../data/brand-knowledge/curated-brand-facts.json"),
+    loadJson("../data/brand-knowledge/curated-brand-facts-wave-4.json"),
     loadJson("../data/brand-knowledge/content-audit.json"),
   ]);
+  const profiles = [...facts.profiles, ...wave4Facts.profiles];
   const descriptions = new Set();
-  for (const profile of facts.profiles) {
+  for (const profile of profiles) {
     assert.ok(profile.sources.some(({ tier, status }) => ["A", "B"].includes(tier) && status === "AVAILABLE"));
     assert.ok(profile.officialWebsite.startsWith("https://"));
     assert.ok(profile.shortDescription.length >= 80);
@@ -46,7 +48,7 @@ test("brand facts are source-backed, unique, and contain no fake dealer claim", 
     assert.equal(descriptions.has(profile.shortDescription), false);
     descriptions.add(profile.shortDescription);
   }
-  assert.equal(audit.length, facts.profiles.length);
+  assert.equal(audit.length, profiles.length);
   assert.ok(audit.every(({ prohibitedDealerClaim, outcome }) => !prohibitedDealerClaim && outcome === "PASS"));
 });
 
@@ -86,9 +88,9 @@ test("Wave 3 completes the remaining priority cohort with professional factual S
   assert.equal(wave.top100.remaining, 0);
   assert.equal(wave.productCatalogChanged, false);
   assert.equal(wave.productSitemapUrls, 0);
-  assert.equal(seoHealth.indexable, 102);
-  assert.equal(seoHealth.uniqueTitles, 102);
-  assert.equal(seoHealth.uniqueMetaDescriptions, 102);
+  assert.equal(seoHealth.indexable, 146);
+  assert.equal(seoHealth.uniqueTitles, 146);
+  assert.equal(seoHealth.uniqueMetaDescriptions, 146);
   assert.deepEqual(seoHealth.duplicateTitles, []);
   assert.deepEqual(seoHealth.duplicateDescriptions, []);
   assert.deepEqual(seoHealth.nearDuplicateContent, []);
@@ -102,6 +104,41 @@ test("Wave 3 completes the remaining priority cohort with professional factual S
       && metaDescription.startsWith("Поставка оборудования")
       && primaryIntent.length > 10
       && productSchemaAllowed === false,
+  ));
+});
+
+test("Wave 4 promotes only source-backed brands and quarantines ambiguous identities", async () => {
+  const [wave, waveFacts, health, visibility, categoryCandidates] = await Promise.all([
+    loadJson("../data/brand-knowledge/wave-4-progress.json"),
+    loadJson("../data/brand-knowledge/curated-brand-facts-wave-4.json"),
+    loadJson("../data/brand-knowledge/brand-health.json"),
+    loadJson("../data/brand-knowledge/manifest.json"),
+    loadJson("../data/brand-knowledge/brand-category-candidates.json"),
+  ]);
+  assert.equal(wave.baselineBrandSafe, 102);
+  assert.equal(wave.processed, waveFacts.profiles.length + waveFacts.blockedIdentities.length);
+  assert.equal(wave.promoted, waveFacts.profiles.length);
+  assert.equal(wave.reviewCount, 2);
+  assert.equal(wave.productCatalogChanged, false);
+  assert.equal(wave.productSitemapUrls, 0);
+  assert.deepEqual(
+    new Set(wave.retainedForReview.map(({ manufacturerId }) => manufacturerId)),
+    new Set(["elko", "kohler-motors"]),
+  );
+  assert.ok(waveFacts.profiles.every((profile) =>
+    profile.sources.some(({ tier, status, url }) =>
+      tier === "A" && status === "AVAILABLE" && url.startsWith("https://"),
+    ) && profile.productCategories.length > 0,
+  ));
+  assert.ok(health.filter(({ manufacturerId }) => wave.promotedToBrandSafe.includes(manufacturerId))
+    .every(({ seoReadiness, indexable }) => seoReadiness === "BRAND_SAFE" && indexable));
+  assert.equal(health.find(({ manufacturerId }) => manufacturerId === "elko").seoReadiness, "BRAND_REVIEW");
+  assert.equal(health.find(({ manufacturerId }) => manufacturerId === "kohler-motors").seoReadiness, "BRAND_REVIEW");
+  assert.equal(visibility.productSitemapUrls, 0);
+  assert.equal(categoryCandidates.manufacturerCount, visibility.profileCount);
+  assert.equal(categoryCandidates.publishedRoutes, 0);
+  assert.ok(categoryCandidates.candidates.every(({ evidence, status }) =>
+    evidence.length > 0 && status === "CANDIDATE_NOT_PUBLISHED",
   ));
 });
 
