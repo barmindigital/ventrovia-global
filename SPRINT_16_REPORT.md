@@ -67,6 +67,11 @@ Timeweb ticket `#12495561` remains the routing authority. Mail remains
 `BLOCKED_MAILBOX_ACCESS`; forms remain `SAFE_FAILURE`. These blockers do not
 change the correctness of the source or the manufacturer-only build.
 
+Sites mirror version 116 was published successfully from exact source commit
+`14b97b6`. Runtime checks returned 200 for Home, Manufacturers and the new
+INOXPA profile; `/catalog`, a legacy SKU route and the product API returned 404.
+The deployed sitemap contains 178 manufacturer URLs and zero product URLs.
+
 ## Performance
 
 - Public client JavaScript: 386,450 bytes across 26 files.

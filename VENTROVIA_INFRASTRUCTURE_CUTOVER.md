@@ -12,7 +12,7 @@ authorization to change DNS, domain ownership or credentials.
 - manufacturer sitemap target URLs: 178;
 - product sitemap URLs and remotely stored product records: 0;
 - canonical origin in source: `https://ventroviaglobal.com`;
-- current clean Sites release: version 115;
+- current clean Sites release: version 116 (Sprint 16 source commit `14b97b6`);
 - private Russian catalogue: owner-local and excluded from every build input.
 
 The authenticated Timeweb inventory found one App Platform application:
