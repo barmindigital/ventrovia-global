@@ -1,12 +1,162 @@
 {
-  "measurementStatus": "NOT_MEASURED",
-  "reason": "Historical source batches did not record elapsed processing time per manufacturer.",
-  "processedManufacturers": 545,
-  "safe": 500,
-  "blockedOrReview": 45,
-  "sourceSuccessRate": 0.9174,
-  "averageSourcesPerSafe": 2.58,
-  "processedPerHour": null,
-  "safePerHour": null,
-  "blockedPerHour": null
+  "measurementStatus": "MEASURED",
+  "processedManufacturers": 934,
+  "safe": 816,
+  "blockedOrReview": 118,
+  "sourceSuccessRate": 0.8737,
+  "averageSourcesPerSafe": 2.35,
+  "sprint19": {
+    "processingStartedAt": "2026-08-19T21:51:37.000Z",
+    "processingFinishedAt": "2026-08-19T22:44:14.000Z",
+    "elapsedHours": 0.8769,
+    "processed": 389,
+    "safe": 316,
+    "review": 73,
+    "sourceSuccessRate": 0.8123,
+    "processedPerHour": 443.59,
+    "safePerHour": 360.34,
+    "reviewPerHour": 83.24,
+    "batches": [
+      {
+        "wave": 48,
+        "file": "curated-brand-facts-wave-48.json",
+        "safe": 15,
+        "review": 2,
+        "processed": 17
+      },
+      {
+        "wave": 49,
+        "file": "curated-brand-facts-wave-49.json",
+        "safe": 21,
+        "review": 3,
+        "processed": 24
+      },
+      {
+        "wave": 50,
+        "file": "curated-brand-facts-wave-50.json",
+        "safe": 22,
+        "review": 0,
+        "processed": 22
+      },
+      {
+        "wave": 51,
+        "file": "curated-brand-facts-wave-51.json",
+        "safe": 22,
+        "review": 3,
+        "processed": 25
+      },
+      {
+        "wave": 52,
+        "file": "curated-brand-facts-wave-52.json",
+        "safe": 15,
+        "review": 7,
+        "processed": 22
+      },
+      {
+        "wave": 53,
+        "file": "curated-brand-facts-wave-53.json",
+        "safe": 18,
+        "review": 4,
+        "processed": 22
+      },
+      {
+        "wave": 54,
+        "file": "curated-brand-facts-wave-54.json",
+        "safe": 23,
+        "review": 2,
+        "processed": 25
+      },
+      {
+        "wave": 55,
+        "file": "curated-brand-facts-wave-55.json",
+        "safe": 16,
+        "review": 5,
+        "processed": 21
+      },
+      {
+        "wave": 56,
+        "file": "curated-brand-facts-wave-56.json",
+        "safe": 18,
+        "review": 4,
+        "processed": 22
+      },
+      {
+        "wave": 57,
+        "file": "curated-brand-facts-wave-57.json",
+        "safe": 9,
+        "review": 0,
+        "processed": 9
+      },
+      {
+        "wave": 58,
+        "file": "curated-brand-facts-wave-58.json",
+        "safe": 19,
+        "review": 1,
+        "processed": 20
+      },
+      {
+        "wave": 59,
+        "file": "curated-brand-facts-wave-59.json",
+        "safe": 14,
+        "review": 6,
+        "processed": 20
+      },
+      {
+        "wave": 60,
+        "file": "curated-brand-facts-wave-60.json",
+        "safe": 13,
+        "review": 7,
+        "processed": 20
+      },
+      {
+        "wave": 61,
+        "file": "curated-brand-facts-wave-61.json",
+        "safe": 14,
+        "review": 6,
+        "processed": 20
+      },
+      {
+        "wave": 62,
+        "file": "curated-brand-facts-wave-62.json",
+        "safe": 18,
+        "review": 2,
+        "processed": 20
+      },
+      {
+        "wave": 63,
+        "file": "curated-brand-facts-wave-63.json",
+        "safe": 13,
+        "review": 7,
+        "processed": 20
+      },
+      {
+        "wave": 64,
+        "file": "curated-brand-facts-wave-64.json",
+        "safe": 15,
+        "review": 5,
+        "processed": 20
+      },
+      {
+        "wave": 65,
+        "file": "curated-brand-facts-wave-65.json",
+        "safe": 15,
+        "review": 5,
+        "processed": 20
+      },
+      {
+        "wave": 66,
+        "file": "curated-brand-facts-wave-66.json",
+        "safe": 9,
+        "review": 1,
+        "processed": 10
+      },
+      {
+        "wave": 67,
+        "file": "curated-brand-facts-wave-67.json",
+        "safe": 7,
+        "review": 3,
+        "processed": 10
+      }
+    ]
+  }
 }

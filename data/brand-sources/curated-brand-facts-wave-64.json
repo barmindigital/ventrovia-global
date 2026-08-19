@@ -1,0 +1,462 @@
+{
+  "checkedAt": "2026-08-20",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "bohler",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "BÖHLER is used across distinct active voestalpine businesses and product identities, including specialty steels, welding products and aerospace forgings; the unsuffixed raw record does not safely select one canonical entity."
+    },
+    {
+      "manufacturerId": "boss",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "BOSS is used by multiple unrelated active manufacturer-owned businesses in industrial adhesives, log-processing equipment, musical electronics and other sectors; the raw name is insufficient for a zero-conflict identity match."
+    },
+    {
+      "manufacturerId": "bostak",
+      "reason": "INSUFFICIENT_OFFICIAL_PRODUCT_EVIDENCE",
+      "detail": "Bostak S.L. officially documents hydraulic and pneumatic system assembly and service, but its manufacturer-owned site does not corroborate the coolant-pump product identity attributed by secondary sources. The historical product record cannot be promoted without authoritative evidence."
+    },
+    {
+      "manufacturerId": "bowman",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "BOWMAN identifies multiple unrelated active manufacturer-owned industrial businesses, including heat-exchanger, coating-measurement and other equipment companies; the raw record provides no safe discriminator."
+    },
+    {
+      "manufacturerId": "braun",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "BRAUN is used by unrelated active manufacturer-owned businesses, including consumer appliances and industrial machinery. A secondary-source logo candidate does not establish which entity the raw record represents."
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "block",
+      "officialName": "BLOCK Transformatoren-Elektronik GmbH",
+      "displayName": "BLOCK",
+      "aliases": ["BLOCK", "Block Transformers"],
+      "formerNames": [],
+      "officialWebsite": "https://www.block.eu/en_EN/",
+      "officialDomains": ["block.eu"],
+      "country": "Germany",
+      "headquarters": "Verden, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BLOCK develops and manufactures voltage and power-quality components for industrial equipment. Its portfolio includes transformers, power supplies, electronic circuit breakers, reactors, EMI filters and inductive components for power electronics.",
+      "fullDescription": [
+        "BLOCK Transformatoren-Elektronik GmbH is a German manufacturer of power and voltage components based in Verden. Its official product structure combines standard equipment with application-specific development and production.",
+        "The portfolio covers control, isolating, safety and PCB transformers; AC/DC and DC/DC power supplies; electronic circuit breakers and DC UPS systems; reactors and EMI filters; and inductive components for medium- and high-frequency power electronics. Buyers can submit input and output voltage, power, phase, protection class, approvals and installation requirements to Ventrovia for sourcing review."
+      ],
+      "productCategories": ["Трансформаторы", "Источники питания", "Электронные автоматические выключатели", "Дроссели", "EMI-фильтры", "Индуктивные компоненты"],
+      "productFamilies": ["Transformers", "Power Supplies and Circuit Breakers", "Reactors and Filters", "Inductive Components for Power Electronics"],
+      "series": [],
+      "industries": ["Промышленная автоматизация", "Электротехника", "Машиностроение"],
+      "officialCatalogs": ["https://www.block.eu/fileadmin/Downloads/Kataloge/BLOCK_COMPACT_Web.pdf"],
+      "documentationSources": ["https://www.block.eu/en_EN/products/"],
+      "sources": [
+        {"sourceId":"brand-block-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_PRODUCT_GROUPS_AND_ENGINEERING_SCOPE","url":"https://www.block.eu/en_EN/products/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-block-transformers","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"TRANSFORMER_TYPES_AND_SERIES","url":"https://www.block.eu/en_EN/products/transformers/all","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "bloksma",
+      "officialName": "BLOKSMA-Engineering GmbH",
+      "displayName": "BLOKSMA",
+      "aliases": ["BLOKSMA", "BLOKSMA Engineering"],
+      "formerNames": [],
+      "officialWebsite": "https://www.bloksma.de/en/",
+      "officialDomains": ["bloksma.de"],
+      "country": "Germany",
+      "headquarters": "Urbach, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BLOKSMA develops factory-logistics and material-flow equipment for manufacturing operations. Its modular range includes lifters, workpiece carriers, trolleys, supermarkets, transport systems, assembly workstations and flow racks.",
+      "fullDescription": [
+        "BLOKSMA-Engineering GmbH is a German supplier of production-logistics systems based in Urbach. The manufacturer develops modular equipment for intralogistics, material flow and ergonomic handling of piece goods within factories.",
+        "The official portfolio includes lifters, workpiece carriers, floor trolleys, material supermarkets, transport logistics, assembly workstations and flow racks. Standard modules can be combined with application-specific equipment for line supply, workpiece movement and FIFO processes. A Ventrovia enquiry can define container dimensions, payload, handling sequence, workstation layout and required logistics interfaces."
+      ],
+      "productCategories": ["Оборудование внутризаводской логистики", "Подъемные устройства", "Тележки", "Спутники для деталей", "Гравитационные стеллажи", "Сборочные рабочие места"],
+      "productFamilies": ["Lifters", "Workpiece Carriers", "Trolleys", "Supermarkets", "Transport Logistics", "Assembly Workstations", "Flow Racks"],
+      "series": ["BLOKSMA System", "Gemini"],
+      "industries": ["Промышленное производство", "Внутризаводская логистика", "Сборочное производство"],
+      "officialCatalogs": ["https://www.bloksma.de/wp-content/uploads/BLOKSMA_Catalouge_6_1_EN_2025.pdf"],
+      "documentationSources": ["https://www.bloksma.de/en/products/"],
+      "sources": [
+        {"sourceId":"brand-bloksma-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_LOCATION_SPECIALIZATION_AND_EXPERIENCE","url":"https://www.bloksma.de/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bloksma-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"MATERIAL_FLOW_PRODUCT_GROUPS","url":"https://www.bloksma.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "boldrocchi",
+      "officialName": "Boldrocchi Group",
+      "displayName": "Boldrocchi",
+      "aliases": ["BOLDROCCHI", "Boldrocchi Group"],
+      "formerNames": [],
+      "officialWebsite": "https://www.boldrocchigroup.com/",
+      "officialDomains": ["boldrocchigroup.com"],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Boldrocchi engineers and manufactures heavy-duty air, gas and process equipment. Its portfolio includes industrial fans, blowers, centrifugal compressors, heat exchangers, air-pollution-control systems, gas-turbine auxiliaries and process dampers.",
+      "fullDescription": [
+        "Boldrocchi Group is an Italian engineering and manufacturing business serving heavy industry and power generation. Its official portfolio combines rotating equipment, heat-transfer systems, emissions-control equipment and engineered gas-path components.",
+        "Product groups include centrifugal and axial fans, blowers, centrifugal compressors, air-cooled heat exchangers, electrical-machine cooling systems, dust-removal and flue-gas-treatment plants, gas-turbine intake and exhaust systems, silencers and heavy-duty process dampers. Applications are documented in cement, metals, power, oil and gas, chemicals, marine and mining. Ventrovia enquiries can define process gas, flow, pressure, temperature, emissions duty and project scope."
+      ],
+      "productCategories": ["Промышленные вентиляторы", "Воздуходувки", "Центробежные компрессоры", "Теплообменники", "Газоочистное оборудование", "Промышленные заслонки"],
+      "productFamilies": ["Fans, Blowers and Compressors", "Heat Exchangers and Coolers", "Air Pollution Control Systems", "Gas Turbine Systems and Noise Protection", "Heavy-Duty Process Dampers"],
+      "series": [],
+      "industries": ["Цементная промышленность", "Нефтегазовая промышленность", "Химическая промышленность", "Металлургия", "Энергетика", "Судостроение", "Горнодобывающая промышленность"],
+      "officialCatalogs": ["https://www.boldrocchigroup.com/wp-content/uploads/2018/12/Boldrocchi_Catalogue_web.pdf"],
+      "documentationSources": ["https://www.boldrocchigroup.com/complete-product-portfolio/"],
+      "sources": [
+        {"sourceId":"brand-boldrocchi-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_SPECIALIZATION_PRODUCTS_AND_INDUSTRIES","url":"https://www.boldrocchigroup.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-boldrocchi-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_EQUIPMENT_TYPES","url":"https://www.boldrocchigroup.com/complete-product-portfolio/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "bombas-ideal",
+      "officialName": "Bombas Ideal, S.A.",
+      "displayName": "Bombas Ideal",
+      "aliases": ["BOMBAS IDEAL", "Ideal Pumps"],
+      "formerNames": [],
+      "officialWebsite": "https://www.bombasideal.com/en/home/",
+      "officialDomains": ["bombasideal.com"],
+      "country": "Spain",
+      "headquarters": null,
+      "foundedYear": 1902,
+      "parentCompany": null,
+      "shortDescription": "Bombas Ideal manufactures water pumps and packaged pumping equipment. Its range covers horizontal, vertical, submersible, wastewater and multistage pumps, pressure booster sets, fire-fighting groups and solar pumping systems.",
+      "fullDescription": [
+        "Bombas Ideal, S.A. is a Spanish water-pump manufacturer whose official site records production since 1902. The company develops pumps and assembled pressure equipment for building services, water infrastructure, agriculture and industrial duties.",
+        "The official range includes horizontal and vertical surface pumps, submersible well pumps, drainage and wastewater pumps, multistage pumps, pressure-booster groups, fire-protection sets and solar pumping systems. Published families include GNI, RFI, RNI, VIPV, NXA, NLV, TRITON, HYDRO and SBS. A Ventrovia request can specify liquid, flow, head, installation, power source and control requirements."
+      ],
+      "productCategories": ["Горизонтальные насосы", "Вертикальные насосы", "Погружные насосы", "Насосы для сточных вод", "Многоступенчатые насосы", "Насосные станции", "Солнечные насосные системы"],
+      "productFamilies": ["Horizontal Pumps", "Vertical Pumps", "Submersible Pumps", "Wastewater Pumps", "Multistage Pumps", "Pressure Booster Sets", "Fire-Fighting Sets", "Solar Pumping Systems"],
+      "series": ["GNI", "RFI", "RNI", "VIPV", "NXA", "NLV", "TRITON", "HYDRO", "SBS"],
+      "industries": ["Водоснабжение", "Водоотведение", "Сельское хозяйство", "Пожаротушение", "Промышленность"],
+      "officialCatalogs": ["https://www.bombasideal.com/en/catalogue/"],
+      "documentationSources": ["https://www.bombasideal.com/en/water-pumps-and-pressure-equipment/"],
+      "sources": [
+        {"sourceId":"brand-bombas-ideal-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_FOUNDING_MANUFACTURING_AND_PRODUCT_SCOPE","url":"https://www.bombasideal.com/en/home/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bombas-ideal-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PUMP_TYPES_SERIES_AND_APPLICATIONS","url":"https://www.bombasideal.com/en/water-pumps-and-pressure-equipment/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bombas-ideal-catalogue","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"CATALOGS_AND_SERIES","url":"https://www.bombasideal.com/en/catalogue/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "bonney-forge",
+      "officialName": "Bonney Forge Corporation",
+      "displayName": "Bonney Forge",
+      "aliases": ["BONNEY FORGE", "Bonney Forge Corporation"],
+      "formerNames": [],
+      "officialWebsite": "https://bonneyforge.com/",
+      "officialDomains": ["bonneyforge.com"],
+      "country": "United States",
+      "headquarters": "Mount Union, Pennsylvania, United States",
+      "foundedYear": 1876,
+      "parentCompany": null,
+      "shortDescription": "Bonney Forge manufactures forged and cast flow-control products for industrial piping. Its range includes forged and cast steel valves, forged fittings and unions, branch connections marketed as Olets and Pipets, and engineered specialty products.",
+      "fullDescription": [
+        "Bonney Forge Corporation is a US manufacturer of valves, fittings and branch connections. Its official history begins in 1876, and the company identifies Mount Union, Pennsylvania, as its headquarters and a manufacturing location.",
+        "The portfolio covers forged steel valves, cast steel valves, forged fittings, unions, Olets and Pipets branch connections, and specialty products. Official application information addresses oil and gas, petrochemical, power-generation, chemical and general industrial piping systems. A Ventrovia request can identify the product type, size, pressure class, material, end connection and applicable piping standard."
+      ],
+      "productCategories": ["Кованые стальные клапаны", "Литые стальные клапаны", "Кованые фитинги", "Отводы ответвления", "Промышленная трубопроводная арматура"],
+      "productFamilies": ["Forged Steel Valves", "Cast Steel Valves", "Forged Fittings and Unions", "Olets and Pipets", "Specialty Products"],
+      "series": ["Olets", "Pipets", "Eco-Seal"],
+      "industries": ["Нефтегазовая промышленность", "Нефтехимическая промышленность", "Энергетика", "Химическая промышленность"],
+      "officialCatalogs": ["https://bonneyforge.com/resources/catalog-downloads.php"],
+      "documentationSources": ["https://bonneyforge.com/resources/catalog-downloads.php"],
+      "sources": [
+        {"sourceId":"brand-bonney-forge-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_INDUSTRIES","url":"https://bonneyforge.com/about.php","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bonney-forge-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"VALVES_FITTINGS_BRANCH_CONNECTIONS_AND_SPECIALTIES","url":"https://bonneyforge.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bonney-forge-catalogs","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"PRODUCT_CATALOGS","url":"https://bonneyforge.com/resources/catalog-downloads.php","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "borgwarner",
+      "officialName": "BorgWarner Inc.",
+      "displayName": "BorgWarner",
+      "aliases": ["BORGWARNER", "Borg Warner"],
+      "formerNames": [],
+      "officialWebsite": "https://www.borgwarner.com/",
+      "officialDomains": ["borgwarner.com"],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BorgWarner designs and manufactures propulsion and energy technologies for electric, hybrid and combustion vehicles. Its portfolio includes battery systems, controllers, electric drive modules and motors, transmissions, power electronics, thermal-management and boosting systems.",
+      "fullDescription": [
+        "BorgWarner Inc. is a manufacturer of mobility and propulsion systems. The company states that it designs and manufactures systems for electric, hybrid and combustion vehicle architectures, serving vehicle manufacturers and related mobility applications.",
+        "The official technology portfolio includes battery systems, electronic controllers, integrated electric drive modules, electric motors, EV transmissions, inverters, converters, onboard chargers, thermal-management equipment and boosting technologies. Conventional-propulsion products include turbocharging, ignition, drivetrain and exhaust-gas-management systems. A Ventrovia request can specify vehicle or equipment application, voltage architecture, propulsion function and the required BorgWarner component family."
+      ],
+      "productCategories": ["Электрические приводные модули", "Тяговые электродвигатели", "Силовая электроника", "Аккумуляторные системы", "Турбокомпрессоры", "Системы терморегулирования", "Компоненты трансмиссии"],
+      "productFamilies": ["Battery Systems", "Controllers", "Electric Drive Modules", "Electric Drive Motors", "EV Transmissions", "Power Electronics", "Thermal Management", "Boosting Technologies"],
+      "series": ["eTurbo", "Viper", "iDM"],
+      "industries": ["Автомобильная промышленность", "Коммерческий транспорт", "Внедорожная техника"],
+      "officialCatalogs": ["https://catalog.borgwarner.com/"],
+      "documentationSources": ["https://www.borgwarner.com/technologies"],
+      "sources": [
+        {"sourceId":"brand-borgwarner-company","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_MANUFACTURING_AND_CORPORATE_SCOPE","url":"https://www.borgwarner.com/company","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-borgwarner-technologies","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PROPULSION_AND_ELECTRIFICATION_PRODUCT_GROUPS","url":"https://www.borgwarner.com/technologies","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-borgwarner-aftermarket","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CONVENTIONAL_PROPULSION_AND_AFTERMARKET_GROUPS","url":"https://www.borgwarner.com/aftermarket","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "borries-markier-systeme",
+      "officialName": "Borries Markier-Systeme GmbH",
+      "displayName": "BORRIES",
+      "aliases": ["BORRIES MARKIER-SYSTEME", "Borries Marking Systems"],
+      "formerNames": [],
+      "officialWebsite": "https://borries.com/en/",
+      "officialDomains": ["borries.com"],
+      "country": "Germany",
+      "headquarters": "Pliezhausen, Germany",
+      "foundedYear": 1952,
+      "parentCompany": null,
+      "shortDescription": "BORRIES develops and manufactures permanent industrial marking systems. Its technology range covers conventional stamping, scribe and dot-peen marking, type-wheel marking, laser marking and customised traceability systems.",
+      "fullDescription": [
+        "Borries Markier-Systeme GmbH is a German manufacturer of industrial marking equipment based in Pliezhausen. The official company profile records development and production of marking systems and tools since 1952.",
+        "The portfolio includes stamping tools and machines, built-in impact units, handheld markers, workshop systems, scribe and dot-peen units, type-wheel marking, laser marking and special-purpose systems. These technologies create serial numbers, DataMatrix and barcode identifiers, alphanumeric text and logos for traceability and quality assurance. Buyers can provide the component material, mark content, cycle time, integration method and automation requirements to Ventrovia."
+      ],
+      "productCategories": ["Маркировочные системы", "Ударно-точечные маркираторы", "Ритц-маркировочные системы", "Лазерные маркираторы", "Клеймильные машины"],
+      "productFamilies": ["Conventional Marking Technology", "Scribe and Dot-Peen Marking", "Type-Wheel Marking", "Laser Marking", "Special Marking Systems"],
+      "series": ["310", "312", "313", "314", "315", "317", "320", "322", "350", "VisuMark", "VisuWin"],
+      "industries": ["Автомобильная промышленность", "Железнодорожная промышленность", "Металлургия", "Медицинская техника", "Аэрокосмическая промышленность"],
+      "officialCatalogs": ["https://borries.com/en/downloads-product-information/"],
+      "documentationSources": ["https://borries.com/en/products.html"],
+      "sources": [
+        {"sourceId":"brand-borries-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_MANUFACTURING_AND_INDUSTRIES","url":"https://borries.com/en/about-borries/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-borries-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"MARKING_TECHNOLOGIES_AND_EQUIPMENT_TYPES","url":"https://borries.com/en/products.html","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-borries-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"PRODUCT_DOCUMENTATION_AND_SERIES","url":"https://borries.com/en/downloads-product-information/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "borsig",
+      "officialName": "BORSIG GmbH",
+      "displayName": "BORSIG",
+      "aliases": ["BORSIG", "BORSIG Group"],
+      "formerNames": [],
+      "officialWebsite": "https://www.borsig.de/en/",
+      "officialDomains": ["borsig.de"],
+      "country": "Germany",
+      "headquarters": "Berlin, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BORSIG develops process equipment for chemical, petrochemical, energy and industrial applications. Its range includes waste-heat recovery systems, process heat exchangers, process-gas compressors, valves, membrane separation and emission-control units.",
+      "fullDescription": [
+        "BORSIG GmbH is a German process-technology group headquartered in Berlin. Its manufacturer-owned corporate page identifies specialist operating companies for heat exchangers, compression, valves, membrane technology and industrial service.",
+        "The portfolio includes waste-heat recovery systems, transfer-line and scraped-surface exchangers, process-gas compressors and compressor valves, industrial valves, vapour and product recovery units, gas and liquid separation systems, and plant service. These systems support chemical, petrochemical, energy and emissions-control duties. A Ventrovia enquiry can define the process stream, pressure, temperature, materials, separation or heat-transfer duty and project scope."
+      ],
+      "productCategories": ["Теплоутилизационные установки", "Процессные теплообменники", "Компрессоры технологического газа", "Промышленные клапаны", "Мембранные сепарационные установки", "Установки улавливания паров"],
+      "productFamilies": ["Waste Heat Recovery Systems", "Transfer Line Exchangers", "Scraped Surface Exchangers", "Process Gas Compressors", "Compressor Valves", "Industrial Valves", "Emission Control Units", "Gas and Liquid Separation Units"],
+      "series": [],
+      "industries": ["Химическая промышленность", "Нефтехимическая промышленность", "Энергетика", "Нефтегазовая промышленность"],
+      "officialCatalogs": ["https://www.borsig.de/en/downloads/"],
+      "documentationSources": ["https://www.borsig.de/en/company/"],
+      "sources": [
+        {"sourceId":"brand-borsig-company","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_LOCATION_GROUP_COMPANIES_AND_PRODUCT_SCOPE","url":"https://www.borsig.de/en/company/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-borsig-membranes","tier":"A","type":"OFFICIAL_PRODUCT_DOCUMENT","scope":"MEMBRANE_SEPARATION_AND_RECOVERY_SYSTEMS","url":"https://www.borsig.de/fileadmin/mediamanager/Downloads/BORSIG_Membrane_Technology_-_Overview_05-2024_-_Internet.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "bossar",
+      "officialName": "Bossar",
+      "displayName": "Bossar",
+      "aliases": ["BOSSAR", "SIG Bossar"],
+      "formerNames": [],
+      "officialWebsite": "https://www.sig.biz/bossar/en-ae",
+      "officialDomains": ["sig.biz"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "SIG Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Bossar is a SIG equipment brand for horizontal form-fill-seal pouch packaging. Its systems produce sachets, zipper pouches and other flexible formats for solid, powdered, semi-solid and selected liquid products.",
+      "fullDescription": [
+        "Bossar is a packaging-equipment brand within SIG. SIG's manufacturer-owned site presents Bossar horizontal form-fill-seal machinery for producing flexible pouch and sachet formats.",
+        "The range includes SIG Bossar 200 and 300 sachet machines, the Bossar Sachet series, Carousel System and Basic platform. Supported formats include three- and four-side-seal pouches, twin sachets, zipper and tear-top packs, with configurations for food, pharmaceutical, cosmetic, personal-care and chemical applications. A Ventrovia request can specify product properties, dose, pouch format, filling speed, hygiene requirement and line integration."
+      ],
+      "productCategories": ["Горизонтальные упаковочные машины", "Оборудование для упаковки в саше", "Оборудование для упаковки в пакеты", "Фасовочно-упаковочные линии"],
+      "productFamilies": ["Horizontal Form-Fill-Seal Equipment", "Sachet Packaging Machines", "Pouch Packaging Systems"],
+      "series": ["SIG Bossar 200 Sachet", "SIG Bossar 300 Sachet", "SIG Bossar Sachet Series", "SIG Bossar Carousel System", "SIG Bossar Basic"],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Косметическая промышленность", "Химическая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.sig.biz/bossar/en-us/equipment-solutions"],
+      "sources": [
+        {"sourceId":"brand-bossar-sig","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"IDENTITY_PARENT_PRODUCT_SCOPE_AND_FORMATS","url":"https://www.sig.biz/bossar/en-ae","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bossar-equipment","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"EQUIPMENT_FAMILIES_APPLICATIONS_AND_SERIES","url":"https://www.sig.biz/bossar/en-us/equipment-solutions","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "boston-gear",
+      "officialName": "Boston Gear",
+      "displayName": "Boston Gear",
+      "aliases": ["BOSTON GEAR", "Boston Gear LLC"],
+      "formerNames": [],
+      "officialWebsite": "https://www.bostongear.com/",
+      "officialDomains": ["bostongear.com"],
+      "country": "United States",
+      "headquarters": "Charlotte, North Carolina, United States",
+      "foundedYear": 1877,
+      "parentCompany": "Regal Rexnord Corporation",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Boston Gear manufactures mechanical power-transmission and motion-control components. Its portfolio includes enclosed gear drives and motors, open gearing, bearings, clutches, couplings, shaft accessories and planetary gearheads.",
+      "fullDescription": [
+        "Boston Gear is a US power-transmission brand with manufacturing operations in Charlotte, North Carolina. Official company literature traces the business to 1877, and current product material is published within the Regal Rexnord organisation.",
+        "The product range includes worm, helical and bevel gear drives, electric motors, open spur, helical, bevel and worm gearing, bearings, overload clutches, couplings, shaft accessories and Micron planetary gearheads. Equipment is documented for material handling, packaging, food processing, mining, marine, lifting and other industrial applications. A Ventrovia request can specify ratio, torque, speed, mounting, material and operating environment."
+      ],
+      "productCategories": ["Редукторы", "Зубчатые передачи", "Электродвигатели", "Муфты", "Предохранительные муфты", "Планетарные редукторы"],
+      "productFamilies": ["Enclosed Gear Drives and Motors", "Open Gearing", "Bearings", "Clutches", "Couplings and Shaft Accessories", "Micron Planetary Gearheads"],
+      "series": ["700 Series", "SS700", "800 Series", "RA90", "Centric", "Micron TRUE Planetary"],
+      "industries": ["Пищевая промышленность", "Упаковочная промышленность", "Внутризаводская логистика", "Горнодобывающая промышленность", "Судостроение"],
+      "officialCatalogs": ["https://www.bostongear.com/-/media/Project/Altramotion/shared/files/Literature/brand/boston-gear/catalogs/p-1485-bg.pdf"],
+      "documentationSources": ["https://www.bostongear.com/"],
+      "sources": [
+        {"sourceId":"brand-boston-gear-overview","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_PRODUCT_SCOPE_AND_APPLICATIONS","url":"https://www.bostongear.com/about-us/overview","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-boston-gear-home","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_CURRENT_SERIES","url":"https://www.bostongear.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-boston-gear-open-gearing","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"FOUNDING_MANUFACTURING_LOCATION_AND_GEARING_SCOPE","url":"https://www.bostongear.com/industries/off-highway-construction/heavy-equipment/open-gearing","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "bourns",
+      "officialName": "Bourns, Inc.",
+      "displayName": "Bourns",
+      "aliases": ["BOURNS", "Bourns Inc."],
+      "formerNames": [],
+      "officialWebsite": "https://www.bourns.com/",
+      "officialDomains": ["bourns.com"],
+      "country": "United States",
+      "headquarters": "Riverside, California, United States",
+      "foundedYear": 1947,
+      "parentCompany": null,
+      "shortDescription": "Bourns manufactures electronic components for sensing, power conversion and circuit protection. Its portfolio includes resistors, potentiometers, encoders, sensors, inductors, transformers, diodes, surge-protection devices, fuses and switches.",
+      "fullDescription": [
+        "Bourns, Inc. is a US electronic-components manufacturer founded in 1947 and headquartered in Riverside, California. The company's official history links its origins to precision position-sensing components and documents subsequent expansion across passive and protection technologies.",
+        "The current range includes position and automotive sensors, potentiometers and encoders, resistors and current-sense devices, inductors and transformers, circuit-protection components, diodes, fuses, surge-protection devices, switches and thermal solutions. These products serve automotive, industrial, communications, consumer, audio and selected medical applications. A Ventrovia enquiry can identify the component family, electrical ratings, package, qualification and environment."
+      ],
+      "productCategories": ["Резисторы", "Потенциометры", "Датчики положения", "Энкодеры", "Индуктивные компоненты", "Компоненты защиты цепей", "Диоды и предохранители"],
+      "productFamilies": ["Sensors", "Potentiometers", "Encoders", "Resistors", "Magnetic Products", "Circuit Protection", "Diodes", "Switches", "Thermal Solutions"],
+      "series": ["Trimpot", "Multifuse", "IsoMOV", "ChipGuard", "SinglFuse", "TBU"],
+      "industries": ["Автомобильная промышленность", "Промышленная электроника", "Телекоммуникации", "Медицинская техника"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.bourns.com/products"],
+      "sources": [
+        {"sourceId":"brand-bourns-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_AND_CORPORATE_SCOPE","url":"https://www.bourns.com/support/about-us","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bourns-history","tier":"A","type":"OFFICIAL_HISTORY_PAGE","scope":"FOUNDING_HEADQUARTERS_AND_PRODUCT_DEVELOPMENT","url":"https://www.bourns.com/support/about-us/history","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-bourns-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"COMPONENT_GROUPS_AND_SERIES","url":"https://www.bourns.com/products","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "bowex",
+      "officialName": "BoWex",
+      "displayName": "BoWex",
+      "aliases": ["BOWEX", "BoWex Couplings"],
+      "formerNames": [],
+      "officialWebsite": "https://www.ktr.com/de/en/products/bowex-curved-tooth-gear-couplings/",
+      "officialDomains": ["ktr.com"],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "KTR Systems GmbH",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "BoWex is a KTR product brand for curved-tooth gear couplings. The range combines steel hubs with polymer sleeves in maintenance-free coupling designs for power transmission and specialised drive arrangements.",
+      "fullDescription": [
+        "BoWex is a curved-tooth gear-coupling brand manufactured by KTR Systems GmbH. The manufacturer's official product directory identifies BoWex as a family of compact, pluggable and maintenance-free couplings for industrial drive systems.",
+        "Published variants include standard three-part BoWex couplings, AS versions for simplified assembly, axial plug-in and blind-assembly designs, shiftable SD versions, dust-protected SG couplings and special configurations for sliding-armature motors. A Ventrovia request can specify shaft diameters, torque, speed, misalignment, assembly access and operating environment."
+      ],
+      "productCategories": ["Зубчатые муфты", "Приводные муфты", "Компенсирующие муфты"],
+      "productFamilies": ["Curved-Tooth Gear Couplings", "Axially Plug-In Couplings", "Shiftable Gear Couplings", "Special Gear Couplings"],
+      "series": ["BoWex", "BoWex AS", "BoWex Spezial-I", "BoWex SD", "BoWex SG", "BoWex SSR"],
+      "industries": ["Машиностроение", "Приводная техника"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.ktr.com/de/en/products/bowex-curved-tooth-gear-couplings/"],
+      "sources": [
+        {"sourceId":"brand-bowex-ktr","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_PAGE","scope":"IDENTITY_PARENT_COUPLING_TYPES_AND_SERIES","url":"https://www.ktr.com/de/en/products/bowex-curved-tooth-gear-couplings/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "brabender",
+      "officialName": "Brabender",
+      "displayName": "Brabender",
+      "aliases": ["BRABENDER", "Brabender by Anton Paar"],
+      "formerNames": ["Brabender GmbH & Co. KG"],
+      "officialWebsite": "https://www.brabender.com/",
+      "officialDomains": ["brabender.com"],
+      "country": "Germany",
+      "headquarters": "Duisburg, Germany",
+      "foundedYear": 1923,
+      "parentCompany": "Anton Paar",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Brabender is an Anton Paar brand of laboratory measurement and process equipment. Its instruments support material testing and formulation work in food, feed, plastics, rubber and related applications, including rheometry, extrusion, viscosity and moisture analysis.",
+      "fullDescription": [
+        "Brabender is a laboratory and process-engineering equipment brand within Anton Paar. The manufacturer-owned brand site states that the Duisburg business was founded in 1923 and now operates as Anton Paar TorqueTec while Brabender instruments continue under the established product name.",
+        "The range includes flour and dough analysers, torque rheometers, laboratory and pilot extruders, viscometers, oil-absorption instruments and moisture analysers. Named systems include FarinoGraph, MetaStation, TwinLab, ViscoQuick, AbsorptoMeter, Viscograph-E, Amylograph-E, Aquatrac-V and MetaBridge software. A Ventrovia request can specify the material, test method, process scale and required instrument configuration."
+      ],
+      "productCategories": ["Лабораторные анализаторы", "Реометры", "Лабораторные экструдеры", "Вискозиметры", "Анализаторы влажности", "Оборудование контроля качества сырья"],
+      "productFamilies": ["Flour and Dough Analysis", "Torque Rheometry", "Laboratory Extrusion", "Viscosity Analysis", "Moisture Analysis", "Laboratory Software"],
+      "series": ["FarinoGraph", "MetaStation", "TwinLab", "ViscoQuick", "AbsorptoMeter", "Viscograph-E", "Amylograph-E", "Aquatrac-V", "MetaBridge"],
+      "industries": ["Пищевая промышленность", "Производство кормов", "Полимерная промышленность", "Резинотехническая промышленность", "Исследования и разработка"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.brabender.com/"],
+      "sources": [
+        {"sourceId":"brand-brabender-anton-paar","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"IDENTITY_PARENT_FOUNDING_LOCATION_PRODUCTS_AND_APPLICATIONS","url":"https://www.brabender.com/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "breco",
+      "officialName": "BRECO Antriebstechnik Breher GmbH & Co. KG",
+      "displayName": "BRECO",
+      "aliases": ["BRECO", "BRECO Antriebstechnik"],
+      "formerNames": [],
+      "officialWebsite": "https://www.breco.de/en",
+      "officialDomains": ["breco.de"],
+      "country": "Germany",
+      "headquarters": "Porta Westfalica, Germany",
+      "foundedYear": 1967,
+      "parentCompany": null,
+      "shortDescription": "BRECO manufactures polyurethane timing belts, flat belts and matching drive components. Its product system covers open-length and endless belts, synchronising pulleys, shafts, tensioners, clamp plates and application-specific belt processing.",
+      "fullDescription": [
+        "BRECO Antriebstechnik Breher GmbH & Co. KG is a German manufacturer of polyurethane belt-drive technology based in Porta Westfalica. The official company history begins in 1967 and documents the development of open-length BRECO belts and endless BRECOFLEX belts.",
+        "The current range includes timing belts for linear, conveying and power-transmission duties, flat belts, synchronising pulleys and shafts, tensioners, clamp plates and processed or coated belt variants. Named families include BRECOclassic, BRECObasic, BRECOmove, BRECOFLEXmove, BRECOprotect, BRECOroll, BRECOvacuum and the ATN system. Buyers can specify pitch, width, length, tensile member, coating, profile and drive duty."
+      ],
+      "productCategories": ["Полиуретановые зубчатые ремни", "Плоские ремни", "Зубчатые шкивы", "Натяжители", "Компоненты ременных передач"],
+      "productFamilies": ["BRECO Timing Belts", "BRECOFLEX Timing Belts", "Flat Belts", "Synchronising Pulleys", "Tensioners", "Processed and Coated Belts"],
+      "series": ["BRECOclassic", "BRECObasic", "BRECOmove", "BRECOFLEXmove", "BRECOprotect", "BRECOroll", "BRECOvacuum", "BRECO ATN"],
+      "industries": ["Машиностроение", "Промышленная автоматизация", "Конвейерная техника", "Упаковочная промышленность"],
+      "officialCatalogs": ["https://www.breco.de/storage/file/breco/76/cms_download_file"],
+      "documentationSources": ["https://www.breco.de/en"],
+      "sources": [
+        {"sourceId":"brand-breco-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_HISTORY","url":"https://www.breco.de/en","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-breco-catalog","tier":"A","type":"OFFICIAL_PRODUCT_DOCUMENT","scope":"BELT_FAMILIES_MATERIALS_AND_APPLICATIONS","url":"https://www.breco.de/storage/file/breco/76/cms_download_file","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "brecoflex",
+      "officialName": "BRECOflex CO., L.L.C.",
+      "displayName": "BRECOflex",
+      "aliases": ["BRECOFLEX", "BRECOflex"],
+      "formerNames": [],
+      "officialWebsite": "https://www.brecoflex.com/",
+      "officialDomains": ["brecoflex.com", "breco.de"],
+      "country": "United States",
+      "headquarters": "Eatontown, New Jersey, United States",
+      "foundedYear": 1989,
+      "parentCompany": "BRECO Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "BRECOflex manufactures polyurethane timing belts, pulleys and drive components in the United States. Its range supports linear motion, conveying and power transmission with open-ended, welded and truly endless belt constructions.",
+      "fullDescription": [
+        "BRECOflex CO., L.L.C. is a US manufacturer of polyurethane timing belts and precision drive components based in Eatontown, New Jersey. Its official company profile records its founding in 1989, while BRECO identifies it as a member of the BRECO Group.",
+        "The portfolio includes timing belts, timing pulleys, flat belts, backing materials, field connections, clamps, tensioners, idlers, profile moulds and accessories. Belt families include AT, T, ATL, ATN, Move, BRECOprotect, self-tracking and double-sided variants for linear drives, conveyors and power transmission. A Ventrovia request can specify tooth profile, pitch, belt construction, width, length, pulley and application requirements."
+      ],
+      "productCategories": ["Полиуретановые зубчатые ремни", "Зубчатые шкивы", "Плоские ремни", "Натяжители", "Компоненты линейных приводов"],
+      "productFamilies": ["Timing Belts", "Timing Pulleys", "Flat Belts", "Backings", "Field Connections", "Clamps and Tensioning Clamps", "Tensioners and Idlers"],
+      "series": ["AT Series", "T Series", "ATL Series", "ATN Series", "Move Series", "BRECOprotect", "Redflex Gen III", "Self-Tracking Series"],
+      "industries": ["Промышленная автоматизация", "Робототехника", "Пищевая промышленность", "Упаковочная промышленность", "Медицинская техника", "Внутризаводская логистика"],
+      "officialCatalogs": ["https://www.brecoflex.com/support-resources-category/catalogs"],
+      "documentationSources": ["https://www.brecoflex.com/products"],
+      "sources": [
+        {"sourceId":"brand-brecoflex-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_MANUFACTURING_AND_PRODUCT_SCOPE","url":"https://www.brecoflex.com/about/company-profile","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-brecoflex-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_APPLICATIONS_AND_SERIES","url":"https://www.brecoflex.com/products","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-breco-group","tier":"A","type":"OFFICIAL_PARENT_GROUP_PAGE","scope":"GROUP_RELATION_AND_LOCATION","url":"https://www.breco.de/de/breco/breco-gruppe","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    }
+  ]
+}

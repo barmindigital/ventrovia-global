@@ -1,0 +1,437 @@
+{
+  "checkedAt": "2026-08-20",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "a-flow",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "A-FLOW/Aflow identifies unrelated active manufacturer-owned industrial businesses, including AlsaceFlow instrumentation and valve products and Aflow Group industrial valves; the raw record does not safely select one canonical entity."
+    },
+    {
+      "manufacturerId": "aams",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "AAMS is used by multiple active manufacturer-owned businesses in unrelated sectors, including metal fabrication, medical aesthetics, industrial research and agricultural test equipment; the acronym alone cannot resolve the intended entity."
+    },
+    {
+      "manufacturerId": "abacus",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "ABACUS identifies several unrelated active industrial manufacturers, including lighting, semiconductor and automation businesses; no independent record evidence distinguishes the intended manufacturer."
+    },
+    {
+      "manufacturerId": "abtech",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "ABTECH is used by unrelated active industrial businesses, including a manufacturer of hazardous-area electrical equipment and a construction-technology supplier; the source record does not establish one identity with near-zero conflict risk."
+    },
+    {
+      "manufacturerId": "ace",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "ACE is a highly ambiguous industrial name used by multiple active manufacturers. Although ACE Controls publishes official damping-technology products, the raw ACE record contains no evidence that safely distinguishes that company from other manufacturers."
+    },
+    {
+      "manufacturerId": "acme",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "ACME PUMPS matches at least two unrelated active manufacturer-owned pump businesses in Singapore and Italy with different portfolios; the raw name does not safely determine which entity is intended."
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "3nine",
+      "officialName": "3nine AB",
+      "displayName": "3nine",
+      "aliases": ["3NINE", "3nine AB"],
+      "formerNames": [],
+      "officialWebsite": "https://www.3nine.com/",
+      "officialDomains": ["3nine.com"],
+      "country": "Sweden",
+      "headquarters": "Nacka Strand, Sweden",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "3nine develops oil-mist separation equipment for industrial machining environments. Its portfolio includes GREEN LINE and BLUE LINE oil mist eliminators, application-specific separator models and oil skimmers.",
+      "fullDescription": [
+        "3nine AB is a Swedish manufacturer of equipment for removing oil mist from industrial air. The company bases its separator technology on centrifugal disc-stack separation and publishes equipment for machine-tool and process applications where airborne oil or coolant mist must be captured.",
+        "The official range is organised into GREEN LINE and BLUE LINE oil mist eliminators, supported by multiple capacity-specific models and oil-skimming equipment. Named separator families include Alma, Nova, Anna, Lova, Nina, Lina, Clara, Emma and Petra. A Ventrovia sourcing request can specify the machine type, process fluid, required airflow and installation constraints."
+      ],
+      "productCategories": ["Маслоуловители", "Сепараторы масляного тумана", "Промышленная фильтрация воздуха"],
+      "productFamilies": ["GREEN LINE Oil Mist Eliminators", "BLUE LINE Oil Mist Eliminators", "Oil Skimmers"],
+      "series": ["Alma 500", "Nova 300", "Anna 600", "Lova 900", "Nina 1200", "Lina 500", "Clara 1000", "Emma 2500", "Petra 1000"],
+      "industries": ["Металлообработка", "Станкостроение"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.3nine.com/technology/"],
+      "sources": [
+        {"sourceId":"brand-3nine-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_LOCATION_AND_SPECIALIZATION","url":"https://www.3nine.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-3nine-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_LINES_MODELS_AND_APPLICATIONS","url":"https://www.3nine.com/product-category/oil-mist-eliminators/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-3nine-technology","tier":"A","type":"OFFICIAL_TECHNOLOGY_PAGE","scope":"SEPARATION_TECHNOLOGY","url":"https://www.3nine.com/technology/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "a-due",
+      "officialName": "A Due S.p.A.",
+      "displayName": "A Due",
+      "aliases": ["A DUE", "ADUE", "A Due S.p.A."],
+      "formerNames": [],
+      "officialWebsite": "https://www.adue.it/",
+      "officialDomains": ["adue.it"],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1967,
+      "parentCompany": null,
+      "shortDescription": "A Due designs and manufactures automated process systems for beverage preparation and water treatment. Its solutions cover ingredient handling, syrup preparation, blending, carbonation, pasteurisation and complete process rooms.",
+      "fullDescription": [
+        "A Due S.p.A. is an Italian process-equipment company whose official history begins in 1967. It engineers automated plants for preparing beverages and treating the water used in beverage production.",
+        "The manufacturer publishes solutions for ingredient handling, sugar and syrup preparation, blending, carbonation, deaeration, stabilisation and pasteurisation. Its equipment is applied to carbonated and still soft drinks, juices, functional beverages and non-alcoholic beer. Named systems include EASY.Room process rooms, BlokMixS mixing units and EASY.Therm thermal-treatment equipment. Buyers can define the beverage type, process steps, output and automation requirements in an RFQ to Ventrovia."
+      ],
+      "productCategories": ["Оборудование для производства напитков", "Системы водоподготовки", "Смесительные установки", "Пастеризационное оборудование"],
+      "productFamilies": ["Beverage Preparation Systems", "Water Treatment Plants", "Syrup Preparation Systems", "Blending and Carbonation Systems", "Pasteurisation Systems"],
+      "series": ["EASY.Room", "BlokMixS", "EASY.Therm"],
+      "industries": ["Производство напитков", "Пищевая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.adue.it/oursolutions/beverage-preparation/"],
+      "sources": [
+        {"sourceId":"brand-adue-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_FOUNDING_AND_SPECIALIZATION","url":"https://www.adue.it/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-adue-beverage","tier":"A","type":"OFFICIAL_SOLUTION_PAGE","scope":"PROCESS_SYSTEMS_PRODUCT_GROUPS_AND_APPLICATIONS","url":"https://www.adue.it/oursolutions/beverage-preparation/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "a-ryung",
+      "officialName": "Aryung Machinery Ind. Co., Ltd.",
+      "displayName": "Aryung",
+      "aliases": ["A RYUNG", "ARYUNG", "Aryung Pump"],
+      "formerNames": [],
+      "officialWebsite": "https://www.aryung-pump.com/",
+      "officialDomains": ["aryung-pump.com", "aryung.co.kr"],
+      "country": "South Korea",
+      "headquarters": null,
+      "foundedYear": 1976,
+      "parentCompany": null,
+      "shortDescription": "Aryung Machinery manufactures pumps and lubrication equipment for machine tools and industrial systems. The official range includes coolant pumps, trochoid pumps, oil and grease lubrication pumps, and high-pressure coolant systems.",
+      "fullDescription": [
+        "Aryung Machinery Ind. Co., Ltd. is a South Korean manufacturer of fluid-handling and lubrication equipment. Its official corporate information records the business from 1976 and presents a portfolio focused on machine-tool and industrial duties.",
+        "The product directory covers coolant pumps, trochoid pumps, oil-lubrication pumps, grease-lubrication pumps, high-pressure coolant systems and complete coolant systems. Accessories and supporting components are also listed for system integration. A Ventrovia enquiry can identify the pump duty, fluid, required pressure and flow, mounting arrangement and lubrication or coolant-system requirements."
+      ],
+      "productCategories": ["Насосы охлаждающей жидкости", "Трохоидальные насосы", "Системы масляной смазки", "Системы консистентной смазки", "Системы подачи СОЖ высокого давления"],
+      "productFamilies": ["Coolant Pumps", "T-Rotor Pumps", "Oil Lubrication Pumps", "Grease Lubrication Pumps", "High Pressure Coolant Systems", "Coolant Systems"],
+      "series": [],
+      "industries": ["Станкостроение", "Машиностроение"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.aryung-pump.com/web/product?lang=en_US"],
+      "sources": [
+        {"sourceId":"brand-aryung-corporate","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_COUNTRY_AND_FOUNDING","url":"https://www.aryung.co.kr/intro/intro_1.php","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-aryung-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_INDUSTRIAL_SCOPE","url":"https://www.aryung-pump.com/web/product?lang=en_US","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "a-uno-tec",
+      "officialName": "A UNO TEC S.r.l.",
+      "displayName": "A UNO TEC",
+      "aliases": ["A UNO TEC", "Aunotec"],
+      "formerNames": [],
+      "officialWebsite": "https://www.aunotec.it/en-gb?id=1",
+      "officialDomains": ["aunotec.it"],
+      "country": "Italy",
+      "headquarters": "Mirandola, Italy",
+      "foundedYear": null,
+      "parentCompany": "HDQ Group",
+      "shortDescription": "A UNO TEC designs and manufactures automated assembly equipment for plastic medical disposables. Its systems support clean-room production of infusion, dialysis and respiratory circuit components, together with cutting, coiling and banding operations.",
+      "fullDescription": [
+        "A UNO TEC S.r.l. is an Italian automation company based in Mirandola and presented by its official site as part of HDQ Group. The company designs and manufactures automatic machines for assembling plastic medical disposables in controlled clean-room environments.",
+        "Its application scope includes infusion and administration sets, dialysis and heparin lines, inhalation circuits and related medical tubing assemblies. The Bandy equipment line is used for cutting, coiling and banding flexible products, while other official solutions address automated assembly and medical-drape cutting. Ventrovia can structure an equipment request around the disposable product, assembly stages, cleanliness requirement and production rate."
+      ],
+      "productCategories": ["Автоматические сборочные машины", "Оборудование для медицинских расходных материалов", "Оборудование для резки и намотки трубок"],
+      "productFamilies": ["Medical Disposable Assembly Machines", "Bandy Cutting, Coiling and Banding Systems", "Medical Drape Cutting Systems"],
+      "series": ["Bandy"],
+      "industries": ["Медицинская промышленность", "Автоматизация производства"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.aunotec.it/en-gb/bandy"],
+      "sources": [
+        {"sourceId":"brand-aunotec-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_LOCATION_GROUP_AND_SPECIALIZATION","url":"https://www.aunotec.it/en-gb?id=1","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-aunotec-bandy","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"CUTTING_COILING_AND_BANDING_SYSTEMS","url":"https://www.aunotec.it/en-gb/bandy","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "a-r-armaturen",
+      "officialName": "A+R Armaturen GmbH",
+      "displayName": "A+R Armaturen",
+      "aliases": ["A+R ARMATUREN", "A&R Armaturen"],
+      "formerNames": [],
+      "officialWebsite": "https://ar-armaturen.com/en/",
+      "officialDomains": ["ar-armaturen.com"],
+      "country": "Germany",
+      "headquarters": "Bad Salzuflen, Germany",
+      "foundedYear": 1969,
+      "parentCompany": null,
+      "shortDescription": "A+R Armaturen manufactures industrial ball valves and actuator packages. The official portfolio covers metal-seated and soft-seated valves, standard service configurations, pneumatic actuators and valve accessories.",
+      "fullDescription": [
+        "A+R Armaturen GmbH is a German industrial-valve manufacturer based in Bad Salzuflen. Its official site identifies the company as a manufacturer since 1969 and focuses the portfolio on ball-valve technology for demanding process duties.",
+        "The product structure includes metal-seated ball valves, soft-seated ball valves and standard or commodity configurations. Pneumatic actuators and accessories support automated valve assemblies and application-specific packages. Buyers can submit the medium, pressure class, temperature, connection, seat construction and actuation requirements to Ventrovia for sourcing review."
+      ],
+      "productCategories": ["Шаровые краны", "Пневматические приводы", "Промышленная трубопроводная арматура"],
+      "productFamilies": ["Metal-Seated Ball Valves", "Soft-Seated Ball Valves", "Commodity Ball Valves", "Pneumatic Actuators", "Valve Accessories"],
+      "series": [],
+      "industries": ["Химическая промышленность", "Промышленные технологические процессы"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://ar-armaturen.com/en/products/"],
+      "sources": [
+        {"sourceId":"brand-ar-armaturen-home","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_AND_MANUFACTURING","url":"https://ar-armaturen.com/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-ar-armaturen-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"VALVE_TYPES_ACTUATORS_AND_ACCESSORIES","url":"https://ar-armaturen.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "a-safe",
+      "officialName": "A-SAFE",
+      "displayName": "A-SAFE",
+      "aliases": ["A-SAFE", "ASAFE"],
+      "formerNames": [],
+      "officialWebsite": "https://www.asafe.com/",
+      "officialDomains": ["asafe.com"],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": 1984,
+      "parentCompany": null,
+      "shortDescription": "A-SAFE manufactures polymer safety barriers and protection systems for industrial workplaces. Its range includes pedestrian and traffic barriers, bollards, gates, rack protection, wall and column guards, and warehouse safety accessories.",
+      "fullDescription": [
+        "A-SAFE develops polymer safety and segregation systems for industrial, logistics and warehouse environments. Official company material traces the business to 1984 and presents impact-protection products designed around pedestrian routes, vehicle traffic and infrastructure protection.",
+        "The portfolio includes pedestrian and traffic guardrails, bollards, gates, wall and column guards, rack protection, loading-dock protection, height restrictors and safety signage. Named families include iFlex, eFlex, mFlex, Atlas, ForkGuard, RackGuard and FlexiShield. A Ventrovia request can specify the operating area, traffic type, impact risk, layout and required barrier configuration."
+      ],
+      "productCategories": ["Защитные барьеры", "Промышленные ограждения", "Защита стеллажей", "Защита складской инфраструктуры"],
+      "productFamilies": ["Pedestrian Barriers", "Traffic Barriers", "Bollards", "Safety Gates", "Racking Protection", "Wall and Column Protection", "Dock Protection"],
+      "series": ["iFlex", "eFlex", "mFlex", "Atlas", "ForkGuard", "RackGuard", "FlexiShield"],
+      "industries": ["Складская логистика", "Промышленное производство", "Дистрибуционные центры"],
+      "officialCatalogs": ["https://www.asafe.com/media/7132/asafe_airport_brochure.pdf"],
+      "documentationSources": ["https://www.asafe.com/en-us/products/"],
+      "sources": [
+        {"sourceId":"brand-asafe-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"IDENTITY_PRODUCT_GROUPS_AND_SERIES","url":"https://www.asafe.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-asafe-brochure","tier":"A","type":"OFFICIAL_CORPORATE_BROCHURE","scope":"FOUNDING_AND_APPLICATION_SCOPE","url":"https://www.asafe.com/media/7132/asafe_airport_brochure.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "ari",
+      "officialName": "A.R.I.",
+      "displayName": "A.R.I.",
+      "aliases": ["A.R.I.", "ARI", "A.R.I. Optimal Flow Solutions"],
+      "formerNames": ["A.R.I. Optimal Flow Solutions"],
+      "officialWebsite": "https://www.aquestia.com/",
+      "officialDomains": ["aquestia.com"],
+      "country": "Israel",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Aquestia",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "A.R.I. is an Aquestia brand focused on air-management equipment for water and wastewater networks. Its core range includes automatic, air-and-vacuum and combination air valves, supported by valve-sizing and surge-analysis tools.",
+      "fullDescription": [
+        "A.R.I. is a pipeline air-management brand within Aquestia. Aquestia's official corporate history identifies A.R.I. Optimal Flow Solutions as one of the businesses combined into the group in 2020, while the current product structure retains A.R.I. valve families and engineering tools.",
+        "The verified scope centres on automatic air-release valves, kinetic air-and-vacuum valves and combination air valves for water and wastewater systems. Published families include Barak D-040, D-020, D-025, D-060 and D-070 products, together with ARIWizard and ARIavCAD tools for product selection and system analysis. Ventrovia enquiries can specify pipeline duty, medium, diameter, pressure and required air-management function."
+      ],
+      "productCategories": ["Воздушные клапаны", "Вакуумные клапаны", "Комбинированные воздушные клапаны", "Арматура для водоснабжения"],
+      "productFamilies": ["Automatic Air Valves", "Air and Vacuum Valves", "Combination Air Valves", "Air Valve Sizing and Analysis Tools"],
+      "series": ["D-040 Barak", "D-020", "D-025", "D-060", "D-070", "ARIWizard", "ARIavCAD"],
+      "industries": ["Водоснабжение", "Водоотведение", "Ирригация"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.aquestia.com/product-categories/air-valves/"],
+      "sources": [
+        {"sourceId":"brand-ari-aquestia-about","tier":"A","type":"OFFICIAL_CORPORATE_BRAND_PAGE","scope":"IDENTITY_GROUP_RELATION_AND_HISTORY","url":"https://www.aquestia.com/about/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-ari-air-valves","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"AIR_VALVE_TYPES_FAMILIES_AND_TOOLS","url":"https://www.aquestia.com/product-categories/air-valves/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "a-u-k-muller-gmbh",
+      "officialName": "A. u. K. Müller GmbH & Co. KG",
+      "displayName": "A. u. K. Müller",
+      "aliases": ["A.U.K. MULLER", "A.u.K. Müller", "A. u. K. Mueller"],
+      "formerNames": [],
+      "officialWebsite": "https://www.akmueller.de/en/",
+      "officialDomains": ["akmueller.de"],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "A. u. K. Müller develops and manufactures valves, pumps and fluid-control components. Its portfolio includes solenoid and control valves, customer-specific valve systems, a magnetic-drive pump, sensors and control electronics.",
+      "fullDescription": [
+        "A. u. K. Müller GmbH & Co. KG is a German manufacturer of fluid-control equipment. The official site describes more than seventy years of valve and system development without requiring an inferred founding year.",
+        "The product scope covers solenoid valves, control valves, special valves and engineered valve systems. A magnetic-drive pump, sensors and control electronics complement the fluid-control range. Official application areas include sanitary and industrial equipment, vending and food systems, agricultural, medical and environmental technology. Buyers can provide medium, pressure, flow, electrical and installation requirements in a Ventrovia sourcing request."
+      ],
+      "productCategories": ["Электромагнитные клапаны", "Регулирующие клапаны", "Специальные клапаны", "Насосы с магнитной муфтой", "Датчики и электроника"],
+      "productFamilies": ["Solenoid Valves", "Control Valves", "Special Valves and Systems", "Magnetic Drive Pump", "Sensors and Electronics"],
+      "series": [],
+      "industries": ["Сантехническое оборудование", "Пищевая промышленность", "Медицинская техника", "Промышленное оборудование", "Экологическая техника"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.akmueller.de/en/"],
+      "sources": [
+        {"sourceId":"brand-auk-mueller-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_EXPERIENCE_PRODUCTS_AND_APPLICATIONS","url":"https://www.akmueller.de/en/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "aaf-international",
+      "officialName": "American Air Filter Company, Inc.",
+      "displayName": "AAF International",
+      "aliases": ["AAF INTERNATIONAL", "AAF", "American Air Filter"],
+      "formerNames": [],
+      "officialWebsite": "https://www.aafintl.com/",
+      "officialDomains": ["aafintl.com"],
+      "country": "United States",
+      "headquarters": "Louisville, Kentucky, United States",
+      "foundedYear": 1921,
+      "parentCompany": "Daikin Industries, Ltd.",
+      "shortDescription": "AAF International manufactures air-filtration and air-pollution-control equipment. Its portfolio spans HVAC and high-purity filters, gas-phase filtration, dust collection, residential filtration and systems for energy and power-generation applications.",
+      "fullDescription": [
+        "AAF International is the operating brand of American Air Filter Company, Inc., an air-filtration manufacturer founded in Louisville in 1921. The official company site identifies AAF as part of Daikin and presents a broad filtration portfolio for buildings, industrial processes and critical environments.",
+        "Product groups include commercial and industrial HVAC filters, high-purity and HEPA filtration, gas-phase filtration, dust collectors and residential air filters. Dedicated AAF businesses also supply filtration for gas turbines, engines, nuclear facilities and other energy applications. A Ventrovia request can specify airflow, contaminant, efficiency class, housing dimensions, environment and the required filtration or dust-control system."
+      ],
+      "productCategories": ["Воздушные фильтры", "HEPA-фильтры", "Газофазная фильтрация", "Пылеулавливающие установки", "Фильтрация для энергетического оборудования"],
+      "productFamilies": ["Commercial and Industrial Air Filters", "High Purity Products", "Gas Phase Filtration", "Dust Collection Systems", "Residential Air Filters", "Power and Industrial Filtration"],
+      "series": [],
+      "industries": ["Системы вентиляции и кондиционирования", "Чистые помещения", "Промышленное производство", "Энергетика", "Нефтегазовая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.aafintl.com/us/products"],
+      "sources": [
+        {"sourceId":"brand-aaf-home","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_AND_PARENT","url":"https://www.aafintl.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-aaf-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"FILTRATION_PRODUCT_GROUPS","url":"https://www.aafintl.com/us/products","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-aaf-business","tier":"A","type":"OFFICIAL_CORPORATE_PAGE","scope":"BUSINESS_UNITS_AND_APPLICATION_SCOPE","url":"https://www.aafintl.com/en/industry/about-us/the-wider-aaf-business/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "aasted-mikroverk",
+      "officialName": "Aasted ApS",
+      "displayName": "Aasted",
+      "aliases": ["AASTED MIKROVERK", "Aasted-Mikroverk", "Aasted"],
+      "formerNames": ["Aasted-Mikroverk"],
+      "officialWebsite": "https://aasted.eu/",
+      "officialDomains": ["aasted.eu"],
+      "country": "Denmark",
+      "headquarters": null,
+      "foundedYear": 1917,
+      "parentCompany": null,
+      "statusModifier": "LEGACY_BRAND",
+      "shortDescription": "Aasted develops processing and production equipment for chocolate, confectionery and bakery applications. The current portfolio includes tempering, moulding, depositing, enrobing, extruding, baking and cooling systems, while Aasted-Mikroverk is retained as a historical name.",
+      "fullDescription": [
+        "Aasted ApS is a Danish food-processing equipment manufacturer whose official history begins in 1917. Aasted-Mikroverk appears in the company's own historical product documentation and is treated here as a former name linked to the current Aasted identity.",
+        "The official portfolio covers chocolate tempering and moulding, confectionery and bar lines, bakery systems, depositing, enrobing, extruding, baking and cooling. Named equipment families include StellaNova tempering machines, Aasted Jensen lines, Aasted Alice depositors and Nielsen enrobers. A Ventrovia request can define the confectionery or bakery process, product format, output and required line modules."
+      ],
+      "productCategories": ["Оборудование для производства шоколада", "Кондитерское оборудование", "Хлебопекарное оборудование", "Темперирующие машины", "Формовочные и глазировочные линии"],
+      "productFamilies": ["Tempering Systems", "Moulding Lines", "Depositing Systems", "Enrobing Systems", "Extruding Systems", "Bakery Lines", "Cooling Systems"],
+      "series": ["StellaNova Temper", "Aasted Jensen Line", "Aasted Alice II", "Nielsen Enrobers"],
+      "industries": ["Кондитерская промышленность", "Производство шоколада", "Хлебопекарная промышленность"],
+      "officialCatalogs": ["https://aasted.eu/wp-content/uploads/2024/09/Alice_Depositor_and_Extruder.pdf"],
+      "documentationSources": ["https://aasted.eu/products-services/"],
+      "sources": [
+        {"sourceId":"brand-aasted-about","tier":"A","type":"ABOUT_PAGE","scope":"CURRENT_IDENTITY_FOUNDING_AND_HISTORY","url":"https://aasted.eu/about/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-aasted-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PROCESS_EQUIPMENT_GROUPS_AND_FAMILIES","url":"https://aasted.eu/products-services/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-aasted-mikroverk-document","tier":"A","type":"OFFICIAL_PRODUCT_DOCUMENT","scope":"FORMER_NAME_AND_DEPOSITOR_FAMILY","url":"https://aasted.eu/wp-content/uploads/2024/09/Alice_Depositor_and_Extruder.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "abac",
+      "officialName": "ABAC Air Compressors",
+      "displayName": "ABAC",
+      "aliases": ["ABAC", "ABAC Air Compressors"],
+      "formerNames": [],
+      "officialWebsite": "https://www.abacaircompressors.com/en-international/",
+      "officialDomains": ["abacaircompressors.com", "atlascopcogroup.com"],
+      "country": "Italy",
+      "headquarters": "Robassomero, Turin, Italy",
+      "foundedYear": 1981,
+      "parentCompany": "Atlas Copco Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "ABAC is an Atlas Copco Group brand of compressed-air equipment. Its range includes piston and rotary screw compressors, oil-free compressors, air treatment, air tools, compressed-air distribution and service parts.",
+      "fullDescription": [
+        "ABAC Air Compressors is an Italian compressed-air equipment brand established in 1981. Atlas Copco Group's official brand profile states that ABAC joined the group in 2007 and identifies its base in Robassomero near Turin.",
+        "The ABAC product directory covers piston compressors, rotary screw compressors and oil-free compressor technologies. Air-treatment equipment, air tools, air-distribution systems, spare parts and service products support complete compressed-air installations. Buyers can submit the required pressure, flow, duty cycle, air-quality level and installation requirements to Ventrovia for sourcing review."
+      ],
+      "productCategories": ["Поршневые компрессоры", "Винтовые компрессоры", "Безмасляные компрессоры", "Оборудование подготовки сжатого воздуха", "Пневмоинструмент"],
+      "productFamilies": ["Piston Compressors", "Rotary Screw Compressors", "Oil-Free Compressors", "Air Treatment", "Air Tools", "Air Distribution", "Parts and Service"],
+      "series": [],
+      "industries": ["Промышленное производство", "Автосервис", "Строительство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.abacaircompressors.com/en-international/products"],
+      "sources": [
+        {"sourceId":"brand-abac-atlas-copco","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_AND_GROUP_RELATION","url":"https://www.atlascopcogroup.com/en/about-us/brands/abac-air-compressors","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-abac-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"COMPRESSOR_TYPES_AIR_TREATMENT_AND_TOOLS","url":"https://www.abacaircompressors.com/en-international/products","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "abel",
+      "officialName": "ABEL GmbH",
+      "displayName": "ABEL",
+      "aliases": ["ABEL", "ABEL Pumps"],
+      "formerNames": [],
+      "officialWebsite": "https://abelpumps.com/en/",
+      "officialDomains": ["abelpumps.com", "abelpump.com"],
+      "country": "Germany",
+      "headquarters": "Büchen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ABEL manufactures reciprocating positive-displacement pumps for abrasive, corrosive and solids-bearing media. Its range includes diaphragm, solids-handling and high-pressure plunger pumps for process and transfer duties.",
+      "fullDescription": [
+        "ABEL GmbH is a German manufacturer of reciprocating positive-displacement pumps based in Büchen. The official portfolio is organised around diaphragm and plunger pump technologies for demanding industrial media and operating conditions.",
+        "Product families include mechanical and hydraulically driven diaphragm pumps, solids-handling pumps and high-pressure plunger pumps. Published series include CM, HM, HMT, SH, HP, HPT, HMQ and EM. Applications are documented across mining and minerals, wastewater, cement, power, oil and gas, ceramics, chemical processing, food production and marine operations. A Ventrovia RFQ can specify medium properties, solids content, flow, discharge pressure and material requirements."
+      ],
+      "productCategories": ["Мембранные насосы", "Плунжерные насосы высокого давления", "Насосы для абразивных сред", "Насосы для сред с твердыми включениями"],
+      "productFamilies": ["Mechanical Diaphragm Pumps", "Hydraulic Diaphragm Pumps", "Solids-Handling Pumps", "High-Pressure Plunger Pumps"],
+      "series": ["CM", "HM", "HMT", "SH", "HP", "HPT", "HMQ", "EM"],
+      "industries": ["Горнодобывающая промышленность", "Водоотведение", "Цементная промышленность", "Энергетика", "Нефтегазовая промышленность", "Химическая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.abelpump.com/products-en"],
+      "sources": [
+        {"sourceId":"brand-abel-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_LOCATION_TECHNOLOGY_AND_APPLICATIONS","url":"https://abelpumps.com/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-abel-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PUMP_FAMILIES_SERIES_AND_APPLICATIONS","url":"https://www.abelpump.com/products-en","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "abus-levage",
+      "officialName": "ABUS Levage France S.A.S.",
+      "displayName": "ABUS Levage",
+      "aliases": ["ABUS LEVAGE", "ABUS Crane Systems"],
+      "formerNames": [],
+      "officialWebsite": "https://www.abus-levage.fr/",
+      "officialDomains": ["abus-levage.fr"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "ABUS Kransysteme GmbH",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "ABUS Levage supplies ABUS crane and lifting systems in France. The official range includes overhead travelling cranes, jib cranes, light crane systems, portable gantries, wire-rope hoists and electric chain hoists.",
+      "fullDescription": [
+        "ABUS Levage France S.A.S. is the French ABUS organisation for crane and lifting equipment. Its manufacturer-owned site presents the ABUS lifting portfolio and links the operation to ABUS Kransysteme.",
+        "The range covers overhead travelling cranes, wall and pillar jib cranes, HB light crane systems and lightweight mobile gantries. Electric wire-rope hoists and ABUCompact chain hoists provide lifting components for individual machines and complete crane systems, with accessories available for system configuration. A Ventrovia request can specify load capacity, span, lifting height, duty class and installation conditions."
+      ],
+      "productCategories": ["Мостовые краны", "Консольные краны", "Легкие крановые системы", "Канатные тали", "Цепные электротали"],
+      "productFamilies": ["Overhead Travelling Cranes", "Jib Cranes", "HB Light Crane Systems", "Lightweight Gantries", "Electric Wire Rope Hoists", "ABUCompact Electric Chain Hoists"],
+      "series": ["HB", "ABUCompact"],
+      "industries": ["Промышленное производство", "Складская логистика", "Грузоподъемная техника"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.abus-levage.fr/appareils-de-levage"],
+      "sources": [
+        {"sourceId":"brand-abus-levage-home","tier":"A","type":"OFFICIAL_CORPORATE_PAGE","scope":"IDENTITY_AND_GROUP_RELATION","url":"https://www.abus-levage.fr/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-abus-levage-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CRANE_HOIST_AND_LIFTING_SYSTEM_GROUPS","url":"https://www.abus-levage.fr/appareils-de-levage","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "acl",
+      "officialName": "ACL Manufacturing",
+      "displayName": "ACL Manufacturing",
+      "aliases": ["ACL MANUFACTURING", "ACL"],
+      "formerNames": [],
+      "officialWebsite": "https://www.clearrushco.com/acl-manufacturing",
+      "officialDomains": ["clearrushco.com", "acl-combustion.com"],
+      "country": "Canada",
+      "headquarters": "Sundre, Alberta, Canada",
+      "foundedYear": 1991,
+      "parentCompany": "Clear Rush Co.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "ACL Manufacturing develops industrial burner and combustion-control equipment for the energy sector. Its range includes burner management systems, high-efficiency burners, flame arrestors, pilot assemblies, fuel trains and flare or incinerator ignition systems.",
+      "fullDescription": [
+        "ACL Manufacturing is a Canadian combustion-equipment business within Clear Rush Co. The manufacturer's official page records industrial burner-system activity since 1991 and locates the operation in Sundre, Alberta.",
+        "The portfolio includes burner management and combustion safety controllers, high-efficiency burner assemblies, flame arrestors, pilot assemblies, fuel-train packages and flare-stack or incinerator ignition systems. Named products include CSC200 and CSC400 controllers, ACL 1500 and M50 pilot assemblies, and ACL 3200 and 4000 ignition systems; 5100 and 5500 controllers are identified as legacy models. Buyers can submit the firing application, fuel, control, ignition and environmental requirements to Ventrovia for sourcing review."
+      ],
+      "productCategories": ["Системы управления горелками", "Промышленные горелки", "Огнепреградители", "Запальные устройства", "Газовые рампы"],
+      "productFamilies": ["Burner Management Systems", "High Efficiency Burners", "Flame Arrestors", "Pilot Assemblies", "Fuel Trains", "Flare and Incinerator Ignition Systems"],
+      "series": ["CSC200", "CSC400", "CSC400-FD", "IGN400-PM", "ACL 1500", "ACL M50", "ACL 3200", "ACL 4000", "ACL 5100", "ACL 5500"],
+      "industries": ["Нефтегазовая промышленность", "Энергетика", "Промышленные системы сжигания"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.clearrushco.com/acl-burnermanagementsystems", "https://www.clearrushco.com/acl-ignitionsystems"],
+      "sources": [
+        {"sourceId":"brand-acl-manufacturing","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"IDENTITY_PARENT_LOCATION_FOUNDING_AND_PRODUCT_GROUPS","url":"https://www.clearrushco.com/acl-manufacturing","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-acl-bms","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"BURNER_MANAGEMENT_SYSTEMS_AND_SERIES","url":"https://www.clearrushco.com/acl-burnermanagementsystems","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-acl-ignition","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"IGNITION_SYSTEMS_AND_SERIES","url":"https://www.clearrushco.com/acl-ignitionsystems","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
@@ -9,6 +9,12 @@ const check = process.argv.includes("--check");
 
 async function json(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
+}
+
+async function optionalJson(relativePath) {
+  return readFile(path.join(ROOT, relativePath), "utf8")
+    .then((value) => JSON.parse(value))
+    .catch(() => null);
 }
 
 const [identityIndex, knowledge, logos] = await Promise.all([
@@ -58,7 +64,7 @@ const safeCount = profiles.size;
 const weakCount = identityIndex.manufacturerCount - safeCount - reviewCount;
 const manifest = {
   version: 3,
-  checkedAt: "2026-08-19",
+  checkedAt: "2026-08-20",
   runtimeScope: "VENTROVIA_BRAND_ONLY",
   manufacturerCount: identityIndex.manufacturerCount,
   profileCount: safeCount,
@@ -197,7 +203,7 @@ function stableRank(value) {
   }
   return hash >>> 0;
 }
-const sampleSize = 250;
+const sampleSize = safeCount >= 650 ? 300 : 250;
 const safeSample = knowledge.profiles
   .map((profile) => profile.manufacturerId)
   .sort((left, right) => stableRank(left) - stableRank(right));
@@ -209,7 +215,7 @@ const weakSample = identityIndex.manufacturers
 const sampledIds = [...safeSample, ...weakSample].slice(0, sampleSize);
 const deterministicSample = {
   seed: "brand-sample-v3",
-  methodology: "All BRAND_SAFE pages first, followed by a deterministic cross-tier sample to 250 records.",
+  methodology: `All BRAND_SAFE pages first, followed by a deterministic cross-tier sample to ${sampleSize} records.`,
   coverage: {
     BRAND_SAFE: sampledIds.filter((manufacturerId) => profiles.has(manufacturerId)).length,
     BRAND_WEAK: sampledIds.filter((manufacturerId) => !profiles.has(manufacturerId) && !blocked.has(manufacturerId)).length,
@@ -230,7 +236,7 @@ const deterministicSample = {
 const reviewAfter = "2026-09-19";
 const sourceCache = {
   version: 1,
-  checkedAt: "2026-08-19",
+  checkedAt: "2026-08-20",
   positive: knowledge.profiles.flatMap((profile) =>
     profile.sources.map((source) => ({
       manufacturerId: profile.manufacturerId,
@@ -328,40 +334,112 @@ const internationalBrandSemanticMap = knowledge.profiles.map((profile) => ({
   },
 }));
 
-const categoryCounts = new Map();
+const categoryProfiles = new Map();
 for (const profile of knowledge.profiles) {
   for (const category of profile.productCategories) {
-    categoryCounts.set(category, (categoryCounts.get(category) ?? 0) + 1);
+    categoryProfiles.set(category, [...(categoryProfiles.get(category) ?? []), profile]);
   }
 }
 const categoryOpportunityReport = {
-  version: 1,
-  checkedAt: "2026-08-19",
+  version: 2,
+  checkedAt: "2026-08-20",
   scope: "REPORT_ONLY_NO_PUBLIC_CATEGORY_URLS",
   minimumRecommendedCoverage: 8,
-  categories: [...categoryCounts]
-    .map(([category, brandCount]) => ({
-      category,
-      brandCount,
-      recommendation:
-        brandCount >= 8
-          ? "CANDIDATE_FOR_EDITORIAL_REVIEW"
-          : "INSUFFICIENT_VERIFIED_COVERAGE",
-    }))
+  scoring: {
+    coverage: 40,
+    logoCoverage: 15,
+    fullContentCoverage: 15,
+    familyEvidenceCoverage: 15,
+    tierASourceCoverage: 15,
+  },
+  categories: [...categoryProfiles]
+    .map(([category, categoryBrands]) => {
+      const brandCount = categoryBrands.length;
+      const brandsWithLogo = categoryBrands.filter((profile) => publishableLogos.has(profile.manufacturerId)).length;
+      const brandsWithFullContent = categoryBrands.filter((profile) => profile.fullDescription.length).length;
+      const brandsWithFamilyEvidence = categoryBrands.filter(
+        (profile) => profile.productFamilies.length || profile.series.length,
+      ).length;
+      const brandsWithTierASource = categoryBrands.filter(
+        (profile) => profile.sources.some((source) => source.tier === "A"),
+      ).length;
+      const rate = (value) => (brandCount ? value / brandCount : 0);
+      const qualityScore = Math.round(
+        Math.min(40, (brandCount / 20) * 40)
+          + rate(brandsWithLogo) * 15
+          + rate(brandsWithFullContent) * 15
+          + rate(brandsWithFamilyEvidence) * 15
+          + rate(brandsWithTierASource) * 15,
+      );
+      return {
+        category,
+        brandCount,
+        brandsWithLogo,
+        brandsWithFullContent,
+        brandsWithFamilyEvidence,
+        brandsWithTierASource,
+        officialSourceRecords: categoryBrands.reduce((sum, profile) => sum + profile.sources.length, 0),
+        relatedLinksPerBrand: Math.min(6, Math.max(0, brandCount - 1)),
+        potentialUniqueContent: brandsWithFullContent >= 8 && brandsWithTierASource >= 8,
+        qualityScore,
+        recommendation:
+          brandCount >= 8 && qualityScore >= 60
+            ? "HIGH_CONFIDENCE_CATEGORY_LANDING_CANDIDATE"
+            : brandCount >= 8
+              ? "CANDIDATE_FOR_EDITORIAL_REVIEW"
+              : "INSUFFICIENT_VERIFIED_COVERAGE",
+      };
+    })
     .sort((left, right) => right.brandCount - left.brandCount || left.category.localeCompare(right.category)),
 };
 
+const sprintWindow = await optionalJson("data/brand-sources/sprint-19-processing-window.json");
+const sprintWaveFiles = sprintWindow
+  ? (await readdir(path.join(ROOT, "data/brand-sources")))
+      .map((file) => ({ file, wave: Number(file.match(/^curated-brand-facts-wave-(\d+)\.json$/u)?.[1]) }))
+      .filter((item) => Number.isFinite(item.wave) && item.wave >= sprintWindow.firstWave)
+      .sort((left, right) => left.wave - right.wave)
+  : [];
+const sprintBatches = await Promise.all(
+  sprintWaveFiles.map(async ({ file, wave }) => {
+    const batch = await json(`data/brand-sources/${file}`);
+    return {
+      wave,
+      file,
+      safe: batch.profiles.length,
+      review: batch.blockedIdentities.length,
+      processed: batch.profiles.length + batch.blockedIdentities.length,
+    };
+  }),
+);
+const sprintProcessed = sprintBatches.reduce((sum, batch) => sum + batch.processed, 0);
+const sprintSafe = sprintBatches.reduce((sum, batch) => sum + batch.safe, 0);
+const sprintReview = sprintBatches.reduce((sum, batch) => sum + batch.review, 0);
+const elapsedHours = sprintWindow?.processingFinishedAt
+  ? (Date.parse(sprintWindow.processingFinishedAt) - Date.parse(sprintWindow.processingStartedAt)) / 3_600_000
+  : null;
 const processingMetrics = {
-  measurementStatus: "NOT_MEASURED",
-  reason: "Historical source batches did not record elapsed processing time per manufacturer.",
+  measurementStatus: elapsedHours ? "MEASURED" : "IN_PROGRESS",
   processedManufacturers: profiles.size + blocked.size,
   safe: profiles.size,
   blockedOrReview: blocked.size,
   sourceSuccessRate: Number((profiles.size / (profiles.size + blocked.size)).toFixed(4)),
   averageSourcesPerSafe: Number((officialSourceCount / profiles.size).toFixed(2)),
-  processedPerHour: null,
-  safePerHour: null,
-  blockedPerHour: null,
+  sprint19: sprintWindow
+    ? {
+        processingStartedAt: sprintWindow.processingStartedAt,
+        processingFinishedAt: sprintWindow.processingFinishedAt,
+        elapsedHours: elapsedHours ? Number(elapsedHours.toFixed(4)) : null,
+        processed: sprintProcessed,
+        safe: sprintSafe,
+        review: sprintReview,
+        sourceSuccessRate: sprintProcessed ? Number((sprintSafe / sprintProcessed).toFixed(4)) : null,
+        processedPerHour: elapsedHours ? Number((sprintProcessed / elapsedHours).toFixed(2)) : null,
+        safePerHour: elapsedHours ? Number((sprintSafe / elapsedHours).toFixed(2)) : null,
+        reviewPerHour: elapsedHours ? Number((sprintReview / elapsedHours).toFixed(2)) : null,
+        batches: sprintBatches,
+      }
+    : null,
 };
 
 const outputs = new Map([

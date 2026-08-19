@@ -1,0 +1,427 @@
+{
+  "checkedAt": "2026-08-20",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "kason",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "KASON is used by multiple active manufacturer-owned sites, including Kason Corporation for process screening equipment and Kason Industries for refrigeration and enclosure hardware; the raw record alone does not resolve the intended entity."
+    },
+    {
+      "manufacturerId": "tecnium",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "TECNIUM is used by separate active industrial businesses in Spain and Brazil with different portfolios; no independent identity evidence in the record safely selects one of them."
+    },
+    {
+      "manufacturerId": "wemco",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "WEMCO identifies several distinct industrial product businesses and legacy brands, including wire-handling equipment and pump or flotation equipment; the canonical entity cannot be selected from the raw name alone."
+    },
+    {
+      "manufacturerId": "elro",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "ELRO is an active name for unrelated manufacturer-owned product portfolios, including Crane ELRO peristaltic pumps and ELRO professional cooking systems; the source record does not disambiguate them."
+    },
+    {
+      "manufacturerId": "hpi",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "HPI is used by multiple unrelated industrial manufacturers in hydraulics, light-metal plant engineering, turbomachinery controls and process equipment; the intended manufacturer cannot be proven from the acronym alone."
+    },
+    {
+      "manufacturerId": "mwm",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "MWM currently identifies separate engine businesses with manufacturer-owned sites in Germany and Brazil; both publish industrial engine and generation portfolios, so the raw name is insufficient for a zero-conflict canonical match."
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "imo-pump",
+      "officialName": "Imo Pump",
+      "displayName": "Imo Pump",
+      "aliases": ["IMO PUMP", "IMO Pump"],
+      "formerNames": [],
+      "officialWebsite": "https://imo.circorpt.com/",
+      "officialDomains": ["imo.circorpt.com", "circorpt.com"],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": 1931,
+      "parentCompany": "CIRCOR International",
+      "shortDescription": "Imo Pump is a CIRCOR business unit that manufactures rotary positive-displacement pumps. Its portfolio includes three-screw, internal-gear and marine pumps for lubrication, fuel handling, hydraulic and process duties.",
+      "fullDescription": [
+        "Imo Pump develops and manufactures rotary positive-displacement pump technology. The official company history traces the Imo name to 1931, while CIRCOR identifies the business as one of its pump product brands.",
+        "The product range centres on three-screw pumps, crescent internal-gear pumps and equipment for commercial and naval marine service. Official application material covers machinery lubrication, fuel-oil transfer and burner service, hydraulic systems, hydrocarbon and chemical processing, crude-oil transport, power generation and pulp-and-paper operations. Buyers can identify the required series and operating duty before submitting a sourcing request to Ventrovia."
+      ],
+      "productCategories": ["Трёхвинтовые насосы", "Шестеренные насосы", "Судовые насосы"],
+      "productFamilies": ["3-Screw Pumps", "Crescent Internal Gear Pumps", "Marine Pumps"],
+      "series": ["3E", "3G", "3D", "6D", "12D", "12L", "4SFC", "4VKC", "EMTEC", "TRITEC"],
+      "industries": ["Судостроение", "Энергетика", "Нефтегазовая промышленность", "Машиностроение", "Целлюлозно-бумажная промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://imo.circorpt.com/servicemanuals.htm"],
+      "sources": [
+        {"sourceId":"brand-imo-circor","tier":"A","type":"OFFICIAL_CORPORATE_BRAND_PAGE","scope":"IDENTITY_PARENT_AND_PRODUCT_SCOPE","url":"https://www.circorpt.com/imo-pump","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-imo-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PUMP_TYPES_SERIES_AND_APPLICATIONS","url":"https://imo.circorpt.com/products.htm","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-imo-about","tier":"A","type":"ABOUT_PAGE","scope":"FOUNDING_AND_TECHNOLOGY_HISTORY","url":"https://imo.circorpt.com/aboutus.htm","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "index-6",
+      "officialName": "INDEX-6 Ltd.",
+      "displayName": "INDEX-6",
+      "aliases": ["INDEX-6", "Index-6"],
+      "formerNames": [],
+      "officialWebsite": "https://www.index-6.com/",
+      "officialDomains": ["index-6.com"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "INDEX-6 designs and manufactures hygienic filling and packaging equipment for liquid food and non-food products. The range covers complete lines and dedicated systems for filling, dosing, closing, labelling and bottle handling.",
+      "fullDescription": [
+        "INDEX-6 is a manufacturer of hygienic filling and packaging machinery for liquid and semi-liquid products. The company supplies engineered lines for food, beverage and selected non-food processes, combining machine design, production and installation.",
+        "Its official portfolio includes Ultra Clean filling equipment, blow-moulding and filling synchroblocks, aseptic and hot-filling systems, dosing machines, closing systems and labelling equipment. Application-specific systems are listed for dairy products, juices, edible oils, sauces, water, wine and spirits, cosmetics, household chemicals and industrial fluids. Ventrovia can use the required container, product, output and hygiene specification as the basis for an equipment enquiry."
+      ],
+      "productCategories": ["Фасовочное оборудование", "Упаковочные линии", "Дозирующее оборудование", "Укупорочное оборудование", "Этикетировочное оборудование"],
+      "productFamilies": ["Ultra Clean Filling Lines", "B_Ifill Synchrosystem", "AseptPro", "Hot Filling Systems", "IND-Dose", "Closing Systems", "Labelling Systems"],
+      "series": ["B_Ifill", "AssetClean", "AseptPro", "IND-Dose 44 SD Hybrid"],
+      "industries": ["Пищевая промышленность", "Производство напитков", "Косметическая промышленность", "Химическая промышленность"],
+      "officialCatalogs": ["https://www.index-6.com/media_center.php"],
+      "documentationSources": ["https://www.index-6.com/media_center.php"],
+      "sources": [
+        {"sourceId":"brand-index6-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_SPECIALIZATION_AND_APPLICATIONS","url":"https://www.index-6.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-index6-media","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_NAMED_SYSTEMS","url":"https://www.index-6.com/media_center.php","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "murzan",
+      "officialName": "Murzan, Inc.",
+      "displayName": "Murzan",
+      "aliases": ["MURZAN"],
+      "formerNames": [],
+      "officialWebsite": "https://www.murzan.com/",
+      "officialDomains": ["murzan.com"],
+      "country": "United States",
+      "headquarters": "Norcross, Georgia, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Murzan develops sanitary pumping and process-handling equipment. Its solutions include diaphragm pumps, container unloading systems, clean-in-place systems and engineered sanitary process projects.",
+      "fullDescription": [
+        "Murzan develops equipment for hygienic transfer and processing duties from its US operation in Norcross, Georgia. The manufacturer organises its offering around sanitary pumping, bulk-container unloading, cleaning and integrated process projects.",
+        "Murzan sanitary diaphragm pumps are used to move process media, while unloading systems combine those pumps with equipment for emptying sanitary bulk containers. The company also engineers clean-in-place systems and project-specific installations such as dilution and plant-integration systems. The official portfolio gives buyers a clear basis for specifying the medium, container, cleaning requirement and process duty in a Ventrovia RFQ."
+      ],
+      "productCategories": ["Санитарные мембранные насосы", "Системы разгрузки контейнеров", "CIP-системы", "Технологические установки"],
+      "productFamilies": ["Sanitary Diaphragm Pumps", "Unloading Systems", "Clean-In-Place Systems", "Custom Projects"],
+      "series": [],
+      "industries": ["Пищевая промышленность", "Санитарные технологические процессы"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.murzan.com/"],
+      "sources": [
+        {"sourceId":"brand-murzan-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_LOCATION_PRODUCT_GROUPS_AND_PROCESS_SCOPE","url":"https://www.murzan.com/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "orbitalservice",
+      "officialName": "Orbitalservice GmbH",
+      "displayName": "Orbitalservice",
+      "aliases": ["ORBITALSERVICE", "ORBITALSERVICE GmbH"],
+      "formerNames": [],
+      "officialWebsite": "https://orbitalservice-group.com/",
+      "officialDomains": ["orbitalservice-group.com"],
+      "country": "Germany",
+      "headquarters": "Heimbuchenthal, Germany",
+      "foundedYear": 2008,
+      "parentCompany": null,
+      "shortDescription": "Orbitalservice develops and manufactures orbital-welding systems and supporting equipment. Its range includes welding power sources, open and closed weld heads, mechanisation equipment, oxygen analysers, purging tools and pipe-preparation tools.",
+      "fullDescription": [
+        "Orbitalservice GmbH is a German developer and manufacturer of equipment for orbital welding. The company states that it was founded in 2008 and operates from Heimbuchenthal, where it designs and produces standard and application-specific systems.",
+        "The portfolio covers orbital welding machines, open and closed weld heads, tube-to-tubesheet heads, remote controls, cold-wire feeders and mechanised welding devices. Supporting product groups include residual-oxygen analysers, purging equipment, pipe cutters and facers, tacking tools, weld cleaners and tungsten grinders. These verified product areas allow a sourcing request to be defined by tube size, welding process, head configuration and required accessories."
+      ],
+      "productCategories": ["Орбитальные сварочные системы", "Сварочные головки", "Оборудование механизации сварки", "Газоанализаторы", "Инструмент для подготовки труб"],
+      "productFamilies": ["Orbital Welding Machines", "Open Weld Heads", "Closed Weld Heads", "Tube-to-Tubesheet Weld Heads", "Oxygen Analyzers", "Purging Equipment", "Tube and Pipe Preparation Tools"],
+      "series": ["CompactOne", "OWH", "CWH"],
+      "industries": ["Сварочное производство", "Трубопроводный монтаж"],
+      "officialCatalogs": ["https://orbitalservice-group.com/wp-content/uploads/General-brochure_EN.pdf"],
+      "documentationSources": ["https://orbitalservice-group.com/products/"],
+      "sources": [
+        {"sourceId":"brand-orbitalservice-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_AND_MANUFACTURING","url":"https://orbitalservice-group.com/about-orbitalservice/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-orbitalservice-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_SERIES","url":"https://orbitalservice-group.com/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "phytron",
+      "officialName": "Phytron GmbH",
+      "displayName": "Phytron",
+      "aliases": ["PHYTRON", "phytron"],
+      "formerNames": [],
+      "officialWebsite": "https://www.phytron.eu/",
+      "officialDomains": ["phytron.eu", "phytron.de"],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Phytron develops stepper motors, actuators, drives and controllers for industrial, harsh-environment, vacuum, cryogenic and space applications. The portfolio combines motion components with control electronics and supporting mechanical equipment.",
+      "fullDescription": [
+        "Phytron GmbH specialises in stepper-motor motion systems for conventional industrial use and for demanding environmental conditions. Its official product structure separates industrial, protected, vacuum-and-cryogenic and space-qualified motor solutions.",
+        "Motor and actuator families include ZSS, phyBASIC, ZSH, stainless-steel ESS and ESH units, VSS and VSH vacuum motors, vacuum linear actuators and phySPACE motors. The company also publishes amplifiers, controllers and motion-control systems, together with resolvers, dampers and related mechanical equipment. Buyers can specify the environment, torque, motion profile, feedback and controller requirements when requesting Phytron equipment through Ventrovia."
+      ],
+      "productCategories": ["Шаговые двигатели", "Линейные актуаторы", "Приводы шаговых двигателей", "Контроллеры движения", "Компоненты для вакуума и криогеники"],
+      "productFamilies": ["Motors and Actuators", "Amplifiers and Controllers", "Mechanics and Equipment"],
+      "series": ["ZSS", "phyBASIC", "ZSH", "ESS", "ESH", "VSS", "VSH", "LA", "phySPACE", "phyMOTION"],
+      "industries": ["Промышленная автоматизация", "Вакуумная техника", "Криогенная техника", "Космическая техника"],
+      "officialCatalogs": ["https://www.phytron.eu/fileadmin/user_upload/Downloads/Dokumentation/Katalog_Motoren_EN_web.pdf"],
+      "documentationSources": ["https://www.phytron.eu/products/motors-actuators/", "https://www.phytron.de/sitemap/"],
+      "sources": [
+        {"sourceId":"brand-phytron-motors","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"MOTOR_ACTUATOR_FAMILIES_AND_ENVIRONMENTS","url":"https://www.phytron.eu/products/motors-actuators/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-phytron-sitemap","tier":"A","type":"OFFICIAL_SITEMAP","scope":"PRODUCT_GROUPS_CONTROLLERS_AND_MECHANICS","url":"https://www.phytron.de/sitemap/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "ragazzini",
+      "officialName": "Ragazzini S.r.l.",
+      "displayName": "Ragazzini",
+      "aliases": ["RAGAZZINI", "RAGAZZINI srl"],
+      "formerNames": [],
+      "officialWebsite": "https://ragazzini.it/en/",
+      "officialDomains": ["ragazzini.it"],
+      "country": "Italy",
+      "headquarters": "Faenza, Italy",
+      "foundedYear": 1921,
+      "parentCompany": null,
+      "shortDescription": "Ragazzini manufactures peristaltic and piston pumps in Faenza, Italy. Its Rotho peristaltic range serves abrasive, viscous and solids-bearing fluid duties across process industries.",
+      "fullDescription": [
+        "Ragazzini S.r.l. is an Italian pump manufacturer based in Faenza. Its official site records pump production since 1921 and presents both Rotho peristaltic pumps and AISI 316 piston pumps.",
+        "Rotho pumps are documented for process duties in chemical production, water treatment, food and beverage, ceramics, paper, mining, paints, inks and other industries. The peristaltic operating principle is used for abrasive media, sludge and fluids containing suspended solids, while dedicated product information supports model and hose selection. Ventrovia enquiries can therefore be based on medium properties, flow, pressure and the relevant industrial application."
+      ],
+      "productCategories": ["Перистальтические насосы", "Поршневые насосы"],
+      "productFamilies": ["Rotho for Industry", "Rotho for Oenology", "AISI 316 Piston Pumps"],
+      "series": ["Rotho"],
+      "industries": ["Химическая промышленность", "Водоподготовка", "Пищевая промышленность", "Целлюлозно-бумажная промышленность", "Горнодобывающая промышленность"],
+      "officialCatalogs": ["https://ragazzini.it/wp-content/uploads/2025/04/MS1_LM31EN005.pdf"],
+      "documentationSources": ["https://ragazzini.it/en/"],
+      "sources": [
+        {"sourceId":"brand-ragazzini-home","tier":"A","type":"ABOUT_AND_PRODUCT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_INDUSTRIES","url":"https://ragazzini.it/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-ragazzini-water","tier":"A","type":"OFFICIAL_APPLICATION_PAGE","scope":"PERISTALTIC_PUMP_APPLICATIONS","url":"https://ragazzini.it/en/acque/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "van-aarsen",
+      "officialName": "Van Aarsen International B.V.",
+      "displayName": "Van Aarsen",
+      "aliases": ["VAN AARSEN", "Van Aarsen International"],
+      "formerNames": [],
+      "officialWebsite": "https://vanaarsen.com/",
+      "officialDomains": ["vanaarsen.com"],
+      "country": "Netherlands",
+      "headquarters": "Panheel, Netherlands",
+      "foundedYear": 1949,
+      "parentCompany": null,
+      "shortDescription": "Van Aarsen designs and manufactures machinery and complete systems for animal-feed production. Its offering covers feed-mill engineering, process machines, automation, upgrades and lifecycle services.",
+      "fullDescription": [
+        "Van Aarsen is a Dutch manufacturer of feed-mill machinery and integrated production solutions. The company traces its operations to 1949 and develops both complete feed mills and individual equipment for new plants, rebuilds and capacity upgrades.",
+        "Its official machine portfolio includes dosing units, hammer mills, mixers, conditioners, pellet mills, coolers, coaters, crumblers, sieves, conveying equipment and automation. Van Aarsen also provides turnkey engineering, installation, commissioning, parts and service support for animal-feed and aqua-feed production. A Ventrovia request can identify the process stage, target capacity, feed type and required machine or line scope."
+      ],
+      "productCategories": ["Оборудование комбикормовых заводов", "Молотковые мельницы", "Смесители", "Грануляторы", "Охладители", "Промышленная автоматизация"],
+      "productFamilies": ["Dosing Units", "Hammer Mills", "Mixers", "Conditioners", "Pellet Mills", "Coolers", "Coaters", "Crumblers", "Sieves", "Automation", "Transport Equipment"],
+      "series": [],
+      "industries": ["Производство кормов", "Аквакультура"],
+      "officialCatalogs": ["https://vanaarsen.com/products/"],
+      "documentationSources": ["https://vanaarsen.com/products/", "https://vanaarsen.com/turnkey-feed-mills/"],
+      "sources": [
+        {"sourceId":"brand-van-aarsen-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FOUNDING_LOCATION_AND_SPECIALIZATION","url":"https://vanaarsen.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-van-aarsen-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"MACHINE_GROUPS_AND_FEED_APPLICATIONS","url":"https://vanaarsen.com/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "magtrol",
+      "officialName": "Magtrol, Inc.",
+      "displayName": "Magtrol",
+      "aliases": ["MAGTROL"],
+      "formerNames": [],
+      "officialWebsite": "https://www.magtrol.com/",
+      "officialDomains": ["magtrol.com"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Magtrol designs measurement and test systems for torque, speed, power, load, force, weight and displacement. Its portfolio includes motor dynamometers, torque transducers, power analysers, brakes, clutches and test-system software.",
+      "fullDescription": [
+        "Magtrol develops equipment for measuring and controlling mechanical and electrical performance in laboratories, development facilities and production testing. The manufacturer combines sensors, loading devices, electronics and software into individual instruments and complete test systems.",
+        "Official product groups include motor dynamometers and dynamometer controllers, torque transducers, power analysers, load-force-weight systems, displacement sensors, hysteresis brakes and clutches, and motor-test software. Dynamometer technologies include hysteresis, eddy-current and powder-brake systems, with configurations for electric and pneumatic motors, engines, gearheads, servo drives and inverters."
+      ],
+      "productCategories": ["Испытательные стенды электродвигателей", "Динамометры", "Датчики крутящего момента", "Анализаторы мощности", "Тормоза и муфты", "Датчики силы и перемещения"],
+      "productFamilies": ["Motor Test Equipment", "Torque Transducers", "Power Analyzers", "Load-Force-Weight Systems", "Brakes and Clutches", "Displacement Sensors"],
+      "series": ["HD", "WB", "PB", "TM", "DSP", "M-TEST"],
+      "industries": ["Испытательное оборудование", "Исследования и разработки", "Промышленное производство"],
+      "officialCatalogs": ["https://www.magtrol.com/wp-content/uploads/multi_overview.pdf"],
+      "documentationSources": ["https://www.magtrol.com/product-category/motor-test-equipment/"],
+      "sources": [
+        {"sourceId":"brand-magtrol-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_MEASUREMENT_SCOPE","url":"https://www.magtrol.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-magtrol-motor-test","tier":"A","type":"OFFICIAL_PRODUCT_CATEGORY","scope":"DYNAMOMETER_TYPES_AND_TEST_APPLICATIONS","url":"https://www.magtrol.com/product-category/motor-test-equipment/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "pekrun",
+      "officialName": "Pekrun Getriebebau GmbH",
+      "displayName": "Pekrun Getriebebau",
+      "aliases": ["PEKRUN GETRIEBEBAU GMBH", "Pekrun"],
+      "formerNames": [],
+      "officialWebsite": "https://pekrun.de/",
+      "officialDomains": ["pekrun.de"],
+      "country": "Germany",
+      "headquarters": "Iserlohn, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Pekrun Getriebebau designs and manufactures custom heavy industrial gearboxes. The portfolio includes turbo, rolling-mill, mill and conveyor gear units together with special gearboxes, spare parts and lifecycle service.",
+      "fullDescription": [
+        "Pekrun Getriebebau GmbH is a German manufacturer of engineered industrial gearboxes based in Iserlohn. The company designs, calculates and produces application-specific drive systems and supports installed equipment through service and spare-parts capabilities.",
+        "Its official portfolio covers turbo gearboxes, rolling-mill gearboxes, mill drives, conveyor gear units and special-purpose gearboxes. Pekrun documents experience with large units for demanding industrial plant and offers manufacturer-independent inspection, repair and lifecycle services. Buyers can submit the required power, speed, ratio, torque, application and interface data for a sourcing or replacement enquiry."
+      ],
+      "productCategories": ["Промышленные редукторы", "Турборедукторы", "Редукторы прокатных станов", "Редукторы мельниц", "Редукторы конвейеров"],
+      "productFamilies": ["Turbo Gearboxes", "Rolling Mill Gearboxes", "Mill Gearboxes", "Conveyor Gearboxes", "Special Gearboxes"],
+      "series": [],
+      "industries": ["Металлургия", "Горнодобывающая промышленность", "Транспортировка материалов", "Промышленное машиностроение"],
+      "officialCatalogs": ["https://pekrun.de/wp-content/uploads/2020/08/pekrun_Servicebroschuere_EN.pdf"],
+      "documentationSources": ["https://pekrun.de/"],
+      "sources": [
+        {"sourceId":"brand-pekrun-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_GEARBOX_GROUPS_AND_SERVICES","url":"https://pekrun.de/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "rtp",
+      "officialName": "RTP POWER SE",
+      "displayName": "RTP Power",
+      "aliases": ["RTP POWER", "RTP POWER SE"],
+      "formerNames": [],
+      "officialWebsite": "https://rtppower.com/",
+      "officialDomains": ["rtppower.com"],
+      "country": "Czech Republic",
+      "headquarters": "Prague, Czech Republic",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "RTP Power supplies engineered equipment for thermal and industrial power projects. Its official product groups comprise steam turbines, boilers and heat exchangers.",
+      "fullDescription": [
+        "RTP POWER SE is an industrial energy-equipment company with its listed company address in Prague. Its public product structure is focused on major equipment used in steam and thermal-energy systems.",
+        "The manufacturer presents three core product groups: steam turbines, boilers and heat exchangers. These categories support project and replacement enquiries where buyers can specify steam conditions, output, process duty, installation constraints and required equipment scope. Ventrovia uses only the published manufacturer categories and does not imply an authorised relationship with RTP Power."
+      ],
+      "productCategories": ["Паровые турбины", "Промышленные котлы", "Теплообменники"],
+      "productFamilies": ["Steam Turbines", "Boilers", "Heat Exchangers"],
+      "series": [],
+      "industries": ["Энергетика", "Промышленные энергетические установки"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://rtppower.com/products/"],
+      "sources": [
+        {"sourceId":"brand-rtp-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_AND_PRODUCT_GROUPS","url":"https://rtppower.com/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "thermowave",
+      "officialName": "thermowave Gesellschaft für Wärmetechnik mbH",
+      "displayName": "thermowave",
+      "aliases": ["THERMOWAVE", "Thermowave"],
+      "formerNames": [],
+      "officialWebsite": "https://www.thermowave.eu/",
+      "officialDomains": ["thermowave.eu"],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "thermowave manufactures configurable plate heat exchangers. Its thermoline families cover gasketed, semi-welded and double-wall designs in different materials, frame configurations and sizes.",
+      "fullDescription": [
+        "thermowave specialises in plate heat exchangers configured around customer operating conditions. The German manufacturer offers a range of plate, gasket, frame and connection choices for heat-transfer duties across industrial and refrigeration processes.",
+        "The current official portfolio includes thermolineECO, thermolineVARIO, thermolinePURE and thermolinePLUS. Across those families, thermowave publishes gasketed, semi-welded and double-wall configurations. A sourcing request can therefore be prepared using the media, temperatures, pressure, capacity, materials and connection requirements rather than relying on an unverified product match."
+      ],
+      "productCategories": ["Пластинчатые теплообменники", "Полусварные теплообменники", "Двухстенные теплообменники"],
+      "productFamilies": ["thermolineECO", "thermolineVARIO", "thermolinePURE", "thermolinePLUS"],
+      "series": ["thermolineECO", "thermolineVARIO", "thermolinePURE", "thermolinePLUS"],
+      "industries": ["Промышленное охлаждение", "Теплотехника", "Холодильная техника"],
+      "officialCatalogs": ["https://www.thermowave.eu/"],
+      "documentationSources": ["https://www.thermowave.eu/"],
+      "sources": [
+        {"sourceId":"brand-thermowave-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_SPECIALIZATION_CONFIGURATIONS_AND_PRODUCT_FAMILIES","url":"https://www.thermowave.eu/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "waukesha-engine",
+      "officialName": "INNIO Waukesha Engine",
+      "displayName": "Waukesha Engine",
+      "aliases": ["WAUKESHA ENGINE", "Waukesha", "INNIO Waukesha"],
+      "formerNames": [],
+      "officialWebsite": "https://www.waukeshaengine.com/",
+      "officialDomains": ["waukeshaengine.com", "innio.com"],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "INNIO Group",
+      "shortDescription": "Waukesha is an INNIO gas-engine brand for gas compression, power generation and mechanical-drive applications. Current engine families include 275GL+, VHP, mobileFLEX and VGF, supported by controls, digital services and remanufacturing.",
+      "fullDescription": [
+        "INNIO Group's Waukesha brand develops large gaseous-fuel engines for energy and industrial applications. The official company material positions the engine portfolio around gas compression, distributed power generation and mechanical-drive duties.",
+        "Current families include the 275GL+, VHP, mobileFLEX and VGF series. Depending on the family, published applications include gas compression, electric generation, backup power, drill-rig power and mechanical drive. Waukesha also provides engine controls, digital products and the reUp remanufacturing programme. Ventrovia enquiries can identify the engine family, operating gas, application and performance requirement."
+      ],
+      "productCategories": ["Газовые двигатели", "Газопоршневые установки", "Системы управления двигателями", "Цифровые сервисы"],
+      "productFamilies": ["Gas Engines", "Engine Controls", "Digital Solutions", "reUp Remanufacturing"],
+      "series": ["275GL+", "VHP", "mobileFLEX", "VGF", "ESM 2"],
+      "industries": ["Нефтегазовая промышленность", "Энергетика", "Газокомпрессорные установки"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.waukeshaengine.com/gas-engines/"],
+      "sources": [
+        {"sourceId":"brand-waukesha-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_PARENT_PRODUCT_SCOPE_AND_APPLICATIONS","url":"https://www.waukeshaengine.com/about/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-waukesha-engines","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"ENGINE_FAMILIES_AND_APPLICATIONS","url":"https://www.waukeshaengine.com/gas-engines/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "ae-advanced-energy",
+      "officialName": "Advanced Energy Industries, Inc.",
+      "displayName": "Advanced Energy",
+      "aliases": ["ADVANCED ENERGY", "AE Advanced Energy"],
+      "formerNames": [],
+      "officialWebsite": "https://www.advancedenergy.com/",
+      "officialDomains": ["advancedenergy.com"],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Advanced Energy designs precision power-conversion, measurement and control equipment for mission-critical processes. Its portfolio spans plasma power, AC-DC and DC-DC supplies, high-voltage systems, temperature sensing and electrical measurement.",
+      "fullDescription": [
+        "Advanced Energy Industries designs and manufactures engineered power-conversion, measurement and control solutions. Its official company material links the portfolio to semiconductor equipment, industrial and medical systems, data-centre computing, telecommunications and networking applications.",
+        "The product catalogue covers RF, pulsed and DC plasma power equipment; AC-DC and DC-DC power supplies; high-voltage power supplies and amplifiers; thermal sensing; RF power sensing; resistance and electrostatic measurement; and custom power solutions. These verified groups provide a factual basis for enquiries defined by input and output requirements, power level, control interface, process environment and compliance needs."
+      ],
+      "productCategories": ["Источники питания", "Системы питания плазмы", "Высоковольтные источники питания", "Измерительное оборудование", "Датчики температуры", "Системы управления мощностью"],
+      "productFamilies": ["Plasma Power Products", "AC-DC Power Supplies", "DC-DC Converters", "High Voltage Power Supplies", "High Voltage Amplifiers", "Sense and Measurement"],
+      "series": [],
+      "industries": ["Полупроводниковая промышленность", "Медицинская техника", "Центры обработки данных", "Телекоммуникации", "Промышленное производство"],
+      "officialCatalogs": ["https://www.advancedenergy.com/en-us/products/"],
+      "documentationSources": ["https://www.advancedenergy.com/en-us/products/"],
+      "sources": [
+        {"sourceId":"brand-advanced-energy-about","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_SPECIALIZATION_AND_MARKETS","url":"https://www.advancedenergy.com/en-us/about/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-advanced-energy-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_AND_TECHNOLOGIES","url":"https://www.advancedenergy.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    },
+    {
+      "manufacturerId": "david-brown",
+      "officialName": "David Brown Santasalo",
+      "displayName": "David Brown Santasalo",
+      "aliases": ["DAVID BROWN", "David Brown", "DB Santasalo", "DBS"],
+      "formerNames": ["David Brown"],
+      "officialWebsite": "https://dbsantasalo.com/",
+      "officialDomains": ["dbsantasalo.com"],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "David Brown Santasalo designs, manufactures and supports bespoke industrial gear systems. The company supplies new and replacement gearboxes, mechanical power-transmission systems, condition monitoring and lifecycle services for heavy industries.",
+      "fullDescription": [
+        "David Brown Santasalo is an industrial gear-engineering business formed when David Brown and Santasalo joined forces in 2016. Its official history traces David Brown gear manufacturing to 1860 and presents the current company as a global designer, manufacturer and service provider for mechanical power-transmission systems.",
+        "The company engineers tailor-made gear units for cement, mining and minerals, metals processing, marine and ports, oil and gas, rail, power generation, sugar, rubber, and fibre and paper applications. Product and service capabilities include new and replacement gear systems, helical and planetary drives, mill and conveyor drives, gearbox repair, upgrades and GearWatch condition monitoring."
+      ],
+      "productCategories": ["Промышленные редукторы", "Планетарные редукторы", "Приводы мельниц", "Конвейерные приводы", "Системы мониторинга редукторов"],
+      "productFamilies": ["Tailor-Made Gear Systems", "New and Replacement Gearboxes", "GearWatch Condition Monitoring", "Gearbox Lifecycle Services"],
+      "series": ["GearWatch", "CX Conveyor Drives"],
+      "industries": ["Горнодобывающая промышленность", "Цементная промышленность", "Металлургия", "Судостроение", "Нефтегазовая промышленность", "Энергетика", "Целлюлозно-бумажная промышленность"],
+      "officialCatalogs": ["https://dbsantasalo.com/new-gear-systems"],
+      "documentationSources": ["https://dbsantasalo.com/industries", "https://dbsantasalo.com/about/our-story"],
+      "sources": [
+        {"sourceId":"brand-dbs-story","tier":"A","type":"ABOUT_PAGE","scope":"IDENTITY_FORMATION_HISTORY_AND_CAPABILITIES","url":"https://dbsantasalo.com/about/our-story","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-dbs-gear-systems","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"GEAR_SYSTEMS_MONITORING_AND_SERVICES","url":"https://dbsantasalo.com/new-gear-systems","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-dbs-industries","tier":"A","type":"OFFICIAL_INDUSTRY_DIRECTORY","scope":"INDUSTRIAL_APPLICATIONS","url":"https://dbsantasalo.com/industries","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ]
+    }
+  ]
+}
