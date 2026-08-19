@@ -13,24 +13,17 @@ import {
   brandSeoTitle,
   isBrandIndexable,
 } from "../../lib/brand-knowledge.server";
-import { manufacturerBySlug, manufacturers } from "../../lib/catalog-data";
-import {
-  canonicalManufacturerSlug,
-  legacyManufacturerSlugsFor,
-} from "../../lib/manufacturer-normalization";
-import { serializeJsonLd, SITE_URL } from "../../lib/seo-content";
+import { manufacturerBySlug, manufacturers } from "../../lib/manufacturer-directory";
+import { canonicalManufacturerSlug, legacyManufacturerSlugsFor } from "../../lib/international-manufacturer-identifiers";
+import { serializeJsonLd } from "../../lib/json-ld";
+import { SITE_URL } from "../../lib/site-brand";
 
-type BrandPageProps = {
-  params: Promise<{ slug: string }>;
-};
+type BrandPageProps = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
   const slugs = manufacturers
     .filter((manufacturer) => isBrandIndexable(manufacturer.slug))
-    .flatMap((manufacturer) => [
-      manufacturer.slug,
-      ...legacyManufacturerSlugsFor(manufacturer.slug),
-    ]);
+    .flatMap((manufacturer) => [manufacturer.slug, ...legacyManufacturerSlugsFor(manufacturer.slug)]);
   return Array.from(new Set(slugs)).map((slug) => ({ slug }));
 }
 
@@ -48,33 +41,15 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     description,
     alternates: { canonical },
     robots: { index: isBrandIndexable(brand.slug), follow: true },
-    openGraph: {
-      type: "website",
-      url: canonical,
-      title,
-      description,
-      images: logo ? [{ url: logo.src, alt: `${name} — логотип` }] : undefined,
-    },
+    openGraph: { type: "website", url: canonical, title, description, images: logo ? [{ url: logo.src, alt: `${name} logo` }] : undefined },
   };
 }
 
 const commercialFaq = (name: string) => [
-  {
-    question: `Как заказать оборудование ${name}?`,
-    answer: "Отправьте полную модель, артикул или фотографию шильдика. Мы проверим идентификацию позиции, возможность поставки, цену и срок.",
-  },
-  {
-    question: "Можно ли запросить снятую с производства модель?",
-    answer: "Да. Для такой позиции проверяются доступность, возможная замена и условия предложения. Статус модели подтверждается перед расчётом.",
-  },
-  {
-    question: "Можно ли подобрать аналог?",
-    answer: "Подбор возможен после проверки технических параметров и условий эксплуатации. Текстовое сходство артикулов не используется как доказательство совместимости.",
-  },
-  {
-    question: "Можно ли отправить спецификацию?",
-    answer: "Да. Приложите список позиций с производителем и полной маркировкой — так можно обработать несколько строк одним запросом.",
-  },
+  { question: `How can I request ${name} equipment?`, answer: "Send the complete model, part number or a clear nameplate image. Ventrovia will review the requirement before providing pricing and lead-time information." },
+  { question: "Can I request an obsolete or hard-to-find model?", answer: "Yes. Include every available identifier and document. Availability, possible replacement and commercial terms must be confirmed for the individual requirement." },
+  { question: "Can Ventrovia review an alternative?", answer: "An alternative can be considered only after the relevant technical parameters and operating conditions are checked. Similar-looking part numbers are not treated as proof of compatibility." },
+  { question: "Can I upload a specification?", answer: "Yes. Attach a list containing the manufacturer and complete designation for each line so the request can be reviewed as one RFQ." },
 ];
 
 export default async function BrandPage({ params }: BrandPageProps) {
@@ -89,8 +64,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
   const displayName = brandDisplayName(brand.slug, brand.name);
   const logo = brandLogoBySlug(brand.slug);
   const brandUrl = `${SITE_URL}/manufacturers/${brand.slug}`;
-  const summary = profile?.shortDescription
-    ?? `Для ${displayName} выполняем адресный поиск по полной модели, артикулу и маркировке. Сведения о производителе и продукции проверяются перед подготовкой предложения.`;
+  const summary = profile?.shortDescription ?? `Send the complete ${displayName} model, part number or specification for an industrial sourcing review. Brand and product information is checked before a commercial proposal is prepared.`;
   const brandJsonLd = profile ? {
     "@context": "https://schema.org",
     "@type": "Brand",
@@ -105,8 +79,8 @@ export default async function BrandPage({ params }: BrandPageProps) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Главная", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Производители", item: `${SITE_URL}/manufacturers` },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Manufacturers", item: `${SITE_URL}/manufacturers` },
       { "@type": "ListItem", position: 3, name: displayName, item: brandUrl },
     ],
   };
@@ -117,45 +91,18 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <section className="page-hero">
         <div className="shell brand-hero">
           <div>
-            <div className="breadcrumbs">
-              <Link href="/">Главная</Link><span>/</span>
-              <Link href="/manufacturers">Производители</Link><span>/</span>
-              <span>{displayName}</span>
-            </div>
-            <p className="eyebrow">База производителей</p>
+            <div className="breadcrumbs"><Link href="/">Home</Link><span>/</span><Link href="/manufacturers">Manufacturers</Link><span>/</span><span>{displayName}</span></div>
+            <p className="eyebrow">Manufacturer knowledge base</p>
             <h1>{displayName}</h1>
             <p>{summary}</p>
             <div className="brand-hero-actions">
-              <RequestCta
-                defaultProduct={displayName}
-                requestContext={`Производитель: ${displayName}`}
-                requestType="product"
-                source="manufacturer_page"
-              >
-                Запросить цену и срок
-              </RequestCta>
-              <RequestCta
-                className="button button-outline"
-                defaultProduct={displayName}
-                requestContext={`Спецификация по производителю: ${displayName}`}
-                source="manufacturer_page"
-              >
-                Загрузить спецификацию
-              </RequestCta>
+              <RequestCta defaultProduct={displayName} requestContext={`Manufacturer: ${displayName}`} requestType="product" source="manufacturer_page">Request Price and Lead Time</RequestCta>
+              <RequestCta className="button button-outline" defaultProduct={displayName} requestContext={`Specification for manufacturer: ${displayName}`} requestType="specification" source="manufacturer_page">Send Your Specification</RequestCta>
             </div>
           </div>
-          <div className="brand-visual" aria-label={`Иллюстрация раздела ${displayName}`} role="img">
+          <div className="brand-visual" aria-label={`${displayName} manufacturer profile`} role="img">
             <Image alt="" height={900} priority src="/images/brands/global-sourcing-cover.webp" unoptimized width={1600} />
-            {logo ? (
-              <span className="brand-hero-logo">
-                <Image alt={`${displayName} — логотип производителя`} height={150} src={logo.src} unoptimized width={360} />
-              </span>
-            ) : (
-              <span aria-label={`Текстовая карточка производителя ${displayName}`} className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`} role="img">
-                <span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(displayName)} />
-                <span className="brand-wordmark-copy"><strong>{displayName}</strong><small>производитель</small></span>
-              </span>
-            )}
+            {logo ? <span className="brand-hero-logo"><Image alt={`${displayName} logo`} height={150} src={logo.src} unoptimized width={360} /></span> : <span aria-label={`Text identity for ${displayName}`} className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`} role="img"><span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(displayName)} /><span className="brand-wordmark-copy"><strong>{displayName}</strong><small>manufacturer</small></span></span>}
           </div>
         </div>
       </section>
@@ -163,75 +110,34 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <section className="section shell">
         <div className="brand-sections">
           <aside>
-            <p className="eyebrow">Проверенные сведения</p>
+            <p className="eyebrow">Source-backed details</p>
             <ul className="brand-facts">
-              <li><span>Бренд</span><strong>{profile?.officialName ?? displayName}</strong></li>
-              {profile?.country && <li><span>Происхождение бренда</span><strong>{profile.country}</strong></li>}
-              {profile?.headquarters && <li><span>Штаб-квартира</span><strong>{profile.headquarters}</strong></li>}
-              {profile?.foundedYear && <li><span>Основан</span><strong>{profile.foundedYear}</strong></li>}
-              {profile?.parentCompany && <li><span>Группа</span><strong>{profile.parentCompany}</strong></li>}
-              <li><span>Статус страницы</span><strong>{readiness === "BRAND_SAFE" ? "Источник подтверждён" : "Сведения уточняются"}</strong></li>
+              <li><span>Brand</span><strong>{profile?.officialName ?? displayName}</strong></li>
+              {profile?.country && <li><span>Brand origin</span><strong>{profile.country}</strong></li>}
+              {profile?.headquarters && <li><span>Headquarters</span><strong>{profile.headquarters}</strong></li>}
+              {profile?.foundedYear && <li><span>Founded</span><strong>{profile.foundedYear}</strong></li>}
+              {profile?.parentCompany && <li><span>Corporate group</span><strong>{profile.parentCompany}</strong></li>}
+              <li><span>Page status</span><strong>{readiness === "BRAND_SAFE" ? "Official source confirmed" : "Source review in progress"}</strong></li>
             </ul>
-            {profile && (
-              <a className="brand-official-link" href={profile.officialWebsite} rel="noreferrer" target="_blank">
-                Официальный сайт <span aria-hidden="true">↗</span>
-              </a>
-            )}
+            {profile && <a className="brand-official-link" href={profile.officialWebsite} rel="noreferrer" target="_blank">Official manufacturer website <span aria-hidden="true">↗</span></a>}
           </aside>
           <article className="content-card">
-            <h2>О производителе</h2>
-            {profile ? profile.fullDescription.map((paragraph) => <p key={paragraph}>{paragraph}</p>) : (
-              <p>Публичная карточка содержит только безопасные сведения для идентификации бренда. Подтверждённое описание и направления продукции будут добавлены после проверки официального источника.</p>
-            )}
-
-            {profile && profile.productCategories.length > 0 && (
-              <section className="brand-knowledge-section">
-                <h3>Основные направления продукции</h3>
-                <div className="brand-tag-list">{profile.productCategories.map((item) => <span key={item}>{item}</span>)}</div>
-              </section>
-            )}
-            {profile && (profile.productFamilies.length > 0 || profile.series.length > 0) && (
-              <section className="brand-knowledge-section">
-                <h3>Подтверждённые семейства и серии</h3>
-                <div className="brand-tag-list">{[...profile.productFamilies, ...profile.series].map((item) => <span key={item}>{item}</span>)}</div>
-                <p className="brand-scope-note">Принадлежность к семейству не подтверждает характеристики отдельной модели.</p>
-              </section>
-            )}
-            {profile && profile.industries.length > 0 && (
-              <section className="brand-knowledge-section">
-                <h3>Области применения</h3>
-                <p>{profile.industries.join(" · ")}</p>
-              </section>
-            )}
-            {profile && (profile.officialCatalogs.length > 0 || profile.documentationSources.length > 0) && (
-              <section className="brand-knowledge-section">
-                <h3>Официальные каталоги и документация</h3>
-                <ul className="brand-document-list">
-                  {profile.officialCatalogs.map((url, index) => <li key={url}><a href={url} rel="noreferrer" target="_blank">Официальный каталог{profile.officialCatalogs.length > 1 ? ` ${index + 1}` : ""} ↗</a></li>)}
-                  {profile.documentationSources.map((url, index) => <li key={url}><a href={url} rel="noreferrer" target="_blank">Техническая документация{profile.documentationSources.length > 1 ? ` ${index + 1}` : ""} ↗</a></li>)}
-                </ul>
-              </section>
-            )}
+            <h2>About the manufacturer</h2>
+            {profile ? profile.fullDescription.map((paragraph) => <p key={paragraph}>{paragraph}</p>) : <p>This public page contains only a safe manufacturer identity and a path to submit an RFQ. A source-backed company description and product areas will be added after official-source verification.</p>}
+            {profile && profile.productCategories.length > 0 && <section className="brand-knowledge-section"><h3>Official product areas</h3><div className="brand-tag-list">{profile.productCategories.map((item) => <span key={item}>{item}</span>)}</div></section>}
+            {profile && (profile.productFamilies.length > 0 || profile.series.length > 0) && <section className="brand-knowledge-section"><h3>Documented families and product lines</h3><div className="brand-tag-list">{[...profile.productFamilies, ...profile.series].map((item) => <span key={item}>{item}</span>)}</div><p className="brand-scope-note">Family membership does not establish the exact specifications or compatibility of an individual model.</p></section>}
+            {profile && profile.industries.length > 0 && <section className="brand-knowledge-section"><h3>Documented application areas</h3><p>{profile.industries.join(" · ")}</p></section>}
+            {profile && (profile.officialCatalogs.length > 0 || profile.documentationSources.length > 0) && <section className="brand-knowledge-section"><h3>Official manufacturer materials</h3><ul className="brand-document-list">{profile.officialCatalogs.map((url, index) => <li key={url}><a href={url} rel="noreferrer" target="_blank">Official catalogue{profile.officialCatalogs.length > 1 ? ` ${index + 1}` : ""} ↗</a></li>)}{profile.documentationSources.map((url, index) => <li key={url}><a href={url} rel="noreferrer" target="_blank">Technical documentation{profile.documentationSources.length > 1 ? ` ${index + 1}` : ""} ↗</a></li>)}</ul></section>}
           </article>
         </div>
       </section>
 
-      <section className="section section-tint">
-        <div className="shell brand-rfq-panel">
-          <div><p className="eyebrow">Запрос поставки</p><h2>Поставка оборудования {displayName}</h2><p>Отправьте артикул, модель или спецификацию — проверим возможность поставки, цену и срок.</p></div>
-          <RequestCta defaultProduct={displayName} requestContext={`Производитель: ${displayName}`} requestType="product" source="manufacturer_page">Отправить заявку</RequestCta>
-        </div>
-      </section>
+      <section className="section section-tint"><div className="shell brand-rfq-panel"><div><p className="eyebrow">Request for quotation</p><h2>Request {displayName} equipment</h2><p>Send the complete part number, model or specification. Our team will review the requirement and provide pricing and lead-time information after confirmation.</p></div><RequestCta defaultProduct={displayName} requestContext={`Manufacturer: ${displayName}`} requestType="product" source="manufacturer_page">Send an Enquiry</RequestCta></div></section>
 
       <section className="section shell">
-        <div className="section-heading"><div><p className="eyebrow">Вопросы и ответы</p><h2>Как оформить запрос</h2></div></div>
-        <div className="brand-faq-grid">
-          {faq.map((item) => <article className="content-card" key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></article>)}
-        </div>
-        <p className="trademark-note">
-          Товарный знак {displayName} принадлежит соответствующему правообладателю и используется для идентификации продукции. Страница не подтверждает статус официального дилера или представителя.
-          {logo && <> <Link href="/manufacturers/logos">Источник логотипа</Link></>}
-        </p>
+        <div className="section-heading"><div><p className="eyebrow">Questions and answers</p><h2>Preparing an RFQ</h2></div></div>
+        <div className="brand-faq-grid">{faq.map((item) => <article className="content-card" key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div>
+        <p className="trademark-note">The {displayName} trademark belongs to its respective owner and is used for identification. Source links and trademark references do not imply a commercial relationship with the trademark owner.{logo && <> <Link href="/manufacturers/logos">Logo source</Link></>}</p>
       </section>
 
       {brandJsonLd && <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(brandJsonLd) }} type="application/ld+json" />}

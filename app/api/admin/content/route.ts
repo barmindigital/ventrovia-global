@@ -11,14 +11,14 @@ export const dynamic = "force-dynamic";
 
 export async function GET() {
   if (!(await isAdminAuthenticated())) {
-    return NextResponse.json({ error: "Требуется вход" }, { status: 401 });
+    return NextResponse.json({ error: "Authentication required" }, { status: 401 });
   }
   try {
     const result = await loadEditableContent();
     return NextResponse.json({ ...result, storageConfigured: adminStorageConfigured() });
   } catch (error) {
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Не удалось загрузить контент" },
+      { error: error instanceof Error ? error.message : "Unable to load content" },
       { status: 502 },
     );
   }
@@ -26,10 +26,10 @@ export async function GET() {
 
 export async function PUT(request: Request) {
   if (!(await isAdminAuthenticated())) {
-    return NextResponse.json({ error: "Требуется вход" }, { status: 401 });
+    return NextResponse.json({ error: "Authentication required" }, { status: 401 });
   }
   if (!(await hasTrustedOrigin())) {
-    return NextResponse.json({ error: "Недопустимый источник запроса" }, { status: 403 });
+    return NextResponse.json({ error: "Request origin is not allowed" }, { status: 403 });
   }
 
   try {
@@ -40,7 +40,7 @@ export async function PUT(request: Request) {
     return NextResponse.json({ ok: true, sha: nextSha });
   } catch (error) {
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Не удалось сохранить контент" },
+      { error: error instanceof Error ? error.message : "Unable to save content" },
       { status: 400 },
     );
   }

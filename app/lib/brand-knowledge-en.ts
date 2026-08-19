@@ -1,0 +1,258 @@
+type SourceBackedBrand = {
+  manufacturerId: string;
+  officialName: string;
+  displayName: string;
+  aliases: string[];
+  formerNames: string[];
+  officialWebsite: string;
+  officialDomains: string[];
+  country: string | null;
+  headquarters: string | null;
+  foundedYear: number | null;
+  parentCompany: string | null;
+  shortDescription: string;
+  fullDescription: string[];
+  productCategories: string[];
+  productFamilies: string[];
+  series: string[];
+  industries: string[];
+  officialCatalogs: string[];
+  documentationSources: string[];
+  sources: Array<{
+    sourceId: string;
+    tier: "A" | "B" | "C" | "D";
+    type: string;
+    scope: string;
+    url: string;
+    status: string;
+    checkedAt: string;
+  }>;
+};
+
+const countryNames: Record<string, string> = {
+  "Австрия": "Austria",
+  "Бразилия": "Brazil",
+  "Великобритания": "United Kingdom",
+  "Германия": "Germany",
+  "Дания": "Denmark",
+  "Индия": "India",
+  "Италия": "Italy",
+  "Польша": "Poland",
+  "США": "United States",
+  "Турция": "Türkiye",
+  "Франция": "France",
+  "Швейцария": "Switzerland",
+  "Швеция": "Sweden",
+  "Япония": "Japan",
+};
+
+const headquartersNames: Record<string, string> = {
+  "Арциньяно, Италия": "Arzignano, Italy",
+  "Аясэ, Канагава, Япония": "Ayase, Kanagawa, Japan",
+  "Береа, Огайо, США": "Berea, Ohio, United States",
+  "Брухзаль, Германия": "Bruchsal, Germany",
+  "Будрио, Болонья, Италия": "Budrio, Bologna, Italy",
+  "Бухенбах, Германия": "Buchenbach, Germany",
+  "Вердоль, Германия": "Werdohl, Germany",
+  "Вертхайм, Германия": "Wertheim, Germany",
+  "Вупперталь, Германия": "Wuppertal, Germany",
+  "Гамбург, Германия": "Hamburg, Germany",
+  "Грац, Австрия": "Graz, Austria",
+  "Дюссельдорф, Германия": "Düsseldorf, Germany",
+  "Жарагуа-ду-Сул, Бразилия": "Jaraguá do Sul, Brazil",
+  "Инверуно, Милан, Италия": "Inveruno, Milan, Italy",
+  "Ингельфинген, Германия": "Ingelfingen, Germany",
+  "Кальдерара-ди-Рено, Италия": "Calderara di Reno, Italy",
+  "Киль, Германия": "Kiel, Germany",
+  "Конья, Турция": "Konya, Türkiye",
+  "Кюнцельзау, Германия": "Künzelsau, Germany",
+  "Мансфилд, Огайо, США": "Mansfield, Ohio, United States",
+  "Маростика, Италия": "Marostica, Italy",
+  "Монсвиллер, Франция": "Monswiller, France",
+  "Монтеккьо-Маджоре, Виченца, Италия": "Montecchio Maggiore, Vicenza, Italy",
+  "Мюнхен, Германия": "Munich, Germany",
+  "Падуя, Италия": "Padua, Italy",
+  "Парабьяго, Италия": "Parabiago, Italy",
+  "Пеоста, Айова, США": "Peosta, Iowa, United States",
+  "Пессано-кон-Борнаго, Италия": "Pessano con Bornago, Italy",
+  "Пуна, Индия": "Pune, India",
+  "Ратинген, Германия": "Ratingen, Germany",
+  "Роли, Северная Каролина, США": "Raleigh, North Carolina, United States",
+  "Токио, Япония": "Tokyo, Japan",
+  "Цешин, Польша": "Cieszyn, Poland",
+  "Шакопи, Миннесота, США": "Shakopee, Minnesota, United States",
+  "Швейцария": "Switzerland",
+  "Эльде, Германия": "Oelde, Germany",
+  "Эсслинген-ам-Неккар, Германия": "Esslingen am Neckar, Germany",
+};
+
+const categoryRules: Array<[RegExp, string]> = [
+  [/RFID/iu, "RFID and identification systems"],
+  [/CNC|ЧПУ/iu, "CNC systems"],
+  [/HVAC/iu, "HVAC controls"],
+  [/FRL/iu, "compressed-air preparation"],
+  [/3D-датчик/iu, "3D sensors"],
+  [/насос/iu, "pumps and pumping systems"],
+  [/электродвигател|двигател/iu, "electric motors"],
+  [/энкодер|резольвер|тахогенератор/iu, "encoders and feedback systems"],
+  [/датчик|измерительн.*щуп|инклинометр|тензодатчик/iu, "industrial sensors"],
+  [/гидравлик|гидроаккумулятор|гидроцилиндр|гидростанц/iu, "hydraulic equipment"],
+  [/пневм/iu, "pneumatic equipment"],
+  [/клапан|арматур|задвиж|затвор|позиционер/iu, "industrial valves and flow control"],
+  [/компресс/iu, "compressors and compressed-air systems"],
+  [/вакуум|течеискател|масс-спектрометр/iu, "vacuum equipment"],
+  [/фильтр|фильтрац|водоподготов|водоотвед|дезинфекц/iu, "filtration and water systems"],
+  [/подшипник/iu, "bearings"],
+  [/редуктор|мотор-редуктор|вариатор/iu, "gear units and geared drives"],
+  [/привод|управление движением|контроль движения|motion control/iu, "drive and motion-control systems"],
+  [/автомат|PLC|ПЛК|контроллер|HMI|интерфейсн/iu, "industrial automation and control"],
+  [/измерен|измеритель|расходомер|уровнемер|регистратор|счётчик|калибров/iu, "measurement and instrumentation"],
+  [/лаборатор|хроматограф|спектрометр/iu, "laboratory and analytical equipment"],
+  [/станк|обрабатывающ|пресс|маркиров|машин/iu, "industrial machinery"],
+  [/конвейер|сортиров|пневматический транспорт|паллетн/iu, "conveying and material-handling systems"],
+  [/кабел|разъём|токосъём/iu, "industrial connectivity"],
+  [/робот|захват|AGV|AMR/iu, "robotics and automation components"],
+  [/безопасн|блокиров|световые завесы|концевые выключатели/iu, "machine-safety systems"],
+  [/свароч|резк|шлифов/iu, "welding and cutting equipment"],
+  [/вентилятор|воздуходув/iu, "industrial fans and blowers"],
+  [/тепло|нагрев|охлажд|холодиль|чиллер|кондиционир/iu, "thermal-management equipment"],
+  [/электрификац|электроэнерг|трансформатор|источник питания|силовые преобразователи/iu, "electrical power systems"],
+  [/уплотнен|диафрагм|компенсатор/iu, "sealing components"],
+  [/смаз|лубрикатор/iu, "lubrication systems"],
+  [/муфт|тормоз/iu, "brakes and couplings"],
+  [/цилиндр|актуатор|линейн|шарико-винтов|роликовые винты/iu, "linear-motion components"],
+  [/окрас|покрыт|распыл|диспергатор/iu, "coating and finishing equipment"],
+  [/кран|подъём|тали/iu, "lifting and crane systems"],
+  [/сепаратор|центрифуг|переработ/iu, "process equipment"],
+  [/турбин/iu, "turbomachinery"],
+  [/резервуар|хранения газа/iu, "fluid-storage systems"],
+  [/цепи/iu, "industrial chains"],
+  [/прокладк/iu, "industrial gaskets"],
+  [/реле/iu, "industrial relays"],
+  [/инструмент/iu, "industrial tools"],
+  [/программное обеспечение|ПО для/iu, "industrial software"],
+  [/бумагоделатель/iu, "paper-production equipment"],
+  [/инфраструктур/iu, "infrastructure technologies"],
+  [/регулятор/iu, "control and regulation equipment"],
+];
+
+const industryRules: Array<[RegExp, string]> = [
+  [/нефт|газ/iu, "oil and gas"],
+  [/вод/iu, "water and wastewater"],
+  [/энерг|электроэнерг|ветро/iu, "energy"],
+  [/пищ|фарма/iu, "food and pharmaceutical processing"],
+  [/автомоб|транспорт/iu, "transportation"],
+  [/морск|судостро/iu, "marine applications"],
+  [/горн/iu, "mining"],
+  [/хим|нефтехим/iu, "chemical processing"],
+  [/металл|станк|машиностро/iu, "industrial manufacturing"],
+  [/автомат|робот|интралогист/iu, "factory automation"],
+  [/лаборатор|исследован|медицин|здравоохран/iu, "laboratory and life-science applications"],
+  [/полупровод|электроник/iu, "electronics and semiconductor manufacturing"],
+  [/здан|HVAC|отоплен|охлажден/iu, "building systems"],
+  [/упаков/iu, "packaging"],
+  [/сельск/iu, "agriculture"],
+  [/авиа|аэрокосм/iu, "aerospace"],
+  [/железнодорож/iu, "rail"],
+  [/дерево|целлюлоз/iu, "wood and paper processing"],
+  [/промышлен|производств|process|технологическ/iu, "industrial processing"],
+];
+
+function unique(values: Array<string | null>) {
+  return [...new Set(values.filter((value): value is string => Boolean(value)))];
+}
+
+function englishIdentityValues(values: string[]) {
+  return unique(values.filter((value) => !/[А-Яа-яЁё]/u.test(value)));
+}
+
+function normalized(value: string, rules: Array<[RegExp, string]>) {
+  return rules.find(([pattern]) => pattern.test(value))?.[1] ?? null;
+}
+
+function list(values: string[]) {
+  if (values.length < 2) return values[0] ?? "industrial equipment";
+  if (values.length === 2) return `${values[0]} and ${values[1]}`;
+  return `${values.slice(0, -1).join(", ")}, and ${values.at(-1)}`;
+}
+
+function seed(value: string) {
+  return [...value].reduce((sum, character) => (sum * 33 + character.codePointAt(0)!) >>> 0, 5381);
+}
+
+export type EnglishBrandProfile = Omit<
+  SourceBackedBrand,
+  "shortDescription" | "fullDescription" | "productCategories" | "industries"
+> & {
+  shortDescription: string;
+  fullDescription: string[];
+  productCategories: string[];
+  industries: string[];
+  contentLanguage: "en";
+  enContentStatus: "EN_CONTENT_READY";
+  enSeoStatus: "EN_SEO_READY";
+};
+
+export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandProfile {
+  const productCategories = unique(
+    profile.productCategories.map((category) => normalized(category, categoryRules)),
+  );
+  const industries = unique(
+    profile.industries.map((industry) => normalized(industry, industryRules)),
+  );
+  if (!productCategories.length) {
+    throw new Error(`No evidence-backed English product area mapping for ${profile.manufacturerId}`);
+  }
+
+  const primaryAreas = productCategories.slice(0, 3);
+  const variant = seed(profile.manufacturerId) % 3;
+  const shortDescriptions = [
+    `${profile.displayName} is an industrial manufacturer whose official portfolio covers ${list(primaryAreas)}. This source-backed profile supports specification-led international sourcing.`,
+    `Official ${profile.displayName} materials identify product areas including ${list(primaryAreas)}. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.`,
+    `${profile.displayName}'s documented product range includes ${list(primaryAreas)}. The profile is built from official manufacturer sources for international industrial sourcing.`,
+  ];
+
+  const locationFacts = [
+    profile.country ? `Brand origin: ${countryNames[profile.country] ?? profile.country}.` : "",
+    profile.headquarters ? `Headquarters: ${headquartersNames[profile.headquarters] ?? profile.headquarters}.` : "",
+    profile.foundedYear ? `The official company record dates its foundation to ${profile.foundedYear}.` : "",
+    profile.parentCompany ? `The documented corporate group is ${profile.parentCompany}.` : "",
+  ].filter(Boolean);
+  const productFamilies = englishIdentityValues(profile.productFamilies);
+  const series = englishIdentityValues(profile.series);
+  const familyNames = unique([...productFamilies, ...series]);
+  const sourceTypes = unique(profile.sources.map((source) => source.type.toLocaleLowerCase("en")))
+    .slice(0, 3)
+    .join(", ");
+
+  const fullDescription = [
+    `${profile.displayName}'s official product information covers ${list(productCategories.slice(0, 6))}. ${locationFacts.join(" ")}`.trim(),
+    familyNames.length
+      ? `Manufacturer documentation identifies product families or lines including ${list(familyNames.slice(0, 8))}. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.`
+      : `The available manufacturer-owned ${sourceTypes || "company and product"} sources confirm the product areas shown on this page. Exact technical characteristics, production status and compatibility remain subject to the relevant model- or product-level documentation.`,
+    industries.length
+      ? `The official application scope includes ${list(industries.slice(0, 5))}. For a commercial review, Ventrovia requests the complete model, part number or technical specification.`
+      : `For a commercial review, Ventrovia requests the complete model, part number or technical specification so that the exact requirement can be checked against the appropriate official material.`,
+  ];
+
+  return {
+    ...profile,
+    aliases: englishIdentityValues(profile.aliases),
+    formerNames: englishIdentityValues(profile.formerNames),
+    country: profile.country ? countryNames[profile.country] ?? null : null,
+    headquarters: profile.headquarters ? headquartersNames[profile.headquarters] ?? null : null,
+    parentCompany:
+      profile.parentCompany && !/[А-Яа-яЁё]/u.test(profile.parentCompany)
+        ? profile.parentCompany
+        : null,
+    shortDescription: shortDescriptions[variant],
+    fullDescription,
+    productCategories,
+    productFamilies,
+    series,
+    industries,
+    contentLanguage: "en",
+    enContentStatus: "EN_CONTENT_READY",
+    enSeoStatus: "EN_SEO_READY",
+  };
+}

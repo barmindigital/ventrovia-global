@@ -17,11 +17,11 @@ type PageKey = keyof SiteContent["pages"];
 type PageField = keyof PageContent;
 
 const pageLabels: Record<PageKey, string> = {
-  home: "Главная",
-  catalog: "Каталог",
-  manufacturers: "Производители",
-  about: "О компании",
-  contacts: "Контакты",
+  home: "Home",
+  catalog: "Archived catalogue request page",
+  manufacturers: "Manufacturers",
+  about: "About",
+  contacts: "Contact",
 };
 
 function EditableField({
@@ -70,16 +70,16 @@ export function AdminPanel() {
         return;
       }
       const payload = (await response.json()) as ContentResponse & { error?: string };
-      if (!response.ok) throw new Error(payload.error || "Не удалось загрузить данные");
+      if (!response.ok) throw new Error(payload.error || "Unable to load content");
       setAuthenticated(true);
       setContent(payload.content);
       setSha(payload.sha);
       setStorageConfigured(payload.storageConfigured);
       if (!payload.storageConfigured) {
-        setMessage({ kind: "notice", text: "Просмотр доступен, но сохранение в GitHub ещё не настроено." });
+        setMessage({ kind: "notice", text: "Read-only mode: GitHub content storage is not configured." });
       }
     } catch (error) {
-      setMessage({ kind: "error", text: error instanceof Error ? error.message : "Ошибка загрузки" });
+      setMessage({ kind: "error", text: error instanceof Error ? error.message : "Loading failed" });
     } finally {
       setBusy(false);
     }
@@ -92,7 +92,7 @@ export function AdminPanel() {
       .then(async (response) => {
         if (response.status === 401) return { unauthorized: true } as const;
         const payload = (await response.json()) as ContentResponse & { error?: string };
-        if (!response.ok) throw new Error(payload.error || "Не удалось загрузить данные");
+        if (!response.ok) throw new Error(payload.error || "Unable to load content");
         return { unauthorized: false, payload } as const;
       })
       .then((result) => {
@@ -107,11 +107,11 @@ export function AdminPanel() {
         setSha(result.payload.sha);
         setStorageConfigured(result.payload.storageConfigured);
         if (!result.payload.storageConfigured) {
-          setMessage({ kind: "notice", text: "Просмотр доступен, но сохранение в GitHub ещё не настроено." });
+          setMessage({ kind: "notice", text: "Read-only mode: GitHub content storage is not configured." });
         }
       })
       .catch((error: unknown) => {
-        if (active) setMessage({ kind: "error", text: error instanceof Error ? error.message : "Ошибка загрузки" });
+        if (active) setMessage({ kind: "error", text: error instanceof Error ? error.message : "Loading failed" });
       })
       .finally(() => {
         if (active) setBusy(false);
@@ -133,11 +133,11 @@ export function AdminPanel() {
         body: JSON.stringify({ password }),
       });
       const payload = (await response.json()) as { error?: string };
-      if (!response.ok) throw new Error(payload.error || "Не удалось войти");
+      if (!response.ok) throw new Error(payload.error || "Unable to sign in");
       setPassword("");
       await loadContent();
     } catch (error) {
-      setMessage({ kind: "error", text: error instanceof Error ? error.message : "Ошибка входа" });
+      setMessage({ kind: "error", text: error instanceof Error ? error.message : "Sign-in failed" });
     } finally {
       setBusy(false);
     }
@@ -162,14 +162,14 @@ export function AdminPanel() {
         body: JSON.stringify({ content, sha }),
       });
       const payload = (await response.json()) as { error?: string; sha?: string | null };
-      if (!response.ok) throw new Error(payload.error || "Не удалось сохранить изменения");
+      if (!response.ok) throw new Error(payload.error || "Unable to save changes");
       setSha(payload.sha ?? sha);
       setMessage({
         kind: "success",
-        text: "Изменения сохранены в GitHub. Timeweb автоматически запустит новую публикацию.",
+        text: "Changes were saved to GitHub. The configured hosting workflow can now publish them.",
       });
     } catch (error) {
-      setMessage({ kind: "error", text: error instanceof Error ? error.message : "Ошибка сохранения" });
+      setMessage({ kind: "error", text: error instanceof Error ? error.message : "Save failed" });
     } finally {
       setBusy(false);
     }
@@ -207,7 +207,7 @@ export function AdminPanel() {
   function addHistoryItem() {
     setContent((current) => current && ({
       ...current,
-      companyHistory: [...current.companyHistory, { year: "Новый год", text: "Описание события" }],
+      companyHistory: [...current.companyHistory, { year: "Year", text: "Source-backed event description" }],
     }));
   }
 
@@ -219,7 +219,7 @@ export function AdminPanel() {
   }
 
   if (authenticated === null) {
-    return <main className={styles.page}><div className={styles.loginWrap}><p className={styles.status}>Загрузка панели…</p></div></main>;
+    return <main className={styles.page}><div className={styles.loginWrap}><p className={styles.status}>Loading administration…</p></div></main>;
   }
 
   if (!authenticated) {
@@ -227,11 +227,11 @@ export function AdminPanel() {
       <main className={styles.page}>
         <div className={styles.loginWrap}>
           <form className={`${styles.loginCard} ym-disable-keys`} onSubmit={login}>
-            <p className={styles.eyebrow}>Индустрия поставок</p>
-            <h1>Вход в управление сайтом</h1>
-            <p className={styles.hint}>Здесь маркетолог может менять тексты, контакты и SEO без работы с кодом.</p>
-            <EditableField label="Пароль" value={password} onChange={setPassword} type="password" />
-            <button className={styles.button} type="submit" disabled={busy || !password}>Войти</button>
+            <p className={styles.eyebrow}>VENTROVIA</p>
+            <h1>Site administration</h1>
+            <p className={styles.hint}>Authorised editors can manage public copy, contact details and SEO settings.</p>
+            <EditableField label="Password" value={password} onChange={setPassword} type="password" />
+            <button className={styles.button} type="submit" disabled={busy || !password}>Sign in</button>
             {message ? <p className={styles[message.kind]}>{message.text}</p> : null}
           </form>
         </div>
@@ -240,7 +240,7 @@ export function AdminPanel() {
   }
 
   if (!content) {
-    return <main className={styles.page}><div className={styles.loginWrap}><p className={styles.error}>Данные не загружены.</p></div></main>;
+    return <main className={styles.page}><div className={styles.loginWrap}><p className={styles.error}>Content was not loaded.</p></div></main>;
   }
 
   return (
@@ -248,22 +248,20 @@ export function AdminPanel() {
       <div className={styles.shell}>
         <header className={styles.header}>
           <div>
-            <p className={styles.eyebrow}>Контент и SEO</p>
-            <h1 className={styles.title}>Управление сайтом</h1>
-            <p className={styles.lead}>Все изменения проверяются сервером, записываются в GitHub и после успешной сборки автоматически появляются на Timeweb.</p>
+            <p className={styles.eyebrow}>Content and SEO</p>
+            <h1 className={styles.title}>Site administration</h1>
+            <p className={styles.lead}>Changes are validated server-side and stored through the configured repository workflow.</p>
           </div>
-          <span className={styles.badge}>{storageConfigured ? "GitHub подключён" : "Только просмотр"}</span>
+          <span className={styles.badge}>{storageConfigured ? "GitHub connected" : "Read only"}</span>
         </header>
 
         <div className={styles.toolbar}>
           <div>
-            <strong>Черновик текущей версии</strong>
+            <strong>Current content draft</strong>
             {message ? <p className={styles[message.kind]}>{message.text}</p> : null}
           </div>
           <div className={styles.toolbarActions}>
             <Link className={styles.buttonGhost} href="/admin/brand-health">Brand Health</Link>
-            <Link className={styles.buttonGhost} href="/admin/catalog-review">Очередь каталога</Link>
-            <Link className={styles.buttonGhost} href="/admin/catalog-health">Качество данных</Link>
             <button
               className={styles.buttonGhost}
               type="button"
@@ -274,28 +272,28 @@ export function AdminPanel() {
               }}
               disabled={busy}
             >
-              Обновить
+              Refresh
             </button>
-            <button className={styles.buttonGhost} type="button" onClick={() => void logout()} disabled={busy}>Выйти</button>
-            <button className={styles.button} type="button" onClick={() => void save()} disabled={busy || !storageConfigured}>Сохранить и опубликовать</button>
+            <button className={styles.buttonGhost} type="button" onClick={() => void logout()} disabled={busy}>Sign out</button>
+            <button className={styles.button} type="button" onClick={() => void save()} disabled={busy || !storageConfigured}>Save and publish</button>
           </div>
         </div>
 
         <section className={styles.section}>
-          <h2>Общие настройки</h2>
-          <p className={styles.hint}>Заголовок и описание по умолчанию используются там, где нет отдельных настроек страницы.</p>
+          <h2>General settings</h2>
+          <p className={styles.hint}>Default metadata are used where a page has no dedicated settings.</p>
           <div className={styles.grid}>
-            <EditableField label="Название компании" value={content.site.name} onChange={(value) => updateSite("name", value)} maxLength={80} />
-            <EditableField label="SEO-заголовок по умолчанию" value={content.site.defaultSeoTitle} onChange={(value) => updateSite("defaultSeoTitle", value)} maxLength={120} />
-            <EditableField label="SEO-описание по умолчанию" value={content.site.defaultSeoDescription} onChange={(value) => updateSite("defaultSeoDescription", value)} multiline maxLength={220} />
-            <EditableField label="Заголовок при публикации ссылки" value={content.site.openGraphTitle} onChange={(value) => updateSite("openGraphTitle", value)} maxLength={140} />
-            <EditableField label="Описание при публикации ссылки" value={content.site.openGraphDescription} onChange={(value) => updateSite("openGraphDescription", value)} multiline maxLength={240} />
+            <EditableField label="Company name" value={content.site.name} onChange={(value) => updateSite("name", value)} maxLength={80} />
+            <EditableField label="Default SEO title" value={content.site.defaultSeoTitle} onChange={(value) => updateSite("defaultSeoTitle", value)} maxLength={120} />
+            <EditableField label="Default SEO description" value={content.site.defaultSeoDescription} onChange={(value) => updateSite("defaultSeoDescription", value)} multiline maxLength={220} />
+            <EditableField label="Open Graph title" value={content.site.openGraphTitle} onChange={(value) => updateSite("openGraphTitle", value)} maxLength={140} />
+            <EditableField label="Open Graph description" value={content.site.openGraphDescription} onChange={(value) => updateSite("openGraphDescription", value)} multiline maxLength={240} />
           </div>
         </section>
 
         <section className={styles.section}>
-          <h2>Страницы сайта</h2>
-          <p className={styles.hint}>SEO-заголовок виден в поиске и вкладке браузера. H1 — основной заголовок на странице. Для переноса строки в H1 нажмите Enter.</p>
+          <h2>Public pages</h2>
+          <p className={styles.hint}>The SEO title appears in search results and the browser tab. H1 is the main visible page heading.</p>
           <div className={styles.grid}>
             {(Object.keys(pageLabels) as PageKey[]).map((pageKey) => {
               const page = content.pages[pageKey];
@@ -304,9 +302,9 @@ export function AdminPanel() {
                   <h3>{pageLabels[pageKey]}</h3>
                   <EditableField label="SEO title" value={page.seoTitle} onChange={(value) => updatePage(pageKey, "seoTitle", value)} maxLength={120} />
                   <EditableField label="SEO description" value={page.seoDescription} onChange={(value) => updatePage(pageKey, "seoDescription", value)} multiline maxLength={220} />
-                  <EditableField label="Надпись над заголовком" value={page.eyebrow} onChange={(value) => updatePage(pageKey, "eyebrow", value)} maxLength={100} />
+                  <EditableField label="Eyebrow" value={page.eyebrow} onChange={(value) => updatePage(pageKey, "eyebrow", value)} maxLength={100} />
                   <EditableField label="H1" value={page.heading} onChange={(value) => updatePage(pageKey, "heading", value)} multiline maxLength={220} />
-                  <EditableField label="Вводный текст" value={page.intro} onChange={(value) => updatePage(pageKey, "intro", value)} multiline maxLength={700} />
+                  <EditableField label="Introduction" value={page.intro} onChange={(value) => updatePage(pageKey, "intro", value)} multiline maxLength={700} />
                 </article>
               );
             })}
@@ -314,43 +312,43 @@ export function AdminPanel() {
         </section>
 
         <section className={styles.section}>
-          <h2>Шаблоны товарных и брендовых страниц</h2>
-          <p className={styles.hint}>Переменные в фигурных скобках подставляются автоматически. Не удаляйте их, если хотите видеть название, бренд и модель.</p>
+          <h2>Archived product and manufacturer templates</h2>
+          <p className={styles.hint}>Product templates are retained for archive restoration only. Manufacturer pages use the international Brand Knowledge layer.</p>
           <div className={styles.grid}>
-            <EditableField label="Title товара" value={content.templates.productTitle} onChange={(value) => updateTemplate("productTitle", value)} maxLength={300} />
-            <EditableField label="Description товара" value={content.templates.productDescription} onChange={(value) => updateTemplate("productDescription", value)} multiline maxLength={300} />
-            <EditableField label="Title производителя" value={content.templates.manufacturerTitle} onChange={(value) => updateTemplate("manufacturerTitle", value)} maxLength={300} />
-            <EditableField label="Description производителя" value={content.templates.manufacturerDescription} onChange={(value) => updateTemplate("manufacturerDescription", value)} multiline maxLength={300} />
+            <EditableField label="Archived product title" value={content.templates.productTitle} onChange={(value) => updateTemplate("productTitle", value)} maxLength={300} />
+            <EditableField label="Archived product description" value={content.templates.productDescription} onChange={(value) => updateTemplate("productDescription", value)} multiline maxLength={300} />
+            <EditableField label="Manufacturer title" value={content.templates.manufacturerTitle} onChange={(value) => updateTemplate("manufacturerTitle", value)} maxLength={300} />
+            <EditableField label="Manufacturer description" value={content.templates.manufacturerDescription} onChange={(value) => updateTemplate("manufacturerDescription", value)} multiline maxLength={300} />
           </div>
         </section>
 
         <section className={styles.section}>
-          <h2>Контакты</h2>
+          <h2>Contact details</h2>
           <div className={styles.grid}>
-            <EditableField label="Телефон на сайте" value={content.contacts.phoneDisplay} onChange={(value) => updateContact("phoneDisplay", value)} />
-            <EditableField label="Телефон для ссылки" value={content.contacts.phoneHref} onChange={(value) => updateContact("phoneHref", value)} />
+            <EditableField label="Displayed phone" value={content.contacts.phoneDisplay} onChange={(value) => updateContact("phoneDisplay", value)} />
+            <EditableField label="Phone link" value={content.contacts.phoneHref} onChange={(value) => updateContact("phoneHref", value)} />
             <EditableField label="E-mail" value={content.contacts.email} onChange={(value) => updateContact("email", value)} />
-            <EditableField label="Адрес" value={content.contacts.address} onChange={(value) => updateContact("address", value)} multiline />
-            <EditableField label="Рабочие дни" value={content.contacts.weekdays} onChange={(value) => updateContact("weekdays", value)} />
-            <EditableField label="Выходные" value={content.contacts.weekend} onChange={(value) => updateContact("weekend", value)} />
+            <EditableField label="Address" value={content.contacts.address} onChange={(value) => updateContact("address", value)} multiline />
+            <EditableField label="Business days" value={content.contacts.weekdays} onChange={(value) => updateContact("weekdays", value)} />
+            <EditableField label="Weekend" value={content.contacts.weekend} onChange={(value) => updateContact("weekend", value)} />
           </div>
         </section>
 
         <section className={styles.section}>
-          <h2>История компании</h2>
-          <p className={styles.hint}>События выводятся на странице «О компании» в хронологической ленте.</p>
+          <h2>Company history</h2>
+          <p className={styles.hint}>Only source-backed corporate events may be published.</p>
           <div className={styles.historyGrid}>
             {content.companyHistory.map((item, index) => (
               <article className={styles.historyCard} key={`${item.year}-${index}`}>
-                <h3>Событие {index + 1}</h3>
-                <EditableField label="Год" value={item.year} onChange={(value) => updateHistory(index, "year", value)} />
-                <EditableField label="Описание" value={item.text} onChange={(value) => updateHistory(index, "text", value)} multiline maxLength={1400} />
-                <button className={styles.buttonDanger} type="button" onClick={() => removeHistoryItem(index)} disabled={content.companyHistory.length <= 1}>Удалить событие</button>
+                <h3>Event {index + 1}</h3>
+                <EditableField label="Year" value={item.year} onChange={(value) => updateHistory(index, "year", value)} />
+                <EditableField label="Description" value={item.text} onChange={(value) => updateHistory(index, "text", value)} multiline maxLength={1400} />
+                <button className={styles.buttonDanger} type="button" onClick={() => removeHistoryItem(index)} disabled={content.companyHistory.length <= 1}>Remove event</button>
               </article>
             ))}
           </div>
           <div className={styles.rowActions}>
-            <button className={styles.buttonGhost} type="button" onClick={addHistoryItem}>Добавить событие</button>
+            <button className={styles.buttonGhost} type="button" onClick={addHistoryItem}>Add event</button>
           </div>
         </section>
       </div>

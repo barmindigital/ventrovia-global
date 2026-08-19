@@ -1,6 +1,5 @@
 import "server-only";
-import facts from "../../data/brand-knowledge/curated-brand-facts.json";
-import wave4Facts from "../../data/brand-knowledge/curated-brand-facts-wave-4.json";
+import internationalKnowledge from "../../data/brand-knowledge-international/profiles.json";
 
 export type BrandSource = {
   sourceId: string;
@@ -33,18 +32,20 @@ export type BrandKnowledgeProfile = {
   officialCatalogs: string[];
   documentationSources: string[];
   sources: BrandSource[];
+  contentLanguage: "en";
+  enContentStatus: "EN_CONTENT_READY";
+  enSeoStatus: "EN_SEO_READY";
 };
 
 export type BrandReadiness = "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
 
 const profiles = new Map(
-  ([...facts.profiles, ...wave4Facts.profiles] as BrandKnowledgeProfile[]).map((profile) => [
-    profile.manufacturerId,
-    profile,
-  ]),
+  (internationalKnowledge.profiles as BrandKnowledgeProfile[]).map(
+    (profile) => [profile.manufacturerId, profile],
+  ),
 );
 const blocked = new Set(
-  [...facts.blockedIdentities, ...wave4Facts.blockedIdentities]
+  internationalKnowledge.blockedIdentities
     .map((entry) => entry.manufacturerId),
 );
 
@@ -67,18 +68,18 @@ export function brandDisplayName(slug: string, fallback: string) {
 
 export function brandSeoTitle(slug: string, fallback: string) {
   const profile = profiles.get(slug);
-  if (!profile) return `${fallback}: подбор по модели`;
-  const primaryCategory = profile.productCategories[0].toLocaleLowerCase("ru");
-  return `${profile.displayName} — ${primaryCategory}`;
+  if (!profile) return `${fallback} equipment sourcing | Ventrovia`;
+  const primaryCategory = profile.productCategories[0];
+  return `${profile.displayName} ${primaryCategory} | Ventrovia`;
 }
 
 export function brandMetaDescription(slug: string, fallback: string) {
   const profile = profiles.get(slug);
   if (profile) {
-    const areas = profile.productCategories.slice(0, 3).join(", ").toLocaleLowerCase("ru");
-    return `Поставка оборудования ${profile.displayName}: ${areas}. Отправьте артикул или спецификацию для расчёта цены и срока.`;
+    const areas = profile.productCategories.slice(0, 3).join(", ");
+    return `Source ${profile.displayName} equipment across ${areas}. Send the complete part number, model or specification for pricing and lead-time review.`;
   }
-  return `${fallback}: подбор продукции по полной модели, артикулу, маркировке или спецификации. Данные проверяются перед подготовкой предложения.`;
+  return `Request sourcing support for ${fallback} equipment using the complete model, part number or technical specification.`;
 }
 
 export const indexableBrandSlugs = Object.freeze([...profiles.keys()]);

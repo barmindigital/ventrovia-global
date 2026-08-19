@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { BrandHealthAdmin } from "@/app/components/admin/BrandHealthAdmin";
 
 export const metadata: Metadata = {
-  title: "Здоровье производителей",
+  title: "Manufacturer data health",
   robots: { index: false, follow: false, nocache: true },
 };
 
