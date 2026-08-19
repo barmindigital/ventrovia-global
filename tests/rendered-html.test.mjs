@@ -120,6 +120,14 @@ test("mailbox access remains separate from the domain cutover gate", async () =>
   assert.match(handoff, /Email delivery is a separate blocker/);
 });
 
+test("www uses a permanent host-only redirect to the canonical apex", async () => {
+  const config = await readFile(new URL("../next.config.ts", import.meta.url), "utf8");
+  assert.match(config, /www\.ventroviaglobal\.com/);
+  assert.match(config, /https:\/\/ventroviaglobal\.com\/:path\*/);
+  assert.match(config, /permanent: true/);
+  assert.doesNotMatch(config, /www\.industriapostavok\.ru/);
+});
+
 test("not-found response is English and noindex", async () => {
   const response = await render("/missing-ventrovia-page");
   assert.equal(response.status, 404);
