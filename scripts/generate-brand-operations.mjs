@@ -19,6 +19,7 @@ const [identityIndex, knowledge, logos] = await Promise.all([
 
 const profiles = new Map(knowledge.profiles.map((profile) => [profile.manufacturerId, profile]));
 const blocked = new Map(knowledge.blockedIdentities.map((item) => [item.manufacturerId, item]));
+const logoByManufacturer = new Map(logos.map((item) => [item.manufacturerId, item]));
 const publishableLogos = new Set(
   logos.filter((item) => item.publicationStatus === "PUBLISHABLE").map((item) => item.manufacturerId),
 );
@@ -226,6 +227,143 @@ const deterministicSample = {
   })),
 };
 
+const reviewAfter = "2026-09-19";
+const sourceCache = {
+  version: 1,
+  checkedAt: "2026-08-19",
+  positive: knowledge.profiles.flatMap((profile) =>
+    profile.sources.map((source) => ({
+      manufacturerId: profile.manufacturerId,
+      domain: new URL(source.url).hostname.replace(/^www\./u, ""),
+      url: source.url,
+      sourceType: source.type,
+      scope: source.scope,
+      tier: source.tier,
+      httpState: source.status,
+      checkedAt: source.checkedAt,
+    })),
+  ),
+  negative: knowledge.blockedIdentities.map((item) => ({
+    manufacturerId: item.manufacturerId,
+    status: item.status,
+    attemptedUrls: item.attemptedUrls,
+    checkedAt: item.checkedAt,
+    nextReviewAt: item.status === "BLOCKED_EXTERNAL_SOURCE" ? reviewAfter : null,
+    reason: item.reason,
+  })),
+};
+
+const massBrandSourceResults = identityIndex.manufacturers.map((manufacturer, index) => {
+  const profile = profiles.get(manufacturer.slug);
+  const blockedItem = blocked.get(manufacturer.slug);
+  const mappedLogo = logoByManufacturer.get(manufacturer.slug);
+  const status = profile ? "BRAND_SAFE" : blockedItem ? "BRAND_REVIEW" : "BRAND_WEAK";
+  const effortClass = blockedItem
+    ? "BLOCKED"
+    : profile
+      ? "FAST"
+      : mappedLogo
+        ? "FAST"
+        : index < 500
+          ? "NORMAL"
+          : "EXPENSIVE";
+  return {
+    manufacturerId: manufacturer.slug,
+    displayName: profile?.displayName ?? manufacturer.name,
+    status,
+    priority: index + 1,
+    effortClass,
+    domain: profile?.officialDomains[0] ?? null,
+    sources: profile?.sources.map((source) => ({
+      type: source.type,
+      tier: source.tier,
+      scope: source.scope,
+      url: source.url,
+      checkedAt: source.checkedAt,
+    })) ?? [],
+    facts: profile
+      ? {
+          identity: true,
+          specialization: profile.productCategories,
+          families: profile.productFamilies,
+          industries: profile.industries,
+          country: profile.country,
+          headquarters: profile.headquarters,
+        }
+      : null,
+    logoStatus: mappedLogo?.publicationStatus ?? "MISSING",
+    blocker: blockedItem
+      ? { code: blockedItem.status, reason: blockedItem.reason }
+      : profile
+        ? null
+        : {
+            code: "MISSING_OFFICIAL_IDENTITY_SOURCE",
+            reason: "Manufacturer-owned identity and product-area evidence has not been verified yet.",
+          },
+    checkedAt: profile
+      ? profile.sources.map((source) => source.checkedAt).sort().at(-1) ?? null
+      : blockedItem?.checkedAt ?? null,
+    nextReviewAt: blockedItem?.status === "BLOCKED_EXTERNAL_SOURCE" ? reviewAfter : null,
+  };
+});
+
+const internationalBrandSemanticMap = knowledge.profiles.map((profile) => ({
+  manufacturerId: profile.manufacturerId,
+  brand: profile.displayName,
+  primaryCategory: profile.productCategories[0],
+  secondaryCategories: profile.productCategories.slice(1),
+  families: [...new Set([...profile.productFamilies, ...profile.series])],
+  primarySeoIntent: `${profile.displayName} ${profile.productCategories[0]}`,
+  secondarySeoIntents: [
+    `${profile.displayName} industrial equipment`,
+    `${profile.displayName} sourcing`,
+    `${profile.displayName} RFQ`,
+  ],
+  evidenceCoverage: {
+    officialDomains: profile.officialDomains.length,
+    sources: profile.sources.length,
+    tierA: profile.sources.filter((source) => source.tier === "A").length,
+    categories: profile.productCategories.length,
+    families: profile.productFamilies.length + profile.series.length,
+  },
+}));
+
+const categoryCounts = new Map();
+for (const profile of knowledge.profiles) {
+  for (const category of profile.productCategories) {
+    categoryCounts.set(category, (categoryCounts.get(category) ?? 0) + 1);
+  }
+}
+const categoryOpportunityReport = {
+  version: 1,
+  checkedAt: "2026-08-19",
+  scope: "REPORT_ONLY_NO_PUBLIC_CATEGORY_URLS",
+  minimumRecommendedCoverage: 8,
+  categories: [...categoryCounts]
+    .map(([category, brandCount]) => ({
+      category,
+      brandCount,
+      recommendation:
+        brandCount >= 8
+          ? "CANDIDATE_FOR_EDITORIAL_REVIEW"
+          : "INSUFFICIENT_VERIFIED_COVERAGE",
+    }))
+    .sort((left, right) => right.brandCount - left.brandCount || left.category.localeCompare(right.category)),
+};
+
+const processingMetrics = {
+  measurementStatus: "NOT_MEASURED",
+  reason: "Historical source batches did not record elapsed processing time per manufacturer.",
+  processedManufacturers: profiles.size + blocked.size,
+  safe: profiles.size,
+  blockedOrReview: blocked.size,
+  sourceSuccessRate: Number((profiles.size / (profiles.size + blocked.size)).toFixed(4)),
+  averageSourcesPerSafe: Number((officialSourceCount / profiles.size).toFixed(2)),
+  processedPerHour: null,
+  safePerHour: null,
+  blockedPerHour: null,
+};
+
 const outputs = new Map([
   ["manifest.json", `${JSON.stringify(manifest, null, 2)}\n`],
   ["fast-path-to-brand-safe.json", `${JSON.stringify(fastPath, null, 2)}\n`],
@@ -235,6 +373,11 @@ const outputs = new Map([
   ["seo-audit.json", `${JSON.stringify(seoAudit, null, 2)}\n`],
   ["seo-health.json", `${JSON.stringify(seoHealth, null, 2)}\n`],
   ["deterministic-sample.json", `${JSON.stringify(deterministicSample, null, 2)}\n`],
+  ["brand-source-cache.json", `${JSON.stringify(sourceCache, null, 2)}\n`],
+  ["mass-brand-source-results.json", `${JSON.stringify(massBrandSourceResults, null, 2)}\n`],
+  ["international-brand-semantic-map.json", `${JSON.stringify(internationalBrandSemanticMap, null, 2)}\n`],
+  ["category-opportunity-report.json", `${JSON.stringify(categoryOpportunityReport, null, 2)}\n`],
+  ["processing-metrics.json", `${JSON.stringify(processingMetrics, null, 2)}\n`],
 ]);
 
 if (check) {

@@ -69,8 +69,14 @@ test("manufacturer schema is factual and excludes commerce schema", async () => 
 });
 
 test("sitemap contains only corporate and verified manufacturer URLs", async () => {
-  const source = await html("/sitemap.xml");
-  assert.equal((source.match(/\/manufacturers\//g) ?? []).length, 178);
+  const [source, manifest] = await Promise.all([
+    html("/sitemap.xml"),
+    readFile(new URL("../data/brand-operations/manifest.json", import.meta.url), "utf8").then(JSON.parse),
+  ]);
+  assert.equal(
+    (source.match(/\/manufacturers\//g) ?? []).length,
+    manifest.indexableManufacturerPages,
+  );
   assert.equal((source.match(/\/catalog(?:\/|<)/g) ?? []).length, 0);
   assert.match(source, /https:\/\/ventroviaglobal\.com\/manufacturers/);
 });

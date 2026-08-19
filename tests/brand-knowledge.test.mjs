@@ -19,9 +19,9 @@ test("manufacturer identity index is complete and independent", async () => {
   assert.equal(identities.manufacturers.length, 2806);
   assert.equal(manifest.runtimeScope, "VENTROVIA_BRAND_ONLY");
   assert.equal(manifest.remotelyStoredProductRecords, 0);
-  assert.equal(manifest.profileCount, 178);
-  assert.equal(manifest.indexableManufacturerPages, 178);
-  assert.equal(knowledge.metrics.enContentReady, 178);
+  assert.equal(manifest.profileCount, knowledge.profiles.length);
+  assert.equal(manifest.indexableManufacturerPages, knowledge.profiles.length);
+  assert.equal(knowledge.metrics.enContentReady, knowledge.profiles.length);
   assert.equal(new Set(identities.manufacturers.map(({ slug }) => slug)).size, 2806);
 });
 

@@ -19,8 +19,14 @@ assert.match(brand, /sales@ventroviaglobal\.com/u);
 assert.match(brand, /\+971557254463/u);
 assert.doesNotMatch(brand, /VENTORVIA|Индустрия Поставок/u);
 assert.equal(operations.manufacturerCount, 2806);
-assert.equal(operations.profileCount, 178);
-assert.equal(operations.indexableManufacturerPages, 178);
+assert.equal(operations.profileCount, operations.seoReadiness.BRAND_SAFE);
+assert.equal(operations.indexableManufacturerPages, operations.profileCount);
+assert.equal(
+  operations.seoReadiness.BRAND_SAFE +
+    operations.seoReadiness.BRAND_WEAK +
+    operations.seoReadiness.BRAND_REVIEW,
+  operations.manufacturerCount,
+);
 assert.equal(operations.remotelyStoredProductRecords, 0);
 
 for (const line of ["RESEND_API_KEY=", "ADMIN_PASSWORD=", "ADMIN_SESSION_SECRET=", "GITHUB_CONTENT_TOKEN="]) {
