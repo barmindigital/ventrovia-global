@@ -1,0 +1,229 @@
+{
+  "checkedAt":"2026-08-19",
+  "blockedIdentities":[
+    {"manufacturerId":"mil-s","reason":"AMBIGUOUS_IDENTITY","detail":"The short repository name did not resolve to a unique manufacturer-owned identity."},
+    {"manufacturerId":"urlinski","reason":"INSUFFICIENT_OFFICIAL_EVIDENCE","detail":"Targeted discovery did not produce an accessible first-party product source sufficient for publication."},
+    {"manufacturerId":"spco","reason":"AMBIGUOUS_IDENTITY","detail":"The abbreviation maps to multiple unrelated businesses and no zero-ambiguity canonical identity was established."},
+    {"manufacturerId":"drive-systems","reason":"AMBIGUOUS_IDENTITY","detail":"The generic repository label does not identify one manufacturer with sufficient certainty."},
+    {"manufacturerId":"indufil","reason":"AMBIGUOUS_IDENTITY","detail":"Discovery found similarly named filtration businesses but did not establish an exact match to the repository identity."},
+    {"manufacturerId":"warner-electric","reason":"BLOCKED_EXTERNAL_SOURCE","detail":"The current official corporate brand page returned an access restriction during verification; no weaker source was substituted."}
+  ],
+  "profiles":[
+    {
+      "manufacturerId":"jabsco-pump","officialName":"Jabsco","displayName":"Jabsco","aliases":["JABSCO PUMP","JABSCO"],"formerNames":[],
+      "officialWebsite":"https://www.xylem.com/en-uk/brand/jabsco/","officialDomains":["xylem.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Xylem Inc.",
+      "shortDescription":"Jabsco is a Xylem brand for marine and specialised industrial fluid-handling equipment.",
+      "fullDescription":["The official Xylem brand page establishes Jabsco within its marine and specialised industrial portfolio.","Documented products include flexible-impeller and diaphragm pumps, water systems, engine-cooling pumps and marine waste systems."],
+      "productCategories":["Промышленные насосы","Водоподготовка"],"productFamilies":["Flexible-Impeller Pumps","Diaphragm Pumps","Marine Water Systems","Engine-Cooling Pumps","Marine Waste Systems"],"series":["PureFlo"],
+      "industries":["Морская промышленность","Промышленность","Водоснабжение"],"officialCatalogs":["https://www.xylem.com/en-uk/brand/jabsco/"],"documentationSources":["https://www.xylem.com/siteassets/brand/jabsco/resources/brochure/jabsco-ballast-pumps-flyer.pdf"],
+      "sources":[{"sourceId":"brand-jabsco-xylem","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.xylem.com/en-uk/brand/jabsco/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-jabsco-ballast","tier":"A","type":"OFFICIAL_BRAND_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.xylem.com/siteassets/brand/jabsco/resources/brochure/jabsco-ballast-pumps-flyer.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"ltn-servotechnik","officialName":"LTN Servotechnik GmbH","displayName":"LTN Servotechnik","aliases":["LTN SERVOTECHNIK","LTN"],"formerNames":[],
+      "officialWebsite":"https://www.heidenhain.de/ueber-uns/starke-marken-fuer-ihre-anwendung/ltn","officialDomains":["heidenhain.de","ltn-servotechnik.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":"HEIDENHAIN Group",
+      "shortDescription":"LTN is a HEIDENHAIN Group legacy brand for resolvers, slip rings and rotary transmission components.",
+      "fullDescription":["The official HEIDENHAIN page records that LTN Servotechnik ceased operations on 30 April 2026 while retaining support information for its installed products.","Official LTN documentation covers resolvers, electrical slip rings and fibre-optic rotary joints for transmitting position, power, signal and data."],
+      "productCategories":["Энкодеры","Промышленные токосъёмники","Промышленные датчики"],"productFamilies":["Resolvers","Electrical Slip Rings","Fibre-Optic Rotary Joints"],"series":["RE-15","RE-21","R36","R58","R71","SC","SH","SMX"],
+      "industries":["Промышленная автоматизация","Робототехника","Энергетика","Упаковка"],"officialCatalogs":["https://www.ltn-servotechnik.com/fileadmin/user_upload/data/pdf/AR-LTN_PB_SLIP_RINGS_EN_06-08-2024-online-einzel.pdf"],"documentationSources":["https://www.heidenhain.de/ueber-uns/starke-marken-fuer-ihre-anwendung/ltn"],
+      "sources":[{"sourceId":"brand-ltn-heidenhain","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_LEGACY_STATUS","url":"https://www.heidenhain.de/ueber-uns/starke-marken-fuer-ihre-anwendung/ltn","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-ltn-catalog","tier":"A","type":"OFFICIAL_BRAND_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.ltn-servotechnik.com/fileadmin/user_upload/data/pdf/AR-LTN_PB_SLIP_RINGS_EN_06-08-2024-online-einzel.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"price_pump","officialName":"Price Pump Company","displayName":"Price Pump","aliases":["PRICE PUMP","PRICE PUMP COMPANY"],"formerNames":[],
+      "officialWebsite":"https://www.pricepump.com/product/","officialDomains":["pricepump.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Price Pump manufactures centrifugal and sealless vertical pumps for industrial fluid handling.",
+      "fullDescription":["The official Price Pump directory documents horizontal and vertical centrifugal pump configurations.","Its product scope includes sealless vertical pumps and configurable liquid-handling solutions for industrial applications."],
+      "productCategories":["Промышленные насосы"],"productFamilies":["Centrifugal Pumps","Vertical Pumps","Sealless Pumps"],"series":[],
+      "industries":["Промышленность","Химическая промышленность","Водоснабжение"],"officialCatalogs":["https://www.pricepump.com/product/"],"documentationSources":["https://www.pricepump.com/product/"],
+      "sources":[{"sourceId":"brand-price-pump-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.pricepump.com/product/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"sera","officialName":"sera GmbH","displayName":"sera","aliases":["SERA","SERA GMBH"],"formerNames":[],
+      "officialWebsite":"https://www.sera-web.com/en","officialDomains":["sera-web.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"sera develops dosing and feed pumps, dosing systems and compressors for liquids and gases.",
+      "fullDescription":["Official sera product pages cover precision liquid dosing, conveying and monitoring through pumps, fittings, measurement and control equipment.","The company's gas portfolio includes metal-diaphragm and dry-running piston compressors together with hydrogen-system solutions."],
+      "productCategories":["Промышленные насосы","Компрессорное оборудование","Измерительное оборудование","Промышленная автоматизация и управление"],"productFamilies":["Dosing Pumps","Feed Pumps","Dosing Systems","Measurement and Control Equipment","Metal-Diaphragm Compressors","Piston Compressors"],"series":["iSTEP","C409","C410","R204","AG","PU"],
+      "industries":["Промышленность","Водоснабжение","Химическая промышленность","Энергетика","Пищевая промышленность"],"officialCatalogs":["https://www.sera-web.com/en/quick-links/downloads"],"documentationSources":["https://www.sera-web.com/en/fluids/products","https://www.sera-web.com/en/gases/products/compressors/"],
+      "sources":[{"sourceId":"brand-sera-fluids","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_LIQUID_PRODUCTS","url":"https://www.sera-web.com/en/fluids/products","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-sera-gases","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GAS_PRODUCT_FAMILIES","url":"https://www.sera-web.com/en/gases/products/compressors/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-sera-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://www.sera-web.com/en/quick-links/downloads","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"tschan-gmbh","officialName":"TSCHAN","displayName":"TSCHAN","aliases":["TSCHAN GMBH","TSCHAN"],"formerNames":[],
+      "officialWebsite":"https://www.ringfeder.com/tschan/","officialDomains":["ringfeder.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"RINGFEDER POWER TRANSMISSION",
+      "shortDescription":"TSCHAN is the former product name for current RINGFEDER mechanical shaft-coupling families.",
+      "fullDescription":["The official RINGFEDER transition page confirms that TSCHAN coupling series are now sold under the RINGFEDER name.","The retained portfolio includes elastomer-jaw, steel-disc, gear, barrel, torsional high-flex and safety couplings."],
+      "productCategories":["Промышленные муфты","Приводные системы"],"productFamilies":["Elastomer-Jaw Couplings","Steel-Disc Couplings","Gear Couplings","Barrel Couplings","Torsional High-Flex Couplings","Safety Couplings"],"series":["TNM","TNS","TNB","TND","TNZ","TNK","TNR","TNT"],
+      "industries":["Металлургия","Горнодобывающая промышленность","Энергетика","Промышленность"],"officialCatalogs":["https://www.ringfeder.com/tschan/"],"documentationSources":["https://www.ringfeder.com/products/torsional-highflex-couplings/"],
+      "sources":[{"sourceId":"brand-tschan-transition","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_RENAME","url":"https://www.ringfeder.com/tschan/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-tschan-products","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"FAMILY_CATEGORY","url":"https://www.ringfeder.com/products/torsional-highflex-couplings/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"tsurumi-pump","officialName":"Tsurumi Manufacturing Co., Ltd.","displayName":"Tsurumi Pump","aliases":["TSURUMI PUMP","TSURUMI"],"formerNames":[],
+      "officialWebsite":"https://www.tsurumipump.com/","officialDomains":["tsurumipump.com"],"country":"Япония","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Tsurumi manufactures submersible pumps and process equipment for water, wastewater and dewatering applications.",
+      "fullDescription":["The official Tsurumi product directory covers submersible drainage, wastewater, sewage and utility pump families.","Its published range also includes mixers and related process equipment for municipal, construction and industrial water handling."],
+      "productCategories":["Промышленные насосы","Технологическое оборудование"],"productFamilies":["Submersible Drainage Pumps","Wastewater Pumps","Sewage Pumps","Utility Pumps","Industrial Mixers"],"series":["B","BZ","C","GPN","GSZ","KRS","KTV","KTZ","LB","LH"],
+      "industries":["Водоснабжение","Строительство","Горнодобывающая промышленность","Промышленность"],"officialCatalogs":["https://www.tsurumipump.com/pumps"],"documentationSources":["https://www.tsurumipump.com/"],
+      "sources":[{"sourceId":"brand-tsurumi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.tsurumipump.com/pumps","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"welch-vacuum","officialName":"Welch Vacuum","displayName":"Welch","aliases":["WELCH","WELCH VACUUM"],"formerNames":[],
+      "officialWebsite":"https://www.welchvacuum.com/en/","officialDomains":["welchvacuum.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Ingersoll Rand",
+      "shortDescription":"Welch develops vacuum pumps, gauges and controllers for laboratory and industrial applications.",
+      "fullDescription":["The official Welch site documents rotary-vane, diaphragm, piston and scroll vacuum-pump technologies.","The portfolio also includes vacuum gauges, controllers, aspiration systems, accessories and application-specific vacuum systems."],
+      "productCategories":["Вакуумное оборудование","Измерительное оборудование"],"productFamilies":["Rotary-Vane Vacuum Pumps","Diaphragm Vacuum Pumps","Piston Vacuum Pumps","Scroll Pumps","Vacuum Gauges","Vacuum Controllers","Aspiration Systems"],"series":["CRVpro","WOB-L","DuoSeal","DryFast"],
+      "industries":["Лабораторные исследования","Фармацевтическая промышленность","Промышленность"],"officialCatalogs":["https://www.welchvacuum.com/en/about-us/downloads"],"documentationSources":["https://www.welchvacuum.com/en/"],
+      "sources":[{"sourceId":"brand-welch-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.welchvacuum.com/en/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-welch-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://www.welchvacuum.com/en/about-us/downloads","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"cla-val","officialName":"Cla-Val Company","displayName":"Cla-Val","aliases":["CLA-VAL","CLA VAL"],"formerNames":[],
+      "officialWebsite":"https://www.cla-val.com/","officialDomains":["cla-val.com"],"country":"США","headquarters":null,"foundedYear":1936,"parentCompany":null,
+      "shortDescription":"Cla-Val designs and manufactures automatic control valves for water, fire-protection, fueling and industrial systems.",
+      "fullDescription":["The official Cla-Val site documents automatic control valves for flow, pressure, relief, deluge and air-management functions.","Its product guide covers hydraulic and electronic control configurations used in waterworks, fire protection, marine, fueling and industrial service."],
+      "productCategories":["Промышленные клапаны","Промышленная автоматизация и управление"],"productFamilies":["Flow-Control Valves","Pressure-Reducing Valves","Pressure-Relief Valves","Electronic Control Valves","Deluge Valves","Air Valves"],"series":["100","40","90","131","133","136"],
+      "industries":["Водоснабжение","Пожарная безопасность","Морская промышленность","Энергетика","Промышленность"],"officialCatalogs":["https://www.cla-val.com/wp-content/uploads/2025/09/B-Cla-Val-Product-Guide.pdf"],"documentationSources":["https://www.cla-val.com/resources/datasheets-manuals"],
+      "sources":[{"sourceId":"brand-cla-val-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.cla-val.com/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-cla-val-guide","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.cla-val.com/wp-content/uploads/2025/09/B-Cla-Val-Product-Guide.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"durag-group","officialName":"DURAG GROUP","displayName":"DURAG GROUP","aliases":["DURAG GROUP","DURAG"],"formerNames":[],
+      "officialWebsite":"https://www.durag.com/","officialDomains":["durag.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"DURAG GROUP develops emissions and ambient-air monitoring, combustion-control and environmental measurement systems.",
+      "fullDescription":["Official DURAG material structures the portfolio around emission monitoring, ambient-air monitoring and combustion technology.","Documented products support ignition, flame monitoring, combustion control and the measurement of particles, aerosols and process emissions."],
+      "productCategories":["Измерительное оборудование","Промышленные датчики","Промышленная автоматизация и управление","Тепловое оборудование"],"productFamilies":["Emission-Monitoring Systems","Ambient-Air Monitoring","Flame Monitors","Ignition Systems","Combustion Controls","Aerosol Measurement"],"series":[],
+      "industries":["Энергетика","Промышленность","Химическая промышленность","Экология"],"officialCatalogs":["https://www.durag.com/statics/durag_com/L%C3%B6sungen/brochure_combustion_en_rev_view.pdf"],"documentationSources":["https://www.durag.com/"],
+      "sources":[{"sourceId":"brand-durag-combustion","tier":"A","type":"OFFICIAL_CORPORATE_BROCHURE","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.durag.com/statics/durag_com/L%C3%B6sungen/brochure_combustion_en_rev_view.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"flygt","officialName":"Flygt","displayName":"Flygt","aliases":["FLYGT","XYLEM FLYGT"],"formerNames":[],
+      "officialWebsite":"https://www.xylem.com/en-us/brand/flygt/flygt-products/","officialDomains":["xylem.com"],"country":"Швеция","headquarters":null,"foundedYear":null,"parentCompany":"Xylem Inc.",
+      "shortDescription":"Flygt is a Xylem brand for submersible pumps, mixers and wastewater-management systems.",
+      "fullDescription":["The official Xylem brand directory covers Flygt dewatering, wastewater and sewage pumps, packaged pumping stations and mixers.","It also documents pump-control and monitoring systems, mechanical accessories and N-Technology pump families."],
+      "productCategories":["Промышленные насосы","Промышленная автоматизация и управление","Технологическое оборудование"],"productFamilies":["Submersible Dewatering Pumps","Wastewater Pumps","Packaged Pump Stations","Industrial Mixers","Pump Controls and Monitoring"],"series":["Concertor","N-Technology","A-C"],
+      "industries":["Водоснабжение","Промышленность","Энергетика","Строительство"],"officialCatalogs":["https://www.xylem.com/en-us/brand/flygt/flygt-products/"],"documentationSources":["https://www.xylem.com/siteassets/brand/flygt/resources/brochure/gfp_overview_brochure_1_.pdf"],
+      "sources":[{"sourceId":"brand-flygt-products","tier":"A","type":"OFFICIAL_BRAND_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.xylem.com/en-us/brand/flygt/flygt-products/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-flygt-overview","tier":"A","type":"OFFICIAL_BRAND_DOCUMENT","scope":"IDENTITY_AND_ORIGIN","url":"https://www.xylem.com/siteassets/brand/flygt/resources/brochure/gfp_overview_brochure_1_.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"gemels","officialName":"GEMELS S.p.A.","displayName":"GEMELS","aliases":["GEMELS"],"formerNames":[],
+      "officialWebsite":"https://gemels.com/family/valves/","officialDomains":["gemels.com"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"GEMELS designs and manufactures high-pressure ball and hydraulic valves for mobile and industrial systems.",
+      "fullDescription":["The official GEMELS product directory covers threaded, flanged, wafer and actuated ball valves in carbon and stainless steel.","Its hydraulic range includes directional, non-return and specialised valve configurations for demanding applications."],
+      "productCategories":["Промышленные клапаны","Гидравлическое оборудование"],"productFamilies":["High-Pressure Ball Valves","Flanged Ball Valves","CNG Valves","Hydraulic Valves","Directional Valves","Check Valves"],"series":["GEM","GH2","GM","GE2"],
+      "industries":["Промышленность","Транспорт","Нефтегазовая промышленность","Морская промышленность","Аэрокосмическая промышленность"],"officialCatalogs":["https://gemels.com/download/"],"documentationSources":["https://gemels.com/family/valves/"],
+      "sources":[{"sourceId":"brand-gemels-valves","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://gemels.com/family/valves/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-gemels-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://gemels.com/download/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"hengesbach","officialName":"Hengesbach GmbH & Co. KG","displayName":"Hengesbach","aliases":["HENGESBACH"],"formerNames":[],
+      "officialWebsite":"https://www.hengesbach.com/","officialDomains":["hengesbach.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Hengesbach develops process instrumentation for pressure, temperature, level, flow and concentration measurement.",
+      "fullDescription":["The official Hengesbach process-instrumentation brochure establishes its measurement-technology identity and product scope.","Documented instruments cover pressure, temperature, level, flow and analytical or concentration measurement for process systems."],
+      "productCategories":["Измерительное оборудование","Промышленные датчики"],"productFamilies":["Pressure Measurement","Temperature Measurement","Level Measurement","Flow Measurement","Concentration Measurement"],"series":[],
+      "industries":["Промышленность","Пищевая промышленность","Фармацевтическая промышленность","Химическая промышленность"],"officialCatalogs":["https://www.hengesbach.com/fileadmin/user_upload/pics/Imageuesi_2019_en.pdf"],"documentationSources":["https://www.hengesbach.com/"],
+      "sources":[{"sourceId":"brand-hengesbach-brochure","tier":"A","type":"OFFICIAL_CORPORATE_BROCHURE","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.hengesbach.com/fileadmin/user_upload/pics/Imageuesi_2019_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"inficon","officialName":"INFICON Holding AG","displayName":"INFICON","aliases":["INFICON"],"formerNames":[],
+      "officialWebsite":"https://www.inficon.com/en/products","officialDomains":["inficon.com"],"country":"Швейцария","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"INFICON develops leak-detection, gas-analysis and vacuum measurement technologies for industrial and scientific applications.",
+      "fullDescription":["The official INFICON portfolio covers leak detectors, gas-analysis instruments, vacuum gauges and controllers.","It also includes vacuum components, thin-film deposition tools, chemical detection and manufacturing software for semiconductor and industrial processes."],
+      "productCategories":["Вакуумное оборудование","Измерительное оборудование","Промышленные датчики","Промышленное программное обеспечение"],"productFamilies":["Leak Detectors","Gas Analyzers","Vacuum Gauges and Controllers","Vacuum Components","Thin-Film Deposition Instruments","Chemical Detection","Manufacturing Software"],"series":["LDS3000","Protec","Ecotec","SKY","Porter"],
+      "industries":["Электроника","Промышленность","Лабораторные исследования","HVAC"],"officialCatalogs":["https://www.inficon.com/en/products"],"documentationSources":["https://www.inficon.com/media/3601/download/The-one-stop-shop-for-leak-detection-%26-vacuum-application.pdf?language=en&v=4"],
+      "sources":[{"sourceId":"brand-inficon-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.inficon.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-inficon-overview","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.inficon.com/media/3601/download/The-one-stop-shop-for-leak-detection-%26-vacuum-application.pdf?language=en&v=4","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"nicotra","officialName":"Nicotra Gebhardt S.p.A.","displayName":"Nicotra Gebhardt","aliases":["NICOTRA GEBHARDT","NICOTRA"],"formerNames":[],
+      "officialWebsite":"https://www.nicotra-gebhardt.com/en-de/products","officialDomains":["nicotra-gebhardt.com"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":"Regal Rexnord",
+      "shortDescription":"Nicotra Gebhardt develops centrifugal, axial and process fans for HVAC, clean-air and industrial systems.",
+      "fullDescription":["The official product directory covers radial, axial, roof, smoke-extraction and industrial process fans.","The portfolio also includes plug and hybrid fans, fan-filter units and air-filtration system equipment."],
+      "productCategories":["Промышленные вентиляторы","Фильтрационное оборудование","Охлаждающее оборудование"],"productFamilies":["Radial Fans","Axial Fans","Roof Fans","Smoke-Extraction Fans","Industrial Process Fans","Plug and Hybrid Fans","Fan-Filter Units"],"series":["RLM Evo","COPRA","PFP","MultiEvo"],
+      "industries":["HVAC","Промышленность","Пожарная безопасность","Электроника"],"officialCatalogs":["https://www.nicotra-gebhardt.com/en-de/products"],"documentationSources":["https://eu.nicotra-gebhardt.com/it/infocenter/downloadcenter/cataloghi.html"],
+      "sources":[{"sourceId":"brand-nicotra-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.nicotra-gebhardt.com/en-de/products","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"rossi-motoriduttori","officialName":"Rossi S.p.A.","displayName":"Rossi","aliases":["ROSSI MOTORIDUTTORI","ROSSI"],"formerNames":[],
+      "officialWebsite":"https://www.rossi.com/en-US/Products","officialDomains":["rossi.com"],"country":"Италия","headquarters":null,"foundedYear":1953,"parentCompany":"Moovimenta Group",
+      "shortDescription":"Rossi manufactures industrial gear units, gearmotors, electric motors and drive-system components.",
+      "fullDescription":["The official Rossi catalogue covers helical, bevel-helical, worm, planetary and servo gear units and gearmotors.","Its portfolio also includes electric motors, decentralized inverters and torque-measurement systems."],
+      "productCategories":["Редукторы и мотор-редукторы","Промышленные электродвигатели","Приводные системы","Измерительное оборудование"],"productFamilies":["Industrial Gear Units","Gearmotors","Planetary Gearboxes","Servo Gearboxes","Electric Motors","Decentralized Inverters","Torque Measurement"],"series":["iFit","G","GX","H","EP","SR","TX","dDrive"],
+      "industries":["Промышленность","Машиностроение","Горнодобывающая промышленность","Пищевая промышленность"],"officialCatalogs":["https://www.rossi.com/en-US/Products"],"documentationSources":["https://www.rossi.com/en/About-Us"],
+      "sources":[{"sourceId":"brand-rossi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.rossi.com/en-US/Products","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-rossi-about","tier":"A","type":"ABOUT","scope":"HISTORY_AND_OWNERSHIP","url":"https://www.rossi.com/en/About-Us","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"verderflex","officialName":"Verderflex","displayName":"Verderflex","aliases":["VERDERFLEX","VERDER FLEX"],"formerNames":[],
+      "officialWebsite":"https://www.verderliquids.com/us/en/verderflex/","officialDomains":["verderliquids.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Verder Group",
+      "shortDescription":"Verderflex develops peristaltic hose and tube pumps for industrial, hygienic and precision-dosing applications.",
+      "fullDescription":["The official Verder Liquids brand page documents industrial hose pumps, hygienic pumps, OEM tube pumps and dosing systems.","Named product families cover abrasive slurry transfer, controlled chemical dosing and gentle handling of sensitive process media."],
+      "productCategories":["Промышленные насосы"],"productFamilies":["Peristaltic Hose Pumps","Peristaltic Tube Pumps","Hygienic Pumps","OEM Dosing Pumps","Industrial Dosing Systems"],"series":["Dura","iDura","VF","Vantage","Rollit","Rapide","Ds500"],
+      "industries":["Промышленность","Химическая промышленность","Пищевая промышленность","Фармацевтическая промышленность","Водоснабжение","Горнодобывающая промышленность"],"officialCatalogs":["https://www.verderliquids.com/us/en/verderflex/"],"documentationSources":["https://www.verderliquids.com/us/en/verderflex/"],
+      "sources":[{"sourceId":"brand-verderflex-page","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.verderliquids.com/us/en/verderflex/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"aviteq","officialName":"AViTEQ Vibrationstechnik GmbH","displayName":"AViTEQ","aliases":["AVITEQ","AViTEQ"],"formerNames":[],
+      "officialWebsite":"https://www.aviteq.com/en/products/","officialDomains":["aviteq.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"AViTEQ develops vibration, conveying, screening, weighing and dosing systems for bulk materials.",
+      "fullDescription":["The official AViTEQ product directory covers vibratory feeders, tubular feeders, spiral conveyors and hopper-discharge equipment.","It also documents screening, weighing, dosing, magnetic-drive and vibration-control technologies."],
+      "productCategories":["Вибрационное оборудование","Конвейерное оборудование","Измерительное оборудование","Промышленная автоматизация и управление"],"productFamilies":["Vibratory Feeders","Tubular Feeders","Spiral Conveyors","Screening Systems","Weigh Feeders","Belt Scales","Magnetic Vibrators","Vibration Controls"],"series":["Vibtronic"],
+      "industries":["Промышленность","Горнодобывающая промышленность","Металлургия","Пищевая промышленность","Строительство"],"officialCatalogs":["https://www.aviteq.com/en/products/"],"documentationSources":["https://www.aviteq.com/wp-content/uploads/2025/03/AViTEQ_Presentation_website_en.pdf"],
+      "sources":[{"sourceId":"brand-aviteq-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.aviteq.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-aviteq-profile","tier":"A","type":"OFFICIAL_CORPORATE_BROCHURE","scope":"CATEGORY_AND_APPLICATION","url":"https://www.aviteq.com/wp-content/uploads/2025/03/AViTEQ_Presentation_website_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"cib-unigas","officialName":"C.I.B. Unigas S.p.A.","displayName":"CIB Unigas","aliases":["CIB UNIGAS","C.I.B. UNIGAS"],"formerNames":[],
+      "officialWebsite":"https://www.cibunigas.com/","officialDomains":["cibunigas.com"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"CIB Unigas manufactures residential and industrial burners and combustion-control equipment.",
+      "fullDescription":["The official CIB Unigas site and documentation establish a broad range of burners for civil and industrial thermal systems.","Its published material also covers flue-gas analysis and service technologies for commissioning and maintaining combustion equipment."],
+      "productCategories":["Тепловое оборудование","Измерительное оборудование","Промышленная автоматизация и управление"],"productFamilies":["Industrial Burners","Commercial Burners","Combustion Controls","Flue-Gas Analyzers"],"series":["A","B","UNIFLOW"],
+      "industries":["Промышленность","Энергетика","HVAC"],"officialCatalogs":["https://www.cibunigas.com/documentazione/"],"documentationSources":["https://www.cibunigas.com/en/shop/"],
+      "sources":[{"sourceId":"brand-cib-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.cibunigas.com/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-cib-docs","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.cibunigas.com/documentazione/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"funke","officialName":"FUNKE Wärmeaustauscher Apparatebau GmbH","displayName":"FUNKE","aliases":["FUNKE","FUNKE HEAT EXCHANGERS"],"formerNames":[],
+      "officialWebsite":"https://www.funke.de/en/products/product-overview/","officialDomains":["funke.de"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"FUNKE develops plate, shell-and-tube and air-cooled heat exchangers for industrial thermal processes.",
+      "fullDescription":["The official FUNKE product overview documents gasketed and brazed plate heat exchangers, shell-and-tube systems and air-cooled equipment.","The portfolio also includes electric oil pre-heaters and engineered heat-exchanger configurations for process applications."],
+      "productCategories":["Тепловое оборудование","Охлаждающее оборудование"],"productFamilies":["Plate Heat Exchangers","Shell-and-Tube Heat Exchangers","Air-Cooled Heat Exchangers","Electric Oil Pre-Heaters"],"series":["FP","FPDW","TPL","GPL","NPL","BCF","CCF","SSCF","OKAN"],
+      "industries":["Промышленность","Химическая промышленность","Энергетика","Морская промышленность","Пищевая промышленность"],"officialCatalogs":["https://www.funke.de/en/products/product-overview/"],"documentationSources":["https://www.funke.de/en/products/shell-and-tube-heat-exchangers/"],
+      "sources":[{"sourceId":"brand-funke-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.funke.de/en/products/product-overview/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-funke-shell-tube","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.funke.de/en/products/shell-and-tube-heat-exchangers/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"grindex","officialName":"Grindex AB","displayName":"Grindex","aliases":["GRINDEX","GRINDEX PUMPS"],"formerNames":[],
+      "officialWebsite":"https://www.grindex.com/en-us/products/","officialDomains":["grindex.com"],"country":"Швеция","headquarters":null,"foundedYear":1940,"parentCompany":null,
+      "shortDescription":"Grindex develops electrical submersible pumps for drainage, sludge and slurry handling.",
+      "fullDescription":["The official Grindex product directory covers drainage, sludge and slurry pump families together with accessories.","Its Inox range provides stainless-steel submersible pumps for corrosive and abrasive fluids in mining, construction and heavy industry."],
+      "productCategories":["Промышленные насосы"],"productFamilies":["Drainage Pumps","Sludge Pumps","Slurry Pumps","Stainless-Steel Submersible Pumps","Pump Accessories"],"series":["Inox","Minette","Major","Master","Mega","Sandy","Senior","Salvador"],
+      "industries":["Горнодобывающая промышленность","Строительство","Промышленность","Водоснабжение"],"officialCatalogs":["https://www.grindex.com/en-us/products/"],"documentationSources":["https://www.grindex.com/en-us/about/grindex-today/"],
+      "sources":[{"sourceId":"brand-grindex-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.grindex.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-grindex-about","tier":"A","type":"ABOUT","scope":"HISTORY_AND_APPLICATION","url":"https://www.grindex.com/en-us/about/grindex-today/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"harmonic-drive","officialName":"Harmonic Drive LLC","displayName":"Harmonic Drive","aliases":["HARMONIC DRIVE"],"formerNames":[],
+      "officialWebsite":"https://www.harmonicdrive.net/","officialDomains":["harmonicdrive.net"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Harmonic Drive develops precision zero-backlash gearing, gear units and servo actuators for motion-control systems.",
+      "fullDescription":["The official Harmonic Drive portfolio covers component gear sets, housed gear units, servo gearheads and integrated actuators.","Named families include compact, hollow-shaft, miniature and planetary configurations for robotics and precision automation."],
+      "productCategories":["Редукторы и мотор-редукторы","Приводные системы","Линейные приводы"],"productFamilies":["Component Gear Sets","Precision Gear Units","Servo Gearheads","Rotary Actuators","Integrated Actuators","Linear Actuators"],"series":["CSF","CSG","CSD","SHG","SHF","SHD","HPF","HPG","FHA"],
+      "industries":["Робототехника","Промышленная автоматизация","Станкостроение","Аэрокосмическая промышленность"],"officialCatalogs":["https://www.harmonicdrive.net/downloads/catalogs"],"documentationSources":["https://www.harmonicdrive.net/products/gear-units"],
+      "sources":[{"sourceId":"brand-harmonic-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.harmonicdrive.net/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-harmonic-gear-units","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.harmonicdrive.net/products/gear-units","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"hurco","officialName":"Hurco Companies, Inc.","displayName":"Hurco","aliases":["HURCO"],"formerNames":[],
+      "officialWebsite":"https://global.hurco.com/gb/products","officialDomains":["hurco.com","hurcocompanies.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Hurco develops CNC machining centres, lathes and control technologies for metalworking.",
+      "fullDescription":["The official Hurco product directory covers three-axis and five-axis vertical machining centres, horizontal and double-column machines, boring mills and turning centres.","The product scope also includes WinMax CNC controls and automation solutions for machine-tool production."],
+      "productCategories":["Станки с ЧПУ","Промышленная автоматизация и управление"],"productFamilies":["Vertical Machining Centres","Five-Axis Machining Centres","Horizontal Machining Centres","Boring Mills","Turning Centres","CNC Controls","Machine Automation"],"series":["VM","VMX","BX","WinMax"],
+      "industries":["Станкостроение","Промышленность","Аэрокосмическая промышленность","Медицинская промышленность"],"officialCatalogs":["https://cms.hurco.com/uploads/Hurco_Product_Catalog_1_48fa89a5ec.pdf"],"documentationSources":["https://hurcocompanies.com/"],
+      "sources":[{"sourceId":"brand-hurco-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://global.hurco.com/gb/products","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-hurco-corporate","tier":"A","type":"OFFICIAL_CORPORATE_PAGE","scope":"IDENTITY_AND_CATEGORY","url":"https://hurcocompanies.com/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"hydra-cell","officialName":"Hydra-Cell","displayName":"Hydra-Cell","aliases":["HYDRA CELL","HYDRA-CELL","WANNER HYDRA-CELL"],"formerNames":[],
+      "officialWebsite":"https://wannerpumps.com/en-gb/","officialDomains":["wannerpumps.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":"Wanner Engineering",
+      "shortDescription":"Hydra-Cell is a Wanner pump technology for sealless hydraulic-diaphragm process and metering applications.",
+      "fullDescription":["The official Wanner site documents hydraulically balanced multi-diaphragm pumps for industrial, process, metering and dosing duties.","The Hydra-Cell Pro range uses sealless pump-head designs and includes configurations aligned with API 674 and API 675 applications."],
+      "productCategories":["Промышленные насосы"],"productFamilies":["Hydraulic-Diaphragm Pumps","Process Pumps","Metering Pumps","Dosing Pumps"],"series":["Hydra-Cell Pro"],
+      "industries":["Промышленность","Химическая промышленность","Нефтегазовая промышленность","Водоснабжение"],"officialCatalogs":["https://wannerpumps.com/en-gb/"],"documentationSources":["https://extranet.wannerpumps.com/docs/HCell_ISJ.pdf"],
+      "sources":[{"sourceId":"brand-hydra-cell-wanner","tier":"A","type":"OFFICIAL_BRAND_PRODUCT_PAGE","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://wannerpumps.com/en-gb/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-hydra-cell-document","tier":"A","type":"OFFICIAL_BRAND_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://extranet.wannerpumps.com/docs/HCell_ISJ.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    },
+    {
+      "manufacturerId":"permco","officialName":"Permco, Inc.","displayName":"Permco","aliases":["PERMCO"],"formerNames":[],
+      "officialWebsite":"https://permco.com/","officialDomains":["permco.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Permco designs and manufactures gear and vane pumps and motors for mobile and industrial hydraulics.",
+      "fullDescription":["The official Permco product directory documents high-pressure cast-iron and aluminium gear pump and motor families.","It also covers balanced-vane pumps, vane motors and through-drive configurations supported by factory technical resources."],
+      "productCategories":["Гидравлическое оборудование","Промышленные насосы"],"productFamilies":["Gear Pumps","Gear Motors","Vane Pumps","Vane Motors","Vane Through-Drives"],"series":["124","197","257","360","424","1500","2100","2500","3000","5000","7500"],
+      "industries":["Промышленность","Транспорт","Машиностроение"],"officialCatalogs":["https://www.permco.com/wp-content/uploads/2019/01/Buyers-_Guide_01.19-V5.0.pdf"],"documentationSources":["https://permco.com/"],
+      "sources":[{"sourceId":"brand-permco-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://permco.com/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-permco-guide","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.permco.com/wp-content/uploads/2019/01/Buyers-_Guide_01.19-V5.0.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+    }
+  ]
+}

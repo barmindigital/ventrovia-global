@@ -1,5 +1,6 @@
 import "server-only";
 import internationalKnowledge from "../../data/brand-knowledge-international/profiles.json";
+import { canonicalManufacturerSlug } from "./international-manufacturer-identifiers";
 
 export type BrandSource = {
   sourceId: string;
@@ -41,12 +42,12 @@ export type BrandReadiness = "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
 
 const profiles = new Map(
   (internationalKnowledge.profiles as BrandKnowledgeProfile[]).map(
-    (profile) => [profile.manufacturerId, profile],
+    (profile) => [canonicalManufacturerSlug(profile.manufacturerId), profile],
   ),
 );
 const blocked = new Set(
   internationalKnowledge.blockedIdentities
-    .map((entry) => entry.manufacturerId),
+    .map((entry) => canonicalManufacturerSlug(entry.manufacturerId)),
 );
 
 export function brandKnowledgeFor(slug: string) {

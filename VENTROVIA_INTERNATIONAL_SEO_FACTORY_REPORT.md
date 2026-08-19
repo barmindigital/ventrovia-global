@@ -18,24 +18,25 @@ manufacturer logos are not recoloured.
 | Metric | Value |
 | --- | ---: |
 | Manufacturer identities | 2,806 |
-| BRAND_SAFE | 300 |
-| BRAND_WEAK | 2,481 |
-| BRAND_REVIEW | 25 |
-| Official domains | 300 |
-| Official source records | 524 |
-| Tier A source records | 523 |
-| English short descriptions | 300 |
-| English full descriptions | 300 |
-| Brands with family/series evidence | 284 |
-| BRAND_COMPLETE | 250 |
-| BRAND_SAFE with logo | 108 |
-| Manufacturer sitemap target | 300 |
+| BRAND_SAFE | 324 |
+| BRAND_WEAK | 2,451 |
+| BRAND_REVIEW | 31 |
+| Official domains | 324 |
+| Official source records | 567 |
+| Tier A source records | 566 |
+| English short descriptions | 324 |
+| English full descriptions | 324 |
+| Brands with family/series evidence | 308 |
+| BRAND_COMPLETE | 270 |
+| BRAND_SAFE with logo | 112 |
+| Manufacturer sitemap target | 324 |
 | Product sitemap | 0 |
 
-The latest six batches processed 133 manufacturers: 122 became `BRAND_SAFE`
-and 11 were conservatively assigned `BRAND_REVIEW`. Across all recorded
-source work, the source-success rate is 92.31%. Historical processing duration was not captured, so
-hourly throughput metrics are intentionally reported as `NOT_MEASURED`.
+The latest seven batches processed 163 manufacturers: 146 became `BRAND_SAFE`
+and 17 were conservatively assigned `BRAND_REVIEW`. Across all recorded
+source work, the source-success rate is 91.27%. Historical processing duration
+was not captured, so hourly throughput metrics are intentionally reported as
+`NOT_MEASURED`.
 
 ## Source discovery and cache
 
@@ -57,9 +58,9 @@ The mass result index assigns every manufacturer an effort class:
 
 - Identity audit: PASS.
 - Content audit: PASS; unsupported commercial claims 0.
-- Metadata audit: 300 unique titles and 300 unique descriptions.
-- Similarity audit: 44,850 pair comparisons, 0 findings at 0.72.
-- Deterministic sample: 300 records, including every current safe page.
+- Metadata audit: 324 unique titles and 324 unique descriptions.
+- Similarity audit: 52,326 pair comparisons, 0 findings at 0.72.
+- Deterministic sample: 324 records, including every current safe page.
 - Logo gate: no fuzzy-only mapping and no product image used as a logo.
 - Blue regression: 0 first-party findings.
 - Visibility boundary: product routes, product API, product sitemap, product
@@ -72,14 +73,14 @@ clusters:
 
 | Confirmed category | Safe brands |
 | --- | ---: |
-| Pumps and pumping systems | 79 |
-| Industrial automation and control | 64 |
-| Industrial valves and flow control | 57 |
-| Industrial sensors | 53 |
-| Drive and motion-control systems | 50 |
-| Measurement and instrumentation | 42 |
-| Electric motors | 41 |
-| Filtration and water systems | 29 |
+| Pumps and pumping systems | 88 |
+| Industrial automation and control | 71 |
+| Industrial valves and flow control | 59 |
+| Industrial sensors | 57 |
+| Drive and motion-control systems | 53 |
+| Measurement and instrumentation | 50 |
+| Electric motors | 42 |
+| Filtration and water systems | 31 |
 | Pneumatic equipment | 23 |
 | Gear units and geared drives | 21 |
 
@@ -103,11 +104,11 @@ effort profile.
 
 ## Next queue
 
-The next 30 are MIL S, Jabsco Pump, LTN Servotechnik, Price Pump, SERA,
-TSCHAN, Tsurumi Pump, Urlinski, Welch, CLA-VAL, DURAG Group, Flygt, GEMELS,
-Hengesbach, INFICON, Nicotra Gebhardt, Rossi Motoriduttori, SPCO, Verderflex,
-Warner Electric, AViTEQ, CIB UNIGAS, Drive Systems, FUNKE, Grindex, Harmonic
-Drive, Hurco, Hydra-Cell, Indufil and Permco.
+The next 30 are REGINA GROUP, SCANCON, STROMAG, VON ROHR ARMATUREN, BEGE
+AANDRIJFTECHNIEK, COMARME, HELMUT FISCHER, GRAYMILLS, KRAL, NAVCO,
+POMPETRAVAINI, SCHECHTL, SIREM, SWEP, TOREX, BAUER GEAR MOTOR, BONETTI,
+BUSCH VACUUM, DESMI, DRASTAR, EBAWE, LUEBBERING, MGM, MOOG GAT, OLAER,
+OSLV ITALIA, REDEX, SIMACO, SPITZENREITER and STONE.
 
 ## Release boundary
 
