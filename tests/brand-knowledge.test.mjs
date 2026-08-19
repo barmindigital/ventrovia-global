@@ -112,3 +112,18 @@ test("private catalogue paths are guarded from source control and deployment", a
   assert.equal(typeof hosting.project_id, "string");
   assert.equal(Object.keys(hosting).sort().join(","), "d1,project_id,r2");
 });
+
+test("legacy deployment variables cannot restore the retired Russian host", async () => {
+  const [brandSource, requestSource] = await Promise.all([
+    readFile(new URL("../app/lib/site-brand.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/api/request/route.ts", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(brandSource, /export const SITE_URL = SITE_BRAND\.canonicalBase/);
+  assert.match(requestSource, /VENTROVIA_EMAIL_PATTERN/);
+  assert.match(requestSource, /siteContent\.contacts\.email/);
+  assert.doesNotMatch(
+    brandSource,
+    /process\.env\.NEXT_PUBLIC_SITE_URL\s*\|\|/,
+  );
+});

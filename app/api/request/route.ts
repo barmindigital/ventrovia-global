@@ -8,11 +8,15 @@ import {
   type RequestType,
 } from "@/app/lib/request-attribution";
 
-const REQUEST_EMAIL =
-  process.env.REQUEST_TO_EMAIL || siteContent.contacts.email;
-const FROM_EMAIL =
-  process.env.REQUEST_FROM_EMAIL ||
-  `${SITE_BRAND.displayName} RFQ <requests@${new URL(SITE_URL).hostname}>`;
+const configuredRequestEmail = process.env.REQUEST_TO_EMAIL?.trim() ?? "";
+const configuredFromEmail = process.env.REQUEST_FROM_EMAIL?.trim() ?? "";
+const VENTROVIA_EMAIL_PATTERN = /@(?:[a-z0-9-]+\.)*ventroviaglobal\.com>?$/i;
+const REQUEST_EMAIL = VENTROVIA_EMAIL_PATTERN.test(configuredRequestEmail)
+  ? configuredRequestEmail
+  : siteContent.contacts.email;
+const FROM_EMAIL = VENTROVIA_EMAIL_PATTERN.test(configuredFromEmail)
+  ? configuredFromEmail
+  : `${SITE_BRAND.displayName} RFQ <requests@${new URL(SITE_URL).hostname}>`;
 const MAX_FILE_BYTES = 15 * 1024 * 1024;
 const MAX_FILES = 5;
 const MAX_REQUEST_BYTES = MAX_FILE_BYTES + 128_000;

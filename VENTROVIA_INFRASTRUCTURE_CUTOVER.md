@@ -77,9 +77,14 @@ responses for `/catalog`, a legacy SKU path, the public product API and the
 catalogue health admin route. The public sitemap contained 146 manufacturer
 URLs and zero product URLs.
 
-Timeweb environment values were then updated to the Ventrovia canonical origin,
-RFQ recipient and Ventrovia sender identity. These build-time values require a
-fresh immutable deployment before canonical and sitemap verification is final.
+The Timeweb settings form continued returning legacy `.ru` values after an
+authenticated save and reload. To prevent that provider state from overriding
+Ventrovia, the application now treats the central brand configuration as the
+only canonical origin and accepts form-address overrides only on the
+`ventroviaglobal.com` domain. The legacy environment values therefore cannot
+restore `.ru` metadata or route enquiries to the retired address. They should
+still be replaced or deleted in Timeweb after provider support confirms why
+the settings form is not persisting changes.
 
 ## Production acceptance gates
 
