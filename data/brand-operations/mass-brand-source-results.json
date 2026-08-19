@@ -9647,19 +9647,54 @@
   },
   {
     "manufacturerId": "elster-kromschroeder",
-    "displayName": "ELSTER KROMSCHROEDER",
-    "status": "BRAND_WEAK",
+    "displayName": "Honeywell Kromschröder",
+    "status": "BRAND_SAFE",
     "priority": 219,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "kromschroeder.de",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_OWNERSHIP",
+        "url": "https://www.kromschroeder.de/en/company/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.kromschroeder.de/en/products/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "measurement and instrumentation",
+        "industrial automation and control",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Manual Valves and Filters",
+        "Pressure Regulators",
+        "Gas Valves and Butterfly Valves",
+        "Pressure Switches",
+        "Flame Detection and Control",
+        "Pilot and Industrial Burners"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10257,19 +10292,54 @@
   },
   {
     "manufacturerId": "gambarotta",
-    "displayName": "GAMBAROTTA",
-    "status": "BRAND_WEAK",
+    "displayName": "Gambarotta",
+    "status": "BRAND_SAFE",
     "priority": 233,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "gambarotta.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.gambarotta.it/en/products",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.gambarotta.it/en/catalogs",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Bucket Elevators",
+        "Bucket and Pan Conveyors",
+        "Drag-Chain Conveyors",
+        "Apron Feeders",
+        "Screw Conveyors",
+        "Loading Bellows",
+        "Bulk-Material Valves"
+      ],
+      "industries": [
+        "industrial processing",
+        "mining",
+        "industrial manufacturing",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10802,19 +10872,53 @@
   },
   {
     "manufacturerId": "cytec-zylindertechnik-gmbh",
-    "displayName": "CYTEC ZYLINDERTECHNIK GMBH",
-    "status": "BRAND_WEAK",
+    "displayName": "CYTEC",
+    "status": "BRAND_SAFE",
     "priority": 246,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "cytec.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.cytec.de/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.cytec.de/en/products/cytec-cylinder-technology.html",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pneumatic equipment",
+        "industrial machinery",
+        "machine-tool spindles"
+      ],
+      "families": [
+        "Hydraulic and Pneumatic Cylinders",
+        "Clamping Systems",
+        "Motor Spindles",
+        "Milling Heads",
+        "Rotary Tables"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "transportation",
+        "aerospace"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10877,36 +10981,106 @@
   },
   {
     "manufacturerId": "isoil-impianti-spa",
-    "displayName": "ISOIL INDUSTRIA SPA",
-    "status": "BRAND_WEAK",
+    "displayName": "ISOIL Industria",
+    "status": "BRAND_SAFE",
     "priority": 249,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "isoil.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.isoil.com/profile-2-2/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.isoil.com/product-category/flow/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Electromagnetic Flowmeters",
+        "Ultrasonic Flowmeters",
+        "Thermal Energy Meters",
+        "Data Loggers",
+        "Industrial Automation Software"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing",
+        "building systems",
+        "food and pharmaceutical processing",
+        "chemical processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "johnson-pump",
-    "displayName": "JOHNSON PUMP",
-    "status": "BRAND_WEAK",
+    "displayName": "Johnson Pump",
+    "status": "BRAND_SAFE",
     "priority": 250,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "spxflow.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://shop.spxflow.com/spx/en/USD/Industrial/Industrial-Johnson-Pump/Johnson-Pump/c/Johnson%20Pump",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.spxflow.com/assets/pdf/johnson-pump-industrial-pump-product-overview-us.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Centrifugal Pumps",
+        "Diaphragm Pumps",
+        "Flexible-Impeller Pumps",
+        "Internal-Gear Pumps",
+        "Magnetic-Drive Pumps",
+        "Rotary-Lobe Pumps",
+        "Process Pumps"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "marine applications",
+        "energy"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -11066,19 +11240,53 @@
   },
   {
     "manufacturerId": "dresser-rand-101624",
-    "displayName": "DRESSER RAND",
-    "status": "BRAND_WEAK",
+    "displayName": "Dresser-Rand",
+    "status": "BRAND_SAFE",
     "priority": 254,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "siemens-energy.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/D-r-steam-turbines.html",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_BRAND_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/reciprocating-compressors.html",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "turbomachinery",
+        "compressors and compressed-air systems",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Industrial Steam Turbines",
+        "Reciprocating Compressors",
+        "Mechanical-Drive Turbines",
+        "Turbogenerator Sets"
+      ],
+      "industries": [
+        "energy",
+        "oil and gas",
+        "chemical processing",
+        "wood and paper processing",
+        "marine applications"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -11202,86 +11410,246 @@
   {
     "manufacturerId": "nash",
     "displayName": "NASH",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 258,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "nashpumps.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.nashpumps.com/en/products-and-systems/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "vacuum equipment",
+        "compressors and compressed-air systems",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Liquid-Ring Vacuum Pumps",
+        "Liquid-Ring Compressors",
+        "Dry Vacuum Pumps",
+        "Steam Ejectors",
+        "Hybrid Vacuum Systems",
+        "Engineered Vacuum and Compressor Systems"
+      ],
+      "industries": [
+        "chemical processing",
+        "oil and gas",
+        "energy",
+        "wood and paper processing",
+        "mining",
+        "water and wastewater"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sondermann",
     "displayName": "SONDERMANN",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 259,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sondermann-pumpen.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://sondermann-pumpen.de/en/products",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.sondermann-pumpen.de/en/products/pumps-overview",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "filtration and water systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Magnetic-Drive Centrifugal Pumps",
+        "Self-Priming Pumps",
+        "Filters and Filter Housings",
+        "Pump Controls and Accessories"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "water and wastewater"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "speroni-spa",
-    "displayName": "SPERONI",
-    "status": "BRAND_WEAK",
+    "displayName": "Speroni",
+    "status": "BRAND_SAFE",
     "priority": 260,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "speroni.it",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY",
+        "url": "https://www.speroni.it/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.speroni.it/en/products/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Surface Pumps",
+        "Submersible Pumps",
+        "Multistage Pumps",
+        "Self-Priming Pumps",
+        "Centrifugal Pumps",
+        "Pressure Systems",
+        "Motor Pumps"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "verderair",
-    "displayName": "VERDERAIR",
-    "status": "BRAND_WEAK",
+    "displayName": "Verderair",
+    "status": "BRAND_SAFE",
     "priority": 261,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "verderliquids.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.verderliquids.com/us/en/verderair/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.verderliquids.com/us/en/downloads/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pneumatic equipment",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Air-Operated Double-Diaphragm Pumps",
+        "Electric-Operated Double-Diaphragm Pumps"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "water and wastewater"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "barksdale",
-    "displayName": "BARKSDALE",
-    "status": "BRAND_WEAK",
+    "displayName": "Barksdale",
+    "status": "BRAND_SAFE",
     "priority": 262,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "barksdale.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_OWNERSHIP",
+        "url": "https://www.barksdale.com/about-us",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.barksdale.com/products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial valves and flow control",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Pressure Switches and Transducers",
+        "Temperature Switches",
+        "Level Transmitters and Switches",
+        "Valves and Regulators",
+        "Speed Monitoring"
+      ],
+      "industries": [
+        "industrial processing",
+        "oil and gas",
+        "transportation",
+        "marine applications"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {

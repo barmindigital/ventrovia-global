@@ -5,11 +5,11 @@ Checked: 2026-08-19
 ## Indexation surface
 
 - Canonical manufacturer records: 2,806.
-- `BRAND_SAFE` and eligible for indexing: 239.
-- `BRAND_WEAK`: 2,546, served as `noindex, follow` RFQ pages.
+- `BRAND_SAFE` and eligible for indexing: 250.
+- `BRAND_WEAK`: 2,535, served as `noindex, follow` RFQ pages.
 - `BRAND_REVIEW`: 21, served as `noindex, follow` until identity or source
   blockers are resolved.
-- Manufacturer sitemap URLs prepared in current source: 239.
+- Manufacturer sitemap URLs prepared in current source: 250.
 - Product sitemap URLs: 0.
 - Public/remote product records: 0.
 
@@ -19,8 +19,8 @@ Each `BRAND_SAFE` page uses its canonical brand name as H1. Its English title
 combines the brand with its strongest confirmed product area, and its English
 meta description uses confirmed product groups plus a neutral RFQ action.
 
-- Unique titles: 239 of 239.
-- Unique meta descriptions: 239 of 239.
+- Unique titles: 250 of 250.
+- Unique meta descriptions: 250 of 250.
 - Duplicate titles: 0.
 - Duplicate meta descriptions: 0.
 - Missing canonical, Open Graph or required schema findings: 0.
@@ -32,13 +32,13 @@ an authorised relationship.
 
 ## Content and evidence quality
 
-- English short descriptions: 239.
-- English full descriptions: 239.
-- Profiles with category evidence: 239.
-- Profiles with family or series evidence: 223.
-- Official source records: 413.
-- Tier A source records: 412.
-- Word-trigram Jaccard comparisons: 28,441.
+- English short descriptions: 250.
+- English full descriptions: 250.
+- Profiles with category evidence: 250.
+- Profiles with family or series evidence: 234.
+- Official source records: 434.
+- Tier A source records: 433.
+- Word-trigram Jaccard comparisons: 31,125.
 - Near-duplicate findings at threshold 0.72: 0.
 - Forbidden dealer, representative, stock, price or warranty claims: 0.
 
@@ -54,16 +54,16 @@ content. The internal path is Home → Manufacturers → Brand, with no links to
 hidden products. Official sources open as external links without partnership
 claims.
 
-102 indexable pages have an exact canonical-ID, publishable logo. The remaining
-137 use the shared text fallback. The registry retains 524 publishable
+103 indexable pages have an exact canonical-ID, publishable logo. The remaining
+147 use the shared text fallback. The registry retains 524 publishable
 candidates; no logo was mapped by fuzzy name and no favicon, reseller logo or
 generated approximation was accepted.
 
 ## Category opportunity
 
-The current evidence map is strongest for pumps (66 brands), automation and
-control (45), industrial valves and flow control (45), drive and motion
-control (44), industrial sensors (42), electric motors (39), measurement (28), and
+The current evidence map is strongest for pumps (71 brands), automation and
+control (49), industrial valves and flow control (48), drive and motion
+control (45), industrial sensors (44), electric motors (39), measurement (31), and
 geared drives (19). These counts support future editorial review but do not
 publish new category URLs in this sprint.
 
