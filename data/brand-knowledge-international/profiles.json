@@ -467,7 +467,7 @@
       "parentCompany": null,
       "shortDescription": "Official ARGO-HYTOS materials identify product areas including industrial valves and flow control, filtration and water systems, and hydraulic equipment. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
       "fullDescription": [
-        "ARGO-HYTOS's official product information covers industrial valves and flow control, filtration and water systems, hydraulic equipment, and industrial sensors.",
+        "ARGO-HYTOS' official product information covers industrial valves and flow control, filtration and water systems, hydraulic equipment, and industrial sensors.",
         "Manufacturer documentation identifies product families or lines including Valves, Filtration, Hydraulic Power Units, and Fluid Management. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -509,6 +509,80 @@
           "url": "https://www.argo-hytos.com/products/filtration.html",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "asco-numatics",
+      "officialName": "ASCO Numatics",
+      "displayName": "Numatics",
+      "aliases": [
+        "NUMATICS",
+        "ASCO Numatics"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://discreteautomation.emerson.com/brands/asco",
+      "officialDomains": [
+        "discreteautomation.emerson.com",
+        "emerson.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Emerson",
+      "shortDescription": "Numatics is an industrial manufacturer whose official portfolio covers pneumatic equipment. This source-backed profile supports specification-led international sourcing.",
+      "fullDescription": [
+        "Numatics' official product information covers pneumatic equipment. The documented corporate group is Emerson.",
+        "Manufacturer documentation identifies product families or lines including Series 250, Mark 3, ASP Cylinders, Series 450, 250, ASP, and 450. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes factory automation and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "pneumatic equipment"
+      ],
+      "productFamilies": [
+        "Series 250",
+        "Mark 3",
+        "ASP Cylinders",
+        "Series 450"
+      ],
+      "series": [
+        "250",
+        "Mark 3",
+        "ASP",
+        "450"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://discreteautomation.emerson.com/services-support/engineering-tools/catalog-35"
+      ],
+      "documentationSources": [
+        "https://discreteautomation.emerson.com/product/asco-250",
+        "https://discreteautomation.emerson.com/product/asco-asp"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-numatics-series-250",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://discreteautomation.emerson.com/product/asco-250",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-numatics-asp",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://discreteautomation.emerson.com/product/asco-asp",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -848,6 +922,74 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "bernstein-ag",
+      "officialName": "BERNSTEIN AG",
+      "displayName": "BERNSTEIN",
+      "aliases": [
+        "BERNSTEIN AG"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bernstein.eu/en/",
+      "officialDomains": [
+        "bernstein.eu"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": 1947,
+      "parentCompany": null,
+      "shortDescription": "BERNSTEIN's documented product range includes machine-safety systems and industrial sensors. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "BERNSTEIN's official product information covers machine-safety systems and industrial sensors. Brand origin: Germany. The official company record dates its foundation to 1947.",
+        "Manufacturer documentation identifies product families or lines including Safety Switches, Safety Sensors, Industrial Enclosures, Operator Stations, and Suspension Systems. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes factory automation and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "machine-safety systems",
+        "industrial sensors"
+      ],
+      "productFamilies": [
+        "Safety Switches",
+        "Safety Sensors",
+        "Industrial Enclosures",
+        "Operator Stations",
+        "Suspension Systems"
+      ],
+      "series": [],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://www.bernstein.eu/en/products/safety-switches-and-sensors"
+      ],
+      "documentationSources": [
+        "https://www.bernstein.eu/en/enclosure-technology"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bernstein-safety",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.bernstein.eu/en/products/safety-switches-and-sensors",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-bernstein-enclosures",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.bernstein.eu/en/enclosure-technology",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "bijur-delimon",
       "officialName": "Bijur Delimon International",
       "displayName": "Bijur Delimon",
@@ -1036,6 +1178,70 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "bolondi",
+      "officialName": "Officine Meccaniche Bolondi Ivano",
+      "displayName": "Bolondi",
+      "aliases": [
+        "BOLONDI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bolondi.com/en",
+      "officialDomains": [
+        "bolondi.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Bolondi's documented product range includes industrial cleaning systems. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "Bolondi's official product information covers industrial cleaning systems. Brand origin: Italy.",
+        "Manufacturer documentation identifies product families or lines including Low Pressure Washing Heads, High Pressure Washing Heads, and Cleaning Nozzles. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes food and pharmaceutical processing, chemical processing, and industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "industrial cleaning systems"
+      ],
+      "productFamilies": [
+        "Low Pressure Washing Heads",
+        "High Pressure Washing Heads",
+        "Cleaning Nozzles"
+      ],
+      "series": [],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "officialCatalogs": [
+        "https://www.bolondi.com/en/solutions"
+      ],
+      "documentationSources": [],
+      "sources": [
+        {
+          "sourceId": "brand-bolondi-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.bolondi.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-bolondi-solutions",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.bolondi.com/en/solutions",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "bonfiglioli",
       "officialName": "Bonfiglioli",
       "displayName": "Bonfiglioli",
@@ -1192,9 +1398,9 @@
       "headquarters": "Werdohl, Germany",
       "foundedYear": null,
       "parentCompany": null,
-      "shortDescription": "BRINKMANN PUMPS's documented product range includes pumps and pumping systems and electric motors. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "shortDescription": "BRINKMANN PUMPS' documented product range includes pumps and pumping systems and electric motors. The profile is built from official manufacturer sources for international industrial sourcing.",
       "fullDescription": [
-        "BRINKMANN PUMPS's official product information covers pumps and pumping systems and electric motors. Brand origin: Germany. Headquarters: Werdohl, Germany.",
+        "BRINKMANN PUMPS' official product information covers pumps and pumping systems and electric motors. Brand origin: Germany. Headquarters: Werdohl, Germany.",
         "Manufacturer documentation identifies product families or lines including Immersion Pumps, Screw Spindle Pumps, Lifting Pumps, Cutter Pumps, Miniature Centrifugal Pumps, bpdrivetec, TB, and SBA. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial manufacturing and building systems. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -1507,6 +1713,71 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "comepi",
+      "officialName": "COMEPI S.r.l.",
+      "displayName": "COMEPI",
+      "aliases": [
+        "COMEPI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.comepi.eu/english/",
+      "officialDomains": [
+        "comepi.eu"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "COMEPI's documented product range includes machine-safety systems. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "COMEPI's official product information covers machine-safety systems. Brand origin: Italy.",
+        "Manufacturer documentation identifies product families or lines including Position Switches, Safety Switches, and Pull-Wire Safety Switches. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes factory automation and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "machine-safety systems"
+      ],
+      "productFamilies": [
+        "Position Switches",
+        "Safety Switches",
+        "Pull-Wire Safety Switches"
+      ],
+      "series": [],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://www.comepi.eu/english/wp-content/uploads/sites/6/2017/02/COMEPI_SAFETY_DEVICES_EN_010_CAT108_10_2016_MEDIA.pdf"
+      ],
+      "documentationSources": [
+        "https://www.comepi.eu/english/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-comepi-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.comepi.eu/english/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-comepi-safety",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.comepi.eu/english/wp-content/uploads/sites/6/2017/02/COMEPI_SAFETY_DEVICES_EN_010_CAT108_10_2016_MEDIA.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "continental-hydraulics",
       "officialName": "Continental Hydraulics",
       "displayName": "Continental Hydraulics",
@@ -1520,9 +1791,9 @@
       "headquarters": "Shakopee, Minnesota, United States",
       "foundedYear": 1962,
       "parentCompany": "Duplomatic Group",
-      "shortDescription": "Continental Hydraulics's documented product range includes pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "shortDescription": "Continental Hydraulics' documented product range includes pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. The profile is built from official manufacturer sources for international industrial sourcing.",
       "fullDescription": [
-        "Continental Hydraulics's official product information covers pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. Brand origin: United States. Headquarters: Shakopee, Minnesota, United States. The official company record dates its foundation to 1962. The documented corporate group is Duplomatic Group.",
+        "Continental Hydraulics' official product information covers pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. Brand origin: United States. Headquarters: Shakopee, Minnesota, United States. The official company record dates its foundation to 1962. The documented corporate group is Duplomatic Group.",
         "Manufacturer documentation identifies product families or lines including Pumps, Valves, Power Units, Controls, and Manifolds. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -1825,6 +2096,67 @@
           "url": "https://www.donaldson.com/en-us/products/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "dungs",
+      "officialName": "Karl Dungs GmbH & Co. KG",
+      "displayName": "DUNGS",
+      "aliases": [
+        "DUNGS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.dungs.com/en-gb/",
+      "officialDomains": [
+        "dungs.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "DUNGS is an industrial manufacturer whose official portfolio covers industrial valves and flow control and control and regulation equipment. This source-backed profile supports specification-led international sourcing.",
+      "fullDescription": [
+        "DUNGS' official product information covers industrial valves and flow control and control and regulation equipment. Brand origin: Germany.",
+        "Manufacturer documentation identifies product families or lines including GasMultiBloc, Pressure Regulators, Pressure Switches, Shutoff Valves, Valve Proving Systems, and Burner Controls. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes energy, industrial processing, and building systems. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "industrial valves and flow control",
+        "control and regulation equipment"
+      ],
+      "productFamilies": [
+        "GasMultiBloc",
+        "Pressure Regulators",
+        "Pressure Switches",
+        "Shutoff Valves",
+        "Valve Proving Systems",
+        "Burner Controls"
+      ],
+      "series": [
+        "GasMultiBloc"
+      ],
+      "industries": [
+        "energy",
+        "industrial processing",
+        "building systems"
+      ],
+      "officialCatalogs": [
+        "https://www.dungs.com/en-gb/controls/general/current-product-portfolio"
+      ],
+      "documentationSources": [],
+      "sources": [
+        {
+          "sourceId": "brand-dungs-portfolio",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.dungs.com/en-gb/controls/general/current-product-portfolio",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -2504,6 +2836,76 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "erich-stallkamp-esta-gmbh",
+      "officialName": "Erich Stallkamp ESTA GmbH",
+      "displayName": "Stallkamp",
+      "aliases": [
+        "ERICH STALLKAMP ESTA GMBH",
+        "Stallkamp"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stallkamp.de/en/",
+      "officialDomains": [
+        "stallkamp.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Stallkamp is an industrial manufacturer whose official portfolio covers pumps and pumping systems, process equipment, and fluid-storage systems. This source-backed profile supports specification-led international sourcing.",
+      "fullDescription": [
+        "Stallkamp's official product information covers pumps and pumping systems, process equipment, and fluid-storage systems. Brand origin: Germany.",
+        "Manufacturer documentation identifies product families or lines including Pumps, Agitators, Separators, and Stainless Steel Tanks. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes agriculture, water and wastewater, and energy. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "pumps and pumping systems",
+        "process equipment",
+        "fluid-storage systems"
+      ],
+      "productFamilies": [
+        "Pumps",
+        "Agitators",
+        "Separators",
+        "Stainless Steel Tanks"
+      ],
+      "series": [],
+      "industries": [
+        "agriculture",
+        "water and wastewater",
+        "energy"
+      ],
+      "officialCatalogs": [
+        "https://www.stallkamp.de/en/153-english/products/agitators"
+      ],
+      "documentationSources": [
+        "https://www.stallkamp.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stallkamp-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.stallkamp.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-stallkamp-agitators",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.stallkamp.de/en/153-english/products/agitators",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "euchner-gmbh",
       "officialName": "EUCHNER",
       "displayName": "EUCHNER",
@@ -2604,6 +3006,71 @@
           "url": "https://www.eurotherm.com/eurotherm-products/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "faggiolati-pumps",
+      "officialName": "Faggiolati Pumps S.p.A.",
+      "displayName": "Faggiolati Pumps",
+      "aliases": [
+        "FAGGIOLATI PUMPS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.faggiolatipumps.com/en/",
+      "officialDomains": [
+        "faggiolatipumps.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Faggiolati Pumps' documented product range includes pumps and pumping systems. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "Faggiolati Pumps' official product information covers pumps and pumping systems. Brand origin: Italy.",
+        "Manufacturer documentation identifies product families or lines including Submersible Electric Pumps, Submersible Mixers, and Aeration Systems. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes water and wastewater and industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "pumps and pumping systems"
+      ],
+      "productFamilies": [
+        "Submersible Electric Pumps",
+        "Submersible Mixers",
+        "Aeration Systems"
+      ],
+      "series": [],
+      "industries": [
+        "water and wastewater",
+        "industrial processing"
+      ],
+      "officialCatalogs": [
+        "https://www.faggiolatipumps.com/en/download/"
+      ],
+      "documentationSources": [
+        "https://www.faggiolatipumps.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-faggiolati-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.faggiolatipumps.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-faggiolati-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.faggiolatipumps.com/en/download/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -3098,6 +3565,77 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "gmn",
+      "officialName": "GMN Paul Müller Industrie GmbH & Co. KG",
+      "displayName": "GMN",
+      "aliases": [
+        "GMN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.gmn.de/en/",
+      "officialDomains": [
+        "gmn.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "GMN's documented product range includes machine-tool spindles, bearings, and brakes and couplings. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "GMN's official product information covers machine-tool spindles, bearings, brakes and couplings, sealing components, and drive and motion-control systems. Brand origin: Germany.",
+        "Manufacturer documentation identifies product families or lines including Spindles, High-Precision Ball Bearings, Freewheel Clutches, Seals, and Electric Drives. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial manufacturing and industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "machine-tool spindles",
+        "bearings",
+        "brakes and couplings",
+        "sealing components",
+        "drive and motion-control systems"
+      ],
+      "productFamilies": [
+        "Spindles",
+        "High-Precision Ball Bearings",
+        "Freewheel Clutches",
+        "Seals",
+        "Electric Drives"
+      ],
+      "series": [],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "officialCatalogs": [
+        "https://www.gmn.de/en/meta/service-desk/download/"
+      ],
+      "documentationSources": [
+        "https://www.gmn.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-gmn-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.gmn.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-gmn-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.gmn.de/en/meta/service-desk/download/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "gorman-rupp",
       "officialName": "Gorman-Rupp",
       "displayName": "Gorman-Rupp",
@@ -3239,7 +3777,7 @@
       "parentCompany": null,
       "shortDescription": "Grundfos is an industrial manufacturer whose official portfolio covers pumps and pumping systems. This source-backed profile supports specification-led international sourcing.",
       "fullDescription": [
-        "Grundfos's official product information covers pumps and pumping systems. Brand origin: Denmark.",
+        "Grundfos' official product information covers pumps and pumping systems. Brand origin: Denmark.",
         "Manufacturer documentation identifies product families or lines including Building Services, Industry, Water Utility, and Dosing. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes water and wastewater, building systems, and industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -3273,6 +3811,74 @@
           "url": "https://www.grundfos.com/about-us/what-we-do",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "gruner-ag",
+      "officialName": "Gruner AG",
+      "displayName": "Gruner",
+      "aliases": [
+        "GRUNER AG"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.gruner.de/en/",
+      "officialDomains": [
+        "gruner.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": 1953,
+      "parentCompany": null,
+      "shortDescription": "Official Gruner materials identify product areas including industrial relays, drive and motion-control systems, and linear-motion components. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
+      "fullDescription": [
+        "Gruner's official product information covers industrial relays, drive and motion-control systems, and linear-motion components. Brand origin: Germany. The official company record dates its foundation to 1953.",
+        "Manufacturer documentation identifies product families or lines including Relays, Solenoids, and Servomotors. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes factory automation, energy, and building systems. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "industrial relays",
+        "drive and motion-control systems",
+        "linear-motion components"
+      ],
+      "productFamilies": [
+        "Relays",
+        "Solenoids",
+        "Servomotors"
+      ],
+      "series": [],
+      "industries": [
+        "factory automation",
+        "energy",
+        "building systems"
+      ],
+      "officialCatalogs": [
+        "https://www.gruner.de/en/downloads"
+      ],
+      "documentationSources": [
+        "https://www.gruner.de/en/servomotors"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-gruner-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.gruner.de/en/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-gruner-servomotors",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.gruner.de/en/servomotors",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -3806,6 +4412,145 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "hohner",
+      "officialName": "Hohner Elektrotechnik GmbH",
+      "displayName": "Hohner Elektrotechnik",
+      "aliases": [
+        "HOHNER ELEKTROTECHNIK",
+        "HOHNER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.hohner-elektrotechnik.de/en/",
+      "officialDomains": [
+        "hohner-elektrotechnik.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": 1980,
+      "parentCompany": null,
+      "shortDescription": "Official Hohner Elektrotechnik materials identify product areas including encoders and feedback systems and measurement and instrumentation. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
+      "fullDescription": [
+        "Hohner Elektrotechnik's official product information covers encoders and feedback systems and measurement and instrumentation. Brand origin: Germany. The official company record dates its foundation to 1980.",
+        "Manufacturer documentation identifies product families or lines including Incremental Encoders, Absolute Encoders, and Linear Measuring Systems. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes factory automation and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "encoders and feedback systems",
+        "measurement and instrumentation"
+      ],
+      "productFamilies": [
+        "Incremental Encoders",
+        "Absolute Encoders",
+        "Linear Measuring Systems"
+      ],
+      "series": [],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://www.hohner-elektrotechnik.de/en/downloads/catalogue"
+      ],
+      "documentationSources": [
+        "https://www.hohner-elektrotechnik.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-hohner-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.hohner-elektrotechnik.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-hohner-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.hohner-elektrotechnik.de/en/downloads/catalogue",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "homa-pumpen",
+      "officialName": "HOMA Pumpenfabrik GmbH",
+      "displayName": "HOMA",
+      "aliases": [
+        "HOMA PUMPEN",
+        "HOMA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.homa-pumpen.de/en/",
+      "officialDomains": [
+        "homa-pumpen.de",
+        "homapumps.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "HOMA's documented product range includes pumps and pumping systems. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "HOMA's official product information covers pumps and pumping systems. Brand origin: Germany.",
+        "Manufacturer documentation identifies product families or lines including Submersible Wastewater Pumps, Drainage Pumps, Grinder Pumps, Packaged Pump Stations, Mixers, H Series, and TP Series. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes water and wastewater and industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "pumps and pumping systems"
+      ],
+      "productFamilies": [
+        "Submersible Wastewater Pumps",
+        "Drainage Pumps",
+        "Grinder Pumps",
+        "Packaged Pump Stations",
+        "Mixers"
+      ],
+      "series": [
+        "H Series",
+        "TP Series"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing"
+      ],
+      "officialCatalogs": [
+        "https://www.homa-pumpen.de/fileadmin/user_upload/07-Download/Prospekte/GB_leaflet_pumps_for_waste_water_systems_DN200_DN500.pdf"
+      ],
+      "documentationSources": [
+        "https://www.homa-pumpen.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-homa-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.homa-pumpen.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-homa-range",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.homa-pumpen.de/fileadmin/user_upload/07-Download/Prospekte/GB_leaflet_pumps_for_waste_water_systems_DN200_DN500.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "howden",
       "officialName": "Howden",
       "displayName": "Howden",
@@ -4273,7 +5018,7 @@
       "parentCompany": null,
       "shortDescription": "Johnson Controls is an industrial manufacturer whose official portfolio covers industrial automation and control, HVAC controls, and industrial valves and flow control. This source-backed profile supports specification-led international sourcing.",
       "fullDescription": [
-        "Johnson Controls's official product information covers industrial automation and control, HVAC controls, industrial valves and flow control, and industrial sensors.",
+        "Johnson Controls' official product information covers industrial automation and control, HVAC controls, industrial valves and flow control, and industrial sensors.",
         "Manufacturer documentation identifies product families or lines including Metasys, Facility Explorer, HVAC Controls, Valves and Actuators, Sensors, and EasyIO. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes building systems and industrial processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -4472,7 +5217,7 @@
       "parentCompany": null,
       "shortDescription": "Kirloskar Brothers is an industrial manufacturer whose official portfolio covers pumps and pumping systems and industrial valves and flow control. This source-backed profile supports specification-led international sourcing.",
       "fullDescription": [
-        "Kirloskar Brothers's official product information covers pumps and pumping systems and industrial valves and flow control. Brand origin: India. Headquarters: Pune, India. The official company record dates its foundation to 1888.",
+        "Kirloskar Brothers' official product information covers pumps and pumping systems and industrial valves and flow control. Brand origin: India. Headquarters: Pune, India. The official company record dates its foundation to 1888.",
         "Manufacturer documentation identifies product families or lines including Pumps, Valves, and Fluid Management Systems. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes water and wastewater, energy, oil and gas, and marine applications. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -5659,7 +6404,7 @@
       "parentCompany": null,
       "shortDescription": "Official MP Pumps materials identify product areas including pumps and pumping systems. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
       "fullDescription": [
-        "MP Pumps's official product information covers pumps and pumping systems. Brand origin: United States. The official company record dates its foundation to 1942.",
+        "MP Pumps' official product information covers pumps and pumping systems. Brand origin: United States. The official company record dates its foundation to 1942.",
         "Manufacturer documentation identifies product families or lines including TEMPUFLO, PETROLMAXX, CHEMFLO / CFX, FLOMAX / FMX, 2CT, HHLF, and HYDRASUB. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing, transportation, agriculture, marine applications, and oil and gas. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -5774,6 +6519,64 @@
           "url": "https://www.murrelektronik.com/fileadmin/user_upload/Headquarter_en_DE/Downloads/General_Catalog/Murrelektronik_General-catalog_EN.pdf",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "netter-vibration-102721",
+      "officialName": "NetterVibration",
+      "displayName": "NetterVibration",
+      "aliases": [
+        "NETTER VIBRATION",
+        "Netter Vibration"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.nettervibration.com/en/",
+      "officialDomains": [
+        "nettervibration.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "NetterVibration is an industrial manufacturer whose official portfolio covers industrial vibration equipment. This source-backed profile supports specification-led international sourcing.",
+      "fullDescription": [
+        "NetterVibration's official product information covers industrial vibration equipment. Brand origin: Germany.",
+        "Manufacturer documentation identifies product families or lines including Pneumatic Vibrators, Electric Vibrators, Hydraulic Vibrators, Impactors, Vibrating Tables, and Vibrating Troughs. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "industrial vibration equipment"
+      ],
+      "productFamilies": [
+        "Pneumatic Vibrators",
+        "Electric Vibrators",
+        "Hydraulic Vibrators",
+        "Impactors",
+        "Vibrating Tables",
+        "Vibrating Troughs"
+      ],
+      "series": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://www.nettervibration.com/en/products-systems"
+      ],
+      "documentationSources": [],
+      "sources": [
+        {
+          "sourceId": "brand-netter-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.nettervibration.com/en/products-systems",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -6711,7 +7514,7 @@
       "parentCompany": null,
       "shortDescription": "Official Rechner Sensors materials identify product areas including industrial sensors. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
       "fullDescription": [
-        "Rechner Sensors's official product information covers industrial sensors.",
+        "Rechner Sensors' official product information covers industrial sensors.",
         "Manufacturer documentation identifies product families or lines including Capacitive Sensors, Inductive Sensors, Level Systems, and LEAK Sensors. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes factory automation, food and pharmaceutical processing, and chemical processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -6815,6 +7618,64 @@
           "url": "https://www.renold.com/products/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "retezy-vamberk",
+      "officialName": "ŘETĚZY VAMBERK spol. s r.o.",
+      "displayName": "Řetězy Vamberk",
+      "aliases": [
+        "RETEZY VAMBERK",
+        "Retezy Vamberk"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.retezy-vam.com/en/",
+      "officialDomains": [
+        "retezy-vam.com"
+      ],
+      "country": "Czech Republic",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Řetězy Vamberk's documented product range includes industrial chains. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "Řetězy Vamberk's official product information covers industrial chains. Brand origin: Czech Republic.",
+        "Manufacturer documentation identifies product families or lines including Roller Chains, Conveyor Chains, Leaf Chains, Forged Chains, Welded Steel Chains, and Sprockets. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "industrial chains"
+      ],
+      "productFamilies": [
+        "Roller Chains",
+        "Conveyor Chains",
+        "Leaf Chains",
+        "Forged Chains",
+        "Welded Steel Chains",
+        "Sprockets"
+      ],
+      "series": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://www.retezy-vam.com/en/"
+      ],
+      "documentationSources": [],
+      "sources": [
+        {
+          "sourceId": "brand-retezy-vamberk-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.retezy-vam.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -7383,6 +8244,74 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "servomech",
+      "officialName": "Servomech S.p.A.",
+      "displayName": "Servomech",
+      "aliases": [
+        "SERVOMECH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://servomech.com/en/",
+      "officialDomains": [
+        "servomech.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1989,
+      "parentCompany": null,
+      "shortDescription": "Official Servomech materials identify product areas including linear-motion components and gear units and geared drives. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
+      "fullDescription": [
+        "Servomech's official product information covers linear-motion components and gear units and geared drives. Brand origin: Italy. The official company record dates its foundation to 1989.",
+        "Manufacturer documentation identifies product families or lines including Linear Actuators, Screw Jacks, Ball Screws, Trapezoidal Screws, and Bevel Gearboxes. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes factory automation and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "linear-motion components",
+        "gear units and geared drives"
+      ],
+      "productFamilies": [
+        "Linear Actuators",
+        "Screw Jacks",
+        "Ball Screws",
+        "Trapezoidal Screws",
+        "Bevel Gearboxes"
+      ],
+      "series": [],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://servomech.com/en/products/"
+      ],
+      "documentationSources": [
+        "https://servomech.com/en/download/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-servomech-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://servomech.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-servomech-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://servomech.com/en/download/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "sew-eurodrive",
       "officialName": "SEW-EURODRIVE",
       "displayName": "SEW-EURODRIVE",
@@ -7526,7 +8455,7 @@
       "parentCompany": null,
       "shortDescription": "Official Siemens materials identify product areas including industrial automation and control, drive and motion-control systems, and electrical power systems. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
       "fullDescription": [
-        "Siemens's official product information covers industrial automation and control, drive and motion-control systems, electrical power systems, industrial software, and infrastructure technologies. Brand origin: Germany. The official company record dates its foundation to 1847.",
+        "Siemens' official product information covers industrial automation and control, drive and motion-control systems, electrical power systems, industrial software, and infrastructure technologies. Brand origin: Germany. The official company record dates its foundation to 1847.",
         "Manufacturer documentation identifies product families or lines including SIMATIC, SINAMICS, and TIA. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing, transportation, and energy. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -7626,6 +8555,85 @@
           "url": "https://www.siko-global.com/en/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "siti",
+      "officialName": "SITI S.p.A.",
+      "displayName": "SITI",
+      "aliases": [
+        "SITI",
+        "Società Italiana Trasmissioni Industriali"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sitiriduttori.it/en/",
+      "officialDomains": [
+        "sitiriduttori.it"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1967,
+      "parentCompany": null,
+      "shortDescription": "SITI's documented product range includes gear units and geared drives and electric motors. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "SITI's official product information covers gear units and geared drives and electric motors. Brand origin: Italy. The official company record dates its foundation to 1967.",
+        "Manufacturer documentation identifies product families or lines including Worm Gearboxes, Geared Units, Planetary Gearboxes, Mechanical Variators, Electric Motors, I-MI, U-MU, and MD. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing, industrial manufacturing, and packaging. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "gear units and geared drives",
+        "electric motors"
+      ],
+      "productFamilies": [
+        "Worm Gearboxes",
+        "Geared Units",
+        "Planetary Gearboxes",
+        "Mechanical Variators",
+        "Electric Motors"
+      ],
+      "series": [
+        "I-MI",
+        "U-MU",
+        "MD",
+        "NHL",
+        "NRG",
+        "K-MK",
+        "HFP",
+        "FCW"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "packaging"
+      ],
+      "officialCatalogs": [
+        "https://www.sitiriduttori.it/en/products/"
+      ],
+      "documentationSources": [
+        "https://www.sitiriduttori.it/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-siti-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.sitiriduttori.it/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-siti-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.sitiriduttori.it/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -7874,6 +8882,80 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "stieber-gmbh",
+      "officialName": "Stieber GmbH",
+      "displayName": "Stieber Clutch",
+      "aliases": [
+        "STIEBER CLUTCH",
+        "STIEBER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stieberclutch.com/en/",
+      "officialDomains": [
+        "stieberclutch.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Regal Rexnord",
+      "shortDescription": "Stieber Clutch is an industrial manufacturer whose official portfolio covers brakes and couplings. This source-backed profile supports specification-led international sourcing.",
+      "fullDescription": [
+        "Stieber Clutch's official product information covers brakes and couplings. Brand origin: Germany. The documented corporate group is Regal Rexnord.",
+        "Manufacturer documentation identifies product families or lines including Built-In Freewheels, Centrifugally Lift-Off Freewheels, Combined Bearing Freewheels, Self-Contained Freewheels, Backstops, RSCI, RDBK, and CSK. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing and mining. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "brakes and couplings"
+      ],
+      "productFamilies": [
+        "Built-In Freewheels",
+        "Centrifugally Lift-Off Freewheels",
+        "Combined Bearing Freewheels",
+        "Self-Contained Freewheels",
+        "Backstops"
+      ],
+      "series": [
+        "RSCI",
+        "RDBK",
+        "CSK",
+        "GFR",
+        "RDBR-E"
+      ],
+      "industries": [
+        "industrial processing",
+        "mining"
+      ],
+      "officialCatalogs": [
+        "https://www.stieberclutch.com/en/products"
+      ],
+      "documentationSources": [
+        "https://www.stieberclutch.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stieber-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.stieberclutch.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-stieber-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.stieberclutch.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "stober",
       "officialName": "STÖBER Antriebstechnik",
       "displayName": "STÖBER",
@@ -7947,6 +9029,73 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "svecom",
+      "officialName": "Svecom - P.E. Srl",
+      "displayName": "Svecom",
+      "aliases": [
+        "SVECOM"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.svecom.com/en/",
+      "officialDomains": [
+        "svecom.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1954,
+      "parentCompany": null,
+      "shortDescription": "Svecom's documented product range includes winding and unwinding systems. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "Svecom's official product information covers winding and unwinding systems. Brand origin: Italy. The official company record dates its foundation to 1954.",
+        "Manufacturer documentation identifies product families or lines including Expanding Shafts, Core Chucks, Safety Chucks, Rollers, and Handling Systems. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing and packaging. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "winding and unwinding systems"
+      ],
+      "productFamilies": [
+        "Expanding Shafts",
+        "Core Chucks",
+        "Safety Chucks",
+        "Rollers",
+        "Handling Systems"
+      ],
+      "series": [],
+      "industries": [
+        "industrial processing",
+        "packaging"
+      ],
+      "officialCatalogs": [
+        "https://www.svecom.com/wp-content/uploads/2022/04/Expanding-shafts-technical-catalogue.pdf"
+      ],
+      "documentationSources": [
+        "https://www.svecom.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-svecom-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.svecom.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-svecom-shafts",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.svecom.com/wp-content/uploads/2022/04/Expanding-shafts-technical-catalogue.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "tecsis",
       "officialName": "tecsis",
       "displayName": "tecsis",
@@ -7964,9 +9113,9 @@
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "WIKA Group",
-      "shortDescription": "tecsis's documented product range includes industrial sensors, electrical power systems, and measurement and instrumentation. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "shortDescription": "tecsis' documented product range includes industrial sensors, electrical power systems, and measurement and instrumentation. The profile is built from official manufacturer sources for international industrial sourcing.",
       "fullDescription": [
-        "tecsis's official product information covers industrial sensors, electrical power systems, and measurement and instrumentation. Brand origin: Germany. The documented corporate group is WIKA Group.",
+        "tecsis' official product information covers industrial sensors, electrical power systems, and measurement and instrumentation. Brand origin: Germany. The documented corporate group is WIKA Group.",
         "Manufacturer documentation identifies product families or lines including Force Measurement, Load Cells, and Force Transducers. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -8288,14 +9437,15 @@
       "headquarters": null,
       "foundedYear": 1932,
       "parentCompany": null,
-      "shortDescription": "UKF is an industrial manufacturer whose official portfolio covers bearings. This source-backed profile supports specification-led international sourcing.",
+      "shortDescription": "UKF is an industrial manufacturer whose official portfolio covers bearings and machine-tool spindles. This source-backed profile supports specification-led international sourcing.",
       "fullDescription": [
-        "UKF's official product information covers bearings. Brand origin: Germany. The official company record dates its foundation to 1932.",
+        "UKF's official product information covers bearings and machine-tool spindles. Brand origin: Germany. The official company record dates its foundation to 1932.",
         "Manufacturer documentation identifies product families or lines including Spindle Bearings, Bearing Cartridges, Spindle Units, Ball Screw Support Bearings, and Crossed Roller Bearings. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial manufacturing and aerospace. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
       "productCategories": [
-        "bearings"
+        "bearings",
+        "machine-tool spindles"
       ],
       "productFamilies": [
         "Spindle Bearings",
@@ -8610,7 +9760,7 @@
       "parentCompany": null,
       "shortDescription": "Victor Pumps is an industrial manufacturer whose official portfolio covers pumps and pumping systems. This source-backed profile supports specification-led international sourcing.",
       "fullDescription": [
-        "Victor Pumps's official product information covers pumps and pumping systems.",
+        "Victor Pumps' official product information covers pumps and pumping systems.",
         "Manufacturer documentation identifies product families or lines including S Series, R Series, S, and R. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing and water and wastewater. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -8642,6 +9792,74 @@
           "url": "https://www.victorpumps.com/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-17"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "viking-pump",
+      "officialName": "Viking Pump, Inc.",
+      "displayName": "Viking Pump",
+      "aliases": [
+        "VIKING PUMP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.vikingpump.com/",
+      "officialDomains": [
+        "vikingpump.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "IDEX Corporation",
+      "shortDescription": "Official Viking Pump materials identify product areas including pumps and pumping systems. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
+      "fullDescription": [
+        "Viking Pump's official product information covers pumps and pumping systems. Brand origin: United States. The documented corporate group is IDEX Corporation.",
+        "Manufacturer documentation identifies product families or lines including Internal Gear Pumps, External Gear Pumps, Vane Pumps, Lobe Pumps, and Circumferential Piston Pumps. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes chemical processing, food and pharmaceutical processing, and oil and gas. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "pumps and pumping systems"
+      ],
+      "productFamilies": [
+        "Internal Gear Pumps",
+        "External Gear Pumps",
+        "Vane Pumps",
+        "Lobe Pumps",
+        "Circumferential Piston Pumps"
+      ],
+      "series": [],
+      "industries": [
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "oil and gas"
+      ],
+      "officialCatalogs": [
+        "https://www.vikingpump.com/pumps"
+      ],
+      "documentationSources": [
+        "https://www.vikingpump.com/vp"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-viking-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://www.vikingpump.com/pumps",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-viking-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.vikingpump.com/vp",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
         }
       ],
       "contentLanguage": "en",
@@ -9219,6 +10437,145 @@
       "enSeoStatus": "EN_SEO_READY"
     },
     {
+      "manufacturerId": "wurges",
+      "officialName": "Würges Vibration Motors GmbH",
+      "displayName": "Würges",
+      "aliases": [
+        "WURGES",
+        "Würges"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.wuerges.de/en/",
+      "officialDomains": [
+        "wuerges.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Würges' documented product range includes industrial vibration equipment and electric motors. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "Würges' official product information covers industrial vibration equipment and electric motors. Brand origin: Germany.",
+        "Manufacturer documentation identifies product families or lines including Electric Vibrators, High Frequency Vibrators, Flange Vibrators, DC Vibrators, Explosion-Proof Vibrators, and HV. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "industrial vibration equipment",
+        "electric motors"
+      ],
+      "productFamilies": [
+        "Electric Vibrators",
+        "High Frequency Vibrators",
+        "Flange Vibrators",
+        "DC Vibrators",
+        "Explosion-Proof Vibrators"
+      ],
+      "series": [
+        "HV"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "officialCatalogs": [
+        "https://www.wuerges.de/en/produkte"
+      ],
+      "documentationSources": [],
+      "sources": [
+        {
+          "sourceId": "brand-wuerges-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY",
+          "url": "https://www.wuerges.de/en/unternehmen",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-wuerges-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.wuerges.de/en/produkte",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
+      "manufacturerId": "yamada",
+      "officialName": "Yamada Corporation",
+      "displayName": "Yamada",
+      "aliases": [
+        "YAMADA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://product.yamadacorp.co.jp/products/pump/",
+      "officialDomains": [
+        "yamadacorp.co.jp"
+      ],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Yamada's documented product range includes pumps and pumping systems. The profile is built from official manufacturer sources for international industrial sourcing.",
+      "fullDescription": [
+        "Yamada's official product information covers pumps and pumping systems. Brand origin: Japan.",
+        "Manufacturer documentation identifies product families or lines including Air-Operated Double Diaphragm Pumps, Piston Pumps, Sanitary Pumps, Transfer Systems, NDP, and G15. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
+        "The official application scope includes industrial processing, chemical processing, and food and pharmaceutical processing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
+      ],
+      "productCategories": [
+        "pumps and pumping systems"
+      ],
+      "productFamilies": [
+        "Air-Operated Double Diaphragm Pumps",
+        "Piston Pumps",
+        "Sanitary Pumps",
+        "Transfer Systems"
+      ],
+      "series": [
+        "NDP",
+        "G15"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "food and pharmaceutical processing"
+      ],
+      "officialCatalogs": [
+        "https://product.yamadacorp.co.jp/products/pump/"
+      ],
+      "documentationSources": [
+        "https://ap.yamadacorp.co.jp/products/dia/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-yamada-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_CATEGORY",
+          "url": "https://product.yamadacorp.co.jp/products/pump/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-yamada-diaphragm",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://ap.yamadacorp.co.jp/products/dia/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ],
+      "contentLanguage": "en",
+      "enContentStatus": "EN_CONTENT_READY",
+      "enSeoStatus": "EN_SEO_READY"
+    },
+    {
       "manufacturerId": "yaskawa",
       "officialName": "Yaskawa",
       "displayName": "Yaskawa",
@@ -9300,7 +10657,7 @@
       "parentCompany": null,
       "shortDescription": "Official Yuken Hydraulics materials identify product areas including pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.",
       "fullDescription": [
-        "Yuken Hydraulics's official product information covers pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. Brand origin: Japan. Headquarters: Ayase, Kanagawa, Japan.",
+        "Yuken Hydraulics' official product information covers pumps and pumping systems, industrial valves and flow control, and hydraulic equipment. Brand origin: Japan. Headquarters: Ayase, Kanagawa, Japan.",
         "Manufacturer documentation identifies product families or lines including Piston Pumps, Vane Pumps, Directional Controls, Modular Valves, Proportional Controls, and Power Units. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.",
         "The official application scope includes industrial processing and industrial manufacturing. For a commercial review, Ventrovia requests the complete model, part number or technical specification."
       ],
@@ -9503,6 +10860,15 @@
       "attemptedUrls": []
     },
     {
+      "manufacturerId": "datasensor",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "Current official Datalogic-group materials use the Datasensing identity. The evidence reviewed does not yet prove whether the historical DATASENSOR record should redirect, remain a legacy brand, or map to a different entity.",
+      "attemptedUrls": [
+        "https://www.datasensing.com/"
+      ]
+    },
+    {
       "manufacturerId": "elco-motors",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-12",
@@ -9523,6 +10889,13 @@
       ]
     },
     {
+      "manufacturerId": "invent",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "INVENT is shared by unrelated companies and the local record has no independent identifier that proves a single industrial manufacturer.",
+      "attemptedUrls": []
+    },
+    {
       "manufacturerId": "kohler-motors",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-17",
@@ -9531,6 +10904,13 @@
         "https://www.rehlko.com/",
         "https://www.powersystems.rehlko.com/about-us"
       ]
+    },
+    {
+      "manufacturerId": "larzep",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-19",
+      "reason": "Search results exposed reseller and mirrored documents, but no accessible manufacturer-owned identity and product source suitable for BRAND_SAFE publication.",
+      "attemptedUrls": []
     },
     {
       "manufacturerId": "macro-sensors",
@@ -9561,17 +10941,38 @@
       ]
     },
     {
+      "manufacturerId": "simotop",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-19",
+      "reason": "No accessible manufacturer-owned About and Products source could be verified for the exact SIMOTOP identity without relying on resellers.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "stmsi",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "The short STMSI name cannot be resolved to one manufacturer-owned domain with sufficient confidence.",
+      "attemptedUrls": []
+    },
+    {
       "manufacturerId": "tee-electric-motors",
       "status": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
       "checkedAt": "2026-08-17",
       "reason": "No authoritative manufacturer-owned domain with sufficient identity and product evidence was confirmed during the Wave 2 pass.",
       "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "vesta",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "VESTA is used by multiple unrelated industrial businesses and the local record does not contain a reliable discriminator.",
+      "attemptedUrls": []
     }
   ],
   "metrics": {
-    "enContentReady": 146,
-    "enSeoReady": 146,
-    "sourceRecords": 246,
-    "brandReview": 8
+    "enContentReady": 166,
+    "enSeoReady": 166,
+    "sourceRecords": 283,
+    "brandReview": 14
   }
 }

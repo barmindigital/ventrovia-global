@@ -41,6 +41,7 @@ const countryNames: Record<string, string> = {
   "США": "United States",
   "Турция": "Türkiye",
   "Франция": "France",
+  "Чехия": "Czech Republic",
   "Швейцария": "Switzerland",
   "Швеция": "Sweden",
   "Япония": "Japan",
@@ -108,11 +109,11 @@ const categoryRules: Array<[RegExp, string]> = [
   [/автомат|PLC|ПЛК|контроллер|HMI|интерфейсн/iu, "industrial automation and control"],
   [/измерен|измеритель|расходомер|уровнемер|регистратор|счётчик|калибров/iu, "measurement and instrumentation"],
   [/лаборатор|хроматограф|спектрометр/iu, "laboratory and analytical equipment"],
+  [/безопасн|блокиров|световые завесы|концевые выключатели/iu, "machine-safety systems"],
   [/станк|обрабатывающ|пресс|маркиров|машин/iu, "industrial machinery"],
   [/конвейер|сортиров|пневматический транспорт|паллетн/iu, "conveying and material-handling systems"],
   [/кабел|разъём|токосъём/iu, "industrial connectivity"],
   [/робот|захват|AGV|AMR/iu, "robotics and automation components"],
-  [/безопасн|блокиров|световые завесы|концевые выключатели/iu, "machine-safety systems"],
   [/свароч|резк|шлифов/iu, "welding and cutting equipment"],
   [/вентилятор|воздуходув/iu, "industrial fans and blowers"],
   [/тепло|нагрев|охлажд|холодиль|чиллер|кондиционир/iu, "thermal-management equipment"],
@@ -130,6 +131,10 @@ const categoryRules: Array<[RegExp, string]> = [
   [/прокладк/iu, "industrial gaskets"],
   [/реле/iu, "industrial relays"],
   [/инструмент/iu, "industrial tools"],
+  [/вибратор|вибрацион/iu, "industrial vibration equipment"],
+  [/разжимн.*вал|намотк|размотк/iu, "winding and unwinding systems"],
+  [/мойк|промыв|очистк/iu, "industrial cleaning systems"],
+  [/шпиндел/iu, "machine-tool spindles"],
   [/программное обеспечение|ПО для/iu, "industrial software"],
   [/бумагоделатель/iu, "paper-production equipment"],
   [/инфраструктур/iu, "infrastructure technologies"],
@@ -180,6 +185,10 @@ function seed(value: string) {
   return [...value].reduce((sum, character) => (sum * 33 + character.codePointAt(0)!) >>> 0, 5381);
 }
 
+function possessive(value: string) {
+  return /s$/iu.test(value) ? `${value}'` : `${value}'s`;
+}
+
 export type EnglishBrandProfile = Omit<
   SourceBackedBrand,
   "shortDescription" | "fullDescription" | "productCategories" | "industries"
@@ -209,7 +218,7 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   const shortDescriptions = [
     `${profile.displayName} is an industrial manufacturer whose official portfolio covers ${list(primaryAreas)}. This source-backed profile supports specification-led international sourcing.`,
     `Official ${profile.displayName} materials identify product areas including ${list(primaryAreas)}. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.`,
-    `${profile.displayName}'s documented product range includes ${list(primaryAreas)}. The profile is built from official manufacturer sources for international industrial sourcing.`,
+    `${possessive(profile.displayName)} documented product range includes ${list(primaryAreas)}. The profile is built from official manufacturer sources for international industrial sourcing.`,
   ];
 
   const locationFacts = [
@@ -226,7 +235,7 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
     .join(", ");
 
   const fullDescription = [
-    `${profile.displayName}'s official product information covers ${list(productCategories.slice(0, 6))}. ${locationFacts.join(" ")}`.trim(),
+    `${possessive(profile.displayName)} official product information covers ${list(productCategories.slice(0, 6))}. ${locationFacts.join(" ")}`.trim(),
     familyNames.length
       ? `Manufacturer documentation identifies product families or lines including ${list(familyNames.slice(0, 8))}. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.`
       : `The available manufacturer-owned ${sourceTypes || "company and product"} sources confirm the product areas shown on this page. Exact technical characteristics, production status and compatibility remain subject to the relevant model- or product-level documentation.`,

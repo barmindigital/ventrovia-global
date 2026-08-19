@@ -15,17 +15,22 @@ async function json(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
 }
 
-const [base, wave4] = await Promise.all([
+const [base, wave4, wave5] = await Promise.all([
   json("data/brand-sources/curated-brand-facts.json"),
   json("data/brand-sources/curated-brand-facts-wave-4.json"),
+  json("data/brand-sources/curated-brand-facts-wave-5.json"),
 ]);
 
-const profiles = [...base.profiles, ...wave4.profiles]
+const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles]
   .map(toEnglishBrandProfile)
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),
   );
-const blockedIdentities = [...base.blockedIdentities, ...wave4.blockedIdentities]
+const blockedIdentities = [
+  ...base.blockedIdentities,
+  ...wave4.blockedIdentities,
+  ...wave5.blockedIdentities,
+]
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),
   );
