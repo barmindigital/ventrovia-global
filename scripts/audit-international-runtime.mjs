@@ -15,9 +15,9 @@ const publicContent = await readFile(
   "utf8",
 );
 
-assert.equal(knowledge.profiles.length, 166);
-assert.equal(knowledge.metrics.enContentReady, 166);
-assert.equal(knowledge.metrics.enSeoReady, 166);
+assert.equal(knowledge.profiles.length, 178);
+assert.equal(knowledge.metrics.enContentReady, 178);
+assert.equal(knowledge.metrics.enSeoReady, 178);
 assert.doesNotMatch(knowledgeSource, /[А-Яа-яЁё]/u);
 assert.doesNotMatch(publicContent, /[А-Яа-яЁё]/u);
 assert.doesNotMatch(`${brandConfig}\n${publicContent}`, /VENTORVIA/u);

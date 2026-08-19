@@ -1,965 +1,15 @@
 {
-  "seed": "brand-sample-v2",
-  "methodology": "All BRAND_SAFE pages first, followed by a deterministic cross-tier sample to 200 records.",
+  "seed": "brand-sample-v3",
+  "methodology": "All BRAND_SAFE pages first, followed by a deterministic cross-tier sample to 250 records.",
   "coverage": {
-    "BRAND_SAFE": 146,
-    "BRAND_WEAK": 54,
+    "BRAND_SAFE": 178,
+    "BRAND_WEAK": 72,
     "BRAND_REVIEW": 0
   },
   "sample": [
     {
       "sampleIndex": 1,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ika",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 2,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bijur-delimon",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 3,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pioneer-pump",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 4,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "lenord-bauer",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 5,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "smc",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 6,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "johnson-controls",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 7,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "marathon-electric",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 8,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mp-pumps",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 9,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "festo",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 10,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "edwards",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 11,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "marelli-motori",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 12,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "schubert-salzer",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 13,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "elcometer",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 14,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "leroy-somer",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 15,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "unimec",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 16,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "schmalz",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 17,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "allweiler-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 18,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "andritz-gouda",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 19,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "lenze-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 20,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "omal",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 21,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "belimo",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 22,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "argo-hytos",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 23,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "samson",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 24,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "skf",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 25,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "dunkermotoren",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 26,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "duplomatic",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 27,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "aircom-pneumatic-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 28,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hanbell",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 29,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "sew-eurodrive",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 30,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "garlock",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 31,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "crouzet",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 32,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "spirax-sarco",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 33,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pentair",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 34,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "vemat-motori",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 35,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "rulmeca",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 36,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "boge",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 37,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "helukabel",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 38,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "rechner-sensors",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 39,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "stober",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 40,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "noval",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 41,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "senstronic",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 42,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "twk-elektronik",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 43,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "tecsis",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 44,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "isel-automation-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 45,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "voith-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 46,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "franklin-electric",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 47,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "elmo-rietschle",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 48,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "kirloskar-brothers-limited-kbl",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 49,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "siko-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 50,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "novotechnik",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 51,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "euchner-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 52,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "thermo-fisher-scientific",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 53,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "wika",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 54,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "okuma",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 55,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "vivoil-oleodinamica-vivolo-s-r-l",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 56,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "brook-crompton",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 57,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bosch-rexroth",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 58,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "noshok",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 59,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bauer-kompressoren",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 60,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "tolomatic",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 61,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "eurotherm",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 62,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "fanuc",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 63,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ebmpapst",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 64,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "datalogic",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 65,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "kollmorgen",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 66,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mayr",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 67,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ziehl-abegg",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 68,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "baumer-hubner-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 69,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "donaldson",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 70,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "demag",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 71,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "rockwell-automation",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 72,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "koganei",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 73,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mp-filtri",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 74,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "nidec",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 75,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "murrelektronik-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 76,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "wenglor-sensoric",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 77,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hammelmann",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 78,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pfeiffer-vacuum",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 79,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "amada",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 80,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "kazel",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 81,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "schmersal",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 82,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "alfa-laval",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 83,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "grundfos",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 84,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "prominent",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 85,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ingersoll-rand",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 86,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ukf",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 87,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "flowserve",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 88,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ebro-armaturen",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 89,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "kuebler",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 90,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "brinkmann-pumps",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 91,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "parker-hannifin-gmbh",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 92,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "renold",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 93,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "speck-pumpen",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 94,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "elap",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 95,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hawe-hydraulic",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 96,
-      "seed": "brand-sample-v2",
+      "seed": "brand-sample-v3",
       "manufacturerId": "lincoln",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
@@ -968,9 +18,9 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 97,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hiwin",
+      "sampleIndex": 2,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "vega",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -978,9 +28,29 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 98,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "edur",
+      "sampleIndex": 3,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ifm-electronic",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 4,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "wika",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 5,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "erich-stallkamp-esta-gmbh",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -988,9 +58,9 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 99,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mahle",
+      "sampleIndex": 6,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hydac",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -998,58 +68,8 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 100,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "kaeser",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 101,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "siemens",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 102,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "continental-hydraulics",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 103,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "yaskawa",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 104,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "howden",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 105,
-      "seed": "brand-sample-v2",
+      "sampleIndex": 7,
+      "seed": "brand-sample-v3",
       "manufacturerId": "gorman-rupp",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
@@ -1058,19 +78,9 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 106,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "wilkerson",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 107,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "leuze-electronic",
+      "sampleIndex": 8,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "wittenstein",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1078,8 +88,8 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 108,
-      "seed": "brand-sample-v2",
+      "sampleIndex": 9,
+      "seed": "brand-sample-v3",
       "manufacturerId": "wagner",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
@@ -1088,9 +98,9 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 109,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "cantoni-group",
+      "sampleIndex": 10,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "twk-elektronik",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1098,8 +108,508 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 110,
-      "seed": "brand-sample-v2",
+      "sampleIndex": 11,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "weg",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 12,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "netter-vibration-102721",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 13,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "senstronic",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 14,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hydraforce",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 15,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "abb",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 16,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "apv",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 17,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "mp-pumps",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 18,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "rechner-sensors",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 19,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "heidenhain",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 20,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hawe-hydraulic",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 21,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "renold",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 22,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ingersoll-rand",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 23,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hiwin",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 24,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "dixon",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 25,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ukf",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 26,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "okuma",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 27,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "novotechnik",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 28,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "sandpiper",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 29,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "herz",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 30,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "elcometer",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 31,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hohner",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 32,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "alfa-laval",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 33,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "rulmeca",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 34,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "portescap",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 35,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "siti",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 36,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bolondi",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 37,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "voith-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 38,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "marathon-electric",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 39,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "continental-hydraulics",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 40,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "inoxpa",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 41,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "rockwell-automation",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 42,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "lowara",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 43,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "interroll",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 44,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "homa-pumpen",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 45,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "mahle",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 46,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "noshok",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 47,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "sick-ag",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 48,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "faggiolati-pumps",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 49,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "suco-technologies",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 50,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "gardner-denver",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 51,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kracht-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 52,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "yamada",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 53,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "victor-pumps",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 54,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kuebler",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 55,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "edur",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 56,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "schmersal",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 57,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "zimmer-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 58,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "andritz-gouda",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 59,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "gmn",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 60,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "iwaki-pumps",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 61,
+      "seed": "brand-sample-v3",
       "manufacturerId": "gea",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
@@ -1108,8 +618,498 @@
       "automatedOutcome": "PASS"
     },
     {
+      "sampleIndex": 62,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "duplomatic",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 63,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "burkert",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 64,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "leser",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 65,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "thomson",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 66,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "howden",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 67,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pizzato-elettrica",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 68,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "dungs",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 69,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kaeser",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 70,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ruhrpumpen",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 71,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "leroy-somer",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 72,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kollmorgen",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 73,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ziehl-abegg",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 74,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "stieber-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 75,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "datalogic",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 76,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kirloskar-brothers-limited-kbl",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 77,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "wurges",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 78,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bernstein-ag",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 79,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ebara-pump",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 80,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bijur-delimon",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 81,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "yaskawa",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 82,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "spirax-sarco",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 83,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "festo",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 84,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hanbell",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 85,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pfeiffer-vacuum",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 86,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "viking-pump",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 87,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pentair",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 88,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "tecsis",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 89,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "mettler-toledo",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 90,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "comepi",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 91,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pioneer-pump",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 92,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "lutz-pumpen-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 93,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "marelli-motori",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 94,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "lenord-bauer",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 95,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "baumer-hubner-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 96,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "franklin-electric",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 97,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "argo-hytos",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 98,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "nidec",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 99,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "eurotherm",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 100,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bosch-rexroth",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 101,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "oerlikon-leybold-vacuum",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 102,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "cantoni-group",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 103,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ebmpapst",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 104,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "yuken-hydraulics",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 105,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "crouzet",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 106,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "retezy-vamberk",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 107,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ika",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 108,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "grundfos",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 109,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "flowserve",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 110,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "wilkerson",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
       "sampleIndex": 111,
-      "seed": "brand-sample-v2",
+      "seed": "brand-sample-v3",
       "manufacturerId": "felm",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
@@ -1119,18 +1119,8 @@
     },
     {
       "sampleIndex": 112,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hbm",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 113,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bodine-electric",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "noval",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1138,9 +1128,19 @@
       "automatedOutcome": "PASS"
     },
     {
+      "sampleIndex": 113,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bauer-kompressoren",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
       "sampleIndex": 114,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "sick-ag",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "euchner-gmbh",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1149,18 +1149,18 @@
     },
     {
       "sampleIndex": 115,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "thomson",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "elmo-rietschle",
       "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
+      "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
       "seoReadiness": "BRAND_SAFE",
       "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 116,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "portescap",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "vemat-motori",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1169,8 +1169,8 @@
     },
     {
       "sampleIndex": 117,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "interroll",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "belimo",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1179,8 +1179,8 @@
     },
     {
       "sampleIndex": 118,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "weg",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "siemens",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1189,8 +1189,8 @@
     },
     {
       "sampleIndex": 119,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hydac",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "speck-pumpen",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1199,8 +1199,8 @@
     },
     {
       "sampleIndex": 120,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "groschopp",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "wenglor-sensoric",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1209,8 +1209,8 @@
     },
     {
       "sampleIndex": 121,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "becker",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "svecom",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1219,8 +1219,8 @@
     },
     {
       "sampleIndex": 122,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ifm-electronic",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "sew-eurodrive",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1229,128 +1229,8 @@
     },
     {
       "sampleIndex": 123,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ruhrpumpen",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 124,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "schneider-electric",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 125,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "oerlikon-leybold-vacuum",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 126,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pizzato-elettrica",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 127,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "gardner-denver",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 128,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bonfiglioli",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 129,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "heidenhain",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 130,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mettler-toledo",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 131,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "abb",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 132,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "carrier",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 133,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "wittenstein",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 134,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "leister",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 135,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "lutz-pumpen-gmbh",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pedrollo",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1358,18 +1238,8 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 136,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "leser",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
-      "sampleIndex": 137,
-      "seed": "brand-sample-v2",
+      "sampleIndex": 124,
+      "seed": "brand-sample-v3",
       "manufacturerId": "atlas-copco",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
@@ -1378,9 +1248,139 @@
       "automatedOutcome": "PASS"
     },
     {
+      "sampleIndex": 125,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "donaldson",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 126,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "brinkmann-pumps",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 127,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "prominent",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 128,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "mp-filtri",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 129,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "lenze-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 130,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "asco-numatics",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 131,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "siko-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 132,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "vivoil-oleodinamica-vivolo-s-r-l",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 133,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "unimec",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 134,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "elap",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 135,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "skf",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 136,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "demag",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 137,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "gruner-ag",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
       "sampleIndex": 138,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "zimmer-gmbh",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bonfiglioli",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1389,8 +1389,18 @@
     },
     {
       "sampleIndex": 139,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ebara-pump",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "john-crane",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 140,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "schmalz",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1398,29 +1408,19 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 140,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "herz",
-      "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
-      "contentCheck": "FULL_DESCRIPTION_READY",
-      "seoReadiness": "BRAND_SAFE",
-      "automatedOutcome": "PASS"
-    },
-    {
       "sampleIndex": 141,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "victor-pumps",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "samson",
       "identityCheck": "SOURCE_BACKED",
-      "logoCheck": "MISSING",
+      "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
       "seoReadiness": "BRAND_SAFE",
       "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 142,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "vega",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "mayr",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1429,8 +1429,8 @@
     },
     {
       "sampleIndex": 143,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "abm-greiffenberger",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "calpeda",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1439,8 +1439,8 @@
     },
     {
       "sampleIndex": 144,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "burkert",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "groschopp",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "PUBLISHABLE",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1449,8 +1449,48 @@
     },
     {
       "sampleIndex": 145,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "yuken-hydraulics",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "carrier",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 146,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "johnson-controls",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 147,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "fanuc",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 148,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "stober",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 149,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "tolomatic",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
       "contentCheck": "FULL_DESCRIPTION_READY",
@@ -1458,8 +1498,98 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 146,
-      "seed": "brand-sample-v2",
+      "sampleIndex": 150,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "thermo-fisher-scientific",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 151,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "koganei",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 152,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "allweiler-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 153,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kazel",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 154,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "dunkermotoren",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 155,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "smc",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 156,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hbm",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 157,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "isel-automation-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 158,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "garlock",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 159,
+      "seed": "brand-sample-v3",
       "manufacturerId": "varisco-pumps",
       "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
@@ -1468,544 +1598,914 @@
       "automatedOutcome": "PASS"
     },
     {
-      "sampleIndex": 147,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "blackmer",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 148,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "elstein",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 149,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "schlemmer",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 150,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "karmsund-maritime-group",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 151,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "girard-transmissions",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 152,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pollard",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 153,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "produal",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 154,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "airloc",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 155,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bd-sensors",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 156,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mac-valves",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 157,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "veeder-root",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 158,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "klixon",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
-      "sampleIndex": 159,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "effebi",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
-    },
-    {
       "sampleIndex": 160,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "orion",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "edwards",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 161,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ascom-spa",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "boge",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 162,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "columbus-mckinnon",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ebro-armaturen",
+      "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 163,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "disab",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "helukabel",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 164,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "oilon",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "omal",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 165,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "epe-italiana",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "aircom-pneumatic-gmbh",
+      "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 166,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hp-technik",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "parker-hannifin-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 167,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "cathodic-technology-limited",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "murrelektronik-gmbh",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 168,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pacseal-hydraulics",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "abm-greiffenberger",
+      "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 169,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "schmidt-kupplung",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "leister",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 170,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "elektror",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "amada",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 171,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "panasonic",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "becker",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "MISSING",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 172,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "gamma-meccanica",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "leuze-electronic",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 173,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "carlyle-compressors",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bodine-electric",
+      "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 174,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "broen",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "schneider-electric",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 175,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "warren-rupp-inc",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "schubert-salzer",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 176,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "sesino",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hammelmann",
+      "identityCheck": "SOURCE_BACKED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 177,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "pentronic",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "brook-crompton",
+      "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 178,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "metrix",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "servomech",
+      "identityCheck": "SOURCE_BACKED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
-      "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "contentCheck": "FULL_DESCRIPTION_READY",
+      "seoReadiness": "BRAND_SAFE",
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 179,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "marden-edwards",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "sterling-electric",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 180,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "telemecanique",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "rosen",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "PUBLISHABLE",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 181,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "tecna",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bonney-forge",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 182,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "cpm",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bosch-packaging",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 183,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "alpha-gear-drives",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "samoa",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 184,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "filtron",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "stahl-cranesystems",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 185,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "integral-hydraulik-gmbh-co-kg",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "abacus",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 186,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "heimann-sensor",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "grein",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 187,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "nivelco",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "guyson",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 188,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "mennekes",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "PUBLISHABLE",
-      "contentCheck": "MISSING",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "regin",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 189,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "herga",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "vetter-gmbh",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 190,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "aseptomag",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "fleetguard-inc",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 191,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "emi",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "leistritz",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 192,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "weh",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "produal",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 193,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "aasted-mikroverk",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "contitech",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 194,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hyperline",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ipf-electronic",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 195,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "borsig",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "huttenes-albertus",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "PUBLISHABLE",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 196,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "ventilex-drygenic",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "laempe",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 197,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "parker-hiross-zander",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pavan",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 198,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "durag-group",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "esbelt",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 199,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "bimba",
-      "identityCheck": "NOT_PROVEN",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "top-worx",
+      "identityCheck": "NOT_ASSERTED",
       "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
     },
     {
       "sampleIndex": 200,
-      "seed": "brand-sample-v2",
-      "manufacturerId": "hitech",
-      "identityCheck": "NOT_PROVEN",
-      "logoCheck": "MISSING",
-      "contentCheck": "MISSING",
+      "seed": "brand-sample-v3",
+      "manufacturerId": "nikkiso",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
       "seoReadiness": "BRAND_WEAK",
-      "automatedOutcome": "NEEDS_REVIEW"
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 201,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "regina-group",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 202,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "agilent-101367",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 203,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "goizper",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 204,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "munsch",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 205,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hestego",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 206,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "oventrop",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 207,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "sanovo",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 208,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "teikoku",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 209,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "nuova-euromec",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 210,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "rosta",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 211,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "simrit",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 212,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "piab",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 213,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "id-insert-deal",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 214,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "giuliani-anello",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 215,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "taiyo",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 216,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pomtava",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 217,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "molex",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 218,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "vacuum-barrier-systems",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 219,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "gedore",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 220,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "pratissoli",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 221,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "nabtesco",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 222,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "aeromeccanica-stranich",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 223,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "brooks-instrument",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 224,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "litz",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 225,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "triangle",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 226,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "fotek",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 227,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "broady-flow-control",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 228,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "cima-motori",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 229,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "nuaire",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 230,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "rubinetterie-bresciane",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 231,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "kaibel-sieber",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 232,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bilopack",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 233,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "idroteck",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 234,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hilge",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 235,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hilma",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 236,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hhs",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 237,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "weh",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 238,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "shimadzu",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 239,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "ilmvac-gmbh",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 240,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "haskel",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 241,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "herga",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 242,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "desch-antriebstechnik",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 243,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "taylor-hobson",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 244,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hoppecke",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 245,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "bw-papersystems",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "PUBLISHABLE",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 246,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "microstep",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 247,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "super-systems-inc",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 248,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "hutchinson",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 249,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "lema",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
+    },
+    {
+      "sampleIndex": 250,
+      "seed": "brand-sample-v3",
+      "manufacturerId": "gf-agie-charmilles",
+      "identityCheck": "NOT_ASSERTED",
+      "logoCheck": "MISSING",
+      "contentCheck": "NOINDEX_MINIMAL",
+      "seoReadiness": "BRAND_WEAK",
+      "automatedOutcome": "PASS"
     }
   ]
 }

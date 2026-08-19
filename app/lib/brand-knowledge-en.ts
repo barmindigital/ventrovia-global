@@ -38,6 +38,7 @@ const countryNames: Record<string, string> = {
   "Индия": "India",
   "Италия": "Italy",
   "Польша": "Poland",
+  "Испания": "Spain",
   "США": "United States",
   "Турция": "Türkiye",
   "Франция": "France",
@@ -214,11 +215,25 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   }
 
   const primaryAreas = productCategories.slice(0, 3);
-  const variant = seed(profile.manufacturerId) % 3;
+  const variant = seed(profile.manufacturerId) % 6;
+  const englishFamilies = englishIdentityValues(profile.productFamilies);
+  const englishSeries = englishIdentityValues(profile.series);
+  const identityLines = [
+    `${profile.displayName} has an official portfolio covering ${list(primaryAreas)}.`,
+    `Manufacturer-owned sources place ${profile.displayName} in ${list(primaryAreas)}.`,
+    `${possessive(profile.displayName)} documented product scope includes ${list(primaryAreas)}.`,
+    `Official material for ${profile.displayName} identifies ${list(primaryAreas)} as its principal product areas.`,
+    `${profile.displayName} publishes manufacturer information for ${list(primaryAreas)}.`,
+    `The verified ${profile.displayName} product range spans ${list(primaryAreas)}.`,
+  ];
+  const familyLead = unique([...englishFamilies, ...englishSeries]).slice(0, 3);
   const shortDescriptions = [
-    `${profile.displayName} is an industrial manufacturer whose official portfolio covers ${list(primaryAreas)}. This source-backed profile supports specification-led international sourcing.`,
-    `Official ${profile.displayName} materials identify product areas including ${list(primaryAreas)}. Ventrovia uses these manufacturer-owned sources to support model- and specification-based RFQs.`,
-    `${possessive(profile.displayName)} documented product range includes ${list(primaryAreas)}. The profile is built from official manufacturer sources for international industrial sourcing.`,
+    `${identityLines[0]}${familyLead.length ? ` Documented lines include ${list(familyLead)}.` : ""} Ventrovia reviews enquiries against the relevant manufacturer documentation.`,
+    `${identityLines[1]}${profile.country ? ` The verified brand record is associated with ${countryNames[profile.country] ?? profile.country}.` : ""} Submit the exact designation for an international sourcing review.`,
+    `${identityLines[2]}${familyLead.length ? ` Official documentation names ${list(familyLead)}.` : ""} Commercial review starts with the complete model or specification.`,
+    `${identityLines[3]}${profile.parentCompany ? ` The documented corporate group is ${profile.parentCompany}.` : ""} Ventrovia handles specification-led RFQs without implying an authorised relationship.`,
+    `${identityLines[4]}${familyLead.length ? ` The published range includes ${list(familyLead)}.` : ""} Exact configuration and supply status are checked for each request.`,
+    `${identityLines[5]}${profile.foundedYear ? ` The official company record dates its foundation to ${profile.foundedYear}.` : ""} Buyers can submit a model, part number or technical file for review.`,
   ];
 
   const locationFacts = [
@@ -227,21 +242,46 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
     profile.foundedYear ? `The official company record dates its foundation to ${profile.foundedYear}.` : "",
     profile.parentCompany ? `The documented corporate group is ${profile.parentCompany}.` : "",
   ].filter(Boolean);
-  const productFamilies = englishIdentityValues(profile.productFamilies);
-  const series = englishIdentityValues(profile.series);
+  const productFamilies = englishFamilies;
+  const series = englishSeries;
   const familyNames = unique([...productFamilies, ...series]);
   const sourceTypes = unique(profile.sources.map((source) => source.type.toLocaleLowerCase("en")))
     .slice(0, 3)
     .join(", ");
 
+  const identityParagraphs = [
+    `${profile.officialName} is represented here through manufacturer-owned evidence for ${list(productCategories.slice(0, 6))}.`,
+    `The verified ${profile.displayName} record is based on official company and product material covering ${list(productCategories.slice(0, 6))}.`,
+    `Ventrovia identifies ${profile.displayName} through its own published sources and limits this profile to ${list(productCategories.slice(0, 6))}.`,
+    `Official ${profile.displayName} information confirms a product scope centred on ${list(productCategories.slice(0, 6))}.`,
+    `${possessive(profile.displayName)} manufacturer documentation establishes the brand identity and its work in ${list(productCategories.slice(0, 6))}.`,
+    `This profile uses first-party ${profile.displayName} sources to describe ${list(productCategories.slice(0, 6))}.`,
+  ];
+  const familyParagraphs = [
+    `Named product families and lines include ${list(familyNames.slice(0, 8))}. These names organise the documented range; they do not transfer specifications or compatibility from one model to another.`,
+    `The published range names ${list(familyNames.slice(0, 8))}. Selection still requires the technical record for the requested model, because family membership alone is not a compatibility statement.`,
+    `Official material lists ${list(familyNames.slice(0, 8))}. Ventrovia treats these as family-level evidence and checks exact characteristics only at model or document level.`,
+    `Documented lines include ${list(familyNames.slice(0, 8))}. Their presence helps route an RFQ but does not prove current production, interchangeability or a particular configuration.`,
+    `${profile.displayName} publishes information for ${list(familyNames.slice(0, 8))}. A commercial enquiry is therefore matched to the requested designation rather than inferred from the family name.`,
+    `The official product structure includes ${list(familyNames.slice(0, 8))}. Model status, options and operating limits remain subject to the applicable manufacturer document.`,
+  ];
+  const applicationParagraphs = [
+    `Documented application areas include ${list(industries.slice(0, 5))}. Buyers should provide the operating context together with the exact model or part number.`,
+    `The source-backed application scope covers ${list(industries.slice(0, 5))}. Ventrovia uses the submitted specification to review the requested configuration and commercial path.`,
+    `Official sources associate the range with ${list(industries.slice(0, 5))}. An RFQ should include duty, media or interface details where they affect selection.`,
+    `Published applications span ${list(industries.slice(0, 5))}. Pricing and lead-time review begins only after the requested equipment is identified precisely.`,
+    `The documented market context includes ${list(industries.slice(0, 5))}. The complete designation and technical file help avoid assumptions about suitability.`,
+    `${profile.displayName} materials reference ${list(industries.slice(0, 5))}. Ventrovia reviews each enquiry on its own specification and does not infer availability from this profile.`,
+  ];
+
   const fullDescription = [
-    `${possessive(profile.displayName)} official product information covers ${list(productCategories.slice(0, 6))}. ${locationFacts.join(" ")}`.trim(),
+    `${identityParagraphs[variant]} ${locationFacts.join(" ")}`.trim(),
     familyNames.length
-      ? `Manufacturer documentation identifies product families or lines including ${list(familyNames.slice(0, 8))}. Family-level information helps structure an RFQ, but it does not establish the exact specifications, production status or compatibility of an individual part.`
-      : `The available manufacturer-owned ${sourceTypes || "company and product"} sources confirm the product areas shown on this page. Exact technical characteristics, production status and compatibility remain subject to the relevant model- or product-level documentation.`,
+      ? familyParagraphs[(variant + 2) % familyParagraphs.length]
+      : `The available manufacturer-owned ${sourceTypes || "company and product"} sources confirm the areas shown here. Exact technical characteristics, production status and compatibility remain subject to the relevant model-level material.`,
     industries.length
-      ? `The official application scope includes ${list(industries.slice(0, 5))}. For a commercial review, Ventrovia requests the complete model, part number or technical specification.`
-      : `For a commercial review, Ventrovia requests the complete model, part number or technical specification so that the exact requirement can be checked against the appropriate official material.`,
+      ? applicationParagraphs[(variant + 4) % applicationParagraphs.length]
+      : `A commercial review requires the complete model, part number or specification so the requirement can be checked against the appropriate official material.`,
   ];
 
   return {
