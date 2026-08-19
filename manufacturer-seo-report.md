@@ -5,50 +5,76 @@ Checked: 2026-08-19
 ## Indexation surface
 
 - Canonical manufacturer records: 2,806.
-- `BRAND_SAFE` and indexable: 178.
-- `BRAND_WEAK`: 2,614, served as `noindex, follow` RFQ pages.
-- `BRAND_REVIEW`: 14, served as `noindex, follow` until identity or source blockers are resolved.
-- Manufacturer sitemap URLs prepared in source: 178.
+- `BRAND_SAFE` and eligible for indexing: 220.
+- `BRAND_WEAK`: 2,566, served as `noindex, follow` RFQ pages.
+- `BRAND_REVIEW`: 20, served as `noindex, follow` until identity or source
+  blockers are resolved.
+- Manufacturer sitemap URLs prepared in current source: 220.
 - Product sitemap URLs: 0.
-- Product catalog public flag: disabled.
+- Public/remote product records: 0.
 
 ## Metadata quality
 
-Every `BRAND_SAFE` page uses its canonical brand name as H1. Its title pairs that name with the leading officially confirmed product group, while the meta description uses up to three confirmed product groups and a neutral RFQ action. The generated audit records 178 unique titles, 178 unique meta descriptions, no missing canonicals, no missing Open Graph metadata and no duplicate metadata.
+Each `BRAND_SAFE` page uses its canonical brand name as H1. Its English title
+combines the brand with its strongest confirmed product area, and its English
+meta description uses confirmed product groups plus a neutral RFQ action.
 
-Primary intent follows the factual form `{Brand} + {confirmed product group}`. Secondary intent is neutral international equipment sourcing and RFQ review; it does not imply an authorized relationship.
+- Unique titles: 220 of 220.
+- Unique meta descriptions: 220 of 220.
+- Duplicate titles: 0.
+- Duplicate meta descriptions: 0.
+- Missing canonical, Open Graph or required schema findings: 0.
+- Product, Offer, Review and AggregateRating schema pages: 0.
 
-## Content quality
+Primary intent follows `{Brand} + {confirmed product area}`. Secondary intent
+is neutral international equipment sourcing and RFQ review; it never implies
+an authorised relationship.
 
-- Unique short descriptions: 178.
-- Unique full descriptions: 178.
-- Profiles with category evidence: 178.
-- Profiles with family evidence: 162.
-- Tier A source records: 305.
-- Word-trigram Jaccard findings across all 15,753 profile pairs at threshold 0.72: 0.
+## Content and evidence quality
+
+- English short descriptions: 220.
+- English full descriptions: 220.
+- Profiles with category evidence: 220.
+- Profiles with family or series evidence: 204.
+- Official source records: 381.
+- Tier A source records: 380.
+- Word-trigram Jaccard comparisons: 24,090.
+- Near-duplicate findings at threshold 0.72: 0.
 - Forbidden dealer, representative, stock, price or warranty claims: 0.
 
-Descriptions are composed from explicit Brand Facts and sources. Imported SKU data can prioritize research but cannot enter public brand copy. Technical parameters are not inferred from family or category relationships.
+Public prose is generated from explicit Brand Facts derived from first-party
+sources. Imported SKU data is absent from the international runtime and cannot
+enter public manufacturer copy. Technical parameters are not inferred from a
+family or category relationship.
 
-The deterministic validation set now contains 250 records: all 178 indexable
-profiles plus 72 noindex controls. Its source, content, logo and readiness
-checks are regenerated with every Brand Knowledge release instead of remaining
-as a historical static snapshot.
+## Structured data, linking and logos
 
-## Structured data and links
+Indexable brand pages emit `Brand` and `BreadcrumbList` data matching visible
+content. The internal path is Home → Manufacturers → Brand, with no links to
+hidden products. Official sources open as external links without partnership
+claims.
 
-Indexable brand pages emit `Brand` and `BreadcrumbList` structured data matching visible content. They do not emit `Product`, `Offer`, `AggregateRating` or review data. The internal path is Home → Manufacturers → Brand; no brand page links to hidden products. Official websites and documentation open as external links without partnership claims.
+102 indexable pages have an exact canonical-ID, publishable logo. The remaining
+118 use the shared text fallback. The registry retains 524 publishable
+candidates; no logo was mapped by fuzzy name and no favicon, reseller logo or
+generated approximation was accepted.
 
-## Logos and visual quality
+## Category opportunity
 
-102 indexable pages have an exact canonical-ID, publishable logo. The remaining 76 use the shared text fallback. The registry keeps 524 publishable candidates; no logo was mapped by fuzzy name, and no favicon, reseller logo or generated approximation was accepted.
+The current evidence map is strongest for pumps (63 brands), drive and motion
+control (40), industrial valves and flow control (40), electric motors (39),
+industrial sensors (36), automation and control (31), measurement (23), and
+geared drives (19). These counts support future editorial review but do not
+publish new category URLs in this sprint.
 
-## Technical health
+## Next source queue
 
-The manufacturer sitemap is generated from the compact readiness index. Full descriptions and evidence stay server-side. The directory sends only card-level display fields, while product counts remain suppressed. Product APIs, searches, catalog listings and product sitemap entries remain closed.
+The fastest next cohort begins with PRECILEC, KONETEOLLISUUS, ESA Pyronics,
+Sensorex, Berg Spanntechnik, Brooks Instrument, Elster Kromschröder, Huba
+Control, InterApp, Relpol, co-ax, ipf electronic, Nocchi, Pneumax, YXLON,
+Gambarotta, Krombach, OBL, Kabelschlepp and Kadant Johnson.
 
-## Next opportunities
-
-The fastest path to 500 safe pages is cohort source work, not template expansion: verify manufacturer-owned domains, capture one About/identity source and one Products/Solutions source, write source-traceable English copy, then reuse exact registry logos where available. The current next queue begins with LEESON Electric, Wheatley Pump, BEI Sensors, Remak, Freund, Liverani, Airtec, ATOS, ESPA Pumps, STASTO, Carpanelli, Hamworthy, Precilec, Wachendorff and Ashcroft.
-
-Future Google Search Console and Bing Webmaster Tools measurement should segment `/manufacturers`, canonical brand pages, indexed versus noindex readiness, brand-name queries, category-qualified brand queries, impressions, clicks, average position and RFQ conversions. Yandex may remain secondary. No analytics result is asserted until those systems are connected.
+The fastest route toward 500 safe pages remains: confirm identity and one
+manufacturer-owned product source, extract the minimum fact graph, generate
+English content and metadata, then enrich logos, headquarters, families and
+documents in a second pass.

@@ -2,80 +2,106 @@
 
 Date: 2026-08-19.
 
-## Before → after
+## Outcome
 
-| Metric | Before | After |
+The verified manufacturer surface increased from 146 `BRAND_SAFE` pages at
+the start of Sprint 16 to 220 in the current validated source. The latest
+factory continuation began at 178 and added 42 `BRAND_SAFE` profiles while
+moving six uncertain records to `BRAND_REVIEW` instead of guessing.
+
+No Git push, Timeweb deployment, DNS change, domain-binding change or `.ru`
+detach was performed. Ticket `#12495561` remains the authority for the
+Timeweb routing incident. The private Russian catalogue archive was not read,
+copied, connected, committed or deployed.
+
+## Before → current validated source
+
+| Metric | Sprint start | Current source |
 | --- | ---: | ---: |
 | Manufacturers | 2,806 | 2,806 |
-| BRAND_SAFE | 146 | 178 |
-| BRAND_WEAK | 2,652 | 2,614 |
-| BRAND_REVIEW | 8 | 14 |
-| Manufacturer sitemap target | 146 | 178 |
+| BRAND_SAFE | 146 | 220 |
+| BRAND_WEAK | 2,652 | 2,566 |
+| BRAND_REVIEW | 8 | 20 |
+| Manufacturer sitemap target | 146 | 220 |
 | Product sitemap | 0 | 0 |
 | BRAND_SAFE with logo | 102 | 102 |
-| BRAND_COMPLETE | 120 | 143 |
-| English short descriptions | 146 | 178 |
-| English full descriptions | 146 | 178 |
-| Official domains | 146 | 178 |
-| Tier A source records | 245 | 305 |
-| Family-evidence brands | 130 | 162 |
+| BRAND_COMPLETE | 120 | 180 |
+| English short descriptions | 146 | 220 |
+| English full descriptions | 146 | 220 |
+| Official domains | 146 | 220 |
+| Tier A source records | 245 | 380 |
+| Family-evidence brands | 130 | 204 |
+| Countries confirmed | — | 170 |
+| Headquarters confirmed | — | 41 |
 | Public/remote product records | 0 | 0 |
 
-## New BRAND_SAFE cohort
+## Latest source-backed cohorts
 
-Würges, Numatics, Řetězy Vamberk, BERNSTEIN, Hohner Elektrotechnik,
-Bolondi, Svecom, Yamada, COMEPI, Servomech, Viking Pump, Gruner,
-NetterVibration, DUNGS, Stallkamp, GMN, SITI, Faggiolati Pumps, HOMA and
-Stieber Clutch, INOXPA, Pedrollo, SUCO, APV, Calpeda, IWAKI, Lowara,
-John Crane, KRACHT, HydraForce, SANDPIPER and Dixon.
+Wave 7 added: LEESON, BEI Sensors, REMAK, Liverani, AIRTEC, Atos, ESPA,
+STASTO, Carpanelli, Hamworthy, Wachendorff, Ashcroft, Baldor-Reliance,
+Italsensor, ECOFIT, Marsh Bellofram, Parvalux, Valpres, DEBEM, OME Motors,
+Waukesha Cherry-Burrell, ATLANTA, and Hilliard / HILCO.
 
-Every new profile has at least one manufacturer-owned Tier A source, factual
-English product areas, family or product-line evidence, unique metadata and an
-RFQ path. None was promoted from logo evidence alone.
+Wave 8 added: Goulds Pumps, DAMEL, Marzocchi Pompe, Metal Work Pneumatic,
+ClydeUnion Pumps, DESTACO, Gefran, Hokuyo, FLUX, Mono Pumps, Paglierani,
+Profroid, Ascon Tecnologic, Bernio Elettromeccanica, Bronkhorst,
+Erhardt+Leimer, LABOM, Lika Electronic, and Rotork.
+
+Every promotion has a canonical identity, at least one manufacturer-owned
+identity/product source, confirmed product areas, English content, unique SEO
+metadata and a neutral RFQ path. Logo presence did not verify an identity and
+was not required for `BRAND_SAFE`.
 
 ## Conservative review outcomes
 
-INVENT, DATASENSOR, VESTA, SIMOTOP, LARZEP and STMSI remain non-indexable.
-Their blockers are ambiguous identity, unresolved legacy/current-brand mapping
-or the lack of an accessible manufacturer-owned source. No reseller was used as
-primary evidence.
+FREUND, SPECKEN-DRUMAG, Wheatley Pump, PRISMA, CHAMPION and AECO were not
+promoted in the latest continuation. Their recorded blockers are ambiguous
+identity, unresolved current ownership or insufficient accessible first-party
+product evidence. The negative cache prevents immediate repeat research.
+
+## Factory outputs
+
+- `mass-brand-source-results.json`: all 2,806 manufacturers with status,
+  priority, effort class, sources, facts, logo state and blocker.
+- `brand-source-cache.json`: reusable positive and negative source cache.
+- `international-brand-semantic-map.json`: all 220 safe brands with confirmed
+  categories, families, SEO intent and evidence coverage.
+- `category-opportunity-report.json`: evidence-counted category opportunities;
+  it creates no public category URLs.
+- `processing-metrics.json`: 240 historically processed source records,
+  220 safe and 20 review, 91.67% source-to-safe yield, and 1.73 sources per
+  safe profile. Hourly throughput remains `NOT_MEASURED` because historical
+  waves did not record elapsed time; no fabricated rate is reported.
 
 ## Quality and SEO controls
 
-- 178 indexable pages have unique English titles and meta descriptions.
-- The reproducible word-trigram Jaccard audit compared all 15,753 BRAND_SAFE
-  pairs at a 0.72 threshold and found zero near-duplicate pairs.
-- The deterministic sample contains all 178 SAFE pages plus 72 WEAK controls.
+- 220 indexable pages have unique English titles and meta descriptions.
+- The word-trigram Jaccard audit compared all 24,090 `BRAND_SAFE` pairs at a
+  0.72 threshold and found zero near-duplicate pairs.
+- The deterministic sample contains all 220 safe pages plus 30 noindex weak
+  controls.
 - Unsupported dealer, distributor, stock, price and warranty claims: zero.
-- Wrong identity and wrong-logo findings in the published set: zero.
+- Automated published-set wrong-identity and wrong-logo findings: zero.
 - Product schema, product sitemap entries, product routes and remotely stored
   product records: zero.
+- First-party blue-regression findings: zero; manufacturer logos retain their
+  official colours.
 
-## Visual restoration
+## Category opportunity snapshot
 
-The warm pre-rebrand industrial palette is restored while preserving Ventrovia
-identity, English copy, `.com` canonical and Dubai contacts. The PDF-derived V
-geometry is retained with the corrected wordmark VENTROVIA. Site-color, light,
-dark, monochrome, symbol, horizontal, tagline, favicon/app and social variants
-are available. The automated blue-regression audit reports zero first-party
-blue leftovers; official third-party manufacturer logos keep their own colors.
+The strongest evidence-backed future editorial candidates are pumps (63 safe
+brands), drive and motion control (40), industrial valves and flow control
+(40), electric motors (39), industrial sensors (36), automation and control
+(31), measurement and instrumentation (23), and geared drives (19). These are
+reports only: no Brand × Category or public category pages were created.
 
-## Infrastructure boundary
+## Deployment boundary
 
-No DNS, SSL, domain-binding, networking or `.ru` detach action was performed.
-Timeweb ticket `#12495561` remains the routing authority. Mail remains
-`BLOCKED_MAILBOX_ACCESS`; forms remain `SAFE_FAILURE`. These blockers do not
-change the correctness of the source or the manufacturer-only build.
+The current validated local source targets 220 manufacturer URLs. The existing
+Sites mirror remains on its previously published 178-page version; the new
+factory wave was deliberately not published because Sprint 16 imposes a hard
+no-push rule until Timeweb ticket `#12495561` is closed. Timeweb was not
+deployed. Product sitemap and product runtime remain zero in source.
 
-Sites mirror version 116 was published successfully from exact source commit
-`14b97b6`. Runtime checks returned 200 for Home, Manufacturers and the new
-INOXPA profile; `/catalog`, a legacy SKU route and the product API returned 404.
-The deployed sitemap contains 178 manufacturer URLs and zero product URLs.
-
-## Performance
-
-- Public client JavaScript: 386,450 bytes across 26 files.
-- `/manufacturers` server render: 19.33 ms median, 64.20 ms p95.
-- Source-backed manufacturer page: 1.75 ms median, 6.77 ms p95.
-- Homepage server render: 1.93 ms median, 2.75 ms p95.
-- Manufacturer search over 2,806 identities: 0.290 ms median, 0.334 ms p95.
+Mail remains `BLOCKED_MAILBOX_ACCESS`; forms remain `SAFE_FAILURE`. These are
+separate from the source and Brand Knowledge quality gates.
