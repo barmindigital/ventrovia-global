@@ -2,6 +2,15 @@
 
 Target recipient: `sales@ventroviaglobal.com`.
 
+Operational status: `MAILBOX_ACCESS_UNAVAILABLE` and
+`EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS`.
+
+Mailbox access is outside the current migration scope. Do not attempt password
+recovery, password changes, login, ownership changes, authentication bypasses,
+or mailbox creation without separate authorization from the mailbox owner.
+This blocker does not block the website, `.com` DNS cutover, SSL, canonical
+host, Ventrovia production, or the later `.ru` detach.
+
 ## Current public DNS evidence
 
 - MX: priority 1, `smtp.google.com`;
@@ -17,16 +26,12 @@ Target recipient: `sales@ventroviaglobal.com`.
 The MX and DKIM records strongly indicate a partial Google Workspace setup, but
 they do not prove that the `sales` mailbox exists or receives mail.
 
-## Receiving mailbox
+## Receiving mailbox — deferred owner action
 
-1. Sign in to `https://admin.google.com` as a domain administrator.
-2. Open **Account → Domains → Manage domains** and confirm
-   `ventroviaglobal.com` is verified and Gmail is activated.
-3. Open **Directory → Users** and confirm an active, licensed
-   `sales@ventroviaglobal.com` user or documented Group/alias with a real
-   recipient. Create it only under the chosen company policy.
-4. Send a message from an unrelated external mailbox and verify it appears in
-   the intended inbox. An SMTP/API success alone is not delivery proof.
+Only an authorized mailbox/domain administrator may later confirm Gmail,
+mailbox or group/alias state and perform a real inbox-delivery test. Until that
+happens, the address may remain visible as the approved public contact address,
+but the application must not claim that form submissions are delivered there.
 
 Google's current Workspace MX target is `smtp.google.com`; the published MX
 already matches it. Official instructions:
@@ -75,5 +80,7 @@ subject, and verify all of the following:
 - page/manufacturer attribution is present;
 - a transport failure returns an honest error and never a success message.
 
-Until this test passes: `BLOCKED_EMAIL_MAILBOX_SETUP` and
-`BLOCKED_EMAIL_TRANSPORT_VERIFICATION`.
+Until this test passes: `BLOCKED_MAILBOX_ACCESS` and
+`BLOCKED_EMAIL_TRANSPORT_VERIFICATION`. The current project has no proven
+independent server-side enquiry store, so forms must return a visible safe
+failure instead of a success response whenever delivery is unavailable.

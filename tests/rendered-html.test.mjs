@@ -107,6 +107,19 @@ test("RFQ endpoint fails visibly until mail infrastructure is configured", async
   assert.equal((await response.json()).fallback, true);
 });
 
+test("mailbox access remains separate from the domain cutover gate", async () => {
+  const [cutover, email, handoff] = await Promise.all([
+    readFile(new URL("../VENTROVIA_INFRASTRUCTURE_CUTOVER.md", import.meta.url), "utf8"),
+    readFile(new URL("../VENTROVIA_EMAIL_SETUP.md", import.meta.url), "utf8"),
+    readFile(new URL("../INDUSTRIAPOSTAVOK_DOMAIN_HANDOFF.md", import.meta.url), "utf8"),
+  ]);
+  assert.match(email, /MAILBOX_ACCESS_UNAVAILABLE/);
+  assert.match(email, /does not block the website/i);
+  assert.match(cutover, /EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS/);
+  assert.match(cutover, /SAFE_FAILURE/);
+  assert.match(handoff, /Email delivery is a separate blocker/);
+});
+
 test("not-found response is English and noindex", async () => {
   const response = await render("/missing-ventrovia-page");
   assert.equal(response.status, 404);

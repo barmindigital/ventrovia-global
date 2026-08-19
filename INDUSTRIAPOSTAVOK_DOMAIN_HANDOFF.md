@@ -14,8 +14,11 @@ Knowledge or the private Russian catalogue.
 
 ## Ventrovia prerequisites
 
-Do not detach `.ru` until `ventroviaglobal.com` passes the HTTPS, canonical,
-sitemap and form gates in `VENTROVIA_INFRASTRUCTURE_CUTOVER.md`.
+Do not detach `.ru` until `ventroviaglobal.com` passes the DNS, HTTPS, www
+redirect, production, canonical, manufacturer-sitemap, zero-product-sitemap,
+catalogue-absence and `.ru`-independence gates in
+`VENTROVIA_INFRASTRUCTURE_CUTOVER.md`. Email delivery is a separate blocker and
+does not block domain handoff.
 
 ## Ventrovia-side detach
 

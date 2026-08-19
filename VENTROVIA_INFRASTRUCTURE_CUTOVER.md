@@ -11,14 +11,13 @@ authorization to change DNS, domain ownership or credentials.
 - manufacturer sitemap URLs: 146;
 - product sitemap URLs and remotely stored product records: 0;
 - canonical origin in source: `https://ventroviaglobal.com`;
-- current clean Sites release: version 114;
+- current clean Sites release: version 115;
 - private Russian catalogue: owner-local and excluded from every build input.
 
 The authenticated Timeweb inventory found one App Platform application:
 `industria-postavok` (`ID 231783`). It is connected to GitHub branch `main`
-with automatic deployment enabled, but the running release is still commit
-`292b0f3`; the selected source commit is the newer clean Brand Knowledge
-release. The application has two domain bindings: `industriapostavok.ru` and
+with automatic deployment enabled. The clean Brand Knowledge release is commit
+`906c4ed`. The application initially had two domain bindings: `industriapostavok.ru` and
 `www.industriapostavok.ru`. No Timeweb S3 buckets, network disks, managed
 databases or cloud servers exist in this account.
 
@@ -95,8 +94,24 @@ All gates must pass on `https://ventroviaglobal.com` before `.ru` detach:
 - `/catalog`, an old product URL and product APIs return ordinary 404 responses;
 - `/sitemap.xml` contains 146 current manufacturer URLs and zero product URLs;
 - canonical, robots, Open Graph and JSON-LD use the `.com` origin;
-- forms either deliver a real test inquiry or expose their honest failure state;
 - no asset, form or redirect depends on `industriapostavok.ru`.
+
+The corresponding release-state gates are:
+
+- `VENTROVIA_COM_DNS = PASS`;
+- `VENTROVIA_COM_SSL = PASS`;
+- `VENTROVIA_PRODUCTION = PASS`;
+- `WWW_REDIRECT = PASS`;
+- `CANONICAL = PASS`;
+- `MANUFACTURER_SITEMAP = PASS`;
+- `PRODUCT_SITEMAP_ZERO = PASS`;
+- `CATALOG_ABSENT = PASS`;
+- `NO_DEPENDENCY_ON_RU = PASS`.
+
+Email is deliberately independent of this release gate. The approved status is
+`EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS` until a mailbox owner separately
+provides access or verifies delivery. Public forms must remain in `SAFE_FAILURE`
+unless a real transport or independent server-side submission store is proven.
 
 ## Rollback
 
