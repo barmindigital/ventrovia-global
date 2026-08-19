@@ -1,0 +1,544 @@
+{
+  "checkedAt": "2026-08-19",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "ena",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "The short repository identity ENA cannot be bound safely to one manufacturer. At least two unrelated German industrial manufacturers use ENA as their official name: ENA Energietechnik und Anlagenbau GmbH supplies industrial dampers and valves, while ENA Elektrotechnologien und Anlagenbau GmbH and ENA Industrieofenbau GmbH provide industrial furnace technology.",
+      "attemptedUrls": [
+        "https://www.ena-gmbh.de/en/",
+        "https://www.ena-mbh.de/en-gb/home"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "emz",
+      "officialName": "EMZ Elektromaschinenzentrale GmbH",
+      "displayName": "EMZ",
+      "aliases": [
+        "EMZ",
+        "EMZ ELEKTROMASCHINENZENTRALE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emz.de/",
+      "officialDomains": [
+        "emz.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Recklinghausen, Germany",
+      "foundedYear": 1952,
+      "parentCompany": null,
+      "shortDescription": "EMZ supplies electric motors and complete drive-system components for industrial applications, from low-voltage motors to high-voltage and special machines. Its documented range also includes geared motors, transformers, frequency converters and motor-starting equipment.",
+      "fullDescription": [
+        "Official company sources identify EMZ Elektromaschinenzentrale GmbH as a German electric-drive specialist founded in 1952 and headquartered in Recklinghausen.",
+        "EMZ supplies and configures low- and high-voltage motors, geared motors, transformers, frequency converters, resistance starters, soft starters and coordinated drive systems for demanding industrial machinery. The published high-voltage range includes compact, modular, synchronous and special motor configurations for applications such as pumps, paper and wood processing, steel and recycling, cement, chemical operations and power generation."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели",
+        "Редукторы и мотор-редукторы",
+        "Трансформаторы",
+        "Преобразователи частоты",
+        "Пусковое оборудование",
+        "Приводные системы"
+      ],
+      "productFamilies": [
+        "Low-Voltage Motors",
+        "High-Voltage Motors",
+        "Compact Series Motors",
+        "Modular Series Motors",
+        "Synchronous and Special Motors",
+        "Geared Motors",
+        "Transformers",
+        "Frequency Converters",
+        "Resistance Starters",
+        "Soft Starters"
+      ],
+      "series": [
+        "COMPACT SERIES",
+        "MODULAR SERIES",
+        "AKR",
+        "ASR"
+      ],
+      "industries": [
+        "Целлюлозно-бумажная промышленность",
+        "Металлургия и переработка",
+        "Цементная промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Насосное оборудование"
+      ],
+      "officialCatalogs": [
+        "https://www.emz.de/wp-content/uploads/2026/07/260722_EMZ_Imagebroschuere_Digitalversand.pdf"
+      ],
+      "documentationSources": [
+        "https://www.emz.de/produkte/",
+        "https://www.emz.de/en/product/high-voltage/",
+        "https://www.emz.de/en/product/high-voltage/compact-series/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emz-profile",
+          "tier": "A",
+          "type": "ABOUT_AND_HISTORY",
+          "scope": "IDENTITY_FOUNDED_HEADQUARTERS_HISTORY_AND_PRODUCT_SCOPE",
+          "url": "https://www.emz.de/unternehmen/profil/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY_AND_PRODUCT_SCOPE",
+          "url": "https://www.emz.de/produkte/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-high-voltage",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY_AND_APPLICATION",
+          "url": "https://www.emz.de/en/product/high-voltage/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-compact-series",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "FAMILY_SERIES_AND_APPLICATION",
+          "url": "https://www.emz.de/en/product/high-voltage/compact-series/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-frequency-converters",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "FAMILY_AND_CATEGORY",
+          "url": "https://www.emz.de/en/product/high-voltage/frequency-converter/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-starters",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "FAMILY_AND_CATEGORY",
+          "url": "https://www.emz.de/en/product/high-voltage/resistance-starters-soft-starters/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-imprint",
+          "tier": "A",
+          "type": "LEGAL_NOTICE",
+          "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
+          "url": "https://www.emz.de/en/imprint/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-emz-corporate-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "IDENTITY_HISTORY_FAMILY_AND_CATEGORY",
+          "url": "https://www.emz.de/wp-content/uploads/2026/07/260722_EMZ_Imagebroschuere_Digitalversand.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "endress-hauser",
+      "officialName": "Endress+Hauser Group",
+      "displayName": "Endress+Hauser",
+      "aliases": [
+        "ENDRESS HAUSER",
+        "ENDRESS+HAUSER",
+        "E+H"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.endress.com/",
+      "officialDomains": [
+        "endress.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Reinach, Switzerland",
+      "foundedYear": 1953,
+      "parentCompany": null,
+      "shortDescription": "Endress+Hauser develops process and laboratory measurement technology for flow, level, pressure, temperature and analytical applications. Its portfolio also includes system components, industrial software and IIoT services.",
+      "fullDescription": [
+        "Official Group sources identify Endress+Hauser as a family-owned measurement and automation technology company founded in 1953 and headquartered in Reinach, Switzerland.",
+        "Its portfolio covers flow, level, pressure and temperature instruments, liquid and optical analysis, system products, industrial software and Netilion IIoT services. These technologies support measurement, monitoring and automation tasks across process industries including food and beverage, water and wastewater, oil and gas, life sciences, chemicals, energy, mining and metals."
+      ],
+      "productCategories": [
+        "Контрольно-измерительные приборы",
+        "Расходомеры",
+        "Датчики уровня",
+        "Датчики давления",
+        "Датчики температуры",
+        "Аналитические измерительные системы",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Flow Measurement",
+        "Level Measurement",
+        "Pressure Measurement",
+        "Temperature Measurement",
+        "Liquid Analysis",
+        "Optical Analysis",
+        "System Products",
+        "Industrial Software",
+        "Netilion IIoT Services"
+      ],
+      "series": [
+        "Proline",
+        "Promag",
+        "Promass",
+        "Micropilot",
+        "Liquiphant",
+        "Cerabar",
+        "Deltabar",
+        "iTHERM",
+        "Memosens",
+        "Liquiline",
+        "Netilion"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Водоснабжение и водоотведение",
+        "Нефтегазовая промышленность",
+        "Морская промышленность",
+        "Фармацевтическая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Горнодобывающая промышленность",
+        "Металлургия"
+      ],
+      "officialCatalogs": [
+        "https://portal.endress.com/dla/5000611/3480/000/13/EC00009Z_24_EN_2121%20-%20Product%20Overview%20catalog.pdf"
+      ],
+      "documentationSources": [
+        "https://www.endress.com/en/field-instruments-overview",
+        "https://www.endress.com/en/contact"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-endress-hauser-at-a-glance",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "IDENTITY_FOUNDED_OWNERSHIP_SPECIALISATION_AND_INDUSTRIES",
+          "url": "https://www.endress.com/en/endress-hauser-group/endresshauser-at-a-glance",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-endress-hauser-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY_SERIES_AND_INDUSTRIES",
+          "url": "https://www.endress.com/en/field-instruments-overview",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-endress-hauser-contact",
+          "tier": "A",
+          "type": "CONTACT",
+          "scope": "HEADQUARTERS_AND_CONTACT",
+          "url": "https://www.endress.com/en/contact",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-endress-hauser-group-headquarters",
+          "tier": "A",
+          "type": "OFFICIAL_PRESS_PAGE",
+          "scope": "GROUP_HEADQUARTERS",
+          "url": "https://www.endress.com/en/endress-hauser-group/press-center/news-and-press-releases/financial-year-2019-v2",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-endress-hauser-product-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY_AND_SERIES",
+          "url": "https://portal.endress.com/dla/5000611/3480/000/13/EC00009Z_24_EN_2121%20-%20Product%20Overview%20catalog.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "enerpac",
+      "officialName": "Enerpac",
+      "displayName": "Enerpac",
+      "aliases": [
+        "ENERPAC",
+        "ENERPAC INDUSTRIAL TOOLS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.enerpac.com/",
+      "officialDomains": [
+        "enerpac.com",
+        "enerpactoolgroup.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Enerpac Tool Group Corp.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Enerpac supplies high-pressure hydraulic tools, controlled bolting equipment and systems for lifting, lowering and precisely positioning heavy loads. Its documented range covers hydraulic components, workholding, flange maintenance and on-site machining equipment.",
+      "fullDescription": [
+        "Official Enerpac and Enerpac Tool Group sources identify Enerpac as the group's industrial-tools brand for high-pressure hydraulics, controlled force and heavy-load positioning.",
+        "Its portfolio includes hydraulic cylinders, jacks, pumps, valves, system components, presses, pullers, cutters, torque wrenches, tensioning tools, flange-maintenance equipment, workholding products, on-site machining equipment and heavy-lifting systems. Official literature documents applications across aerospace, infrastructure, manufacturing, mining, oil and gas, power generation and rail operations."
+      ],
+      "productCategories": [
+        "Гидравлический инструмент",
+        "Гидравлические насосы",
+        "Гидравлические цилиндры",
+        "Болтовой инструмент",
+        "Подъёмное оборудование",
+        "Гидравлические прессы",
+        "Станочное оборудование"
+      ],
+      "productFamilies": [
+        "Hydraulic Cylinders and Jacks",
+        "Hydraulic Pumps",
+        "Valves and System Components",
+        "Hydraulic Presses",
+        "Pullers",
+        "Cutters and Nut Splitters",
+        "Torque Wrenches",
+        "Tensioning Tools",
+        "Flange Maintenance Tools",
+        "Heavy Lifting Technology",
+        "Workholding Tools",
+        "On-Site Machining"
+      ],
+      "series": [
+        "RC-TRIO",
+        "RCS",
+        "RSM",
+        "RCH",
+        "RRH"
+      ],
+      "industries": [
+        "Аэрокосмическая промышленность",
+        "Инфраструктура",
+        "Промышленное производство",
+        "Горнодобывающая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика",
+        "Железнодорожная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://vault.enerpac.com/m/633ff0c42dd24838/original/Enerpac_Industrial_Tools_Catalog_E330_EN-US.pdf",
+        "https://vault.enerpac.com/m/70e0e0d9d5787fed/original/Enerpac_Bolting_Tools_Catalog_E415_EN-US.pdf"
+      ],
+      "documentationSources": [
+        "https://literature.enerpac.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-enerpac-parent-brands",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PAGE",
+          "scope": "BRAND_IDENTITY_OWNERSHIP_AND_SPECIALISATION",
+          "url": "https://www.enerpactoolgroup.com/brands/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-enerpac-parent-company",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PAGE",
+          "scope": "PARENT_IDENTITY_AND_CORPORATE_CONTEXT",
+          "url": "https://www.enerpactoolgroup.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-enerpac-parent-contact",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PAGE",
+          "scope": "PARENT_CONTACT",
+          "url": "https://www.enerpactoolgroup.com/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-enerpac-industrial-tools-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "BRAND_IDENTITY_FAMILY_CATEGORY_SERIES_AND_INDUSTRY",
+          "url": "https://vault.enerpac.com/m/633ff0c42dd24838/original/Enerpac_Industrial_Tools_Catalog_E330_EN-US.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-enerpac-bolting-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY_AND_SERIES",
+          "url": "https://vault.enerpac.com/m/70e0e0d9d5787fed/original/Enerpac_Bolting_Tools_Catalog_E415_EN-US.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-enerpac-literature",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION",
+          "url": "https://literature.enerpac.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "fabreeka",
+      "officialName": "Fabreeka International, Inc.",
+      "displayName": "Fabreeka",
+      "aliases": [
+        "FABREEKA",
+        "FABREEKA INTERNATIONAL"
+      ],
+      "formerNames": [
+        "Fabreeka Products Company"
+      ],
+      "officialWebsite": "https://www.fabreeka.com/",
+      "officialDomains": [
+        "fabreeka.com",
+        "thevmcgroup.com"
+      ],
+      "country": "United States",
+      "headquarters": "Stoughton, Massachusetts, USA",
+      "foundedYear": 1918,
+      "parentCompany": "VMC Group",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Fabreeka designs and manufactures vibration-isolation, shock-control and structural thermal-break solutions for machinery, buildings and precision equipment. The company operates as a distinct commercial brand within VMC Group.",
+      "fullDescription": [
+        "Official Fabreeka sources identify Fabreeka International, Inc. as a Stoughton, Massachusetts-based engineering and manufacturing company founded in 1918.",
+        "Its portfolio includes reinforced elastomeric pads, pneumatic and foundation-isolation systems, structural thermal breaks, expansion bearings, bushings, washers and equipment levellers for industrial, construction, energy, transportation and test applications. VMC Group acquired Fabreeka from Stabilus in June 2026, while Fabreeka continues as a distinct commercial brand."
+      ],
+      "productCategories": [
+        "Виброизоляционное оборудование",
+        "Амортизация ударных нагрузок",
+        "Терморазрывы для строительных конструкций",
+        "Опорные и скользящие подшипники",
+        "Изоляция фундаментов",
+        "Пневматические изоляторы",
+        "Опоры и выравнивающие элементы оборудования"
+      ],
+      "productFamilies": [
+        "Fabreeka-TIM Structural Thermal Breaks",
+        "Fabreeka-TIM RF Series",
+        "Fabreeka Preformed Fabric Pads",
+        "Fabreeka-PTFE Bearing Pads",
+        "Fabcel Pads",
+        "DIMFAB Isolation Material",
+        "Fabsorb Isolation Material",
+        "Fabreeka-PAL Isolators",
+        "PLM Isolators",
+        "SA-47 Bearing Pads",
+        "FAB-EPM HP Foundation Isolation",
+        "FAB-EFP Foundation Isolation",
+        "RLA Air Springs",
+        "Fabcel Levelers and Lev-L Mounts"
+      ],
+      "series": [
+        "Fabreeka-TIM",
+        "Fabreeka-TIM RF",
+        "Fabreeka-PTFE",
+        "Fabcel",
+        "DIMFAB",
+        "Fabsorb",
+        "Fabreeka-PAL",
+        "PLM",
+        "SA-47",
+        "FAB-EPM HP",
+        "FAB-EFP",
+        "RLA",
+        "Lev-L"
+      ],
+      "industries": [
+        "Строительство",
+        "Энергетика",
+        "Тяжёлое оборудование",
+        "Промышленное оборудование",
+        "Прецизионное оборудование",
+        "Испытательное оборудование",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.fabreeka.com/document-library/"
+      ],
+      "documentationSources": [
+        "https://www.fabreeka.com/products/",
+        "https://www.fabreeka.com/document-library/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-fabreeka-company",
+          "tier": "A",
+          "type": "ABOUT_AND_HISTORY",
+          "scope": "IDENTITY_FOUNDED_HEADQUARTERS_HISTORY_SPECIALISATION_AND_INDUSTRIES",
+          "url": "https://www.fabreeka.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fabreeka-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY_SERIES_AND_INDUSTRIES",
+          "url": "https://www.fabreeka.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fabreeka-document-library",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION_FAMILY_CATEGORY_AND_SERIES",
+          "url": "https://www.fabreeka.com/document-library/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fabreeka-preformed-pad",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "FAMILY_CATEGORY_HISTORY_AND_APPLICATION",
+          "url": "https://www.fabreeka.com/product/fabreeka-preformed-fabric-pad/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fabreeka-vmc-acquisition",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PAGE",
+          "scope": "IDENTITY_OWNERSHIP_PRODUCT_SCOPE_AND_INDUSTRIES",
+          "url": "https://www.thevmcgroup.com/news/vmc-group-to-acquire-fabreeka-and-tech-products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fabreeka-sale-completion",
+          "tier": "B",
+          "type": "OFFICIAL_FORMER_PARENT_PAGE",
+          "scope": "CURRENT_OWNERSHIP_AND_ACQUISITION_DATE",
+          "url": "https://www.ir.stabilus.com/news/stabilus-se-adjusted-ebit-margin-increased-in-q3-fy2026-despite-a-decline-in-revenue/7d1a4151-c753-48ce-b2ae-86f47324d92b",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    }
+  ]
+}

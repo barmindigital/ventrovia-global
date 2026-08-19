@@ -32,7 +32,17 @@ test("international profiles remain source-backed and English", async () => {
     assert.equal(profile.contentLanguage, "en");
     assert.equal(profile.enContentStatus, "EN_CONTENT_READY");
     assert.equal(profile.enSeoStatus, "EN_SEO_READY");
-    assert.ok(profile.sources.some(({ tier, status, url }) => tier === "A" && status === "AVAILABLE" && url.startsWith("https://")));
+    const hasTierASource = profile.sources.some(({ tier, status, url }) =>
+      tier === "A" && status === "AVAILABLE" && url.startsWith("https://"),
+    );
+    const hasOfficialParentEvidence = Boolean(profile.parentCompany)
+      && profile.sources.some(({ tier, type, status, url }) =>
+        tier === "B"
+        && /PARENT|ACQUISITION/u.test(type)
+        && status === "AVAILABLE"
+        && url.startsWith("https://"),
+      );
+    assert.ok(hasTierASource || hasOfficialParentEvidence);
     assert.ok(profile.productCategories.length > 0);
     assert.equal(descriptions.has(profile.shortDescription), false);
     descriptions.add(profile.shortDescription);

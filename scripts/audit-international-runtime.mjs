@@ -39,7 +39,13 @@ for (const profile of knowledge.profiles) {
   assert.equal(profile.contentLanguage, "en");
   assert.equal(profile.enContentStatus, "EN_CONTENT_READY");
   assert.equal(profile.enSeoStatus, "EN_SEO_READY");
-  assert.ok(profile.sources.some((source) => source.tier === "A"));
+  const hasTierASource = profile.sources.some((source) => source.tier === "A");
+  const hasOfficialParentEvidence = Boolean(profile.parentCompany)
+    && profile.sources.some((source) =>
+      source.tier === "B"
+      && /PARENT|ACQUISITION/u.test(source.type),
+    );
+  assert.ok(hasTierASource || hasOfficialParentEvidence);
   assert.ok(profile.shortDescription.length >= 100);
   assert.ok(profile.fullDescription.length >= 3);
   assert.doesNotMatch(

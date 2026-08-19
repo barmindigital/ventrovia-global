@@ -37,7 +37,11 @@ const countryNames: Record<string, string> = {
   "Дания": "Denmark",
   "Индия": "India",
   "Италия": "Italy",
+  "Израиль": "Israel",
+  "Китай": "China",
+  "Нидерланды": "Netherlands",
   "Польша": "Poland",
+  "Португалия": "Portugal",
   "Испания": "Spain",
   "США": "United States",
   "Турция": "Türkiye",
@@ -111,7 +115,7 @@ const categoryRules: Array<[RegExp, string]> = [
   [/автомат|PLC|ПЛК|контроллер|HMI|интерфейсн/iu, "industrial automation and control"],
   [/измерен|измеритель|расходомер|уровнемер|регистратор|счётчик|калибров/iu, "measurement and instrumentation"],
   [/лаборатор|хроматограф|спектрометр/iu, "laboratory and analytical equipment"],
-  [/безопасн|блокиров|световые завесы|концевые выключатели/iu, "machine-safety systems"],
+  [/безопасн|блокиров|световые завесы|концевые выключатели|защит.*паден|индивидуальн.*защит|спасатель/iu, "industrial safety equipment"],
   [/станк|обрабатывающ|пресс|маркиров|машин/iu, "industrial machinery"],
   [/конвейер|сортиров|пневматический транспорт|паллетн/iu, "conveying and material-handling systems"],
   [/кабел|разъём|токосъём/iu, "industrial connectivity"],
@@ -119,7 +123,7 @@ const categoryRules: Array<[RegExp, string]> = [
   [/свароч|резк|шлифов/iu, "welding and cutting equipment"],
   [/вентилятор|воздуходув/iu, "industrial fans and blowers"],
   [/тепло|нагрев|охлажд|холодиль|чиллер|кондиционир/iu, "thermal-management equipment"],
-  [/электрификац|электроэнерг|трансформатор|источник питания|силовые преобразователи/iu, "electrical power systems"],
+  [/электрификац|электроэнерг|трансформатор|источник(?:и)? питания|силовые преобразователи/iu, "electrical power systems"],
   [/уплотнен|диафрагм|компенсатор/iu, "sealing components"],
   [/смаз|лубрикатор/iu, "lubrication systems"],
   [/муфт|тормоз/iu, "brakes and couplings"],
@@ -173,6 +177,16 @@ function englishIdentityValues(values: string[]) {
   return unique(values.filter((value) => !/[А-Яа-яЁё]/u.test(value)));
 }
 
+function englishHeadquarters(value: string | null) {
+  if (!value) return null;
+  return headquartersNames[value] ?? (!/[А-Яа-яЁё]/u.test(value) ? value : null);
+}
+
+function englishCountry(value: string | null) {
+  if (!value) return null;
+  return countryNames[value] ?? (!/[А-Яа-яЁё]/u.test(value) ? value : null);
+}
+
 function normalized(value: string, rules: Array<[RegExp, string]>) {
   return rules.find(([pattern]) => pattern.test(value))?.[1] ?? null;
 }
@@ -205,6 +219,8 @@ export type EnglishBrandProfile = Omit<
 };
 
 export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandProfile {
+  const country = englishCountry(profile.country);
+  const headquarters = englishHeadquarters(profile.headquarters);
   const productCategories = unique(
     profile.productCategories.map((category) => normalized(category, categoryRules)),
   );
@@ -230,7 +246,7 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   const familyLead = unique([...englishFamilies, ...englishSeries]).slice(0, 3);
   const shortDescriptions = [
     `${identityLines[0]}${familyLead.length ? ` Documented lines include ${list(familyLead)}.` : ""} Ventrovia reviews enquiries against the relevant manufacturer documentation.`,
-    `${identityLines[1]}${profile.country ? ` The verified brand record is associated with ${countryNames[profile.country] ?? profile.country}.` : ""} Submit the exact designation for an international sourcing review.`,
+    `${identityLines[1]}${country ? ` The verified brand record is associated with ${country}.` : ""} Submit the exact designation for an international sourcing review.`,
     `${identityLines[2]}${familyLead.length ? ` Official documentation names ${list(familyLead)}.` : ""} Commercial review starts with the complete model or specification.`,
     `${identityLines[3]}${profile.parentCompany ? ` The documented corporate group is ${profile.parentCompany}.` : ""} Ventrovia handles specification-led RFQs without implying an authorised relationship.`,
     `${identityLines[4]}${familyLead.length ? ` The published range includes ${list(familyLead)}.` : ""} Exact configuration and supply status are checked for each request.`,
@@ -238,8 +254,8 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   ];
 
   const locationFacts = [
-    profile.country ? `Brand origin: ${countryNames[profile.country] ?? profile.country}.` : "",
-    profile.headquarters ? `Headquarters: ${headquartersNames[profile.headquarters] ?? profile.headquarters}.` : "",
+    country ? `Brand origin: ${country}.` : "",
+    headquarters ? `Headquarters: ${headquarters}.` : "",
     profile.foundedYear ? `The official company record dates its foundation to ${profile.foundedYear}.` : "",
     profile.parentCompany ? `The documented corporate group is ${profile.parentCompany}.` : "",
   ].filter(Boolean);
@@ -289,8 +305,8 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
     ...profile,
     aliases: englishIdentityValues(profile.aliases),
     formerNames: englishIdentityValues(profile.formerNames),
-    country: profile.country ? countryNames[profile.country] ?? null : null,
-    headquarters: profile.headquarters ? headquartersNames[profile.headquarters] ?? null : null,
+    country,
+    headquarters,
     parentCompany:
       profile.parentCompany && !/[А-Яа-яЁё]/u.test(profile.parentCompany)
         ? profile.parentCompany

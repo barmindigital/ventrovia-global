@@ -15,7 +15,7 @@ async function json(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
 }
 
-const [base, wave4, wave5, wave6, wave7, wave8, wave9, wave10, wave11, wave12, wave13, wave14] = await Promise.all([
+const [base, wave4, wave5, wave6, wave7, wave8, wave9, wave10, wave11, wave12, wave13, wave14, wave15, wave16, wave17, wave18, wave19, wave20, wave21, wave22, wave23, wave24] = await Promise.all([
   json("data/brand-sources/curated-brand-facts.json"),
   json("data/brand-sources/curated-brand-facts-wave-4.json"),
   json("data/brand-sources/curated-brand-facts-wave-5.json"),
@@ -28,9 +28,19 @@ const [base, wave4, wave5, wave6, wave7, wave8, wave9, wave10, wave11, wave12, w
   json("data/brand-sources/curated-brand-facts-wave-12.json"),
   json("data/brand-sources/curated-brand-facts-wave-13.json"),
   json("data/brand-sources/curated-brand-facts-wave-14.json"),
+  json("data/brand-sources/curated-brand-facts-wave-15.json"),
+  json("data/brand-sources/curated-brand-facts-wave-16.json"),
+  json("data/brand-sources/curated-brand-facts-wave-17.json"),
+  json("data/brand-sources/curated-brand-facts-wave-18.json"),
+  json("data/brand-sources/curated-brand-facts-wave-19.json"),
+  json("data/brand-sources/curated-brand-facts-wave-20.json"),
+  json("data/brand-sources/curated-brand-facts-wave-21.json"),
+  json("data/brand-sources/curated-brand-facts-wave-22.json"),
+  json("data/brand-sources/curated-brand-facts-wave-23.json"),
+  json("data/brand-sources/curated-brand-facts-wave-24.json"),
 ]);
 
-const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles, ...wave6.profiles, ...wave7.profiles, ...wave8.profiles, ...wave9.profiles, ...wave10.profiles, ...wave11.profiles, ...wave12.profiles, ...wave13.profiles, ...wave14.profiles]
+const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles, ...wave6.profiles, ...wave7.profiles, ...wave8.profiles, ...wave9.profiles, ...wave10.profiles, ...wave11.profiles, ...wave12.profiles, ...wave13.profiles, ...wave14.profiles, ...wave15.profiles, ...wave16.profiles, ...wave17.profiles, ...wave18.profiles, ...wave19.profiles, ...wave20.profiles, ...wave21.profiles, ...wave22.profiles, ...wave23.profiles, ...wave24.profiles]
   .map(toEnglishBrandProfile)
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),
@@ -48,6 +58,16 @@ const blockedIdentities = [
   ...wave12.blockedIdentities,
   ...wave13.blockedIdentities,
   ...wave14.blockedIdentities,
+  ...wave15.blockedIdentities,
+  ...wave16.blockedIdentities,
+  ...wave17.blockedIdentities,
+  ...wave18.blockedIdentities,
+  ...wave19.blockedIdentities,
+  ...wave20.blockedIdentities,
+  ...wave21.blockedIdentities,
+  ...wave22.blockedIdentities,
+  ...wave23.blockedIdentities,
+  ...wave24.blockedIdentities,
 ]
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),
