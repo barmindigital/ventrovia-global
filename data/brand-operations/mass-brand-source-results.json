@@ -9058,19 +9058,52 @@
   },
   {
     "manufacturerId": "esa-pyronics-international",
-    "displayName": "ESA PYRONICS INTERNATIONAL",
-    "status": "BRAND_WEAK",
+    "displayName": "ESA Pyronics",
+    "status": "BRAND_SAFE",
     "priority": 207,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "esapyronics.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.esapyronics.com/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.esapyronics.com/en/product-category/industrial-burners/page/2/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "industrial valves and flow control",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Industrial Burners",
+        "Burner Controls",
+        "Solenoid Valves and Regulators",
+        "Combustion Instruments",
+        "Combustion Automation Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9368,19 +9401,52 @@
   },
   {
     "manufacturerId": "sensorex",
-    "displayName": "SENSOREX",
-    "status": "BRAND_WEAK",
+    "displayName": "Sensorex",
+    "status": "BRAND_SAFE",
     "priority": 214,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sensorex.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY",
+        "url": "https://sensorex.com/about/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://sensorex.com/products/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "pH and ORP Sensors",
+        "Conductivity Sensors",
+        "Dissolved Oxygen Sensors",
+        "Chlorine Sensors",
+        "Controllers and Transmitters",
+        "Smart Sensor Systems"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9434,36 +9500,98 @@
   },
   {
     "manufacturerId": "berg-spanntechnik",
-    "displayName": "BERG SPANNTECHNIK",
-    "status": "BRAND_WEAK",
+    "displayName": "BERG Spanntechnik",
+    "status": "BRAND_SAFE",
     "priority": 216,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "berg-spanntechnik.de",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY",
+        "url": "https://www.berg-spanntechnik.de/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.berg-spanntechnik.de/en/product-range/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "measurement and instrumentation",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Tool Clamping Systems",
+        "Workpiece Clamping Systems",
+        "Forming-Machine Clamping Systems",
+        "Zero-Point Clamping Systems",
+        "Rotary Unions",
+        "Clamping-Force Measuring Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "factory automation"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "brooks-instrument",
-    "displayName": "BROOKS INSTRUMENT",
-    "status": "BRAND_WEAK",
+    "displayName": "Brooks Instrument",
+    "status": "BRAND_SAFE",
     "priority": 217,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "brooksinstrument.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.brooksinstrument.com/products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Mass Flow Controllers",
+        "Mass Flow Meters",
+        "Variable-Area Flowmeters",
+        "Pressure Controllers",
+        "Vacuum Gauges",
+        "Vapor Delivery Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "water and wastewater",
+        "chemical processing",
+        "energy"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9536,36 +9664,100 @@
   },
   {
     "manufacturerId": "huba-control",
-    "displayName": "HUBA CONTROL",
-    "status": "BRAND_WEAK",
+    "displayName": "Huba Control",
+    "status": "BRAND_SAFE",
     "priority": 220,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "hubacontrol.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY",
+        "url": "https://www.hubacontrol.com/en-US/index.html",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.hubacontrol.com/en/products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Pressure Transmitters",
+        "Pressure Sensors",
+        "Pressure Switches",
+        "Differential Pressure Sensors",
+        "Vortex Flow Sensors",
+        "Hydrostatic Level Transmitters"
+      ],
+      "industries": [
+        "industrial processing",
+        "factory automation",
+        "water and wastewater",
+        "building systems"
+      ],
+      "country": "Switzerland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "interapp",
-    "displayName": "INTERAPP",
-    "status": "BRAND_WEAK",
+    "displayName": "InterApp",
+    "status": "BRAND_SAFE",
     "priority": 221,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "interapp.net",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.interapp.net/en/products/overview",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "drive and motion-control systems",
+        "pneumatic equipment",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Butterfly Valves",
+        "Ball Valves",
+        "Knife-Gate Valves",
+        "Check Valves",
+        "Diaphragm Valves",
+        "Pneumatic and Electric Actuators",
+        "Positioners"
+      ],
+      "industries": [
+        "industrial processing",
+        "water and wastewater",
+        "chemical processing",
+        "energy"
+      ],
+      "country": "Switzerland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9668,36 +9860,90 @@
   },
   {
     "manufacturerId": "relpol",
-    "displayName": "RELPOL",
-    "status": "BRAND_WEAK",
+    "displayName": "Relpol",
+    "status": "BRAND_SAFE",
     "priority": 224,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "relpol.pl",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.relpol.pl/en/Products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial relays",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Industrial Relays",
+        "Signal Relays",
+        "Interface Relays",
+        "Solid-State Relays",
+        "Monitoring Relays",
+        "Contactors",
+        "Power Controllers"
+      ],
+      "industries": [
+        "industrial processing",
+        "factory automation",
+        "energy"
+      ],
+      "country": "Poland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "co-ax-valves-inc",
-    "displayName": "CO-AX VALVES INC.",
-    "status": "BRAND_WEAK",
+    "displayName": "co-ax",
+    "status": "BRAND_SAFE",
     "priority": 225,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "co-ax.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://co-ax.com/en/products.php",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Coaxial Valves",
+        "Cartridge Valves",
+        "Lateral Valves",
+        "High-Pressure Valves",
+        "Pressure-Control Valves",
+        "Flow-Control Valves"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "energy",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9750,53 +9996,119 @@
   },
   {
     "manufacturerId": "ipf-electronic",
-    "displayName": "IPF ELECTRONIC",
-    "status": "BRAND_WEAK",
+    "displayName": "ipf electronic",
+    "status": "BRAND_SAFE",
     "priority": 227,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "ipf-electronic.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.ipf-electronic.de/en/products/overview",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "industrial machinery",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Inductive Sensors",
+        "Optical Sensors",
+        "Ultrasonic Sensors",
+        "Pressure Sensors",
+        "Safety Sensors",
+        "Identification Systems",
+        "Machine Vision",
+        "Industrial Lighting"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "nocchi",
     "displayName": "NOCCHI",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 228,
-    "effortClass": "NORMAL",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
+      "reason": "Pentair confirms relevant pump categories, but the accessible first-party pages did not establish the current Nocchi identity and portfolio precisely enough for an independent public brand profile."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "pneumax",
-    "displayName": "PNEUMAX",
-    "status": "BRAND_WEAK",
+    "displayName": "Pneumax",
+    "status": "BRAND_SAFE",
     "priority": 229,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "pneumaxspa.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY",
+        "url": "https://pneumaxspa.com/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://pneumaxspa.com/en/product-category/industrial-automation/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pneumatic equipment",
+        "drive and motion-control systems",
+        "industrial valves and flow control",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Pneumatic Valves",
+        "Valve Manifolds",
+        "Air Treatment",
+        "Pneumatic Actuators",
+        "Electric Actuation",
+        "Vacuum Components",
+        "Fittings"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial processing",
+        "packaging",
+        "transportation"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9896,19 +10208,51 @@
   },
   {
     "manufacturerId": "yxlon-international",
-    "displayName": "YXLON INTERNATIONAL",
-    "status": "BRAND_WEAK",
+    "displayName": "Comet Yxlon",
+    "status": "BRAND_SAFE",
     "priority": 232,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "yxlon.comet.tech",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://yxlon.comet.tech/en/product-range-en",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CORPORATE_DOCUMENT",
+        "tier": "A",
+        "scope": "OWNERSHIP",
+        "url": "https://comet.tech/getmedia/dcf6cc6b-709d-4eaa-b95e-267864b819ac/Comet-Annual-Report-2022-en.pdf?disposition=attachment",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Industrial X-Ray Systems",
+        "Computed Tomography Systems",
+        "Electronics Inspection Systems",
+        "Inline Inspection Systems"
+      ],
+      "industries": [
+        "transportation",
+        "aerospace",
+        "electronics and semiconductor manufacturing",
+        "laboratory and life-science applications"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -9964,53 +10308,147 @@
   },
   {
     "manufacturerId": "obl",
-    "displayName": "OBL S.R.L",
-    "status": "BRAND_WEAK",
+    "displayName": "OBL",
+    "status": "BRAND_SAFE",
     "priority": 236,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "oblpumps.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://oblpumps.it/Products.php",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Mechanical-Diaphragm Metering Pumps",
+        "Plunger Metering Pumps",
+        "Hydraulic-Diaphragm Metering Pumps",
+        "Controlled Dosing Pumps"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "water and wastewater"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "kabelschlepp",
     "displayName": "KABELSCHLEPP",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 237,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "tsubaki-kabelschlepp.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://tsubaki-kabelschlepp.com/products",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://tsubaki-kabelschlepp.com/service/downloads",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial connectivity",
+        "conveying and material-handling systems",
+        "industrial machinery"
+      ],
+      "families": [
+        "Cable Carriers",
+        "TRAXLINE Motion Cables",
+        "TOTALTRAX Complete Systems",
+        "Conveyor Systems",
+        "Guideway Protection",
+        "Machine Protection"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "factory automation",
+        "transportation"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "kadant-johnson",
-    "displayName": "KADANT JOHNSON",
-    "status": "BRAND_WEAK",
+    "displayName": "Kadant Johnson",
+    "status": "BRAND_SAFE",
     "priority": 238,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "fluidhandling.kadant.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://fluidhandling.kadant.com/en/about/kadant-johnson-llc",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://fluidhandling.kadant.com/en/products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Rotary Joints and Unions",
+        "Syphon Systems",
+        "Thermocompressors",
+        "Desuperheaters",
+        "Condensate Pumps",
+        "Steam Systems",
+        "Expansion Joints"
+      ],
+      "industries": [
+        "industrial processing",
+        "wood and paper processing",
+        "food and pharmaceutical processing",
+        "industrial manufacturing",
+        "chemical processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10110,53 +10548,158 @@
   },
   {
     "manufacturerId": "pulsafeeder",
-    "displayName": "PULSAFEEDER",
-    "status": "BRAND_WEAK",
+    "displayName": "Pulsafeeder",
+    "status": "BRAND_SAFE",
     "priority": 241,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "pulsafeeder.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://pulsafeeder.com/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://pulsafeeder.com/diaphragm-metering-pumps/pulsapro/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Hydraulic-Diaphragm Metering Pumps",
+        "Mechanical-Diaphragm Pumps",
+        "Peristaltic Pumps",
+        "Rotary Pumps",
+        "Centrifugal Pumps",
+        "Controllers and Systems"
+      ],
+      "industries": [
+        "water and wastewater",
+        "chemical processing",
+        "oil and gas",
+        "energy",
+        "industrial processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schischek",
-    "displayName": "SCHISCHEK",
-    "status": "BRAND_WEAK",
+    "displayName": "Schischek",
+    "status": "BRAND_SAFE",
     "priority": 242,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schischek.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_CORPORATE_DOCUMENT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_OWNERSHIP",
+        "url": "https://www.schischek.com/pdf/general-information/20130121_Schischek_Rotork_Information_A1-2013_EN.pdf",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.schischek.com/pdf/brochures/Schischek-Product-Catalogue_EN_PUB113-001-00.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "drive and motion-control systems",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Explosion-Proof Quarter-Turn Actuators",
+        "Linear Actuators",
+        "HVAC Sensors",
+        "Transmitters and Controllers",
+        "Actuator Heating Systems"
+      ],
+      "industries": [
+        "building systems",
+        "industrial processing",
+        "oil and gas",
+        "marine applications"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "wamgroup",
     "displayName": "WAMGROUP",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 243,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "wamgroup.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://wamgroup.com/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://wamgroup.com/WAMGROUP/media/GENCAT/General_Catalogue_EN_0918_EDIT.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "filtration and water systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Screw Conveyors",
+        "Feeders",
+        "Mixers",
+        "Bulk-Solids Valves",
+        "Dust Filters",
+        "Level and Pressure Monitoring",
+        "Wastewater Treatment Equipment"
+      ],
+      "industries": [
+        "industrial processing",
+        "food and pharmaceutical processing",
+        "water and wastewater",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10369,18 +10912,55 @@
   {
     "manufacturerId": "tecofi",
     "displayName": "TECOFI",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 251,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "tecofi.fr",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.tecofi.fr/en/products/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.tecofi.fr/en/documentations/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "drive and motion-control systems",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Butterfly Valves",
+        "Knife-Gate Valves",
+        "Check Valves",
+        "Gate Valves",
+        "Ball Valves",
+        "Control Valves",
+        "Strainers",
+        "Actuators"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing",
+        "chemical processing",
+        "energy"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10433,19 +11013,55 @@
   },
   {
     "manufacturerId": "di-soric",
-    "displayName": "DI-SORIC",
-    "status": "BRAND_WEAK",
+    "displayName": "di-soric",
+    "status": "BRAND_SAFE",
     "priority": 253,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "di-soric.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.di-soric.cloud/us/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_AND_SOLUTION_PAGE",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.di-soric.cloud/pages/2021/odm/odm_en.html",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "industrial machinery",
+        "industrial automation and control",
+        "machine-safety systems"
+      ],
+      "families": [
+        "Industrial Sensors",
+        "Distance Sensors",
+        "Vision Sensors",
+        "Identification Systems",
+        "Machine Lighting",
+        "Safety Technology"
+      ],
+      "industries": [
+        "factory automation",
+        "transportation",
+        "food and pharmaceutical processing",
+        "electronics and semiconductor manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {

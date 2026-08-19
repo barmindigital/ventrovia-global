@@ -18,23 +18,23 @@ manufacturer logos are not recoloured.
 | Metric | Value |
 | --- | ---: |
 | Manufacturer identities | 2,806 |
-| BRAND_SAFE | 220 |
-| BRAND_WEAK | 2,566 |
-| BRAND_REVIEW | 20 |
-| Official domains | 220 |
-| Official source records | 381 |
-| Tier A source records | 380 |
-| English short descriptions | 220 |
-| English full descriptions | 220 |
-| Brands with family/series evidence | 204 |
-| BRAND_COMPLETE | 180 |
+| BRAND_SAFE | 239 |
+| BRAND_WEAK | 2,546 |
+| BRAND_REVIEW | 21 |
+| Official domains | 239 |
+| Official source records | 413 |
+| Tier A source records | 412 |
+| English short descriptions | 239 |
+| English full descriptions | 239 |
+| Brands with family/series evidence | 223 |
+| BRAND_COMPLETE | 199 |
 | BRAND_SAFE with logo | 102 |
-| Manufacturer sitemap target | 220 |
+| Manufacturer sitemap target | 239 |
 | Product sitemap | 0 |
 
-The latest two batches processed 48 manufacturers: 42 became `BRAND_SAFE` and
-six were conservatively assigned `BRAND_REVIEW`. The source-success rate for
-these batches was 87.5%. Historical processing duration was not captured, so
+The latest three batches processed 68 manufacturers: 61 became `BRAND_SAFE`
+and seven were conservatively assigned `BRAND_REVIEW`. Across all recorded
+source work, the source-success rate is 91.92%. Historical processing duration was not captured, so
 hourly throughput metrics are intentionally reported as `NOT_MEASURED`.
 
 ## Source discovery and cache
@@ -57,8 +57,8 @@ The mass result index assigns every manufacturer an effort class:
 
 - Identity audit: PASS.
 - Content audit: PASS; unsupported commercial claims 0.
-- Metadata audit: 220 unique titles and 220 unique descriptions.
-- Similarity audit: 24,090 pair comparisons, 0 findings at 0.72.
+- Metadata audit: 239 unique titles and 239 unique descriptions.
+- Similarity audit: 28,441 pair comparisons, 0 findings at 0.72.
 - Deterministic sample: 250 records, including every current safe page.
 - Logo gate: no fuzzy-only mapping and no product image used as a logo.
 - Blue regression: 0 first-party findings.
@@ -72,15 +72,15 @@ clusters:
 
 | Confirmed category | Safe brands |
 | --- | ---: |
-| Pumps and pumping systems | 63 |
-| Drive and motion-control systems | 40 |
-| Industrial valves and flow control | 40 |
+| Pumps and pumping systems | 66 |
+| Industrial automation and control | 45 |
+| Industrial valves and flow control | 45 |
+| Drive and motion-control systems | 44 |
+| Industrial sensors | 42 |
 | Electric motors | 39 |
-| Industrial sensors | 36 |
-| Industrial automation and control | 31 |
-| Measurement and instrumentation | 23 |
+| Measurement and instrumentation | 28 |
 | Gear units and geared drives | 19 |
-| Filtration and water systems | 17 |
+| Filtration and water systems | 19 |
 | Linear-motion components | 16 |
 
 No Brand × Category URLs are created. The counts only identify where a future
@@ -103,12 +103,12 @@ effort profile.
 
 ## Next queue
 
-The next 30 are PRECILEC, KONETEOLLISUUS, ESA Pyronics, Sensorex, Berg
-Spanntechnik, Brooks Instrument, Elster Kromschröder, Huba Control, InterApp,
-Relpol, co-ax, ipf electronic, Nocchi, Pneumax, YXLON, Gambarotta, Krombach,
-OBL, Kabelschlepp, Kadant Johnson, Pulsafeeder, Schischek, WAMGROUP, CyTec
-Zylindertechnik, ISOIL, Johnson Pump, TECOFI, di-soric, Dresser-Rand and
-Hydropa.
+The next 30 are PRECILEC, KONETEOLLISUUS, Elster Kromschröder, Gambarotta,
+Krombach, CyTec Zylindertechnik, ISOIL, Johnson Pump, Dresser-Rand, Hydropa,
+NASH, Sondermann, Speroni, Verderair, Barksdale, FIMET, Hydraulik Seehausen,
+Zumbach, Bosch Packaging, Panametrics, Ross Valve, SEIM, SIATA, Verlinde,
+Woerner, END Armaturen, Foxboro Eckardt, Gimatic, Hydroline and Malvern
+Panalytical.
 
 ## Release boundary
 
