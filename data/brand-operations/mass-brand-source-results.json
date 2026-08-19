@@ -12760,36 +12760,103 @@
   },
   {
     "manufacturerId": "blackmer",
-    "displayName": "BLACKMER",
-    "status": "BRAND_WEAK",
+    "displayName": "Blackmer",
+    "status": "BRAND_SAFE",
     "priority": 285,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "psgdover.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.psgdover.com/blackmer/company",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://store.psgdover.com/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "compressors and compressed-air systems"
+      ],
+      "families": [
+        "Sliding-Vane Pumps",
+        "Gear Pumps",
+        "Centrifugal Pumps",
+        "Regenerative-Turbine Pumps",
+        "Screw Pumps",
+        "Reciprocating Gas Compressors"
+      ],
+      "industries": [
+        "industrial processing",
+        "oil and gas",
+        "chemical processing",
+        "transportation"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "bran-luebbe-gmbh",
-    "displayName": "BRAN+LUEBBE",
-    "status": "BRAND_WEAK",
+    "displayName": "Bran+Luebbe",
+    "status": "BRAND_SAFE",
     "priority": 286,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "spxflow.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.spxflow.com/bran-luebbe/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.spxflow.com/assets/original/bran-luebbe-product-overview-bro-gb.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Metering Pumps",
+        "Process Diaphragm Pumps",
+        "Chemical-Injection Systems",
+        "Process Analyzers",
+        "Mixing Systems"
+      ],
+      "industries": [
+        "chemical processing",
+        "oil and gas",
+        "energy",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -12888,34 +12955,58 @@
   },
   {
     "manufacturerId": "general-kinematics",
-    "displayName": "GENERAL KINEMATICS",
-    "status": "BRAND_WEAK",
+    "displayName": "General Kinematics",
+    "status": "BRAND_SAFE",
     "priority": 289,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "generalkinematics.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.generalkinematics.com/vibration-equipment/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial vibration equipment",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Vibratory Feeders",
+        "Vibratory Conveyors",
+        "Screening Equipment",
+        "Cooling Systems",
+        "Rotary Process Equipment"
+      ],
+      "industries": [
+        "mining",
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "kraftmann-gmbh",
     "displayName": "KRAFTMANN GMBH",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 290,
-    "effortClass": "NORMAL",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "reason": "AMBIGUOUS_IDENTITY"
     },
     "checkedAt": null,
     "nextReviewAt": null
@@ -12973,189 +13064,500 @@
   },
   {
     "manufacturerId": "magnescale",
-    "displayName": "MAGNESCALE",
-    "status": "BRAND_WEAK",
+    "displayName": "Magnescale",
+    "status": "BRAND_SAFE",
     "priority": 292,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "magnescale.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.magnescale.com/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.magnescale.com/en/product/catalog/LS_En_web_0618.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "encoders and feedback systems"
+      ],
+      "families": [
+        "Magnescale Linear Scales",
+        "Laserscale Systems",
+        "Angle Encoders",
+        "Digital Gauges"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing",
+        "electronics and semiconductor manufacturing"
+      ],
+      "country": "Japan",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "mueller-steam-specialty",
-    "displayName": "MUELLER STEAM SPECIALTY",
-    "status": "BRAND_WEAK",
+    "displayName": "Mueller Steam Specialty",
+    "status": "BRAND_SAFE",
     "priority": 293,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "watts.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.watts.com/our-story/brands/mueller-steam-specialty",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/36631-source/638773792860000000/c-mueller",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Basket Strainers",
+        "Duplex Strainers",
+        "Y Strainers",
+        "Tee Strainers",
+        "Butterfly Valves",
+        "Check Valves",
+        "Control Valves",
+        "Suction Diffusers"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "water and wastewater"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "nimco",
     "displayName": "NIMCO",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 294,
-    "effortClass": "NORMAL",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "reason": "AMBIGUOUS_IDENTITY"
     },
     "checkedAt": null,
     "nextReviewAt": null
   },
   {
     "manufacturerId": "richardson-electronics",
-    "displayName": "RICHARDSON ELECTRONICS",
-    "status": "BRAND_WEAK",
+    "displayName": "Richardson Electronics",
+    "status": "BRAND_SAFE",
     "priority": 295,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "rell.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.rell.com/product-portfolio/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.relltubes.com/documents/Catalog/Industrial%20Microwave%20Product%20Guide%202026.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "RF and Microwave Components",
+        "Power-Grid Tubes",
+        "Microwave Tubes",
+        "Vacuum Capacitors",
+        "Power Electronics",
+        "CT and MRI Tubes",
+        "Industrial Monitors"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "laboratory and life-science applications",
+        "electronics and semiconductor manufacturing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "timmer-pneumatik-gmbh",
-    "displayName": "TIMMER",
-    "status": "BRAND_WEAK",
+    "displayName": "Timmer",
+    "status": "BRAND_SAFE",
     "priority": 296,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "timmer.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.timmer.de/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.timmer.de/Pumpen/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "pneumatic equipment",
+        "vacuum equipment"
+      ],
+      "families": [
+        "Double-Diaphragm Pumps",
+        "High-Pressure Diaphragm Pumps",
+        "Piston Pumps",
+        "Pneumatic Cylinders",
+        "Vacuum Lifting Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "uraca",
     "displayName": "URACA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 297,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "uraca.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.uraca.com/en-GB/home",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "industrial cleaning systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "High-Pressure Plunger Pumps",
+        "Process Pumps",
+        "Automated Cleaning Systems",
+        "High-Pressure Accessories"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "energy",
+        "oil and gas"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "wilden",
-    "displayName": "WILDEN",
-    "status": "BRAND_WEAK",
+    "displayName": "Wilden",
+    "status": "BRAND_SAFE",
     "priority": 298,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "psgdover.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.psgdover.com/wilden",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.psgdover.com/wilden/download-library",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "pneumatic equipment"
+      ],
+      "families": [
+        "Air-Operated Double-Diaphragm Pumps",
+        "Electric-Operated Double-Diaphragm Pumps",
+        "Specialty Diaphragm Pumps",
+        "Surge Dampeners"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "mining"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "bomar",
     "displayName": "BOMAR",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 299,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "bomar-saws.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://bomar-saws.com/products-band-saws.html",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Manual Band Saws",
+        "Semi-Automatic Band Saws",
+        "Automatic Band Saws",
+        "Deburring Machines",
+        "Belt Sanders",
+        "Material-Handling Systems"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Czech Republic",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "4b-braime",
-    "displayName": "BRAIME 4B",
-    "status": "BRAND_WEAK",
+    "displayName": "4B Braime",
+    "status": "BRAND_SAFE",
     "priority": 300,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "go4b.co.uk",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://go4b.co.uk/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://go4b.co.uk/bucket-elevator-components",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Bucket-Elevator Components",
+        "Chain-Conveyor Components",
+        "Speed Sensors",
+        "Alignment Sensors",
+        "Level Sensors",
+        "Hazard-Monitoring Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "agriculture",
+        "food and pharmaceutical processing",
+        "mining"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "fireye",
-    "displayName": "FIREYE",
-    "status": "BRAND_WEAK",
+    "displayName": "Fireye",
+    "status": "BRAND_SAFE",
     "priority": 301,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "fireye.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.fireye.com/products/flame-monitoring/ir-flame-scanners/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.fireye.com/wp-content/uploads/sites/10/2025/04/TD-00-2-0700-0-008-A-Flame-Monitor_M-Series_D-Series_Service_Guide-Web.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "industrial automation and control",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Flame Scanners",
+        "Flame-Safeguard Controls",
+        "Burner-Management Systems",
+        "Igniters and Pilots",
+        "Combustion-Efficiency Controls"
+      ],
+      "industries": [
+        "energy",
+        "industrial processing",
+        "oil and gas"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "plenty",
-    "displayName": "PLENTY FILTERS",
-    "status": "BRAND_WEAK",
+    "displayName": "Plenty Filters",
+    "status": "BRAND_SAFE",
     "priority": 302,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "spxflow.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.spxflow.com/plenty",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://spxflow-com-v8.azurewebsites.net/products/type?productType=filtration",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems"
+      ],
+      "families": [
+        "Industrial Strainers",
+        "Liquid-Filtration Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "oil and gas",
+        "chemical processing",
+        "energy"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -13203,325 +13605,915 @@
   },
   {
     "manufacturerId": "ahp-merkle",
-    "displayName": "AHP MERKLE",
-    "status": "BRAND_WEAK",
+    "displayName": "AHP Merkle",
+    "status": "BRAND_SAFE",
     "priority": 304,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "ahp.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.ahp.de/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.ahp.de/en/products/hydraulic-cylinders/ahp-standard-cylinder/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "linear-motion components",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Block Cylinders",
+        "Standard Cylinders",
+        "Locking Cylinders",
+        "Electrohydraulic Linear Actuators",
+        "Cylinder Accessories"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "br-automation",
-    "displayName": "B&R AUTOMATION",
-    "status": "BRAND_WEAK",
+    "displayName": "B&R Automation",
+    "status": "BRAND_SAFE",
     "priority": 305,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "br-automation.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.br-automation.com/en-us/products/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PAGE",
+        "tier": "A",
+        "scope": "OWNERSHIP_AND_CATEGORY",
+        "url": "https://new.abb.com/uk/about/our-businesses/automation",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "drive and motion-control systems",
+        "industrial software"
+      ],
+      "families": [
+        "PLC and Control Systems",
+        "HMI and Visualization",
+        "Industrial PCs",
+        "Machine Safety",
+        "Motion Control",
+        "Automation Studio"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing",
+        "packaging"
+      ],
+      "country": "Austria",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "baltimore-aircoil",
-    "displayName": "BALTIMORE AIRCOIL",
-    "status": "BRAND_WEAK",
+    "displayName": "Baltimore Aircoil",
+    "status": "BRAND_SAFE",
     "priority": 306,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "baltimoreaircoil.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://baltimoreaircoil.com/products?page=1",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Cooling Towers",
+        "Closed-Circuit Cooling Towers",
+        "Evaporative Condensers",
+        "Dry and Adiabatic Coolers",
+        "Hybrid Coolers",
+        "Ice Thermal Storage",
+        "Immersion Cooling"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "building systems",
+        "water and wastewater"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "elgo-electronic",
-    "displayName": "ELGO ELECTRONIC",
-    "status": "BRAND_WEAK",
+    "displayName": "ELGO Electronic",
+    "status": "BRAND_SAFE",
     "priority": 307,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "elgo.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.elgo.de/en/support/catalogs/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.elgo.de/fileadmin/user_upload/pdf/catalog/ELGO_Product_Catalogue.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "encoders and feedback systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Magnetic Linear Measurement",
+        "Rotary Measurement Systems",
+        "Position Indicators",
+        "Positioning Controls",
+        "Lift Shaft-Information Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "filton",
-    "displayName": "FILTON",
-    "status": "BRAND_WEAK",
+    "displayName": "Filton",
+    "status": "BRAND_SAFE",
     "priority": 308,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "filtonltd.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.filtonltd.com/EN/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems"
+      ],
+      "families": [
+        "Rotary Unions",
+        "Swivel Joints",
+        "Air-Breather Filters",
+        "Flexible Hoses"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "heinzmann",
-    "displayName": "HEINZMANN GMBH",
-    "status": "BRAND_WEAK",
+    "displayName": "HEINZMANN",
+    "status": "BRAND_SAFE",
     "priority": 309,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "heinzmann.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.heinzmann.com/en/products/components-analogue-speed-governors",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.heinzmann.com/en/downloads/governors/send/33-allgemein/501-product-guide",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "industrial sensors",
+        "turbomachinery"
+      ],
+      "families": [
+        "Speed Governors",
+        "Engine Actuators",
+        "Fuel-Injection Systems",
+        "Common-Rail Systems",
+        "Turbine Controls",
+        "Generator Management",
+        "Industrial Sensors"
+      ],
+      "industries": [
+        "energy",
+        "marine applications",
+        "industrial processing",
+        "transportation"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "m-pumps",
     "displayName": "M PUMPS",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 310,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "mpumps.it",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.mpumps.it/about-us/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.mpumps.it/wp-content/uploads/2018/06/Web-Company-Profile-EN-1.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Magnetic-Drive Pumps",
+        "Mechanical-Seal Pumps",
+        "Centrifugal Pumps",
+        "Multistage Pumps",
+        "Positive-Displacement Pumps"
+      ],
+      "industries": [
+        "chemical processing",
+        "oil and gas",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "pegas-gonda",
-    "displayName": "PEGAS GONDA",
-    "status": "BRAND_WEAK",
+    "displayName": "PEGAS-GONDA",
+    "status": "BRAND_SAFE",
     "priority": 311,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "pegas-gonda.cz",
+    "sources": [
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.pegas-gonda.cz/en/downloads/0/download",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.pegas-gonda.cz/en/pdf/categoryList/15/Band%20saw%20machine.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Joint Band Saws",
+        "Double-Column Band Saws",
+        "Angle-Cutting Saws",
+        "Bundle-Cutting Saws",
+        "Circular Saws",
+        "Roller Tables"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Czech Republic",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sofima",
-    "displayName": "SOFIMA HYDRAULICS",
-    "status": "BRAND_WEAK",
+    "displayName": "SOFIMA Hydraulics",
+    "status": "BRAND_SAFE",
     "priority": 312,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "ufihyd.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.ufihyd.com/products/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_BRAND_BROCHURE",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.ufihyd.com/pdf/en/Ufi-Sofima_HYD_Brochure_2020_no_ombre_R3_220120_web.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "industrial sensors"
+      ],
+      "families": [
+        "Suction Filters",
+        "Pressure Filters",
+        "Return Filters",
+        "Offline Filters",
+        "Transmission Filters",
+        "Air Filters",
+        "Filter Elements",
+        "Clogging Indicators"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "transportation"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "parker-hiross-zander",
-    "displayName": "ZANDER",
-    "status": "BRAND_WEAK",
+    "displayName": "Zander",
+    "status": "BRAND_SAFE",
     "priority": 313,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "parker.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hiross-Zander-Division/PDF-Files/Catalogs/GSFE-2020-CAGT-Product-Catalogue.pdf",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "FAMILY_AND_SERIES",
+        "url": "https://ph.parker.com/us/en/skk6-k7-d2-12",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "compressors and compressed-air systems",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Compressed-Air Dryers",
+        "High-Pressure Dryers",
+        "Compressed-Air Filters",
+        "Gas Filters",
+        "Breathing-Air Purifiers",
+        "Condensate Management"
+      ],
+      "industries": [
+        "industrial processing",
+        "food and pharmaceutical processing",
+        "chemical processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "abp-induction",
-    "displayName": "ABP INDUCTION",
-    "status": "BRAND_WEAK",
+    "displayName": "ABP Induction",
+    "status": "BRAND_SAFE",
     "priority": 314,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "abpinduction.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_OWNERSHIP",
+        "url": "https://abpinduction.com/en/people-1/about-abp/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://abpinduction.com/en/technology-2/foundries/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Coreless Induction Furnaces",
+        "Channel Induction Furnaces",
+        "Induction Heating Systems",
+        "Pouring and Holding Systems",
+        "Digital Furnace Controls"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "bondioli-pavesi",
-    "displayName": "BONDIOLI PAVESI",
-    "status": "BRAND_WEAK",
+    "displayName": "Bondioli & Pavesi",
+    "status": "BRAND_SAFE",
     "priority": 315,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "bondioli-pavesi.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.bondioli-pavesi.com/en/products",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.bondioli-pavesi.com/en/download/pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "drive and motion-control systems",
+        "industrial valves and flow control",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Drive Shafts",
+        "Industrial Gearboxes",
+        "Hydraulic Pumps and Motors",
+        "Directional-Control Valves",
+        "Cartridge Valves",
+        "Electronic Controls",
+        "Heat Exchangers"
+      ],
+      "industries": [
+        "agriculture",
+        "industrial processing",
+        "transportation"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "clextral",
-    "displayName": "CLEXTRAL",
-    "status": "BRAND_WEAK",
+    "displayName": "Clextral",
+    "status": "BRAND_SAFE",
     "priority": 316,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "clextral.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.clextral.com/our-offer/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "HISTORY_AND_INDUSTRY",
+        "url": "https://www.clextral.com/we-are-clextral/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Twin-Screw Extruders",
+        "Preconditioners",
+        "Industrial Dryers",
+        "Ancillary Process Equipment",
+        "Integrated Production Lines"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing",
+        "chemical processing"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "dynisco",
-    "displayName": "DYNISCO",
-    "status": "BRAND_WEAK",
+    "displayName": "Dynisco",
+    "status": "BRAND_SAFE",
     "priority": 317,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "dynisco.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.dynisco.com/sensors-and-measurement/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.dynisco.com/knowledge-center/index.cfm?tid=Datasheets-7",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation",
+        "laboratory and analytical equipment"
+      ],
+      "families": [
+        "Melt-Pressure Sensors",
+        "Pressure Transmitters",
+        "Industrial Indicators",
+        "Process Controls",
+        "Polymer-Testing Instruments"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "laboratory and life-science applications"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "flender",
-    "displayName": "FLENDER",
-    "status": "BRAND_WEAK",
+    "displayName": "Flender",
+    "status": "BRAND_SAFE",
     "priority": 318,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "flender.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.flender.com/en/products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "gear units and geared drives",
+        "brakes and couplings",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Helical Gear Units",
+        "Planetary Gear Units",
+        "Flexible Couplings",
+        "Torsionally Rigid Couplings",
+        "Hydrodynamic Couplings",
+        "Railway Couplings",
+        "Drive-System Components"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "industrial manufacturing",
+        "marine applications",
+        "transportation"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "givi-misure",
     "displayName": "GIVI MISURE",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 319,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "givimisure.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.givimisure.it/en/products/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "encoders and feedback systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Optical Scales",
+        "Magnetic Measurement Systems",
+        "Rotary Encoders",
+        "Digital Readouts",
+        "Position Controllers"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "hankison",
-    "displayName": "HANKISON",
-    "status": "BRAND_WEAK",
+    "displayName": "Hankison",
+    "status": "BRAND_SAFE",
     "priority": 320,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "hankisonair.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.hankisonair.com/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.hankisonair.com/api/get-file?id=CONTA12C0BC44F5F412E91A15111D471DBA3",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "compressors and compressed-air systems",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Refrigerated Air Dryers",
+        "Desiccant Air Dryers",
+        "Membrane Air Dryers",
+        "Compressed-Air Filters",
+        "Breathing-Air Purifiers",
+        "Condensate Management"
+      ],
+      "industries": [
+        "industrial processing",
+        "food and pharmaceutical processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "headline-filters",
-    "displayName": "HEADLINE FILTERS",
-    "status": "BRAND_WEAK",
+    "displayName": "Headline Filters",
+    "status": "BRAND_SAFE",
     "priority": 321,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "headlinefilters.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://headlinefilters.com/products",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_APPLICATION_PAGE",
+        "tier": "A",
+        "scope": "CATEGORY_AND_APPLICATION",
+        "url": "https://headlinefilters.com/pages/applications",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems"
+      ],
+      "families": [
+        "Filter Elements",
+        "Filter Housings",
+        "Compressed-Air Filters",
+        "Gas Filters",
+        "Liquid Filters",
+        "Inline Filters and Adsorbers",
+        "Membrane Separators",
+        "Sample-Conditioning Components"
+      ],
+      "industries": [
+        "industrial processing",
+        "oil and gas",
+        "laboratory and life-science applications",
+        "transportation"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "italvibras",
-    "displayName": "ITALVIBRAS",
-    "status": "BRAND_WEAK",
+    "displayName": "Italvibras",
+    "status": "BRAND_SAFE",
     "priority": 322,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "italvibras.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.italvibras.it/products/flanged-electric-vibrators/?lang=en",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial vibration equipment",
+        "electric motors"
+      ],
+      "families": [
+        "Foot-Mounted Electric Vibrators",
+        "Flange-Mounted Electric Vibrators",
+        "High-Frequency Vibrators",
+        "Mechanical Vibrators",
+        "Electromagnetic Vibrators"
+      ],
+      "industries": [
+        "industrial processing",
+        "food and pharmaceutical processing",
+        "mining"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -13544,18 +14536,60 @@
   {
     "manufacturerId": "knoll",
     "displayName": "KNOLL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 324,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "knoll-mb.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.knoll-mb.de/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.knoll-mb.de/en/products/pumps/screw-pumps",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+        "tier": "A",
+        "scope": "DOCUMENTATION",
+        "url": "https://www.knoll-mb.de/en/downloads/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "filtration and water systems",
+        "pumps and pumping systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Chip Conveyors",
+        "Coolant-Filtration Systems",
+        "Screw-Spindle Pumps",
+        "Centrifugal Pumps",
+        "Submersible Pumps",
+        "Automation Systems"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing",
+        "chemical processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
