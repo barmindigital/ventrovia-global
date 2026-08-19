@@ -91,3 +91,24 @@ test("recoverable product stores are absent from the Ventrovia repository", asyn
     "../app/generated/private-catalog-chunks.ts",
   ]) await assert.rejects(access(new URL(path, import.meta.url)));
 });
+
+test("private catalogue paths are guarded from source control and deployment", async () => {
+  const [ignore, envExample, packageSource, hosting] = await Promise.all([
+    readFile(new URL("../.gitignore", import.meta.url), "utf8"),
+    readFile(new URL("../.env.example", import.meta.url), "utf8"),
+    readFile(new URL("../package.json", import.meta.url), "utf8"),
+    loadJson("../.openai/hosting.json"),
+  ]);
+  for (const guard of [
+    "/data/catalog-*/",
+    "/archives/russian-catalog/",
+    "/app/catalog/",
+    "*russian-product-catalog-archive*.tar.gz",
+  ]) assert.match(ignore, new RegExp(guard.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&"), "u"));
+  for (const secret of ["RESEND_API_KEY", "ADMIN_PASSWORD", "ADMIN_SESSION_SECRET", "GITHUB_CONTENT_TOKEN"]) {
+    assert.match(envExample, new RegExp(`^${secret}=$`, "mu"));
+  }
+  assert.match(packageSource, /audit:infrastructure/u);
+  assert.equal(typeof hosting.project_id, "string");
+  assert.equal(Object.keys(hosting).sort().join(","), "d1,project_id,r2");
+});

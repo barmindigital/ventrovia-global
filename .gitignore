@@ -57,3 +57,18 @@ next-env.d.ts
 /product-exports/
 *russian-product-catalog-archive*.tar.gz
 *russian-product-catalog-archive*.zip
+
+# Exact legacy catalogue roots. These guards are intentionally narrow so that
+# independent manufacturer Brand Knowledge remains trackable.
+/data/catalog-*/
+/archives/russian-catalog/
+/app/catalog/
+/app/data/catalog/
+/app/admin/catalog-*/
+/app/api/admin/catalog-*/
+/app/generated/full-catalog.ts
+/app/generated/private-catalog*.ts
+/public/images/products/
+/content/catalog-review.json
+*industria-postavok-full-history*.bundle
+*ventrovia-brand-only-tree*.tar.gz
