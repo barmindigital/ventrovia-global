@@ -3,6 +3,11 @@ import { isBrandIndexable } from "./lib/brand-knowledge.server";
 import { manufacturers } from "./lib/manufacturer-directory";
 import { SITE_URL } from "./lib/site-brand";
 
+// Timeweb preserves Next's route cache between application releases. Keep the
+// readiness-driven sitemap dynamic so a newly published brand cohort cannot be
+// hidden behind the previous deployment's cached XML.
+export const dynamic = "force-dynamic";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
