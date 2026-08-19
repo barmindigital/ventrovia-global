@@ -15,7 +15,7 @@ async function json(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
 }
 
-const [base, wave4, wave5, wave6, wave7, wave8, wave9, wave10, wave11, wave12, wave13] = await Promise.all([
+const [base, wave4, wave5, wave6, wave7, wave8, wave9, wave10, wave11, wave12, wave13, wave14] = await Promise.all([
   json("data/brand-sources/curated-brand-facts.json"),
   json("data/brand-sources/curated-brand-facts-wave-4.json"),
   json("data/brand-sources/curated-brand-facts-wave-5.json"),
@@ -27,9 +27,10 @@ const [base, wave4, wave5, wave6, wave7, wave8, wave9, wave10, wave11, wave12, w
   json("data/brand-sources/curated-brand-facts-wave-11.json"),
   json("data/brand-sources/curated-brand-facts-wave-12.json"),
   json("data/brand-sources/curated-brand-facts-wave-13.json"),
+  json("data/brand-sources/curated-brand-facts-wave-14.json"),
 ]);
 
-const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles, ...wave6.profiles, ...wave7.profiles, ...wave8.profiles, ...wave9.profiles, ...wave10.profiles, ...wave11.profiles, ...wave12.profiles, ...wave13.profiles]
+const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles, ...wave6.profiles, ...wave7.profiles, ...wave8.profiles, ...wave9.profiles, ...wave10.profiles, ...wave11.profiles, ...wave12.profiles, ...wave13.profiles, ...wave14.profiles]
   .map(toEnglishBrandProfile)
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),
@@ -46,6 +47,7 @@ const blockedIdentities = [
   ...wave11.blockedIdentities,
   ...wave12.blockedIdentities,
   ...wave13.blockedIdentities,
+  ...wave14.blockedIdentities,
 ]
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),

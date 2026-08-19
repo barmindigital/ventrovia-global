@@ -18,23 +18,23 @@ manufacturer logos are not recoloured.
 | Metric | Value |
 | --- | ---: |
 | Manufacturer identities | 2,806 |
-| BRAND_SAFE | 324 |
-| BRAND_WEAK | 2,451 |
+| BRAND_SAFE | 348 |
+| BRAND_WEAK | 2,427 |
 | BRAND_REVIEW | 31 |
-| Official domains | 324 |
-| Official source records | 567 |
-| Tier A source records | 566 |
-| English short descriptions | 324 |
-| English full descriptions | 324 |
-| Brands with family/series evidence | 308 |
-| BRAND_COMPLETE | 270 |
-| BRAND_SAFE with logo | 112 |
-| Manufacturer sitemap target | 324 |
+| Official domains | 348 |
+| Official source records | 607 |
+| Tier A source records | 606 |
+| English short descriptions | 348 |
+| English full descriptions | 348 |
+| Brands with family/series evidence | 332 |
+| BRAND_COMPLETE | 292 |
+| BRAND_SAFE with logo | 115 |
+| Manufacturer sitemap target | 348 |
 | Product sitemap | 0 |
 
-The latest seven batches processed 163 manufacturers: 146 became `BRAND_SAFE`
+The latest eight batches processed 187 manufacturers: 170 became `BRAND_SAFE`
 and 17 were conservatively assigned `BRAND_REVIEW`. Across all recorded
-source work, the source-success rate is 91.27%. Historical processing duration
+source work, the source-success rate is 91.82%. Historical processing duration
 was not captured, so hourly throughput metrics are intentionally reported as
 `NOT_MEASURED`.
 
@@ -58,9 +58,9 @@ The mass result index assigns every manufacturer an effort class:
 
 - Identity audit: PASS.
 - Content audit: PASS; unsupported commercial claims 0.
-- Metadata audit: 324 unique titles and 324 unique descriptions.
-- Similarity audit: 52,326 pair comparisons, 0 findings at 0.72.
-- Deterministic sample: 324 records, including every current safe page.
+- Metadata audit: 348 unique titles and 348 unique descriptions.
+- Similarity audit: 60,378 pair comparisons, 0 findings at 0.72.
+- Deterministic sample: 348 records, including every current safe page.
 - Logo gate: no fuzzy-only mapping and no product image used as a logo.
 - Blue regression: 0 first-party findings.
 - Visibility boundary: product routes, product API, product sitemap, product
@@ -73,16 +73,16 @@ clusters:
 
 | Confirmed category | Safe brands |
 | --- | ---: |
-| Pumps and pumping systems | 88 |
-| Industrial automation and control | 71 |
-| Industrial valves and flow control | 59 |
-| Industrial sensors | 57 |
-| Drive and motion-control systems | 53 |
-| Measurement and instrumentation | 50 |
-| Electric motors | 42 |
-| Filtration and water systems | 31 |
-| Pneumatic equipment | 23 |
-| Gear units and geared drives | 21 |
+| Pumps and pumping systems | 94 |
+| Industrial automation and control | 76 |
+| Industrial valves and flow control | 62 |
+| Industrial sensors | 58 |
+| Drive and motion-control systems | 56 |
+| Measurement and instrumentation | 55 |
+| Electric motors | 47 |
+| Filtration and water systems | 32 |
+| Gear units and geared drives | 28 |
+| Pneumatic equipment | 25 |
 
 No Brand × Category URLs are created. The counts only identify where a future
 editorial layer may have enough verified coverage for a separate feasibility
@@ -104,11 +104,12 @@ effort profile.
 
 ## Next queue
 
-The next 30 are REGINA GROUP, SCANCON, STROMAG, VON ROHR ARMATUREN, BEGE
-AANDRIJFTECHNIEK, COMARME, HELMUT FISCHER, GRAYMILLS, KRAL, NAVCO,
-POMPETRAVAINI, SCHECHTL, SIREM, SWEP, TOREX, BAUER GEAR MOTOR, BONETTI,
-BUSCH VACUUM, DESMI, DRASTAR, EBAWE, LUEBBERING, MGM, MOOG GAT, OLAER,
-OSLV ITALIA, REDEX, SIMACO, SPITZENREITER and STONE.
+The next 30 are OLAER, OSLV ITALIA, REDEX, SIMACO, SPITZENREITER, STONE,
+TELCO SENSORS, WANGEN, WANNER ENGINEERING, ARGAL, BEL POWER SOLUTIONS,
+BOPP & REUTHER MESSTECHNIK, CECCATO, CEME, CLIPPARD MINIMATIC, COFIMCO,
+CONTROL TECHNIQUES, ELEKTROR, FENNER DRIVES, FILAMOS, MICROPRECISION
+ELECTRONICS, PAVONE SISTEMI, SAACKE, SCHIMPF, SEIPEE, SUNTEC, UWT, VICKERS,
+BAUERMEISTER and BEKUM.
 
 ## Release boundary
 
