@@ -10,7 +10,7 @@ import {
 } from "@/app/lib/cookie-consent";
 
 const METRIKA_ID = 111347334;
-const PRODUCTION_HOST = "industriapostavok.ru";
+const PRODUCTION_HOST = "ventroviaglobal.com";
 
 type MetrikaFunction = (
   counterId: number,
@@ -73,12 +73,12 @@ function YandexMetrikaTracker() {
     };
 
     window.addEventListener(
-      "industria-postavok:request-sent",
+      "ventrovia:request-sent",
       handleRequestSent,
     );
     return () =>
       window.removeEventListener(
-        "industria-postavok:request-sent",
+        "ventrovia:request-sent",
         handleRequestSent,
       );
   }, [enabled, scriptReady]);

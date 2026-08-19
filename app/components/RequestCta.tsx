@@ -6,7 +6,7 @@ import type {
   RequestType,
 } from "../lib/request-attribution";
 
-export const REQUEST_MODAL_EVENT = "industria-postavok:open-request";
+export const REQUEST_MODAL_EVENT = "ventrovia:open-request";
 
 type RequestCtaProps = {
   children?: ReactNode;
@@ -19,7 +19,7 @@ type RequestCtaProps = {
 };
 
 export function RequestCta({
-  children = "Оставить заявку",
+  children = "Request a Quote",
   className = "button button-primary",
   defaultProduct = "",
   onTrigger,

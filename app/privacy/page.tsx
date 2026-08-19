@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CookieConsentSettings } from "../components/CookieConsentSettings";
-import { siteContent } from "../lib/site-content";
+import { SITE_BRAND } from "../lib/site-brand";
 
 export const metadata: Metadata = {
-  title: "Политика конфиденциальности",
-  description:
-    "Политика обработки персональных данных и использования cookie на сайте компании «Индустрия поставок».",
+  title: "Privacy Policy",
+  description: "How Ventrovia processes contact details, RFQ information, attachments and essential website data.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -15,93 +14,18 @@ export default function PrivacyPage() {
     <>
       <section className="page-hero">
         <div className="shell">
-          <div className="breadcrumbs">
-            <Link href="/">Главная</Link><span>/</span><span>Политика конфиденциальности</span>
-          </div>
-          <p className="eyebrow">Персональные данные</p>
-          <h1>Политика конфиденциальности</h1>
-          <p>Редакция от 6 августа 2026 года.</p>
+          <div className="breadcrumbs"><Link href="/">Home</Link><span>/</span><span>Privacy Policy</span></div>
+          <p className="eyebrow">Personal data</p><h1>Privacy Policy</h1><p>Effective 19 August 2026.</p>
         </div>
       </section>
       <section className="section shell legal-content">
-        <h2>1. Общие положения</h2>
-        <p>
-          Настоящая политика описывает, как оператор сайта «{siteContent.site.name}»
-          обрабатывает данные посетителей при работе с сайтом и формами заявок.
-          Отправляя форму, пользователь подтверждает согласие с этой политикой.
-        </p>
-
-        <h2>2. Какие данные обрабатываются</h2>
-        <p>
-          В форме могут обрабатываться имя, компания, телефон, e-mail, сведения
-          о требуемом оборудовании, комментарий и добровольно приложенный файл.
-          Также сайт использует технические cookie и локальное хранилище,
-          необходимые для корректной работы интерфейса, сохранения заявки и
-          выбора пользователя относительно аналитических cookie.
-        </p>
-
-        <h2>3. Цели обработки</h2>
-        <p>
-          Данные используются для обработки заявки, обратной связи, подготовки
-          предложения, уточнения технического задания, обеспечения работы и
-          безопасности сайта. Данные не используются для автоматического
-          принятия решений и не продаются третьим лицам.
-        </p>
-
-        <h2>4. Яндекс Метрика и аналитические cookie</h2>
-        <p>
-          Только после согласия пользователя на основном домене сайта
-          подключается сервис «Яндекс Метрика», счётчик № 111347334. Он помогает
-          оценивать посещаемость, источники переходов, просмотры страниц,
-          нажатия и успешные отправки форм. В составе сервиса может использоваться
-          Вебвизор для анализа взаимодействия с интерфейсом. Обработка данных
-          сервисом также регулируется{" "}
-          <a
-            href="https://yandex.ru/legal/confidential/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            политикой конфиденциальности Яндекса
-          </a>.
-        </p>
-        <p>
-          Поля форм заявки и входа в управление сайтом защищены от записи
-          содержимого Вебвизором. Сайт не передаёт в Метрику введённые имя,
-          телефон, e-mail, пароль, текст комментария и содержимое приложенных
-          файлов. Метрика не запускается на тестовом зеркале и в локальной
-          версии сайта.
-        </p>
-        <p>
-          Пользователь может отказаться от аналитики в cookie-плашке. Выбор
-          сохраняется на устройстве и может быть изменён позднее.
-        </p>
-        <CookieConsentSettings />
-
-        <h2>5. Передача и хранение</h2>
-        <p>
-          Доступ к данным получают сотрудники и подрядчики, которым он необходим
-          для обработки обращения и работы сайта. Данные хранятся не дольше,
-          чем требуется для указанных целей или выполнения требований закона,
-          после чего удаляются или обезличиваются.
-        </p>
-
-        <h2>6. Права пользователя</h2>
-        <p>
-          Пользователь может запросить сведения об обработке, уточнение,
-          ограничение или удаление своих данных, а также отозвать согласие,
-          направив обращение на{" "}
-          <a href={`mailto:${siteContent.contacts.email}`}>
-            {siteContent.contacts.email}
-          </a>.
-        </p>
-
-        <h2>7. Контакты оператора</h2>
-        <p>
-          {siteContent.contacts.address}. E-mail:{" "}
-          <a href={`mailto:${siteContent.contacts.email}`}>
-            {siteContent.contacts.email}
-          </a>.
-        </p>
+        <h2>1. Scope</h2><p>This policy explains how Ventrovia processes information submitted through this website and its request-for-quotation forms. By submitting a form, you confirm that you have read this policy.</p>
+        <h2>2. Information we receive</h2><p>An enquiry may contain your name, company, phone number, email address, equipment requirement, comments and voluntarily attached files. Essential cookies and local browser storage may be used to operate the interface and preserve a draft enquiry.</p>
+        <h2>3. Purpose</h2><p>Information is used to review your requirement, contact you, prepare a commercial proposal, clarify technical details and protect the website from misuse. Ventrovia does not sell enquiry data and does not use it for automated decision-making.</p>
+        <h2>4. Cookies and analytics</h2><p>Essential cookies support core website functions. Optional analytics, if introduced, are enabled only in line with the consent choice shown to the visitor. Sensitive RFQ fields must not be included in analytics events.</p><CookieConsentSettings />
+        <h2>5. Storage and access</h2><p>Access is limited to personnel and service providers who need the information to handle the enquiry or operate the website. Data are retained only for as long as needed for the stated purpose or applicable obligations.</p>
+        <h2>6. Your choices</h2><p>You may ask about the processing of your information or request correction, restriction or deletion by writing to <a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a>.</p>
+        <h2>7. Contact</h2><p>{SITE_BRAND.address.singleLine}. Email: <a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a>.</p>
       </section>
     </>
   );

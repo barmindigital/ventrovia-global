@@ -7,46 +7,44 @@ import { ContactDock } from "./components/ContactDock";
 import { CookieBanner } from "./components/CookieBanner";
 import { RequestModal } from "./components/RequestModal";
 import { AttributionCapture } from "./components/AttributionCapture";
-import { YandexMetrika } from "./components/YandexMetrika";
-import { serializeJsonLd, SITE_URL } from "./lib/seo-content";
+import { serializeJsonLd } from "./lib/json-ld";
 import { siteContent } from "./lib/site-content";
-import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "./lib/catalog-visibility";
+import { SITE_BRAND, SITE_URL } from "./lib/site-brand";
 
-const publicSiteDescription = PRODUCT_CATALOG_PUBLIC_ENABLED
-  ? siteContent.site.defaultSeoDescription
-  : "Поставка промышленного оборудования по модели, артикулу или спецификации. Адресный поиск производителей и подготовка коммерческого предложения.";
+const publicSiteDescription = siteContent.site.defaultSeoDescription;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: siteContent.site.defaultSeoTitle,
-    template: `%s | ${siteContent.site.name}`,
+    // Page titles already carry the Ventrovia suffix where it adds value.
+    // Keeping the root template neutral prevents duplicate "| Ventrovia" text.
+    template: "%s",
   },
   description: publicSiteDescription,
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    locale: "ru_RU",
-    siteName: siteContent.site.name,
+    locale: "en",
+    siteName: SITE_BRAND.displayName,
     title: siteContent.site.openGraphTitle,
-    description: PRODUCT_CATALOG_PUBLIC_ENABLED
-      ? siteContent.site.openGraphDescription
-      : publicSiteDescription,
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+    description: siteContent.site.openGraphDescription,
+    url: SITE_URL,
+    images: [
+      {
+        url: SITE_BRAND.logos.social,
+        width: 1200,
+        height: 630,
+        alt: `${SITE_BRAND.displayName} — ${SITE_BRAND.tagline}`,
+      },
+    ],
   },
-  twitter: {
-    card: "summary_large_image",
-    images: ["/og.png"],
-  },
+  twitter: { card: "summary_large_image", images: [SITE_BRAND.logos.social] },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
-  },
-  verification: {
-    yandex: "2c78c9b70d149211",
+    apple: SITE_BRAND.logos.appIcon,
   },
 };
 
@@ -54,25 +52,25 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
-  name: siteContent.site.name,
+  name: SITE_BRAND.name,
   url: SITE_URL,
-  logo: `${SITE_URL}/favicon.svg`,
-  telephone: siteContent.contacts.phoneDisplay,
-  email: siteContent.contacts.email,
+  logo: `${SITE_URL}${SITE_BRAND.logos.horizontalTaglineDark}`,
+  telephone: SITE_BRAND.phoneDisplay,
+  email: SITE_BRAND.email,
   description: publicSiteDescription,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: `${SITE_BRAND.address.line1}, ${SITE_BRAND.address.line2}`,
+    addressLocality: "Dubai",
+    addressCountry: "AE",
+  },
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "sales",
-    telephone: siteContent.contacts.phoneDisplay,
-    email: siteContent.contacts.email,
-    areaServed: "RU",
-    availableLanguage: "ru",
-    hoursAvailable: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "09:00",
-      closes: "18:00",
-    },
+    telephone: SITE_BRAND.phoneDisplay,
+    email: SITE_BRAND.email,
+    areaServed: "Worldwide",
+    availableLanguage: "English",
   },
 };
 
@@ -81,54 +79,25 @@ const websiteJsonLd = {
   "@type": "WebSite",
   "@id": `${SITE_URL}/#website`,
   url: SITE_URL,
-  name: siteContent.site.name,
-  inLanguage: "ru-RU",
+  name: SITE_BRAND.name,
+  inLanguage: "en",
   publisher: { "@id": `${SITE_URL}/#organization` },
-  ...(PRODUCT_CATALOG_PUBLIC_ENABLED
-    ? {
-        potentialAction: {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate: `${SITE_URL}/catalog?q={search_term_string}`,
-          },
-          "query-input": "required name=search_term_string",
-        },
-      }
-    : {}),
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ru" data-scroll-behavior="smooth">
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
         <AttributionCapture />
-        <YandexMetrika />
-        <a className="skip-link" href="#content">
-          Перейти к содержимому
-        </a>
-        <SiteHeader
-          productCatalogPublicEnabled={PRODUCT_CATALOG_PUBLIC_ENABLED}
-        />
+        <a className="skip-link" href="#content">Skip to content</a>
+        <SiteHeader />
         <main id="content">{children}</main>
         <SiteFooter />
         <ContactDock />
         <RequestModal />
         <CookieBanner />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: serializeJsonLd(organizationJsonLd),
-          }}
-          type="application/ld+json"
-        />
-        <script
-          dangerouslySetInnerHTML={{ __html: serializeJsonLd(websiteJsonLd) }}
-          type="application/ld+json"
-        />
+        <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(organizationJsonLd) }} type="application/ld+json" />
+        <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(websiteJsonLd) }} type="application/ld+json" />
       </body>
     </html>
   );

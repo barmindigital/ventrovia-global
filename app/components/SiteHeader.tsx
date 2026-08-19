@@ -1,125 +1,54 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
-import { siteContent } from "@/app/lib/site-content";
+import { useRef } from "react";
+import { SITE_BRAND } from "@/app/lib/site-brand";
 import { RequestCta } from "./RequestCta";
 
 const navigationItems = [
-  { href: "/#services", key: "services", label: "Услуги" },
-  { href: "/catalog", key: "catalog", label: "Каталог" },
-  { href: "/manufacturers", key: "manufacturers", label: "Производители" },
-  { href: "/about", key: "about", label: "О компании" },
-  { href: "/contacts", key: "contacts", label: "Контакты" },
+  { href: "/", key: "home", label: "Home" },
+  { href: "/manufacturers", key: "manufacturers", label: "Manufacturers" },
+  { href: "/about", key: "about", label: "About" },
+  { href: "/#services", key: "services", label: "Services" },
+  { href: "/contacts", key: "contacts", label: "Contact" },
 ] as const;
 
-const homeSections = [
-  { id: "services", key: "services" },
-  { id: "catalog", key: "catalog" },
-  { id: "about", key: "about" },
-  { id: "cases", key: "about" },
-  { id: "manufacturers", key: "manufacturers" },
-  { id: "request", key: "contacts" },
-] as const;
-
-export function SiteHeader({
-  productCatalogPublicEnabled,
-}: {
-  productCatalogPublicEnabled: boolean;
-}) {
+export function SiteHeader() {
   const pathname = usePathname();
   const mobileMenuRef = useRef<HTMLDetailsElement>(null);
-  const [activeHomeSection, setActiveHomeSection] = useState("");
-
-  useEffect(() => {
-    if (pathname !== "/") return;
-
-    const updateActiveSection = () => {
-      const marker = window.scrollY + window.innerHeight * 0.35;
-      let activeSection = "";
-
-      for (const section of homeSections) {
-        const element = document.getElementById(section.id);
-        if (element && element.offsetTop <= marker) {
-          activeSection = section.key;
-        }
-      }
-
-      setActiveHomeSection(activeSection);
-    };
-
-    updateActiveSection();
-    window.addEventListener("scroll", updateActiveSection, { passive: true });
-    window.addEventListener("resize", updateActiveSection);
-
-    return () => {
-      window.removeEventListener("scroll", updateActiveSection);
-      window.removeEventListener("resize", updateActiveSection);
-    };
-  }, [pathname]);
-
-  const closeMobileMenu = () => {
-    mobileMenuRef.current?.removeAttribute("open");
-  };
-
-  const visibleNavigationItems = productCatalogPublicEnabled
-    ? navigationItems
-    : navigationItems.filter(({ key }) => key !== "catalog");
-
+  const closeMobileMenu = () => mobileMenuRef.current?.removeAttribute("open");
   const isActive = (key: (typeof navigationItems)[number]["key"]) =>
-    pathname === "/"
-      ? activeHomeSection === key
-      : pathname === `/${key}` || pathname.startsWith(`/${key}/`);
-
-  const renderNavigationLink = (
-    item: (typeof navigationItems)[number],
-    closeMenu = false,
-  ) => {
-    const active = isActive(item.key);
-
-    return (
-      <Link
-        aria-current={active ? (pathname === "/" ? "location" : "page") : undefined}
-        className={active ? "is-active" : undefined}
-        href={item.href}
-        key={item.key}
-        onClick={closeMenu ? closeMobileMenu : undefined}
-      >
-        {item.label}
-      </Link>
-    );
-  };
+    key === "home"
+      ? pathname === "/"
+      : key === "services"
+        ? false
+        : pathname === `/${key}` || pathname.startsWith(`/${key}/`);
 
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <Link
-          className="brand"
-          href="/"
-          aria-label={`${siteContent.site.name} — главная`}
-          onClick={closeMobileMenu}
-        >
-          <span className="brand-mark" aria-hidden="true">
-            <i />
-          </span>
-          <span className="brand-copy">
-            <strong>{siteContent.site.name.toLocaleUpperCase("ru-RU")}</strong>
-          </span>
+        <Link className="brand brand-ventrovia" href="/" aria-label={`${SITE_BRAND.name} home`} onClick={closeMobileMenu}>
+          <Image alt={SITE_BRAND.displayName} height={54} priority src={SITE_BRAND.logos.horizontalDark} unoptimized width={228} />
         </Link>
-        <nav className="desktop-nav" aria-label="Основная навигация">
-          {visibleNavigationItems.map((item) => renderNavigationLink(item))}
+        <nav className="desktop-nav" aria-label="Primary navigation">
+          {navigationItems.map((item) => (
+            <Link aria-current={isActive(item.key) ? "page" : undefined} className={isActive(item.key) ? "is-active" : undefined} href={item.href} key={item.key}>
+              {item.label}
+            </Link>
+          ))}
         </nav>
-        <RequestCta className="header-cta" source="header_desktop" />
+        <RequestCta className="header-cta" source="header_desktop">Request a Quote</RequestCta>
         <details className="mobile-menu" ref={mobileMenuRef}>
-          <summary aria-label="Открыть меню"><span /><span /></summary>
-          <nav aria-label="Мобильная навигация">
-            {visibleNavigationItems.map((item) => renderNavigationLink(item, true))}
-            <RequestCta
-              className="mobile-menu-cta"
-              onTrigger={closeMobileMenu}
-              source="header_mobile"
-            />
+          <summary aria-label="Open menu"><span /><span /></summary>
+          <nav aria-label="Mobile navigation">
+            {navigationItems.map((item) => (
+              <Link aria-current={isActive(item.key) ? "page" : undefined} className={isActive(item.key) ? "is-active" : undefined} href={item.href} key={item.key} onClick={closeMobileMenu}>
+                {item.label}
+              </Link>
+            ))}
+            <RequestCta className="mobile-menu-cta" onTrigger={closeMobileMenu} source="header_mobile">Request a Quote</RequestCta>
           </nav>
         </details>
       </div>

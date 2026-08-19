@@ -74,17 +74,17 @@ export function RequestModal() {
       >
         {submitted ? (
           <span className="sr-only" id="request-modal-title">
-            Заявка успешно отправлена
+            Enquiry sent successfully
           </span>
         ) : (
           <div className="request-modal-heading">
             <div>
-              <p className="eyebrow">Заявка на поставку</p>
-              <h2 id="request-modal-title">Оставить заявку</h2>
-              <p>Ответим в рабочее время и уточним детали поставки.</p>
+              <p className="eyebrow">Request for quotation</p>
+              <h2 id="request-modal-title">Send your enquiry</h2>
+              <p>Provide the manufacturer, model or specification for a commercial review.</p>
             </div>
             <button
-              aria-label="Закрыть форму"
+              aria-label="Close form"
               className="request-modal-close"
               onClick={closeModal}
               type="button"

@@ -9,7 +9,7 @@ export function CookieConsentSettings() {
       onClick={resetCookieConsent}
       type="button"
     >
-      Изменить выбор cookie
+      Change cookie preferences
     </button>
   );
 }

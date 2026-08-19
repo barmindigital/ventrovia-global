@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Fragment } from "react";
-import { RevealOnScroll } from "../components/RevealOnScroll";
 import { RequestCta } from "../components/RequestCta";
 import { renderHeadingLines, siteContent } from "../lib/site-content";
+import { SITE_BRAND } from "../lib/site-brand";
 
 const pageContent = siteContent.pages.about;
 
@@ -11,11 +11,7 @@ export const metadata: Metadata = {
   title: pageContent.seoTitle,
   description: pageContent.seoDescription,
   alternates: { canonical: "/about" },
-  openGraph: {
-    title: pageContent.seoTitle,
-    description: pageContent.seoDescription,
-    url: "/about",
-  },
+  openGraph: { title: pageContent.seoTitle, description: pageContent.seoDescription, url: "/about" },
 };
 
 export default function AboutPage() {
@@ -23,98 +19,27 @@ export default function AboutPage() {
     <>
       <section className="page-hero">
         <div className="shell">
-          <div className="breadcrumbs">
-            <Link href="/">Главная</Link><span>/</span><span>О компании</span>
-          </div>
+          <div className="breadcrumbs"><Link href="/">Home</Link><span>/</span><span>About</span></div>
           <p className="eyebrow">{pageContent.eyebrow}</p>
-          <h1>
-            {renderHeadingLines(pageContent.heading).map((line, index, lines) => (
-              <Fragment key={line}>
-                {line}
-                {index < lines.length - 1 && <br />}
-              </Fragment>
-            ))}
-          </h1>
+          <h1>{renderHeadingLines(pageContent.heading).map((line, index, lines) => <Fragment key={line}>{line}{index < lines.length - 1 && <br />}</Fragment>)}</h1>
           <p>{pageContent.intro}</p>
         </div>
       </section>
       <section className="section shell">
         <div className="content-grid">
-          <article className="value-card">
-            <span>01</span>
-            <h2>Работа под спрос</h2>
-            <p>Каждая закупка запускается под конкретный тендер или прямой запрос — без лишних складских рисков.</p>
-          </article>
-          <article className="value-card">
-            <span>02</span>
-            <h2>Прозрачная экономика</h2>
-            <p>Цена складывается из понятных компонентов: товар, логистика, таможня, платежи и документы.</p>
-          </article>
-          <article className="value-card">
-            <span>03</span>
-            <h2>Контроль рисков</h2>
-            <p>Юридические, финансовые и логистические риски проверяются до запуска каждой сделки.</p>
-          </article>
-        </div>
-      </section>
-      <section className="section company-history-section" id="history">
-        <div className="shell">
-          <div className="company-history-heading">
-            <div>
-              <p className="eyebrow">2016–2026</p>
-              <h2>История компании</h2>
-            </div>
-            <p>
-              От первых поставок из Китая до международной сети и комплексного
-              снабжения промышленным оборудованием.
-            </p>
-          </div>
-          <ol className="company-timeline" aria-label="История компании по годам">
-            {siteContent.companyHistory.map((event, index) => (
-              <li className="company-timeline-item" key={event.year}>
-                <RevealOnScroll className="company-timeline-reveal">
-                  <article className="company-timeline-card">
-                    <div className="company-timeline-meta">
-                      <span>{String(index + 1).padStart(2, "0")}</span>
-                      <time dateTime={event.year}>{event.year} год</time>
-                    </div>
-                    <p>{event.text}</p>
-                  </article>
-                </RevealOnScroll>
-              </li>
-            ))}
-          </ol>
+          <article className="value-card"><span>01</span><h2>Requirement first</h2><p>Every engagement starts with a defined manufacturer, model, part number or technical specification.</p></article>
+          <article className="value-card"><span>02</span><h2>Commercial clarity</h2><p>Pricing, lead time and supply scope are confirmed for the individual RFQ rather than presented as assumed stock.</p></article>
+          <article className="value-card"><span>03</span><h2>International coordination</h2><p>Ventrovia supports industrial sourcing and supply coordination for requirements serving customers worldwide.</p></article>
         </div>
       </section>
       <section className="section section-tint">
         <div className="shell brand-sections">
-          <div>
-            <p className="eyebrow">Наш подход</p>
-            <h2>Находим то, чего нет в свободном доступе</h2>
-          </div>
+          <div><p className="eyebrow">Our role</p><h2>A structured route from specification to commercial proposal</h2></div>
           <article className="content-card">
-            <p>
-              Каждый заказ — строго под потребность клиента, без складских
-              остатков и лишних издержек. Один запрос может включать позиции
-              разных брендов: коммерческий отдел сопровождает сделку и
-              координирует все внутренние подразделения.
-            </p>
-            <p>
-              Собственный платёжный контур помогает организовать расчёты с
-              иностранными поставщиками без посредников. Компания работает с
-              товарами, где важны поиск, экспертиза и проверенные каналы
-              поставки.
-            </p>
-            <div className="company-actions specification-button">
-              <RequestCta source="about_page" />
-              <a
-                className="button button-outline"
-                download
-                href="/documents/industriya-postavok-presentation.pdf"
-              >
-                Скачать презентацию
-              </a>
-            </div>
+            <p>Ventrovia is based in {SITE_BRAND.baseLocation} and operates with a worldwide market focus. We help procurement teams structure enquiries for industrial equipment, components and hard-to-find requirements.</p>
+            <p>Our public manufacturer knowledge base uses official identity and product-area sources. It is designed to support correct brand identification without presenting an unverified product catalogue or implying authorised-dealer status.</p>
+            <p>For each RFQ, the exact model, quantity, documentation and commercial requirements are reviewed before pricing and lead-time information are provided.</p>
+            <div className="company-actions specification-button"><RequestCta source="about_page">Request a Quote</RequestCta><RequestCta className="button button-outline" requestType="specification" source="about_page">Send Your Specification</RequestCta></div>
           </article>
         </div>
       </section>

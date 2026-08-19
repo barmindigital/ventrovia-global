@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #332f2a;
-  --ink-soft: #4b453e;
-  --violet-deep: #b4533c;
-  --violet: #b4533c;
+  --ink: #272326;
+  --ink-soft: #45414a;
+  --violet-deep: #173f5a;
+  --violet: #173f5a;
   --violet-bright: #d31027;
-  --violet-mist: #f2ebdd;
+  --violet-mist: #f4f0e8;
   --paper: #ffffff;
   --paper-strong: #ffffff;
   --line: rgba(107, 100, 89, 0.2);
@@ -110,6 +110,17 @@ img {
   align-items: center;
   gap: 12px;
   flex: 0 0 auto;
+}
+
+.brand-ventrovia img {
+  width: auto;
+  height: 46px;
+  object-fit: contain;
+}
+
+.brand-footer.brand-ventrovia img {
+  width: auto;
+  height: 66px;
 }
 
 .brand-mark {
@@ -3686,7 +3697,7 @@ img {
 .site-footer {
   padding-top: 64px;
   color: white;
-  background: #6b6459;
+  background: #123449;
 }
 
 .footer-grid {

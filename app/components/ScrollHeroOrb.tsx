@@ -282,7 +282,7 @@ export function ScrollHeroOrb() {
       {/* The image remains as a fast, accessible fallback until WebGL is ready. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        alt="Объёмная красная планета — символ глобальных поставок"
+        alt="Red orbital form representing worldwide industrial sourcing"
         className="hero-planet-fallback"
         draggable={false}
         height={960}

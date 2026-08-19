@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { siteContent } from "../lib/site-content";
-import { PRODUCT_CATALOG_PUBLIC_ENABLED } from "../lib/catalog-visibility";
+import { SITE_BRAND } from "../lib/site-brand";
 import { PhoneAction } from "./PhoneAction";
 import { RequestCta } from "./RequestCta";
 
@@ -9,44 +9,39 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <Link className="brand brand-footer" href="/">
-            <span className="brand-mark" aria-hidden="true"><i /></span>
-            <span className="brand-copy"><strong>{siteContent.site.name.toUpperCase()}</strong></span>
+          <Link className="brand brand-footer brand-ventrovia" href="/">
+            <Image alt={`${SITE_BRAND.displayName} — ${SITE_BRAND.tagline}`} height={70} src={SITE_BRAND.logos.horizontalTaglineLight} unoptimized width={270} />
           </Link>
-          <p className="footer-note">
-            Подбор оборудования и комплектующих по модели, артикулу и техническому заданию.
-          </p>
+          <p className="footer-note">International industrial sourcing and supply coordination based on complete models, part numbers and technical specifications.</p>
         </div>
         <div>
-          <h2>Подбор</h2>
-          {PRODUCT_CATALOG_PUBLIC_ENABLED && (
-            <Link href="/catalog">Каталог оборудования</Link>
-          )}
-          <Link href="/manufacturers">Производители</Link>
-          <Link href="/#services">Услуги</Link>
+          <h2>Sourcing</h2>
+          <Link href="/manufacturers">Manufacturers</Link>
+          <Link href="/#services">Services</Link>
+          <RequestCta className="footer-request-cta" source="footer">Request a Quote</RequestCta>
         </div>
         <div>
-          <h2>Компания</h2>
-          <Link href="/about">О компании</Link>
-          <Link href="/contacts">Контакты</Link>
-          <Link href="/privacy">Политика конфиденциальности</Link>
-          <RequestCta className="footer-request-cta" source="footer" />
+          <h2>Company</h2>
+          <Link href="/about">About Ventrovia</Link>
+          <Link href="/contacts">Contact</Link>
+          <Link href="/privacy">Privacy Policy</Link>
         </div>
         <div className="footer-status">
           <span className="status-dot" />
           <div className="footer-status-copy">
-            <strong>Офис в Москве</strong><br />
-            <PhoneAction>{siteContent.contacts.phoneDisplay}</PhoneAction><br />
-            <a href={`mailto:${siteContent.contacts.email}`}>{siteContent.contacts.email}</a><br />
-            {siteContent.contacts.weekdays}<br />
-            {siteContent.contacts.weekend}
+            <strong>{SITE_BRAND.baseLocation}</strong><br />
+            <PhoneAction>{SITE_BRAND.phoneDisplay}</PhoneAction><br />
+            <a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a><br />
+            {SITE_BRAND.address.line1}<br />
+            {SITE_BRAND.address.line2}<br />
+            {SITE_BRAND.address.line3}
           </div>
         </div>
       </div>
       <div className="shell footer-bottom">
-        <span>© 2026 {siteContent.site.name}</span>
-        <Link href="/privacy">Политика конфиденциальности</Link>
-        <span>Информация на сайте не является публичной офертой.</span>
+        <span>© 2026 {SITE_BRAND.name}</span>
+        <Link href="/privacy">Privacy Policy</Link>
+        <span>All trademarks belong to their respective owners. Website information is not a binding offer.</span>
       </div>
     </footer>
   );

@@ -1,91 +1,62 @@
 {
-  "version": 1,
+  "version": 2,
   "site": {
-    "name": "Индустрия поставок",
-    "defaultSeoTitle": "Индустрия поставок — промышленное оборудование и комплектующие",
-    "defaultSeoDescription": "Подбор промышленного оборудования и комплектующих по модели, артикулу и производителю. Более 156 000 товарных позиций в базе.",
-    "openGraphTitle": "Индустрия поставок — глобальные промышленные закупки",
-    "openGraphDescription": "Более 156 000 товарных позиций, более 2 800 производителей и подбор по точному артикулу."
+    "name": "Ventrovia",
+    "defaultSeoTitle": "Ventrovia — Global Industrial Equipment Sourcing",
+    "defaultSeoDescription": "International industrial sourcing and supply coordination for equipment, parts and hard-to-find requirements. Send a model, part number or specification for review.",
+    "openGraphTitle": "Ventrovia — Global Industrial Trade",
+    "openGraphDescription": "Industrial equipment sourcing worldwide, supported by a verified manufacturer knowledge base and specification-led RFQ process."
   },
   "pages": {
     "home": {
-      "seoTitle": "Поставка промышленного оборудования из Европы, Азии и США",
-      "seoDescription": "Поставка промышленного оборудования и запчастей под ключ: поиск по модели или артикулу, оплата поставщику, доставка, таможенное оформление и документы.",
-      "eyebrow": "Промышленные поставки под ключ",
-      "heading": "Поставка промышленного\nоборудования и запчастей\nиз Европы, Азии и США\nпод ключ",
-      "intro": "Находим оригинальные позиции по модели, артикулу или техническому заданию, оплачиваем иностранному поставщику, организуем доставку, таможенное оформление и комплект документов. Работаем с прямыми и тендерными закупками."
+      "seoTitle": "Global Industrial Equipment Sourcing | Ventrovia",
+      "seoDescription": "Ventrovia supports international industrial equipment sourcing, RFQ review and supply coordination. Send a part number, model or specification.",
+      "eyebrow": "Global industrial sourcing",
+      "heading": "Industrial equipment\nsourcing worldwide",
+      "intro": "Ventrovia helps procurement teams source industrial equipment, components and hard-to-find requirements across international supply markets. Send a manufacturer, part number or specification for a structured commercial review."
     },
     "catalog": {
-      "seoTitle": "Каталог промышленного оборудования",
-      "seoDescription": "Поиск промышленного оборудования по артикулу, модели, категории и производителю. Более 156 000 товарных позиций в базе.",
-      "eyebrow": "Промышленное оборудование",
-      "heading": "Каталог",
-      "intro": "Ищите по модели, артикулу, производителю или назначению. Структура каталога подготовлена для большого ассортимента без дублирующихся страниц."
+      "seoTitle": "Industrial Equipment Sourcing by Request",
+      "seoDescription": "Send a manufacturer, part number, model or technical specification to Ventrovia for an industrial sourcing review.",
+      "eyebrow": "Specification-led sourcing",
+      "heading": "Industrial equipment\nsourcing by request",
+      "intro": "Submit the manufacturer, model, part number or specification and our team will review the requirement."
     },
     "manufacturers": {
-      "seoTitle": "Производители промышленного оборудования",
-      "seoDescription": "Более 2 800 производителей промышленного оборудования и комплектующих. Поиск бренда и подбор позиции по точной маркировке.",
-      "eyebrow": "Поиск по бренду",
-      "heading": "Производители",
-      "intro": "Страницы брендов объединяют модели, категории и подсказки для точного запроса. Названия используются только для идентификации совместимого оборудования."
+      "seoTitle": "Industrial Equipment Manufacturers | Ventrovia",
+      "seoDescription": "Explore Ventrovia's manufacturer knowledge base. Find verified brand profiles, official product areas and a direct path to request pricing and lead-time information.",
+      "eyebrow": "Manufacturer knowledge base",
+      "heading": "Industrial manufacturers",
+      "intro": "Search verified manufacturer identities, official product areas and documented product families for specification-led sourcing."
     },
     "about": {
-      "seoTitle": "О компании «Индустрия поставок» — промышленное снабжение",
-      "seoDescription": "Международная торговая компания полного цикла: поиск промышленного оборудования, расчёты, таможенное оформление, логистика и контроль рисков.",
-      "eyebrow": "Поставки полного цикла",
-      "heading": "Международная торговая\nкомпания полного цикла",
-      "intro": "Профессиональный интегратор между заказчиком и глобальным рынком. Мы берём на себя все этапы сделки: от поиска труднодоступного оборудования до его доставки, таможенного оформления и финальных рисков."
+      "seoTitle": "About Ventrovia — Global Industrial Trade",
+      "seoDescription": "Ventrovia is a Dubai-based international industrial sourcing and supply business serving procurement requirements worldwide.",
+      "eyebrow": "Global industrial trade",
+      "heading": "International sourcing,\nstructured around your specification",
+      "intro": "Ventrovia supports industrial procurement teams with manufacturer sourcing, RFQ processing and international supply coordination from Dubai, UAE."
     },
     "contacts": {
-      "seoTitle": "Контакты и запрос на подбор оборудования",
-      "seoDescription": "Офис в Москве: БЦ «Центральный Ярд». Телефон +7 (495) 148-59-67, e-mail sales@industriapostavok.ru. Работаем по будням с 09:00 до 18:00.",
-      "eyebrow": "География бизнеса",
-      "heading": "Офис в Москве",
-      "intro": "Свяжитесь с отделом поставок или отправьте спецификацию. Для точного подбора укажите производителя, модель и артикул, если они известны."
+      "seoTitle": "Contact Ventrovia | Industrial Equipment RFQ",
+      "seoDescription": "Contact Ventrovia in Dubai, UAE. Send a manufacturer, model, part number or specification to sales@ventroviaglobal.com.",
+      "eyebrow": "Worldwide enquiries",
+      "heading": "Contact Ventrovia",
+      "intro": "Send your manufacturer, model, part number or specification. Our sales team will review the request and provide the next commercial steps."
     }
   },
   "templates": {
-    "productTitle": "{name} — идентификация и запрос поставки",
-    "productDescription": "{manufacturer} {model}: описание, данные для подбора и запрос поставки. {subcategory}.",
-    "manufacturerTitle": "{name} — оборудование и комплектующие",
-    "manufacturerDescription": "Оборудование и комплектующие {name}: каталог позиций, области применения и подбор по полной заводской маркировке."
+    "productTitle": "Industrial equipment sourcing by request",
+    "productDescription": "Submit a manufacturer, model, part number or specification for an industrial sourcing review.",
+    "manufacturerTitle": "{name} Industrial Equipment | Ventrovia",
+    "manufacturerDescription": "Request sourcing support for {name} equipment. Send the complete model, part number or specification for pricing and lead-time review."
   },
   "contacts": {
-    "phoneDisplay": "+7 (495) 148-59-67",
-    "phoneHref": "+74951485967",
-    "email": "sales@industriapostavok.ru",
-    "address": "г. Москва, ул. Бауманская, БЦ «Центральный Ярд», д. 7, стр. 1",
-    "weekdays": "Понедельник–пятница: 09:00–18:00",
-    "weekend": "Суббота и воскресенье: выходные"
+    "phoneDisplay": "+971 55 725 4463",
+    "phoneHref": "+971557254463",
+    "email": "sales@ventroviaglobal.com",
+    "address": "Office 29c02, 29th Floor, I-Rise Tower, Hessa Street, Barsha Heights, Dubai, UAE",
+    "weekdays": "Worldwide industrial sourcing enquiries",
+    "weekend": "Responses are prepared after a commercial review"
   },
-  "companyHistory": [
-    {
-      "year": "2016",
-      "text": "Основание компании «Индустрия поставок» в Москве и начало работы с поставщиками промышленного оборудования в Китае."
-    },
-    {
-      "year": "2017",
-      "text": "Расширение партнёрской сети и развитие проектов в разных регионах России."
-    },
-    {
-      "year": "2018",
-      "text": "Открытие филиалов в Санкт-Петербурге и Владивостоке для развития региональной логистики."
-    },
-    {
-      "year": "2020",
-      "text": "Ребрендинг компании и развитие направления комплексного аутсорсинга внешнеэкономической деятельности."
-    },
-    {
-      "year": "2022",
-      "text": "Начало международной деятельности и открытие офиса в Дубае, ОАЭ."
-    },
-    {
-      "year": "2025",
-      "text": "Открытие направления закупок промышленного оборудования и запасных частей для крупных организаций."
-    },
-    {
-      "year": "2026",
-      "text": "Расширение международной сети и развитие присутствия в Турции и ОАЭ."
-    }
-  ]
+  "companyHistory": []
 }

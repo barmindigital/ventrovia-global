@@ -20,11 +20,10 @@ export function CookieBanner() {
   if (!visible) return null;
 
   return (
-    <aside aria-label="Уведомление о cookie" className="cookie-banner">
+    <aside aria-label="Cookie notice" className="cookie-banner">
       <p>
-        Мы используем обязательные cookie для работы сайта и, только с вашего
-        согласия, Яндекс Метрику для аналитики и Вебвизора. Подробнее — в{" "}
-        <Link href="/privacy">политике конфиденциальности</Link>.
+        We use essential cookies to operate the website. Optional analytics may be enabled only with your consent. See our{" "}
+        <Link href="/privacy">Privacy Policy</Link>.
       </p>
       <div className="cookie-banner-actions">
         <button
@@ -35,7 +34,7 @@ export function CookieBanner() {
           }}
           type="button"
         >
-          Принять
+          Accept
         </button>
         <button
           className="button button-outline"
@@ -45,7 +44,7 @@ export function CookieBanner() {
           }}
           type="button"
         >
-          Отклонить
+          Decline
         </button>
       </div>
     </aside>

@@ -1,4 +1,5 @@
 import content from "@/content/site-content.json";
+import { SITE_BRAND } from "./site-brand";
 
 export type PageContent = {
   seoTitle: string;
@@ -35,7 +36,22 @@ export type SiteContent = {
   companyHistory: Array<{ year: string; text: string }>;
 };
 
-export const siteContent = content as SiteContent;
+const rawSiteContent = content as SiteContent;
+
+export const siteContent: SiteContent = {
+  ...rawSiteContent,
+  site: {
+    ...rawSiteContent.site,
+    name: SITE_BRAND.name,
+  },
+  contacts: {
+    ...rawSiteContent.contacts,
+    phoneDisplay: SITE_BRAND.phoneDisplay,
+    phoneHref: SITE_BRAND.phoneHref,
+    email: SITE_BRAND.email,
+    address: SITE_BRAND.address.singleLine,
+  },
+};
 
 export function applySeoTemplate(
   template: string,

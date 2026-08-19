@@ -40,7 +40,7 @@ export function PhoneAction({ children, className, label }: PhoneActionProps) {
   return (
     <>
       <a
-        aria-label={label ?? `Показать номер ${phoneDisplay}`}
+        aria-label={label ?? `Show phone number ${phoneDisplay}`}
         className={className}
         href={phoneHref}
         onClick={showPhone}
@@ -50,11 +50,11 @@ export function PhoneAction({ children, className, label }: PhoneActionProps) {
       {visible && (
         <div aria-live="polite" className="phone-popover" role="status">
           <div>
-            <small>{copied ? "Номер скопирован" : "Телефон отдела поставок"}</small>
+            <small>{copied ? "Number copied" : "Industrial sourcing team"}</small>
             <strong>{phoneDisplay}</strong>
           </div>
-          <a href={phoneHref}>Позвонить</a>
-          <button aria-label="Закрыть" onClick={() => setVisible(false)} type="button">
+          <a href={phoneHref}>Call</a>
+          <button aria-label="Close" onClick={() => setVisible(false)} type="button">
             ×
           </button>
         </div>

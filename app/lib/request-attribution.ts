@@ -1,28 +1,30 @@
 export const REQUEST_ATTRIBUTION_KEY =
-  "industria-postavok-request-attribution";
+  "ventrovia-request-attribution";
 
 export const REQUEST_TYPE_LABELS = {
-  supply: "Запрос поставки",
-  product: "Запрос по товару",
+  supply: "Supply enquiry",
+  product: "Equipment enquiry",
+  specification: "Specification enquiry",
 } as const;
 
 export type RequestType = keyof typeof REQUEST_TYPE_LABELS;
 
 export const REQUEST_SOURCE_LABELS = {
-  hero_home: "Первый экран",
-  header_desktop: "Шапка сайта",
-  header_mobile: "Мобильное меню",
-  home_bottom: "Главная — нижняя форма",
-  contact_dock: "Панель быстрой связи",
-  contacts_page: "Страница контактов",
-  footer: "Подвал сайта",
-  about_page: "Страница «О компании»",
-  catalog_help: "Каталог — помощь с подбором",
-  catalog_empty: "Каталог — ничего не найдено",
-  manufacturer_page: "Страница производителя",
-  product_page: "Карточка товара",
-  catalog_position: "Карточка позиции каталога",
-  unattributed: "Источник не определён",
+  hero_home: "Homepage hero",
+  header_desktop: "Desktop header",
+  header_mobile: "Mobile navigation",
+  home_form: "Homepage RFQ form",
+  home_bottom: "Homepage lower form",
+  contact_dock: "Contact dock",
+  contacts_page: "Contact page",
+  footer: "Site footer",
+  about_page: "About page",
+  catalog_help: "Sourcing request page",
+  catalog_empty: "Sourcing request empty state",
+  manufacturer_page: "Manufacturer page",
+  product_page: "Archived product route",
+  catalog_position: "Archived catalog position route",
+  unattributed: "Unattributed source",
 } as const;
 
 export type RequestSourceId = keyof typeof REQUEST_SOURCE_LABELS;

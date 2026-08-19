@@ -11,7 +11,7 @@ import {
   type RequestType,
 } from "@/app/lib/request-attribution";
 
-const REQUEST_DRAFT_KEY = "industria-postavok-request-draft";
+const REQUEST_DRAFT_KEY = "ventrovia-request-draft";
 const MAX_FILE_SIZE = 15 * 1024 * 1024;
 const MAX_FILES = 5;
 const ALLOWED_FILE_PATTERN = /\.(pdf|xls|xlsx|doc|docx|jpg|jpeg|png)$/i;
@@ -35,8 +35,8 @@ const emptyDraft: RequestDraft = {
 };
 
 function formatFileSize(size: number) {
-  if (size < 1024 * 1024) return `${Math.ceil(size / 1024)} КБ`;
-  return `${(size / (1024 * 1024)).toFixed(1).replace(".0", "")} МБ`;
+  if (size < 1024 * 1024) return `${Math.ceil(size / 1024)} KB`;
+  return `${(size / (1024 * 1024)).toFixed(1).replace(".0", "")} MB`;
 }
 
 export function RequestForm({
@@ -105,7 +105,7 @@ export function RequestForm({
     selectedFiles.forEach((file) => form.append("file", file, file.name));
 
     if (!draft.phone.trim() && !draft.email.trim()) {
-      const message = "Укажите телефон или e-mail.";
+      const message = "Enter a phone number or email address.";
       phoneRef.current?.setCustomValidity(message);
       emailRef.current?.setCustomValidity(message);
       phoneRef.current?.reportValidity();
@@ -114,12 +114,12 @@ export function RequestForm({
     }
 
     if (selectedFiles.length > MAX_FILES) {
-      setFeedback(`Можно прикрепить не более ${MAX_FILES} файлов.`);
+      setFeedback(`You can attach up to ${MAX_FILES} files.`);
       return;
     }
 
     if (selectedFiles.some((file) => !ALLOWED_FILE_PATTERN.test(file.name))) {
-      setFeedback("Допустимы PDF, XLS/XLSX, DOC/DOCX и JPG/PNG.");
+      setFeedback("Accepted formats: PDF, XLS/XLSX, DOC/DOCX and JPG/PNG.");
       return;
     }
 
@@ -128,7 +128,7 @@ export function RequestForm({
       0,
     );
     if (totalFileSize > MAX_FILE_SIZE) {
-      setFeedback("Общий размер файлов превышает 15 МБ.");
+      setFeedback("The total attachment size exceeds 15 MB.");
       return;
     }
 
@@ -150,7 +150,7 @@ export function RequestForm({
     const requestTypeLabel = REQUEST_TYPE_LABELS[requestType];
     const requestSourceLabel = REQUEST_SOURCE_LABELS[source];
     const fallbackSubject = [
-      "Заявка с сайта",
+      "Ventrovia website enquiry",
       requestTypeLabel,
       requestSourceLabel,
       requestType === "product" && draft.product ? draft.product : "",
@@ -160,14 +160,14 @@ export function RequestForm({
 
     const text = [
       fallbackSubject,
-      `Тип заявки: ${requestTypeLabel}`,
-      `Источник заявки: ${requestSourceLabel}`,
-      `ID источника: ${source}`,
-      `Страница: ${pageTitle}`,
-      `URL страницы: ${pageUrl}`,
-      `Контекст: ${requestContext || "—"}`,
-      `Первая страница визита: ${attribution.landingPage || "—"}`,
-      `Источник перехода: ${attribution.referrer || "—"}`,
+      `Enquiry type: ${requestTypeLabel}`,
+      `Enquiry source: ${requestSourceLabel}`,
+      `Source ID: ${source}`,
+      `Page: ${pageTitle}`,
+      `Page URL: ${pageUrl}`,
+      `Context: ${requestContext || "—"}`,
+      `Landing page: ${attribution.landingPage || "—"}`,
+      `Referrer: ${attribution.referrer || "—"}`,
       `UTM source: ${attribution.utmSource || "—"}`,
       `UTM medium: ${attribution.utmMedium || "—"}`,
       `UTM campaign: ${attribution.utmCampaign || "—"}`,
@@ -175,21 +175,21 @@ export function RequestForm({
       `UTM content: ${attribution.utmContent || "—"}`,
       `YCLID: ${attribution.yclid || "—"}`,
       `GCLID: ${attribution.gclid || "—"}`,
-      `Время на устройстве: ${submittedAt}`,
-      `Имя: ${draft.name}`,
-      `Компания: ${draft.company}`,
-      `Телефон: ${draft.phone || "—"}`,
+      `Device time: ${submittedAt}`,
+      `Name: ${draft.name}`,
+      `Company: ${draft.company}`,
+      `Phone: ${draft.phone || "—"}`,
       `E-mail: ${draft.email || "—"}`,
-      `Позиция: ${draft.product || "—"}`,
-      `Комментарий: ${draft.message || "—"}`,
+      `Part / model: ${draft.product || "—"}`,
+      `Message: ${draft.message || "—"}`,
       selectedFiles.length
-        ? `Файлы: ${selectedFiles.map((file) => file.name).join(", ")}`
-        : "Файлы: —",
+        ? `Files: ${selectedFiles.map((file) => file.name).join(", ")}`
+        : "Files: —",
     ].join("\n");
 
     setSending(true);
     setFallbackMailto("");
-    setFeedback("Отправляем заявку…");
+    setFeedback("Sending your enquiry…");
 
     try {
       const response = await fetch("/api/request", {
@@ -217,7 +217,7 @@ export function RequestForm({
           request_source_id: source,
           request_type: requestTypeLabel,
           request_type_id: requestType,
-          request_context: requestContext || "Контекст не указан",
+          request_context: requestContext || "No context provided",
           page_title: pageTitle,
         };
         const analyticsWindow = window as typeof window & {
@@ -226,7 +226,7 @@ export function RequestForm({
         analyticsWindow.dataLayer = analyticsWindow.dataLayer ?? [];
         analyticsWindow.dataLayer.push(analyticsEvent);
         window.dispatchEvent(
-          new CustomEvent("industria-postavok:request-sent", {
+          new CustomEvent("ventrovia:request-sent", {
             detail: analyticsEvent,
           }),
         );
@@ -239,7 +239,7 @@ export function RequestForm({
         `mailto:${fallbackEmail}?subject=${encodeURIComponent(fallbackSubject)}&body=${encodeURIComponent(text)}`,
       );
       setFeedback(
-        `${result.message || "Почтовый канал временно недоступен"} Поля и выбранные файлы сохранены в форме.`,
+        `${result.message || "The email channel is temporarily unavailable."} Your fields and selected files remain in the form.`,
       );
     } catch {
       localStorage.setItem(REQUEST_DRAFT_KEY, JSON.stringify(draft));
@@ -247,7 +247,7 @@ export function RequestForm({
         `mailto:${fallbackEmail}?subject=${encodeURIComponent(fallbackSubject)}&body=${encodeURIComponent(text)}`,
       );
       setFeedback(
-        "Не удалось отправить заявку. Поля и выбранные файлы сохранены в форме.",
+        "The enquiry could not be sent. Your fields and selected files remain in the form.",
       );
     } finally {
       setSending(false);
@@ -262,7 +262,7 @@ export function RequestForm({
         role="status"
       >
         <button
-          aria-label="Закрыть сообщение"
+          aria-label="Close message"
           className="request-success-close"
           onClick={() => {
             setSubmitted(false);
@@ -276,12 +276,9 @@ export function RequestForm({
         <span className="request-success-mark" aria-hidden="true">
           ✓
         </span>
-        <p className="eyebrow eyebrow-light">Заявка принята</p>
-        <h3>Заявка успешно отправлена</h3>
-        <p>
-          Спасибо! Менеджер отдела поставок свяжется с вами по указанному
-          контакту в рабочее время.
-        </p>
+        <p className="eyebrow eyebrow-light">Enquiry received</p>
+        <h3>Your enquiry has been sent</h3>
+        <p>Thank you. Our sales team will review the information and respond using the contact details provided.</p>
       </section>
     );
   }
@@ -296,7 +293,7 @@ export function RequestForm({
     >
       <div className="form-grid">
         <div className="field">
-          <label htmlFor={`${formId}-name`}>Имя *</label>
+          <label htmlFor={`${formId}-name`}>Name *</label>
           <input
             autoComplete="name"
             id={`${formId}-name`}
@@ -307,7 +304,7 @@ export function RequestForm({
           />
         </div>
         <div className="field">
-          <label htmlFor={`${formId}-company`}>Компания *</label>
+          <label htmlFor={`${formId}-company`}>Company *</label>
           <input
             autoComplete="organization"
             id={`${formId}-company`}
@@ -318,7 +315,7 @@ export function RequestForm({
           />
         </div>
         <div className="field">
-          <label htmlFor={`${formId}-phone`}>Телефон</label>
+          <label htmlFor={`${formId}-phone`}>Phone</label>
           <input
             autoComplete="tel"
             id={`${formId}-phone`}
@@ -343,7 +340,7 @@ export function RequestForm({
         </div>
         <div className="field field-full">
           <label htmlFor={`${formId}-product`}>
-            Артикул, модель или оборудование (необязательно)
+            Part number, model or equipment (optional)
           </label>
           <input
             id={`${formId}-product`}
@@ -353,17 +350,17 @@ export function RequestForm({
           />
         </div>
         <div className="field field-full">
-          <label htmlFor={`${formId}-message`}>Комментарий (необязательно)</label>
+          <label htmlFor={`${formId}-message`}>Message (optional)</label>
           <textarea
             id={`${formId}-message`}
             name="message"
             onChange={(event) => updateDraft("message", event.target.value)}
-            placeholder="Количество, срок, технические требования"
+            placeholder="Quantity, target date and technical requirements"
             value={draft.message}
           />
         </div>
         <div className="field field-full file-field">
-          <span className="field-label">Прикрепить файлы (необязательно)</span>
+          <span className="field-label">Attach files (optional)</span>
           <input
             accept=".pdf,.xls,.xlsx,.doc,.docx,.jpg,.jpeg,.png"
             className="file-input"
@@ -387,7 +384,7 @@ export function RequestForm({
                 }
 
                 if (uniqueFiles.length > MAX_FILES) {
-                  setFeedback(`Можно прикрепить не более ${MAX_FILES} файлов.`);
+                  setFeedback(`You can attach up to ${MAX_FILES} files.`);
                 } else {
                   setFeedback("");
                 }
@@ -400,12 +397,12 @@ export function RequestForm({
           />
           <div className="file-picker-row">
             <label className="file-picker-button" htmlFor={`${formId}-file`}>
-              Выбрать файлы
+              Choose files
             </label>
-            <small>До 5 файлов, общий объём — до 15 МБ.</small>
+            <small>Up to 5 files, 15 MB total.</small>
           </div>
           {selectedFiles.length > 0 && (
-            <ul className="selected-files" aria-label="Выбранные файлы">
+            <ul className="selected-files" aria-label="Selected files">
               {selectedFiles.map((file) => (
                 <li key={`${file.name}-${file.size}-${file.lastModified}`}>
                   <span className="selected-file-name">
@@ -413,7 +410,7 @@ export function RequestForm({
                     <small>{formatFileSize(file.size)}</small>
                   </span>
                   <button
-                    aria-label={`Удалить файл ${file.name}`}
+                    aria-label={`Remove file ${file.name}`}
                     onClick={() => {
                       setSelectedFiles((current) =>
                         current.filter((item) => item !== file),
@@ -422,7 +419,7 @@ export function RequestForm({
                     }}
                     type="button"
                   >
-                    Удалить
+                    Remove
                   </button>
                 </li>
               ))}
@@ -430,7 +427,7 @@ export function RequestForm({
           )}
         </div>
         <div className="request-honeypot" aria-hidden="true">
-          <label htmlFor={`${formId}-website`}>Сайт</label>
+          <label htmlFor={`${formId}-website`}>Website</label>
           <input
             autoComplete="off"
             id={`${formId}-website`}
@@ -442,9 +439,8 @@ export function RequestForm({
       <label className="consent-field">
         <input name="consent" required type="checkbox" value="yes" />
         <span>
-          Нажимая на кнопку, Вы даёте согласие на обработку персональных данных
-          и соглашаетесь с{" "}
-          <Link href="/privacy">политикой конфиденциальности</Link>.
+          By submitting this form, you consent to the processing of your personal data and agree to the{" "}
+          <Link href="/privacy">Privacy Policy</Link>.
         </span>
       </label>
       <div className="form-actions">
@@ -453,7 +449,7 @@ export function RequestForm({
           disabled={sending}
           type="submit"
         >
-          {sending ? "Отправляем…" : "Оставить заявку"}
+          {sending ? "Sending…" : "Send enquiry"}
         </button>
         {(feedback || fallbackMailto) && (
           <span className="form-feedback" aria-live="polite">
@@ -461,7 +457,7 @@ export function RequestForm({
             {fallbackMailto && (
               <>
                 {" "}
-                <a href={fallbackMailto}>Отправить по почте</a>
+                <a href={fallbackMailto}>Send by email</a>
               </>
             )}
           </span>

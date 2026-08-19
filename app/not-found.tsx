@@ -4,11 +4,11 @@ export default function NotFound() {
   return (
     <section className="page-hero">
       <div className="shell">
-        <p className="eyebrow">Ошибка 404</p>
-        <h1>Страница не найдена</h1>
-        <p>Проверьте адрес или перейдите к списку производителей.</p>
+        <p className="eyebrow">Error 404</p>
+        <h1>Page not found</h1>
+        <p>Check the address or continue to the manufacturer knowledge base.</p>
         <Link className="button button-primary" href="/manufacturers">
-          Производители
+          Manufacturers
         </Link>
       </div>
     </section>

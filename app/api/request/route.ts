@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { siteContent } from "@/app/lib/site-content";
+import { SITE_BRAND, SITE_URL } from "@/app/lib/site-brand";
 import {
   REQUEST_SOURCE_LABELS,
   REQUEST_TYPE_LABELS,
@@ -11,7 +12,7 @@ const REQUEST_EMAIL =
   process.env.REQUEST_TO_EMAIL || siteContent.contacts.email;
 const FROM_EMAIL =
   process.env.REQUEST_FROM_EMAIL ||
-  `Заявки сайта <requests@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://industriapostavok.ru").hostname}>`;
+  `${SITE_BRAND.displayName} RFQ <requests@${new URL(SITE_URL).hostname}>`;
 const MAX_FILE_BYTES = 15 * 1024 * 1024;
 const MAX_FILES = 5;
 const MAX_REQUEST_BYTES = MAX_FILE_BYTES + 128_000;
@@ -73,7 +74,7 @@ export async function POST(request: Request) {
   const isMultipart = contentType.startsWith("multipart/form-data");
   if (!isJson && !isMultipart) {
     return NextResponse.json(
-      { ok: false, message: "Ожидается форма заявки." },
+      { ok: false, message: "A valid enquiry form is required." },
       { status: 415 },
     );
   }
@@ -81,7 +82,7 @@ export async function POST(request: Request) {
   const contentLength = Number(request.headers.get("content-length") ?? 0);
   if (Number.isFinite(contentLength) && contentLength > MAX_REQUEST_BYTES) {
     return NextResponse.json(
-      { ok: false, message: "Размер заявки превышает допустимый." },
+      { ok: false, message: "The enquiry exceeds the allowed size." },
       { status: 413 },
     );
   }
@@ -100,7 +101,7 @@ export async function POST(request: Request) {
     }
   } catch {
     return NextResponse.json(
-      { ok: false, message: "Некорректный формат заявки." },
+      { ok: false, message: "The enquiry format is invalid." },
       { status: 400 },
     );
   }
@@ -157,7 +158,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         ok: false,
-        message: "Заполните имя, компанию и хотя бы один контакт.",
+        message: "Enter your name, company and at least one contact method.",
       },
       { status: 400 },
     );
@@ -165,21 +166,21 @@ export async function POST(request: Request) {
 
   if (fields.email && !EMAIL_PATTERN.test(fields.email)) {
     return NextResponse.json(
-      { ok: false, message: "Проверьте адрес электронной почты." },
+      { ok: false, message: "Check the email address." },
       { status: 400 },
     );
   }
 
   if (!["yes", "true", "1"].includes(fields.consent.toLowerCase())) {
     return NextResponse.json(
-      { ok: false, message: "Необходимо согласие на обработку данных." },
+      { ok: false, message: "Consent to data processing is required." },
       { status: 400 },
     );
   }
 
   if (uploadedFiles.length > MAX_FILES) {
     return NextResponse.json(
-      { ok: false, message: `Можно прикрепить не более ${MAX_FILES} файлов.` },
+      { ok: false, message: `You can attach up to ${MAX_FILES} files.` },
       { status: 400 },
     );
   }
@@ -191,13 +192,13 @@ export async function POST(request: Request) {
     );
     if (totalFileSize > MAX_FILE_BYTES) {
       return NextResponse.json(
-        { ok: false, message: "Общий размер файлов превышает 15 МБ." },
+        { ok: false, message: "The total attachment size exceeds 15 MB." },
         { status: 413 },
       );
     }
     if (uploadedFiles.some((file) => !ALLOWED_FILE_PATTERN.test(file.name))) {
       return NextResponse.json(
-        { ok: false, message: "Недопустимый формат файла." },
+        { ok: false, message: "The attachment format is not allowed." },
         { status: 400 },
       );
     }
@@ -209,26 +210,26 @@ export async function POST(request: Request) {
       {
         ok: false,
         fallback: true,
-        message: "Почтовый канал ещё не подключён.",
+        message: "Email delivery is not yet connected. Please use the email link below.",
       },
       { status: 503 },
     );
   }
 
-  const receivedAt = new Intl.DateTimeFormat("ru-RU", {
+  const receivedAt = new Intl.DateTimeFormat("en-GB", {
     dateStyle: "medium",
     timeStyle: "medium",
-    timeZone: "Europe/Moscow",
+    timeZone: "Asia/Dubai",
   }).format(new Date());
   const rows = [
-    ["Тип заявки", requestTypeLabel],
-    ["Источник заявки", requestSourceLabel],
-    ["ID источника", fields.requestSource],
-    ["Страница", fields.pageTitle || "—"],
-    ["URL страницы", fields.pageUrl || "—"],
-    ["Товар / категория", fields.requestContext || fields.product || "—"],
-    ["Первая страница визита", fields.landingPage || "—"],
-    ["Источник перехода (referrer)", fields.referrer || "—"],
+    ["Enquiry type", requestTypeLabel],
+    ["Enquiry source", requestSourceLabel],
+    ["Source ID", fields.requestSource],
+    ["Page", fields.pageTitle || "—"],
+    ["Page URL", fields.pageUrl || "—"],
+    ["Requirement context", fields.requestContext || fields.product || "—"],
+    ["Landing page", fields.landingPage || "—"],
+    ["Referrer", fields.referrer || "—"],
     ["UTM source", fields.utmSource || "—"],
     ["UTM medium", fields.utmMedium || "—"],
     ["UTM campaign", fields.utmCampaign || "—"],
@@ -236,27 +237,27 @@ export async function POST(request: Request) {
     ["UTM content", fields.utmContent || "—"],
     ["YCLID", fields.yclid || "—"],
     ["GCLID", fields.gclid || "—"],
-    ["Дата и время отправки (Москва)", receivedAt],
-    ["Время на устройстве", fields.submittedAt || "—"],
-    ["Имя", fields.name],
-    ["Компания", fields.company],
-    ["Телефон", fields.phone || "—"],
+    ["Received in Dubai", receivedAt],
+    ["Device time", fields.submittedAt || "—"],
+    ["Name", fields.name],
+    ["Company", fields.company],
+    ["Phone", fields.phone || "—"],
     ["E-mail", fields.email || "—"],
-    ["Позиция", fields.product || "—"],
-    ["Комментарий", fields.message || "—"],
+    ["Part / model", fields.product || "—"],
+    ["Message", fields.message || "—"],
     [
-      "Файлы",
+      "Files",
       uploadedFiles.length
         ? uploadedFiles.map((file) => file.name).join(", ")
         : "—",
     ],
-    ["Согласие", "получено"],
+    ["Consent", "received"],
   ];
   const safeProduct = fields.product
     .replace(/[\r\n]+/g, " ")
     .slice(0, 90);
   const subject = [
-    "Заявка с сайта",
+    "Ventrovia website enquiry",
     requestTypeLabel,
     requestSourceLabel,
     fields.requestType === "product" ? safeProduct : "",
@@ -318,7 +319,7 @@ export async function POST(request: Request) {
       {
         ok: false,
         fallback: true,
-        message: "Почтовый сервис временно недоступен.",
+        message: "The email service is temporarily unavailable.",
       },
       { status: 502 },
     );
@@ -329,7 +330,7 @@ export async function POST(request: Request) {
       {
         ok: false,
         fallback: true,
-        message: "Почтовый сервис временно не принял заявку.",
+        message: "The email service could not accept the enquiry.",
       },
       { status: 502 },
     );
@@ -337,6 +338,6 @@ export async function POST(request: Request) {
 
   return NextResponse.json({
     ok: true,
-    message: "Заявка успешно отправлена.",
+    message: "The enquiry was sent successfully.",
   });
 }
