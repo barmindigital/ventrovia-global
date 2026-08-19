@@ -23,6 +23,7 @@ pnpm brands:operations
 pnpm check
 pnpm audit:international
 pnpm audit:bundle
+pnpm audit:visual
 ```
 
 `pnpm build` creates the Sites-compatible production bundle. Timeweb uses
@@ -44,3 +45,7 @@ the compact identity directory and public English profiles.
 
 The canonical base URL is `https://ventroviaglobal.com`. DNS changes remain a
 separate owner-approved operation; see `VENTROVIA_DOMAIN_MIGRATION.md`.
+
+The GitHub repository keeps its historical remote name while Timeweb incident
+`#12495561` is open. Renaming the repository during an active deployment-routing
+incident could disrupt the existing integration and is intentionally deferred.

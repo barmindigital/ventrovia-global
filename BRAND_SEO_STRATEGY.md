@@ -6,7 +6,7 @@ The public acquisition surface consists of `/manufacturers` and evidence-backed 
 
 ## Publication order
 
-1. **Manufacturer page** — the current unit of publication. It requires a verified canonical identity, an official Tier A/B source, useful source-backed Russian content, factual metadata and no identity conflict.
+1. **Manufacturer page** — the current unit of publication. It requires a verified canonical identity, an official Tier A/B source, useful source-backed English content, factual metadata and no identity conflict.
 2. **Manufacturer × Category page** — a future unit, not published in Sprint 14. It will require a BRAND_SAFE manufacturer, an officially evidenced category relationship, enough distinct content to answer category intent and an explicit publication gate.
 3. **Category page** — future editorial layer built from verified relationships, never from raw PIM counts.
 4. **Industry page** — future layer requiring direct official application/industry evidence. Product type alone cannot prove an industry.
@@ -29,7 +29,7 @@ Before any candidate can be published, the next sprint must add:
 
 ## Measurement plan
 
-When Search Console, Yandex Webmaster or Metrica is connected by an authorized operator, measure brand impressions, non-brand category impressions, RFQ events, specification uploads, zero-result manufacturer searches and brand-page assisted conversions. No external analytics integration is implied or enabled by this document.
+When Google Search Console or Bing Webmaster Tools is connected by an authorized operator, measure brand impressions, non-brand category impressions, RFQ events, specification uploads, zero-result manufacturer searches and brand-page assisted conversions. Yandex may be retained as a secondary source. No external analytics integration is implied or enabled by this document.
 
 ## Scale rules
 

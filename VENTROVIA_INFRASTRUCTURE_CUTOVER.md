@@ -5,10 +5,11 @@ authorization to change DNS, domain ownership or credentials.
 
 ## Verified release baseline
 
-- source branch: `main`, clean and synchronized with `origin/main`;
+- source branch: `main`; the Sprint 16 release is committed locally but is not
+  pushed to the Timeweb-connected origin while ticket `#12495561` is open;
 - manufacturer identities: 2,806;
-- BRAND_SAFE / BRAND_WEAK / BRAND_REVIEW: 146 / 2,652 / 8;
-- manufacturer sitemap URLs: 146;
+- BRAND_SAFE / BRAND_WEAK / BRAND_REVIEW: 178 / 2,614 / 14;
+- manufacturer sitemap target URLs: 178;
 - product sitemap URLs and remotely stored product records: 0;
 - canonical origin in source: `https://ventroviaglobal.com`;
 - current clean Sites release: version 115;
@@ -21,6 +22,11 @@ is commit `142afbb`. The application currently has four domain bindings:
 `ventroviaglobal.com`, `www.ventroviaglobal.com`, `industriapostavok.ru` and
 `www.industriapostavok.ru`. No Timeweb S3 buckets, network disks, managed
 databases or cloud servers exist in this account.
+
+Timeweb support ticket `#12495561` is the active authority for the intermittent
+edge/domain-routing incident. While the ticket is open, do not change A/CNAME
+records, domain attachments, SSL settings, the application IP, networking, or
+the `.ru` binding. Source, content and build-readiness work may continue.
 
 ## Observed DNS state
 
@@ -82,8 +88,12 @@ The authenticated cutover deployment completed successfully from clean Brand
 Knowledge commit `142afbb`. Timeweb reported the new container healthy and
 removed the previous container. Runtime verification returned ordinary 404
 responses for `/catalog`, a legacy SKU path, the public product API and the
-catalogue health admin route. The public sitemap contained 146 manufacturer
+catalogue health admin route. The deployed public sitemap contained 146 manufacturer
 URLs and zero product URLs.
+
+Sprint 16 prepares 178 manufacturer URLs for the next clean release. This
+source-level target does not claim that Timeweb is already serving the new
+version while ticket `#12495561` remains unresolved.
 
 The apex currently passes its certificate, canonical, English metadata,
 manufacturer sitemap and zero-product checks. During Timeweb edge propagation,
@@ -108,7 +118,7 @@ All gates must pass on `https://ventroviaglobal.com` before `.ru` detach:
 - apex returns the Ventrovia English homepage over valid HTTPS;
 - `www` redirects once with 301/308 to the same path on the apex;
 - `/catalog`, an old product URL and product APIs return ordinary 404 responses;
-- `/sitemap.xml` contains 146 current manufacturer URLs and zero product URLs;
+- `/sitemap.xml` contains the current BRAND_SAFE count and zero product URLs;
 - canonical, robots, Open Graph and JSON-LD use the `.com` origin;
 - no asset, form or redirect depends on `industriapostavok.ru`.
 
@@ -136,7 +146,7 @@ Current pre-detach state (2026-08-19):
 - `VENTROVIA_PRODUCTION = PENDING_EDGE_STABILITY`;
 - `WWW_REDIRECT = DEPLOYED_NOT_YET_TLS_VERIFIED`;
 - `CANONICAL = PASS`;
-- `MANUFACTURER_SITEMAP = PASS` (146 manufacturer URLs);
+- `MANUFACTURER_SITEMAP = PASS_IN_SOURCE` (178 manufacturer URLs prepared; live edge verification deferred);
 - `PRODUCT_SITEMAP_ZERO = PASS`;
 - `CATALOG_ABSENT = PASS`;
 - `NO_DEPENDENCY_ON_RU = PASS` in source and the current `.com` build;
