@@ -15,14 +15,16 @@ async function json(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
 }
 
-const [base, wave4, wave5, wave6] = await Promise.all([
+const [base, wave4, wave5, wave6, wave7, wave8] = await Promise.all([
   json("data/brand-sources/curated-brand-facts.json"),
   json("data/brand-sources/curated-brand-facts-wave-4.json"),
   json("data/brand-sources/curated-brand-facts-wave-5.json"),
   json("data/brand-sources/curated-brand-facts-wave-6.json"),
+  json("data/brand-sources/curated-brand-facts-wave-7.json"),
+  json("data/brand-sources/curated-brand-facts-wave-8.json"),
 ]);
 
-const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles, ...wave6.profiles]
+const profiles = [...base.profiles, ...wave4.profiles, ...wave5.profiles, ...wave6.profiles, ...wave7.profiles, ...wave8.profiles]
   .map(toEnglishBrandProfile)
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),
@@ -32,6 +34,8 @@ const blockedIdentities = [
   ...wave4.blockedIdentities,
   ...wave5.blockedIdentities,
   ...wave6.blockedIdentities,
+  ...wave7.blockedIdentities,
+  ...wave8.blockedIdentities,
 ]
   .sort((left, right) =>
     left.manufacturerId.localeCompare(right.manufacturerId, "en"),

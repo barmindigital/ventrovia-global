@@ -1,0 +1,562 @@
+{
+  "checkedAt": "2026-08-19",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "prisma",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "PRISMA is a generic name used by unrelated manufacturers; the local identity record has no alias, product discriminator or independent source that proves one specific entity.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "champion",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "CHAMPION is used by unrelated industrial brands; the local identity record does not contain enough evidence to select one manufacturer-owned domain safely.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "aeco",
+      "status": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
+      "checkedAt": "2026-08-19",
+      "reason": "The manufacturer-owned AECO site confirms the company identity, but the accessible first-party product material was not sufficient for a precise source-backed public product-area profile in this pass.",
+      "attemptedUrls": [
+        "https://www.aecosensors.com/",
+        "https://www.aecosensors.com/index.cfm?fuseaction=cataloghi&languageID=ES&tipo=generale&titolo=Catalogo+Generale"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "goulds-pumps",
+      "officialName": "ITT Goulds Pumps",
+      "displayName": "Goulds Pumps",
+      "aliases": ["GOULDS PUMPS", "ITT GOULDS PUMPS"],
+      "formerNames": [],
+      "officialWebsite": "https://www.gouldspumps.com/",
+      "officialDomains": ["gouldspumps.com", "itt.com"],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "ITT Inc.",
+      "shortDescription": "ITT Goulds Pumps documents industrial centrifugal and process pump ranges for demanding fluid-handling duties.",
+      "fullDescription": [
+        "The first-party Goulds Pumps selection guide identifies the industrial pump brand as part of ITT and documents horizontal and vertical pump configurations.",
+        "The requested hydraulic duty, construction material and service conditions must be checked against the applicable pump family documentation."
+      ],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Process Pumps", "Vertical Pumps", "Double-Suction Pumps", "Multistage Pumps", "Slurry Pumps", "Sealless Pumps"],
+      "series": ["3196", "3298", "3393", "3400", "VIS", "VIT"],
+      "industries": ["Промышленность", "Нефтегазовая промышленность", "Химическая промышленность", "Горнодобывающая промышленность", "Энергетика"],
+      "officialCatalogs": ["https://gouldspumps.com/ittgp/medialibrary/goulds/website/Literature/Pump%20Selection%20Guide/Goulds_Rev_PSG.pdf?ext=.pdf"],
+      "documentationSources": ["https://www.gouldspumps.com/en-US/Tools-and-Resources/Literature/"],
+      "sources": [
+        {"sourceId":"brand-goulds-selection-guide","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://gouldspumps.com/ittgp/medialibrary/goulds/website/Literature/Pump%20Selection%20Guide/Goulds_Rev_PSG.pdf?ext=.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-goulds-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.gouldspumps.com/Products/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "damel",
+      "officialName": "Dąbrowska Fabryka Maszyn Elektrycznych DAMEL S.A.",
+      "displayName": "DAMEL",
+      "aliases": ["DAMEL", "DFME DAMEL"],
+      "formerNames": [],
+      "officialWebsite": "https://damel.pl/en/home-en/",
+      "officialDomains": ["damel.pl"],
+      "country": "Польша",
+      "headquarters": null,
+      "foundedYear": 1940,
+      "parentCompany": null,
+      "shortDescription": "DAMEL manufactures industrial electric machines, including asynchronous, permanent-magnet and frequency-converter-integrated motors.",
+      "fullDescription": [
+        "The official DAMEL company page identifies the Polish manufacturer and its electric-motor production activity since 1940.",
+        "The published production scope also includes electromagnetic separators and service for electrical machines."
+      ],
+      "productCategories": ["Промышленные электродвигатели", "Электромагнитные сепараторы"],
+      "productFamilies": ["Asynchronous Motors", "Frequency-Converter-Integrated Motors", "Permanent-Magnet Motors", "Electromagnetic Separators"],
+      "series": [],
+      "industries": ["Промышленность", "Горнодобывающая промышленность"],
+      "officialCatalogs": ["https://damel.pl/en/home-en/"],
+      "documentationSources": ["https://damel.pl/en/home-en/"],
+      "sources": [
+        {"sourceId":"brand-damel-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://damel.pl/en/home-en/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "marzocchi-pompe",
+      "officialName": "Marzocchi Pompe S.p.A.",
+      "displayName": "Marzocchi Pompe",
+      "aliases": ["MARZOCCHI POMPE"],
+      "formerNames": [],
+      "officialWebsite": "https://www.marzocchipompe.com/en/",
+      "officialDomains": ["marzocchipompe.com"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": 1949,
+      "parentCompany": null,
+      "shortDescription": "Marzocchi Pompe designs and manufactures external gear pumps and hydraulic motors for mobile and industrial applications.",
+      "fullDescription": [
+        "The official company and catalogue pages confirm Marzocchi Pompe as an Italian manufacturer of external gear pumps and motors founded in 1949.",
+        "The documented range covers aluminium and cast-iron pump and motor families, including low-noise ELIKA products."
+      ],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные насосы"],
+      "productFamilies": ["External Gear Pumps", "Hydraulic Gear Motors", "Micropumps", "Multiple Pumps"],
+      "series": ["ELIKA", "ALP", "GHP", "ALM", "GHM", "FCIP", "FCIM", "T-SYSTEM"],
+      "industries": ["Промышленность", "Автомобильная промышленность", "Морская промышленность", "Сельское хозяйство", "Транспорт"],
+      "officialCatalogs": ["https://www.marzocchipompe.com/en/catalogues/"],
+      "documentationSources": ["https://www.marzocchipompe.com/en/"],
+      "sources": [
+        {"sourceId":"brand-marzocchi-company","tier":"A","type":"ABOUT","scope":"BRAND_IDENTITY","url":"https://www.marzocchipompe.com/en/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-marzocchi-catalogues","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.marzocchipompe.com/en/catalogues/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "metal-work-pneumatic",
+      "officialName": "Metal Work S.p.A.",
+      "displayName": "Metal Work Pneumatic",
+      "aliases": ["METAL WORK PNEUMATIC", "METAL WORK"],
+      "formerNames": [],
+      "officialWebsite": "https://www.metalwork.it/",
+      "officialDomains": ["metalwork.it"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": 1967,
+      "parentCompany": null,
+      "shortDescription": "Metal Work develops pneumatic actuators, valves, air-treatment units, fittings and automation components.",
+      "fullDescription": [
+        "The manufacturer-owned Metal Work catalogue defines a pneumatic product structure centred on actuators, valves and FRL units.",
+        "Official brochures also document fittings, accessories and mechatronic solutions for industrial automation."
+      ],
+      "productCategories": ["Пневматическое оборудование", "Пневматические цилиндры", "Промышленные клапаны", "Промышленная автоматизация и управление"],
+      "productFamilies": ["Actuators", "Valves", "FRL Units", "Fittings and Accessories", "Pneumatic Motion Kits"],
+      "series": ["EB 80", "Elektro", "Flux", "V-Lock", "Safe Air", "Syntesi", "Skillair", "ONE"],
+      "industries": ["Промышленность", "Автоматизация", "Пищевая промышленность", "Упаковка"],
+      "officialCatalogs": ["https://www.metalwork.it/pneumatic-components/catalogues-0016324.html"],
+      "documentationSources": ["https://ecommerce.metalwork.it/store/mw/en/Catalogue/c/00"],
+      "sources": [
+        {"sourceId":"brand-metalwork-catalogue","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://ecommerce.metalwork.it/store/mw/en/Catalogue/c/00","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-metalwork-brochures","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.metalwork.it/pneumatic-components/catalogues-0016324.html","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "clydeunion-pumps",
+      "officialName": "ClydeUnion Pumps",
+      "displayName": "ClydeUnion Pumps",
+      "aliases": ["CLYDEUNION PUMPS"],
+      "formerNames": [],
+      "officialWebsite": "https://www.celerosft.com/en-us/brands/clydeunion-pumps",
+      "officialDomains": ["celerosft.com"],
+      "country": "Великобритания",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Celeros Flow Technology",
+      "shortDescription": "ClydeUnion Pumps is a Celeros Flow Technology brand for engineered centrifugal and reciprocating pumping equipment.",
+      "fullDescription": [
+        "The official Celeros brand page confirms ClydeUnion Pumps as a distinct engineered-pump identity with a documented legacy portfolio.",
+        "The current product directory covers between-bearings, overhung, vertical and reciprocating pump configurations."
+      ],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Between-Bearings Pumps", "Overhung Pumps", "Vertical Pumps", "Reciprocating Pumps"],
+      "series": ["CUP-BB5HP", "CUP-BB3", "Uniglide", "Duoglide", "CUP-VS6", "CUP-OH2"],
+      "industries": ["Энергетика", "Нефтегазовая промышленность", "Морская промышленность", "Водоснабжение"],
+      "officialCatalogs": ["https://www.celerosft.com/en-us/brands/clydeunion-pumps/products?category=centrifugal-pumps"],
+      "documentationSources": ["https://www.celerosft.com/en-us/brands/clydeunion-pumps"],
+      "sources": [
+        {"sourceId":"brand-clydeunion-overview","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY","url":"https://www.celerosft.com/en-us/brands/clydeunion-pumps","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-clydeunion-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.celerosft.com/en-us/brands/clydeunion-pumps/products?category=centrifugal-pumps","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "destaco",
+      "officialName": "DESTACO",
+      "displayName": "DESTACO",
+      "aliases": ["DESTACO"],
+      "formerNames": [],
+      "officialWebsite": "https://www.destaco.com/",
+      "officialDomains": ["destaco.com"],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Stabilus",
+      "shortDescription": "DESTACO supplies clamping, gripping, positioning and robotic tooling systems for industrial automation.",
+      "fullDescription": [
+        "The official DESTACO product surface groups the portfolio by clamping, gripping, linear and rotary positioning, and robotic tooling functions.",
+        "Named product brands and families include Robohand grippers and CAMCO positioning equipment."
+      ],
+      "productCategories": ["Промышленная автоматизация и управление", "Робототехнические компоненты", "Пневматическое оборудование"],
+      "productFamilies": ["Manual and Power Clamps", "Robohand Grippers", "Linear Positioning", "Rotary Positioning", "Robotic Tooling"],
+      "series": ["CAMCO", "Robohand", "uRDH", "eRDH", "8800"],
+      "industries": ["Автоматизация", "Автомобильная промышленность", "Промышленность", "Упаковка"],
+      "officialCatalogs": ["https://www.destaco.com/"],
+      "documentationSources": ["https://www.destaco.com/gripping?page=1"],
+      "sources": [
+        {"sourceId":"brand-destaco-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.destaco.com/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-destaco-gripping","tier":"A","type":"PRODUCT_PAGE","scope":"FAMILY_CATEGORY","url":"https://www.destaco.com/gripping?page=1","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "gefran",
+      "officialName": "Gefran S.p.A.",
+      "displayName": "Gefran",
+      "aliases": ["GEFRAN"],
+      "formerNames": [],
+      "officialWebsite": "https://www.gefran.com/",
+      "officialDomains": ["gefran.com"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Gefran develops industrial sensors, controllers, power-control devices and automation platforms.",
+      "fullDescription": [
+        "The official Gefran product directory confirms position, pressure, temperature, strain and force sensor groups together with controllers and indicators.",
+        "The manufacturer's automation portfolio also includes power control, modular control hardware and industrial software platforms."
+      ],
+      "productCategories": ["Промышленные датчики", "Измерительное оборудование", "Промышленная автоматизация и управление", "Силовые преобразователи"],
+      "productFamilies": ["Position Sensors", "Pressure Sensors", "Temperature Sensors", "Strain and Force Sensors", "Controllers and Indicators", "Power Control", "G-Mation Platform"],
+      "series": ["G-Mation", "TWIIST", "MAX", "GAIA"],
+      "industries": ["Автоматизация", "Промышленность", "Энергетика"],
+      "officialCatalogs": ["https://www.gefran.com/"],
+      "documentationSources": ["https://www.gefran.com/products/automation-platform/"],
+      "sources": [
+        {"sourceId":"brand-gefran-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.gefran.com/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-gefran-automation","tier":"A","type":"PRODUCT_PAGE","scope":"FAMILY_CATEGORY","url":"https://www.gefran.com/products/automation-platform/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "hokuyo",
+      "officialName": "HOKUYO AUTOMATIC CO., LTD.",
+      "displayName": "Hokuyo",
+      "aliases": ["HOKUYO", "HOKUYO AUTOMATIC"],
+      "formerNames": [],
+      "officialWebsite": "https://www.hokuyo-aut.jp/",
+      "officialDomains": ["hokuyo-aut.jp", "hokuyo-usa.com"],
+      "country": "Япония",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Hokuyo manufactures LiDAR, laser scanners, photoelectric sensors and optical data-transmission devices for industrial automation.",
+      "fullDescription": [
+        "The official Hokuyo product list confirms scanning rangefinders, photoelectric switches, steel-industry sensors and optical data-transmission devices.",
+        "Regional manufacturer material further documents LiDAR, safety laser scanners and laser distance sensors for automation and material handling."
+      ],
+      "productCategories": ["Промышленные датчики", "Системы безопасности", "Промышленная автоматизация и управление"],
+      "productFamilies": ["Scanning Rangefinders", "Safety Laser Scanners", "Photoelectric Switches", "Laser Distance Sensors", "Optical Data Transmission Devices", "Hot Metal Detectors"],
+      "series": [],
+      "industries": ["Автоматизация", "Промышленность", "Робототехника", "Транспорт"],
+      "officialCatalogs": ["https://www.hokuyo-aut.jp/search/index.php?cap=H"],
+      "documentationSources": ["https://www.hokuyo-usa.com/products"],
+      "sources": [
+        {"sourceId":"brand-hokuyo-products-jp","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.hokuyo-aut.jp/search/index.php?cap=H","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-hokuyo-products-us","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.hokuyo-usa.com/products","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "flux",
+      "officialName": "FLUX-GERÄTE GmbH",
+      "displayName": "FLUX",
+      "aliases": ["FLUX", "FLUX PUMPS"],
+      "formerNames": [],
+      "officialWebsite": "https://www.flux-pumps.com/en-DE/",
+      "officialDomains": ["flux-pumps.com"],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "FLUX develops drum, container, progressive-cavity, centrifugal and diaphragm pumps together with flow meters and mixing systems.",
+      "fullDescription": [
+        "The official FLUX portfolio covers pump and fluid-handling systems for low- and high-viscosity media.",
+        "Published groups include drum and container pumps, progressive-cavity pumps, immersion pumps, diaphragm pumps, flow meters and mixers."
+      ],
+      "productCategories": ["Промышленные насосы", "Измерительное оборудование"],
+      "productFamilies": ["Drum and Container Pumps", "Progressive Cavity Pumps", "Centrifugal Immersion Pumps", "Air-Operated Diaphragm Pumps", "Peristaltic Pumps", "Flow Meters", "Mixers"],
+      "series": ["F 400", "VISCOPOWER", "MINIFLUX", "COMBIFLUX", "JUNIORFLUX"],
+      "industries": ["Промышленность", "Химическая промышленность", "Пищевая промышленность", "Водоснабжение"],
+      "officialCatalogs": ["https://www.flux-pumps.com/files/flux-pumps/stories/flux-en/service/media_center/brochures/pdf/Product%20catalogue_2024.pdf"],
+      "documentationSources": ["https://www.flux-pumps.com/en-DE/products.html"],
+      "sources": [
+        {"sourceId":"brand-flux-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.flux-pumps.com/en-DE/products.html","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-flux-catalog","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.flux-pumps.com/files/flux-pumps/stories/flux-en/service/media_center/brochures/pdf/Product%20catalogue_2024.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "mono-pumps-limited",
+      "officialName": "Mono Pumps",
+      "displayName": "Mono Pumps",
+      "aliases": ["MONO PUMPS LIMITED", "MONO PUMPS", "NOV MONO"],
+      "formerNames": [],
+      "officialWebsite": "https://www.mono-pumps.com/",
+      "officialDomains": ["mono-pumps.com", "nov.com"],
+      "country": "Великобритания",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "NOV Inc.",
+      "shortDescription": "Mono Pumps is an NOV brand for progressing-cavity pumps and related fluid-handling equipment.",
+      "fullDescription": [
+        "Manufacturer-owned Mono and NOV documentation confirms the brand's progressing-cavity pump identity.",
+        "The published range includes industrial transfer and metering configurations, with selection tied to medium, flow and installation requirements."
+      ],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Progressing Cavity Pumps", "Subrotor Pumps", "L-Frame Pumps", "M Range Pumps"],
+      "series": ["Subrotor", "L-Frame", "M Range"],
+      "industries": ["Промышленность", "Водоснабжение", "Пищевая промышленность"],
+      "officialCatalogs": ["https://mono-pumps.com/files/mono-pumps.com/literature/documents/One%20Company%20Unlimited%20Solutuions.pdf"],
+      "documentationSources": ["https://www.nov.com/-/media/nov/files/products/caps/process-and-flow-technologies/l-frame-pumps/mono-lframe-data-sheet-english.pdf"],
+      "sources": [
+        {"sourceId":"brand-mono-company-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://mono-pumps.com/files/mono-pumps.com/literature/documents/One%20Company%20Unlimited%20Solutuions.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-mono-nov-lframe","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.nov.com/-/media/nov/files/products/caps/process-and-flow-technologies/l-frame-pumps/mono-lframe-data-sheet-english.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "paglierani",
+      "officialName": "Paglierani S.r.l.",
+      "displayName": "Paglierani",
+      "aliases": ["PAGLIERANI"],
+      "formerNames": [],
+      "officialWebsite": "https://www.paglierani.com/en/",
+      "officialDomains": ["paglierani.com"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": 1926,
+      "parentCompany": null,
+      "shortDescription": "Paglierani designs weighing, packaging, bagging, palletising, wrapping and full-bag handling machinery.",
+      "fullDescription": [
+        "The official Paglierani site identifies the Italian manufacturer and its machine-building activity since 1926.",
+        "The product structure spans micro-dosing, weighing, packaging, bagging, palletising, wrapping and integrated handling lines."
+      ],
+      "productCategories": ["Упаковочные машины", "Измерительное оборудование", "Конвейерные системы"],
+      "productFamilies": ["Micro-Dosing Systems", "Weighing Machines", "Packaging Machines", "Bagging Machines", "Big-Bag Fillers", "Palletisers", "Wrapping Machines"],
+      "series": ["DA", "SUPERFORMA FFS", "SIMPLE A1", "TP 21", "BB", "OMNIVA"],
+      "industries": ["Упаковка", "Пищевая промышленность", "Промышленность"],
+      "officialCatalogs": ["https://www.paglierani.com/en/products/automatic-packaging-machines-systems-lines/"],
+      "documentationSources": ["https://www.paglierani.com/en/"],
+      "sources": [
+        {"sourceId":"brand-paglierani-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.paglierani.com/en/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-paglierani-packaging","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.paglierani.com/en/products/automatic-packaging-machines-systems-lines/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "profroid",
+      "officialName": "Profroid",
+      "displayName": "Profroid",
+      "aliases": ["PROFROID"],
+      "formerNames": [],
+      "officialWebsite": "https://www.ccr.com/profroid/",
+      "officialDomains": ["ccr.com"],
+      "country": "Франция",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Profroid produces commercial and industrial refrigeration equipment, including heat exchangers, racks, condensing units and chillers.",
+      "fullDescription": [
+        "The current official Profroid product directory confirms a refrigeration-equipment portfolio for commercial and industrial applications.",
+        "Documented groups include coolers and evaporators, compressor racks, condensers, condensing units, fluid coolers, gas coolers, heat pumps and chillers."
+      ],
+      "productCategories": ["Промышленное холодильное оборудование", "Теплообменное оборудование"],
+      "productFamilies": ["Air Coolers and Evaporators", "Compressor Racks", "Condensers", "Condensing Units", "Dry and Fluid Coolers", "Gas Coolers", "Heat Pumps and Chillers"],
+      "series": [],
+      "industries": ["Промышленность", "Пищевая промышленность", "Системы зданий"],
+      "officialCatalogs": ["https://www.ccr.com/profroid/offerings/products/"],
+      "documentationSources": ["https://www.ccr.com/profroid/offerings/products/"],
+      "sources": [
+        {"sourceId":"brand-profroid-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.ccr.com/profroid/offerings/products/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "ascon-tecnologic",
+      "officialName": "Ascon Tecnologic S.r.l.",
+      "displayName": "Ascon Tecnologic",
+      "aliases": ["ASCON TECNOLOGIC"],
+      "formerNames": [],
+      "officialWebsite": "https://www.ascontecnologic.com/?lang=en",
+      "officialDomains": ["ascontecnologic.com"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Ascon Tecnologic develops industrial and refrigeration controllers, programmable automation systems, operator panels and sensors.",
+      "fullDescription": [
+        "The official company page describes Ascon Tecnologic as an Italian developer and manufacturer of control and automation instruments for machines and systems.",
+        "The product structure includes PAC systems, I/O modules, operator panels, controllers, indicators, thermostats and sensing devices."
+      ],
+      "productCategories": ["Промышленная автоматизация и управление", "Измерительное оборудование", "Промышленные датчики"],
+      "productFamilies": ["PAC Systems", "I/O Modules", "Operator Panels", "Controllers and Indicators", "Thermostats and Controllers", "Temperature and Humidity Sensors"],
+      "series": ["KUBE", "gammadue", "PAC", "X", "K", "C"],
+      "industries": ["Автоматизация", "Промышленность", "Пищевая промышленность", "Упаковка", "Системы зданий"],
+      "officialCatalogs": ["https://www.ascontecnologic.com/configurator/?lang=en"],
+      "documentationSources": ["https://www.ascontecnologic.com/?lang=en"],
+      "sources": [
+        {"sourceId":"brand-ascon-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.ascontecnologic.com/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-ascon-configurator","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.ascontecnologic.com/configurator/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "bernio",
+      "officialName": "Bernio Elettromeccanica s.n.c.",
+      "displayName": "Bernio Elettromeccanica",
+      "aliases": ["BERNIO ELETTROMECCANICA", "BERNIO"],
+      "formerNames": [],
+      "officialWebsite": "https://www.bernio.it/en",
+      "officialDomains": ["bernio.it"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": 1965,
+      "parentCompany": null,
+      "shortDescription": "Bernio Elettromeccanica manufactures gearboxes and geared motors for DC, BLDC, stepper, AC and servo-motor combinations.",
+      "fullDescription": [
+        "The official Bernio site confirms an Italian gearbox and gearmotor manufacturer operating since 1965.",
+        "The documented range includes planetary and worm gearboxes and geared-motor configurations for different motor technologies."
+      ],
+      "productCategories": ["Редукторы", "Мотор-редукторы", "Приводные системы"],
+      "productFamilies": ["DC Gearmotors", "BLDC Gearmotors", "Planetary Gearboxes", "Worm Gearboxes", "NEMA Gearboxes"],
+      "series": ["R 30Q", "R 35Q", "R 45", "R 52", "R 63", "R 80", "VSF 26"],
+      "industries": ["Автоматизация", "Промышленность", "Упаковка", "Транспорт", "Системы зданий"],
+      "officialCatalogs": ["https://www.bernio.it/Cms_Data/Contents/bernio_en/Media/docs/Catalogo.pdf"],
+      "documentationSources": ["https://www.bernio.it/en"],
+      "sources": [
+        {"sourceId":"brand-bernio-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.bernio.it/en","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-bernio-catalog","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.bernio.it/Cms_Data/Contents/bernio_en/Media/docs/Catalogo.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "bronkhorst",
+      "officialName": "Bronkhorst High-Tech B.V.",
+      "displayName": "Bronkhorst",
+      "aliases": ["BRONKHORST"],
+      "formerNames": [],
+      "officialWebsite": "https://www.bronkhorst.com/",
+      "officialDomains": ["bronkhorst.com"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Bronkhorst develops low-flow measurement and control instruments for gases, liquids, pressure and vapour delivery.",
+      "fullDescription": [
+        "The official Bronkhorst portfolio groups instruments by gas flow, liquid flow, pressure and vapour-flow applications.",
+        "Documented measurement principles include thermal, Coriolis and ultrasonic instruments, with mass-flow meters and controllers."
+      ],
+      "productCategories": ["Измерительное оборудование", "Расходомеры", "Регуляторы"],
+      "productFamilies": ["Mass Flow Meters", "Mass Flow Controllers", "Pressure Meters and Controllers", "Vapour Flow Systems", "Thermal Instruments", "Coriolis Instruments", "Ultrasonic Instruments"],
+      "series": ["EL-FLOW", "mini CORI-FLOW", "FLEXI-FLOW", "LIQUI-FLOW", "IN-FLOW"],
+      "industries": ["Промышленность", "Химическая промышленность", "Пищевая промышленность", "Энергетика"],
+      "officialCatalogs": ["https://www.bronkhorst.com/products/"],
+      "documentationSources": ["https://www.bronkhorst.com/products/mass-flow-meter/"],
+      "sources": [
+        {"sourceId":"brand-bronkhorst-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.bronkhorst.com/products/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-bronkhorst-flow-meter","tier":"A","type":"PRODUCT_PAGE","scope":"FAMILY_CATEGORY","url":"https://www.bronkhorst.com/products/mass-flow-meter/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "erhardt-leimer",
+      "officialName": "Erhardt+Leimer GmbH",
+      "displayName": "Erhardt+Leimer",
+      "aliases": ["ERHARDT LEIMER", "ERHARDT+LEIMER", "E+L"],
+      "formerNames": [],
+      "officialWebsite": "https://www.erhardt-leimer.com/",
+      "officialDomains": ["erhardt-leimer.com"],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Erhardt+Leimer develops web-guiding, tension-control and inspection systems for continuous material-processing lines.",
+      "fullDescription": [
+        "The manufacturer-owned site identifies Erhardt+Leimer with automation and vision systems for moving webs.",
+        "Official product pages document web guiders, actuators, inspection systems, web monitoring and metal-detection solutions."
+      ],
+      "productCategories": ["Промышленная автоматизация и управление", "Промышленные датчики", "Измерительное оборудование"],
+      "productFamilies": ["Web Guiding Systems", "Web Tension Control", "Print Inspection", "Web Monitoring", "Surface Inspection", "Metal Detection"],
+      "series": ["ELGUIDER", "SMARTSCAN", "ELSCAN", "ELMETA", "ELSIS", "ELSEAMTEX"],
+      "industries": ["Промышленность", "Автоматизация", "Целлюлозно-бумажная промышленность", "Текстильная промышленность"],
+      "officialCatalogs": ["https://www.erhardt-leimer.com/us/en/products/inspection-technology.html"],
+      "documentationSources": ["https://www.erhardt-leimer.com/us/en/products-spare-parts/web-guiding/web-guiders.html"],
+      "sources": [
+        {"sourceId":"brand-erhardt-leimer-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.erhardt-leimer.com/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-erhardt-leimer-inspection","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.erhardt-leimer.com/us/en/products/inspection-technology.html","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-erhardt-leimer-guiding","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.erhardt-leimer.com/us/en/products-spare-parts/web-guiding/web-guiders.html","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "labom",
+      "officialName": "LABOM Mess- und Regeltechnik GmbH",
+      "displayName": "LABOM",
+      "aliases": ["LABOM"],
+      "formerNames": [],
+      "officialWebsite": "https://www.labom.com/en",
+      "officialDomains": ["labom.com"],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "LABOM develops industrial instruments for pressure, temperature and level measurement and monitoring.",
+      "fullDescription": [
+        "The official LABOM company page confirms the German manufacturer's focus on pressure and temperature measurement technology.",
+        "Its product directory adds level measurement, diaphragm seals, process connections and corresponding accessories."
+      ],
+      "productCategories": ["Измерительное оборудование", "Промышленные датчики"],
+      "productFamilies": ["Pressure Instruments", "Temperature Instruments", "Level Instruments", "Diaphragm Seals", "Process Connections"],
+      "series": [],
+      "industries": ["Промышленность", "Химическая промышленность", "Пищевая промышленность", "Энергетика", "Морская промышленность"],
+      "officialCatalogs": ["https://www.labom.com/en/products"],
+      "documentationSources": ["https://www.labom.com/en"],
+      "sources": [
+        {"sourceId":"brand-labom-home","tier":"A","type":"ABOUT","scope":"BRAND_IDENTITY","url":"https://www.labom.com/en","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-labom-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.labom.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "lika-electronic",
+      "officialName": "Lika Electronic S.r.l.",
+      "displayName": "Lika Electronic",
+      "aliases": ["LIKA ELECTRONIC", "LIKA"],
+      "formerNames": [],
+      "officialWebsite": "https://www.lika.it/eng/",
+      "officialDomains": ["lika.it"],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": 1982,
+      "parentCompany": null,
+      "shortDescription": "Lika Electronic develops rotary, linear and draw-wire encoders, position sensors, actuators and encoder interfaces.",
+      "fullDescription": [
+        "The official Lika Electronic profile identifies an encoder and position-measurement manufacturer operating since 1982.",
+        "The documented range covers optical and magnetic encoders, linear measurement systems, rotary actuators, displays and signal interfaces."
+      ],
+      "productCategories": ["Промышленные энкодеры", "Датчики положения", "Линейные компоненты", "Промышленная автоматизация и управление"],
+      "productFamilies": ["Rotary Encoders", "Linear Encoders", "Draw-Wire Encoders", "Rotary Actuators", "Inclinometers", "Displays", "Encoder Interfaces"],
+      "series": ["EXM58", "EXO58", "SMA3", "LD"],
+      "industries": ["Автоматизация", "Промышленность", "Робототехника"],
+      "officialCatalogs": ["https://www.lika.it/eng/"],
+      "documentationSources": ["https://www.lika.it/eng/products/rotary-encoders/absolute/modbus-rtu/"],
+      "sources": [
+        {"sourceId":"brand-lika-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.lika.it/eng/","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-lika-encoders","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.lika.it/eng/products/rotary-encoders/absolute/modbus-rtu/","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    },
+    {
+      "manufacturerId": "rotork",
+      "officialName": "Rotork plc",
+      "displayName": "Rotork",
+      "aliases": ["ROTORK"],
+      "formerNames": [],
+      "officialWebsite": "https://www.rotork.com/en/",
+      "officialDomains": ["rotork.com"],
+      "country": "Великобритания",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Rotork develops valve actuators, gearboxes, positioners, controllers and related flow-control equipment.",
+      "fullDescription": [
+        "The official Rotork product structure spans electric, electro-hydraulic and fluid-power actuators together with gearboxes and control systems.",
+        "First-party product pages also document pressure-control, filtration, instrumentation-valve and positioning equipment."
+      ],
+      "productCategories": ["Промышленные клапаны", "Приводные системы", "Промышленная автоматизация и управление", "Пневматическое оборудование", "Гидравлическое оборудование"],
+      "productFamilies": ["Electric Actuators", "Electro-Hydraulic Actuators", "Fluid-Power Actuators", "Valve Gearboxes", "Valve Positioners and Controllers", "Flow and Pressure Control"],
+      "series": ["IQ", "CK", "CVA", "GT", "RC200", "Pakscan"],
+      "industries": ["Промышленность", "Нефтегазовая промышленность", "Энергетика", "Водоснабжение", "Химическая промышленность"],
+      "officialCatalogs": ["https://www.rotork.com/en/products/flow-pressure-control-filtration"],
+      "documentationSources": ["https://media.rotork.com/api/public/content/pub000-002-000312-pdf-rtkimportasseta06664.pdf?v=84e45f96"],
+      "sources": [
+        {"sourceId":"brand-rotork-product-ranges","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.rotork.com/en/products/flow-pressure-control-filtration","status":"AVAILABLE","checkedAt":"2026-08-19"},
+        {"sourceId":"brand-rotork-group-products","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://media.rotork.com/api/public/content/pub000-002-000312-pdf-rtkimportasseta06664.pdf?v=84e45f96","status":"AVAILABLE","checkedAt":"2026-08-19"}
+      ]
+    }
+  ]
+}
