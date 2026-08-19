@@ -11,7 +11,7 @@ authorization to change DNS, domain ownership or credentials.
 - manufacturer sitemap URLs: 146;
 - product sitemap URLs and remotely stored product records: 0;
 - canonical origin in source: `https://ventroviaglobal.com`;
-- current clean Sites release: version 113;
+- current clean Sites release: version 114;
 - private Russian catalogue: owner-local and excluded from every build input.
 
 The authenticated Timeweb inventory found one App Platform application:
@@ -67,6 +67,19 @@ required to replace the currently running old container. Provider-retained
 container images or internal backups are not user-visible; request their purge
 from Timeweb support if contractual deletion of provider-retained copies is
 required.
+
+## Clean deployment result
+
+The first authenticated cutover deployment completed successfully from clean
+Brand Knowledge commit `735386a`. Timeweb reported the new container healthy
+and removed the previous container. Runtime verification returned ordinary 404
+responses for `/catalog`, a legacy SKU path, the public product API and the
+catalogue health admin route. The public sitemap contained 146 manufacturer
+URLs and zero product URLs.
+
+Timeweb environment values were then updated to the Ventrovia canonical origin,
+RFQ recipient and Ventrovia sender identity. These build-time values require a
+fresh immutable deployment before canonical and sitemap verification is final.
 
 ## Production acceptance gates
 
