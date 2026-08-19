@@ -1,4 +1,4 @@
-/** Cloudflare Worker entry point for the «Индустрия поставок» catalog. */
+/** Cloudflare Worker entry point for the Ventrovia manufacturer website. */
 import {
   DEFAULT_DEVICE_SIZES,
   DEFAULT_IMAGE_SIZES,

@@ -33,7 +33,6 @@ type Manifest = {
 type QueueItem = {
   manufacturerId: string;
   displayName: string;
-  historicalProductCount: number;
   priority: number;
   status: string;
   blockers: string[];
@@ -62,8 +61,8 @@ export function BrandHealthAdmin() {
 
   async function load() {
     const responses = await Promise.all([
-      fetch("/api/admin/catalog-quality/brand-health-manifest", { cache: "no-store" }),
-      fetch("/api/admin/catalog-quality/brand-fast-path", { cache: "no-store" }),
+      fetch("/api/admin/brand-health/brand-health-manifest", { cache: "no-store" }),
+      fetch("/api/admin/brand-health/brand-fast-path", { cache: "no-store" }),
     ]);
     if (responses.some((response) => response.status === 401)) {
       setAuthenticated(false);
@@ -78,8 +77,8 @@ export function BrandHealthAdmin() {
   useEffect(() => {
     let active = true;
     Promise.all([
-      fetch("/api/admin/catalog-quality/brand-health-manifest", { cache: "no-store" }),
-      fetch("/api/admin/catalog-quality/brand-fast-path", { cache: "no-store" }),
+      fetch("/api/admin/brand-health/brand-health-manifest", { cache: "no-store" }),
+      fetch("/api/admin/brand-health/brand-fast-path", { cache: "no-store" }),
     ])
       .then(async (responses) => {
         if (!active) return;

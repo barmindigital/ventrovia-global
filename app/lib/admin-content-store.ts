@@ -104,7 +104,7 @@ export function validateSiteContent(value: unknown): SiteContent {
   if (!value || typeof value !== "object") throw new Error("Invalid content payload");
   const draft = structuredClone(value) as SiteContent;
 
-  if (draft.version !== 1) throw new Error("Unsupported content version");
+  if (draft.version !== 2) throw new Error("Unsupported content version");
   if (!draft.site || !draft.pages || !draft.templates || !draft.contacts) {
     throw new Error("Content payload is incomplete");
   }
@@ -114,7 +114,7 @@ export function validateSiteContent(value: unknown): SiteContent {
   draft.site.openGraphTitle = requireString(draft.site?.openGraphTitle, "site.openGraphTitle", 140);
   draft.site.openGraphDescription = requireString(draft.site?.openGraphDescription, "site.openGraphDescription", 240);
 
-  for (const key of ["home", "catalog", "manufacturers", "about", "contacts"] as const) {
+  for (const key of ["home", "manufacturers", "about", "contacts"] as const) {
     const page = draft.pages?.[key];
     if (!page) throw new Error(`pages.${key} is missing`);
     page.seoTitle = requireString(page.seoTitle, `pages.${key}.seoTitle`, 120);
@@ -124,7 +124,7 @@ export function validateSiteContent(value: unknown): SiteContent {
     page.intro = requireString(page.intro, `pages.${key}.intro`, 700);
   }
 
-  for (const key of ["productTitle", "productDescription", "manufacturerTitle", "manufacturerDescription"] as const) {
+  for (const key of ["manufacturerTitle", "manufacturerDescription"] as const) {
     draft.templates[key] = requireString(draft.templates?.[key], `templates.${key}`, 300);
   }
 
@@ -135,8 +135,8 @@ export function validateSiteContent(value: unknown): SiteContent {
   draft.contacts.weekdays = requireString(draft.contacts?.weekdays, "contacts.weekdays", 120);
   draft.contacts.weekend = requireString(draft.contacts?.weekend, "contacts.weekend", 120);
 
-  if (!Array.isArray(draft.companyHistory) || draft.companyHistory.length < 1 || draft.companyHistory.length > 30) {
-    throw new Error("companyHistory must contain 1–30 items");
+  if (!Array.isArray(draft.companyHistory) || draft.companyHistory.length > 30) {
+    throw new Error("companyHistory must contain at most 30 items");
   }
   draft.companyHistory = draft.companyHistory.map((item, index) => ({
     year: requireString(item?.year, `companyHistory.${index}.year`, 20),

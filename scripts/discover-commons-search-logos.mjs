@@ -2,14 +2,14 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const projectRoot = process.cwd();
-const catalogPath = path.join(projectRoot, "app/generated/full-catalog.ts");
+const manufacturerPath = path.join(projectRoot, "data/manufacturers/identities.json");
 const registryPath = path.join(projectRoot, "app/lib/brand-logos.ts");
 const outputDir = path.join(projectRoot, ".logo-work");
 
 const batchOffset = Number(process.argv[2] ?? 0);
 const batchSize = Number(process.argv[3] ?? 100);
 const userAgent =
-  "IndustriaPostavokLogoAudit/1.0 (catalog quality and attribution audit)";
+  "VentroviaBrandLogoAudit/2.0 (brand identity and attribution audit)";
 
 const legalTerms = new Set([
   "ag",
@@ -195,17 +195,11 @@ function candidateFromPage(manufacturer, page, matchFile) {
   };
 }
 
-const [catalogSource, registrySource] = await Promise.all([
-  fs.readFile(catalogPath, "utf8"),
+const [manufacturerSource, registrySource] = await Promise.all([
+  fs.readFile(manufacturerPath, "utf8"),
   fs.readFile(registryPath, "utf8"),
 ]);
-const catalogMatch = catalogSource.match(
-  /fullManufacturers: Manufacturer\[\] = (\[.*\]);\s*$/s,
-);
-if (!catalogMatch) {
-  throw new Error("Could not parse fullManufacturers");
-}
-const manufacturers = JSON.parse(catalogMatch[1]);
+const manufacturers = JSON.parse(manufacturerSource).manufacturers;
 const registered = new Set(
   [...registrySource.matchAll(/\n\s+slug: "([^"]+)"/g)].map(
     (match) => match[1],

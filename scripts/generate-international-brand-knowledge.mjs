@@ -16,8 +16,8 @@ async function json(relativePath) {
 }
 
 const [base, wave4] = await Promise.all([
-  json("data/brand-knowledge/curated-brand-facts.json"),
-  json("data/brand-knowledge/curated-brand-facts-wave-4.json"),
+  json("data/brand-sources/curated-brand-facts.json"),
+  json("data/brand-sources/curated-brand-facts-wave-4.json"),
 ]);
 
 const profiles = [...base.profiles, ...wave4.profiles]

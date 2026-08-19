@@ -15,7 +15,7 @@ const logoDirectory = path.join(
   "public/images/brand-logos",
 );
 const userAgent =
-  "IndustriaPostavokLogoAudit/1.0 (catalog quality and attribution audit)";
+  "VentroviaBrandLogoAudit/2.0 (brand identity and attribution audit)";
 
 const extensionByMime = {
   "image/gif": "gif",

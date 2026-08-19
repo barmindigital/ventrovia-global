@@ -46,3 +46,14 @@ next-env.d.ts
 /public/data/catalog/
 /.artifacts/
 /tmp/
+
+# Owner-only Russian product archive and any reproducible exports. Ventrovia
+# source control is manufacturer-only; never commit these paths or file types.
+/private-catalog/
+/private-catalog-archive/
+/catalog-archive/
+/catalog-exports/
+/raw-product-data/
+/product-exports/
+*russian-product-catalog-archive*.tar.gz
+*russian-product-catalog-archive*.zip

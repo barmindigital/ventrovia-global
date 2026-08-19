@@ -1,128 +1,46 @@
-# Индустрия поставок
+# Ventrovia
 
-Корпоративный каталог промышленного оборудования и комплектующих. Проект
-включает каталог из 156 917 позиций, страницы производителей, поисковый
-интерфейс, SEO-страницы проверенных товаров и форму заявки.
+International manufacturer knowledge base and industrial RFQ website for
+`ventroviaglobal.com`.
 
-## Технологии
+## Runtime scope
 
-- React 19 и TypeScript
-- Next.js App Router, собираемый через vinext
-- Vite и Cloudflare Worker
-- CSS без клиентской UI-библиотеки
-- Node.js Test Runner для интеграционных проверок
+The repository is brand-only. It contains manufacturer identities, reviewed
+Brand Knowledge, approved logo assets, English public content, SEO metadata,
+RFQ infrastructure and the website application. It contains no SKU database,
+product-search index, product route, product API or product-level admin.
 
-## Требования
+The owner's separate legacy dataset is not a project dependency and must never
+be copied into this repository, a deployment, a CI artifact or a public asset.
 
-- Node.js `>=22.13.0`
-- pnpm
-
-## Локальный запуск
+## Commands
 
 ```bash
-pnpm install
-pnpm dev
-```
-
-Перед передачей или публикацией необходимо выполнить полную проверку:
-
-```bash
+pnpm install --frozen-lockfile
+pnpm brands:directory
+pnpm brands:international
+pnpm brands:operations
 pnpm check
+pnpm audit:international
+pnpm audit:bundle
 ```
 
-Команда последовательно запускает линтер, строгую проверку TypeScript, сборку и
-интеграционные тесты отрендеренных страниц.
+`pnpm build` creates the Sites-compatible production bundle. Timeweb uses
+`pnpm build:timeweb`. Both builds are required to succeed without any private
+owner data mounted.
 
-## Основные команды
+## Data boundaries
 
-- `pnpm dev` — локальная разработка
-- `pnpm build` — производственная сборка
-- `pnpm start` — локальный запуск собранного приложения
-- `pnpm build:timeweb` — стандартная Next.js-сборка для Timeweb App Platform
-- `pnpm start:timeweb` — запуск Next.js-приложения в Timeweb App Platform
-- `pnpm lint` — статический анализ кода
-- `pnpm typecheck` — строгая проверка TypeScript
-- `pnpm test` — сборка и интеграционные тесты
-- `pnpm check` — полный набор проверок перед релизом
-- `pnpm audit:bundle` — контроль размера клиентского кода, числа статических
-  страниц и границы public/admin после Next production build
+- `data/manufacturers/identities.json`: compact 2,806-manufacturer identity index.
+- `data/brand-sources/`: reviewed manufacturer-owned source facts.
+- `data/brand-knowledge-international/`: English public Brand Knowledge profiles.
+- `data/brand-operations/`: private brand-health reports used only by authenticated admin routes.
+- `public/images/brand-logos/`: reviewed publishable brand assets.
 
-## Структура проекта
+Operational brand reports must stay server-side. Public pages may import only
+the compact identity directory and public English profiles.
 
-- `app/` — страницы, компоненты, API и SEO-маршруты
-- `app/generated/` — индекс категорий и производителей полного каталога
-- `public/data/catalog/` — поисковый индекс и порционные данные товарных карточек
-- `data/catalog-quality/` — серверные редакторские отчёты, недоступные как
-  публичные статические файлы
-- `public/images/` — оптимизированные изображения категорий, товаров и брендов
-- `scripts/` — проверяемый конвейер подбора и импорта логотипов
-- `tests/` — интеграционные проверки страниц и ключевых бизнес-требований
-- `worker/` — точка входа приложения для Cloudflare
+## Deployment
 
-## Переменные окружения
-
-Скопируйте `.env.example` в локальный `.env` и заполните значения:
-
-- `NEXT_PUBLIC_SITE_URL` — основной HTTPS-домен; используется для canonical,
-  Open Graph, `robots.txt` и `sitemap.xml`
-- `REQUEST_TO_EMAIL` — адрес получателя заявок
-- `REQUEST_FROM_EMAIL` — подтверждённый в Resend адрес отправителя
-- `RESEND_API_KEY` — серверный ключ отправки почты
-- `YANDEX_WEBMASTER_VERIFICATION` — код подтверждения Яндекс Вебмастера
-- `ADMIN_PASSWORD` — отдельный длинный пароль входа в `/admin`
-- `ADMIN_SESSION_SECRET` — случайная секретная строка длиной не менее 32 символов
-- `GITHUB_CONTENT_TOKEN` — fine-grained GitHub token с правом `Contents: Read and write`
-  только для рабочего репозитория
-- `ADMIN_GITHUB_REPO` — репозиторий, в котором хранится редактируемый контент
-- `ADMIN_GITHUB_BRANCH` — ветка автодеплоя, обычно `main`
-
-Секреты не должны попадать в Git. При недоступности почтового API форма
-предлагает пользователю резервную отправку через почтовый клиент.
-
-## Каталог и SEO
-
-Каталог загружается порциями, чтобы не отправлять в браузер весь набор данных
-одновременно. Проверенные товарные страницы и страницы производителей получают
-уникальные метаданные, canonical и структурированные данные. Неполные массовые
-карточки исключены из индексации до ручной проверки.
-
-`robots.txt` и `sitemap.xml` формируются приложением. После смены домена нужно
-обновить `NEXT_PUBLIC_SITE_URL`, выполнить `pnpm check`, опубликовать сборку и
-повторно отправить карту сайта в панели вебмастеров.
-
-## Заявки
-
-`POST /api/request` принимает ограниченные по размеру JSON и multipart-запросы,
-проверяет обязательные поля и файлы, использует антиспам-поле и экранирует
-пользовательские данные в HTML-письме. Внешний почтовый запрос ограничен по
-времени.
-
-Для фактической доставки заявок необходимо подтвердить домен отправителя в
-Resend и добавить серверный `RESEND_API_KEY` в окружение хостинга.
-
-## Административная панель
-
-Панель доступна по адресу `/admin` и закрыта серверной авторизацией. Через неё
-маркетолог может редактировать общие данные сайта, контакты, историю компании,
-метаданные пяти основных страниц и SEO-шаблоны товарных и брендовых страниц.
-
-После сохранения панель обновляет `content/site-content.json` через GitHub API и
-создаёт отдельный коммит. Timeweb автоматически запускает новую публикацию из
-ветки `main`. Секреты никогда не отображаются в браузере и не сохраняются в Git.
-Для доступа нужно задать все переменные `ADMIN_*` и `GITHUB_CONTENT_TOKEN`, затем
-повторно опубликовать приложение.
-
-Source Registry, product issues и integrity reports выдаются только после
-проверки admin-сессии. Они не входят в публичный каталог файлов и не загружаются
-публичными страницами или поиском.
-
-## Публикация
-
-Метаданные текущего проекта Sites хранятся в `.openai/hosting.json`. Файл не
-содержит секретов. В публикацию должна попадать только версия, которая прошла
-`pnpm check` и соответствует зафиксированному Git-коммиту.
-
-Для Timeweb App Platform используется тот же исходный код из приватного
-Git-репозитория. Команда сборки — `pnpm build:timeweb`, команда запуска —
-`pnpm start:timeweb`. Значения из `.env.example` задаются в настройках
-приложения; секретный `RESEND_API_KEY` в репозиторий не добавляется.
+The canonical base URL is `https://ventroviaglobal.com`. DNS changes remain a
+separate owner-approved operation; see `VENTROVIA_DOMAIN_MIGRATION.md`.

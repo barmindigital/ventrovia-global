@@ -96,7 +96,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
             <h1>{displayName}</h1>
             <p>{summary}</p>
             <div className="brand-hero-actions">
-              <RequestCta defaultProduct={displayName} requestContext={`Manufacturer: ${displayName}`} requestType="product" source="manufacturer_page">Request Price and Lead Time</RequestCta>
+              <RequestCta defaultProduct={displayName} requestContext={`Manufacturer: ${displayName}`} requestType="equipment" source="manufacturer_page">Request Price and Lead Time</RequestCta>
               <RequestCta className="button button-outline" defaultProduct={displayName} requestContext={`Specification for manufacturer: ${displayName}`} requestType="specification" source="manufacturer_page">Send Your Specification</RequestCta>
             </div>
           </div>
@@ -132,7 +132,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
         </div>
       </section>
 
-      <section className="section section-tint"><div className="shell brand-rfq-panel"><div><p className="eyebrow">Request for quotation</p><h2>Request {displayName} equipment</h2><p>Send the complete part number, model or specification. Our team will review the requirement and provide pricing and lead-time information after confirmation.</p></div><RequestCta defaultProduct={displayName} requestContext={`Manufacturer: ${displayName}`} requestType="product" source="manufacturer_page">Send an Enquiry</RequestCta></div></section>
+      <section className="section section-tint"><div className="shell brand-rfq-panel"><div><p className="eyebrow">Request for quotation</p><h2>Request {displayName} equipment</h2><p>Send the complete part number, model or specification. Our team will review the requirement and provide pricing and lead-time information after confirmation.</p></div><RequestCta defaultProduct={displayName} requestContext={`Manufacturer: ${displayName}`} requestType="equipment" source="manufacturer_page">Send an Enquiry</RequestCta></div></section>
 
       <section className="section shell">
         <div className="section-heading"><div><p className="eyebrow">Questions and answers</p><h2>Preparing an RFQ</h2></div></div>

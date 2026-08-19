@@ -3,7 +3,7 @@ export const REQUEST_ATTRIBUTION_KEY =
 
 export const REQUEST_TYPE_LABELS = {
   supply: "Supply enquiry",
-  product: "Equipment enquiry",
+  equipment: "Equipment enquiry",
   specification: "Specification enquiry",
 } as const;
 
@@ -19,11 +19,8 @@ export const REQUEST_SOURCE_LABELS = {
   contacts_page: "Contact page",
   footer: "Site footer",
   about_page: "About page",
-  catalog_help: "Sourcing request page",
-  catalog_empty: "Sourcing request empty state",
+  home_specification: "Homepage specification request",
   manufacturer_page: "Manufacturer page",
-  product_page: "Archived product route",
-  catalog_position: "Archived catalog position route",
   unattributed: "Unattributed source",
 } as const;
 

@@ -17,7 +17,7 @@ Each manufacturer page selects one primary intent from its strongest officially 
 
 ## Brand × Category candidates
 
-The server-side report `data/brand-knowledge/brand-category-candidates.json` is the only current hand-off for the next landing-page layer. Every record contains the manufacturer, normalized public category label, evidence scope and source, proposed intent and content readiness. All records are `CANDIDATE_NOT_PUBLISHED`; the report creates no URL.
+The server-side report `data/brand-operations/brand-category-candidates.json` is the only current hand-off for the next landing-page layer. Every record contains the manufacturer, normalized public category label, evidence scope and source, proposed intent and content readiness. All records are `CANDIDATE_NOT_PUBLISHED`; the report creates no URL.
 
 Before any candidate can be published, the next sprint must add:
 

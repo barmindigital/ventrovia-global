@@ -3,7 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const projectRoot = process.cwd();
-const catalogPath = path.join(projectRoot, "app/generated/full-catalog.ts");
+const manufacturerPath = path.join(projectRoot, "data/manufacturers/identities.json");
 const registryPath = path.join(projectRoot, "app/lib/brand-logos.ts");
 const outputDir = path.join(projectRoot, ".logo-work");
 
@@ -57,22 +57,11 @@ function exactMatch(manufacturerName, iconTitle) {
   return manufacturer === icon || coreName(manufacturer) === coreName(icon);
 }
 
-function parseArray(source, exportName) {
-  const expression = new RegExp(
-    `export const ${exportName}[^=]*=\\s*(\\[[\\s\\S]*?\\]);`,
-  );
-  const match = source.match(expression);
-  if (!match) {
-    throw new Error(`Could not parse ${exportName}`);
-  }
-  return JSON.parse(match[1]);
-}
-
-const [catalogSource, registrySource] = await Promise.all([
-  fs.readFile(catalogPath, "utf8"),
+const [manufacturerSource, registrySource] = await Promise.all([
+  fs.readFile(manufacturerPath, "utf8"),
   fs.readFile(registryPath, "utf8"),
 ]);
-const manufacturers = parseArray(catalogSource, "fullManufacturers");
+const manufacturers = JSON.parse(manufacturerSource).manufacturers;
 const registered = new Set(
   [...registrySource.matchAll(/\n\s+slug: "([^"]+)"/g)].map(
     (match) => match[1],

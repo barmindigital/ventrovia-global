@@ -1,6 +1,6 @@
 import "server-only";
-import brandFastPath from "@/data/brand-knowledge/fast-path-to-brand-safe.json";
-import brandHealthManifest from "@/data/brand-knowledge/manifest.json";
+import brandFastPath from "@/data/brand-operations/fast-path-to-brand-safe.json";
+import brandHealthManifest from "@/data/brand-operations/manifest.json";
 
 const datasets = {
   "brand-health-manifest": brandHealthManifest,

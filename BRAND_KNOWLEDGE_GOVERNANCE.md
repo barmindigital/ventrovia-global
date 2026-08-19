@@ -12,7 +12,7 @@ The public site treats manufacturers as an evidence-backed B2B knowledge base. P
 - `Tier D`: reseller, competitor, historical import or unknown origin; cannot confirm a public brand fact.
 - Historical product relations may prioritize research but never prove a public brand category, family, country or corporate fact.
 
-Public factual profiles are stored in reviewed, append-only wave files under `data/brand-knowledge/` and merged by the server-only loader. A profile becomes `BRAND_SAFE` only when it has an available Tier A/B source, a confirmed identity and unique factual copy. Missing sections are omitted. Unconfirmed raw country, founding year and taxonomy are not shown.
+Reviewed factual inputs are stored under `data/brand-sources/`; English public profiles are generated under `data/brand-knowledge-international/`. A profile becomes `BRAND_SAFE` only when it has an available Tier A/B source, a confirmed identity and unique factual copy. Missing sections are omitted. Unconfirmed raw country, founding year and taxonomy are not shown.
 
 ## Publication classes
 
@@ -24,11 +24,11 @@ Logo absence does not block `BRAND_SAFE`. Product catalog counts, SKU, product c
 
 ## Completeness is not verification
 
-`BRAND_COMPLETE` is an internal quality metric, never a replacement for source verification. The transparent 100-point score is recorded in `data/brand-knowledge/brand-completeness.json`: identity source 20, official domain 10, publishable logo 10, description 15, categories 10, families 10, country/headquarters 10, catalogs/documentation 10 and SEO readiness 5. A profile can be `BRAND_SAFE` without being complete, while no score can promote a profile that lacks official identity evidence.
+`BRAND_COMPLETE` is an internal quality metric, never a replacement for source verification. The transparent score is recorded in `data/brand-operations/brand-completeness.json`. A profile can be `BRAND_SAFE` without being complete, while no score can promote a profile that lacks official identity evidence.
 
 ## Logo policy
 
-Each accepted local logo records its source page, original asset URL, format, pixel/view-box dimensions, SHA-256 checksum, checked date, brand scope, license, rights status and publication status in `data/brand-knowledge/logo-audit.json`.
+Each accepted local logo records its source page, original asset URL, format, pixel/view-box dimensions, SHA-256 checksum, checked date, brand scope, license, rights status and publication status in `data/brand-operations/logo-audit.json`.
 
 Logos are never generated, taken from Dalkos or inferred from a favicon. Identity must match the canonical manufacturer. A missing or uncertain logo falls back to the shared text wordmark. Brand marks are never recolored, stretched or overlaid.
 

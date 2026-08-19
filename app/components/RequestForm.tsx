@@ -153,7 +153,7 @@ export function RequestForm({
       "Ventrovia website enquiry",
       requestTypeLabel,
       requestSourceLabel,
-      requestType === "product" && draft.product ? draft.product : "",
+      requestType === "equipment" && draft.product ? draft.product : "",
     ]
       .filter(Boolean)
       .join(" | ");

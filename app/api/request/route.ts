@@ -260,7 +260,7 @@ export async function POST(request: Request) {
     "Ventrovia website enquiry",
     requestTypeLabel,
     requestSourceLabel,
-    fields.requestType === "product" ? safeProduct : "",
+    fields.requestType === "equipment" ? safeProduct : "",
   ]
     .filter(Boolean)
     .join(" | ")

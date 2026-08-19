@@ -7,10 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
       disallow: [
-        "/catalog",
-        "/catalog/",
-        "/data/catalog",
-        "/data/catalog/",
         "/manufacturers/logos",
         "/admin",
         "/api/admin",

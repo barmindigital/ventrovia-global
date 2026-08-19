@@ -18,7 +18,6 @@ type PageField = keyof PageContent;
 
 const pageLabels: Record<PageKey, string> = {
   home: "Home",
-  catalog: "Archived catalogue request page",
   manufacturers: "Manufacturers",
   about: "About",
   contacts: "Contact",
@@ -312,11 +311,9 @@ export function AdminPanel() {
         </section>
 
         <section className={styles.section}>
-          <h2>Archived product and manufacturer templates</h2>
-          <p className={styles.hint}>Product templates are retained for archive restoration only. Manufacturer pages use the international Brand Knowledge layer.</p>
+          <h2>Manufacturer templates</h2>
+          <p className={styles.hint}>Manufacturer pages use the international Brand Knowledge layer.</p>
           <div className={styles.grid}>
-            <EditableField label="Archived product title" value={content.templates.productTitle} onChange={(value) => updateTemplate("productTitle", value)} maxLength={300} />
-            <EditableField label="Archived product description" value={content.templates.productDescription} onChange={(value) => updateTemplate("productDescription", value)} multiline maxLength={300} />
             <EditableField label="Manufacturer title" value={content.templates.manufacturerTitle} onChange={(value) => updateTemplate("manufacturerTitle", value)} maxLength={300} />
             <EditableField label="Manufacturer description" value={content.templates.manufacturerDescription} onChange={(value) => updateTemplate("manufacturerDescription", value)} multiline maxLength={300} />
           </div>

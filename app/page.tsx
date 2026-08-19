@@ -96,7 +96,7 @@ export default function Home() {
             <p>Send the manufacturer, model, part number or a complete specification. Each requirement is reviewed in its commercial and technical context before a proposal is prepared.</p>
             <div className="company-actions">
               <Link className="text-link" href="/manufacturers">Explore manufacturers <span aria-hidden="true">→</span></Link>
-              <RequestCta className="button button-outline" requestType="specification" source="catalog_help">Send a specification</RequestCta>
+              <RequestCta className="button button-outline" requestType="specification" source="home_specification">Send a specification</RequestCta>
             </div>
           </div>
         </div>
