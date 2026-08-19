@@ -122,7 +122,7 @@ const categoryRules: Array<[RegExp, string]> = [
   [/конвейер|сортиров|пневматический транспорт|паллетн/iu, "conveying and material-handling systems"],
   [/кабел|разъём|токосъём/iu, "industrial connectivity"],
   [/робот|захват|AGV|AMR/iu, "robotics and automation components"],
-  [/свароч|резк|шлифов/iu, "welding and cutting equipment"],
+  [/свароч|резк/iu, "welding and cutting equipment"],
   [/вентилятор|воздуходув/iu, "industrial fans and blowers"],
   [/тепло|нагрев|охлажд|холодиль|чиллер|кондиционир/iu, "thermal-management equipment"],
   [/электрификац|электроэнерг|трансформатор|источник(?:и)? питания|силовые преобразователи/iu, "electrical power systems"],
@@ -152,7 +152,7 @@ const categoryRules: Array<[RegExp, string]> = [
 
 const industryRules: Array<[RegExp, string]> = [
   [/нефт|газ/iu, "oil and gas"],
-  [/вод/iu, "water and wastewater"],
+  [/водоснабж|водоочист|водоотвед|водоподготов|сточн|водоканал|питьев.*вод|очист.*вод/iu, "water and wastewater"],
   [/энерг|электроэнерг|ветро/iu, "energy"],
   [/пищ|фарма/iu, "food and pharmaceutical processing"],
   [/автомоб|транспорт/iu, "transportation"],
