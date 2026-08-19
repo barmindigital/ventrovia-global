@@ -5,11 +5,12 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "public" / "og.png"
+BACKGROUND = ROOT / "assets" / "brand" / "ventrovia-og-background.png"
 WIDTH, HEIGHT = 1200, 630
-NAVY = "#173f5a"
-BLUE = "#5d77a5"
-INK = "#272326"
-PAPER = "#f4f0e8"
+TERRACOTTA = "#b4533c"
+SIGNAL = "#d31027"
+INK = "#332f2a"
+PAPER = "#f2ebdd"
 WHITE = "#ffffff"
 
 
@@ -30,16 +31,31 @@ def symbol(draw: ImageDraw.ImageDraw, x: int, y: int, scale: float, fill: str):
         draw.polygon([(x + px * scale, y + py * scale) for px, py in polygon], fill=fill)
 
 
-canvas = Image.new("RGB", (WIDTH, HEIGHT), PAPER)
+if not BACKGROUND.exists():
+    raise SystemExit(f"Missing approved OG background: {BACKGROUND}")
+
+source = Image.open(BACKGROUND).convert("RGB")
+source_ratio = source.width / source.height
+target_ratio = WIDTH / HEIGHT
+if source_ratio > target_ratio:
+    crop_width = round(source.height * target_ratio)
+    left = (source.width - crop_width) // 2
+    source = source.crop((left, 0, left + crop_width, source.height))
+else:
+    crop_height = round(source.width / target_ratio)
+    top = (source.height - crop_height) // 2
+    source = source.crop((0, top, source.width, top + crop_height))
+
+canvas = source.resize((WIDTH, HEIGHT), Image.Resampling.LANCZOS)
 draw = ImageDraw.Draw(canvas)
-draw.rounded_rectangle((56, 54, 1144, 576), radius=42, fill=NAVY)
-draw.rectangle((56, 430, 1144, 576), fill="#123449")
-symbol(draw, 104, 126, 1.9, WHITE)
-draw.text((470, 164), "VENTROVIA", font=font(78, True), fill=WHITE, spacing=4)
-draw.text((474, 258), "GLOBAL INDUSTRIAL TRADE", font=font(26, True), fill="#b9c8d5")
-draw.line((474, 318, 1048, 318), fill=BLUE, width=2)
-draw.text((474, 350), "Industrial equipment sourcing worldwide", font=font(32, False), fill=WHITE)
-draw.text((104, 479), "VENTROVIAGLOBAL.COM", font=font(20, True), fill="#b9c8d5")
-draw.text((735, 479), "DUBAI  •  WORLDWIDE", font=font(20, True), fill="#b9c8d5")
-canvas.save(OUTPUT, optimize=True)
+symbol(draw, 92, 84, 0.72, TERRACOTTA)
+draw.text((228, 87), "VENTROVIA", font=font(54, True), fill=INK)
+draw.text((232, 154), "GLOBAL INDUSTRIAL TRADE", font=font(19, True), fill=TERRACOTTA)
+draw.line((92, 220, 642, 220), fill=SIGNAL, width=3)
+draw.text((92, 260), "Global industrial sourcing", font=font(38, True), fill=INK)
+draw.text((92, 312), "for complex supply requirements", font=font(38, True), fill=INK)
+draw.text((92, 402), "MANUFACTURER SOURCING  •  RFQ  •  WORLDWIDE", font=font(17, True), fill="#6b6459")
+draw.text((92, 520), "VENTROVIAGLOBAL.COM", font=font(19, True), fill=INK)
+draw.text((92, 553), "DUBAI, UAE  •  SERVING BUYERS WORLDWIDE", font=font(16, False), fill="#6b6459")
+canvas.save(OUTPUT, optimize=True, compress_level=9)
 print(OUTPUT)

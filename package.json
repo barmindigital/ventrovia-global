@@ -14,6 +14,7 @@
     "build:timeweb": "next build",
     "start:timeweb": "next start -p ${PORT:-3000}",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
+    "audit:visual": "node scripts/audit-ventrovia-blue-regression.mjs",
     "audit:visibility": "node scripts/audit-international-runtime.mjs",
     "audit:international": "node scripts/audit-international-runtime.mjs",
     "audit:infrastructure": "node scripts/audit-infrastructure-cutover.mjs",

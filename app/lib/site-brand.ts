@@ -25,6 +25,10 @@ export const SITE_BRAND = Object.freeze({
     horizontalLight: "/brand/ventrovia-horizontal-light.svg",
     horizontalTaglineDark: "/brand/ventrovia-horizontal-tagline-dark.svg",
     horizontalTaglineLight: "/brand/ventrovia-horizontal-tagline-light.svg",
+    symbolMonochrome: "/brand/ventrovia-symbol-monochrome.svg",
+    horizontalMonochrome: "/brand/ventrovia-horizontal-monochrome.svg",
+    horizontalTaglineMonochrome:
+      "/brand/ventrovia-horizontal-tagline-monochrome.svg",
     appIcon: "/brand/ventrovia-app-icon.svg",
     social: "/og.png",
   },
