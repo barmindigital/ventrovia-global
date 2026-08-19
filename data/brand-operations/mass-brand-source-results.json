@@ -6842,16 +6842,15 @@
   {
     "manufacturerId": "precilec",
     "displayName": "PRECILEC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 158,
-    "effortClass": "NORMAL",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "reason": "AMBIGUOUS_IDENTITY"
     },
     "checkedAt": null,
     "nextReviewAt": null
@@ -8419,19 +8418,52 @@
   },
   {
     "manufacturerId": "koneteollisuus",
-    "displayName": "KONETEOLLISUUS",
-    "status": "BRAND_WEAK",
+    "displayName": "Koneteollisuus",
+    "status": "BRAND_SAFE",
     "priority": 193,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "koneteollisuus.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.koneteollisuus.com/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY_AND_HISTORY",
+        "url": "https://www.koneteollisuus.com/KT_Koneteollisuus_Oy_product_catalogue.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Band Saws",
+        "Meat Grinders",
+        "Meat Presses",
+        "Meat Shredders",
+        "Meat Slicers",
+        "Fish Scalers",
+        "Packaging Machines"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing",
+        "packaging"
+      ],
+      "country": "Finland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -10362,18 +10394,45 @@
   {
     "manufacturerId": "krombach",
     "displayName": "KROMBACH",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 235,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "cranecpe.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://cranecpe.com/brand/krombach/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Butterfly Valves",
+        "Ball Valves",
+        "Globe and Angle Valves",
+        "Gate Valves",
+        "Check Valves",
+        "Vacuum-Relief Valves",
+        "Float Valves",
+        "Bottom-Drain Valves"
+      ],
+      "industries": [
+        "chemical processing",
+        "energy",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -11342,19 +11401,50 @@
   },
   {
     "manufacturerId": "hydropa",
-    "displayName": "HYDROPA GMBH",
-    "status": "BRAND_WEAK",
+    "displayName": "Hydropa",
+    "status": "BRAND_SAFE",
     "priority": 256,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "hydropa.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://www.hydropa.de/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.hydropa.de/media/hydropa_brosch_re_081001_low.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pneumatic equipment",
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Hydraulic Cylinders",
+        "Hand Pumps",
+        "Industrial Valves",
+        "Hydraulic Power Units",
+        "Pressure Switches"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -11700,18 +11790,48 @@
   {
     "manufacturerId": "fimet-motors",
     "displayName": "FIMET",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 264,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "fimet.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.fimet.com/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "gear units and geared drives",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Three-Phase Induction Motors",
+        "Water-Cooled Motors",
+        "Medium-Voltage Motors",
+        "Generators",
+        "Gear Units",
+        "Inverters"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "oil and gas",
+        "food and pharmaceutical processing",
+        "energy",
+        "transportation"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -11765,16 +11885,15 @@
   {
     "manufacturerId": "hydraulik-seehausen",
     "displayName": "HYDRAULIK SEEHAUSEN",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 266,
-    "effortClass": "NORMAL",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "reason": "AMBIGUOUS_IDENTITY"
     },
     "checkedAt": null,
     "nextReviewAt": null
@@ -11869,35 +11988,99 @@
   {
     "manufacturerId": "zumbach",
     "displayName": "ZUMBACH",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 269,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "zumbach.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_NEWS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://blog.zumbach.com/en",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_ARTICLE",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://blog.zumbach.com/en/measuring-and-fault-detection-solutions-for-e-mobility-cable-manufacturing",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Laser Diameter Measurement",
+        "Ultrasonic Wall-Thickness Measurement",
+        "X-Ray Measurement",
+        "Profile Measurement",
+        "Surface Inspection",
+        "Process-Control Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "transportation",
+        "laboratory and life-science applications"
+      ],
+      "country": "Switzerland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "bosch-packaging",
-    "displayName": "BOSCH PACKAGING",
-    "status": "BRAND_WEAK",
+    "displayName": "Bosch Packaging Technology",
+    "status": "BRAND_SAFE",
     "priority": 270,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "syntegon.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_CORPORATE_HISTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FORMER_NAME",
+        "url": "https://www.syntegon.com/about-us/history/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CORPORATE_RELEASE",
+        "tier": "A",
+        "scope": "CATEGORY_AND_INDUSTRY",
+        "url": "https://www.syntegon.com/press/syntegon-building-on-stable-business-performance",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Pharmaceutical Processing Systems",
+        "Pharmaceutical Packaging Systems",
+        "Food Processing Systems",
+        "Food Packaging Systems"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "packaging"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
@@ -11946,189 +12129,567 @@
   },
   {
     "manufacturerId": "panametrics-ndt",
-    "displayName": "PANAMETRICS",
-    "status": "BRAND_WEAK",
+    "displayName": "Panametrics",
+    "status": "BRAND_SAFE",
     "priority": 272,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "bakerhughes.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.bakerhughes.com/panametrics/process-analyzers",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "CATEGORY_AND_APPLICATION",
+        "url": "https://www.bakerhughes.com/panametrics/process-analyzers/oem-solutions",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors"
+      ],
+      "families": [
+        "Ultrasonic Flowmeters",
+        "Moisture Analyzers",
+        "Oxygen and Gas Analyzers",
+        "Hygrometers",
+        "OEM Measurement Solutions"
+      ],
+      "industries": [
+        "oil and gas",
+        "energy",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "ross-valve",
-    "displayName": "ROSS VALVE",
-    "status": "BRAND_WEAK",
+    "displayName": "Ross Valve",
+    "status": "BRAND_SAFE",
     "priority": 273,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "rossvalve.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_HISTORY",
+        "url": "https://rossvalve.com/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://rossvalve.com/products",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Electric Valves",
+        "Cone Valves",
+        "Pump-Control Valves",
+        "Pressure-Reducing Valves",
+        "Relief Valves",
+        "Level-Control Valves",
+        "Wastewater Valves",
+        "Metal-Seated Ball Valves"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seim",
     "displayName": "SEIM",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 274,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seim.it",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://seim.it/it/home/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "thermal-management equipment",
+        "industrial valves and flow control",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Two-Screw Pumps",
+        "Three-Screw Pumps",
+        "Immersed Pumps",
+        "Twin Pump Stations",
+        "Heat Exchangers",
+        "Industrial Valves",
+        "Flowmeters"
+      ],
+      "industries": [
+        "industrial processing",
+        "marine applications",
+        "oil and gas",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "siata",
     "displayName": "SIATA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 275,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "pentair.eu",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_BROCHURE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.pentair.eu/sites/default/files/2023-03/siata-brochure-en.pdf",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_GUIDE",
+        "tier": "A",
+        "scope": "CATEGORY_AND_SERIES",
+        "url": "https://www.pentair.eu/sites/default/files/2024-03/valve_groupe_brochure_en.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "filtration and water systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Water-Treatment Control Valves",
+        "Valve Controllers",
+        "Softening Valves",
+        "Filtration Valves",
+        "De-Ionisation Valves"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "verlinde",
     "displayName": "VERLINDE",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 276,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "verlinde.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.verlinde.com/en/products-search/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.verlinde.com/wp-content/uploads/2021/03/ProductCatalog_GB.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "lifting and crane systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Electric Chain Hoists",
+        "Wire-Rope Hoists",
+        "Manual Hoists",
+        "Industrial Winches",
+        "Jib Cranes",
+        "Gantry Cranes",
+        "Overhead Handling Systems",
+        "Crane Components"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "water and wastewater",
+        "chemical processing",
+        "transportation",
+        "energy"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "woerner",
     "displayName": "WOERNER",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 277,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "woerner.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.woerner.de/en/products",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "FAMILY_AND_SERIES",
+        "url": "https://www.woerner.de/en/chain-lubrication",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "lubrication systems"
+      ],
+      "families": [
+        "Lubricant Pumps and Reservoirs",
+        "Distributors and Metering Units",
+        "Chain Lubrication Systems",
+        "Monitoring Devices",
+        "Spray and Jet Lubricators",
+        "Oil-Air Systems",
+        "Single-Line Systems",
+        "Dual-Line Systems",
+        "Progressive Systems"
+      ],
+      "industries": [
+        "transportation",
+        "wood and paper processing",
+        "industrial processing",
+        "energy",
+        "chemical processing",
+        "water and wastewater"
+      ],
+      "country": "Germany",
+      "headquarters": "Wertheim, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "end-armaturen",
-    "displayName": "END ARMATUREN",
-    "status": "BRAND_WEAK",
+    "displayName": "END-Armaturen",
+    "status": "BRAND_SAFE",
     "priority": 278,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "end.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://shop.end.de/en/startseite-de",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://shop.end.de/en/valves/actuators",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Ball Valves",
+        "Butterfly Valves",
+        "Knife-Gate Valves",
+        "Solenoid Valves",
+        "Control Valves",
+        "Safety and Relief Valves",
+        "Non-Return Valves",
+        "Pneumatic Actuators",
+        "Electric Actuators"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "water and wastewater"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "foxboro-eckardt",
-    "displayName": "FOXBORO ECKARDT",
-    "status": "BRAND_WEAK",
+    "displayName": "Foxboro Eckardt",
+    "status": "BRAND_SAFE",
     "priority": 279,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "se.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_BRAND_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.se.com/us/en/product-range/63514-foxboro-valve-positioners/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CORPORATE_DOCUMENT",
+        "tier": "A",
+        "scope": "ECKARDT_IDENTITY_LINK",
+        "url": "https://www.se.com/ae/en/download/document/ISO45K-Eckardt-Soultz-RA/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "measurement and instrumentation",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Digital Valve Positioners",
+        "Pneumatic Valve Positioners",
+        "Valve Diagnostics",
+        "Positioner Accessories"
+      ],
+      "industries": [
+        "energy",
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "mining"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "gimatic",
-    "displayName": "GIMATIC",
-    "status": "BRAND_WEAK",
+    "displayName": "Gimatic",
+    "status": "BRAND_SAFE",
     "priority": 280,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "gimatic.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PRODUCT_BROCHURE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.gimatic.com/wp-content/uploads/2024/02/BRO-PRODUCT-EN.pdf",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "OFFICIAL_CORPORATE_BROCHURE",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_APPLICATION",
+        "url": "https://www.gimatic.com/wp-content/uploads/2022/06/Gimatic-corporate-EN-LOW.pdf",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "pneumatic equipment",
+        "industrial sensors"
+      ],
+      "families": [
+        "Pneumatic Grippers",
+        "Electric Grippers",
+        "Rotary Units",
+        "Tool Changers",
+        "Linear Actuators",
+        "Vacuum Systems",
+        "Nippers",
+        "Industrial Sensors",
+        "Robot Kits"
+      ],
+      "industries": [
+        "transportation",
+        "factory automation",
+        "food and pharmaceutical processing",
+        "packaging"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "hydroline",
-    "displayName": "HYDROLINE",
-    "status": "BRAND_WEAK",
+    "displayName": "Hydroline",
+    "status": "BRAND_SAFE",
     "priority": 281,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "hydroline.fi",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CATEGORY",
+        "url": "https://hydroline.fi/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "HISTORY_AND_CORPORATE_FACTS",
+        "url": "https://hydroline.fi/about-us/",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "linear-motion components",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Custom Hydraulic Cylinders",
+        "Cylinder Lifecycle Services",
+        "Linear-Actuator Monitoring",
+        "IoT Connectivity Solutions"
+      ],
+      "industries": [
+        "mining",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": "Finland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "malvern-panalytical",
-    "displayName": "MALVERN PANALYTICAL",
-    "status": "BRAND_WEAK",
+    "displayName": "Malvern Panalytical",
+    "status": "BRAND_SAFE",
     "priority": 282,
-    "effortClass": "NORMAL",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "malvernpanalytical.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_FAMILY",
+        "url": "https://www.malvernpanalytical.com/en/",
+        "checkedAt": "2026-08-19"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_IDENTITY_AND_CORPORATE_FACTS",
+        "url": "https://www.malvernpanalytical.com/en/about-us",
+        "checkedAt": "2026-08-19"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "laboratory and analytical equipment",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Particle-Size Analyzers",
+        "Zeta-Potential Analyzers",
+        "XRF Analyzers",
+        "X-Ray Diffractometers",
+        "Surface-Area Analyzers",
+        "Gas Pycnometers",
+        "Sample-Preparation Systems"
+      ],
+      "industries": [
+        "laboratory and life-science applications",
+        "food and pharmaceutical processing",
+        "mining",
+        "energy",
+        "industrial processing"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-19",
     "nextReviewAt": null
   },
   {

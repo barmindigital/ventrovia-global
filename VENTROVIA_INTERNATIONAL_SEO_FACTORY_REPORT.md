@@ -18,23 +18,23 @@ manufacturer logos are not recoloured.
 | Metric | Value |
 | --- | ---: |
 | Manufacturer identities | 2,806 |
-| BRAND_SAFE | 250 |
-| BRAND_WEAK | 2,535 |
-| BRAND_REVIEW | 21 |
-| Official domains | 250 |
-| Official source records | 434 |
-| Tier A source records | 433 |
-| English short descriptions | 250 |
-| English full descriptions | 250 |
-| Brands with family/series evidence | 234 |
-| BRAND_COMPLETE | 207 |
-| BRAND_SAFE with logo | 103 |
-| Manufacturer sitemap target | 250 |
+| BRAND_SAFE | 267 |
+| BRAND_WEAK | 2,516 |
+| BRAND_REVIEW | 23 |
+| Official domains | 267 |
+| Official source records | 465 |
+| Tier A source records | 464 |
+| English short descriptions | 267 |
+| English full descriptions | 267 |
+| Brands with family/series evidence | 251 |
+| BRAND_COMPLETE | 220 |
+| BRAND_SAFE with logo | 105 |
+| Manufacturer sitemap target | 267 |
 | Product sitemap | 0 |
 
-The latest four batches processed 79 manufacturers: 72 became `BRAND_SAFE`
-and seven were conservatively assigned `BRAND_REVIEW`. Across all recorded
-source work, the source-success rate is 92.25%. Historical processing duration was not captured, so
+The latest five batches processed 98 manufacturers: 89 became `BRAND_SAFE`
+and nine were conservatively assigned `BRAND_REVIEW`. Across all recorded
+source work, the source-success rate is 92.07%. Historical processing duration was not captured, so
 hourly throughput metrics are intentionally reported as `NOT_MEASURED`.
 
 ## Source discovery and cache
@@ -57,9 +57,9 @@ The mass result index assigns every manufacturer an effort class:
 
 - Identity audit: PASS.
 - Content audit: PASS; unsupported commercial claims 0.
-- Metadata audit: 250 unique titles and 250 unique descriptions.
-- Similarity audit: 31,125 pair comparisons, 0 findings at 0.72.
-- Deterministic sample: 250 records, including every current safe page.
+- Metadata audit: 267 unique titles and 267 unique descriptions.
+- Similarity audit: 35,511 pair comparisons, 0 findings at 0.72.
+- Deterministic sample: 267 records, including every current safe page.
 - Logo gate: no fuzzy-only mapping and no product image used as a logo.
 - Blue regression: 0 first-party findings.
 - Visibility boundary: product routes, product API, product sitemap, product
@@ -72,16 +72,16 @@ clusters:
 
 | Confirmed category | Safe brands |
 | --- | ---: |
-| Pumps and pumping systems | 71 |
-| Industrial automation and control | 49 |
-| Industrial valves and flow control | 48 |
-| Drive and motion-control systems | 45 |
-| Industrial sensors | 44 |
-| Electric motors | 39 |
-| Measurement and instrumentation | 31 |
-| Gear units and geared drives | 19 |
-| Filtration and water systems | 20 |
-| Linear-motion components | 16 |
+| Pumps and pumping systems | 72 |
+| Industrial automation and control | 55 |
+| Industrial valves and flow control | 55 |
+| Industrial sensors | 48 |
+| Drive and motion-control systems | 46 |
+| Electric motors | 40 |
+| Measurement and instrumentation | 36 |
+| Filtration and water systems | 21 |
+| Pneumatic equipment | 21 |
+| Gear units and geared drives | 20 |
 
 No Brand × Category URLs are created. The counts only identify where a future
 editorial layer may have enough verified coverage for a separate feasibility
@@ -103,12 +103,12 @@ effort profile.
 
 ## Next queue
 
-The next 30 are PRECILEC, KONETEOLLISUUS, Elster Kromschröder, Gambarotta,
-Krombach, CyTec Zylindertechnik, ISOIL, Johnson Pump, Dresser-Rand, Hydropa,
-NASH, Sondermann, Speroni, Verderair, Barksdale, FIMET, Hydraulik Seehausen,
-Zumbach, Bosch Packaging, Panametrics, Ross Valve, SEIM, SIATA, Verlinde,
-Woerner, END Armaturen, Foxboro Eckardt, Gimatic, Hydroline and Malvern
-Panalytical.
+The next 30 are MIL S, BLACKMER, BRAN+LUEBBE, GENERAL KINEMATICS, KRAFTMANN,
+MAGNESCALE, MUELLER STEAM SPECIALTY, NIMCO, RICHARDSON ELECTRONICS, TIMMER,
+URACA, WILDEN, BOMAR, BRAIME 4B, FIREYE, PLENTY FILTERS, AHP MERKLE, B&R
+AUTOMATION, BALTIMORE AIRCOIL, ELGO ELECTRONIC, FILTON, HEINZMANN, M PUMPS,
+PEGAS GONDA, SOFIMA HYDRAULICS, ZANDER, ABP INDUCTION, BONDIOLI PAVESI,
+CLEXTRAL and DYNISCO.
 
 ## Release boundary
 

@@ -42,6 +42,7 @@ const countryNames: Record<string, string> = {
   "США": "United States",
   "Турция": "Türkiye",
   "Франция": "France",
+  "Финляндия": "Finland",
   "Чехия": "Czech Republic",
   "Швейцария": "Switzerland",
   "Швеция": "Sweden",
