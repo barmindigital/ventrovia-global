@@ -10,7 +10,8 @@ Knowledge or the private Russian catalogue.
 - apex and `www`: `147.45.99.78` (Timeweb Cloud network);
 - MX: `mx.yandex.net`;
 - SPF: `v=spf1 redirect=_spf.yandex.net`;
-- both web hosts currently serve the older Ventrovia deployment over HTTPS.
+- both web hosts remain bound to the Ventrovia Timeweb application during the
+  `.com` DNS/SSL propagation window.
 
 ## Ventrovia prerequisites
 
@@ -19,6 +20,12 @@ redirect, production, canonical, manufacturer-sitemap, zero-product-sitemap,
 catalogue-absence and `.ru`-independence gates in
 `VENTROVIA_INFRASTRUCTURE_CUTOVER.md`. Email delivery is a separate blocker and
 does not block domain handoff.
+
+As of 2026-08-19 the handoff is not yet released: the `.com` apex is live, but
+one public resolver still caches the old `www` A record and the Timeweb `www`
+certificate is pending. Do not remove either `.ru` binding until the recorded
+TTL expires, `www` redirects over valid HTTPS, and repeated production checks
+are stable.
 
 ## Ventrovia-side detach
 

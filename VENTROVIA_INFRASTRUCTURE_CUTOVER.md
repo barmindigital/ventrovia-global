@@ -16,22 +16,31 @@ authorization to change DNS, domain ownership or credentials.
 
 The authenticated Timeweb inventory found one App Platform application:
 `industria-postavok` (`ID 231783`). It is connected to GitHub branch `main`
-with automatic deployment enabled. The clean Brand Knowledge release is commit
-`906c4ed`. The application initially had two domain bindings: `industriapostavok.ru` and
+with automatic deployment enabled. The current clean Brand Knowledge release
+is commit `142afbb`. The application currently has four domain bindings:
+`ventroviaglobal.com`, `www.ventroviaglobal.com`, `industriapostavok.ru` and
 `www.industriapostavok.ru`. No Timeweb S3 buckets, network disks, managed
 databases or cloud servers exist in this account.
 
 ## Observed DNS state
 
 The authoritative nameservers for `ventroviaglobal.com` are `ns1.reg.ru` and
-`ns2.reg.ru`. The apex and `www` currently resolve to `95.163.244.138`, a REG.RU
-network address. The apex has a Let's Encrypt certificate but returns HTTP 400;
-the `www` TLS handshake does not complete. This is not a production-ready
-Ventrovia endpoint.
+`ns2.reg.ru`. On 2026-08-19 the apex and `www` A records were changed from
+`95.163.244.138` to the Timeweb App Platform target `147.45.99.78`. Both
+authoritative nameservers and Cloudflare Public DNS return the new address.
+Google Public DNS still returned the old `www` address during the release check
+with roughly 5.5 hours of cached TTL remaining. This is a DNS propagation wait,
+not an application or email blocker.
+
+The apex already has a valid Let's Encrypt certificate for
+`ventroviaglobal.com` and serves the English Ventrovia build. The `www`
+certificate is still pending while the old public-DNS cache remains reachable.
+The application-level permanent `www` to apex redirect is deployed and must be
+verified only after the `www` TLS handshake succeeds.
 
 `industriapostavok.ru` and its `www` host resolve to `147.45.99.78`, a Timeweb
-Cloud network. They currently serve the older Ventrovia deployment. The `.ru`
-domain must remain attached until the `.com` cutover gates below are green.
+Cloud network. They remain attached as rollback hosts during propagation. The
+`.ru` domain must remain attached until every `.com` cutover gate below is green.
 
 ## Timeweb cutover
 
@@ -69,12 +78,19 @@ required.
 
 ## Clean deployment result
 
-The first authenticated cutover deployment completed successfully from clean
-Brand Knowledge commit `735386a`. Timeweb reported the new container healthy
-and removed the previous container. Runtime verification returned ordinary 404
+The authenticated cutover deployment completed successfully from clean Brand
+Knowledge commit `142afbb`. Timeweb reported the new container healthy and
+removed the previous container. Runtime verification returned ordinary 404
 responses for `/catalog`, a legacy SKU path, the public product API and the
 catalogue health admin route. The public sitemap contained 146 manufacturer
 URLs and zero product URLs.
+
+The apex currently passes its certificate, canonical, English metadata,
+manufacturer sitemap and zero-product checks. During Timeweb edge propagation,
+some requests briefly reached the provider's default OpenResty 404 handler while
+others reached the healthy Caddy/Next.js application. Treat production as
+`PENDING_PROPAGATION` until repeated checks are stable and `www` has a valid
+certificate. Do not detach `.ru` during this period.
 
 The Timeweb settings form continued returning legacy `.ru` values after an
 authenticated save and reload. To prevent that provider state from overriding
@@ -112,6 +128,21 @@ Email is deliberately independent of this release gate. The approved status is
 `EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS` until a mailbox owner separately
 provides access or verifies delivery. Public forms must remain in `SAFE_FAILURE`
 unless a real transport or independent server-side submission store is proven.
+
+Current pre-detach state (2026-08-19):
+
+- `VENTROVIA_COM_DNS = PENDING_PROPAGATION` (`www` is still cached by one public resolver);
+- `VENTROVIA_COM_SSL = PENDING_WWW_CERTIFICATE`;
+- `VENTROVIA_PRODUCTION = PENDING_EDGE_STABILITY`;
+- `WWW_REDIRECT = DEPLOYED_NOT_YET_TLS_VERIFIED`;
+- `CANONICAL = PASS`;
+- `MANUFACTURER_SITEMAP = PASS` (146 manufacturer URLs);
+- `PRODUCT_SITEMAP_ZERO = PASS`;
+- `CATALOG_ABSENT = PASS`;
+- `NO_DEPENDENCY_ON_RU = PASS` in source and the current `.com` build;
+- `OLD_RU_DETACH = NOT_EXECUTED_BY_GATE`;
+- `EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS`;
+- `FORMS = SAFE_FAILURE` (no proven independent server-side store).
 
 ## Rollback
 
