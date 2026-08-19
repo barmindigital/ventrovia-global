@@ -35,14 +35,14 @@ test("international profiles remain source-backed and English", async () => {
     const hasTierASource = profile.sources.some(({ tier, status, url }) =>
       tier === "A" && status === "AVAILABLE" && url.startsWith("https://"),
     );
-    const hasOfficialParentEvidence = Boolean(profile.parentCompany)
+    const hasOfficialCorporateEvidence = Boolean(profile.parentCompany)
       && profile.sources.some(({ tier, type, status, url }) =>
         tier === "B"
-        && /PARENT|ACQUISITION/u.test(type)
+        && /PARENT|ACQUISITION|SUCCESSOR|RIGHTS_OWNER/u.test(type)
         && status === "AVAILABLE"
         && url.startsWith("https://"),
       );
-    assert.ok(hasTierASource || hasOfficialParentEvidence);
+    assert.ok(hasTierASource || hasOfficialCorporateEvidence);
     assert.ok(profile.productCategories.length > 0);
     assert.equal(descriptions.has(profile.shortDescription), false);
     descriptions.add(profile.shortDescription);

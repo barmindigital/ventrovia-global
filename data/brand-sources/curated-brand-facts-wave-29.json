@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-08-19",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "econosto",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "The generic repository identity ECONOSTO cannot be bound safely to one current manufacturer. Official manufacturer-owned sources identify ECONOSTO Oy in Kuopio, Finland, as a valve supplier within KLINGER Finland, while separate official sources identify Siekmann Econosto GmbH in Dortmund, Germany, as an industrial-valve manufacturer and supplier within ERIKS. The repository record has no domain, legal name, country, alias or product-scope discriminator that selects one of these distinct current entities or the wider Royal Econosto legacy.",
+      "attemptedUrls": [
+        "https://www.econosto.fi/en/",
+        "https://www.econosto.fi/en/company/",
+        "https://www.econosto.fi/en/products/",
+        "https://siekmann-econosto.de/en/",
+        "https://siekmann-econosto.de/en/about-us/",
+        "https://www.siekmann-econosto.de/en/geschichte/"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "ee-elektronik",
+      "officialName": "E+E Elektronik Ges.m.b.H.",
+      "displayName": "E+E Elektronik",
+      "aliases": [
+        "E+E ELEKTRONIK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.epluse.com/",
+      "officialDomains": [
+        "epluse.com"
+      ],
+      "country": "Austria",
+      "headquarters": "Engerwitzdorf, Austria",
+      "foundedYear": 1979,
+      "parentCompany": "DR. JOHANNES HEIDENHAIN GmbH",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "E+E Elektronik develops and manufactures sensors, transmitters and hand-held instruments for humidity, dew point, oil moisture, carbon dioxide, air velocity, flow, pressure and temperature. Its portfolio also includes humidity calibration systems and accredited calibration services for industrial, HVAC and environmental measurement.",
+      "fullDescription": [
+        "E+E Elektronik Ges.m.b.H. is an Austrian measurement-technology manufacturer founded in 1979 and based in Engerwitzdorf. DR. JOHANNES HEIDENHAIN GmbH acquired the company in 1994, while E+E continues to operate as a specialist sensor brand.",
+        "Official product sources document sensing elements, probes, transmitters and hand-held instruments for humidity, dew point, moisture in oil, carbon dioxide, air velocity, gas flow, differential pressure and temperature. The range also includes data loggers and humidity calibration systems. E+E operates an accredited calibration laboratory, and its measurement technologies are applied across building automation and HVAC, process and plant engineering, food and beverage production, pharmaceuticals, energy, petrochemicals, meteorology and industrial instrumentation."
+      ],
+      "productCategories": [
+        "Датчики влажности",
+        "Датчики точки росы",
+        "Датчики влажности масла",
+        "Датчики CO₂",
+        "Датчики скорости воздуха",
+        "Расходомеры",
+        "Датчики дифференциального давления",
+        "Датчики температуры",
+        "Калибровочное оборудование"
+      ],
+      "productFamilies": [
+        "Humidity Sensors and Transmitters",
+        "Dew Point Sensors and Transmitters",
+        "Moisture-in-Oil Sensors",
+        "CO2 Sensors and Transmitters",
+        "Air-Velocity Sensors and Probes",
+        "Thermal Mass Flow Meters",
+        "Differential Pressure Sensors",
+        "Temperature Sensors and Transmitters",
+        "Hand-Held Measuring Instruments",
+        "Data Loggers",
+        "Humidity Calibration Systems"
+      ],
+      "series": [
+        "HTS401",
+        "HTS801",
+        "TDS501",
+        "AVS701",
+        "EE260",
+        "EE08",
+        "EE451",
+        "Omniport 40"
+      ],
+      "industries": [
+        "Сельское хозяйство",
+        "Автоматизация зданий и HVAC",
+        "Химическая промышленность",
+        "Электронная промышленность",
+        "Пищевая промышленность",
+        "Машиностроение и промышленное оборудование",
+        "Метеорология",
+        "Горнодобывающая и металлургическая промышленность",
+        "Транспорт и мобильная техника",
+        "Нефтяная и нефтехимическая промышленность",
+        "Фармацевтическая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.epluse.com/fileadmin/content_epluse/Product_Catalog/E_E_Product_Catalog_2026_web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.epluse.com/products/",
+        "https://www.epluse.com/products/humidity-instruments/",
+        "https://www.epluse.com/fileadmin/content_epluse/Product_Catalog/E_E_Product_Catalog_2026_web.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ee-elektronik-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "IDENTITY_FOUNDED_HEADQUARTERS_OWNERSHIP_SPECIALISATION_INDUSTRIES_AND_CALIBRATION",
+          "url": "https://www.epluse.com/company/about-e-e/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-ee-elektronik-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CATEGORY_FAMILY_SERIES_AND_APPLICATION",
+          "url": "https://www.epluse.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-ee-elektronik-history",
+          "tier": "A",
+          "type": "HISTORY",
+          "scope": "IDENTITY_FOUNDED_HISTORY_ACQUISITION_AND_PARENT_COMPANY",
+          "url": "https://www.epluse.com/company/the-history-of-e-e-elektronik/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-ee-elektronik-imprint",
+          "tier": "A",
+          "type": "LEGAL",
+          "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
+          "url": "https://www.epluse.com/imprint/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-ee-elektronik-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "CATEGORY_FAMILY_SERIES_AND_DOCUMENTATION",
+          "url": "https://www.epluse.com/fileadmin/content_epluse/Product_Catalog/E_E_Product_Catalog_2026_web.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "elobau",
+      "officialName": "elobau GmbH & Co. KG",
+      "displayName": "elobau",
+      "aliases": [
+        "ELOBAU"
+      ],
+      "formerNames": [
+        "elobau Elektrobauelemente GmbH & Co. KG"
+      ],
+      "officialWebsite": "https://www.elobau.com/en/",
+      "officialDomains": [
+        "elobau.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Leutkirch im Allgäu, Germany",
+      "foundedYear": 1972,
+      "parentCompany": null,
+      "shortDescription": "elobau develops contactless sensor and control solutions for mobile machinery and industrial automation. Its portfolio covers operator controls, machine-safety systems, level measurement, and position, angle and tilt sensors.",
+      "fullDescription": [
+        "elobau GmbH & Co. KG is a German sensor and control-technology manufacturer founded in 1972 and based in Leutkirch im Allgäu. The company began with a magnetic reed-contact proximity switch and continues to develop contactless sensing and customised control systems.",
+        "Official product sources document joysticks, multifunction handles, modular armrests and steering-column controls for off-highway machinery. The industrial range includes magnetic and RFID safety sensors, safety interlocks, emergency-stop devices, relays, I/O modules and configurable safety controllers. elobau also supplies float switches and continuous level-measurement systems, together with proximity, angle and tilt sensors for mobile and industrial applications."
+      ],
+      "productCategories": [
+        "Органы управления мобильной техникой",
+        "Системы машинной безопасности",
+        "Оборудование для измерения уровня",
+        "Датчики положения и движения"
+      ],
+      "productFamilies": [
+        "Custom and Modular Operating Systems",
+        "Multi-Function Handles",
+        "Single-Axis and Multi-Axis Joysticks",
+        "Thumbwheels and Push Buttons",
+        "Steering-Column Switches and Hand Throttles",
+        "Configurable Safety Systems",
+        "Safety Controllers, Relays and I/O Modules",
+        "Magnetic, RFID and ATEX Safety Sensors",
+        "Emergency Stops and Safety Interlocks",
+        "Miniature and Side-Mount Float Switches",
+        "Continuous Level-Measurement Systems",
+        "Suction Pipes",
+        "Tilt, Angle, Proximity, Vane and Plunger Sensors"
+      ],
+      "series": [
+        "eloProg",
+        "eloFlex",
+        "eloProtect E",
+        "eloLance SL2R",
+        "225MA midi",
+        "JE"
+      ],
+      "industries": [
+        "Мобильная спецтехника",
+        "Сельскохозяйственная техника",
+        "Строительная техника",
+        "Промышленные транспортные средства",
+        "Промышленная автоматизация",
+        "Пищевая и упаковочная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.elobau.com/wp-content/uploads/2019/05/elobau_catalog_operator_controls-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.elobau.com/en/elobau-product-range/",
+        "https://www.elobau.com/en/products/operator-controls/",
+        "https://www.elobau.com/en/products/machine-safety/",
+        "https://www.elobau.com/en/downloads/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-elobau-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "IDENTITY_FOUNDED_SPECIALISATION_PRODUCT_SCOPE_AND_APPLICATIONS",
+          "url": "https://www.elobau.com/en/about-elobau/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elobau-history",
+          "tier": "A",
+          "type": "HISTORY",
+          "scope": "IDENTITY_FORMER_NAME_FOUNDED_HISTORY_AND_TECHNOLOGY",
+          "url": "https://www.elobau.com/en/about-elobau/history/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elobau-product-range",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CATEGORY_FAMILY_SERIES_AND_APPLICATION",
+          "url": "https://www.elobau.com/en/elobau-product-range/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elobau-operator-controls",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "OPERATOR_CONTROL_FAMILIES_SERIES_AND_OFF_HIGHWAY_APPLICATIONS",
+          "url": "https://www.elobau.com/en/products/operator-controls/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elobau-machine-safety",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MACHINE_SAFETY_FAMILIES_SERIES_AND_APPLICATIONS",
+          "url": "https://www.elobau.com/en/products/machine-safety/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elobau-contact",
+          "tier": "A",
+          "type": "CONTACT",
+          "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
+          "url": "https://www.elobau.com/en/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elobau-downloads",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION_CATALOGS_CERTIFICATES_AND_SERIES",
+          "url": "https://www.elobau.com/en/downloads/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    }
+  ]
+}

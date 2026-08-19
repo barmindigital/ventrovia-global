@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-08-19",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "jiskoot",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "The repository identity JISKOOT cannot be bound safely to one current manufacturer. Jiskoot Solutions Ltd is an independent sampling and measurement consultancy and equipment developer, while its own company history distinguishes that business from the earlier Jiskoot Ltd, whose JISKOOT technology became part of SLB. The repository record has no domain, legal name or product-scope discriminator that proves which entity is intended.",
+      "attemptedUrls": [
+        "https://www.jiskootsolutions.com/",
+        "https://www.jiskootsolutions.com/about-us/",
+        "https://www.jiskootsolutions.com/products/",
+        "https://www.jiskootsolutions.com/solutions/",
+        "https://careers.slb.com/inside-slb/our-stories/hart-ep-energy-innovator"
+      ]
+    },
+    {
+      "manufacturerId": "lamson",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "The repository identity LAMSON is shared by multiple active manufacturer-owned businesses. Official sites identify a Lamson industrial-blower brand within Hoffman & Lamson, Lamson Oil Company for metalworking fluids, Lamson Manufacturing for CNC machining, and Lamson Concepts for materials-handling and pneumatic-tube systems. The repository record has no domain or product-scope evidence that selects one of these unrelated entities.",
+      "attemptedUrls": [
+        "https://www.hoffmanandlamson.com/en/about-us/",
+        "https://www.hoffmanandlamson.com/en/products/",
+        "https://lamsonoil.com/",
+        "https://www.lamsonmfg.com/",
+        "https://www.lamson.com.au/"
+      ]
+    },
+    {
+      "manufacturerId": "lta",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-19",
+      "reason": "The short repository identity LTA cannot be resolved to one manufacturer without an independent discriminator. LTA Lufttechnik GmbH manufactures industrial filtration and extraction systems, while unrelated active businesses use LTA for CNC machining, poultry-processing equipment and engineered inflatable structures. The repository record contains no official domain, alias or product scope that proves the intended entity.",
+      "attemptedUrls": [
+        "https://www.lta-filter.com/en/",
+        "https://www.lta-filter.com/en/imprint/",
+        "https://lta-machining.com/",
+        "https://www.ltadistributing.com/",
+        "https://www.ltaprojects.com/projects/"
+      ]
+    },
+    {
+      "manufacturerId": "kovosvit-mas",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-19",
+      "reason": "The KOVOSVIT MAS identity is distinctive and the manufacturer's indexed reference catalogue exposes current machine families, but the official sources could not be verified through a valid TLS connection. The main kovosvit.cz host presents a certificate whose hostname does not match, and references.kovosvit.cz presents an untrusted issuer chain. Cached search material was not substituted for an accessible Tier A source, so the page remains blocked from BRAND_SAFE publication.",
+      "attemptedUrls": [
+        "https://www.kovosvit.cz/",
+        "https://www.kovosvit.cz/en/",
+        "https://www.kovosvit.cz/en/products",
+        "https://references.kovosvit.cz/en/katalog/top_references.html",
+        "https://references.kovosvit.cz/en/katalog/stroj/6.html"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "husqvarna",
+      "officialName": "Husqvarna",
+      "displayName": "Husqvarna",
+      "aliases": [
+        "HUSQVARNA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.husqvarna.com/us/",
+      "officialDomains": [
+        "husqvarna.com",
+        "husqvarnaconstruction.com",
+        "husqvarnagroup.com"
+      ],
+      "country": "Sweden",
+      "headquarters": null,
+      "foundedYear": 1689,
+      "parentCompany": "Husqvarna Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Husqvarna is a Husqvarna Group brand for professional forest, park, garden and light-construction equipment. Its official ranges cover forestry and grounds-care machines, robotic mowers, battery equipment, concrete-cutting and surface-preparation machines, demolition systems and diamond tools.",
+      "fullDescription": [
+        "Husqvarna traces its heritage to the Swedish town of Huskvarna in 1689 and is one of the principal global brands of Husqvarna Group. The brand serves forestry, tree-care, landscaping and construction users through the group's Forest & Garden and Construction divisions.",
+        "Official product ranges include chainsaws, clearing saws, pole saws, trimmers, blowers, hedge trimmers, walk-behind and ride-on mowers, robotic mowers and battery equipment. For light-construction work, Husqvarna supplies power cutters, floor, wall and wire saws, drilling and surface-preparation equipment, demolition robots, dust and slurry solutions, and diamond tools for concrete and natural-stone applications."
+      ],
+      "productCategories": [
+        "Лесозаготовительное оборудование",
+        "Садово-парковая техника",
+        "Роботизированные газонокосилки",
+        "Аккумуляторный инструмент",
+        "Оборудование для строительных работ",
+        "Оборудование для резки и бурения",
+        "Оборудование для обработки полов",
+        "Алмазный инструмент"
+      ],
+      "productFamilies": [
+        "Chainsaws",
+        "Clearing Saws",
+        "Pole Saws",
+        "Grass Trimmers and Brushcutters",
+        "Leaf Blowers",
+        "Hedge Trimmers",
+        "Walk-Behind, Ride-On and Zero-Turn Mowers",
+        "Robotic Lawn Mowers",
+        "Battery Equipment",
+        "Power Cutters",
+        "Floor, Wall and Wire Saws",
+        "Drilling Equipment",
+        "Surface Preparation Equipment",
+        "Demolition Robots",
+        "Dust and Slurry Solutions",
+        "Diamond Tools"
+      ],
+      "series": [
+        "Automower",
+        "CEORA",
+        "EPOS",
+        "DXR"
+      ],
+      "industries": [
+        "Лесное хозяйство",
+        "Уход за деревьями",
+        "Ландшафтный дизайн и обслуживание территорий",
+        "Строительство",
+        "Бетонные работы",
+        "Обработка природного камня"
+      ],
+      "officialCatalogs": [
+        "https://www.husqvarnaconstruction.com/us/support/"
+      ],
+      "documentationSources": [
+        "https://www.husqvarna.com/us/",
+        "https://www.husqvarnaconstruction.com/us/",
+        "https://www.husqvarnaconstruction.com/us/support/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-husqvarna-group-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "IDENTITY_PARENT_FOUNDED_SPECIALISATION_PRODUCT_SCOPE_AND_GLOBAL_PRESENCE",
+          "url": "https://www.husqvarnagroup.com/en/our-company",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-husqvarna-group-history",
+          "tier": "A",
+          "type": "HISTORY",
+          "scope": "FOUNDED_HISTORY_BRAND_SCOPE_FAMILIES_AND_SERIES",
+          "url": "https://www.husqvarnagroup.com/en/history-timeline",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-husqvarna-forest-garden-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FOREST_GARDEN_CATEGORY_FAMILY_AND_SERIES",
+          "url": "https://www.husqvarna.com/us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-husqvarna-construction-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CONSTRUCTION_CATEGORY_FAMILY_SERIES_AND_APPLICATION",
+          "url": "https://www.husqvarnaconstruction.com/us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-husqvarna-construction-support",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION_CATALOGS_MANUALS_AND_PARTS_LISTS",
+          "url": "https://www.husqvarnaconstruction.com/us/support/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
+    }
+  ]
+}

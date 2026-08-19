@@ -40,12 +40,12 @@ for (const profile of knowledge.profiles) {
   assert.equal(profile.enContentStatus, "EN_CONTENT_READY");
   assert.equal(profile.enSeoStatus, "EN_SEO_READY");
   const hasTierASource = profile.sources.some((source) => source.tier === "A");
-  const hasOfficialParentEvidence = Boolean(profile.parentCompany)
+  const hasOfficialCorporateEvidence = Boolean(profile.parentCompany)
     && profile.sources.some((source) =>
       source.tier === "B"
-      && /PARENT|ACQUISITION/u.test(source.type),
+      && /PARENT|ACQUISITION|SUCCESSOR|RIGHTS_OWNER/u.test(source.type),
     );
-  assert.ok(hasTierASource || hasOfficialParentEvidence);
+  assert.ok(hasTierASource || hasOfficialCorporateEvidence);
   assert.ok(profile.shortDescription.length >= 100);
   assert.ok(profile.fullDescription.length >= 3);
   assert.doesNotMatch(
