@@ -1,20 +1,20 @@
 {
   "measurementStatus": "MEASURED",
-  "processedManufacturers": 934,
-  "safe": 816,
+  "processedManufacturers": 948,
+  "safe": 830,
   "blockedOrReview": 118,
-  "sourceSuccessRate": 0.8737,
+  "sourceSuccessRate": 0.8755,
   "averageSourcesPerSafe": 2.35,
   "sprint19": {
     "processingStartedAt": "2026-08-19T21:51:37.000Z",
     "processingFinishedAt": "2026-08-19T22:44:14.000Z",
     "elapsedHours": 0.8769,
-    "processed": 389,
-    "safe": 316,
+    "processed": 403,
+    "safe": 330,
     "review": 73,
-    "sourceSuccessRate": 0.8123,
-    "processedPerHour": 443.59,
-    "safePerHour": 360.34,
+    "sourceSuccessRate": 0.8189,
+    "processedPerHour": 459.55,
+    "safePerHour": 376.31,
     "reviewPerHour": 83.24,
     "batches": [
       {
@@ -156,6 +156,13 @@
         "safe": 7,
         "review": 3,
         "processed": 10
+      },
+      {
+        "wave": 68,
+        "file": "curated-brand-facts-wave-68.json",
+        "safe": 14,
+        "review": 0,
+        "processed": 14
       }
     ]
   }

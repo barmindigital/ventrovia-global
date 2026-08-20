@@ -37408,19 +37408,60 @@
   },
   {
     "manufacturerId": "hbc-radiomatic",
-    "displayName": "HBC RADIOMATIC",
-    "status": "BRAND_WEAK",
+    "displayName": "HBC-radiomatic",
+    "status": "BRAND_SAFE",
     "priority": 752,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "hbc-radiomatic.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_RADIO_CONTROL_SPECIALISATION",
+        "url": "https://www.hbc-radiomatic.com/en/company/company-profile.html",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "RADIO_TRANSMITTER_FAMILIES_AND_APPLICATIONS",
+        "url": "https://www.hbc-radiomatic.com/en-GB/products/transmitters/overview.html",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "RADIO_RECEIVER_FAMILIES",
+        "url": "https://www.hbc-radiomatic.com/en/products/receivers/overview.html",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "industrial safety equipment"
+      ],
+      "families": [
+        "Radio Transmitters",
+        "Radio Receivers",
+        "Data Transmission Systems",
+        "Safety and Protection Functions"
+      ],
+      "industries": [
+        "industrial processing",
+        "transportation",
+        "factory automation",
+        "mining",
+        "marine applications",
+        "agriculture"
+      ],
+      "country": "Germany",
+      "headquarters": "Crailsheim, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
@@ -37617,18 +37658,55 @@
   {
     "manufacturerId": "maag",
     "displayName": "MAAG",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 757,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "maag.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "GROUP_IDENTITY_PARENT_HEADQUARTERS_AND_PROCESS_SPECIALISATION",
+        "url": "https://maag.com/about-us/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PUMP_FILTRATION_PELLETIZING_PULVERIZING_AND_RECYCLING_FAMILIES",
+        "url": "https://maag.com/maag-products/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "filtration and water systems",
+        "industrial machinery",
+        "process equipment"
+      ],
+      "families": [
+        "Gear Pumps",
+        "Pump and Filtration Systems",
+        "Pelletizing Systems",
+        "Pulverizing Systems",
+        "Recycling Systems",
+        "Screen Changers",
+        "Dryers"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "oil and gas",
+        "food and pharmaceutical processing"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Oberglatt, Switzerland"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
@@ -37667,19 +37745,52 @@
   },
   {
     "manufacturerId": "neugart",
-    "displayName": "NEUGART",
-    "status": "BRAND_WEAK",
+    "displayName": "Neugart",
+    "status": "BRAND_SAFE",
     "priority": 760,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "neugart.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_GEARBOX_SPECIALISATION",
+        "url": "https://www.neugart.com/en/company/about-us/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PLANETARY_PRECISION_ECONOMY_APPLICATION_SPECIFIC_AND_CUSTOM_GEARBOXES",
+        "url": "https://www.neugart.com/en/planetary-gearbox",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "gear units and geared drives"
+      ],
+      "families": [
+        "Economy Planetary Gearboxes",
+        "Precision Planetary Gearboxes",
+        "Application-Specific Gearboxes",
+        "Customized Gearboxes",
+        "Rack and Pinion Systems"
+      ],
+      "industries": [
+        "factory automation",
+        "packaging",
+        "industrial manufacturing",
+        "food and pharmaceutical processing",
+        "laboratory and life-science applications"
+      ],
+      "country": "Germany",
+      "headquarters": "Kippenheim, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
@@ -37718,53 +37829,160 @@
   },
   {
     "manufacturerId": "oriental-motor",
-    "displayName": "ORIENTAL MOTOR",
-    "status": "BRAND_WEAK",
+    "displayName": "Oriental Motor",
+    "status": "BRAND_SAFE",
     "priority": 763,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "orientalmotor.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "CORPORATE_IDENTITY_HISTORY_AND_MOTION_SYSTEM_SPECIALISATION",
+        "url": "https://www.orientalmotor.com/company/index.html",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MOTOR_ACTUATOR_ROBOT_CONTROLLER_ENCODER_AND_FAN_FAMILIES",
+        "url": "https://www.orientalmotor.com/products/index.html",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "drive and motion-control systems",
+        "robotics and automation components",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "AC Motors and Gear Motors",
+        "Stepper Motor Systems",
+        "Servo Motors",
+        "Brushless DC Motors",
+        "Linear Actuators",
+        "Rotary Actuators",
+        "Industrial Robots",
+        "Controllers and Gateways",
+        "Cooling Fans"
+      ],
+      "industries": [
+        "factory automation",
+        "laboratory and life-science applications",
+        "food and pharmaceutical processing",
+        "transportation",
+        "electronics and semiconductor manufacturing"
+      ],
+      "country": "Japan",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "pas-reform",
-    "displayName": "PAS REFORM",
-    "status": "BRAND_WEAK",
+    "displayName": "Royal Pas Reform",
+    "status": "BRAND_SAFE",
     "priority": 764,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "pasreform.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_PARENT_HEADQUARTERS_AND_HATCHERY_SPECIALISATION",
+        "url": "https://www.pasreform.com/us/about",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "SOLUTION_DIRECTORY",
+        "tier": "A",
+        "scope": "EGG_INCUBATION_HATCHING_CHICK_WASHING_CLIMATE_AND_PROCESS_FAMILIES",
+        "url": "https://www.pasreform.com/en/solutions",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "conveying and material-handling systems",
+        "industrial automation and control",
+        "industrial cleaning systems"
+      ],
+      "families": [
+        "Egg Handling",
+        "Incubation",
+        "Candling and Transfer",
+        "Hatching",
+        "Chick Handling",
+        "Washing and Waste Handling",
+        "Climate Control",
+        "Process Control"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "factory automation"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Zeddam, Netherlands"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "revent",
-    "displayName": "REVENT",
-    "status": "BRAND_WEAK",
+    "displayName": "Revent",
+    "status": "BRAND_SAFE",
     "priority": 765,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "revent.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "MANUFACTURER_IDENTITY_HEADQUARTERS_AND_BAKERY_OVEN_SPECIALISATION",
+        "url": "https://revent.com/about-us/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "RACK_DECK_OVEN_PROOFING_COOLING_AND_VACUUM_FAMILIES",
+        "url": "https://revent.com/products/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Rack Ovens",
+        "Deck Ovens",
+        "Proofing and Cooling",
+        "Vacuum Cooling",
+        "Rotosole"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Sweden",
+      "headquarters": "Upplands Väsby, Sweden"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
@@ -37803,70 +38021,216 @@
   },
   {
     "manufacturerId": "sandvik",
-    "displayName": "SANDVIK",
-    "status": "BRAND_WEAK",
+    "displayName": "Sandvik",
+    "status": "BRAND_SAFE",
     "priority": 768,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "sandvik.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_ENGINEERING_SPECIALISATION",
+        "url": "https://www.home.sandvik/en/about-us/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_AND_SERVICE_DIRECTORY",
+        "tier": "A",
+        "scope": "MINING_ROCK_PROCESSING_MACHINING_SOFTWARE_METROLOGY_AND_POWDER_SCOPE",
+        "url": "https://www.home.sandvik/en/offerings/products-and-services/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "construction and heavy machinery",
+        "industrial tools",
+        "industrial machinery",
+        "industrial software"
+      ],
+      "families": [
+        "Mining Equipment and Tools",
+        "Rock Excavation Equipment",
+        "Rock Processing Solutions",
+        "Cutting Tools",
+        "Tooling Systems",
+        "Digital Manufacturing Solutions",
+        "Metrology Technologies",
+        "Metal Powders"
+      ],
+      "industries": [
+        "mining",
+        "transportation",
+        "aerospace",
+        "industrial manufacturing"
+      ],
+      "country": "Sweden",
+      "headquarters": "Stockholm, Sweden"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sanovo",
     "displayName": "SANOVO",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 769,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sanovogroup.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_HISTORY_FOUNDED_PARENT_AND_HEADQUARTERS",
+        "url": "https://www.sanovogroup.com/en/about-us/company-overview/history/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "SOLUTION_DIRECTORY",
+        "tier": "A",
+        "scope": "EGG_HANDLING_PROCESSING_PACKING_ROBOTICS_DRYING_AND_VACCINE_SCOPE",
+        "url": "https://www.sanovogroup.com/en/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "conveying and material-handling systems",
+        "filling and packaging machinery",
+        "robotics and automation components"
+      ],
+      "families": [
+        "Egg Grading",
+        "Egg Processing",
+        "Egg Packing",
+        "Robotic Automation",
+        "Fertilized Egg Handling",
+        "Spray Drying",
+        "Pasteurization",
+        "Inoculation and Harvesting Solutions"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "factory automation",
+        "agriculture"
+      ],
+      "country": "Denmark",
+      "headquarters": "Odense, Denmark"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sauter",
     "displayName": "SAUTER",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 770,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "sauter-controls.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_BUILDING_AUTOMATION_SCOPE",
+        "url": "https://www.sauter-controls.com/en/company/about-us/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "AUTOMATION_SENSOR_ACTUATOR_VALVE_AND_SOFTWARE_FAMILIES",
+        "url": "https://www.sauter-controls.com/en/product-catalogue/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "HVAC controls",
+        "industrial automation and control",
+        "industrial sensors",
+        "industrial valves and flow control",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Building Automation Systems",
+        "Room Automation",
+        "Sensors and Transducers",
+        "Valve and Damper Actuators",
+        "Control Valves",
+        "Building Management Software"
+      ],
+      "industries": [
+        "building systems",
+        "laboratory and life-science applications",
+        "food and pharmaceutical processing"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Basel, Switzerland"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schroedahl",
     "displayName": "SCHROEDAHL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 771,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schroedahl.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "MANUFACTURER_IDENTITY_PARENT_HEADQUARTERS_AND_SPECIALTY_VALVE_SCOPE",
+        "url": "https://www.schroedahl.com/en/company",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PUMP_PROTECTION_CONTROL_STEAM_AND_BYPASS_VALVE_FAMILIES",
+        "url": "https://www.schroedahl.com/en/products/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Automatic Pump Protection Valves",
+        "Pump Protection Control Valves",
+        "High-Pressure Control Valves",
+        "Steam Conditioning Valves",
+        "Turbine Bypass Stations",
+        "Desuperheaters"
+      ],
+      "industries": [
+        "energy",
+        "oil and gas",
+        "chemical processing",
+        "industrial processing",
+        "marine applications"
+      ],
+      "country": "Germany",
+      "headquarters": "Reichshof-Mittelagger, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
@@ -37888,36 +38252,111 @@
   },
   {
     "manufacturerId": "settima",
-    "displayName": "SETTIMA",
-    "status": "BRAND_WEAK",
+    "displayName": "Settima",
+    "status": "BRAND_SAFE",
     "priority": 773,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "settima.it",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_FOUNDED_PARENT_AND_PUMP_SPECIALISATION",
+        "url": "https://settima.it/about-us.asp",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CONTINUUM_SCREW_API_AND_ELECTRO_HYDRAULIC_FAMILIES",
+        "url": "https://www.settima.it/products.html",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "hydraulic equipment"
+      ],
+      "families": [
+        "Continuum Pumps",
+        "Three-Screw Pumps",
+        "SAE and NEMA Screw Pumps",
+        "Triumflex Pumps",
+        "API 676 Pumps",
+        "Industrial Electro-Hydraulic Solutions",
+        "Mobile Electro-Hydraulic Solutions"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "oil and gas",
+        "industrial manufacturing",
+        "marine applications"
+      ],
+      "country": "Italy",
+      "headquarters": "Milan, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sydex",
-    "displayName": "SYDEX",
-    "status": "BRAND_WEAK",
+    "displayName": "Sydex",
+    "status": "BRAND_SAFE",
     "priority": 774,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sydexpump.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_FOUNDED_PARENT_HEADQUARTERS_AND_PUMP_SPECIALISATION",
+        "url": "https://www.sydexpump.com/en/azienda/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PROGRESSIVE_CAVITY_PERISTALTIC_HYGIENIC_VERTICAL_GRINDER_AND_MACERATOR_FAMILIES",
+        "url": "https://www.sydexpump.com/en/products/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "industrial machinery",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Progressive Cavity Pumps",
+        "Peristaltic Pumps",
+        "Hopper Pumps",
+        "Hygienic Pumps",
+        "Vertical Pumps",
+        "Conveyors",
+        "Grinders",
+        "Macerators"
+      ],
+      "industries": [
+        "water and wastewater",
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "mining",
+        "marine applications",
+        "oil and gas"
+      ],
+      "country": "Italy",
+      "headquarters": "Lonigo, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
@@ -37939,36 +38378,106 @@
   },
   {
     "manufacturerId": "walraven",
-    "displayName": "WALRAVEN",
-    "status": "BRAND_WEAK",
+    "displayName": "Walraven",
+    "status": "BRAND_SAFE",
     "priority": 776,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "walraven.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_FOUNDED_HEADQUARTERS_AND_INSTALLATION_SPECIALISATION",
+        "url": "https://www.walraven.com/int/about-walraven/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PIPE_SUPPORT_RAIL_FIXING_FASTENER_BRACKET_AND_ROOF_SUPPORT_FAMILIES",
+        "url": "https://www.walraven.com/us/products/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial fixing and support systems"
+      ],
+      "families": [
+        "Pipe Clamps and Supports",
+        "Strut and Rail Systems",
+        "Light Fixings",
+        "Fasteners",
+        "Brackets",
+        "Cable Ties",
+        "Expansion Devices",
+        "Fixed-Point Assemblies",
+        "Rooftop Supports"
+      ],
+      "industries": [
+        "building systems",
+        "industrial processing"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Mijdrecht, Netherlands"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "weber-food-technology",
-    "displayName": "WEBER FOOD TECHNOLOGY",
-    "status": "BRAND_WEAK",
+    "displayName": "Weber Food Technology",
+    "status": "BRAND_SAFE",
     "priority": 777,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "weberweb.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_FOOD_MACHINERY_SPECIALISATION",
+        "url": "https://us.weberweb.com/company/about-us/",
+        "checkedAt": "2026-08-20"
+      },
+      {
+        "type": "PRODUCT_AND_SOLUTION_DIRECTORY",
+        "tier": "A",
+        "scope": "PREPARATION_SLICING_AUTOMATION_PACKAGING_AND_LINE_INTEGRATION_FAMILIES",
+        "url": "https://us.weberweb.com/",
+        "checkedAt": "2026-08-20"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "filling and packaging machinery",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Preparation Systems",
+        "Yield Management",
+        "Slicers",
+        "Automation Systems",
+        "Transport Systems",
+        "Thermoforming Packaging",
+        "Labelling and Marking",
+        "Complete Line Solutions"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "packaging",
+        "factory automation"
+      ],
+      "country": "Germany",
+      "headquarters": "Breidenbach, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-20",
     "nextReviewAt": null
   },
   {

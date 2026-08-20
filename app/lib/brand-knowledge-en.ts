@@ -127,6 +127,7 @@ const categoryRules: Array<[RegExp, string]> = [
   [/конвейер|сортиров|пневматический транспорт|паллетн/iu, "conveying and material-handling systems"],
   [/внутризаводск|логистик|тележк|спутник.*детал|стеллаж|рабоч.*мест/iu, "conveying and material-handling systems"],
   [/кабел|разъём|токосъём/iu, "industrial connectivity"],
+  [/крепеж|креплен|опор.*труб|монтажн.*систем/iu, "industrial fixing and support systems"],
   [/робот|захват|AGV|AMR/iu, "robotics and automation components"],
   [/свароч|резк/iu, "welding and cutting equipment"],
   [/вентилятор|воздуходув/iu, "industrial fans and blowers"],
