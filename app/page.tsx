@@ -28,6 +28,8 @@ const featuredManufacturers = [
   { slug: "grundfos", name: "Grundfos" },
   { slug: "smc", name: "SMC" },
   { slug: "schneider-electric", name: "Schneider Electric" },
+  { slug: "rockwell-automation", name: "Rockwell Automation" },
+  { slug: "sick-ag", name: "SICK" },
 ];
 
 const heroTrustItems = [
