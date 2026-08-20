@@ -200,18 +200,24 @@ async function crawlWorker() {
 await Promise.all(Array.from({ length: concurrency }, crawlWorker));
 
 const assetResults = await mapLimit([...assets], concurrency, async (url) => {
-  try {
-    const response = await fetchWithTimeout(url);
-    await response.body?.cancel();
-    return {
-      url,
-      status: response.status,
-      finalUrl: response.url,
-      contentType: response.headers.get("content-type") ?? "",
-    };
-  } catch (error) {
-    return { url, status: 0, error: String(error?.message ?? error) };
+  let lastError = "";
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetchWithTimeout(url);
+      await response.body?.cancel();
+      return {
+        url,
+        status: response.status,
+        finalUrl: response.url,
+        contentType: response.headers.get("content-type") ?? "",
+        attempts: attempt,
+      };
+    } catch (error) {
+      lastError = String(error?.message ?? error);
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 150 * attempt));
+    }
   }
+  return { url, status: 0, error: lastError, attempts: 3 };
 });
 
 const indexablePages = pages.filter(({ inSitemap }) => inSitemap);
