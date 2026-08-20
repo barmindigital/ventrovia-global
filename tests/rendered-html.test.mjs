@@ -26,7 +26,7 @@ test("homepage is the English Ventrovia international site", async () => {
   assert.match(source, /lang="en"/);
   assert.match(source, /VENTROVIA/);
   assert.match(source, /Industrial equipment[\s\S]{0,100}sourcing worldwide/i);
-  assert.match(source, /Request a Quote/);
+  assert.match(source, /Request an Offer/);
   assert.match(source, /Dubai, UAE/);
   assert.doesNotMatch(source, /Индустрия Поставок|industriapostavok|VENTORVIA|href="\/catalog"/i);
 });
@@ -60,6 +60,30 @@ test("manufacturer directory and source-backed pages remain public", async () =>
   }
 });
 
+test("services is a standalone international sourcing page", async () => {
+  const source = await html("/services");
+  assert.match(source, /Industrial sourcing services/i);
+  assert.match(source, /Specification &amp; BOM requests/i);
+  assert.match(source, /Request an Offer/i);
+  assert.match(source, /"@type":"Service"/);
+  assert.match(source, /"@type":"BreadcrumbList"/);
+  assert.doesNotMatch(source, /authori[sz]ed distributor|guaranteed availability|own warehouse/i);
+});
+
+test("public navigation and primary CTA use the current services and offer policy", async () => {
+  const [header, footer, cta, contactDock] = await Promise.all([
+    readFile(new URL("../app/components/SiteHeader.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/SiteFooter.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/RequestCta.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/ContactDock.tsx", import.meta.url), "utf8"),
+  ]);
+  const publicCtaSource = `${header}\n${footer}\n${cta}\n${contactDock}`;
+  assert.match(header, /href: "\/services"/);
+  assert.match(footer, /href="\/services"/);
+  assert.doesNotMatch(publicCtaSource, /\/\#services|Request a Quote|Get a Quote/);
+  assert.match(publicCtaSource, /Request an Offer/);
+});
+
 test("manufacturer schema is factual and excludes commerce schema", async () => {
   const source = await html("/manufacturers/bosch-rexroth");
   assert.match(source, /"@type":"Brand"/);
@@ -79,6 +103,7 @@ test("sitemap contains only corporate and verified manufacturer URLs", async () 
   );
   assert.equal((source.match(/\/catalog(?:\/|<)/g) ?? []).length, 0);
   assert.match(source, /https:\/\/ventroviaglobal\.com\/manufacturers/);
+  assert.match(source, /https:\/\/ventroviaglobal\.com\/services/);
 });
 
 test("all product, category, payload and product-admin routes are absent", async () => {

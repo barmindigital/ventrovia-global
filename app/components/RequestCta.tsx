@@ -19,7 +19,7 @@ type RequestCtaProps = {
 };
 
 export function RequestCta({
-  children = "Request a Quote",
+  children = "Request an Offer",
   className = "button button-primary",
   defaultProduct = "",
   onTrigger,

@@ -11,7 +11,7 @@ const navigationItems = [
   { href: "/", key: "home", label: "Home" },
   { href: "/manufacturers", key: "manufacturers", label: "Manufacturers" },
   { href: "/about", key: "about", label: "About" },
-  { href: "/#services", key: "services", label: "Services" },
+  { href: "/services", key: "services", label: "Services" },
   { href: "/contacts", key: "contacts", label: "Contact" },
 ] as const;
 
@@ -44,9 +44,7 @@ export function SiteHeader() {
   const isActive = (key: (typeof navigationItems)[number]["key"]) =>
     key === "home"
       ? pathname === "/"
-      : key === "services"
-        ? false
-        : pathname === `/${key}` || pathname.startsWith(`/${key}/`);
+      : pathname === `/${key}` || pathname.startsWith(`/${key}/`);
 
   return (
     <header className="site-header">
@@ -61,7 +59,7 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <RequestCta className="header-cta" source="header_desktop">Request a Quote</RequestCta>
+        <RequestCta className="header-cta" source="header_desktop">Request an Offer</RequestCta>
         <details className="mobile-menu" onToggle={(event) => setMobileMenuOpen(event.currentTarget.open)} ref={mobileMenuRef}>
           <summary aria-expanded={mobileMenuOpen} aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}><span /><span /></summary>
           <nav aria-label="Mobile navigation">
@@ -70,7 +68,7 @@ export function SiteHeader() {
                 {item.label}
               </Link>
             ))}
-            <RequestCta className="mobile-menu-cta" onTrigger={closeMobileMenu} source="header_mobile">Request a Quote</RequestCta>
+            <RequestCta className="mobile-menu-cta" onTrigger={closeMobileMenu} source="header_mobile">Request an Offer</RequestCta>
           </nav>
         </details>
       </div>

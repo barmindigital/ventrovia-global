@@ -39,7 +39,7 @@ export default function AboutPage() {
             <p>Ventrovia is based in {SITE_BRAND.baseLocation} and operates with a worldwide market focus. We help procurement teams structure enquiries for industrial equipment, components and hard-to-find requirements.</p>
             <p>Our public manufacturer knowledge base uses official identity and product-area sources. It is designed to support correct brand identification without presenting an unverified product catalogue or implying authorised-dealer status.</p>
             <p>For each RFQ, the exact model, quantity, documentation and commercial requirements are reviewed before pricing and lead-time information are provided.</p>
-            <div className="company-actions specification-button"><RequestCta source="about_page">Request a Quote</RequestCta><RequestCta className="button button-outline" requestType="specification" source="about_page">Send Your Specification</RequestCta></div>
+            <div className="company-actions specification-button"><RequestCta source="about_page">Request an Offer</RequestCta><RequestCta className="button button-outline" requestType="specification" source="about_page">Send Your Specification</RequestCta></div>
           </article>
         </div>
       </section>

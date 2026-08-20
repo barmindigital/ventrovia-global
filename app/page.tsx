@@ -57,7 +57,7 @@ export default function Home() {
             <h1>{renderHeadingLines(pageContent.heading).map((line) => <span key={line}>{line}</span>)}</h1>
             <p className="hero-lead">{pageContent.intro}</p>
             <div className="hero-links">
-              <RequestCta className="button button-primary" source="hero_home">Request a Quote</RequestCta>
+              <RequestCta className="button button-primary" source="hero_home">Request an Offer</RequestCta>
               <RequestCta className="button button-outline" requestType="specification" source="hero_home">Send Your Specification</RequestCta>
             </div>
           </div>

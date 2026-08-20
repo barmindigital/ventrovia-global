@@ -19,6 +19,7 @@ type PageField = keyof PageContent;
 const pageLabels: Record<PageKey, string> = {
   home: "Home",
   manufacturers: "Manufacturers",
+  services: "Services",
   about: "About",
   contacts: "Contact",
 };

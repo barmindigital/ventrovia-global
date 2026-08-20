@@ -17,8 +17,8 @@ export function SiteFooter() {
         <div>
           <h2>Sourcing</h2>
           <Link href="/manufacturers">Manufacturers</Link>
-          <Link href="/#services">Services</Link>
-          <RequestCta className="footer-request-cta" source="footer">Request a Quote</RequestCta>
+          <Link href="/services">Services</Link>
+          <RequestCta className="footer-request-cta" source="footer">Request an Offer</RequestCta>
         </div>
         <div>
           <h2>Company</h2>

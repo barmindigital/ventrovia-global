@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { performance } from "node:perf_hooks";
 
@@ -15,6 +15,18 @@ const output = valueFor(
 const concurrency = Number(valueFor("--concurrency", "8"));
 const requestTimeoutMs = Number(valueFor("--timeout", "20000"));
 const maximumPages = Number(valueFor("--max-pages", "5000"));
+const brandManifest = JSON.parse(
+  await readFile(
+    new URL("../data/brand-operations/manifest.json", import.meta.url),
+    "utf8",
+  ),
+);
+const expectedManufacturerPages = Number(
+  valueFor(
+    "--expected-manufacturers",
+    String(brandManifest.indexableManufacturerPages),
+  ),
+);
 
 const oldIdentityPattern = /VENTORVIA|Индустрия Поставок|industriapostavok\.ru/iu;
 const productSchemaPattern = /"@type"\s*:\s*"(?:Product|Offer|AggregateRating|Review)"/iu;
@@ -256,7 +268,8 @@ const report = {
     brokenAssets: assetIssues.length,
   },
   gates: {
-    sitemapMatchesExpectedBrandSurface: manufacturerSitemapUrls.length === 816,
+    sitemapMatchesExpectedBrandSurface:
+      manufacturerSitemapUrls.length === expectedManufacturerPages,
     productSitemapZero: productLikeSitemapUrls.length === 0,
     allInternalPagesReachable: failures.length === 0 && pages.every(({ status }) => status === 200),
     indexableMetadata: indexableIssues.length === 0,

@@ -19,6 +19,7 @@ export const REQUEST_SOURCE_LABELS = {
   contacts_page: "Contact page",
   footer: "Site footer",
   about_page: "About page",
+  services_page: "Services page",
   home_specification: "Homepage specification request",
   manufacturer_page: "Manufacturer page",
   unattributed: "Unattributed source",

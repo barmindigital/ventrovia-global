@@ -18,7 +18,7 @@ export type SiteContent = {
     openGraphTitle: string;
     openGraphDescription: string;
   };
-  pages: Record<"home" | "manufacturers" | "about" | "contacts", PageContent>;
+  pages: Record<"home" | "manufacturers" | "services" | "about" | "contacts", PageContent>;
   templates: {
     manufacturerTitle: string;
     manufacturerDescription: string;
