@@ -43,7 +43,7 @@ export function ManufacturerBrowser({ manufacturers }: { manufacturers: PublicMa
       <div className="manufacturer-tools">
         <label className="sr-only" htmlFor="manufacturer-query">Search manufacturers</label>
         <input id="manufacturer-query" onChange={(event) => { setQuery(event.target.value); setVisibleCount(63); }} placeholder="Search by manufacturer or alias" type="search" value={query} />
-        <span>{formatCount(filtered.length)} manufacturers</span>
+        <span aria-live="polite">{formatCount(filtered.length)} {filtered.length === 1 ? "manufacturer" : "manufacturers"}</span>
       </div>
       <div aria-label="Manufacturer alphabet" className="manufacturer-alphabet">
         {letters.map((item) => <button aria-pressed={letter === item} className={letter === item ? "is-active" : undefined} key={item} onClick={() => { setLetter(item); setVisibleCount(63); }} type="button">{item}</button>)}
@@ -62,6 +62,13 @@ export function ManufacturerBrowser({ manufacturers }: { manufacturers: PublicMa
           );
         })}
       </div>
+      {filtered.length === 0 && (
+        <div className="empty-state" role="status">
+          <h2>No manufacturers found</h2>
+          <p>Check the spelling, try another alias or clear the current filters.</p>
+          <button className="button button-outline" onClick={() => { setQuery(""); setLetter("All"); setVisibleCount(63); }} type="button">Clear search</button>
+        </div>
+      )}
       {visibleCount < filtered.length && <div className="manufacturer-more"><button className="button button-outline" onClick={() => setVisibleCount((count) => count + 63)} type="button">Show 63 more</button><span>Showing {formatCount(Math.min(visibleCount, filtered.length))} of {formatCount(filtered.length)}</span></div>}
       <p className="trademark-note">All trademarks belong to their respective owners and are used for identification. Displaying a logo does not indicate authorised-dealer status. <Link href="/manufacturers/logos">Logo sources and rights</Link></p>
     </>

@@ -20,10 +20,14 @@ export function RequestModal() {
   const [submitted, setSubmitted] = useState(false);
   const [requestDetail, setRequestDetail] = useState<RequestModalDetail>({});
   const dialogRef = useRef<HTMLDivElement>(null);
+  const openerRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const handleOpen = (event: Event) => {
       const detail = (event as CustomEvent<RequestModalDetail>).detail;
+      openerRef.current = document.activeElement instanceof HTMLElement
+        ? document.activeElement
+        : null;
       setRequestDetail(detail ?? {});
       setSubmitted(false);
       setOpen(true);
@@ -37,7 +41,24 @@ export function RequestModal() {
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") {
+        setOpen(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const focusable = dialogRef.current?.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      );
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     };
     window.addEventListener("keydown", handleKeyDown);
     if (window.matchMedia("(min-width: 821px)").matches) {
@@ -48,6 +69,9 @@ export function RequestModal() {
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener("keydown", handleKeyDown);
+      window.setTimeout(() => {
+        if (openerRef.current?.isConnected) openerRef.current.focus();
+      }, 0);
     };
   }, [open]);
 

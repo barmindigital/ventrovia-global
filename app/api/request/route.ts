@@ -23,6 +23,17 @@ const MAX_REQUEST_BYTES = MAX_FILE_BYTES + 128_000;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const ALLOWED_FILE_PATTERN = /\.(pdf|xls|xlsx|doc|docx|jpg|jpeg|png)$/i;
 
+const FILE_SIGNATURES: Record<string, number[][]> = {
+  pdf: [[0x25, 0x50, 0x44, 0x46, 0x2d]],
+  jpg: [[0xff, 0xd8, 0xff]],
+  jpeg: [[0xff, 0xd8, 0xff]],
+  png: [[0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]],
+  doc: [[0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]],
+  xls: [[0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]],
+  docx: [[0x50, 0x4b, 0x03, 0x04], [0x50, 0x4b, 0x05, 0x06], [0x50, 0x4b, 0x07, 0x08]],
+  xlsx: [[0x50, 0x4b, 0x03, 0x04], [0x50, 0x4b, 0x05, 0x06], [0x50, 0x4b, 0x07, 0x08]],
+};
+
 type RequestPayload = {
   name?: unknown;
   company?: unknown;
@@ -70,6 +81,24 @@ function arrayBufferToBase64(buffer: ArrayBuffer) {
     binary += String.fromCharCode(...bytes.subarray(index, index + 0x8000));
   }
   return btoa(binary);
+}
+
+function safeAttachmentName(name: string) {
+  return name
+    .replace(/[\\/\0\r\n]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 180);
+}
+
+async function hasExpectedFileSignature(file: File) {
+  const extension = file.name.split(".").at(-1)?.toLowerCase() ?? "";
+  const signatures = FILE_SIGNATURES[extension] ?? [];
+  const maximumLength = Math.max(0, ...signatures.map((signature) => signature.length));
+  const bytes = new Uint8Array(await file.slice(0, maximumLength).arrayBuffer());
+  return signatures.some((signature) =>
+    signature.every((value, index) => bytes[index] === value),
+  );
 }
 
 export async function POST(request: Request) {
@@ -206,6 +235,12 @@ export async function POST(request: Request) {
         { status: 400 },
       );
     }
+    if (!(await Promise.all(uploadedFiles.map(hasExpectedFileSignature))).every(Boolean)) {
+      return NextResponse.json(
+        { ok: false, message: "The attachment content does not match its file type." },
+        { status: 400 },
+      );
+    }
   }
 
   const apiKey = process.env.RESEND_API_KEY;
@@ -252,7 +287,7 @@ export async function POST(request: Request) {
     [
       "Files",
       uploadedFiles.length
-        ? uploadedFiles.map((file) => file.name).join(", ")
+        ? uploadedFiles.map((file) => safeAttachmentName(file.name)).join(", ")
         : "—",
     ],
     ["Consent", "received"],
@@ -293,7 +328,7 @@ export async function POST(request: Request) {
   const attachments = uploadedFiles.length
     ? await Promise.all(
         uploadedFiles.map(async (file) => ({
-          filename: file.name.replace(/[\r\n]/g, " ").slice(0, 180),
+          filename: safeAttachmentName(file.name),
           content: arrayBufferToBase64(await file.arrayBuffer()),
         })),
       )

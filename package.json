@@ -18,6 +18,7 @@
     "audit:visibility": "node scripts/audit-international-runtime.mjs",
     "audit:international": "node scripts/audit-international-runtime.mjs",
     "audit:infrastructure": "node scripts/audit-infrastructure-cutover.mjs",
+    "audit:prelaunch": "node scripts/audit-prelaunch-production.mjs",
     "brands:international": "node --experimental-strip-types scripts/generate-international-brand-knowledge.mjs",
     "audit:brands:international": "node --experimental-strip-types scripts/generate-international-brand-knowledge.mjs --check",
     "brands:directory": "node scripts/generate-international-manufacturer-directory.mjs",

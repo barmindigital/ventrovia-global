@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SITE_BRAND } from "@/app/lib/site-brand";
 import { RequestCta } from "./RequestCta";
 
@@ -18,7 +18,29 @@ const navigationItems = [
 export function SiteHeader() {
   const pathname = usePathname();
   const mobileMenuRef = useRef<HTMLDetailsElement>(null);
-  const closeMobileMenu = () => mobileMenuRef.current?.removeAttribute("open");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const closeMobileMenu = () => {
+    mobileMenuRef.current?.removeAttribute("open");
+    setMobileMenuOpen(false);
+  };
+
+  useEffect(() => {
+    const handlePointerDown = (event: MouseEvent) => {
+      const menu = mobileMenuRef.current;
+      if (menu?.open && !menu.contains(event.target as Node)) closeMobileMenu();
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "Escape" || !mobileMenuRef.current?.open) return;
+      closeMobileMenu();
+      mobileMenuRef.current?.querySelector<HTMLElement>("summary")?.focus();
+    };
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
   const isActive = (key: (typeof navigationItems)[number]["key"]) =>
     key === "home"
       ? pathname === "/"
@@ -40,8 +62,8 @@ export function SiteHeader() {
           ))}
         </nav>
         <RequestCta className="header-cta" source="header_desktop">Request a Quote</RequestCta>
-        <details className="mobile-menu" ref={mobileMenuRef}>
-          <summary aria-label="Open menu"><span /><span /></summary>
+        <details className="mobile-menu" onToggle={(event) => setMobileMenuOpen(event.currentTarget.open)} ref={mobileMenuRef}>
+          <summary aria-expanded={mobileMenuOpen} aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}><span /><span /></summary>
           <nav aria-label="Mobile navigation">
             {navigationItems.map((item) => (
               <Link aria-current={isActive(item.key) ? "page" : undefined} className={isActive(item.key) ? "is-active" : undefined} href={item.href} key={item.key} onClick={closeMobileMenu}>

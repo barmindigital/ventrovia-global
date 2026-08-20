@@ -134,6 +134,60 @@ test("www uses a permanent host-only redirect to the canonical apex", async () =
   assert.doesNotMatch(config, /www\.industriapostavok\.ru/);
 });
 
+test("public responses define conservative baseline security headers", async () => {
+  const config = await readFile(new URL("../next.config.ts", import.meta.url), "utf8");
+  for (const header of [
+    "Strict-Transport-Security",
+    "X-Content-Type-Options",
+    "X-Frame-Options",
+    "Referrer-Policy",
+    "Permissions-Policy",
+  ]) assert.match(config, new RegExp(header));
+  assert.match(config, /strict-origin-when-cross-origin/);
+  assert.match(config, /camera=\(\), microphone=\(\), geolocation=\(\)/);
+});
+
+test("RFQ attachment validation rejects disguised and excessive files", async () => {
+  const send = async (files) => {
+    const form = new FormData();
+    form.set("name", "Procurement Manager");
+    form.set("company", "Example Industrial");
+    form.set("email", "buyer@example.com");
+    form.set("consent", "yes");
+    files.forEach((file) => form.append("file", file, file.name));
+    return (await worker()).fetch(new Request("https://ventroviaglobal.com/api/request", {
+      method: "POST",
+      body: form,
+    }), env, context);
+  };
+
+  const disguised = await send([new File(["not a pdf"], "../../unsafe.pdf", { type: "application/pdf" })]);
+  assert.equal(disguised.status, 400);
+  assert.match((await disguised.json()).message, /does not match its file type/i);
+
+  const tooMany = await send(Array.from({ length: 6 }, (_, index) =>
+    new File([new Uint8Array([0x25, 0x50, 0x44, 0x46, 0x2d])], `file-${index}.pdf`, { type: "application/pdf" }),
+  ));
+  assert.equal(tooMany.status, 400);
+  assert.match((await tooMany.json()).message, /up to 5 files/i);
+});
+
+test("interactive navigation and enquiry dialogs include keyboard safety", async () => {
+  const [header, modal, browser, consent] = await Promise.all([
+    readFile(new URL("../app/components/SiteHeader.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/RequestModal.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/ManufacturerBrowser.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/lib/cookie-consent.ts", import.meta.url), "utf8"),
+  ]);
+  assert.match(header, /event\.key !== "Escape"/);
+  assert.match(header, /!menu\.contains/);
+  assert.match(modal, /event\.key !== "Tab"/);
+  assert.match(modal, /openerRef\.current.*focus/);
+  assert.match(browser, /No manufacturers found/);
+  assert.match(browser, /filtered\.length === 1/);
+  assert.doesNotMatch(consent, /industria-postavok/);
+});
+
 test("not-found response is English and noindex", async () => {
   const response = await render("/missing-ventrovia-page");
   assert.equal(response.status, 404);
