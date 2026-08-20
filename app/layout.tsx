@@ -4,7 +4,6 @@ import "./globals.css";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { ContactDock } from "./components/ContactDock";
-import { CookieBanner } from "./components/CookieBanner";
 import { RequestModal } from "./components/RequestModal";
 import { AttributionCapture } from "./components/AttributionCapture";
 import { serializeJsonLd } from "./lib/json-ld";
@@ -95,7 +94,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteFooter />
         <ContactDock />
         <RequestModal />
-        <CookieBanner />
         <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(organizationJsonLd) }} type="application/ld+json" />
         <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(websiteJsonLd) }} type="application/ld+json" />
       </body>

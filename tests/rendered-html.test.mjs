@@ -173,11 +173,13 @@ test("RFQ attachment validation rejects disguised and excessive files", async ()
 });
 
 test("interactive navigation and enquiry dialogs include keyboard safety", async () => {
-  const [header, modal, browser, consent] = await Promise.all([
+  const [header, modal, browser, consent, layout, privacy] = await Promise.all([
     readFile(new URL("../app/components/SiteHeader.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/components/RequestModal.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/components/ManufacturerBrowser.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/lib/cookie-consent.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/privacy/page.tsx", import.meta.url), "utf8"),
   ]);
   assert.match(header, /event\.key !== "Escape"/);
   assert.match(header, /!menu\.contains/);
@@ -186,6 +188,8 @@ test("interactive navigation and enquiry dialogs include keyboard safety", async
   assert.match(browser, /No manufacturers found/);
   assert.match(browser, /filtered\.length === 1/);
   assert.doesNotMatch(consent, /industria-postavok/);
+  assert.doesNotMatch(layout, /CookieBanner/);
+  assert.match(privacy, /does not currently run optional analytics/);
 });
 
 test("not-found response is English and noindex", async () => {

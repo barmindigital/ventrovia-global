@@ -221,7 +221,7 @@ named `ventrovia-global`; production uses the audited commit.
 
 ## Performance and delivery
 
-- public client JavaScript: 387,774 bytes across 26 chunks;
+- public client JavaScript: 385,567 bytes across 23 chunks;
 - directory HTML: approximately 621 KB;
 - crawl median page response: 155 ms from the audit location;
 - crawl p95 page response: 263 ms;
@@ -238,8 +238,10 @@ Cloudflare or another provider must not be connected automatically.
 ## Privacy, analytics and legal surface
 
 No Google Analytics, Yandex Metrica or other active analytics tracker was found
-in the public runtime, and the inspected session set no analytics cookie. A
-privacy page exists. A separate Terms page does not currently exist. Worldwide
+in the public runtime, and the inspected session set no analytics cookie. The
+unused consent banner is therefore not rendered; the privacy page now states
+the current no-optional-analytics condition directly. A separate Terms page
+does not currently exist. Worldwide
 privacy, cookie, upload-retention and terms wording require qualified legal
 review; no missing legal entity, licence or tax details were invented.
 
