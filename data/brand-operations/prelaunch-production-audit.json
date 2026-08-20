@@ -1,0 +1,54 @@
+{
+  "audit": "VENTROVIA_FULL_INTERNATIONAL_PRELAUNCH",
+  "baseUrl": "https://ventroviaglobal.com",
+  "startedAt": "2026-08-20T00:17:21.565Z",
+  "finishedAt": "2026-08-20T00:18:12.777Z",
+  "durationMs": 51211,
+  "settings": {
+    "concurrency": 8,
+    "requestTimeoutMs": 20000,
+    "maximumPages": 5000
+  },
+  "summary": {
+    "sitemapUrls": 821,
+    "manufacturerSitemapUrls": 816,
+    "productSitemapUrls": 0,
+    "crawledPages": 828,
+    "queuedPages": 828,
+    "fetchFailures": 0,
+    "pageIssues": 0,
+    "indexableIssues": 0,
+    "titleDuplicates": 0,
+    "metaDuplicates": 0,
+    "productSchemaPages": 0,
+    "oldIdentityPages": 0,
+    "mixedContentPages": 0,
+    "russianCharacterIndexablePages": 0,
+    "internalAssets": 543,
+    "brokenAssets": 0
+  },
+  "gates": {
+    "sitemapMatchesExpectedBrandSurface": true,
+    "productSitemapZero": true,
+    "allInternalPagesReachable": true,
+    "indexableMetadata": true,
+    "uniqueTitles": true,
+    "uniqueMetaDescriptions": true,
+    "noProductSchema": true,
+    "noOldIdentity": true,
+    "noMixedContent": true,
+    "externalLinkSafety": true,
+    "assetsReachable": true
+  },
+  "failures": [],
+  "pageIssues": [],
+  "indexableIssues": [],
+  "titleDuplicates": [],
+  "metaDuplicates": [],
+  "assetIssues": [],
+  "performance": {
+    "totalHtmlBytes": 33229771,
+    "medianPageMs": 155,
+    "p95PageMs": 263
+  }
+}
