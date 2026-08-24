@@ -35,9 +35,17 @@ const rawBlockedIdentities = sourceBatches.flatMap((batch) => batch.blockedIdent
 const duplicateValues = (values) => [
   ...new Set(values.filter((value, index) => values.indexOf(value) !== index)),
 ];
+const normalizeIdentity = (value) => value
+  .normalize("NFKD")
+  .replace(/\p{Diacritic}/gu, "")
+  .toLocaleLowerCase("en")
+  .replace(/[^a-z0-9]+/gu, "");
 const duplicateProfiles = duplicateValues(rawProfiles.map((profile) => profile.manufacturerId));
 const duplicateDisplayNames = duplicateValues(
   rawProfiles.map((profile) => profile.displayName.trim().toLocaleLowerCase("en")),
+);
+const duplicateOfficialIdentities = duplicateValues(
+  rawProfiles.map((profile) => normalizeIdentity(profile.officialName)),
 );
 const duplicateBlocked = duplicateValues(
   rawBlockedIdentities.map((blockedIdentity) => blockedIdentity.manufacturerId),
@@ -70,13 +78,14 @@ const insecureOrUnsupportedSourceProfiles = rawProfiles
 if (
   duplicateProfiles.length
   || duplicateDisplayNames.length
+  || duplicateOfficialIdentities.length
   || duplicateBlocked.length
   || conflictingStatuses.length
   || unknownManufacturerIds.length
   || insecureOrUnsupportedSourceProfiles.length
 ) {
   throw new Error(
-    `Brand source integrity failure: ${JSON.stringify({ duplicateProfiles, duplicateDisplayNames, duplicateBlocked, conflictingStatuses, unknownManufacturerIds, insecureOrUnsupportedSourceProfiles })}`,
+    `Brand source integrity failure: ${JSON.stringify({ duplicateProfiles, duplicateDisplayNames, duplicateOfficialIdentities, duplicateBlocked, conflictingStatuses, unknownManufacturerIds, insecureOrUnsupportedSourceProfiles })}`,
   );
 }
 

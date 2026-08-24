@@ -1,6 +1,16 @@
 {
   "checkedAt": "2026-08-19",
-  "blockedIdentities": [],
+  "blockedIdentities": [
+    {
+      "manufacturerId": "herborner-pumpenfabrik",
+      "status": "BLOCKED_CANONICAL_DUPLICATE",
+      "checkedAt": "2026-08-24",
+      "reason": "HERBORNER PUMPENFABRIK resolves to the same current legal manufacturer and official domain as the existing Herborner Pumpentechnik profile. Publishing both would duplicate one manufacturer identity.",
+      "attemptedUrls": [
+        "https://www.herborner-pumpen.com/en/info/"
+      ]
+    }
+  ],
   "profiles": [
     {
       "manufacturerId": "georg-fischer",
@@ -232,135 +242,6 @@
           "type": "OFFICIAL_PARENT_PAGE",
           "scope": "PARENT_LEGAL_IDENTITY_AND_HEADQUARTERS",
           "url": "https://www.ums.swiss/en/legal-notice/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
-        }
-      ]
-    },
-    {
-      "manufacturerId": "herborner-pumpenfabrik",
-      "officialName": "Herborner Pumpentechnik GmbH & Co KG",
-      "displayName": "Herborner Pumpen",
-      "aliases": [
-        "HERBORNER PUMPENFABRIK",
-        "HERBORNER PUMPENTECHNIK",
-        "HERBORNER PUMPEN"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.herborner-pumpen.com/en/info/",
-      "officialDomains": [
-        "herborner-pumpen.com"
-      ],
-      "country": "Germany",
-      "headquarters": "Herborn, Germany",
-      "foundedYear": 1874,
-      "parentCompany": null,
-      "shortDescription": "Herborner Pumpentechnik develops and manufactures centrifugal pumps for swimming-pool and clean-water systems, marine installations, wastewater handling and industrial processes. Its portfolio includes circulation, close-coupled, submersible, vertical and process pumps in material and motor configurations matched to the application.",
-      "fullDescription": [
-        "Herborner Pumpentechnik GmbH & Co KG is a German pump manufacturer founded in Herborn in 1874. The company develops pump systems at its headquarters in Herborn and operates an additional production and service location in Landsberg an der Saale.",
-        "Official product sources organize the portfolio around swimming-pool and clean-water pumps, marine pumps, sewage and wastewater pumps, and industrial pumping equipment. Documented families include self-priming circulation pumps, close-coupled centrifugal pumps, submersible sewage pumps, vertical pumps and modular process pumps. Product ranges such as UNIBAD, UNIPUMP, UNIBLOCK and UNIVERS are configured for water, wastewater, abrasive or fibre-containing media and specialised marine or process duties."
-      ],
-      "productCategories": [
-        "Центробежные насосы",
-        "Насосы для бассейнов и чистой воды",
-        "Судовые насосы",
-        "Канализационные насосы",
-        "Погружные насосы",
-        "Промышленные насосы",
-        "Вертикальные насосы",
-        "Процессные насосы"
-      ],
-      "productFamilies": [
-        "Pool-Water Circulation Pumps",
-        "Self-Priming Pumps",
-        "Close-Coupled Centrifugal Pumps",
-        "Marine Pumps",
-        "Sewage and Wastewater Pumps",
-        "Submersible Motor Pumps",
-        "Vertical Pumps",
-        "Industrial and Process Pumps",
-        "Permanent-Magnet Pump Systems",
-        "HPC-Coated Pump Systems"
-      ],
-      "series": [
-        "herborner.X",
-        "herborner.F",
-        "herborner.D",
-        "herborner.neo",
-        "UNIBAD",
-        "UNIPUMP",
-        "UNIBLOCK",
-        "UNIVERS-A",
-        "UNIVERS-T"
-      ],
-      "industries": [
-        "Бассейны и водные объекты",
-        "Водоснабжение и водоотведение",
-        "Муниципальное хозяйство",
-        "Судостроение",
-        "Морская и офшорная промышленность",
-        "Промышленное производство",
-        "Процессное оборудование"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.herborner-pumpen.com/en/info/produkte/",
-        "https://www.herborner-pumpen.com/en/info/produkte/unibad-x_8/",
-        "https://www.herborner-pumpen.com/en/info/produkte/univers-a-awr_42/",
-        "https://www.herborner-pumpen.com/en/info/produkte/univers-t-tkr_141/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-herborner-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "IDENTITY_HEADQUARTERS_SPECIALISATION_AND_MANUFACTURING",
-          "url": "https://www.herborner-pumpen.com/en/info/unternehmen/about_us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
-        },
-        {
-          "sourceId": "brand-herborner-history",
-          "tier": "A",
-          "type": "HISTORY",
-          "scope": "IDENTITY_FOUNDED_HISTORY_LOCATIONS_FAMILY_AND_SERIES",
-          "url": "https://www.herborner-pumpen.com/en/info/unternehmen/historie/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
-        },
-        {
-          "sourceId": "brand-herborner-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "IDENTITY_CATEGORY_APPLICATION_AND_PRODUCT_SCOPE",
-          "url": "https://www.herborner-pumpen.com/en/info/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
-        },
-        {
-          "sourceId": "brand-herborner-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CATEGORY_FAMILY_SERIES_MEDIUM_AND_INSTALLATION",
-          "url": "https://www.herborner-pumpen.com/en/info/produkte/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
-        },
-        {
-          "sourceId": "brand-herborner-unibad",
-          "tier": "A",
-          "type": "PRODUCT_PAGE",
-          "scope": "POOL_AND_CLEAN_WATER_FAMILY_SERIES_AND_APPLICATION",
-          "url": "https://www.herborner-pumpen.com/en/info/produkte/unibad-x_8/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
-        },
-        {
-          "sourceId": "brand-herborner-univers-a",
-          "tier": "A",
-          "type": "PRODUCT_PAGE",
-          "scope": "SEWAGE_PUMP_FAMILY_SERIES_MEDIUM_AND_APPLICATION",
-          "url": "https://www.herborner-pumpen.com/en/info/produkte/univers-a-awr_42/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-19"
         }

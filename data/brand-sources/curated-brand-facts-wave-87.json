@@ -21,6 +21,13 @@
       "checkedAt": "2026-08-24",
       "reason": "The manufacturer product directory is available only over HTTP and the official HTTPS endpoint presents an invalid self-signed certificate. The international publication gate requires secure official evidence.",
       "attemptedUrls": ["http://www.kiheung.com/bbs/board.php?bo_table=product", "https://www.kiheung.com/bbs/board.php?bo_table=product"]
+    },
+    {
+      "manufacturerId": "kitagawa-america",
+      "status": "BLOCKED_CANONICAL_DUPLICATE",
+      "checkedAt": "2026-08-24",
+      "reason": "Kitagawa America and Kitagawa-NorthTech resolve to the same North American legal company and workholding portfolio. The existing Kitagawa-NorthTech profile is retained as the canonical identity.",
+      "attemptedUrls": ["https://kitagawa-usa.com/", "https://kitagawa.com/en/"]
     }
   ],
   "profiles": [
@@ -806,29 +813,6 @@
       "officialCatalogs": ["https://www.kitagawa.com/en/mtools/inc/data/PDF/manu_N_NT_NL_NLT_en.pdf"],
       "documentationSources": ["https://kitagawa.com/en/support/catalog/index.html"],
       "sources": [{"sourceId":"brand-kitagawa-northtech-parent-catalog","tier":"A","type":"OFFICIAL_PARENT_CATALOG","scope":"REGIONAL_COMPANY_IDENTITY_AND_WORKHOLDING_SCOPE","url":"https://www.kitagawa.com/en/mtools/inc/data/PDF/manu_N_NT_NL_NLT_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kitagawa-northtech-parent-directory","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CHUCK_CYLINDER_ROTARY_TABLE_VISE_AND_GRIPPER_SCOPE","url":"https://kitagawa.com/en/support/catalog/index.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
-    },
-    {
-      "manufacturerId": "kitagawa-america",
-      "officialName": "Kitagawa NorthTech, Inc.",
-      "displayName": "Kitagawa America",
-      "aliases": ["KITAGAWA AMERICA", "KITAGAWA USA"],
-      "formerNames": [],
-      "officialWebsite": "https://kitagawa-usa.com/",
-      "officialDomains": ["kitagawa-usa.com"],
-      "country": "United States",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": "Kitagawa Corporation",
-      "statusModifier": "GROUP_COMPANY",
-      "shortDescription": "Kitagawa America supplies Kitagawa machine-tool workholding and rotary-table systems through the group's North American operation.",
-      "fullDescription": ["Kitagawa America's official site documents the group's North American product scope for machining and automation applications.", "Its range includes power chucks, cylinders, NC rotary tables, workholding vises, robot grippers and related machine-tool accessories."],
-      "productCategories": ["Зажимные системы для станков", "Станочное оборудование", "Промышленные роботы"],
-      "productFamilies": ["Power Chucks", "Hydraulic Cylinders", "NC Rotary Tables", "Machine Vises", "Robot Grippers", "Workholding Accessories"],
-      "series": [],
-      "industries": ["Металлообработка", "Станкостроение", "Промышленная автоматизация"],
-      "officialCatalogs": [],
-      "documentationSources": ["https://kitagawa-usa.com/product-category/nc-rotary-table/"],
-      "sources": [{"sourceId":"brand-kitagawa-america-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"NORTH_AMERICAN_CHUCK_CYLINDER_ROTARY_TABLE_VISE_AND_GRIPPER_SCOPE","url":"https://kitagawa-usa.com/product-category/nc-rotary-table/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kitz",
