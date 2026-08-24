@@ -77,6 +77,13 @@
       "checkedAt": "2026-08-24",
       "reason": "No reachable current manufacturer-owned website or explicit official successor source was found for Jugoturbina System Eureka. Historical and resale references cannot establish a publishable legacy identity and scope.",
       "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "jihostroy",
+      "status": "DUPLICATE_CANONICAL_CANDIDATE",
+      "checkedAt": "2026-08-24",
+      "reason": "Official evidence resolves JIHOSTROY to JIHOSTROJ a.s., already represented by the canonical jihostroj profile. The alternate spelling must not create a second manufacturer page.",
+      "attemptedUrls": ["https://www.jihostroj.com/", "https://www.jihostroj.com/en/"]
     }
   ],
   "profiles": [
@@ -568,28 +575,6 @@
       "officialCatalogs": [],
       "documentationSources": ["https://www.sopsensors.com/"],
       "sources": [{"sourceId":"wave86-jiangxi-sop-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_SENSOR_SCOPE","url":"https://www.sopsensors.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
-    },
-    {
-      "manufacturerId": "jihostroy",
-      "officialName": "JIHOSTROJ a.s.",
-      "displayName": "JIHOSTROJ",
-      "aliases": ["JIHOSTROY", "Jihostroj"],
-      "formerNames": [],
-      "officialWebsite": "https://www.jihostroj.com/",
-      "officialDomains": ["jihostroj.com"],
-      "country": "Czech Republic",
-      "headquarters": "Velešín, Czech Republic",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "JIHOSTROJ manufactures hydraulic pumps, motors and control components together with aerospace fuel and hydraulic systems.",
-      "fullDescription": ["JIHOSTROJ is verified through its official website as a Czech manufacturer serving industrial hydraulics and aviation.", "Its documented industrial range includes gear pumps, hydraulic motors, valves and governors, while its aerospace business develops fuel-control, propeller-control and hydraulic systems."],
-      "productCategories": ["Гидравлическое оборудование", "Промышленные насосы", "Промышленные клапаны"],
-      "productFamilies": ["Gear Pumps", "Hydraulic Motors", "Hydraulic Valves", "Fuel Control Systems", "Propeller Control Systems"],
-      "series": ["X", "P23", "J", "T3", "UD", "Q2", "QHD", "GHD"],
-      "industries": ["Промышленное производство", "Авиационная промышленность"],
-      "officialCatalogs": [],
-      "documentationSources": ["https://www.jihostroj.com/en/production/hydraulics/pumps-motors/product/j"],
-      "sources": [{"sourceId":"wave86-jihostroj-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_HYDRAULIC_AEROSPACE_SCOPE","url":"https://www.jihostroj.com/en/production/hydraulics/pumps-motors/product/j","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "joa",

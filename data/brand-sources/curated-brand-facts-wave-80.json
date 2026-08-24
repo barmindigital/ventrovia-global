@@ -56,6 +56,13 @@
       "checkedAt": "2026-08-24",
       "reason": "FMS is a short generic abbreviation used by multiple industrial companies. Although FMS Force Measuring Systems is a plausible candidate, the raw record does not provide a legal-name or product-scope discriminator sufficient for automatic publication.",
       "attemptedUrls": ["https://www.fms-technology.com/en/"]
+    },
+    {
+      "manufacturerId": "flour-valve",
+      "status": "BLOCKED_INSECURE_OFFICIAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The manufacturer-owned presentation is available only over HTTP and the official host does not provide a working HTTPS endpoint. The international publication gate requires secure official evidence.",
+      "attemptedUrls": ["http://www.flourvalve.net/FLV-presentation.pdf", "https://www.flourvalve.net/FLV-presentation.pdf"]
     }
   ],
   "profiles": [
@@ -863,28 +870,6 @@
       "officialCatalogs": [],
       "documentationSources": ["https://oem.flir.com/en-gb/"],
       "sources": [{"sourceId":"wave80-flir-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_TELEDYNE_BRAND_IDENTITY_AND_THERMAL_IMAGING_INFRARED_SENSING_SCOPE","url":"https://www.flir.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
-    },
-    {
-      "manufacturerId": "flour-valve",
-      "officialName": "Flour Valve S.r.l.",
-      "displayName": "Flour Valve",
-      "aliases": ["FLOUR VALVE", "FLV"],
-      "formerNames": [],
-      "officialWebsite": "http://www.flourvalve.net/",
-      "officialDomains": ["flourvalve.net"],
-      "country": "Italy",
-      "headquarters": null,
-      "foundedYear": 2011,
-      "parentCompany": null,
-      "shortDescription": "Flour Valve manufactures industrial flow-control valves for process and energy applications.",
-      "fullDescription": ["Flour Valve is verified through its official company presentation as an Italian industrial-valve manufacturer established in 2011.", "The company designs and supplies engineered flow-control valves for process plants and energy-sector applications, with products configured to project specifications."],
-      "productCategories": ["Промышленные клапаны", "Трубопроводная арматура"],
-      "productFamilies": ["Engineered Process Valves", "Project-Specific Flow-Control Valves"],
-      "series": [],
-      "industries": ["Нефтегазовая промышленность", "Энергетика", "Химическая промышленность"],
-      "officialCatalogs": ["http://www.flourvalve.net/FLV-presentation.pdf"],
-      "documentationSources": ["http://www.flourvalve.net/"],
-      "sources": [{"sourceId":"wave80-flourvalve-presentation","tier":"A","type":"OFFICIAL_COMPANY_DOCUMENT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_ENGINEERED_INDUSTRIAL_VALVE_SCOPE","url":"http://www.flourvalve.net/FLV-presentation.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fluenta",

@@ -91,6 +91,20 @@
       "checkedAt": "2026-08-24",
       "reason": "BAE is a generic abbreviation and can refer to multiple unrelated corporate and product identities. The queue record contains no legal-name, country or product-scope discriminator.",
       "attemptedUrls": ["https://www.baesystems.com/"]
+    },
+    {
+      "manufacturerId": "ari-stevi-comeval",
+      "status": "DUPLICATE_CANONICAL_CANDIDATE",
+      "checkedAt": "2026-08-24",
+      "reason": "Official evidence resolves STEVI to a product family of ARI-Armaturen, which is already represented by the canonical ari-armaturen manufacturer profile. A second manufacturer page would duplicate the same legal identity.",
+      "attemptedUrls": ["https://www.ari-armaturen.com/en/", "https://www.ari-armaturen.com/en/products/"]
+    },
+    {
+      "manufacturerId": "b-r-acopos",
+      "status": "DUPLICATE_CANONICAL_CANDIDATE",
+      "checkedAt": "2026-08-24",
+      "reason": "ACOPOS is an official B&R motion-control product family, while B&R Industrial Automation is already represented by the canonical br-automation manufacturer profile. It is not a separate manufacturer identity.",
+      "attemptedUrls": ["https://www.br-automation.com/en-us/", "https://www.br-automation.com/en-us/products/motion-control/"]
     }
   ],
   "profiles": [
@@ -120,34 +134,6 @@
       "sources": [
         {"sourceId":"brand-arca-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_CONTROL_VALVE_SPECIALISATION","url":"https://arca-valve.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
         {"sourceId":"brand-arca-products","tier":"A","type":"DOCUMENTATION","scope":"CONTROL_VALVE_POSITIONER_AND_PNEUMATIC_ACTUATOR_FAMILIES","url":"https://arca-valve.com/en/downloads/","status":"AVAILABLE","checkedAt":"2026-08-24"}
-      ]
-    },
-    {
-      "manufacturerId": "ari-stevi-comeval",
-      "officialName": "ARI-Armaturen Albert Richter GmbH & Co. KG",
-      "displayName": "ARI STEVI",
-      "aliases": ["ARI STEVI", "ARI STEVI (COMEVAL)", "STEVI"],
-      "formerNames": [],
-      "officialWebsite": "https://www.ari-armaturen.com/en/",
-      "officialDomains": ["ari-armaturen.com"],
-      "country": "Germany",
-      "headquarters": "Schloß Holte-Stukenbrock, Germany",
-      "foundedYear": 1950,
-      "parentCompany": null,
-      "shortDescription": "ARI STEVI is ARI-Armaturen's family of industrial control valves for liquid, gas and steam processes.",
-      "fullDescription": [
-        "ARI-Armaturen is verified through its manufacturer-owned company profile as an independent German industrial-valve manufacturer founded in 1950.",
-        "STEVI is the company's control-valve family, including configurable valve designs and electric or pneumatic actuator combinations for process regulation."
-      ],
-      "productCategories": ["Регулирующая арматура", "Промышленная арматура", "Промышленные приводы"],
-      "productFamilies": ["STEVI Control Valves", "Electric Actuators", "Pneumatic Actuators"],
-      "series": ["STEVI Vario", "STEVI Smart", "STEVI Pro", "STEVI-POS"],
-      "industries": ["Промышленное производство", "Энергетика", "Химическая промышленность", "Судостроение"],
-      "officialCatalogs": ["https://www.ari-armaturen.com/fileadmin/media/downloads/Brochures/Folder_STEVI_EN.pdf"],
-      "documentationSources": ["https://www.ari-armaturen.com/en/products/"],
-      "sources": [
-        {"sourceId":"brand-ari-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_HEADQUARTERS_AND_INDUSTRIAL_VALVE_SCOPE","url":"https://www.ari-armaturen.com/en/company","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-ari-stevi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STEVI_CONTROL_VALVE_AND_ACTUATOR_FAMILIES","url":"https://www.ari-armaturen.com/en/products/new-products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
@@ -1018,34 +1004,6 @@
       "sources": [
         {"sourceId":"brand-azbil-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_COUNTRY_AND_AUTOMATION_SCOPE","url":"https://www.azbil.com/corporate/","status":"AVAILABLE","checkedAt":"2026-08-24"},
         {"sourceId":"brand-azbil-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PROCESS_INSTRUMENTATION_VALVE_SENSOR_CONTROLLER_AND_ACTUATOR_FAMILIES","url":"https://aa-industrial.azbil.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
-      ]
-    },
-    {
-      "manufacturerId": "b-r-acopos",
-      "officialName": "B&R Industrial Automation GmbH",
-      "displayName": "B&R ACOPOS",
-      "aliases": ["B&R ACOPOS", "B AND R ACOPOS", "ACOPOS"],
-      "formerNames": [],
-      "officialWebsite": "https://www.br-automation.com/en-us/",
-      "officialDomains": ["br-automation.com"],
-      "country": "Austria",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": "ABB Ltd.",
-      "statusModifier": "GROUP_BRAND",
-      "shortDescription": "ACOPOS is B&R's family of servo drives and motion-control systems for industrial automation.",
-      "fullDescription": [
-        "B&R's manufacturer-owned website verifies ACOPOS as the company's industrial motion-control and servo-drive family within the ABB group.",
-        "The official range includes single- and multi-axis drive systems, compact and modular servo drives, inverter products and coordinated motion-control hardware."
-      ],
-      "productCategories": ["Сервоприводы", "Преобразователи частоты", "Автоматизация и управление"],
-      "productFamilies": ["Single-Axis Drive Systems", "Multi-Axis Drive Systems", "Servo Drives", "Frequency Inverters", "Motion Controllers"],
-      "series": ["ACOPOS", "ACOPOS P3", "ACOPOSmulti", "ACOPOSinverter"],
-      "industries": ["Автоматизация", "Машиностроение", "Упаковочная промышленность", "Промышленное производство"],
-      "officialCatalogs": [],
-      "documentationSources": ["https://www.br-automation.com/en-us/products/motion-control/single-and-multi-axis-drive-systems/"],
-      "sources": [
-        {"sourceId":"brand-br-acopos-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"B_AND_R_ACOPOS_IDENTITY_SINGLE_MULTI_AXIS_DRIVE_AND_MOTION_FAMILIES","url":"https://www.br-automation.com/en-us/products/motion-control/single-and-multi-axis-drive-systems/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {

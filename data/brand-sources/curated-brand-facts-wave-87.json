@@ -14,6 +14,13 @@
       "checkedAt": "2026-08-24",
       "reason": "Kiesel's first-party site describes a system partner and distributor for construction machinery from multiple manufacturers. The record does not identify a separate Kiesel-manufactured equipment portfolio with sufficient certainty.",
       "attemptedUrls": ["https://www.kiesel.net/", "https://www.kiesel.net/de"]
+    },
+    {
+      "manufacturerId": "kiheung",
+      "status": "BLOCKED_INSECURE_OFFICIAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The manufacturer product directory is available only over HTTP and the official HTTPS endpoint presents an invalid self-signed certificate. The international publication gate requires secure official evidence.",
+      "attemptedUrls": ["http://www.kiheung.com/bbs/board.php?bo_table=product", "https://www.kiheung.com/bbs/board.php?bo_table=product"]
     }
   ],
   "profiles": [
@@ -708,28 +715,6 @@
       "officialCatalogs": [],
       "documentationSources": ["https://www.kieselmann.com/products/valve-technology/aseptic-valves"],
       "sources": [{"sourceId":"brand-kieselmann-valves","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYGIENIC_VALVE_TANK_FITTING_AND_PROCESS_COMPONENT_SCOPE","url":"https://www.kieselmann.com/products/valve-technology/aseptic-valves","status":"AVAILABLE","checkedAt":"2026-08-24"}]
-    },
-    {
-      "manufacturerId": "kiheung",
-      "officialName": "Kiheung Machinery Co., Ltd.",
-      "displayName": "KIHEUNG",
-      "aliases": ["KIHEUNG", "KIHEUNG MACHINERY"],
-      "formerNames": [],
-      "officialWebsite": "http://www.kiheung.com/",
-      "officialDomains": ["kiheung.com"],
-      "country": "South Korea",
-      "headquarters": null,
-      "foundedYear": 1968,
-      "parentCompany": null,
-      "shortDescription": "KIHEUNG manufactures CNC milling, boring and machining-centre systems for large and precision workpieces.",
-      "fullDescription": ["KIHEUNG's official product pages document bed-type, floor-type and double-column machine tools.", "Its range includes universal milling machines, CNC milling and boring machines, vertical and horizontal machining centres and rotary-table configurations."],
-      "productCategories": ["Металлообрабатывающие станки", "Станочное оборудование"],
-      "productFamilies": ["Bed-Type Milling Machines", "CNC Milling and Boring Machines", "Floor-Type Milling Machines", "Vertical Machining Centres", "Double-Column Machining Centres", "Rotary-Table Milling Machines"],
-      "series": ["COMBI", "HiTRAX", "MiMAX", "KMB", "TRAX"],
-      "industries": ["Металлообработка", "Станкостроение", "Тяжёлое машиностроение"],
-      "officialCatalogs": [],
-      "documentationSources": ["http://www.kiheung.com/bbs/board.php?bo_table=product"],
-      "sources": [{"sourceId":"brand-kiheung-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MILLING_BORING_AND_MACHINING_CENTRE_SCOPE","url":"http://www.kiheung.com/bbs/board.php?bo_table=product","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kimo",

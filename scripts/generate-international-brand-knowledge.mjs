@@ -36,6 +36,9 @@ const duplicateValues = (values) => [
   ...new Set(values.filter((value, index) => values.indexOf(value) !== index)),
 ];
 const duplicateProfiles = duplicateValues(rawProfiles.map((profile) => profile.manufacturerId));
+const duplicateDisplayNames = duplicateValues(
+  rawProfiles.map((profile) => profile.displayName.trim().toLocaleLowerCase("en")),
+);
 const duplicateBlocked = duplicateValues(
   rawBlockedIdentities.map((blockedIdentity) => blockedIdentity.manufacturerId),
 );
@@ -48,10 +51,32 @@ const knownManufacturerIds = new Set(
 const unknownManufacturerIds = [...profileIds, ...blockedIds].filter(
   (manufacturerId) => !knownManufacturerIds.has(manufacturerId),
 );
+const insecureOrUnsupportedSourceProfiles = rawProfiles
+  .filter((profile) => {
+    const hasTierASource = profile.sources.some(({ tier, status, url }) =>
+      tier === "A" && status === "AVAILABLE" && url.startsWith("https://"),
+    );
+    const hasOfficialCorporateEvidence = Boolean(profile.parentCompany)
+      && profile.sources.some(({ tier, type, status, url }) =>
+        tier === "B"
+        && /PARENT|ACQUISITION|SUCCESSOR|RIGHTS_OWNER/u.test(type)
+        && status === "AVAILABLE"
+        && url.startsWith("https://"),
+      );
+    return !hasTierASource && !hasOfficialCorporateEvidence;
+  })
+  .map((profile) => profile.manufacturerId);
 
-if (duplicateProfiles.length || duplicateBlocked.length || conflictingStatuses.length || unknownManufacturerIds.length) {
+if (
+  duplicateProfiles.length
+  || duplicateDisplayNames.length
+  || duplicateBlocked.length
+  || conflictingStatuses.length
+  || unknownManufacturerIds.length
+  || insecureOrUnsupportedSourceProfiles.length
+) {
   throw new Error(
-    `Brand source integrity failure: ${JSON.stringify({ duplicateProfiles, duplicateBlocked, conflictingStatuses, unknownManufacturerIds })}`,
+    `Brand source integrity failure: ${JSON.stringify({ duplicateProfiles, duplicateDisplayNames, duplicateBlocked, conflictingStatuses, unknownManufacturerIds, insecureOrUnsupportedSourceProfiles })}`,
   );
 }
 
