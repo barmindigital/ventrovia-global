@@ -1,8 +1,11 @@
 # Brand Master schema
 
-Schema version: 1.0.0  
-Primary format: UTF-8 JSON  
-Primary language: English  
+Schema version: 1.0.0
+
+Primary format: UTF-8 JSON
+
+Primary language: English
+
 Scope: independent manufacturer and brand knowledge
 
 ## Root object

@@ -722,7 +722,7 @@ const manifest = {
   schemaVersion: VERSION,
   exportVersion: `industrial-brand-master-${VERSION}`,
   createdAt: CREATED_AT,
-  sourceCommit: process.env.BRAND_MASTER_SOURCE_COMMIT ?? "1d341429e228365f7909a6a0ede9a516ff3f151e",
+  sourceCommit: process.env.BRAND_MASTER_SOURCE_COMMIT ?? "2a6ef0a92c9025b3a973bb8adcad1a8d224448e2",
   scope: "PORTABLE_FRAMEWORK_NEUTRAL_BRAND_KNOWLEDGE",
   counts: {
     brandsTotal: brands.length,
