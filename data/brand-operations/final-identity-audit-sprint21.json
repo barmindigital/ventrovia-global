@@ -1,0 +1,1142 @@
+{
+  "version": "ventrovia-final-identity-audit-sprint21-v2",
+  "generatedAt": "2026-08-24T00:00:00.000Z",
+  "supersedes": "ventrovia-final-identity-audit-sprint21-v1",
+  "scope": {
+    "corpus": "BRAND_SAFE international profiles after targeted identity remediation",
+    "sourceFile": "data/brand-knowledge-international/profiles.json",
+    "registryFile": "data/manufacturers/identities.json",
+    "methodology": [
+      "normalized officialName and displayName uniqueness",
+      "cross-profile alias and former-name collision analysis",
+      "official-domain sharing classified from curated parent, status and identity evidence",
+      "sourceId uniqueness and registry referential integrity",
+      "HTTPS Tier A or qualifying official-parent Tier B evidence gate",
+      "product-line-as-manufacturer indicators from curated status and naming fields"
+    ],
+    "externalWebCrawling": false
+  },
+  "summary": {
+    "safeProfiles": 2219,
+    "reviewOrBlockedProfiles": 587,
+    "registryManufacturers": 2806,
+    "uniqueOfficialDomains": 2309,
+    "sourceRecords": 3890,
+    "uniqueSourceIds": 3890,
+    "unknownRegistryIds": 0,
+    "normalizedOfficialNameConflicts": 0,
+    "normalizedDisplayNameConflicts": 0,
+    "sourceIdConflicts": 0,
+    "profilesWithQualifyingEvidence": 2219,
+    "profilesWithoutQualifyingEvidence": 0,
+    "profilesWithHttpsTierA": 2103,
+    "profilesWithQualifyingOfficialParentEvidence": 160,
+    "profilesUsingQualifyingParentEvidenceWithoutTierA": 116,
+    "sharedOfficialDomains": 90,
+    "profilesOnSharedOfficialDomains": 244,
+    "legitimateSharedDomains": 90,
+    "suspiciousSharedDomains": 0,
+    "crossProfileAliasTokens": 0,
+    "crossProfileAliasClusters": 0,
+    "explicitProductLineIndicators": 4,
+    "confirmedWrongIdentities": 0,
+    "confirmedCanonicalScopeMismatches": 0,
+    "actionableIdentityFindings": 0,
+    "resolvedPriorFindings": 5
+  },
+  "integrityChecks": {
+    "registryReferences": {
+      "status": "PASS",
+      "unknownManufacturerIds": []
+    },
+    "officialNameUniqueness": {
+      "status": "PASS",
+      "conflicts": []
+    },
+    "displayNameUniqueness": {
+      "status": "PASS",
+      "conflicts": []
+    },
+    "crossProfileAliasUniqueness": {
+      "status": "PASS",
+      "conflicts": []
+    },
+    "sourceIdUniqueness": {
+      "status": "PASS",
+      "conflicts": []
+    },
+    "officialEvidence": {
+      "status": "PASS",
+      "profilesWithoutQualifyingEvidence": []
+    }
+  },
+  "sharedDomainClassifications": [
+    {
+      "domain": "xylem.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 12,
+      "manufacturerIds": [
+        "atg-willand-uv-systems",
+        "bell-gossett",
+        "evoqua",
+        "flygt",
+        "godwin",
+        "jabsco-pump",
+        "lowara",
+        "sanitaire",
+        "sensus",
+        "wedeco",
+        "wtw",
+        "xylem"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "emerson.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 10,
+      "manufacturerIds": [
+        "anderson-greenwood",
+        "asco-numatics",
+        "aventics",
+        "emerson-industrial",
+        "keystone",
+        "mobrey",
+        "rosemount",
+        "sempell",
+        "tescom",
+        "top-worx"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "parker.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 9,
+      "manufacturerIds": [
+        "balston",
+        "curtis",
+        "denison-hydraulics",
+        "domnick-hunter",
+        "lucifer",
+        "olaer-group",
+        "parker-hannifin-gmbh",
+        "parker-hiross-zander",
+        "wilkerson"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "spxflow.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 7,
+      "manufacturerIds": [
+        "apv",
+        "bran-luebbe-gmbh",
+        "johnson-pump",
+        "lightnin",
+        "plenty",
+        "spx-flow",
+        "waukesha"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "danfoss.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 5,
+      "manufacturerIds": [
+        "aeroquip",
+        "char-lynn",
+        "danfoss",
+        "vacon",
+        "vickers"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "gea.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 5,
+      "manufacturerIds": [
+        "gea",
+        "gea-westfalia",
+        "hilge",
+        "niro-soavi",
+        "tuchenhagen"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "ingersollrand.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 5,
+      "manufacturerIds": [
+        "ghh-rand",
+        "haskel",
+        "ingersoll-rand",
+        "tamrotor",
+        "thomas"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "nidec.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 5,
+      "manufacturerIds": [
+        "kb-electronics",
+        "leroy-somer",
+        "merkle-korff",
+        "nidec",
+        "okk-corporation"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "abb.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "baldor-electric",
+        "br-automation",
+        "hartmann-braun",
+        "jokab-safety"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "atlascopcogroup.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "abac",
+        "ceccato",
+        "ekomak",
+        "fiac"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "bakerhughes.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "baker-hughes",
+        "bently-nevada",
+        "nuovo-pignone",
+        "panametrics-ndt"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "circor.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "circle-seal-controls",
+        "circor-international",
+        "hale-hamilton",
+        "houttuin"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "cranecpe.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "center-line",
+        "depa",
+        "krombach",
+        "xomox"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "discreteautomation.emerson.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "asco-numatics",
+        "aventics",
+        "tescom",
+        "top-worx"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "rexnord.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "centa",
+        "hub-city",
+        "jaure-kop-flex",
+        "tollok"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "rotork.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "bifold",
+        "fairchild",
+        "rotork",
+        "schischek"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "skf.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "alemite",
+        "lincoln",
+        "skf",
+        "snfa"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "weg.net",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 4,
+      "manufacturerIds": [
+        "akh",
+        "cemp-motors",
+        "watt-drive",
+        "weg"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "3m.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "3m",
+        "capital-safety",
+        "cuno"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "cantonigroup.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "cantoni-group",
+        "celma-indukta",
+        "emit-s-a"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "celerosft.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "clydeunion-pumps",
+        "copes-vulcan",
+        "mj-valve"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "chartindustries.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "chart-industies",
+        "cpi",
+        "howden"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "cmco.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "columbus-mckinnon",
+        "pfaff-silberblau",
+        "stahl-cranesystems"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "donaldson.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "bofa",
+        "donaldson",
+        "facet-international"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "itt.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "bornemann-pumps",
+        "goulds-pumps",
+        "itt"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "psgdover.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "almatec",
+        "blackmer",
+        "wilden"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "regalrexnord.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "fasco",
+        "hub-city",
+        "leeson-electric"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "schaeffler.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "fag-schaeffler",
+        "idam",
+        "ina"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "se.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "berger-lahr",
+        "foxboro-eckardt",
+        "schneider-electric"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "sensata.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "bei-ideacod",
+        "crydom",
+        "klixon"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "slb.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "cameron",
+        "mi-swaco",
+        "reda"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "verderliquids.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 3,
+      "manufacturerIds": [
+        "packo",
+        "verderair",
+        "verderflex"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "atb-motors.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "atb-motors",
+        "tamel"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "atb.wolong.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "atb-motors",
+        "tamel"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "atek.de",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "atek",
+        "elephant-brakes"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "baumer.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "baumer-hubner-gmbh",
+        "hhs"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "boschrexroth.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "bosch-rexroth",
+        "rineer"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "breco.de",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "breco",
+        "brecoflex"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "buhlergroup.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "fhw-franz-haas-waffelmaschinen",
+        "mondomix"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "carrier.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "carlyle-compressors",
+        "carrier"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "chiron-group.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "chiron",
+        "stama"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "cleanova.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "dollinger",
+        "vokes"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "compair.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "compair",
+        "hydrovane"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "discover.parker.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "olaer-group",
+        "parker-hannifin-gmbh"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "eaton.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "cooper-bussmann",
+        "cutler-hammer"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "exidegroup.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "exide-technologies",
+        "gnb"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "flender.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "flender",
+        "moventas"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "flux-pumps.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "flux",
+        "sondermann"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "friedrich-schwingtechnik.de",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "friedrich-schwingtechnik-gmbh",
+        "vimarc"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "gardnerdenver.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "gardner-denver",
+        "tamrotor"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "gfms.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "agiecharmilles",
+        "gf-agie-charmilles"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "global.kawasaki.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "kawasaki-heavy-industries",
+        "kawasaki-precision-machinery"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "gravotech.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "gravograph",
+        "technifor"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "haydonkerkpittman.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "haydon-kerk",
+        "pittman-motors"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "hennigworldwide.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "advanced-machine-engineering",
+        "hennig"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "honeywell.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "elster-kromschroeder",
+        "honeywell"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "ima.it",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "benhil",
+        "ima"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "johnsoncontrols.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "frick",
+        "johnson-controls"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "jtekt.co.jp",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "koyo",
+        "toyoda"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "kellenberger.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "kellenberger",
+        "voumard"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "kendrion.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "intorq",
+        "kendrion-kuhnke"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "koenig-bauer.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "kba",
+        "kba-metronic"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "ktr.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "bowex",
+        "ktr"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "lapp.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "lapp-kabel",
+        "olflex"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "littelfuse.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "hamlin-electronics",
+        "ixys"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "mersen.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "ferraz-shawmut",
+        "mersen"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "nov.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "mono-pumps-limited",
+        "national-oilwell-varco"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "olivibra.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "oli",
+        "visam"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "pentair.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "fleck",
+        "pentair"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "process.honeywell.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "honeywell",
+        "maxon"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "ringfeder.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "ringfeder",
+        "tschan-gmbh"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "rockwellautomation.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "allen-bradley",
+        "rockwell-automation"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "siemens.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "loher",
+        "siemens"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "signode.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "haloila",
+        "lachenmeier"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "stanleyengineeredfastening.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "avdel",
+        "stanley-engineered-fastening"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "te.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "celesco",
+        "jaquet"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "thermofisher.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "dionex",
+        "thermo-fisher-scientific"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "thomsonlinear.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "thomson",
+        "thomson-micron"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "timken.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "fafnir",
+        "timken"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "trelleborg.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "busak-schamban",
+        "trelleborg-ab"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "tuskind.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "fybroc",
+        "sethco"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "valmet.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "neles",
+        "valmet"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "vexve.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "armatury-group",
+        "naval-oy"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "voith.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "hartmann-lammle",
+        "voith-gmbh"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "wannerpumps.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "hydra-cell",
+        "wanner-engineering"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "watts.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "mueller-steam-specialty",
+        "watts-industries"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    },
+    {
+      "domain": "wika.com",
+      "classification": "LEGITIMATE_PARENT_SUBBRAND_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "tecsis",
+        "wika"
+      ],
+      "rationale": "The curated set contains a parent-level entity and explicitly parented brands or companies with distinct canonical names."
+    },
+    {
+      "domain": "wmfts.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "bredel",
+        "watson-marlow"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "xylemanalytics.com",
+      "classification": "LEGITIMATE_GROUP_PORTFOLIO",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "si-analytics",
+        "wtw"
+      ],
+      "rationale": "Curated parentCompany and brand/company scope fields support separate entities within one official corporate or product portfolio."
+    },
+    {
+      "domain": "yaskawa.eu.com",
+      "classification": "LEGITIMATE_SUCCESSOR_OR_ACQUISITION_ECOSYSTEM",
+      "profileCount": 2,
+      "manufacturerIds": [
+        "vipa",
+        "yaskawa"
+      ],
+      "rationale": "Curated records declare legacy, acquired, successor or renamed status while retaining distinct canonical identities; shared first-party hosting is consistent with documented corporate continuity."
+    }
+  ],
+  "productLineIndicators": [
+    {
+      "manufacturerId": "cooper-bussmann",
+      "indicator": "DISPLAY_AND_OFFICIAL_NAME_EXPLICITLY_IDENTIFY_A_SERIES",
+      "statusModifier": "LEGACY_BRAND",
+      "assessment": "DECLARED_NONBLOCKING_PRODUCT_SERIES",
+      "publicationGuard": "Keep the visible Bussmann series and Eaton relationship; do not present it as an independent corporate manufacturer."
+    },
+    {
+      "manufacturerId": "giuliani-anello",
+      "indicator": "EXPLICIT_GROUP_PRODUCT_LINE_STATUS",
+      "statusModifier": "GROUP_PRODUCT_LINE",
+      "assessment": "DECLARED_NONBLOCKING_PRODUCT_LINE",
+      "publicationGuard": "Keep the Watts parent relationship visible and scope claims to the documented product line."
+    },
+    {
+      "manufacturerId": "ondastop-amis-srl",
+      "indicator": "EXPLICIT_PRODUCT_BRAND_STATUS",
+      "statusModifier": "PRODUCT_BRAND",
+      "assessment": "DECLARED_NONBLOCKING_PRODUCT_BRAND",
+      "publicationGuard": "Keep A.M.I.S. ownership visible and scope claims to the documented brand range."
+    },
+    {
+      "manufacturerId": "thomson-micron",
+      "indicator": "EXPLICIT_PRODUCT_BRAND_STATUS",
+      "statusModifier": "PRODUCT_BRAND",
+      "assessment": "DECLARED_NONBLOCKING_PRODUCT_BRAND",
+      "publicationGuard": "Keep Thomson ownership visible and avoid presenting Micron as a standalone corporate manufacturer."
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "findingId": "RESOLVED-IDENTITY-001",
+      "manufacturerId": "andritz-gouda",
+      "resolution": "REMOVED_FROM_SAFE_CORPUS",
+      "blockedStatus": "BLOCKED_IDENTITY_SCOPE",
+      "evidence": "The registry/profile scope mismatch is now recorded in blockedIdentities instead of an indexable SAFE profile."
+    },
+    {
+      "findingId": "RESOLVED-IDENTITY-002",
+      "manufacturerId": "kromschroder",
+      "resolution": "REMOVED_FROM_SAFE_CORPUS",
+      "blockedStatus": "DUPLICATE_CANONICAL_CANDIDATE",
+      "evidence": "The duplicate Kromschröder candidate is now blocked; elster-kromschroeder remains the canonical SAFE profile."
+    },
+    {
+      "findingId": "RESOLVED-IDENTITY-003",
+      "manufacturerId": "gamar",
+      "resolution": "REMOVED_FROM_SAFE_CORPUS",
+      "blockedStatus": "BLOCKED_CANONICAL_OVERLAP",
+      "evidence": "The overlapping Gamar profile is now blocked; sacemi-gamar remains the canonical SAFE profile."
+    },
+    {
+      "findingId": "RESOLVED-ALIAS-001",
+      "manufacturerIds": [
+        "ari",
+        "ari-armaturen",
+        "emg-automation",
+        "emg-presses",
+        "sef-motoriduttori",
+        "stanley-engineered-fastening"
+      ],
+      "resolution": "AMBIGUOUS_BARE_ALIASES_REMOVED",
+      "evidence": "The reconstructed SAFE corpus has zero cross-profile normalized name/alias tokens."
+    },
+    {
+      "findingId": "RESOLVED-ALIAS-002",
+      "manufacturerIds": [
+        "allen-bradley",
+        "rockwell-automation",
+        "cantoni-group",
+        "celma-indukta"
+      ],
+      "resolution": "PARENT_SUBBRAND_CANONICAL_ALIASES_REMOVED",
+      "evidence": "Dedicated sub-brand names no longer collide with parent canonical aliases in the SAFE corpus."
+    }
+  ],
+  "actionableFindings": [],
+  "releaseAssessment": {
+    "result": "PASS",
+    "corpusLevelReleaseBlocker": false,
+    "criticalProfiles": [],
+    "highReviewProfiles": [],
+    "notes": [
+      "All 2,219 SAFE profiles pass registry, normalized canonical/display name, alias, sourceId and official-evidence integrity checks.",
+      "All 90 shared official domains are supported by curated parent/sub-brand, group, successor or acquisition relationships; no suspicious shared-domain duplicate remains in the SAFE corpus.",
+      "The prior ANDRITZ Gouda scope mismatch, duplicate Kromschröder profile and Gamar lineage overlap are outside the SAFE corpus with explicit blocked statuses.",
+      "Four product-line or product-brand identities remain intentionally declared and are nonblocking while their parent/product-line disclosure guards remain visible.",
+      "No externally confirmed wrong identity was asserted because this audit intentionally used curated evidence only and performed no web crawl."
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "checkedAt": "2026-08-24",
+  "scope": "LOCAL_GENERATED_OPERATIONS_AND_APPLICATION_BOUNDARY",
+  "deploymentChecked": false,
+  "browserChecked": false,
+  "overallOutcome": "PASS",
+  "publicationReady": true,
+  "summary": {
+    "generatedDataGate": "PASS",
+    "sourceApplicationBoundaryGate": "PASS",
+    "renderedArtifactGate": "PASS",
+    "reason": "The fresh rendered artifact matches the identity-overlap-cleaned source-of-truth: 2219 unique manufacturer sitemap URLs and zero product URLs."
+  },
+  "readiness": {
+    "outcome": "PASS",
+    "manufacturerRecords": 2806,
+    "brandSafe": 2219,
+    "brandReview": 587,
+    "brandWeak": 0,
+    "safeReviewOverlap": 0,
+    "duplicateManufacturerIds": 0,
+    "duplicateSafeIds": 0,
+    "duplicateReviewIds": 0,
+    "safeIdsMissingFromManufacturerIndex": 0,
+    "reviewIdsMissingFromManufacturerIndex": 0,
+    "countEquation": "2219 + 587 + 0 = 2806"
+  },
+  "seo": {
+    "outcome": "PASS",
+    "seoAuditRecords": 2806,
+    "seoAuditPass": 2806,
+    "indexableRecords": 2219,
+    "noindexRecords": 587,
+    "uniqueSafeTitles": 2219,
+    "uniqueSafeMetaDescriptions": 2219,
+    "duplicateSafeTitles": 0,
+    "duplicateSafeMetaDescriptions": 0,
+    "missingH1": 0,
+    "missingCanonical": 0,
+    "missingOpenGraph": 0,
+    "schemaErrors": 0,
+    "productSchemaPages": 0
+  },
+  "content": {
+    "outcome": "PASS",
+    "contentAuditRecords": 2219,
+    "contentAuditPass": 2219,
+    "contentAuditFail": 0,
+    "similarityAlgorithm": "word-trigram-jaccard",
+    "similarityThreshold": 0.72,
+    "profilesCompared": 2219,
+    "pairsCompared": 2460871,
+    "nearDuplicateFindings": 0,
+    "unsupportedCommercialClaims": 0
+  },
+  "sitemap": {
+    "sourceInputOutcome": "PASS",
+    "finalSafeProfiles": 2219,
+    "sourceIndexableSlugs": 2219,
+    "sourceManufacturerSitemapInputs": 2219,
+    "uniqueSourceManufacturerSitemapInputs": 2219,
+    "duplicateSourceManufacturerSitemapInputs": 0,
+    "safeProfilesMissingFromSourceSitemapInput": 0,
+    "sourceProductSitemapInputs": 0,
+    "renderedArtifactOutcome": "PASS",
+    "renderedManufacturerUrls": 2219,
+    "renderedExpectedManufacturerUrls": 2219,
+    "renderedMissingRelativeToFinalSource": 0,
+    "renderedExtraRelativeToFinalSource": 0,
+    "blocker": null
+  },
+  "logos": {
+    "outcome": "PASS_WITH_NONPUBLIC_FINDING",
+    "manifestCandidates": 524,
+    "logoAuditRecords": 524,
+    "publishable": 524,
+    "rightsUnknown": 0,
+    "brandSafeWithLogo": 459,
+    "manifestBrandSafeWithLogo": 459,
+    "missingReferencedAssets": 0,
+    "checksumMismatches": 0,
+    "localAssetFiles": 525,
+    "unmappedLocalAssets": 1,
+    "finding": "zimmer.svg is an unused byte-identical duplicate of the registered zimmer-gmbh.svg asset; it is not referenced by the public registry."
+  },
+  "semanticAndCategoryReports": {
+    "outcome": "PASS",
+    "semanticMapRecords": 2219,
+    "uniqueSemanticMapManufacturerIds": 2219,
+    "safeProfilesMissingFromSemanticMap": 0,
+    "semanticRecordsWithoutPrimaryCategory": 0,
+    "categoryEvidenceBrands": 2219,
+    "familyEvidenceBrands": 2203,
+    "semanticCategories": 63,
+    "categoryReportCategories": 63,
+    "categoryCoverageMismatches": 0,
+    "highConfidenceCategoryCandidates": 56,
+    "publicCategoryPagesCreated": 0
+  },
+  "productBoundary": {
+    "outcome": "PASS",
+    "manifestRemoteProductRecords": 0,
+    "productSitemapInputs": 0,
+    "productOrCatalogApplicationRoutes": 0,
+    "productApiRoutes": 0,
+    "productCommerceSchemaMatches": 0,
+    "forbiddenProductDataPathsPresent": 0,
+    "publicCatalogAssetDirectoriesPresent": 0,
+    "publicProductImageDirectoriesPresent": 0,
+    "productRouteRenderedTests": "PASS",
+    "brandOnlyImportBoundaryTest": "PASS"
+  },
+  "brandAndConversionRegression": {
+    "outcome": "PASS",
+    "publicTextFilesScanned": 389,
+    "oldBrandOrDomainHitsInAppAndPublic": 0,
+    "oldBrandPatterns": [
+      "Индустрия Поставок",
+      "VENTORVIA",
+      "industriapostavok.ru"
+    ],
+    "requestAnOfferSourceOccurrences": 11,
+    "legacyRequestQuoteSourceOccurrences": 0,
+    "sendYourSpecificationSourceOccurrences": 4,
+    "servicesNavigationLinks": 2,
+    "servicesRoutePresent": true,
+    "servicesSchemaPresent": true,
+    "ctaAndServicesRenderedTests": "PASS",
+    "nonPublicLegacyReferenceFiles": 11,
+    "nonPublicLegacyReferencePolicy": "ALLOWED_IN_MIGRATION_DOCUMENTATION_AUDIT_SCRIPTS_AND_NEGATIVE_TESTS_ONLY"
+  },
+  "tests": {
+    "brandKnowledgeSourceTests": {
+      "passed": 8,
+      "failed": 0,
+      "outcome": "PASS"
+    },
+    "renderedHtmlTests": {
+      "passed": 17,
+      "failed": 0,
+      "outcome": "PASS",
+      "failedTest": null,
+      "failure": null
+    },
+    "internationalRuntimeAudit": {
+      "outcome": "PASS",
+      "enContentReady": 2219,
+      "enSeoReady": 2219,
+      "uniqueTitles": 2219,
+      "uniqueDescriptions": 2219,
+      "unsupportedCommercialClaims": 0,
+      "oldSpellingOccurrences": 0
+    }
+  },
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "STALE_RENDERED_SITEMAP",
+      "status": "RESOLVED",
+      "detail": "The post-demotion build now exposes exactly 2219 manufacturer sitemap URLs, matching the final SAFE corpus, with zero product URLs.",
+      "requiredAction": "None. Publish only the fresh artifact verified by this audit."
+    },
+    {
+      "severity": "LOW",
+      "code": "UNMAPPED_DUPLICATE_LOGO_ASSET",
+      "status": "NON_BLOCKING",
+      "detail": "public/images/brand-logos/zimmer.svg is byte-identical to the registered Zimmer Group asset and has no registry mapping.",
+      "requiredAction": "Optionally remove the redundant file in a separately authorized asset-cleanup change."
+    },
+    {
+      "severity": "INFO",
+      "code": "NONPUBLIC_LEGACY_REFERENCES",
+      "status": "ACCEPTED",
+      "detail": "Eleven migration documents, audit scripts or negative tests retain old-brand strings. No occurrence exists in app or public source.",
+      "requiredAction": "No publication action required; keep these references outside the deployable public boundary."
+    }
+  ],
+  "releaseInstruction": "LOCAL_PUBLICATION_GATE_PASS. Publish only the fresh 2219-SAFE artifact verified by this audit; deployment and live-browser verification remain separate operational checks."
+}

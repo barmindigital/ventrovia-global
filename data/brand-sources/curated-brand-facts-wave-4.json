@@ -14,6 +14,13 @@
       "checkedAt": "2026-08-17",
       "reason": "The catalog contains separate ELKO and ELKO EP entities. Official ELKO EP evidence proves the relay manufacturer but does not yet prove that the historical ELKO record is the same entity.",
       "attemptedUrls": ["https://www.elkoep.com/", "https://www.elkoep.com/products/elko-lighting/"]
+    },
+    {
+      "manufacturerId": "andritz-gouda",
+      "status": "BLOCKED_IDENTITY_SCOPE",
+      "checkedAt": "2026-08-24",
+      "reason": "The registry identity is ANDRITZ Gouda, but the curated profile and evidence describe the full ANDRITZ group rather than the Gouda business scope. Publishing it would create a canonical-scope mismatch until Gouda-specific official identity and product evidence are established.",
+      "attemptedUrls": ["https://www.andritz.com/", "https://www.andritz.com/products-en/products"]
     }
   ],
   "profiles": [
@@ -241,15 +248,6 @@
       "productCategories": ["Лазерные станки", "Листообрабатывающие станки", "Листогибочные прессы", "Сварочное оборудование", "Режущие и шлифовальные станки"], "productFamilies": ["Laser Machines", "Turret Punch Presses", "Press Brakes", "Welding Machines", "Sawing Machines", "Grinding Machines"], "series": [], "industries": ["Металлообработка", "Машиностроение"],
       "officialCatalogs": ["https://www.amada.co.jp/en/products/search/function/"], "documentationSources": ["https://www.amada.co.jp/en/corporate/group/"],
       "sources": [{"sourceId":"brand-amada-group","tier":"A","type":"ABOUT","scope":"BRAND_CATEGORY","url":"https://www.amada.co.jp/en/corporate/group/","status":"AVAILABLE","checkedAt":"2026-08-17"},{"sourceId":"brand-amada-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.amada.co.jp/en/products/search/function/","status":"AVAILABLE","checkedAt":"2026-08-17"}]
-    },
-    {
-      "manufacturerId": "andritz-gouda", "officialName": "ANDRITZ", "displayName": "ANDRITZ", "aliases": ["Andritz Gouda", "ANDRITZ AG"], "formerNames": [],
-      "officialWebsite": "https://www.andritz.com/", "officialDomains": ["andritz.com"], "country": "Австрия", "headquarters": "Грац, Австрия", "foundedYear": null, "parentCompany": null,
-      "shortDescription": "ANDRITZ поставляет оборудование и системы для целлюлозно-бумажной промышленности, гидроэнергетики, металлов, насосов, разделения, переработки и автоматизации.",
-      "fullDescription": ["ANDRITZ AG — австрийская промышленная группа со штаб-квартирой в Граце. Официальный product directory охватывает технологическое оборудование и комплексные системы для нескольких процессных отраслей.", "Подтверждённые направления включают pulp and paper, metals, hydropower, environment and energy, pumps, recycling, separation и automation. Страница бренда не переносит свойства одной business unit на оборудование другой."],
-      "productCategories": ["Промышленные насосы", "Сепарационное оборудование", "Гидроэнергетическое оборудование", "Промышленная автоматизация", "Оборудование переработки"], "productFamilies": ["Pumps", "Separation", "Hydropower", "Automation", "Recycling"], "series": [], "industries": ["Целлюлозно-бумажная промышленность", "Гидроэнергетика", "Металлургия", "Переработка"],
-      "officialCatalogs": ["https://www.andritz.com/products-en/products"], "documentationSources": ["https://www.andritz.com/separation-en/products"],
-      "sources": [{"sourceId":"brand-andritz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_CATEGORY","url":"https://www.andritz.com/products-en/products","status":"AVAILABLE","checkedAt":"2026-08-17"},{"sourceId":"brand-andritz-separation","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.andritz.com/separation-en/products","status":"AVAILABLE","checkedAt":"2026-08-17"}]
     },
     {
       "manufacturerId": "demag", "officialName": "Demag", "displayName": "Demag", "aliases": ["Demag Cranes"], "formerNames": [],

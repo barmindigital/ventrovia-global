@@ -56,6 +56,13 @@
       "checkedAt": "2026-08-24",
       "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company.",
       "attemptedUrls": ["https://www.gat-mbh.de/en/", "https://www.gat-mbh.de/en/products/"]
+    },
+    {
+      "manufacturerId": "gamar",
+      "status": "BLOCKED_CANONICAL_OVERLAP",
+      "checkedAt": "2026-08-24",
+      "reason": "The Gamar record shares the Sacemi-Gamar domain, company lineage and pump/motor scope with the canonical sacemi-gamar identity. Current first-party evidence does not justify a second standalone indexable manufacturer profile.",
+      "attemptedUrls": ["https://www.sacemigamar.com/en/", "https://www.sacemigamar.com/en/company/"]
     }
   ],
   "profiles": [
@@ -771,29 +778,6 @@
       "officialCatalogs": [],
       "documentationSources": ["https://www.gamak.com/en/low-voltage-motors"],
       "sources": [{"sourceId":"brand-gamak-motors","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_AND_ELECTRIC_MOTOR_SCOPE","url":"https://www.gamak.com/en/low-voltage-motors","status":"AVAILABLE","checkedAt":"2026-08-24"}]
-    },
-    {
-      "manufacturerId": "gamar",
-      "officialName": "Gamar",
-      "displayName": "Gamar",
-      "aliases": ["GAMAR", "SACEMI GAMAR"],
-      "formerNames": [],
-      "officialWebsite": "https://www.sacemigamar.com/en/",
-      "officialDomains": ["sacemigamar.com"],
-      "country": "Italy",
-      "headquarters": "Noventa di Piave, Italy",
-      "foundedYear": null,
-      "parentCompany": "Sacemi-Gamar S.r.l.",
-      "statusModifier": "GROUP_BRAND",
-      "shortDescription": "Gamar is a Sacemi-Gamar brand for industrial electric motors and immersed electric pumps.",
-      "fullDescription": ["Gamar is verified through the official Sacemi-Gamar website as a current product brand within Sacemi-Gamar S.r.l.", "The documented production program covers electric motors and low- and medium-pressure immersed electric pumps for cooling, lubrication, washing and machine-tool fluid circulation."],
-      "productCategories": ["Промышленные электродвигатели", "Промышленные насосы"],
-      "productFamilies": ["Electric Motors", "Immersed Electric Pumps", "Low-Pressure Pumps", "Medium-Pressure Pumps"],
-      "series": [],
-      "industries": ["Машиностроение", "Металлообработка", "Промышленное производство"],
-      "officialCatalogs": ["https://www.sacemigamar.com/site/assets/files/2605/sacemi_gamar_catalogo_pompe_en_rev1_2023.pdf"],
-      "documentationSources": ["https://www.sacemigamar.com/en/company/"],
-      "sources": [{"sourceId":"brand-gamar-sacemi-gamar","tier":"A","type":"OFFICIAL_BRAND_AND_PRODUCT_PAGE","scope":"BRAND_IDENTITY_PARENT_LOCATION_AND_PUMP_MOTOR_SCOPE","url":"https://www.sacemigamar.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gamma-meccanica",

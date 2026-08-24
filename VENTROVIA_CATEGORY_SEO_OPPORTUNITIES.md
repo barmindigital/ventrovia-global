@@ -19,18 +19,18 @@ It is an editorial-priority aid, not a truth or ranking score.
 
 | Priority | Confirmed category | SAFE | Logos | Full content | Family evidence | Tier A brands | Score |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | Industrial automation and control | 346 | 103 | 346 | 343 | 331 | 89 |
-| 2 | Pumps and pumping systems | 287 | 45 | 287 | 284 | 273 | 86 |
-| 3 | Measurement and instrumentation | 236 | 59 | 236 | 233 | 231 | 88 |
-| 4 | Industrial valves and flow control | 224 | 45 | 224 | 220 | 209 | 87 |
-| 5 | Industrial sensors | 196 | 64 | 196 | 190 | 191 | 89 |
-| 6 | Drive and motion-control systems | 177 | 56 | 177 | 173 | 168 | 89 |
-| 7 | Electric motors | 161 | 30 | 161 | 158 | 156 | 87 |
-| 8 | Filtration and water systems | 154 | 27 | 154 | 152 | 150 | 87 |
-| 9 | Hydraulic equipment | 118 | 20 | 118 | 116 | 107 | 86 |
-| 10 | Gear units and geared drives | 96 | 21 | 96 | 96 | 93 | 88 |
+| 1 | Industrial automation and control | 491 | 142 | 491 | 488 | 470 | 89 |
+| 2 | Pumps and pumping systems | 344 | 51 | 344 | 341 | 328 | 86 |
+| 3 | Measurement and instrumentation | 342 | 75 | 342 | 339 | 331 | 88 |
+| 4 | Industrial valves and flow control | 297 | 49 | 297 | 293 | 277 | 86 |
+| 5 | Industrial sensors | 279 | 79 | 279 | 273 | 268 | 88 |
+| 6 | Drive and motion-control systems | 202 | 63 | 202 | 198 | 191 | 89 |
+| 7 | Electric motors | 193 | 34 | 193 | 190 | 185 | 87 |
+| 8 | Filtration and water systems | 209 | 35 | 209 | 207 | 202 | 87 |
+| 9 | Hydraulic equipment | 162 | 24 | 162 | 160 | 150 | 86 |
+| 10 | Gear units and geared drives | 118 | 24 | 118 | 118 | 113 | 87 |
 
-`Industrial machinery` has 233 SAFE brands but remains intentionally outside
+`Industrial machinery` has 314 SAFE brands but remains intentionally outside
 the first ten: the label is broad and needs a tighter editorial taxonomy before
 it becomes a focused search landing.
 

@@ -56,6 +56,13 @@
       "checkedAt": "2026-08-24",
       "reason": "The Bockwoldt geared-motor identity is plausible, but its manufacturer-owned website could not be reached or verified during this pass. Distributor-hosted catalogs were not accepted as primary evidence.",
       "attemptedUrls": ["https://www.bockwoldt.de/", "https://www.bockwoldt.com/"]
+    },
+    {
+      "manufacturerId": "kromschroder",
+      "status": "DUPLICATE_CANONICAL_CANDIDATE",
+      "checkedAt": "2026-08-24",
+      "reason": "The Kromschröder identity, Honeywell ownership and combustion-control scope duplicate the existing canonical elster-kromschroeder profile. A second indexable profile would split one current brand identity.",
+      "attemptedUrls": ["https://process.honeywell.com/", "https://www.kromschroeder.de/en/"]
     }
   ],
   "profiles": [
@@ -462,32 +469,6 @@
       "sources": [
         {"sourceId":"brand-intorq-parent-product","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_BRAKE_SPECIALISATION","url":"https://www.kendrion.com/en/products-services/industrial-brakes/spring-applied-brakes/intorq-14115","status":"AVAILABLE","checkedAt":"2026-08-24"},
         {"sourceId":"brand-intorq-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"SPRING_APPLIED_BRAKE_CLUTCH_AND_SERIES_SCOPE","url":"https://www.kendrion.com/fileadmin/user_upload/Downloads/Brochures_and_Flyers/Industrial_Brakes_INTORQ/KENDRION_INTORQ_EMBK_13212982_en_05_2024.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
-      ]
-    },
-    {
-      "manufacturerId": "kromschroder",
-      "officialName": "Elster Kromschröder",
-      "displayName": "Kromschröder",
-      "aliases": ["KROMSCHRODER", "KROMSCHRÖDER", "ELSTER KROMSCHRÖDER"],
-      "formerNames": [],
-      "officialWebsite": "https://process.honeywell.com/",
-      "officialDomains": ["process.honeywell.com", "honeywell.com"],
-      "country": "Germany",
-      "headquarters": "Lotte, Germany",
-      "foundedYear": null,
-      "parentCompany": "Honeywell International Inc.",
-      "statusModifier": "ACQUIRED_BRAND",
-      "shortDescription": "Kromschröder is a Honeywell brand of gas-control, burner-control and combustion-safety equipment.",
-      "fullDescription": ["Elster Kromschröder is verified through Honeywell's official process-technology platform as a German brand for securing, measuring and controlling natural gas, biogas and liquefied petroleum gas.", "Its documented scope includes burners, gas valves, pressure regulators, pressure switches, burner control units, meters and automation components for industrial heating and combustion processes."],
-      "productCategories": ["Промышленные клапаны", "Регуляторы давления", "Измерительное оборудование", "Горелочное оборудование", "Промышленная автоматизация и контроллеры", "Промышленная безопасность"],
-      "productFamilies": ["Gas Valves", "Pressure Regulators", "Pressure Switches", "Burners", "Burner Control Units", "Gas Meters", "Combustion Automation"],
-      "series": ["DG"],
-      "industries": ["Промышленный нагрев", "Энергетика", "Металлургия", "Промышленное производство"],
-      "officialCatalogs": [],
-      "documentationSources": ["https://process.honeywell.com/us/en/products/thermal-solutions/fuel-and-air-delivery/pressure-switches-and-gauges/kromschroeder-dg-pressure-switches-for-gas"],
-      "sources": [
-        {"sourceId":"brand-kromschroder-parent-company","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_HEADQUARTERS_AND_GAS_CONTROL_SPECIALISATION","url":"https://process.honeywell.com/us/en/site/ausbildung-kromschroeder/companies","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-kromschroder-product","tier":"A","type":"PRODUCT_PAGE","scope":"PRESSURE_SWITCH_AND_COMBUSTION_CONTROL_SCOPE","url":"https://process.honeywell.com/us/en/products/thermal-solutions/fuel-and-air-delivery/pressure-switches-and-gauges/kromschroeder-dg-pressure-switches-for-gas","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "checkedAt": "2026-08-24",
+  "scope": "LOCAL_READ_ONLY_LOGO_FAST_PATH_AUDIT",
+  "policy": {
+    "webCrawling": false,
+    "fuzzyMatching": false,
+    "publicationChanges": false,
+    "registryChanges": false,
+    "assetChanges": false,
+    "safeMatchRule": "Only an exact manufacturerId, canonical name, verified alias filename, or byte-identical checksum match is eligible for reporting. Reporting does not authorize publication."
+  },
+  "inputs": {
+    "manufacturerIdentities": "data/manufacturers/identities.json",
+    "generatedSafeProfiles": "data/brand-knowledge-international/profiles.json",
+    "curatedSafeProfiles": "data/brand-sources/curated-brand-facts*.json",
+    "logoAudit": "data/brand-operations/logo-audit.json",
+    "logoRegistry": "app/lib/brand-logos.ts",
+    "localAssets": "public/images/brand-logos"
+  },
+  "counts": {
+    "manufacturerIdentities": 2806,
+    "generatedSafeProfiles": 2219,
+    "pendingCuratedSafeProfiles": 0,
+    "safeProfilesAudited": 2219,
+    "logoRegistryEntries": 524,
+    "logoAuditEntries": 524,
+    "localLogoAssets": 525,
+    "safeProfilesWithRegistryLogo": 459,
+    "safeProfilesWithoutRegistryLogo": 1760,
+    "registryMappingsForNonSafeIdentities": 65,
+    "registryEntriesWithoutIdentity": 0,
+    "registryEntriesWithoutAuditRecord": 0,
+    "auditRecordsWithoutRegistryEntry": 0,
+    "registryAuditAssetPathMismatches": 0,
+    "missingLocalAssetsReferencedByRegistry": 0,
+    "localAssetChecksumMismatches": 0,
+    "localAssetsWithoutRegistryMapping": 1,
+    "safeExactFilenameOrAliasCandidates": 0,
+    "safePublishableFastPathCandidates": 0,
+    "potentialDuplicateGroups": 3
+  },
+  "safeMappingCandidates": [],
+  "unmappedLocalAssets": [
+    {
+      "manufacturerId": "zimmer-gmbh",
+      "asset": "/images/brand-logos/zimmer.svg",
+      "matchBasis": "BYTE_IDENTICAL_SHA256_TO_REGISTERED_ASSET:/images/brand-logos/zimmer-gmbh.svg",
+      "confidence": "EXACT",
+      "blocker": "ORPHAN_DUPLICATE_ASSET_ALREADY_COVERED_BY_CANONICAL_ZIMMER_GROUP_MAPPING"
+    }
+  ],
+  "orphanRegistryEntries": [],
+  "potentialDuplicates": [
+    {
+      "manufacturerId": "ckd-group",
+      "asset": "/images/brand-logos/ckd-group.png",
+      "matchBasis": "BYTE_IDENTICAL_SHA256_AND_EXACT_ORIGINAL_URL_MATCH_WITH_CKD:/images/brand-logos/ckd.png",
+      "confidence": "EXACT",
+      "blocker": "DUPLICATE_CANONICAL_IDENTITY; CKD Corporation is already represented by manufacturerId ckd"
+    },
+    {
+      "manufacturerId": "elko",
+      "asset": "/images/brand-logos/elko.jpg",
+      "matchBasis": "EXACT_SOURCE_PAGE_AND_ORIGINAL_URL_MATCH_WITH_ELKO_EP:/images/brand-logos/elko-ep.jpg; local encodings have different checksums",
+      "confidence": "HIGH",
+      "blocker": "AMBIGUOUS_IDENTITY; the separate ELKO record is not verified as ELKO EP"
+    },
+    {
+      "manufacturerId": "zimmer-gmbh",
+      "asset": "/images/brand-logos/zimmer.svg",
+      "matchBasis": "BYTE_IDENTICAL_SHA256_TO_REGISTERED_ASSET:/images/brand-logos/zimmer-gmbh.svg",
+      "confidence": "EXACT",
+      "blocker": "UNMAPPED_REDUNDANT_ASSET; canonical Zimmer Group already has a registered logo"
+    }
+  ],
+  "conclusion": {
+    "safeCandidatesFound": 0,
+    "publicationRecommendation": "NO_CHANGE",
+    "reviewRecommendation": "Keep the CKD Group and ELKO mappings unpublished while their canonical identity blockers remain. The orphan Zimmer duplicate can be removed in a separate explicitly authorized asset-cleanup task."
+  }
+}

@@ -424,48 +424,55 @@ The highest-value next sprint is not another architecture rewrite. It should com
 
 ## 20. Sprint 21 manufacturer-scale update — 24 August 2026
 
-Sprint 21 reused the established official-source Brand Factory without a new
-public architecture. It processed 960 manufacturer records in 20 measured
-waves. Of these, 777 passed the strict publication gate and 183 were retained as
-review or blocked records.
+Sprint 21 reused the established official-source Brand Factory without adding a
+new public architecture. It processed every one of the 1,858 records that was
+not SAFE at the Sprint baseline. The measured waves accepted 1,394 candidates
+and classified 464 for review; final cross-corpus controls conservatively
+demoted targeted identity overlaps, producing a net gain of 1,389 SAFE
+profiles.
 
 | Metric | Sprint 21 start | Sprint 21 finish | Change |
 |---|---:|---:|---:|
 | Manufacturer identities | 2,806 | 2,806 | 0 |
-| BRAND_SAFE | 830 | 1,607 | +777 |
-| BRAND_WEAK | 1,858 | 898 | -960 |
-| BRAND_REVIEW | 118 | 301 | +183 |
-| BRAND_COMPLETE | 668 | 1,214 | +546 |
-| Official source records | 1,948 | 3,158 | +1,210 |
-| Tier A source records | 1,766 | 2,928 | +1,162 |
-| SAFE with logo | 198 | 348 | +150 |
-| Confirmed countries | 728 | 1,441 | +713 |
-| Confirmed headquarters | 402 | 797 | +395 |
-| Family evidence | 814 | 1,591 | +777 |
-| English short descriptions | 830 | 1,607 | +777 |
-| English full descriptions | 830 | 1,607 | +777 |
-| Manufacturer sitemap target | 830 | 1,607 | +777 |
+| BRAND_SAFE | 830 | 2,219 | +1,389 |
+| BRAND_WEAK | 1,858 | 0 | -1,858 |
+| BRAND_REVIEW | 118 | 587 | +469 |
+| BRAND_COMPLETE | 668 | 1,515 | +847 |
+| Official domains | 830 | 2,219 | +1,389 |
+| Official source records | 1,948 | 3,890 | +1,942 |
+| Tier A source records | 1,766 | 3,614 | +1,848 |
+| SAFE with logo | 198 | 459 | +261 |
+| Confirmed countries | 728 | 2,018 | +1,290 |
+| Confirmed headquarters | 402 | 956 | +554 |
+| Family evidence | 814 | 2,203 | +1,389 |
+| English short descriptions | 830 | 2,219 | +1,389 |
+| English full descriptions | 830 | 2,219 | +1,389 |
+| Manufacturer sitemap target | 830 | 2,219 | +1,389 |
 | Product sitemap | 0 | 0 | 0 |
 
-Measured throughput was 475.64 processed records/hour and 384.97 new SAFE
-profiles/hour across a 2.0183-hour parallel processing window. The
-source-to-SAFE success rate was 80.94%.
+Measured throughput was 427.51 processed records/hour and 320.75 accepted SAFE
+records/hour across a 4.3461-hour parallel processing window. The wave
+source-to-SAFE success rate was 75.03%. Ambiguous identities, inaccessible or
+insecure sources, product lines and canonical duplicates were retained in
+review instead of being promoted for numerical completeness.
 
-The final SEO corpus contains 1,607 unique Titles and 1,607 unique Meta
-Descriptions. The similarity audit compared 1,290,421 profile pairs and found
-no near-duplicate result at the configured 0.72 threshold. A duplicate current
-Moog GAT identity discovered by the final corpus audit was conservatively
-demoted before release rather than retained as a second page.
+The final SEO corpus contains 2,219 unique Titles and 2,219 unique Meta
+Descriptions, with no systemic near-duplicate finding at the configured 0.72
+threshold. The strengthened generation gate rejects duplicate display names,
+normalised official-name collisions and records without qualifying HTTPS
+official evidence.
 
-Logo coverage increased from 198 to 348 through exact reviewed registry matches.
-Fuzzy matches, favicons and reseller assets were not accepted merely to meet a
-coverage target.
+Logo coverage increased from 198 to 459 through exact reviewed registry
+matches, more than doubling the published count. Fuzzy matches, favicons and
+reseller assets were not accepted merely to meet a coverage target.
 
-The strongest report-only SEO clusters after Sprint 21 are automation (346),
-pumps (287), measurement (236), valves (224), sensors (196), drives (177),
-electric motors (161), filtration and water systems (154), hydraulics (118), and
-geared drives (96). No mass category or Brand × Category URL layer was
-published.
+The strongest report-only SEO clusters after Sprint 21 are automation (491),
+pumps (344), measurement (342), industrial machinery (314), valves (297),
+sensors (279), filtration and water systems (209), drives (202), electric
+motors (193), thermal management (190), hydraulics (162), conveying (137),
+geared drives (118), and pneumatics (117). No mass category or Brand × Category
+URL layer was published. Two unpublished local editorial prototypes document a
+future controlled rollout for Pumps and Industrial Automation.
 
 The product-route investigation confirmed that `/catalog`, product pages,
 legacy SKU routes and `/api/products` return 404 by intentional architecture:
@@ -473,3 +480,13 @@ their route modules and datasets are absent from the manufacturer-only
 application, and release tests enforce that boundary. This is not a Timeweb
 routing fault. The private Russian catalogue and customer handoff were not read,
 changed, committed or deployed during Sprint 21.
+
+The final local release gate passed ESLint, TypeScript, 25 automated tests,
+brand identity, content, SEO, logo, visual, visibility, security and bundle
+audits. A deterministic 500-profile sample recorded zero wrong identities,
+wrong logos, unsupported claims, empty sections, SEO errors or product leakage.
+The Timeweb production build completed in 24.68 seconds with approximately
+914 MB maximum resident memory. The rendered manufacturer directory HTML was
+718,596 bytes; public JavaScript remained 386,146 bytes across 23 files. A
+1,000-query local manufacturer-search benchmark over all 2,806 identities
+measured 0.754 ms median and 1.025 ms p95.
