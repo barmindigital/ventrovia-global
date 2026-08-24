@@ -1,21 +1,21 @@
 {
   "measurementStatus": "MEASURED",
-  "processedManufacturers": 2458,
-  "safe": 1983,
-  "blockedOrReview": 475,
-  "sourceSuccessRate": 0.8068,
-  "averageSourcesPerSafe": 1.81,
+  "processedManufacturers": 2508,
+  "safe": 2012,
+  "blockedOrReview": 496,
+  "sourceSuccessRate": 0.8022,
+  "averageSourcesPerSafe": 1.8,
   "sprint19": {
     "processingStartedAt": "2026-08-19T21:51:37.000Z",
     "processingFinishedAt": "2026-08-19T22:44:14.000Z",
     "elapsedHours": 0.8769,
-    "processed": 1913,
-    "safe": 1484,
-    "review": 429,
-    "sourceSuccessRate": 0.7757,
-    "processedPerHour": 2181.44,
-    "safePerHour": 1692.24,
-    "reviewPerHour": 489.2,
+    "processed": 1963,
+    "safe": 1513,
+    "review": 450,
+    "sourceSuccessRate": 0.7708,
+    "processedPerHour": 2238.45,
+    "safePerHour": 1725.31,
+    "reviewPerHour": 513.15,
     "batches": [
       {
         "wave": 48,
@@ -380,6 +380,13 @@
         "safe": 40,
         "review": 10,
         "processed": 50
+      },
+      {
+        "wave": 100,
+        "file": "curated-brand-facts-wave-100.json",
+        "safe": 29,
+        "review": 21,
+        "processed": 50
       }
     ]
   },
@@ -387,13 +394,13 @@
     "processingStartedAt": "2026-08-24T06:12:43.000Z",
     "processingFinishedAt": "2026-08-24T08:13:49.000Z",
     "elapsedHours": 2.0183,
-    "processed": 1510,
-    "safe": 1155,
-    "review": 355,
-    "sourceSuccessRate": 0.7649,
-    "processedPerHour": 748.14,
-    "safePerHour": 572.25,
-    "reviewPerHour": 175.89,
+    "processed": 1560,
+    "safe": 1184,
+    "review": 376,
+    "sourceSuccessRate": 0.759,
+    "processedPerHour": 772.91,
+    "safePerHour": 586.62,
+    "reviewPerHour": 186.29,
     "batches": [
       {
         "wave": 69,
@@ -610,6 +617,13 @@
         "file": "curated-brand-facts-wave-99.json",
         "safe": 40,
         "review": 10,
+        "processed": 50
+      },
+      {
+        "wave": 100,
+        "file": "curated-brand-facts-wave-100.json",
+        "safe": 29,
+        "review": 21,
         "processed": 50
       }
     ]
