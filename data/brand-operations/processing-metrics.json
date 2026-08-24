@@ -1,21 +1,21 @@
 {
   "measurementStatus": "MEASURED",
-  "processedManufacturers": 1258,
-  "safe": 1082,
-  "blockedOrReview": 176,
-  "sourceSuccessRate": 0.8601,
-  "averageSourcesPerSafe": 2.24,
+  "processedManufacturers": 1408,
+  "safe": 1197,
+  "blockedOrReview": 211,
+  "sourceSuccessRate": 0.8501,
+  "averageSourcesPerSafe": 2.19,
   "sprint19": {
     "processingStartedAt": "2026-08-19T21:51:37.000Z",
     "processingFinishedAt": "2026-08-19T22:44:14.000Z",
     "elapsedHours": 0.8769,
-    "processed": 713,
-    "safe": 582,
-    "review": 131,
-    "sourceSuccessRate": 0.8163,
-    "processedPerHour": 813.05,
-    "safePerHour": 663.67,
-    "reviewPerHour": 149.38,
+    "processed": 863,
+    "safe": 697,
+    "review": 166,
+    "sourceSuccessRate": 0.8076,
+    "processedPerHour": 984.1,
+    "safePerHour": 794.81,
+    "reviewPerHour": 189.29,
     "batches": [
       {
         "wave": 48,
@@ -212,6 +212,27 @@
         "safe": 42,
         "review": 8,
         "processed": 50
+      },
+      {
+        "wave": 76,
+        "file": "curated-brand-facts-wave-76.json",
+        "safe": 35,
+        "review": 15,
+        "processed": 50
+      },
+      {
+        "wave": 77,
+        "file": "curated-brand-facts-wave-77.json",
+        "safe": 43,
+        "review": 7,
+        "processed": 50
+      },
+      {
+        "wave": 78,
+        "file": "curated-brand-facts-wave-78.json",
+        "safe": 37,
+        "review": 13,
+        "processed": 50
       }
     ]
   },
@@ -219,10 +240,10 @@
     "processingStartedAt": "2026-08-24T06:12:43.000Z",
     "processingFinishedAt": null,
     "elapsedHours": null,
-    "processed": 310,
-    "safe": 252,
-    "review": 58,
-    "sourceSuccessRate": 0.8129,
+    "processed": 460,
+    "safe": 367,
+    "review": 93,
+    "sourceSuccessRate": 0.7978,
     "processedPerHour": null,
     "safePerHour": null,
     "reviewPerHour": null,
@@ -274,6 +295,27 @@
         "file": "curated-brand-facts-wave-75.json",
         "safe": 42,
         "review": 8,
+        "processed": 50
+      },
+      {
+        "wave": 76,
+        "file": "curated-brand-facts-wave-76.json",
+        "safe": 35,
+        "review": 15,
+        "processed": 50
+      },
+      {
+        "wave": 77,
+        "file": "curated-brand-facts-wave-77.json",
+        "safe": 43,
+        "review": 7,
+        "processed": 50
+      },
+      {
+        "wave": 78,
+        "file": "curated-brand-facts-wave-78.json",
+        "safe": 37,
+        "review": 13,
         "processed": 50
       }
     ]
