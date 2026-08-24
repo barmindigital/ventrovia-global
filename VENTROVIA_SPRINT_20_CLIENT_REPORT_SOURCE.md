@@ -421,3 +421,55 @@ The highest-value next sprint is not another architecture rewrite. It should com
 - Old `.ru` dependency: **0**.
 - Public `VENTORVIA` spelling: **0**.
 - Public `Индустрия Поставок` identity: **0**.
+
+## 20. Sprint 21 manufacturer-scale update — 24 August 2026
+
+Sprint 21 reused the established official-source Brand Factory without a new
+public architecture. It processed 960 manufacturer records in 20 measured
+waves. Of these, 777 passed the strict publication gate and 183 were retained as
+review or blocked records.
+
+| Metric | Sprint 21 start | Sprint 21 finish | Change |
+|---|---:|---:|---:|
+| Manufacturer identities | 2,806 | 2,806 | 0 |
+| BRAND_SAFE | 830 | 1,607 | +777 |
+| BRAND_WEAK | 1,858 | 898 | -960 |
+| BRAND_REVIEW | 118 | 301 | +183 |
+| BRAND_COMPLETE | 668 | 1,214 | +546 |
+| Official source records | 1,948 | 3,158 | +1,210 |
+| Tier A source records | 1,766 | 2,928 | +1,162 |
+| SAFE with logo | 198 | 348 | +150 |
+| Confirmed countries | 728 | 1,441 | +713 |
+| Confirmed headquarters | 402 | 797 | +395 |
+| Family evidence | 814 | 1,591 | +777 |
+| English short descriptions | 830 | 1,607 | +777 |
+| English full descriptions | 830 | 1,607 | +777 |
+| Manufacturer sitemap target | 830 | 1,607 | +777 |
+| Product sitemap | 0 | 0 | 0 |
+
+Measured throughput was 475.64 processed records/hour and 384.97 new SAFE
+profiles/hour across a 2.0183-hour parallel processing window. The
+source-to-SAFE success rate was 80.94%.
+
+The final SEO corpus contains 1,607 unique Titles and 1,607 unique Meta
+Descriptions. The similarity audit compared 1,290,421 profile pairs and found
+no near-duplicate result at the configured 0.72 threshold. A duplicate current
+Moog GAT identity discovered by the final corpus audit was conservatively
+demoted before release rather than retained as a second page.
+
+Logo coverage increased from 198 to 348 through exact reviewed registry matches.
+Fuzzy matches, favicons and reseller assets were not accepted merely to meet a
+coverage target.
+
+The strongest report-only SEO clusters after Sprint 21 are automation (346),
+pumps (287), measurement (236), valves (224), sensors (196), drives (177),
+electric motors (161), filtration and water systems (154), hydraulics (118), and
+geared drives (96). No mass category or Brand × Category URL layer was
+published.
+
+The product-route investigation confirmed that `/catalog`, product pages,
+legacy SKU routes and `/api/products` return 404 by intentional architecture:
+their route modules and datasets are absent from the manufacturer-only
+application, and release tests enforce that boundary. This is not a Timeweb
+routing fault. The private Russian catalogue and customer handoff were not read,
+changed, committed or deployed during Sprint 21.

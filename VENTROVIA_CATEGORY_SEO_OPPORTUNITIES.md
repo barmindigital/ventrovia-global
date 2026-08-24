@@ -1,69 +1,58 @@
 # Ventrovia Category SEO Opportunities
 
-Checked: 2026-08-20
+Checked: 2026-08-24
 
 ## Scope
 
-This is an evidence and editorial-readiness report. It does not publish category
-URLs, Brand × Category pages, product listings, product counts, SKU data or
-Product schema. Counts include only `BRAND_SAFE` manufacturers and only product
-areas derived from official manufacturer or official corporate sources.
+This is an evidence and editorial-readiness report only. It does not publish
+category URLs, Brand × Category pages, product listings, SKU data or Product
+schema. Counts include only `BRAND_SAFE` manufacturers and product areas derived
+from official manufacturer or official corporate evidence.
 
 ## Scoring model
 
-The internal quality score is separate from truth verification. It combines:
-
-- verified SAFE coverage: 40 points;
-- publishable logo coverage: 15 points;
-- full English content coverage: 15 points;
-- family or series evidence: 15 points;
-- Tier A source coverage: 15 points.
-
-A score is useful for editorial prioritisation only. It never makes a brand or
-category factual, indexable or publishable by itself.
+The internal quality score combines verified SAFE coverage, publishable logo
+coverage, complete English content, family evidence and Tier A source coverage.
+It is an editorial-priority aid, not a truth or ranking score.
 
 ## Recommended first category layer
 
-| Priority | Confirmed category | SAFE brands | Logos | Full content | Family evidence | Tier A brands | Score |
+| Priority | Confirmed category | SAFE | Logos | Full content | Family evidence | Tier A brands | Score |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | Pumps and pumping systems | 187 | 34 | 187 | 184 | 177 | 87 |
-| 2 | Industrial automation and control | 171 | 52 | 171 | 168 | 161 | 88 |
-| 3 | Drive and motion-control systems | 126 | 44 | 126 | 122 | 119 | 89 |
-| 4 | Industrial valves and flow control | 121 | 29 | 121 | 117 | 113 | 87 |
-| 5 | Measurement and instrumentation | 116 | 32 | 116 | 113 | 114 | 88 |
-| 6 | Industrial sensors | 113 | 41 | 113 | 107 | 111 | 89 |
-| 7 | Electric motors | 109 | 24 | 109 | 106 | 105 | 87 |
-| 8 | Filtration and water systems | 69 | 17 | 69 | 67 | 65 | 87 |
-| 9 | Gear units and geared drives | 68 | 18 | 68 | 68 | 66 | 89 |
-| 10 | Hydraulic equipment | 61 | 12 | 61 | 59 | 53 | 85 |
+| 1 | Industrial automation and control | 346 | 103 | 346 | 343 | 331 | 89 |
+| 2 | Pumps and pumping systems | 287 | 45 | 287 | 284 | 273 | 86 |
+| 3 | Measurement and instrumentation | 236 | 59 | 236 | 233 | 231 | 88 |
+| 4 | Industrial valves and flow control | 224 | 45 | 224 | 220 | 209 | 87 |
+| 5 | Industrial sensors | 196 | 64 | 196 | 190 | 191 | 89 |
+| 6 | Drive and motion-control systems | 177 | 56 | 177 | 173 | 168 | 89 |
+| 7 | Electric motors | 161 | 30 | 161 | 158 | 156 | 87 |
+| 8 | Filtration and water systems | 154 | 27 | 154 | 152 | 150 | 87 |
+| 9 | Hydraulic equipment | 118 | 20 | 118 | 116 | 107 | 86 |
+| 10 | Gear units and geared drives | 96 | 21 | 96 | 96 | 93 | 88 |
 
-`Industrial machinery` has 84 verified brands but is intentionally not in the
-first ten recommendations: its meaning is broader and needs a stronger
-editorial taxonomy before it can become a focused search landing page.
+`Industrial machinery` has 233 SAFE brands but remains intentionally outside
+the first ten: the label is broad and needs a tighter editorial taxonomy before
+it becomes a focused search landing.
 
 ## Future page model
 
 A future category page may use a path such as `/manufacturers/pumps`, subject to
-a separate routing and editorial review. The page should contain:
+a separate editorial and routing release. It should contain a factual category
+definition, evidence-backed subtypes, a curated SAFE manufacturer set, useful
+RFQ guidance, visible FAQ content and restrained internal links.
 
-1. one factual category definition and sourcing context;
-2. a curated set of `BRAND_SAFE` manufacturers with verified specialisations;
-3. evidence-backed subtypes or technologies, not inferred product data;
-4. a restrained RFQ path for model, part-number or specification-led requests;
-5. useful, visible FAQ content;
-6. internal links to relevant manufacturer pages only.
+It must not become a thin logo directory. Publication requires unique category
+copy, category-level evidence review, useful segmentation, canonical and
+metadata validation, and a duplicate-content audit.
 
-It must not become a thin logo directory. Publication requires unique editorial
-copy, a category-level evidence review, useful segmentation, canonical and
-metadata validation, and a final duplicate-content audit.
+## Recommendation
 
-## Current recommendation
+Keep this layer report-only in Sprint 21. The evidence base is large enough to
+design the first pages, with automation and pumps as the strongest commercial
+starting points. Publish one or two controlled pages in a separate Sprint before
+opening a mass URL family.
 
-Keep the layer report-only during Sprint 19. The evidence base is now large
-enough to design the first pages, but taxonomy boundaries, category-specific
-copy and internal-link rules should be reviewed before any new URL family is
-opened to search engines.
+Machine-readable sources:
 
-The machine-readable source is
-`data/brand-operations/category-opportunity-report.json`; the complete semantic
-map is `data/brand-operations/international-brand-semantic-map.json`.
+- `data/brand-operations/category-opportunity-report.json`;
+- `data/brand-operations/international-brand-semantic-map.json`.

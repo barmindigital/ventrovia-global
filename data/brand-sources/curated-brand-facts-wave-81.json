@@ -49,6 +49,13 @@
       "checkedAt": "2026-08-24",
       "reason": "Galvi is a short generic name used in unrelated industrial and materials contexts. No queue-level discriminator resolves the intended manufacturer-owned identity.",
       "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "gat-gmbh",
+      "status": "DUPLICATE_CANONICAL_CANDIDATE",
+      "checkedAt": "2026-08-24",
+      "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company.",
+      "attemptedUrls": ["https://www.gat-mbh.de/en/", "https://www.gat-mbh.de/en/products/"]
     }
   ],
   "profiles": [
@@ -876,29 +883,6 @@
       "officialCatalogs": ["https://gastmfg.com/wp-content/uploads/2025/07/2026-Gast-Product-Line-Overview-Brochure_V2.pdf"],
       "documentationSources": ["https://www.gastmfg.com/product-technologies"],
       "sources": [{"sourceId":"brand-gast-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_PARENT_HISTORY_AND_AIR_MOVING_SCOPE","url":"https://www.gastmfg.com/product-technologies","status":"AVAILABLE","checkedAt":"2026-08-24"}]
-    },
-    {
-      "manufacturerId": "gat-gmbh",
-      "officialName": "Moog GAT GmbH",
-      "displayName": "Moog GAT",
-      "aliases": ["GAT", "GAT GMBH", "MOOG GAT", "GAT GESELLSCHAFT FÜR ANTRIEBSTECHNIK"],
-      "formerNames": ["GAT Gesellschaft für Antriebstechnik mbH"],
-      "officialWebsite": "https://www.gat-mbh.de/en/",
-      "officialDomains": ["gat-mbh.de"],
-      "country": "Germany",
-      "headquarters": "Geisenheim, Germany",
-      "foundedYear": null,
-      "parentCompany": "Moog Inc.",
-      "statusModifier": "FORMER_NAME",
-      "shortDescription": "Moog GAT manufactures rotary unions, slip rings, air bearings and torsion motors for industrial rotating systems.",
-      "fullDescription": ["Moog GAT GmbH is verified through its official website as the current company succeeding GAT Gesellschaft für Antriebstechnik mbH and operating within Moog.", "Its documented product range includes fluid rotary unions, electrical slip rings, combined transmission systems, air bearings and torsion motors for test rigs."],
-      "productCategories": ["Промышленные токосъёмники", "Промышленные уплотнения", "Промышленные электродвигатели"],
-      "productFamilies": ["Rotary Unions", "Slip Rings", "Combined Rotary Transmission Systems", "Air Bearings", "Torsion Motors"],
-      "series": [],
-      "industries": ["Машиностроение", "Энергетика", "Промышленное производство"],
-      "officialCatalogs": [],
-      "documentationSources": ["https://www.gat-mbh.de/en/company/company-portrait/"],
-      "sources": [{"sourceId":"brand-gat-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CURRENT_AND_FORMER_IDENTITY_PARENT_LOCATION_AND_ROTARY_TRANSMISSION_SCOPE","url":"https://www.gat-mbh.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gates",
