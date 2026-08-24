@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = path.join(ROOT, "data/brand-operations");
 const check = process.argv.includes("--check");
+const CHECKED_AT = "2026-08-24";
 
 async function json(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
@@ -64,7 +65,7 @@ const safeCount = profiles.size;
 const weakCount = identityIndex.manufacturerCount - safeCount - reviewCount;
 const manifest = {
   version: 3,
-  checkedAt: "2026-08-20",
+  checkedAt: CHECKED_AT,
   runtimeScope: "VENTROVIA_BRAND_ONLY",
   manufacturerCount: identityIndex.manufacturerCount,
   profileCount: safeCount,
@@ -203,7 +204,7 @@ function stableRank(value) {
   }
   return hash >>> 0;
 }
-const sampleSize = safeCount >= 650 ? 300 : 250;
+const sampleSize = safeCount - 830 >= 500 ? 500 : safeCount >= 650 ? 300 : 250;
 const safeSample = knowledge.profiles
   .map((profile) => profile.manufacturerId)
   .sort((left, right) => stableRank(left) - stableRank(right));
@@ -236,7 +237,7 @@ const deterministicSample = {
 const reviewAfter = "2026-09-19";
 const sourceCache = {
   version: 1,
-  checkedAt: "2026-08-20",
+  checkedAt: CHECKED_AT,
   positive: knowledge.profiles.flatMap((profile) =>
     profile.sources.map((source) => ({
       manufacturerId: profile.manufacturerId,
@@ -342,7 +343,7 @@ for (const profile of knowledge.profiles) {
 }
 const categoryOpportunityReport = {
   version: 2,
-  checkedAt: "2026-08-20",
+  checkedAt: CHECKED_AT,
   scope: "REPORT_ONLY_NO_PUBLIC_CATEGORY_URLS",
   minimumRecommendedCoverage: 8,
   scoring: {
@@ -394,6 +395,7 @@ const categoryOpportunityReport = {
 };
 
 const sprintWindow = await optionalJson("data/brand-sources/sprint-19-processing-window.json");
+const sprint21Window = await optionalJson("data/brand-sources/sprint-21-processing-window.json");
 const sprintWaveFiles = sprintWindow
   ? (await readdir(path.join(ROOT, "data/brand-sources")))
       .map((file) => ({ file, wave: Number(file.match(/^curated-brand-facts-wave-(\d+)\.json$/u)?.[1]) }))
@@ -418,6 +420,30 @@ const sprintReview = sprintBatches.reduce((sum, batch) => sum + batch.review, 0)
 const elapsedHours = sprintWindow?.processingFinishedAt
   ? (Date.parse(sprintWindow.processingFinishedAt) - Date.parse(sprintWindow.processingStartedAt)) / 3_600_000
   : null;
+const sprint21WaveFiles = sprint21Window
+  ? (await readdir(path.join(ROOT, "data/brand-sources")))
+      .map((file) => ({ file, wave: Number(file.match(/^curated-brand-facts-wave-(\d+)\.json$/u)?.[1]) }))
+      .filter((item) => Number.isFinite(item.wave) && item.wave >= sprint21Window.firstWave)
+      .sort((left, right) => left.wave - right.wave)
+  : [];
+const sprint21Batches = await Promise.all(
+  sprint21WaveFiles.map(async ({ file, wave }) => {
+    const batch = await json(`data/brand-sources/${file}`);
+    return {
+      wave,
+      file,
+      safe: batch.profiles.length,
+      review: batch.blockedIdentities.length,
+      processed: batch.profiles.length + batch.blockedIdentities.length,
+    };
+  }),
+);
+const sprint21Processed = sprint21Batches.reduce((sum, batch) => sum + batch.processed, 0);
+const sprint21Safe = sprint21Batches.reduce((sum, batch) => sum + batch.safe, 0);
+const sprint21Review = sprint21Batches.reduce((sum, batch) => sum + batch.review, 0);
+const sprint21ElapsedHours = sprint21Window?.processingFinishedAt
+  ? (Date.parse(sprint21Window.processingFinishedAt) - Date.parse(sprint21Window.processingStartedAt)) / 3_600_000
+  : null;
 const processingMetrics = {
   measurementStatus: elapsedHours ? "MEASURED" : "IN_PROGRESS",
   processedManufacturers: profiles.size + blocked.size,
@@ -438,6 +464,21 @@ const processingMetrics = {
         safePerHour: elapsedHours ? Number((sprintSafe / elapsedHours).toFixed(2)) : null,
         reviewPerHour: elapsedHours ? Number((sprintReview / elapsedHours).toFixed(2)) : null,
         batches: sprintBatches,
+      }
+    : null,
+  sprint21: sprint21Window
+    ? {
+        processingStartedAt: sprint21Window.processingStartedAt,
+        processingFinishedAt: sprint21Window.processingFinishedAt,
+        elapsedHours: sprint21ElapsedHours ? Number(sprint21ElapsedHours.toFixed(4)) : null,
+        processed: sprint21Processed,
+        safe: sprint21Safe,
+        review: sprint21Review,
+        sourceSuccessRate: sprint21Processed ? Number((sprint21Safe / sprint21Processed).toFixed(4)) : null,
+        processedPerHour: sprint21ElapsedHours ? Number((sprint21Processed / sprint21ElapsedHours).toFixed(2)) : null,
+        safePerHour: sprint21ElapsedHours ? Number((sprint21Safe / sprint21ElapsedHours).toFixed(2)) : null,
+        reviewPerHour: sprint21ElapsedHours ? Number((sprint21Review / sprint21ElapsedHours).toFixed(2)) : null,
+        batches: sprint21Batches,
       }
     : null,
 };

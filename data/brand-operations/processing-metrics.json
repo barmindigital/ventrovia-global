@@ -1,21 +1,21 @@
 {
   "measurementStatus": "MEASURED",
-  "processedManufacturers": 948,
-  "safe": 830,
-  "blockedOrReview": 118,
-  "sourceSuccessRate": 0.8755,
-  "averageSourcesPerSafe": 2.35,
+  "processedManufacturers": 1258,
+  "safe": 1082,
+  "blockedOrReview": 176,
+  "sourceSuccessRate": 0.8601,
+  "averageSourcesPerSafe": 2.24,
   "sprint19": {
     "processingStartedAt": "2026-08-19T21:51:37.000Z",
     "processingFinishedAt": "2026-08-19T22:44:14.000Z",
     "elapsedHours": 0.8769,
-    "processed": 403,
-    "safe": 330,
-    "review": 73,
-    "sourceSuccessRate": 0.8189,
-    "processedPerHour": 459.55,
-    "safePerHour": 376.31,
-    "reviewPerHour": 83.24,
+    "processed": 713,
+    "safe": 582,
+    "review": 131,
+    "sourceSuccessRate": 0.8163,
+    "processedPerHour": 813.05,
+    "safePerHour": 663.67,
+    "reviewPerHour": 149.38,
     "batches": [
       {
         "wave": 48,
@@ -163,6 +163,118 @@
         "safe": 14,
         "review": 0,
         "processed": 14
+      },
+      {
+        "wave": 69,
+        "file": "curated-brand-facts-wave-69.json",
+        "safe": 42,
+        "review": 8,
+        "processed": 50
+      },
+      {
+        "wave": 70,
+        "file": "curated-brand-facts-wave-70.json",
+        "safe": 43,
+        "review": 7,
+        "processed": 50
+      },
+      {
+        "wave": 71,
+        "file": "curated-brand-facts-wave-71.json",
+        "safe": 41,
+        "review": 9,
+        "processed": 50
+      },
+      {
+        "wave": 72,
+        "file": "curated-brand-facts-wave-72.json",
+        "safe": 7,
+        "review": 3,
+        "processed": 10
+      },
+      {
+        "wave": 73,
+        "file": "curated-brand-facts-wave-73.json",
+        "safe": 40,
+        "review": 10,
+        "processed": 50
+      },
+      {
+        "wave": 74,
+        "file": "curated-brand-facts-wave-74.json",
+        "safe": 37,
+        "review": 13,
+        "processed": 50
+      },
+      {
+        "wave": 75,
+        "file": "curated-brand-facts-wave-75.json",
+        "safe": 42,
+        "review": 8,
+        "processed": 50
+      }
+    ]
+  },
+  "sprint21": {
+    "processingStartedAt": "2026-08-24T06:12:43.000Z",
+    "processingFinishedAt": null,
+    "elapsedHours": null,
+    "processed": 310,
+    "safe": 252,
+    "review": 58,
+    "sourceSuccessRate": 0.8129,
+    "processedPerHour": null,
+    "safePerHour": null,
+    "reviewPerHour": null,
+    "batches": [
+      {
+        "wave": 69,
+        "file": "curated-brand-facts-wave-69.json",
+        "safe": 42,
+        "review": 8,
+        "processed": 50
+      },
+      {
+        "wave": 70,
+        "file": "curated-brand-facts-wave-70.json",
+        "safe": 43,
+        "review": 7,
+        "processed": 50
+      },
+      {
+        "wave": 71,
+        "file": "curated-brand-facts-wave-71.json",
+        "safe": 41,
+        "review": 9,
+        "processed": 50
+      },
+      {
+        "wave": 72,
+        "file": "curated-brand-facts-wave-72.json",
+        "safe": 7,
+        "review": 3,
+        "processed": 10
+      },
+      {
+        "wave": 73,
+        "file": "curated-brand-facts-wave-73.json",
+        "safe": 40,
+        "review": 10,
+        "processed": 50
+      },
+      {
+        "wave": 74,
+        "file": "curated-brand-facts-wave-74.json",
+        "safe": 37,
+        "review": 13,
+        "processed": 50
+      },
+      {
+        "wave": 75,
+        "file": "curated-brand-facts-wave-75.json",
+        "safe": 42,
+        "review": 8,
+        "processed": 50
       }
     ]
   }

@@ -1,0 +1,1137 @@
+{
+  "checkedAt": "2026-08-24",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "artec",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ARTEC is used by multiple unrelated active manufacturers, including industrial-valve, three-dimensional scanning and vehicle-component businesses. The queue record has no legal-name, country or product-scope discriminator that safely selects one manufacturer-owned source.",
+      "attemptedUrls": ["https://www.tec-artec.com/", "https://www.artec3d.com/", "https://artecindustries.com/"]
+    },
+    {
+      "manufacturerId": "arten",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ARTEN does not resolve to a unique industrial manufacturer. Several unrelated companies and product brands use the name, and the repository record provides no reliable identity discriminator.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "asahi",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ASAHI is shared by multiple unrelated industrial manufacturers and corporate groups. The raw name alone cannot safely distinguish the intended valve, bearing, glass or other industrial entity.",
+      "attemptedUrls": ["https://www.asahi-yukizai.co.jp/en/", "https://www.asahi-america.com/"]
+    },
+    {
+      "manufacturerId": "ask",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ASK is a generic three-letter name used by unrelated motion-control, bearing, electronics and automotive businesses. No queue-level discriminator safely identifies one manufacturer-owned domain.",
+      "attemptedUrls": ["https://www.ask-inc.co.jp/en/"]
+    },
+    {
+      "manufacturerId": "asm",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ASM is used by multiple unrelated manufacturers, including ASM Sensors and ASM International. The undifferentiated queue identity cannot be assigned to one of them without guessing.",
+      "attemptedUrls": ["https://www.asm-sensor.com/", "https://www.asm.com/"]
+    },
+    {
+      "manufacturerId": "atav",
+      "status": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Historical reseller material associates ATAV with electric motors, but no current manufacturer-owned or explicit official-parent source was found that establishes the legal or commercial identity. Reseller evidence is not sufficient for BRAND_SAFE.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "atmos",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ATMOS is used by several unrelated active manufacturers. A Czech compressor maker is a plausible match, but the raw identity has no country or product-scope discriminator that excludes the other ATMOS entities.",
+      "attemptedUrls": ["https://www.atmos-chrast.cz/en/"]
+    },
+    {
+      "manufacturerId": "ats",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ATS is a generic abbreviation shared by multiple unrelated automation, thermal-management, testing and manufacturing companies. The repository identity cannot be resolved safely to one manufacturer-owned source.",
+      "attemptedUrls": ["https://www.atsautomation.com/", "https://www.qats.com/"]
+    },
+    {
+      "manufacturerId": "automationstechnik",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "AUTOMATIONSTECHNIK is a generic German descriptor used in many unrelated company names. The queue record supplies no legal name, location or product scope that can establish a unique manufacturer identity.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "axor",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "AXOR is an active name in unrelated industrial-drive and sanitary-product businesses. The raw queue record does not provide enough context to choose one official identity safely.",
+      "attemptedUrls": ["https://www.axorindustries.com/en/", "https://www.axor-design.com/"]
+    },
+    {
+      "manufacturerId": "bachmann1",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "BACHMANN is shared by unrelated industrial-automation, electrical-component and other manufacturers. The numeric repository suffix is not an evidence-backed identity discriminator.",
+      "attemptedUrls": ["https://www.bachmann.info/en/", "https://www.bachmann.com/en/"]
+    },
+    {
+      "manufacturerId": "bachofen",
+      "status": "BLOCKED_IDENTITY_SCOPE",
+      "checkedAt": "2026-08-24",
+      "reason": "The official Bachofen site verifies a Swiss industrial-automation engineering, distribution and service company, but it presents a portfolio of partner products rather than a distinct manufacturer-owned product line. That evidence does not satisfy the manufacturer identity gate.",
+      "attemptedUrls": ["https://www.bachofen.ch/en/company/about-us/", "https://www.bachofen.ch/en/products-brands/product-range/"]
+    },
+    {
+      "manufacturerId": "bae",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "BAE is a generic abbreviation and can refer to multiple unrelated corporate and product identities. The queue record contains no legal-name, country or product-scope discriminator.",
+      "attemptedUrls": ["https://www.baesystems.com/"]
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "arca-valves",
+      "officialName": "ARCA Regler GmbH",
+      "displayName": "ARCA Valves",
+      "aliases": ["ARCA", "ARCA VALVES", "ARCA REGLER"],
+      "formerNames": [],
+      "officialWebsite": "https://arca-valve.com/",
+      "officialDomains": ["arca-valve.com"],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ARCA develops control valves, pneumatic actuators and valve-positioning equipment for industrial process applications.",
+      "fullDescription": [
+        "ARCA Regler is verified through its manufacturer-owned website as a German developer and producer of industrial control-valve systems.",
+        "The official portfolio covers control valves, pneumatic actuators and positioners, with modular configurations for regulating liquid, gas and steam processes."
+      ],
+      "productCategories": ["Промышленная арматура", "Промышленные приводы", "Автоматизация и управление"],
+      "productFamilies": ["Control Valves", "Pneumatic Actuators", "Valve Positioners"],
+      "series": [],
+      "industries": ["Химическая промышленность", "Энергетика", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://arca-valve.com/en/downloads/"],
+      "sources": [
+        {"sourceId":"brand-arca-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_CONTROL_VALVE_SPECIALISATION","url":"https://arca-valve.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-arca-products","tier":"A","type":"DOCUMENTATION","scope":"CONTROL_VALVE_POSITIONER_AND_PNEUMATIC_ACTUATOR_FAMILIES","url":"https://arca-valve.com/en/downloads/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "ari-stevi-comeval",
+      "officialName": "ARI-Armaturen Albert Richter GmbH & Co. KG",
+      "displayName": "ARI STEVI",
+      "aliases": ["ARI STEVI", "ARI STEVI (COMEVAL)", "STEVI"],
+      "formerNames": [],
+      "officialWebsite": "https://www.ari-armaturen.com/en/",
+      "officialDomains": ["ari-armaturen.com"],
+      "country": "Germany",
+      "headquarters": "Schloß Holte-Stukenbrock, Germany",
+      "foundedYear": 1950,
+      "parentCompany": null,
+      "shortDescription": "ARI STEVI is ARI-Armaturen's family of industrial control valves for liquid, gas and steam processes.",
+      "fullDescription": [
+        "ARI-Armaturen is verified through its manufacturer-owned company profile as an independent German industrial-valve manufacturer founded in 1950.",
+        "STEVI is the company's control-valve family, including configurable valve designs and electric or pneumatic actuator combinations for process regulation."
+      ],
+      "productCategories": ["Регулирующая арматура", "Промышленная арматура", "Промышленные приводы"],
+      "productFamilies": ["STEVI Control Valves", "Electric Actuators", "Pneumatic Actuators"],
+      "series": ["STEVI Vario", "STEVI Smart", "STEVI Pro", "STEVI-POS"],
+      "industries": ["Промышленное производство", "Энергетика", "Химическая промышленность", "Судостроение"],
+      "officialCatalogs": ["https://www.ari-armaturen.com/fileadmin/media/downloads/Brochures/Folder_STEVI_EN.pdf"],
+      "documentationSources": ["https://www.ari-armaturen.com/en/products/"],
+      "sources": [
+        {"sourceId":"brand-ari-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_HEADQUARTERS_AND_INDUSTRIAL_VALVE_SCOPE","url":"https://www.ari-armaturen.com/en/company","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-ari-stevi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STEVI_CONTROL_VALVE_AND_ACTUATOR_FAMILIES","url":"https://www.ari-armaturen.com/en/products/new-products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "ariel-corporation",
+      "officialName": "Ariel Corporation",
+      "displayName": "Ariel Corporation",
+      "aliases": ["ARIEL", "ARIEL CORPORATION"],
+      "formerNames": [],
+      "officialWebsite": "https://www.arielcorp.com/",
+      "officialDomains": ["arielcorp.com"],
+      "country": "United States",
+      "headquarters": "Mount Vernon, Ohio, United States",
+      "foundedYear": 1966,
+      "parentCompany": null,
+      "shortDescription": "Ariel Corporation manufactures reciprocating gas compressors for energy and gas-processing applications.",
+      "fullDescription": [
+        "Ariel Corporation is verified through its manufacturer-owned website as a United States reciprocating-compressor manufacturer founded in 1966.",
+        "Its official compressor range supports natural-gas gathering, processing, transmission, storage and distribution, together with CNG, renewable-gas, hydrogen and carbon-dioxide applications."
+      ],
+      "productCategories": ["Поршневые компрессоры", "Газоперерабатывающее оборудование"],
+      "productFamilies": ["Reciprocating Gas Compressors"],
+      "series": ["JGN/JGQ", "JGM/JGP", "JG/JGA", "JGR", "KBK/KBT", "JGJ", "KBE", "JGC/D", "KBC/D/F", "KBU/Z", "KBB/V", "KBH"],
+      "industries": ["Нефтегазовая промышленность", "Энергетика", "Газопереработка"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.arielcorp.com/compressors/compressor-landing-page.html"],
+      "sources": [
+        {"sourceId":"brand-ariel-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_HEADQUARTERS_AND_COMPRESSOR_SPECIALISATION","url":"https://www.arielcorp.com/company.html","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-ariel-compressors","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RECIPROCATING_GAS_COMPRESSOR_SERIES_AND_APPLICATIONS","url":"https://www.arielcorp.com/compressors/compressor-landing-page.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "aris-stellantriebe",
+      "officialName": "ARIS Stellantriebe GmbH",
+      "displayName": "ARIS Stellantriebe",
+      "aliases": ["ARIS", "ARIS STELLANTRIEBE"],
+      "formerNames": [],
+      "officialWebsite": "https://stellantriebe.de/en/",
+      "officialDomains": ["stellantriebe.de"],
+      "country": "Germany",
+      "headquarters": "Troisdorf, Germany",
+      "foundedYear": null,
+      "parentCompany": "Kinetrol Ltd",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "ARIS develops electric and pneumatic actuators and control components for industrial valves and gas systems.",
+      "fullDescription": [
+        "ARIS Stellantriebe is verified through its official website as a German actuator specialist operating as a Kinetrol brand.",
+        "The documented range includes electric linear and rotary actuators, pneumatic actuators, industrial valves and gas-control components."
+      ],
+      "productCategories": ["Промышленные приводы", "Промышленная арматура", "Автоматизация и управление"],
+      "productFamilies": ["Electric Actuators", "Pneumatic Actuators", "Industrial Valves", "Gas Control Components"],
+      "series": ["Pico", "Linearis", "Nano", "Tensor"],
+      "industries": ["Промышленное производство", "Газовая промышленность", "Автоматизация"],
+      "officialCatalogs": ["https://stellantriebe.de/wp-content/uploads/2025/09/ARIS_Produktsortiment_2025_EN_final_WEBpdf.pdf"],
+      "documentationSources": ["https://stellantriebe.de/wp-content/uploads/2025/09/ARIS_Produktsortiment_2025_EN_final_WEBpdf.pdf"],
+      "sources": [
+        {"sourceId":"brand-aris-company","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HEADQUARTERS_AND_KINETROL_RELATION","url":"https://stellantriebe.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-aris-catalog","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"ELECTRIC_PNEUMATIC_ACTUATOR_VALVE_AND_GAS_COMPONENT_FAMILIES","url":"https://stellantriebe.de/wp-content/uploads/2025/09/ARIS_Produktsortiment_2025_EN_final_WEBpdf.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "armatury-group",
+      "officialName": "Vexve a.s.",
+      "displayName": "ARMATURY Group",
+      "aliases": ["ARMATURY GROUP", "VEXVE ARMATURY"],
+      "formerNames": ["ARMATURY Group a.s."],
+      "officialWebsite": "https://www.vexve.com/en/vexve-armatury",
+      "officialDomains": ["vexve.com"],
+      "country": "Czech Republic",
+      "headquarters": "Dolní Benešov, Czech Republic",
+      "foundedYear": 2000,
+      "parentCompany": "Vexve",
+      "statusModifier": "LEGACY_BRAND",
+      "shortDescription": "ARMATURY Group is the former company identity behind the current Vexve Armatury range of industrial valves for energy and process applications.",
+      "fullDescription": [
+        "Vexve's official site identifies Vexve a.s. as the manufacturer formerly named ARMATURY Group a.s., preserving the identity link without treating the former company as a separate current manufacturer.",
+        "The documented range includes ball, butterfly, gate, globe, check and metallurgical valves, together with valve solutions for power, oil and gas, chemical, water and metal-production applications."
+      ],
+      "productCategories": ["Промышленная арматура", "Регулирующая арматура"],
+      "productFamilies": ["Ball Valves", "Butterfly Valves", "Gate Valves", "Globe Valves", "Check Valves", "Metallurgical Valves"],
+      "series": [],
+      "industries": ["Энергетика", "Нефтегазовая промышленность", "Химическая промышленность", "Металлургия", "Водоподготовка"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.vexve.com/en/vexve-armatury"],
+      "sources": [
+        {"sourceId":"brand-armatury-group-current-identity","tier":"A","type":"OFFICIAL_PARENT","scope":"FORMER_ARMATURY_GROUP_IDENTITY_CURRENT_VEXVE_MANUFACTURER_AND_VALVE_SCOPE","url":"https://www.vexve.com/en/vexve-armatury","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "armatury-klad",
+      "officialName": "Armatury KLAD, spol. s r.o.",
+      "displayName": "Armatury KLAD",
+      "aliases": ["ARMATURY KLAD", "KLAD"],
+      "formerNames": [],
+      "officialWebsite": "https://www.armatury-klad.cz/",
+      "officialDomains": ["armatury-klad.cz"],
+      "country": "Czech Republic",
+      "headquarters": "Opava, Czech Republic",
+      "foundedYear": 1993,
+      "parentCompany": null,
+      "shortDescription": "Armatury KLAD manufactures industrial valves and liquid-level indication equipment for demanding pressure, temperature and media conditions.",
+      "fullDescription": [
+        "Armatury KLAD is verified through its manufacturer-owned website as a Czech industrial-valve company established in 1993 from the former Minerva-Sigma Opava operation.",
+        "Its official range covers shut-off, control, high-pressure and special valves, ball valves, level gauges, gate and butterfly valves, filters and related valve equipment."
+      ],
+      "productCategories": ["Промышленная арматура", "Регулирующая арматура", "Измерительное оборудование"],
+      "productFamilies": ["Industrial Valves", "Ball Valves", "Level Gauges", "Gate Valves", "Butterfly Valves", "Filters"],
+      "series": [],
+      "industries": ["Энергетика", "Химическая промышленность", "Нефтехимическая промышленность", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.armatury-klad.cz/"],
+      "sources": [
+        {"sourceId":"brand-armatury-klad-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_INDUSTRIAL_VALVE_FAMILIES","url":"https://www.armatury-klad.cz/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "armin-hamma-umwelttechnik",
+      "officialName": "ARMIN HAMMA Umwelttechnik",
+      "displayName": "ARMIN HAMMA Umwelttechnik",
+      "aliases": ["ARMIN HAMMA", "HAMMA UMWELTTECHNIK"],
+      "formerNames": [],
+      "officialWebsite": "https://hamma-uwt.de/en/",
+      "officialDomains": ["hamma-uwt.de"],
+      "country": "Germany",
+      "headquarters": "Tuttlingen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ARMIN HAMMA Umwelttechnik develops equipment for monitoring, mixing, aerating and maintaining industrial coolants and lubricants.",
+      "fullDescription": [
+        "ARMIN HAMMA Umwelttechnik is verified through its manufacturer-owned site as a German specialist in coolant and lubricant management.",
+        "The official portfolio includes coolant-care systems, micro-aerators, cleaning units, mixing equipment, oil skimmers and fluid-condition test equipment."
+      ],
+      "productCategories": ["Оборудование для фильтрации и очистки", "Дозирующее и смесительное оборудование", "Измерительное оборудование"],
+      "productFamilies": ["Coolant Care Systems", "Micro-Aerators", "Cleaning Systems", "Mixing Units", "Oil Skimmers", "Test Equipment"],
+      "series": ["BIOBALANCE", "MIKRO", "CLEAN TOWER", "MISCEO", "RAPID"],
+      "industries": ["Металлообработка", "Станкостроение", "Промышленное производство"],
+      "officialCatalogs": ["https://www.hamma-uwt.de/produkte/produktkatalog/"],
+      "documentationSources": ["https://hamma-uwt.de/en/products/"],
+      "sources": [
+        {"sourceId":"brand-hamma-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_COOLANT_CARE_SPECIALISATION","url":"https://hamma-uwt.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-hamma-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COOLANT_CARE_AERATION_CLEANING_MIXING_AND_SKIMMER_FAMILIES","url":"https://hamma-uwt.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "armstrong-fluid-technology",
+      "officialName": "Armstrong Fluid Technology",
+      "displayName": "Armstrong Fluid Technology",
+      "aliases": ["ARMSTRONG FLUID TECHNOLOGY", "S.A. ARMSTRONG"],
+      "formerNames": [],
+      "officialWebsite": "https://armstrongfluidtechnology.com/en-gb/home",
+      "officialDomains": ["armstrongfluidtechnology.com"],
+      "country": "Canada",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Armstrong Fluid Technology develops pumps, circulators and integrated fluid-flow systems for buildings and industrial facilities.",
+      "fullDescription": [
+        "Armstrong Fluid Technology is verified through its manufacturer-owned website as a fluid-flow and HVAC systems company.",
+        "Its official portfolio covers pumps, circulators, heat exchangers, booster packages, packaged systems, fire-safety equipment and control and optimization platforms."
+      ],
+      "productCategories": ["Промышленные насосы", "Теплообменное оборудование", "Автоматизация и управление"],
+      "productFamilies": ["Pumps", "Circulators", "Heat Exchangers", "Booster Packages", "Packaged Systems", "Optimization and Automation Systems"],
+      "series": [],
+      "industries": ["ОВКВ", "Водоснабжение", "Центры обработки данных", "Промышленное производство", "Энергетика"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://armstrongfluidtechnology.com/en-gb/products"],
+      "sources": [
+        {"sourceId":"brand-armstrong-fluid-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_AND_FLUID_FLOW_SYSTEM_SCOPE","url":"https://armstrongfluidtechnology.com/en-gb/home","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-armstrong-fluid-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PUMP_CIRCULATOR_HEAT_EXCHANGER_PACKAGE_AND_CONTROL_FAMILIES","url":"https://armstrongfluidtechnology.com/en-gb/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "arrow-engine",
+      "officialName": "Arrow Engine Company",
+      "displayName": "Arrow Engine",
+      "aliases": ["ARROW ENGINE", "ARROW ENGINE COMPANY"],
+      "formerNames": ["Arrow Specialty Company"],
+      "officialWebsite": "https://www.arrowengine.com/",
+      "officialDomains": ["arrowengine.com"],
+      "country": "United States",
+      "headquarters": "Tulsa, Oklahoma, United States",
+      "foundedYear": 1955,
+      "parentCompany": "IES Infrastructure",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Arrow Engine manufactures gas engines, reciprocating compressor packages and related equipment for energy-production operations.",
+      "fullDescription": [
+        "Arrow Engine Company is verified through its manufacturer-owned site as a Tulsa-based equipment business founded in 1955 and operating within IES Infrastructure.",
+        "Its documented products include continuous-duty gas engines, reciprocating gas compressors and packages, generators, gas-process vessels, chemical pumps and engine-control electronics."
+      ],
+      "productCategories": ["Промышленные двигатели", "Поршневые компрессоры", "Генераторное оборудование", "Газоперерабатывающее оборудование"],
+      "productFamilies": ["Gas Engines", "Reciprocating Gas Compressors", "Compressor Packages", "Generators", "Gas Process Vessels", "Chemical Pumps", "Engine Controls"],
+      "series": [],
+      "industries": ["Нефтегазовая промышленность", "Энергетика", "Газопереработка"],
+      "officialCatalogs": ["https://arrowengine.com/literature/arrow-literature/238-arrow-products-guide"],
+      "documentationSources": ["https://www.arrowengine.com/products/"],
+      "sources": [
+        {"sourceId":"brand-arrow-engine-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_GROUP_RELATION","url":"https://arrowengine.com/about-arrow/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-arrow-engine-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ENGINE_COMPRESSOR_GENERATOR_VESSEL_PUMP_AND_CONTROL_FAMILIES","url":"https://www.arrowengine.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "asa-hydraulik",
+      "officialName": "asa technology Produktions- und Vertriebs GmbH",
+      "displayName": "ASA Hydraulik",
+      "aliases": ["ASA HYDRAULIK", "ASA TECHNOLOGY"],
+      "formerNames": [],
+      "officialWebsite": "https://www.asahydraulik.com/",
+      "officialDomains": ["asahydraulik.com", "asahyd.com"],
+      "country": "Austria",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ASA Hydraulik develops thermal-management, connection and fluid-control components for hydraulic systems.",
+      "fullDescription": [
+        "ASA Hydraulik is verified through its manufacturer-owned website as an Austrian developer and producer of pressure-resistant heat exchangers and hydraulic cooling equipment.",
+        "The official range covers oil-air and oil-water coolers, offline cooling systems, fluid connections, shut-off devices, vibration dampers and auxiliary oil and water pumps."
+      ],
+      "productCategories": ["Гидравлическое оборудование", "Теплообменное оборудование", "Насосное оборудование"],
+      "productFamilies": ["Oil-Air Coolers", "Oil-Water Coolers", "Offline Cooling Systems", "Connection Technology", "Fluid Controls", "Oil Pumps", "Water Pumps"],
+      "series": [],
+      "industries": ["Мобильная гидравлика", "Промышленное производство", "Машиностроение"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.asahyd.com/products/thermal-systems"],
+      "sources": [
+        {"sourceId":"brand-asa-hydraulik-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_AND_HYDRAULIC_THERMAL_MANAGEMENT_SCOPE","url":"https://www.asahydraulik.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-asa-hydraulik-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"THERMAL_CONNECTION_AND_FLUID_CONTROL_FAMILIES","url":"https://www.asahyd.com/products/thermal-systems","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "asa-rt",
+      "officialName": "ASA-RT s.r.l.",
+      "displayName": "ASA-RT",
+      "aliases": ["ASA-RT", "ASA RT"],
+      "formerNames": [],
+      "officialWebsite": "https://www.asa-rt.com/en/",
+      "officialDomains": ["asa-rt.com"],
+      "country": "Italy",
+      "headquarters": "Turin, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ASA-RT develops torque, force and web-tension measurement systems for industrial machinery.",
+      "fullDescription": [
+        "ASA-RT is verified through its manufacturer-owned website as an Italian industrial measurement company based in Turin.",
+        "Its official product range includes torque transducers, load cells, pulley and rotating load cells, measuring rolls and signal-processing electronic units."
+      ],
+      "productCategories": ["Датчики силы и момента", "Измерительное оборудование", "Промышленная электроника"],
+      "productFamilies": ["Torque Transducers", "Load Cells", "Pulley Load Cells", "Rotating Load Cells", "Measuring Rolls", "Electronic Units"],
+      "series": [],
+      "industries": ["Машиностроение", "Конвертинг и упаковка", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.asa-rt.com/en/products-2/"],
+      "sources": [
+        {"sourceId":"brand-asa-rt-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_LOCATION_AND_TORQUE_FORCE_TENSION_MEASUREMENT_FAMILIES","url":"https://www.asa-rt.com/en/products-2/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "ascom-spa",
+      "officialName": "ASCOM S.p.A.",
+      "displayName": "ASCOM S.p.A.",
+      "aliases": ["ASCOM SPA", "ASCOM ITALY"],
+      "formerNames": [],
+      "officialWebsite": "https://www.ascom-italy.it/",
+      "officialDomains": ["ascom-italy.it"],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ASCOM manufactures heavy lifting and material-handling systems for marine and industrial operations.",
+      "fullDescription": [
+        "ASCOM S.p.A. is verified through its manufacturer-owned website as an Italian lifting and handling equipment producer.",
+        "The official portfolio includes boat hoists and trailers, mobile gantry cranes, jib and overhead cranes, forklifts, low carriers and custom handling systems."
+      ],
+      "productCategories": ["Подъёмное оборудование", "Промышленные машины"],
+      "productFamilies": ["Boat Hoists", "Boat Trailers", "Mobile Gantry Cranes", "Jib Cranes", "Overhead Cranes", "Forklifts", "Low Carriers"],
+      "series": [],
+      "industries": ["Судостроение", "Промышленное производство", "Логистика"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.ascom-italy.it/"],
+      "sources": [
+        {"sourceId":"brand-ascom-italy-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_AND_MARINE_INDUSTRIAL_HANDLING_FAMILIES","url":"https://www.ascom-italy.it/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "astos-machinery",
+      "officialName": "ASTOS Machinery a.s.",
+      "displayName": "ASTOS Machinery",
+      "aliases": ["ASTOS", "ASTOS MACHINERY"],
+      "formerNames": [],
+      "officialWebsite": "https://astos.cz/en/",
+      "officialDomains": ["astos.cz"],
+      "country": "Czech Republic",
+      "headquarters": "Aš, Czech Republic",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ASTOS Machinery manufactures conveyors, filtration systems and automated material-handling equipment for machine tools and presses.",
+      "fullDescription": [
+        "ASTOS Machinery is verified through its manufacturer-owned website as a Czech engineering company based in Aš.",
+        "Its documented range covers chip and scrap conveyors, magnetic conveyors, filtration stations, chip-processing equipment and automated lines for CNC machines and presses."
+      ],
+      "productCategories": ["Конвейерное оборудование", "Оборудование для фильтрации и очистки", "Промышленные машины"],
+      "productFamilies": ["Chip Conveyors", "Scrap Conveyors", "Magnetic Conveyors", "Filtration Stations", "Chip Processing Equipment", "Automated Lines"],
+      "series": [],
+      "industries": ["Станкостроение", "Металлообработка", "Автомобильная промышленность", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://astos.cz/en/"],
+      "sources": [
+        {"sourceId":"brand-astos-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_LOCATION_AND_CONVEYOR_FILTRATION_AUTOMATION_FAMILIES","url":"https://astos.cz/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "asv-stubbe",
+      "officialName": "STÜBBE GmbH & Co. KG",
+      "displayName": "STÜBBE",
+      "aliases": ["ASV STUBBE", "ASV STÜBBE", "STUBBE", "STÜBBE"],
+      "formerNames": ["ASV Stübbe"],
+      "officialWebsite": "https://stuebbe.com/en/",
+      "officialDomains": ["stuebbe.com"],
+      "country": "Germany",
+      "headquarters": "Vlotho, Germany",
+      "foundedYear": 1925,
+      "parentCompany": null,
+      "shortDescription": "STÜBBE manufactures corrosion-resistant pumps, valves and measurement systems for handling aggressive fluids.",
+      "fullDescription": [
+        "STÜBBE is verified through its manufacturer-owned website as a German specialist in thermoplastic fluid-handling equipment with a company history dating to 1925.",
+        "The official range includes centrifugal pumps, isolation and control valves, measurement and control systems and thermoplastic pipework accessories."
+      ],
+      "productCategories": ["Промышленные насосы", "Промышленная арматура", "Контрольно-измерительное оборудование"],
+      "productFamilies": ["Thermoplastic Centrifugal Pumps", "Isolation Valves", "Control Valves", "Measurement and Control Systems", "Pipework Accessories"],
+      "series": ["X-CLASS", "E-CLASS", "CLASSIC"],
+      "industries": ["Химическая промышленность", "Водоподготовка", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://stuebbe.com/en/products/"],
+      "sources": [
+        {"sourceId":"brand-stuebbe-company","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HISTORY_HEADQUARTERS_AND_CORROSION_RESISTANT_FLUID_TECHNOLOGY","url":"https://stuebbe.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-stuebbe-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PUMP_VALVE_MEASUREMENT_AND_PIPEWORK_FAMILIES","url":"https://stuebbe.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "atb-motors",
+      "officialName": "ATB Austria Antriebstechnik AG",
+      "displayName": "ATB",
+      "aliases": ["ATB", "ATB MOTORS", "ATB AUSTRIA ANTRIEBSTECHNIK"],
+      "formerNames": [],
+      "officialWebsite": "https://www.atb-motors.com/EN/",
+      "officialDomains": ["atb-motors.com", "atb.wolong.com"],
+      "country": "Austria",
+      "headquarters": "Vienna, Austria",
+      "foundedYear": null,
+      "parentCompany": "Wolong Electric Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "ATB develops low- and high-voltage electric motors and generators for industrial and hazardous-area applications.",
+      "fullDescription": [
+        "ATB is verified through its official sites as an Austrian electric-machine brand within Wolong Electric Group.",
+        "The documented portfolio covers asynchronous and synchronous motors, hazardous-area motors, generators and special motors for smoke extraction, mining, compressors and other industrial duties."
+      ],
+      "productCategories": ["Электродвигатели", "Генераторное оборудование"],
+      "productFamilies": ["Low-Voltage Motors", "High-Voltage Motors", "Hazardous-Area Motors", "Synchronous Motors", "Asynchronous Generators", "Synchronous Generators", "Special Motors"],
+      "series": [],
+      "industries": ["Нефтегазовая промышленность", "Горнодобывающая промышленность", "Энергетика", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.atb-motors.com/EN/Products/ATB%2BProducts.aspx"],
+      "sources": [
+        {"sourceId":"brand-atb-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LOW_HIGH_VOLTAGE_HAZARDOUS_AREA_MOTOR_AND_GENERATOR_FAMILIES","url":"https://www.atb-motors.com/EN/Products/ATB%2BProducts.aspx","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-atb-parent","tier":"A","type":"OFFICIAL_PARENT","scope":"CURRENT_WOLONG_GROUP_RELATION_AND_ATB_BRAND_IDENTITY","url":"https://www.atb.wolong.com/en/BRANDS.php","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "atek",
+      "officialName": "ATEK Drive Solutions GmbH",
+      "displayName": "ATEK",
+      "aliases": ["ATEK", "ATEK DRIVE SOLUTIONS"],
+      "formerNames": ["ATEK Antriebstechnik Willi Glapiak GmbH"],
+      "officialWebsite": "https://www.atek.de/en/",
+      "officialDomains": ["atek.de"],
+      "country": "Germany",
+      "headquarters": "Rellingen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ATEK Drive Solutions develops gearboxes, industrial brakes and motor systems for complete industrial drivetrains.",
+      "fullDescription": [
+        "ATEK Drive Solutions is verified through its manufacturer-owned company page as the German business formed in 2024 from ATEK Antriebstechnik and Deutsche van Rietschoten & Houwens.",
+        "The official product scope covers bevel, planetary, hypoid and worm gearboxes, industrial braking systems, motors and configured drivetrain solutions."
+      ],
+      "productCategories": ["Редукторы", "Тормозные системы", "Электродвигатели", "Приводная техника"],
+      "productFamilies": ["Bevel Gearboxes", "Planetary Gearboxes", "Hypoid Gearboxes", "Worm Gearboxes", "Industrial Brakes", "Servo Motors"],
+      "series": [],
+      "industries": ["Машиностроение", "Автоматизация", "Судостроение", "Подъемное оборудование", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.atek.de/en/download-2/"],
+      "sources": [
+        {"sourceId":"brand-atek-company","tier":"A","type":"ABOUT","scope":"CURRENT_LEGAL_IDENTITY_MERGER_HEADQUARTERS_AND_DRIVETRAIN_SCOPE","url":"https://www.atek.de/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-atek-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GEARBOX_BRAKE_MOTOR_AND_DRIVETRAIN_FAMILIES","url":"https://www.atek.de/en/drive-technology/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "ateliers-francois",
+      "officialName": "Ateliers François S.A.",
+      "displayName": "AF Compressors",
+      "aliases": ["ATELIERS FRANCOIS", "ATELIERS FRANÇOIS", "AF COMPRESSORS"],
+      "formerNames": [],
+      "officialWebsite": "https://www.afcompressors.com/",
+      "officialDomains": ["afcompressors.com"],
+      "country": "Belgium",
+      "headquarters": "Liège, Belgium",
+      "foundedYear": 1870,
+      "parentCompany": null,
+      "shortDescription": "AF Compressors manufactures oil-free reciprocating compressors for PET blowing, food, beverage and industrial compressed-air applications.",
+      "fullDescription": [
+        "Ateliers François, trading as AF Compressors, is verified through its manufacturer-owned company history as a Belgian compression-technology business founded in Liège in 1870.",
+        "Its official range includes three-stage high-pressure PET compressors, two-stage oil-free low-pressure compressors and integrated high- and low-pressure air systems."
+      ],
+      "productCategories": ["Поршневые компрессоры", "Безмасляные компрессоры"],
+      "productFamilies": ["High-Pressure PET Compressors", "Low-Pressure Oil-Free Compressors", "Integrated High- and Low-Pressure Systems"],
+      "series": [],
+      "industries": ["Пищевая промышленность", "Производство напитков", "Упаковочная промышленность", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.afcompressors.com/our-company/"],
+      "sources": [
+        {"sourceId":"brand-af-compressors-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_OIL_FREE_COMPRESSOR_FAMILIES","url":"https://www.afcompressors.com/our-company/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "aten",
+      "officialName": "ATEN International Co., Ltd.",
+      "displayName": "ATEN",
+      "aliases": ["ATEN", "ATEN INTERNATIONAL"],
+      "formerNames": ["HOZN Automation Co., Ltd."],
+      "officialWebsite": "https://www.aten.com/",
+      "officialDomains": ["aten.com"],
+      "country": "Taiwan",
+      "headquarters": null,
+      "foundedYear": 1979,
+      "parentCompany": null,
+      "shortDescription": "ATEN develops KVM, professional audiovisual, power-distribution and connectivity systems for IT and industrial environments.",
+      "fullDescription": [
+        "ATEN International is verified through its official corporate material as a Taiwanese technology company established in 1979 and renamed from HOZN Automation in 1988.",
+        "The official range includes KVM switches and consoles, over-IP management, professional AV distribution and control, rack power distribution, industrial sharing switches and connectivity products."
+      ],
+      "productCategories": ["Промышленная автоматизация и управление", "Промышленные кабели и разъёмы"],
+      "productFamilies": ["KVM Switches", "KVM Consoles", "KVM over IP", "Professional AV Systems", "Rack PDUs", "Industrial Sharing Switches", "Connectivity Products"],
+      "series": [],
+      "industries": ["Центры обработки данных", "Промышленное производство", "Телекоммуникации", "Автоматизация"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.aten.com/eu/en/products/"],
+      "sources": [
+        {"sourceId":"brand-aten-company","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_TECHNOLOGY_SCOPE","url":"https://assets.aten.com/webpage/shared/CSRReport/EN/2024-ATEN-CSR-Report-ENG-Final.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-aten-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"KVM_AV_POWER_AND_CONNECTIVITY_FAMILIES","url":"https://www.aten.com/eu/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "atg-willand-uv-systems",
+      "officialName": "ATG UV Systems",
+      "displayName": "ATG UV",
+      "aliases": ["ATG WILLAND UV SYSTEMS", "ATG UV", "ATG UV TECHNOLOGY"],
+      "formerNames": ["Willand UV System"],
+      "officialWebsite": "https://www.xylem.com/en-uk/brand/atg-uv/",
+      "officialDomains": ["xylem.com"],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": 1981,
+      "parentCompany": "Xylem Inc.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "ATG UV is Xylem's ultraviolet disinfection-system brand for municipal, industrial and recreational water-treatment applications.",
+      "fullDescription": [
+        "Xylem's official brand page verifies ATG UV as a UV-disinfection systems business founded in 1981, while an official Xylem article records the 2019 acquisition of ATG UV Technology.",
+        "The current range includes medium- and low-pressure UV disinfection generators for drinking water, wastewater, industrial water, aquatic facilities and total-organic-carbon treatment."
+      ],
+      "productCategories": ["УФ-обеззараживание", "Водоподготовка и фильтрация"],
+      "productFamilies": ["Medium-Pressure UV Systems", "Low-Pressure UV Systems", "Drinking-Water UV Systems", "Industrial-Water UV Systems", "TOC Reduction UV Systems"],
+      "series": ["Wafer", "VT TOC", "SX", "VX Mini", "VX Midi"],
+      "industries": ["Водоподготовка", "Коммунальная инфраструктура", "Промышленное производство", "Общественные бассейны"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.xylem.com/en-uk/brand/atg-uv/"],
+      "sources": [
+        {"sourceId":"brand-atg-uv-parent","tier":"A","type":"OFFICIAL_PARENT","scope":"CURRENT_BRAND_IDENTITY_HISTORY_PRODUCT_FAMILIES_AND_APPLICATIONS","url":"https://www.xylem.com/en-uk/brand/atg-uv/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-atg-uv-acquisition","tier":"A","type":"OFFICIAL_PARENT","scope":"ATG_UV_TECHNOLOGY_2019_ACQUISITION_RELATION","url":"https://www.xylem.com/en-th/resources/blog-posts/partner-for-data-taking-the-heat-out-of-data-centres-with-ph-water-technologies/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "atomat",
+      "officialName": "ATOMAT S.p.A.",
+      "displayName": "ATOMAT",
+      "aliases": ["ATOMAT", "ATOMAT SPA"],
+      "formerNames": [],
+      "officialWebsite": "https://www.atomat.com/",
+      "officialDomains": ["atomat.com"],
+      "country": "Italy",
+      "headquarters": "Remanzacco, Italy",
+      "foundedYear": 1968,
+      "parentCompany": null,
+      "shortDescription": "ATOMAT manufactures rolling-mill rolls, tooling and CNC machines for roll machining and maintenance.",
+      "fullDescription": [
+        "ATOMAT is verified through its manufacturer-owned website and technical literature as an Italian rolling-mill technology company established in 1968.",
+        "Its official portfolio includes rolls for tube, wire and hot-rolling applications, associated tooling, and CNC notching, marking, turning and grinding machines."
+      ],
+      "productCategories": ["Оборудование для металлургии", "Промышленные машины", "Инструментальная оснастка"],
+      "productFamilies": ["Rolling-Mill Rolls", "Rolling Tools", "CNC Notching Machines", "CNC Marking Machines", "CNC Lathes", "CNC Grinding Machines"],
+      "series": [],
+      "industries": ["Металлургия", "Металлообработка", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.atomat.com/products/"],
+      "sources": [
+        {"sourceId":"brand-atomat-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ROLL_TOOL_AND_CNC_MACHINE_FAMILIES","url":"https://www.atomat.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-atomat-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"MANUFACTURER_IDENTITY_HISTORY_HEADQUARTERS_AND_CNC_MACHINE_SCOPE","url":"https://www.atomat.com/storage/2020/06/Atomat-Spa-CNC-AT701-Compact-Grinding-Machine-for-TiC-Guide-Roller-and-WC-Rolls_r07.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "automator-marking-systems",
+      "officialName": "Automator Marking Systems S.r.l.",
+      "displayName": "Automator Marking Systems",
+      "aliases": ["AUTOMATOR", "AUTOMATOR MARKING SYSTEMS"],
+      "formerNames": [],
+      "officialWebsite": "https://www.automator.com/en-us/",
+      "officialDomains": ["automator.com"],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1940,
+      "parentCompany": null,
+      "shortDescription": "Automator Marking Systems develops laser, dot-peen and integrated industrial marking equipment.",
+      "fullDescription": [
+        "Automator Marking Systems is verified through its manufacturer-owned website as an industrial-marking company operating since 1940.",
+        "The official portfolio includes fibre, CO2 and DPSS laser markers, dot-peen marking machines, portable units and systems engineered for integration into production lines."
+      ],
+      "productCategories": ["Маркировочное оборудование", "Лазерное оборудование", "Промышленные машины"],
+      "productFamilies": ["Laser Marking Systems", "Dot-Peen Marking Systems", "Portable Markers", "Integrated Marking Solutions"],
+      "series": ["ADP", "UBI Basic", "NANOVIS3"],
+      "industries": ["Автомобильная промышленность", "Металлообработка", "Электроника", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.automator.com/en-us/products/"],
+      "sources": [
+        {"sourceId":"brand-automator-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_INDUSTRIAL_MARKING_SCOPE","url":"https://www.automator.com/en-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-automator-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LASER_DOT_PEEN_PORTABLE_AND_INTEGRATED_MARKING_FAMILIES","url":"https://www.automator.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "autonics",
+      "officialName": "Autonics Corporation",
+      "displayName": "Autonics",
+      "aliases": ["AUTONICS", "AUTONICS CORPORATION"],
+      "formerNames": [],
+      "officialWebsite": "https://www.autonics.com/",
+      "officialDomains": ["autonics.com"],
+      "country": "South Korea",
+      "headquarters": null,
+      "foundedYear": 1977,
+      "parentCompany": null,
+      "shortDescription": "Autonics develops sensors, controllers, motion devices, safety products and industrial networking equipment for automation systems.",
+      "fullDescription": [
+        "Autonics is verified through its manufacturer-owned corporate overview as a South Korean industrial-automation company established in 1977.",
+        "The official range covers sensors, field instruments, controllers, HMIs and industrial PCs, motion equipment, power electronics, safety products, networking and connectivity devices."
+      ],
+      "productCategories": ["Промышленные датчики", "Автоматизация и управление", "Промышленная электроника", "Системы безопасности"],
+      "productFamilies": ["Sensors", "Field Instruments", "Controllers", "HMI and Industrial PCs", "Motion Devices", "Power Electronics", "Safety Products", "Industrial Networking"],
+      "series": [],
+      "industries": ["Автоматизация", "Машиностроение", "Полупроводниковая промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://www.autonics.com/main_renewal/img/pdf/brochure_en.pdf"],
+      "documentationSources": ["https://www.autonics.com/us/main"],
+      "sources": [
+        {"sourceId":"brand-autonics-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_COUNTRY_AND_AUTOMATION_SCOPE","url":"https://www.autonics.com/sg/company/information/overview","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-autonics-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SENSOR_CONTROLLER_MOTION_SAFETY_NETWORKING_AND_POWER_FAMILIES","url":"https://www.autonics.com/us/main","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "autrol",
+      "officialName": "DUON System Co., Ltd.",
+      "displayName": "Autrol",
+      "aliases": ["AUTROL", "AUTROL TRANSMITTER"],
+      "formerNames": [],
+      "officialWebsite": "https://www.autrol.com/",
+      "officialDomains": ["autrol.com"],
+      "country": "South Korea",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "DUON System Co., Ltd.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Autrol is DUON System's brand of smart pressure, temperature and level transmitters for process instrumentation.",
+      "fullDescription": [
+        "Autrol is verified through its official website and product catalog as a process-instrumentation brand manufactured by South Korea's DUON System.",
+        "The documented range includes differential, gauge and absolute pressure transmitters, temperature transmitters, level instruments and associated indicators."
+      ],
+      "productCategories": ["Контрольно-измерительное оборудование", "Датчики давления", "Датчики температуры", "Уровнемеры"],
+      "productFamilies": ["Pressure Transmitters", "Differential-Pressure Transmitters", "Temperature Transmitters", "Level Transmitters", "Indicators"],
+      "series": ["APT3500", "APT3100", "APT3200", "APT2100", "AI100"],
+      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика", "Водоподготовка"],
+      "officialCatalogs": ["https://www.autrol.com/data/file/catalogue/1f43813d827ac4d9d4dee569f7bd151f_OaTLEKS6_8e61aabb18c9802522ee381cf00903af0bcdab5c.pdf"],
+      "documentationSources": ["https://www.autrol.com/"],
+      "sources": [
+        {"sourceId":"brand-autrol-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CURRENT_BRAND_OWNER_AND_PROCESS_TRANSMITTER_SCOPE","url":"https://www.autrol.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-autrol-catalog","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"PRESSURE_TEMPERATURE_LEVEL_TRANSMITTER_AND_INDICATOR_FAMILIES","url":"https://www.autrol.com/data/file/catalogue/1f43813d827ac4d9d4dee569f7bd151f_OaTLEKS6_8e61aabb18c9802522ee381cf00903af0bcdab5c.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "autronica",
+      "officialName": "Autronica Fire and Security AS",
+      "displayName": "Autronica",
+      "aliases": ["AUTRONICA", "AUTRONICA FIRE AND SECURITY"],
+      "formerNames": [],
+      "officialWebsite": "https://www.autronicagroup.com/",
+      "officialDomains": ["autronicagroup.com", "product.autronicafire.com"],
+      "country": "Norway",
+      "headquarters": "Trondheim, Norway",
+      "foundedYear": null,
+      "parentCompany": "MSA Safety Incorporated",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Autronica develops fire and gas detection, alarm and safety-management systems for industrial, marine and commercial facilities.",
+      "fullDescription": [
+        "Autronica Fire and Security is verified through its official company site as a Norwegian safety-systems manufacturer headquartered in Trondheim and acquired by MSA Safety.",
+        "Its official range includes fire and gas detection, safety-management and presentation systems, voice alarms, suppression equipment and specialized marine and offshore detection solutions."
+      ],
+      "productCategories": ["Системы пожарной безопасности", "Газоаналитическое оборудование", "Автоматизация и управление"],
+      "productFamilies": ["Fire Detection Systems", "Gas Detection Systems", "Safety Management Systems", "Voice Alarm Systems", "Fire Suppression Systems"],
+      "series": ["AutroMaster", "AutroVoice", "AutroGuard"],
+      "industries": ["Судостроение", "Нефтегазовая промышленность", "Промышленное производство", "Коммерческие здания"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://product.autronicafire.com/products/"],
+      "sources": [
+        {"sourceId":"brand-autronica-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_PARENT_AND_SAFETY_SYSTEM_SCOPE","url":"https://www.autronicagroup.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-autronica-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FIRE_GAS_DETECTION_ALARM_MANAGEMENT_AND_SUPPRESSION_FAMILIES","url":"https://product.autronicafire.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "avdel",
+      "officialName": "Avdel",
+      "displayName": "Avdel",
+      "aliases": ["AVDEL", "STANLEY AVDEL"],
+      "formerNames": [],
+      "officialWebsite": "https://europe.en.stanleyengineeredfastening.com/",
+      "officialDomains": ["stanleyengineeredfastening.com"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Stanley Black & Decker, Inc.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Avdel is a Stanley Engineered Fastening brand of blind fasteners, lockbolts and installation tooling.",
+      "fullDescription": [
+        "Avdel is verified through Stanley Engineered Fastening's official brand portfolio as an engineered-fastening brand within Stanley Black & Decker.",
+        "The documented range includes structural blind rivets, lockbolts, blind bolts and powered or manual installation tools for production and assembly work."
+      ],
+      "productCategories": ["Крепежные изделия", "Монтажный инструмент"],
+      "productFamilies": ["Blind Rivets", "Lockbolts", "Blind Bolts", "Fastener Installation Tools"],
+      "series": ["Avbolt"],
+      "industries": ["Автомобильная промышленность", "Аэрокосмическая промышленность", "Промышленное производство", "Строительство"],
+      "officialCatalogs": ["https://www.stanleyengineeredfastening.com/-/media/Web/SEF/Resources/Docs/STANLEY-Engineered-Fastening/074664_-_sef_-_avdel_brand_brochure_lr.pdf"],
+      "documentationSources": ["https://europe.en.stanleyengineeredfastening.com/fasteners/lockbolts/avdel-avbolt/products"],
+      "sources": [
+        {"sourceId":"brand-avdel-parent","tier":"A","type":"OFFICIAL_PARENT","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_ENGINEERED_FASTENER_SCOPE","url":"https://europe.en.stanleyengineeredfastening.com/about","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-avdel-product","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LOCKBOLT_AND_INSTALLATION_PRODUCT_SCOPE","url":"https://europe.en.stanleyengineeredfastening.com/fasteners/lockbolts/avdel-avbolt/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "ave",
+      "officialName": "AVE S.p.A.",
+      "displayName": "AVE",
+      "aliases": ["AVE", "AVE SPA"],
+      "formerNames": [],
+      "officialWebsite": "https://www.ave.it/en/",
+      "officialDomains": ["ave.it"],
+      "country": "Italy",
+      "headquarters": "Rezzato, Italy",
+      "foundedYear": 1904,
+      "parentCompany": null,
+      "shortDescription": "AVE develops electrical wiring accessories, building automation, safety and access-control systems.",
+      "fullDescription": [
+        "AVE is verified through its manufacturer-owned website as an Italian electrical and building-automation company founded in 1904 and based in Rezzato.",
+        "The official portfolio covers switches and front plates, smart-home systems, video intercoms, hotel access and energy management, KNX equipment, enclosures, modular devices and ventilation products."
+      ],
+      "productCategories": ["Электроустановочные изделия", "Автоматизация зданий", "Системы безопасности", "Электрораспределительное оборудование"],
+      "productFamilies": ["Wiring Accessories", "Smart Home Systems", "Video Intercoms", "Hotel Management Systems", "KNX Devices", "Enclosures and Consumer Units", "Modular Devices", "Ventilation Products"],
+      "series": [],
+      "industries": ["Коммерческие здания", "Жилая инфраструктура", "Гостиничная индустрия", "Промышленное производство"],
+      "officialCatalogs": ["https://www.ave.it/en/catalogues/"],
+      "documentationSources": ["https://www.ave.it/en/solutions/"],
+      "sources": [
+        {"sourceId":"brand-ave-company-catalogs","tier":"A","type":"ABOUT_AND_DOCUMENTATION","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_ELECTRICAL_SYSTEM_SCOPE","url":"https://www.ave.it/en/catalogues/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-ave-solutions","tier":"A","type":"PRODUCT_DIRECTORY","scope":"WIRING_SMART_HOME_SECURITY_HOTEL_KNX_AND_DISTRIBUTION_FAMILIES","url":"https://www.ave.it/en/solutions/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "aventics",
+      "officialName": "AVENTICS",
+      "displayName": "AVENTICS",
+      "aliases": ["AVENTICS", "EMERSON AVENTICS"],
+      "formerNames": [],
+      "officialWebsite": "https://discreteautomation.emerson.com/brands/aventics",
+      "officialDomains": ["emerson.com", "discreteautomation.emerson.com"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Emerson Electric Co.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "AVENTICS is Emerson's brand of pneumatic cylinders, valve systems, air preparation and motion-control components.",
+      "fullDescription": [
+        "AVENTICS is verified through Emerson's official brand page as a pneumatic and automation product brand within Emerson.",
+        "The documented range includes cylinders and electric actuators, pneumatic valves and valve systems, air-preparation equipment, regulators, vacuum products, sensors and specialized marine-control components."
+      ],
+      "productCategories": ["Пневматическое оборудование", "Промышленные приводы", "Промышленная арматура", "Промышленные датчики"],
+      "productFamilies": ["Pneumatic Cylinders", "Electric Actuators", "Pneumatic Valves", "Valve Systems", "Air Preparation", "Pressure Regulators", "Vacuum Products", "Sensors and Switches"],
+      "series": [],
+      "industries": ["Автоматизация", "Машиностроение", "Судостроение", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://discreteautomation.emerson.com/brands/aventics"],
+      "sources": [
+        {"sourceId":"brand-aventics-parent-products","tier":"A","type":"OFFICIAL_PARENT","scope":"CURRENT_BRAND_RELATION_AND_PNEUMATIC_AUTOMATION_FAMILIES","url":"https://discreteautomation.emerson.com/brands/aventics","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "avery-dennison-694905",
+      "officialName": "Avery Dennison Corporation",
+      "displayName": "Avery Dennison",
+      "aliases": ["AVERY DENNISON", "AVERY DENNISON CORPORATION"],
+      "formerNames": [],
+      "officialWebsite": "https://www.averydennison.com/",
+      "officialDomains": ["averydennison.com"],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Avery Dennison develops labeling, functional materials and digital identification solutions for packaging and industrial applications.",
+      "fullDescription": [
+        "Avery Dennison is verified through its corporate-owned site as a materials-science and digital-identification company.",
+        "The official product scope includes pressure-sensitive labeling materials, functional and industrial adhesive materials, RFID inlays and tags, digital identification software and durable-goods labeling solutions."
+      ],
+      "productCategories": ["Маркировочные материалы", "Клеевые материалы", "RFID и идентификация", "Промышленное программное обеспечение"],
+      "productFamilies": ["Labeling Materials", "Functional Materials", "Industrial Adhesives and Tapes", "RFID Inlays and Tags", "Digital Identification Solutions", "Durable-Goods Labels"],
+      "series": [],
+      "industries": ["Упаковочная промышленность", "Логистика", "Автомобильная промышленность", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://label.averydennison.com/na/en/home/products.html"],
+      "sources": [
+        {"sourceId":"brand-avery-dennison-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_MATERIALS_DIGITAL_IDENTIFICATION_SCOPE","url":"https://www.averydennison.com/en/home/company/overview.html","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-avery-dennison-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LABEL_FUNCTIONAL_MATERIAL_RFID_AND_INDUSTRIAL_ADHESIVE_FAMILIES","url":"https://label.averydennison.com/na/en/home/products.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "aws-apparatebau",
+      "officialName": "AWS Apparatebau Arnold GmbH",
+      "displayName": "AWS Apparatebau",
+      "aliases": ["AWS", "AWS APPARATEBAU", "AWS APPARATEBAU ARNOLD"],
+      "formerNames": [],
+      "officialWebsite": "https://www.aws-apparatebau.de/",
+      "officialDomains": ["aws-apparatebau.de"],
+      "country": "Germany",
+      "headquarters": "Niedernhall, Germany",
+      "foundedYear": null,
+      "parentCompany": "AWS Group",
+      "shortDescription": "AWS Apparatebau manufactures check valves, solenoid valves and custom valve assemblies for industrial fluid systems.",
+      "fullDescription": [
+        "AWS Apparatebau Arnold is verified through its manufacturer-owned website as a German valve-technology company based in Niedernhall with approximately five decades of specialization.",
+        "Its official range includes wafer swing, dual-plate and disco check valves, direct-acting and diaphragm solenoid valves, externally controlled valves and custom valve manufacturing."
+      ],
+      "productCategories": ["Промышленная арматура", "Электромагнитные клапаны", "Обратные клапаны"],
+      "productFamilies": ["Wafer Swing Check Valves", "Dual-Plate Check Valves", "Disco Check Valves", "Direct-Acting Solenoid Valves", "Diaphragm Valves", "Externally Controlled Valves"],
+      "series": ["ZRK", "ZRKF", "915", "916", "930", "931", "932", "932-HD", "936", "210", "214", "219", "310", "314"],
+      "industries": ["Водоподготовка", "Судостроение", "Химическая промышленность", "Пищевая промышленность", "ОВКВ"],
+      "officialCatalogs": ["https://www.aws-apparatebau.de/upload/images/Downloads_Armaturen/Broschueren/EN_ZRK_AWS_Broschuere_complete.pdf"],
+      "documentationSources": ["https://www.aws-apparatebau.de/en/check-valves.html"],
+      "sources": [
+        {"sourceId":"brand-aws-apparatebau-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_LOCATION_GROUP_RELATION_AND_VALVE_SPECIALISATION","url":"https://www.aws-apparatebau.de/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-aws-apparatebau-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CHECK_VALVE_SOLENOID_VALVE_AND_CUSTOM_VALVE_FAMILIES","url":"https://www.aws-apparatebau.de/en/check-valves.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "axces",
+      "officialName": "Axces B.V.",
+      "displayName": "Axces",
+      "aliases": ["AXCES", "AXCES BV"],
+      "formerNames": [],
+      "officialWebsite": "https://axces.com/",
+      "officialDomains": ["axces.com"],
+      "country": "Netherlands",
+      "headquarters": "Tholen, Netherlands",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Axces manufactures exhaust, emission-control, acoustic and process systems for engines and industrial installations.",
+      "fullDescription": [
+        "Axces is verified through its manufacturer-owned website as a Netherlands-based designer and manufacturer of industrial noise, emission, pressure and dispersion solutions.",
+        "The official portfolio includes dry and wet exhaust systems, silencers and acoustic enclosures, SCR and particulate-filtration systems, industrial stacks, vent silencers, pulsation dampeners and separators."
+      ],
+      "productCategories": ["Промышленные машины", "Системы фильтрации газов", "Сепарационное оборудование"],
+      "productFamilies": ["Dry Exhaust Systems", "Wet Exhaust Systems", "Silencers", "Acoustic Enclosures", "SCR Systems", "Diesel Particulate Filters", "Industrial Stacks", "Vent Silencers", "Pulsation Dampeners", "Separators"],
+      "series": [],
+      "industries": ["Судостроение", "Энергетика", "Нефтегазовая промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://www.axces.com/hubfs/Axces_Brochures%20and%20catalogue/NEW/2021_Axces%20Catalogue.pdf?hsLang=en"],
+      "documentationSources": ["https://axces.com/"],
+      "sources": [
+        {"sourceId":"brand-axces-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_EXHAUST_EMISSION_ACOUSTIC_PROCESS_FAMILIES","url":"https://axces.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "axel-larsson",
+      "officialName": "Axel Larsson Maskinaffär AB",
+      "displayName": "Axel Larsson",
+      "aliases": ["AXEL LARSSON", "AXEL LARSSON MASKINAFFÄR"],
+      "formerNames": [],
+      "officialWebsite": "https://axel-larsson.com/",
+      "officialDomains": ["axel-larsson.com"],
+      "country": "Sweden",
+      "headquarters": null,
+      "foundedYear": 1949,
+      "parentCompany": null,
+      "shortDescription": "Axel Larsson develops and assembles customized industrial valve and flow-control solutions.",
+      "fullDescription": [
+        "Axel Larsson is verified through its official company site as a Swedish family business founded in 1949 and focused on industrial valve technology.",
+        "Its documented work combines engineered valve assemblies with shut-off and control valves, actuators, solenoid valves, flow meters and associated components for customer-specific flow-control systems."
+      ],
+      "productCategories": ["Промышленная арматура", "Промышленные приводы", "Расходомеры", "Автоматизация и управление"],
+      "productFamilies": ["Custom Valve Assemblies", "Shut-Off Valves", "Control Valves", "Actuators", "Solenoid Valves", "Flow Meters"],
+      "series": [],
+      "industries": ["Промышленное производство", "Энергетика", "Водоподготовка", "Пищевая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://axel-larsson.com/knowledge-base/productinformation"],
+      "sources": [
+        {"sourceId":"brand-axel-larsson-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_OWNERSHIP_AND_ENGINEERED_VALVE_SCOPE","url":"https://axel-larsson.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-axel-larsson-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CUSTOM_VALVE_ASSEMBLY_VALVE_ACTUATOR_SOLENOID_AND_FLOW_METER_SCOPE","url":"https://axel-larsson.com/knowledge-base/productinformation","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "axomatic",
+      "officialName": "Axomatic S.r.l.",
+      "displayName": "Axomatic",
+      "aliases": ["AXOMATIC", "AXOMATIC SRL"],
+      "formerNames": [],
+      "officialWebsite": "https://www.axomatic.com/en",
+      "officialDomains": ["axomatic.com"],
+      "country": "Italy",
+      "headquarters": "Settimo Milanese, Italy",
+      "foundedYear": null,
+      "parentCompany": "Marchesini Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Axomatic develops processing, filling and packaging machinery for cosmetic, pharmaceutical and related products.",
+      "fullDescription": [
+        "Axomatic is verified through its manufacturer-owned website as an Italian machinery company within Marchesini Group Beauty.",
+        "The official range covers vacuum homogenizers and melters, tube filling and closing machines, dosing, bottle filling and capping, secondary packaging and complete production lines."
+      ],
+      "productCategories": ["Упаковочное оборудование", "Дозирующее и смесительное оборудование", "Промышленные машины"],
+      "productFamilies": ["Vacuum Homogenizers", "Melters", "Tube Filling and Closing Machines", "Dosing Machines", "Bottle Filling and Capping Machines", "Secondary Packaging Machines", "Complete Lines"],
+      "series": [],
+      "industries": ["Косметическая промышленность", "Фармацевтическая промышленность", "Пищевая промышленность", "Химическая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.axomatic.com/en/machines"],
+      "sources": [
+        {"sourceId":"brand-axomatic-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_MARCHESINI_GROUP_RELATION","url":"https://www.axomatic.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-axomatic-machines","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PROCESSING_FILLING_CLOSING_PACKAGING_AND_COMPLETE_LINE_FAMILIES","url":"https://www.axomatic.com/en/machines","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "azbil",
+      "officialName": "Azbil Corporation",
+      "displayName": "Azbil",
+      "aliases": ["AZBIL", "AZBIL CORPORATION"],
+      "formerNames": ["Yamatake Corporation"],
+      "officialWebsite": "https://www.azbil.com/",
+      "officialDomains": ["azbil.com", "aa-industrial.azbil.com"],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": 1906,
+      "parentCompany": null,
+      "shortDescription": "Azbil develops industrial and building automation, process instrumentation and control equipment.",
+      "fullDescription": [
+        "Azbil Corporation is verified through its official corporate material as a Japanese automation company founded in 1906 and formerly named Yamatake Corporation.",
+        "The official industrial range covers process transmitters, control valves and positioners, flow and analytical instruments, sensors and switches, controllers, recorders, motors and actuators, and combustion-safety equipment."
+      ],
+      "productCategories": ["Автоматизация и управление", "Контрольно-измерительное оборудование", "Промышленная арматура", "Промышленные датчики", "Промышленные приводы"],
+      "productFamilies": ["Process Transmitters", "Control Valves and Positioners", "Flow Instruments", "Analytical Instruments", "Sensors and Switches", "Controllers and Recorders", "Motors and Actuators", "Combustion Safety Equipment"],
+      "series": [],
+      "industries": ["Промышленное производство", "Химическая промышленность", "Энергетика", "Автоматизация зданий"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://aa-industrial.azbil.com/en/products"],
+      "sources": [
+        {"sourceId":"brand-azbil-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_COUNTRY_AND_AUTOMATION_SCOPE","url":"https://www.azbil.com/corporate/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-azbil-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PROCESS_INSTRUMENTATION_VALVE_SENSOR_CONTROLLER_AND_ACTUATOR_FAMILIES","url":"https://aa-industrial.azbil.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "b-r-acopos",
+      "officialName": "B&R Industrial Automation GmbH",
+      "displayName": "B&R ACOPOS",
+      "aliases": ["B&R ACOPOS", "B AND R ACOPOS", "ACOPOS"],
+      "formerNames": [],
+      "officialWebsite": "https://www.br-automation.com/en-us/",
+      "officialDomains": ["br-automation.com"],
+      "country": "Austria",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "ABB Ltd.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "ACOPOS is B&R's family of servo drives and motion-control systems for industrial automation.",
+      "fullDescription": [
+        "B&R's manufacturer-owned website verifies ACOPOS as the company's industrial motion-control and servo-drive family within the ABB group.",
+        "The official range includes single- and multi-axis drive systems, compact and modular servo drives, inverter products and coordinated motion-control hardware."
+      ],
+      "productCategories": ["Сервоприводы", "Преобразователи частоты", "Автоматизация и управление"],
+      "productFamilies": ["Single-Axis Drive Systems", "Multi-Axis Drive Systems", "Servo Drives", "Frequency Inverters", "Motion Controllers"],
+      "series": ["ACOPOS", "ACOPOS P3", "ACOPOSmulti", "ACOPOSinverter"],
+      "industries": ["Автоматизация", "Машиностроение", "Упаковочная промышленность", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.br-automation.com/en-us/products/motion-control/single-and-multi-axis-drive-systems/"],
+      "sources": [
+        {"sourceId":"brand-br-acopos-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"B_AND_R_ACOPOS_IDENTITY_SINGLE_MULTI_AXIS_DRIVE_AND_MOTION_FAMILIES","url":"https://www.br-automation.com/en-us/products/motion-control/single-and-multi-axis-drive-systems/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "badger-meter",
+      "officialName": "Badger Meter, Inc.",
+      "displayName": "Badger Meter",
+      "aliases": ["BADGER METER", "BADGER METER INC"],
+      "formerNames": [],
+      "officialWebsite": "https://www.badgermeter.com/",
+      "officialDomains": ["badgermeter.com"],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Badger Meter develops flow measurement, water-quality monitoring and control solutions for utilities and industrial processes.",
+      "fullDescription": [
+        "Badger Meter is verified through its manufacturer-owned website as a United States provider of flow-measurement and water-management technology.",
+        "Its official portfolio spans electromagnetic, ultrasonic, turbine, positive-displacement, variable-area, differential-pressure and other meter technologies, together with water-quality instruments and connected monitoring systems."
+      ],
+      "productCategories": ["Расходомеры", "Контрольно-измерительное оборудование", "Водоподготовка и мониторинг"],
+      "productFamilies": ["Electromagnetic Flow Meters", "Ultrasonic Flow Meters", "Turbine Meters", "Positive-Displacement Meters", "Variable-Area Meters", "Differential-Pressure Meters", "Water-Quality Instruments", "Smart Water Systems"],
+      "series": [],
+      "industries": ["Водоснабжение", "Водоподготовка", "Промышленное производство", "Химическая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.badgermeter.com/products/meters/"],
+      "sources": [
+        {"sourceId":"brand-badger-meter-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_COUNTRY_AND_FLOW_WATER_TECHNOLOGY_SCOPE","url":"https://www.badgermeter.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-badger-meter-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FLOW_METER_TECHNOLOGIES_AND_WATER_QUALITY_SYSTEMS","url":"https://www.badgermeter.com/products/meters/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "bahco",
+      "officialName": "Bahco",
+      "displayName": "Bahco",
+      "aliases": ["BAHCO", "SNA EUROPE BAHCO"],
+      "formerNames": [],
+      "officialWebsite": "https://www.bahco.com/",
+      "officialDomains": ["bahco.com", "bahco.de"],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Snap-on Incorporated",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Bahco is Snap-on's professional hand-tool and workshop-equipment brand for industrial and maintenance work.",
+      "fullDescription": [
+        "Bahco is verified through SNA Europe's official site as a professional-tool brand within Snap-on Incorporated.",
+        "The documented range includes hand tools, cutting and sawing tools, files, tool storage, hydraulic and pneumatic tools, electric screwdriving equipment and workshop and diagnostic systems."
+      ],
+      "productCategories": ["Ручной инструмент", "Гидравлический инструмент", "Пневматический инструмент", "Инструментальное хранение"],
+      "productFamilies": ["Hand Tools", "Cutting and Sawing Tools", "Files", "Tool Storage", "Hydraulic Tools", "Pneumatic Tools", "Electric Screwdriving Tools", "Workshop Equipment"],
+      "series": [],
+      "industries": ["Техническое обслуживание", "Автомобильная промышленность", "Промышленное производство", "Строительство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.bahco.de/en/products/products-a-z.html"],
+      "sources": [
+        {"sourceId":"brand-bahco-parent","tier":"A","type":"OFFICIAL_PARENT","scope":"CURRENT_BRAND_RELATION_AND_BAHCO_ACQUISITION_HISTORY","url":"https://www.snapon.com/EN/Our-Company/Our-History","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-bahco-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HAND_CUTTING_HYDRAULIC_PNEUMATIC_STORAGE_AND_WORKSHOP_TOOL_FAMILIES","url":"https://www.bahco.de/en/products/products-a-z.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "balance-systems",
+      "officialName": "Balance Systems S.r.l.",
+      "displayName": "Balance Systems",
+      "aliases": ["BALANCE SYSTEMS", "BALANCE SYSTEMS SRL"],
+      "formerNames": [],
+      "officialWebsite": "https://www.balancesystems.com/",
+      "officialDomains": ["balancesystems.com"],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1975,
+      "parentCompany": null,
+      "shortDescription": "Balance Systems develops industrial balancing machines and process-control systems for grinding and spindle applications.",
+      "fullDescription": [
+        "Balance Systems is verified through its manufacturer-owned website as an Italian balancing and process-control specialist operating since 1975.",
+        "The official portfolio includes manual, semi-automatic and automatic balancing machines, grinding-wheel balancing, touch-detection and gauging systems, and spindle-monitoring equipment."
+      ],
+      "productCategories": ["Балансировочное оборудование", "Контрольно-измерительное оборудование", "Системы контроля процесса"],
+      "productFamilies": ["Balancing Machines", "Grinding-Wheel Balancing Systems", "Touch Detection Systems", "Gauging Systems", "Spindle Monitoring Systems"],
+      "series": ["BMK8", "BMK4A-B", "VM25", "GTS", "RB"],
+      "industries": ["Металлообработка", "Станкостроение", "Автомобильная промышленность", "Промышленное производство"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.balancesystems.com/"],
+      "sources": [
+        {"sourceId":"brand-balance-systems-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_BALANCING_PROCESS_CONTROL_SCOPE","url":"https://www.balancesystems.com/the-group/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-balance-systems-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BALANCING_GRINDING_GAUGING_TOUCH_DETECTION_AND_SPINDLE_MONITORING_FAMILIES","url":"https://www.balancesystems.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    }
+  ]
+}

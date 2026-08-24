@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026-08-24",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "steelbau",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "STEELBAU is a generic company-name fragment shared by unrelated steel-fabrication businesses. The repository identity has no country, legal-name or product-scope discriminator that safely selects one manufacturer-owned source.",
+      "attemptedUrls": [
+        "https://www.stabau.net/",
+        "https://www.stahlbau-de.com/",
+        "https://stahlbau.de/"
+      ]
+    },
+    {
+      "manufacturerId": "valvola",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "VALVOLA is the Italian generic word for valve and does not resolve to a uniquely identifiable manufacturer. Search discovery returned multiple unrelated valve companies without an identity discriminator in the repository record.",
+      "attemptedUrls": [
+        "https://www.audco.it/en/",
+        "https://www.valv.com/"
+      ]
+    },
+    {
+      "manufacturerId": "zahnradpumpenfabrik",
+      "status": "BLOCKED_IDENTITY_SCOPE",
+      "checkedAt": "2026-08-24",
+      "reason": "ZAHNRAD PUMPEN FABRIK is a descriptive German phrase rather than a sufficiently discriminated legal or commercial identity. No authoritative manufacturer-owned source could be tied to this exact repository record without guessing.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=Zahnrad+Pumpen+Fabrik+manufacturer"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "manufacturerId": "reitz",
+      "officialName": "Konrad Reitz Ventilatoren GmbH & Co. KG",
+      "displayName": "REITZ",
+      "aliases": ["REITZ", "REITZ GROUP", "KONRAD REITZ VENTILATOREN"],
+      "formerNames": [],
+      "officialWebsite": "https://www.reitzgroup.com/en/",
+      "officialDomains": ["reitzgroup.com"],
+      "country": "Germany",
+      "headquarters": "Höxter, Germany",
+      "foundedYear": 1948,
+      "parentCompany": null,
+      "shortDescription": "REITZ develops centrifugal fans for industrial air and gas-handling applications.",
+      "fullDescription": [
+        "Konrad Reitz Ventilatoren is verified through the REITZ Group's manufacturer-owned company profile as a German family business founded in 1948.",
+        "The official range covers direct-drive, coupling-drive and belt-drive industrial centrifugal fans, including pressure-resistant, pressure-shock-resistant, gas-tight, dust-tight and hygienic configurations."
+      ],
+      "productCategories": ["Промышленные вентиляторы"],
+      "productFamilies": ["Direct-Drive Industrial Fans", "Coupling-Drive Industrial Fans", "Belt-Drive Industrial Fans", "Pressure-Resistant Fans", "Hygienic Fans"],
+      "series": ["M-Series", "K-Series", "R-Series"],
+      "industries": ["Промышленное производство", "Химическая промышленность", "Пищевая промышленность", "Энергетика"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.reitzgroup.com/en/products/industrial-fans/"],
+      "sources": [
+        {"sourceId":"brand-reitz-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_FAN_SPECIALISATION","url":"https://www.reitzgroup.com/en/our-company/the-reitz-group/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-reitz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DIRECT_COUPLING_BELT_DRIVE_AND_APPLICATION_SPECIFIC_FAN_FAMILIES","url":"https://www.reitzgroup.com/en/products/industrial-fans/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "samchully",
+      "officialName": "Samchully Machinery Co., Ltd.",
+      "displayName": "Samchully",
+      "aliases": ["SAMCHULLY", "SAMCHULLY MACHINERY", "SAMCHULLY WORKHOLDING"],
+      "formerNames": [],
+      "officialWebsite": "https://samchullyworkholding.com/",
+      "officialDomains": ["samchullyworkholding.com", "samchully.com"],
+      "country": "South Korea",
+      "headquarters": null,
+      "foundedYear": 1975,
+      "parentCompany": null,
+      "shortDescription": "Samchully manufactures workholding equipment and machine-tool accessories for turning and milling operations.",
+      "fullDescription": [
+        "Samchully Machinery is verified through its manufacturer-owned workholding website as a South Korean producer of turning and milling workholding equipment founded in 1975.",
+        "The documented portfolio includes hydraulic and manual chucks, cylinders, rotary tables, vises, steady rests, application chucks and toolholders for machine-tool applications."
+      ],
+      "productCategories": ["Станочная оснастка и зажимные системы", "Промышленные машины"],
+      "productFamilies": ["Power Chucks", "Manual Chucks", "Hydraulic Cylinders", "Rotary Tables", "Machine Vises", "Steady Rests", "Toolholders"],
+      "series": [],
+      "industries": ["Станкостроение", "Машиностроение", "Автомобильная промышленность"],
+      "officialCatalogs": ["https://www.samchully.com/_data/kor/catalog/General_Catalog.pdf"],
+      "documentationSources": ["https://samchullyworkholding.com/power-chucks/"],
+      "sources": [
+        {"sourceId":"brand-samchully-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_WORKHOLDING_SPECIALISATION","url":"https://samchullyworkholding.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-samchully-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CHUCK_CYLINDER_ROTARY_TABLE_VISE_AND_TOOLHOLDER_FAMILIES","url":"https://samchullyworkholding.com/power-chucks/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "seko",
+      "officialName": "SEKO S.p.A.",
+      "displayName": "SEKO",
+      "aliases": ["SEKO", "SEKO SPA"],
+      "formerNames": [],
+      "officialWebsite": "https://www.seko.com/us/",
+      "officialDomains": ["seko.com"],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1976,
+      "parentCompany": null,
+      "shortDescription": "SEKO develops chemical dosing pumps and dosing systems for water-treatment, cleaning and industrial processes.",
+      "fullDescription": [
+        "SEKO is verified through its manufacturer-owned company page as a dosing-technology manufacturer established in 1976.",
+        "Its official scope includes chemical dosing pumps and systems for water treatment, cleaning and hygiene, and industrial processes, with solenoid, motor-driven and process-pump solutions."
+      ],
+      "productCategories": ["Дозирующие насосы", "Водоподготовка и фильтрация"],
+      "productFamilies": ["Solenoid Dosing Pumps", "Motor-Driven Dosing Pumps", "Process Pumps", "Dosing Systems", "Controllers and Measurement Systems"],
+      "series": [],
+      "industries": ["Водоподготовка", "Химическая промышленность", "Промышленное производство", "Пищевая промышленность"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.seko.com/us/"],
+      "sources": [
+        {"sourceId":"brand-seko-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDED_AND_DOSING_SPECIALISATION","url":"https://www.seko.com/us/site/who-we-are","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-seko-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CHEMICAL_DOSING_PUMPS_SYSTEMS_AND_WATER_TREATMENT_SCOPE","url":"https://www.seko.com/us/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "servomex",
+      "officialName": "Servomex",
+      "displayName": "Servomex",
+      "aliases": ["SERVOMEX"],
+      "formerNames": [],
+      "officialWebsite": "https://www.servomex.com/",
+      "officialDomains": ["servomex.com"],
+      "country": "United Kingdom",
+      "headquarters": "Crowborough, United Kingdom",
+      "foundedYear": 1952,
+      "parentCompany": "Spectris plc",
+      "shortDescription": "Servomex develops gas analyzers, sensing technologies and gas-analysis systems for industrial and laboratory processes.",
+      "fullDescription": [
+        "Servomex is verified through its manufacturer-owned company history as a United Kingdom gas-analysis business founded in 1952 and acquired by the group now known as Spectris in 1999.",
+        "The official product range covers hazardous-area, safe-area, ultra-low-level and portable gas analyzers, integrated gas-analysis systems and sensing technologies for industrial gases, semiconductors, emissions, energy and process applications."
+      ],
+      "productCategories": ["Измерительное оборудование", "Лабораторное аналитическое оборудование", "Промышленные датчики"],
+      "productFamilies": ["Hazardous-Area Gas Analyzers", "Safe-Area Gas Analyzers", "Ultra-Low Detection Analyzers", "Portable Gas Analyzers", "Gas Analysis Systems", "Gas Sensing Technologies"],
+      "series": ["SERVOTOUGH", "SERVOPRO", "SERVOPRO ULTRA", "SERVOFLEX", "CLEAN AIR"],
+      "industries": ["Нефтегазовая промышленность", "Энергетика", "Химическая промышленность", "Полупроводниковая промышленность", "Медицинское оборудование"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.servomex.com/SERVOPRO/"],
+      "sources": [
+        {"sourceId":"brand-servomex-about","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HISTORY_PARENT_AND_GAS_ANALYSIS_SPECIALISATION","url":"https://www.servomex.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-servomex-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GAS_ANALYZER_SYSTEM_AND_SENSING_TECHNOLOGY_FAMILIES","url":"https://www.servomex.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "siad",
+      "officialName": "SIAD Macchine Impianti S.p.A.",
+      "displayName": "SIAD",
+      "aliases": ["SIAD", "SIAD MI", "SIAD MACCHINE IMPIANTI"],
+      "formerNames": [],
+      "officialWebsite": "https://www.thesiadgroup.com/en/engineering",
+      "officialDomains": ["thesiadgroup.com"],
+      "country": "Italy",
+      "headquarters": "Bergamo, Italy",
+      "foundedYear": null,
+      "parentCompany": "SIAD Group",
+      "shortDescription": "SIAD Macchine Impianti designs compressors, air-separation units and engineered gas-processing systems.",
+      "fullDescription": [
+        "SIAD Macchine Impianti is verified through the SIAD Group's official engineering pages as the group company responsible for compressors and engineered gas-production systems.",
+        "Its documented scope includes reciprocating process and oil-free compressors, air-separation units, natural-gas liquefaction systems, carbon-dioxide recovery equipment, biomethane plants and global service systems."
+      ],
+      "productCategories": ["Промышленные компрессоры", "Промышленные машины", "Газоперерабатывающее оборудование"],
+      "productFamilies": ["Reciprocating Process Compressors", "Oil-Free Compressors", "Air Separation Units", "Natural Gas Liquefaction Systems", "CO2 Recovery Systems", "Biomethane Plants"],
+      "series": ["SIADMI4U"],
+      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Пищевая промышленность", "Энергетика"],
+      "officialCatalogs": ["https://static.thesiadgroup.com/205en_93b4cc2a37.pdf"],
+      "documentationSources": ["https://www.thesiadgroup.com/en/engineering"],
+      "sources": [
+        {"sourceId":"brand-siad-engineering","tier":"A","type":"ABOUT_AND_SOLUTIONS","scope":"GROUP_RELATION_IDENTITY_COMPRESSOR_AND_ENGINEERED_GAS_SYSTEM_SCOPE","url":"https://www.thesiadgroup.com/en/engineering","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-siad-engineering-brochure","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"COMPRESSOR_ASU_LNG_CO2_BIOMETHANE_AND_COMBUSTION_SYSTEM_FAMILIES","url":"https://static.thesiadgroup.com/205en_93b4cc2a37.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "tietjen",
+      "officialName": "TIETJEN Verfahrenstechnik GmbH",
+      "displayName": "TIETJEN",
+      "aliases": ["TIETJEN", "TIETJEN VERFAHRENSTECHNIK"],
+      "formerNames": [],
+      "officialWebsite": "https://www.tietjen-original.com/en/",
+      "officialDomains": ["tietjen-original.com"],
+      "country": "Germany",
+      "headquarters": "Hemdingen, Germany",
+      "foundedYear": 1959,
+      "parentCompany": null,
+      "shortDescription": "TIETJEN develops hammer mills, depackaging machines and process plants for grinding and organic-waste separation.",
+      "fullDescription": [
+        "TIETJEN Verfahrenstechnik is verified through its manufacturer-owned website as a German specialist in hammer mills, depackaging machines and plant engineering with manufacturing experience since 1959.",
+        "The official portfolio includes dry and wet hammer mills, crushers, biomass shredders, organic-waste separation and dewatering machines, feeders, screening equipment and dust-explosion protection components."
+      ],
+      "productCategories": ["Промышленные машины", "Оборудование для переработки", "Сортировочное оборудование"],
+      "productFamilies": ["Hammer Mills", "Crushers", "Biomass Shredders", "Depackaging Machines", "Screw Presses", "Feeders", "Screening Equipment", "Explosion Protection Components"],
+      "series": ["FD Pro", "GD", "GDL", "GDX", "VDK", "BMS", "DRM", "BRF"],
+      "industries": ["Пищевая промышленность", "Сельское хозяйство", "Переработка отходов", "Промышленное производство"],
+      "officialCatalogs": ["https://www.tietjen-original.com/wp-content/uploads/2023/09/Tietjen-Brochure-Size-Reduction-A4-09-2023.pdf"],
+      "documentationSources": ["https://www.tietjen-original.com/en/products/"],
+      "sources": [
+        {"sourceId":"brand-tietjen-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_PROCESS_TECHNOLOGY_SCOPE","url":"https://www.tietjen-original.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-tietjen-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MILL_CRUSHER_DEPACKAGING_FEEDING_SCREENING_AND_EXPLOSION_PROTECTION_FAMILIES","url":"https://www.tietjen-original.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    },
+    {
+      "manufacturerId": "abc-compressors",
+      "officialName": "ABC Compressors",
+      "displayName": "ABC Compressors",
+      "aliases": ["ABC COMPRESSORS", "ABC COMPRESORES"],
+      "formerNames": [],
+      "officialWebsite": "https://www.abc-compressors.com/",
+      "officialDomains": ["abc-compressors.com"],
+      "country": "Spain",
+      "headquarters": "Eibar, Spain",
+      "foundedYear": 1943,
+      "parentCompany": "Atlas Copco Group",
+      "shortDescription": "ABC Compressors manufactures reciprocating compressors for air and gas compression applications.",
+      "fullDescription": [
+        "ABC Compressors is verified through its manufacturer-owned website and Atlas Copco Group's official brand profile as a Spanish reciprocating-compressor business founded in 1943.",
+        "Its documented range includes oil-free air compressors and gas compressors for PET blowing, carbon-dioxide recovery, natural gas, petrochemical processing, aerospace testing, water treatment and biogas applications."
+      ],
+      "productCategories": ["Промышленные компрессоры"],
+      "productFamilies": ["Oil-Free Air Compressors", "Reciprocating Gas Compressors", "PET Blowing Compressors", "CO2 Recovery Compressors", "Natural Gas Compressors"],
+      "series": [],
+      "industries": ["Пищевая промышленность", "Нефтегазовая промышленность", "Нефтехимическая промышленность", "Аэрокосмическая промышленность", "Водоподготовка"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.abc-compressors.com/"],
+      "sources": [
+        {"sourceId":"brand-abc-compressors-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"IDENTITY_HISTORY_AIR_AND_GAS_COMPRESSOR_FAMILIES_AND_MARKETS","url":"https://www.abc-compressors.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-abc-compressors-parent","tier":"A","type":"OFFICIAL_PARENT","scope":"CURRENT_BRAND_RELATION_AND_RECIPROCATING_AIR_GAS_COMPRESSOR_SCOPE","url":"https://www.atlascopcogroup.com/en/about-us/brands/abc-compressor","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ]
+    }
+  ]
+}
