@@ -100954,1701 +100954,3595 @@
   {
     "manufacturerId": "saf-fro",
     "displayName": "SAF-FRO",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2358,
-    "effortClass": "FAST",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "PUBLISHABLE",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The apparent SAF-FRO manufacturer-owned HTTPS site did not complete a response during repeated verification, so current identity and product scope could not be released safely."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "sagola",
     "displayName": "SAGOLA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2359,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sagola.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "SPRAY_FINISHING_COMPANY_IDENTITY_AND_PORTFOLIO",
+        "url": "https://sagola.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "INDUSTRIAL_SPRAY_GUN_SCOPE",
+        "url": "https://sagola.com/en/products/industry/aerographic-spray-guns",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "coating and finishing equipment",
+        "pumps and pumping systems",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Spray Guns",
+        "Airbrushes",
+        "Air Filters",
+        "Fluid Pumps",
+        "Painting Systems"
+      ],
+      "industries": [
+        "transportation",
+        "industrial processing"
+      ],
+      "country": "Spain",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sai-hydraulic",
-    "displayName": "SAI HYDRAULIC",
-    "status": "BRAND_WEAK",
+    "displayName": "SAI Hydraulics",
+    "status": "BRAND_SAFE",
     "priority": 2360,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "saihydraulics.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_HISTORY_AND_DRIVE_PORTFOLIO",
+        "url": "https://www.saihydraulics.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "RADIAL_PISTON_MOTOR_TYPES_AND_SERIES",
+        "url": "https://www.saihydraulics.com/en/product-category/motors/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "hydraulic equipment"
+      ],
+      "families": [
+        "Radial-Piston Hydraulic Motors",
+        "Variable-Displacement Motors",
+        "Double-Displacement Motors",
+        "Fixed-Displacement Motors",
+        "Wheel Drive Units",
+        "Shaft-End Drive Units",
+        "Hydraulic Brakes"
+      ],
+      "industries": [
+        "agriculture",
+        "mining",
+        "marine applications",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Modena, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "saia-burgess",
-    "displayName": "SAIA BURGESS",
-    "status": "BRAND_WEAK",
+    "displayName": "Saia Burgess Controls",
+    "status": "BRAND_SAFE",
     "priority": 2361,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "saia-pcd.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_AND_AUTOMATION_SCOPE",
+        "url": "https://www.saia-pcd.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CONTROL_METERING_FIELD_DEVICE_AND_SOFTWARE_SCOPE",
+        "url": "https://www.saia-pcd.com/en/products/product-catalogue/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "measurement and instrumentation",
+        "industrial software"
+      ],
+      "families": [
+        "Automation Stations",
+        "Control and Monitoring",
+        "Electrical Energy Meters",
+        "Field Devices",
+        "Energy Management",
+        "Room Automation",
+        "Automation Software"
+      ],
+      "industries": [
+        "factory automation"
+      ],
+      "country": "Switzerland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "saint-gobain-performance",
     "displayName": "SAINT-GOBAIN PERFORMANCE PLASTICS - PROCESS SYSTEM",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2362,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_PRODUCT_LINE_IDENTITY",
+      "reason": "The registry label describes a Saint-Gobain performance-plastics process-system business scope rather than one unambiguous standalone manufacturer identity. A separate profile would risk duplicating or fragmenting the Saint-Gobain corporate entity."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "saip",
     "displayName": "SAIP",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2363,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SAIP is a short acronym used by unrelated industrial entities. Although a polyurethane-equipment company was found, the bare registry record has no legal-name, geography or product-scope discriminator that proves this is the intended manufacturer."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "salmatec",
     "displayName": "SALMATEC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2364,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "salmatec.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_HISTORY_AND_PELLETING_SCOPE",
+        "url": "https://www.salmatec.de/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PELLET_MILL_AND_PROCESS_EQUIPMENT_SCOPE",
+        "url": "https://www.salmatec.de/en/products/pelletizers/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "process equipment",
+        "industrial machinery"
+      ],
+      "families": [
+        "Pellet Mills",
+        "Compact Pelletizing Units",
+        "Conditioners",
+        "Thermal Treatment Systems",
+        "Dies and Rollers",
+        "Turnkey Pelleting Plants"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy"
+      ],
+      "country": "Germany",
+      "headquarters": "Gödenstorf, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "salmson",
     "displayName": "SALMSON",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2365,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_LEGACY_IDENTITY",
+      "reason": "SALMSON is a legacy pump brand associated with Wilo, and no current standalone manufacturer-owned HTTPS profile with sufficiently clear brand continuity and product scope was established for publication."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "salvadori",
-    "displayName": "SALVADORI",
-    "status": "BRAND_WEAK",
+    "displayName": "Salvadori",
+    "status": "BRAND_SAFE",
     "priority": 2366,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "salvadori.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_AND_RECYCLING_SCOPE",
+        "url": "https://www.salvadori.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "TIRE_BELT_AND_RUBBER_RECYCLING_EQUIPMENT_SCOPE",
+        "url": "https://www.salvadori.com/our-equipment/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Tire Downsizing Equipment",
+        "Debeading Machines",
+        "Tire Shears",
+        "Buffing Machines",
+        "Rubber Moulding Plants",
+        "Rubber Processing Systems"
+      ],
+      "industries": [
+        "mining",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Rovereto, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sames",
     "displayName": "SAMES",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2367,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sames.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "APPLICATION_TECHNOLOGY_COMPANY_IDENTITY",
+        "url": "https://www.sames.com/usa/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LIQUID_POWDER_ADHESIVE_AND_SEALANT_APPLICATION_SCOPE",
+        "url": "https://www.sames.com/usa/en/our-ranges",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "coating and finishing equipment",
+        "pumps and pumping systems",
+        "filling and packaging machinery",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Liquid Coating Systems",
+        "Powder Coating Systems",
+        "Spray Guns",
+        "Paint Pumps",
+        "Mixing and Dosing Systems",
+        "Adhesive and Sealant Application Systems"
+      ],
+      "industries": [
+        "transportation",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sami",
     "displayName": "SAMI",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2368,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SAMI is a generic name and acronym shared by unrelated current businesses. The registry record contains no domain, legal-name, geography or product-scope discriminator."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "samic",
     "displayName": "SAMIC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2369,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "samic.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PROCESS_EQUIPMENT_VESSEL_HEAT_EXCHANGER_AND_SKID_SCOPE",
+        "url": "https://samic.it/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "fluid-storage systems"
+      ],
+      "families": [
+        "Heat Exchangers",
+        "Pressure Vessels",
+        "Storage Tanks",
+        "Columns",
+        "Reaction Chambers",
+        "Industrial Skids",
+        "Process Piping Assemblies"
+      ],
+      "industries": [
+        "oil and gas",
+        "chemical processing",
+        "energy",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "samiflex",
     "displayName": "SAMIFLEX",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2370,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "citsa.es",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_SITE",
+        "tier": "B",
+        "scope": "BRAND_OWNERSHIP_AND_COMPANY_IDENTITY",
+        "url": "https://citsa.es/en/home/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+        "tier": "B",
+        "scope": "FLEXIBLE_COUPLING_PRODUCT_SCOPE",
+        "url": "https://citsa.es/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "brakes and couplings",
+        "shaft-locking and transmission components"
+      ],
+      "families": [
+        "Standard Flexible Couplings",
+        "Spacer Couplings",
+        "Taper-Bush Couplings",
+        "Multifunction Couplings"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Spain",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "samil-industry",
     "displayName": "SAMIL INDUSTRY",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2371,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "Searches for SAMIL INDUSTRY produced unrelated manufacturers in different sectors, and the registry record has no reliable discriminator selecting one official entity."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "samoa",
     "displayName": "SAMOA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2372,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "SAMOA Industrial's official product pages returned HTTP 403 during release verification. The restriction was respected and cached search text was not promoted to AVAILABLE evidence."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "samsung",
     "displayName": "SAMSUNG",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2373,
-    "effortClass": "FAST",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "PUBLISHABLE",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SAMSUNG identifies a corporate group and numerous distinct operating companies and product businesses. The bare record does not identify one industrial manufacturer entity or scope."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sang-a",
-    "displayName": "SANG-A",
-    "status": "BRAND_WEAK",
+    "displayName": "Sang-A Pneumatic",
+    "status": "BRAND_SAFE",
     "priority": 2374,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "sanga2000.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PNEUMATIC_FITTING_TUBE_COUPLER_AND_CONTROL_SCOPE",
+        "url": "https://www.sanga2000.com/sanga2000/?go=main",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pneumatic equipment"
+      ],
+      "families": [
+        "One-Touch Fittings",
+        "Two-Touch Fittings",
+        "Speed Controllers",
+        "Pneumatic Tubes",
+        "Couplers",
+        "Chemical Fittings",
+        "Pipes and Accessories"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "South Korea",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sanitaire",
-    "displayName": "SANITAIRE",
-    "status": "BRAND_WEAK",
+    "displayName": "Sanitaire",
+    "status": "BRAND_SAFE",
     "priority": 2375,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "xylem.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_BRAND_PAGE",
+        "tier": "B",
+        "scope": "CURRENT_BRAND_IDENTITY_AND_WASTEWATER_AERATION_SCOPE",
+        "url": "https://www.xylem.com/en-us/brands/sanitaire/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial cleaning systems"
+      ],
+      "families": [
+        "Fine-Bubble Diffusers",
+        "Disc Diffusers",
+        "Tube Diffusers",
+        "Aeration Systems"
+      ],
+      "industries": [
+        "water and wastewater"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "santasalo",
     "displayName": "SANTASALO",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2376,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_CANONICAL_DUPLICATE",
+      "reason": "Current official evidence identifies Santasalo within David Brown Santasalo, which is already represented by canonical manufacturerId david-brown. Publishing another current profile would duplicate the same company and official domain."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sanyo-denki",
     "displayName": "SANYO DENKI",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2377,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sanyodenki.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "COOLING_POWER_AND_MOTION_CONTROL_SCOPE",
+        "url": "https://products.sanyodenki.com/en/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial fans and blowers",
+        "drive and motion-control systems",
+        "electric motors"
+      ],
+      "families": [
+        "Cooling Fans and Systems",
+        "Uninterruptible Power Supplies",
+        "Power Conditioners",
+        "Servo Systems",
+        "Stepping Systems"
+      ],
+      "industries": [
+        "factory automation",
+        "electronics and semiconductor manufacturing",
+        "industrial manufacturing"
+      ],
+      "country": "Japan",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "satec",
     "displayName": "SATEC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2378,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SATEC is used by unrelated current manufacturers in power metering and materials-testing equipment. The bare registry record has no product-scope or domain discriminator."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "satron",
     "displayName": "SATRON",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2379,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "satron.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_AND_PROCESS_INSTRUMENT_SCOPE",
+        "url": "https://satron.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "TRANSMITTER_VALVE_SENSOR_AND_ACTUATOR_SCOPE",
+        "url": "https://satron.com/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial valves and flow control",
+        "linear-motion components"
+      ],
+      "families": [
+        "Optical Transmitters",
+        "Pressure Transmitters",
+        "Level Transmitters",
+        "Mounting and Service Valves",
+        "Sampling Valves",
+        "Pneumatic Cylinders"
+      ],
+      "industries": [
+        "wood and paper processing",
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "oil and gas",
+        "water and wastewater"
+      ],
+      "country": "Finland",
+      "headquarters": "Pirkkala, Finland"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sauer-danfoss",
     "displayName": "SAUER DANFOSS",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2380,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_LEGACY_IDENTITY",
+      "reason": "Sauer-Danfoss is a former corporate name now represented by Danfoss Power Solutions. The registry record cannot be released as a current standalone manufacturer without creating a legacy duplicate."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sauermann",
     "displayName": "SAUERMANN",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2381,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The apparent Sauermann manufacturer-owned HTTPS pages did not complete a response during repeated verification. No reseller evidence was substituted."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "saunders",
     "displayName": "SAUNDERS",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2382,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The apparent official Crane Saunders brand page did not complete an HTTPS response during release verification, so current brand continuity and valve scope were not marked AVAILABLE."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "sawa-pumpen",
-    "displayName": "SAWA PUMPEN",
-    "status": "BRAND_WEAK",
+    "displayName": "SAWA Pumpen",
+    "status": "BRAND_SAFE",
     "priority": 2383,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sawa.ch",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "PUMP_COMPANY_IDENTITY_AND_APPLICATION_SCOPE",
+        "url": "https://www.sawa.ch/en",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CENTRIFUGAL_POSITIVE_DISPLACEMENT_AND_HYGIENIC_PUMP_SCOPE",
+        "url": "https://www.sawa.ch/en/pumps",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Self-Priming Centrifugal Pumps",
+        "Standard Centrifugal Pumps",
+        "Hybrid Centrifugal Pumps",
+        "Submersible Centrifugal Pumps",
+        "Peripheral Pumps",
+        "Gear Pumps"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "water and wastewater"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Degersheim, Switzerland"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "scaime",
     "displayName": "SCAIME",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2384,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "scaime.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "WEIGHING_MEASUREMENT_AND_CONTROL_IDENTITY",
+        "url": "https://scaime.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LOAD_CELL_SENSOR_AND_MEASUREMENT_ELECTRONICS_SCOPE",
+        "url": "https://scaime.com/products",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Load Cells",
+        "Weighing Electronics",
+        "Force Sensors",
+        "Torque Sensors",
+        "Displacement Sensors",
+        "Pressure Sensors",
+        "Fibre-Optic Sensors",
+        "Measurement Electronics"
+      ],
+      "industries": [
+        "factory automation",
+        "food and pharmaceutical processing",
+        "transportation",
+        "industrial manufacturing"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "scan-coin",
     "displayName": "SCAN COIN",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2385,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The former SCAN COIN domain redirects to a PayComplete brand page that returned HTTP 403. The restriction was respected and current acquired-brand scope was not released."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "scavini",
-    "displayName": "SCAVINI",
-    "status": "BRAND_WEAK",
+    "displayName": "Scavini",
+    "status": "BRAND_SAFE",
     "priority": 2386,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "scavini.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_HISTORY_AND_TEST_EQUIPMENT_SCOPE",
+        "url": "https://www.scavini.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PETROLEUM_FUEL_LUBRICANT_AND_MATERIAL_TEST_SCOPE",
+        "url": "https://www.scavini.com/en/products.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "laboratory and analytical equipment",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Flash Point Testers",
+        "Cold Property Analyzers",
+        "Oxidation Stability Testers",
+        "Demulsivity and Foaming Testers",
+        "Viscosity Baths",
+        "Bitumen Testers",
+        "Grease Testers",
+        "Fuel and Lubricant Testers"
+      ],
+      "industries": [
+        "oil and gas",
+        "laboratory and life-science applications"
+      ],
+      "country": "Italy",
+      "headquarters": "Baveno, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schaffner",
     "displayName": "SCHAFFNER",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2387,
-    "effortClass": "FAST",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "PUBLISHABLE",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "Schaffner's current official TE Connectivity brand and product pages returned HTTP 403 during release verification. Cached snippets were not used as AVAILABLE publication evidence."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "schaltbau",
-    "displayName": "SCHALTBAU",
-    "status": "BRAND_WEAK",
+    "displayName": "Schaltbau",
+    "status": "BRAND_SAFE",
     "priority": 2388,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schaltbau.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "SWITCHING_AND_CONNECTION_COMPANY_IDENTITY",
+        "url": "https://www.schaltbau.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CONTACTOR_CONNECTOR_SWITCH_AND_CONTROL_SCOPE",
+        "url": "https://www.schaltbau.com/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial connectivity",
+        "industrial automation and control"
+      ],
+      "families": [
+        "AC Contactors",
+        "DC Contactors",
+        "Industrial Connectors",
+        "Snap-Action Switches",
+        "Command Devices",
+        "Emergency Disconnect Switches"
+      ],
+      "industries": [
+        "rail",
+        "energy",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "scherzinger-pumpen",
-    "displayName": "SCHERZINGER PUMPEN",
-    "status": "BRAND_WEAK",
+    "displayName": "SCHERZINGER Pumpen",
+    "status": "BRAND_SAFE",
     "priority": 2389,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "scherzinger.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "PUMP_COMPANY_IDENTITY_AND_SPECIALIZATION",
+        "url": "https://www.scherzinger.de/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "GEAR_GEROTOR_AND_ENGINEERED_PUMP_SCOPE",
+        "url": "https://www.scherzinger.de/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "External Gear Pumps",
+        "Internal Gear Pumps",
+        "Gerotor Pumps",
+        "Custom Pump Systems"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "transportation",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "scheuch",
-    "displayName": "SCHEUCH",
-    "status": "BRAND_WEAK",
+    "displayName": "Scheuch",
+    "status": "BRAND_SAFE",
     "priority": 2390,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "scheuch.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "GROUP_IDENTITY_HISTORY_AND_AIR_TECHNOLOGY_SCOPE",
+        "url": "https://www.scheuch.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "AIR_POLLUTION_EXTRACTION_CONVEYING_AND_COMPONENT_SCOPE",
+        "url": "https://www.scheuch.com/en/portfolio/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "conveying and material-handling systems",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "Dust Collection Systems",
+        "Flue-Gas Cleaning Systems",
+        "Extraction Systems",
+        "Pneumatic Conveying Systems",
+        "Industrial Fans",
+        "Rotary Valves and Dampers"
+      ],
+      "industries": [
+        "wood and paper processing",
+        "industrial manufacturing",
+        "industrial processing",
+        "energy"
+      ],
+      "country": "Austria",
+      "headquarters": "Aurolzmünster, Austria"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schindler",
-    "displayName": "SCHINDLER",
-    "status": "BRAND_WEAK",
+    "displayName": "Schindler",
+    "status": "BRAND_SAFE",
     "priority": 2391,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "schindler.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "GROUP_IDENTITY_AND_MOBILITY_SCOPE",
+        "url": "https://group.schindler.com/en.html",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ELEVATOR_ESCALATOR_AND_MOVING_WALK_SCOPE",
+        "url": "https://www.schindler.com/com/internet/en/mobility-solutions/products.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "infrastructure technologies"
+      ],
+      "families": [
+        "Passenger Elevators",
+        "Freight Elevators",
+        "Escalators",
+        "Moving Walks",
+        "Modernization Solutions",
+        "Digital Services"
+      ],
+      "industries": [
+        "transportation"
+      ],
+      "country": "Switzerland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schlemmer",
-    "displayName": "SCHLEMMER",
-    "status": "BRAND_WEAK",
+    "displayName": "Schlemmer",
+    "status": "BRAND_SAFE",
     "priority": 2392,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schlemmer.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "CABLE_MANAGEMENT_COMPANY_IDENTITY_AND_SCOPE",
+        "url": "https://schlemmer.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "CONDUIT_SLEEVING_AND_ACCESSORY_PORTFOLIO",
+        "url": "https://www.schlemmer.com/assets/downloads/schlemmer-catalog.pdf",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial connectivity"
+      ],
+      "families": [
+        "Plastic Conduits",
+        "Textile Sleeving",
+        "Braided Sleeving",
+        "Cable Protection Accessories",
+        "Harness Protection Systems"
+      ],
+      "industries": [
+        "transportation",
+        "rail",
+        "agriculture",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schlick",
     "displayName": "SCHLICK",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2393,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The apparent manufacturer-owned SCHLICK nozzle site returned an HTTPS edge error during repeated verification, so identity and product scope could not be released safely."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "schmidt-kupplung",
-    "displayName": "SCHMIDT KUPPLUNG",
-    "status": "BRAND_WEAK",
+    "displayName": "SCHMIDT-KUPPLUNG",
+    "status": "BRAND_SAFE",
     "priority": 2394,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schmidt-kupplung.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COUPLING_COMPANY_IDENTITY_AND_SCOPE",
+        "url": "https://www.schmidt-kupplung.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_CATALOG",
+        "tier": "A",
+        "scope": "PRECISION_COUPLING_FAMILY_SCOPE",
+        "url": "https://www.schmidt-kupplung.com/fileadmin/user_upload/Download/Kataloge_pdf/Katalog_SchmidtKupplung_2022_englisch_ansicht_.pdf",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "brakes and couplings",
+        "shaft-locking and transmission components"
+      ],
+      "families": [
+        "Offset Couplings",
+        "Torsionally Rigid Couplings",
+        "Servo Couplings",
+        "Bellows Couplings",
+        "Backlash-Free Couplings"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "factory automation",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schneider-kreuznach-695010",
-    "displayName": "SCHNEIDER KREUZNACH",
-    "status": "BRAND_WEAK",
+    "displayName": "Schneider-Kreuznach",
+    "status": "BRAND_SAFE",
     "priority": 2395,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "schneiderkreuznach.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_HISTORY_AND_OPTICAL_SCOPE",
+        "url": "https://schneiderkreuznach.com/en",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "INDUSTRIAL_LENS_FILTER_AND_OPTICAL_SYSTEM_SCOPE",
+        "url": "https://schneiderkreuznach.com/en/industrial-optics",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "filtration and water systems",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Machine Vision Lenses",
+        "Telecentric Lenses",
+        "SWIR Lenses",
+        "Line-Scan Lenses",
+        "Large-Format Lenses",
+        "Optical Filters",
+        "Assembled Optical Systems"
+      ],
+      "industries": [
+        "factory automation",
+        "laboratory and life-science applications",
+        "aerospace"
+      ],
+      "country": "Germany",
+      "headquarters": "Bad Kreuznach, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schnell",
     "displayName": "SCHNELL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2396,
-    "effortClass": "FAST",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "PUBLISHABLE",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SCHNELL is shared by unrelated current industrial manufacturers. The bare registry record contains no legal name, geography or product-scope discriminator selecting the intended company."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schonbuch-sensor",
-    "displayName": "SCHONBUCH SENSOR",
-    "status": "BRAND_WEAK",
+    "displayName": "Schönbuch Sensor",
+    "status": "BRAND_SAFE",
     "priority": 2397,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schoenbuch-sensor.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PROXIMITY_PHOTOELECTRIC_AND_SPECIAL_SENSOR_SCOPE",
+        "url": "https://schoenbuch-sensor.de/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors"
+      ],
+      "families": [
+        "Inductive Proximity Sensors",
+        "Capacitive Proximity Sensors",
+        "Magnetic Proximity Sensors",
+        "Photoelectric Sensors",
+        "Contrast Sensors",
+        "Luminescence Sensors",
+        "Fork Sensors",
+        "Light Barrier Systems"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing",
+        "packaging"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schorch",
     "displayName": "SCHORCH",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2398,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schorch.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "MOTOR_COMPANY_IDENTITY_AND_SCOPE",
+        "url": "https://www.schorch.de/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LOW_HIGH_VOLTAGE_AND_HAZARDOUS_AREA_MOTOR_SCOPE",
+        "url": "https://www.schorch.de/en/produkte.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors"
+      ],
+      "families": [
+        "Rib-Cooled Motors",
+        "Modular Motors",
+        "Low-Voltage IEC Motors",
+        "Flameproof Motors",
+        "Variable-Speed Motors",
+        "High-Speed Motors"
+      ],
+      "industries": [
+        "oil and gas",
+        "chemical processing",
+        "energy",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Mönchengladbach, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schrack",
     "displayName": "SCHRACK",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2399,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SCHRACK can refer to distinct current businesses including Schrack Technik and Schrack Seconet. The repository record does not provide a safe discriminator."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schramminc",
-    "displayName": "SCHRAMM, INC.",
-    "status": "BRAND_WEAK",
+    "displayName": "Schramm",
+    "status": "BRAND_SAFE",
     "priority": 2400,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "schramminc.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_IDENTITY_HISTORY_AND_APPLICATION_SCOPE",
+        "url": "https://www.schramminc.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "DRILL_RIG_HAMMER_BIT_AND_AUXILIARY_SCOPE",
+        "url": "https://www.schramminc.com/en/products",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "construction and heavy machinery",
+        "industrial tools"
+      ],
+      "families": [
+        "Reverse-Circulation Drill Rigs",
+        "Drilling Hammers and Bits",
+        "Auxiliary Drilling Equipment",
+        "Aftermarket Services"
+      ],
+      "industries": [
+        "mining",
+        "water and wastewater",
+        "energy"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schunk",
     "displayName": "SCHUNK",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2401,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "schunk.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "GRIPPING_AUTOMATION_TOOLHOLDING_AND_WORKHOLDING_SCOPE",
+        "url": "https://schunk.com/us/en",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "robotics and automation components",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Gripping Systems",
+        "Robot Accessories",
+        "Linear and Rotary Modules",
+        "Toolholding Systems",
+        "Workholding Systems",
+        "Chuck Jaws",
+        "Zero-Point Clamping Systems"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schurter",
     "displayName": "SCHURTER",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2402,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "schurter.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ELECTRONIC_COMPONENT_INPUT_SYSTEM_AND_SOLUTION_SCOPE",
+        "url": "https://www.schurter.com/en/products-and-solutions",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial connectivity"
+      ],
+      "families": [
+        "Circuit Protection",
+        "Power Entry Modules",
+        "Connectors",
+        "Switches",
+        "EMC Products",
+        "Capacitors",
+        "Resistors",
+        "Input Systems"
+      ],
+      "industries": [
+        "electronics and semiconductor manufacturing",
+        "laboratory and life-science applications",
+        "factory automation",
+        "transportation"
+      ],
+      "country": "Switzerland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "schwing",
-    "displayName": "SCHWING TECHNOLOGIES",
-    "status": "BRAND_WEAK",
+    "displayName": "SCHWING Technologies",
+    "status": "BRAND_SAFE",
     "priority": 2403,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "schwing-technologies.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_HIGH_TEMPERATURE_AND_PROCESS_SCOPE",
+        "url": "https://www.schwing-technologies.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "THERMAL_CLEANING_SYSTEM_AND_ACCESSORY_SCOPE",
+        "url": "https://www.schwing-technologies.com/thermal-cleaning/thermal-cleaning-systems-and-accessories",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "process equipment"
+      ],
+      "families": [
+        "Vacuum Pyrolysis Systems",
+        "Fluidized-Bed Cleaning Systems",
+        "Pyrolysis Furnaces",
+        "Compact Cleaning Furnaces",
+        "Post-Treatment Equipment",
+        "Fluidized-Bed Process Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Neukirchen-Vluyn, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "scientific-instruments",
     "displayName": "SCIENTIFIC INSTRUMENTS",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2404,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SCIENTIFIC INSTRUMENTS is a generic company description used by multiple unrelated manufacturers. No unique legal name, domain, geography or product scope is present in the registry record."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sdmo",
     "displayName": "SDMO",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2405,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_LEGACY_IDENTITY",
+      "reason": "SDMO is now presented through the KOHLER-SDMO business, while the apparent current official domain did not complete an HTTPS response. A current standalone SDMO identity could not be verified safely."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seagate",
     "displayName": "SEAGATE",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2406,
-    "effortClass": "FAST",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "PUBLISHABLE",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "Seagate's official product directory returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was substituted."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "sed-flowcontrol",
     "displayName": "SED FLOWCONTROL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2407,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The current official SED page on the SAMSON group domain presented an anti-bot challenge during content verification. The challenge was not bypassed, so the profile was not marked AVAILABLE despite the HTTPS response."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "sedis",
     "displayName": "SEDIS",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2408,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sedis.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CURRENT_GROUP_IDENTITY_AND_INDUSTRIAL_CHAIN_SCOPE",
+        "url": "https://www.sedis.com/en/products2/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial chains",
+        "shaft-locking and transmission components"
+      ],
+      "families": [
+        "Transmission Chains",
+        "Adapted Chains",
+        "Leaf Chains",
+        "Conveyor Chains",
+        "Sprockets and Wheels"
+      ],
+      "industries": [
+        "industrial processing",
+        "food and pharmaceutical processing",
+        "energy"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seelen",
     "displayName": "SEELEN",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2409,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seelen.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_SOOTBLOWER_HEATING_SURFACE_CLEANING_SCOPE",
+        "url": "https://www.seelen.de/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial cleaning systems",
+        "industrial machinery",
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Rotary-Tube Sootblowers",
+        "Feeder Sootblowers",
+        "Lance Sootblowers",
+        "Sootblower Controls",
+        "Steam Valves"
+      ],
+      "industries": [
+        "energy",
+        "oil and gas",
+        "chemical processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": "Xanten, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sef-motoriduttori",
-    "displayName": "SEF MOTORIDUTTORI",
-    "status": "BRAND_WEAK",
+    "displayName": "SEF Motoriduttori",
+    "status": "BRAND_SAFE",
     "priority": 2410,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sefmotoriduttori.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_GEARED_DRIVE_MOTOR_SCOPE",
+        "url": "https://www.sefmotoriduttori.com/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "gear units and geared drives",
+        "electric motors",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Gear Units",
+        "Geared Motors",
+        "Electric Motors",
+        "Frequency Inverters"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "segler",
     "displayName": "SEGLER",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2411,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "segler.eu",
+    "sources": [
+      {
+        "type": "OFFICIAL_PRODUCT_BROCHURE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_BULK_MATERIAL_PROCESS_EQUIPMENT_SCOPE",
+        "url": "https://www.segler.eu/wp-content/uploads/2024/12/SEGLER_Produktbroschuere_EN.pdf",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "industrial machinery",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Conveying Systems",
+        "Mixing Systems",
+        "Thermal Process Systems",
+        "Bulk Storage Systems",
+        "Material Processing Equipment"
+      ],
+      "industries": [
+        "industrial processing",
+        "food and pharmaceutical processing",
+        "chemical processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seifert-systems",
-    "displayName": "SEIFERT SYSTEMS",
-    "status": "BRAND_WEAK",
+    "displayName": "Seifert Systems",
+    "status": "BRAND_SAFE",
     "priority": 2412,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seifertsystems.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ENCLOSURE_THERMAL_MANAGEMENT_SCOPE",
+        "url": "https://production.seifertsystems.com/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "SOLITHERM Cooling Units",
+        "SOLITHERM Heat Exchangers",
+        "SOLITHERM CHILL",
+        "SOLIVENT Filter Fans",
+        "SOLIFLEX Heaters"
+      ],
+      "industries": [
+        "industrial processing",
+        "electronics and semiconductor manufacturing",
+        "factory automation"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seimec",
     "displayName": "SEIMEC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2413,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seimecmotori.it",
+    "sources": [
+      {
+        "type": "OFFICIAL_CATALOG_DIRECTORY",
+        "tier": "A",
+        "scope": "MANUFACTURER_IDENTITY_AND_ASYNCHRONOUS_BRAKE_FLAT_MOTOR_SCOPE",
+        "url": "https://seimecmotori.it/en/cataloghi.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "brakes and couplings"
+      ],
+      "families": [
+        "Asynchronous Three-Phase Motors",
+        "Brake Motors",
+        "Flat Extruded Motors"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seitron",
-    "displayName": "SEITRON",
-    "status": "BRAND_WEAK",
+    "displayName": "Seitron",
+    "status": "BRAND_SAFE",
     "priority": 2414,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seitron.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_GAS_SAFETY_COMBUSTION_ANALYSIS_SCOPE",
+        "url": "https://www.seitron.com/en/products/industrial-gas-safety/industrial-gas-detector/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation",
+        "HVAC controls"
+      ],
+      "families": [
+        "Industrial Gas Detectors",
+        "Gas Detection Control Units",
+        "Portable Gas Monitors",
+        "Combustion Analyzers",
+        "Climate Controls"
+      ],
+      "industries": [
+        "industrial processing",
+        "building systems",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "selectron",
-    "displayName": "SELECTRON",
-    "status": "BRAND_WEAK",
+    "displayName": "Selectron",
+    "status": "BRAND_SAFE",
     "priority": 2415,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "selectron.ch",
+    "sources": [
+      {
+        "type": "PRODUCT_AND_SOLUTION_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_RAIL_AUTOMATION_SCOPE",
+        "url": "https://www.selectron.ch/en/products-and-solutions-hidden/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "industrial software",
+        "infrastructure technologies"
+      ],
+      "families": [
+        "Train Control and Management Systems",
+        "Railway Cybersecurity",
+        "Ethernet Routers and Switches",
+        "Communication Cards and Relays"
+      ],
+      "industries": [
+        "rail",
+        "transportation",
+        "factory automation"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Lyss, Switzerland"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "selema",
-    "displayName": "SELEMA",
-    "status": "BRAND_WEAK",
+    "displayName": "Selema",
+    "status": "BRAND_SAFE",
     "priority": 2416,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "esa-automation.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_SOURCE",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_RELATION_AND_ELECTRIC_MOTOR_DRIVE_SCOPE",
+        "url": "https://www.esa-automation.com/en/category/drives-and-motors/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "drive and motion-control systems",
+        "electric motors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Electric Motor Drives",
+        "Servo Drives",
+        "Servo Motors",
+        "Integrated Drive and Motor Packages"
+      ],
+      "industries": [
+        "factory automation",
+        "rail",
+        "industrial manufacturing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "selet",
     "displayName": "SELET",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2417,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "selet.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_PARENT_RELATION_AND_SENSOR_ENCODER_SCOPE",
+        "url": "https://www.selet.it/en/prodotti",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "encoders and feedback systems",
+        "industrial automation and control",
+        "industrial connectivity"
+      ],
+      "families": [
+        "Inductive Sensors",
+        "Capacitive Sensors",
+        "Photoelectric Sensors",
+        "Ultrasonic Sensors",
+        "Magnetic Sensors",
+        "Incremental Encoders",
+        "Absolute Encoders"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "selfa",
-    "displayName": "SELFA",
-    "status": "BRAND_WEAK",
+    "displayName": "Selfa",
+    "status": "BRAND_SAFE",
     "priority": 2418,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "selfa.pl",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ELECTRIC_HEATING_ELEMENT_SCOPE",
+        "url": "https://selfa.pl/en/katalog/heating-elements/electric-heaters/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Tubular Heating Elements",
+        "Immersion Heaters",
+        "Duct Heaters",
+        "Infrared Radiators",
+        "Special Electric Heaters"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Poland",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seli",
     "displayName": "SELI TUNNEL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2419,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_LEGACY_IDENTITY",
+      "reason": "The exact SELI TUNNEL record is a legacy tunnelling identity associated with business units that later moved to different current companies. No manufacturer-owned source supports publishing it as one unambiguous current manufacturer entity."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "semikron",
     "displayName": "SEMIKRON",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2420,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "semikron-danfoss.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_GROUP_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_RELATION_AND_POWER_SEMICONDUCTOR_MODULE_SCOPE",
+        "url": "https://www.semikron-danfoss.com/products/power-modules/power-modules-by-product-line",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electrical power systems",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "Power Modules",
+        "Intelligent Power Modules",
+        "Power Electronic Stacks",
+        "Gate Drivers"
+      ],
+      "industries": [
+        "energy",
+        "transportation",
+        "factory automation",
+        "electronics and semiconductor manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sempell",
-    "displayName": "SEMPELL",
-    "status": "BRAND_WEAK",
+    "displayName": "Sempell",
+    "status": "BRAND_SAFE",
     "priority": 2421,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "emerson.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_BRAND_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_RELATION_AND_CONTROL_SAFETY_ISOLATION_VALVE_SCOPE",
+        "url": "https://www.emerson.com/en/final-control/brands/sempell",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Control Valves",
+        "Safety Relief Valves",
+        "Isolation Valves",
+        "Steam Conditioning Valves",
+        "Nuclear Flow Controls"
+      ],
+      "industries": [
+        "energy",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "semperit",
-    "displayName": "SEMPERIT",
-    "status": "BRAND_WEAK",
+    "displayName": "Semperit",
+    "status": "BRAND_SAFE",
     "priority": 2422,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "semperitgroup.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_INDUSTRIAL_ELASTOMER_PRODUCT_SCOPE",
+        "url": "https://www.semperitgroup.com/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "hydraulic equipment",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Hydraulic Hoses",
+        "Industrial Hoses",
+        "Profiles and Seals",
+        "Conveyor Belts",
+        "Escalator Handrails",
+        "Moulded Elastomer Products"
+      ],
+      "industries": [
+        "industrial processing",
+        "transportation",
+        "mining"
+      ],
+      "country": "Austria",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seneca",
     "displayName": "SENECA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2423,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seneca.it",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_AUTOMATION_COMMUNICATION_MEASUREMENT_SCOPE",
+        "url": "https://www.seneca.it/en/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Distributed I/O Systems",
+        "Industrial Gateways",
+        "RTUs and Telemetry",
+        "Signal Converters",
+        "Energy Meters",
+        "Panel Instrumentation"
+      ],
+      "industries": [
+        "factory automation",
+        "energy",
+        "water and wastewater",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Padua, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sensopart",
-    "displayName": "SENSOPART",
-    "status": "BRAND_WEAK",
+    "displayName": "SensoPart",
+    "status": "BRAND_SAFE",
     "priority": 2424,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sensopart.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_FACTORY_AUTOMATION_SENSOR_VISION_SCOPE",
+        "url": "https://www.sensopart.com/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "machine-vision and inspection systems"
+      ],
+      "families": [
+        "DTECT Optical Sensors",
+        "VISOR Vision Sensors",
+        "Ultrasonic Sensors",
+        "Inductive Sensors"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sensor-instruments",
-    "displayName": "SENSOR INSTRUMENTS",
-    "status": "BRAND_WEAK",
+    "displayName": "Sensor Instruments",
+    "status": "BRAND_SAFE",
     "priority": 2425,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sensor-instruments.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_OPTICAL_SENSOR_MEASUREMENT_SCOPE",
+        "url": "https://www.sensor-instruments.de/products.php?cat=10&group=1&language=en&sid=210",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation",
+        "machine-vision and inspection systems"
+      ],
+      "families": [
+        "Color Sensors",
+        "Contrast Sensors",
+        "Edge Detection Sensors",
+        "Gloss Sensors",
+        "Surface Inspection Systems"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sensortherm",
-    "displayName": "SENSORTHERM",
-    "status": "BRAND_WEAK",
+    "displayName": "Sensortherm",
+    "status": "BRAND_SAFE",
     "priority": 2426,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sensortherm.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_INFRARED_PYROMETRY_CONTROL_SCOPE",
+        "url": "https://www.sensortherm.de/en/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors"
+      ],
+      "families": [
+        "Pyrometers",
+        "Infrared Switches",
+        "GALAXY Scanners",
+        "Calibration Sources",
+        "PID Controllers",
+        "SensorTools Software"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy",
+        "laboratory and life-science applications"
+      ],
+      "country": "Germany",
+      "headquarters": "Steinbach, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sensus",
-    "displayName": "SENSUS",
-    "status": "BRAND_WEAK",
+    "displayName": "Sensus",
+    "status": "BRAND_SAFE",
     "priority": 2427,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "xylem.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_BRAND_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_RELATION_AND_SMART_UTILITY_METERING_SCOPE",
+        "url": "https://www.xylem.com/en-us/brand/sensus/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "infrastructure technologies",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Water Meters",
+        "Gas Meters",
+        "Electricity Meters",
+        "FlexNet Communication Network",
+        "Utility Gateways and Endpoints"
+      ],
+      "industries": [
+        "water and wastewater",
+        "energy"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sentry",
     "displayName": "SENTRY",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2428,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SENTRY is shared by multiple unrelated industrial companies and product brands. The undifferentiated repository record has no legal-name, domain or product-scope discriminator that selects one manufacturer safely."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seoam",
     "displayName": "SEOAM",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2429,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "smiltd.co.kr",
+    "sources": [
+      {
+        "type": "OFFICIAL_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_CHUCK_CYLINDER_GEAR_REDUCER_SCOPE",
+        "url": "https://www.smiltd.co.kr/mobile/english/wp_2ds/02_06.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "hydraulic equipment",
+        "gear units and geared drives",
+        "shaft-locking and transmission components"
+      ],
+      "families": [
+        "Power Chucks",
+        "Hydraulic Cylinders",
+        "Precision Gears",
+        "Curvic Couplings",
+        "Industrial Gear Reducers"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "South Korea",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "serpo-robotique",
-    "displayName": "SEPRO ROBOTIQUE",
-    "status": "BRAND_WEAK",
+    "displayName": "Sepro",
+    "status": "BRAND_SAFE",
     "priority": 2430,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sepro-group.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CANONICAL_IDENTITY_AND_INJECTION_MOULDING_ROBOT_SCOPE",
+        "url": "https://www.sepro-group.com/robotic-solutions/products?range=%5B1%5D",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "robotics and automation components",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Sprue Pickers",
+        "3-Axis Robots",
+        "5-Axis Robots",
+        "6-Axis Robots",
+        "Sepro Visual Controls",
+        "Automation Cells"
+      ],
+      "industries": [
+        "industrial processing",
+        "factory automation",
+        "transportation",
+        "packaging"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "serck",
-    "displayName": "SERCK",
-    "status": "BRAND_WEAK",
+    "displayName": "Serck",
+    "status": "BRAND_SAFE",
     "priority": 2431,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "serckglobal.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CURRENT_GROUP_IDENTITY_AND_HEAT_TRANSFER_EQUIPMENT_SCOPE",
+        "url": "https://serckglobal.com/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "HVAC controls"
+      ],
+      "families": [
+        "Industrial Radiators",
+        "Heat Exchangers",
+        "Oil Coolers",
+        "Charge-Air Coolers",
+        "Climate-Control Systems"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "oil and gas",
+        "transportation"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sermas",
     "displayName": "SERMAS",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2432,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sermas.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ALUMINIUM_SAWING_MACHINING_SCOPE",
+        "url": "https://www.sermas.com/html/ourproducts.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Complete Sawing Installations",
+        "Slab Saws",
+        "Billet Saws",
+        "Plate Saws",
+        "Block Saws",
+        "Milling Machines",
+        "Anode Processing Machines"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "servolift-gmbh",
-    "displayName": "SERVOLIFT GMBH",
-    "status": "BRAND_WEAK",
+    "displayName": "SERVOLIFT",
+    "status": "BRAND_SAFE",
     "priority": 2433,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "servolift.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_PHARMA_HANDLING_BLENDING_CLEANING_SCOPE",
+        "url": "https://www.servolift.de/en/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Handling Systems",
+        "Bins and Containers",
+        "Bin Blenders",
+        "Weighing Systems",
+        "Sieving and Crushing Systems",
+        "Cleaning Systems"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Offenburg, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "servotecnica",
-    "displayName": "SERVOTECNICA",
-    "status": "BRAND_WEAK",
+    "displayName": "Servotecnica",
+    "status": "BRAND_SAFE",
     "priority": 2434,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "servotecnica.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_MOTION_MECHATRONICS_SCOPE",
+        "url": "https://us.servotecnica.com/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "drive and motion-control systems",
+        "electric motors",
+        "encoders and feedback systems",
+        "industrial connectivity"
+      ],
+      "families": [
+        "Servomotors",
+        "Micromotors",
+        "Servo Drives",
+        "Encoders",
+        "Precision Gearboxes",
+        "Slip Rings"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing",
+        "aerospace"
+      ],
+      "country": "Italy",
+      "headquarters": "Nova Milanese, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "ses-international",
-    "displayName": "SES INTERNATIONAL",
-    "status": "BRAND_WEAK",
+    "displayName": "SES International",
+    "status": "BRAND_SAFE",
     "priority": 2435,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sesint.nl",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_PACKAGED_COMPRESSOR_PUMP_REFRIGERATION_SCOPE",
+        "url": "https://sesint.nl/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "compressors and compressed-air systems",
+        "pumps and pumping systems",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Compressor Packages",
+        "Pump Packages",
+        "Multiphase Pump Systems",
+        "Process Chillers",
+        "Refrigeration Systems"
+      ],
+      "industries": [
+        "oil and gas",
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Delden, Netherlands"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "severn-trent-de-nora",
     "displayName": "SEVERN TRENT DE NORA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2436,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_LEGACY_IDENTITY",
+      "reason": "Severn Trent De Nora is a former joint-venture identity rather than a current independent manufacturer. Current De Nora sources do not support publishing the exact legacy composite as a standalone canonical entity."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sew-usocome",
     "displayName": "SEW USOCOME",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2437,
-    "effortClass": "FAST",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "PUBLISHABLE",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The current SEW USOCOME identity and drive-technology product surfaces were identified, but all directly tested first-party pages returned HTTP 403. Search-result extracts were not accepted as publication evidence."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "sewon",
     "displayName": "SEWON",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2438,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "AMBIGUOUS_IDENTITY",
+      "reason": "SEWON matches several unrelated active Korean manufacturers in hydraulics, marine valves, machinery and automation. The bare repository name provides no authoritative discriminator."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "seydelmann",
-    "displayName": "SEYDELMANN",
-    "status": "BRAND_WEAK",
+    "displayName": "Seydelmann",
+    "status": "BRAND_SAFE",
     "priority": 2439,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "seydelmann.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_FOOD_CUTTING_GRINDING_MIXING_SCOPE",
+        "url": "https://www.seydelmann.com/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Cutters",
+        "Grinders",
+        "Mixers",
+        "Emulsifiers",
+        "Food Processing Lines"
+      ],
+      "industries": [
+        "food and pharmaceutical processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sferova",
-    "displayName": "SFEROVA",
-    "status": "BRAND_WEAK",
+    "displayName": "Sferova",
+    "status": "BRAND_SAFE",
     "priority": 2440,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sferova.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ENGINEERED_BALL_VALVE_SCOPE",
+        "url": "https://www.sferova.com/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Floating Ball Valves",
+        "Trunnion Ball Valves",
+        "Top-Entry Ball Valves",
+        "Fully Welded Ball Valves",
+        "Modular Ball Valves"
+      ],
+      "industries": [
+        "oil and gas",
+        "chemical processing",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": "Sulbiate, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sfk-leblanc",
     "displayName": "SFK LEBLANC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2441,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_LEGACY_IDENTITY",
+      "reason": "Frontmatec's official history confirms that SFK LEBLANC was one of the companies merged into Frontmatec. It is not presented as a current standalone commercial manufacturer, so a separate indexable identity would duplicate the successor."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "shimadzu",
-    "displayName": "SHIMADZU",
-    "status": "BRAND_WEAK",
+    "displayName": "Shimadzu",
+    "status": "BRAND_SAFE",
     "priority": 2442,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "shimadzu.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ANALYTICAL_MEASUREMENT_TESTING_SCOPE",
+        "url": "https://www.shimadzu.com/an/products/index.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "laboratory and analytical equipment",
+        "measurement and instrumentation",
+        "machine-vision and inspection systems"
+      ],
+      "families": [
+        "Chromatography Systems",
+        "Mass Spectrometers",
+        "Spectroscopy Instruments",
+        "Elemental Analyzers",
+        "Material Testing Machines",
+        "Balances",
+        "Continuous Monitoring Analyzers"
+      ],
+      "industries": [
+        "laboratory and life-science applications",
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "Japan",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "si-analytics",
-    "displayName": "SI ANALYTICS",
-    "status": "BRAND_WEAK",
+    "displayName": "SI Analytics",
+    "status": "BRAND_SAFE",
     "priority": 2443,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "xylemanalytics.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CURRENT_BRAND_RELATION_AND_TITRATION_VISCOMETRY_SCOPE",
+        "url": "https://www.xylemanalytics.com/en/products/listing-sia-all",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "laboratory and analytical equipment",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Titrators",
+        "Piston Burettes",
+        "Sample Changers",
+        "Capillary Viscometers",
+        "Viscosity Measurement Systems",
+        "Laboratory Electrodes"
+      ],
+      "industries": [
+        "laboratory and life-science applications",
+        "chemical processing",
+        "food and pharmaceutical processing"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "siat",
-    "displayName": "SIAT S.P.A.",
-    "status": "BRAND_WEAK",
+    "displayName": "SIAT",
+    "status": "BRAND_SAFE",
     "priority": 2444,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "siat.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_END_OF_LINE_PACKAGING_SCOPE",
+        "url": "https://www.siat.com/product_category/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filling and packaging machinery",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Case Packers",
+        "Taping Machines",
+        "Case Erectors",
+        "Wrapping Machines",
+        "Strapping Tools",
+        "Flexographic Machines",
+        "Tape Dispensers"
+      ],
+      "industries": [
+        "packaging",
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Turate, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "siba",
     "displayName": "SIBA",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2445,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "siba-fuses.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ELECTRICAL_FUSE_LINK_SCOPE",
+        "url": "https://www.siba-fuses.com/products",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electrical power systems"
+      ],
+      "families": [
+        "High-Voltage Fuses",
+        "Semiconductor Fuses",
+        "Low-Voltage Fuses",
+        "Miniature Fuses",
+        "Special Fuses"
+      ],
+      "industries": [
+        "energy",
+        "electronics and semiconductor manufacturing",
+        "rail",
+        "factory automation"
+      ],
+      "country": "Germany",
+      "headquarters": "Lünen, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sicme-motori",
     "displayName": "SICME MOTORI",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2446,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The likely manufacturer-owned SICME MOTORI domain failed direct HTTPS verification. Secondary distributors and mirrored catalogs were not accepted as substitutes for a current first-party source."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "sidel",
-    "displayName": "SIDEL",
-    "status": "BRAND_WEAK",
+    "displayName": "Sidel",
+    "status": "BRAND_SAFE",
     "priority": 2447,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sidel.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "CURRENT_GROUP_IDENTITY_AND_COMPLETE_PACKAGING_LINE_SCOPE",
+        "url": "https://www.sidel.com/en",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filling and packaging machinery",
+        "conveying and material-handling systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Blowing Systems",
+        "Filling Systems",
+        "Labelling Machines",
+        "Case Packers",
+        "Conveyors and Accumulation",
+        "Palletising Systems",
+        "Complete Packaging Lines"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "packaging",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sidi-mondial",
     "displayName": "SIDI MONDIAL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2448,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "BLOCKED_EXTERNAL_SOURCE",
+      "reason": "The manufacturer-owned SIDI MONDIAL site was identified, but its HTTPS challenge returned HTTP 403 during direct verification. Search-result extracts were not accepted as publication evidence."
     },
-    "checkedAt": null,
-    "nextReviewAt": null
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": "2026-09-19"
   },
   {
     "manufacturerId": "siebec",
     "displayName": "SIEBEC",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2449,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "siebec.com",
+    "sources": [
+      {
+        "type": "PRODUCT_AND_SOLUTION_PAGE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_INDUSTRIAL_FILTRATION_PUMP_SCOPE",
+        "url": "https://www.siebec.com/en/surface-treatment/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Filter-Pump Sets",
+        "Mechanical-Seal Pumps",
+        "Magnetic Pumps",
+        "Pneumatic Pumps",
+        "Filtration Media",
+        "Water Treatment Stations"
+      ],
+      "industries": [
+        "industrial processing",
+        "water and wastewater",
+        "chemical processing",
+        "industrial manufacturing"
+      ],
+      "country": "France",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sigeval",
     "displayName": "SIGEVAL",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2450,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sigeval.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_BUTTERFLY_VALVE_SCOPE",
+        "url": "https://www.sigeval.com/?lang=en",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Wafer Butterfly Valves",
+        "Lug Butterfly Valves",
+        "Flanged Butterfly Valves",
+        "Grooved-End Butterfly Valves",
+        "Valve Actuation"
+      ],
+      "industries": [
+        "industrial processing",
+        "building systems",
+        "water and wastewater",
+        "food and pharmaceutical processing"
+      ],
+      "country": "Spain",
+      "headquarters": "Torrejón de Ardoz, Spain"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sigma-pumpy-hranice",
     "displayName": "SIGMA PUMPY HRANICE",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2451,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sigmapumpy.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_GROUP_SITE",
+        "tier": "A",
+        "scope": "EXACT_LEGAL_IDENTITY_AND_PUMP_MANUFACTURING_SCOPE",
+        "url": "https://www.sigma.cz/index-en.html",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Centrifugal Pumps",
+        "Multistage Pumps",
+        "Submersible Pumps",
+        "Domestic Water Systems",
+        "Industrial Pumping Units"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": "Czech Republic",
+      "headquarters": "Hranice, Czech Republic"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sigmatek",
     "displayName": "SIGMATEK",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_SAFE",
     "priority": 2452,
     "effortClass": "FAST",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "domain": "sigmatek-automation.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_INTEGRATED_AUTOMATION_SYSTEM_SCOPE",
+        "url": "https://www.sigmatek-automation.com/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "drive and motion-control systems",
+        "industrial software"
+      ],
+      "families": [
+        "Control Systems",
+        "I/O Systems",
+        "HMIs",
+        "Motion Systems",
+        "Safety Systems",
+        "VARAN Communication",
+        "LASAL Engineering Tools"
+      ],
+      "industries": [
+        "factory automation",
+        "packaging",
+        "energy"
+      ],
+      "country": "Austria",
+      "headquarters": "Lamprechtshausen, Austria"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "sikora",
-    "displayName": "SIKORA AG",
-    "status": "BRAND_WEAK",
+    "displayName": "SIKORA",
+    "status": "BRAND_SAFE",
     "priority": 2453,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "sikora.net",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_INLINE_MEASUREMENT_INSPECTION_SCOPE",
+        "url": "https://sikora.net/en/category/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "machine-vision and inspection systems",
+        "industrial sensors"
+      ],
+      "families": [
+        "Diameter Measurement Systems",
+        "X-Ray Measurement Systems",
+        "Fault Detectors",
+        "Spark Testers",
+        "Material Inspection and Sorting Systems",
+        "Process Control Displays"
+      ],
+      "industries": [
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Bremen, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "silverson",
-    "displayName": "SILVERSON",
-    "status": "BRAND_WEAK",
+    "displayName": "Silverson",
+    "status": "BRAND_SAFE",
     "priority": 2454,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "silverson.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_HIGH_SHEAR_MIXING_SCOPE",
+        "url": "https://silverson.com/products",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Laboratory Mixers",
+        "Batch Mixers",
+        "In-Line Mixers",
+        "Bottom-Entry Mixers",
+        "Powder-Liquid Mixers",
+        "Homogenizers",
+        "Disintegrator-Dissolvers"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "silvertronic",
-    "displayName": "SILVERTRONIC",
-    "status": "BRAND_WEAK",
+    "displayName": "Silvertronic",
+    "status": "BRAND_SAFE",
     "priority": 2455,
-    "effortClass": "EXPENSIVE",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+    "effortClass": "FAST",
+    "domain": "silvertronic.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_CATALOG_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_ELECTRICAL_TEST_LEAD_ACCESSORY_SCOPE",
+        "url": "https://silvertronic.com/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial connectivity"
+      ],
+      "families": [
+        "Fused Test Leads",
+        "Silicone Test Leads",
+        "Probes",
+        "Kelvin Leads",
+        "Crocodile Clips",
+        "Avionic Test Kits",
+        "Automotive Test Kits"
+      ],
+      "industries": [
+        "electronics and semiconductor manufacturing",
+        "transportation",
+        "aerospace",
+        "industrial processing"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "simalube",
     "displayName": "SIMALUBE",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2456,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "NOT_MANUFACTURER_IDENTITY",
+      "reason": "The official simatec source identifies simalube as an automatic-lubricator product brand. The exact record does not represent a separate manufacturer entity and would duplicate its manufacturer if published independently."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "simax",
     "displayName": "SIMAX",
-    "status": "BRAND_WEAK",
+    "status": "BRAND_REVIEW",
     "priority": 2457,
-    "effortClass": "EXPENSIVE",
+    "effortClass": "BLOCKED",
     "domain": null,
     "sources": [],
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "MISSING_OFFICIAL_IDENTITY_SOURCE",
-      "reason": "Manufacturer-owned identity and product-area evidence has not been verified yet."
+      "code": "NOT_MANUFACTURER_IDENTITY",
+      "reason": "SIMAX is used as a borosilicate-glass product brand and also by unrelated businesses. No first-party evidence supports the bare record as one independent industrial manufacturer."
     },
-    "checkedAt": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
