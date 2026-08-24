@@ -1504,19 +1504,54 @@
   },
   {
     "manufacturerId": "buschjost",
-    "displayName": "BUSCHJOST",
-    "status": "BRAND_REVIEW",
+    "displayName": "Buschjost",
+    "status": "BRAND_SAFE",
     "priority": 37,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "reason": "A current manufacturer-owned Buschjost identity and product source was not confirmed strongly enough to publish a standalone profile."
+    "effortClass": "FAST",
+    "domain": "buschjostventile.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_PAGE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_RELATIONSHIP_AND_VALVE_SPECIALISATION",
+        "url": "https://www.buschjostventile.de/en/company",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "SOLENOID_EXTERNALLY_CONTROLLED_BALL_AND_SPECIAL_VALVE_FAMILIES",
+        "url": "https://www.buschjostventile.de/en/products",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial valves and flow control",
+        "pneumatic equipment",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Solenoid Valves",
+        "Externally Controlled Valves",
+        "Ball Valves",
+        "Motor Valves",
+        "Strainers",
+        "Valve Magnets and Sensors"
+      ],
+      "industries": [
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "energy",
+        "water and wastewater"
+      ],
+      "country": "Germany",
+      "headquarters": "Vlotho-Exter, Germany"
     },
-    "checkedAt": "2026-08-17",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
@@ -5159,19 +5194,47 @@
   },
   {
     "manufacturerId": "wheatley-pump",
-    "displayName": "WHEATLEY PUMP",
-    "status": "BRAND_REVIEW",
+    "displayName": "Wheatley Pump",
+    "status": "BRAND_SAFE",
     "priority": 121,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_OWNERSHIP_SOURCE",
-      "reason": "Wheatley.com documents the pump range but presents IEQ Industries as a source for Wheatley products; current manufacturer ownership of the brand was not established strongly enough for BRAND_SAFE."
+    "effortClass": "FAST",
+    "domain": "nov.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_ACQUISITION_ARCHIVE",
+        "tier": "A",
+        "scope": "LEGACY_BRAND_OWNERSHIP_AND_PISTON_PLUNGER_PUMP_SCOPE",
+        "url": "https://investors.nov.com/news-releases/news-release-details/national-oilwell-acquires-wheatley-gaso-and-omega-pump-lines",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_BROCHURE",
+        "tier": "A",
+        "scope": "LEGACY_WHEATLEY_RECIPROCATING_PUMP_BRAND_AND_PRODUCT_SCOPE",
+        "url": "https://old.nov.com/-/media/nov/files/products/caps/process-and-flow-technologies/reciprocating-plunger-pumps/reciprocating-pumps-brochure.pdf",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Reciprocating Pumps",
+        "Piston Pumps",
+        "Plunger Pumps"
+      ],
+      "industries": [
+        "oil and gas",
+        "industrial processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
@@ -8803,18 +8866,55 @@
   {
     "manufacturerId": "aeco",
     "displayName": "AECO",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 201,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "reason": "The manufacturer-owned AECO site confirms the company identity, but the accessible first-party product material was not sufficient for a precise source-backed public product-area profile in this pass."
+    "effortClass": "FAST",
+    "domain": "aecosensors.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_LOCATION_SENSOR_MANUFACTURING_AND_AUTOMATION_SCOPE",
+        "url": "https://www.aecosensors.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "POSITION_LEVEL_ROTATION_SAFETY_AND_HAZARDOUS_AREA_SENSOR_FAMILIES",
+        "url": "https://www.aecosensors.com/index.cfm?fuseaction=cataloghi&languageID=GB&tipo=generale&titolo=GENERAL+CATALOGUE",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation",
+        "industrial automation and control",
+        "industrial safety equipment"
+      ],
+      "families": [
+        "Inductive Sensors",
+        "Capacitive Sensors",
+        "Photoelectric Sensors",
+        "Magnetic Sensors",
+        "Level Controls",
+        "Rotation Controls",
+        "Magnetic Safety Sensors",
+        "ATEX-IECEx Sensors"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Inzago, Milan, Italy"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
@@ -15345,18 +15445,63 @@
   },
   {
     "manufacturerId": "warner-electric",
-    "displayName": "WARNER ELECTRIC",
-    "status": "BRAND_REVIEW",
+    "displayName": "Warner Electric",
+    "status": "BRAND_SAFE",
     "priority": 342,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "BLOCKED_EXTERNAL_SOURCE"
+    "effortClass": "FAST",
+    "domain": "warnerelectric.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_FOUNDED_RELATIONSHIP_AND_CLUTCH_BRAKE_SCOPE",
+        "url": "https://www.warnerelectric.com/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CLUTCH_BRAKE_TORQUE_AND_CONTROL_FAMILIES",
+        "url": "https://www.warnerelectric.com/warner-ecatalog",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CLUTCH_BRAKE_AND_TENSION_CONTROL_FAMILIES",
+        "url": "https://www.warnerelectric.com/products/integrated-solutions/controls",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "brakes and couplings",
+        "drive and motion-control systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Electromagnetic Brakes",
+        "Electromagnetic Clutches",
+        "Clutch-Brake Controls",
+        "Tension Controls",
+        "Torque Limiters",
+        "Mechanical Clutches and Brakes",
+        "Hydraulic Clutches and Brakes",
+        "Pneumatic Clutches and Brakes"
+      ],
+      "industries": [
+        "industrial processing",
+        "transportation",
+        "food and pharmaceutical processing",
+        "factory automation"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
     "nextReviewAt": null
   },
   {
@@ -26742,20 +26887,58 @@
   },
   {
     "manufacturerId": "samhydraulik",
-    "displayName": "SAMHYDRAULIK",
-    "status": "BRAND_REVIEW",
+    "displayName": "Samhydraulik",
+    "status": "BRAND_SAFE",
     "priority": 528,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "No current manufacturer-owned SAMHYDRAULIK company or product source could be resolved. Distributor pages and historical references were not accepted as identity evidence."
+    "effortClass": "FAST",
+    "domain": "dana.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_SAMHYDRAULIK_BRAND_AND_VARIABLE_DISPLACEMENT_AXIAL_PISTON_MOTOR_SCOPE",
+        "url": "https://www.dana.com/product/hydraulics/axial-piston-motors-variable-displacement-open-and-closed-loop/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "OPEN_AND_CLOSED_LOOP_VARIABLE_DISPLACEMENT_AXIAL_PISTON_PUMP_SCOPE",
+        "url": "https://www.dana.com/product/hydraulics/axial-piston-pumps-variable-displacement-open-loop/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_BROCHURE",
+        "tier": "A",
+        "scope": "HYDRAULIC_MOTOR_PUMP_SERIES_AND_PORTFOLIO_SCOPE",
+        "url": "https://www.dana.com/globalassets/resource-library/off-highway/brochures/dana_oh_brochure_2025_web.pdf",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "hydraulic equipment",
+        "pumps and pumping systems",
+        "electric motors"
+      ],
+      "families": [
+        "Variable-Displacement Axial-Piston Motors",
+        "Fixed-Displacement Axial-Piston Motors",
+        "Open-Loop Axial-Piston Pumps",
+        "Closed-Loop Axial-Piston Pumps"
+      ],
+      "industries": [
+        "mining",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": "2026-08-20",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "setco",
@@ -57268,20 +57451,58 @@
   },
   {
     "manufacturerId": "camille-bauer",
-    "displayName": "CAMILLE BAUER",
-    "status": "BRAND_REVIEW",
+    "displayName": "Camille Bauer",
+    "status": "BRAND_SAFE",
     "priority": 1213,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Official Camille Bauer pages establish a likely measurement-technology identity in search discovery, but direct checks of the manufacturer-owned About, Products and document URLs returned HTTP 403. The source restriction was not bypassed, so the record remains non-publishable in this pass."
+    "effortClass": "FAST",
+    "domain": "camillebauer.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_AND_PORTFOLIO_PAGE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_LOCATION_GROUP_RELATIONSHIP_AND_MEASUREMENT_SCOPE",
+        "url": "https://camillebauer.com/en/",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "POWER_QUALITY_POSITION_SENSOR_ELECTRICAL_SAFETY_AND_MEASUREMENT_FAMILIES",
+        "url": "https://camillebauer.com/en/products/",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial software"
+      ],
+      "families": [
+        "Power Quality Instruments",
+        "Power Monitoring Devices",
+        "Electrical Transducers",
+        "Energy Meters",
+        "Angular Position Transmitters",
+        "Inclination Transmitters",
+        "Monitoring Systems",
+        "Measurement Software"
+      ],
+      "industries": [
+        "energy",
+        "industrial processing",
+        "chemical processing",
+        "laboratory and life-science applications",
+        "aerospace"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Wohlen, Switzerland"
     },
-    "checkedAt": "2026-08-20",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-24",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "cannon",
@@ -83371,20 +83592,56 @@
   },
   {
     "manufacturerId": "ksr-heinrich-kubler",
-    "displayName": "KSR HEINRICH KUEBLER",
-    "status": "BRAND_REVIEW",
+    "displayName": "KSR KUEBLER",
+    "status": "BRAND_SAFE",
     "priority": 1873,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "WIKA's official KSR KUEBLER brand page is access-protected for the current verification client (HTTP 403), and the previously indexed official portfolio PDF no longer resolves. The identity is plausible but the source-availability gate remains conservative."
+    "effortClass": "FAST",
+    "domain": "wika.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_BRAND_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_GROUP_RELATIONSHIP_HISTORY_AND_LEVEL_MEASUREMENT_SCOPE",
+        "url": "https://www.wika.com/en-dk/lp_ksr_kuebler.WIKA",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_PORTFOLIO",
+        "tier": "A",
+        "scope": "LEVEL_INDICATOR_SENSOR_SWITCH_CHAMBER_AND_ACCESSORY_FAMILIES",
+        "url": "https://www.wika.com/media/Brochures-and-flyers/Products_Services/br_productportfolio_en_ks.pdf",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial sensors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Level Indicators",
+        "Bypass Level Indicators",
+        "Level Sensors",
+        "Float Switches",
+        "Optoelectronic Switches",
+        "External Chambers",
+        "Signal-Processing Accessories"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "energy",
+        "water and wastewater"
+      ],
+      "country": "Germany",
+      "headquarters": "Zwingenberg am Neckar, Germany"
     },
+    "logoStatus": "MISSING",
+    "blocker": null,
     "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "ktr",
@@ -84618,19 +84875,61 @@
   {
     "manufacturerId": "lemo",
     "displayName": "LEMO",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 1904,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The official LEMO site returned an unavailable response during verification (HTTP 503). No alternative current manufacturer-owned page was used to bypass that restriction."
+    "effortClass": "FAST",
+    "domain": "lemo.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_PAGE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_SWISS_ORIGIN_FOUNDATION_AND_MANUFACTURING_SCOPE",
+        "url": "https://www.lemo.com/en/our-world/company/about-us",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CIRCULAR_FIBRE_OPTIC_COAXIAL_HIGH_VOLTAGE_FLUIDIC_HYBRID_AND_CABLE_ASSEMBLY_SCOPE",
+        "url": "https://www.lemo.com/en/lemo-connectors",
+        "checkedAt": "2026-08-24"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENTATION_LIBRARY",
+        "tier": "A",
+        "scope": "CONNECTOR_SERIES_CATALOGS_AND_TECHNICAL_RESOURCES",
+        "url": "https://www.lemo.com/en/our-world/media/resources",
+        "checkedAt": "2026-08-24"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial connectivity"
+      ],
+      "families": [
+        "Circular Push-Pull Connectors",
+        "Fibre-Optic Connectors",
+        "Coaxial Connectors",
+        "High-Voltage Connectors",
+        "Fluidic Connectors",
+        "Hybrid Connectors",
+        "Cable Assemblies"
+      ],
+      "industries": [
+        "industrial processing",
+        "laboratory and life-science applications",
+        "energy",
+        "transportation",
+        "aerospace"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Ecublens, Switzerland"
     },
+    "logoStatus": "MISSING",
+    "blocker": null,
     "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "lenntech",

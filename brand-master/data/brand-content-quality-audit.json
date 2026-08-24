@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-24T00:00:00.000Z",
+  "methodology": "NORMALIZED_WORD_TRIGRAM_JACCARD",
+  "policy": "SYSTEMIC_NEAR_DUPLICATE_THRESHOLD_0.85_REVIEW_BAND_0.75",
+  "shortDescriptions": {
+    "records": 2227,
+    "exactDuplicateGroups": [],
+    "systemicThreshold": 0.85,
+    "systemicNearDuplicatePairs": 0,
+    "reviewThreshold": 0.75,
+    "reviewPairs": [
+      {
+        "brandIds": [
+          "bonfiglioli",
+          "motovario"
+        ],
+        "trigramJaccard": 0.7692
+      },
+      {
+        "brandIds": [
+          "flender",
+          "desch-antriebstechnik"
+        ],
+        "trigramJaccard": 0.75
+      },
+      {
+        "brandIds": [
+          "mankenberg",
+          "herose"
+        ],
+        "trigramJaccard": 0.7778
+      }
+    ],
+    "maximumSimilarity": 0.7778,
+    "maximumPair": [
+      "mankenberg",
+      "herose"
+    ]
+  },
+  "fullDescriptions": {
+    "records": 2227,
+    "exactDuplicateGroups": [],
+    "systemicThreshold": 0.85,
+    "systemicNearDuplicatePairs": 0,
+    "reviewThreshold": 0.75,
+    "reviewPairs": [],
+    "maximumSimilarity": 0.6341,
+    "maximumPair": [
+      "oleodinamica-ami",
+      "oleoweb"
+    ]
+  },
+  "siteSpecificPresentationOccurrences": 0
+}
