@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1453
-- SAFE without logo: 778
+- SAFE with publishable identity-matched logo: 1472
+- SAFE without logo: 759
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 777
+- HIGH: 758
 
 ## First 100 gaps
 
@@ -20,12 +20,10 @@ Generated: 2026-08-24T00:00:00.000Z
 - Cantoni Group (`cantoni-group`) — cantonigroup.com
 - FELM (`felm`) — felm.it
 - Gorman-Rupp (`gorman-rupp`) — grpumps.com
-- EDUR (`edur`) — edur.com
 - Victor Pumps (`victor-pumps`) — victorpumps.com
 - HANBELL (`hanbell`) — hanbell.com
 - VARISCO (`varisco-pumps`) — variscopumps.com
 - ABM Greiffenberger (`abm-greiffenberger`) — abm-antriebe.de
-- TWK-ELEKTRONIK (`twk-elektronik`) — twk.de
 - Kollmorgen (`kollmorgen`) — kollmorgen.com
 - Thomson (`thomson`) — thomsonlinear.com
 - Pioneer Pump (`pioneer-pump`) — pioneerpump.com
@@ -63,7 +61,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Hamworthy (`hamworthy`) — hamworthy.com
 - Wachendorff (`wachendorff`) — wachendorff-automation.com
 - Dixon (`dixon`) — dixonvalve.com
-- Parvalux (`parvalux`) — parvalux.com
 - Waukesha Cherry-Burrell (`waukesha`) — spxflow.com
 - DAMEL (`damel`) — damel.pl
 - ClydeUnion Pumps (`clydeunion-pumps`) — celerosft.com
@@ -74,9 +71,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Ascon Tecnologic (`ascon-tecnologic`) — ascontecnologic.com
 - Erhardt+Leimer (`erhardt-leimer`) — erhardt-leimer.com
 - ESA Pyronics (`esa-pyronics-international`) — esapyronics.com
-- Lika Electronic (`lika-electronic`) — lika.it
 - Rotork (`rotork`) — rotork.com
-- Honeywell Kromschröder (`elster-kromschroeder`) — kromschroeder.de
 - InterApp (`interapp`) — interapp.net
 - co-ax (`co-ax-valves-inc`) — co-ax.com
 - ipf electronic (`ipf-electronic`) — ipf-electronic.de
@@ -110,9 +105,14 @@ Generated: 2026-08-24T00:00:00.000Z
 - Fireye (`fireye`) — fireye.com
 - Plenty Filters (`plenty`) — spxflow.com
 - AHP Merkle (`ahp-merkle`) — ahp.de
-- Baltimore Aircoil (`baltimore-aircoil`) — baltimoreaircoil.com
 - ELGO Electronic (`elgo-electronic`) — elgo.de
 - HEINZMANN (`heinzmann`) — heinzmann.com
 - M PUMPS (`m-pumps`) — mpumps.it
+- SOFIMA Hydraulics (`sofima`) — ufihyd.com
+- Zander (`parker-hiross-zander`) — parker.com
+- Clextral (`clextral`) — clextral.com
+- Dynisco (`dynisco`) — dynisco.com
+- Hankison (`hankison`) — hankisonair.com
+- Italvibras (`italvibras`) — italvibras.it
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
