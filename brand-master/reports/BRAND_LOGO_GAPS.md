@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1388
-- SAFE without logo: 843
+- SAFE with publishable identity-matched logo: 1409
+- SAFE without logo: 822
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 842
+- HIGH: 821
 
 ## First 100 gaps
 
@@ -99,20 +99,20 @@ Generated: 2026-08-24T00:00:00.000Z
 - SONDERMANN (`sondermann`) — sondermann-pumpen.de
 - Verderair (`verderair`) — verderliquids.com
 - Barksdale (`barksdale`) — barksdale.com
-- FIMET (`fimet-motors`) — fimet.com
 - Bosch Packaging Technology (`bosch-packaging`) — syntegon.com
 - Panametrics (`panametrics-ndt`) — bakerhughes.com
 - SEIM (`seim`) — seim.it
 - SIATA (`siata`) — pentair.eu
 - WOERNER (`woerner`) — woerner.de
-- END-Armaturen (`end-armaturen`) — end.de
 - Foxboro Eckardt (`foxboro-eckardt`) — se.com
 - Bran+Luebbe (`bran-luebbe-gmbh`) — spxflow.com
-- General Kinematics (`general-kinematics`) — generalkinematics.com
 - Magnescale (`magnescale`) — magnescale.com
 - Mueller Steam Specialty (`mueller-steam-specialty`) — watts.com
 - Richardson Electronics (`richardson-electronics`) — rell.com
 - Timmer (`timmer-pneumatik-gmbh`) — timmer.de
 - URACA (`uraca`) — uraca.com
+- 4B Braime (`4b-braime`) — go4b.co.uk
+- Fireye (`fireye`) — fireye.com
+- Plenty Filters (`plenty`) — spxflow.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
