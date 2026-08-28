@@ -3,13 +3,13 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1531
-- SAFE without logo: 700
+- SAFE with publishable identity-matched logo: 1555
+- SAFE without logo: 676
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
-- HIGH: 700
+- HIGH: 676
 
 ## First 100 gaps
 
@@ -83,7 +83,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Bran+Luebbe (`bran-luebbe-gmbh`) — spxflow.com
 - Magnescale (`magnescale`) — magnescale.com
 - Mueller Steam Specialty (`mueller-steam-specialty`) — watts.com
-- Richardson Electronics (`richardson-electronics`) — rell.com
 - URACA (`uraca`) — uraca.com
 - 4B Braime (`4b-braime`) — go4b.co.uk
 - Fireye (`fireye`) — fireye.com
@@ -100,7 +99,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Italvibras (`italvibras`) — italvibras.it
 - Jabsco (`jabsco-pump`) — xylem.com
 - LTN Servotechnik (`ltn-servotechnik`) — heidenhain.de
-- Price Pump (`price_pump`) — pricepump.com
 - sera (`sera`) — sera-web.com
 - TSCHAN (`tschan-gmbh`) — ringfeder.com
 - Tsurumi Pump (`tsurumi-pump`) — tsurumipump.com
@@ -113,5 +111,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - FUNKE (`funke`) — funke.de
 - Hurco (`hurco`) — hurco.com
 - Stromag (`stromag`) — stromag.com
+- Helmut Fischer (`fischer`) — helmut-fischer.com
+- Graymills (`graymills`) — graymills.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
