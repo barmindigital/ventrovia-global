@@ -15391,6 +15391,126 @@ export const brandLogoRegistry: BrandLogo[] = [
     licenseUrl: "https://duerr-technik.com/en/",
     attribution: "Dürr Technik; asset served by the official manufacturer website",
   },
+  {
+    slug: "bolondi",
+    name: "Bolondi",
+    src: "/images/brand-logos/bolondi.png",
+    sourcePage: "https://www.bolondi.com/en",
+    originalFile:
+      "https://static.wixstatic.com/media/9cea07_208d1be05fd64d61834c4d38325c4dad~mv2.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.bolondi.com/en",
+    attribution: "Bolondi; asset served by the official manufacturer website",
+  },
+  {
+    slug: "yamada",
+    name: "Yamada",
+    src: "/images/brand-logos/yamada.png",
+    sourcePage: "https://product.yamadacorp.co.jp/products/pump/",
+    originalFile:
+      "https://product.yamadacorp.co.jp/src/img/gnav_logo_asiapacific.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://product.yamadacorp.co.jp/products/pump/",
+    attribution: "Yamada; asset served by the official manufacturer website",
+  },
+  {
+    slug: "allison-systems-corporation",
+    name: "Allison Systems",
+    src: "/images/brand-logos/allison-systems-corporation.png",
+    sourcePage: "https://www.allisonblades.com/",
+    originalFile:
+      "https://www.allisonblades.com/wp-content/uploads/2023/09/logo.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.allisonblades.com/",
+    attribution: "Allison Systems; asset served by the official manufacturer website",
+  },
+  {
+    slug: "sydex",
+    name: "Sydex",
+    src: "/images/brand-logos/sydex.png",
+    sourcePage: "https://www.sydexpump.com/en/",
+    originalFile:
+      "https://www.sydexpump.com/wp-content/uploads/SYDEX-Logo-vertical-RVB.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.sydexpump.com/en/",
+    attribution: "Sydex; asset served by the official manufacturer website",
+  },
+  {
+    slug: "rollomatic",
+    name: "Rollomatic",
+    src: "/images/brand-logos/rollomatic.png",
+    sourcePage: "https://www.rollomatic.ch/",
+    originalFile:
+      "https://www.rollomatic.ch/wp-content/uploads/logomark_300.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.rollomatic.ch/",
+    attribution: "Rollomatic; asset served by the official manufacturer website",
+  },
+  {
+    slug: "marposs",
+    name: "Marposs",
+    src: "/images/brand-logos/marposs.png",
+    sourcePage: "https://www.marposs.com/eng/",
+    originalFile:
+      "https://www.marposs.com/dist/images/logos/logo-marposs-2.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.marposs.com/eng/",
+    attribution: "Marposs; asset served by the official manufacturer website",
+  },
+  {
+    slug: "hach-lange",
+    name: "Hach Lange",
+    src: "/images/brand-logos/hach-lange.png",
+    sourcePage: "https://de.hach.com/",
+    originalFile:
+      "https://de.hach.com/cb9c5453963eea16f5f87712115caeab80/cms/images/WQ-logo-footer/VLTO_WaterPlatform_Hach_300x150_transparent.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://de.hach.com/",
+    attribution: "Hach Lange; asset served by the official manufacturer website",
+  },
+  {
+    slug: "hein-lehmann",
+    name: "HEIN, LEHMANN",
+    src: "/images/brand-logos/hein-lehmann.webp",
+    sourcePage: "https://www.heinlehmann.com/en/",
+    originalFile:
+      "https://www.heinlehmann.com/fileadmin/_processed_/0/d/csm_HL_fc581ca4e7.jpeg",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.heinlehmann.com/en/",
+    attribution: "HEIN, LEHMANN; asset served by the official manufacturer website",
+  },
+  {
+    slug: "hudson-belting",
+    name: "Hudson Belting",
+    src: "/images/brand-logos/hudson-belting.png",
+    sourcePage: "https://www.hudsonbelting.com/",
+    originalFile:
+      "https://static.wixstatic.com/media/e65786_6b29accaa9a649448806f44dbb249b4e~mv2_d_1304_1298_s_2.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.hudsonbelting.com/",
+    attribution: "Hudson Belting; asset served by the official manufacturer website",
+  },
+  {
+    slug: "nol-tec",
+    name: "Nol-Tec Systems",
+    src: "/images/brand-logos/nol-tec.png",
+    sourcePage: "https://www.nol-tec.com/",
+    originalFile: "https://nol-tec.com/wp-content/uploads/2021/02/NT-Fav.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.nol-tec.com/",
+    attribution: "Nol-Tec Systems; asset served by the official manufacturer website",
+  },
+  {
+    slug: "silverson",
+    name: "Silverson",
+    src: "/images/brand-logos/silverson.svg",
+    sourcePage: "https://silverson.com/",
+    originalFile:
+      "https://silverson.com/assets/images/homepage/icon-silverson-s.svg",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://silverson.com/",
+    attribution: "Silverson; asset served by the official manufacturer website",
+  },
 ];
 
 const brandLogoMap = new Map(

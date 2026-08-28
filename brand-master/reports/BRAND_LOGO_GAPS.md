@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1409
-- SAFE without logo: 822
+- SAFE with publishable identity-matched logo: 1420
+- SAFE without logo: 811
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 821
+- HIGH: 810
 
 ## First 100 gaps
 
@@ -41,9 +41,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - BRINKMANN PUMPS (`brinkmann-pumps`) — brinkmannpumps.de
 - Franklin Electric (`franklin-electric`) — franklinwater.com
 - Numatics (`asco-numatics`) — discreteautomation.emerson.com
-- Bolondi (`bolondi`) — bolondi.com
 - Svecom (`svecom`) — svecom.com
-- Yamada (`yamada`) — yamadacorp.co.jp
 - COMEPI (`comepi`) — comepi.eu
 - Viking Pump (`viking-pump`) — vikingpump.com
 - Gruner (`gruner-ag`) — gruner.de
@@ -114,5 +112,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - 4B Braime (`4b-braime`) — go4b.co.uk
 - Fireye (`fireye`) — fireye.com
 - Plenty Filters (`plenty`) — spxflow.com
+- AHP Merkle (`ahp-merkle`) — ahp.de
+- Baltimore Aircoil (`baltimore-aircoil`) — baltimoreaircoil.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
