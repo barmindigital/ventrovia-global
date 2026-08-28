@@ -3,13 +3,13 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1555
-- SAFE without logo: 676
+- SAFE with publishable identity-matched logo: 1572
+- SAFE without logo: 659
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
-- HIGH: 676
+- HIGH: 659
 
 ## First 100 gaps
 
@@ -20,7 +20,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Gorman-Rupp (`gorman-rupp`) — grpumps.com
 - Victor Pumps (`victor-pumps`) — victorpumps.com
 - HANBELL (`hanbell`) — hanbell.com
-- VARISCO (`varisco-pumps`) — variscopumps.com
 - Kollmorgen (`kollmorgen`) — kollmorgen.com
 - Thomson (`thomson`) — thomsonlinear.com
 - Lutz Pumpen (`lutz-pumpen-gmbh`) — lutzpumps.com
@@ -31,7 +30,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Baumer Hübner (`baumer-hubner-gmbh`) — baumer.com
 - Franklin Electric (`franklin-electric`) — franklinwater.com
 - Numatics (`asco-numatics`) — discreteautomation.emerson.com
-- Svecom (`svecom`) — svecom.com
 - Gruner (`gruner-ag`) — gruner.de
 - LARZEP (`larzep`) — larzep.com
 - DUNGS (`dungs`) — dungs.com
@@ -75,7 +73,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - NASH (`nash`) — nashpumps.com
 - SONDERMANN (`sondermann`) — sondermann-pumpen.de
 - Verderair (`verderair`) — verderliquids.com
-- Barksdale (`barksdale`) — barksdale.com
 - Bosch Packaging Technology (`bosch-packaging`) — syntegon.com
 - SEIM (`seim`) — seim.it
 - SIATA (`siata`) — pentair.eu
@@ -83,7 +80,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Bran+Luebbe (`bran-luebbe-gmbh`) — spxflow.com
 - Magnescale (`magnescale`) — magnescale.com
 - Mueller Steam Specialty (`mueller-steam-specialty`) — watts.com
-- URACA (`uraca`) — uraca.com
 - 4B Braime (`4b-braime`) — go4b.co.uk
 - Fireye (`fireye`) — fireye.com
 - Plenty Filters (`plenty`) — spxflow.com
@@ -113,5 +109,9 @@ Generated: 2026-08-24T00:00:00.000Z
 - Stromag (`stromag`) — stromag.com
 - Helmut Fischer (`fischer`) — helmut-fischer.com
 - Graymills (`graymills`) — graymills.com
+- NAVCO (`navco`) — navco.us
+- TOREX (`torex-spa`) — wamgroup.co.uk
+- Bauer Gear Motor (`bauer-gear-motor`) — bauergears.com
+- DESMI (`desmi`) — desmi.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.

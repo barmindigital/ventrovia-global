@@ -92,7 +92,7 @@ for (const slug of selectedSlugs) {
   entries.push(renderEntry(profile, candidate, extension));
 }
 
-const marker = "\n];\n\nconst brandLogoMap";
+const marker = "\n];\n\nexport const brandLogoRegistry";
 if (!registrySource.includes(marker)) {
   throw new Error("Could not find brand logo registry insertion point");
 }
