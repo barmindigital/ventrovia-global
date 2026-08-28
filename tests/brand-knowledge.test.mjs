@@ -63,8 +63,8 @@ test("logo mappings are explicit and publication metadata are conservative", asy
     assert.ok(logo.originalFile.startsWith("https://"));
     assert.ok(logo.license.trim());
   }
-  assert.equal(logoAudit.length, 524);
-  assert.equal(manifest.logoPublishable, 524);
+  assert.equal(logoAudit.length, brandLogoRegistry.length);
+  assert.equal(manifest.logoPublishable, brandLogoRegistry.length);
   assert.equal(manifest.logoRightsUnknown, 0);
   assert.ok(logoAudit.every(({ publicationStatus, checksum, width, height, scope }) =>
     publicationStatus === "PUBLISHABLE" && /^[a-f0-9]{64}$/u.test(checksum) && width > 0 && height > 0 && scope === "BRAND",

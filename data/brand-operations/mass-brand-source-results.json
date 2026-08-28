@@ -452,7 +452,7 @@
       "country": null,
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-12",
     "nextReviewAt": null
@@ -635,7 +635,7 @@
       "country": "Türkiye",
       "headquarters": "Konya, Türkiye"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -823,7 +823,7 @@
       "country": "Italy",
       "headquarters": "Montecchio Maggiore, Vicenza, Italy"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -870,7 +870,7 @@
       "country": "Germany",
       "headquarters": "Ratingen, Germany"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -1036,7 +1036,7 @@
       "country": "Germany",
       "headquarters": "Wuppertal, Germany"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -1269,7 +1269,7 @@
       "country": "France",
       "headquarters": "Monswiller, France"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -1454,7 +1454,7 @@
       "country": "United States",
       "headquarters": "Peosta, Iowa, United States"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -1549,7 +1549,7 @@
       "country": "Germany",
       "headquarters": "Vlotho-Exter, Germany"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-24",
     "nextReviewAt": null
@@ -2202,7 +2202,7 @@
       "country": "United States",
       "headquarters": "Raleigh, North Carolina, United States"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -2387,7 +2387,7 @@
       "country": "United Kingdom",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -2980,7 +2980,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -3027,7 +3027,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -3531,7 +3531,7 @@
       "country": "Czech Republic",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -3579,7 +3579,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -4016,7 +4016,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -4067,7 +4067,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-17",
     "nextReviewAt": null
@@ -4313,7 +4313,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -4573,20 +4573,57 @@
   },
   {
     "manufacturerId": "larzep",
-    "displayName": "LARZEP HYDRAULIC",
-    "status": "BRAND_REVIEW",
+    "displayName": "LARZEP",
+    "status": "BRAND_SAFE",
     "priority": 106,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Search results exposed reseller and mirrored documents, but no accessible manufacturer-owned identity and product source suitable for BRAND_SAFE publication."
+    "effortClass": "FAST",
+    "domain": "larzep.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_SPANISH_ORIGIN_FOUNDATION_GROUP_RELATIONSHIP_AND_HYDRAULIC_SCOPE",
+        "url": "https://www.larzep.com/gb/larzep-about-us",
+        "checkedAt": "2026-08-28"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CYLINDER_JACK_PUMP_PRESS_PULLER_CUTTER_AND_ACCESSORY_FAMILIES",
+        "url": "https://www.larzep.com/gb",
+        "checkedAt": "2026-08-28"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "hydraulic equipment",
+        "pumps and pumping systems",
+        "industrial tools"
+      ],
+      "families": [
+        "Hydraulic Cylinders",
+        "Hydraulic Jacks",
+        "Hydraulic Pumps",
+        "Cylinder and Pump Sets",
+        "Hydraulic Presses",
+        "Hydraulic Pullers",
+        "Hydraulic Cutters",
+        "Hydraulic Accessories"
+      ],
+      "industries": [
+        "industrial processing",
+        "mining",
+        "energy",
+        "transportation"
+      ],
+      "country": "Spain",
+      "headquarters": "Mallabia, Biscay, Spain"
     },
-    "checkedAt": "2026-08-19",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-28",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "netter-vibration-102721",
@@ -4624,7 +4661,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -4754,7 +4791,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -4805,7 +4842,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -5043,7 +5080,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -5088,7 +5125,7 @@
       "country": null,
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -5379,7 +5416,7 @@
       "country": "Spain",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -6085,7 +6122,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -6137,7 +6174,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -6325,7 +6362,7 @@
       "country": "Japan",
       "headquarters": "Tokyo, Japan"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -6557,7 +6594,7 @@
       "country": null,
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -6608,7 +6645,7 @@
       "country": "Germany",
       "headquarters": "Werdohl, Germany"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -6758,7 +6795,7 @@
       "country": "United States",
       "headquarters": "Mansfield, Ohio, United States"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7095,7 +7132,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7194,7 +7231,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7357,7 +7394,7 @@
       "country": "France",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7401,7 +7438,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7495,7 +7532,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7545,7 +7582,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7596,7 +7633,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -7837,7 +7874,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -8042,7 +8079,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -8162,7 +8199,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -8312,7 +8349,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -8467,7 +8504,7 @@
       "country": "Japan",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -8620,7 +8657,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -8815,7 +8852,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -9065,7 +9102,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -9117,7 +9154,7 @@
       "country": null,
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -9276,7 +9313,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -9668,7 +9705,7 @@
       "country": "Germany",
       "headquarters": "Bielefeld, Germany"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -9713,7 +9750,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -9867,7 +9904,7 @@
       "country": "Switzerland",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -10055,7 +10092,7 @@
       "country": "Poland",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -10461,7 +10498,7 @@
       "country": "Italy",
       "headquarters": "Trento, Italy"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -10562,7 +10599,7 @@
       "country": "Italy",
       "headquarters": "Casorezzo, Milan, Italy"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -10814,7 +10851,7 @@
       "country": "United States",
       "headquarters": "Punta Gorda, Florida, USA"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -11144,7 +11181,7 @@
       "country": "Italy",
       "headquarters": "Cinisello Balsamo, Milan, Italy"
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -12092,7 +12129,7 @@
       "country": "Switzerland",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -12282,7 +12319,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -14038,7 +14075,7 @@
       "country": "Czech Republic",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -14189,7 +14226,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -14242,7 +14279,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -14530,7 +14567,7 @@
       "country": "United Kingdom",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -15379,7 +15416,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -15554,7 +15591,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -15603,7 +15640,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -15866,7 +15903,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -15931,7 +15968,7 @@
       "country": "United States",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -15984,7 +16021,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16029,7 +16066,7 @@
       "country": "Denmark",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16233,7 +16270,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16485,7 +16522,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16524,7 +16561,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16580,7 +16617,7 @@
       "country": "France",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16623,7 +16660,7 @@
       "country": "Sweden",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16766,7 +16803,7 @@
       "country": "Italy",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -16968,7 +17005,7 @@
       "country": "Germany",
       "headquarters": null
     },
-    "logoStatus": "MISSING",
+    "logoStatus": "PUBLISHABLE",
     "blocker": null,
     "checkedAt": "2026-08-19",
     "nextReviewAt": null
@@ -47599,19 +47636,52 @@
   {
     "manufacturerId": "indar",
     "displayName": "INDAR",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 978,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The likely manufacturer-owned INDAR source could not be inspected reliably enough in this pass to bind the repository entity and extract a current About and Products evidence set."
+    "effortClass": "FAST",
+    "domain": "ingeteam.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_LEGAL_ENTITY_LOCATION_AND_SYNCHRONOUS_GENERATOR_FAMILIES",
+        "url": "https://www.ingeteam.com/indar/en-us/sectors/combustion-interna/s15_67_p/products.aspx",
+        "checkedAt": "2026-08-28"
+      },
+      {
+        "type": "OFFICIAL_PARENT_PRODUCT_DOCUMENT",
+        "tier": "A",
+        "scope": "ELECTRIC_MOTOR_GENERATOR_AND_SUBMERSIBLE_MACHINE_FAMILIES",
+        "url": "https://www.ingeteam.com/Download/380/attachment/sbp7-indar-me-producto-range-leaflet.pdf.aspx",
+        "checkedAt": "2026-08-28"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Synchronous Generators",
+        "Wind Generators",
+        "AC Electric Motors",
+        "Submersible Motors",
+        "Submersible Motor-Pump Units"
+      ],
+      "industries": [
+        "energy",
+        "marine applications",
+        "industrial processing",
+        "water and wastewater"
+      ],
+      "country": "Spain",
+      "headquarters": "Beasain, Gipuzkoa, Spain"
     },
-    "checkedAt": "2026-08-20",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-28",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "national-oilwell-varco",
@@ -85402,19 +85472,57 @@
   {
     "manufacturerId": "lisega",
     "displayName": "LISEGA",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 1917,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "LISEGA's manufacturer-owned HTTPS site currently redirects to a www hostname that does not resolve. The official product evidence is retained as a candidate, but the strict reachable-source gate is not met."
+    "effortClass": "FAST",
+    "domain": "lisega.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_LOCATION_FOUNDATION_GROUP_RELATIONSHIP_AND_PIPE_SUPPORT_SCOPE",
+        "url": "https://www.lisega.de/en/lisega/",
+        "checkedAt": "2026-08-28"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PIPE_SUPPORT_VIBRATION_CONTROL_AND_ENGINEERING_SOFTWARE_FAMILIES",
+        "url": "https://www.lisega.de/en/pipe-supports/",
+        "checkedAt": "2026-08-28"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial fixing and support systems",
+        "industrial vibration equipment",
+        "industrial software"
+      ],
+      "families": [
+        "Constant Hangers and Supports",
+        "Spring Hangers and Supports",
+        "Dynamic Components",
+        "Pipe Clamps and Connections",
+        "Roller Bearings and Pipe Saddles",
+        "Insulated Pipe Supports",
+        "Structural Attachments",
+        "Vibration Control",
+        "LICAD Software"
+      ],
+      "industries": [
+        "energy",
+        "oil and gas",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Zeven, Germany"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-08-28",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "litek-linearteck",
@@ -86449,20 +86557,58 @@
   },
   {
     "manufacturerId": "mahr",
-    "displayName": "MAHR",
-    "status": "BRAND_REVIEW",
+    "displayName": "Mahr",
+    "status": "BRAND_SAFE",
     "priority": 1947,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Mahr's manufacturer-owned product and catalog endpoints returned HTTP 403 during the release check. The metrology identity is plausible, but publication remains blocked until first-party evidence is reachable."
+    "effortClass": "FAST",
+    "domain": "mahr.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_AND_PORTFOLIO_PAGE",
+        "tier": "A",
+        "scope": "CURRENT_IDENTITY_HISTORY_AND_PRODUCTION_METROLOGY_SCOPE",
+        "url": "https://metrology.mahr.com/en-us/",
+        "checkedAt": "2026-08-28"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HANDHELD_LENGTH_HEIGHT_CALIBRATION_CONTOUR_ROUGHNESS_FORM_SHAFT_AND_OPTICAL_METROLOGY",
+        "url": "https://metrology.mahr.com/en-us/products",
+        "checkedAt": "2026-08-28"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Handheld Gauges",
+        "Length Metrology",
+        "Height Measuring Instruments",
+        "Calibration Machines",
+        "Contour Metrology",
+        "Roughness Metrology",
+        "Form and Position Metrology",
+        "Shaft Metrology",
+        "Optical Metrology"
+      ],
+      "industries": [
+        "industrial processing",
+        "transportation",
+        "aerospace",
+        "laboratory and life-science applications",
+        "electronics and semiconductor manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": "Gottingen, Germany"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-08-28",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "maier-heidenheim",

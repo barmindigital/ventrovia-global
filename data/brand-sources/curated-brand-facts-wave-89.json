@@ -51,13 +51,6 @@
       "attemptedUrls": ["https://www.magnetic-access.com/"]
     },
     {
-      "manufacturerId": "lisega",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "LISEGA's manufacturer-owned HTTPS site currently redirects to a www hostname that does not resolve. The official product evidence is retained as a candidate, but the strict reachable-source gate is not met.",
-      "attemptedUrls": ["https://lisega.de/en/", "https://www.lisega.de/en/"]
-    },
-    {
       "manufacturerId": "magneta",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
@@ -70,13 +63,6 @@
       "checkedAt": "2026-08-24",
       "reason": "The manufacturer-owned LeROI product pages returned HTTP 429 during the release check. Identity and product-scope candidates were found, but the strict reachable-source gate is not met and the site was not retried aggressively.",
       "attemptedUrls": ["https://www.leroigas.com/en/", "https://www.leroigas.com/en/products/lgt24-and-lgt30-series/"]
-    },
-    {
-      "manufacturerId": "mahr",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "Mahr's manufacturer-owned product and catalog endpoints returned HTTP 403 during the release check. The metrology identity is plausible, but publication remains blocked until first-party evidence is reachable.",
-      "attemptedUrls": ["https://www.mahr.com/en-int/products", "https://metrology.mahr.com/fileadmin/catalogs/OnlineCatalogs/Mahr-Metrology/catalogs/Mahr-Metrology-EN-US/pdf/print/bk_1.pdf"]
     },
     {
       "manufacturerId": "maho",

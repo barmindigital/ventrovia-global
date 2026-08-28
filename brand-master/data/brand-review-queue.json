@@ -1,47 +1,47 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 579,
+  "totalReview": 575,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "count": 303,
-      "share": 0.5233
+      "share": 0.527
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "count": 100,
-      "share": 0.1727
+      "count": 96,
+      "share": 0.167
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
       "count": 61,
-      "share": 0.1054
+      "share": 0.1061
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
       "count": 39,
-      "share": 0.0674
+      "share": 0.0678
     },
     {
       "blockerCategory": "POSSIBLE_DUPLICATE",
       "count": 35,
-      "share": 0.0604
+      "share": 0.0609
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 25,
-      "share": 0.0432
+      "share": 0.0435
     },
     {
       "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
       "count": 8,
-      "share": 0.0138
+      "share": 0.0139
     },
     {
       "blockerCategory": "OTHER",
       "count": 8,
-      "share": 0.0138
+      "share": 0.0139
     }
   ],
   "fastReviewCandidates": [
@@ -94,18 +94,6 @@
       "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
       "reason": "No accessible manufacturer-owned About and Products source could be verified for the exact SIMOTOP identity without relying on resellers.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "larzep",
-      "displayName": "LARZEP HYDRAULIC",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Search results exposed reseller and mirrored documents, but no accessible manufacturer-owned identity and product source suitable for BRAND_SAFE publication.",
       "detail": null,
       "attemptedUrls": [],
       "effortClass": "NORMAL"
@@ -316,21 +304,6 @@
       "reason": "No authoritative manufacturer-owned source establishing the MAS LAMBERTONI identity and product scope was available.",
       "detail": null,
       "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "indar",
-      "displayName": "INDAR",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The likely manufacturer-owned INDAR source could not be inspected reliably enough in this pass to bind the repository entity and extract a current About and Products evidence set.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.indar.net/",
-        "https://www.indar.net/en/"
-      ],
       "effortClass": "NORMAL"
     },
     {
@@ -719,21 +692,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "lisega",
-      "displayName": "LISEGA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "LISEGA's manufacturer-owned HTTPS site currently redirects to a www hostname that does not resolve. The official product evidence is retained as a candidate, but the strict reachable-source gate is not met.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://lisega.de/en/",
-        "https://www.lisega.de/en/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "magneta",
       "displayName": "MAGNETA",
       "aliases": [],
@@ -749,17 +707,60 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "mahr",
-      "displayName": "MAHR",
+      "brandId": "max-mueller",
+      "displayName": "MAX MUELLER",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+      "reason": "No current manufacturer-owned company and product source matching the exact MAX MUELLER identity could be established. Distributor listings were not accepted as evidence.",
+      "detail": null,
+      "attemptedUrls": [
+        "https://www.google.com/search?q=%22MAX+MUELLER%22+manufacturer+official"
+      ],
+      "effortClass": "NORMAL"
+    },
+    {
+      "brandId": "medc",
+      "displayName": "MEDC",
       "aliases": [],
       "state": "REQUIRES_REVIEW",
       "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Mahr's manufacturer-owned product and catalog endpoints returned HTTP 403 during the release check. The metrology identity is plausible, but publication remains blocked until first-party evidence is reachable.",
+      "reason": "Eaton's official MEDC product surface was identified, but it did not return a usable response to the verification client during this pass. No reseller source was substituted.",
       "detail": null,
       "attemptedUrls": [
-        "https://www.mahr.com/en-int/products",
-        "https://metrology.mahr.com/fileadmin/catalogs/OnlineCatalogs/Mahr-Metrology/catalogs/Mahr-Metrology-EN-US/pdf/print/bk_1.pdf"
+        "https://www.eaton.com/gb/en-gb/products/safety-security-emergency-communications/alarms-and-signaling-devices.html",
+        "https://content.eaton.com/hazcomms"
+      ],
+      "effortClass": "NORMAL"
+    },
+    {
+      "brandId": "mercer-valve",
+      "displayName": "MERCER VALVE",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
+      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
+      "reason": "The likely Mercer Valve manufacturer site timed out repeatedly during direct HTTPS verification. The identity and product scope were not published from search results alone.",
+      "detail": null,
+      "attemptedUrls": [
+        "https://www.mercervalve.net/",
+        "https://www.mercervalve.net/about-us/"
+      ],
+      "effortClass": "NORMAL"
+    },
+    {
+      "brandId": "metron-spa",
+      "displayName": "METRON SPA",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+      "reason": "No current manufacturer-owned website could be verified for the exact METRON S.P.A. identity. Historical directory records and similarly named companies are insufficient for publication.",
+      "detail": null,
+      "attemptedUrls": [
+        "https://www.google.com/search?q=%22METRON+S.P.A.%22+manufacturer+official"
       ],
       "effortClass": "NORMAL"
     }
@@ -881,18 +882,6 @@
       "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
       "reason": "No accessible manufacturer-owned About and Products source could be verified for the exact SIMOTOP identity without relying on resellers.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "larzep",
-      "displayName": "LARZEP HYDRAULIC",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Search results exposed reseller and mirrored documents, but no accessible manufacturer-owned identity and product source suitable for BRAND_SAFE publication.",
       "detail": null,
       "attemptedUrls": [],
       "effortClass": "NORMAL"
@@ -2322,21 +2311,6 @@
         "https://www.eltacon.de/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "indar",
-      "displayName": "INDAR",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The likely manufacturer-owned INDAR source could not be inspected reliably enough in this pass to bind the repository entity and extract a current About and Products evidence set.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.indar.net/",
-        "https://www.indar.net/en/"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "oteco",
@@ -5198,21 +5172,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "lisega",
-      "displayName": "LISEGA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "LISEGA's manufacturer-owned HTTPS site currently redirects to a www hostname that does not resolve. The official product evidence is retained as a candidate, but the strict reachable-source gate is not met.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://lisega.de/en/",
-        "https://www.lisega.de/en/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "litz",
       "displayName": "LITZ",
       "aliases": [],
@@ -5323,21 +5282,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://en.dmgmori.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "mahr",
-      "displayName": "MAHR",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Mahr's manufacturer-owned product and catalog endpoints returned HTTP 403 during the release check. The metrology identity is plausible, but publication remains blocked until first-party evidence is reachable.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.mahr.com/en-int/products",
-        "https://metrology.mahr.com/fileadmin/catalogs/OnlineCatalogs/Mahr-Metrology/catalogs/Mahr-Metrology-EN-US/pdf/print/bk_1.pdf"
       ],
       "effortClass": "NORMAL"
     },

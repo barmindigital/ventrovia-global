@@ -2,17 +2,17 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-This report classifies all 579 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
+This report classifies all 575 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
 
 ## Pareto by blocker
 
 | Blocker category | Records | Share |
 | --- | ---: | ---: |
-| AMBIGUOUS_IDENTITY | 303 | 52.3% |
-| SOURCE_ACCESS_BLOCKED | 100 | 17.3% |
-| ACQUISITION_OR_LEGACY | 61 | 10.5% |
-| OFFICIAL_SOURCE_NOT_ESTABLISHED | 39 | 6.7% |
-| POSSIBLE_DUPLICATE | 35 | 6.0% |
+| AMBIGUOUS_IDENTITY | 303 | 52.7% |
+| SOURCE_ACCESS_BLOCKED | 96 | 16.7% |
+| ACQUISITION_OR_LEGACY | 61 | 10.6% |
+| OFFICIAL_SOURCE_NOT_ESTABLISHED | 39 | 6.8% |
+| POSSIBLE_DUPLICATE | 35 | 6.1% |
 | NOT_MANUFACTURER_OR_SCOPE_MISMATCH | 25 | 4.3% |
 | INSUFFICIENT_PRODUCT_SCOPE | 8 | 1.4% |
 | OTHER | 8 | 1.4% |
@@ -25,7 +25,6 @@ The following 50 records are the first retry cohort because their blocker may be
 - TEE ELECTRIC MOTORS (`tee-electric-motors`) — INSUFFICIENT_PRODUCT_SCOPE
 - PRAGATI (`pragati`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - SIMOTOP (`simotop`) — SOURCE_ACCESS_BLOCKED
-- LARZEP HYDRAULIC (`larzep`) — SOURCE_ACCESS_BLOCKED
 - SPECKEN DRUMAG GMBH (`specken-drumag`) — INSUFFICIENT_PRODUCT_SCOPE
 - NOCCHI (`nocchi`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - ELKO (`elko`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
@@ -40,7 +39,6 @@ The following 50 records are the first retry cohort because their blocker may be
 - AMCA HYDRAULIC CONTROLS (`amca-hydraulic-controls`) — SOURCE_ACCESS_BLOCKED
 - PELIKAN VRCHLABI (`pelikan-vrchlabi`) — SOURCE_ACCESS_BLOCKED
 - MAS LAMBERTONI (`mas-lambertoni`) — SOURCE_ACCESS_BLOCKED
-- INDAR (`indar`) — SOURCE_ACCESS_BLOCKED
 - BB BATTERY (`bb-battery`) — SOURCE_ACCESS_BLOCKED
 - ALEBRO (`alebro`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - ATAV (`atav`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
@@ -68,8 +66,10 @@ The following 50 records are the first retry cohort because their blocker may be
 - LAMBERT MOTORS (`lambert-motors`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - LAMCOTEC (`lamcotec`) — SOURCE_ACCESS_BLOCKED
 - LEROI (`leroi`) — SOURCE_ACCESS_BLOCKED
-- LISEGA (`lisega`) — SOURCE_ACCESS_BLOCKED
 - MAGNETA (`magneta`) — SOURCE_ACCESS_BLOCKED
-- MAHR (`mahr`) — SOURCE_ACCESS_BLOCKED
+- MAX MUELLER (`max-mueller`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
+- MEDC (`medc`) — SOURCE_ACCESS_BLOCKED
+- MERCER VALVE (`mercer-valve`) — SOURCE_ACCESS_BLOCKED
+- METRON SPA (`metron-spa`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 
 The complete queue, reason codes, attempted URLs and effort classification are stored in `data/brand-review-queue.json`.
