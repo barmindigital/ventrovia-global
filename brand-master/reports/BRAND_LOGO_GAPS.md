@@ -3,18 +3,16 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1502
-- SAFE without logo: 729
+- SAFE with publishable identity-matched logo: 1524
+- SAFE without logo: 707
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
-- NORMAL: 1
-- HIGH: 728
+- HIGH: 707
 
 ## First 100 gaps
 
-- Marathon Electric (`marathon-electric`) — marathonelectric.com
 - HERZ (`herz`) — herz.eu
 - MP Pumps (`mp-pumps`) — mppumps.com
 - Cantoni Group (`cantoni-group`) — cantonigroup.com
@@ -25,7 +23,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - VARISCO (`varisco-pumps`) — variscopumps.com
 - Kollmorgen (`kollmorgen`) — kollmorgen.com
 - Thomson (`thomson`) — thomsonlinear.com
-- Pioneer Pump (`pioneer-pump`) — pioneerpump.com
 - Lutz Pumpen (`lutz-pumpen-gmbh`) — lutzpumps.com
 - Wilkerson (`wilkerson`) — wilkersoncorp.com
 - Portescap (`portescap`) — portescap.com
@@ -87,7 +84,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Magnescale (`magnescale`) — magnescale.com
 - Mueller Steam Specialty (`mueller-steam-specialty`) — watts.com
 - Richardson Electronics (`richardson-electronics`) — rell.com
-- Timmer (`timmer-pneumatik-gmbh`) — timmer.de
 - URACA (`uraca`) — uraca.com
 - 4B Braime (`4b-braime`) — go4b.co.uk
 - Fireye (`fireye`) — fireye.com
@@ -114,5 +110,8 @@ Generated: 2026-08-24T00:00:00.000Z
 - Nicotra Gebhardt (`nicotra`) — nicotra-gebhardt.com
 - Verderflex (`verderflex`) — verderliquids.com
 - Warner Electric (`warner-electric`) — warnerelectric.com
+- FUNKE (`funke`) — funke.de
+- Hurco (`hurco`) — hurco.com
+- Stromag (`stromag`) — stromag.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
