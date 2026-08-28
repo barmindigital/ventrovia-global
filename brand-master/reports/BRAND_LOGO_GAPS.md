@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1436
-- SAFE without logo: 795
+- SAFE with publishable identity-matched logo: 1448
+- SAFE without logo: 783
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 794
+- HIGH: 782
 
 ## First 100 gaps
 
@@ -42,7 +42,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Franklin Electric (`franklin-electric`) — franklinwater.com
 - Numatics (`asco-numatics`) — discreteautomation.emerson.com
 - Svecom (`svecom`) — svecom.com
-- COMEPI (`comepi`) — comepi.eu
 - Viking Pump (`viking-pump`) — vikingpump.com
 - Gruner (`gruner-ag`) — gruner.de
 - LARZEP (`larzep`) — larzep.com
@@ -114,5 +113,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Baltimore Aircoil (`baltimore-aircoil`) — baltimoreaircoil.com
 - ELGO Electronic (`elgo-electronic`) — elgo.de
 - HEINZMANN (`heinzmann`) — heinzmann.com
+- M PUMPS (`m-pumps`) — mpumps.it
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
