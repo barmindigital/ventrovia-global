@@ -16921,7 +16921,7 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     src: "/images/brand-logos/abac.webp",
     presentationBackground: "dark",
     sourcePage: "https://www.abacaircompressors.com/en-international",
-    originalFile: "https://atlascopco.scene7.com/is/image/atlascopco/Abac+logo+transparent?fmt=png-alpha&wid=1200",
+    originalFile: "https://atlascopco.scene7.com/is/image/atlascopco/ABAC-logotype-white-rgb-01?fmt=png-alpha&wid=800&fit=constrain",
     license: "Official manufacturer website asset — identification use; rights retained by brand owner",
     licenseUrl: "https://www.abacaircompressors.com/en-international",
     attribution: "ABAC; asset served by the official manufacturer website",
