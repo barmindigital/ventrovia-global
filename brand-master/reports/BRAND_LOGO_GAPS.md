@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1488
-- SAFE without logo: 743
+- SAFE with publishable identity-matched logo: 1502
+- SAFE without logo: 729
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 742
+- HIGH: 728
 
 ## First 100 gaps
 
@@ -31,19 +31,13 @@ Generated: 2026-08-24T00:00:00.000Z
 - Portescap (`portescap`) — portescap.com
 - Duplomatic (`duplomatic`) — duplomaticms.com
 - ALLWEILER (`allweiler-gmbh`) — allweiler.de
-- NOSHOK (`noshok`) — noshok.com
-- Yuken Hydraulics (`yuken-hydraulics`) — yuken.co.jp
 - Baumer Hübner (`baumer-hubner-gmbh`) — baumer.com
-- UNIMEC (`unimec`) — unimec.eu
-- BRINKMANN PUMPS (`brinkmann-pumps`) — brinkmannpumps.de
 - Franklin Electric (`franklin-electric`) — franklinwater.com
 - Numatics (`asco-numatics`) — discreteautomation.emerson.com
 - Svecom (`svecom`) — svecom.com
-- Viking Pump (`viking-pump`) — vikingpump.com
 - Gruner (`gruner-ag`) — gruner.de
 - LARZEP (`larzep`) — larzep.com
 - DUNGS (`dungs`) — dungs.com
-- Faggiolati Pumps (`faggiolati-pumps`) — faggiolatipumps.com
 - Stieber Clutch (`stieber-gmbh`) — stieberclutch.com
 - Wheatley Pump (`wheatley-pump`) — nov.com
 - BEI Sensors (`bei-ideacod`) — sensata.com
@@ -69,7 +63,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Ascon Tecnologic (`ascon-tecnologic`) — ascontecnologic.com
 - Erhardt+Leimer (`erhardt-leimer`) — erhardt-leimer.com
 - ESA Pyronics (`esa-pyronics-international`) — esapyronics.com
-- Rotork (`rotork`) — rotork.com
 - co-ax (`co-ax-valves-inc`) — co-ax.com
 - ipf electronic (`ipf-electronic`) — ipf-electronic.de
 - Pneumax (`pneumax`) — pneumaxspa.com
@@ -81,7 +74,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - CYTEC (`cytec-zylindertechnik-gmbh`) — cytec.de
 - Johnson Pump (`johnson-pump`) — spxflow.com
 - TECOFI (`tecofi`) — tecofi.fr
-- di-soric (`di-soric`) — di-soric.com
 - Hydropa (`hydropa`) — hydropa.de
 - NASH (`nash`) — nashpumps.com
 - SONDERMANN (`sondermann`) — sondermann-pumpen.de
@@ -114,5 +106,13 @@ Generated: 2026-08-24T00:00:00.000Z
 - LTN Servotechnik (`ltn-servotechnik`) — heidenhain.de
 - Price Pump (`price_pump`) — pricepump.com
 - sera (`sera`) — sera-web.com
+- TSCHAN (`tschan-gmbh`) — ringfeder.com
+- Tsurumi Pump (`tsurumi-pump`) — tsurumipump.com
+- Welch (`welch-vacuum`) — welchvacuum.com
+- GEMELS (`gemels`) — gemels.com
+- Hengesbach (`hengesbach`) — hengesbach.com
+- Nicotra Gebhardt (`nicotra`) — nicotra-gebhardt.com
+- Verderflex (`verderflex`) — verderliquids.com
+- Warner Electric (`warner-electric`) — warnerelectric.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
