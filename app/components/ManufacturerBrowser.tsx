@@ -11,6 +11,7 @@ type PublicManufacturer = {
   name: string;
   aliases: string[];
   logoSrc?: string;
+  logoBackground?: "light" | "dark";
   descriptor?: string;
   readiness: "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
 };
@@ -53,7 +54,7 @@ export function ManufacturerBrowser({ manufacturers }: { manufacturers: PublicMa
           const logo = manufacturer.logoSrc;
           return (
             <Link className="manufacturer-card" href={`/manufacturers/${manufacturer.slug}`} key={manufacturer.slug}>
-              <span aria-label={logo ? undefined : `Text identity for ${manufacturer.name}`} className={`brand-card-visual${logo ? " has-logo" : ` wordmark ${brandWordmarkTone(manufacturer.slug)}`}`} role={logo ? undefined : "img"}>
+              <span aria-label={logo ? undefined : `Text identity for ${manufacturer.name}`} className={`brand-card-visual${logo ? ` has-logo${manufacturer.logoBackground === "dark" ? " logo-on-dark" : ""}` : ` wordmark ${brandWordmarkTone(manufacturer.slug)}`}`} role={logo ? undefined : "img"}>
                 {logo ? <Image alt={`${manufacturer.name} logo`} height={80} src={logo} unoptimized width={180} /> : <><span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(manufacturer.name)} /><span className="brand-wordmark-copy"><strong>{manufacturer.name}</strong><small>manufacturer</small></span></>}
               </span>
               <h2>{manufacturer.name}</h2>

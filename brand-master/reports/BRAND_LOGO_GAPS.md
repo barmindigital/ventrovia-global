@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1472
-- SAFE without logo: 759
+- SAFE with publishable identity-matched logo: 1488
+- SAFE without logo: 743
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 758
+- HIGH: 742
 
 ## First 100 gaps
 
@@ -23,7 +23,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Victor Pumps (`victor-pumps`) — victorpumps.com
 - HANBELL (`hanbell`) — hanbell.com
 - VARISCO (`varisco-pumps`) — variscopumps.com
-- ABM Greiffenberger (`abm-greiffenberger`) — abm-antriebe.de
 - Kollmorgen (`kollmorgen`) — kollmorgen.com
 - Thomson (`thomson`) — thomsonlinear.com
 - Pioneer Pump (`pioneer-pump`) — pioneerpump.com
@@ -56,7 +55,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Calpeda (`calpeda`) — calpeda.com
 - Lowara (`lowara`) — xylem.com
 - HydraForce (`hydraforce`) — hydraforce.com
-- ESPA (`espa-pumps`) — espa.com
 - STASTO (`stasto`) — stasto.com
 - Hamworthy (`hamworthy`) — hamworthy.com
 - Wachendorff (`wachendorff`) — wachendorff-automation.com
@@ -72,7 +70,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Erhardt+Leimer (`erhardt-leimer`) — erhardt-leimer.com
 - ESA Pyronics (`esa-pyronics-international`) — esapyronics.com
 - Rotork (`rotork`) — rotork.com
-- InterApp (`interapp`) — interapp.net
 - co-ax (`co-ax-valves-inc`) — co-ax.com
 - ipf electronic (`ipf-electronic`) — ipf-electronic.de
 - Pneumax (`pneumax`) — pneumaxspa.com
@@ -93,7 +90,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Bosch Packaging Technology (`bosch-packaging`) — syntegon.com
 - SEIM (`seim`) — seim.it
 - SIATA (`siata`) — pentair.eu
-- WOERNER (`woerner`) — woerner.de
 - Foxboro Eckardt (`foxboro-eckardt`) — se.com
 - Bran+Luebbe (`bran-luebbe-gmbh`) — spxflow.com
 - Magnescale (`magnescale`) — magnescale.com
@@ -114,5 +110,9 @@ Generated: 2026-08-24T00:00:00.000Z
 - Dynisco (`dynisco`) — dynisco.com
 - Hankison (`hankison`) — hankisonair.com
 - Italvibras (`italvibras`) — italvibras.it
+- Jabsco (`jabsco-pump`) — xylem.com
+- LTN Servotechnik (`ltn-servotechnik`) — heidenhain.de
+- Price Pump (`price_pump`) — pricepump.com
+- sera (`sera`) — sera-web.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.

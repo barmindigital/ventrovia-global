@@ -133,7 +133,7 @@ export default function Home() {
           {featuredManufacturers.map((brand) => {
             const logo = brandLogoBySlug(brand.slug);
             return (
-              <Link className="brand-chip brand-chip-logo" href={`/manufacturers/${brand.slug}`} key={brand.slug}>
+              <Link className={`brand-chip brand-chip-logo${logo?.presentationBackground === "dark" ? " logo-on-dark" : ""}`} href={`/manufacturers/${brand.slug}`} key={brand.slug}>
                 {logo ? <Image alt={`${brand.name} logo`} height={72} loading="lazy" src={logo.src} unoptimized width={180} /> : <strong>{brand.name}</strong>}
                 <span>{brand.name}</span>
               </Link>

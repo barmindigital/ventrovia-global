@@ -424,6 +424,7 @@ const brands = identities.manufacturers.map((manufacturer) => {
       license: logo.license,
       rightsStatus: logo.rightsStatus,
       publicationStatus: logo.publicationStatus,
+      presentationBackground: logo.presentationBackground ?? "light",
     } : null,
     sourceRecordIds: profile.sources.map((source) => source.sourceId),
     checkedAt: checkedAtFor(profile),

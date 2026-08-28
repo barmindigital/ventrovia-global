@@ -113,7 +113,9 @@ for (const logo of brandLogoRegistry) {
     previous.localAsset !== logo.src ||
     previous.sourcePage !== logo.sourcePage ||
     previous.originalUrl !== logo.originalFile ||
-    previous.license !== logo.license;
+    previous.license !== logo.license ||
+    (previous.presentationBackground ?? "light") !==
+      (logo.presentationBackground ?? "light");
 
   if (!previous) addedIds.push(logo.slug);
   else if (changed) refreshedIds.push(logo.slug);
@@ -136,6 +138,9 @@ for (const logo of brandLogoRegistry) {
       (officialSourceCandidate ? "OFFICIAL_ASSET_PUBLIC" : "RIGHTS_CONFIRMED"),
     officialSourceCandidate,
     publicationStatus: previous?.publicationStatus ?? "PUBLISHABLE",
+    ...(logo.presentationBackground
+      ? { presentationBackground: logo.presentationBackground }
+      : {}),
   });
 }
 

@@ -57,7 +57,7 @@ Logo paths are relative to the package root. Copy `brand-assets/logos/` into the
 - source and rights metadata;
 - the original file format where supported.
 
-Generate thumbnails or WebP derivatives only as technical derivatives. Do not recolour or redraw manufacturer marks. Use a text fallback when `logo` is `null`.
+Generate thumbnails or WebP derivatives only as technical derivatives. Do not recolour or redraw manufacturer marks. Respect `presentationBackground`: official white/reverse marks require a neutral dark container, while `light` assets require a light container. Use a text fallback when `logo` is `null`.
 
 ## 7. Build the directory and pages
 

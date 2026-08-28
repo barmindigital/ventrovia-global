@@ -7,8 +7,8 @@ Completeness is an inventory indicator, not a truth score. A complete record can
 - Total identities: 2806
 - BRAND_SAFE: 2231
 - BRAND_REVIEW: 575
-- BRAND_COMPLETE: 1885
-- SAFE with logo: 1472
+- BRAND_COMPLETE: 1892
+- SAFE with logo: 1488
 - Sources: 3917
 
 | Field | Records | Coverage |
@@ -20,7 +20,7 @@ Completeness is an inventory indicator, not a truth score. A complete record can
 | families | 2215 | 78.9% |
 | country | 2029 | 72.3% |
 | headquarters | 965 | 34.4% |
-| logo | 1472 | 52.5% |
+| logo | 1488 | 53.0% |
 | documents | 2171 | 77.4% |
 
 Per-brand results are stored in `data/brand-completeness.json`.

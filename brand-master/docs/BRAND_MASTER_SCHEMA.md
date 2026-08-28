@@ -83,6 +83,7 @@ Source records never contain credentials or session data.
 - `sourceUrl`, `originalUrl`, `sourceType` — provenance.
 - `retrievedAt`, `checksum`, `fileType`, `dimensions` — technical metadata.
 - `license`, `rightsStatus`, `publicationStatus` — existing rights/publication assessment.
+- `presentationBackground` — `light` or `dark`; preserves the official asset unchanged while telling a future UI which neutral background is required for legibility.
 
 Manufacturer logos must not be recoloured or assigned by fuzzy matching.
 

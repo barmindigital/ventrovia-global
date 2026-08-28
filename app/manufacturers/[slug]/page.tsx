@@ -102,7 +102,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
           </div>
           <div className="brand-visual" aria-label={`${displayName} manufacturer profile`} role="img">
             <Image alt="" height={900} priority src="/images/brands/global-sourcing-cover.webp" unoptimized width={1600} />
-            {logo ? <span className="brand-hero-logo"><Image alt={`${displayName} logo`} height={150} src={logo.src} unoptimized width={360} /></span> : <span aria-label={`Text identity for ${displayName}`} className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`} role="img"><span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(displayName)} /><span className="brand-wordmark-copy"><strong>{displayName}</strong><small>manufacturer</small></span></span>}
+            {logo ? <span className={`brand-hero-logo${logo.presentationBackground === "dark" ? " logo-on-dark" : ""}`}><Image alt={`${displayName} logo`} height={150} src={logo.src} unoptimized width={360} /></span> : <span aria-label={`Text identity for ${displayName}`} className={`brand-wordmark-hero ${brandWordmarkTone(brand.slug)}`} role="img"><span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(displayName)} /><span className="brand-wordmark-copy"><strong>{displayName}</strong><small>manufacturer</small></span></span>}
           </div>
         </div>
       </section>
