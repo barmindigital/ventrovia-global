@@ -6,12 +6,24 @@ const args = process.argv.slice(2);
 const separator = args.indexOf("--");
 if (separator < 1 || separator === args.length - 1) {
   throw new Error(
-    "Usage: node scripts/download-official-site-logo-candidates.mjs report.json -- slug [...]",
+    "Usage: node scripts/download-official-site-logo-candidates.mjs report.json -- slug[@candidate-number] [...]",
   );
 }
 
 const reportPath = path.resolve(args[0]);
-const selectedSlugs = [...new Set(args.slice(separator + 1))];
+const selectedCandidates = [
+  ...new Map(
+    args.slice(separator + 1).map((selection) => {
+      const match = selection.match(/^(.*?)(?:@(\d+))?$/u);
+      const slug = match?.[1];
+      const candidateNumber = Number(match?.[2] ?? 1);
+      if (!slug || !Number.isInteger(candidateNumber) || candidateNumber < 1) {
+        throw new Error(`Invalid candidate selection: ${selection}`);
+      }
+      return [slug, { slug, candidateIndex: candidateNumber - 1 }];
+    }),
+  ).values(),
+];
 const outputDirectory = path.join(process.cwd(), ".logo-work/official-site/assets");
 const userAgent =
   "VentroviaBrandAssetAudit/1.0 (official manufacturer logo provenance review)";
@@ -67,11 +79,15 @@ await fs.mkdir(outputDirectory, { recursive: true });
 
 const downloaded = [];
 const failures = [];
-for (const slug of selectedSlugs) {
+for (const { slug, candidateIndex } of selectedCandidates) {
   const record = records.get(slug);
-  const candidate = record?.candidates?.[0];
+  const candidate = record?.candidates?.[candidateIndex];
   if (!record || !candidate) {
-    failures.push({ slug, error: "No candidate in report" });
+    failures.push({
+      slug,
+      candidateNumber: candidateIndex + 1,
+      error: "No candidate in report",
+    });
     continue;
   }
   if (candidate.url.includes("#")) {
@@ -89,6 +105,7 @@ for (const slug of selectedSlugs) {
       originalFile: asset.finalUrl,
       discoveryType: candidate.sourceType,
       evidence: candidate.evidence,
+      candidateNumber: candidateIndex + 1,
       mime: asset.mime,
       bytes: asset.bytes.length,
       sha256: crypto.createHash("sha256").update(asset.bytes).digest("hex"),

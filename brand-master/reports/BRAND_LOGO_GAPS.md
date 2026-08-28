@@ -3,21 +3,20 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1119
-- SAFE without logo: 1112
+- SAFE with publishable identity-matched logo: 1249
+- SAFE without logo: 982
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
-- NORMAL: 2
-- HIGH: 1110
+- NORMAL: 1
+- HIGH: 981
 
 ## First 100 gaps
 
 - Marathon Electric (`marathon-electric`) — marathonelectric.com
 - HERZ (`herz`) — herz.eu
 - MP Pumps (`mp-pumps`) — mppumps.com
-- Vivoil (`vivoil-oleodinamica-vivolo-s-r-l`) — vivoil.com
 - Cantoni Group (`cantoni-group`) — cantonigroup.com
 - FELM (`felm`) — felm.it
 - Gorman-Rupp (`gorman-rupp`) — grpumps.com
@@ -34,11 +33,9 @@ Generated: 2026-08-24T00:00:00.000Z
 - Lutz Pumpen (`lutz-pumpen-gmbh`) — lutzpumps.com
 - Wilkerson (`wilkerson`) — wilkersoncorp.com
 - ELAP (`elap`) — elap.it
-- Continental Hydraulics (`continental-hydraulics`) — continentalhydraulics.com
 - Portescap (`portescap`) — portescap.com
 - Duplomatic (`duplomatic`) — duplomaticms.com
 - ALLWEILER (`allweiler-gmbh`) — allweiler.de
-- isel Automation (`isel-automation-gmbh`) — isel.com
 - NOSHOK (`noshok`) — noshok.com
 - Yuken Hydraulics (`yuken-hydraulics`) — yuken.co.jp
 - Baumer Hübner (`baumer-hubner-gmbh`) — baumer.com
@@ -47,7 +44,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Würges (`wurges`) — wuerges.de
 - Franklin Electric (`franklin-electric`) — franklinwater.com
 - Numatics (`asco-numatics`) — discreteautomation.emerson.com
-- Hohner Elektrotechnik (`hohner`) — hohner-elektrotechnik.de
 - Bolondi (`bolondi`) — bolondi.com
 - Svecom (`svecom`) — svecom.com
 - Yamada (`yamada`) — yamadacorp.co.jp
@@ -56,7 +52,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Gruner (`gruner-ag`) — gruner.de
 - LARZEP (`larzep`) — larzep.com
 - DUNGS (`dungs`) — dungs.com
-- SITI (`siti`) — sitiriduttori.it
 - Faggiolati Pumps (`faggiolati-pumps`) — faggiolatipumps.com
 - Stieber Clutch (`stieber-gmbh`) — stieberclutch.com
 - Wheatley Pump (`wheatley-pump`) — nov.com
@@ -74,16 +69,12 @@ Generated: 2026-08-24T00:00:00.000Z
 - Carpanelli (`carpanelli`) — carpanelli.net
 - Hamworthy (`hamworthy`) — hamworthy.com
 - Wachendorff (`wachendorff`) — wachendorff-automation.com
-- Ashcroft (`ashcroft`) — ashcroft.com
 - Dixon (`dixon`) — dixonvalve.com
 - Parvalux (`parvalux`) — parvalux.com
-- OME Motors (`ome-motors`) — omemotors.com
 - Waukesha Cherry-Burrell (`waukesha`) — spxflow.com
 - DAMEL (`damel`) — damel.pl
-- Metal Work Pneumatic (`metal-work-pneumatic`) — metalwork.it
 - ClydeUnion Pumps (`clydeunion-pumps`) — celerosft.com
 - Gefran (`gefran`) — gefran.com
-- Koneteollisuus (`koneteollisuus`) — koneteollisuus.com
 - Mono Pumps (`mono-pumps-limited`) — mono-pumps.com
 - Profroid (`profroid`) — ccr.com
 - AECO (`aeco`) — aecosensors.com
@@ -92,13 +83,11 @@ Generated: 2026-08-24T00:00:00.000Z
 - ESA Pyronics (`esa-pyronics-international`) — esapyronics.com
 - Lika Electronic (`lika-electronic`) — lika.it
 - Rotork (`rotork`) — rotork.com
-- Sensorex (`sensorex`) — sensorex.com
 - Honeywell Kromschröder (`elster-kromschroeder`) — kromschroeder.de
 - InterApp (`interapp`) — interapp.net
 - co-ax (`co-ax-valves-inc`) — co-ax.com
 - ipf electronic (`ipf-electronic`) — ipf-electronic.de
 - Pneumax (`pneumax`) — pneumaxspa.com
-- Comet Yxlon (`yxlon-international`) — yxlon.comet.tech
 - KROMBACH (`krombach`) — cranecpe.com
 - KABELSCHLEPP (`kabelschlepp`) — tsubaki-kabelschlepp.com
 - Kadant Johnson (`kadant-johnson`) — fluidhandling.kadant.com
@@ -111,8 +100,19 @@ Generated: 2026-08-24T00:00:00.000Z
 - Hydropa (`hydropa`) — hydropa.de
 - NASH (`nash`) — nashpumps.com
 - SONDERMANN (`sondermann`) — sondermann-pumpen.de
-- Speroni (`speroni-spa`) — speroni.it
 - Verderair (`verderair`) — verderliquids.com
 - Barksdale (`barksdale`) — barksdale.com
+- FIMET (`fimet-motors`) — fimet.com
+- Bosch Packaging Technology (`bosch-packaging`) — syntegon.com
+- Panametrics (`panametrics-ndt`) — bakerhughes.com
+- SEIM (`seim`) — seim.it
+- SIATA (`siata`) — pentair.eu
+- WOERNER (`woerner`) — woerner.de
+- END-Armaturen (`end-armaturen`) — end.de
+- Foxboro Eckardt (`foxboro-eckardt`) — se.com
+- Gimatic (`gimatic`) — gimatic.com
+- Blackmer (`blackmer`) — psgdover.com
+- Bran+Luebbe (`bran-luebbe-gmbh`) — spxflow.com
+- General Kinematics (`general-kinematics`) — generalkinematics.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
