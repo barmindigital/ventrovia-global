@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1304
-- SAFE without logo: 927
+- SAFE with publishable identity-matched logo: 1388
+- SAFE without logo: 843
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 926
+- HIGH: 842
 
 ## First 100 gaps
 
@@ -28,11 +28,9 @@ Generated: 2026-08-24T00:00:00.000Z
 - TWK-ELEKTRONIK (`twk-elektronik`) — twk.de
 - Kollmorgen (`kollmorgen`) — kollmorgen.com
 - Thomson (`thomson`) — thomsonlinear.com
-- NOVAL (`noval`) — noval.de
 - Pioneer Pump (`pioneer-pump`) — pioneerpump.com
 - Lutz Pumpen (`lutz-pumpen-gmbh`) — lutzpumps.com
 - Wilkerson (`wilkerson`) — wilkersoncorp.com
-- ELAP (`elap`) — elap.it
 - Portescap (`portescap`) — portescap.com
 - Duplomatic (`duplomatic`) — duplomaticms.com
 - ALLWEILER (`allweiler-gmbh`) — allweiler.de
@@ -41,7 +39,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Baumer Hübner (`baumer-hubner-gmbh`) — baumer.com
 - UNIMEC (`unimec`) — unimec.eu
 - BRINKMANN PUMPS (`brinkmann-pumps`) — brinkmannpumps.de
-- Würges (`wurges`) — wuerges.de
 - Franklin Electric (`franklin-electric`) — franklinwater.com
 - Numatics (`asco-numatics`) — discreteautomation.emerson.com
 - Bolondi (`bolondi`) — bolondi.com
@@ -110,9 +107,12 @@ Generated: 2026-08-24T00:00:00.000Z
 - WOERNER (`woerner`) — woerner.de
 - END-Armaturen (`end-armaturen`) — end.de
 - Foxboro Eckardt (`foxboro-eckardt`) — se.com
-- Gimatic (`gimatic`) — gimatic.com
-- Blackmer (`blackmer`) — psgdover.com
 - Bran+Luebbe (`bran-luebbe-gmbh`) — spxflow.com
 - General Kinematics (`general-kinematics`) — generalkinematics.com
+- Magnescale (`magnescale`) — magnescale.com
+- Mueller Steam Specialty (`mueller-steam-specialty`) — watts.com
+- Richardson Electronics (`richardson-electronics`) — rell.com
+- Timmer (`timmer-pneumatik-gmbh`) — timmer.de
+- URACA (`uraca`) — uraca.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
