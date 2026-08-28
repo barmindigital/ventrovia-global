@@ -3,14 +3,14 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2231
-- SAFE with publishable identity-matched logo: 1420
-- SAFE without logo: 811
+- SAFE with publishable identity-matched logo: 1436
+- SAFE without logo: 795
 - Registry mappings excluded because identity is not SAFE: 63
 
 ## Priority distribution
 
 - NORMAL: 1
-- HIGH: 810
+- HIGH: 794
 
 ## First 100 gaps
 
@@ -61,7 +61,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - HydraForce (`hydraforce`) — hydraforce.com
 - ESPA (`espa-pumps`) — espa.com
 - STASTO (`stasto`) — stasto.com
-- Carpanelli (`carpanelli`) — carpanelli.net
 - Hamworthy (`hamworthy`) — hamworthy.com
 - Wachendorff (`wachendorff`) — wachendorff-automation.com
 - Dixon (`dixon`) — dixonvalve.com
@@ -98,7 +97,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Verderair (`verderair`) — verderliquids.com
 - Barksdale (`barksdale`) — barksdale.com
 - Bosch Packaging Technology (`bosch-packaging`) — syntegon.com
-- Panametrics (`panametrics-ndt`) — bakerhughes.com
 - SEIM (`seim`) — seim.it
 - SIATA (`siata`) — pentair.eu
 - WOERNER (`woerner`) — woerner.de
@@ -114,5 +112,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Plenty Filters (`plenty`) — spxflow.com
 - AHP Merkle (`ahp-merkle`) — ahp.de
 - Baltimore Aircoil (`baltimore-aircoil`) — baltimoreaircoil.com
+- ELGO Electronic (`elgo-electronic`) — elgo.de
+- HEINZMANN (`heinzmann`) — heinzmann.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
