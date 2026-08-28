@@ -27,6 +27,7 @@ const selectedCandidates = [
 const outputDirectory = path.join(process.cwd(), ".logo-work/official-site/assets");
 const userAgent =
   "VentroviaBrandAssetAudit/1.0 (official manufacturer logo provenance review)";
+const downloadTimeoutMs = 15_000;
 
 const extensionByMime = {
   "image/gif": "gif",
@@ -52,6 +53,7 @@ function extensionFromUrl(value) {
 async function download(url) {
   const response = await fetch(url, {
     redirect: "follow",
+    signal: AbortSignal.timeout(downloadTimeoutMs),
     headers: {
       "user-agent": userAgent,
       accept: "image/svg+xml,image/png,image/webp,image/jpeg,image/gif",
