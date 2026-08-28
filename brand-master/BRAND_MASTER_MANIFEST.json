@@ -8,9 +8,9 @@
     "brandsTotal": 2806,
     "brandSafe": 2231,
     "brandReview": 575,
-    "brandComplete": 1879,
-    "safeWithLogo": 1448,
-    "safeWithoutLogo": 783,
+    "brandComplete": 1881,
+    "safeWithLogo": 1453,
+    "safeWithoutLogo": 778,
     "countries": 2029,
     "headquarters": 965,
     "familyEvidence": 2215,
@@ -1318,6 +1318,12 @@
       "path": "brand-assets/logos/cemb.svg",
       "size": 10159,
       "sha256": "03ff97ea0f475f9e10f37195e5f29a0368779baab040abb8981b537490ae5c4e",
+      "role": "BRAND_LOGO"
+    },
+    {
+      "path": "brand-assets/logos/ceme.png",
+      "size": 5178,
+      "sha256": "fc112d30f69c68aa25eaec2e88b64e27e1536f560b22e84b6bfd2d8cadd656a0",
       "role": "BRAND_LOGO"
     },
     {
@@ -3271,6 +3277,12 @@
       "role": "BRAND_LOGO"
     },
     {
+      "path": "brand-assets/logos/haver-boecker.png",
+      "size": 14240,
+      "sha256": "cce6193111415a25f921cd4e49fe948215c26b70a780659ab7faed7d5c03861f",
+      "role": "BRAND_LOGO"
+    },
+    {
       "path": "brand-assets/logos/hawe-hydraulic.svg",
       "size": 14337,
       "sha256": "80cbc56a097e955ae8d2d32de780e132e08be9fe054184e37785f3d31b171355",
@@ -3871,6 +3883,12 @@
       "role": "BRAND_LOGO"
     },
     {
+      "path": "brand-assets/logos/interpump.jpg",
+      "size": 170192,
+      "sha256": "ef969c33568c088a61d32d4b8fe4deb1eb0dd3603b1ff5ac4758a1f3726537bf",
+      "role": "BRAND_LOGO"
+    },
+    {
       "path": "brand-assets/logos/interroll.svg",
       "size": 28633,
       "sha256": "9517c457bfa9b0b9e91e6bdb9ae84c13aa3a63aae553549245e035aacbf510c1",
@@ -4030,6 +4048,12 @@
       "path": "brand-assets/logos/jihostroj.webp",
       "size": 37710,
       "sha256": "a33af4451ac683f790ea24e99e0174d2fa883abb57d57653694efc6f51a93cad",
+      "role": "BRAND_LOGO"
+    },
+    {
+      "path": "brand-assets/logos/joa.svg",
+      "size": 3633,
+      "sha256": "e6d6ff4ced73d6463252a836ab1c5bb3df55d99eb4c8cccf9c275b6202618c12",
       "role": "BRAND_LOGO"
     },
     {
@@ -4636,6 +4660,12 @@
       "path": "brand-assets/logos/lenze-gmbh.svg",
       "size": 4016,
       "sha256": "ef02ba969de529f35f4d33a7df5019978a25e33b6cfb1b06d255297e2e95ed30",
+      "role": "BRAND_LOGO"
+    },
+    {
+      "path": "brand-assets/logos/leoch.png",
+      "size": 34181,
+      "sha256": "46c8d8837b3fd9d2a19ae1f63eae0889ed55c6588ddb69b48aa5ef5ca6abcddc",
       "role": "BRAND_LOGO"
     },
     {
@@ -8726,8 +8756,8 @@
     },
     {
       "path": "data/brand-completeness.json",
-      "size": 1350875,
-      "sha256": "2421ef57e0fe86acbfd40ede6799f3575c765a61e3577c7441c0dbac6b1d554d",
+      "size": 1350867,
+      "sha256": "2fe33ab24f9c791fb6acf53d82f263aef656561d18ccc75396e0d584086a6929",
       "role": "DATA"
     },
     {
@@ -8744,20 +8774,20 @@
     },
     {
       "path": "data/brand-logo-gaps.json",
-      "size": 324475,
-      "sha256": "13dde176ef597334e7c5b681f4dbae405c7cab150cbb316fac6e16d2a9b822fb",
+      "size": 322460,
+      "sha256": "7bc0bfd5f1d09445fac844fb7dfa13356c7ae41c99075f521b876e5f3997d173",
       "role": "DATA"
     },
     {
       "path": "data/brand-master.csv",
-      "size": 2301062,
-      "sha256": "d0a69d5d0705377dfd6f028241631c18e7764f0e0d0da37b2324d25a642f2628",
+      "size": 2301212,
+      "sha256": "9f1872f4882540a70bc4c4492dc63363d5014109ba7ce5d37109f8479a15e9fc",
       "role": "DATA"
     },
     {
       "path": "data/brand-master.json",
-      "size": 12719845,
-      "sha256": "d6686bdc6d60653a11ba49640cd62eda08c819d3fbda1824f7a3f415f8696a84",
+      "size": 12723550,
+      "sha256": "7b6adad9289183cc0b9a23aadeebf9426337a2aebe173a4b409f94e4fecb9ec1",
       "role": "DATA"
     },
     {
@@ -8817,13 +8847,13 @@
     {
       "path": "reports/BRAND_LOGO_GAPS.md",
       "size": 5072,
-      "sha256": "55cb1479fe55f2670dfa54c75ced3d3439345d39ba2213653e2cf1193c4481d0",
+      "sha256": "914fd3e08c79e540d8559da9d89e051f8d89535fc4573b637a5488341d1fbec4",
       "role": "REPORT"
     },
     {
       "path": "reports/BRAND_MASTER_COMPLETENESS.md",
       "size": 759,
-      "sha256": "203640465e75b51a398d6058f184757ed5b785064c87914fca939b3f9813042b",
+      "sha256": "89459e316b6c9344e4e6ffd56823b862c49a4ae7af3c7c386b050e6d7dbdfda9",
       "role": "REPORT"
     },
     {
