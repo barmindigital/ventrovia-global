@@ -1,2297 +1,868 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "thermoartica",
-      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "No current manufacturer-owned HTTPS company and product source could be tied unambiguously to the THERMOARTICA record. Secondary listings were not promoted to identity evidence.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=THERMOARTICA+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "thies",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "THIES is used by unrelated current manufacturers, including textile-machinery and meteorological-instrument companies. The repository record has no legal-name, product-scope or geography discriminator needed to choose one identity safely.",
-      "attemptedUrls": [
-        "https://www.thiestextilmaschinen.de/",
-        "https://www.thiesclima.com/"
-      ]
-    },
-    {
-      "manufacturerId": "tiefenbach",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TIEFENBACH does not resolve to one current manufacturer safely. Accessible official results include Tiefenbach Control Systems and Tiefenbach Wasserhydraulik, while the repository record provides no product or legal-entity discriminator.",
-      "attemptedUrls": [
-        "https://www.tibacon.de/",
-        "https://www.tiefenbach-wasserhydraulik.de/"
-      ]
-    },
-    {
-      "manufacturerId": "tocina",
-      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "No current manufacturer-owned HTTPS source establishing the exact TOCINA identity and industrial product scope could be found. Distributor and directory references were not accepted.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=TOCINA+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "tohtsu-toyo",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TOHTSU TOYO could not be resolved to one current manufacturer-owned identity. Search results mix different TOYO and TOHATSU businesses, and the combined repository name lacks a legal-name or product discriminator.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22TOHTSU+TOYO%22+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "torin",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TORIN is shared by unrelated current industrial brands, including air-moving equipment and lifting-tool businesses. The bare repository record does not establish which company or product scope is intended.",
-      "attemptedUrls": [
-        "https://www.torin-sifan.com/",
-        "https://www.torin-usa.com/"
-      ]
-    },
-    {
-      "manufacturerId": "tork",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TORK is used by unrelated current brands in industrial automation and professional hygiene. The repository record has no product, legal-name or geography discriminator, so selecting an official source would create a material wrong-company risk.",
-      "attemptedUrls": [
-        "https://torkautomation.com/",
-        "https://www.torkglobal.com/"
-      ]
-    },
-    {
-      "manufacturerId": "tos-rakovnik",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "The apparent current successor site for the historical TOS Rakovnik identity presents an invalid self-signed TLS certificate. The HTTPS source could not be validated safely, and no secondary source was substituted.",
-      "attemptedUrls": [
-        "https://www.tos-rakovnik.cz/",
-        "https://tos-rakovnik.cz/"
-      ]
-    },
-    {
-      "manufacturerId": "transcon",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TRANSCON is a generic company name used by multiple unrelated manufacturers and engineering businesses. The repository record lacks the product or legal-entity context required to assign the Transcon Conveyor identity or another company safely.",
-      "attemptedUrls": [
-        "https://transconconveyor.com/",
-        "https://www.google.com/search?q=TRANSCON+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "triangle",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TRIANGLE is shared by numerous current industrial companies and brands. Although an official bearing-manufacturer site exists, the repository record has no product or legal-name discriminator proving that it represents Triangle Manufacturing Company.",
-      "attemptedUrls": [
-        "https://www.trianglemfg.com/",
-        "https://www.google.com/search?q=TRIANGLE+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "tribotec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TRIBOTEC identifies distinct current manufacturers: a Czech lubrication-systems company and a Swedish corrosion-protection and specialty-chemicals company. The repository record provides no geography or product discriminator.",
-      "attemptedUrls": [
-        "https://centrallubrication.tribotec.eu/",
-        "https://tribotec.se/en/"
-      ]
-    },
-    {
-      "manufacturerId": "trimec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TRIMEC is used by unrelated current industrial brands, including electric-locking products and liquid-flow measurement equipment. The record contains no product or corporate discriminator needed to select one source safely.",
-      "attemptedUrls": [
-        "https://www.trimec.com.au/",
-        "https://www.trimec-europe.com/"
-      ]
-    }
+    {"manufacturerId":"thermoartica","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"No current manufacturer-owned HTTPS company and product source could be tied unambiguously to the THERMOARTICA record. Secondary listings were not promoted to identity evidence.","attemptedUrls":["https://www.google.com/search?q=THERMOARTICA+manufacturer+official"]},
+    {"manufacturerId":"thies","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"THIES is used by unrelated current manufacturers, including textile-machinery and meteorological-instrument companies. The repository record has no legal-name, product-scope or geography discriminator needed to choose one identity safely.","attemptedUrls":["https://www.thiestextilmaschinen.de/","https://www.thiesclima.com/"]},
+    {"manufacturerId":"tiefenbach","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TIEFENBACH does not resolve to one current manufacturer safely. Accessible official results include Tiefenbach Control Systems and Tiefenbach Wasserhydraulik, while the repository record provides no product or legal-entity discriminator.","attemptedUrls":["https://www.tibacon.de/","https://www.tiefenbach-wasserhydraulik.de/"]},
+    {"manufacturerId":"tocina","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"No current manufacturer-owned HTTPS source establishing the exact TOCINA identity and industrial product scope could be found. Distributor and directory references were not accepted.","attemptedUrls":["https://www.google.com/search?q=TOCINA+industrial+manufacturer+official"]},
+    {"manufacturerId":"tohtsu-toyo","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TOHTSU TOYO could not be resolved to one current manufacturer-owned identity. Search results mix different TOYO and TOHATSU businesses, and the combined repository name lacks a legal-name or product discriminator.","attemptedUrls":["https://www.google.com/search?q=%22TOHTSU+TOYO%22+manufacturer+official"]},
+    {"manufacturerId":"torin","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TORIN is shared by unrelated current industrial brands, including air-moving equipment and lifting-tool businesses. The bare repository record does not establish which company or product scope is intended.","attemptedUrls":["https://www.torin-sifan.com/","https://www.torin-usa.com/"]},
+    {"manufacturerId":"tork","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TORK is used by unrelated current brands in industrial automation and professional hygiene. The repository record has no product, legal-name or geography discriminator, so selecting an official source would create a material wrong-company risk.","attemptedUrls":["https://torkautomation.com/","https://www.torkglobal.com/"]},
+    {"manufacturerId":"tos-rakovnik","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The apparent current successor site for the historical TOS Rakovnik identity presents an invalid self-signed TLS certificate. The HTTPS source could not be validated safely, and no secondary source was substituted.","attemptedUrls":["https://www.tos-rakovnik.cz/","https://tos-rakovnik.cz/"]},
+    {"manufacturerId":"transcon","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TRANSCON is a generic company name used by multiple unrelated manufacturers and engineering businesses. The repository record lacks the product or legal-entity context required to assign the Transcon Conveyor identity or another company safely.","attemptedUrls":["https://transconconveyor.com/","https://www.google.com/search?q=TRANSCON+industrial+manufacturer+official"]},
+    {"manufacturerId":"triangle","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TRIANGLE is shared by numerous current industrial companies and brands. Although an official bearing-manufacturer site exists, the repository record has no product or legal-name discriminator proving that it represents Triangle Manufacturing Company.","attemptedUrls":["https://www.trianglemfg.com/","https://www.google.com/search?q=TRIANGLE+industrial+manufacturer+official"]},
+    {"manufacturerId":"tribotec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TRIBOTEC identifies distinct current manufacturers: a Czech lubrication-systems company and a Swedish corrosion-protection and specialty-chemicals company. The repository record provides no geography or product discriminator.","attemptedUrls":["https://centrallubrication.tribotec.eu/","https://tribotec.se/en/"]},
+    {"manufacturerId":"trimec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TRIMEC is used by unrelated current industrial brands, including electric-locking products and liquid-flow measurement equipment. The record contains no product or corporate discriminator needed to select one source safely.","attemptedUrls":["https://www.trimec.com.au/","https://www.trimec-europe.com/"]}
   ],
   "profiles": [
     {
       "manufacturerId": "texsteam",
       "officialName": "Texsteam",
       "displayName": "Texsteam",
-      "aliases": [
-        "TEXSTEAM"
-      ],
+      "aliases": ["TEXSTEAM"],
       "formerNames": [],
       "officialWebsite": "https://dresserutility.com/chemical-injection/electric-pumps/",
-      "officialDomains": [
-        "dresserutility.com"
-      ],
+      "officialDomains": ["dresserutility.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Dresser Utility Solutions",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Texsteam is a Dresser Utility Solutions brand for chemical-injection pumping equipment. The official range includes electric, gas, pneumatic, beam-driven and solar pumps for metering chemicals into industrial processes.",
-      "fullDescription": [
-        "Dresser Utility Solutions' official chemical-injection pages establish Texsteam as a current pump brand within the group.",
-        "The documented portfolio covers multiple drive arrangements and metering capacities for chemical-treatment duties in oil, gas and process installations."
-      ],
-      "productCategories": [
-        "Промышленные насосы",
-        "Технологическое оборудование"
-      ],
-      "productFamilies": [
-        "Electric Chemical Injection Pumps",
-        "Gas-Powered Chemical Injection Pumps",
-        "Pneumatic Chemical Injection Pumps",
-        "Beam-Driven Pumps",
-        "Solar Chemical Injection Pumps"
-      ],
-      "series": [
-        "Series 2200",
-        "Series 2400",
-        "Series 2500",
-        "Series 4300"
-      ],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Химическая промышленность"
-      ],
+      "fullDescription": ["Dresser Utility Solutions' official chemical-injection pages establish Texsteam as a current pump brand within the group.", "The documented portfolio covers multiple drive arrangements and metering capacities for chemical-treatment duties in oil, gas and process installations."],
+      "productCategories": ["Промышленные насосы", "Технологическое оборудование"],
+      "productFamilies": ["Electric Chemical Injection Pumps", "Gas-Powered Chemical Injection Pumps", "Pneumatic Chemical Injection Pumps", "Beam-Driven Pumps", "Solar Chemical Injection Pumps"],
+      "series": ["Series 2200", "Series 2400", "Series 2500", "Series 4300"],
+      "industries": ["Нефтегазовая промышленность", "Химическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://dresserutility.com/chemical-injection/electric-pumps/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-texsteam-parent-products",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PRODUCT_PAGE",
-          "scope": "CURRENT_DRESSER_BRAND_IDENTITY_AND_CHEMICAL_INJECTION_PUMP_SCOPE",
-          "url": "https://dresserutility.com/chemical-injection/electric-pumps/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://dresserutility.com/chemical-injection/electric-pumps/"],
+      "sources": [{"sourceId":"brand-texsteam-parent-products","tier":"B","type":"OFFICIAL_PARENT_BRAND_PRODUCT_PAGE","scope":"CURRENT_DRESSER_BRAND_IDENTITY_AND_CHEMICAL_INJECTION_PUMP_SCOPE","url":"https://dresserutility.com/chemical-injection/electric-pumps/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tgw",
       "officialName": "TGW Logistics Group GmbH",
       "displayName": "TGW",
-      "aliases": [
-        "TGW",
-        "TGW LOGISTICS"
-      ],
+      "aliases": ["TGW", "TGW LOGISTICS"],
       "formerNames": [],
       "officialWebsite": "https://www.tgw-group.com/us/our-portfolio/products/",
-      "officialDomains": [
-        "tgw-group.com"
-      ],
+      "officialDomains": ["tgw-group.com"],
       "country": "Austria",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "TGW develops automated intralogistics systems for warehouses and distribution operations. Its official portfolio includes storage and retrieval equipment, conveyor and sorting technology, robotics and warehouse software.",
-      "fullDescription": [
-        "TGW's manufacturer-owned product directory establishes the group identity and its specialization in automated material flow.",
-        "The documented range combines mechanical handling systems, robotic workstations and software used to store, move, sequence and prepare goods inside logistics facilities."
-      ],
-      "productCategories": [
-        "Конвейерное оборудование",
-        "Складская техника",
-        "Робототехника",
-        "Программное обеспечение для промышленности"
-      ],
-      "productFamilies": [
-        "Storage and Retrieval Systems",
-        "Conveyors and Sorters",
-        "Goods-to-Person Systems",
-        "Robotics",
-        "Warehouse Software"
-      ],
+      "fullDescription": ["TGW's manufacturer-owned product directory establishes the group identity and its specialization in automated material flow.", "The documented range combines mechanical handling systems, robotic workstations and software used to store, move, sequence and prepare goods inside logistics facilities."],
+      "productCategories": ["Конвейерное оборудование", "Складская техника", "Робототехника", "Программное обеспечение для промышленности"],
+      "productFamilies": ["Storage and Retrieval Systems", "Conveyors and Sorters", "Goods-to-Person Systems", "Robotics", "Warehouse Software"],
       "series": [],
-      "industries": [
-        "Интралогистика",
-        "Промышленная автоматизация"
-      ],
+      "industries": ["Интралогистика", "Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tgw-group.com/us/our-portfolio/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tgw-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_INTRALOGISTICS_AUTOMATION_SCOPE",
-          "url": "https://www.tgw-group.com/us/our-portfolio/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tgw-group.com/us/our-portfolio/products/"],
+      "sources": [{"sourceId":"brand-tgw-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_INTRALOGISTICS_AUTOMATION_SCOPE","url":"https://www.tgw-group.com/us/our-portfolio/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thermo-electric",
       "officialName": "Thermo Electric Company, Inc.",
       "displayName": "Thermo Electric",
-      "aliases": [
-        "THERMO ELECTRIC",
-        "THERMO ELECTRIC COMPANY"
-      ],
+      "aliases": ["THERMO ELECTRIC", "THERMO ELECTRIC COMPANY"],
       "formerNames": [],
       "officialWebsite": "https://www.thermo-electric.com/products/",
-      "officialDomains": [
-        "thermo-electric.com"
-      ],
+      "officialDomains": ["thermo-electric.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Thermo Electric manufactures temperature-sensing and measurement equipment. Its official product range includes thermocouples, resistance temperature detectors, surface and wafer sensors, transmitters and related accessories.",
-      "fullDescription": [
-        "Thermo Electric's manufacturer-owned product directory establishes the company identity and its focus on industrial temperature measurement.",
-        "The documented portfolio combines sensor elements and assemblies with signal-transmission accessories for monitoring temperature in process, machinery and semiconductor applications."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Измерительное оборудование"
-      ],
-      "productFamilies": [
-        "Thermocouples",
-        "Resistance Temperature Detectors",
-        "Surface Sensors",
-        "Wafer Sensors",
-        "Temperature Transmitters",
-        "Temperature Accessories"
-      ],
+      "fullDescription": ["Thermo Electric's manufacturer-owned product directory establishes the company identity and its focus on industrial temperature measurement.", "The documented portfolio combines sensor elements and assemblies with signal-transmission accessories for monitoring temperature in process, machinery and semiconductor applications."],
+      "productCategories": ["Промышленные датчики", "Измерительное оборудование"],
+      "productFamilies": ["Thermocouples", "Resistance Temperature Detectors", "Surface Sensors", "Wafer Sensors", "Temperature Transmitters", "Temperature Accessories"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Полупроводниковая промышленность"
-      ],
+      "industries": ["Промышленное производство", "Полупроводниковая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.thermo-electric.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thermo-electric-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_TEMPERATURE_SENSOR_SCOPE",
-          "url": "https://www.thermo-electric.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.thermo-electric.com/products/"],
+      "sources": [{"sourceId":"brand-thermo-electric-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_TEMPERATURE_SENSOR_SCOPE","url":"https://www.thermo-electric.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thermobile",
       "officialName": "Thermobile Industries B.V.",
       "displayName": "Thermobile",
-      "aliases": [
-        "THERMOBILE"
-      ],
+      "aliases": ["THERMOBILE"],
       "formerNames": [],
       "officialWebsite": "https://www.thermobile.com/en/",
-      "officialDomains": [
-        "thermobile.com"
-      ],
+      "officialDomains": ["thermobile.com"],
       "country": "Netherlands",
       "headquarters": null,
       "foundedYear": 1958,
       "parentCompany": null,
       "shortDescription": "Thermobile manufactures mobile climate-control equipment for industrial and commercial work areas. Its official range includes oil-, gas- and electric-fired heaters together with coolers and dehumidifiers.",
-      "fullDescription": [
-        "Thermobile's manufacturer-owned site identifies the Dutch company and documents production of portable temperature and moisture-control equipment since 1958.",
-        "The published range supports temporary or local heating, cooling and drying duties in workshops, construction, agriculture and other operating environments."
-      ],
-      "productCategories": [
-        "Промышленное нагревательное оборудование",
-        "Промышленное охлаждение"
-      ],
-      "productFamilies": [
-        "Oil-Fired Heaters",
-        "Gas-Fired Heaters",
-        "Electric Heaters",
-        "Air Coolers",
-        "Dehumidifiers"
-      ],
+      "fullDescription": ["Thermobile's manufacturer-owned site identifies the Dutch company and documents production of portable temperature and moisture-control equipment since 1958.", "The published range supports temporary or local heating, cooling and drying duties in workshops, construction, agriculture and other operating environments."],
+      "productCategories": ["Промышленное нагревательное оборудование", "Промышленное охлаждение"],
+      "productFamilies": ["Oil-Fired Heaters", "Gas-Fired Heaters", "Electric Heaters", "Air Coolers", "Dehumidifiers"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Строительство",
-        "Сельское хозяйство"
-      ],
+      "industries": ["Промышленное производство", "Строительство", "Сельское хозяйство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.thermobile.com/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thermobile-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_MOBILE_CLIMATE_EQUIPMENT_SCOPE",
-          "url": "https://www.thermobile.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.thermobile.com/en/"],
+      "sources": [{"sourceId":"brand-thermobile-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_MOBILE_CLIMATE_EQUIPMENT_SCOPE","url":"https://www.thermobile.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thermodyn",
       "officialName": "Thermodyn Corporation",
       "displayName": "Thermodyn",
-      "aliases": [
-        "THERMODYN"
-      ],
+      "aliases": ["THERMODYN"],
       "formerNames": [],
       "officialWebsite": "https://thermodyn.com/thermodyn-global-homepage/",
-      "officialDomains": [
-        "thermodyn.com"
-      ],
+      "officialDomains": ["thermodyn.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": 1999,
       "parentCompany": null,
       "shortDescription": "Thermodyn develops elastomeric sealing materials and engineered rubber components. Its official site describes material formulation and production capabilities for industrial sealing applications.",
-      "fullDescription": [
-        "Thermodyn's manufacturer-owned company page establishes the corporation and its work with high-performance elastomer compounds.",
-        "The documented capabilities support sheets, gaskets, extrusions and other application-specific rubber components where sealing and material compatibility are required."
-      ],
-      "productCategories": [
-        "Промышленные уплотнения",
-        "Промышленные прокладки"
-      ],
-      "productFamilies": [
-        "Elastomeric Sealing Materials",
-        "Rubber Sheet",
-        "Gaskets",
-        "Rubber Extrusions",
-        "Engineered Rubber Components"
-      ],
+      "fullDescription": ["Thermodyn's manufacturer-owned company page establishes the corporation and its work with high-performance elastomer compounds.", "The documented capabilities support sheets, gaskets, extrusions and other application-specific rubber components where sealing and material compatibility are required."],
+      "productCategories": ["Промышленные уплотнения", "Промышленные прокладки"],
+      "productFamilies": ["Elastomeric Sealing Materials", "Rubber Sheet", "Gaskets", "Rubber Extrusions", "Engineered Rubber Components"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Химическая промышленность"
-      ],
+      "industries": ["Промышленное производство", "Химическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://thermodyn.com/thermodyn-global-homepage/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thermodyn-company",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_CAPABILITY_PAGE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_ELASTOMER_SEALING_SCOPE",
-          "url": "https://thermodyn.com/thermodyn-global-homepage/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://thermodyn.com/thermodyn-global-homepage/"],
+      "sources": [{"sourceId":"brand-thermodyn-company","tier":"A","type":"OFFICIAL_COMPANY_AND_CAPABILITY_PAGE","scope":"LEGAL_IDENTITY_HISTORY_AND_ELASTOMER_SEALING_SCOPE","url":"https://thermodyn.com/thermodyn-global-homepage/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thermon",
       "officialName": "Thermon",
       "displayName": "Thermon",
-      "aliases": [
-        "THERMON"
-      ],
+      "aliases": ["THERMON"],
       "formerNames": [],
       "officialWebsite": "https://thermon.com/",
-      "officialDomains": [
-        "thermon.com"
-      ],
+      "officialDomains": ["thermon.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Thermon develops process-heating and thermal-maintenance systems for industrial facilities. Its official portfolio includes electric and steam heat tracing, industrial heaters, heated tubing bundles, boilers and temporary power equipment.",
-      "fullDescription": [
-        "Thermon's manufacturer-owned site establishes the current brand and its specialization in controlling process temperature in industrial installations.",
-        "The documented range combines heat-tracing cable and controls with heating packages, tubing and power-distribution equipment used for freeze protection, temperature maintenance and process heating."
-      ],
-      "productCategories": [
-        "Промышленное нагревательное оборудование",
-        "Промышленная автоматизация",
-        "Электроэнергетическое оборудование"
-      ],
-      "productFamilies": [
-        "Electric Heat Tracing",
-        "Steam Heat Tracing",
-        "Industrial Heaters",
-        "Heated Tubing Bundles",
-        "Industrial Boilers",
-        "Temporary Power Systems"
-      ],
+      "fullDescription": ["Thermon's manufacturer-owned site establishes the current brand and its specialization in controlling process temperature in industrial installations.", "The documented range combines heat-tracing cable and controls with heating packages, tubing and power-distribution equipment used for freeze protection, temperature maintenance and process heating."],
+      "productCategories": ["Промышленное нагревательное оборудование", "Промышленная автоматизация", "Электроэнергетическое оборудование"],
+      "productFamilies": ["Electric Heat Tracing", "Steam Heat Tracing", "Industrial Heaters", "Heated Tubing Bundles", "Industrial Boilers", "Temporary Power Systems"],
       "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Химическая промышленность",
-        "Энергетика"
-      ],
+      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://thermon.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thermon-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_PROCESS_HEATING_SCOPE",
-          "url": "https://thermon.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://thermon.com/"],
+      "sources": [{"sourceId":"brand-thermon-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"CURRENT_BRAND_IDENTITY_AND_PROCESS_HEATING_SCOPE","url":"https://thermon.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thiele",
       "officialName": "THIELE GmbH & Co. KG",
       "displayName": "THIELE",
-      "aliases": [
-        "THIELE"
-      ],
+      "aliases": ["THIELE"],
       "formerNames": [],
       "officialWebsite": "https://www.thiele.de/en/products",
-      "officialDomains": [
-        "thiele.de"
-      ],
+      "officialDomains": ["thiele.de"],
       "country": "Germany",
-      "headquarters": "Iserlohn, Germany",
+      "headquarters":"Iserlohn, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "THIELE manufactures chain systems and components for lifting, conveying and mining. Its official product range includes round-steel chains, connectors, lifting and lashing assemblies and conveyor-chain equipment.",
-      "fullDescription": [
-        "THIELE's manufacturer-owned product directory establishes the German company identity and its specialization in engineered chain systems.",
-        "The documented portfolio covers components for overhead lifting, load securing, bulk-material conveying and underground mining applications."
-      ],
-      "productCategories": [
-        "Промышленные цепи",
-        "Подъёмное оборудование",
-        "Конвейерное оборудование"
-      ],
-      "productFamilies": [
-        "Mining Chains",
-        "Conveyor Chains",
-        "Lifting Chains",
-        "Lashing Chains",
-        "Chain Connectors"
-      ],
+      "fullDescription": ["THIELE's manufacturer-owned product directory establishes the German company identity and its specialization in engineered chain systems.", "The documented portfolio covers components for overhead lifting, load securing, bulk-material conveying and underground mining applications."],
+      "productCategories": ["Промышленные цепи", "Подъёмное оборудование", "Конвейерное оборудование"],
+      "productFamilies": ["Mining Chains", "Conveyor Chains", "Lifting Chains", "Lashing Chains", "Chain Connectors"],
       "series": [],
-      "industries": [
-        "Горнодобывающая промышленность",
-        "Промышленное производство",
-        "Интралогистика"
-      ],
+      "industries": ["Горнодобывающая промышленность", "Промышленное производство", "Интралогистика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.thiele.de/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thiele-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_CHAIN_LIFTING_CONVEYING_SCOPE",
-          "url": "https://www.thiele.de/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-thiele-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.thiele.de/en/imprint",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://www.thiele.de/en/products"],
+      "sources": [{"sourceId":"brand-thiele-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_CHAIN_LIFTING_CONVEYING_SCOPE","url":"https://www.thiele.de/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-thiele-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.thiele.de/en/imprint","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "thielmann",
       "officialName": "THIELMANN",
       "displayName": "THIELMANN",
-      "aliases": [
-        "THIELMANN"
-      ],
+      "aliases": ["THIELMANN"],
       "formerNames": [],
       "officialWebsite": "https://www.thielmann.com/en/catalog-download",
-      "officialDomains": [
-        "thielmann.com"
-      ],
+      "officialDomains": ["thielmann.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "IRESTAL Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "THIELMANN manufactures stainless-steel containers for industrial storage, transport and processing. Its official catalogue covers intermediate bulk containers, pressure vessels, drums and reusable beverage kegs.",
-      "fullDescription": [
-        "THIELMANN's manufacturer-owned catalogue area establishes the brand's current container portfolio within the IRESTAL Group.",
-        "The documented equipment is designed for repeatable handling of liquids and bulk materials, with container formats for process, hazardous-material and beverage applications."
-      ],
-      "productCategories": [
-        "Промышленные резервуары",
-        "Упаковочное оборудование"
-      ],
-      "productFamilies": [
-        "Stainless Steel IBCs",
-        "Pressure Vessels",
-        "Hazardous-Material Drums",
-        "Stainless Steel Drums",
-        "Beverage Kegs"
-      ],
+      "fullDescription": ["THIELMANN's manufacturer-owned catalogue area establishes the brand's current container portfolio within the IRESTAL Group.", "The documented equipment is designed for repeatable handling of liquids and bulk materials, with container formats for process, hazardous-material and beverage applications."],
+      "productCategories": ["Промышленные резервуары", "Упаковочное оборудование"],
+      "productFamilies": ["Stainless Steel IBCs", "Pressure Vessels", "Hazardous-Material Drums", "Stainless Steel Drums", "Beverage Kegs"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Пищевая промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.thielmann.com/en/catalog-download"
-      ],
-      "documentationSources": [
-        "https://www.thielmann.com/en/catalog-download"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thielmann-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG_PORTAL",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_STAINLESS_CONTAINER_SCOPE",
-          "url": "https://www.thielmann.com/en/catalog-download",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Химическая промышленность", "Пищевая промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://www.thielmann.com/en/catalog-download"],
+      "documentationSources": ["https://www.thielmann.com/en/catalog-download"],
+      "sources": [{"sourceId":"brand-thielmann-catalog","tier":"A","type":"OFFICIAL_CATALOG_PORTAL","scope":"CURRENT_BRAND_IDENTITY_AND_STAINLESS_CONTAINER_SCOPE","url":"https://www.thielmann.com/en/catalog-download","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thk",
       "officialName": "THK Co., Ltd.",
       "displayName": "THK",
-      "aliases": [
-        "THK"
-      ],
+      "aliases": ["THK"],
       "formerNames": [],
       "officialWebsite": "https://www.thk.com/?q=us%2Fnode%2F5196",
-      "officialDomains": [
-        "thk.com"
-      ],
+      "officialDomains": ["thk.com"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "THK develops linear-motion and machine-component systems. Its official product directory includes LM guides, ball screws, ball splines, bearings, cam followers and electric actuators.",
-      "fullDescription": [
-        "THK's manufacturer-owned product page establishes the Japanese company identity and its specialization in rolling-contact linear motion.",
-        "The documented portfolio combines guides, screws, splines, rotary components and integrated actuators used to position and support moving machine elements."
-      ],
-      "productCategories": [
-        "Линейные направляющие",
-        "Промышленные подшипники",
-        "Промышленные актуаторы"
-      ],
-      "productFamilies": [
-        "LM Guides",
-        "Ball Screws",
-        "Ball Splines",
-        "Cross-Roller Bearings",
-        "Cam Followers",
-        "Electric Actuators"
-      ],
+      "fullDescription": ["THK's manufacturer-owned product page establishes the Japanese company identity and its specialization in rolling-contact linear motion.", "The documented portfolio combines guides, screws, splines, rotary components and integrated actuators used to position and support moving machine elements."],
+      "productCategories": ["Линейные направляющие", "Промышленные подшипники", "Промышленные актуаторы"],
+      "productFamilies": ["LM Guides", "Ball Screws", "Ball Splines", "Cross-Roller Bearings", "Cam Followers", "Electric Actuators"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленная автоматизация",
-        "Робототехника"
-      ],
+      "industries": ["Машиностроение", "Промышленная автоматизация", "Робототехника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.thk.com/?q=us%2Fnode%2F5196"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thk-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_LINEAR_MOTION_COMPONENT_SCOPE",
-          "url": "https://www.thk.com/?q=us%2Fnode%2F5196",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.thk.com/?q=us%2Fnode%2F5196"],
+      "sources": [{"sourceId":"brand-thk-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_LINEAR_MOTION_COMPONENT_SCOPE","url":"https://www.thk.com/?q=us%2Fnode%2F5196","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "thomson-micron",
       "officialName": "Micron",
       "displayName": "Thomson Micron",
-      "aliases": [
-        "THOMSON MICRON",
-        "MICRON"
-      ],
+      "aliases": ["THOMSON MICRON", "MICRON"],
       "formerNames": [],
       "officialWebsite": "https://www.thomsonlinear.com.cn/products/gearheads",
-      "officialDomains": [
-        "thomsonlinear.com",
-        "thomsonlinear.com.cn"
-      ],
+      "officialDomains": ["thomsonlinear.com", "thomsonlinear.com.cn"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Thomson Industries, Inc.",
       "statusModifier": "PRODUCT_BRAND",
       "shortDescription": "Micron is a Thomson brand for precision planetary gearheads. The official Thomson product range includes in-line and right-angle gearheads designed for servo and motion-control systems.",
-      "fullDescription": [
-        "Thomson's official gearhead directory establishes Micron as a product brand within the company's motion portfolio.",
-        "The documented families provide alternative precision, ratio, frame-size and environmental configurations for adapting servomotor torque and speed in automated machinery."
-      ],
-      "productCategories": [
-        "Промышленные редукторы",
-        "Системы управления движением"
-      ],
-      "productFamilies": [
-        "Precision Planetary Gearheads",
-        "In-Line Gearheads",
-        "Right-Angle Gearheads"
-      ],
-      "series": [
-        "ValueTRUE",
-        "UltraTRUE",
-        "XTRUE",
-        "DuraTRUE",
-        "EverTRUE",
-        "AquaTRUE",
-        "NemaTRUE",
-        "PowerTRUE"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Машиностроение"
-      ],
+      "fullDescription": ["Thomson's official gearhead directory establishes Micron as a product brand within the company's motion portfolio.", "The documented families provide alternative precision, ratio, frame-size and environmental configurations for adapting servomotor torque and speed in automated machinery."],
+      "productCategories": ["Промышленные редукторы", "Системы управления движением"],
+      "productFamilies": ["Precision Planetary Gearheads", "In-Line Gearheads", "Right-Angle Gearheads"],
+      "series": ["ValueTRUE", "UltraTRUE", "XTRUE", "DuraTRUE", "EverTRUE", "AquaTRUE", "NemaTRUE", "PowerTRUE"],
+      "industries": ["Промышленная автоматизация", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.thomsonlinear.com.cn/products/gearheads"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-thomson-micron-parent-products",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PRODUCT_PAGE",
-          "scope": "CURRENT_MICRON_BRAND_AND_PRECISION_GEARHEAD_SCOPE",
-          "url": "https://www.thomsonlinear.com.cn/products/gearheads",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.thomsonlinear.com.cn/products/gearheads"],
+      "sources": [{"sourceId":"brand-thomson-micron-parent-products","tier":"B","type":"OFFICIAL_PARENT_BRAND_PRODUCT_PAGE","scope":"CURRENT_MICRON_BRAND_AND_PRECISION_GEARHEAD_SCOPE","url":"https://www.thomsonlinear.com.cn/products/gearheads","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "timken",
       "officialName": "The Timken Company",
       "displayName": "Timken",
-      "aliases": [
-        "TIMKEN",
-        "THE TIMKEN COMPANY"
-      ],
+      "aliases": ["TIMKEN", "THE TIMKEN COMPANY"],
       "formerNames": [],
       "officialWebsite": "https://www.timken.com/products/",
-      "officialDomains": [
-        "timken.com"
-      ],
+      "officialDomains": ["timken.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Timken manufactures engineered bearings and industrial motion products. Its official portfolio includes roller and ball bearings, power-transmission components, couplings, brakes, lubrication systems and related services.",
-      "fullDescription": [
-        "Timken's manufacturer-owned product directory establishes the company identity and its combined bearing and industrial-motion scope.",
-        "The documented range supports rotating equipment through bearing systems, mechanical power-transmission components and maintenance technologies used across machinery and process installations."
-      ],
-      "productCategories": [
-        "Промышленные подшипники",
-        "Промышленные цепи",
-        "Промышленные муфты и тормоза",
-        "Системы смазки"
-      ],
-      "productFamilies": [
-        "Engineered Bearings",
-        "Ball Bearings",
-        "Industrial Chains",
-        "Belts and Sheaves",
-        "Couplings and Brakes",
-        "Lubrication Systems"
-      ],
+      "fullDescription": ["Timken's manufacturer-owned product directory establishes the company identity and its combined bearing and industrial-motion scope.", "The documented range supports rotating equipment through bearing systems, mechanical power-transmission components and maintenance technologies used across machinery and process installations."],
+      "productCategories": ["Промышленные подшипники", "Промышленные цепи", "Промышленные муфты и тормоза", "Системы смазки"],
+      "productFamilies": ["Engineered Bearings", "Ball Bearings", "Industrial Chains", "Belts and Sheaves", "Couplings and Brakes", "Lubrication Systems"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Горнодобывающая промышленность",
-        "Энергетика",
-        "Транспорт"
-      ],
+      "industries": ["Промышленное производство", "Горнодобывающая промышленность", "Энергетика", "Транспорт"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.timken.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-timken-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_BEARING_INDUSTRIAL_MOTION_SCOPE",
-          "url": "https://www.timken.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.timken.com/products/"],
+      "sources": [{"sourceId":"brand-timken-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_BEARING_INDUSTRIAL_MOTION_SCOPE","url":"https://www.timken.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tognella",
       "officialName": "F.lli Tognella S.p.A.",
       "displayName": "Tognella",
-      "aliases": [
-        "TOGNELLA",
-        "F.LLI TOGNELLA"
-      ],
+      "aliases": ["TOGNELLA", "F.LLI TOGNELLA"],
       "formerNames": [],
       "officialWebsite": "https://www.tognella.it/en/cartridge-flow-control-valves?page=0",
-      "officialDomains": [
-        "tognella.it"
-      ],
+      "officialDomains": ["tognella.it"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Tognella manufactures hydraulic flow-control components. Its official product directory includes cartridge and in-line flow-control valves, check valves and pressure-control devices for fluid-power circuits.",
-      "fullDescription": [
-        "Tognella's manufacturer-owned product page establishes the Italian company identity and its specialization in hydraulic valve technology.",
-        "The documented range provides adjustable flow, non-return and pressure functions used to regulate direction and operating conditions in hydraulic systems."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленные клапаны и арматура"
-      ],
-      "productFamilies": [
-        "Cartridge Flow-Control Valves",
-        "In-Line Flow-Control Valves",
-        "Check Valves",
-        "Pressure-Control Valves"
-      ],
+      "fullDescription": ["Tognella's manufacturer-owned product page establishes the Italian company identity and its specialization in hydraulic valve technology.", "The documented range provides adjustable flow, non-return and pressure functions used to regulate direction and operating conditions in hydraulic systems."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные клапаны и арматура"],
+      "productFamilies": ["Cartridge Flow-Control Valves", "In-Line Flow-Control Valves", "Check Valves", "Pressure-Control Valves"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tognella.it/en/cartridge-flow-control-valves?page=0"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tognella-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_HYDRAULIC_FLOW_CONTROL_SCOPE",
-          "url": "https://www.tognella.it/en/cartridge-flow-control-valves?page=0",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tognella.it/en/cartridge-flow-control-valves?page=0"],
+      "sources": [{"sourceId":"brand-tognella-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_HYDRAULIC_FLOW_CONTROL_SCOPE","url":"https://www.tognella.it/en/cartridge-flow-control-valves?page=0","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tokimec",
       "officialName": "TOKIMEC",
       "displayName": "TOKIMEC",
-      "aliases": [
-        "TOKIMEC",
-        "TOKYO KEIKI"
-      ],
+      "aliases": ["TOKIMEC", "TOKYO KEIKI"],
       "formerNames": [],
       "officialWebsite": "https://www.tokyokeiki.jp/e/products/hyd/",
-      "officialDomains": [
-        "tokyokeiki.jp"
-      ],
+      "officialDomains": ["tokyokeiki.jp"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Tokyo Keiki Inc.",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "TOKIMEC is the former corporate name retained in the market for Tokyo Keiki hydraulic equipment. The official successor page documents pumps, motors, valves, cylinders, electronics and hydraulic power units.",
-      "fullDescription": [
-        "Tokyo Keiki's manufacturer-owned hydraulic page explicitly connects the current company with the former TOKIMEC name.",
-        "The documented portfolio covers hydraulic power generation, control and actuation components together with electronic controllers and assembled power units for industrial machinery."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленные клапаны и арматура",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Hydraulic Pumps",
-        "Hydraulic Motors",
-        "Hydraulic Valves",
-        "Hydraulic Cylinders",
-        "Hydraulic Power Units",
-        "Electronic Controllers"
-      ],
+      "fullDescription": ["Tokyo Keiki's manufacturer-owned hydraulic page explicitly connects the current company with the former TOKIMEC name.", "The documented portfolio covers hydraulic power generation, control and actuation components together with electronic controllers and assembled power units for industrial machinery."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные клапаны и арматура", "Промышленная автоматизация"],
+      "productFamilies": ["Hydraulic Pumps", "Hydraulic Motors", "Hydraulic Valves", "Hydraulic Cylinders", "Hydraulic Power Units", "Electronic Controllers"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tokyokeiki.jp/e/products/hyd/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tokimec-successor-products",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_SUCCESSOR_PRODUCT_PAGE",
-          "scope": "FORMER_TOKIMEC_IDENTITY_AND_CURRENT_HYDRAULIC_SCOPE",
-          "url": "https://www.tokyokeiki.jp/e/products/hyd/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tokyokeiki.jp/e/products/hyd/"],
+      "sources": [{"sourceId":"brand-tokimec-successor-products","tier":"B","type":"OFFICIAL_PARENT_SUCCESSOR_PRODUCT_PAGE","scope":"FORMER_TOKIMEC_IDENTITY_AND_CURRENT_HYDRAULIC_SCOPE","url":"https://www.tokyokeiki.jp/e/products/hyd/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tomra",
       "officialName": "TOMRA Systems ASA",
       "displayName": "TOMRA",
-      "aliases": [
-        "TOMRA",
-        "TOMRA SYSTEMS"
-      ],
+      "aliases": ["TOMRA", "TOMRA SYSTEMS"],
       "formerNames": [],
       "officialWebsite": "https://www.tomra.com/",
-      "officialDomains": [
-        "tomra.com"
-      ],
+      "officialDomains": ["tomra.com"],
       "country": "Norway",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "TOMRA develops sensor-based collection and sorting systems. Its official corporate material covers reverse-vending equipment and sorting solutions for food, waste, metals and mined materials.",
-      "fullDescription": [
-        "TOMRA's manufacturer-owned corporate brochure establishes the group identity and its use of sensors, mechanics and software to classify and recover material streams.",
-        "The documented solutions include automated collection equipment and sorting machines for recycling, food processing and resource operations."
-      ],
-      "productCategories": [
-        "Сортировочное оборудование",
-        "Инспекционное оборудование",
-        "Оборудование для переработки"
-      ],
-      "productFamilies": [
-        "Reverse Vending Systems",
-        "Food Sorting Machines",
-        "Waste Sorting Systems",
-        "Metal Sorting Systems",
-        "Mining Sorting Systems"
-      ],
-      "series": [
-        "AUTOSORT",
-        "X-TRACT",
-        "TOMRA 3A",
-        "TOMRA 5B"
-      ],
-      "industries": [
-        "Переработка отходов",
-        "Пищевая промышленность",
-        "Горнодобывающая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.tomra.com/-/media/project/tomra/tomra/about-tomra/documentation/tomra-brochure-2025_single-pages.pdf"
-      ],
-      "documentationSources": [
-        "https://www.tomra.com/-/media/project/tomra/tomra/about-tomra/documentation/tomra-brochure-2025_single-pages.pdf"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tomra-corporate-brochure",
-          "tier": "A",
-          "type": "OFFICIAL_CORPORATE_CATALOG",
-          "scope": "LEGAL_IDENTITY_AND_COLLECTION_SORTING_SOLUTION_SCOPE",
-          "url": "https://www.tomra.com/-/media/project/tomra/tomra/about-tomra/documentation/tomra-brochure-2025_single-pages.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["TOMRA's manufacturer-owned corporate brochure establishes the group identity and its use of sensors, mechanics and software to classify and recover material streams.", "The documented solutions include automated collection equipment and sorting machines for recycling, food processing and resource operations."],
+      "productCategories": ["Сортировочное оборудование", "Инспекционное оборудование", "Оборудование для переработки"],
+      "productFamilies": ["Reverse Vending Systems", "Food Sorting Machines", "Waste Sorting Systems", "Metal Sorting Systems", "Mining Sorting Systems"],
+      "series": ["AUTOSORT", "X-TRACT", "TOMRA 3A", "TOMRA 5B"],
+      "industries": ["Переработка отходов", "Пищевая промышленность", "Горнодобывающая промышленность"],
+      "officialCatalogs": ["https://www.tomra.com/-/media/project/tomra/tomra/about-tomra/documentation/tomra-brochure-2025_single-pages.pdf"],
+      "documentationSources": ["https://www.tomra.com/-/media/project/tomra/tomra/about-tomra/documentation/tomra-brochure-2025_single-pages.pdf"],
+      "sources": [{"sourceId":"brand-tomra-corporate-brochure","tier":"A","type":"OFFICIAL_CORPORATE_CATALOG","scope":"LEGAL_IDENTITY_AND_COLLECTION_SORTING_SOLUTION_SCOPE","url":"https://www.tomra.com/-/media/project/tomra/tomra/about-tomra/documentation/tomra-brochure-2025_single-pages.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tool-temp-ag",
       "officialName": "Tool-Temp AG",
       "displayName": "Tool-Temp",
-      "aliases": [
-        "TOOL TEMP",
-        "TOOL-TEMP",
-        "TOOL-TEMP AG"
-      ],
+      "aliases": ["TOOL TEMP", "TOOL-TEMP", "TOOL-TEMP AG"],
       "formerNames": [],
       "officialWebsite": "https://tool-temp.ch/gb-en/products/",
-      "officialDomains": [
-        "tool-temp.ch"
-      ],
+      "officialDomains": ["tool-temp.ch"],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": 1973,
       "parentCompany": null,
       "shortDescription": "Tool-Temp manufactures temperature-control and cooling equipment for industrial processes. Its official range includes water- and oil-operated temperature-control units, chillers and cooling systems.",
-      "fullDescription": [
-        "Tool-Temp's manufacturer-owned product directory establishes the Swiss company and its specialization in process temperature management since 1973.",
-        "The documented systems circulate heat-transfer media or provide chilled water for moulding, machine-tool and other production applications that require controlled thermal conditions."
-      ],
-      "productCategories": [
-        "Промышленное охлаждение",
-        "Теплообменное оборудование"
-      ],
-      "productFamilies": [
-        "Water Temperature Controllers",
-        "Oil Temperature Controllers",
-        "Chillers",
-        "Cooling Systems"
-      ],
+      "fullDescription": ["Tool-Temp's manufacturer-owned product directory establishes the Swiss company and its specialization in process temperature management since 1973.", "The documented systems circulate heat-transfer media or provide chilled water for moulding, machine-tool and other production applications that require controlled thermal conditions."],
+      "productCategories": ["Промышленное охлаждение", "Теплообменное оборудование"],
+      "productFamilies": ["Water Temperature Controllers", "Oil Temperature Controllers", "Chillers", "Cooling Systems"],
       "series": [],
-      "industries": [
-        "Переработка пластмасс",
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Переработка пластмасс", "Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://tool-temp.ch/gb-en/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tool-temp-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_TEMPERATURE_CONTROL_SCOPE",
-          "url": "https://tool-temp.ch/gb-en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://tool-temp.ch/gb-en/products/"],
+      "sources": [{"sourceId":"brand-tool-temp-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_AND_TEMPERATURE_CONTROL_SCOPE","url":"https://tool-temp.ch/gb-en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "top-worx",
       "officialName": "TopWorx",
       "displayName": "TopWorx",
-      "aliases": [
-        "TOPWORX",
-        "TOP WORX"
-      ],
+      "aliases": ["TOPWORX", "TOP WORX"],
       "formerNames": [],
       "officialWebsite": "https://discreteautomation.emerson.com/brands/topworx",
-      "officialDomains": [
-        "discreteautomation.emerson.com",
-        "emerson.com"
-      ],
+      "officialDomains": ["discreteautomation.emerson.com", "emerson.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Emerson Electric Co.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "TopWorx is an Emerson brand for discrete valve-control and position-sensing equipment. Its official range includes valve controllers, switchboxes, proximity sensors, GO Switch devices and smart valve positioners.",
-      "fullDescription": [
-        "Emerson's official TopWorx brand page establishes the current brand identity and its specialization in monitoring and controlling automated valves.",
-        "The documented products combine position feedback, local switching and control functions for on-off valve packages used in industrial processes."
-      ],
-      "productCategories": [
-        "Промышленная автоматизация",
-        "Промышленные датчики",
-        "Промышленные клапаны и арматура"
-      ],
-      "productFamilies": [
-        "Discrete Valve Controllers",
-        "Valve Switchboxes",
-        "Proximity Sensors",
-        "GO Switch",
-        "Smart Valve Positioners"
-      ],
-      "series": [
-        "DXP",
-        "D-Series",
-        "GO Switch"
-      ],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Химическая промышленность",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Emerson's official TopWorx brand page establishes the current brand identity and its specialization in monitoring and controlling automated valves.", "The documented products combine position feedback, local switching and control functions for on-off valve packages used in industrial processes."],
+      "productCategories": ["Промышленная автоматизация", "Промышленные датчики", "Промышленные клапаны и арматура"],
+      "productFamilies": ["Discrete Valve Controllers", "Valve Switchboxes", "Proximity Sensors", "GO Switch", "Smart Valve Positioners"],
+      "series": ["DXP", "D-Series", "GO Switch"],
+      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://discreteautomation.emerson.com/brands/topworx"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-topworx-parent-products",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PRODUCT_PAGE",
-          "scope": "CURRENT_EMERSON_BRAND_AND_VALVE_CONTROL_SCOPE",
-          "url": "https://discreteautomation.emerson.com/brands/topworx",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://discreteautomation.emerson.com/brands/topworx"],
+      "sources": [{"sourceId":"brand-topworx-parent-products","tier":"B","type":"OFFICIAL_PARENT_BRAND_PRODUCT_PAGE","scope":"CURRENT_EMERSON_BRAND_AND_VALVE_CONTROL_SCOPE","url":"https://discreteautomation.emerson.com/brands/topworx","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "torcup",
       "officialName": "TorcUP, Inc.",
       "displayName": "TorcUP",
-      "aliases": [
-        "TORCUP",
-        "TORC UP"
-      ],
+      "aliases": ["TORCUP", "TORC UP"],
       "formerNames": [],
       "officialWebsite": "https://www.torcup.com/hydraulic-torque-wrench",
-      "officialDomains": [
-        "torcup.com"
-      ],
+      "officialDomains": ["torcup.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": 1996,
       "parentCompany": null,
       "shortDescription": "TorcUP manufactures controlled bolting tools and power units. Its official range includes hydraulic, pneumatic, battery and manual torque wrenches together with hydraulic pumps and accessories.",
-      "fullDescription": [
-        "TorcUP's manufacturer-owned product page establishes the US company identity and its production of industrial torque equipment since 1996.",
-        "The documented tools apply controlled torque to large threaded fasteners in assembly and maintenance operations, with alternative drive systems for different work environments."
-      ],
-      "productCategories": [
-        "Промышленные инструменты",
-        "Гидравлическое оборудование"
-      ],
-      "productFamilies": [
-        "Hydraulic Torque Wrenches",
-        "Pneumatic Torque Wrenches",
-        "Battery Torque Wrenches",
-        "Manual Torque Tools",
-        "Hydraulic Pumps"
-      ],
+      "fullDescription": ["TorcUP's manufacturer-owned product page establishes the US company identity and its production of industrial torque equipment since 1996.", "The documented tools apply controlled torque to large threaded fasteners in assembly and maintenance operations, with alternative drive systems for different work environments."],
+      "productCategories": ["Промышленные инструменты", "Гидравлическое оборудование"],
+      "productFamilies": ["Hydraulic Torque Wrenches", "Pneumatic Torque Wrenches", "Battery Torque Wrenches", "Manual Torque Tools", "Hydraulic Pumps"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика",
-        "Нефтегазовая промышленность"
-      ],
+      "industries": ["Промышленное производство", "Энергетика", "Нефтегазовая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.torcup.com/hydraulic-torque-wrench"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-torcup-products",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_PAGE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_CONTROLLED_BOLTING_SCOPE",
-          "url": "https://www.torcup.com/hydraulic-torque-wrench",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.torcup.com/hydraulic-torque-wrench"],
+      "sources": [{"sourceId":"brand-torcup-products","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_PAGE","scope":"LEGAL_IDENTITY_HISTORY_AND_CONTROLLED_BOLTING_SCOPE","url":"https://www.torcup.com/hydraulic-torque-wrench","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tornos",
       "officialName": "Tornos SA",
       "displayName": "Tornos",
-      "aliases": [
-        "TORNOS"
-      ],
+      "aliases": ["TORNOS"],
       "formerNames": [],
       "officialWebsite": "https://www.tornos.com/en/content/products",
-      "officialDomains": [
-        "tornos.com"
-      ],
+      "officialDomains": ["tornos.com"],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Tornos manufactures machine tools for precision part production. Its official portfolio includes Swiss-type automatic lathes, multispindle machines, bar feeders, machining systems and TISIS production software.",
-      "fullDescription": [
-        "Tornos' manufacturer-owned product directory establishes the Swiss company identity and its focus on automated turning and machining.",
-        "The documented platforms support bar-fed production of small and complex components through single-spindle, multispindle and supporting automation technologies."
-      ],
-      "productCategories": [
-        "Станочное оборудование",
-        "Промышленная автоматизация",
-        "Программное обеспечение для промышленности"
-      ],
-      "productFamilies": [
-        "Swiss-Type Automatic Lathes",
-        "Multispindle Machines",
-        "Bar Feeders",
-        "Machining Systems",
-        "Production Software"
-      ],
-      "series": [
-        "SwissNano",
-        "Swiss DT",
-        "MultiSwiss",
-        "EvoDECO",
-        "TISIS"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Автомобильная промышленность",
-        "Медицинская промышленность"
-      ],
+      "fullDescription": ["Tornos' manufacturer-owned product directory establishes the Swiss company identity and its focus on automated turning and machining.", "The documented platforms support bar-fed production of small and complex components through single-spindle, multispindle and supporting automation technologies."],
+      "productCategories": ["Станочное оборудование", "Промышленная автоматизация", "Программное обеспечение для промышленности"],
+      "productFamilies": ["Swiss-Type Automatic Lathes", "Multispindle Machines", "Bar Feeders", "Machining Systems", "Production Software"],
+      "series": ["SwissNano", "Swiss DT", "MultiSwiss", "EvoDECO", "TISIS"],
+      "industries": ["Металлообработка", "Автомобильная промышленность", "Медицинская промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tornos.com/en/content/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tornos-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_PRECISION_MACHINE_TOOL_SCOPE",
-          "url": "https://www.tornos.com/en/content/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tornos.com/en/content/products"],
+      "sources": [{"sourceId":"brand-tornos-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_PRECISION_MACHINE_TOOL_SCOPE","url":"https://www.tornos.com/en/content/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "torsion-control-products",
       "officialName": "Torsion Control Products",
       "displayName": "Torsion Control Products",
-      "aliases": [
-        "TORSION CONTROL PRODUCTS",
-        "TCP"
-      ],
+      "aliases": ["TORSION CONTROL PRODUCTS", "TCP"],
       "formerNames": [],
       "officialWebsite": "https://www.torsioncontrol.com/",
-      "officialDomains": [
-        "torsioncontrol.com"
-      ],
+      "officialDomains": ["torsioncontrol.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "PT Tech, LLC",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Torsion Control Products manufactures torsional vibration and torque-control components for industrial drivetrains. Its official range includes spring couplings, torque limiters and torque-converter clutches.",
-      "fullDescription": [
-        "Torsion Control Products' manufacturer-owned site establishes the brand and its current relationship with PT Tech and Timken.",
-        "The documented components manage transient torque, vibration and overload conditions between engines, motors and driven equipment in mobile and stationary machinery."
-      ],
-      "productCategories": [
-        "Промышленные муфты и тормоза",
-        "Механические передачи"
-      ],
-      "productFamilies": [
-        "Spring Couplings",
-        "Torque Limiters",
-        "Torque Converter Clutches",
-        "Torsional Vibration Solutions"
-      ],
+      "fullDescription": ["Torsion Control Products' manufacturer-owned site establishes the brand and its current relationship with PT Tech and Timken.", "The documented components manage transient torque, vibration and overload conditions between engines, motors and driven equipment in mobile and stationary machinery."],
+      "productCategories": ["Промышленные муфты и тормоза", "Механические передачи"],
+      "productFamilies": ["Spring Couplings", "Torque Limiters", "Torque Converter Clutches", "Torsional Vibration Solutions"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Транспорт",
-        "Энергетика"
-      ],
+      "industries": ["Промышленное производство", "Транспорт", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.torsioncontrol.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-torsion-control-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "CURRENT_GROUP_RELATION_AND_TORSIONAL_CONTROL_SCOPE",
-          "url": "https://www.torsioncontrol.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.torsioncontrol.com/"],
+      "sources": [{"sourceId":"brand-torsion-control-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"CURRENT_GROUP_RELATION_AND_TORSIONAL_CONTROL_SCOPE","url":"https://www.torsioncontrol.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tos-olomouc",
       "officialName": "TOS OLOMOUC, s.r.o.",
       "displayName": "TOS Olomouc",
-      "aliases": [
-        "TOS OLOMOUC"
-      ],
+      "aliases": ["TOS OLOMOUC"],
       "formerNames": [],
       "officialWebsite": "https://www.tos-olomouc.cz/cz/",
-      "officialDomains": [
-        "tos-olomouc.cz"
-      ],
+      "officialDomains": ["tos-olomouc.cz"],
       "country": "Czech Republic",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "TOS VARNSDORF a.s.",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "TOS Olomouc manufactures knee-type milling machines for general and production machining. Its official range includes universal, toolroom, production and CNC milling configurations.",
-      "fullDescription": [
-        "TOS Olomouc's manufacturer-owned site establishes the Czech company and its current machine-tool production within the TOS VARNSDORF group.",
-        "The documented milling-machine range provides manual and numerically controlled configurations for workshops, maintenance operations and component manufacturing."
-      ],
-      "productCategories": [
-        "Станочное оборудование",
-        "CNC-оборудование"
-      ],
-      "productFamilies": [
-        "Universal Milling Machines",
-        "Toolroom Milling Machines",
-        "Production Milling Machines",
-        "CNC Milling Machines"
-      ],
+      "fullDescription": ["TOS Olomouc's manufacturer-owned site establishes the Czech company and its current machine-tool production within the TOS VARNSDORF group.", "The documented milling-machine range provides manual and numerically controlled configurations for workshops, maintenance operations and component manufacturing."],
+      "productCategories": ["Станочное оборудование", "CNC-оборудование"],
+      "productFamilies": ["Universal Milling Machines", "Toolroom Milling Machines", "Production Milling Machines", "CNC Milling Machines"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Машиностроение"
-      ],
+      "industries": ["Металлообработка", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tos-olomouc.cz/cz/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tos-olomouc-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_MILLING_MACHINE_SCOPE",
-          "url": "https://www.tos-olomouc.cz/cz/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tos-olomouc.cz/cz/"],
+      "sources": [{"sourceId":"brand-tos-olomouc-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_MILLING_MACHINE_SCOPE","url":"https://www.tos-olomouc.cz/cz/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tos-varnsdorf",
       "officialName": "TOS VARNSDORF a.s.",
       "displayName": "TOS VARNSDORF",
-      "aliases": [
-        "TOS VARNSDORF",
-        "TOS VARNSDORF AS"
-      ],
+      "aliases": ["TOS VARNSDORF", "TOS VARNSDORF AS"],
       "formerNames": [],
       "officialWebsite": "https://www.tosvarnsdorf.cz/en/",
-      "officialDomains": [
-        "tosvarnsdorf.cz"
-      ],
+      "officialDomains": ["tosvarnsdorf.cz"],
       "country": "Czech Republic",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "TOS VARNSDORF manufactures horizontal boring and milling machines and machining centres. Its official range includes table-type, floor-type and portal machine configurations for large and complex workpieces.",
-      "fullDescription": [
-        "TOS VARNSDORF's manufacturer-owned site establishes the Czech company identity and its specialization in horizontal machine tools.",
-        "The documented portfolio covers boring, milling and multipurpose machining platforms designed for production of large components and demanding geometries."
-      ],
-      "productCategories": [
-        "Станочное оборудование",
-        "CNC-оборудование"
-      ],
-      "productFamilies": [
-        "Horizontal Boring Mills",
-        "Horizontal Machining Centres",
-        "Floor-Type Machines",
-        "Portal Machining Centres"
-      ],
+      "fullDescription": ["TOS VARNSDORF's manufacturer-owned site establishes the Czech company identity and its specialization in horizontal machine tools.", "The documented portfolio covers boring, milling and multipurpose machining platforms designed for production of large components and demanding geometries."],
+      "productCategories": ["Станочное оборудование", "CNC-оборудование"],
+      "productFamilies": ["Horizontal Boring Mills", "Horizontal Machining Centres", "Floor-Type Machines", "Portal Machining Centres"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Машиностроение",
-        "Энергетика"
-      ],
+      "industries": ["Металлообработка", "Машиностроение", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tosvarnsdorf.cz/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tos-varnsdorf-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_AND_HORIZONTAL_MACHINE_TOOL_SCOPE",
-          "url": "https://www.tosvarnsdorf.cz/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tosvarnsdorf.cz/en/"],
+      "sources": [{"sourceId":"brand-tos-varnsdorf-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_AND_HORIZONTAL_MACHINE_TOOL_SCOPE","url":"https://www.tosvarnsdorf.cz/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tos-znojmo",
       "officialName": "TOS ZNOJMO, akciová společnost",
       "displayName": "TOS ZNOJMO",
-      "aliases": [
-        "TOS ZNOJMO"
-      ],
+      "aliases": ["TOS ZNOJMO"],
       "formerNames": [],
       "officialWebsite": "https://tos-znojmo.cz/",
-      "officialDomains": [
-        "tos-znojmo.cz"
-      ],
+      "officialDomains": ["tos-znojmo.cz"],
       "country": "Czech Republic",
       "headquarters": null,
       "foundedYear": 1970,
       "parentCompany": null,
       "shortDescription": "TOS ZNOJMO manufactures gear units and mechanical transmission components. Its official portfolio includes worm and helical-bevel gearboxes, chain variators, gears and shafts.",
-      "fullDescription": [
-        "TOS ZNOJMO's manufacturer-owned site establishes the Czech company and its gearbox-production history since 1970.",
-        "The documented range combines standard reduction gear units with machined transmission components and special configurations for industrial machinery."
-      ],
-      "productCategories": [
-        "Промышленные редукторы",
-        "Механические передачи",
-        "Промышленные цепи"
-      ],
-      "productFamilies": [
-        "Worm Gearboxes",
-        "Helical-Bevel Gearboxes",
-        "Chain Variators",
-        "Gears",
-        "Shafts",
-        "Special Gear Units"
-      ],
+      "fullDescription": ["TOS ZNOJMO's manufacturer-owned site establishes the Czech company and its gearbox-production history since 1970.", "The documented range combines standard reduction gear units with machined transmission components and special configurations for industrial machinery."],
+      "productCategories": ["Промышленные редукторы", "Механические передачи", "Промышленные цепи"],
+      "productFamilies": ["Worm Gearboxes", "Helical-Bevel Gearboxes", "Chain Variators", "Gears", "Shafts", "Special Gear Units"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://tos-znojmo.cz/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tos-znojmo-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_GEAR_UNIT_SCOPE",
-          "url": "https://tos-znojmo.cz/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://tos-znojmo.cz/"],
+      "sources": [{"sourceId":"brand-tos-znojmo-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_GEAR_UNIT_SCOPE","url":"https://tos-znojmo.cz/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tosa",
       "officialName": "TOSA S.p.A.",
       "displayName": "TOSA",
-      "aliases": [
-        "TOSA",
-        "TOSA GROUP"
-      ],
+      "aliases": ["TOSA", "TOSA GROUP"],
       "formerNames": [],
       "officialWebsite": "https://www.tosagroup.com/en/",
-      "officialDomains": [
-        "tosagroup.com"
-      ],
+      "officialDomains": ["tosagroup.com"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1974,
       "parentCompany": null,
       "shortDescription": "TOSA develops end-of-line packaging and pallet-handling machinery. Its official range includes stretch wrapping, strapping, protective covering and conveyor systems for unitized loads.",
-      "fullDescription": [
-        "TOSA's manufacturer-owned site establishes the Italian company identity and its work in industrial packaging since 1974.",
-        "The documented portfolio combines machines that stabilize and protect pallet loads with handling systems that move them through automated production and logistics lines."
-      ],
-      "productCategories": [
-        "Упаковочное оборудование",
-        "Конвейерное оборудование",
-        "Паллетное оборудование"
-      ],
-      "productFamilies": [
-        "Stretch Wrapping Machines",
-        "Strapping Machines",
-        "Protective Covering Systems",
-        "Pallet Conveyors",
-        "End-of-Line Systems"
-      ],
+      "fullDescription": ["TOSA's manufacturer-owned site establishes the Italian company identity and its work in industrial packaging since 1974.", "The documented portfolio combines machines that stabilize and protect pallet loads with handling systems that move them through automated production and logistics lines."],
+      "productCategories": ["Упаковочное оборудование", "Конвейерное оборудование", "Паллетное оборудование"],
+      "productFamilies": ["Stretch Wrapping Machines", "Strapping Machines", "Protective Covering Systems", "Pallet Conveyors", "End-of-Line Systems"],
       "series": [],
-      "industries": [
-        "Упаковочная промышленность",
-        "Интралогистика",
-        "Промышленное производство"
-      ],
+      "industries": ["Упаковочная промышленность", "Интралогистика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tosagroup.com/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tosa-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_END_OF_LINE_PACKAGING_SCOPE",
-          "url": "https://www.tosagroup.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tosagroup.com/en/"],
+      "sources": [{"sourceId":"brand-tosa-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_END_OF_LINE_PACKAGING_SCOPE","url":"https://www.tosagroup.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "toshiba",
       "officialName": "Toshiba",
       "displayName": "Toshiba",
-      "aliases": [
-        "TOSHIBA"
-      ],
+      "aliases": ["TOSHIBA"],
       "formerNames": [],
       "officialWebsite": "https://toshiba.com/tic/",
-      "officialDomains": [
-        "toshiba.com"
-      ],
+      "officialDomains": ["toshiba.com"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Toshiba supplies industrial electrical and automation equipment through Toshiba International Corporation. The official range includes motors, adjustable-speed drives, uninterruptible power systems, power electronics and industrial control products.",
-      "fullDescription": [
-        "Toshiba International Corporation's manufacturer-owned site provides official evidence for the Toshiba industrial-equipment identity represented by this profile.",
-        "The documented portfolio combines rotating machines, drive systems, power-conversion equipment and controls used in industrial power and motion applications."
-      ],
-      "productCategories": [
-        "Электродвигатели",
-        "Системы управления движением",
-        "Источники питания",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Industrial Motors",
-        "Adjustable-Speed Drives",
-        "Uninterruptible Power Systems",
-        "Power Electronics",
-        "Industrial Controls"
-      ],
+      "fullDescription": ["Toshiba International Corporation's manufacturer-owned site provides official evidence for the Toshiba industrial-equipment identity represented by this profile.", "The documented portfolio combines rotating machines, drive systems, power-conversion equipment and controls used in industrial power and motion applications."],
+      "productCategories": ["Электродвигатели", "Системы управления движением", "Источники питания", "Промышленная автоматизация"],
+      "productFamilies": ["Industrial Motors", "Adjustable-Speed Drives", "Uninterruptible Power Systems", "Power Electronics", "Industrial Controls"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика",
-        "Инфраструктура"
-      ],
+      "industries": ["Промышленное производство", "Энергетика", "Инфраструктура"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://toshiba.com/tic/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-toshiba-industrial-official",
-          "tier": "A",
-          "type": "OFFICIAL_GROUP_INDUSTRIAL_PRODUCT_SITE",
-          "scope": "TOSHIBA_INDUSTRIAL_IDENTITY_AND_ELECTRICAL_AUTOMATION_SCOPE",
-          "url": "https://toshiba.com/tic/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://toshiba.com/tic/"],
+      "sources": [{"sourceId":"brand-toshiba-industrial-official","tier":"A","type":"OFFICIAL_GROUP_INDUSTRIAL_PRODUCT_SITE","scope":"TOSHIBA_INDUSTRIAL_IDENTITY_AND_ELECTRICAL_AUTOMATION_SCOPE","url":"https://toshiba.com/tic/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "townsend",
       "officialName": "Townsend",
       "displayName": "Townsend",
-      "aliases": [
-        "TOWNSEND"
-      ],
+      "aliases": ["TOWNSEND"],
       "formerNames": [],
       "officialWebsite": "https://portal.marel.com/equipment/EQ1280",
-      "officialDomains": [
-        "marel.com"
-      ],
+      "officialDomains": ["marel.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "JBT Marel Corporation",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Townsend is a retained equipment brand within JBT Marel's meat-processing portfolio. The official product page documents open-top derinding and skinning machinery for meat-processing lines.",
-      "fullDescription": [
-        "JBT Marel's official equipment portal provides current parent-company evidence for the Townsend identity.",
-        "The documented machine removes rind or skin from meat products and belongs to the parent's processing-equipment range; this profile does not infer a wider Townsend portfolio beyond the official page."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Оборудование для переработки"
-      ],
-      "productFamilies": [
-        "Open-Top Derinding Machines",
-        "Meat Skinning Machines"
-      ],
+      "fullDescription": ["JBT Marel's official equipment portal provides current parent-company evidence for the Townsend identity.", "The documented machine removes rind or skin from meat products and belongs to the parent's processing-equipment range; this profile does not infer a wider Townsend portfolio beyond the official page."],
+      "productCategories": ["Промышленные машины", "Оборудование для переработки"],
+      "productFamilies": ["Open-Top Derinding Machines", "Meat Skinning Machines"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность"
-      ],
+      "industries": ["Пищевая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://portal.marel.com/equipment/EQ1280"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-townsend-parent-product",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PRODUCT_PAGE",
-          "scope": "CURRENT_PARENT_EVIDENCE_AND_DERINDING_MACHINE_SCOPE",
-          "url": "https://portal.marel.com/equipment/EQ1280",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://portal.marel.com/equipment/EQ1280"],
+      "sources": [{"sourceId":"brand-townsend-parent-product","tier":"B","type":"OFFICIAL_PARENT_BRAND_PRODUCT_PAGE","scope":"CURRENT_PARENT_EVIDENCE_AND_DERINDING_MACHINE_SCOPE","url":"https://portal.marel.com/equipment/EQ1280","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tox-pressotechnik",
       "officialName": "TOX PRESSOTECHNIK SE & Co. KG",
       "displayName": "TOX PRESSOTECHNIK",
-      "aliases": [
-        "TOX PRESSOTECHNIK",
-        "TOX"
-      ],
+      "aliases": ["TOX PRESSOTECHNIK", "TOX"],
       "formerNames": [],
       "officialWebsite": "https://tox.com/en-us",
-      "officialDomains": [
-        "tox.com"
-      ],
+      "officialDomains": ["tox.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1978,
       "parentCompany": null,
       "shortDescription": "TOX PRESSOTECHNIK develops presses and joining systems for industrial assembly. Its official portfolio includes servo and pneumohydraulic presses, clinching, riveting and punching equipment, drives and process-monitoring components.",
-      "fullDescription": [
-        "TOX PRESSOTECHNIK's manufacturer-owned site establishes the German company and its production-technology scope since 1978.",
-        "The documented systems combine force-generation, tooling and monitoring for controlled joining, forming and assembly operations in automated manufacturing."
-      ],
-      "productCategories": [
-        "Промышленные прессы",
-        "Сборочное оборудование",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Servo Presses",
-        "Pneumohydraulic Presses",
-        "Clinching Systems",
-        "Riveting Systems",
-        "Punching Systems",
-        "Process Monitoring"
-      ],
+      "fullDescription": ["TOX PRESSOTECHNIK's manufacturer-owned site establishes the German company and its production-technology scope since 1978.", "The documented systems combine force-generation, tooling and monitoring for controlled joining, forming and assembly operations in automated manufacturing."],
+      "productCategories": ["Промышленные прессы", "Сборочное оборудование", "Промышленная автоматизация"],
+      "productFamilies": ["Servo Presses", "Pneumohydraulic Presses", "Clinching Systems", "Riveting Systems", "Punching Systems", "Process Monitoring"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Промышленное производство",
-        "Машиностроение"
-      ],
+      "industries": ["Автомобильная промышленность", "Промышленное производство", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://tox.com/en-us"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tox-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_PRESS_JOINING_SCOPE",
-          "url": "https://tox.com/en-us",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://tox.com/en-us"],
+      "sources": [{"sourceId":"brand-tox-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_PRESS_JOINING_SCOPE","url":"https://tox.com/en-us","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "toyoda",
       "officialName": "Toyoda",
       "displayName": "Toyoda",
-      "aliases": [
-        "TOYODA",
-        "JTEKT TOYODA"
-      ],
+      "aliases": ["TOYODA", "JTEKT TOYODA"],
       "formerNames": [],
       "officialWebsite": "https://www.jtekt.eu/innovation-produit/manufacturing/machine-tools/",
-      "officialDomains": [
-        "jtekt.eu",
-        "jtekt.co.jp"
-      ],
+      "officialDomains": ["jtekt.eu", "jtekt.co.jp"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "JTEKT Corporation",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Toyoda is a historical machine-tool brand now presented under JTEKT. The official successor page documents grinding machines, machining centres and automation systems derived from the Toyoda machine-tool business.",
-      "fullDescription": [
-        "JTEKT's official machine-tool page establishes the corporate succession and explains that its manufacturing machines originated under the Toyoda name.",
-        "The documented current scope covers grinding, machining and supporting automation technologies used for precision component production."
-      ],
-      "productCategories": [
-        "Станочное оборудование",
-        "CNC-оборудование",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Grinding Machines",
-        "Horizontal Machining Centres",
-        "Vertical Machining Centres",
-        "Machine Automation Systems"
-      ],
+      "fullDescription": ["JTEKT's official machine-tool page establishes the corporate succession and explains that its manufacturing machines originated under the Toyoda name.", "The documented current scope covers grinding, machining and supporting automation technologies used for precision component production."],
+      "productCategories": ["Станочное оборудование", "CNC-оборудование", "Промышленная автоматизация"],
+      "productFamilies": ["Grinding Machines", "Horizontal Machining Centres", "Vertical Machining Centres", "Machine Automation Systems"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Автомобильная промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Металлообработка", "Автомобильная промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.jtekt.eu/innovation-produit/manufacturing/machine-tools/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-toyoda-successor-products",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_SUCCESSOR_PRODUCT_PAGE",
-          "scope": "TOYODA_SUCCESSION_AND_CURRENT_MACHINE_TOOL_SCOPE",
-          "url": "https://www.jtekt.eu/innovation-produit/manufacturing/machine-tools/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.jtekt.eu/innovation-produit/manufacturing/machine-tools/"],
+      "sources": [{"sourceId":"brand-toyoda-successor-products","tier":"B","type":"OFFICIAL_PARENT_SUCCESSOR_PRODUCT_PAGE","scope":"TOYODA_SUCCESSION_AND_CURRENT_MACHINE_TOOL_SCOPE","url":"https://www.jtekt.eu/innovation-produit/manufacturing/machine-tools/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tpc",
       "officialName": "Amphenol TPC Wire & Cable",
       "displayName": "TPC Wire & Cable",
-      "aliases": [
-        "TPC WIRE & CABLE",
-        "TPC"
-      ],
+      "aliases": ["TPC WIRE & CABLE", "TPC"],
       "formerNames": [],
       "officialWebsite": "https://www.tpcwire.com/products/wire-cable?__ptLanguage=en-US",
-      "officialDomains": [
-        "tpcwire.com"
-      ],
+      "officialDomains": ["tpcwire.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Amphenol Corporation",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "TPC Wire & Cable is an Amphenol brand for electrical connectivity in demanding industrial environments. Its official range includes flexible cable, cordsets, connectors, cable assemblies and cable-management products.",
-      "fullDescription": [
-        "TPC's manufacturer-owned product directory establishes the current Amphenol brand identity and its harsh-environment connectivity scope.",
-        "The documented products route power, control and data through industrial machinery and mobile equipment where abrasion, flexing, chemicals or temperature create demanding service conditions."
-      ],
-      "productCategories": [
-        "Кабельная продукция",
-        "Разъёмы и соединительные системы"
-      ],
-      "productFamilies": [
-        "Flexible Industrial Cable",
-        "Cordsets",
-        "Industrial Connectors",
-        "Cable Assemblies",
-        "Cable Management"
-      ],
+      "fullDescription": ["TPC's manufacturer-owned product directory establishes the current Amphenol brand identity and its harsh-environment connectivity scope.", "The documented products route power, control and data through industrial machinery and mobile equipment where abrasion, flexing, chemicals or temperature create demanding service conditions."],
+      "productCategories": ["Кабельная продукция", "Разъёмы и соединительные системы"],
+      "productFamilies": ["Flexible Industrial Cable", "Cordsets", "Industrial Connectors", "Cable Assemblies", "Cable Management"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Горнодобывающая промышленность",
-        "Энергетика"
-      ],
+      "industries": ["Промышленное производство", "Горнодобывающая промышленность", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tpcwire.com/products/wire-cable?__ptLanguage=en-US"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tpc-wire-products",
-          "tier": "A",
-          "type": "OFFICIAL_BRAND_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_AMPHENOL_BRAND_AND_INDUSTRIAL_CONNECTIVITY_SCOPE",
-          "url": "https://www.tpcwire.com/products/wire-cable?__ptLanguage=en-US",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tpcwire.com/products/wire-cable?__ptLanguage=en-US"],
+      "sources": [{"sourceId":"brand-tpc-wire-products","tier":"A","type":"OFFICIAL_BRAND_PRODUCT_DIRECTORY","scope":"CURRENT_AMPHENOL_BRAND_AND_INDUSTRIAL_CONNECTIVITY_SCOPE","url":"https://www.tpcwire.com/products/wire-cable?__ptLanguage=en-US","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "trackmobile",
       "officialName": "Trackmobile LLC",
       "displayName": "Trackmobile",
-      "aliases": [
-        "TRACKMOBILE"
-      ],
+      "aliases": ["TRACKMOBILE"],
       "formerNames": [],
       "officialWebsite": "https://www.trackmobile.com/",
-      "officialDomains": [
-        "trackmobile.com"
-      ],
+      "officialDomains": ["trackmobile.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Trackmobile manufactures mobile railcar movers for industrial rail operations. Its official range includes diesel and electric bi-modal machines that travel on both road surfaces and rail tracks.",
-      "fullDescription": [
-        "Trackmobile's manufacturer-owned site establishes the US company identity and its specialization in railcar-moving equipment.",
-        "The documented machines couple to railcars and provide controlled movement within plants, terminals and maintenance facilities without requiring a full-size locomotive."
-      ],
-      "productCategories": [
-        "Внутризаводская логистика",
-        "Погрузочная техника"
-      ],
-      "productFamilies": [
-        "Diesel Railcar Movers",
-        "Electric Railcar Movers",
-        "Bi-Modal Railcar Movers"
-      ],
-      "series": [
-        "Vulcan",
-        "Boss",
-        "Atlas",
-        "Titan",
-        "LOK"
-      ],
-      "industries": [
-        "Железнодорожный транспорт",
-        "Промышленное производство",
-        "Интралогистика"
-      ],
+      "fullDescription": ["Trackmobile's manufacturer-owned site establishes the US company identity and its specialization in railcar-moving equipment.", "The documented machines couple to railcars and provide controlled movement within plants, terminals and maintenance facilities without requiring a full-size locomotive."],
+      "productCategories": ["Внутризаводская логистика", "Погрузочная техника"],
+      "productFamilies": ["Diesel Railcar Movers", "Electric Railcar Movers", "Bi-Modal Railcar Movers"],
+      "series": ["Vulcan", "Boss", "Atlas", "Titan", "LOK"],
+      "industries": ["Железнодорожный транспорт", "Промышленное производство", "Интралогистика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.trackmobile.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-trackmobile-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_AND_BIMODAL_RAILCAR_MOVER_SCOPE",
-          "url": "https://www.trackmobile.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.trackmobile.com/"],
+      "sources": [{"sourceId":"brand-trackmobile-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_AND_BIMODAL_RAILCAR_MOVER_SCOPE","url":"https://www.trackmobile.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tradinco-instruments",
       "officialName": "Tradinco Instruments B.V.",
       "displayName": "Tradinco Instruments",
-      "aliases": [
-        "TRADINCO INSTRUMENTS",
-        "TRADINCO"
-      ],
+      "aliases": ["TRADINCO INSTRUMENTS", "TRADINCO"],
       "formerNames": [],
       "officialWebsite": "https://tradinco.com/products/",
-      "officialDomains": [
-        "tradinco.com"
-      ],
+      "officialDomains": ["tradinco.com"],
       "country": "Netherlands",
-      "headquarters": "Zoetermeer, Netherlands",
+      "headquarters":"Zoetermeer, Netherlands",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Tradinco Instruments develops calibration instruments, sensors, test benches and supporting software. Its official range includes Traqc instruments and AutoCal+ solutions for pressure, temperature and electrical calibration workflows.",
-      "fullDescription": [
-        "Tradinco's manufacturer-owned product directory establishes the Dutch company identity and identifies products developed within its own Traqc range.",
-        "The documented portfolio combines portable or bench instruments, sensor interfaces, automated test systems and software used to generate, measure and document calibration conditions."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Калибровочное оборудование",
-        "Промышленные датчики",
-        "Программное обеспечение для промышленности"
-      ],
-      "productFamilies": [
-        "Traqc Instruments",
-        "Calibration Test Benches",
-        "Pressure and Temperature Sensors",
-        "AutoCal+ Software"
-      ],
-      "series": [
-        "Traqc",
-        "AutoCal+"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Лабораторные исследования"
-      ],
+      "fullDescription": ["Tradinco's manufacturer-owned product directory establishes the Dutch company identity and identifies products developed within its own Traqc range.", "The documented portfolio combines portable or bench instruments, sensor interfaces, automated test systems and software used to generate, measure and document calibration conditions."],
+      "productCategories": ["Измерительное оборудование", "Калибровочное оборудование", "Промышленные датчики", "Программное обеспечение для промышленности"],
+      "productFamilies": ["Traqc Instruments", "Calibration Test Benches", "Pressure and Temperature Sensors", "AutoCal+ Software"],
+      "series": ["Traqc", "AutoCal+"],
+      "industries": ["Промышленное производство", "Лабораторные исследования"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://tradinco.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tradinco-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_OWN_CALIBRATION_PRODUCT_SCOPE",
-          "url": "https://tradinco.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-tradinco-instruments-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://tradinco.com/contact/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://tradinco.com/products/"],
+      "sources": [{"sourceId":"brand-tradinco-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_OWN_CALIBRATION_PRODUCT_SCOPE","url":"https://tradinco.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-tradinco-instruments-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://tradinco.com/contact/","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "trafag",
       "officialName": "Trafag AG",
       "displayName": "Trafag",
-      "aliases": [
-        "TRAFAG"
-      ],
+      "aliases": ["TRAFAG"],
       "formerNames": [],
       "officialWebsite": "https://www.trafag.com/en/",
-      "officialDomains": [
-        "trafag.com",
-        "media.trafag.com"
-      ],
+      "officialDomains": ["trafag.com", "media.trafag.com"],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Trafag manufactures sensors and instruments for pressure, temperature and gas-density monitoring. Its official portfolio includes transmitters, switches, gauges, thermostats and level-sensing products.",
-      "fullDescription": [
-        "Trafag's manufacturer-owned corporate brochure establishes the Swiss company identity and its specialization in pressure and temperature measurement.",
-        "The documented range combines electronic and electromechanical sensing technologies for industrial, mobile, marine, rail and energy applications."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Измерительное оборудование",
-        "Промышленные реле"
-      ],
-      "productFamilies": [
-        "Pressure Transmitters",
-        "Pressure Switches",
-        "Pressure Gauges",
-        "Thermostats",
-        "Temperature Transmitters",
-        "Gas Density Monitors",
-        "Level Sensors"
-      ],
+      "fullDescription": ["Trafag's manufacturer-owned corporate brochure establishes the Swiss company identity and its specialization in pressure and temperature measurement.", "The documented range combines electronic and electromechanical sensing technologies for industrial, mobile, marine, rail and energy applications."],
+      "productCategories": ["Промышленные датчики", "Измерительное оборудование", "Промышленные реле"],
+      "productFamilies": ["Pressure Transmitters", "Pressure Switches", "Pressure Gauges", "Thermostats", "Temperature Transmitters", "Gas Density Monitors", "Level Sensors"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Морская промышленность",
-        "Железнодорожный транспорт",
-        "Энергетика"
-      ],
-      "officialCatalogs": [
-        "https://media.trafag.com/literature/brochure/H70505b_EN_Trafag_Imagebook_Hires.pdf"
-      ],
-      "documentationSources": [
-        "https://media.trafag.com/literature/brochure/H70505b_EN_Trafag_Imagebook_Hires.pdf"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-trafag-corporate-brochure",
-          "tier": "A",
-          "type": "OFFICIAL_CORPORATE_CATALOG",
-          "scope": "LEGAL_IDENTITY_AND_PRESSURE_TEMPERATURE_SENSOR_SCOPE",
-          "url": "https://media.trafag.com/literature/brochure/H70505b_EN_Trafag_Imagebook_Hires.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Промышленное производство", "Морская промышленность", "Железнодорожный транспорт", "Энергетика"],
+      "officialCatalogs": ["https://media.trafag.com/literature/brochure/H70505b_EN_Trafag_Imagebook_Hires.pdf"],
+      "documentationSources": ["https://media.trafag.com/literature/brochure/H70505b_EN_Trafag_Imagebook_Hires.pdf"],
+      "sources": [{"sourceId":"brand-trafag-corporate-brochure","tier":"A","type":"OFFICIAL_CORPORATE_CATALOG","scope":"LEGAL_IDENTITY_AND_PRESSURE_TEMPERATURE_SENSOR_SCOPE","url":"https://media.trafag.com/literature/brochure/H70505b_EN_Trafag_Imagebook_Hires.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tramec",
       "officialName": "Tramec S.r.l.",
       "displayName": "Tramec",
-      "aliases": [
-        "TRAMEC"
-      ],
+      "aliases": ["TRAMEC"],
       "formerNames": [],
       "officialWebsite": "https://www.tramec.it/en/company",
-      "officialDomains": [
-        "tramec.it"
-      ],
+      "officialDomains": ["tramec.it"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1986,
       "parentCompany": null,
       "shortDescription": "Tramec manufactures gear units and geared-drive components. Its official range includes bevel-helical, parallel-shaft, shaft-mounted, right-angle, planetary and worm gearboxes together with electric motors.",
-      "fullDescription": [
-        "Tramec's manufacturer-owned company page establishes the Italian business and its power-transmission specialization since 1986.",
-        "The documented portfolio provides alternative shaft arrangements and reduction technologies for adapting motor speed and torque in industrial machinery."
-      ],
-      "productCategories": [
-        "Промышленные редукторы",
-        "Мотор-редукторы",
-        "Электродвигатели"
-      ],
-      "productFamilies": [
-        "Bevel-Helical Gearboxes",
-        "Parallel-Shaft Gearboxes",
-        "Shaft-Mounted Gearboxes",
-        "Planetary Gearboxes",
-        "Worm Gearboxes",
-        "Electric Motors"
-      ],
+      "fullDescription": ["Tramec's manufacturer-owned company page establishes the Italian business and its power-transmission specialization since 1986.", "The documented portfolio provides alternative shaft arrangements and reduction technologies for adapting motor speed and torque in industrial machinery."],
+      "productCategories": ["Промышленные редукторы", "Мотор-редукторы", "Электродвигатели"],
+      "productFamilies": ["Bevel-Helical Gearboxes", "Parallel-Shaft Gearboxes", "Shaft-Mounted Gearboxes", "Planetary Gearboxes", "Worm Gearboxes", "Electric Motors"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tramec.it/en/company"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tramec-company",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_PAGE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_GEAR_UNIT_SCOPE",
-          "url": "https://www.tramec.it/en/company",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.tramec.it/en/company"],
+      "sources": [{"sourceId":"brand-tramec-company","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_PAGE","scope":"LEGAL_IDENTITY_HISTORY_AND_GEAR_UNIT_SCOPE","url":"https://www.tramec.it/en/company","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "trane",
       "officialName": "Trane",
       "displayName": "Trane",
-      "aliases": [
-        "TRANE"
-      ],
+      "aliases": ["TRANE"],
       "formerNames": [],
       "officialWebsite": "https://www.trane.com/commercial/north-america/us/en/products-systems.html",
-      "officialDomains": [
-        "trane.com"
-      ],
+      "officialDomains": ["trane.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Trane Technologies plc",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Trane develops commercial heating, ventilation, air-conditioning and building-control systems. Its official product range includes chillers, airside equipment, heat pumps, packaged systems, controls and thermal energy storage.",
-      "fullDescription": [
-        "Trane's manufacturer-owned commercial product directory establishes the current brand identity within Trane Technologies.",
-        "The documented portfolio combines equipment that generates and distributes heating or cooling with control and storage systems used to manage building thermal performance."
-      ],
-      "productCategories": [
-        "Промышленное охлаждение",
-        "Теплообменное оборудование",
-        "HVAC-контроллеры",
-        "Системы накопления энергии"
-      ],
-      "productFamilies": [
-        "Chillers",
-        "Airside Equipment",
-        "Heat Pumps",
-        "Packaged HVAC Systems",
-        "Building Controls",
-        "Thermal Energy Storage"
-      ],
+      "fullDescription": ["Trane's manufacturer-owned commercial product directory establishes the current brand identity within Trane Technologies.", "The documented portfolio combines equipment that generates and distributes heating or cooling with control and storage systems used to manage building thermal performance."],
+      "productCategories": ["Промышленное охлаждение", "Теплообменное оборудование", "HVAC-контроллеры", "Системы накопления энергии"],
+      "productFamilies": ["Chillers", "Airside Equipment", "Heat Pumps", "Packaged HVAC Systems", "Building Controls", "Thermal Energy Storage"],
       "series": [],
-      "industries": [
-        "Автоматизация зданий",
-        "Инфраструктура",
-        "Промышленное производство"
-      ],
+      "industries": ["Автоматизация зданий", "Инфраструктура", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.trane.com/commercial/north-america/us/en/products-systems.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-trane-commercial-products",
-          "tier": "A",
-          "type": "OFFICIAL_BRAND_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_GROUP_BRAND_AND_COMMERCIAL_HVAC_SCOPE",
-          "url": "https://www.trane.com/commercial/north-america/us/en/products-systems.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.trane.com/commercial/north-america/us/en/products-systems.html"],
+      "sources": [{"sourceId":"brand-trane-commercial-products","tier":"A","type":"OFFICIAL_BRAND_PRODUCT_DIRECTORY","scope":"CURRENT_GROUP_BRAND_AND_COMMERCIAL_HVAC_SCOPE","url":"https://www.trane.com/commercial/north-america/us/en/products-systems.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "transfluid",
       "officialName": "Transfluid S.p.A.",
       "displayName": "Transfluid",
-      "aliases": [
-        "TRANSFLUID"
-      ],
+      "aliases": ["TRANSFLUID"],
       "formerNames": [],
       "officialWebsite": "https://www.transfluid.eu/en/products/",
-      "officialDomains": [
-        "transfluid.eu"
-      ],
+      "officialDomains": ["transfluid.eu"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Transfluid manufactures power-transmission and propulsion equipment. Its official range includes fluid and flexible couplings, brakes, clutches, power take-offs, industrial transmissions and electric or hybrid propulsion systems.",
-      "fullDescription": [
-        "Transfluid's manufacturer-owned product directory establishes the Italian company identity and its specialization in transmitting and controlling mechanical power.",
-        "The documented portfolio covers torsional connection, controlled engagement, speed adaptation and propulsion functions for industrial and marine drivetrains."
-      ],
-      "productCategories": [
-        "Промышленные муфты и тормоза",
-        "Механические передачи",
-        "Системы управления движением"
-      ],
-      "productFamilies": [
-        "Fluid Couplings",
-        "Flexible Couplings",
-        "Industrial Brakes",
-        "Clutches and PTOs",
-        "Industrial Transmissions",
-        "Electric and Hybrid Propulsion"
-      ],
+      "fullDescription": ["Transfluid's manufacturer-owned product directory establishes the Italian company identity and its specialization in transmitting and controlling mechanical power.", "The documented portfolio covers torsional connection, controlled engagement, speed adaptation and propulsion functions for industrial and marine drivetrains."],
+      "productCategories": ["Промышленные муфты и тормоза", "Механические передачи", "Системы управления движением"],
+      "productFamilies": ["Fluid Couplings", "Flexible Couplings", "Industrial Brakes", "Clutches and PTOs", "Industrial Transmissions", "Electric and Hybrid Propulsion"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Морская промышленность",
-        "Транспорт"
-      ],
+      "industries": ["Промышленное производство", "Морская промышленность", "Транспорт"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.transfluid.eu/en/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-transfluid-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_POWER_TRANSMISSION_PROPULSION_SCOPE",
-          "url": "https://www.transfluid.eu/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.transfluid.eu/en/products/"],
+      "sources": [{"sourceId":"brand-transfluid-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_POWER_TRANSMISSION_PROPULSION_SCOPE","url":"https://www.transfluid.eu/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "transmotec",
       "officialName": "Transmotec",
       "displayName": "Transmotec",
-      "aliases": [
-        "TRANSMOTEC"
-      ],
+      "aliases": ["TRANSMOTEC"],
       "formerNames": [],
       "officialWebsite": "https://transmotec.com/",
-      "officialDomains": [
-        "transmotec.com"
-      ],
+      "officialDomains": ["transmotec.com"],
       "country": "Sweden",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Transmotec supplies compact electric motion components for equipment manufacturers. Its official portfolio includes DC, AC, brushless and stepper motors, gearmotors, linear actuators, solenoids and power supplies.",
-      "fullDescription": [
-        "Transmotec's manufacturer-owned site establishes the brand identity and its focus on configurable electric motion products.",
-        "The documented range combines rotary and linear drive components with gearing, switching and power accessories for automation, machinery and embedded equipment."
-      ],
-      "productCategories": [
-        "Электродвигатели",
-        "Мотор-редукторы",
-        "Промышленные актуаторы",
-        "Источники питания"
-      ],
-      "productFamilies": [
-        "DC Motors",
-        "AC Motors",
-        "Brushless Motors",
-        "Stepper Motors",
-        "Gearmotors",
-        "Linear Actuators",
-        "Solenoids",
-        "Power Supplies"
-      ],
+      "fullDescription": ["Transmotec's manufacturer-owned site establishes the brand identity and its focus on configurable electric motion products.", "The documented range combines rotary and linear drive components with gearing, switching and power accessories for automation, machinery and embedded equipment."],
+      "productCategories": ["Электродвигатели", "Мотор-редукторы", "Промышленные актуаторы", "Источники питания"],
+      "productFamilies": ["DC Motors", "AC Motors", "Brushless Motors", "Stepper Motors", "Gearmotors", "Linear Actuators", "Solenoids", "Power Supplies"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Машиностроение",
-        "Медицинская промышленность"
-      ],
+      "industries": ["Промышленная автоматизация", "Машиностроение", "Медицинская промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://transmotec.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-transmotec-official",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_SITE",
-          "scope": "CURRENT_IDENTITY_AND_COMPACT_ELECTRIC_MOTION_SCOPE",
-          "url": "https://transmotec.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://transmotec.com/"],
+      "sources": [{"sourceId":"brand-transmotec-official","tier":"A","type":"OFFICIAL_PRODUCT_SITE","scope":"CURRENT_IDENTITY_AND_COMPACT_ELECTRIC_MOTION_SCOPE","url":"https://transmotec.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "transtecno",
       "officialName": "Transtecno S.r.l.",
       "displayName": "Transtecno",
-      "aliases": [
-        "TRANSTECNO"
-      ],
+      "aliases": ["TRANSTECNO"],
       "formerNames": [],
       "officialWebsite": "https://transtecno.com/us/",
-      "officialDomains": [
-        "transtecno.com"
-      ],
+      "officialDomains": ["transtecno.com"],
       "country": "Italy",
-      "headquarters": "Anzola Emilia, Italy",
+      "headquarters":"Anzola Emilia, Italy",
       "foundedYear": null,
       "parentCompany": "Interpump Group S.p.A.",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Transtecno manufactures gearmotors and power-transmission components within Interpump Group. Its official range includes worm, helical, bevel-helical and planetary gear units, motors, screw jacks and linear actuators.",
-      "fullDescription": [
-        "Transtecno's manufacturer-owned site establishes the Italian company identity and its current group relationship.",
-        "The documented portfolio combines rotary reduction drives with electromechanical linear-motion products for machinery, automation and mobile equipment."
-      ],
-      "productCategories": [
-        "Мотор-редукторы",
-        "Промышленные редукторы",
-        "Электродвигатели",
-        "Промышленные актуаторы"
-      ],
-      "productFamilies": [
-        "Worm Gearmotors",
-        "Helical Gearmotors",
-        "Bevel-Helical Gear Units",
-        "Planetary Gear Units",
-        "Electric Motors",
-        "Screw Jacks",
-        "Linear Actuators"
-      ],
+      "fullDescription": ["Transtecno's manufacturer-owned site establishes the Italian company identity and its current group relationship.", "The documented portfolio combines rotary reduction drives with electromechanical linear-motion products for machinery, automation and mobile equipment."],
+      "productCategories": ["Мотор-редукторы", "Промышленные редукторы", "Электродвигатели", "Промышленные актуаторы"],
+      "productFamilies": ["Worm Gearmotors", "Helical Gearmotors", "Bevel-Helical Gear Units", "Planetary Gear Units", "Electric Motors", "Screw Jacks", "Linear Actuators"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленная автоматизация",
-        "Промышленное производство"
-      ],
+      "industries": ["Машиностроение", "Промышленная автоматизация", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://transtecno.com/us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-transtecno-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_GEARMOTOR_SCOPE",
-          "url": "https://transtecno.com/us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://transtecno.com/us/"],
+      "sources": [{"sourceId":"brand-transtecno-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_GEARMOTOR_SCOPE","url":"https://transtecno.com/us/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "travaini-pumps-usa",
       "officialName": "Travaini Pumps USA",
       "displayName": "Travaini Pumps USA",
-      "aliases": [
-        "TRAVAINI PUMPS USA",
-        "TRAVAINI USA"
-      ],
+      "aliases": ["TRAVAINI PUMPS USA", "TRAVAINI USA"],
       "formerNames": [],
       "officialWebsite": "https://travaini.com/",
-      "officialDomains": [
-        "travaini.com"
-      ],
+      "officialDomains": ["travaini.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Travaini Pumps USA supplies vacuum and pumping systems from the Travaini range. Its official site covers liquid-ring vacuum pumps and compressors, rotary-vane pumps, boosters, centrifugal pumps and engineered systems.",
-      "fullDescription": [
-        "Travaini Pumps USA's manufacturer-owned site establishes the US company identity and the equipment scope represented by this profile.",
-        "The documented range combines vacuum generation, gas compression and liquid pumping technologies with packaged systems for industrial process duties."
-      ],
-      "productCategories": [
-        "Вакуумное оборудование",
-        "Промышленные насосы",
-        "Компрессоры"
-      ],
-      "productFamilies": [
-        "Liquid-Ring Vacuum Pumps",
-        "Liquid-Ring Compressors",
-        "Rotary-Vane Pumps",
-        "Vacuum Boosters",
-        "Centrifugal Pumps",
-        "Engineered Vacuum Systems"
-      ],
+      "fullDescription": ["Travaini Pumps USA's manufacturer-owned site establishes the US company identity and the equipment scope represented by this profile.", "The documented range combines vacuum generation, gas compression and liquid pumping technologies with packaged systems for industrial process duties."],
+      "productCategories": ["Вакуумное оборудование", "Промышленные насосы", "Компрессоры"],
+      "productFamilies": ["Liquid-Ring Vacuum Pumps", "Liquid-Ring Compressors", "Rotary-Vane Pumps", "Vacuum Boosters", "Centrifugal Pumps", "Engineered Vacuum Systems"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Промышленное производство",
-        "Энергетика"
-      ],
+      "industries": ["Химическая промышленность", "Промышленное производство", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://travaini.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-travaini-usa-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_AND_VACUUM_PUMP_SYSTEM_SCOPE",
-          "url": "https://travaini.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://travaini.com/"],
+      "sources": [{"sourceId":"brand-travaini-usa-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_AND_VACUUM_PUMP_SYSTEM_SCOPE","url":"https://travaini.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "trevisan",
       "officialName": "Trevisan Macchine Utensili S.p.A.",
       "displayName": "Trevisan",
-      "aliases": [
-        "TREVISAN",
-        "TREVISAN MACHINE TOOLS"
-      ],
+      "aliases": ["TREVISAN", "TREVISAN MACHINE TOOLS"],
       "formerNames": [],
       "officialWebsite": "https://www.trevisanmachinetools.com/",
-      "officialDomains": [
-        "trevisanmachinetools.com"
-      ],
+      "officialDomains": ["trevisanmachinetools.com"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1963,
       "parentCompany": null,
       "shortDescription": "Trevisan manufactures machine tools for combined turning, milling and machining operations. Its official range includes horizontal U-axis machining centres, flexible production machines and special transfer or turning lines.",
-      "fullDescription": [
-        "Trevisan's manufacturer-owned site establishes the Italian company and its machine-tool activity since 1963.",
-        "The documented platforms integrate multiple cutting operations in one setup and support production of valves, flanges and other complex rotational components."
-      ],
-      "productCategories": [
-        "Станочное оборудование",
-        "CNC-оборудование",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "U-Axis Machining Centres",
-        "Horizontal Machining Centres",
-        "Flexible Production Machines",
-        "Special Turning Lines"
-      ],
+      "fullDescription": ["Trevisan's manufacturer-owned site establishes the Italian company and its machine-tool activity since 1963.", "The documented platforms integrate multiple cutting operations in one setup and support production of valves, flanges and other complex rotational components."],
+      "productCategories": ["Станочное оборудование", "CNC-оборудование", "Промышленные машины"],
+      "productFamilies": ["U-Axis Machining Centres", "Horizontal Machining Centres", "Flexible Production Machines", "Special Turning Lines"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Машиностроение",
-        "Нефтегазовая промышленность"
-      ],
+      "industries": ["Металлообработка", "Машиностроение", "Нефтегазовая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.trevisanmachinetools.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-trevisan-official",
-          "tier": "A",
-          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_COMBINED_MACHINE_TOOL_SCOPE",
-          "url": "https://www.trevisanmachinetools.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.trevisanmachinetools.com/"],
+      "sources": [{"sourceId":"brand-trevisan-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_COMBINED_MACHINE_TOOL_SCOPE","url":"https://www.trevisanmachinetools.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     }
   ]
 }

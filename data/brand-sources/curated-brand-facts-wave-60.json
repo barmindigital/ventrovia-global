@@ -6,59 +6,42 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-20",
       "reason": "The ELTACON label did not resolve to a manufacturer-owned domain with a verifiable legal identity and substantive current product portfolio. Name-only matching would create a wrong-company risk.",
-      "attemptedUrls": [
-        "https://eltacon.eu/",
-        "https://www.eltacon.de/"
-      ]
+      "attemptedUrls": ["https://eltacon.eu/", "https://www.eltacon.de/"]
     },
     {
       "manufacturerId": "oteco",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-20",
       "reason": "OTECO is used by more than one industrial business and the repository record provides no legal name, country, domain or product discriminator. An authoritative identity match was not established.",
-      "attemptedUrls": [
-        "https://www.otecousa.com/",
-        "https://www.oteco.com/"
-      ]
+      "attemptedUrls": ["https://www.otecousa.com/", "https://www.oteco.com/"]
     },
     {
       "manufacturerId": "bb-battery",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-20",
       "reason": "The likely B.B. Battery manufacturer domain timed out and no alternate manufacturer-owned About and Products source could be validated without relying on distributors.",
-      "attemptedUrls": [
-        "https://www.bb-battery.com/"
-      ]
+      "attemptedUrls": ["https://www.bb-battery.com/"]
     },
     {
       "manufacturerId": "envirotech",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-20",
       "reason": "ENVIROTECH is shared by unrelated environmental, pump, valve and process-equipment businesses. The repository record lacks a legal-name, location or product discriminator required for a safe match.",
-      "attemptedUrls": [
-        "https://www.envirotech.com/",
-        "https://www.unitedenvirotech.com/"
-      ]
+      "attemptedUrls": ["https://www.envirotech.com/", "https://www.unitedenvirotech.com/"]
     },
     {
       "manufacturerId": "itw-packaging-systems-group",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-20",
       "reason": "ITW Packaging Systems Group is a historical umbrella identity covering multiple continuing ITW packaging brands. Current manufacturer-owned evidence does not support publishing it as one current product manufacturer without editorial entity resolution.",
-      "attemptedUrls": [
-        "https://www.itw.com/",
-        "https://www.signode.com/"
-      ]
+      "attemptedUrls": ["https://www.itw.com/", "https://www.signode.com/"]
     },
     {
       "manufacturerId": "jvm",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-20",
       "reason": "The three-letter JVM identity is insufficient to select one manufacturer. Searches produced unrelated industrial entities and no domain or product discriminator is present in the repository record.",
-      "attemptedUrls": [
-        "https://www.j-v-m.com/",
-        "https://www.joest.com/"
-      ]
+      "attemptedUrls": ["https://www.j-v-m.com/", "https://www.joest.com/"]
     }
   ],
   "profiles": [
@@ -66,968 +49,328 @@
       "manufacturerId": "floway-pumps",
       "officialName": "Floway",
       "displayName": "Floway Pumps",
-      "aliases": [
-        "FLOWAY",
-        "FLOWAY PUMPS"
-      ],
+      "aliases": ["FLOWAY", "FLOWAY PUMPS"],
       "formerNames": [],
       "officialWebsite": "https://www.trilliumflow.com/brands/floway/",
-      "officialDomains": [
-        "trilliumflow.com",
-        "floway.com"
-      ],
+      "officialDomains": ["trilliumflow.com", "floway.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": 1934,
       "parentCompany": "Trillium Flow Technologies",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Floway is a Trillium Flow Technologies brand for engineered vertical pumps. Its official range covers vertical turbine and vertical process configurations for water, wastewater, mining, energy, oil and gas, desalination and general industrial duties.",
-      "fullDescription": [
-        "Floway is Trillium Flow Technologies' vertical-pump brand, with a documented history dating to 1934. The official portfolio focuses on vertical turbine and vertical process pump configurations, including sump and barrel arrangements for water intake, process service, dewatering and higher-pressure applications. Floway equipment is manufactured in Fresno, California, and serves water and wastewater, mining, energy, oil and gas, desalination and general industry."
-      ],
-      "productCategories": [
-        "Вертикальные турбинные насосы",
-        "Вертикальные технологические насосы",
-        "Насосы для водоснабжения",
-        "Насосы для сточных вод"
-      ],
-      "productFamilies": [
-        "Vertical Turbine Pumps",
-        "Vertical Process Pumps",
-        "Sump Pumps",
-        "Barrel Pumps"
-      ],
-      "series": [
-        "VTP",
-        "VHP"
-      ],
-      "industries": [
-        "Водоснабжение",
-        "Водоочистка",
-        "Нефтегазовая промышленность",
-        "Горнодобывающая промышленность",
-        "Энергетика",
-        "Опреснение воды"
-      ],
-      "officialCatalogs": [
-        "https://salestools.floway.com/Docs/TDH%20Catalog%202020.pdf"
-      ],
-      "documentationSources": [
-        "https://www.trilliumflow.com/brands/floway/"
-      ],
+      "fullDescription": ["Floway is Trillium Flow Technologies' vertical-pump brand, with a documented history dating to 1934. The official portfolio focuses on vertical turbine and vertical process pump configurations, including sump and barrel arrangements for water intake, process service, dewatering and higher-pressure applications. Floway equipment is manufactured in Fresno, California, and serves water and wastewater, mining, energy, oil and gas, desalination and general industry."],
+      "productCategories": ["Вертикальные турбинные насосы", "Вертикальные технологические насосы", "Насосы для водоснабжения", "Насосы для сточных вод"],
+      "productFamilies": ["Vertical Turbine Pumps", "Vertical Process Pumps", "Sump Pumps", "Barrel Pumps"],
+      "series": ["VTP", "VHP"],
+      "industries": ["Водоснабжение", "Водоочистка", "Нефтегазовая промышленность", "Горнодобывающая промышленность", "Энергетика", "Опреснение воды"],
+      "officialCatalogs": ["https://salestools.floway.com/Docs/TDH%20Catalog%202020.pdf"],
+      "documentationSources": ["https://www.trilliumflow.com/brands/floway/"],
       "sources": [
-        {
-          "sourceId": "brand-floway-trillium-profile",
-          "tier": "B",
-          "type": "PARENT_BRAND_PROFILE",
-          "scope": "BRAND_IDENTITY_PARENT_FOUNDED_MANUFACTURING_PRODUCT_SCOPE_AND_INDUSTRIES",
-          "url": "https://www.trilliumflow.com/brands/floway/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-floway-official-handbook",
-          "tier": "A",
-          "type": "OFFICIAL_DOCUMENT",
-          "scope": "VERTICAL_PUMP_FAMILIES_SPECIFICATIONS_AND_APPLICATIONS",
-          "url": "https://salestools.floway.com/Docs/TDH%20Catalog%202020.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-floway-trillium-profile","tier":"B","type":"PARENT_BRAND_PROFILE","scope":"BRAND_IDENTITY_PARENT_FOUNDED_MANUFACTURING_PRODUCT_SCOPE_AND_INDUSTRIES","url":"https://www.trilliumflow.com/brands/floway/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-floway-official-handbook","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"VERTICAL_PUMP_FAMILIES_SPECIFICATIONS_AND_APPLICATIONS","url":"https://salestools.floway.com/Docs/TDH%20Catalog%202020.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "huller-hille",
       "officialName": "Hüller Hille GmbH",
       "displayName": "Hüller Hille",
-      "aliases": [
-        "HULLER HILLE",
-        "Hueller Hille",
-        "HÜLLER HILLE"
-      ],
+      "aliases": ["HULLER HILLE", "Hueller Hille", "HÜLLER HILLE"],
       "formerNames": [],
       "officialWebsite": "https://www.hueller-hille.com/en/home/",
-      "officialDomains": [
-        "hueller-hille.com"
-      ],
+      "officialDomains": ["hueller-hille.com"],
       "country": "Germany",
       "headquarters": "Binau, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Hüller Hille develops horizontal machining centres for precision and heavy-duty metal cutting. Its official range includes four- and five-axis NBH platforms, tool-magazine options and customized machining solutions.",
-      "fullDescription": [
-        "Hüller Hille GmbH is a German machine-tool manufacturer based in Binau. The company develops and builds horizontal four- and five-axis machining centres for simultaneous precision machining and demanding heavy-duty cutting. Its official NBH portfolio can be configured with tool magazines, automation and application-specific options for machining components across industrial production sectors."
-      ],
-      "productCategories": [
-        "Горизонтальные обрабатывающие центры",
-        "Пятиосевые обрабатывающие центры",
-        "Станочные системы автоматизации",
-        "Инструментальные магазины"
-      ],
-      "productFamilies": [
-        "Horizontal 4-Axis Machining Centres",
-        "Horizontal 5-Axis Machining Centres",
-        "Tool Magazines and Options",
-        "Custom Machining Solutions"
-      ],
-      "series": [
-        "NBH"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Тяжёлое машиностроение",
-        "Автомобильная промышленность",
-        "Энергетическое машиностроение"
-      ],
+      "fullDescription": ["Hüller Hille GmbH is a German machine-tool manufacturer based in Binau. The company develops and builds horizontal four- and five-axis machining centres for simultaneous precision machining and demanding heavy-duty cutting. Its official NBH portfolio can be configured with tool magazines, automation and application-specific options for machining components across industrial production sectors."],
+      "productCategories": ["Горизонтальные обрабатывающие центры", "Пятиосевые обрабатывающие центры", "Станочные системы автоматизации", "Инструментальные магазины"],
+      "productFamilies": ["Horizontal 4-Axis Machining Centres", "Horizontal 5-Axis Machining Centres", "Tool Magazines and Options", "Custom Machining Solutions"],
+      "series": ["NBH"],
+      "industries": ["Металлообработка", "Тяжёлое машиностроение", "Автомобильная промышленность", "Энергетическое машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hueller-hille.com/en/home/"
-      ],
+      "documentationSources": ["https://www.hueller-hille.com/en/home/"],
       "sources": [
-        {
-          "sourceId": "brand-hueller-hille-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_SPECIALISATION_PRODUCT_FAMILY_AND_APPLICATIONS",
-          "url": "https://www.hueller-hille.com/en/home/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-hueller-hille-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_SPECIALISATION_PRODUCT_FAMILY_AND_APPLICATIONS","url":"https://www.hueller-hille.com/en/home/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "hydro-systems",
       "officialName": "Hydro Systems Company",
       "displayName": "Hydro Systems",
-      "aliases": [
-        "HYDRO SYSTEMS"
-      ],
+      "aliases": ["HYDRO SYSTEMS"],
       "formerNames": [],
       "officialWebsite": "https://www.hydrosystemsco.com/",
-      "officialDomains": [
-        "hydrosystemsco.com"
-      ],
+      "officialDomains": ["hydrosystemsco.com"],
       "country": "United States",
       "headquarters": "Cincinnati, Ohio, United States",
       "foundedYear": null,
       "parentCompany": "PSG, a Dover company",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Hydro Systems develops equipment for diluting, dosing and dispensing chemicals. Its official portfolio includes Venturi dispensers, peristaltic and water-driven pumps, central dosing systems, controllers and connected applications.",
-      "fullDescription": [
-        "Hydro Systems Company is a PSG and Dover business based in Cincinnati, Ohio. The manufacturer focuses on equipment that dilutes, doses and dispenses chemical concentrates in controlled quantities. Its official technologies include Venturi dispensers, peristaltic pumps, water-driven pumps, central dosing systems, controllers and web or mobile applications for cleaning, laundry, kitchen, animal-health, car-wash, horticulture and industrial operations."
-      ],
-      "productCategories": [
-        "Химические дозаторы",
-        "Перистальтические насосы",
-        "Водоприводные насосы",
-        "Централизованные системы дозирования",
-        "Контроллеры дозирования"
-      ],
-      "productFamilies": [
-        "Venturi Dispensers",
-        "Peristaltic Pumps",
-        "Water-Driven Pumps",
-        "Central Dosing Systems",
-        "Controllers and Applications"
-      ],
-      "series": [
-        "AccuMax",
-        "AccuMini",
-        "EvoClean",
-        "HydroMinder",
-        "DMx"
-      ],
-      "industries": [
-        "Профессиональная уборка",
-        "Прачечные",
-        "Коммерческие кухни",
-        "Животноводство",
-        "Автомойки",
-        "Промышленные процессы"
-      ],
+      "fullDescription": ["Hydro Systems Company is a PSG and Dover business based in Cincinnati, Ohio. The manufacturer focuses on equipment that dilutes, doses and dispenses chemical concentrates in controlled quantities. Its official technologies include Venturi dispensers, peristaltic pumps, water-driven pumps, central dosing systems, controllers and web or mobile applications for cleaning, laundry, kitchen, animal-health, car-wash, horticulture and industrial operations."],
+      "productCategories": ["Химические дозаторы", "Перистальтические насосы", "Водоприводные насосы", "Централизованные системы дозирования", "Контроллеры дозирования"],
+      "productFamilies": ["Venturi Dispensers", "Peristaltic Pumps", "Water-Driven Pumps", "Central Dosing Systems", "Controllers and Applications"],
+      "series": ["AccuMax", "AccuMini", "EvoClean", "HydroMinder", "DMx"],
+      "industries": ["Профессиональная уборка", "Прачечные", "Коммерческие кухни", "Животноводство", "Автомойки", "Промышленные процессы"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hydrosystemsco.com/products.html",
-        "https://www.hydrosystemsco.com/solutions-center.html"
-      ],
+      "documentationSources": ["https://www.hydrosystemsco.com/products.html", "https://www.hydrosystemsco.com/solutions-center.html"],
       "sources": [
-        {
-          "sourceId": "brand-hydro-systems-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_PARENT_HEADQUARTERS_SPECIALISATION_AND_TECHNOLOGIES",
-          "url": "https://www.hydrosystemsco.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-hydro-systems-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "PRODUCT_GROUPS_SERIES_MARKETS_AND_APPLICATIONS",
-          "url": "https://www.hydrosystemsco.com/products.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-hydro-systems-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_PARENT_HEADQUARTERS_SPECIALISATION_AND_TECHNOLOGIES","url":"https://www.hydrosystemsco.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-hydro-systems-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_SERIES_MARKETS_AND_APPLICATIONS","url":"https://www.hydrosystemsco.com/products.html","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "national-oilwell-varco",
       "officialName": "NOV Inc.",
       "displayName": "NOV",
-      "aliases": [
-        "NATIONAL OILWELL VARCO",
-        "National Oilwell Varco",
-        "NOV"
-      ],
-      "formerNames": [
-        "National Oilwell Varco, Inc."
-      ],
+      "aliases": ["NATIONAL OILWELL VARCO", "National Oilwell Varco", "NOV"],
+      "formerNames": ["National Oilwell Varco, Inc."],
       "officialWebsite": "https://www.nov.com/",
-      "officialDomains": [
-        "nov.com"
-      ],
+      "officialDomains": ["nov.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "NOV develops equipment, technologies and services for drilling, well construction, production and energy infrastructure. Its official portfolio spans rigs, drilling systems, downhole tools, pumps, pressure-control equipment, composite systems and digital solutions.",
-      "fullDescription": [
-        "NOV Inc., formerly National Oilwell Varco, is an energy-equipment and technology company serving drilling, well construction, completion, production and midstream operations. The official product and service portfolio includes land and offshore rig systems, top drives and pipe handling, drilling tools and instrumentation, pumps and fluid-processing equipment, pressure-control technologies, composite systems and digital solutions. NOV also documents technologies for geothermal, biogas, carbon capture, offshore wind and other energy-transition applications."
-      ],
-      "productCategories": [
-        "Буровые установки",
-        "Буровое оборудование",
-        "Оборудование для строительства скважин",
-        "Промышленные насосы",
-        "Оборудование контроля давления",
-        "Композитные трубопроводные системы",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Rig Equipment",
-        "Drilling Technologies",
-        "Well Construction Equipment",
-        "Production and Midstream Systems",
-        "Pumps and Fluid Processing",
-        "Pressure Control",
-        "Digital Solutions"
-      ],
+      "fullDescription": ["NOV Inc., formerly National Oilwell Varco, is an energy-equipment and technology company serving drilling, well construction, completion, production and midstream operations. The official product and service portfolio includes land and offshore rig systems, top drives and pipe handling, drilling tools and instrumentation, pumps and fluid-processing equipment, pressure-control technologies, composite systems and digital solutions. NOV also documents technologies for geothermal, biogas, carbon capture, offshore wind and other energy-transition applications."],
+      "productCategories": ["Буровые установки", "Буровое оборудование", "Оборудование для строительства скважин", "Промышленные насосы", "Оборудование контроля давления", "Композитные трубопроводные системы", "Промышленное программное обеспечение"],
+      "productFamilies": ["Rig Equipment", "Drilling Technologies", "Well Construction Equipment", "Production and Midstream Systems", "Pumps and Fluid Processing", "Pressure Control", "Digital Solutions"],
       "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Геотермальная энергетика",
-        "Морская энергетика",
-        "Промышленная инфраструктура"
-      ],
+      "industries": ["Нефтегазовая промышленность", "Геотермальная энергетика", "Морская энергетика", "Промышленная инфраструктура"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.nov.com/products-and-services",
-        "https://www.nov.com/products-and-services/document-library"
-      ],
+      "documentationSources": ["https://www.nov.com/products-and-services", "https://www.nov.com/products-and-services/document-library"],
       "sources": [
-        {
-          "sourceId": "brand-nov-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_IDENTITY_HISTORY_SPECIALISATION_AND_GLOBAL_SCOPE",
-          "url": "https://www.nov.com/about",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-nov-products",
-          "tier": "A",
-          "type": "PRODUCT_AND_SERVICE_DIRECTORY",
-          "scope": "PRODUCT_GROUPS_CAPABILITIES_BRANDS_AND_INDUSTRIES",
-          "url": "https://www.nov.com/products-and-services",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-nov-about","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HISTORY_SPECIALISATION_AND_GLOBAL_SCOPE","url":"https://www.nov.com/about","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-nov-products","tier":"A","type":"PRODUCT_AND_SERVICE_DIRECTORY","scope":"PRODUCT_GROUPS_CAPABILITIES_BRANDS_AND_INDUSTRIES","url":"https://www.nov.com/products-and-services","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "varmec",
       "officialName": "Varmec S.r.l.",
       "displayName": "Varmec",
-      "aliases": [
-        "VARMEC"
-      ],
+      "aliases": ["VARMEC"],
       "formerNames": [],
       "officialWebsite": "https://www.varmec.com/en/",
-      "officialDomains": [
-        "varmec.com"
-      ],
+      "officialDomains": ["varmec.com"],
       "country": "Italy",
-      "headquarters": "Thiene, Italy",
+      "headquarters":"Thiene, Italy",
       "foundedYear": null,
       "parentCompany": "Moonind Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Varmec designs and manufactures gearboxes, geared motors, speed variators and electric motors for industrial power transmission. The company is part of Moonind Group and provides modular drive components for machinery and automation.",
-      "fullDescription": [
-        "Varmec S.r.l. is an Italian power-transmission manufacturer within Moonind Group. Its official portfolio includes in-line helical, worm, bevel-helical and shaft-mounted gear units, geared motors, mechanical speed variators and DC motors. These components support configurable motion and drive systems for industrial machinery and automation."
-      ],
-      "productCategories": [
-        "Промышленные редукторы",
-        "Мотор-редукторы",
-        "Вариаторы скорости",
-        "Электродвигатели постоянного тока"
-      ],
-      "productFamilies": [
-        "Helical Gearboxes",
-        "Worm Gearboxes",
-        "Bevel-Helical Gearboxes",
-        "Shaft-Mounted Gearboxes",
-        "Geared Motors",
-        "Mechanical Variators",
-        "DC Motors"
-      ],
+      "fullDescription": ["Varmec S.r.l. is an Italian power-transmission manufacturer within Moonind Group. Its official portfolio includes in-line helical, worm, bevel-helical and shaft-mounted gear units, geared motors, mechanical speed variators and DC motors. These components support configurable motion and drive systems for industrial machinery and automation."],
+      "productCategories": ["Промышленные редукторы", "Мотор-редукторы", "Вариаторы скорости", "Электродвигатели постоянного тока"],
+      "productFamilies": ["Helical Gearboxes", "Worm Gearboxes", "Bevel-Helical Gearboxes", "Shaft-Mounted Gearboxes", "Geared Motors", "Mechanical Variators", "DC Motors"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Машиностроение",
-        "Приводная техника"
-      ],
+      "industries": ["Промышленная автоматизация", "Машиностроение", "Приводная техника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.varmec.com/en/"
-      ],
+      "documentationSources": ["https://www.varmec.com/en/"],
       "sources": [
-        {
-          "sourceId": "brand-varmec-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_PARENT_SPECIALISATION_PRODUCT_GROUPS_AND_APPLICATIONS",
-          "url": "https://www.varmec.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-varmec-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.varmec.com/en/company",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+        {"sourceId":"brand-varmec-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_PARENT_SPECIALISATION_PRODUCT_GROUPS_AND_APPLICATIONS","url":"https://www.varmec.com/en/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ,{"sourceId":"brand-varmec-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.varmec.com/en/company","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "ensto",
       "officialName": "Ensto Oy",
       "displayName": "Ensto",
-      "aliases": [
-        "ENSTO"
-      ],
+      "aliases": ["ENSTO"],
       "formerNames": [],
       "officialWebsite": "https://www.ensto.com/",
-      "officialDomains": [
-        "ensto.com"
-      ],
+      "officialDomains": ["ensto.com"],
       "country": "Finland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Ensto develops equipment and systems for low-, medium- and high-voltage electricity distribution. Its official portfolio covers line and cable accessories, distribution automation, protection and control, substations and installation tools.",
-      "fullDescription": [
-        "Ensto Oy is a Finnish technology company and family business focused on electricity distribution. Its official offering includes overhead-line and underground-cable accessories, low- and medium-voltage distribution equipment, high-voltage transmission products, network automation, protection and control systems, substations and installation tools. The solutions are used by distribution network operators, industrial customers and renewable-energy producers."
-      ],
-      "productCategories": [
-        "Кабельная арматура",
-        "Линейная арматура",
-        "Автоматизация распределительных сетей",
-        "Релейная защита",
-        "Распределительные устройства",
-        "Подстанции",
-        "Монтажный инструмент"
-      ],
-      "productFamilies": [
-        "Line and Cable Accessories",
-        "Distribution Automation",
-        "Protection and Control",
-        "Substations",
-        "Installation Tools"
-      ],
+      "fullDescription": ["Ensto Oy is a Finnish technology company and family business focused on electricity distribution. Its official offering includes overhead-line and underground-cable accessories, low- and medium-voltage distribution equipment, high-voltage transmission products, network automation, protection and control systems, substations and installation tools. The solutions are used by distribution network operators, industrial customers and renewable-energy producers."],
+      "productCategories": ["Кабельная арматура", "Линейная арматура", "Автоматизация распределительных сетей", "Релейная защита", "Распределительные устройства", "Подстанции", "Монтажный инструмент"],
+      "productFamilies": ["Line and Cable Accessories", "Distribution Automation", "Protection and Control", "Substations", "Installation Tools"],
       "series": [],
-      "industries": [
-        "Электроэнергетика",
-        "Распределительные сети",
-        "Промышленная инфраструктура",
-        "Возобновляемая энергетика"
-      ],
+      "industries": ["Электроэнергетика", "Распределительные сети", "Промышленная инфраструктура", "Возобновляемая энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.ensto.com/products/",
-        "https://www.ensto.com/en-us/products/downloads/"
-      ],
+      "documentationSources": ["https://www.ensto.com/products/", "https://www.ensto.com/en-us/products/downloads/"],
       "sources": [
-        {
-          "sourceId": "brand-ensto-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_OWNERSHIP_SPECIALISATION_CUSTOMERS_AND_BUSINESS_LINES",
-          "url": "https://www.ensto.com/en-us/company/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-ensto-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "VOLTAGE_LEVELS_PRODUCT_GROUPS_AND_INSTALLATION_TOOLS",
-          "url": "https://www.ensto.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-ensto-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_OWNERSHIP_SPECIALISATION_CUSTOMERS_AND_BUSINESS_LINES","url":"https://www.ensto.com/en-us/company/about-us/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-ensto-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VOLTAGE_LEVELS_PRODUCT_GROUPS_AND_INSTALLATION_TOOLS","url":"https://www.ensto.com/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "haas-automation",
       "officialName": "Haas Automation, Inc.",
       "displayName": "Haas Automation",
-      "aliases": [
-        "HAAS AUTOMATION",
-        "Haas CNC"
-      ],
+      "aliases": ["HAAS AUTOMATION", "Haas CNC"],
       "formerNames": [],
       "officialWebsite": "https://www.haascnc.com/",
-      "officialDomains": [
-        "haascnc.com"
-      ],
+      "officialDomains": ["haascnc.com"],
       "country": "United States",
       "headquarters": "Oxnard, California, United States",
       "foundedYear": 1983,
       "parentCompany": null,
       "shortDescription": "Haas Automation manufactures CNC machine tools and integrated automation equipment. Its official product lines include vertical and horizontal machining centres, CNC lathes, rotary tables, five-axis machines, robots, cobots and pallet-handling systems.",
-      "fullDescription": [
-        "Haas Automation, Inc. is a United States machine-tool manufacturer founded in 1983 and based in Oxnard, California. The company manufactures vertical and horizontal machining centres, CNC lathes, rotary tables, five-axis and specialty machines. Its automation range includes robots and cobots, automatic parts loaders, pallet pools and bar feeders integrated with Haas controls and machine platforms."
-      ],
-      "productCategories": [
-        "Вертикальные обрабатывающие центры",
-        "Горизонтальные обрабатывающие центры",
-        "Токарные станки с ЧПУ",
-        "Поворотные столы",
-        "Пятиосевые станки",
-        "Станочная автоматизация"
-      ],
-      "productFamilies": [
-        "Vertical Machining Centres",
-        "Horizontal Machining Centres",
-        "CNC Lathes",
-        "Rotary Products",
-        "Five-Axis Machines",
-        "Automation Systems"
-      ],
-      "series": [
-        "VF",
-        "UMC",
-        "ST",
-        "EC",
-        "HA5C"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Машиностроение",
-        "Аэрокосмическая промышленность",
-        "Автомобильная промышленность",
-        "Профессиональное образование"
-      ],
+      "fullDescription": ["Haas Automation, Inc. is a United States machine-tool manufacturer founded in 1983 and based in Oxnard, California. The company manufactures vertical and horizontal machining centres, CNC lathes, rotary tables, five-axis and specialty machines. Its automation range includes robots and cobots, automatic parts loaders, pallet pools and bar feeders integrated with Haas controls and machine platforms."],
+      "productCategories": ["Вертикальные обрабатывающие центры", "Горизонтальные обрабатывающие центры", "Токарные станки с ЧПУ", "Поворотные столы", "Пятиосевые станки", "Станочная автоматизация"],
+      "productFamilies": ["Vertical Machining Centres", "Horizontal Machining Centres", "CNC Lathes", "Rotary Products", "Five-Axis Machines", "Automation Systems"],
+      "series": ["VF", "UMC", "ST", "EC", "HA5C"],
+      "industries": ["Металлообработка", "Машиностроение", "Аэрокосмическая промышленность", "Автомобильная промышленность", "Профессиональное образование"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.haascnc.com/index.html/",
-        "https://www.haascnc.com/machines/automation-systems/automation-models.html"
-      ],
+      "documentationSources": ["https://www.haascnc.com/index.html/", "https://www.haascnc.com/machines/automation-systems/automation-models.html"],
       "sources": [
-        {
-          "sourceId": "brand-haas-history",
-          "tier": "A",
-          "type": "ABOUT_AND_HISTORY",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_MANUFACTURING_AND_PRODUCT_LINES",
-          "url": "https://www.haascnc.com/about/history.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-haas-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MACHINE_TOOL_AND_AUTOMATION_PRODUCT_GROUPS",
-          "url": "https://www.haascnc.com/index.html/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-haas-history","tier":"A","type":"ABOUT_AND_HISTORY","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_MANUFACTURING_AND_PRODUCT_LINES","url":"https://www.haascnc.com/about/history.html","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-haas-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MACHINE_TOOL_AND_AUTOMATION_PRODUCT_GROUPS","url":"https://www.haascnc.com/index.html/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "intralox",
       "officialName": "Intralox, L.L.C.",
       "displayName": "Intralox",
-      "aliases": [
-        "INTRALOX"
-      ],
+      "aliases": ["INTRALOX"],
       "formerNames": [],
       "officialWebsite": "https://www.intralox.com/",
-      "officialDomains": [
-        "intralox.com"
-      ],
+      "officialDomains": ["intralox.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Intralox develops conveyor belting and automated product-handling equipment. Its official portfolio includes modular plastic belts, ThermoDrive belts, Activated Roller Belt systems, integrated-motion equipment and spiral conveyance solutions.",
-      "fullDescription": [
-        "Intralox develops conveyor belts, components and automated conveyance equipment for processing, manufacturing and distribution lines. Its official product portfolio includes modular plastic belting for straight, radius and chain applications, ThermoDrive homogeneous belting, Active Integrated Motion equipment, Activated Roller Belt systems and spiral solutions. The technologies support food processing, packaging, logistics, parcel handling and heavy industrial manufacturing."
-      ],
-      "productCategories": [
-        "Модульные конвейерные ленты",
-        "Гигиенические конвейерные ленты",
-        "Конвейерное оборудование",
-        "Сортировочные системы",
-        "Спиральные конвейеры"
-      ],
-      "productFamilies": [
-        "Modular Plastic Belting",
-        "ThermoDrive Belting",
-        "Active Integrated Motion",
-        "Activated Roller Belt Equipment",
-        "Spiral Solutions"
-      ],
-      "series": [
-        "ThermoDrive",
-        "ARB",
-        "Series 800",
-        "Series 1600",
-        "Series 1800",
-        "Series 2100"
-      ],
-      "industries": [
-        "Пищевая промышленность",
-        "Упаковка",
-        "Логистика",
-        "Почтовая сортировка",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Intralox develops conveyor belts, components and automated conveyance equipment for processing, manufacturing and distribution lines. Its official product portfolio includes modular plastic belting for straight, radius and chain applications, ThermoDrive homogeneous belting, Active Integrated Motion equipment, Activated Roller Belt systems and spiral solutions. The technologies support food processing, packaging, logistics, parcel handling and heavy industrial manufacturing."],
+      "productCategories": ["Модульные конвейерные ленты", "Гигиенические конвейерные ленты", "Конвейерное оборудование", "Сортировочные системы", "Спиральные конвейеры"],
+      "productFamilies": ["Modular Plastic Belting", "ThermoDrive Belting", "Active Integrated Motion", "Activated Roller Belt Equipment", "Spiral Solutions"],
+      "series": ["ThermoDrive", "ARB", "Series 800", "Series 1600", "Series 1800", "Series 2100"],
+      "industries": ["Пищевая промышленность", "Упаковка", "Логистика", "Почтовая сортировка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.intralox.com/products",
-        "https://www.intralox.com/belt-finder"
-      ],
+      "documentationSources": ["https://www.intralox.com/products", "https://www.intralox.com/belt-finder"],
       "sources": [
-        {
-          "sourceId": "brand-intralox-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "IDENTITY_SPECIALISATION_PRODUCT_FAMILIES_TECHNOLOGIES_AND_APPLICATIONS",
-          "url": "https://www.intralox.com/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-intralox-home",
-          "tier": "A",
-          "type": "ABOUT_AND_APPLICATIONS",
-          "scope": "COMPANY_SCOPE_GLOBAL_SERVICE_AND_INDUSTRIAL_APPLICATIONS",
-          "url": "https://www.intralox.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-intralox-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"IDENTITY_SPECIALISATION_PRODUCT_FAMILIES_TECHNOLOGIES_AND_APPLICATIONS","url":"https://www.intralox.com/products","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-intralox-home","tier":"A","type":"ABOUT_AND_APPLICATIONS","scope":"COMPANY_SCOPE_GLOBAL_SERVICE_AND_INDUSTRIAL_APPLICATIONS","url":"https://www.intralox.com/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "oventrop",
       "officialName": "Oventrop GmbH & Co. KG",
       "displayName": "Oventrop",
-      "aliases": [
-        "OVENTROP"
-      ],
+      "aliases": ["OVENTROP"],
       "formerNames": [],
       "officialWebsite": "https://www.oventrop.com/",
-      "officialDomains": [
-        "oventrop.com"
-      ],
+      "officialDomains": ["oventrop.com"],
       "country": "Germany",
       "headquarters": "Olsberg, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Oventrop develops valves, controls and system components for hydronic heating, cooling and building-services installations. Its range covers thermostatic valves, balancing and control valves, differential-pressure regulators, actuators and distribution systems.",
-      "fullDescription": [
-        "Oventrop GmbH & Co. KG is a German building-services manufacturer based in Olsberg. The official product documentation covers thermostatic radiator valves, hydronic balancing and commissioning valves, differential-pressure regulators, shut-off valves, actuators and control components for heating, cooling and air-conditioning circuits. Oventrop combines these components into systems for controlled flow, temperature and pressure distribution in buildings."
-      ],
-      "productCategories": [
-        "Термостатические клапаны",
-        "Балансировочные клапаны",
-        "Регуляторы перепада давления",
-        "Запорная арматура",
-        "Приводы клапанов",
-        "Компоненты систем отопления"
-      ],
-      "productFamilies": [
-        "Thermostatic Radiator Valves",
-        "Hydronic Balancing Valves",
-        "Differential-Pressure Regulators",
-        "Control and Shut-Off Valves",
-        "Valve Actuators"
-      ],
-      "series": [
-        "HydroControl",
-        "HydroCom",
-        "Hycocon",
-        "Hydromat",
-        "AV9"
-      ],
-      "industries": [
-        "Отопление",
-        "Вентиляция и кондиционирование",
-        "Инженерные системы зданий"
-      ],
-      "officialCatalogs": [
-        "https://www.oventrop.com/Pools/Files/brochures/en/p_hydraulischer_abgleich_en_a3e0fbce-d8de-449f-923b-727c9413b1b0.pdf"
-      ],
-      "documentationSources": [
-        "https://www.oventrop.com/"
-      ],
+      "fullDescription": ["Oventrop GmbH & Co. KG is a German building-services manufacturer based in Olsberg. The official product documentation covers thermostatic radiator valves, hydronic balancing and commissioning valves, differential-pressure regulators, shut-off valves, actuators and control components for heating, cooling and air-conditioning circuits. Oventrop combines these components into systems for controlled flow, temperature and pressure distribution in buildings."],
+      "productCategories": ["Термостатические клапаны", "Балансировочные клапаны", "Регуляторы перепада давления", "Запорная арматура", "Приводы клапанов", "Компоненты систем отопления"],
+      "productFamilies": ["Thermostatic Radiator Valves", "Hydronic Balancing Valves", "Differential-Pressure Regulators", "Control and Shut-Off Valves", "Valve Actuators"],
+      "series": ["HydroControl", "HydroCom", "Hycocon", "Hydromat", "AV9"],
+      "industries": ["Отопление", "Вентиляция и кондиционирование", "Инженерные системы зданий"],
+      "officialCatalogs": ["https://www.oventrop.com/Pools/Files/brochures/en/p_hydraulischer_abgleich_en_a3e0fbce-d8de-449f-923b-727c9413b1b0.pdf"],
+      "documentationSources": ["https://www.oventrop.com/"],
       "sources": [
-        {
-          "sourceId": "brand-oventrop-hydronics-document",
-          "tier": "A",
-          "type": "OFFICIAL_DOCUMENT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_PRODUCT_GROUPS_SERIES_AND_APPLICATIONS",
-          "url": "https://www.oventrop.com/Pools/Files/brochures/en/p_hydraulischer_abgleich_en_a3e0fbce-d8de-449f-923b-727c9413b1b0.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-oventrop-home",
-          "tier": "A",
-          "type": "PRODUCT_AND_SYSTEM_DIRECTORY",
-          "scope": "BRAND_IDENTITY_BUILDING_SERVICES_SCOPE_AND_CURRENT_PRODUCTS",
-          "url": "https://www.oventrop.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-oventrop-hydronics-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"LEGAL_IDENTITY_HEADQUARTERS_PRODUCT_GROUPS_SERIES_AND_APPLICATIONS","url":"https://www.oventrop.com/Pools/Files/brochures/en/p_hydraulischer_abgleich_en_a3e0fbce-d8de-449f-923b-727c9413b1b0.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-oventrop-home","tier":"A","type":"PRODUCT_AND_SYSTEM_DIRECTORY","scope":"BRAND_IDENTITY_BUILDING_SERVICES_SCOPE_AND_CURRENT_PRODUCTS","url":"https://www.oventrop.com/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "fluke",
       "officialName": "Fluke Corporation",
       "displayName": "Fluke",
-      "aliases": [
-        "FLUKE"
-      ],
+      "aliases": ["FLUKE"],
       "formerNames": [],
       "officialWebsite": "https://www.fluke.com/",
-      "officialDomains": [
-        "fluke.com"
-      ],
+      "officialDomains": ["fluke.com"],
       "country": "United States",
       "headquarters": "Everett, Washington, United States",
       "foundedYear": null,
       "parentCompany": "Fortive Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Fluke manufactures electronic test instruments and measurement software for electrical, industrial and calibration work. Its portfolio includes multimeters, clamp meters, electrical testers, power-quality instruments, thermal imagers, oscilloscopes, temperature tools and calibration equipment.",
-      "fullDescription": [
-        "Fluke Corporation is a Fortive company headquartered in Everett, Washington. It develops electronic test instruments and software used for installation, maintenance, troubleshooting, condition monitoring and precision measurement. The official range includes digital multimeters, clamp meters, electrical testers, power-quality tools, portable oscilloscopes, thermal imagers, acoustic imaging systems, temperature instruments, network-cable testers and calibration equipment."
-      ],
-      "productCategories": [
-        "Цифровые мультиметры",
-        "Токовые клещи",
-        "Электрические тестеры",
-        "Анализаторы качества электроэнергии",
-        "Тепловизоры",
-        "Портативные осциллографы",
-        "Калибровочное оборудование"
-      ],
-      "productFamilies": [
-        "Digital Multimeters",
-        "Clamp Meters",
-        "Electrical Testers",
-        "Power Quality Tools",
-        "ScopeMeter Test Tools",
-        "Thermal Imagers",
-        "Temperature Instruments",
-        "Calibration Tools"
-      ],
-      "series": [
-        "ScopeMeter",
-        "Fluke Connect"
-      ],
-      "industries": [
-        "Электромонтаж",
-        "Промышленное обслуживание",
-        "Энергетика",
-        "Метрология",
-        "ОВК"
-      ],
-      "officialCatalogs": [
-        "https://assets.fluke.com/Catalog/EN/Fluke-Test-Tool-Catalog.pdf"
-      ],
-      "documentationSources": [
-        "https://www.fluke.com/en/products",
-        "https://www.fluke.com/en/products/catalogs"
-      ],
+      "fullDescription": ["Fluke Corporation is a Fortive company headquartered in Everett, Washington. It develops electronic test instruments and software used for installation, maintenance, troubleshooting, condition monitoring and precision measurement. The official range includes digital multimeters, clamp meters, electrical testers, power-quality tools, portable oscilloscopes, thermal imagers, acoustic imaging systems, temperature instruments, network-cable testers and calibration equipment."],
+      "productCategories": ["Цифровые мультиметры", "Токовые клещи", "Электрические тестеры", "Анализаторы качества электроэнергии", "Тепловизоры", "Портативные осциллографы", "Калибровочное оборудование"],
+      "productFamilies": ["Digital Multimeters", "Clamp Meters", "Electrical Testers", "Power Quality Tools", "ScopeMeter Test Tools", "Thermal Imagers", "Temperature Instruments", "Calibration Tools"],
+      "series": ["ScopeMeter", "Fluke Connect"],
+      "industries": ["Электромонтаж", "Промышленное обслуживание", "Энергетика", "Метрология", "ОВК"],
+      "officialCatalogs": ["https://assets.fluke.com/Catalog/EN/Fluke-Test-Tool-Catalog.pdf"],
+      "documentationSources": ["https://www.fluke.com/en/products", "https://www.fluke.com/en/products/catalogs"],
       "sources": [
-        {
-          "sourceId": "brand-fluke-profile",
-          "tier": "A",
-          "type": "CORPORATE_PROFILE",
-          "scope": "LEGAL_IDENTITY_PARENT_HEADQUARTERS_MARKETS_AND_PRODUCT_GROUPS",
-          "url": "https://www.fluke.com/en/support/about-us/corporate-profile",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-fluke-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SPECIALISATION_PRODUCT_CATEGORIES_AND_APPLICATIONS",
-          "url": "https://www.fluke.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-fluke-profile","tier":"A","type":"CORPORATE_PROFILE","scope":"LEGAL_IDENTITY_PARENT_HEADQUARTERS_MARKETS_AND_PRODUCT_GROUPS","url":"https://www.fluke.com/en/support/about-us/corporate-profile","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-fluke-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SPECIALISATION_PRODUCT_CATEGORIES_AND_APPLICATIONS","url":"https://www.fluke.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "hermle",
       "officialName": "Maschinenfabrik Berthold HERMLE AG",
       "displayName": "HERMLE",
-      "aliases": [
-        "HERMLE",
-        "Hermle AG"
-      ],
+      "aliases": ["HERMLE", "Hermle AG"],
       "formerNames": [],
       "officialWebsite": "https://www.hermle.de/en/",
-      "officialDomains": [
-        "hermle.de"
-      ],
+      "officialDomains": ["hermle.de"],
       "country": "Germany",
       "headquarters": "Gosheim, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HERMLE manufactures high-precision CNC milling machines, three- and five-axis machining centres and integrated automation. Its official range includes High-Performance and Performance Line machines, pallet systems, robot systems and digital production modules.",
-      "fullDescription": [
-        "Maschinenfabrik Berthold HERMLE AG is a German machine-tool manufacturer headquartered in Gosheim. The company develops three- and five-axis CNC milling and machining centres for precision production, including High-Performance and Performance Line models. Its automation portfolio includes pallet changers and storage, handling and robot systems, while digital modules support production, machine operation and service processes."
-      ],
-      "productCategories": [
-        "Фрезерные станки с ЧПУ",
-        "Пятиосевые обрабатывающие центры",
-        "Трёхосевые обрабатывающие центры",
-        "Роботизированные станочные системы",
-        "Паллетные системы"
-      ],
-      "productFamilies": [
-        "High-Performance Line",
-        "Performance Line",
-        "Machining-Centre Automation",
-        "Digital Modules"
-      ],
-      "series": [
-        "C 12",
-        "C 22",
-        "C 32",
-        "C 42",
-        "C 52",
-        "C 62",
-        "C 250",
-        "C 400",
-        "C 650"
-      ],
-      "industries": [
-        "Станкостроение",
-        "Инструментальное производство",
-        "Медицинская техника",
-        "Оптика",
-        "Аэрокосмическая промышленность",
-        "Автомобильная промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.hermle.de/fileadmin/website/5_NEWS-UND-MEDIA/5_2_Mediathek/Brosch%C3%BCren/Englisch/HERMLE_Flyer_ProductOverview_2025_EN.pdf"
-      ],
-      "documentationSources": [
-        "https://www.hermle.de/en/machining-centres-automation/models/overview/"
-      ],
+      "fullDescription": ["Maschinenfabrik Berthold HERMLE AG is a German machine-tool manufacturer headquartered in Gosheim. The company develops three- and five-axis CNC milling and machining centres for precision production, including High-Performance and Performance Line models. Its automation portfolio includes pallet changers and storage, handling and robot systems, while digital modules support production, machine operation and service processes."],
+      "productCategories": ["Фрезерные станки с ЧПУ", "Пятиосевые обрабатывающие центры", "Трёхосевые обрабатывающие центры", "Роботизированные станочные системы", "Паллетные системы"],
+      "productFamilies": ["High-Performance Line", "Performance Line", "Machining-Centre Automation", "Digital Modules"],
+      "series": ["C 12", "C 22", "C 32", "C 42", "C 52", "C 62", "C 250", "C 400", "C 650"],
+      "industries": ["Станкостроение", "Инструментальное производство", "Медицинская техника", "Оптика", "Аэрокосмическая промышленность", "Автомобильная промышленность"],
+      "officialCatalogs": ["https://www.hermle.de/fileadmin/website/5_NEWS-UND-MEDIA/5_2_Mediathek/Brosch%C3%BCren/Englisch/HERMLE_Flyer_ProductOverview_2025_EN.pdf"],
+      "documentationSources": ["https://www.hermle.de/en/machining-centres-automation/models/overview/"],
       "sources": [
-        {
-          "sourceId": "brand-hermle-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_SPECIALISATION_INDUSTRIES_AND_PRODUCT_SCOPE",
-          "url": "https://www.hermle.de/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-hermle-models",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MACHINING_CENTRE_FAMILIES_MODELS_AND_CAPABILITIES",
-          "url": "https://www.hermle.de/en/machining-centres-automation/models/overview/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-hermle-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_SPECIALISATION_INDUSTRIES_AND_PRODUCT_SCOPE","url":"https://www.hermle.de/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-hermle-models","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MACHINING_CENTRE_FAMILIES_MODELS_AND_CAPABILITIES","url":"https://www.hermle.de/en/machining-centres-automation/models/overview/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "munters",
       "officialName": "Munters Group AB",
       "displayName": "Munters",
-      "aliases": [
-        "MUNTERS"
-      ],
+      "aliases": ["MUNTERS"],
       "formerNames": [],
       "officialWebsite": "https://www.munters.com/",
-      "officialDomains": [
-        "munters.com"
-      ],
+      "officialDomains": ["munters.com"],
       "country": "Sweden",
       "headquarters": "Kista, Sweden",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Munters develops industrial climate-control and air-treatment equipment. Its official portfolio includes desiccant dehumidifiers, humidifiers, evaporative and indirect cooling systems, data-centre cooling equipment and air-quality solutions.",
-      "fullDescription": [
-        "Munters Group AB is a Swedish climate-technology company headquartered in Kista. The official product program covers industrial and commercial desiccant dehumidification, direct and indirect evaporative cooling, humidification, process air treatment and data-centre cooling. Munters systems control temperature and humidity for food, pharmaceutical, industrial, agricultural, storage and digital-infrastructure applications."
-      ],
-      "productCategories": [
-        "Промышленные осушители воздуха",
-        "Увлажнители воздуха",
-        "Испарительные охладители",
-        "Системы климат-контроля",
-        "Охлаждение дата-центров",
-        "Оборудование очистки воздуха"
-      ],
-      "productFamilies": [
-        "Desiccant Dehumidifiers",
-        "Coolers and Humidifiers",
-        "Process Air-Treatment Systems",
-        "Data-Centre Cooling",
-        "Air-Quality Solutions"
-      ],
-      "series": [
-        "DEW",
-        "DryCool",
-        "HCD",
-        "HCE",
-        "ICA",
-        "IceDry",
-        "FlexLine",
-        "CELdek",
-        "GLASdek"
-      ],
-      "industries": [
-        "Дата-центры",
-        "Фармацевтика",
-        "Пищевая промышленность",
-        "Сельское хозяйство",
-        "Складская инфраструктура",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Munters Group AB is a Swedish climate-technology company headquartered in Kista. The official product program covers industrial and commercial desiccant dehumidification, direct and indirect evaporative cooling, humidification, process air treatment and data-centre cooling. Munters systems control temperature and humidity for food, pharmaceutical, industrial, agricultural, storage and digital-infrastructure applications."],
+      "productCategories": ["Промышленные осушители воздуха", "Увлажнители воздуха", "Испарительные охладители", "Системы климат-контроля", "Охлаждение дата-центров", "Оборудование очистки воздуха"],
+      "productFamilies": ["Desiccant Dehumidifiers", "Coolers and Humidifiers", "Process Air-Treatment Systems", "Data-Centre Cooling", "Air-Quality Solutions"],
+      "series": ["DEW", "DryCool", "HCD", "HCE", "ICA", "IceDry", "FlexLine", "CELdek", "GLASdek"],
+      "industries": ["Дата-центры", "Фармацевтика", "Пищевая промышленность", "Сельское хозяйство", "Складская инфраструктура", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.munters.com/en-us/products-cms/"
-      ],
+      "documentationSources": ["https://www.munters.com/en-us/products-cms/"],
       "sources": [
-        {
-          "sourceId": "brand-munters-home",
-          "tier": "A",
-          "type": "ABOUT_AND_INDUSTRIES",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_SPECIALISATION_AND_INDUSTRIES",
-          "url": "https://www.munters.com/en-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-munters-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "PRODUCT_GROUPS_SERIES_AND_APPLICATIONS",
-          "url": "https://www.munters.com/en-us/products-cms/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-munters-home","tier":"A","type":"ABOUT_AND_INDUSTRIES","scope":"LEGAL_IDENTITY_HEADQUARTERS_SPECIALISATION_AND_INDUSTRIES","url":"https://www.munters.com/en-us/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-munters-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PRODUCT_GROUPS_SERIES_AND_APPLICATIONS","url":"https://www.munters.com/en-us/products-cms/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "pfaff-silberblau",
       "officialName": "Pfaff-silberblau",
       "displayName": "Pfaff-silberblau",
-      "aliases": [
-        "PFAFF-SILBERBLAU",
-        "Pfaff Silberblau"
-      ],
+      "aliases": ["PFAFF-SILBERBLAU", "Pfaff Silberblau"],
       "formerNames": [],
       "officialWebsite": "https://www.cmco.com/en-de/our-brands/pfaff-silberblau/",
-      "officialDomains": [
-        "cmco.com"
-      ],
+      "officialDomains": ["cmco.com"],
       "country": "Germany",
       "headquarters": "Kissing, Germany",
       "foundedYear": null,
       "parentCompany": "Columbus McKinnon",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Pfaff-silberblau is a Columbus McKinnon brand for mechanical motion and lifting technology. Its range includes screw jacks, linear actuators, lifting columns and tables, manual and electric wire-rope winches, bevel gearboxes and rail-vehicle lifting systems.",
-      "fullDescription": [
-        "Pfaff-silberblau is a Columbus McKinnon brand operated through its German engineered-products businesses. The official portfolio combines mechanical motion technology, lifting equipment and rail or road workshop systems. Product groups include screw jacks, electromechanical linear actuators, lifting columns and tables, manual and electric wire-rope winches, screws and nuts, bevel gearboxes, vehicle lifting jacks and complete underfloor lifting systems."
-      ],
-      "productCategories": [
-        "Винтовые домкраты",
-        "Линейные приводы",
-        "Подъёмные колонны",
-        "Подъёмные столы",
-        "Канатные лебёдки",
-        "Конические редукторы",
-        "Подъёмные системы для транспорта"
-      ],
-      "productFamilies": [
-        "Screw Jacks",
-        "Linear Actuators",
-        "Lifting Columns",
-        "Lifting Tables",
-        "Wire-Rope Winches",
-        "Bevel Gearboxes",
-        "Rail and Road Lifting Systems"
-      ],
-      "series": [
-        "SHE",
-        "HSE",
-        "MERKUR",
-        "ELA",
-        "HLA",
-        "PHOENIX",
-        "GAMMA"
-      ],
-      "industries": [
-        "Машиностроение",
-        "Логистика",
-        "Металлургия",
-        "Железнодорожный транспорт",
-        "Сценическая техника",
-        "Морские сооружения"
-      ],
-      "officialCatalogs": [
-        "https://www.cmco.com/globalassets/brand-landing-pages/pfaff-silberblau/downloads-catalogues-questionnaires/pfaff-catalog-product-overview-en0321_low.pdf"
-      ],
-      "documentationSources": [
-        "https://www.cmco.com/en-de/our-brands/pfaff-silberblau/products/"
-      ],
+      "fullDescription": ["Pfaff-silberblau is a Columbus McKinnon brand operated through its German engineered-products businesses. The official portfolio combines mechanical motion technology, lifting equipment and rail or road workshop systems. Product groups include screw jacks, electromechanical linear actuators, lifting columns and tables, manual and electric wire-rope winches, screws and nuts, bevel gearboxes, vehicle lifting jacks and complete underfloor lifting systems."],
+      "productCategories": ["Винтовые домкраты", "Линейные приводы", "Подъёмные колонны", "Подъёмные столы", "Канатные лебёдки", "Конические редукторы", "Подъёмные системы для транспорта"],
+      "productFamilies": ["Screw Jacks", "Linear Actuators", "Lifting Columns", "Lifting Tables", "Wire-Rope Winches", "Bevel Gearboxes", "Rail and Road Lifting Systems"],
+      "series": ["SHE", "HSE", "MERKUR", "ELA", "HLA", "PHOENIX", "GAMMA"],
+      "industries": ["Машиностроение", "Логистика", "Металлургия", "Железнодорожный транспорт", "Сценическая техника", "Морские сооружения"],
+      "officialCatalogs": ["https://www.cmco.com/globalassets/brand-landing-pages/pfaff-silberblau/downloads-catalogues-questionnaires/pfaff-catalog-product-overview-en0321_low.pdf"],
+      "documentationSources": ["https://www.cmco.com/en-de/our-brands/pfaff-silberblau/products/"],
       "sources": [
-        {
-          "sourceId": "brand-pfaff-silberblau-profile",
-          "tier": "B",
-          "type": "PARENT_BRAND_PROFILE",
-          "scope": "BRAND_IDENTITY_PARENT_HEADQUARTERS_HISTORY_PRODUCT_GROUPS_AND_INDUSTRIES",
-          "url": "https://www.cmco.com/en-de/our-brands/pfaff-silberblau/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-pfaff-silberblau-products",
-          "tier": "B",
-          "type": "PARENT_BRAND_PRODUCT_DIRECTORY",
-          "scope": "MOTION_LIFTING_AND_RAIL_PRODUCT_FAMILIES_AND_SERIES",
-          "url": "https://www.cmco.com/en-de/our-brands/pfaff-silberblau/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-pfaff-silberblau-profile","tier":"B","type":"PARENT_BRAND_PROFILE","scope":"BRAND_IDENTITY_PARENT_HEADQUARTERS_HISTORY_PRODUCT_GROUPS_AND_INDUSTRIES","url":"https://www.cmco.com/en-de/our-brands/pfaff-silberblau/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-pfaff-silberblau-products","tier":"B","type":"PARENT_BRAND_PRODUCT_DIRECTORY","scope":"MOTION_LIFTING_AND_RAIL_PRODUCT_FAMILIES_AND_SERIES","url":"https://www.cmco.com/en-de/our-brands/pfaff-silberblau/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     }
   ]

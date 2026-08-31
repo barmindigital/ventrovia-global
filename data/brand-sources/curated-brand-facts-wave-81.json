@@ -13,48 +13,35 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "Franke is used by multiple industrial groups and specialist manufacturers. The raw identity does not distinguish the intended entity or product scope with sufficient certainty.",
-      "attemptedUrls": [
-        "https://www.franke.com/",
-        "https://www.franke-industrie.com/"
-      ]
+      "attemptedUrls": ["https://www.franke.com/", "https://www.franke-industrie.com/"]
     },
     {
       "manufacturerId": "friand-elektrotechniek-b-v",
       "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "No accessible manufacturer-owned source was found that establishes Friand Elektrotechniek B.V. as a current manufacturer and documents a specific product range.",
-      "attemptedUrls": [
-        "https://www.friand.nl/"
-      ]
+      "attemptedUrls": ["https://www.friand.nl/"]
     },
     {
       "manufacturerId": "fricke",
       "status": "BLOCKED_IDENTITY_SCOPE",
       "checkedAt": "2026-08-24",
       "reason": "The official FRICKE Group source identifies an agricultural-machinery, commercial-vehicle and replacement-parts trading group. It does not establish the queue identity as one distinct manufacturer brand with a defensible product scope.",
-      "attemptedUrls": [
-        "https://www.fricke.de/en/"
-      ]
+      "attemptedUrls": ["https://www.fricke.de/en/"]
     },
     {
       "manufacturerId": "frymakoruma",
       "status": "BLOCKED_LEGACY_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "Romaco is the plausible current corporate owner, but the accessible current official pages did not provide a brand-specific FrymaKoruma identity and product page sufficient for publication under the strict gate.",
-      "attemptedUrls": [
-        "https://www.romaco.com/",
-        "https://www.romaco.com/about-us"
-      ]
+      "attemptedUrls": ["https://www.romaco.com/", "https://www.romaco.com/about-us"]
     },
     {
       "manufacturerId": "fubag",
       "status": "BLOCKED_IDENTITY_SCOPE",
       "checkedAt": "2026-08-24",
       "reason": "FUBAG-branded commercial sites expose products but do not clearly establish a manufacturer-owned corporate identity or legal manufacturing entity suitable for Tier A verification.",
-      "attemptedUrls": [
-        "https://www.fubag.com/",
-        "https://fubag.ru/"
-      ]
+      "attemptedUrls": ["https://www.fubag.com/", "https://fubag.ru/"]
     },
     {
       "manufacturerId": "galvi",
@@ -68,20 +55,14 @@
       "status": "DUPLICATE_CANONICAL_CANDIDATE",
       "checkedAt": "2026-08-24",
       "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company.",
-      "attemptedUrls": [
-        "https://www.gat-mbh.de/en/",
-        "https://www.gat-mbh.de/en/products/"
-      ]
+      "attemptedUrls": ["https://www.gat-mbh.de/en/", "https://www.gat-mbh.de/en/products/"]
     },
     {
       "manufacturerId": "gamar",
       "status": "BLOCKED_CANONICAL_OVERLAP",
       "checkedAt": "2026-08-24",
       "reason": "The Gamar record shares the Sacemi-Gamar domain, company lineage and pump/motor scope with the canonical sacemi-gamar identity. Current first-party evidence does not justify a second standalone indexable manufacturer profile.",
-      "attemptedUrls": [
-        "https://www.sacemigamar.com/en/",
-        "https://www.sacemigamar.com/en/company/"
-      ]
+      "attemptedUrls": ["https://www.sacemigamar.com/en/", "https://www.sacemigamar.com/en/company/"]
     }
   ],
   "profiles": [
@@ -89,2398 +70,914 @@
       "manufacturerId": "fmw-friedrich",
       "officialName": "FMW Friedrich Maschinen- und Werkzeugbau GmbH",
       "displayName": "FMW Friedrich",
-      "aliases": [
-        "FMW FRIEDRICH",
-        "FMW Friedrich Maschinen- und Werkzeugbau"
-      ],
+      "aliases": ["FMW FRIEDRICH", "FMW Friedrich Maschinen- und Werkzeugbau"],
       "formerNames": [],
       "officialWebsite": "https://www.fmw-friedrich.de/en/",
-      "officialDomains": [
-        "fmw-friedrich.de"
-      ],
+      "officialDomains": ["fmw-friedrich.de"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FMW Friedrich develops riveting machines, forming equipment and automated assembly systems for industrial production.",
-      "fullDescription": [
-        "FMW Friedrich is verified through its manufacturer-owned website as a machine-building company focused on joining, forming and assembly processes.",
-        "Its documented range includes riveting machines and units, CNC riveting equipment, assembly systems, roll-forming machines and control software."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Сборка промышленного оборудования"
-      ],
-      "productFamilies": [
-        "Riveting Machines",
-        "CNC Riveting Machines",
-        "Assembly Systems",
-        "Roll-Forming Machines"
-      ],
+      "fullDescription": ["FMW Friedrich is verified through its manufacturer-owned website as a machine-building company focused on joining, forming and assembly processes.", "Its documented range includes riveting machines and units, CNC riveting equipment, assembly systems, roll-forming machines and control software."],
+      "productCategories": ["Промышленные машины", "Сборка промышленного оборудования"],
+      "productFamilies": ["Riveting Machines", "CNC Riveting Machines", "Assembly Systems", "Roll-Forming Machines"],
       "series": [],
-      "industries": [
-        "Промышленное производство"
-      ],
+      "industries": ["Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.fmw-friedrich.de/en/products.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fmw-friedrich-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_RIVETING_FORMING_ASSEMBLY_SCOPE",
-          "url": "https://www.fmw-friedrich.de/en/products.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.fmw-friedrich.de/en/products.html"],
+      "sources": [{"sourceId":"brand-fmw-friedrich-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_RIVETING_FORMING_ASSEMBLY_SCOPE","url":"https://www.fmw-friedrich.de/en/products.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "foamico",
       "officialName": "Foamico ApS",
       "displayName": "Foamico",
-      "aliases": [
-        "FOAMICO",
-        "FOAMICO APS"
-      ],
+      "aliases": ["FOAMICO", "FOAMICO APS"],
       "formerNames": [],
       "officialWebsite": "https://foamico.com/",
-      "officialDomains": [
-        "foamico.com"
-      ],
+      "officialDomains": ["foamico.com"],
       "country": "Denmark",
       "headquarters": "Nørresundby, Denmark",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Foamico designs industrial cleaning systems for food and beverage production environments.",
-      "fullDescription": [
-        "Foamico ApS is verified through its manufacturer-owned website as a Danish engineering business for food and beverage hygiene processes.",
-        "The official range covers main cleaning stations, satellite and mobile stations, automated cleaning systems, boosters, prediluted solutions and accessories."
-      ],
-      "productCategories": [
-        "Промышленные системы очистки"
-      ],
-      "productFamilies": [
-        "Main Stations",
-        "Satellite Stations",
-        "Mobile Stations",
-        "Automated Cleaning Solutions",
-        "Boosters"
-      ],
+      "fullDescription": ["Foamico ApS is verified through its manufacturer-owned website as a Danish engineering business for food and beverage hygiene processes.", "The official range covers main cleaning stations, satellite and mobile stations, automated cleaning systems, boosters, prediluted solutions and accessories."],
+      "productCategories": ["Промышленные системы очистки"],
+      "productFamilies": ["Main Stations", "Satellite Stations", "Mobile Stations", "Automated Cleaning Solutions", "Boosters"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность"
-      ],
+      "industries": ["Пищевая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://foamico.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-foamico-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_FOOD_PRODUCTION_CLEANING_SCOPE",
-          "url": "https://foamico.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://foamico.com/products/"],
+      "sources": [{"sourceId":"brand-foamico-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_FOOD_PRODUCTION_CLEANING_SCOPE","url":"https://foamico.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "focke-co",
       "officialName": "Focke & Co. (GmbH & Co. KG)",
       "displayName": "Focke & Co.",
-      "aliases": [
-        "FOCKE & CO",
-        "FOCKE CO",
-        "FOCKE"
-      ],
+      "aliases": ["FOCKE & CO", "FOCKE CO", "FOCKE"],
       "formerNames": [],
       "officialWebsite": "https://www.focke.com/",
-      "officialDomains": [
-        "focke.com"
-      ],
+      "officialDomains": ["focke.com"],
       "country": "Germany",
       "headquarters": "Verden, Germany",
       "foundedYear": 1955,
       "parentCompany": null,
       "shortDescription": "Focke & Co. manufactures packaging, case-packing and palletizing machinery for industrial production lines.",
-      "fullDescription": [
-        "Focke & Co. is verified through its manufacturer-owned website as a German packaging-machinery company founded in 1955.",
-        "Its published portfolio includes primary packaging machines, cartoners, case packers, stacking and bagging systems, bundlers and palletizers for tobacco, hygiene, tissue, food and other consumer products."
-      ],
-      "productCategories": [
-        "Упаковочное оборудование"
-      ],
-      "productFamilies": [
-        "Primary Packaging Machines",
-        "Case Packers",
-        "Stacking and Bagging Systems",
-        "Bundlers",
-        "Palletizers"
-      ],
-      "series": [
-        "Smart Line",
-        "Hi5"
-      ],
-      "industries": [
-        "Упаковочная промышленность",
-        "Пищевая промышленность"
-      ],
+      "fullDescription": ["Focke & Co. is verified through its manufacturer-owned website as a German packaging-machinery company founded in 1955.", "Its published portfolio includes primary packaging machines, cartoners, case packers, stacking and bagging systems, bundlers and palletizers for tobacco, hygiene, tissue, food and other consumer products."],
+      "productCategories": ["Упаковочное оборудование"],
+      "productFamilies": ["Primary Packaging Machines", "Case Packers", "Stacking and Bagging Systems", "Bundlers", "Palletizers"],
+      "series": ["Smart Line", "Hi5"],
+      "industries": ["Упаковочная промышленность", "Пищевая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.focke.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-focke-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_PACKAGING_MACHINERY_SCOPE",
-          "url": "https://www.focke.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.focke.com/"],
+      "sources": [{"sourceId":"brand-focke-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_AND_PACKAGING_MACHINERY_SCOPE","url":"https://www.focke.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "foerster",
       "officialName": "Institut Dr. Foerster GmbH & Co. KG",
       "displayName": "FOERSTER",
-      "aliases": [
-        "FOERSTER",
-        "FÖRSTER",
-        "INSTITUT DR. FOERSTER"
-      ],
+      "aliases": ["FOERSTER", "FÖRSTER", "INSTITUT DR. FOERSTER"],
       "formerNames": [],
       "officialWebsite": "https://www.foerstergroup.com/",
-      "officialDomains": [
-        "foerstergroup.com"
-      ],
+      "officialDomains": ["foerstergroup.com"],
       "country": "Germany",
       "headquarters": "Reutlingen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FOERSTER develops non-destructive testing, metal-detection and magnetic-measurement systems for metallic materials and components.",
-      "fullDescription": [
-        "Institut Dr. Foerster is verified through its official group website as a German manufacturer of inspection and measurement systems.",
-        "The documented portfolio covers eddy-current and ultrasonic testing, mobile material testing, metal detection and magnetic-property measurement."
-      ],
-      "productCategories": [
-        "Инспекционные системы",
-        "Контрольно-измерительные приборы"
-      ],
-      "productFamilies": [
-        "Eddy Current Testing Systems",
-        "Ultrasonic Testing Systems",
-        "Mobile Testing Instruments",
-        "Metal Detection Systems"
-      ],
-      "series": [
-        "STATOGRAPH"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Металлургия"
-      ],
+      "fullDescription": ["Institut Dr. Foerster is verified through its official group website as a German manufacturer of inspection and measurement systems.", "The documented portfolio covers eddy-current and ultrasonic testing, mobile material testing, metal detection and magnetic-property measurement."],
+      "productCategories": ["Инспекционные системы", "Контрольно-измерительные приборы"],
+      "productFamilies": ["Eddy Current Testing Systems", "Ultrasonic Testing Systems", "Mobile Testing Instruments", "Metal Detection Systems"],
+      "series": ["STATOGRAPH"],
+      "industries": ["Промышленное производство", "Металлургия"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://info.foerstergroup.com/en/test-systems"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-foerster-test-systems",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "IDENTITY_AND_NON_DESTRUCTIVE_TESTING_SCOPE",
-          "url": "https://info.foerstergroup.com/en/test-systems",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://info.foerstergroup.com/en/test-systems"],
+      "sources": [{"sourceId":"brand-foerster-test-systems","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_AND_NON_DESTRUCTIVE_TESTING_SCOPE","url":"https://info.foerstergroup.com/en/test-systems","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "forbo-siegling",
       "officialName": "Forbo Siegling GmbH",
       "displayName": "Forbo Siegling",
-      "aliases": [
-        "FORBO SIEGLING",
-        "FORBO MOVEMENT SYSTEMS"
-      ],
+      "aliases": ["FORBO SIEGLING", "FORBO MOVEMENT SYSTEMS"],
       "formerNames": [],
       "officialWebsite": "https://www.forbo.com/movement/en-gl/",
-      "officialDomains": [
-        "forbo.com"
-      ],
+      "officialDomains": ["forbo.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Forbo Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Forbo Siegling develops conveyor, processing and power-transmission belts for industrial material movement.",
-      "fullDescription": [
-        "Forbo Siegling is verified through the official Forbo Movement Systems website as the group's industrial belting business.",
-        "Its published product range includes conveyor and processing belts, plastic modular belts, homogeneous belts, power-transmission belts and machine tapes."
-      ],
-      "productCategories": [
-        "Конвейерные системы",
-        "Промышленные ремни"
-      ],
-      "productFamilies": [
-        "Conveyor and Processing Belts",
-        "Plastic Modular Belts",
-        "Homogeneous Belts",
-        "Power-Transmission Belts",
-        "Machine Tapes"
-      ],
-      "series": [
-        "Siegling Transilon",
-        "Siegling Prolink",
-        "Siegling Fullsan",
-        "Siegling Extremultus"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Логистика"
-      ],
+      "fullDescription": ["Forbo Siegling is verified through the official Forbo Movement Systems website as the group's industrial belting business.", "Its published product range includes conveyor and processing belts, plastic modular belts, homogeneous belts, power-transmission belts and machine tapes."],
+      "productCategories": ["Конвейерные системы", "Промышленные ремни"],
+      "productFamilies": ["Conveyor and Processing Belts", "Plastic Modular Belts", "Homogeneous Belts", "Power-Transmission Belts", "Machine Tapes"],
+      "series": ["Siegling Transilon", "Siegling Prolink", "Siegling Fullsan", "Siegling Extremultus"],
+      "industries": ["Промышленное производство", "Логистика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.forbo.com/movement/en-gl/products/conveyor-belts/plmbvb"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-forbo-siegling-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "GROUP_IDENTITY_AND_INDUSTRIAL_BELTING_SCOPE",
-          "url": "https://www.forbo.com/movement/en-gl/products/conveyor-belts/plmbvb",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.forbo.com/movement/en-gl/products/conveyor-belts/plmbvb"],
+      "sources": [{"sourceId":"brand-forbo-siegling-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"GROUP_IDENTITY_AND_INDUSTRIAL_BELTING_SCOPE","url":"https://www.forbo.com/movement/en-gl/products/conveyor-belts/plmbvb","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "form-test",
       "officialName": "FORM+TEST Seidner & Co. GmbH",
       "displayName": "FORM+TEST",
-      "aliases": [
-        "FORM TEST",
-        "FORM+TEST",
-        "FORMTEST"
-      ],
+      "aliases": ["FORM TEST", "FORM+TEST", "FORMTEST"],
       "formerNames": [],
       "officialWebsite": "https://formtest.de/en/",
-      "officialDomains": [
-        "formtest.de"
-      ],
+      "officialDomains": ["formtest.de"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FORM+TEST manufactures testing machines and systems for concrete, building materials and structural components.",
-      "fullDescription": [
-        "FORM+TEST is verified through its manufacturer-owned website as a supplier of material and component testing technology.",
-        "The official range covers compression, bending, tensile and universal testing machines together with systems for testing building materials and structural components."
-      ],
-      "productCategories": [
-        "Испытательные машины",
-        "Контрольно-измерительные приборы"
-      ],
-      "productFamilies": [
-        "Compression Testing Machines",
-        "Bending Testing Machines",
-        "Tensile Testing Machines",
-        "Universal Testing Machines"
-      ],
+      "fullDescription": ["FORM+TEST is verified through its manufacturer-owned website as a supplier of material and component testing technology.", "The official range covers compression, bending, tensile and universal testing machines together with systems for testing building materials and structural components."],
+      "productCategories": ["Испытательные машины", "Контрольно-измерительные приборы"],
+      "productFamilies": ["Compression Testing Machines", "Bending Testing Machines", "Tensile Testing Machines", "Universal Testing Machines"],
       "series": [],
-      "industries": [
-        "Строительство",
-        "Промышленное производство"
-      ],
+      "industries": ["Строительство", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://formtest.de/en/Testing-Building-Materials/Products/Testing-Machines.php"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-form-test-machines",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_MATERIAL_TESTING_MACHINE_SCOPE",
-          "url": "https://formtest.de/en/Testing-Building-Materials/Products/Testing-Machines.php",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://formtest.de/en/Testing-Building-Materials/Products/Testing-Machines.php"],
+      "sources": [{"sourceId":"brand-form-test-machines","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_MATERIAL_TESTING_MACHINE_SCOPE","url":"https://formtest.de/en/Testing-Building-Materials/Products/Testing-Machines.php","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fotek",
       "officialName": "FOTEK Controls",
       "displayName": "FOTEK",
-      "aliases": [
-        "FOTEK",
-        "FOTEK CONTROLS"
-      ],
+      "aliases": ["FOTEK", "FOTEK CONTROLS"],
       "formerNames": [],
       "officialWebsite": "https://www.fotek.com.tw/en-gb/",
-      "officialDomains": [
-        "fotek.com.tw"
-      ],
+      "officialDomains": ["fotek.com.tw"],
       "country": "Taiwan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FOTEK develops industrial sensors, controllers, encoders, relays and measurement devices for automation systems.",
-      "fullDescription": [
-        "FOTEK is verified through its manufacturer-owned website as an industrial sensing and control brand.",
-        "Its documented portfolio includes photoelectric and proximity sensors, pressure and flow instruments, temperature controllers, encoders, timers, counters, solid-state relays and safety light curtains."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Промышленные контроллеры",
-        "Промышленные реле"
-      ],
-      "productFamilies": [
-        "Photoelectric Sensors",
-        "Proximity Sensors",
-        "Temperature Controllers",
-        "Encoders",
-        "Solid-State Relays",
-        "Safety Light Curtains"
-      ],
+      "fullDescription": ["FOTEK is verified through its manufacturer-owned website as an industrial sensing and control brand.", "Its documented portfolio includes photoelectric and proximity sensors, pressure and flow instruments, temperature controllers, encoders, timers, counters, solid-state relays and safety light curtains."],
+      "productCategories": ["Промышленные датчики", "Промышленные контроллеры", "Промышленные реле"],
+      "productFamilies": ["Photoelectric Sensors", "Proximity Sensors", "Temperature Controllers", "Encoders", "Solid-State Relays", "Safety Light Curtains"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация"
-      ],
+      "industries": ["Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.fotek.com.tw/en-gb/product-category/82"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fotek-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SENSOR_CONTROLLER_ENCODER_RELAY_AND_SAFETY_SCOPE",
-          "url": "https://www.fotek.com.tw/en-gb/product-category/82",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.fotek.com.tw/en-gb/product-category/82"],
+      "sources": [{"sourceId":"brand-fotek-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SENSOR_CONTROLLER_ENCODER_RELAY_AND_SAFETY_SCOPE","url":"https://www.fotek.com.tw/en-gb/product-category/82","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fox",
       "officialName": "Fox S.r.l.",
       "displayName": "FOX",
-      "aliases": [
-        "FOX",
-        "FOX SRL"
-      ],
+      "aliases": ["FOX", "FOX SRL"],
       "formerNames": [],
       "officialWebsite": "https://www.fox.it/",
-      "officialDomains": [
-        "fox.it"
-      ],
+      "officialDomains": ["fox.it"],
       "country": "Italy",
       "headquarters": "Opera, Milan, Italy",
       "foundedYear": 1980,
       "parentCompany": null,
       "shortDescription": "FOX manufactures hydraulic accumulators, pulsation dampeners, pressure switches and fluid-monitoring instruments.",
-      "fullDescription": [
-        "Fox S.r.l. is verified through its manufacturer-owned website as an Italian hydraulic and instrumentation company established in 1980.",
-        "The official range includes hydropneumatic accumulators, pulsation dampeners, pressure and vacuum switches, pressure transducers, level and temperature instruments and flow switches."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленные датчики"
-      ],
-      "productFamilies": [
-        "Hydropneumatic Accumulators",
-        "Pulsation Dampeners",
-        "Pressure Switches",
-        "Pressure Transducers",
-        "Level and Flow Switches"
-      ],
+      "fullDescription": ["Fox S.r.l. is verified through its manufacturer-owned website as an Italian hydraulic and instrumentation company established in 1980.", "The official range includes hydropneumatic accumulators, pulsation dampeners, pressure and vacuum switches, pressure transducers, level and temperature instruments and flow switches."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные датчики"],
+      "productFamilies": ["Hydropneumatic Accumulators", "Pulsation Dampeners", "Pressure Switches", "Pressure Transducers", "Level and Flow Switches"],
       "series": [],
-      "industries": [
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.fox.it/Sites/615/WebExplorer/Catalogo%20accumulatori%20-%202021.pdf"
-      ],
-      "documentationSources": [
-        "https://www.fox.it/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fox-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_AND_HYDRAULIC_INSTRUMENTATION_SCOPE",
-          "url": "https://www.fox.it/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Промышленное производство"],
+      "officialCatalogs": ["https://www.fox.it/Sites/615/WebExplorer/Catalogo%20accumulatori%20-%202021.pdf"],
+      "documentationSources": ["https://www.fox.it/"],
+      "sources": [{"sourceId":"brand-fox-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_HYDRAULIC_INSTRUMENTATION_SCOPE","url":"https://www.fox.it/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fraba",
       "officialName": "FRABA B.V.",
       "displayName": "FRABA",
-      "aliases": [
-        "FRABA",
-        "FRABA GROUP"
-      ],
+      "aliases": ["FRABA", "FRABA GROUP"],
       "formerNames": [],
       "officialWebsite": "https://fraba.com/en",
-      "officialDomains": [
-        "fraba.com"
-      ],
+      "officialDomains": ["fraba.com"],
       "country": "Netherlands",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FRABA develops motion-feedback sensors, Wiegand technology and door-automation products through its specialist brands.",
-      "fullDescription": [
-        "FRABA is verified through its official group website as an industrial technology group operating the POSITAL, UBITO and CODORMO brands.",
-        "Its documented scope includes rotary encoders, inclinometers and linear-position sensors, Wiegand sensing and energy-harvesting components, and door-automation systems."
-      ],
-      "productCategories": [
-        "Промышленные энкодеры",
-        "Промышленные датчики",
-        "Системы автоматизации"
-      ],
-      "productFamilies": [
-        "Rotary Encoders",
-        "Inclinometers",
-        "Linear Position Sensors",
-        "Wiegand Sensors",
-        "Door Automation"
-      ],
-      "series": [
-        "POSITAL",
-        "UBITO",
-        "CODORMO"
-      ],
-      "industries": [
-        "Промышленная автоматизация"
-      ],
+      "fullDescription": ["FRABA is verified through its official group website as an industrial technology group operating the POSITAL, UBITO and CODORMO brands.", "Its documented scope includes rotary encoders, inclinometers and linear-position sensors, Wiegand sensing and energy-harvesting components, and door-automation systems."],
+      "productCategories": ["Промышленные энкодеры", "Промышленные датчики", "Системы автоматизации"],
+      "productFamilies": ["Rotary Encoders", "Inclinometers", "Linear Position Sensors", "Wiegand Sensors", "Door Automation"],
+      "series": ["POSITAL", "UBITO", "CODORMO"],
+      "industries": ["Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://fraba.com/en"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fraba-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "GROUP_IDENTITY_AND_MOTION_SENSOR_WIEGAND_AUTOMATION_SCOPE",
-          "url": "https://fraba.com/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://fraba.com/en"],
+      "sources": [{"sourceId":"brand-fraba-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"GROUP_IDENTITY_AND_MOTION_SENSOR_WIEGAND_AUTOMATION_SCOPE","url":"https://fraba.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "framag",
       "officialName": "framag Industrieanlagenbau GmbH",
       "displayName": "framag",
-      "aliases": [
-        "FRAMAG",
-        "FRAMAG INDUSTRIEANLAGENBAU"
-      ],
+      "aliases": ["FRAMAG", "FRAMAG INDUSTRIEANLAGENBAU"],
       "formerNames": [],
       "officialWebsite": "https://www.framag.com/en/",
-      "officialDomains": [
-        "framag.com"
-      ],
+      "officialDomains": ["framag.com"],
       "country": "Austria",
       "headquarters": "Frankenburg, Austria",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "framag designs industrial sawing systems and automated cutting lines for metal-processing applications.",
-      "fullDescription": [
-        "framag Industrieanlagenbau GmbH is verified through its manufacturer-owned website as an Austrian industrial-equipment builder.",
-        "Its documented sawing-technology range includes billet, layer, rail and sample saws, circular saws and automated production lines."
-      ],
-      "productCategories": [
-        "Металлообрабатывающее оборудование",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Billet Saws",
-        "Layer Saws",
-        "Rail Saws",
-        "Sample Saws",
-        "Automated Sawing Lines"
-      ],
-      "series": [
-        "KKS"
-      ],
-      "industries": [
-        "Металлургия",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["framag Industrieanlagenbau GmbH is verified through its manufacturer-owned website as an Austrian industrial-equipment builder.", "Its documented sawing-technology range includes billet, layer, rail and sample saws, circular saws and automated production lines."],
+      "productCategories": ["Металлообрабатывающее оборудование", "Промышленные машины"],
+      "productFamilies": ["Billet Saws", "Layer Saws", "Rail Saws", "Sample Saws", "Automated Sawing Lines"],
+      "series": ["KKS"],
+      "industries": ["Металлургия", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.framag.com/en/products/sawing-technology-4619.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-framag-sawing",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_INDUSTRIAL_SAWING_SCOPE",
-          "url": "https://www.framag.com/en/products/sawing-technology-4619.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.framag.com/en/products/sawing-technology-4619.html"],
+      "sources": [{"sourceId":"brand-framag-sawing","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_INDUSTRIAL_SAWING_SCOPE","url":"https://www.framag.com/en/products/sawing-technology-4619.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "framo-morat",
       "officialName": "Framo Morat",
       "displayName": "Framo Morat",
-      "aliases": [
-        "FRAMO MORAT",
-        "FRAMO-MORAT"
-      ],
+      "aliases": ["FRAMO MORAT", "FRAMO-MORAT"],
       "formerNames": [],
       "officialWebsite": "https://framo-morat.com/en/",
-      "officialDomains": [
-        "framo-morat.com"
-      ],
+      "officialDomains": ["framo-morat.com"],
       "country": "Germany",
       "headquarters": "Eisenbach, Germany",
       "foundedYear": null,
       "parentCompany": "Franz Morat Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Framo Morat develops geared drives, gear components and linear-drive systems for industrial equipment.",
-      "fullDescription": [
-        "Framo Morat is verified through its official website as a Franz Morat Group drive-technology company in Eisenbach, Germany.",
-        "The published portfolio includes complete drive systems, gear motors, planetary gears, linear drives and actuators, metal and plastic gears and worm-gear sets."
-      ],
-      "productCategories": [
-        "Промышленные редукторы",
-        "Компоненты механических передач",
-        "Линейные актуаторы"
-      ],
-      "productFamilies": [
-        "Gear Motors",
-        "Planetary Gears",
-        "Linear Drives",
-        "Linear Actuators",
-        "Metal and Plastic Gears",
-        "Worm Gear Sets"
-      ],
-      "series": [
-        "Compacta"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Машиностроение"
-      ],
+      "fullDescription": ["Framo Morat is verified through its official website as a Franz Morat Group drive-technology company in Eisenbach, Germany.", "The published portfolio includes complete drive systems, gear motors, planetary gears, linear drives and actuators, metal and plastic gears and worm-gear sets."],
+      "productCategories": ["Промышленные редукторы", "Компоненты механических передач", "Линейные актуаторы"],
+      "productFamilies": ["Gear Motors", "Planetary Gears", "Linear Drives", "Linear Actuators", "Metal and Plastic Gears", "Worm Gear Sets"],
+      "series": ["Compacta"],
+      "industries": ["Промышленное производство", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://framo-morat.com/us/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-framo-morat-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "GROUP_IDENTITY_LOCATION_AND_GEARED_LINEAR_DRIVE_SCOPE",
-          "url": "https://framo-morat.com/us/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://framo-morat.com/us/products"],
+      "sources": [{"sourceId":"brand-framo-morat-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"GROUP_IDENTITY_LOCATION_AND_GEARED_LINEAR_DRIVE_SCOPE","url":"https://framo-morat.com/us/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "franz-ziel-gmbh",
       "officialName": "Franz Ziel GmbH",
       "displayName": "Franz Ziel",
-      "aliases": [
-        "FRANZ ZIEL",
-        "FRANZ ZIEL GMBH",
-        "ZIEL GMBH"
-      ],
+      "aliases": ["FRANZ ZIEL", "FRANZ ZIEL GMBH", "ZIEL GMBH"],
       "formerNames": [],
       "officialWebsite": "https://www.ziel-gmbh.com/",
-      "officialDomains": [
-        "ziel-gmbh.com"
-      ],
+      "officialDomains": ["ziel-gmbh.com"],
       "country": "Germany",
       "headquarters": "Billerbeck, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Franz Ziel develops containment, clean-air and material-transfer equipment for pharmaceutical production.",
-      "fullDescription": [
-        "Franz Ziel GmbH is verified through its manufacturer-owned website as a German supplier of pharmaceutical production equipment.",
-        "Its documented scope includes isolators, restricted-access barrier systems, laminar-airflow systems, material-transfer equipment and solutions for aseptic processing."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Промышленное оборудование безопасности"
-      ],
-      "productFamilies": [
-        "Isolators",
-        "RABS",
-        "Laminar Airflow Systems",
-        "Material Transfer Systems",
-        "Aseptic Processing Systems"
-      ],
+      "fullDescription": ["Franz Ziel GmbH is verified through its manufacturer-owned website as a German supplier of pharmaceutical production equipment.", "Its documented scope includes isolators, restricted-access barrier systems, laminar-airflow systems, material-transfer equipment and solutions for aseptic processing."],
+      "productCategories": ["Промышленные машины", "Промышленное оборудование безопасности"],
+      "productFamilies": ["Isolators", "RABS", "Laminar Airflow Systems", "Material Transfer Systems", "Aseptic Processing Systems"],
       "series": [],
-      "industries": [
-        "Фармацевтическая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.ziel-gmbh.com/wp-content/uploads/2024/08/FZ_Produktbroschuere_V5.0_.10.2024-1.pdf"
-      ],
-      "documentationSources": [
-        "https://www.ziel-gmbh.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-franz-ziel-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_PHARMACEUTICAL_CONTAINMENT_SCOPE",
-          "url": "https://www.ziel-gmbh.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Фармацевтическая промышленность"],
+      "officialCatalogs": ["https://www.ziel-gmbh.com/wp-content/uploads/2024/08/FZ_Produktbroschuere_V5.0_.10.2024-1.pdf"],
+      "documentationSources": ["https://www.ziel-gmbh.com/"],
+      "sources": [{"sourceId":"brand-franz-ziel-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_PHARMACEUTICAL_CONTAINMENT_SCOPE","url":"https://www.ziel-gmbh.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "frascold",
       "officialName": "Frascold S.p.A.",
       "displayName": "Frascold",
-      "aliases": [
-        "FRASCOLD",
-        "FRASCOLD SPA"
-      ],
+      "aliases": ["FRASCOLD", "FRASCOLD SPA"],
       "formerNames": [],
       "officialWebsite": "https://www.frascold.it/in/en",
-      "officialDomains": [
-        "frascold.it"
-      ],
+      "officialDomains": ["frascold.it"],
       "country": "Italy",
       "headquarters": "Milan, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Frascold manufactures semi-hermetic reciprocating and screw compressors and condensing units for HVACR systems.",
-      "fullDescription": [
-        "Frascold S.p.A. is verified through its manufacturer-owned website as an Italian compressor manufacturer serving refrigeration and air-conditioning applications.",
-        "The official product structure covers semi-hermetic reciprocating compressors, screw compressors and condensing units, including solutions for CO2 and other refrigerants."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Холодильное оборудование"
-      ],
-      "productFamilies": [
-        "Reciprocating Compressors",
-        "Screw Compressors",
-        "Condensing Units",
-        "CO2 Compressors"
-      ],
+      "fullDescription": ["Frascold S.p.A. is verified through its manufacturer-owned website as an Italian compressor manufacturer serving refrigeration and air-conditioning applications.", "The official product structure covers semi-hermetic reciprocating compressors, screw compressors and condensing units, including solutions for CO2 and other refrigerants."],
+      "productCategories": ["Промышленные компрессоры", "Холодильное оборудование"],
+      "productFamilies": ["Reciprocating Compressors", "Screw Compressors", "Condensing Units", "CO2 Compressors"],
       "series": [],
-      "industries": [
-        "Холодильная техника",
-        "Системы зданий"
-      ],
+      "industries": ["Холодильная техника", "Системы зданий"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.frascold.it/in/en/product-search?t=94"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-frascold-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_HVACR_COMPRESSOR_SCOPE",
-          "url": "https://www.frascold.it/in/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.frascold.it/in/en/product-search?t=94"],
+      "sources": [{"sourceId":"brand-frascold-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_HVACR_COMPRESSOR_SCOPE","url":"https://www.frascold.it/in/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fresenius-medical-care",
       "officialName": "Fresenius Medical Care AG",
       "displayName": "Fresenius Medical Care",
-      "aliases": [
-        "FRESENIUS MEDICAL CARE",
-        "FMC"
-      ],
+      "aliases": ["FRESENIUS MEDICAL CARE", "FMC"],
       "formerNames": [],
       "officialWebsite": "https://freseniusmedicalcare.com/en/",
-      "officialDomains": [
-        "freseniusmedicalcare.com"
-      ],
+      "officialDomains": ["freseniusmedicalcare.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fresenius Medical Care develops dialysis systems, treatment consumables and water-treatment equipment for renal care.",
-      "fullDescription": [
-        "Fresenius Medical Care is verified through its official corporate website as a provider of products and services for people with kidney disease.",
-        "Its documented equipment portfolio includes in-center and home dialysis systems, dialyzers and treatment consumables, reverse-osmosis water systems and concentrate preparation equipment."
-      ],
-      "productCategories": [
-        "Системы водоподготовки",
-        "Контрольно-измерительные приборы"
-      ],
-      "productFamilies": [
-        "Hemodialysis Systems",
-        "Dialyzers",
-        "Dialysis Consumables",
-        "Reverse Osmosis Systems",
-        "Concentrate Systems"
-      ],
-      "series": [
-        "5008X CAREsystem",
-        "2008T BlueStar",
-        "AquaA",
-        "AquaBplus"
-      ],
-      "industries": [
-        "Медицинское оборудование"
-      ],
-      "officialCatalogs": [
-        "https://www.freseniusmedicalcare.com/content/dam/fmcna/live/support/documents/product-catalogs/ProductCatalog-FINAL.pdf"
-      ],
-      "documentationSources": [
-        "https://freseniusmedicalcare.com/en-us/products/in-center-hemodialysis-equipment/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fresenius-medical-care-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "CORPORATE_IDENTITY_AND_DIALYSIS_WATER_TREATMENT_SCOPE",
-          "url": "https://freseniusmedicalcare.com/en-us/products/in-center-hemodialysis-equipment/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["Fresenius Medical Care is verified through its official corporate website as a provider of products and services for people with kidney disease.", "Its documented equipment portfolio includes in-center and home dialysis systems, dialyzers and treatment consumables, reverse-osmosis water systems and concentrate preparation equipment."],
+      "productCategories": ["Системы водоподготовки", "Контрольно-измерительные приборы"],
+      "productFamilies": ["Hemodialysis Systems", "Dialyzers", "Dialysis Consumables", "Reverse Osmosis Systems", "Concentrate Systems"],
+      "series": ["5008X CAREsystem", "2008T BlueStar", "AquaA", "AquaBplus"],
+      "industries": ["Медицинское оборудование"],
+      "officialCatalogs": ["https://www.freseniusmedicalcare.com/content/dam/fmcna/live/support/documents/product-catalogs/ProductCatalog-FINAL.pdf"],
+      "documentationSources": ["https://freseniusmedicalcare.com/en-us/products/in-center-hemodialysis-equipment/"],
+      "sources": [{"sourceId":"brand-fresenius-medical-care-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CORPORATE_IDENTITY_AND_DIALYSIS_WATER_TREATMENT_SCOPE","url":"https://freseniusmedicalcare.com/en-us/products/in-center-hemodialysis-equipment/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "freudenberg",
       "officialName": "Freudenberg SE",
       "displayName": "Freudenberg",
-      "aliases": [
-        "FREUDENBERG",
-        "FREUDENBERG GROUP"
-      ],
+      "aliases": ["FREUDENBERG", "FREUDENBERG GROUP"],
       "formerNames": [],
       "officialWebsite": "https://www.freudenberg.com/en",
-      "officialDomains": [
-        "freudenberg.com"
-      ],
+      "officialDomains": ["freudenberg.com"],
       "country": "Germany",
       "headquarters": "Weinheim, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Freudenberg develops sealing, vibration-control, filtration, technical-textile and specialty industrial technologies.",
-      "fullDescription": [
-        "Freudenberg SE is verified through its official group website as a diversified German technology group headquartered in Weinheim.",
-        "Its published technology portfolio includes seals and vibration-control products, technical textiles and filtration systems, cleaning technologies and medical components."
-      ],
-      "productCategories": [
-        "Промышленные уплотнения",
-        "Промышленная фильтрация",
-        "Вибрационное оборудование"
-      ],
-      "productFamilies": [
-        "Sealing Technologies",
-        "Vibration Control",
-        "Technical Textiles",
-        "Filtration Systems",
-        "Cleaning Technologies"
-      ],
+      "fullDescription": ["Freudenberg SE is verified through its official group website as a diversified German technology group headquartered in Weinheim.", "Its published technology portfolio includes seals and vibration-control products, technical textiles and filtration systems, cleaning technologies and medical components."],
+      "productCategories": ["Промышленные уплотнения", "Промышленная фильтрация", "Вибрационное оборудование"],
+      "productFamilies": ["Sealing Technologies", "Vibration Control", "Technical Textiles", "Filtration Systems", "Cleaning Technologies"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность",
-        "Медицинское оборудование"
-      ],
+      "industries": ["Промышленное производство", "Автомобильная промышленность", "Медицинское оборудование"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.freudenberg.com/en/technologies/pioneering-portfolio"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-freudenberg-portfolio",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "GROUP_IDENTITY_LOCATION_AND_TECHNOLOGY_PORTFOLIO",
-          "url": "https://www.freudenberg.com/en/technologies/pioneering-portfolio",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.freudenberg.com/en/technologies/pioneering-portfolio"],
+      "sources": [{"sourceId":"brand-freudenberg-portfolio","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"GROUP_IDENTITY_LOCATION_AND_TECHNOLOGY_PORTFOLIO","url":"https://www.freudenberg.com/en/technologies/pioneering-portfolio","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "friatec",
       "officialName": "FRIATEC",
       "displayName": "FRIATEC",
-      "aliases": [
-        "FRIATEC",
-        "FRIATEC BY ALIAXIS"
-      ],
+      "aliases": ["FRIATEC", "FRIATEC BY ALIAXIS"],
       "formerNames": [],
       "officialWebsite": "https://www.emea-international.aliaxis.com/en/brands/pe-electrofusion",
-      "officialDomains": [
-        "aliaxis.com",
-        "emea-international.aliaxis.com"
-      ],
+      "officialDomains": ["aliaxis.com", "emea-international.aliaxis.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Aliaxis",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FRIATEC is an Aliaxis brand for polyethylene electrofusion fittings, valves and fusion tools used in piping systems.",
-      "fullDescription": [
-        "FRIATEC is verified through the official Aliaxis brand website as a polyethylene electrofusion product brand.",
-        "The documented range includes electrofusion fittings, ball valves, tapping tees, FRIAMAT fusion units and FRIATOOLS installation equipment."
-      ],
-      "productCategories": [
-        "Трубопроводная арматура",
-        "Сварочное оборудование"
-      ],
-      "productFamilies": [
-        "Electrofusion Fittings",
-        "Ball Valves",
-        "Tapping Tees",
-        "Fusion Units",
-        "Installation Tools"
-      ],
-      "series": [
-        "FRIAMAT",
-        "FRIATOOLS"
-      ],
-      "industries": [
-        "Водоснабжение",
-        "Газовая промышленность",
-        "Инфраструктура"
-      ],
+      "fullDescription": ["FRIATEC is verified through the official Aliaxis brand website as a polyethylene electrofusion product brand.", "The documented range includes electrofusion fittings, ball valves, tapping tees, FRIAMAT fusion units and FRIATOOLS installation equipment."],
+      "productCategories": ["Трубопроводная арматура", "Сварочное оборудование"],
+      "productFamilies": ["Electrofusion Fittings", "Ball Valves", "Tapping Tees", "Fusion Units", "Installation Tools"],
+      "series": ["FRIAMAT", "FRIATOOLS"],
+      "industries": ["Водоснабжение", "Газовая промышленность", "Инфраструктура"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.emea-international.aliaxis.com/en/brands/pe-electrofusion"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-friatec-aliaxis",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "BRAND_IDENTITY_PARENT_AND_ELECTROFUSION_SCOPE",
-          "url": "https://www.emea-international.aliaxis.com/en/brands/pe-electrofusion",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.emea-international.aliaxis.com/en/brands/pe-electrofusion"],
+      "sources": [{"sourceId":"brand-friatec-aliaxis","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"BRAND_IDENTITY_PARENT_AND_ELECTROFUSION_SCOPE","url":"https://www.emea-international.aliaxis.com/en/brands/pe-electrofusion","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "frick",
       "officialName": "FRICK",
       "displayName": "FRICK",
-      "aliases": [
-        "FRICK",
-        "JOHNSON CONTROLS FRICK"
-      ],
+      "aliases": ["FRICK", "JOHNSON CONTROLS FRICK"],
       "formerNames": [],
       "officialWebsite": "https://www.johnsoncontrols.com/Industrial-Refrigeration/FRICK",
-      "officialDomains": [
-        "johnsoncontrols.com"
-      ],
+      "officialDomains": ["johnsoncontrols.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Johnson Controls",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FRICK is a Johnson Controls brand for industrial refrigeration compressors, packages and plant equipment.",
-      "fullDescription": [
-        "FRICK is verified through the official Johnson Controls website as an industrial refrigeration brand.",
-        "The documented portfolio includes screw compressors, compressor packages, condensers, evaporators, air handlers, vessels, heat exchangers and refrigeration controls."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Холодильное оборудование",
-        "Промышленные контроллеры"
-      ],
-      "productFamilies": [
-        "Screw Compressors",
-        "Compressor Packages",
-        "Condensers",
-        "Evaporators",
-        "Air Handlers",
-        "Refrigeration Controls"
-      ],
+      "fullDescription": ["FRICK is verified through the official Johnson Controls website as an industrial refrigeration brand.", "The documented portfolio includes screw compressors, compressor packages, condensers, evaporators, air handlers, vessels, heat exchangers and refrigeration controls."],
+      "productCategories": ["Промышленные компрессоры", "Холодильное оборудование", "Промышленные контроллеры"],
+      "productFamilies": ["Screw Compressors", "Compressor Packages", "Condensers", "Evaporators", "Air Handlers", "Refrigeration Controls"],
       "series": [],
-      "industries": [
-        "Холодильная техника",
-        "Пищевая промышленность"
-      ],
+      "industries": ["Холодильная техника", "Пищевая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.johnsoncontrols.com/industrial-refrigeration/frick-compressor-packages"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-frick-johnson-controls",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "BRAND_IDENTITY_PARENT_AND_INDUSTRIAL_REFRIGERATION_SCOPE",
-          "url": "https://www.johnsoncontrols.com/Industrial-Refrigeration/FRICK",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.johnsoncontrols.com/industrial-refrigeration/frick-compressor-packages"],
+      "sources": [{"sourceId":"brand-frick-johnson-controls","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"BRAND_IDENTITY_PARENT_AND_INDUSTRIAL_REFRIGERATION_SCOPE","url":"https://www.johnsoncontrols.com/Industrial-Refrigeration/FRICK","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "friess",
       "officialName": "FRIESS GmbH",
       "displayName": "FRIESS",
-      "aliases": [
-        "FRIESS",
-        "FRIESS GMBH"
-      ],
+      "aliases": ["FRIESS", "FRIESS GMBH"],
       "formerNames": [],
       "officialWebsite": "https://friess-online.de/en/",
-      "officialDomains": [
-        "friess-online.de",
-        "friess.eu",
-        "industrialoilskimmer.com"
-      ],
+      "officialDomains": ["friess-online.de", "friess.eu", "industrialoilskimmer.com"],
       "country": "Germany",
       "headquarters": "Monheim am Rhein, Germany",
       "foundedYear": 1972,
       "parentCompany": null,
       "shortDescription": "FRIESS manufactures oil skimmers, oil separators and oil-cleaning systems for industrial process fluids.",
-      "fullDescription": [
-        "FRIESS GmbH is verified through its manufacturer-owned website as a German producer of fluid-cleaning equipment founded in 1972.",
-        "Its documented range includes tube and belt oil skimmers, oil-water separators, magnetic filters and electrostatic oil-cleaning systems."
-      ],
-      "productCategories": [
-        "Промышленная фильтрация",
-        "Промышленные системы очистки"
-      ],
-      "productFamilies": [
-        "Oil Skimmers",
-        "Oil Separators",
-        "Magnetic Filters",
-        "Electrostatic Oil Cleaners"
-      ],
-      "series": [
-        "S100",
-        "W40",
-        "W20",
-        "1U",
-        "1S",
-        "WBS",
-        "Skimmtelligent"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Водоочистка",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["FRIESS GmbH is verified through its manufacturer-owned website as a German producer of fluid-cleaning equipment founded in 1972.", "Its documented range includes tube and belt oil skimmers, oil-water separators, magnetic filters and electrostatic oil-cleaning systems."],
+      "productCategories": ["Промышленная фильтрация", "Промышленные системы очистки"],
+      "productFamilies": ["Oil Skimmers", "Oil Separators", "Magnetic Filters", "Electrostatic Oil Cleaners"],
+      "series": ["S100", "W40", "W20", "1U", "1S", "WBS", "Skimmtelligent"],
+      "industries": ["Металлообработка", "Водоочистка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://friess-online.de/en/electrostatic-oil-cleaners/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-friess-oil-skimmers",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_AND_FLUID_CLEANING_SCOPE",
-          "url": "https://friess-online.de/en/oil-skimmer/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://friess-online.de/en/electrostatic-oil-cleaners/"],
+      "sources": [{"sourceId":"brand-friess-oil-skimmers","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_FLUID_CLEANING_SCOPE","url":"https://friess-online.de/en/oil-skimmer/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "friga-bohn",
       "officialName": "Friga-Bohn",
       "displayName": "Friga-Bohn",
-      "aliases": [
-        "FRIGA-BOHN",
-        "FRIGA BOHN"
-      ],
+      "aliases": ["FRIGA-BOHN", "FRIGA BOHN"],
       "formerNames": [],
       "officialWebsite": "https://www.frigabohn.com/en/",
-      "officialDomains": [
-        "frigabohn.com"
-      ],
+      "officialDomains": ["frigabohn.com"],
       "country": "France",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Friga-Bohn develops heat exchangers and refrigeration units for commercial, food-service and industrial cooling systems.",
-      "fullDescription": [
-        "Friga-Bohn is verified through its official website as a refrigeration-equipment manufacturer serving commercial and industrial applications.",
-        "The published portfolio includes ceiling, cubic, dual-discharge and centrifugal unit coolers, condensers, gas coolers, monoblocks, split systems and chillers."
-      ],
-      "productCategories": [
-        "Холодильное оборудование",
-        "Промышленные теплообменники"
-      ],
-      "productFamilies": [
-        "Unit Coolers",
-        "Condensers",
-        "Gas Coolers",
-        "Monoblocks",
-        "Split Systems",
-        "Chillers"
-      ],
-      "series": [
-        "NOVA",
-        "Azur",
-        "PEG",
-        "Neosys"
-      ],
-      "industries": [
-        "Холодильная техника",
-        "Пищевая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.frigabohn.com/dA/d9c626fd08/6-EN-INT-2025-%20FRIGABOHN.pdf"
-      ],
-      "documentationSources": [
-        "https://www.frigabohn.com/en/about"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-friga-bohn-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "BRAND_IDENTITY_AND_COMMERCIAL_INDUSTRIAL_REFRIGERATION_SCOPE",
-          "url": "https://www.frigabohn.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["Friga-Bohn is verified through its official website as a refrigeration-equipment manufacturer serving commercial and industrial applications.", "The published portfolio includes ceiling, cubic, dual-discharge and centrifugal unit coolers, condensers, gas coolers, monoblocks, split systems and chillers."],
+      "productCategories": ["Холодильное оборудование", "Промышленные теплообменники"],
+      "productFamilies": ["Unit Coolers", "Condensers", "Gas Coolers", "Monoblocks", "Split Systems", "Chillers"],
+      "series": ["NOVA", "Azur", "PEG", "Neosys"],
+      "industries": ["Холодильная техника", "Пищевая промышленность"],
+      "officialCatalogs": ["https://www.frigabohn.com/dA/d9c626fd08/6-EN-INT-2025-%20FRIGABOHN.pdf"],
+      "documentationSources": ["https://www.frigabohn.com/en/about"],
+      "sources": [{"sourceId":"brand-friga-bohn-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_COMMERCIAL_INDUSTRIAL_REFRIGERATION_SCOPE","url":"https://www.frigabohn.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "frigel",
       "officialName": "Frigel Firenze S.p.A.",
       "displayName": "Frigel",
-      "aliases": [
-        "FRIGEL",
-        "FRIGEL GROUP"
-      ],
+      "aliases": ["FRIGEL", "FRIGEL GROUP"],
       "formerNames": [],
       "officialWebsite": "https://www.frigel.com/",
-      "officialDomains": [
-        "frigel.com"
-      ],
+      "officialDomains": ["frigel.com"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Frigel develops industrial process-cooling, temperature-control, pumping and filtration systems.",
-      "fullDescription": [
-        "Frigel is verified through its manufacturer-owned website as an industrial process-cooling and temperature-control company.",
-        "The official range covers adiabatic cooling systems, air-cooled and modular chillers, temperature-control units, pumping stations, filtration systems and digital plant-control devices."
-      ],
-      "productCategories": [
-        "Холодильное оборудование",
-        "Промышленные насосы",
-        "Промышленная фильтрация"
-      ],
-      "productFamilies": [
-        "Adiabatic Coolers",
-        "Industrial Chillers",
-        "Temperature Control Units",
-        "Pumping Stations",
-        "Filtration Systems"
-      ],
-      "series": [
-        "Ecodry",
-        "Microgel",
-        "Aquagel",
-        "Netgel",
-        "MiND"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Пищевая промышленность",
-        "Химическая промышленность"
-      ],
+      "fullDescription": ["Frigel is verified through its manufacturer-owned website as an industrial process-cooling and temperature-control company.", "The official range covers adiabatic cooling systems, air-cooled and modular chillers, temperature-control units, pumping stations, filtration systems and digital plant-control devices."],
+      "productCategories": ["Холодильное оборудование", "Промышленные насосы", "Промышленная фильтрация"],
+      "productFamilies": ["Adiabatic Coolers", "Industrial Chillers", "Temperature Control Units", "Pumping Stations", "Filtration Systems"],
+      "series": ["Ecodry", "Microgel", "Aquagel", "Netgel", "MiND"],
+      "industries": ["Промышленное производство", "Пищевая промышленность", "Химическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.frigel.com/air-cooled-chillers"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-frigel-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "IDENTITY_AND_PROCESS_COOLING_TEMPERATURE_CONTROL_SCOPE",
-          "url": "https://www.frigel.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.frigel.com/air-cooled-chillers"],
+      "sources": [{"sourceId":"brand-frigel-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_AND_PROCESS_COOLING_TEMPERATURE_CONTROL_SCOPE","url":"https://www.frigel.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "friulair",
       "officialName": "Friulair S.r.l.",
       "displayName": "Friulair",
-      "aliases": [
-        "FRIULAIR",
-        "FRIULAIR SRL"
-      ],
+      "aliases": ["FRIULAIR", "FRIULAIR SRL"],
       "formerNames": [],
       "officialWebsite": "https://www.friulair.com/en/",
-      "officialDomains": [
-        "friulair.com"
-      ],
+      "officialDomains": ["friulair.com"],
       "country": "Italy",
       "headquarters": "Cervignano del Friuli, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Friulair develops compressed-air treatment and industrial refrigeration equipment, including dryers, filters and liquid chillers.",
-      "fullDescription": [
-        "Friulair S.r.l. is verified through its manufacturer-owned website as an Italian compressed-air treatment and industrial-refrigeration company.",
-        "Its documented product range includes refrigerated and adsorption dryers, filters, aftercoolers, condensate-treatment equipment, air- and water-cooled chillers, heat pumps and dry coolers."
-      ],
-      "productCategories": [
-        "Пневматическое оборудование",
-        "Холодильное оборудование",
-        "Промышленная фильтрация"
-      ],
-      "productFamilies": [
-        "Compressed-Air Dryers",
-        "Filters",
-        "Aftercoolers",
-        "Condensate Treatment",
-        "Liquid Chillers",
-        "Dry Coolers"
-      ],
-      "series": [
-        "FMD",
-        "ACT",
-        "HDT",
-        "INFINITY COOL"
-      ],
-      "industries": [
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Friulair S.r.l. is verified through its manufacturer-owned website as an Italian compressed-air treatment and industrial-refrigeration company.", "Its documented product range includes refrigerated and adsorption dryers, filters, aftercoolers, condensate-treatment equipment, air- and water-cooled chillers, heat pumps and dry coolers."],
+      "productCategories": ["Пневматическое оборудование", "Холодильное оборудование", "Промышленная фильтрация"],
+      "productFamilies": ["Compressed-Air Dryers", "Filters", "Aftercoolers", "Condensate Treatment", "Liquid Chillers", "Dry Coolers"],
+      "series": ["FMD", "ACT", "HDT", "INFINITY COOL"],
+      "industries": ["Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.friulair.com/en/compressed-air/dryers/",
-        "https://www.friulair.com/en/liquid-chiller/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-friulair-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_COMPRESSED_AIR_COOLING_SCOPE",
-          "url": "https://www.friulair.com/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.friulair.com/en/compressed-air/dryers/", "https://www.friulair.com/en/liquid-chiller/"],
+      "sources": [{"sourceId":"brand-friulair-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_COMPRESSED_AIR_COOLING_SCOPE","url":"https://www.friulair.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fsg-fernsteuergerate",
       "officialName": "Fernsteuergeräte Kurt Oelsch GmbH",
       "displayName": "FSG Fernsteuergeräte",
-      "aliases": [
-        "FSG",
-        "FSG FERNSTEUERGERÄTE",
-        "FSG FERNSTEUERGERATE"
-      ],
+      "aliases": ["FSG", "FSG FERNSTEUERGERÄTE", "FSG FERNSTEUERGERATE"],
       "formerNames": [],
       "officialWebsite": "https://www.fsg-sensors.de/en/",
-      "officialDomains": [
-        "fsg-sensors.de"
-      ],
+      "officialDomains": ["fsg-sensors.de"],
       "country": "Germany",
       "headquarters": "Berlin, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FSG Fernsteuergeräte develops position, angle, inclination and wind sensors together with industrial control interfaces.",
-      "fullDescription": [
-        "Fernsteuergeräte Kurt Oelsch GmbH is verified through its manufacturer-owned website as a Berlin sensor manufacturer.",
-        "The official portfolio includes rotary encoders, potentiometers, inclination sensors, draw-wire sensors, spring cable reels, joysticks, foot pedals and anemometers."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Промышленные энкодеры",
-        "Системы автоматизации"
-      ],
-      "productFamilies": [
-        "Rotary Encoders",
-        "Potentiometers",
-        "Inclination Sensors",
-        "Draw-Wire Sensors",
-        "Industrial Joysticks",
-        "Anemometers"
-      ],
+      "fullDescription": ["Fernsteuergeräte Kurt Oelsch GmbH is verified through its manufacturer-owned website as a Berlin sensor manufacturer.", "The official portfolio includes rotary encoders, potentiometers, inclination sensors, draw-wire sensors, spring cable reels, joysticks, foot pedals and anemometers."],
+      "productCategories": ["Промышленные датчики", "Промышленные энкодеры", "Системы автоматизации"],
+      "productFamilies": ["Rotary Encoders", "Potentiometers", "Inclination Sensors", "Draw-Wire Sensors", "Industrial Joysticks", "Anemometers"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Машиностроение"
-      ],
+      "industries": ["Промышленная автоматизация", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.fsg-sensors.de/en/produkte"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fsg-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_SENSOR_CONTROL_SCOPE",
-          "url": "https://www.fsg-sensors.de/en/produkte",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.fsg-sensors.de/en/produkte"],
+      "sources": [{"sourceId":"brand-fsg-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_SENSOR_CONTROL_SCOPE","url":"https://www.fsg-sensors.de/en/produkte","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fst",
       "officialName": "Freudenberg Sealing Technologies",
       "displayName": "Freudenberg Sealing Technologies",
-      "aliases": [
-        "FST",
-        "FREUDENBERG SEALING TECHNOLOGIES"
-      ],
+      "aliases": ["FST", "FREUDENBERG SEALING TECHNOLOGIES"],
       "formerNames": [],
       "officialWebsite": "https://www.fst.com/",
-      "officialDomains": [
-        "fst.com",
-        "products.fst.com"
-      ],
+      "officialDomains": ["fst.com", "products.fst.com"],
       "country": "Germany",
       "headquarters": "Weinheim, Germany",
       "foundedYear": null,
       "parentCompany": "Freudenberg Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Freudenberg Sealing Technologies develops industrial seals, accumulators, diaphragms and engineered sealing components.",
-      "fullDescription": [
-        "Freudenberg Sealing Technologies is verified through its official product catalog as the Freudenberg Group's sealing-technology business.",
-        "The documented portfolio covers rotary and hydraulic seals, static seals, accumulators, bellows, diaphragms and other engineered sealing products."
-      ],
-      "productCategories": [
-        "Промышленные уплотнения",
-        "Гидравлические аккумуляторы"
-      ],
-      "productFamilies": [
-        "Rotary Seals",
-        "Hydraulic Seals",
-        "Static Seals",
-        "Accumulators",
-        "Bellows",
-        "Diaphragms"
-      ],
+      "fullDescription": ["Freudenberg Sealing Technologies is verified through its official product catalog as the Freudenberg Group's sealing-technology business.", "The documented portfolio covers rotary and hydraulic seals, static seals, accumulators, bellows, diaphragms and other engineered sealing products."],
+      "productCategories": ["Промышленные уплотнения", "Гидравлические аккумуляторы"],
+      "productFamilies": ["Rotary Seals", "Hydraulic Seals", "Static Seals", "Accumulators", "Bellows", "Diaphragms"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность"
-      ],
+      "industries": ["Промышленное производство", "Автомобильная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://products.fst.com/global/en"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fst-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_CATALOG",
-          "scope": "GROUP_COMPANY_IDENTITY_AND_SEALING_PORTFOLIO",
-          "url": "https://products.fst.com/global/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://products.fst.com/global/en"],
+      "sources": [{"sourceId":"brand-fst-products","tier":"A","type":"OFFICIAL_PRODUCT_CATALOG","scope":"GROUP_COMPANY_IDENTITY_AND_SEALING_PORTFOLIO","url":"https://products.fst.com/global/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "ftl-company",
       "officialName": "FTL Company",
       "displayName": "FTL Company",
-      "aliases": [
-        "FTL",
-        "FTL COMPANY",
-        "FTL MACHINES"
-      ],
+      "aliases": ["FTL", "FTL COMPANY", "FTL MACHINES"],
       "formerNames": [],
       "officialWebsite": "https://www.ftl-maquinas.es/",
-      "officialDomains": [
-        "ftl-maquinas.es"
-      ],
+      "officialDomains": ["ftl-maquinas.es"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FTL Company manufactures CNC routing, plasma-cutting, laser-cutting and laser-marking machines.",
-      "fullDescription": [
-        "FTL Company is verified through its manufacturer-owned website as a machine producer for material cutting, routing and marking.",
-        "The documented equipment range includes CNC routers, plasma-cutting machines, laser machines and laser-marking systems."
-      ],
-      "productCategories": [
-        "Системы ЧПУ",
-        "Сварочное и режущее оборудование",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "CNC Routers",
-        "Plasma Cutting Machines",
-        "Laser Cutting Machines",
-        "Laser Marking Machines"
-      ],
+      "fullDescription": ["FTL Company is verified through its manufacturer-owned website as a machine producer for material cutting, routing and marking.", "The documented equipment range includes CNC routers, plasma-cutting machines, laser machines and laser-marking systems."],
+      "productCategories": ["Системы ЧПУ", "Сварочное и режущее оборудование", "Промышленные машины"],
+      "productFamilies": ["CNC Routers", "Plasma Cutting Machines", "Laser Cutting Machines", "Laser Marking Machines"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Промышленное производство"
-      ],
+      "industries": ["Металлообработка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.ftl-maquinas.es/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-ftl-company-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_CNC_CUTTING_MARKING_SCOPE",
-          "url": "https://www.ftl-maquinas.es/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.ftl-maquinas.es/"],
+      "sources": [{"sourceId":"brand-ftl-company-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_CNC_CUTTING_MARKING_SCOPE","url":"https://www.ftl-maquinas.es/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fug-elektronik",
       "officialName": "FuG Elektronik GmbH",
       "displayName": "FuG Elektronik",
-      "aliases": [
-        "FUG ELEKTRONIK",
-        "FUG",
-        "FuG Elektronik"
-      ],
+      "aliases": ["FUG ELEKTRONIK", "FUG", "FuG Elektronik"],
       "formerNames": [],
       "officialWebsite": "https://www.xppower.com/fug-guth-high-voltage",
-      "officialDomains": [
-        "xppower.com"
-      ],
+      "officialDomains": ["xppower.com"],
       "country": "Germany",
       "headquarters": "Bremen, Germany",
       "foundedYear": null,
       "parentCompany": "XP Power",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "FuG Elektronik is an XP Power company supplying precision high-voltage and high-power DC power systems.",
-      "fullDescription": [
-        "FuG Elektronik GmbH is verified through the official XP Power website as part of the XP Power high-voltage business.",
-        "Its documented scope covers precision high-voltage power supplies and custom power systems for semiconductor, healthcare, research and industrial applications."
-      ],
-      "productCategories": [
-        "Источники питания",
-        "Силовые преобразователи"
-      ],
-      "productFamilies": [
-        "High-Voltage Power Supplies",
-        "Precision DC Power Supplies",
-        "Capacitor-Charging Supplies",
-        "Custom Power Systems"
-      ],
-      "series": [
-        "HCP",
-        "HCH",
-        "HYN",
-        "HCE",
-        "HCB"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Полупроводниковая промышленность",
-        "Исследования"
-      ],
+      "fullDescription": ["FuG Elektronik GmbH is verified through the official XP Power website as part of the XP Power high-voltage business.", "Its documented scope covers precision high-voltage power supplies and custom power systems for semiconductor, healthcare, research and industrial applications."],
+      "productCategories": ["Источники питания", "Силовые преобразователи"],
+      "productFamilies": ["High-Voltage Power Supplies", "Precision DC Power Supplies", "Capacitor-Charging Supplies", "Custom Power Systems"],
+      "series": ["HCP", "HCH", "HYN", "HCE", "HCB"],
+      "industries": ["Промышленное производство", "Полупроводниковая промышленность", "Исследования"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.xppower.com/products/high-voltage-power-solutions"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fug-xp-power",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "LEGAL_IDENTITY_PARENT_AND_HIGH_VOLTAGE_POWER_SCOPE",
-          "url": "https://www.xppower.com/fug-guth-high-voltage",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.xppower.com/products/high-voltage-power-solutions"],
+      "sources": [{"sourceId":"brand-fug-xp-power","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"LEGAL_IDENTITY_PARENT_AND_HIGH_VOLTAGE_POWER_SCOPE","url":"https://www.xppower.com/fug-guth-high-voltage","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fuji-electric",
       "officialName": "Fuji Electric Co., Ltd.",
       "displayName": "Fuji Electric",
-      "aliases": [
-        "FUJI ELECTRIC",
-        "FUJI ELECTRIC CO LTD"
-      ],
+      "aliases": ["FUJI ELECTRIC", "FUJI ELECTRIC CO LTD"],
       "formerNames": [],
       "officialWebsite": "https://www.fujielectric.com/",
-      "officialDomains": [
-        "fujielectric.com"
-      ],
+      "officialDomains": ["fujielectric.com"],
       "country": "Japan",
       "headquarters": "Tokyo, Japan",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fuji Electric develops drives, motors, automation controls, power supplies, instrumentation and electrical distribution systems.",
-      "fullDescription": [
-        "Fuji Electric Co., Ltd. is verified through its official global website as a Japanese industrial and power-technology manufacturer.",
-        "Its documented portfolio includes AC drives, motors, servo systems, PLC and HMI products, industrial power supplies, instrumentation, monitoring systems and electrical distribution equipment."
-      ],
-      "productCategories": [
-        "Системы приводов",
-        "Промышленные контроллеры",
-        "Источники питания",
-        "Контрольно-измерительные приборы"
-      ],
-      "productFamilies": [
-        "AC Drives",
-        "Electric Motors",
-        "Servo Systems",
-        "PLC",
-        "HMI",
-        "Industrial Power Supplies",
-        "Instrumentation"
-      ],
-      "series": [
-        "FRENIC",
-        "MICREX"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Энергетика",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Fuji Electric Co., Ltd. is verified through its official global website as a Japanese industrial and power-technology manufacturer.", "Its documented portfolio includes AC drives, motors, servo systems, PLC and HMI products, industrial power supplies, instrumentation, monitoring systems and electrical distribution equipment."],
+      "productCategories": ["Системы приводов", "Промышленные контроллеры", "Источники питания", "Контрольно-измерительные приборы"],
+      "productFamilies": ["AC Drives", "Electric Motors", "Servo Systems", "PLC", "HMI", "Industrial Power Supplies", "Instrumentation"],
+      "series": ["FRENIC", "MICREX"],
+      "industries": ["Промышленная автоматизация", "Энергетика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.fujielectric.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fuji-electric-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "CORPORATE_IDENTITY_AND_DRIVE_AUTOMATION_POWER_INSTRUMENTATION_SCOPE",
-          "url": "https://www.fujielectric.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.fujielectric.com/products/"],
+      "sources": [{"sourceId":"brand-fuji-electric-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CORPORATE_IDENTITY_AND_DRIVE_AUTOMATION_POWER_INSTRUMENTATION_SCOPE","url":"https://www.fujielectric.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fujifilm",
       "officialName": "FUJIFILM Corporation",
       "displayName": "FUJIFILM",
-      "aliases": [
-        "FUJIFILM",
-        "FUJI FILM"
-      ],
+      "aliases": ["FUJIFILM", "FUJI FILM"],
       "formerNames": [],
       "officialWebsite": "https://www.fujifilm.com/",
-      "officialDomains": [
-        "fujifilm.com"
-      ],
+      "officialDomains": ["fujifilm.com"],
       "country": "Japan",
       "headquarters": "Tokyo, Japan",
       "foundedYear": null,
       "parentCompany": "FUJIFILM Holdings Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "FUJIFILM develops industrial inspection, non-destructive testing and measurement products alongside its broader imaging and materials portfolio.",
-      "fullDescription": [
-        "FUJIFILM Corporation is verified through its official website as a technology manufacturer with industrial materials and inspection businesses.",
-        "The documented industrial scope includes digital and computed radiography equipment, industrial X-ray film, inspection software and other non-destructive testing products."
-      ],
-      "productCategories": [
-        "Инспекционные системы",
-        "Контрольно-измерительные приборы"
-      ],
-      "productFamilies": [
-        "Digital Radiography Equipment",
-        "Computed Radiography Systems",
-        "Industrial X-Ray Film",
-        "Inspection Software"
-      ],
-      "series": [
-        "DynamIx",
-        "FNDX",
-        "XD Film"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Нефтегазовая промышленность",
-        "Авиационная промышленность"
-      ],
+      "fullDescription": ["FUJIFILM Corporation is verified through its official website as a technology manufacturer with industrial materials and inspection businesses.", "The documented industrial scope includes digital and computed radiography equipment, industrial X-ray film, inspection software and other non-destructive testing products."],
+      "productCategories": ["Инспекционные системы", "Контрольно-измерительные приборы"],
+      "productFamilies": ["Digital Radiography Equipment", "Computed Radiography Systems", "Industrial X-Ray Film", "Inspection Software"],
+      "series": ["DynamIx", "FNDX", "XD Film"],
+      "industries": ["Промышленное производство", "Нефтегазовая промышленность", "Авиационная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.fujifilm.com/us/en/business/industrial-materials/non-destructive-testing"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fujifilm-ndt",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "CORPORATE_IDENTITY_AND_INDUSTRIAL_NDT_SCOPE",
-          "url": "https://www.fujifilm.com/us/en/business/industrial-materials/non-destructive-testing",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.fujifilm.com/us/en/business/industrial-materials/non-destructive-testing"],
+      "sources": [{"sourceId":"brand-fujifilm-ndt","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CORPORATE_IDENTITY_AND_INDUSTRIAL_NDT_SCOPE","url":"https://www.fujifilm.com/us/en/business/industrial-materials/non-destructive-testing","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "fujikura",
       "officialName": "Fujikura Ltd.",
       "displayName": "Fujikura",
-      "aliases": [
-        "FUJIKURA",
-        "FUJIKURA LTD"
-      ],
+      "aliases": ["FUJIKURA", "FUJIKURA LTD"],
       "formerNames": [],
       "officialWebsite": "https://www.fujikura.com/",
-      "officialDomains": [
-        "fujikura.com",
-        "optic-product.fujikura.com"
-      ],
+      "officialDomains": ["fujikura.com", "optic-product.fujikura.com"],
       "country": "Japan",
       "headquarters": "Tokyo, Japan",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fujikura manufactures optical-fiber cables, connectivity products, fusion splicers and industrial sensing components.",
-      "fullDescription": [
-        "Fujikura Ltd. is verified through its official product websites as a Japanese manufacturer of energy, telecommunication and electronic systems.",
-        "Its documented portfolio includes optical fibers and cables, optical connectors, fusion splicers and preparation tools, industrial cables and pressure and oxygen sensors."
-      ],
-      "productCategories": [
-        "Промышленные кабели",
-        "Сварочное оборудование",
-        "Промышленные датчики"
-      ],
-      "productFamilies": [
-        "Optical Fibers",
-        "Optical Fiber Cables",
-        "Fusion Splicers",
-        "Fiber Preparation Tools",
-        "Industrial Cables",
-        "Pressure Sensors"
-      ],
-      "series": [
-        "100S",
-        "100R",
-        "90R",
-        "45S",
-        "FSM-100"
-      ],
-      "industries": [
-        "Телекоммуникации",
-        "Промышленное производство",
-        "Электроника"
-      ],
+      "fullDescription": ["Fujikura Ltd. is verified through its official product websites as a Japanese manufacturer of energy, telecommunication and electronic systems.", "Its documented portfolio includes optical fibers and cables, optical connectors, fusion splicers and preparation tools, industrial cables and pressure and oxygen sensors."],
+      "productCategories": ["Промышленные кабели", "Сварочное оборудование", "Промышленные датчики"],
+      "productFamilies": ["Optical Fibers", "Optical Fiber Cables", "Fusion Splicers", "Fiber Preparation Tools", "Industrial Cables", "Pressure Sensors"],
+      "series": ["100S", "100R", "90R", "45S", "FSM-100"],
+      "industries": ["Телекоммуникации", "Промышленное производство", "Электроника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.optic-product.fujikura.com/fusion-splicers/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-fujikura-fusion-splicers",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_OPTICAL_FIBER_SPLICING_SCOPE",
-          "url": "https://www.optic-product.fujikura.com/fusion-splicers/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.optic-product.fujikura.com/fusion-splicers/"],
+      "sources": [{"sourceId":"brand-fujikura-fusion-splicers","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_OPTICAL_FIBER_SPLICING_SCOPE","url":"https://www.optic-product.fujikura.com/fusion-splicers/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "furmanite",
       "officialName": "Furmanite",
       "displayName": "Furmanite",
-      "aliases": [
-        "FURMANITE",
-        "TEAMFURMANITE"
-      ],
+      "aliases": ["FURMANITE", "TEAMFURMANITE"],
       "formerNames": [],
       "officialWebsite": "https://www.teaminc.com/team-legacy/",
-      "officialDomains": [
-        "teaminc.com"
-      ],
+      "officialDomains": ["teaminc.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "TEAM, Inc.",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Furmanite is a legacy industrial-service identity documented by TEAM for on-stream leak sealing, field machining and mechanical repair.",
-      "fullDescription": [
-        "Furmanite is verified through TEAM's official corporate history as a legacy identity in industrial leak sealing and maintenance services.",
-        "The documented service scope includes on-stream leak repair, hot tapping, field machining, valve repair and related mechanical-repair work for process facilities."
-      ],
-      "productCategories": [
-        "Ремонт и восстановление промышленного оборудования"
-      ],
-      "productFamilies": [
-        "Leak Sealing Services",
-        "Hot Tapping",
-        "Field Machining",
-        "Valve Repair",
-        "Mechanical Repair"
-      ],
+      "fullDescription": ["Furmanite is verified through TEAM's official corporate history as a legacy identity in industrial leak sealing and maintenance services.", "The documented service scope includes on-stream leak repair, hot tapping, field machining, valve repair and related mechanical-repair work for process facilities."],
+      "productCategories": ["Ремонт и восстановление промышленного оборудования"],
+      "productFamilies": ["Leak Sealing Services", "Hot Tapping", "Field Machining", "Valve Repair", "Mechanical Repair"],
       "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Химическая промышленность",
-        "Энергетика"
-      ],
+      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.teaminc.com/en-uk/repair/leak-sealing-and-mechanical-repair/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-furmanite-team-legacy",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_HISTORY",
-          "scope": "LEGACY_IDENTITY_PARENT_AND_LEAK_REPAIR_SCOPE",
-          "url": "https://www.teaminc.com/team-legacy/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.teaminc.com/en-uk/repair/leak-sealing-and-mechanical-repair/"],
+      "sources": [{"sourceId":"brand-furmanite-team-legacy","tier":"B","type":"OFFICIAL_PARENT_HISTORY","scope":"LEGACY_IDENTITY_PARENT_AND_LEAK_REPAIR_SCOPE","url":"https://www.teaminc.com/team-legacy/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "futura-convogliatori",
       "officialName": "Futura Convogliatori Aerei S.r.l.",
       "displayName": "Futura Convogliatori",
-      "aliases": [
-        "FUTURA CONVOGLIATORI",
-        "FUTURA CONVEYORS"
-      ],
+      "aliases": ["FUTURA CONVOGLIATORI", "FUTURA CONVEYORS"],
       "formerNames": [],
       "officialWebsite": "https://www.futuraconvogliatori.com/en/home",
-      "officialDomains": [
-        "futuraconvogliatori.com"
-      ],
+      "officialDomains": ["futuraconvogliatori.com"],
       "country": "Italy",
       "headquarters": "Robecco Pavese, Italy",
       "foundedYear": 1981,
       "parentCompany": null,
       "shortDescription": "Futura Convogliatori designs and manufactures overhead, floor and automated handling conveyor systems.",
-      "fullDescription": [
-        "Futura Convogliatori is verified through its manufacturer-owned website as an Italian conveyor-system company established in 1981.",
-        "Its documented range includes twin-rail and single-rail overhead conveyors, floor conveyors and special automated handling systems for production lines."
-      ],
-      "productCategories": [
-        "Конвейерные системы"
-      ],
-      "productFamilies": [
-        "Twin-Rail Conveyors",
-        "Single-Rail Conveyors",
-        "Floor Conveyors",
-        "Automated Handling Systems"
-      ],
+      "fullDescription": ["Futura Convogliatori is verified through its manufacturer-owned website as an Italian conveyor-system company established in 1981.", "Its documented range includes twin-rail and single-rail overhead conveyors, floor conveyors and special automated handling systems for production lines."],
+      "productCategories": ["Конвейерные системы"],
+      "productFamilies": ["Twin-Rail Conveyors", "Single-Rail Conveyors", "Floor Conveyors", "Automated Handling Systems"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность"
-      ],
+      "industries": ["Промышленное производство", "Автомобильная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.futuraconvogliatori.com/it/prodotti"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-futura-convogliatori-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "IDENTITY_HISTORY_LOCATION_AND_CONVEYOR_SCOPE",
-          "url": "https://www.futuraconvogliatori.com/en/home",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.futuraconvogliatori.com/it/prodotti"],
+      "sources": [{"sourceId":"brand-futura-convogliatori-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_HISTORY_LOCATION_AND_CONVEYOR_SCOPE","url":"https://www.futuraconvogliatori.com/en/home","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "galtech",
       "officialName": "Galtech",
       "displayName": "Galtech",
-      "aliases": [
-        "GALTECH",
-        "GALTECH HYDRAULICS"
-      ],
+      "aliases": ["GALTECH", "GALTECH HYDRAULICS"],
       "formerNames": [],
       "officialWebsite": "https://www.walvoil.com/brands-EN",
-      "officialDomains": [
-        "walvoil.com"
-      ],
+      "officialDomains": ["walvoil.com"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Walvoil S.p.A.",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Galtech is a Walvoil product brand for hydraulic gear pumps, motors and related mobile-hydraulic components.",
-      "fullDescription": [
-        "Galtech is verified through the official Walvoil website as a product brand integrated into Walvoil and the Interpump Group.",
-        "The official product catalog documents Galtech external-gear pumps and motors for hydraulic applications."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленные насосы"
-      ],
-      "productFamilies": [
-        "Hydraulic Gear Pumps",
-        "Hydraulic Gear Motors"
-      ],
+      "fullDescription": ["Galtech is verified through the official Walvoil website as a product brand integrated into Walvoil and the Interpump Group.", "The official product catalog documents Galtech external-gear pumps and motors for hydraulic applications."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные насосы"],
+      "productFamilies": ["Hydraulic Gear Pumps", "Hydraulic Gear Motors"],
       "series": [],
-      "industries": [
-        "Мобильная техника",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.walvoil.com/allegati/catalogo/D1WGEM01_ITA_ENG.pdf"
-      ],
-      "documentationSources": [
-        "https://www.walvoil.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-galtech-walvoil",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "BRAND_IDENTITY_PARENT_AND_HYDRAULIC_GEAR_PUMP_MOTOR_SCOPE",
-          "url": "https://www.walvoil.com/brands-EN",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Мобильная техника", "Промышленное производство"],
+      "officialCatalogs": ["https://www.walvoil.com/allegati/catalogo/D1WGEM01_ITA_ENG.pdf"],
+      "documentationSources": ["https://www.walvoil.com/products/"],
+      "sources": [{"sourceId":"brand-galtech-walvoil","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"BRAND_IDENTITY_PARENT_AND_HYDRAULIC_GEAR_PUMP_MOTOR_SCOPE","url":"https://www.walvoil.com/brands-EN","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gamak",
       "officialName": "GAMAK Makina Sanayi A.Ş.",
       "displayName": "GAMAK",
-      "aliases": [
-        "GAMAK",
-        "GAMAK ELECTRIC MOTORS"
-      ],
+      "aliases": ["GAMAK", "GAMAK ELECTRIC MOTORS"],
       "formerNames": [],
       "officialWebsite": "https://www.gamak.com/en/",
-      "officialDomains": [
-        "gamak.com"
-      ],
+      "officialDomains": ["gamak.com"],
       "country": "Türkiye",
       "headquarters": null,
       "foundedYear": 1961,
       "parentCompany": null,
       "shortDescription": "GAMAK manufactures low-voltage electric motors and generators for general and application-specific industrial duties.",
-      "fullDescription": [
-        "GAMAK is verified through its manufacturer-owned website as a Turkish electric-motor producer founded in 1961.",
-        "Its documented low-voltage range includes single- and three-phase asynchronous motors, crusher motors, milking-machine motors, explosion-protected motors, smoke-extraction motors and generators."
-      ],
-      "productCategories": [
-        "Промышленные электродвигатели"
-      ],
-      "productFamilies": [
-        "Three-Phase Asynchronous Motors",
-        "Single-Phase Motors",
-        "Crusher Motors",
-        "Explosion-Protected Motors",
-        "Smoke-Extraction Motors",
-        "Generators"
-      ],
+      "fullDescription": ["GAMAK is verified through its manufacturer-owned website as a Turkish electric-motor producer founded in 1961.", "Its documented low-voltage range includes single- and three-phase asynchronous motors, crusher motors, milking-machine motors, explosion-protected motors, smoke-extraction motors and generators."],
+      "productCategories": ["Промышленные электродвигатели"],
+      "productFamilies": ["Three-Phase Asynchronous Motors", "Single-Phase Motors", "Crusher Motors", "Explosion-Protected Motors", "Smoke-Extraction Motors", "Generators"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Горнодобывающая промышленность",
-        "Сельское хозяйство"
-      ],
+      "industries": ["Промышленное производство", "Горнодобывающая промышленность", "Сельское хозяйство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gamak.com/en/low-voltage-motors"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gamak-motors",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_ELECTRIC_MOTOR_SCOPE",
-          "url": "https://www.gamak.com/en/low-voltage-motors",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.gamak.com/en/low-voltage-motors"],
+      "sources": [{"sourceId":"brand-gamak-motors","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_AND_ELECTRIC_MOTOR_SCOPE","url":"https://www.gamak.com/en/low-voltage-motors","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gamma-meccanica",
       "officialName": "Gamma Meccanica S.p.A.",
       "displayName": "Gamma Meccanica",
-      "aliases": [
-        "GAMMA MECCANICA",
-        "GAMMA MECCANICA SPA"
-      ],
+      "aliases": ["GAMMA MECCANICA", "GAMMA MECCANICA SPA"],
       "formerNames": [],
       "officialWebsite": "https://www.gamma-meccanica.it/en/",
-      "officialDomains": [
-        "gamma-meccanica.it"
-      ],
+      "officialDomains": ["gamma-meccanica.it"],
       "country": "Italy",
       "headquarters": "Bibbiano, Italy",
       "foundedYear": 1977,
       "parentCompany": null,
       "shortDescription": "Gamma Meccanica designs production lines for plastics recycling, mineral-wool insulation and extruded-polystyrene boards.",
-      "fullDescription": [
-        "Gamma Meccanica S.p.A. is verified through its manufacturer-owned website as an Italian industrial-machinery company founded in 1977.",
-        "Its documented divisions produce plastic-recycling and pelletizing lines, mineral-wool production systems and XPS-board production lines."
-      ],
-      "productCategories": [
-        "Оборудование для переработки пластмасс",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Plastic Recycling Lines",
-        "Pelletizing Systems",
-        "Mineral Wool Production Lines",
-        "XPS Production Lines"
-      ],
-      "series": [
-        "Compac",
-        "Tandem",
-        "SMART",
-        "TTA",
-        "TDA",
-        "TI"
-      ],
-      "industries": [
-        "Переработка пластмасс",
-        "Строительные материалы",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.gamma-meccanica.it/wp-content/uploads/2020/07/catalogo-plastica-18-EN.pdf"
-      ],
-      "documentationSources": [
-        "https://www.gamma-meccanica.it/en/plastic-recycling/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gamma-meccanica-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_AND_RECYCLING_INSULATION_SCOPE",
-          "url": "https://www.gamma-meccanica.it/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["Gamma Meccanica S.p.A. is verified through its manufacturer-owned website as an Italian industrial-machinery company founded in 1977.", "Its documented divisions produce plastic-recycling and pelletizing lines, mineral-wool production systems and XPS-board production lines."],
+      "productCategories": ["Оборудование для переработки пластмасс", "Промышленные машины"],
+      "productFamilies": ["Plastic Recycling Lines", "Pelletizing Systems", "Mineral Wool Production Lines", "XPS Production Lines"],
+      "series": ["Compac", "Tandem", "SMART", "TTA", "TDA", "TI"],
+      "industries": ["Переработка пластмасс", "Строительные материалы", "Промышленное производство"],
+      "officialCatalogs": ["https://www.gamma-meccanica.it/wp-content/uploads/2020/07/catalogo-plastica-18-EN.pdf"],
+      "documentationSources": ["https://www.gamma-meccanica.it/en/plastic-recycling/"],
+      "sources": [{"sourceId":"brand-gamma-meccanica-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_RECYCLING_INSULATION_SCOPE","url":"https://www.gamma-meccanica.it/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "ganter-griff",
       "officialName": "Otto Ganter GmbH & Co. KG",
       "displayName": "Ganter",
-      "aliases": [
-        "GANTER",
-        "GANTER GRIFF",
-        "GANTER NORM",
-        "OTTO GANTER"
-      ],
+      "aliases": ["GANTER", "GANTER GRIFF", "GANTER NORM", "OTTO GANTER"],
       "formerNames": [],
       "officialWebsite": "https://www.ganternorm.com/en/home",
-      "officialDomains": [
-        "ganternorm.com"
-      ],
+      "officialDomains": ["ganternorm.com"],
       "country": "Germany",
       "headquarters": "Furtwangen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Ganter manufactures standard machine elements, operating parts, clamping components and mechanical transmission elements.",
-      "fullDescription": [
-        "Otto Ganter GmbH & Co. KG is verified through its manufacturer-owned website as a German producer of standardized machine components.",
-        "The official range includes handles, knobs, handwheels, levers, clamps, indexing elements, hinges, leveling parts, couplings, gears and linear-motion components."
-      ],
-      "productCategories": [
-        "Компоненты механических передач",
-        "Промышленные инструменты"
-      ],
-      "productFamilies": [
-        "Operating Parts",
-        "Clamping Elements",
-        "Indexing Elements",
-        "Leveling Components",
-        "Couplings",
-        "Gears",
-        "Linear-Motion Components"
-      ],
-      "series": [
-        "GN Standard Parts"
-      ],
-      "industries": [
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Otto Ganter GmbH & Co. KG is verified through its manufacturer-owned website as a German producer of standardized machine components.", "The official range includes handles, knobs, handwheels, levers, clamps, indexing elements, hinges, leveling parts, couplings, gears and linear-motion components."],
+      "productCategories": ["Компоненты механических передач", "Промышленные инструменты"],
+      "productFamilies": ["Operating Parts", "Clamping Elements", "Indexing Elements", "Leveling Components", "Couplings", "Gears", "Linear-Motion Components"],
+      "series": ["GN Standard Parts"],
+      "industries": ["Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.ganternorm.com/en/service/downloads/highlights-product-information"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-ganter-standard-parts",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_STANDARD_MACHINE_COMPONENT_SCOPE",
-          "url": "https://www.ganternorm.com/en/standard-parts",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.ganternorm.com/en/service/downloads/highlights-product-information"],
+      "sources": [{"sourceId":"brand-ganter-standard-parts","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_STANDARD_MACHINE_COMPONENT_SCOPE","url":"https://www.ganternorm.com/en/standard-parts","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "garboli",
       "officialName": "Garboli S.r.l.",
       "displayName": "Garboli",
-      "aliases": [
-        "GARBOLI",
-        "GARBOLI SRL"
-      ],
+      "aliases": ["GARBOLI", "GARBOLI SRL"],
       "formerNames": [],
       "officialWebsite": "https://www.garboli.com/",
-      "officialDomains": [
-        "garboli.com"
-      ],
+      "officialDomains": ["garboli.com"],
       "country": "Italy",
-      "headquarters": "Verbania, Italy",
+      "headquarters":"Verbania, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Garboli manufactures grinding, polishing, deburring and finishing machines for tubes and metal surfaces.",
-      "fullDescription": [
-        "Garboli is verified through its manufacturer-owned website as a metal-finishing machinery producer.",
-        "The documented range covers orbital and belt grinding machines, polishing systems, deburring machines and automated equipment for finishing tubes, bars, profiles and sheet-metal surfaces."
-      ],
-      "productCategories": [
-        "Металлообрабатывающее оборудование",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Tube Grinding Machines",
-        "Polishing Machines",
-        "Deburring Machines",
-        "Orbital Finishing Machines",
-        "Automated Finishing Lines"
-      ],
-      "series": [
-        "Garboli Range",
-        "Performance"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Garboli is verified through its manufacturer-owned website as a metal-finishing machinery producer.", "The documented range covers orbital and belt grinding machines, polishing systems, deburring machines and automated equipment for finishing tubes, bars, profiles and sheet-metal surfaces."],
+      "productCategories": ["Металлообрабатывающее оборудование", "Промышленные машины"],
+      "productFamilies": ["Tube Grinding Machines", "Polishing Machines", "Deburring Machines", "Orbital Finishing Machines", "Automated Finishing Lines"],
+      "series": ["Garboli Range", "Performance"],
+      "industries": ["Металлообработка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.garboli.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-garboli-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_METAL_FINISHING_MACHINE_SCOPE",
-          "url": "https://www.garboli.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-garboli-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.garboli.com/company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://www.garboli.com/products/"],
+      "sources": [{"sourceId":"brand-garboli-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_METAL_FINISHING_MACHINE_SCOPE","url":"https://www.garboli.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-garboli-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.garboli.com/company/","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "gast",
       "officialName": "Gast Manufacturing, Inc.",
       "displayName": "Gast",
-      "aliases": [
-        "GAST",
-        "GAST MANUFACTURING"
-      ],
+      "aliases": ["GAST", "GAST MANUFACTURING"],
       "formerNames": [],
       "officialWebsite": "https://www.gastmfg.com/",
-      "officialDomains": [
-        "gastmfg.com"
-      ],
+      "officialDomains": ["gastmfg.com"],
       "country": "United States",
       "headquarters": "Benton Harbor, Michigan, United States",
       "foundedYear": 1921,
       "parentCompany": "IDEX Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Gast manufactures vacuum pumps, compressors, air motors, gear motors, regenerative blowers and compact air systems.",
-      "fullDescription": [
-        "Gast Manufacturing, Inc. is verified through its manufacturer-owned website as an IDEX company producing air-moving equipment since 1921.",
-        "The official portfolio includes rotary-vane and piston vacuum pumps and compressors, diaphragm units, air and gear motors, regenerative blowers, vacuum generators and tank systems."
-      ],
-      "productCategories": [
-        "Вакуумное оборудование",
-        "Промышленные компрессоры",
-        "Пневматическое оборудование"
-      ],
-      "productFamilies": [
-        "Vacuum Pumps",
-        "Compressors",
-        "Air Motors",
-        "Gear Motors",
-        "Regenerative Blowers",
-        "Tank Systems"
-      ],
+      "fullDescription": ["Gast Manufacturing, Inc. is verified through its manufacturer-owned website as an IDEX company producing air-moving equipment since 1921.", "The official portfolio includes rotary-vane and piston vacuum pumps and compressors, diaphragm units, air and gear motors, regenerative blowers, vacuum generators and tank systems."],
+      "productCategories": ["Вакуумное оборудование", "Промышленные компрессоры", "Пневматическое оборудование"],
+      "productFamilies": ["Vacuum Pumps", "Compressors", "Air Motors", "Gear Motors", "Regenerative Blowers", "Tank Systems"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Медицинское оборудование",
-        "Пищевая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://gastmfg.com/wp-content/uploads/2025/07/2026-Gast-Product-Line-Overview-Brochure_V2.pdf"
-      ],
-      "documentationSources": [
-        "https://www.gastmfg.com/product-technologies"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gast-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_PARENT_HISTORY_AND_AIR_MOVING_SCOPE",
-          "url": "https://www.gastmfg.com/product-technologies",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Промышленное производство", "Медицинское оборудование", "Пищевая промышленность"],
+      "officialCatalogs": ["https://gastmfg.com/wp-content/uploads/2025/07/2026-Gast-Product-Line-Overview-Brochure_V2.pdf"],
+      "documentationSources": ["https://www.gastmfg.com/product-technologies"],
+      "sources": [{"sourceId":"brand-gast-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_PARENT_HISTORY_AND_AIR_MOVING_SCOPE","url":"https://www.gastmfg.com/product-technologies","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gates",
       "officialName": "Gates",
       "displayName": "Gates",
-      "aliases": [
-        "GATES",
-        "GATES CORPORATION",
-        "GATES INDUSTRIAL"
-      ],
+      "aliases": ["GATES", "GATES CORPORATION", "GATES INDUSTRIAL"],
       "formerNames": [],
       "officialWebsite": "https://www.gates.com/us/en.html",
-      "officialDomains": [
-        "gates.com"
-      ],
+      "officialDomains": ["gates.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Gates develops power-transmission belts, hydraulic hoses, couplings and fluid-power systems for industrial and mobile equipment.",
-      "fullDescription": [
-        "Gates is verified through its official corporate website as a manufacturer of power-transmission and fluid-power products.",
-        "The documented industrial range covers V-belts, synchronous and polyurethane belts, hydraulic and industrial hoses, hose couplings and crimping systems."
-      ],
-      "productCategories": [
-        "Промышленные ремни",
-        "Гидравлическое оборудование"
-      ],
-      "productFamilies": [
-        "V-Belts",
-        "Synchronous Belts",
-        "Polyurethane Belts",
-        "Hydraulic Hoses",
-        "Industrial Hoses",
-        "Hose Couplings"
-      ],
-      "series": [
-        "Poly Chain",
-        "MegaSys",
-        "MegaCrimp",
-        "GlobalSpiral"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Сельское хозяйство",
-        "Строительство",
-        "Горнодобывающая промышленность"
-      ],
+      "fullDescription": ["Gates is verified through its official corporate website as a manufacturer of power-transmission and fluid-power products.", "The documented industrial range covers V-belts, synchronous and polyurethane belts, hydraulic and industrial hoses, hose couplings and crimping systems."],
+      "productCategories": ["Промышленные ремни", "Гидравлическое оборудование"],
+      "productFamilies": ["V-Belts", "Synchronous Belts", "Polyurethane Belts", "Hydraulic Hoses", "Industrial Hoses", "Hose Couplings"],
+      "series": ["Poly Chain", "MegaSys", "MegaCrimp", "GlobalSpiral"],
+      "industries": ["Промышленное производство", "Сельское хозяйство", "Строительство", "Горнодобывающая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gates.com/us/en/markets/industrial-and-off-highway.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gates-industrial",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "BRAND_IDENTITY_AND_POWER_TRANSMISSION_FLUID_POWER_SCOPE",
-          "url": "https://www.gates.com/us/en/markets/industrial-and-off-highway.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.gates.com/us/en/markets/industrial-and-off-highway.html"],
+      "sources": [{"sourceId":"brand-gates-industrial","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_POWER_TRANSMISSION_FLUID_POWER_SCOPE","url":"https://www.gates.com/us/en/markets/industrial-and-off-highway.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gather-gmbh",
       "officialName": "GATHER Industrie GmbH",
       "displayName": "GATHER Industrie",
-      "aliases": [
-        "GATHER",
-        "GATHER GMBH",
-        "GATHER INDUSTRIE"
-      ],
+      "aliases": ["GATHER", "GATHER GMBH", "GATHER INDUSTRIE"],
       "formerNames": [],
       "officialWebsite": "https://gather-industrie.de/",
-      "officialDomains": [
-        "gather-industrie.de"
-      ],
+      "officialDomains": ["gather-industrie.de"],
       "country": "Germany",
       "headquarters": "Wülfrath, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "GATHER Industrie manufactures dosing and process pumps, flow meters, quick couplings and complete dosing systems.",
-      "fullDescription": [
-        "GATHER Industrie GmbH is verified through its manufacturer-owned website as a German fluid-handling technology company.",
-        "Its documented portfolio includes gear, laboratory and centrifugal pumps, gear flow meters, quick couplings, filters, valves and configured dosing systems."
-      ],
-      "productCategories": [
-        "Промышленные насосы",
-        "Контрольно-измерительные приборы",
-        "Трубопроводная арматура"
-      ],
-      "productFamilies": [
-        "Gear Pumps",
-        "Laboratory Pumps",
-        "Centrifugal Pumps",
-        "Gear Flow Meters",
-        "Quick Couplings",
-        "Dosing Systems"
-      ],
-      "series": [
-        "DBG",
-        "HKG",
-        "HKT",
-        "STT"
-      ],
-      "industries": [
-        "Химическая промышленность",
-        "Фармацевтическая промышленность",
-        "Пищевая промышленность",
-        "Водоочистка"
-      ],
+      "fullDescription": ["GATHER Industrie GmbH is verified through its manufacturer-owned website as a German fluid-handling technology company.", "Its documented portfolio includes gear, laboratory and centrifugal pumps, gear flow meters, quick couplings, filters, valves and configured dosing systems."],
+      "productCategories": ["Промышленные насосы", "Контрольно-измерительные приборы", "Трубопроводная арматура"],
+      "productFamilies": ["Gear Pumps", "Laboratory Pumps", "Centrifugal Pumps", "Gear Flow Meters", "Quick Couplings", "Dosing Systems"],
+      "series": ["DBG", "HKG", "HKT", "STT"],
+      "industries": ["Химическая промышленность", "Фармацевтическая промышленность", "Пищевая промышленность", "Водоочистка"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://gather-industrie.de/downloads/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gather-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_PUMP_FLOW_METER_COUPLING_SCOPE",
-          "url": "https://gather-industrie.de/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://gather-industrie.de/downloads/"],
+      "sources": [{"sourceId":"brand-gather-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_PUMP_FLOW_METER_COUPLING_SCOPE","url":"https://gather-industrie.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "tuchenhagen",
       "officialName": "GEA Tuchenhagen GmbH",
       "displayName": "Tuchenhagen",
-      "aliases": [
-        "TUCHENHAGEN",
-        "GEA TUCHENHAGEN",
-        "OTTO TUCHENHAGEN"
-      ],
-      "formerNames": [
-        "Otto Tuchenhagen GmbH"
-      ],
+      "aliases": ["TUCHENHAGEN", "GEA TUCHENHAGEN", "OTTO TUCHENHAGEN"],
+      "formerNames": ["Otto Tuchenhagen GmbH"],
       "officialWebsite": "https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-hygienic-liquid-processing/",
-      "officialDomains": [
-        "gea.com"
-      ],
+      "officialDomains": ["gea.com"],
       "country": "Germany",
       "headquarters": "Büchen, Germany",
       "foundedYear": 1931,
       "parentCompany": "GEA Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "GEA Tuchenhagen develops hygienic valves, valve controls and flow components for sanitary liquid-processing systems.",
-      "fullDescription": [
-        "GEA Tuchenhagen GmbH is verified through official GEA sources as the group's hygienic valve technology company in Büchen, Germany.",
-        "The documented range includes single- and double-seat valves, butterfly valves, control tops, inline components, tank-safety systems and product-recovery components for hygienic processing."
-      ],
-      "productCategories": [
-        "Промышленная арматура",
-        "Системы автоматизации"
-      ],
-      "productFamilies": [
-        "Single-Seat Valves",
-        "Double-Seat Valves",
-        "Butterfly Valves",
-        "Control Tops",
-        "Tank Safety Systems",
-        "Product Recovery Systems"
-      ],
-      "series": [
-        "VARIVENT",
-        "FLOWVENT",
-        "ECOVENT",
-        "D-tec",
-        "VESTA",
-        "T.VIS"
-      ],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность"
-      ],
+      "fullDescription": ["GEA Tuchenhagen GmbH is verified through official GEA sources as the group's hygienic valve technology company in Büchen, Germany.", "The documented range includes single- and double-seat valves, butterfly valves, control tops, inline components, tank-safety systems and product-recovery components for hygienic processing."],
+      "productCategories": ["Промышленная арматура", "Системы автоматизации"],
+      "productFamilies": ["Single-Seat Valves", "Double-Seat Valves", "Butterfly Valves", "Control Tops", "Tank Safety Systems", "Product Recovery Systems"],
+      "series": ["VARIVENT", "FLOWVENT", "ECOVENT", "D-tec", "VESTA", "T.VIS"],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gea.com/en/assets/272169/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-tuchenhagen-gea",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_AND_PRODUCT_PAGE",
-          "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_AND_HYGIENIC_VALVE_SCOPE",
-          "url": "https://www.gea.com/en/stories/ninety-years-of-hygienic-valves-from-gea-tuchenhagen/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.gea.com/en/assets/272169/"],
+      "sources": [{"sourceId":"brand-tuchenhagen-gea","tier":"B","type":"OFFICIAL_PARENT_BRAND_AND_PRODUCT_PAGE","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_HYGIENIC_VALVE_SCOPE","url":"https://www.gea.com/en/stories/ninety-years-of-hygienic-valves-from-gea-tuchenhagen/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gecitech-sas",
       "officialName": "GECITECH SAS",
       "displayName": "GECITECH",
-      "aliases": [
-        "GECITECH",
-        "GECITECH SAS",
-        "GECI TECH"
-      ],
+      "aliases": ["GECITECH", "GECITECH SAS", "GECI TECH"],
       "formerNames": [],
       "officialWebsite": "https://www.gecitech.com/",
-      "officialDomains": [
-        "gecitech.com"
-      ],
+      "officialDomains": ["gecitech.com"],
       "country": "France",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "GECITECH manufactures flexible process hoses, stainless-steel fittings and assembled fluid-transfer solutions.",
-      "fullDescription": [
-        "GECITECH SAS is verified through its manufacturer-owned website as a French producer of hoses and fittings for hygienic and industrial fluid transfer.",
-        "Its documented range includes thermoplastic, elastomer, silicone and corrugated hoses, 316L stainless-steel fittings, hose assemblies and heated-hose solutions."
-      ],
-      "productCategories": [
-        "Промышленные разъёмы",
-        "Трубопроводная арматура"
-      ],
-      "productFamilies": [
-        "Thermoplastic Hoses",
-        "Elastomer Hoses",
-        "Silicone Hoses",
-        "Corrugated Hoses",
-        "Stainless-Steel Fittings",
-        "Heated Hoses"
-      ],
+      "fullDescription": ["GECITECH SAS is verified through its manufacturer-owned website as a French producer of hoses and fittings for hygienic and industrial fluid transfer.", "Its documented range includes thermoplastic, elastomer, silicone and corrugated hoses, 316L stainless-steel fittings, hose assemblies and heated-hose solutions."],
+      "productCategories": ["Промышленные разъёмы", "Трубопроводная арматура"],
+      "productFamilies": ["Thermoplastic Hoses", "Elastomer Hoses", "Silicone Hoses", "Corrugated Hoses", "Stainless-Steel Fittings", "Heated Hoses"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность",
-        "Химическая промышленность",
-        "Биотехнологии"
-      ],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Химическая промышленность", "Биотехнологии"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gecitech.com/produits.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gecitech-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_HOSE_FITTING_ASSEMBLY_SCOPE",
-          "url": "https://www.gecitech.com/produits.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.gecitech.com/produits.html"],
+      "sources": [{"sourceId":"brand-gecitech-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_HOSE_FITTING_ASSEMBLY_SCOPE","url":"https://www.gecitech.com/produits.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gedore",
       "officialName": "GEDORE Werkzeugfabrik GmbH & Co. KG",
       "displayName": "GEDORE",
-      "aliases": [
-        "GEDORE",
-        "GEDORE TOOLS",
-        "GEDORE WERKZEUGFABRIK"
-      ],
+      "aliases": ["GEDORE", "GEDORE TOOLS", "GEDORE WERKZEUGFABRIK"],
       "formerNames": [],
       "officialWebsite": "https://www.gedore.com/en-de/",
-      "officialDomains": [
-        "gedore.com"
-      ],
+      "officialDomains": ["gedore.com"],
       "country": "Germany",
       "headquarters": "Remscheid, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "GEDORE manufactures professional hand tools, torque tools, workshop equipment and specialist maintenance tools.",
-      "fullDescription": [
-        "GEDORE Werkzeugfabrik GmbH & Co. KG is verified through its manufacturer-owned website as a German professional-tool manufacturer.",
-        "The official range covers spanners, sockets, ratchets, pliers, screwdrivers, torque tools, insulated tools, workshop storage and specialist automotive and high-torque equipment."
-      ],
-      "productCategories": [
-        "Промышленные инструменты"
-      ],
-      "productFamilies": [
-        "Hand Tools",
-        "Torque Tools",
-        "Workshop Equipment",
-        "Insulated Tools",
-        "Automotive Tools",
-        "High-Torque Tools"
-      ],
-      "series": [
-        "GEDORE",
-        "GEDORE red",
-        "GEDORE Automotive",
-        "GEDORE Torque Solutions"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность"
-      ],
+      "fullDescription": ["GEDORE Werkzeugfabrik GmbH & Co. KG is verified through its manufacturer-owned website as a German professional-tool manufacturer.", "The official range covers spanners, sockets, ratchets, pliers, screwdrivers, torque tools, insulated tools, workshop storage and specialist automotive and high-torque equipment."],
+      "productCategories": ["Промышленные инструменты"],
+      "productFamilies": ["Hand Tools", "Torque Tools", "Workshop Equipment", "Insulated Tools", "Automotive Tools", "High-Torque Tools"],
+      "series": ["GEDORE", "GEDORE red", "GEDORE Automotive", "GEDORE Torque Solutions"],
+      "industries": ["Промышленное производство", "Автомобильная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gedore.com/en-de/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-gedore-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LOCATION_AND_PROFESSIONAL_TOOL_SCOPE",
-          "url": "https://www.gedore.com/en-de/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.gedore.com/en-de/products"],
+      "sources": [{"sourceId":"brand-gedore-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_PROFESSIONAL_TOOL_SCOPE","url":"https://www.gedore.com/en-de/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     }
   ]
 }

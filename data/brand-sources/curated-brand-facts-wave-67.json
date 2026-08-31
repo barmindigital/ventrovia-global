@@ -6,20 +6,14 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-20",
       "reason": "CANNON is shared by unrelated active manufacturers. Cannon S.p.A. has a strong manufacturer-owned industrial-machinery source, but the repository record contains no legal name, product scope, country or domain discriminator that safely selects that entity over other Cannon manufacturers.",
-      "attemptedUrls": [
-        "https://cannon.com/",
-        "https://cannoninstrument.com/"
-      ]
+      "attemptedUrls": ["https://cannon.com/", "https://cannoninstrument.com/"]
     },
     {
       "manufacturerId": "caryle",
       "status": "BLOCKED_IDENTITY_SCOPE",
       "checkedAt": "2026-08-20",
       "reason": "The CARYLE/CARLYLE record resolves to the same compressor identity represented by the adjacent canonical record carlyle-compressors. Publishing both would create duplicate pages; the misspelled record requires alias or redirect review.",
-      "attemptedUrls": [
-        "https://www.carlylecompressor.com/",
-        "https://www.carlylecompressor.com/about/"
-      ]
+      "attemptedUrls": ["https://www.carlylecompressor.com/", "https://www.carlylecompressor.com/about/"]
     }
   ],
   "profiles": [
@@ -27,565 +21,178 @@
       "manufacturerId": "caproni",
       "officialName": "Caproni JSC",
       "displayName": "Caproni",
-      "aliases": [
-        "CAPRONI",
-        "CAPRONI JSC"
-      ],
+      "aliases": ["CAPRONI", "CAPRONI JSC"],
       "formerNames": [],
       "officialWebsite": "https://www.caproni.bg/",
-      "officialDomains": [
-        "caproni.bg"
-      ],
+      "officialDomains": ["caproni.bg"],
       "country": "Bulgaria",
       "headquarters": "Kazanlak, Bulgaria",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Caproni manufactures hydraulic components, power units and electric drives for mobile and stationary equipment.",
-      "fullDescription": [
-        "Caproni JSC is verified through its manufacturer-owned website in Kazanlak, Bulgaria.",
-        "The official portfolio includes hydraulic gear pumps and motors, orbital motors, valves, cylinders, hydraulic power units and systems, flow dividers and AC and DC electric motors for mobile and stationary machinery."
-      ],
-      "productCategories": [
-        "Гидравлические насосы",
-        "Гидравлические двигатели",
-        "Гидравлические клапаны",
-        "Гидравлические цилиндры",
-        "Промышленные электродвигатели"
-      ],
-      "productFamilies": [
-        "Hydraulic Gear Pumps and Motors",
-        "Hydraulic Orbital Motors",
-        "Hydraulic Valves",
-        "Hydraulic Cylinders",
-        "Hydraulic Power Units",
-        "Flow Dividers",
-        "AC and DC Motors"
-      ],
-      "series": [
-        "Group 10",
-        "Group 20",
-        "Group 30",
-        "MGL",
-        "MHL",
-        "MHLR"
-      ],
-      "industries": [
-        "Мобильная техника",
-        "Сельское хозяйство",
-        "Строительная техника",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Caproni JSC is verified through its manufacturer-owned website in Kazanlak, Bulgaria.", "The official portfolio includes hydraulic gear pumps and motors, orbital motors, valves, cylinders, hydraulic power units and systems, flow dividers and AC and DC electric motors for mobile and stationary machinery."],
+      "productCategories": ["Гидравлические насосы", "Гидравлические двигатели", "Гидравлические клапаны", "Гидравлические цилиндры", "Промышленные электродвигатели"],
+      "productFamilies": ["Hydraulic Gear Pumps and Motors", "Hydraulic Orbital Motors", "Hydraulic Valves", "Hydraulic Cylinders", "Hydraulic Power Units", "Flow Dividers", "AC and DC Motors"],
+      "series": ["Group 10", "Group 20", "Group 30", "MGL", "MHL", "MHLR"],
+      "industries": ["Мобильная техника", "Сельское хозяйство", "Строительная техника", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.caproni.bg/?p=categories%3Ben"
-      ],
+      "documentationSources": ["https://www.caproni.bg/?p=categories%3Ben"],
       "sources": [
-        {
-          "sourceId": "brand-caproni-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_HISTORY_AND_HYDRAULIC_SPECIALISATION",
-          "url": "https://www.caproni.bg/?p=about_us%3Ben",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-caproni-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HYDRAULIC_PUMP_MOTOR_VALVE_CYLINDER_POWER_UNIT_AND_ELECTRIC_DRIVE_FAMILIES",
-          "url": "https://www.caproni.bg/?p=categories%3Ben",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-caproni-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_HISTORY_AND_HYDRAULIC_SPECIALISATION","url":"https://www.caproni.bg/?p=about_us%3Ben","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-caproni-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_PUMP_MOTOR_VALVE_CYLINDER_POWER_UNIT_AND_ELECTRIC_DRIVE_FAMILIES","url":"https://www.caproni.bg/?p=categories%3Ben","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "captels",
       "officialName": "Captels SA",
       "displayName": "Captels Weighing",
-      "aliases": [
-        "CAPTELS",
-        "CAPTELS PESAGE",
-        "CAPTELS WEIGHING"
-      ],
+      "aliases": ["CAPTELS", "CAPTELS PESAGE", "CAPTELS WEIGHING"],
       "formerNames": [],
       "officialWebsite": "https://pesage-captels.com/en/",
-      "officialDomains": [
-        "pesage-captels.com"
-      ],
+      "officialDomains": ["pesage-captels.com"],
       "country": "France",
       "headquarters": "Saint-Mathieu-de-Tréviers, France",
       "foundedYear": 1985,
       "parentCompany": null,
       "shortDescription": "Captels develops vehicle, axle, wheel and industrial weighing systems with related sensors and software.",
-      "fullDescription": [
-        "Captels SA is verified through its manufacturer-owned website as a French weighing-technology company founded in 1985 and based in Saint-Mathieu-de-Tréviers.",
-        "The official range includes mobile and fixed axle and wheel weighers, load cells, weighing platforms, vehicle access and weighing-in-motion systems, electronics and software for transport, industrial, aeronautical and logistics applications."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Весовое оборудование",
-        "Датчики нагрузки",
-        "Программное обеспечение"
-      ],
-      "productFamilies": [
-        "Mobile Axle Weighers",
-        "Fixed Axle Weighers",
-        "Wheel Weighers",
-        "Load Cells",
-        "Weighing Platforms",
-        "Weighing-in-Motion Systems",
-        "Vehicle Access Systems",
-        "Weighing Software"
-      ],
+      "fullDescription": ["Captels SA is verified through its manufacturer-owned website as a French weighing-technology company founded in 1985 and based in Saint-Mathieu-de-Tréviers.", "The official range includes mobile and fixed axle and wheel weighers, load cells, weighing platforms, vehicle access and weighing-in-motion systems, electronics and software for transport, industrial, aeronautical and logistics applications."],
+      "productCategories": ["Измерительное оборудование", "Весовое оборудование", "Датчики нагрузки", "Программное обеспечение"],
+      "productFamilies": ["Mobile Axle Weighers", "Fixed Axle Weighers", "Wheel Weighers", "Load Cells", "Weighing Platforms", "Weighing-in-Motion Systems", "Vehicle Access Systems", "Weighing Software"],
       "series": [],
-      "industries": [
-        "Транспорт",
-        "Логистика",
-        "Аэрокосмическая промышленность",
-        "Сельское хозяйство",
-        "Промышленное производство"
-      ],
+      "industries": ["Транспорт", "Логистика", "Аэрокосмическая промышленность", "Сельское хозяйство", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://pesage-captels.com/en/products/"
-      ],
+      "documentationSources": ["https://pesage-captels.com/en/products/"],
       "sources": [
-        {
-          "sourceId": "brand-captels-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_WEIGHING_SPECIALISATION",
-          "url": "https://pesage-captels.com/en/captels/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-captels-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "AXLE_WHEEL_LOAD_CELL_PLATFORM_ACCESS_AND_SOFTWARE_FAMILIES",
-          "url": "https://pesage-captels.com/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-captels-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_WEIGHING_SPECIALISATION","url":"https://pesage-captels.com/en/captels/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-captels-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AXLE_WHEEL_LOAD_CELL_PLATFORM_ACCESS_AND_SOFTWARE_FAMILIES","url":"https://pesage-captels.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "cartron-electronic",
       "officialName": "CAPTRON Electronic GmbH",
       "displayName": "CAPTRON",
-      "aliases": [
-        "CAPTRON ELECTRONIC",
-        "CAPTRON",
-        "CARTRON ELECTRONIC"
-      ],
+      "aliases": ["CAPTRON ELECTRONIC", "CAPTRON", "CARTRON ELECTRONIC"],
       "formerNames": [],
       "officialWebsite": "https://www.captron.com/",
-      "officialDomains": [
-        "captron.com"
-      ],
+      "officialDomains": ["captron.com"],
       "country": "Germany",
-      "headquarters": "Olching, Germany",
+      "headquarters":"Olching, Germany",
       "foundedYear": 1983,
       "parentCompany": null,
       "shortDescription": "CAPTRON develops capacitive and optical sensors, HMI switches and sensor-based control systems.",
-      "fullDescription": [
-        "CAPTRON Electronic GmbH is verified through its manufacturer-owned website as a German sensor company operating since 1983.",
-        "The official product lines include capacitive SENSORswitches, safe two-hand controls, level sensors, optical sensors, LED signalling units, oneGRID pick-by-light systems and peripheral equipment for automation, transport and intralogistics."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Датчики уровня",
-        "Промышленная автоматизация и контроллеры",
-        "Промышленная безопасность"
-      ],
-      "productFamilies": [
-        "SENSORswitches",
-        "Two-Hand Controls",
-        "Level Sensors",
-        "Optical Sensors",
-        "LED Signalling Units",
-        "Pick-by-Light Systems",
-        "Peripheral Equipment"
-      ],
-      "series": [
-        "CANEO",
-        "safeCAP",
-        "CAPselect",
-        "oneGRID"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Транспорт",
-        "Интралогистика",
-        "Робототехника",
-        "Машиностроение"
-      ],
-      "officialCatalogs": [
-        "https://www.captron.com/fileadmin/user_upload/CAPNA/CAPTRON_TODAY/V2_CAPTRON_TODAY_Catalog_9.5.25.pdf"
-      ],
-      "documentationSources": [
-        "https://www.captron.com/products/"
-      ],
+      "fullDescription": ["CAPTRON Electronic GmbH is verified through its manufacturer-owned website as a German sensor company operating since 1983.", "The official product lines include capacitive SENSORswitches, safe two-hand controls, level sensors, optical sensors, LED signalling units, oneGRID pick-by-light systems and peripheral equipment for automation, transport and intralogistics."],
+      "productCategories": ["Промышленные датчики", "Датчики уровня", "Промышленная автоматизация и контроллеры", "Промышленная безопасность"],
+      "productFamilies": ["SENSORswitches", "Two-Hand Controls", "Level Sensors", "Optical Sensors", "LED Signalling Units", "Pick-by-Light Systems", "Peripheral Equipment"],
+      "series": ["CANEO", "safeCAP", "CAPselect", "oneGRID"],
+      "industries": ["Промышленная автоматизация", "Транспорт", "Интралогистика", "Робототехника", "Машиностроение"],
+      "officialCatalogs": ["https://www.captron.com/fileadmin/user_upload/CAPNA/CAPTRON_TODAY/V2_CAPTRON_TODAY_Catalog_9.5.25.pdf"],
+      "documentationSources": ["https://www.captron.com/products/"],
       "sources": [
-        {
-          "sourceId": "brand-captron-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_SENSOR_SYSTEM_SPECIALISATION",
-          "url": "https://www.captron.com/company/about-captron/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-captron-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CAPACITIVE_OPTICAL_LEVEL_SAFETY_SIGNALLING_AND_PICK_BY_LIGHT_FAMILIES",
-          "url": "https://www.captron.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-cartron-electronic-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.captron.com/imprint/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+        {"sourceId":"brand-captron-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_AND_SENSOR_SYSTEM_SPECIALISATION","url":"https://www.captron.com/company/about-captron/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-captron-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CAPACITIVE_OPTICAL_LEVEL_SAFETY_SIGNALLING_AND_PICK_BY_LIGHT_FAMILIES","url":"https://www.captron.com/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+      ,{"sourceId":"brand-cartron-electronic-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.captron.com/imprint/","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "carel",
       "officialName": "CAREL INDUSTRIES S.p.A.",
       "displayName": "CAREL",
-      "aliases": [
-        "CAREL",
-        "CAREL INDUSTRIES"
-      ],
+      "aliases": ["CAREL", "CAREL INDUSTRIES"],
       "formerNames": [],
       "officialWebsite": "https://www.carel.com/",
-      "officialDomains": [
-        "carel.com"
-      ],
+      "officialDomains": ["carel.com"],
       "country": "Italy",
       "headquarters": "Brugine, Padua, Italy",
       "foundedYear": 1973,
       "parentCompany": null,
       "shortDescription": "CAREL develops controls, sensors, humidification and digital systems for HVAC and refrigeration applications.",
-      "fullDescription": [
-        "CAREL INDUSTRIES S.p.A. is verified through its manufacturer-owned material as an Italian company founded in 1973 and headquartered in Brugine.",
-        "The official portfolio covers programmable and application-specific HVAC and refrigeration controls, terminals, sensors, electronic expansion-valve technology, humidifiers, evaporative cooling, water treatment, inverters, connectivity and remote monitoring software."
-      ],
-      "productCategories": [
-        "HVAC автоматика",
-        "Промышленная автоматизация и контроллеры",
-        "Промышленные датчики",
-        "Системы охлаждения",
-        "Программное обеспечение"
-      ],
-      "productFamilies": [
-        "Programmable Controls",
-        "HVAC and Refrigeration Controls",
-        "Terminals",
-        "Sensors and Protection Devices",
-        "Electronic Expansion Valves",
-        "Humidifiers",
-        "Evaporative Cooling",
-        "Water Treatment",
-        "Inverters",
-        "Remote Monitoring"
-      ],
-      "series": [
-        "pCO",
-        "c.pCO",
-        "boss",
-        "PlantWatchPRO",
-        "PlantVisorPRO"
-      ],
-      "industries": [
-        "Отопление, вентиляция и кондиционирование",
-        "Промышленное охлаждение",
-        "Пищевая промышленность",
-        "Центры обработки данных",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.carel.com/documents/10191/0/%2B3000170EN.pdf/68e6f9b8-f0a8-4a69-a858-1d76739261a6"
-      ],
-      "documentationSources": [
-        "https://www.carel.com/services"
-      ],
+      "fullDescription": ["CAREL INDUSTRIES S.p.A. is verified through its manufacturer-owned material as an Italian company founded in 1973 and headquartered in Brugine.", "The official portfolio covers programmable and application-specific HVAC and refrigeration controls, terminals, sensors, electronic expansion-valve technology, humidifiers, evaporative cooling, water treatment, inverters, connectivity and remote monitoring software."],
+      "productCategories": ["HVAC автоматика", "Промышленная автоматизация и контроллеры", "Промышленные датчики", "Системы охлаждения", "Программное обеспечение"],
+      "productFamilies": ["Programmable Controls", "HVAC and Refrigeration Controls", "Terminals", "Sensors and Protection Devices", "Electronic Expansion Valves", "Humidifiers", "Evaporative Cooling", "Water Treatment", "Inverters", "Remote Monitoring"],
+      "series": ["pCO", "c.pCO", "boss", "PlantWatchPRO", "PlantVisorPRO"],
+      "industries": ["Отопление, вентиляция и кондиционирование", "Промышленное охлаждение", "Пищевая промышленность", "Центры обработки данных", "Промышленное производство"],
+      "officialCatalogs": ["https://www.carel.com/documents/10191/0/%2B3000170EN.pdf/68e6f9b8-f0a8-4a69-a858-1d76739261a6"],
+      "documentationSources": ["https://www.carel.com/services"],
       "sources": [
-        {
-          "sourceId": "brand-carel-corporate",
-          "tier": "A",
-          "type": "OFFICIAL_CORPORATE_DOCUMENT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_HVAC_REFRIGERATION_SPECIALISATION",
-          "url": "https://www.carel.com/documents/10191/0/%2B302240601/2ec1d340-b4c6-4a62-9ec4-d0192e58dd80",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-carel-products",
-          "tier": "A",
-          "type": "PRODUCT_AND_SOLUTION_DIRECTORY",
-          "scope": "CONTROL_SENSOR_HUMIDIFICATION_COOLING_CONNECTIVITY_AND_SOFTWARE_FAMILIES",
-          "url": "https://www.carel.com/services",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-carel-contact",
-          "tier": "A",
-          "type": "OFFICIAL_CONTACT",
-          "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
-          "url": "https://ksa.carel.com/contact-us",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-carel-corporate","tier":"A","type":"OFFICIAL_CORPORATE_DOCUMENT","scope":"LEGAL_IDENTITY_FOUNDED_AND_HVAC_REFRIGERATION_SPECIALISATION","url":"https://www.carel.com/documents/10191/0/%2B302240601/2ec1d340-b4c6-4a62-9ec4-d0192e58dd80","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-carel-products","tier":"A","type":"PRODUCT_AND_SOLUTION_DIRECTORY","scope":"CONTROL_SENSOR_HUMIDIFICATION_COOLING_CONNECTIVITY_AND_SOFTWARE_FAMILIES","url":"https://www.carel.com/services","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-carel-contact","tier":"A","type":"OFFICIAL_CONTACT","scope":"LEGAL_IDENTITY_AND_HEADQUARTERS","url":"https://ksa.carel.com/contact-us","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "carl-stahl",
       "officialName": "Carl Stahl GmbH",
       "displayName": "Carl Stahl",
-      "aliases": [
-        "CARL STAHL",
-        "CARL STAHL GROUP"
-      ],
+      "aliases": ["CARL STAHL", "CARL STAHL GROUP"],
       "formerNames": [],
       "officialWebsite": "https://www.carlstahl.com/",
-      "officialDomains": [
-        "carlstahl.com",
-        "carlstahl-group.com"
-      ],
+      "officialDomains": ["carlstahl.com", "carlstahl-group.com"],
       "country": "Germany",
       "headquarters": "Süßen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Carl Stahl provides lifting, load-handling, rope and workplace-safety equipment and engineered systems.",
-      "fullDescription": [
-        "Carl Stahl GmbH is verified through its official lifting-technology and group websites, with group headquarters in Süßen, Germany.",
-        "The documented range includes crane technology, hoists, lifting beams and load-handling devices, slings, lifting points, clamps, ropes, load-securing systems, industrial hydraulics, marking equipment and personal fall-protection products."
-      ],
-      "productCategories": [
-        "Грузоподъемное оборудование",
-        "Крановое оборудование",
-        "Промышленная безопасность",
-        "Гидравлическое оборудование",
-        "Маркировочное оборудование"
-      ],
-      "productFamilies": [
-        "Crane Technology",
-        "Hoists",
-        "Load-Handling Equipment",
-        "Lifting Slings",
-        "Lifting Points",
-        "Clamps and Shackles",
-        "Ropes",
-        "Load-Securing Systems",
-        "Industrial Hydraulics",
-        "Fall Protection"
-      ],
+      "fullDescription": ["Carl Stahl GmbH is verified through its official lifting-technology and group websites, with group headquarters in Süßen, Germany.", "The documented range includes crane technology, hoists, lifting beams and load-handling devices, slings, lifting points, clamps, ropes, load-securing systems, industrial hydraulics, marking equipment and personal fall-protection products."],
+      "productCategories": ["Грузоподъемное оборудование", "Крановое оборудование", "Промышленная безопасность", "Гидравлическое оборудование", "Маркировочное оборудование"],
+      "productFamilies": ["Crane Technology", "Hoists", "Load-Handling Equipment", "Lifting Slings", "Lifting Points", "Clamps and Shackles", "Ropes", "Load-Securing Systems", "Industrial Hydraulics", "Fall Protection"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Строительство",
-        "Логистика",
-        "Машиностроение"
-      ],
+      "industries": ["Промышленное производство", "Строительство", "Логистика", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.carlstahl.com/us/en"
-      ],
+      "documentationSources": ["https://www.carlstahl.com/us/en"],
       "sources": [
-        {
-          "sourceId": "brand-carlstahl-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_LIFTING_ROPE_SAFETY_HYDRAULIC_AND_MARKING_SCOPE",
-          "url": "https://www.carlstahl.com/us/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-carlstahl-headquarters",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "GROUP_IDENTITY_AND_HEADQUARTERS",
-          "url": "https://www.carlstahl-group.com/en/conference-center/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-carlstahl-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LIFTING_ROPE_SAFETY_HYDRAULIC_AND_MARKING_SCOPE","url":"https://www.carlstahl.com/us/en","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-carlstahl-headquarters","tier":"A","type":"ABOUT","scope":"GROUP_IDENTITY_AND_HEADQUARTERS","url":"https://www.carlstahl-group.com/en/conference-center/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "carlyle-compressors",
       "officialName": "Carlyle Compressor",
       "displayName": "Carlyle Compressors",
-      "aliases": [
-        "CARLYLE COMPRESSORS",
-        "CARLYLE COMPRESSOR",
-        "CARLYLE"
-      ],
+      "aliases": ["CARLYLE COMPRESSORS", "CARLYLE COMPRESSOR", "CARLYLE"],
       "formerNames": [],
       "officialWebsite": "https://www.carlylecompressor.com/",
-      "officialDomains": [
-        "carlylecompressor.com",
-        "carrier.com"
-      ],
+      "officialDomains": ["carlylecompressor.com", "carrier.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Carrier Global Corporation",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Carlyle is a Carrier compressor brand for refrigeration, air-conditioning and transport applications.",
-      "fullDescription": [
-        "Carlyle Compressor is verified through its official product website, which identifies the business as a Carrier company.",
-        "The official range includes reciprocating, screw, rotary and remanufactured compressors for commercial refrigeration, air conditioning, data centres, transport cooling, marine and specialised applications."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Холодильное оборудование"
-      ],
-      "productFamilies": [
-        "Reciprocating Compressors",
-        "Screw Compressors",
-        "Rotary Compressors",
-        "Remanufactured Compressors"
-      ],
-      "series": [
-        "05G",
-        "05T",
-        "06CC",
-        "06D",
-        "06M",
-        "Paragon"
-      ],
-      "industries": [
-        "Промышленное охлаждение",
-        "Отопление, вентиляция и кондиционирование",
-        "Центры обработки данных",
-        "Транспорт",
-        "Морская промышленность"
-      ],
+      "fullDescription": ["Carlyle Compressor is verified through its official product website, which identifies the business as a Carrier company.", "The official range includes reciprocating, screw, rotary and remanufactured compressors for commercial refrigeration, air conditioning, data centres, transport cooling, marine and specialised applications."],
+      "productCategories": ["Промышленные компрессоры", "Холодильное оборудование"],
+      "productFamilies": ["Reciprocating Compressors", "Screw Compressors", "Rotary Compressors", "Remanufactured Compressors"],
+      "series": ["05G", "05T", "06CC", "06D", "06M", "Paragon"],
+      "industries": ["Промышленное охлаждение", "Отопление, вентиляция и кондиционирование", "Центры обработки данных", "Транспорт", "Морская промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.carlylecompressor.com/support/literature/"
-      ],
+      "documentationSources": ["https://www.carlylecompressor.com/support/literature/"],
       "sources": [
-        {
-          "sourceId": "brand-carlyle-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_HISTORY_AND_COMPRESSOR_SPECIALISATION",
-          "url": "https://www.carlylecompressor.com/about/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-carlyle-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "RECIPROCATING_SCREW_ROTARY_AND_REMANUFACTURED_COMPRESSOR_FAMILIES",
-          "url": "https://www.carlylecompressor.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-carlyle-about","tier":"A","type":"ABOUT","scope":"CURRENT_BRAND_IDENTITY_PARENT_HISTORY_AND_COMPRESSOR_SPECIALISATION","url":"https://www.carlylecompressor.com/about/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-carlyle-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RECIPROCATING_SCREW_ROTARY_AND_REMANUFACTURED_COMPRESSOR_FAMILIES","url":"https://www.carlylecompressor.com/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     },
     {
       "manufacturerId": "carter-day-intarnational",
       "officialName": "Carter Day International, Inc.",
       "displayName": "Carter Day International",
-      "aliases": [
-        "CARTER DAY INTERNATIONAL",
-        "CARTER DAY",
-        "CARTER DAY INTARNATIONAL"
-      ],
+      "aliases": ["CARTER DAY INTERNATIONAL", "CARTER DAY", "CARTER DAY INTARNATIONAL"],
       "formerNames": [],
       "officialWebsite": "https://www.carterday.com/",
-      "officialDomains": [
-        "carterday.com"
-      ],
+      "officialDomains": ["carterday.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Carter Day International manufactures grain and granular-material cleaning, grading and size-reduction machinery.",
-      "fullDescription": [
-        "Carter Day International, Inc. is verified through its manufacturer-owned equipment website.",
-        "The official portfolio covers grain pre-cleaning, scalping, aspiration, fine cleaning, width and thickness grading, length grading and laboratory systems, together with Jacobson hammermills, granulators, pulverizers, crushers and shredders for size reduction."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Оборудование для обработки сыпучих материалов",
-        "Оборудование для очистки",
-        "Оборудование для измельчения"
-      ],
-      "productFamilies": [
-        "Scalperators",
-        "Aspirators",
-        "Precision Sizers",
-        "Length Graders",
-        "Laboratory Processing Equipment",
-        "Hammermills",
-        "Granulators",
-        "Pulverizers",
-        "Crushers",
-        "Shredders"
-      ],
-      "series": [
-        "Scalperator",
-        "Precision Sizer",
-        "Uni-Flow",
-        "Series 1"
-      ],
-      "industries": [
-        "Пищевая промышленность",
-        "Сельское хозяйство",
-        "Производство пластмасс",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.carterday.com/wp-content/uploads/CDIRiceBrochure.pdf"
-      ],
-      "documentationSources": [
-        "https://www.carterday.com/agribusiness/"
-      ],
+      "fullDescription": ["Carter Day International, Inc. is verified through its manufacturer-owned equipment website.", "The official portfolio covers grain pre-cleaning, scalping, aspiration, fine cleaning, width and thickness grading, length grading and laboratory systems, together with Jacobson hammermills, granulators, pulverizers, crushers and shredders for size reduction."],
+      "productCategories": ["Промышленные машины", "Оборудование для обработки сыпучих материалов", "Оборудование для очистки", "Оборудование для измельчения"],
+      "productFamilies": ["Scalperators", "Aspirators", "Precision Sizers", "Length Graders", "Laboratory Processing Equipment", "Hammermills", "Granulators", "Pulverizers", "Crushers", "Shredders"],
+      "series": ["Scalperator", "Precision Sizer", "Uni-Flow", "Series 1"],
+      "industries": ["Пищевая промышленность", "Сельское хозяйство", "Производство пластмасс", "Промышленное производство"],
+      "officialCatalogs": ["https://www.carterday.com/wp-content/uploads/CDIRiceBrochure.pdf"],
+      "documentationSources": ["https://www.carterday.com/agribusiness/"],
       "sources": [
-        {
-          "sourceId": "brand-carterday-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_GRAIN_GRANULAR_MATERIAL_AND_SIZE_REDUCTION_SPECIALISATION",
-          "url": "https://www.carterday.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-carterday-agribusiness",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GRAIN_CLEANING_GRADING_ASPIRATION_AND_PROCESSING_FAMILIES",
-          "url": "https://www.carterday.com/agribusiness/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        },
-        {
-          "sourceId": "brand-carterday-hammermill",
-          "tier": "A",
-          "type": "PRODUCT_PAGE",
-          "scope": "HAMMERMILL_SIZE_REDUCTION_FAMILY_AND_APPLICATIONS",
-          "url": "https://www.carterday.com/jacobson/hammermills/series-1/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-20"
-        }
+        {"sourceId":"brand-carterday-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_GRAIN_GRANULAR_MATERIAL_AND_SIZE_REDUCTION_SPECIALISATION","url":"https://www.carterday.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-carterday-agribusiness","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GRAIN_CLEANING_GRADING_ASPIRATION_AND_PROCESSING_FAMILIES","url":"https://www.carterday.com/agribusiness/","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-carterday-hammermill","tier":"A","type":"PRODUCT_PAGE","scope":"HAMMERMILL_SIZE_REDUCTION_FAMILY_AND_APPLICATIONS","url":"https://www.carterday.com/jacobson/hammermills/series-1/","status":"AVAILABLE","checkedAt":"2026-08-20"}
       ]
     }
   ]

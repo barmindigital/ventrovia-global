@@ -6,40 +6,28 @@
       "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "Kentek's first-party site presents a Finnish importer and multi-brand industrial filtration supplier. It does not establish a distinct Kentek-manufactured product portfolio for the undifferentiated repository record.",
-      "attemptedUrls": [
-        "https://www.kentek.fi/en/products/",
-        "https://www.kentek.fi/en/company/"
-      ]
+      "attemptedUrls": ["https://www.kentek.fi/en/products/", "https://www.kentek.fi/en/company/"]
     },
     {
       "manufacturerId": "kiesel",
       "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "Kiesel's first-party site describes a system partner and distributor for construction machinery from multiple manufacturers. The record does not identify a separate Kiesel-manufactured equipment portfolio with sufficient certainty.",
-      "attemptedUrls": [
-        "https://www.kiesel.net/",
-        "https://www.kiesel.net/de"
-      ]
+      "attemptedUrls": ["https://www.kiesel.net/", "https://www.kiesel.net/de"]
     },
     {
       "manufacturerId": "kiheung",
       "status": "BLOCKED_INSECURE_OFFICIAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The manufacturer product directory is available only over HTTP and the official HTTPS endpoint presents an invalid self-signed certificate. The international publication gate requires secure official evidence.",
-      "attemptedUrls": [
-        "http://www.kiheung.com/bbs/board.php?bo_table=product",
-        "https://www.kiheung.com/bbs/board.php?bo_table=product"
-      ]
+      "attemptedUrls": ["http://www.kiheung.com/bbs/board.php?bo_table=product", "https://www.kiheung.com/bbs/board.php?bo_table=product"]
     },
     {
       "manufacturerId": "kitagawa-america",
       "status": "BLOCKED_CANONICAL_DUPLICATE",
       "checkedAt": "2026-08-24",
       "reason": "Kitagawa America and Kitagawa-NorthTech resolve to the same North American legal company and workholding portfolio. The existing Kitagawa-NorthTech profile is retained as the canonical identity.",
-      "attemptedUrls": [
-        "https://kitagawa-usa.com/",
-        "https://kitagawa.com/en/"
-      ]
+      "attemptedUrls": ["https://kitagawa-usa.com/", "https://kitagawa.com/en/"]
     }
   ],
   "profiles": [
@@ -47,2843 +35,1030 @@
       "manufacturerId": "karl-deutsch",
       "officialName": "KARL DEUTSCH Prüf- und Messgerätebau GmbH + Co KG",
       "displayName": "KARL DEUTSCH",
-      "aliases": [
-        "KARL DEUTSCH"
-      ],
+      "aliases": ["KARL DEUTSCH"],
       "formerNames": [],
       "officialWebsite": "https://www.karldeutsch.de/?lang=en",
-      "officialDomains": [
-        "karldeutsch.de"
-      ],
+      "officialDomains": ["karldeutsch.de"],
       "country": "Germany",
       "headquarters": "Wuppertal, Germany",
       "foundedYear": 1949,
       "parentCompany": null,
       "shortDescription": "KARL DEUTSCH develops non-destructive testing instruments, inspection systems and sensors for industrial quality control.",
-      "fullDescription": [
-        "KARL DEUTSCH's official product directory documents equipment for ultrasonic, magnetic-particle and penetrant testing together with coating-thickness measurement.",
-        "The portfolio includes ECHOGRAPH inspection systems, ECHOMETER thickness gauges, LEPTOSKOP coating instruments and associated probes, sensors and testing accessories."
-      ],
-      "productCategories": [
-        "Инспекционные системы",
-        "Измерительная техника",
-        "Промышленные датчики"
-      ],
-      "productFamilies": [
-        "ECHOGRAPH",
-        "ECHOMETER",
-        "LEPTOSKOP",
-        "DEUTROFLUX",
-        "FLUXA",
-        "KD-CHECK"
-      ],
+      "fullDescription": ["KARL DEUTSCH's official product directory documents equipment for ultrasonic, magnetic-particle and penetrant testing together with coating-thickness measurement.", "The portfolio includes ECHOGRAPH inspection systems, ECHOMETER thickness gauges, LEPTOSKOP coating instruments and associated probes, sensors and testing accessories."],
+      "productCategories": ["Инспекционные системы", "Измерительная техника", "Промышленные датчики"],
+      "productFamilies": ["ECHOGRAPH", "ECHOMETER", "LEPTOSKOP", "DEUTROFLUX", "FLUXA", "KD-CHECK"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Металлургия",
-        "Транспортное машиностроение"
-      ],
+      "industries": ["Промышленное производство", "Металлургия", "Транспортное машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.karldeutsch.de/products/?lang=en"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-karl-deutsch-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "NDT_INSPECTION_MEASUREMENT_AND_SENSOR_SCOPE",
-          "url": "https://www.karldeutsch.de/products/?lang=en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.karldeutsch.de/products/?lang=en"],
+      "sources": [{"sourceId":"brand-karl-deutsch-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"NDT_INSPECTION_MEASUREMENT_AND_SENSOR_SCOPE","url":"https://www.karldeutsch.de/products/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "karl-georg",
       "officialName": "Karl Georg GmbH",
       "displayName": "KARL GEORG",
-      "aliases": [
-        "KARL GEORG"
-      ],
+      "aliases": ["KARL GEORG"],
       "formerNames": [],
       "officialWebsite": "https://www.karl-georg.de/en/",
-      "officialDomains": [
-        "karl-georg.de"
-      ],
+      "officialDomains": ["karl-georg.de"],
       "country": "Germany",
       "headquarters": "Ingelbach-Bahnhof, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KARL GEORG manufactures crane wheels, wheel assemblies and related components for material-handling systems.",
-      "fullDescription": [
-        "KARL GEORG's official product material documents crane wheels and wheel assemblies for industrial lifting and handling applications.",
-        "The company supplies machined wheel components and application-specific assemblies supported by in-house engineering and production capabilities."
-      ],
-      "productCategories": [
-        "Подъёмное оборудование",
-        "Изготовление промышленных компонентов"
-      ],
-      "productFamilies": [
-        "Crane Wheels",
-        "Wheel Assemblies",
-        "Wheel Blocks",
-        "Running Wheels"
-      ],
+      "fullDescription": ["KARL GEORG's official product material documents crane wheels and wheel assemblies for industrial lifting and handling applications.", "The company supplies machined wheel components and application-specific assemblies supported by in-house engineering and production capabilities."],
+      "productCategories": ["Подъёмное оборудование", "Изготовление промышленных компонентов"],
+      "productFamilies": ["Crane Wheels", "Wheel Assemblies", "Wheel Blocks", "Running Wheels"],
       "series": [],
-      "industries": [
-        "Подъёмно-транспортное оборудование",
-        "Металлургия",
-        "Промышленное производство"
-      ],
+      "industries": ["Подъёмно-транспортное оборудование", "Металлургия", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.karl-georg.de/en/products-solutions/crane-wheels"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-karl-georg-crane-wheels",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CRANE_WHEEL_ASSEMBLY_AND_COMPONENT_SCOPE",
-          "url": "https://www.karl-georg.de/en/products-solutions/crane-wheels",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.karl-georg.de/en/products-solutions/crane-wheels"],
+      "sources": [{"sourceId":"brand-karl-georg-crane-wheels","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CRANE_WHEEL_ASSEMBLY_AND_COMPONENT_SCOPE","url":"https://www.karl-georg.de/en/products-solutions/crane-wheels","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "karl-klein",
       "officialName": "Karl Klein Ventilatorenbau GmbH",
       "displayName": "Karl Klein Ventilatorenbau",
-      "aliases": [
-        "KARL KLEIN VENTILATORENBAU",
-        "KARL KLEIN"
-      ],
+      "aliases": ["KARL KLEIN VENTILATORENBAU", "KARL KLEIN"],
       "formerNames": [],
       "officialWebsite": "https://www.karl-klein.de/en/",
-      "officialDomains": [
-        "karl-klein.de"
-      ],
+      "officialDomains": ["karl-klein.de"],
       "country": "Germany",
-      "headquarters": "Aichwald, Germany",
+      "headquarters":"Aichwald, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Karl Klein Ventilatorenbau manufactures industrial fans and blowers for process-air and ventilation duties.",
-      "fullDescription": [
-        "Karl Klein's official product directory covers low-, medium- and high-pressure industrial fans for different air-handling requirements.",
-        "Its documented range also includes dust fans, boiler fans, cast fans, plug-in units and portable fan configurations."
-      ],
-      "productCategories": [
-        "Промышленные вентиляторы и воздуходувки"
-      ],
-      "productFamilies": [
-        "Low-Pressure Fans",
-        "Medium-Pressure Fans",
-        "High-Pressure Fans",
-        "Dust Fans",
-        "Boiler Fans",
-        "Plug-In Fans"
-      ],
+      "fullDescription": ["Karl Klein's official product directory covers low-, medium- and high-pressure industrial fans for different air-handling requirements.", "Its documented range also includes dust fans, boiler fans, cast fans, plug-in units and portable fan configurations."],
+      "productCategories": ["Промышленные вентиляторы и воздуходувки"],
+      "productFamilies": ["Low-Pressure Fans", "Medium-Pressure Fans", "High-Pressure Fans", "Dust Fans", "Boiler Fans", "Plug-In Fans"],
       "series": [],
-      "industries": [
-        "Промышленная вентиляция",
-        "Промышленное производство",
-        "Технологические процессы"
-      ],
+      "industries": ["Промышленная вентиляция", "Промышленное производство", "Технологические процессы"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.karl-klein.de/en/products-applications/fans/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-karl-klein-fans",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "INDUSTRIAL_FAN_AND_BLOWER_SCOPE",
-          "url": "https://www.karl-klein.de/en/products-applications/fans/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-karl-klein-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.karl-klein.de/en/imprint",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://www.karl-klein.de/en/products-applications/fans/"],
+      "sources": [{"sourceId":"brand-karl-klein-fans","tier":"A","type":"PRODUCT_DIRECTORY","scope":"INDUSTRIAL_FAN_AND_BLOWER_SCOPE","url":"https://www.karl-klein.de/en/products-applications/fans/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-karl-klein-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.karl-klein.de/en/imprint","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "karmsund-maritime-group",
       "officialName": "Karmsund Maritime Group AS",
       "displayName": "Karmsund Maritime Group",
-      "aliases": [
-        "KARMSUND MARITIME GROUP",
-        "KARMSUND MARITIME"
-      ],
+      "aliases": ["KARMSUND MARITIME GROUP", "KARMSUND MARITIME"],
       "formerNames": [],
       "officialWebsite": "https://karmsund.no/",
-      "officialDomains": [
-        "karmsund.no"
-      ],
+      "officialDomains": ["karmsund.no"],
       "country": "Norway",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Karmsund Maritime Group develops sealing products, portable valve actuation equipment and custom mechanical components for onshore and offshore operations.",
-      "fullDescription": [
-        "Karmsund Maritime's official site presents the KaMOS product business as a developer of sealing and valve-maintenance solutions for onshore and offshore industries.",
-        "Its published materials cover ring-joint and kammprofile gaskets, test sealing tools, portable valve actuators and custom manufactured mechanical equipment."
-      ],
-      "productCategories": [
-        "Уплотнения и прокладки",
-        "Промышленные приводы",
-        "Изготовление промышленных компонентов"
-      ],
-      "productFamilies": [
-        "KaMOS RTJ Gaskets",
-        "KaMOS Kammprofile Gaskets",
-        "KaMOS TestSealRing",
-        "KaMOS Portable Valve Actuators",
-        "KaMOP Custom Products"
-      ],
-      "series": [
-        "KaMOS",
-        "KaMOP"
-      ],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Морская промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://karmsund.no/downloads/brochures-and-certifications/"
-      ],
-      "documentationSources": [
-        "https://karmsund.no/products/",
-        "https://karmsund.no/downloads/brochures-and-certifications/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-karmsund-group-overview",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "GROUP_IDENTITY_SEALING_ACTUATION_AND_CUSTOM_MANUFACTURING_SCOPE",
-          "url": "https://karmsund.no/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-karmsund-products",
-          "tier": "A",
-          "type": "PRODUCT_DOCUMENTATION",
-          "scope": "KAMOS_GASKET_TEST_TOOL_AND_PORTABLE_ACTUATOR_SCOPE",
-          "url": "https://karmsund.no/downloads/brochures-and-certifications/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["Karmsund Maritime's official site presents the KaMOS product business as a developer of sealing and valve-maintenance solutions for onshore and offshore industries.", "Its published materials cover ring-joint and kammprofile gaskets, test sealing tools, portable valve actuators and custom manufactured mechanical equipment."],
+      "productCategories": ["Уплотнения и прокладки", "Промышленные приводы", "Изготовление промышленных компонентов"],
+      "productFamilies": ["KaMOS RTJ Gaskets", "KaMOS Kammprofile Gaskets", "KaMOS TestSealRing", "KaMOS Portable Valve Actuators", "KaMOP Custom Products"],
+      "series": ["KaMOS", "KaMOP"],
+      "industries": ["Нефтегазовая промышленность", "Морская промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://karmsund.no/downloads/brochures-and-certifications/"],
+      "documentationSources": ["https://karmsund.no/products/", "https://karmsund.no/downloads/brochures-and-certifications/"],
+      "sources": [{"sourceId":"brand-karmsund-group-overview","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"GROUP_IDENTITY_SEALING_ACTUATION_AND_CUSTOM_MANUFACTURING_SCOPE","url":"https://karmsund.no/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-karmsund-products","tier":"A","type":"PRODUCT_DOCUMENTATION","scope":"KAMOS_GASKET_TEST_TOOL_AND_PORTABLE_ACTUATOR_SCOPE","url":"https://karmsund.no/downloads/brochures-and-certifications/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kastas",
       "officialName": "Kastaş Sealing Technologies A.Ş.",
       "displayName": "Kastaş",
-      "aliases": [
-        "KASTAS",
-        "KASTAŞ"
-      ],
+      "aliases": ["KASTAS", "KASTAŞ"],
       "formerNames": [],
       "officialWebsite": "https://www.kastas.com/en",
-      "officialDomains": [
-        "kastas.com"
-      ],
+      "officialDomains": ["kastas.com"],
       "country": "Türkiye",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kastaş manufactures sealing elements for hydraulic, pneumatic and rotary-motion systems.",
-      "fullDescription": [
-        "Kastaş's official site documents a sealing-technology manufacturer serving fluid-power and motion applications.",
-        "The published range includes rod and piston seals, wipers, guide rings, static seals, O-rings, rotary seals and application-specific sealing solutions."
-      ],
-      "productCategories": [
-        "Гидравлические и пневматические уплотнения"
-      ],
-      "productFamilies": [
-        "Rod Seals",
-        "Piston Seals",
-        "Wipers",
-        "Guide Rings",
-        "Static Seals",
-        "O-Rings",
-        "Rotary Seals"
-      ],
+      "fullDescription": ["Kastaş's official site documents a sealing-technology manufacturer serving fluid-power and motion applications.", "The published range includes rod and piston seals, wipers, guide rings, static seals, O-rings, rotary seals and application-specific sealing solutions."],
+      "productCategories": ["Гидравлические и пневматические уплотнения"],
+      "productFamilies": ["Rod Seals", "Piston Seals", "Wipers", "Guide Rings", "Static Seals", "O-Rings", "Rotary Seals"],
       "series": [],
-      "industries": [
-        "Гидравлика",
-        "Пневматика",
-        "Промышленное производство"
-      ],
+      "industries": ["Гидравлика", "Пневматика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kastas.com/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kastas-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HYDRAULIC_PNEUMATIC_ROTARY_AND_STATIC_SEAL_SCOPE",
-          "url": "https://www.kastas.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kastas.com/en/products"],
+      "sources": [{"sourceId":"brand-kastas-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_PNEUMATIC_ROTARY_AND_STATIC_SEAL_SCOPE","url":"https://www.kastas.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kasto",
       "officialName": "KASTO Maschinenbau GmbH & Co. KG",
       "displayName": "KASTO",
-      "aliases": [
-        "KASTO"
-      ],
+      "aliases": ["KASTO"],
       "formerNames": [],
       "officialWebsite": "https://www.kasto.com/en/",
-      "officialDomains": [
-        "kasto.com"
-      ],
+      "officialDomains": ["kasto.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KASTO develops metal sawing machines, automated storage systems and material-handling software for bars and sheet metal.",
-      "fullDescription": [
-        "KASTO's official site documents sawing systems for metal stock together with automated storage and handling solutions.",
-        "The portfolio spans band and circular saws, bar and sheet-storage systems, handling equipment and software for coordinating material flow and warehouse processes."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Складская техника",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Band Saws",
-        "Circular Saws",
-        "Bar Storage Systems",
-        "Sheet Storage Systems",
-        "Material Handling Systems",
-        "KASTOlogic"
-      ],
+      "fullDescription": ["KASTO's official site documents sawing systems for metal stock together with automated storage and handling solutions.", "The portfolio spans band and circular saws, bar and sheet-storage systems, handling equipment and software for coordinating material flow and warehouse processes."],
+      "productCategories": ["Металлообрабатывающие станки", "Складская техника", "Промышленное программное обеспечение"],
+      "productFamilies": ["Band Saws", "Circular Saws", "Bar Storage Systems", "Sheet Storage Systems", "Material Handling Systems", "KASTOlogic"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Складская логистика",
-        "Промышленное производство"
-      ],
+      "industries": ["Металлообработка", "Складская логистика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kasto.com/en/saws/overview-saws",
-        "https://www.kasto.com/en/storage/overview-storage"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kasto-saws",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "METAL_SAWING_MACHINE_SCOPE",
-          "url": "https://www.kasto.com/en/saws/overview-saws",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kasto-storage",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "BAR_SHEET_STORAGE_HANDLING_AND_SOFTWARE_SCOPE",
-          "url": "https://www.kasto.com/en/storage/overview-storage",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kasto.com/en/saws/overview-saws", "https://www.kasto.com/en/storage/overview-storage"],
+      "sources": [{"sourceId":"brand-kasto-saws","tier":"A","type":"PRODUCT_DIRECTORY","scope":"METAL_SAWING_MACHINE_SCOPE","url":"https://www.kasto.com/en/saws/overview-saws","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kasto-storage","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BAR_SHEET_STORAGE_HANDLING_AND_SOFTWARE_SCOPE","url":"https://www.kasto.com/en/storage/overview-storage","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "katronic",
       "officialName": "Katronic GmbH & Co. KG",
       "displayName": "Katronic",
-      "aliases": [
-        "KATRONIC"
-      ],
+      "aliases": ["KATRONIC"],
       "formerNames": [],
       "officialWebsite": "https://www.katronic.com/en-us/",
-      "officialDomains": [
-        "katronic.com"
-      ],
+      "officialDomains": ["katronic.com"],
       "country": "Germany",
       "headquarters": "Wernigerode, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Katronic develops clamp-on ultrasonic flowmeters for non-invasive measurement of liquids and gases in pipelines.",
-      "fullDescription": [
-        "Katronic's official site documents portable, fixed-installation and compact ultrasonic flowmeters that measure through the pipe wall.",
-        "The KATflow range supports flow monitoring, energy measurement and process diagnostics without opening the pipeline."
-      ],
-      "productCategories": [
-        "Расходомеры",
-        "Измерительная техника"
-      ],
-      "productFamilies": [
-        "Portable Ultrasonic Flowmeters",
-        "Fixed Ultrasonic Flowmeters",
-        "Clamp-On Flow Sensors",
-        "Heat Meters"
-      ],
-      "series": [
-        "KATflow 100",
-        "KATflow 150",
-        "KATflow 170",
-        "KATflow 180",
-        "KATflow 200",
-        "KATflow 210",
-        "KATflow 230"
-      ],
-      "industries": [
-        "Водоснабжение и водоотведение",
-        "Энергетика",
-        "Технологические процессы"
-      ],
+      "fullDescription": ["Katronic's official site documents portable, fixed-installation and compact ultrasonic flowmeters that measure through the pipe wall.", "The KATflow range supports flow monitoring, energy measurement and process diagnostics without opening the pipeline."],
+      "productCategories": ["Расходомеры", "Измерительная техника"],
+      "productFamilies": ["Portable Ultrasonic Flowmeters", "Fixed Ultrasonic Flowmeters", "Clamp-On Flow Sensors", "Heat Meters"],
+      "series": ["KATflow 100", "KATflow 150", "KATflow 170", "KATflow 180", "KATflow 200", "KATflow 210", "KATflow 230"],
+      "industries": ["Водоснабжение и водоотведение", "Энергетика", "Технологические процессы"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.katronic.com/en-us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-katronic-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "CLAMP_ON_ULTRASONIC_FLOW_MEASUREMENT_SCOPE",
-          "url": "https://www.katronic.com/en-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.katronic.com/en-us/"],
+      "sources": [{"sourceId":"brand-katronic-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CLAMP_ON_ULTRASONIC_FLOW_MEASUREMENT_SCOPE","url":"https://www.katronic.com/en-us/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kaukan-industries",
       "officialName": "Kaukan Industries Co., Ltd.",
       "displayName": "Kaukan Industries",
-      "aliases": [
-        "KAUKAN INDUSTRIES",
-        "KAUKAN"
-      ],
+      "aliases": ["KAUKAN INDUSTRIES", "KAUKAN"],
       "formerNames": [],
       "officialWebsite": "https://www.kaukan-tw.com/",
-      "officialDomains": [
-        "kaukan-tw.com"
-      ],
+      "officialDomains": ["kaukan-tw.com"],
       "country": "Taiwan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kaukan Industries manufactures industrial cooling and heat-exchange units for precision machine tools and production machinery.",
-      "fullDescription": [
-        "Kaukan's official product brochure documents cooling equipment designed to control thermal growth in machine tools and industrial machinery.",
-        "The range includes oil and water coolers, cutting-fluid and grinding-fluid units, electrical-cabinet air-conditioning units and heat-pipe heat exchangers."
-      ],
-      "productCategories": [
-        "Промышленное холодильное оборудование",
-        "Теплообменное оборудование",
-        "Станочное оборудование"
-      ],
-      "productFamilies": [
-        "Oil Cooler Units",
-        "Water Cooler Units",
-        "Cutting Fluid Cooler Units",
-        "Electrical Cabinet Air-Conditioning Units",
-        "Heat-Pipe Heat Exchangers"
-      ],
-      "series": [
-        "KO",
-        "KW",
-        "KE",
-        "KN",
-        "KAC",
-        "C&H"
-      ],
-      "industries": [
-        "Станкостроение",
-        "Металлообработка",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://zh-tw.kaukan-tw.com/pdf/375474/2021%20KAUKAN-DM.pdf"
-      ],
-      "documentationSources": [
-        "https://zh-tw.kaukan-tw.com/pdf/375474/2021%20KAUKAN-DM.pdf"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kaukan-product-brochure",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "OIL_WATER_FLUID_CABINET_COOLER_AND_HEAT_EXCHANGER_SCOPE",
-          "url": "https://zh-tw.kaukan-tw.com/pdf/375474/2021%20KAUKAN-DM.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["Kaukan's official product brochure documents cooling equipment designed to control thermal growth in machine tools and industrial machinery.", "The range includes oil and water coolers, cutting-fluid and grinding-fluid units, electrical-cabinet air-conditioning units and heat-pipe heat exchangers."],
+      "productCategories": ["Промышленное холодильное оборудование", "Теплообменное оборудование", "Станочное оборудование"],
+      "productFamilies": ["Oil Cooler Units", "Water Cooler Units", "Cutting Fluid Cooler Units", "Electrical Cabinet Air-Conditioning Units", "Heat-Pipe Heat Exchangers"],
+      "series": ["KO", "KW", "KE", "KN", "KAC", "C&H"],
+      "industries": ["Станкостроение", "Металлообработка", "Промышленное производство"],
+      "officialCatalogs": ["https://zh-tw.kaukan-tw.com/pdf/375474/2021%20KAUKAN-DM.pdf"],
+      "documentationSources": ["https://zh-tw.kaukan-tw.com/pdf/375474/2021%20KAUKAN-DM.pdf"],
+      "sources": [{"sourceId":"brand-kaukan-product-brochure","tier":"A","type":"OFFICIAL_CATALOG","scope":"OIL_WATER_FLUID_CABINET_COOLER_AND_HEAT_EXCHANGER_SCOPE","url":"https://zh-tw.kaukan-tw.com/pdf/375474/2021%20KAUKAN-DM.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kawasaki-heavy-industries",
       "officialName": "Kawasaki Heavy Industries, Ltd.",
       "displayName": "Kawasaki Heavy Industries",
-      "aliases": [
-        "KAWASAKI HEAVY INDUSTRIES",
-        "KHI"
-      ],
+      "aliases": ["KAWASAKI HEAVY INDUSTRIES", "KHI"],
       "formerNames": [],
       "officialWebsite": "https://global.kawasaki.com/en/",
-      "officialDomains": [
-        "global.kawasaki.com",
-        "khi.co.jp"
-      ],
+      "officialDomains": ["global.kawasaki.com", "khi.co.jp"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kawasaki Heavy Industries develops transportation, energy, industrial machinery, robotic and precision-equipment systems.",
-      "fullDescription": [
-        "Kawasaki Heavy Industries' official corporate site presents a diversified engineering group operating across mobility, energy and industrial equipment.",
-        "Its documented businesses include rail vehicles, aerospace systems, energy equipment, industrial robots, machinery and precision hydraulic technologies."
-      ],
-      "productCategories": [
-        "Промышленные роботы",
-        "Промышленные машины",
-        "Турбины",
-        "Гидравлическое оборудование"
-      ],
-      "productFamilies": [
-        "Industrial Robots",
-        "Energy Systems",
-        "Rolling Stock",
-        "Aerospace Systems",
-        "Industrial Machinery",
-        "Precision Machinery"
-      ],
+      "fullDescription": ["Kawasaki Heavy Industries' official corporate site presents a diversified engineering group operating across mobility, energy and industrial equipment.", "Its documented businesses include rail vehicles, aerospace systems, energy equipment, industrial robots, machinery and precision hydraulic technologies."],
+      "productCategories": ["Промышленные роботы", "Промышленные машины", "Турбины", "Гидравлическое оборудование"],
+      "productFamilies": ["Industrial Robots", "Energy Systems", "Rolling Stock", "Aerospace Systems", "Industrial Machinery", "Precision Machinery"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Транспортное машиностроение",
-        "Энергетика",
-        "Аэрокосмическая промышленность"
-      ],
+      "industries": ["Промышленное производство", "Транспортное машиностроение", "Энергетика", "Аэрокосмическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://global.kawasaki.com/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kawasaki-heavy-industries-corporate",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "CORPORATE_IDENTITY_AND_DIVERSIFIED_ENGINEERING_BUSINESS_SCOPE",
-          "url": "https://global.kawasaki.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://global.kawasaki.com/en/"],
+      "sources": [{"sourceId":"brand-kawasaki-heavy-industries-corporate","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CORPORATE_IDENTITY_AND_DIVERSIFIED_ENGINEERING_BUSINESS_SCOPE","url":"https://global.kawasaki.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kawasaki-precision-machinery",
       "officialName": "Kawasaki Precision Machinery",
       "displayName": "Kawasaki Precision Machinery",
-      "aliases": [
-        "KAWASAKI PRECISION MACHINERY",
-        "KPM"
-      ],
+      "aliases": ["KAWASAKI PRECISION MACHINERY", "KPM"],
       "formerNames": [],
       "officialWebsite": "https://global.kawasaki.com/en/corp/profile/division/hydraulic/index.html",
-      "officialDomains": [
-        "global.kawasaki.com"
-      ],
+      "officialDomains": ["global.kawasaki.com"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Kawasaki Heavy Industries, Ltd.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Kawasaki Precision Machinery develops hydraulic pumps, motors, valves, controllers and integrated fluid-power systems.",
-      "fullDescription": [
-        "Kawasaki Heavy Industries' official divisional profile identifies Precision Machinery as its hydraulic and control-technology business.",
-        "The documented portfolio includes hydraulic pumps, motors, valves, machinery applications, marine systems and electro-hydraulic controllers."
-      ],
-      "productCategories": [
-        "Гидравлические насосы",
-        "Гидравлические моторы",
-        "Гидравлические клапаны",
-        "Промышленные контроллеры"
-      ],
-      "productFamilies": [
-        "Hydraulic Pumps",
-        "Hydraulic Motors",
-        "Hydraulic Valves",
-        "Hydraulic Systems",
-        "Electro-Hydraulic Controllers"
-      ],
+      "fullDescription": ["Kawasaki Heavy Industries' official divisional profile identifies Precision Machinery as its hydraulic and control-technology business.", "The documented portfolio includes hydraulic pumps, motors, valves, machinery applications, marine systems and electro-hydraulic controllers."],
+      "productCategories": ["Гидравлические насосы", "Гидравлические моторы", "Гидравлические клапаны", "Промышленные контроллеры"],
+      "productFamilies": ["Hydraulic Pumps", "Hydraulic Motors", "Hydraulic Valves", "Hydraulic Systems", "Electro-Hydraulic Controllers"],
       "series": [],
-      "industries": [
-        "Мобильная техника",
-        "Морская промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Мобильная техника", "Морская промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://global.kawasaki.com/en/corp/profile/division/hydraulic/index.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kawasaki-precision-parent-division",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_DIVISION_IDENTITY_AND_HYDRAULIC_PRODUCT_SCOPE",
-          "url": "https://global.kawasaki.com/en/corp/profile/division/hydraulic/index.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://global.kawasaki.com/en/corp/profile/division/hydraulic/index.html"],
+      "sources": [{"sourceId":"brand-kawasaki-precision-parent-division","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_DIVISION_IDENTITY_AND_HYDRAULIC_PRODUCT_SCOPE","url":"https://global.kawasaki.com/en/corp/profile/division/hydraulic/index.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kb-electronics",
       "officialName": "KB Electronics, Inc.",
       "displayName": "KB Electronics",
-      "aliases": [
-        "KB ELECTRONICS"
-      ],
+      "aliases": ["KB ELECTRONICS"],
       "formerNames": [],
       "officialWebsite": "https://moen.nidec.com/en/drives/About-Us/KB-Electronics-History",
-      "officialDomains": [
-        "nidec.com"
-      ],
+      "officialDomains": ["nidec.com"],
       "country": "United States",
       "headquarters": "Coral Springs, Florida, United States",
       "foundedYear": 1967,
       "parentCompany": "Nidec Corporation",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "KB Electronics is a Nidec drive-controls brand for variable-speed AC and DC motor applications.",
-      "fullDescription": [
-        "Nidec's official KB Electronics history identifies the business as a manufacturer of adjustable-speed motor controls founded in 1967.",
-        "Its documented products include variable-frequency AC drives, DC motor controls, brushless DC drives, fan controls and application-specific drive configurations."
-      ],
-      "productCategories": [
-        "Промышленные приводы",
-        "Промышленная автоматизация",
-        "Электротехническое оборудование"
-      ],
-      "productFamilies": [
-        "Variable-Frequency AC Drives",
-        "DC Motor Controls",
-        "Brushless DC Drives",
-        "Fan Controls",
-        "Drive Accessories"
-      ],
-      "series": [
-        "KBAC",
-        "KBDA",
-        "KBVF",
-        "KBDF"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "HVAC",
-        "Насосное оборудование",
-        "Складская логистика"
-      ],
+      "fullDescription": ["Nidec's official KB Electronics history identifies the business as a manufacturer of adjustable-speed motor controls founded in 1967.", "Its documented products include variable-frequency AC drives, DC motor controls, brushless DC drives, fan controls and application-specific drive configurations."],
+      "productCategories": ["Промышленные приводы", "Промышленная автоматизация", "Электротехническое оборудование"],
+      "productFamilies": ["Variable-Frequency AC Drives", "DC Motor Controls", "Brushless DC Drives", "Fan Controls", "Drive Accessories"],
+      "series": ["KBAC", "KBDA", "KBVF", "KBDF"],
+      "industries": ["Промышленная автоматизация", "HVAC", "Насосное оборудование", "Складская логистика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://moen.nidec.com/en/drives/Downloads/Product-Manuals"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kb-electronics-parent-history",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_ABOUT",
-          "scope": "CURRENT_BRAND_HISTORY_OWNERSHIP_AND_DRIVE_CONTROL_SCOPE",
-          "url": "https://moen.nidec.com/en/drives/About-Us/KB-Electronics-History",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kb-electronics-parent-products",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "AC_DC_BRUSHLESS_AND_FAN_CONTROL_SCOPE",
-          "url": "https://moen.nidec.com/en/drives/Downloads/Product-Manuals",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://moen.nidec.com/en/drives/Downloads/Product-Manuals"],
+      "sources": [{"sourceId":"brand-kb-electronics-parent-history","tier":"A","type":"OFFICIAL_PARENT_ABOUT","scope":"CURRENT_BRAND_HISTORY_OWNERSHIP_AND_DRIVE_CONTROL_SCOPE","url":"https://moen.nidec.com/en/drives/About-Us/KB-Electronics-History","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kb-electronics-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"AC_DC_BRUSHLESS_AND_FAN_CONTROL_SCOPE","url":"https://moen.nidec.com/en/drives/Downloads/Product-Manuals","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kba",
       "officialName": "Koenig & Bauer AG",
       "displayName": "Koenig & Bauer",
-      "aliases": [
-        "KBA",
-        "KOENIG & BAUER"
-      ],
-      "formerNames": [
-        "KBA"
-      ],
+      "aliases": ["KBA", "KOENIG & BAUER"],
+      "formerNames": ["KBA"],
       "officialWebsite": "https://www.koenig-bauer.com/en/",
-      "officialDomains": [
-        "koenig-bauer.com"
-      ],
+      "officialDomains": ["koenig-bauer.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "statusModifier": "SUCCESSOR_BRAND",
       "shortDescription": "Koenig & Bauer develops printing presses, production systems and workflow technology for packaging, publication and industrial printing.",
-      "fullDescription": [
-        "Koenig & Bauer's official history documents KBA as the company's former group brand before the return to the Koenig & Bauer name in 2017.",
-        "The current official portfolio includes sheetfed, digital, web, flexographic and special printing systems together with production software and service solutions."
-      ],
-      "productCategories": [
-        "Промышленные машины для печати",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Sheetfed Printing Systems",
-        "Digital Printing Systems",
-        "Web Presses",
-        "Flexographic Presses",
-        "Special Printing Systems",
-        "Production Workflow Software"
-      ],
+      "fullDescription": ["Koenig & Bauer's official history documents KBA as the company's former group brand before the return to the Koenig & Bauer name in 2017.", "The current official portfolio includes sheetfed, digital, web, flexographic and special printing systems together with production software and service solutions."],
+      "productCategories": ["Промышленные машины для печати", "Промышленное программное обеспечение"],
+      "productFamilies": ["Sheetfed Printing Systems", "Digital Printing Systems", "Web Presses", "Flexographic Presses", "Special Printing Systems", "Production Workflow Software"],
       "series": [],
-      "industries": [
-        "Полиграфия",
-        "Упаковочная промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Полиграфия", "Упаковочная промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.koenig-bauer.com/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kba-successor-history",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "KBA_FORMER_NAME_AND_CURRENT_CORPORATE_IDENTITY",
-          "url": "https://www.koenig-bauer.com/en/company/koenig-bauer-ag/company-history",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kba-successor-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "PRINTING_SYSTEM_AND_WORKFLOW_SCOPE",
-          "url": "https://www.koenig-bauer.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.koenig-bauer.com/en/products"],
+      "sources": [{"sourceId":"brand-kba-successor-history","tier":"A","type":"ABOUT","scope":"KBA_FORMER_NAME_AND_CURRENT_CORPORATE_IDENTITY","url":"https://www.koenig-bauer.com/en/company/koenig-bauer-ag/company-history","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kba-successor-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PRINTING_SYSTEM_AND_WORKFLOW_SCOPE","url":"https://www.koenig-bauer.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kba-metronic",
       "officialName": "Koenig & Bauer Coding GmbH",
       "displayName": "Koenig & Bauer Coding",
-      "aliases": [
-        "KBA METRONIC",
-        "KBA-METRONIC",
-        "KOENIG & BAUER CODING"
-      ],
-      "formerNames": [
-        "KBA-Metronic GmbH"
-      ],
+      "aliases": ["KBA METRONIC", "KBA-METRONIC", "KOENIG & BAUER CODING"],
+      "formerNames": ["KBA-Metronic GmbH"],
       "officialWebsite": "https://coding.koenig-bauer.com/",
-      "officialDomains": [
-        "coding.koenig-bauer.com",
-        "koenig-bauer.com"
-      ],
+      "officialDomains": ["coding.koenig-bauer.com", "koenig-bauer.com"],
       "country": "Germany",
       "headquarters": "Veitshöchheim, Germany",
       "foundedYear": 1972,
       "parentCompany": "Koenig & Bauer AG",
       "statusModifier": "SUCCESSOR_BRAND",
       "shortDescription": "Koenig & Bauer Coding develops industrial coding, marking and printing systems for production lines and packaging.",
-      "fullDescription": [
-        "Official Koenig & Bauer Coding material identifies KBA-Metronic as the former company name of the coding-technology business founded in 1972.",
-        "Its documented solutions include continuous-inkjet, laser, thermal-inkjet, hot-stamp and thermal-transfer systems together with coding software."
-      ],
-      "productCategories": [
-        "Промышленные системы маркировки",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Continuous-Inkjet Systems",
-        "Laser Marking Systems",
-        "Thermal-Inkjet Systems",
-        "Hot-Stamp Systems",
-        "Thermal-Transfer Systems",
-        "Coding Software"
-      ],
+      "fullDescription": ["Official Koenig & Bauer Coding material identifies KBA-Metronic as the former company name of the coding-technology business founded in 1972.", "Its documented solutions include continuous-inkjet, laser, thermal-inkjet, hot-stamp and thermal-transfer systems together with coding software."],
+      "productCategories": ["Промышленные системы маркировки", "Промышленное программное обеспечение"],
+      "productFamilies": ["Continuous-Inkjet Systems", "Laser Marking Systems", "Thermal-Inkjet Systems", "Hot-Stamp Systems", "Thermal-Transfer Systems", "Coding Software"],
       "series": [],
-      "industries": [
-        "Упаковочная промышленность",
-        "Промышленное производство",
-        "Пищевая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://coding.koenig-bauer.com/assets/site/coding/brochures/product-overview/product-overview-koenig-bauer-coding-en.pdf"
-      ],
-      "documentationSources": [
-        "https://coding.koenig-bauer.com/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kba-metronic-successor-identity",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_ABOUT",
-          "scope": "KBA_METRONIC_FORMER_NAME_AND_CURRENT_CODING_IDENTITY",
-          "url": "https://banknote-solutions.koenig-bauer.com/en/news/articles/article/artificial-intelligence-in-coding-technology/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kba-metronic-current-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CURRENT_CODING_MARKING_AND_LABELLING_PRODUCT_SCOPE",
-          "url": "https://coding.koenig-bauer.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Упаковочная промышленность", "Промышленное производство", "Пищевая промышленность"],
+      "officialCatalogs": ["https://coding.koenig-bauer.com/assets/site/coding/brochures/product-overview/product-overview-koenig-bauer-coding-en.pdf"],
+      "documentationSources": ["https://coding.koenig-bauer.com/en/products"],
+      "sources": [{"sourceId":"brand-kba-metronic-successor-identity","tier":"A","type":"OFFICIAL_PARENT_ABOUT","scope":"KBA_METRONIC_FORMER_NAME_AND_CURRENT_CODING_IDENTITY","url":"https://banknote-solutions.koenig-bauer.com/en/news/articles/article/artificial-intelligence-in-coding-technology/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kba-metronic-current-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_CODING_MARKING_AND_LABELLING_PRODUCT_SCOPE","url":"https://coding.koenig-bauer.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kelch",
       "officialName": "KELCH GmbH",
       "displayName": "KELCH",
-      "aliases": [
-        "KELCH"
-      ],
+      "aliases": ["KELCH"],
       "formerNames": [],
       "officialWebsite": "https://www.kelch.de/en/",
-      "officialDomains": [
-        "kelch.de"
-      ],
+      "officialDomains": ["kelch.de"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KELCH develops tool presetting, measuring, shrinking and tool-management systems for machining operations.",
-      "fullDescription": [
-        "KELCH's official product pages document equipment for preparing and measuring cutting tools outside the machine tool.",
-        "The portfolio includes tool presetters, shrinking devices, balancing systems, tool holders and digital tool-management solutions."
-      ],
-      "productCategories": [
-        "Измерительная техника",
-        "Станочное оборудование",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Tool Presetters",
-        "Tool Measuring Systems",
-        "Shrink-Fit Equipment",
-        "Balancing Systems",
-        "Tool Holders",
-        "Tool Management Software"
-      ],
+      "fullDescription": ["KELCH's official product pages document equipment for preparing and measuring cutting tools outside the machine tool.", "The portfolio includes tool presetters, shrinking devices, balancing systems, tool holders and digital tool-management solutions."],
+      "productCategories": ["Измерительная техника", "Станочное оборудование", "Промышленное программное обеспечение"],
+      "productFamilies": ["Tool Presetters", "Tool Measuring Systems", "Shrink-Fit Equipment", "Balancing Systems", "Tool Holders", "Tool Management Software"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Станкостроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Металлообработка", "Станкостроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kelch.de/en/products/tool-presetters/",
-        "https://www.kelch.de/en/products/shrinking-technology/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kelch-presetters",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "TOOL_PRESETTING_AND_MEASUREMENT_SCOPE",
-          "url": "https://www.kelch.de/en/products/tool-presetters/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kelch-shrinking",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SHRINK_FIT_EQUIPMENT_SCOPE",
-          "url": "https://www.kelch.de/en/products/shrinking-technology/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kelch.de/en/products/tool-presetters/", "https://www.kelch.de/en/products/shrinking-technology/"],
+      "sources": [{"sourceId":"brand-kelch-presetters","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TOOL_PRESETTING_AND_MEASUREMENT_SCOPE","url":"https://www.kelch.de/en/products/tool-presetters/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kelch-shrinking","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SHRINK_FIT_EQUIPMENT_SCOPE","url":"https://www.kelch.de/en/products/shrinking-technology/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "keli",
       "officialName": "Keli Sensing Technology (Ningbo) Co., Ltd.",
       "displayName": "KELI Sensing",
-      "aliases": [
-        "KELI",
-        "KELI SENSING"
-      ],
+      "aliases": ["KELI", "KELI SENSING"],
       "formerNames": [],
       "officialWebsite": "https://www.kelisensing.com/",
-      "officialDomains": [
-        "kelisensing.com",
-        "kelichina.com"
-      ],
+      "officialDomains": ["kelisensing.com", "kelichina.com"],
       "country": "China",
       "headquarters": "Ningbo, China",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KELI Sensing develops load cells, force and pressure transducers, weighing indicators and industrial weighing systems.",
-      "fullDescription": [
-        "KELI Sensing's official site documents sensing and weighing components for force, load and process measurement.",
-        "Its product range includes analogue and digital load cells, force and pressure transducers, weighing indicators, junction boxes, flowmeters and integrated weighing systems."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Измерительная техника",
-        "Расходомеры"
-      ],
-      "productFamilies": [
-        "Load Cells",
-        "Force Transducers",
-        "Pressure Transducers",
-        "Weighing Indicators",
-        "Junction Boxes",
-        "Flowmeters",
-        "Weighing Systems"
-      ],
+      "fullDescription": ["KELI Sensing's official site documents sensing and weighing components for force, load and process measurement.", "Its product range includes analogue and digital load cells, force and pressure transducers, weighing indicators, junction boxes, flowmeters and integrated weighing systems."],
+      "productCategories": ["Промышленные датчики", "Измерительная техника", "Расходомеры"],
+      "productFamilies": ["Load Cells", "Force Transducers", "Pressure Transducers", "Weighing Indicators", "Junction Boxes", "Flowmeters", "Weighing Systems"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Весоизмерение",
-        "Складская логистика"
-      ],
+      "industries": ["Промышленное производство", "Весоизмерение", "Складская логистика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kelisensing.com/load-cell/force-sensor/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-keli-official-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LOAD_FORCE_PRESSURE_FLOW_AND_WEIGHING_SCOPE",
-          "url": "https://www.kelisensing.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kelisensing.com/load-cell/force-sensor/"],
+      "sources": [{"sourceId":"brand-keli-official-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LOAD_FORCE_PRESSURE_FLOW_AND_WEIGHING_SCOPE","url":"https://www.kelisensing.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kelk",
       "officialName": "George Kelk Corporation",
       "displayName": "KELK",
-      "aliases": [
-        "KELK",
-        "GEORGE KELK"
-      ],
+      "aliases": ["KELK", "GEORGE KELK"],
       "formerNames": [],
       "officialWebsite": "https://kelk.com/",
-      "officialDomains": [
-        "kelk.com"
-      ],
+      "officialDomains": ["kelk.com"],
       "country": "Canada",
       "headquarters": null,
       "foundedYear": 1953,
       "parentCompany": "VPG Sensors",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "KELK develops sensors and measurement systems for rolling mills and other heavy industrial processes.",
-      "fullDescription": [
-        "KELK's official site identifies a measurement-equipment manufacturer established in 1953 and focused on steel and aluminium rolling mills.",
-        "Its portfolio covers roll-force and tension load cells, strip and plate geometry gauges, velocity and length measurement, pressure and displacement transducers and hot-metal detection."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Измерительная техника",
-        "Инспекционные системы"
-      ],
-      "productFamilies": [
-        "Rollmax Load Cells",
-        "Tension Measurement Systems",
-        "ACCUPLAN Plate Gauges",
-        "ACCUSPEED Laser Velocimeters",
-        "Fluid Pressure Transducers",
-        "ACCUSCAN Hot Metal Detectors"
-      ],
-      "series": [
-        "ROLLMAX",
-        "ACCUPLAN",
-        "ACCUSPEED",
-        "ACCUSCAN"
-      ],
-      "industries": [
-        "Металлургия",
-        "Бумажная промышленность",
-        "Горнодобывающая промышленность"
-      ],
+      "fullDescription": ["KELK's official site identifies a measurement-equipment manufacturer established in 1953 and focused on steel and aluminium rolling mills.", "Its portfolio covers roll-force and tension load cells, strip and plate geometry gauges, velocity and length measurement, pressure and displacement transducers and hot-metal detection."],
+      "productCategories": ["Промышленные датчики", "Измерительная техника", "Инспекционные системы"],
+      "productFamilies": ["Rollmax Load Cells", "Tension Measurement Systems", "ACCUPLAN Plate Gauges", "ACCUSPEED Laser Velocimeters", "Fluid Pressure Transducers", "ACCUSCAN Hot Metal Detectors"],
+      "series": ["ROLLMAX", "ACCUPLAN", "ACCUSPEED", "ACCUSCAN"],
+      "industries": ["Металлургия", "Бумажная промышленность", "Горнодобывающая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://kelk.com/Products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kelk-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "ROLLING_MILL_SENSOR_AND_MEASUREMENT_SYSTEM_SCOPE",
-          "url": "https://kelk.com/Products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://kelk.com/Products"],
+      "sources": [{"sourceId":"brand-kelk-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"ROLLING_MILL_SENSOR_AND_MEASUREMENT_SYSTEM_SCOPE","url":"https://kelk.com/Products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kellenberger",
       "officialName": "Kellenberger Switzerland AG",
       "displayName": "Kellenberger",
-      "aliases": [
-        "KELLENBERGER"
-      ],
+      "aliases": ["KELLENBERGER"],
       "formerNames": [],
       "officialWebsite": "https://kellenberger.com/europe/",
-      "officialDomains": [
-        "kellenberger.com"
-      ],
+      "officialDomains": ["kellenberger.com"],
       "country": "Switzerland",
       "headquarters": "Goldach, Switzerland",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kellenberger develops precision grinding, turning and milling machines with supporting automation solutions.",
-      "fullDescription": [
-        "Kellenberger's official product directory documents machine tools for precision grinding and combined machining tasks.",
-        "Its range includes cylindrical and jig grinding machines, turning and milling platforms, machining centres and automation for workpiece handling."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Cylindrical Grinding Machines",
-        "Jig Grinding Machines",
-        "Turning Machines",
-        "Milling Machines",
-        "Machining Centres",
-        "Machine Automation"
-      ],
+      "fullDescription": ["Kellenberger's official product directory documents machine tools for precision grinding and combined machining tasks.", "Its range includes cylindrical and jig grinding machines, turning and milling platforms, machining centres and automation for workpiece handling."],
+      "productCategories": ["Металлообрабатывающие станки", "Промышленная автоматизация"],
+      "productFamilies": ["Cylindrical Grinding Machines", "Jig Grinding Machines", "Turning Machines", "Milling Machines", "Machining Centres", "Machine Automation"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Станкостроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Металлообработка", "Станкостроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://kellenberger.com/europe/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kellenberger-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GRINDING_TURNING_MILLING_AND_AUTOMATION_SCOPE",
-          "url": "https://kellenberger.com/europe/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://kellenberger.com/europe/products/"],
+      "sources": [{"sourceId":"brand-kellenberger-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GRINDING_TURNING_MILLING_AND_AUTOMATION_SCOPE","url":"https://kellenberger.com/europe/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kelva",
       "officialName": "KELVA",
       "displayName": "KELVA",
-      "aliases": [
-        "KELVA"
-      ],
+      "aliases": ["KELVA"],
       "formerNames": [],
       "officialWebsite": "https://www.kelva.com/",
-      "officialDomains": [
-        "kelva.com"
-      ],
+      "officialDomains": ["kelva.com"],
       "country": "Sweden",
       "headquarters": "Lund, Sweden",
       "foundedYear": null,
       "parentCompany": "CHROMOS Group AG",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "KELVA develops contact and non-contact web-cleaning systems for continuous and sheet-fed production processes.",
-      "fullDescription": [
-        "KELVA's official site documents industrial dust-removal equipment for moving webs and sheets in printing, converting, film, paper, glass and nonwoven processes.",
-        "The range includes contact and non-contact cleaner heads, antistatic equipment, filter and fan units, web-tension controls and fluid-management components."
-      ],
-      "productCategories": [
-        "Промышленные системы очистки",
-        "Промышленное вентиляционное оборудование",
-        "Регуляторы"
-      ],
-      "productFamilies": [
-        "Contact Web Cleaners",
-        "Non-Contact Web Cleaners",
-        "Filter and Fan Units",
-        "Antistatic Equipment",
-        "Web Tension Controls",
-        "Level-Control and Pump Systems"
-      ],
-      "series": [
-        "BR",
-        "TL",
-        "TLX",
-        "HS",
-        "CWC",
-        "WWC"
-      ],
-      "industries": [
-        "Полиграфия",
-        "Бумажная промышленность",
-        "Упаковочная промышленность",
-        "Производство плёнки"
-      ],
+      "fullDescription": ["KELVA's official site documents industrial dust-removal equipment for moving webs and sheets in printing, converting, film, paper, glass and nonwoven processes.", "The range includes contact and non-contact cleaner heads, antistatic equipment, filter and fan units, web-tension controls and fluid-management components."],
+      "productCategories": ["Промышленные системы очистки", "Промышленное вентиляционное оборудование", "Регуляторы"],
+      "productFamilies": ["Contact Web Cleaners", "Non-Contact Web Cleaners", "Filter and Fan Units", "Antistatic Equipment", "Web Tension Controls", "Level-Control and Pump Systems"],
+      "series": ["BR", "TL", "TLX", "HS", "CWC", "WWC"],
+      "industries": ["Полиграфия", "Бумажная промышленность", "Упаковочная промышленность", "Производство плёнки"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kelva.com/non-contact-cleaner/",
-        "https://www.kelva.com/components/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kelva-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "WEB_AND_SHEET_CLEANING_SCOPE",
-          "url": "https://www.kelva.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kelva-non-contact-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "NON_CONTACT_CLEANER_FILTER_FAN_AND_ANTISTATIC_SCOPE",
-          "url": "https://www.kelva.com/non-contact-cleaner/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kelva.com/non-contact-cleaner/", "https://www.kelva.com/components/"],
+      "sources": [{"sourceId":"brand-kelva-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"WEB_AND_SHEET_CLEANING_SCOPE","url":"https://www.kelva.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kelva-non-contact-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"NON_CONTACT_CLEANER_FILTER_FAN_AND_ANTISTATIC_SCOPE","url":"https://www.kelva.com/non-contact-cleaner/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kem",
       "officialName": "KEM Küppers Elektromechanik GmbH",
       "displayName": "KEM Küppers",
-      "aliases": [
-        "KEM KUPPERS",
-        "KEM KÜPPERS",
-        "KEM"
-      ],
+      "aliases": ["KEM KUPPERS", "KEM KÜPPERS", "KEM"],
       "formerNames": [],
       "officialWebsite": "https://www.kemflow.com/en/",
-      "officialDomains": [
-        "kemflow.com",
-        "kem-kueppers.com"
-      ],
+      "officialDomains": ["kemflow.com", "kem-kueppers.com"],
       "country": "Germany",
-      "headquarters": "Bad Kötzting, Germany",
+      "headquarters":"Bad Kötzting, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KEM Küppers develops flowmeters and signal-conditioning electronics for liquids, gases and demanding process media.",
-      "fullDescription": [
-        "KEM's official product site documents precision flow-measurement technologies for industrial processes.",
-        "The portfolio includes Coriolis, gear, turbine, helical-screw and microflow meters together with transducers, amplifiers and evaluation electronics."
-      ],
-      "productCategories": [
-        "Расходомеры",
-        "Измерительная техника"
-      ],
-      "productFamilies": [
-        "Coriolis Flowmeters",
-        "Gear Flowmeters",
-        "Turbine Flowmeters",
-        "Helical-Screw Flowmeters",
-        "Microflow Meters",
-        "Flow Measurement Electronics"
-      ],
+      "fullDescription": ["KEM's official product site documents precision flow-measurement technologies for industrial processes.", "The portfolio includes Coriolis, gear, turbine, helical-screw and microflow meters together with transducers, amplifiers and evaluation electronics."],
+      "productCategories": ["Расходомеры", "Измерительная техника"],
+      "productFamilies": ["Coriolis Flowmeters", "Gear Flowmeters", "Turbine Flowmeters", "Helical-Screw Flowmeters", "Microflow Meters", "Flow Measurement Electronics"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Промышленное производство",
-        "Технологические процессы"
-      ],
+      "industries": ["Химическая промышленность", "Промышленное производство", "Технологические процессы"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kemflow.com/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kemflow-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CORIOLIS_GEAR_TURBINE_HELICAL_AND_MICROFLOW_SCOPE",
-          "url": "https://www.kemflow.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kem-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.kemflow.com/en/kem-legal-notice",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://www.kemflow.com/en/products"],
+      "sources": [{"sourceId":"brand-kemflow-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CORIOLIS_GEAR_TURBINE_HELICAL_AND_MICROFLOW_SCOPE","url":"https://www.kemflow.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kem-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.kemflow.com/en/kem-legal-notice","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "kemet-101875",
       "officialName": "KEMET Electronics Corporation",
       "displayName": "KEMET",
-      "aliases": [
-        "KEMET"
-      ],
+      "aliases": ["KEMET"],
       "formerNames": [],
       "officialWebsite": "https://www.kemet.com/",
-      "officialDomains": [
-        "kemet.com"
-      ],
+      "officialDomains": ["kemet.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "YAGEO Corporation",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "KEMET is a YAGEO Group brand for capacitors, magnetic components, sensors and circuit-protection devices.",
-      "fullDescription": [
-        "KEMET's official site documents an electronic-component portfolio within YAGEO Group.",
-        "Its range includes ceramic, tantalum, film and electrolytic capacitors, inductors, transformers, electromagnetic-compatibility components, sensors, piezoelectric devices and relays."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Промышленные реле",
-        "Трансформаторы",
-        "Электротехническое оборудование"
-      ],
-      "productFamilies": [
-        "Ceramic Capacitors",
-        "Tantalum Capacitors",
-        "Film Capacitors",
-        "Electrolytic Capacitors",
-        "Inductors",
-        "Transformers",
-        "Sensors",
-        "Relays"
-      ],
+      "fullDescription": ["KEMET's official site documents an electronic-component portfolio within YAGEO Group.", "Its range includes ceramic, tantalum, film and electrolytic capacitors, inductors, transformers, electromagnetic-compatibility components, sensors, piezoelectric devices and relays."],
+      "productCategories": ["Промышленные датчики", "Промышленные реле", "Трансформаторы", "Электротехническое оборудование"],
+      "productFamilies": ["Ceramic Capacitors", "Tantalum Capacitors", "Film Capacitors", "Electrolytic Capacitors", "Inductors", "Transformers", "Sensors", "Relays"],
       "series": [],
-      "industries": [
-        "Электроника",
-        "Автомобильная промышленность",
-        "Промышленная автоматизация"
-      ],
+      "industries": ["Электроника", "Автомобильная промышленность", "Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kemet.com/en/us/products.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kemet-official-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CAPACITOR_MAGNETIC_SENSOR_AND_PROTECTION_COMPONENT_SCOPE",
-          "url": "https://www.kemet.com/en/us/products.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kemet.com/en/us/products.html"],
+      "sources": [{"sourceId":"brand-kemet-official-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CAPACITOR_MAGNETIC_SENSOR_AND_PROTECTION_COMPONENT_SCOPE","url":"https://www.kemet.com/en/us/products.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kemix",
       "officialName": "Kemix (Pty) Ltd",
       "displayName": "Kemix",
-      "aliases": [
-        "KEMIX"
-      ],
+      "aliases": ["KEMIX"],
       "formerNames": [],
       "officialWebsite": "https://www.kemix.com/",
-      "officialDomains": [
-        "kemix.com"
-      ],
+      "officialDomains": ["kemix.com"],
       "country": "South Africa",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kemix develops process equipment for mineral recovery, mixing and carbon-management duties in the mining industry.",
-      "fullDescription": [
-        "Kemix's official corporate brochure documents engineered equipment for mineral-processing and metallurgical plants.",
-        "Its portfolio includes agitation and mixing systems, pump-cell technologies, carbon-regeneration kilns and associated process equipment."
-      ],
-      "productCategories": [
-        "Оборудование для переработки",
-        "Промышленные насосы",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Agitation and Mixing Systems",
-        "Pump Cells",
-        "Carbon Regeneration Kilns",
-        "Mineral Processing Equipment"
-      ],
+      "fullDescription": ["Kemix's official corporate brochure documents engineered equipment for mineral-processing and metallurgical plants.", "Its portfolio includes agitation and mixing systems, pump-cell technologies, carbon-regeneration kilns and associated process equipment."],
+      "productCategories": ["Оборудование для переработки", "Промышленные насосы", "Промышленные машины"],
+      "productFamilies": ["Agitation and Mixing Systems", "Pump Cells", "Carbon Regeneration Kilns", "Mineral Processing Equipment"],
       "series": [],
-      "industries": [
-        "Горнодобывающая промышленность",
-        "Металлургия",
-        "Технологические процессы"
-      ],
-      "officialCatalogs": [
-        "https://www.kemix.com/brochures/Kemix_CorpBrochure.pdf"
-      ],
-      "documentationSources": [
-        "https://www.kemix.com/brochures/Kemix_CorpBrochure.pdf"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kemix-corporate-brochure",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "MINERAL_PROCESS_MIXING_PUMP_CELL_AND_KILN_SCOPE",
-          "url": "https://www.kemix.com/brochures/Kemix_CorpBrochure.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Горнодобывающая промышленность", "Металлургия", "Технологические процессы"],
+      "officialCatalogs": ["https://www.kemix.com/brochures/Kemix_CorpBrochure.pdf"],
+      "documentationSources": ["https://www.kemix.com/brochures/Kemix_CorpBrochure.pdf"],
+      "sources": [{"sourceId":"brand-kemix-corporate-brochure","tier":"A","type":"OFFICIAL_CATALOG","scope":"MINERAL_PROCESS_MIXING_PUMP_CELL_AND_KILN_SCOPE","url":"https://www.kemix.com/brochures/Kemix_CorpBrochure.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kemppi",
       "officialName": "Kemppi Oy",
       "displayName": "Kemppi",
-      "aliases": [
-        "KEMPPI"
-      ],
+      "aliases": ["KEMPPI"],
       "formerNames": [],
       "officialWebsite": "https://www.kemppi.com/en/",
-      "officialDomains": [
-        "kemppi.com"
-      ],
+      "officialDomains": ["kemppi.com"],
       "country": "Finland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kemppi develops welding machines, torches, automation equipment and digital welding-management tools.",
-      "fullDescription": [
-        "Kemppi's official product site documents equipment and software for manual, mechanized and automated arc welding.",
-        "The range includes MIG/MAG, TIG and MMA power sources, welding torches, wire feeders, extraction products, robotic solutions and welding-management software."
-      ],
-      "productCategories": [
-        "Сварочное оборудование",
-        "Промышленная автоматизация",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "MIG/MAG Welding Equipment",
-        "TIG Welding Equipment",
-        "MMA Welding Equipment",
-        "Welding Torches",
-        "Robotic Welding Solutions",
-        "Welding Management Software"
-      ],
+      "fullDescription": ["Kemppi's official product site documents equipment and software for manual, mechanized and automated arc welding.", "The range includes MIG/MAG, TIG and MMA power sources, welding torches, wire feeders, extraction products, robotic solutions and welding-management software."],
+      "productCategories": ["Сварочное оборудование", "Промышленная автоматизация", "Промышленное программное обеспечение"],
+      "productFamilies": ["MIG/MAG Welding Equipment", "TIG Welding Equipment", "MMA Welding Equipment", "Welding Torches", "Robotic Welding Solutions", "Welding Management Software"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Промышленное производство",
-        "Транспортное машиностроение"
-      ],
+      "industries": ["Металлообработка", "Промышленное производство", "Транспортное машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kemppi.com/en/categories/migmag-welding"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kemppi-welding-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MIG_MAG_TIG_MMA_TORCH_AUTOMATION_AND_SOFTWARE_SCOPE",
-          "url": "https://www.kemppi.com/en/categories/migmag-welding",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kemppi.com/en/categories/migmag-welding"],
+      "sources": [{"sourceId":"brand-kemppi-welding-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MIG_MAG_TIG_MMA_TORCH_AUTOMATION_AND_SOFTWARE_SCOPE","url":"https://www.kemppi.com/en/categories/migmag-welding","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kendrion-kuhnke",
       "officialName": "Kendrion Kuhnke Automation GmbH",
       "displayName": "Kendrion Kuhnke",
-      "aliases": [
-        "KENDRION KUHNKE",
-        "KUHNKE"
-      ],
+      "aliases": ["KENDRION KUHNKE", "KUHNKE"],
       "formerNames": [],
       "officialWebsite": "https://www.kendrion.com/en/",
-      "officialDomains": [
-        "kendrion.com"
-      ],
+      "officialDomains": ["kendrion.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Kendrion N.V.",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Kendrion Kuhnke develops automation controls, pneumatic systems, solenoids and actuators for industrial machinery.",
-      "fullDescription": [
-        "Kendrion's official product material identifies Kuhnke automation technologies within the group's industrial portfolio.",
-        "The documented scope covers machine controllers, input/output systems, operator interfaces, pneumatic components, solenoids and electromagnetic actuators."
-      ],
-      "productCategories": [
-        "Промышленная автоматизация",
-        "Пневматическое оборудование",
-        "Линейные приводы",
-        "Промышленные контроллеры"
-      ],
-      "productFamilies": [
-        "Machine Controllers",
-        "I/O Systems",
-        "Operator Interfaces",
-        "Pneumatic Components",
-        "Industrial Solenoids",
-        "Electromagnetic Actuators"
-      ],
+      "fullDescription": ["Kendrion's official product material identifies Kuhnke automation technologies within the group's industrial portfolio.", "The documented scope covers machine controllers, input/output systems, operator interfaces, pneumatic components, solenoids and electromagnetic actuators."],
+      "productCategories": ["Промышленная автоматизация", "Пневматическое оборудование", "Линейные приводы", "Промышленные контроллеры"],
+      "productFamilies": ["Machine Controllers", "I/O Systems", "Operator Interfaces", "Pneumatic Components", "Industrial Solenoids", "Electromagnetic Actuators"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленная автоматизация",
-        "Промышленное производство"
-      ],
+      "industries": ["Машиностроение", "Промышленная автоматизация", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kendrion.com/en/products-services-1/solenoids-actuators"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kendrion-kuhnke-parent-products",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "KUHNKE_AUTOMATION_PNEUMATICS_SOLENOID_AND_ACTUATOR_SCOPE",
-          "url": "https://www.kendrion.com/en/products-services-1/solenoids-actuators",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kendrion.com/en/products-services-1/solenoids-actuators"],
+      "sources": [{"sourceId":"brand-kendrion-kuhnke-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"KUHNKE_AUTOMATION_PNEUMATICS_SOLENOID_AND_ACTUATOR_SCOPE","url":"https://www.kendrion.com/en/products-services-1/solenoids-actuators","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "keofitt",
       "officialName": "Keofitt A/S",
       "displayName": "Keofitt",
-      "aliases": [
-        "KEOFITT"
-      ],
+      "aliases": ["KEOFITT"],
       "formerNames": [],
       "officialWebsite": "https://keofitt.dk/",
-      "officialDomains": [
-        "keofitt.dk"
-      ],
+      "officialDomains": ["keofitt.dk"],
       "country": "Denmark",
-      "headquarters": "Svendborg, Denmark",
+      "headquarters":"Svendborg, Denmark",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Keofitt develops hygienic sampling valves and sampling accessories for representative process-media collection.",
-      "fullDescription": [
-        "Keofitt's official product directory documents sampling valves for hygienic and aseptic liquid-process applications.",
-        "The portfolio includes Sesame, Classic and Basix valve families together with sampling equipment, accessories and cleaning or sterilization configurations."
-      ],
-      "productCategories": [
-        "Пробоотборные клапаны",
-        "Гигиеническая арматура"
-      ],
-      "productFamilies": [
-        "Hygienic Sampling Valves",
-        "Aseptic Sampling Valves",
-        "Sampling Accessories",
-        "Cleaning and Sterilization Equipment"
-      ],
-      "series": [
-        "Sesame",
-        "Classic",
-        "Basix"
-      ],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность",
-        "Биотехнологии"
-      ],
+      "fullDescription": ["Keofitt's official product directory documents sampling valves for hygienic and aseptic liquid-process applications.", "The portfolio includes Sesame, Classic and Basix valve families together with sampling equipment, accessories and cleaning or sterilization configurations."],
+      "productCategories": ["Пробоотборные клапаны", "Гигиеническая арматура"],
+      "productFamilies": ["Hygienic Sampling Valves", "Aseptic Sampling Valves", "Sampling Accessories", "Cleaning and Sterilization Equipment"],
+      "series": ["Sesame", "Classic", "Basix"],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Биотехнологии"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://keofitt.dk/products/valves"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-keofitt-valves",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HYGIENIC_ASEPTIC_SAMPLING_VALVE_SCOPE",
-          "url": "https://keofitt.dk/products/valves",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-keofitt-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://keofitt.dk/contact-us",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://keofitt.dk/products/valves"],
+      "sources": [{"sourceId":"brand-keofitt-valves","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYGIENIC_ASEPTIC_SAMPLING_VALVE_SCOPE","url":"https://keofitt.dk/products/valves","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-keofitt-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://keofitt.dk/contact-us","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "kessler--co",
       "officialName": "Kessler + Co. GmbH & Co. KG",
       "displayName": "Kessler + Co.",
-      "aliases": [
-        "KESSLER + CO",
-        "KESSLER & CO",
-        "KESSLER CO"
-      ],
+      "aliases": ["KESSLER + CO", "KESSLER & CO", "KESSLER CO"],
       "formerNames": [],
       "officialWebsite": "https://kessler-co.com/en/",
-      "officialDomains": [
-        "kessler-co.com"
-      ],
+      "officialDomains": ["kessler-co.com"],
       "country": "Germany",
-      "headquarters": "Abtsgmünd, Germany",
+      "headquarters":"Abtsgmünd, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kessler + Co. develops axles, wheel drives, gearboxes and electric drive systems for heavy mobile equipment.",
-      "fullDescription": [
-        "Kessler + Co.'s official site documents drivetrain systems for construction machinery, material-handling vehicles and other heavy-duty applications.",
-        "The product scope includes drive and steering axles, planetary gearboxes, wheel drives, electric drive units and associated control software."
-      ],
-      "productCategories": [
-        "Системы привода",
-        "Промышленные редукторы",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Drive Axles",
-        "Steering Axles",
-        "Planetary Gearboxes",
-        "Wheel Drives",
-        "Electric Drive Systems",
-        "Drive Control Software"
-      ],
+      "fullDescription": ["Kessler + Co.'s official site documents drivetrain systems for construction machinery, material-handling vehicles and other heavy-duty applications.", "The product scope includes drive and steering axles, planetary gearboxes, wheel drives, electric drive units and associated control software."],
+      "productCategories": ["Системы привода", "Промышленные редукторы", "Промышленное программное обеспечение"],
+      "productFamilies": ["Drive Axles", "Steering Axles", "Planetary Gearboxes", "Wheel Drives", "Electric Drive Systems", "Drive Control Software"],
       "series": [],
-      "industries": [
-        "Строительная техника",
-        "Складская техника",
-        "Мобильная техника"
-      ],
+      "industries": ["Строительная техника", "Складская техника", "Мобильная техника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://kessler-co.com/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kessler-co-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "AXLE_GEARBOX_WHEEL_AND_ELECTRIC_DRIVE_SCOPE",
-          "url": "https://kessler-co.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kessler--co-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://kessler-co.com/en/imprint",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://kessler-co.com/en/"],
+      "sources": [{"sourceId":"brand-kessler-co-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"AXLE_GEARBOX_WHEEL_AND_ELECTRIC_DRIVE_SCOPE","url":"https://kessler-co.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kessler--co-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://kessler-co.com/en/imprint","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "kettenwulf",
       "officialName": "KettenWulf Betriebs GmbH",
       "displayName": "KettenWulf",
-      "aliases": [
-        "KETTENWULF",
-        "KETTEN WULF"
-      ],
+      "aliases": ["KETTENWULF", "KETTEN WULF"],
       "formerNames": [],
       "officialWebsite": "https://www.kettenwulf.com/en/",
-      "officialDomains": [
-        "kettenwulf.com"
-      ],
+      "officialDomains": ["kettenwulf.com"],
       "country": "Germany",
       "headquarters": "Kückelheim, Germany",
       "foundedYear": 1925,
       "parentCompany": null,
       "shortDescription": "KettenWulf manufactures conveyor chains, drive chains, sprockets and engineered chain components for industrial plants.",
-      "fullDescription": [
-        "KettenWulf's official site documents industrial chain production dating to 1925.",
-        "Its portfolio includes conveyor and drive chains, sprockets, bucket-elevator chains, escalator chains and application-specific chain systems for bulk handling and production equipment."
-      ],
-      "productCategories": [
-        "Промышленные цепи",
-        "Конвейерные системы",
-        "Механические передачи"
-      ],
-      "productFamilies": [
-        "Conveyor Chains",
-        "Drive Chains",
-        "Sprockets",
-        "Bucket-Elevator Chains",
-        "Escalator Chains",
-        "Engineered Chain Systems"
-      ],
+      "fullDescription": ["KettenWulf's official site documents industrial chain production dating to 1925.", "Its portfolio includes conveyor and drive chains, sprockets, bucket-elevator chains, escalator chains and application-specific chain systems for bulk handling and production equipment."],
+      "productCategories": ["Промышленные цепи", "Конвейерные системы", "Механические передачи"],
+      "productFamilies": ["Conveyor Chains", "Drive Chains", "Sprockets", "Bucket-Elevator Chains", "Escalator Chains", "Engineered Chain Systems"],
       "series": [],
-      "industries": [
-        "Горнодобывающая промышленность",
-        "Цементная промышленность",
-        "Складская логистика",
-        "Промышленное производство"
-      ],
+      "industries": ["Горнодобывающая промышленность", "Цементная промышленность", "Складская логистика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kettenwulf.com/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kettenwulf-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CONVEYOR_DRIVE_SPROCKET_ELEVATOR_AND_ESCALATOR_CHAIN_SCOPE",
-          "url": "https://www.kettenwulf.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kettenwulf.com/en/products"],
+      "sources": [{"sourceId":"brand-kettenwulf-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CONVEYOR_DRIVE_SPROCKET_ELEVATOR_AND_ESCALATOR_CHAIN_SCOPE","url":"https://www.kettenwulf.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kevac",
       "officialName": "KEVAC S.r.l.",
       "displayName": "KEVAC",
-      "aliases": [
-        "KEVAC"
-      ],
+      "aliases": ["KEVAC"],
       "formerNames": [],
       "officialWebsite": "https://kevac-vacuuming-industry.com/",
-      "officialDomains": [
-        "kevac-vacuuming-industry.com"
-      ],
+      "officialDomains": ["kevac-vacuuming-industry.com"],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 2007,
       "parentCompany": null,
       "shortDescription": "KEVAC manufactures industrial vacuum cleaners, central vacuum systems and pneumatic-conveying solutions.",
-      "fullDescription": [
-        "KEVAC's official site identifies an industrial vacuum-equipment manufacturer established in 2007.",
-        "The range includes mobile industrial vacuums, wet and dry extraction units, certified filtration configurations, central cleaning systems and pneumatic conveying equipment."
-      ],
-      "productCategories": [
-        "Промышленные вакуумные системы",
-        "Промышленные системы очистки",
-        "Пневматическое оборудование"
-      ],
-      "productFamilies": [
-        "Industrial Vacuum Cleaners",
-        "Wet and Dry Extraction Systems",
-        "Central Vacuum Systems",
-        "Pneumatic Conveying Systems",
-        "Certified Filtration Systems"
-      ],
+      "fullDescription": ["KEVAC's official site identifies an industrial vacuum-equipment manufacturer established in 2007.", "The range includes mobile industrial vacuums, wet and dry extraction units, certified filtration configurations, central cleaning systems and pneumatic conveying equipment."],
+      "productCategories": ["Промышленные вакуумные системы", "Промышленные системы очистки", "Пневматическое оборудование"],
+      "productFamilies": ["Industrial Vacuum Cleaners", "Wet and Dry Extraction Systems", "Central Vacuum Systems", "Pneumatic Conveying Systems", "Certified Filtration Systems"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Промышленное производство",
-        "Пищевая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://kevac-vacuuming-industry.com/wp-content/uploads/General_Leaflet-EN-2_4.pdf"
-      ],
-      "documentationSources": [
-        "https://kevac-vacuuming-industry.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kevac-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "INDUSTRIAL_VACUUM_CLEANING_CONVEYING_AND_FILTRATION_SCOPE",
-          "url": "https://kevac-vacuuming-industry.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Металлообработка", "Промышленное производство", "Пищевая промышленность"],
+      "officialCatalogs": ["https://kevac-vacuuming-industry.com/wp-content/uploads/General_Leaflet-EN-2_4.pdf"],
+      "documentationSources": ["https://kevac-vacuuming-industry.com/"],
+      "sources": [{"sourceId":"brand-kevac-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"INDUSTRIAL_VACUUM_CLEANING_CONVEYING_AND_FILTRATION_SCOPE","url":"https://kevac-vacuuming-industry.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "keystone",
       "officialName": "Keystone",
       "displayName": "Keystone",
-      "aliases": [
-        "KEYSTONE",
-        "KEYSTONE VALVES"
-      ],
+      "aliases": ["KEYSTONE", "KEYSTONE VALVES"],
       "formerNames": [],
       "officialWebsite": "https://www.emerson.com/en/final-control/brands/keystone",
-      "officialDomains": [
-        "emerson.com"
-      ],
+      "officialDomains": ["emerson.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Emerson Electric Co.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Keystone is an Emerson valve brand for butterfly, check and slurry-control applications with manual and powered actuation.",
-      "fullDescription": [
-        "Emerson's official brand page documents Keystone as a current final-control valve portfolio.",
-        "The range includes resilient-seated and high-performance butterfly valves, check valves, slurry-service designs and pneumatic or electric actuator packages."
-      ],
-      "productCategories": [
-        "Промышленная арматура",
-        "Промышленные клапаны",
-        "Промышленные приводы"
-      ],
-      "productFamilies": [
-        "Resilient-Seated Butterfly Valves",
-        "High-Performance Butterfly Valves",
-        "Check Valves",
-        "Slurry Valves",
-        "Pneumatic Actuators",
-        "Electric Actuators"
-      ],
+      "fullDescription": ["Emerson's official brand page documents Keystone as a current final-control valve portfolio.", "The range includes resilient-seated and high-performance butterfly valves, check valves, slurry-service designs and pneumatic or electric actuator packages."],
+      "productCategories": ["Промышленная арматура", "Промышленные клапаны", "Промышленные приводы"],
+      "productFamilies": ["Resilient-Seated Butterfly Valves", "High-Performance Butterfly Valves", "Check Valves", "Slurry Valves", "Pneumatic Actuators", "Electric Actuators"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Водоснабжение и водоотведение",
-        "Энергетика",
-        "Промышленное производство"
-      ],
+      "industries": ["Химическая промышленность", "Водоснабжение и водоотведение", "Энергетика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.emerson.com/en/final-control/brands/keystone"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-keystone-parent-products",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_BUTTERFLY_CHECK_SLURRY_AND_ACTUATOR_SCOPE",
-          "url": "https://www.emerson.com/en/final-control/brands/keystone",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.emerson.com/en/final-control/brands/keystone"],
+      "sources": [{"sourceId":"brand-keystone-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_BUTTERFLY_CHECK_SLURRY_AND_ACTUATOR_SCOPE","url":"https://www.emerson.com/en/final-control/brands/keystone","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "khd-humboldt-wedag",
       "officialName": "KHD Humboldt Wedag International AG",
       "displayName": "KHD Humboldt Wedag",
-      "aliases": [
-        "KHD HUMBOLDT WEDAG",
-        "KHD"
-      ],
+      "aliases": ["KHD HUMBOLDT WEDAG", "KHD"],
       "formerNames": [],
       "officialWebsite": "https://www.khd.com/",
-      "officialDomains": [
-        "khd.com"
-      ],
+      "officialDomains": ["khd.com"],
       "country": "Germany",
       "headquarters": "Cologne, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KHD Humboldt Wedag develops process equipment, pyroprocessing systems and automation for cement production.",
-      "fullDescription": [
-        "KHD's official product directory documents technologies for grinding, pyroprocessing and plant automation in cement manufacturing.",
-        "The portfolio includes roller presses, separators, mills, preheaters, calciners, rotary kilns, coolers and process-control systems."
-      ],
-      "productCategories": [
-        "Оборудование для переработки",
-        "Промышленные машины",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Roller Presses",
-        "Separators",
-        "Grinding Mills",
-        "Preheaters",
-        "Calciners",
-        "Rotary Kilns",
-        "Clinker Coolers",
-        "Process Control Systems"
-      ],
+      "fullDescription": ["KHD's official product directory documents technologies for grinding, pyroprocessing and plant automation in cement manufacturing.", "The portfolio includes roller presses, separators, mills, preheaters, calciners, rotary kilns, coolers and process-control systems."],
+      "productCategories": ["Оборудование для переработки", "Промышленные машины", "Промышленная автоматизация"],
+      "productFamilies": ["Roller Presses", "Separators", "Grinding Mills", "Preheaters", "Calciners", "Rotary Kilns", "Clinker Coolers", "Process Control Systems"],
       "series": [],
-      "industries": [
-        "Цементная промышленность",
-        "Горнодобывающая промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Цементная промышленность", "Горнодобывающая промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.khd.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-khd-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GRINDING_PYROPROCESSING_COOLING_AND_AUTOMATION_SCOPE",
-          "url": "https://www.khd.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.khd.com/products/"],
+      "sources": [{"sourceId":"brand-khd-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GRINDING_PYROPROCESSING_COOLING_AND_AUTOMATION_SCOPE","url":"https://www.khd.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kiepe-elektrik",
       "officialName": "Kiepe Electric GmbH",
       "displayName": "Kiepe Electric",
-      "aliases": [
-        "KIEPE ELEKTRIK",
-        "KIEPE ELECTRIC"
-      ],
-      "formerNames": [
-        "Kiepe Elektrik GmbH"
-      ],
+      "aliases": ["KIEPE ELEKTRIK", "KIEPE ELECTRIC"],
+      "formerNames": ["Kiepe Elektrik GmbH"],
       "officialWebsite": "https://en.kiepe-electric.com/",
-      "officialDomains": [
-        "kiepe-electric.com"
-      ],
+      "officialDomains": ["kiepe-electric.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "statusModifier": "SUCCESSOR_BRAND",
       "shortDescription": "Kiepe Electric develops conveyor monitoring, safety, control and sensor equipment for bulk-material and machine systems.",
-      "fullDescription": [
-        "Kiepe Electric's official product directory documents safety and monitoring equipment for conveyor installations and industrial machines.",
-        "The portfolio includes emergency-stop switches, belt-monitoring devices, speed sensors, magnetic equipment, control stations, joysticks and collision-avoidance systems."
-      ],
-      "productCategories": [
-        "Конвейерные системы",
-        "Промышленная безопасность",
-        "Промышленные датчики",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Emergency-Stop Switches",
-        "Belt Monitoring Devices",
-        "Speed Sensors",
-        "Control Stations",
-        "Industrial Joysticks",
-        "Collision-Avoidance Systems"
-      ],
+      "fullDescription": ["Kiepe Electric's official product directory documents safety and monitoring equipment for conveyor installations and industrial machines.", "The portfolio includes emergency-stop switches, belt-monitoring devices, speed sensors, magnetic equipment, control stations, joysticks and collision-avoidance systems."],
+      "productCategories": ["Конвейерные системы", "Промышленная безопасность", "Промышленные датчики", "Промышленная автоматизация"],
+      "productFamilies": ["Emergency-Stop Switches", "Belt Monitoring Devices", "Speed Sensors", "Control Stations", "Industrial Joysticks", "Collision-Avoidance Systems"],
       "series": [],
-      "industries": [
-        "Горнодобывающая промышленность",
-        "Сыпучие материалы",
-        "Промышленное производство"
-      ],
+      "industries": ["Горнодобывающая промышленность", "Сыпучие материалы", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://en.kiepe-electric.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kiepe-electric-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CONVEYOR_SAFETY_MONITORING_CONTROL_AND_SENSOR_SCOPE",
-          "url": "https://en.kiepe-electric.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://en.kiepe-electric.com/products/"],
+      "sources": [{"sourceId":"brand-kiepe-electric-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CONVEYOR_SAFETY_MONITORING_CONTROL_AND_SENSOR_SCOPE","url":"https://en.kiepe-electric.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kieselmann",
       "officialName": "KIESELMANN GmbH",
       "displayName": "KIESELMANN",
-      "aliases": [
-        "KIESELMANN"
-      ],
+      "aliases": ["KIESELMANN"],
       "formerNames": [],
       "officialWebsite": "https://www.kieselmann.com/",
-      "officialDomains": [
-        "kieselmann.com"
-      ],
+      "officialDomains": ["kieselmann.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KIESELMANN manufactures hygienic valves, tank fittings and process components for liquid-processing plants.",
-      "fullDescription": [
-        "KIESELMANN's official product site documents stainless-steel process components for hygienic production environments.",
-        "The portfolio includes butterfly, ball, single-seat, double-seat, control and sampling valves together with tank fittings, strainers, sight glasses and pigging components."
-      ],
-      "productCategories": [
-        "Гигиеническая арматура",
-        "Промышленные клапаны",
-        "Промышленные фильтры"
-      ],
-      "productFamilies": [
-        "Butterfly Valves",
-        "Ball Valves",
-        "Single-Seat Valves",
-        "Double-Seat Valves",
-        "Control Valves",
-        "Sampling Valves",
-        "Tank Fittings",
-        "Strainers"
-      ],
+      "fullDescription": ["KIESELMANN's official product site documents stainless-steel process components for hygienic production environments.", "The portfolio includes butterfly, ball, single-seat, double-seat, control and sampling valves together with tank fittings, strainers, sight glasses and pigging components."],
+      "productCategories": ["Гигиеническая арматура", "Промышленные клапаны", "Промышленные фильтры"],
+      "productFamilies": ["Butterfly Valves", "Ball Valves", "Single-Seat Valves", "Double-Seat Valves", "Control Valves", "Sampling Valves", "Tank Fittings", "Strainers"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность",
-        "Технологические процессы"
-      ],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Технологические процессы"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kieselmann.com/products/valve-technology/aseptic-valves"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kieselmann-valves",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HYGIENIC_VALVE_TANK_FITTING_AND_PROCESS_COMPONENT_SCOPE",
-          "url": "https://www.kieselmann.com/products/valve-technology/aseptic-valves",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kieselmann.com/products/valve-technology/aseptic-valves"],
+      "sources": [{"sourceId":"brand-kieselmann-valves","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYGIENIC_VALVE_TANK_FITTING_AND_PROCESS_COMPONENT_SCOPE","url":"https://www.kieselmann.com/products/valve-technology/aseptic-valves","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kimo",
       "officialName": "Kimo Instruments",
       "displayName": "Kimo Instruments",
-      "aliases": [
-        "KIMO INSTRUMENTS",
-        "KIMO"
-      ],
+      "aliases": ["KIMO INSTRUMENTS", "KIMO"],
       "formerNames": [],
       "officialWebsite": "https://kimo-instruments.com/",
-      "officialDomains": [
-        "kimo-instruments.com"
-      ],
+      "officialDomains": ["kimo-instruments.com"],
       "country": "France",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Sauermann Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Kimo Instruments develops portable and fixed measurement equipment for air quality, HVAC and combustion analysis.",
-      "fullDescription": [
-        "Kimo Instruments' official product brochure documents instruments for measuring pressure, airflow, temperature, humidity and combustion parameters.",
-        "The product scope includes handheld meters, transmitters, data loggers, probes, anemometers and combustion analysers for HVAC and industrial air-management work."
-      ],
-      "productCategories": [
-        "Измерительная техника",
-        "Промышленные датчики",
-        "HVAC"
-      ],
-      "productFamilies": [
-        "Portable Measuring Instruments",
-        "Pressure Transmitters",
-        "Airflow Instruments",
-        "Temperature and Humidity Instruments",
-        "Data Loggers",
-        "Combustion Analysers"
-      ],
+      "fullDescription": ["Kimo Instruments' official product brochure documents instruments for measuring pressure, airflow, temperature, humidity and combustion parameters.", "The product scope includes handheld meters, transmitters, data loggers, probes, anemometers and combustion analysers for HVAC and industrial air-management work."],
+      "productCategories": ["Измерительная техника", "Промышленные датчики", "HVAC"],
+      "productFamilies": ["Portable Measuring Instruments", "Pressure Transmitters", "Airflow Instruments", "Temperature and Humidity Instruments", "Data Loggers", "Combustion Analysers"],
       "series": [],
-      "industries": [
-        "HVAC",
-        "Промышленная вентиляция",
-        "Энергетика"
-      ],
-      "officialCatalogs": [
-        "https://kimo-instruments.com/sites/default/files/files/DOC_EN_26318_INSTRUMENTS-BROCHURE_01-2026_web-low.pdf"
-      ],
-      "documentationSources": [
-        "https://kimo-instruments.com/sites/default/files/files/DOC_EN_26318_INSTRUMENTS-BROCHURE_01-2026_web-low.pdf"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kimo-official-brochure",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "AIR_PRESSURE_TEMPERATURE_HUMIDITY_FLOW_AND_COMBUSTION_SCOPE",
-          "url": "https://kimo-instruments.com/sites/default/files/files/DOC_EN_26318_INSTRUMENTS-BROCHURE_01-2026_web-low.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["HVAC", "Промышленная вентиляция", "Энергетика"],
+      "officialCatalogs": ["https://kimo-instruments.com/sites/default/files/files/DOC_EN_26318_INSTRUMENTS-BROCHURE_01-2026_web-low.pdf"],
+      "documentationSources": ["https://kimo-instruments.com/sites/default/files/files/DOC_EN_26318_INSTRUMENTS-BROCHURE_01-2026_web-low.pdf"],
+      "sources": [{"sourceId":"brand-kimo-official-brochure","tier":"A","type":"OFFICIAL_CATALOG","scope":"AIR_PRESSURE_TEMPERATURE_HUMIDITY_FLOW_AND_COMBUSTION_SCOPE","url":"https://kimo-instruments.com/sites/default/files/files/DOC_EN_26318_INSTRUMENTS-BROCHURE_01-2026_web-low.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kinetrol",
       "officialName": "Kinetrol Ltd",
       "displayName": "Kinetrol",
-      "aliases": [
-        "KINETROL"
-      ],
+      "aliases": ["KINETROL"],
       "formerNames": [],
       "officialWebsite": "https://www.kinetrol.com/",
-      "officialDomains": [
-        "kinetrol.com"
-      ],
+      "officialDomains": ["kinetrol.com"],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kinetrol manufactures pneumatic rotary-vane actuators and associated valve-control equipment.",
-      "fullDescription": [
-        "Kinetrol's official site documents compact pneumatic rotary actuators for quarter-turn and motion-control duties.",
-        "The range includes double-acting actuators, spring-return packs, positioners, limit-switch boxes, electro-pneumatic controls, dashpots and complementary electric actuators."
-      ],
-      "productCategories": [
-        "Пневматические приводы",
-        "Промышленные клапаны",
-        "Регуляторы"
-      ],
-      "productFamilies": [
-        "Pneumatic Rotary-Vane Actuators",
-        "Spring-Return Units",
-        "Valve Positioners",
-        "Limit-Switch Boxes",
-        "Dashpots",
-        "Electric Actuators"
-      ],
+      "fullDescription": ["Kinetrol's official site documents compact pneumatic rotary actuators for quarter-turn and motion-control duties.", "The range includes double-acting actuators, spring-return packs, positioners, limit-switch boxes, electro-pneumatic controls, dashpots and complementary electric actuators."],
+      "productCategories": ["Пневматические приводы", "Промышленные клапаны", "Регуляторы"],
+      "productFamilies": ["Pneumatic Rotary-Vane Actuators", "Spring-Return Units", "Valve Positioners", "Limit-Switch Boxes", "Dashpots", "Electric Actuators"],
       "series": [],
-      "industries": [
-        "Технологические процессы",
-        "Водоснабжение и водоотведение",
-        "Промышленное производство"
-      ],
+      "industries": ["Технологические процессы", "Водоснабжение и водоотведение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kinetrol.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kinetrol-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "PNEUMATIC_ROTARY_ACTUATOR_POSITIONER_SWITCH_AND_DASHPOT_SCOPE",
-          "url": "https://www.kinetrol.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kinetrol.com/"],
+      "sources": [{"sourceId":"brand-kinetrol-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"PNEUMATIC_ROTARY_ACTUATOR_POSITIONER_SWITCH_AND_DASHPOT_SCOPE","url":"https://www.kinetrol.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kirchner-tochter",
       "officialName": "Kirchner und Tochter GmbH",
       "displayName": "Kirchner und Tochter",
-      "aliases": [
-        "KIRCHNER TOCHTER",
-        "KIRCHNER UND TOCHTER",
-        "KIRCHNER & TOCHTER"
-      ],
+      "aliases": ["KIRCHNER TOCHTER", "KIRCHNER UND TOCHTER", "KIRCHNER & TOCHTER"],
       "formerNames": [],
       "officialWebsite": "https://www.kt-flow.de/",
-      "officialDomains": [
-        "kt-flow.de"
-      ],
+      "officialDomains": ["kt-flow.de"],
       "country": "Germany",
       "headquarters": "Duisburg, Germany",
       "foundedYear": 1951,
       "parentCompany": "BAMO Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Kirchner und Tochter develops flowmeters and flow-monitoring instruments for liquids and gases.",
-      "fullDescription": [
-        "Kirchner und Tochter's official site documents flow-measurement equipment produced in Germany since 1951.",
-        "The product portfolio includes variable-area, piston, flap, bypass and differential-pressure instruments for visual indication, monitoring and process measurement."
-      ],
-      "productCategories": [
-        "Расходомеры",
-        "Измерительная техника"
-      ],
-      "productFamilies": [
-        "Variable-Area Flowmeters",
-        "Piston Flowmeters",
-        "Flap Flowmeters",
-        "Differential-Pressure Flowmeters",
-        "Bypass Flowmeters"
-      ],
+      "fullDescription": ["Kirchner und Tochter's official site documents flow-measurement equipment produced in Germany since 1951.", "The product portfolio includes variable-area, piston, flap, bypass and differential-pressure instruments for visual indication, monitoring and process measurement."],
+      "productCategories": ["Расходомеры", "Измерительная техника"],
+      "productFamilies": ["Variable-Area Flowmeters", "Piston Flowmeters", "Flap Flowmeters", "Differential-Pressure Flowmeters", "Bypass Flowmeters"],
       "series": [],
-      "industries": [
-        "Технологические процессы",
-        "Химическая промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Технологические процессы", "Химическая промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kt-flow.de/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kirchner-tochter-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "VARIABLE_AREA_PISTON_FLAP_DIFFERENTIAL_AND_BYPASS_FLOW_SCOPE",
-          "url": "https://www.kt-flow.de/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kt-flow.de/"],
+      "sources": [{"sourceId":"brand-kirchner-tochter-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"VARIABLE_AREA_PISTON_FLAP_DIFFERENTIAL_AND_BYPASS_FLOW_SCOPE","url":"https://www.kt-flow.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kitagawa-northtech",
       "officialName": "Kitagawa-NorthTech Inc.",
       "displayName": "Kitagawa-NorthTech",
-      "aliases": [
-        "KITAGAWA",
-        "KITAGAWA NORTHTECH",
-        "KITAGAWA-NORTHTECH"
-      ],
+      "aliases": ["KITAGAWA", "KITAGAWA NORTHTECH", "KITAGAWA-NORTHTECH"],
       "formerNames": [],
       "officialWebsite": "https://kitagawa.com/en/",
-      "officialDomains": [
-        "kitagawa.com"
-      ],
+      "officialDomains": ["kitagawa.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Kitagawa Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Kitagawa-NorthTech provides machine-tool workholding, rotary tables, cylinders and robotic gripping systems in North America.",
-      "fullDescription": [
-        "Kitagawa's official documentation identifies Kitagawa-NorthTech as a North American group company for machine-tool and automation products.",
-        "The documented portfolio includes power chucks, hydraulic and pneumatic cylinders, NC rotary tables, vises, grippers and workholding accessories."
-      ],
-      "productCategories": [
-        "Зажимные системы для станков",
-        "Станочное оборудование",
-        "Промышленные роботы"
-      ],
-      "productFamilies": [
-        "Power Chucks",
-        "Hydraulic Cylinders",
-        "Pneumatic Cylinders",
-        "NC Rotary Tables",
-        "Machine Vises",
-        "Robot Grippers"
-      ],
+      "fullDescription": ["Kitagawa's official documentation identifies Kitagawa-NorthTech as a North American group company for machine-tool and automation products.", "The documented portfolio includes power chucks, hydraulic and pneumatic cylinders, NC rotary tables, vises, grippers and workholding accessories."],
+      "productCategories": ["Зажимные системы для станков", "Станочное оборудование", "Промышленные роботы"],
+      "productFamilies": ["Power Chucks", "Hydraulic Cylinders", "Pneumatic Cylinders", "NC Rotary Tables", "Machine Vises", "Robot Grippers"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Станкостроение",
-        "Промышленная автоматизация"
-      ],
-      "officialCatalogs": [
-        "https://www.kitagawa.com/en/mtools/inc/data/PDF/manu_N_NT_NL_NLT_en.pdf"
-      ],
-      "documentationSources": [
-        "https://kitagawa.com/en/support/catalog/index.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kitagawa-northtech-parent-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_CATALOG",
-          "scope": "REGIONAL_COMPANY_IDENTITY_AND_WORKHOLDING_SCOPE",
-          "url": "https://www.kitagawa.com/en/mtools/inc/data/PDF/manu_N_NT_NL_NLT_en.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-kitagawa-northtech-parent-directory",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CHUCK_CYLINDER_ROTARY_TABLE_VISE_AND_GRIPPER_SCOPE",
-          "url": "https://kitagawa.com/en/support/catalog/index.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Металлообработка", "Станкостроение", "Промышленная автоматизация"],
+      "officialCatalogs": ["https://www.kitagawa.com/en/mtools/inc/data/PDF/manu_N_NT_NL_NLT_en.pdf"],
+      "documentationSources": ["https://kitagawa.com/en/support/catalog/index.html"],
+      "sources": [{"sourceId":"brand-kitagawa-northtech-parent-catalog","tier":"A","type":"OFFICIAL_PARENT_CATALOG","scope":"REGIONAL_COMPANY_IDENTITY_AND_WORKHOLDING_SCOPE","url":"https://www.kitagawa.com/en/mtools/inc/data/PDF/manu_N_NT_NL_NLT_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-kitagawa-northtech-parent-directory","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CHUCK_CYLINDER_ROTARY_TABLE_VISE_AND_GRIPPER_SCOPE","url":"https://kitagawa.com/en/support/catalog/index.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "kitz",
       "officialName": "KITZ Corporation",
       "displayName": "KITZ",
-      "aliases": [
-        "KITZ"
-      ],
+      "aliases": ["KITZ"],
       "formerNames": [],
       "officialWebsite": "https://www.kitz.com/en/",
-      "officialDomains": [
-        "kitz.com"
-      ],
+      "officialDomains": ["kitz.com"],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KITZ manufactures industrial valves, strainers and automated flow-control assemblies for fluid systems.",
-      "fullDescription": [
-        "KITZ's official product material documents a broad valve portfolio for industrial and building-service applications.",
-        "The range includes gate, globe, check, ball and butterfly valves, strainers and automatic valve configurations in multiple materials and pressure classes."
-      ],
-      "productCategories": [
-        "Промышленная арматура",
-        "Промышленные клапаны",
-        "Промышленные фильтры"
-      ],
-      "productFamilies": [
-        "Gate Valves",
-        "Globe Valves",
-        "Check Valves",
-        "Ball Valves",
-        "Butterfly Valves",
-        "Strainers",
-        "Automatic Valves"
-      ],
+      "fullDescription": ["KITZ's official product material documents a broad valve portfolio for industrial and building-service applications.", "The range includes gate, globe, check, ball and butterfly valves, strainers and automatic valve configurations in multiple materials and pressure classes."],
+      "productCategories": ["Промышленная арматура", "Промышленные клапаны", "Промышленные фильтры"],
+      "productFamilies": ["Gate Valves", "Globe Valves", "Check Valves", "Ball Valves", "Butterfly Valves", "Strainers", "Automatic Valves"],
       "series": [],
-      "industries": [
-        "Технологические процессы",
-        "Водоснабжение и водоотведение",
-        "Промышленное производство"
-      ],
+      "industries": ["Технологические процессы", "Водоснабжение и водоотведение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.kitz.com/en/faq_dialect/ball-valves/?id=cat-ttl"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-kitz-valve-directory",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GATE_GLOBE_CHECK_BALL_BUTTERFLY_STRAINER_AND_AUTOMATIC_VALVE_SCOPE",
-          "url": "https://www.kitz.com/en/faq_dialect/ball-valves/?id=cat-ttl",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.kitz.com/en/faq_dialect/ball-valves/?id=cat-ttl"],
+      "sources": [{"sourceId":"brand-kitz-valve-directory","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GATE_GLOBE_CHECK_BALL_BUTTERFLY_STRAINER_AND_AUTOMATIC_VALVE_SCOPE","url":"https://www.kitz.com/en/faq_dialect/ball-valves/?id=cat-ttl","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "klaschka-industrieelektronik",
       "officialName": "Klaschka Sensor & Motion Technologies GmbH",
       "displayName": "Klaschka",
-      "aliases": [
-        "KLASCHKA INDUSTRIEELEKTRONIK",
-        "KLASCHKA"
-      ],
-      "formerNames": [
-        "Klaschka Industrieelektronik GmbH"
-      ],
+      "aliases": ["KLASCHKA INDUSTRIEELEKTRONIK", "KLASCHKA"],
+      "formerNames": ["Klaschka Industrieelektronik GmbH"],
       "officialWebsite": "https://www.klaschka.de/en/",
-      "officialDomains": [
-        "klaschka.de"
-      ],
+      "officialDomains": ["klaschka.de"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "statusModifier": "SUCCESSOR_BRAND",
       "shortDescription": "Klaschka develops industrial sensors, encoders, switching devices and control components for automation and machine monitoring.",
-      "fullDescription": [
-        "Klaschka's official site presents Klaschka Sensor & Motion Technologies as the current company identity succeeding Klaschka Industrieelektronik.",
-        "Its portfolio includes proximity and position sensors, pulse encoders, relays, safety switches, double-sheet and thickness sensors and automation controllers."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Энкодеры",
-        "Промышленные реле",
-        "Промышленная безопасность",
-        "Промышленные контроллеры"
-      ],
-      "productFamilies": [
-        "Proximity Sensors",
-        "Position Sensors",
-        "Pulse Encoders",
-        "Industrial Relays",
-        "Safety Switches",
-        "Double-Sheet Sensors",
-        "Automation Controllers"
-      ],
+      "fullDescription": ["Klaschka's official site presents Klaschka Sensor & Motion Technologies as the current company identity succeeding Klaschka Industrieelektronik.", "Its portfolio includes proximity and position sensors, pulse encoders, relays, safety switches, double-sheet and thickness sensors and automation controllers."],
+      "productCategories": ["Промышленные датчики", "Энкодеры", "Промышленные реле", "Промышленная безопасность", "Промышленные контроллеры"],
+      "productFamilies": ["Proximity Sensors", "Position Sensors", "Pulse Encoders", "Industrial Relays", "Safety Switches", "Double-Sheet Sensors", "Automation Controllers"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Промышленная автоматизация", "Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.klaschka.de/en/?PGcode=01&cHash=ed4d3c48ff4975db0056b110bf9368e0"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-klaschka-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "SUCCESSOR_IDENTITY_SENSOR_ENCODER_RELAY_SAFETY_AND_CONTROL_SCOPE",
-          "url": "https://www.klaschka.de/en/?PGcode=01&cHash=ed4d3c48ff4975db0056b110bf9368e0",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.klaschka.de/en/?PGcode=01&cHash=ed4d3c48ff4975db0056b110bf9368e0"],
+      "sources": [{"sourceId":"brand-klaschka-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"SUCCESSOR_IDENTITY_SENSOR_ENCODER_RELAY_SAFETY_AND_CONTROL_SCOPE","url":"https://www.klaschka.de/en/?PGcode=01&cHash=ed4d3c48ff4975db0056b110bf9368e0","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "klemsan",
       "officialName": "Klemsan Elektrik Elektronik San. ve Tic. A.Ş.",
       "displayName": "Klemsan",
-      "aliases": [
-        "KLEMSAN"
-      ],
+      "aliases": ["KLEMSAN"],
       "formerNames": [],
       "officialWebsite": "https://klemsan.com.tr/en/",
-      "officialDomains": [
-        "klemsan.com.tr"
-      ],
+      "officialDomains": ["klemsan.com.tr"],
       "country": "Türkiye",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Klemsan develops terminal blocks, industrial relays, measurement devices and connectivity products for electrical automation.",
-      "fullDescription": [
-        "Klemsan's official site documents products for industrial electrical connection, protection, control and communication.",
-        "Its portfolio includes terminal blocks, relays, Ethernet switches, energy-measurement devices, signal converters, cable-management components and automation accessories."
-      ],
-      "productCategories": [
-        "Промышленные реле",
-        "Промышленная автоматизация",
-        "Промышленные кабели и разъёмы",
-        "Измерительная техника"
-      ],
-      "productFamilies": [
-        "Terminal Blocks",
-        "Industrial Relays",
-        "Ethernet Switches",
-        "Energy Measurement Devices",
-        "Signal Converters",
-        "Cable Management Components"
-      ],
+      "fullDescription": ["Klemsan's official site documents products for industrial electrical connection, protection, control and communication.", "Its portfolio includes terminal blocks, relays, Ethernet switches, energy-measurement devices, signal converters, cable-management components and automation accessories."],
+      "productCategories": ["Промышленные реле", "Промышленная автоматизация", "Промышленные кабели и разъёмы", "Измерительная техника"],
+      "productFamilies": ["Terminal Blocks", "Industrial Relays", "Ethernet Switches", "Energy Measurement Devices", "Signal Converters", "Cable Management Components"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Электроэнергетика",
-        "Машиностроение"
-      ],
+      "industries": ["Промышленная автоматизация", "Электроэнергетика", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://klemsan.com.tr/en/industries/automation/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-klemsan-automation-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "TERMINAL_RELAY_SWITCH_MEASUREMENT_CONVERTER_AND_CABLE_SCOPE",
-          "url": "https://klemsan.com.tr/en/industries/automation/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://klemsan.com.tr/en/industries/automation/"],
+      "sources": [{"sourceId":"brand-klemsan-automation-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TERMINAL_RELAY_SWITCH_MEASUREMENT_CONVERTER_AND_CABLE_SCOPE","url":"https://klemsan.com.tr/en/industries/automation/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "klinger",
       "officialName": "KLINGER Holding GmbH",
       "displayName": "KLINGER",
-      "aliases": [
-        "KLINGER",
-        "KLINGER GROUP"
-      ],
+      "aliases": ["KLINGER", "KLINGER GROUP"],
       "formerNames": [],
       "officialWebsite": "https://www.klinger-international.com/en/",
-      "officialDomains": [
-        "klinger-international.com"
-      ],
+      "officialDomains": ["klinger-international.com"],
       "country": "Austria",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KLINGER develops industrial sealing, fluid-control and level-monitoring products for process plants.",
-      "fullDescription": [
-        "KLINGER's official product directory documents engineered sealing and fluid-control technologies.",
-        "The portfolio includes compressed-fibre and graphite sealing sheets, gaskets, industrial valves, level gauges, expansion joints and metal hoses for demanding process applications."
-      ],
-      "productCategories": [
-        "Уплотнения и прокладки",
-        "Промышленная арматура",
-        "Измерительная техника",
-        "Компенсаторы"
-      ],
-      "productFamilies": [
-        "Sealing Sheets",
-        "Industrial Gaskets",
-        "Industrial Valves",
-        "Level Gauges",
-        "Expansion Joints",
-        "Metal Hoses"
-      ],
+      "fullDescription": ["KLINGER's official product directory documents engineered sealing and fluid-control technologies.", "The portfolio includes compressed-fibre and graphite sealing sheets, gaskets, industrial valves, level gauges, expansion joints and metal hoses for demanding process applications."],
+      "productCategories": ["Уплотнения и прокладки", "Промышленная арматура", "Измерительная техника", "Компенсаторы"],
+      "productFamilies": ["Sealing Sheets", "Industrial Gaskets", "Industrial Valves", "Level Gauges", "Expansion Joints", "Metal Hoses"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Энергетика",
-        "Нефтегазовая промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Химическая промышленность", "Энергетика", "Нефтегазовая промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.klinger-international.com/en/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-klinger-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SEALING_GASKET_VALVE_LEVEL_AND_EXPANSION_JOINT_SCOPE",
-          "url": "https://www.klinger-international.com/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.klinger-international.com/en/products/"],
+      "sources": [{"sourceId":"brand-klinger-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SEALING_GASKET_VALVE_LEVEL_AND_EXPANSION_JOINT_SCOPE","url":"https://www.klinger-international.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "klixon",
       "officialName": "Klixon",
       "displayName": "Klixon",
-      "aliases": [
-        "KLIXON"
-      ],
+      "aliases": ["KLIXON"],
       "formerNames": [],
       "officialWebsite": "https://www.sensata.com/products/motor-protectors",
-      "officialDomains": [
-        "sensata.com"
-      ],
+      "officialDomains": ["sensata.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Sensata Technologies, Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Klixon is a Sensata Technologies brand for thermal protection and circuit-control devices used with motors and electrical equipment.",
-      "fullDescription": [
-        "Sensata's official product material identifies Klixon within its motor-protection and power-protection portfolio.",
-        "The documented scope includes thermal motor protectors, overload devices and circuit breakers designed to interrupt electrical loads under abnormal temperature or current conditions."
-      ],
-      "productCategories": [
-        "Промышленная безопасность",
-        "Электротехническое оборудование"
-      ],
-      "productFamilies": [
-        "Thermal Motor Protectors",
-        "Overload Protectors",
-        "Thermal Circuit Breakers",
-        "Power Protection Devices"
-      ],
+      "fullDescription": ["Sensata's official product material identifies Klixon within its motor-protection and power-protection portfolio.", "The documented scope includes thermal motor protectors, overload devices and circuit breakers designed to interrupt electrical loads under abnormal temperature or current conditions."],
+      "productCategories": ["Промышленная безопасность", "Электротехническое оборудование"],
+      "productFamilies": ["Thermal Motor Protectors", "Overload Protectors", "Thermal Circuit Breakers", "Power Protection Devices"],
       "series": [],
-      "industries": [
-        "Электротехника",
-        "Промышленное производство",
-        "Транспортное машиностроение"
-      ],
-      "officialCatalogs": [
-        "https://www.sensata.com/sites/default/files/a/sensata-airpax-power-protection-full-catalog.pdf"
-      ],
-      "documentationSources": [
-        "https://www.sensata.com/products/motor-protectors"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-klixon-parent-products",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_THERMAL_MOTOR_AND_CIRCUIT_PROTECTION_SCOPE",
-          "url": "https://www.sensata.com/products/motor-protectors",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Электротехника", "Промышленное производство", "Транспортное машиностроение"],
+      "officialCatalogs": ["https://www.sensata.com/sites/default/files/a/sensata-airpax-power-protection-full-catalog.pdf"],
+      "documentationSources": ["https://www.sensata.com/products/motor-protectors"],
+      "sources": [{"sourceId":"brand-klixon-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_THERMAL_MOTOR_AND_CIRCUIT_PROTECTION_SCOPE","url":"https://www.sensata.com/products/motor-protectors","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "knecht",
       "officialName": "KNECHT",
       "displayName": "KNECHT",
-      "aliases": [
-        "KNECHT",
-        "KNECHT FILTER"
-      ],
+      "aliases": ["KNECHT", "KNECHT FILTER"],
       "formerNames": [],
       "officialWebsite": "https://www.mahle-aftermarket.com/eu/en/media-center/filter/",
-      "officialDomains": [
-        "mahle-aftermarket.com"
-      ],
+      "officialDomains": ["mahle-aftermarket.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "MAHLE GmbH",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "KNECHT is a legacy MAHLE filtration brand associated with engine air, oil, fuel and cabin filter products.",
-      "fullDescription": [
-        "MAHLE's official migration material documents the transition of KNECHT-branded filter products to the MAHLE brand.",
-        "The retained historical product scope covers air, oil, fuel and cabin filters used in engine, vehicle and maintenance applications."
-      ],
-      "productCategories": [
-        "Промышленные фильтры",
-        "Фильтрационное оборудование"
-      ],
-      "productFamilies": [
-        "Air Filters",
-        "Oil Filters",
-        "Fuel Filters",
-        "Cabin Filters"
-      ],
+      "fullDescription": ["MAHLE's official migration material documents the transition of KNECHT-branded filter products to the MAHLE brand.", "The retained historical product scope covers air, oil, fuel and cabin filters used in engine, vehicle and maintenance applications."],
+      "productCategories": ["Промышленные фильтры", "Фильтрационное оборудование"],
+      "productFamilies": ["Air Filters", "Oil Filters", "Fuel Filters", "Cabin Filters"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Транспортное машиностроение"
-      ],
-      "officialCatalogs": [
-        "https://www.mahle-aftermarket.com/media/homepage/facelift/products/knecht-becomes-mahle-flyer/en_flyer_mahle_knecht.pdf"
-      ],
-      "documentationSources": [
-        "https://www.mahle-aftermarket.com/eu/en/media-center/filter/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-knecht-parent-migration",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_DOCUMENT",
-          "scope": "LEGACY_BRAND_TRANSITION_AND_FILTER_PRODUCT_SCOPE",
-          "url": "https://www.mahle-aftermarket.com/media/homepage/facelift/products/knecht-becomes-mahle-flyer/en_flyer_mahle_knecht.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Автомобильная промышленность", "Транспортное машиностроение"],
+      "officialCatalogs": ["https://www.mahle-aftermarket.com/media/homepage/facelift/products/knecht-becomes-mahle-flyer/en_flyer_mahle_knecht.pdf"],
+      "documentationSources": ["https://www.mahle-aftermarket.com/eu/en/media-center/filter/"],
+      "sources": [{"sourceId":"brand-knecht-parent-migration","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"LEGACY_BRAND_TRANSITION_AND_FILTER_PRODUCT_SCOPE","url":"https://www.mahle-aftermarket.com/media/homepage/facelift/products/knecht-becomes-mahle-flyer/en_flyer_mahle_knecht.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "knf",
       "officialName": "KNF Holding AG",
       "displayName": "KNF",
-      "aliases": [
-        "KNF",
-        "KNF GROUP"
-      ],
+      "aliases": ["KNF", "KNF GROUP"],
       "formerNames": [],
       "officialWebsite": "https://knf.com/en/global/",
-      "officialDomains": [
-        "knf.com"
-      ],
+      "officialDomains": ["knf.com"],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "KNF develops diaphragm pumps and pump systems for gases and liquids in industrial, laboratory and medical equipment.",
-      "fullDescription": [
-        "KNF's official product directory documents oil-free and media-isolated pump technologies for gas and liquid handling.",
-        "The portfolio includes diaphragm gas pumps, diaphragm liquid pumps, swing-piston pumps, vacuum pumps and configurable laboratory pump systems."
-      ],
-      "productCategories": [
-        "Мембранные насосы",
-        "Вакуумные насосы",
-        "Лабораторное оборудование"
-      ],
-      "productFamilies": [
-        "Diaphragm Gas Pumps",
-        "Diaphragm Liquid Pumps",
-        "Swing-Piston Pumps",
-        "Vacuum Pumps",
-        "Laboratory Pump Systems"
-      ],
+      "fullDescription": ["KNF's official product directory documents oil-free and media-isolated pump technologies for gas and liquid handling.", "The portfolio includes diaphragm gas pumps, diaphragm liquid pumps, swing-piston pumps, vacuum pumps and configurable laboratory pump systems."],
+      "productCategories": ["Мембранные насосы", "Вакуумные насосы", "Лабораторное оборудование"],
+      "productFamilies": ["Diaphragm Gas Pumps", "Diaphragm Liquid Pumps", "Swing-Piston Pumps", "Vacuum Pumps", "Laboratory Pump Systems"],
       "series": [],
-      "industries": [
-        "Лаборатории",
-        "Медицинская промышленность",
-        "Промышленное производство",
-        "Технологические процессы"
-      ],
+      "industries": ["Лаборатории", "Медицинская промышленность", "Промышленное производство", "Технологические процессы"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://knf.com/en/global/solutions/pumps"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-knf-pumps",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "DIAPHRAGM_GAS_LIQUID_SWING_PISTON_VACUUM_AND_LAB_SCOPE",
-          "url": "https://knf.com/en/global/solutions/pumps",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://knf.com/en/global/solutions/pumps"],
+      "sources": [{"sourceId":"brand-knf-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DIAPHRAGM_GAS_LIQUID_SWING_PISTON_VACUUM_AND_LAB_SCOPE","url":"https://knf.com/en/global/solutions/pumps","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "knick",
       "officialName": "Knick Elektronische Messgeräte GmbH & Co. KG",
       "displayName": "Knick",
-      "aliases": [
-        "KNICK"
-      ],
+      "aliases": ["KNICK"],
       "formerNames": [],
       "officialWebsite": "https://www.knick-international.com/en/",
-      "officialDomains": [
-        "knick-international.com"
-      ],
+      "officialDomains": ["knick-international.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Knick develops industrial signal-conditioning, electrical-measurement and process-analytics instruments.",
-      "fullDescription": [
-        "Knick's official site documents measurement and interface technology for industrial automation and process analysis.",
-        "Its portfolio includes isolation amplifiers, transmitters, indicators, portable meters and analytical systems for pH, ORP, conductivity and dissolved oxygen."
-      ],
-      "productCategories": [
-        "Измерительная техника",
-        "Промышленные датчики",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Isolation Amplifiers",
-        "Industrial Transmitters",
-        "Digital Indicators",
-        "Portable Measuring Instruments",
-        "pH and ORP Systems",
-        "Conductivity Systems",
-        "Oxygen Measurement Systems"
-      ],
+      "fullDescription": ["Knick's official site documents measurement and interface technology for industrial automation and process analysis.", "Its portfolio includes isolation amplifiers, transmitters, indicators, portable meters and analytical systems for pH, ORP, conductivity and dissolved oxygen."],
+      "productCategories": ["Измерительная техника", "Промышленные датчики", "Промышленная автоматизация"],
+      "productFamilies": ["Isolation Amplifiers", "Industrial Transmitters", "Digital Indicators", "Portable Measuring Instruments", "pH and ORP Systems", "Conductivity Systems", "Oxygen Measurement Systems"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Энергетика",
-        "Водоснабжение и водоотведение",
-        "Промышленная автоматизация"
-      ],
+      "industries": ["Химическая промышленность", "Энергетика", "Водоснабжение и водоотведение", "Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.knick-international.com/en/process-analytics/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-knick-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "SIGNAL_MEASUREMENT_INTERFACE_AND_PROCESS_ANALYTICS_SCOPE",
-          "url": "https://www.knick-international.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-knick-process-analytics",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "PH_ORP_CONDUCTIVITY_AND_OXYGEN_SCOPE",
-          "url": "https://www.knick-international.com/en/process-analytics/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.knick-international.com/en/process-analytics/"],
+      "sources": [{"sourceId":"brand-knick-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"SIGNAL_MEASUREMENT_INTERFACE_AND_PROCESS_ANALYTICS_SCOPE","url":"https://www.knick-international.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-knick-process-analytics","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PH_ORP_CONDUCTIVITY_AND_OXYGEN_SCOPE","url":"https://www.knick-international.com/en/process-analytics/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "knodler",
       "officialName": "Knödler-Getriebe GmbH & Co. KG",
       "displayName": "Knödler",
-      "aliases": [
-        "KNODLER",
-        "KNÖDLER",
-        "KNÖDLER-GETRIEBE"
-      ],
+      "aliases": ["KNODLER", "KNÖDLER", "KNÖDLER-GETRIEBE"],
       "formerNames": [],
       "officialWebsite": "https://www.knoedler-getriebe.de/en/",
-      "officialDomains": [
-        "knoedler-getriebe.de"
-      ],
+      "officialDomains": ["knoedler-getriebe.de"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Knödler manufactures industrial gearboxes and application-specific drive systems for machinery and processing equipment.",
-      "fullDescription": [
-        "Knödler's official product directory documents gearbox technologies for industrial power transmission.",
-        "The portfolio includes shaft-mounted and helical-bevel gearboxes, extruder gearboxes, plasticizing drives for injection-moulding machines and special multi-output gear units."
-      ],
-      "productCategories": [
-        "Промышленные редукторы",
-        "Механические передачи",
-        "Системы привода"
-      ],
-      "productFamilies": [
-        "Shaft-Mounted Gearboxes",
-        "Helical-Bevel Gearboxes",
-        "Extruder Gearboxes",
-        "Plasticizing Gearboxes",
-        "Special Gearboxes",
-        "Multi-Output Gear Units"
-      ],
+      "fullDescription": ["Knödler's official product directory documents gearbox technologies for industrial power transmission.", "The portfolio includes shaft-mounted and helical-bevel gearboxes, extruder gearboxes, plasticizing drives for injection-moulding machines and special multi-output gear units."],
+      "productCategories": ["Промышленные редукторы", "Механические передачи", "Системы привода"],
+      "productFamilies": ["Shaft-Mounted Gearboxes", "Helical-Bevel Gearboxes", "Extruder Gearboxes", "Plasticizing Gearboxes", "Special Gearboxes", "Multi-Output Gear Units"],
       "series": [],
-      "industries": [
-        "Производство пластмасс",
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "industries": ["Производство пластмасс", "Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.knoedler-getriebe.de/en/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-knodler-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SHAFT_HELICAL_EXTRUDER_PLASTICIZING_AND_SPECIAL_GEAR_SCOPE",
-          "url": "https://www.knoedler-getriebe.de/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.knoedler-getriebe.de/en/products/"],
+      "sources": [{"sourceId":"brand-knodler-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SHAFT_HELICAL_EXTRUDER_PLASTICIZING_AND_SPECIAL_GEAR_SCOPE","url":"https://www.knoedler-getriebe.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "knorr-bremse",
       "officialName": "Knorr-Bremse AG",
       "displayName": "Knorr-Bremse",
-      "aliases": [
-        "KNORR BREMSE",
-        "KNORR-BREMSE"
-      ],
+      "aliases": ["KNORR BREMSE", "KNORR-BREMSE"],
       "formerNames": [],
       "officialWebsite": "https://www.knorr-bremse.com/en/",
-      "officialDomains": [
-        "knorr-bremse.com"
-      ],
+      "officialDomains": ["knorr-bremse.com"],
       "country": "Germany",
       "headquarters": "Munich, Germany",
       "foundedYear": 1905,
       "parentCompany": null,
       "shortDescription": "Knorr-Bremse develops braking, control and auxiliary systems for rail vehicles and commercial vehicles.",
-      "fullDescription": [
-        "Knorr-Bremse's official business-divisions page documents two principal product areas: rail vehicle systems and commercial vehicle systems.",
-        "The portfolio includes pneumatic and electronic braking systems, doors, HVAC and coupling systems for rail vehicles, plus steering, compressors, air treatment and transmission-control equipment for trucks, buses and trailers."
-      ],
-      "productCategories": [
-        "Промышленные тормозные системы",
-        "HVAC",
-        "Пневматическое оборудование",
-        "Компрессоры",
-        "Промышленные контроллеры"
-      ],
-      "productFamilies": [
-        "Rail Braking Systems",
-        "Commercial Vehicle Braking Systems",
-        "Entrance Systems",
-        "Rail HVAC Systems",
-        "Coupling Systems",
-        "Air Compressors",
-        "Air Treatment Systems",
-        "Transmission Controls"
-      ],
+      "fullDescription": ["Knorr-Bremse's official business-divisions page documents two principal product areas: rail vehicle systems and commercial vehicle systems.", "The portfolio includes pneumatic and electronic braking systems, doors, HVAC and coupling systems for rail vehicles, plus steering, compressors, air treatment and transmission-control equipment for trucks, buses and trailers."],
+      "productCategories": ["Промышленные тормозные системы", "HVAC", "Пневматическое оборудование", "Компрессоры", "Промышленные контроллеры"],
+      "productFamilies": ["Rail Braking Systems", "Commercial Vehicle Braking Systems", "Entrance Systems", "Rail HVAC Systems", "Coupling Systems", "Air Compressors", "Air Treatment Systems", "Transmission Controls"],
       "series": [],
-      "industries": [
-        "Железнодорожная промышленность",
-        "Коммерческий транспорт",
-        "Транспортное машиностроение"
-      ],
+      "industries": ["Железнодорожная промышленность", "Коммерческий транспорт", "Транспортное машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.knorr-bremse.com/en/company/business-divisions/",
-        "https://rail.knorr-bremse.com/en/us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-knorr-bremse-divisions",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "RAIL_AND_COMMERCIAL_VEHICLE_SYSTEM_SCOPE",
-          "url": "https://www.knorr-bremse.com/en/company/business-divisions/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-knorr-bremse-rail-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "RAIL_BRAKING_ENTRANCE_HVAC_COUPLING_POWER_AND_CONTROL_SCOPE",
-          "url": "https://rail.knorr-bremse.com/en/us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.knorr-bremse.com/en/company/business-divisions/", "https://rail.knorr-bremse.com/en/us/"],
+      "sources": [{"sourceId":"brand-knorr-bremse-divisions","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"RAIL_AND_COMMERCIAL_VEHICLE_SYSTEM_SCOPE","url":"https://www.knorr-bremse.com/en/company/business-divisions/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-knorr-bremse-rail-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RAIL_BRAKING_ENTRANCE_HVAC_COUPLING_POWER_AND_CONTROL_SCOPE","url":"https://rail.knorr-bremse.com/en/us/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "koboktb",
       "officialName": "KÖBO GmbH & Co. KG",
       "displayName": "KÖBO",
-      "aliases": [
-        "KOBO KTB",
-        "KÖBO+KTB",
-        "KÖBO",
-        "KOBO"
-      ],
-      "formerNames": [
-        "KÖBO-KTB GmbH + Co. KG",
-        "KÖBO-DONGHUA GmbH & Co. KG"
-      ],
+      "aliases": ["KOBO KTB", "KÖBO+KTB", "KÖBO", "KOBO"],
+      "formerNames": ["KÖBO-KTB GmbH + Co. KG", "KÖBO-DONGHUA GmbH & Co. KG"],
       "officialWebsite": "https://www.koebo.com/",
-      "officialDomains": [
-        "koebo.com",
-        "koebo.pl",
-        "kobo.co.uk"
-      ],
+      "officialDomains": ["koebo.com", "koebo.pl", "kobo.co.uk"],
       "country": "Germany",
       "headquarters": "Wuppertal, Germany",
       "foundedYear": 1894,
       "parentCompany": "Hangzhou Donghua Chain Group Co., Ltd.",
       "statusModifier": "SUCCESSOR_BRAND",
       "shortDescription": "KÖBO manufactures industrial conveyor, drive and leaf chains together with sprockets and engineered chain systems.",
-      "fullDescription": [
-        "KÖBO's official history documents the 2004 formation of KÖBO-KTB and the later transition to the current KÖBO company name.",
-        "The official product material covers precision conveyor chains, drive chains, leaf chains, sprockets and custom chain systems for material handling and production equipment."
-      ],
-      "productCategories": [
-        "Промышленные цепи",
-        "Конвейерные системы",
-        "Механические передачи"
-      ],
-      "productFamilies": [
-        "Conveyor Chains",
-        "Drive Chains",
-        "Leaf Chains",
-        "Escalator Chains",
-        "Sprockets",
-        "Custom Chain Systems"
-      ],
+      "fullDescription": ["KÖBO's official history documents the 2004 formation of KÖBO-KTB and the later transition to the current KÖBO company name.", "The official product material covers precision conveyor chains, drive chains, leaf chains, sprockets and custom chain systems for material handling and production equipment."],
+      "productCategories": ["Промышленные цепи", "Конвейерные системы", "Механические передачи"],
+      "productFamilies": ["Conveyor Chains", "Drive Chains", "Leaf Chains", "Escalator Chains", "Sprockets", "Custom Chain Systems"],
       "series": [],
-      "industries": [
-        "Складская логистика",
-        "Пищевая промышленность",
-        "Металлургия",
-        "Горнодобывающая промышленность"
-      ],
+      "industries": ["Складская логистика", "Пищевая промышленность", "Металлургия", "Горнодобывающая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://koebo.pl/en/company/history/",
-        "https://kobo.co.uk/welcome-sprockets-plate-wheels-gears-racks"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-koboktb-successor-history",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "KTB_MERGER_SUCCESSOR_OWNERSHIP_AND_CURRENT_IDENTITY",
-          "url": "https://koebo.pl/en/company/history/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-koboktb-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CONVEYOR_DRIVE_LEAF_CHAIN_AND_SPROCKET_SCOPE",
-          "url": "https://kobo.co.uk/welcome-sprockets-plate-wheels-gears-racks",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://koebo.pl/en/company/history/", "https://kobo.co.uk/welcome-sprockets-plate-wheels-gears-racks"],
+      "sources": [{"sourceId":"brand-koboktb-successor-history","tier":"A","type":"ABOUT","scope":"KTB_MERGER_SUCCESSOR_OWNERSHIP_AND_CURRENT_IDENTITY","url":"https://koebo.pl/en/company/history/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-koboktb-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CONVEYOR_DRIVE_LEAF_CHAIN_AND_SPROCKET_SCOPE","url":"https://kobo.co.uk/welcome-sprockets-plate-wheels-gears-racks","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     }
   ]
 }

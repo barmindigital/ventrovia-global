@@ -1,2329 +1,261 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "cmb",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CMB is a short name shared by unrelated industrial businesses. The repository record has no legal-name, country or product-scope discriminator that safely selects one manufacturer-owned source.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=CMB+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "coelmotori",
-      "status": "AMBIGUOUS_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "COELMOTORI resolves to the same manufacturer-owned identity and domain already represented by the canonical COEL record. A second public manufacturer profile would create a duplicate identity until canonical alias handling is explicitly approved.",
-      "attemptedUrls": [
-        "https://coelmotori.it/en/"
-      ]
-    },
-    {
-      "manufacturerId": "coes",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "COES is used by unrelated manufacturers in piping systems and energy equipment. The repository record lacks a reliable discriminator for one official identity.",
-      "attemptedUrls": [
-        "https://www.coes.biz/",
-        "https://www.coessrl.eu/"
-      ]
-    },
-    {
-      "manufacturerId": "comar",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "COMAR is shared by unrelated manufacturers in packaging, plastics, electrical systems and industrial equipment. Name similarity alone cannot establish the intended entity.",
-      "attemptedUrls": [
-        "https://www.comar.com/",
-        "https://www.comar.net/",
-        "https://www.comarsrl.com/"
-      ]
-    },
-    {
-      "manufacturerId": "comatrol",
-      "status": "BLOCKED_LEGACY_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "COMATROL appears primarily as a legacy hydraulic brand associated with Danfoss. Current manufacturer-owned material did not provide a sufficiently explicit, standalone identity and current product scope for this repository record.",
-      "attemptedUrls": [
-        "https://www.danfoss.com/",
-        "https://www.google.com/search?q=site%3Adanfoss.com+Comatrol"
-      ]
-    },
-    {
-      "manufacturerId": "comec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "COMEC is used by multiple unrelated machinery manufacturers, including woodworking, engine-reconditioning, printing and building-material equipment companies. No repository discriminator selects one safely.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=COMEC+industrial+machinery+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "comet",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "COMET is shared by unrelated pump, X-ray, cleaning-equipment and electronics manufacturers. The raw record does not identify which manufacturer is intended.",
-      "attemptedUrls": [
-        "https://www.comet-spa.com/",
-        "https://comet.tech/",
-        "https://www.google.com/search?q=COMET+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "compac",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "COMPAC is used by unrelated manufacturers of packaging machinery, hydraulic equipment, conveying systems and fuel equipment. The repository record contains no safe identity discriminator.",
-      "attemptedUrls": [
-        "https://www.compac.it/",
-        "https://compac.dk/",
-        "https://www.compac.co.nz/"
-      ]
-    },
-    {
-      "manufacturerId": "controlli",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "The likely manufacturer-owned CONTROLLI domain could not be validated reliably during this pass. Distributor pages cannot substitute for first-party identity and product evidence.",
-      "attemptedUrls": [
-        "https://www.controlli.eu/",
-        "https://www.google.com/search?q=CONTROLLI+HVAC+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "cpm",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CPM is a generic abbreviation used by multiple industrial manufacturers. The record lacks the legal-name, geography or product-scope evidence required to map it to one official company.",
-      "attemptedUrls": [
-        "https://www.cpm.net/",
-        "https://www.onecpm.com/",
-        "https://www.google.com/search?q=CPM+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "crane-co",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CRANE can refer to Crane Company, Crane NXT and several distinct product brands and businesses. The undifferentiated repository identity does not safely establish one current manufacturer profile.",
-      "attemptedUrls": [
-        "https://www.craneco.com/",
-        "https://www.cranenxt.com/"
-      ]
-    },
-    {
-      "manufacturerId": "crystal",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CRYSTAL is a generic name used by multiple instrumentation, electronics and industrial manufacturers. The raw record provides no authoritative discriminator.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=CRYSTAL+industrial+instrumentation+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "csf",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CSF is a short abbreviation shared by unrelated industrial businesses. Although CSF Inox manufactures pumps, the repository record has no product or country evidence proving that mapping.",
-      "attemptedUrls": [
-        "https://www.csf.it/",
-        "https://www.google.com/search?q=CSF+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "damko",
-      "status": "BLOCKED_ACQUISITION_CONFLICT",
-      "checkedAt": "2026-08-24",
-      "reason": "The former DAMKO domain redirects to another company while separate group material references DAMKO automation activity. Current ownership, brand continuity and standalone product identity could not be resolved without assumptions.",
-      "attemptedUrls": [
-        "https://www.damko.hr/",
-        "https://www.mastroy.hr/",
-        "https://www.puric.hr/"
-      ]
-    },
-    {
-      "manufacturerId": "danaher-motion",
-      "status": "BLOCKED_LEGACY_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Danaher Motion was a former umbrella business whose product lines now belong to different current companies and brands. No single current manufacturer-owned identity can represent the undifferentiated record safely.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=Danaher+Motion+current+brands+official"
-      ]
-    },
-    {
-      "manufacturerId": "coax",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Official evidence resolves this record to müller co-ax gmbh, which is already represented by the canonical co-ax-valves-inc manufacturer profile. A second public page would duplicate the same current company.",
-      "attemptedUrls": [
-        "https://co-ax.com/en/",
-        "https://co-ax.com/en/products.php"
-      ]
-    }
+    {"manufacturerId":"cmb","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CMB is a short name shared by unrelated industrial businesses. The repository record has no legal-name, country or product-scope discriminator that safely selects one manufacturer-owned source.","attemptedUrls":["https://www.google.com/search?q=CMB+industrial+manufacturer+official"]},
+    {"manufacturerId":"coelmotori","status":"AMBIGUOUS_CANONICAL_DUPLICATE","checkedAt":"2026-08-24","reason":"COELMOTORI resolves to the same manufacturer-owned identity and domain already represented by the canonical COEL record. A second public manufacturer profile would create a duplicate identity until canonical alias handling is explicitly approved.","attemptedUrls":["https://coelmotori.it/en/"]},
+    {"manufacturerId":"coes","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"COES is used by unrelated manufacturers in piping systems and energy equipment. The repository record lacks a reliable discriminator for one official identity.","attemptedUrls":["https://www.coes.biz/","https://www.coessrl.eu/"]},
+    {"manufacturerId":"comar","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"COMAR is shared by unrelated manufacturers in packaging, plastics, electrical systems and industrial equipment. Name similarity alone cannot establish the intended entity.","attemptedUrls":["https://www.comar.com/","https://www.comar.net/","https://www.comarsrl.com/"]},
+    {"manufacturerId":"comatrol","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"COMATROL appears primarily as a legacy hydraulic brand associated with Danfoss. Current manufacturer-owned material did not provide a sufficiently explicit, standalone identity and current product scope for this repository record.","attemptedUrls":["https://www.danfoss.com/","https://www.google.com/search?q=site%3Adanfoss.com+Comatrol"]},
+    {"manufacturerId":"comec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"COMEC is used by multiple unrelated machinery manufacturers, including woodworking, engine-reconditioning, printing and building-material equipment companies. No repository discriminator selects one safely.","attemptedUrls":["https://www.google.com/search?q=COMEC+industrial+machinery+manufacturer+official"]},
+    {"manufacturerId":"comet","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"COMET is shared by unrelated pump, X-ray, cleaning-equipment and electronics manufacturers. The raw record does not identify which manufacturer is intended.","attemptedUrls":["https://www.comet-spa.com/","https://comet.tech/","https://www.google.com/search?q=COMET+industrial+manufacturer+official"]},
+    {"manufacturerId":"compac","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"COMPAC is used by unrelated manufacturers of packaging machinery, hydraulic equipment, conveying systems and fuel equipment. The repository record contains no safe identity discriminator.","attemptedUrls":["https://www.compac.it/","https://compac.dk/","https://www.compac.co.nz/"]},
+    {"manufacturerId":"controlli","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The likely manufacturer-owned CONTROLLI domain could not be validated reliably during this pass. Distributor pages cannot substitute for first-party identity and product evidence.","attemptedUrls":["https://www.controlli.eu/","https://www.google.com/search?q=CONTROLLI+HVAC+manufacturer+official"]},
+    {"manufacturerId":"cpm","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CPM is a generic abbreviation used by multiple industrial manufacturers. The record lacks the legal-name, geography or product-scope evidence required to map it to one official company.","attemptedUrls":["https://www.cpm.net/","https://www.onecpm.com/","https://www.google.com/search?q=CPM+industrial+manufacturer+official"]},
+    {"manufacturerId":"crane-co","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CRANE can refer to Crane Company, Crane NXT and several distinct product brands and businesses. The undifferentiated repository identity does not safely establish one current manufacturer profile.","attemptedUrls":["https://www.craneco.com/","https://www.cranenxt.com/"]},
+    {"manufacturerId":"crystal","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CRYSTAL is a generic name used by multiple instrumentation, electronics and industrial manufacturers. The raw record provides no authoritative discriminator.","attemptedUrls":["https://www.google.com/search?q=CRYSTAL+industrial+instrumentation+manufacturer+official"]},
+    {"manufacturerId":"csf","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CSF is a short abbreviation shared by unrelated industrial businesses. Although CSF Inox manufactures pumps, the repository record has no product or country evidence proving that mapping.","attemptedUrls":["https://www.csf.it/","https://www.google.com/search?q=CSF+industrial+manufacturer+official"]},
+    {"manufacturerId":"damko","status":"BLOCKED_ACQUISITION_CONFLICT","checkedAt":"2026-08-24","reason":"The former DAMKO domain redirects to another company while separate group material references DAMKO automation activity. Current ownership, brand continuity and standalone product identity could not be resolved without assumptions.","attemptedUrls":["https://www.damko.hr/","https://www.mastroy.hr/","https://www.puric.hr/"]},
+    {"manufacturerId":"danaher-motion","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"Danaher Motion was a former umbrella business whose product lines now belong to different current companies and brands. No single current manufacturer-owned identity can represent the undifferentiated record safely.","attemptedUrls":["https://www.google.com/search?q=Danaher+Motion+current+brands+official"]},
+    {"manufacturerId":"coax","status":"DUPLICATE_CANONICAL_CANDIDATE","checkedAt":"2026-08-24","reason":"Official evidence resolves this record to müller co-ax gmbh, which is already represented by the canonical co-ax-valves-inc manufacturer profile. A second public page would duplicate the same current company.","attemptedUrls":["https://co-ax.com/en/","https://co-ax.com/en/products.php"]}
   ],
   "profiles": [
     {
-      "manufacturerId": "clyde-bergemann",
-      "officialName": "Clyde Bergemann Power Group",
-      "displayName": "Clyde Bergemann",
-      "aliases": [
-        "CLYDE BERGEMANN",
-        "CLYDE BERGEMANN POWER GROUP"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://cbpg.com/en-gb/",
-      "officialDomains": [
-        "cbpg.com"
-      ],
-      "country": "Germany",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Clyde Bergemann develops equipment and systems for boiler cleaning, ash handling and energy recovery in power and process plants.",
-      "fullDescription": [
-        "Clyde Bergemann Power Group documents an international engineering business serving thermal power generation and industrial process plants.",
-        "Its official portfolio covers on-load boiler cleaning, dry bottom-ash handling and heat-exchanger systems for recovering energy from exhaust flows."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Конвейерное оборудование",
-        "Теплообменное оборудование"
-      ],
-      "productFamilies": [
-        "On-Load Boiler Cleaning Systems",
-        "Dry Bottom Ash Handling Systems",
-        "Energy-Recovery Heat Exchangers"
-      ],
-      "series": [],
-      "industries": [
-        "Энергетика",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://cbpg.com/en-gb/our-products-solutions/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-clyde-bergemann-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "GROUP_IDENTITY_AND_ENGINEERING_SPECIALISATION",
-          "url": "https://cbpg.com/en-gb/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-clyde-bergemann-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "BOILER_CLEANING_ASH_HANDLING_AND_ENERGY_RECOVERY_SCOPE",
-          "url": "https://cbpg.com/en-gb/our-products-solutions/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"clyde-bergemann","officialName":"Clyde Bergemann Power Group","displayName":"Clyde Bergemann","aliases":["CLYDE BERGEMANN","CLYDE BERGEMANN POWER GROUP"],"formerNames":[],"officialWebsite":"https://cbpg.com/en-gb/","officialDomains":["cbpg.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Clyde Bergemann develops equipment and systems for boiler cleaning, ash handling and energy recovery in power and process plants.",
+      "fullDescription":["Clyde Bergemann Power Group documents an international engineering business serving thermal power generation and industrial process plants.","Its official portfolio covers on-load boiler cleaning, dry bottom-ash handling and heat-exchanger systems for recovering energy from exhaust flows."],
+      "productCategories":["Промышленные машины","Конвейерное оборудование","Теплообменное оборудование"],"productFamilies":["On-Load Boiler Cleaning Systems","Dry Bottom Ash Handling Systems","Energy-Recovery Heat Exchangers"],"series":[],"industries":["Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://cbpg.com/en-gb/our-products-solutions/"],
+      "sources":[{"sourceId":"brand-clyde-bergemann-about","tier":"A","type":"ABOUT","scope":"GROUP_IDENTITY_AND_ENGINEERING_SPECIALISATION","url":"https://cbpg.com/en-gb/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-clyde-bergemann-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BOILER_CLEANING_ASH_HANDLING_AND_ENERGY_RECOVERY_SCOPE","url":"https://cbpg.com/en-gb/our-products-solutions/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "cmo-valves",
-      "officialName": "CMO Valves Technology S.L.",
-      "displayName": "CMO Valves",
-      "aliases": [
-        "CMO VALVES",
-        "CMO"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://cmovalves.com/en/",
-      "officialDomains": [
-        "cmovalves.com"
-      ],
-      "country": "Spain",
-      "headquarters": "Altzo, Gipuzkoa, Spain",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "CMO Valves manufactures industrial valves and hydromechanical equipment for controlling water, slurries, gases and bulk media.",
-      "fullDescription": [
-        "CMO Valves publishes manufacturer information for industrial flow-control and hydromechanical applications from its Spanish operation.",
-        "The official range includes knife-gate valves, penstocks, dampers, check valves, water-distribution valves and actuator options."
-      ],
-      "productCategories": [
-        "Промышленные клапаны",
-        "Запорная арматура",
-        "Гидравлическое оборудование"
-      ],
-      "productFamilies": [
-        "Knife Gate Valves",
-        "Penstocks",
-        "Dampers",
-        "Check Valves",
-        "Water Distribution Valves",
-        "Actuators"
-      ],
-      "series": [],
-      "industries": [
-        "Водоснабжение и водоотведение",
-        "Горнодобывающая промышленность",
-        "Энергетика",
-        "Химическая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.cmovalves.com/documents/cmovalves-range-valves-manufactured-catalogue-mini-en.pdf"
-      ],
-      "documentationSources": [
-        "https://cmovalves.com/en/products-cmo/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-cmo-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "VALVE_PENSTOCK_DAMPER_AND_ACTUATOR_FAMILIES",
-          "url": "https://cmovalves.com/en/products-cmo/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-cmo-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "MANUFACTURER_IDENTITY_AND_FULL_FLOW_CONTROL_RANGE",
-          "url": "https://www.cmovalves.com/documents/cmovalves-range-valves-manufactured-catalogue-mini-en.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"cmo-valves","officialName":"CMO Valves Technology S.L.","displayName":"CMO Valves","aliases":["CMO VALVES","CMO"],"formerNames":[],"officialWebsite":"https://cmovalves.com/en/","officialDomains":["cmovalves.com"],"country":"Spain","headquarters":"Altzo, Gipuzkoa, Spain","foundedYear":null,"parentCompany":null,
+      "shortDescription":"CMO Valves manufactures industrial valves and hydromechanical equipment for controlling water, slurries, gases and bulk media.",
+      "fullDescription":["CMO Valves publishes manufacturer information for industrial flow-control and hydromechanical applications from its Spanish operation.","The official range includes knife-gate valves, penstocks, dampers, check valves, water-distribution valves and actuator options."],
+      "productCategories":["Промышленные клапаны","Запорная арматура","Гидравлическое оборудование"],"productFamilies":["Knife Gate Valves","Penstocks","Dampers","Check Valves","Water Distribution Valves","Actuators"],"series":[],"industries":["Водоснабжение и водоотведение","Горнодобывающая промышленность","Энергетика","Химическая промышленность"],"officialCatalogs":["https://www.cmovalves.com/documents/cmovalves-range-valves-manufactured-catalogue-mini-en.pdf"],"documentationSources":["https://cmovalves.com/en/products-cmo/"],
+      "sources":[{"sourceId":"brand-cmo-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VALVE_PENSTOCK_DAMPER_AND_ACTUATOR_FAMILIES","url":"https://cmovalves.com/en/products-cmo/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cmo-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_AND_FULL_FLOW_CONTROL_RANGE","url":"https://www.cmovalves.com/documents/cmovalves-range-valves-manufactured-catalogue-mini-en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "cmt-orange-tool",
-      "officialName": "C.M.T. Utensili S.p.A.",
-      "displayName": "CMT Orange Tools",
-      "aliases": [
-        "CMT ORANGE TOOL",
-        "CMT ORANGE TOOLS",
-        "CMT UTENSILI"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.cmtorangetools.com/na-en/",
-      "officialDomains": [
-        "cmtorangetools.com"
-      ],
-      "country": "Italy",
-      "headquarters": null,
-      "foundedYear": 1962,
-      "parentCompany": null,
-      "shortDescription": "CMT Orange Tools manufactures cutting tools and accessories for woodworking, CNC routing and related material-processing applications.",
-      "fullDescription": [
-        "C.M.T. Utensili documents an Italian cutting-tool business whose history began in 1962.",
-        "Its official catalogues cover router bits, circular saw blades, CNC tools and chucks, drill bits, jig and sabre saw blades, and selected power-tool accessories."
-      ],
-      "productCategories": [
-        "Промышленные инструменты",
-        "Металлообрабатывающие станки"
-      ],
-      "productFamilies": [
-        "Router Bits",
-        "Circular Saw Blades",
-        "CNC Tools and Chucks",
-        "Drill Bits",
-        "Jig and Sabre Saw Blades",
-        "Power Tools"
-      ],
-      "series": [],
-      "industries": [
-        "Деревообрабатывающая промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.cmtorangetools.com/eu-en/catalogues"
-      ],
-      "documentationSources": [
-        "https://www.cmtorangetools.com/na-en/company"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-cmt-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HISTORY_AND_CUTTING_TOOL_SPECIALISATION",
-          "url": "https://www.cmtorangetools.com/na-en/company",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-cmt-catalogs",
-          "tier": "A",
-          "type": "DOCUMENTATION_PORTAL",
-          "scope": "ROUTER_SAW_CNC_DRILL_AND_ACCESSORY_PRODUCT_SCOPE",
-          "url": "https://www.cmtorangetools.com/eu-en/catalogues",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"cmt-orange-tool","officialName":"C.M.T. Utensili S.p.A.","displayName":"CMT Orange Tools","aliases":["CMT ORANGE TOOL","CMT ORANGE TOOLS","CMT UTENSILI"],"formerNames":[],"officialWebsite":"https://www.cmtorangetools.com/na-en/","officialDomains":["cmtorangetools.com"],"country":"Italy","headquarters":null,"foundedYear":1962,"parentCompany":null,
+      "shortDescription":"CMT Orange Tools manufactures cutting tools and accessories for woodworking, CNC routing and related material-processing applications.",
+      "fullDescription":["C.M.T. Utensili documents an Italian cutting-tool business whose history began in 1962.","Its official catalogues cover router bits, circular saw blades, CNC tools and chucks, drill bits, jig and sabre saw blades, and selected power-tool accessories."],
+      "productCategories":["Промышленные инструменты","Металлообрабатывающие станки"],"productFamilies":["Router Bits","Circular Saw Blades","CNC Tools and Chucks","Drill Bits","Jig and Sabre Saw Blades","Power Tools"],"series":[],"industries":["Деревообрабатывающая промышленность","Промышленное производство"],"officialCatalogs":["https://www.cmtorangetools.com/eu-en/catalogues"],"documentationSources":["https://www.cmtorangetools.com/na-en/company"],
+      "sources":[{"sourceId":"brand-cmt-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_CUTTING_TOOL_SPECIALISATION","url":"https://www.cmtorangetools.com/na-en/company","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cmt-catalogs","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"ROUTER_SAW_CNC_DRILL_AND_ACCESSORY_PRODUCT_SCOPE","url":"https://www.cmtorangetools.com/eu-en/catalogues","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "cnh-industrial",
-      "officialName": "CNH Industrial N.V.",
-      "displayName": "CNH Industrial",
-      "aliases": [
-        "CNH INDUSTRIAL",
-        "CNH"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.cnh.com/",
-      "officialDomains": [
-        "cnh.com"
-      ],
-      "country": "Netherlands",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "CNH Industrial is an equipment group focused on agricultural and construction machinery and related technologies and services.",
-      "fullDescription": [
-        "CNH's official corporate material identifies CNH Industrial N.V. and presents its current equipment business through a portfolio of agricultural and construction brands.",
-        "The documented scope covers tractors, harvesting and crop-production equipment, and construction machines serving earthmoving and infrastructure work."
-      ],
-      "productCategories": [
-        "Строительная техника",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Agricultural Equipment",
-        "Construction Equipment",
-        "Precision Technology",
-        "Parts and Services"
-      ],
-      "series": [],
-      "industries": [
-        "Сельское хозяйство",
-        "Строительство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.cnh.com/Our-Company"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-cnh-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_AND_AGRICULTURE_CONSTRUCTION_SCOPE",
-          "url": "https://www.cnh.com/Our-Company",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-cnh-brands",
-          "tier": "A",
-          "type": "OFFICIAL_BRAND_PORTFOLIO",
-          "scope": "AGRICULTURAL_AND_CONSTRUCTION_EQUIPMENT_PORTFOLIO",
-          "url": "https://www.cnh.com/Our-Brands",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"cnh-industrial","officialName":"CNH Industrial N.V.","displayName":"CNH Industrial","aliases":["CNH INDUSTRIAL","CNH"],"formerNames":[],"officialWebsite":"https://www.cnh.com/","officialDomains":["cnh.com"],"country":"Netherlands","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"CNH Industrial is an equipment group focused on agricultural and construction machinery and related technologies and services.",
+      "fullDescription":["CNH's official corporate material identifies CNH Industrial N.V. and presents its current equipment business through a portfolio of agricultural and construction brands.","The documented scope covers tractors, harvesting and crop-production equipment, and construction machines serving earthmoving and infrastructure work."],
+      "productCategories":["Строительная техника","Промышленные машины"],"productFamilies":["Agricultural Equipment","Construction Equipment","Precision Technology","Parts and Services"],"series":[],"industries":["Сельское хозяйство","Строительство"],"officialCatalogs":[],"documentationSources":["https://www.cnh.com/Our-Company"],
+      "sources":[{"sourceId":"brand-cnh-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_AGRICULTURE_CONSTRUCTION_SCOPE","url":"https://www.cnh.com/Our-Company","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cnh-brands","tier":"A","type":"OFFICIAL_BRAND_PORTFOLIO","scope":"AGRICULTURAL_AND_CONSTRUCTION_EQUIPMENT_PORTFOLIO","url":"https://www.cnh.com/Our-Brands","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "colombo-filippetti",
-      "officialName": "Colombo Filippetti S.p.A.",
-      "displayName": "Colombo Filippetti",
-      "aliases": [
-        "COLOMBO FILIPPETTI",
-        "COFIL"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.cofil.com/en/",
-      "officialDomains": [
-        "cofil.com",
-        "cofil.it"
-      ],
-      "country": "Italy",
-      "headquarters": "Casirate d'Adda, Bergamo, Italy",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Colombo Filippetti designs cam mechanisms, rotary indexers and transfer systems for industrial automation.",
-      "fullDescription": [
-        "Colombo Filippetti's official material documents an Italian manufacturer of cam-driven mechanisms and synchronized motion systems.",
-        "The published range includes intermittent and oscillating drives, rotary tables, servo indexers, manipulators, tool changers, conveyors and custom mechanical cams."
-      ],
-      "productCategories": [
-        "Промышленная автоматизация",
-        "Системы управления движением",
-        "Конвейерное оборудование"
-      ],
-      "productFamilies": [
-        "Indexing Drives",
-        "Oscillating Drives",
-        "Rotary Tables",
-        "Servo Indexers",
-        "Manipulators",
-        "Tool Changers",
-        "Conveyors",
-        "Mechanical Cams"
-      ],
-      "series": [
-        "CF3",
-        "CF4",
-        "RIG",
-        "RIGS",
-        "SRP",
-        "IR",
-        "MAN",
-        "SRI",
-        "CFE"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Станкостроение",
-        "Упаковочная промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.cofil.com/files/Generic/Product_Catalogue_EN.pdf"
-      ],
-      "documentationSources": [
-        "https://www.cofil.com/en/products-families-files"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-colombo-filippetti-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CAM_INDEXER_TABLE_MANIPULATOR_TOOL_CHANGER_AND_CONVEYOR_FAMILIES",
-          "url": "https://www.cofil.com/en/products-families-files",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-colombo-filippetti-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "LEGAL_IDENTITY_AND_INDUSTRIAL_AUTOMATION_PRODUCT_RANGE",
-          "url": "https://www.cofil.com/files/Generic/Product_Catalogue_EN.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"colombo-filippetti","officialName":"Colombo Filippetti S.p.A.","displayName":"Colombo Filippetti","aliases":["COLOMBO FILIPPETTI","COFIL"],"formerNames":[],"officialWebsite":"https://www.cofil.com/en/","officialDomains":["cofil.com","cofil.it"],"country":"Italy","headquarters":"Casirate d'Adda, Bergamo, Italy","foundedYear":null,"parentCompany":null,
+      "shortDescription":"Colombo Filippetti designs cam mechanisms, rotary indexers and transfer systems for industrial automation.",
+      "fullDescription":["Colombo Filippetti's official material documents an Italian manufacturer of cam-driven mechanisms and synchronized motion systems.","The published range includes intermittent and oscillating drives, rotary tables, servo indexers, manipulators, tool changers, conveyors and custom mechanical cams."],
+      "productCategories":["Промышленная автоматизация","Системы управления движением","Конвейерное оборудование"],"productFamilies":["Indexing Drives","Oscillating Drives","Rotary Tables","Servo Indexers","Manipulators","Tool Changers","Conveyors","Mechanical Cams"],"series":["CF3","CF4","RIG","RIGS","SRP","IR","MAN","SRI","CFE"],"industries":["Промышленная автоматизация","Станкостроение","Упаковочная промышленность"],"officialCatalogs":["https://www.cofil.com/files/Generic/Product_Catalogue_EN.pdf"],"documentationSources":["https://www.cofil.com/en/products-families-files"],
+      "sources":[{"sourceId":"brand-colombo-filippetti-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CAM_INDEXER_TABLE_MANIPULATOR_TOOL_CHANGER_AND_CONVEYOR_FAMILIES","url":"https://www.cofil.com/en/products-families-files","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-colombo-filippetti-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"LEGAL_IDENTITY_AND_INDUSTRIAL_AUTOMATION_PRODUCT_RANGE","url":"https://www.cofil.com/files/Generic/Product_Catalogue_EN.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "columbus-mckinnon",
-      "officialName": "Columbus McKinnon Corporation",
-      "displayName": "Columbus McKinnon",
-      "aliases": [
-        "COLUMBUS MCKINNON",
-        "CMCO"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.cmco.com/en-us/",
-      "officialDomains": [
-        "cmco.com"
-      ],
-      "country": "United States",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Columbus McKinnon develops lifting, crane, conveyance and motion-control equipment for industrial material handling.",
-      "fullDescription": [
-        "Columbus McKinnon's manufacturer-owned site documents a portfolio for moving, lifting and positioning materials in industrial operations.",
-        "The official product structure covers hoists, cranes, rigging equipment, conveying systems, linear-motion products and automation and power-control technologies."
-      ],
-      "productCategories": [
-        "Подъёмное оборудование",
-        "Крановое оборудование",
-        "Конвейерное оборудование",
-        "Системы управления движением"
-      ],
-      "productFamilies": [
-        "Hoists",
-        "Crane Systems",
-        "Rigging Equipment",
-        "Conveying Systems",
-        "Linear Motion Products",
-        "Automation and Power Control"
-      ],
-      "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Складская логистика",
-        "Автомобильная промышленность"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.cmco.com/en-us/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-columbus-mckinnon-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "CORPORATE_IDENTITY_AND_LIFTING_CONVEYANCE_MOTION_SCOPE",
-          "url": "https://www.cmco.com/en-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-columbus-mckinnon-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HOIST_CRANE_RIGGING_CONVEYING_AND_LINEAR_MOTION_FAMILIES",
-          "url": "https://www.cmco.com/en-us/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"columbus-mckinnon","officialName":"Columbus McKinnon Corporation","displayName":"Columbus McKinnon","aliases":["COLUMBUS MCKINNON","CMCO"],"formerNames":[],"officialWebsite":"https://www.cmco.com/en-us/","officialDomains":["cmco.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Columbus McKinnon develops lifting, crane, conveyance and motion-control equipment for industrial material handling.",
+      "fullDescription":["Columbus McKinnon's manufacturer-owned site documents a portfolio for moving, lifting and positioning materials in industrial operations.","The official product structure covers hoists, cranes, rigging equipment, conveying systems, linear-motion products and automation and power-control technologies."],
+      "productCategories":["Подъёмное оборудование","Крановое оборудование","Конвейерное оборудование","Системы управления движением"],"productFamilies":["Hoists","Crane Systems","Rigging Equipment","Conveying Systems","Linear Motion Products","Automation and Power Control"],"series":[],"industries":["Промышленное производство","Складская логистика","Автомобильная промышленность"],"officialCatalogs":[],"documentationSources":["https://www.cmco.com/en-us/products/"],
+      "sources":[{"sourceId":"brand-columbus-mckinnon-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CORPORATE_IDENTITY_AND_LIFTING_CONVEYANCE_MOTION_SCOPE","url":"https://www.cmco.com/en-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-columbus-mckinnon-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HOIST_CRANE_RIGGING_CONVEYING_AND_LINEAR_MOTION_FAMILIES","url":"https://www.cmco.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "combustion-energy",
-      "officialName": "Combustion & Energy Systems Ltd.",
-      "displayName": "Combustion & Energy Systems",
-      "aliases": [
-        "COMBUSTION ENERGY",
-        "COMBUSTION & ENERGY SYSTEMS",
-        "CES"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.combustionandenergy.com/",
-      "officialDomains": [
-        "combustionandenergy.com"
-      ],
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Combustion & Energy Systems engineers heat-recovery and emissions-reduction systems for industrial exhaust and process applications.",
-      "fullDescription": [
-        "Combustion & Energy Systems identifies an engineering business focused on recovering heat and water from industrial exhaust streams.",
-        "Its documented scope includes condensing economizer systems, process-integration equipment and control packages for combustion and energy applications."
-      ],
-      "productCategories": [
-        "Теплообменное оборудование",
-        "Промышленная автоматизация",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "ConDex Condensing Economizer Systems",
-        "Waste-Heat Recovery Systems",
-        "Process Integration Systems",
-        "Control Systems"
-      ],
-      "series": [
-        "ConDex"
-      ],
-      "industries": [
-        "Энергетика",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.combustionandenergy.com/about-us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-combustion-energy-about",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "COMPANY_IDENTITY_AND_HEAT_WATER_RECOVERY_SPECIALISATION",
-          "url": "https://www.combustionandenergy.com/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"combustion-energy","officialName":"Combustion & Energy Systems Ltd.","displayName":"Combustion & Energy Systems","aliases":["COMBUSTION ENERGY","COMBUSTION & ENERGY SYSTEMS","CES"],"formerNames":[],"officialWebsite":"https://www.combustionandenergy.com/","officialDomains":["combustionandenergy.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Combustion & Energy Systems engineers heat-recovery and emissions-reduction systems for industrial exhaust and process applications.",
+      "fullDescription":["Combustion & Energy Systems identifies an engineering business focused on recovering heat and water from industrial exhaust streams.","Its documented scope includes condensing economizer systems, process-integration equipment and control packages for combustion and energy applications."],
+      "productCategories":["Теплообменное оборудование","Промышленная автоматизация","Промышленные машины"],"productFamilies":["ConDex Condensing Economizer Systems","Waste-Heat Recovery Systems","Process Integration Systems","Control Systems"],"series":["ConDex"],"industries":["Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.combustionandenergy.com/about-us/"],
+      "sources":[{"sourceId":"brand-combustion-energy-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"COMPANY_IDENTITY_AND_HEAT_WATER_RECOVERY_SPECIALISATION","url":"https://www.combustionandenergy.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "comecer",
-      "officialName": "Comecer S.p.A.",
-      "displayName": "Comecer",
-      "aliases": [
-        "COMECER"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.comecer.com/",
-      "officialDomains": [
-        "comecer.com"
-      ],
-      "country": "Italy",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Comecer develops containment, handling and automation equipment for nuclear medicine, radiopharmacy and aseptic pharmaceutical processing.",
-      "fullDescription": [
-        "Comecer publishes manufacturer information for controlled handling and production environments in nuclear medicine, radiopharmacy and pharmaceutical manufacturing.",
-        "The official portfolio includes isolators, hot cells, dispensing and filling systems, shielded handling equipment and automated platforms for cell and gene therapy workflows."
-      ],
-      "productCategories": [
-        "Лабораторное оборудование",
-        "Промышленная автоматизация",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Hot Cells",
-        "Aseptic Isolators",
-        "Dispensing Systems",
-        "Filling Systems",
-        "Shielded Handling Equipment",
-        "Cell and Gene Therapy Automation"
-      ],
-      "series": [],
-      "industries": [
-        "Фармацевтическая промышленность",
-        "Медицинская промышленность",
-        "Исследования и лаборатории"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.comecer.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-comecer-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "MANUFACTURER_IDENTITY_AND_RADIOPHARMA_CONTAINMENT_AUTOMATION_SCOPE",
-          "url": "https://www.comecer.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"comecer","officialName":"Comecer S.p.A.","displayName":"Comecer","aliases":["COMECER"],"formerNames":[],"officialWebsite":"https://www.comecer.com/","officialDomains":["comecer.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Comecer develops containment, handling and automation equipment for nuclear medicine, radiopharmacy and aseptic pharmaceutical processing.",
+      "fullDescription":["Comecer publishes manufacturer information for controlled handling and production environments in nuclear medicine, radiopharmacy and pharmaceutical manufacturing.","The official portfolio includes isolators, hot cells, dispensing and filling systems, shielded handling equipment and automated platforms for cell and gene therapy workflows."],
+      "productCategories":["Лабораторное оборудование","Промышленная автоматизация","Промышленные машины"],"productFamilies":["Hot Cells","Aseptic Isolators","Dispensing Systems","Filling Systems","Shielded Handling Equipment","Cell and Gene Therapy Automation"],"series":[],"industries":["Фармацевтическая промышленность","Медицинская промышленность","Исследования и лаборатории"],"officialCatalogs":[],"documentationSources":["https://www.comecer.com/"],
+      "sources":[{"sourceId":"brand-comecer-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_AND_RADIOPHARMA_CONTAINMENT_AUTOMATION_SCOPE","url":"https://www.comecer.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "comefri",
-      "officialName": "Comefri S.p.A.",
-      "displayName": "Comefri",
-      "aliases": [
-        "COMEFRI"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.comefri.com/",
-      "officialDomains": [
-        "comefri.com"
-      ],
-      "country": "Italy",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Comefri manufactures centrifugal and axial fans for ventilation, air-handling and industrial process systems.",
-      "fullDescription": [
-        "Comefri's official site documents an Italian manufacturer focused on air-moving equipment.",
-        "The product portfolio includes double-inlet and single-inlet centrifugal fans, plug fans, axial fans and purpose-built industrial and process fan configurations."
-      ],
-      "productCategories": [
-        "Промышленные вентиляторы",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Double-Inlet Centrifugal Fans",
-        "Single-Inlet Centrifugal Fans",
-        "Plug Fans",
-        "Axial Fans",
-        "Industrial and Process Fans"
-      ],
-      "series": [],
-      "industries": [
-        "HVAC и здания",
-        "Промышленное производство",
-        "Энергетика"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.comefri.com/product-services/product-list"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-comefri-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_CENTRIFUGAL_PLUG_AXIAL_FAN_FAMILIES",
-          "url": "https://www.comefri.com/product-services/product-list",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"comefri","officialName":"Comefri S.p.A.","displayName":"Comefri","aliases":["COMEFRI"],"formerNames":[],"officialWebsite":"https://www.comefri.com/","officialDomains":["comefri.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Comefri manufactures centrifugal and axial fans for ventilation, air-handling and industrial process systems.",
+      "fullDescription":["Comefri's official site documents an Italian manufacturer focused on air-moving equipment.","The product portfolio includes double-inlet and single-inlet centrifugal fans, plug fans, axial fans and purpose-built industrial and process fan configurations."],
+      "productCategories":["Промышленные вентиляторы","Промышленные машины"],"productFamilies":["Double-Inlet Centrifugal Fans","Single-Inlet Centrifugal Fans","Plug Fans","Axial Fans","Industrial and Process Fans"],"series":[],"industries":["HVAC и здания","Промышленное производство","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.comefri.com/product-services/product-list"],
+      "sources":[{"sourceId":"brand-comefri-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_CENTRIFUGAL_PLUG_AXIAL_FAN_FAMILIES","url":"https://www.comefri.com/product-services/product-list","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "comerio-ercole",
-      "officialName": "Comerio Ercole S.p.A.",
-      "displayName": "Comerio Ercole",
-      "aliases": [
-        "COMERIO ERCOLE",
-        "COMERCOLE"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.comercole.it/?lang=en",
-      "officialDomains": [
-        "comercole.it"
-      ],
-      "country": "Italy",
-      "headquarters": "Busto Arsizio, Italy",
-      "foundedYear": 1885,
-      "parentCompany": null,
-      "shortDescription": "Comerio Ercole designs machinery and complete processing systems for rubber, plastics and nonwoven materials.",
-      "fullDescription": [
-        "Comerio Ercole's official company material identifies an Italian machinery manufacturer founded in 1885 and based in Busto Arsizio.",
-        "Its engineering scope includes calendering and mixing lines and related process equipment for rubber, plastics and nonwoven production."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Вальцовочное оборудование",
-        "Оборудование для переработки материалов"
-      ],
-      "productFamilies": [
-        "Calendering Systems",
-        "Mixing Systems",
-        "Rubber Processing Lines",
-        "Plastics Processing Lines",
-        "Nonwoven Processing Lines"
-      ],
-      "series": [],
-      "industries": [
-        "Производство резины и пластмасс",
-        "Текстильная промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.comercole.it/wp-content/uploads/2026/01/IST01-COMPANY-GEN-2026.pdf"
-      ],
-      "documentationSources": [
-        "https://www.comercole.it/?lang=en"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-comerio-ercole-corporate-document",
-          "tier": "A",
-          "type": "OFFICIAL_CORPORATE_DOCUMENT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PROCESS_MACHINERY_SCOPE",
-          "url": "https://www.comercole.it/wp-content/uploads/2026/01/IST01-COMPANY-GEN-2026.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"comerio-ercole","officialName":"Comerio Ercole S.p.A.","displayName":"Comerio Ercole","aliases":["COMERIO ERCOLE","COMERCOLE"],"formerNames":[],"officialWebsite":"https://www.comercole.it/?lang=en","officialDomains":["comercole.it"],"country":"Italy","headquarters":"Busto Arsizio, Italy","foundedYear":1885,"parentCompany":null,
+      "shortDescription":"Comerio Ercole designs machinery and complete processing systems for rubber, plastics and nonwoven materials.",
+      "fullDescription":["Comerio Ercole's official company material identifies an Italian machinery manufacturer founded in 1885 and based in Busto Arsizio.","Its engineering scope includes calendering and mixing lines and related process equipment for rubber, plastics and nonwoven production."],
+      "productCategories":["Промышленные машины","Вальцовочное оборудование","Оборудование для переработки материалов"],"productFamilies":["Calendering Systems","Mixing Systems","Rubber Processing Lines","Plastics Processing Lines","Nonwoven Processing Lines"],"series":[],"industries":["Производство резины и пластмасс","Текстильная промышленность","Промышленное производство"],"officialCatalogs":["https://www.comercole.it/wp-content/uploads/2026/01/IST01-COMPANY-GEN-2026.pdf"],"documentationSources":["https://www.comercole.it/?lang=en"],
+      "sources":[{"sourceId":"brand-comerio-ercole-corporate-document","tier":"A","type":"OFFICIAL_CORPORATE_DOCUMENT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PROCESS_MACHINERY_SCOPE","url":"https://www.comercole.it/wp-content/uploads/2026/01/IST01-COMPANY-GEN-2026.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "comessa",
-      "officialName": "Comessa",
-      "displayName": "Comessa",
-      "aliases": [
-        "COMESSA"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.comessa.com/",
-      "officialDomains": [
-        "comessa.com"
-      ],
-      "country": "France",
-      "headquarters": "Strasbourg, France",
-      "foundedYear": 1920,
-      "parentCompany": null,
-      "shortDescription": "Comessa designs thermal-processing equipment for drying, cooling, calcining and granulating divided solids.",
-      "fullDescription": [
-        "Comessa's manufacturer-owned site presents a French engineering company established in 1920 and focused on thermal processing of divided solids.",
-        "Its equipment portfolio includes fluidized-bed, rotary-tube, belt and flash systems for drying, cooling, high-temperature treatment and granulation."
-      ],
-      "productCategories": [
-        "Теплообменное оборудование",
-        "Промышленные машины",
-        "Оборудование для переработки материалов"
-      ],
-      "productFamilies": [
-        "Fluidized-Bed Processors",
-        "Rotary-Tube Processors",
-        "Belt Dryers",
-        "Flash Dryers",
-        "High-Temperature Systems",
-        "Granulators"
-      ],
-      "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Минеральная промышленность",
-        "Пищевая промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.comessa.com/fr/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-comessa-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "IDENTITY_FOUNDED_HEADQUARTERS_AND_THERMAL_PROCESSING_SCOPE",
-          "url": "https://www.comessa.com/fr/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"comessa","officialName":"Comessa","displayName":"Comessa","aliases":["COMESSA"],"formerNames":[],"officialWebsite":"https://www.comessa.com/","officialDomains":["comessa.com"],"country":"France","headquarters":"Strasbourg, France","foundedYear":1920,"parentCompany":null,
+      "shortDescription":"Comessa designs thermal-processing equipment for drying, cooling, calcining and granulating divided solids.",
+      "fullDescription":["Comessa's manufacturer-owned site presents a French engineering company established in 1920 and focused on thermal processing of divided solids.","Its equipment portfolio includes fluidized-bed, rotary-tube, belt and flash systems for drying, cooling, high-temperature treatment and granulation."],
+      "productCategories":["Теплообменное оборудование","Промышленные машины","Оборудование для переработки материалов"],"productFamilies":["Fluidized-Bed Processors","Rotary-Tube Processors","Belt Dryers","Flash Dryers","High-Temperature Systems","Granulators"],"series":[],"industries":["Химическая промышленность","Минеральная промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.comessa.com/fr/"],
+      "sources":[{"sourceId":"brand-comessa-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"IDENTITY_FOUNDED_HEADQUARTERS_AND_THERMAL_PROCESSING_SCOPE","url":"https://www.comessa.com/fr/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "comintec",
-      "officialName": "ComInTec S.r.l.",
-      "displayName": "ComInTec",
-      "aliases": [
-        "COMINTEC",
-        "COM IN TEC"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.comintec.com/",
-      "officialDomains": [
-        "comintec.com"
-      ],
-      "country": "Italy",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "ComInTec manufactures torque limiters, shaft couplings and mechanical transmission components for industrial machinery.",
-      "fullDescription": [
-        "ComInTec publishes manufacturer documentation for mechanical transmission and overload-protection components.",
-        "Its official range covers torque limiters and clutches, flexible couplings, locking devices and adjustable motor bases for industrial drive systems."
-      ],
-      "productCategories": [
-        "Промышленные муфты",
-        "Механические передачи",
-        "Промышленные тормоза"
-      ],
-      "productFamilies": [
-        "Torque Limiters",
-        "Safety Clutches",
-        "Flexible Couplings",
-        "Locking Devices",
-        "Adjustable Motor Bases"
-      ],
-      "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Упаковочная промышленность",
-        "Промышленная автоматизация"
-      ],
-      "officialCatalogs": [
-        "https://www.comintec.com/download/cataloghi/TORQUE_LIMITERS-CLUTCHES.pdf"
-      ],
-      "documentationSources": [
-        "https://www.comintec.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-comintec-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "MANUFACTURER_IDENTITY_AND_TORQUE_LIMITER_CLUTCH_COUPLING_SCOPE",
-          "url": "https://www.comintec.com/download/cataloghi/TORQUE_LIMITERS-CLUTCHES.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"comintec","officialName":"ComInTec S.r.l.","displayName":"ComInTec","aliases":["COMINTEC","COM IN TEC"],"formerNames":[],"officialWebsite":"https://www.comintec.com/","officialDomains":["comintec.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"ComInTec manufactures torque limiters, shaft couplings and mechanical transmission components for industrial machinery.",
+      "fullDescription":["ComInTec publishes manufacturer documentation for mechanical transmission and overload-protection components.","Its official range covers torque limiters and clutches, flexible couplings, locking devices and adjustable motor bases for industrial drive systems."],
+      "productCategories":["Промышленные муфты","Механические передачи","Промышленные тормоза"],"productFamilies":["Torque Limiters","Safety Clutches","Flexible Couplings","Locking Devices","Adjustable Motor Bases"],"series":[],"industries":["Промышленное производство","Упаковочная промышленность","Промышленная автоматизация"],"officialCatalogs":["https://www.comintec.com/download/cataloghi/TORQUE_LIMITERS-CLUTCHES.pdf"],"documentationSources":["https://www.comintec.com/"],
+      "sources":[{"sourceId":"brand-comintec-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_AND_TORQUE_LIMITER_CLUTCH_COUPLING_SCOPE","url":"https://www.comintec.com/download/cataloghi/TORQUE_LIMITERS-CLUTCHES.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "conatex",
-      "officialName": "Conatex-Didactic Lehrmittel GmbH",
-      "displayName": "Conatex",
-      "aliases": [
-        "CONATEX",
-        "CONATEX-DIDACTIC"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.conatex.com/",
-      "officialDomains": [
-        "conatex.com"
-      ],
-      "country": "Germany",
-      "headquarters": "Saarbrücken, Germany",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Conatex develops educational laboratory equipment, experiment systems and digital measurement tools for science and technology teaching.",
-      "fullDescription": [
-        "Conatex-Didactic's official site identifies a German provider of equipment and systems for practical science and technology education.",
-        "The documented portfolio spans physics, biology and chemistry experiment equipment, sensors and interfaces, robotics systems and supporting software."
-      ],
-      "productCategories": [
-        "Лабораторное оборудование",
-        "Промышленные датчики",
-        "Робототехника",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Physics Experiment Systems",
-        "Biology Equipment",
-        "Chemistry Equipment",
-        "Sensors and Interfaces",
-        "Educational Robotics",
-        "Experiment Software"
-      ],
-      "series": [],
-      "industries": [
-        "Образование и исследования",
-        "Лаборатории"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.conatex.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-conatex-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_AND_SCIENCE_EDUCATION_EQUIPMENT_SCOPE",
-          "url": "https://www.conatex.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"conatex","officialName":"Conatex-Didactic Lehrmittel GmbH","displayName":"Conatex","aliases":["CONATEX","CONATEX-DIDACTIC"],"formerNames":[],"officialWebsite":"https://www.conatex.com/","officialDomains":["conatex.com"],"country":"Germany","headquarters":"Saarbrücken, Germany","foundedYear":null,"parentCompany":null,
+      "shortDescription":"Conatex develops educational laboratory equipment, experiment systems and digital measurement tools for science and technology teaching.",
+      "fullDescription":["Conatex-Didactic's official site identifies a German provider of equipment and systems for practical science and technology education.","The documented portfolio spans physics, biology and chemistry experiment equipment, sensors and interfaces, robotics systems and supporting software."],
+      "productCategories":["Лабораторное оборудование","Промышленные датчики","Робототехника","Промышленное программное обеспечение"],"productFamilies":["Physics Experiment Systems","Biology Equipment","Chemistry Equipment","Sensors and Interfaces","Educational Robotics","Experiment Software"],"series":[],"industries":["Образование и исследования","Лаборатории"],"officialCatalogs":[],"documentationSources":["https://www.conatex.com/"],
+      "sources":[{"sourceId":"brand-conatex-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_AND_SCIENCE_EDUCATION_EQUIPMENT_SCOPE","url":"https://www.conatex.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "continental",
-      "officialName": "Continental Aktiengesellschaft",
-      "displayName": "Continental",
-      "aliases": [
-        "CONTINENTAL",
-        "CONTINENTAL AG"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.continental.com/en/",
-      "officialDomains": [
-        "continental.com"
-      ],
-      "country": "Germany",
-      "headquarters": "Hanover, Germany",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Continental develops tyres and material-based industrial products for mobility, transportation and industrial applications.",
-      "fullDescription": [
-        "Continental's official corporate site identifies a German technology company with current product activity in tyres and industrial material solutions.",
-        "Its documented portfolio includes passenger, commercial and specialty tyres and ContiTech products such as belts, hoses, air springs and engineered surfaces."
-      ],
-      "productCategories": [
-        "Промышленные ремни",
-        "Гидравлические шланги",
-        "Пневматическое оборудование",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Passenger and Light-Truck Tyres",
-        "Commercial-Vehicle Tyres",
-        "Specialty Tyres",
-        "Conveyor and Drive Belts",
-        "Industrial Hoses",
-        "Air Springs",
-        "Engineered Surfaces"
-      ],
-      "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Транспорт",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.continental.com/en/products-and-innovation/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-continental-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CORPORATE_IDENTITY_TYRE_AND_INDUSTRIAL_MATERIAL_PRODUCT_SCOPE",
-          "url": "https://www.continental.com/en/products-and-innovation/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"continental","officialName":"Continental Aktiengesellschaft","displayName":"Continental","aliases":["CONTINENTAL","CONTINENTAL AG"],"formerNames":[],"officialWebsite":"https://www.continental.com/en/","officialDomains":["continental.com"],"country":"Germany","headquarters":"Hanover, Germany","foundedYear":null,"parentCompany":null,
+      "shortDescription":"Continental develops tyres and material-based industrial products for mobility, transportation and industrial applications.",
+      "fullDescription":["Continental's official corporate site identifies a German technology company with current product activity in tyres and industrial material solutions.","Its documented portfolio includes passenger, commercial and specialty tyres and ContiTech products such as belts, hoses, air springs and engineered surfaces."],
+      "productCategories":["Промышленные ремни","Гидравлические шланги","Пневматическое оборудование","Промышленные машины"],"productFamilies":["Passenger and Light-Truck Tyres","Commercial-Vehicle Tyres","Specialty Tyres","Conveyor and Drive Belts","Industrial Hoses","Air Springs","Engineered Surfaces"],"series":[],"industries":["Автомобильная промышленность","Транспорт","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.continental.com/en/products-and-innovation/products/"],
+      "sources":[{"sourceId":"brand-continental-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CORPORATE_IDENTITY_TYRE_AND_INDUSTRIAL_MATERIAL_PRODUCT_SCOPE","url":"https://www.continental.com/en/products-and-innovation/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "continuus-properzi",
-      "officialName": "Continuus-Properzi S.p.A.",
-      "displayName": "Continuus-Properzi",
-      "aliases": [
-        "CONTINUUS PROPERZI",
-        "PROPERZI"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://properzi.com/",
-      "officialDomains": [
-        "properzi.com"
-      ],
-      "country": "Italy",
-      "headquarters": "Milano, Italy",
-      "foundedYear": 1947,
-      "parentCompany": null,
-      "shortDescription": "Continuus-Properzi engineers continuous casting, rolling and recycling plants for non-ferrous metal processing.",
-      "fullDescription": [
-        "Continuus-Properzi's official company history traces the Italian engineering business to 1947 and its development of continuous casting and rolling technology.",
-        "The documented portfolio includes lines for aluminium and copper rod, copper-scrap recycling, ingot production, microrolling, furnaces and flue-gas treatment."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Металлообрабатывающее оборудование",
-        "Оборудование для переработки материалов"
-      ],
-      "productFamilies": [
-        "Continuous Casting and Rolling Lines",
-        "Copper Rod Lines",
-        "Aluminium Rod Lines",
-        "Copper Recycling Lines",
-        "Ingot Lines",
-        "Microrolling Lines",
-        "Furnaces and Flue-Gas Systems"
-      ],
-      "series": [],
-      "industries": [
-        "Металлургия",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://properzi.com/company/about-us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-properzi-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_CONTINUOUS_PROCESS_TECHNOLOGY",
-          "url": "https://properzi.com/company/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-properzi-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CASTING_ROLLING_RECYCLING_INGOT_AND_FURNACE_SYSTEMS",
-          "url": "https://properzi.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"continuus-properzi","officialName":"Continuus-Properzi S.p.A.","displayName":"Continuus-Properzi","aliases":["CONTINUUS PROPERZI","PROPERZI"],"formerNames":[],"officialWebsite":"https://properzi.com/","officialDomains":["properzi.com"],"country":"Italy","headquarters":"Milano, Italy","foundedYear":1947,"parentCompany":null,
+      "shortDescription":"Continuus-Properzi engineers continuous casting, rolling and recycling plants for non-ferrous metal processing.",
+      "fullDescription":["Continuus-Properzi's official company history traces the Italian engineering business to 1947 and its development of continuous casting and rolling technology.","The documented portfolio includes lines for aluminium and copper rod, copper-scrap recycling, ingot production, microrolling, furnaces and flue-gas treatment."],
+      "productCategories":["Промышленные машины","Металлообрабатывающее оборудование","Оборудование для переработки материалов"],"productFamilies":["Continuous Casting and Rolling Lines","Copper Rod Lines","Aluminium Rod Lines","Copper Recycling Lines","Ingot Lines","Microrolling Lines","Furnaces and Flue-Gas Systems"],"series":[],"industries":["Металлургия","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://properzi.com/company/about-us/"],
+      "sources":[{"sourceId":"brand-properzi-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_AND_CONTINUOUS_PROCESS_TECHNOLOGY","url":"https://properzi.com/company/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-properzi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CASTING_ROLLING_RECYCLING_INGOT_AND_FURNACE_SYSTEMS","url":"https://properzi.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "contitech",
-      "officialName": "ContiTech",
-      "displayName": "ContiTech",
-      "aliases": [
-        "CONTITECH",
-        "CONTINENTAL INDUSTRY"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.continental-industry.com/us/en",
-      "officialDomains": [
-        "continental-industry.com"
-      ],
-      "country": "Germany",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": "Continental Aktiengesellschaft",
-      "statusModifier": "GROUP_BRAND",
-      "shortDescription": "ContiTech develops belts, hoses, air springs and engineered material solutions for industrial and mobility applications.",
-      "fullDescription": [
-        "Continental's manufacturer-owned industrial site identifies ContiTech as its material and industrial-technology business.",
-        "The official product scope includes conveyor and power-transmission belts, industrial and hydraulic hoses, air springs, suspension systems and engineered surface and elastomer solutions."
-      ],
-      "productCategories": [
-        "Промышленные ремни",
-        "Гидравлические шланги",
-        "Пневматическое оборудование",
-        "Конвейерное оборудование"
-      ],
-      "productFamilies": [
-        "Conveyor Belts",
-        "Power-Transmission Belts",
-        "Industrial Hoses",
-        "Hydraulic Hoses",
-        "Air Springs",
-        "Suspension Systems",
-        "Engineered Surfaces"
-      ],
-      "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность",
-        "Горнодобывающая промышленность",
-        "Транспорт"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.continental-industry.com/us/en/products-solutions"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-contitech-products",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_BELT_HOSE_AIR_SPRING_MATERIAL_SCOPE",
-          "url": "https://www.continental-industry.com/us/en/products-solutions",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"contitech","officialName":"ContiTech","displayName":"ContiTech","aliases":["CONTITECH","CONTINENTAL INDUSTRY"],"formerNames":[],"officialWebsite":"https://www.continental-industry.com/us/en","officialDomains":["continental-industry.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Continental Aktiengesellschaft","statusModifier":"GROUP_BRAND",
+      "shortDescription":"ContiTech develops belts, hoses, air springs and engineered material solutions for industrial and mobility applications.",
+      "fullDescription":["Continental's manufacturer-owned industrial site identifies ContiTech as its material and industrial-technology business.","The official product scope includes conveyor and power-transmission belts, industrial and hydraulic hoses, air springs, suspension systems and engineered surface and elastomer solutions."],
+      "productCategories":["Промышленные ремни","Гидравлические шланги","Пневматическое оборудование","Конвейерное оборудование"],"productFamilies":["Conveyor Belts","Power-Transmission Belts","Industrial Hoses","Hydraulic Hoses","Air Springs","Suspension Systems","Engineered Surfaces"],"series":[],"industries":["Промышленное производство","Автомобильная промышленность","Горнодобывающая промышленность","Транспорт"],"officialCatalogs":[],"documentationSources":["https://www.continental-industry.com/us/en/products-solutions"],
+      "sources":[{"sourceId":"brand-contitech-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_BELT_HOSE_AIR_SPRING_MATERIAL_SCOPE","url":"https://www.continental-industry.com/us/en/products-solutions","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "contracor",
-      "officialName": "KOMNINO Sp. z o.o.",
-      "displayName": "Contracor",
-      "aliases": [
-        "CONTRACOR"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.contracor.com.pl/en",
-      "officialDomains": [
-        "contracor.com.pl"
-      ],
-      "country": "Poland",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": "KOMNINO Sp. z o.o.",
-      "statusModifier": "BRAND",
-      "shortDescription": "Contracor is a manufacturer brand for abrasive-blasting machines, blast cabinets and related air-preparation and operator-protection equipment.",
-      "fullDescription": [
-        "The manufacturer-owned Contracor site identifies KOMNINO as the company responsible for the brand's abrasive-blasting equipment.",
-        "The official range includes portable blasting machines, blast cabinets, abrasive recovery systems, nozzles and hoses, compressed-air preparation and protective equipment."
-      ],
-      "productCategories": [
-        "Оборудование для очистки поверхностей",
-        "Промышленные компрессоры",
-        "Средства промышленной безопасности"
-      ],
-      "productFamilies": [
-        "Portable Blasting Machines",
-        "Blast Cabinets",
-        "Abrasive Recovery Systems",
-        "Blast Nozzles and Hoses",
-        "Compressed-Air Preparation",
-        "Operator Protective Equipment"
-      ],
-      "series": [],
-      "industries": [
-        "Металлообработка",
-        "Строительство",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.contracor.com.pl/en"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-contracor-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "CURRENT_BRAND_OWNER_AND_ABRASIVE_BLASTING_PRODUCT_SCOPE",
-          "url": "https://www.contracor.com.pl/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"contracor","officialName":"KOMNINO Sp. z o.o.","displayName":"Contracor","aliases":["CONTRACOR"],"formerNames":[],"officialWebsite":"https://www.contracor.com.pl/en","officialDomains":["contracor.com.pl"],"country":"Poland","headquarters":null,"foundedYear":null,"parentCompany":"KOMNINO Sp. z o.o.","statusModifier":"BRAND",
+      "shortDescription":"Contracor is a manufacturer brand for abrasive-blasting machines, blast cabinets and related air-preparation and operator-protection equipment.",
+      "fullDescription":["The manufacturer-owned Contracor site identifies KOMNINO as the company responsible for the brand's abrasive-blasting equipment.","The official range includes portable blasting machines, blast cabinets, abrasive recovery systems, nozzles and hoses, compressed-air preparation and protective equipment."],
+      "productCategories":["Оборудование для очистки поверхностей","Промышленные компрессоры","Средства промышленной безопасности"],"productFamilies":["Portable Blasting Machines","Blast Cabinets","Abrasive Recovery Systems","Blast Nozzles and Hoses","Compressed-Air Preparation","Operator Protective Equipment"],"series":[],"industries":["Металлообработка","Строительство","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.contracor.com.pl/en"],
+      "sources":[{"sourceId":"brand-contracor-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CURRENT_BRAND_OWNER_AND_ABRASIVE_BLASTING_PRODUCT_SCOPE","url":"https://www.contracor.com.pl/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "copeland",
-      "officialName": "Copeland LP",
-      "displayName": "Copeland",
-      "aliases": [
-        "COPELAND"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.copeland.com/en-us",
-      "officialDomains": [
-        "copeland.com"
-      ],
-      "country": "United States",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Copeland develops compression, controls and monitoring technologies for heating, cooling and refrigeration systems.",
-      "fullDescription": [
-        "Copeland's official site establishes a manufacturer of climate technologies for residential, commercial and industrial applications.",
-        "Its product portfolio includes compressors, condensing units, refrigeration controls, monitoring systems, thermostats and components for heating and cooling equipment."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Холодильное оборудование",
-        "Промышленная автоматизация",
-        "Промышленные регуляторы"
-      ],
-      "productFamilies": [
-        "Refrigeration Compressors",
-        "HVAC Compressors",
-        "Condensing Units",
-        "Refrigeration Controls",
-        "Monitoring Systems",
-        "Thermostats"
-      ],
-      "series": [],
-      "industries": [
-        "HVAC и здания",
-        "Холодильная промышленность",
-        "Пищевая промышленность"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.copeland.com/en-us/products?epslanguage=en-US"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-copeland-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CURRENT_MANUFACTURER_IDENTITY_AND_COMPRESSOR_CONTROL_MONITORING_SCOPE",
-          "url": "https://www.copeland.com/en-us/products?epslanguage=en-US",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"copeland","officialName":"Copeland LP","displayName":"Copeland","aliases":["COPELAND"],"formerNames":[],"officialWebsite":"https://www.copeland.com/en-us","officialDomains":["copeland.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Copeland develops compression, controls and monitoring technologies for heating, cooling and refrigeration systems.",
+      "fullDescription":["Copeland's official site establishes a manufacturer of climate technologies for residential, commercial and industrial applications.","Its product portfolio includes compressors, condensing units, refrigeration controls, monitoring systems, thermostats and components for heating and cooling equipment."],
+      "productCategories":["Промышленные компрессоры","Холодильное оборудование","Промышленная автоматизация","Промышленные регуляторы"],"productFamilies":["Refrigeration Compressors","HVAC Compressors","Condensing Units","Refrigeration Controls","Monitoring Systems","Thermostats"],"series":[],"industries":["HVAC и здания","Холодильная промышленность","Пищевая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.copeland.com/en-us/products?epslanguage=en-US"],
+      "sources":[{"sourceId":"brand-copeland-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_MANUFACTURER_IDENTITY_AND_COMPRESSOR_CONTROL_MONITORING_SCOPE","url":"https://www.copeland.com/en-us/products?epslanguage=en-US","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "nicolas-correa",
-      "officialName": "Nicolás Correa S.A.",
-      "displayName": "Nicolás Correa",
-      "aliases": [
-        "NICOLAS CORREA",
-        "NICOLÁS CORREA",
-        "CORREA"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.nicolascorrea.com/en/",
-      "officialDomains": [
-        "nicolascorrea.com"
-      ],
-      "country": "Spain",
-      "headquarters": "Burgos, Spain",
-      "foundedYear": 1947,
-      "parentCompany": null,
-      "shortDescription": "Nicolás Correa manufactures large milling machines and machining systems for industrial component production.",
-      "fullDescription": [
-        "Nicolás Correa's official company page documents a Spanish machine-tool manufacturer founded in 1947 and based in Burgos.",
-        "Its product range covers bed-type, gantry, floor-type, bridge and T-configuration milling machines for machining large and complex components."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Промышленные станки"
-      ],
-      "productFamilies": [
-        "Bed-Type Milling Machines",
-        "Gantry Milling Machines",
-        "Floor-Type Milling Machines",
-        "Bridge Milling Machines",
-        "T-Configuration Milling Machines"
-      ],
-      "series": [],
-      "industries": [
-        "Станкостроение",
-        "Аэрокосмическая промышленность",
-        "Энергетика",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.nicolascorrea.com/media/uploads/maquinas/catalogos/Product_Range_EN.pdf"
-      ],
-      "documentationSources": [
-        "https://www.nicolascorrea.com/en/about-us"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-nicolas-correa-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_MILLING_SPECIALISATION",
-          "url": "https://www.nicolascorrea.com/en/about-us",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-nicolas-correa-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "BED_GANTRY_FLOOR_BRIDGE_AND_T_CONFIGURATION_MACHINE_RANGE",
-          "url": "https://www.nicolascorrea.com/media/uploads/maquinas/catalogos/Product_Range_EN.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"nicolas-correa","officialName":"Nicolás Correa S.A.","displayName":"Nicolás Correa","aliases":["NICOLAS CORREA","NICOLÁS CORREA","CORREA"],"formerNames":[],"officialWebsite":"https://www.nicolascorrea.com/en/","officialDomains":["nicolascorrea.com"],"country":"Spain","headquarters":"Burgos, Spain","foundedYear":1947,"parentCompany":null,
+      "shortDescription":"Nicolás Correa manufactures large milling machines and machining systems for industrial component production.",
+      "fullDescription":["Nicolás Correa's official company page documents a Spanish machine-tool manufacturer founded in 1947 and based in Burgos.","Its product range covers bed-type, gantry, floor-type, bridge and T-configuration milling machines for machining large and complex components."],
+      "productCategories":["Металлообрабатывающие станки","Промышленные станки"],"productFamilies":["Bed-Type Milling Machines","Gantry Milling Machines","Floor-Type Milling Machines","Bridge Milling Machines","T-Configuration Milling Machines"],"series":[],"industries":["Станкостроение","Аэрокосмическая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":["https://www.nicolascorrea.com/media/uploads/maquinas/catalogos/Product_Range_EN.pdf"],"documentationSources":["https://www.nicolascorrea.com/en/about-us"],
+      "sources":[{"sourceId":"brand-nicolas-correa-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_MILLING_SPECIALISATION","url":"https://www.nicolascorrea.com/en/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-nicolas-correa-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"BED_GANTRY_FLOOR_BRIDGE_AND_T_CONFIGURATION_MACHINE_RANGE","url":"https://www.nicolascorrea.com/media/uploads/maquinas/catalogos/Product_Range_EN.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "cortem",
-      "officialName": "Cortem S.p.A.",
-      "displayName": "Cortem",
-      "aliases": [
-        "CORTEM",
-        "CORTEM GROUP"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.cortemgroup.com/en",
-      "officialDomains": [
-        "cortemgroup.com"
-      ],
-      "country": "Italy",
-      "headquarters": "Villesse, Italy",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Cortem manufactures explosion-protected electrical equipment for hazardous industrial environments.",
-      "fullDescription": [
-        "Cortem's official site identifies an Italian manufacturer of electrical equipment for areas with potentially explosive atmospheres.",
-        "The documented portfolio covers lighting, junction boxes, cable glands, signaling devices, plugs and sockets, control stations and installation fittings."
-      ],
-      "productCategories": [
-        "Электротехническое оборудование",
-        "Кабельные соединения",
-        "Средства промышленной безопасности"
-      ],
-      "productFamilies": [
-        "Explosion-Protected Lighting",
-        "Junction Boxes",
-        "Cable Glands",
-        "Signaling Devices",
-        "Plugs and Sockets",
-        "Control Stations",
-        "Installation Fittings"
-      ],
-      "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Химическая промышленность",
-        "Морская промышленность",
-        "Энергетика"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.cortemgroup.com/en"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-cortem-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_AND_EXPLOSION_PROTECTED_ELECTRICAL_SCOPE",
-          "url": "https://www.cortemgroup.com/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"cortem","officialName":"Cortem S.p.A.","displayName":"Cortem","aliases":["CORTEM","CORTEM GROUP"],"formerNames":[],"officialWebsite":"https://www.cortemgroup.com/en","officialDomains":["cortemgroup.com"],"country":"Italy","headquarters":"Villesse, Italy","foundedYear":null,"parentCompany":null,
+      "shortDescription":"Cortem manufactures explosion-protected electrical equipment for hazardous industrial environments.",
+      "fullDescription":["Cortem's official site identifies an Italian manufacturer of electrical equipment for areas with potentially explosive atmospheres.","The documented portfolio covers lighting, junction boxes, cable glands, signaling devices, plugs and sockets, control stations and installation fittings."],
+      "productCategories":["Электротехническое оборудование","Кабельные соединения","Средства промышленной безопасности"],"productFamilies":["Explosion-Protected Lighting","Junction Boxes","Cable Glands","Signaling Devices","Plugs and Sockets","Control Stations","Installation Fittings"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Морская промышленность","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.cortemgroup.com/en"],
+      "sources":[{"sourceId":"brand-cortem-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_AND_EXPLOSION_PROTECTED_ELECTRICAL_SCOPE","url":"https://www.cortemgroup.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "costacurta",
-      "officialName": "Costacurta S.p.A.-VICO",
-      "displayName": "Costacurta",
-      "aliases": [
-        "COSTACURTA",
-        "COSTACURTA VICO"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.costacurta.it/",
-      "officialDomains": [
-        "costacurta.it"
-      ],
-      "country": "Italy",
-      "headquarters": "Milan, Italy",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Costacurta manufactures metal components for filtration, conveying, separation and process-equipment applications.",
-      "fullDescription": [
-        "Costacurta's manufacturer-owned site identifies an Italian company producing components from metal wire and plate.",
-        "The official portfolio includes woven wire cloth, filter discs, perforated plates, wedge-wire screens, conveyor belts, separation internals and reactor components."
-      ],
-      "productCategories": [
-        "Фильтрационное оборудование",
-        "Конвейерное оборудование",
-        "Металлообработка и изготовление промышленных компонентов"
-      ],
-      "productFamilies": [
-        "Woven Wire Cloth",
-        "Filter Discs",
-        "Perforated Plates",
-        "Wedge-Wire Screens",
-        "Metal Conveyor Belts",
-        "Separation Internals",
-        "Reactor Internals"
-      ],
-      "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Нефтегазовая промышленность",
-        "Пищевая промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.costacurta.it/prodotti/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-costacurta-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_WIRE_PLATE_FILTRATION_CONVEYING_PRODUCT_SCOPE",
-          "url": "https://www.costacurta.it/prodotti/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"costacurta","officialName":"Costacurta S.p.A.-VICO","displayName":"Costacurta","aliases":["COSTACURTA","COSTACURTA VICO"],"formerNames":[],"officialWebsite":"https://www.costacurta.it/","officialDomains":["costacurta.it"],"country":"Italy","headquarters":"Milan, Italy","foundedYear":null,"parentCompany":null,
+      "shortDescription":"Costacurta manufactures metal components for filtration, conveying, separation and process-equipment applications.",
+      "fullDescription":["Costacurta's manufacturer-owned site identifies an Italian company producing components from metal wire and plate.","The official portfolio includes woven wire cloth, filter discs, perforated plates, wedge-wire screens, conveyor belts, separation internals and reactor components."],
+      "productCategories":["Фильтрационное оборудование","Конвейерное оборудование","Металлообработка и изготовление промышленных компонентов"],"productFamilies":["Woven Wire Cloth","Filter Discs","Perforated Plates","Wedge-Wire Screens","Metal Conveyor Belts","Separation Internals","Reactor Internals"],"series":[],"industries":["Химическая промышленность","Нефтегазовая промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.costacurta.it/prodotti/"],
+      "sources":[{"sourceId":"brand-costacurta-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_WIRE_PLATE_FILTRATION_CONVEYING_PRODUCT_SCOPE","url":"https://www.costacurta.it/prodotti/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "crydom",
-      "officialName": "Crydom",
-      "displayName": "Crydom",
-      "aliases": [
-        "CRYDOM"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.sensata.com/products/relays/solid-state-relays",
-      "officialDomains": [
-        "sensata.com"
-      ],
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": "Sensata Technologies",
-      "statusModifier": "GROUP_BRAND",
-      "shortDescription": "Crydom is a Sensata brand for solid-state relays and contactors used in industrial switching and control.",
-      "fullDescription": [
-        "Sensata's official product material identifies Crydom within its solid-state relay portfolio.",
-        "The documented range includes panel-mount, PCB-mount and DIN-rail solid-state relays and contactors for controlling electrical loads in industrial equipment."
-      ],
-      "productCategories": [
-        "Промышленные реле",
-        "Промышленная автоматизация",
-        "Электротехническое оборудование"
-      ],
-      "productFamilies": [
-        "Panel-Mount Solid-State Relays",
-        "PCB-Mount Solid-State Relays",
-        "DIN-Rail Solid-State Relays",
-        "Solid-State Contactors"
-      ],
-      "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "HVAC и здания",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.sensata.com/products/relays"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-crydom-parent-products",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_CRYDOM_BRAND_IDENTITY_AND_SOLID_STATE_RELAY_SCOPE",
-          "url": "https://www.sensata.com/products/relays/solid-state-relays",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"crydom","officialName":"Crydom","displayName":"Crydom","aliases":["CRYDOM"],"formerNames":[],"officialWebsite":"https://www.sensata.com/products/relays/solid-state-relays","officialDomains":["sensata.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Sensata Technologies","statusModifier":"GROUP_BRAND",
+      "shortDescription":"Crydom is a Sensata brand for solid-state relays and contactors used in industrial switching and control.",
+      "fullDescription":["Sensata's official product material identifies Crydom within its solid-state relay portfolio.","The documented range includes panel-mount, PCB-mount and DIN-rail solid-state relays and contactors for controlling electrical loads in industrial equipment."],
+      "productCategories":["Промышленные реле","Промышленная автоматизация","Электротехническое оборудование"],"productFamilies":["Panel-Mount Solid-State Relays","PCB-Mount Solid-State Relays","DIN-Rail Solid-State Relays","Solid-State Contactors"],"series":[],"industries":["Промышленная автоматизация","HVAC и здания","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sensata.com/products/relays"],
+      "sources":[{"sourceId":"brand-crydom-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_CRYDOM_BRAND_IDENTITY_AND_SOLID_STATE_RELAY_SCOPE","url":"https://www.sensata.com/products/relays/solid-state-relays","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "cuno",
-      "officialName": "CUNO",
-      "displayName": "CUNO",
-      "aliases": [
-        "CUNO",
-        "3M CUNO"
-      ],
-      "formerNames": [
-        "CUNO Incorporated"
-      ],
-      "officialWebsite": "https://www.3m.com/",
-      "officialDomains": [
-        "3m.com"
-      ],
-      "country": "United States",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": "3M Company",
-      "statusModifier": "ACQUIRED_BRAND",
-      "shortDescription": "CUNO is a 3M filtration brand associated with liquid and gas filtration systems for industrial and water applications.",
-      "fullDescription": [
-        "3M's official acquisition record identifies CUNO as a filtration business acquired by 3M, while current 3M product literature continues to use the CUNO trademark.",
-        "The documented product scope includes self-cleaning metal filters and filtration solutions for separating, clarifying and purifying fluids and gases."
-      ],
-      "productCategories": [
-        "Фильтрационное оборудование",
-        "Водоподготовка и фильтрация"
-      ],
-      "productFamilies": [
-        "Self-Cleaning Metal Filters",
-        "Liquid Filtration Systems",
-        "Gas Filtration Systems"
-      ],
-      "series": [
-        "EF",
-        "EG",
-        "G"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Водоподготовка",
-        "Морская промышленность"
-      ],
-      "officialCatalogs": [
-        "https://multimedia.3m.com/mws/media/530429O/cuno-ef-series-self-cleaning-metal-filter.pdf"
-      ],
-      "documentationSources": [
-        "https://investors.3m.com/financials/sec-filings/content/0001104659-05-036077/a05-14221_1ex99d1.htm"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-cuno-acquisition",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_CORPORATE_RECORD",
-          "scope": "ACQUISITION_IDENTITY_AND_FILTRATION_BUSINESS_SCOPE",
-          "url": "https://investors.3m.com/financials/sec-filings/content/0001104659-05-036077/a05-14221_1ex99d1.htm",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-cuno-product-document",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_DOCUMENT",
-          "scope": "CURRENT_CUNO_TRADEMARK_AND_SELF_CLEANING_METAL_FILTER_SCOPE",
-          "url": "https://multimedia.3m.com/mws/media/530429O/cuno-ef-series-self-cleaning-metal-filter.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"cuno","officialName":"CUNO","displayName":"CUNO","aliases":["CUNO","3M CUNO"],"formerNames":["CUNO Incorporated"],"officialWebsite":"https://www.3m.com/","officialDomains":["3m.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"3M Company","statusModifier":"ACQUIRED_BRAND",
+      "shortDescription":"CUNO is a 3M filtration brand associated with liquid and gas filtration systems for industrial and water applications.",
+      "fullDescription":["3M's official acquisition record identifies CUNO as a filtration business acquired by 3M, while current 3M product literature continues to use the CUNO trademark.","The documented product scope includes self-cleaning metal filters and filtration solutions for separating, clarifying and purifying fluids and gases."],
+      "productCategories":["Фильтрационное оборудование","Водоподготовка и фильтрация"],"productFamilies":["Self-Cleaning Metal Filters","Liquid Filtration Systems","Gas Filtration Systems"],"series":["EF","EG","G"],"industries":["Промышленное производство","Водоподготовка","Морская промышленность"],"officialCatalogs":["https://multimedia.3m.com/mws/media/530429O/cuno-ef-series-self-cleaning-metal-filter.pdf"],"documentationSources":["https://investors.3m.com/financials/sec-filings/content/0001104659-05-036077/a05-14221_1ex99d1.htm"],
+      "sources":[{"sourceId":"brand-cuno-acquisition","tier":"A","type":"OFFICIAL_PARENT_CORPORATE_RECORD","scope":"ACQUISITION_IDENTITY_AND_FILTRATION_BUSINESS_SCOPE","url":"https://investors.3m.com/financials/sec-filings/content/0001104659-05-036077/a05-14221_1ex99d1.htm","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cuno-product-document","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"CURRENT_CUNO_TRADEMARK_AND_SELF_CLEANING_METAL_FILTER_SCOPE","url":"https://multimedia.3m.com/mws/media/530429O/cuno-ef-series-self-cleaning-metal-filter.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "daikin",
-      "officialName": "Daikin Industries, Ltd.",
-      "displayName": "Daikin",
-      "aliases": [
-        "DAIKIN",
-        "DAIKIN INDUSTRIES"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.daikin.com/",
-      "officialDomains": [
-        "daikin.com"
-      ],
-      "country": "Japan",
-      "headquarters": null,
-      "foundedYear": 1924,
-      "parentCompany": null,
-      "shortDescription": "Daikin develops air-conditioning and refrigeration systems, fluorochemical products and industrial hydraulic equipment.",
-      "fullDescription": [
-        "Daikin Industries' official corporate site documents a Japanese manufacturer founded in 1924.",
-        "Its published business portfolio covers air conditioning and refrigeration, fluorochemicals, oil-hydraulic equipment and related environmental and service technologies."
-      ],
-      "productCategories": [
-        "Промышленное охлаждение",
-        "Холодильное оборудование",
-        "Гидравлическое оборудование",
-        "Промышленные машины"
-      ],
-      "productFamilies": [
-        "Air-Conditioning Systems",
-        "Refrigeration Systems",
-        "Fluorochemical Products",
-        "Oil-Hydraulic Equipment"
-      ],
-      "series": [],
-      "industries": [
-        "HVAC и здания",
-        "Холодильная промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.daikin.com/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-daikin-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_AIR_CONDITIONING_CHEMICAL_HYDRAULIC_SCOPE",
-          "url": "https://www.daikin.com/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"daikin","officialName":"Daikin Industries, Ltd.","displayName":"Daikin","aliases":["DAIKIN","DAIKIN INDUSTRIES"],"formerNames":[],"officialWebsite":"https://www.daikin.com/","officialDomains":["daikin.com"],"country":"Japan","headquarters":null,"foundedYear":1924,"parentCompany":null,
+      "shortDescription":"Daikin develops air-conditioning and refrigeration systems, fluorochemical products and industrial hydraulic equipment.",
+      "fullDescription":["Daikin Industries' official corporate site documents a Japanese manufacturer founded in 1924.","Its published business portfolio covers air conditioning and refrigeration, fluorochemicals, oil-hydraulic equipment and related environmental and service technologies."],
+      "productCategories":["Промышленное охлаждение","Холодильное оборудование","Гидравлическое оборудование","Промышленные машины"],"productFamilies":["Air-Conditioning Systems","Refrigeration Systems","Fluorochemical Products","Oil-Hydraulic Equipment"],"series":[],"industries":["HVAC и здания","Холодильная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.daikin.com/products"],
+      "sources":[{"sourceId":"brand-daikin-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_FOUNDED_AND_AIR_CONDITIONING_CHEMICAL_HYDRAULIC_SCOPE","url":"https://www.daikin.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "dalex",
-      "officialName": "DALEX Automation & Welding GmbH",
-      "displayName": "DALEX",
-      "aliases": [
-        "DALEX",
-        "DALEX AUTOMATION & WELDING"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.dalex.de/en/",
-      "officialDomains": [
-        "dalex.de"
-      ],
-      "country": "Germany",
-      "headquarters": "Wissen, Germany",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "DALEX designs resistance-welding machines, robotic welding cells and custom automated joining systems.",
-      "fullDescription": [
-        "DALEX's official site identifies a German manufacturer of resistance-welding and automation equipment based in Wissen.",
-        "Its documented portfolio includes standard and special-purpose resistance welders, robotic cells, medium-frequency transformers and manual welding guns."
-      ],
-      "productCategories": [
-        "Сварочное оборудование",
-        "Робототехника",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Resistance Welding Machines",
-        "Robotic Welding Cells",
-        "Special Welding Systems",
-        "Medium-Frequency Transformers",
-        "Manual Welding Guns"
-      ],
-      "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Промышленное производство",
-        "Промышленная автоматизация"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.dalex.de/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-dalex-company-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_RESISTANCE_WELDING_AUTOMATION_SCOPE",
-          "url": "https://www.dalex.de/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"dalex","officialName":"DALEX Automation & Welding GmbH","displayName":"DALEX","aliases":["DALEX","DALEX AUTOMATION & WELDING"],"formerNames":[],"officialWebsite":"https://www.dalex.de/en/","officialDomains":["dalex.de"],"country":"Germany","headquarters":"Wissen, Germany","foundedYear":null,"parentCompany":null,
+      "shortDescription":"DALEX designs resistance-welding machines, robotic welding cells and custom automated joining systems.",
+      "fullDescription":["DALEX's official site identifies a German manufacturer of resistance-welding and automation equipment based in Wissen.","Its documented portfolio includes standard and special-purpose resistance welders, robotic cells, medium-frequency transformers and manual welding guns."],
+      "productCategories":["Сварочное оборудование","Робототехника","Промышленная автоматизация"],"productFamilies":["Resistance Welding Machines","Robotic Welding Cells","Special Welding Systems","Medium-Frequency Transformers","Manual Welding Guns"],"series":[],"industries":["Автомобильная промышленность","Промышленное производство","Промышленная автоматизация"],"officialCatalogs":[],"documentationSources":["https://www.dalex.de/en/"],
+      "sources":[{"sourceId":"brand-dalex-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_RESISTANCE_WELDING_AUTOMATION_SCOPE","url":"https://www.dalex.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "dallan",
-      "officialName": "Dallan S.p.A.",
-      "displayName": "Dallan",
-      "aliases": [
-        "DALLAN"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.dallan.com/en/",
-      "officialDomains": [
-        "dallan.com"
-      ],
-      "country": "Italy",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Dallan develops roll-forming and coil-processing systems for thin-sheet metal components.",
-      "fullDescription": [
-        "Dallan's official company profile identifies an Italian machinery manufacturer specializing in production systems for thin sheet metal.",
-        "The documented portfolio includes roll-forming lines, punching and laser-processing systems, packaging integration and automated equipment for finished metal profiles."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Вальцовочное оборудование",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Roll-Forming Lines",
-        "Coil Punching Systems",
-        "Coil Laser Systems",
-        "Profile Packaging Systems",
-        "Automated Sheet-Metal Lines"
-      ],
-      "series": [],
-      "industries": [
-        "Металлообработка",
-        "Строительная промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.dallan.com/en/products/rollformers/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-dallan-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_AND_THIN_SHEET_PROCESSING_SPECIALISATION",
-          "url": "https://www.dallan.com/en/company-profile/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-dallan-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "ROLL_FORMING_COIL_PROCESSING_AND_AUTOMATED_LINE_SCOPE",
-          "url": "https://www.dallan.com/en/products/rollformers/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"dallan","officialName":"Dallan S.p.A.","displayName":"Dallan","aliases":["DALLAN"],"formerNames":[],"officialWebsite":"https://www.dallan.com/en/","officialDomains":["dallan.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"Dallan develops roll-forming and coil-processing systems for thin-sheet metal components.",
+      "fullDescription":["Dallan's official company profile identifies an Italian machinery manufacturer specializing in production systems for thin sheet metal.","The documented portfolio includes roll-forming lines, punching and laser-processing systems, packaging integration and automated equipment for finished metal profiles."],
+      "productCategories":["Металлообрабатывающие станки","Вальцовочное оборудование","Промышленная автоматизация"],"productFamilies":["Roll-Forming Lines","Coil Punching Systems","Coil Laser Systems","Profile Packaging Systems","Automated Sheet-Metal Lines"],"series":[],"industries":["Металлообработка","Строительная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.dallan.com/en/products/rollformers/"],
+      "sources":[{"sourceId":"brand-dallan-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_THIN_SHEET_PROCESSING_SPECIALISATION","url":"https://www.dallan.com/en/company-profile/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-dallan-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ROLL_FORMING_COIL_PROCESSING_AND_AUTOMATED_LINE_SCOPE","url":"https://www.dallan.com/en/products/rollformers/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "danfoss",
-      "officialName": "Danfoss A/S",
-      "displayName": "Danfoss",
-      "aliases": [
-        "DANFOSS"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.danfoss.com/en/",
-      "officialDomains": [
-        "danfoss.com"
-      ],
-      "country": "Denmark",
-      "headquarters": null,
-      "foundedYear": 1933,
-      "parentCompany": null,
-      "shortDescription": "Danfoss develops hydraulic, drive, climate and control technologies for mobile equipment, buildings and industrial systems.",
-      "fullDescription": [
-        "Danfoss' official company information documents a Danish engineering group founded in 1933.",
-        "Its published product portfolio spans mobile and industrial hydraulics, variable-speed drives, compressors, valves, sensors, heat exchangers and climate-control equipment."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Системы управления движением",
-        "Промышленные компрессоры",
-        "Промышленные клапаны",
-        "Промышленные датчики",
-        "Теплообменное оборудование"
-      ],
-      "productFamilies": [
-        "Hydraulic Pumps and Motors",
-        "Hydraulic Valves",
-        "Variable-Speed Drives",
-        "Compressors",
-        "Industrial Sensors",
-        "Heat Exchangers",
-        "Climate Controls"
-      ],
-      "series": [],
-      "industries": [
-        "Промышленное производство",
-        "HVAC и здания",
-        "Энергетика",
-        "Морская промышленность"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.danfoss.com/en/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-danfoss-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_ENGINEERING_BUSINESS_SCOPE",
-          "url": "https://www.danfoss.com/en/about-danfoss/company/who-we-are/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-danfoss-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HYDRAULIC_DRIVE_COMPRESSOR_VALVE_SENSOR_AND_HEAT_EXCHANGER_SCOPE",
-          "url": "https://www.danfoss.com/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"danfoss","officialName":"Danfoss A/S","displayName":"Danfoss","aliases":["DANFOSS"],"formerNames":[],"officialWebsite":"https://www.danfoss.com/en/","officialDomains":["danfoss.com"],"country":"Denmark","headquarters":null,"foundedYear":1933,"parentCompany":null,
+      "shortDescription":"Danfoss develops hydraulic, drive, climate and control technologies for mobile equipment, buildings and industrial systems.",
+      "fullDescription":["Danfoss' official company information documents a Danish engineering group founded in 1933.","Its published product portfolio spans mobile and industrial hydraulics, variable-speed drives, compressors, valves, sensors, heat exchangers and climate-control equipment."],
+      "productCategories":["Гидравлическое оборудование","Системы управления движением","Промышленные компрессоры","Промышленные клапаны","Промышленные датчики","Теплообменное оборудование"],"productFamilies":["Hydraulic Pumps and Motors","Hydraulic Valves","Variable-Speed Drives","Compressors","Industrial Sensors","Heat Exchangers","Climate Controls"],"series":[],"industries":["Промышленное производство","HVAC и здания","Энергетика","Морская промышленность"],"officialCatalogs":[],"documentationSources":["https://www.danfoss.com/en/products/"],
+      "sources":[{"sourceId":"brand-danfoss-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_AND_ENGINEERING_BUSINESS_SCOPE","url":"https://www.danfoss.com/en/about-danfoss/company/who-we-are/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-danfoss-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_DRIVE_COMPRESSOR_VALVE_SENSOR_AND_HEAT_EXCHANGER_SCOPE","url":"https://www.danfoss.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "danieli",
-      "officialName": "Danieli & C. Officine Meccaniche S.p.A.",
-      "displayName": "Danieli",
-      "aliases": [
-        "DANIELI",
-        "DANIELI GROUP"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.danieli.com/en/",
-      "officialDomains": [
-        "danieli.com"
-      ],
-      "country": "Italy",
-      "headquarters": "Buttrio, Italy",
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "Danieli engineers plants, machinery and automation for iron, steel, aluminium and non-ferrous metal production.",
-      "fullDescription": [
-        "Danieli's official site identifies an Italian engineering group supplying technologies and complete plants for metals production.",
-        "Its documented process scope includes ironmaking and steelmaking, casting and rolling for flat and long products, non-ferrous-metal processing, finishing lines and industrial automation."
-      ],
-      "productCategories": [
-        "Металлургическое оборудование",
-        "Промышленные машины",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Ironmaking and Steelmaking Plants",
-        "Flat-Product Lines",
-        "Long-Product Lines",
-        "Non-Ferrous Metal Plants",
-        "Casting and Rolling Lines",
-        "Metals Automation Systems"
-      ],
-      "series": [],
-      "industries": [
-        "Металлургия",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.danieli.com/en/products/processes-and-technologies.htm"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-danieli-processes",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_IRON_STEEL_FLAT_LONG_NONFERROUS_AUTOMATION_SCOPE",
-          "url": "https://www.danieli.com/en/products/processes-and-technologies.htm",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-danieli-turnkey",
-          "tier": "A",
-          "type": "SOLUTIONS",
-          "scope": "TURNKEY_METALS_PLANT_ENGINEERING_AND_EXECUTION_SCOPE",
-          "url": "https://www.danieli.com/en/worldwide/turnkey-plants.htm",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"danieli","officialName":"Danieli & C. Officine Meccaniche S.p.A.","displayName":"Danieli","aliases":["DANIELI","DANIELI GROUP"],"formerNames":[],"officialWebsite":"https://www.danieli.com/en/","officialDomains":["danieli.com"],"country":"Italy","headquarters":"Buttrio, Italy","foundedYear":null,"parentCompany":null,
+      "shortDescription":"Danieli engineers plants, machinery and automation for iron, steel, aluminium and non-ferrous metal production.",
+      "fullDescription":["Danieli's official site identifies an Italian engineering group supplying technologies and complete plants for metals production.","Its documented process scope includes ironmaking and steelmaking, casting and rolling for flat and long products, non-ferrous-metal processing, finishing lines and industrial automation."],
+      "productCategories":["Металлургическое оборудование","Промышленные машины","Промышленная автоматизация"],"productFamilies":["Ironmaking and Steelmaking Plants","Flat-Product Lines","Long-Product Lines","Non-Ferrous Metal Plants","Casting and Rolling Lines","Metals Automation Systems"],"series":[],"industries":["Металлургия","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.danieli.com/en/products/processes-and-technologies.htm"],
+      "sources":[{"sourceId":"brand-danieli-processes","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_IRON_STEEL_FLAT_LONG_NONFERROUS_AUTOMATION_SCOPE","url":"https://www.danieli.com/en/products/processes-and-technologies.htm","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-danieli-turnkey","tier":"A","type":"SOLUTIONS","scope":"TURNKEY_METALS_PLANT_ENGINEERING_AND_EXECUTION_SCOPE","url":"https://www.danieli.com/en/worldwide/turnkey-plants.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "danly",
-      "officialName": "Danly IEM",
-      "displayName": "Danly",
-      "aliases": [
-        "DANLY",
-        "DANLY IEM"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.daytonlamina.com/",
-      "officialDomains": [
-        "daytonlamina.com"
-      ],
-      "country": "United States",
-      "headquarters": null,
-      "foundedYear": 1923,
-      "parentCompany": "Dayton Lamina Corporation",
-      "statusModifier": "GROUP_BRAND",
-      "shortDescription": "Danly is a Dayton Lamina brand for die-making components, springs, punches and tooling for metal-forming operations.",
-      "fullDescription": [
-        "Dayton Lamina's official brand literature documents Danly as a die-component brand serving the parts-forming industry since 1923.",
-        "The published Danly range includes guide posts and bushings, die springs, punches, wear products, cams, die accessories and selected in-die tapping equipment."
-      ],
-      "productCategories": [
-        "Промышленные инструменты",
-        "Металлообработка и изготовление промышленных компонентов",
-        "Гидравлическое оборудование"
-      ],
-      "productFamilies": [
-        "Guide Posts and Bushings",
-        "Die Springs",
-        "Punches and Die Buttons",
-        "Wear Products",
-        "Cams",
-        "Die Accessories",
-        "In-Die Tapping Units"
-      ],
-      "series": [
-        "Danly IEM",
-        "DieMax XL",
-        "MaxLife"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Автомобильная промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://file.daytonlamina.com/pdf/700_Dayton_Lamina_Line_Card.pdf"
-      ],
-      "documentationSources": [
-        "https://www.daytonlamina.com/resources/documents/catalogs"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-danly-parent-line-card",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_DOCUMENT",
-          "scope": "CURRENT_BRAND_IDENTITY_HISTORY_AND_DIE_COMPONENT_PRODUCT_SCOPE",
-          "url": "https://file.daytonlamina.com/pdf/700_Dayton_Lamina_Line_Card.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-danly-parent-catalogs",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_DOCUMENTATION",
-          "scope": "CURRENT_DANLY_CATALOG_AND_PRODUCT_FAMILY_COVERAGE",
-          "url": "https://www.daytonlamina.com/resources/documents/catalogs",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"danly","officialName":"Danly IEM","displayName":"Danly","aliases":["DANLY","DANLY IEM"],"formerNames":[],"officialWebsite":"https://www.daytonlamina.com/","officialDomains":["daytonlamina.com"],"country":"United States","headquarters":null,"foundedYear":1923,"parentCompany":"Dayton Lamina Corporation","statusModifier":"GROUP_BRAND",
+      "shortDescription":"Danly is a Dayton Lamina brand for die-making components, springs, punches and tooling for metal-forming operations.",
+      "fullDescription":["Dayton Lamina's official brand literature documents Danly as a die-component brand serving the parts-forming industry since 1923.","The published Danly range includes guide posts and bushings, die springs, punches, wear products, cams, die accessories and selected in-die tapping equipment."],
+      "productCategories":["Промышленные инструменты","Металлообработка и изготовление промышленных компонентов","Гидравлическое оборудование"],"productFamilies":["Guide Posts and Bushings","Die Springs","Punches and Die Buttons","Wear Products","Cams","Die Accessories","In-Die Tapping Units"],"series":["Danly IEM","DieMax XL","MaxLife"],"industries":["Металлообработка","Автомобильная промышленность","Промышленное производство"],"officialCatalogs":["https://file.daytonlamina.com/pdf/700_Dayton_Lamina_Line_Card.pdf"],"documentationSources":["https://www.daytonlamina.com/resources/documents/catalogs"],
+      "sources":[{"sourceId":"brand-danly-parent-line-card","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"CURRENT_BRAND_IDENTITY_HISTORY_AND_DIE_COMPONENT_PRODUCT_SCOPE","url":"https://file.daytonlamina.com/pdf/700_Dayton_Lamina_Line_Card.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-danly-parent-catalogs","tier":"A","type":"OFFICIAL_PARENT_DOCUMENTATION","scope":"CURRENT_DANLY_CATALOG_AND_PRODUCT_FAMILY_COVERAGE","url":"https://www.daytonlamina.com/resources/documents/catalogs","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "danobatgroup",
-      "officialName": "Danobatgroup S. Coop.",
-      "displayName": "Danobatgroup",
-      "aliases": [
-        "DANOBATGROUP",
-        "DANOBAT GROUP"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.danobatgroup.com/en/",
-      "officialDomains": [
-        "danobatgroup.com"
-      ],
-      "country": "Spain",
-      "headquarters": "Elgoibar, Spain",
-      "foundedYear": null,
-      "parentCompany": "MONDRAGON Corporation",
-      "statusModifier": "INDUSTRIAL_GROUP",
-      "shortDescription": "Danobatgroup is an industrial group focused on machine tools, advanced manufacturing systems and precision-machining technologies.",
-      "fullDescription": [
-        "Danobatgroup's official corporate site identifies a cooperative industrial group within MONDRAGON specializing in machine tools and advanced manufacturing solutions.",
-        "Its group portfolio includes grinding and turning machines, precision robotic machining, milling and boring systems, turnkey production systems and high-precision machining services."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Промышленные станки",
-        "Робототехника"
-      ],
-      "productFamilies": [
-        "Grinding Machines",
-        "Turning Machines",
-        "Precision Machining Robots",
-        "Milling and Boring Machines",
-        "Turnkey Production Systems",
-        "Precision Machining Services"
-      ],
-      "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Аэрокосмическая промышленность",
-        "Железнодорожная промышленность",
-        "Энергетика",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.danobatgroup.com/en/companies"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-danobatgroup-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_ADVANCED_MANUFACTURING_SPECIALISATION",
-          "url": "https://www.danobatgroup.com/en/group",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-danobatgroup-companies",
-          "tier": "A",
-          "type": "OFFICIAL_GROUP_PORTFOLIO",
-          "scope": "GRINDING_TURNING_ROBOTIC_MILLING_BORING_AND_MACHINING_SCOPE",
-          "url": "https://www.danobatgroup.com/en/companies",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"danobatgroup","officialName":"Danobatgroup S. Coop.","displayName":"Danobatgroup","aliases":["DANOBATGROUP","DANOBAT GROUP"],"formerNames":[],"officialWebsite":"https://www.danobatgroup.com/en/","officialDomains":["danobatgroup.com"],"country":"Spain","headquarters":"Elgoibar, Spain","foundedYear":null,"parentCompany":"MONDRAGON Corporation","statusModifier":"INDUSTRIAL_GROUP",
+      "shortDescription":"Danobatgroup is an industrial group focused on machine tools, advanced manufacturing systems and precision-machining technologies.",
+      "fullDescription":["Danobatgroup's official corporate site identifies a cooperative industrial group within MONDRAGON specializing in machine tools and advanced manufacturing solutions.","Its group portfolio includes grinding and turning machines, precision robotic machining, milling and boring systems, turnkey production systems and high-precision machining services."],
+      "productCategories":["Металлообрабатывающие станки","Промышленные станки","Робототехника"],"productFamilies":["Grinding Machines","Turning Machines","Precision Machining Robots","Milling and Boring Machines","Turnkey Production Systems","Precision Machining Services"],"series":[],"industries":["Автомобильная промышленность","Аэрокосмическая промышленность","Железнодорожная промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.danobatgroup.com/en/companies"],
+      "sources":[{"sourceId":"brand-danobatgroup-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_ADVANCED_MANUFACTURING_SPECIALISATION","url":"https://www.danobatgroup.com/en/group","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-danobatgroup-companies","tier":"A","type":"OFFICIAL_GROUP_PORTFOLIO","scope":"GRINDING_TURNING_ROBOTIC_MILLING_BORING_AND_MACHINING_SCOPE","url":"https://www.danobatgroup.com/en/companies","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "datcon",
-      "officialName": "DATCON Industrial Electronics Ltd.",
-      "displayName": "DATCON",
-      "aliases": [
-        "DATCON",
-        "DATCON INDUSTRIAL ELECTRONICS"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.datcon.eu/",
-      "officialDomains": [
-        "datcon.eu"
-      ],
-      "country": "Hungary",
-      "headquarters": null,
-      "foundedYear": 1982,
-      "parentCompany": null,
-      "shortDescription": "DATCON manufactures industrial measurement, signal-conditioning and intrinsically safe interface equipment.",
-      "fullDescription": [
-        "DATCON's official site identifies an industrial electronics manufacturer established in 1982.",
-        "Its product catalogue covers galvanic and intrinsically safe isolators, transmitters and meters for temperature, electrical and pressure signals, process indicators, pulse controllers, power supplies and surge protection."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Промышленная автоматизация",
-        "Источники питания",
-        "Средства промышленной безопасности"
-      ],
-      "productFamilies": [
-        "Galvanic Isolators",
-        "Intrinsically Safe Isolators",
-        "Temperature Transmitters",
-        "Electrical Meters and Transmitters",
-        "Pressure Transmitters",
-        "Process Indicators",
-        "Power Supplies",
-        "Surge Protectors"
-      ],
-      "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Нефтегазовая промышленность",
-        "Энергетика",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.datcon.eu/downloads/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-datcon-products",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_MEASUREMENT_SIGNAL_CONDITIONING_SCOPE",
-          "url": "https://www.datcon.eu/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-datcon-downloads",
-          "tier": "A",
-          "type": "DOCUMENTATION_PORTAL",
-          "scope": "PRODUCT_CATALOG_LEAFLET_MANUAL_AND_CERTIFICATE_COVERAGE",
-          "url": "https://www.datcon.eu/downloads/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"datcon","officialName":"DATCON Industrial Electronics Ltd.","displayName":"DATCON","aliases":["DATCON","DATCON INDUSTRIAL ELECTRONICS"],"formerNames":[],"officialWebsite":"https://www.datcon.eu/","officialDomains":["datcon.eu"],"country":"Hungary","headquarters":null,"foundedYear":1982,"parentCompany":null,
+      "shortDescription":"DATCON manufactures industrial measurement, signal-conditioning and intrinsically safe interface equipment.",
+      "fullDescription":["DATCON's official site identifies an industrial electronics manufacturer established in 1982.","Its product catalogue covers galvanic and intrinsically safe isolators, transmitters and meters for temperature, electrical and pressure signals, process indicators, pulse controllers, power supplies and surge protection."],
+      "productCategories":["Измерительное оборудование","Промышленная автоматизация","Источники питания","Средства промышленной безопасности"],"productFamilies":["Galvanic Isolators","Intrinsically Safe Isolators","Temperature Transmitters","Electrical Meters and Transmitters","Pressure Transmitters","Process Indicators","Power Supplies","Surge Protectors"],"series":[],"industries":["Промышленная автоматизация","Нефтегазовая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.datcon.eu/downloads/"],
+      "sources":[{"sourceId":"brand-datcon-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_FOUNDED_AND_MEASUREMENT_SIGNAL_CONDITIONING_SCOPE","url":"https://www.datcon.eu/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-datcon-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"PRODUCT_CATALOG_LEAFLET_MANUAL_AND_CERTIFICATE_COVERAGE","url":"https://www.datcon.eu/downloads/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "datel",
-      "officialName": "DATEL, Inc.",
-      "displayName": "DATEL",
-      "aliases": [
-        "DATEL",
-        "DATEL INC"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.datel.com/",
-      "officialDomains": [
-        "datel.com"
-      ],
-      "country": "United States",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "DATEL manufactures precision data-acquisition components and DC-DC power converters for industrial and high-reliability electronics.",
-      "fullDescription": [
-        "DATEL's manufacturer-owned site documents a component business focused on precision data acquisition and power conversion.",
-        "The official product range includes analog-to-digital and digital-to-analog converters, sample-and-hold amplifiers, multiplexers, complete data-acquisition modules and isolated and non-isolated DC-DC converters."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Силовые преобразователи",
-        "Электронные компоненты"
-      ],
-      "productFamilies": [
-        "Analog-to-Digital Converters",
-        "Digital-to-Analog Converters",
-        "Data-Acquisition Modules",
-        "Sample-and-Hold Amplifiers",
-        "Multiplexers",
-        "DC-DC Converters",
-        "Switching Regulators"
-      ],
-      "series": [],
-      "industries": [
-        "Электронная промышленность",
-        "Аэрокосмическая промышленность",
-        "Медицинская промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://datel.com/catalog/"
-      ],
-      "documentationSources": [
-        "https://www.datel.com/data-acquisition/index-da.php"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-datel-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "LEGAL_IDENTITY_AND_DATA_ACQUISITION_POWER_CONVERSION_SCOPE",
-          "url": "https://datel.com/catalog/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-datel-data-acquisition",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "ADC_DAC_ACQUISITION_AMPLIFIER_AND_MULTIPLEXER_FAMILIES",
-          "url": "https://www.datel.com/data-acquisition/index-da.php",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"datel","officialName":"DATEL, Inc.","displayName":"DATEL","aliases":["DATEL","DATEL INC"],"formerNames":[],"officialWebsite":"https://www.datel.com/","officialDomains":["datel.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"DATEL manufactures precision data-acquisition components and DC-DC power converters for industrial and high-reliability electronics.",
+      "fullDescription":["DATEL's manufacturer-owned site documents a component business focused on precision data acquisition and power conversion.","The official product range includes analog-to-digital and digital-to-analog converters, sample-and-hold amplifiers, multiplexers, complete data-acquisition modules and isolated and non-isolated DC-DC converters."],
+      "productCategories":["Измерительное оборудование","Силовые преобразователи","Электронные компоненты"],"productFamilies":["Analog-to-Digital Converters","Digital-to-Analog Converters","Data-Acquisition Modules","Sample-and-Hold Amplifiers","Multiplexers","DC-DC Converters","Switching Regulators"],"series":[],"industries":["Электронная промышленность","Аэрокосмическая промышленность","Медицинская промышленность","Промышленное производство"],"officialCatalogs":["https://datel.com/catalog/"],"documentationSources":["https://www.datel.com/data-acquisition/index-da.php"],
+      "sources":[{"sourceId":"brand-datel-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"LEGAL_IDENTITY_AND_DATA_ACQUISITION_POWER_CONVERSION_SCOPE","url":"https://datel.com/catalog/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-datel-data-acquisition","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ADC_DAC_ACQUISITION_AMPLIFIER_AND_MULTIPLEXER_FAMILIES","url":"https://www.datel.com/data-acquisition/index-da.php","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "datexel",
-      "officialName": "DATEXEL S.r.l.",
-      "displayName": "Datexel",
-      "aliases": [
-        "DATEXEL"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.datexel.it/en/",
-      "officialDomains": [
-        "datexel.it",
-        "datexel.com"
-      ],
-      "country": "Italy",
-      "headquarters": "Lonate Ceppino, Varese, Italy",
-      "foundedYear": 1992,
-      "parentCompany": null,
-      "shortDescription": "Datexel manufactures signal conditioners, temperature transmitters and industrial communication modules for process control.",
-      "fullDescription": [
-        "Datexel's official company profile identifies an Italian industrial-electronics manufacturer founded in 1992.",
-        "The documented range includes signal and temperature transmitters, converters, galvanic isolators, signal splitters, Modbus and PROFINET I/O modules, trip amplifiers, power supplies and displays."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Промышленная автоматизация",
-        "Источники питания",
-        "Промышленные датчики"
-      ],
-      "productFamilies": [
-        "Temperature Transmitters",
-        "Signal Converters",
-        "Galvanic Isolators",
-        "Signal Splitters",
-        "Modbus I/O Modules",
-        "PROFINET I/O Modules",
-        "Trip Amplifiers",
-        "Process Displays"
-      ],
-      "series": [
-        "DAT 1000",
-        "DAT 2000",
-        "DAT 11000"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Энергетика",
-        "Нефтегазовая промышленность",
-        "Пищевая промышленность",
-        "Химическая промышленность"
-      ],
-      "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.datexel.it/en/company/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-datexel-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PROCESS_ELECTRONICS_SCOPE",
-          "url": "https://www.datexel.it/en/company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-datexel-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "TRANSMITTER_CONVERTER_ISOLATOR_IO_POWER_AND_DISPLAY_FAMILIES",
-          "url": "https://www.datexel.it/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"datexel","officialName":"DATEXEL S.r.l.","displayName":"Datexel","aliases":["DATEXEL"],"formerNames":[],"officialWebsite":"https://www.datexel.it/en/","officialDomains":["datexel.it","datexel.com"],"country":"Italy","headquarters":"Lonate Ceppino, Varese, Italy","foundedYear":1992,"parentCompany":null,
+      "shortDescription":"Datexel manufactures signal conditioners, temperature transmitters and industrial communication modules for process control.",
+      "fullDescription":["Datexel's official company profile identifies an Italian industrial-electronics manufacturer founded in 1992.","The documented range includes signal and temperature transmitters, converters, galvanic isolators, signal splitters, Modbus and PROFINET I/O modules, trip amplifiers, power supplies and displays."],
+      "productCategories":["Измерительное оборудование","Промышленная автоматизация","Источники питания","Промышленные датчики"],"productFamilies":["Temperature Transmitters","Signal Converters","Galvanic Isolators","Signal Splitters","Modbus I/O Modules","PROFINET I/O Modules","Trip Amplifiers","Process Displays"],"series":["DAT 1000","DAT 2000","DAT 11000"],"industries":["Промышленная автоматизация","Энергетика","Нефтегазовая промышленность","Пищевая промышленность","Химическая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.datexel.it/en/company/"],
+      "sources":[{"sourceId":"brand-datexel-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PROCESS_ELECTRONICS_SCOPE","url":"https://www.datexel.it/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-datexel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TRANSMITTER_CONVERTER_ISOLATOR_IO_POWER_AND_DISPLAY_FAMILIES","url":"https://www.datexel.it/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
-      "manufacturerId": "datron",
-      "officialName": "DATRON AG",
-      "displayName": "DATRON",
-      "aliases": [
-        "DATRON",
-        "DATRON AG"
-      ],
-      "formerNames": [],
-      "officialWebsite": "https://www.datron.de/en/",
-      "officialDomains": [
-        "datron.de",
-        "datron.com"
-      ],
-      "country": "Germany",
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "shortDescription": "DATRON manufactures high-speed CNC milling machines, dispensing systems, dental milling equipment and precision cutting tools.",
-      "fullDescription": [
-        "DATRON's official product material identifies a German manufacturer of compact, high-speed CNC and dispensing systems.",
-        "The documented portfolio covers CNC milling machines, dental milling machines, industrial dispensing equipment, automation options and balanced cutting tools for high-speed machining."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Клеенаносящие системы",
-        "Промышленные инструменты",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "High-Speed CNC Milling Machines",
-        "Dental Milling Machines",
-        "Industrial Dispensing Systems",
-        "CNC Automation Options",
-        "CNC Cutting Tools"
-      ],
-      "series": [
-        "neo",
-        "M8Cube",
-        "MLCube",
-        "MXCube",
-        "EVO 600"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Электронная промышленность",
-        "Медицинская промышленность",
-        "Промышленная автоматизация"
-      ],
-      "officialCatalogs": [
-        "https://www.datron.com/wp-content/uploads/2022/11/DATRON_Accessories_Catalog.pdf"
-      ],
-      "documentationSources": [
-        "https://www.datron.com/cnc-milling-machines/"
-      ],
-      "sources": [
-        {
-          "sourceId": "brand-datron-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_CNC_MILLING_MACHINE_SCOPE",
-          "url": "https://www.datron.com/cnc-milling-machines/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-datron-official-document",
-          "tier": "A",
-          "type": "OFFICIAL_DOCUMENT",
-          "scope": "CNC_DENTAL_DISPENSING_TOOLING_AND_AUTOMATION_PORTFOLIO",
-          "url": "https://www.datron.com/wp-content/uploads/2022/11/DATRON_Accessories_Catalog.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "manufacturerId":"datron","officialName":"DATRON AG","displayName":"DATRON","aliases":["DATRON","DATRON AG"],"formerNames":[],"officialWebsite":"https://www.datron.de/en/","officialDomains":["datron.de","datron.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
+      "shortDescription":"DATRON manufactures high-speed CNC milling machines, dispensing systems, dental milling equipment and precision cutting tools.",
+      "fullDescription":["DATRON's official product material identifies a German manufacturer of compact, high-speed CNC and dispensing systems.","The documented portfolio covers CNC milling machines, dental milling machines, industrial dispensing equipment, automation options and balanced cutting tools for high-speed machining."],
+      "productCategories":["Металлообрабатывающие станки","Клеенаносящие системы","Промышленные инструменты","Промышленная автоматизация"],"productFamilies":["High-Speed CNC Milling Machines","Dental Milling Machines","Industrial Dispensing Systems","CNC Automation Options","CNC Cutting Tools"],"series":["neo","M8Cube","MLCube","MXCube","EVO 600"],"industries":["Промышленное производство","Электронная промышленность","Медицинская промышленность","Промышленная автоматизация"],"officialCatalogs":["https://www.datron.com/wp-content/uploads/2022/11/DATRON_Accessories_Catalog.pdf"],"documentationSources":["https://www.datron.com/cnc-milling-machines/"],
+      "sources":[{"sourceId":"brand-datron-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_CNC_MILLING_MACHINE_SCOPE","url":"https://www.datron.com/cnc-milling-machines/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-datron-official-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"CNC_DENTAL_DISPENSING_TOOLING_AND_AUTOMATION_PORTFOLIO","url":"https://www.datron.com/wp-content/uploads/2022/11/DATRON_Accessories_Catalog.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     }
   ]
 }

@@ -6,97 +6,63 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "WOLF is used by multiple unrelated current manufacturers, and the queue record does not contain enough scope information to identify one manufacturer-owned source without risking a false match.",
-      "attemptedUrls": [
-        "https://www.wolf.eu/",
-        "https://www.wolftools.com/",
-        "https://www.wolfautomation.com/"
-      ]
+      "attemptedUrls": ["https://www.wolf.eu/", "https://www.wolftools.com/", "https://www.wolfautomation.com/"]
     },
     {
       "manufacturerId": "aeg",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "AEG is a broad licensed and legacy brand used across several present-day product businesses; the raw record does not identify the intended legal manufacturer or industrial product scope.",
-      "attemptedUrls": [
-        "https://www.aeg.com/",
-        "https://www.aeg-industrialsolar.de/",
-        "https://www.aegps.com/"
-      ]
+      "attemptedUrls": ["https://www.aeg.com/", "https://www.aeg-industrialsolar.de/", "https://www.aegps.com/"]
     },
     {
       "manufacturerId": "rodon",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "RODON matches several unrelated industrial companies and product brands. No queue evidence distinguishes the intended entity strongly enough for publication.",
-      "attemptedUrls": [
-        "https://www.rodongroup.com/",
-        "https://rodon.com/",
-        "https://www.rodonparts.com/"
-      ]
+      "attemptedUrls": ["https://www.rodongroup.com/", "https://rodon.com/", "https://www.rodonparts.com/"]
     },
     {
       "manufacturerId": "itec",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "ITEC is a generic acronym used by multiple manufacturers in different industrial sectors; no canonical product scope or independent identity signal is present in the queue record.",
-      "attemptedUrls": [
-        "https://www.itec.de/",
-        "https://www.itec-ltd.co.uk/",
-        "https://www.itec.co.jp/"
-      ]
+      "attemptedUrls": ["https://www.itec.de/", "https://www.itec-ltd.co.uk/", "https://www.itec.co.jp/"]
     },
     {
       "manufacturerId": "mez-brno",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "MEZ BRNO is associated with several current successor and related motor businesses. The raw identity does not establish which current manufacturer entity should own the canonical page.",
-      "attemptedUrls": [
-        "https://www.mez.cz/",
-        "https://www.mezmotors.cz/",
-        "https://www.mez-brno.cz/"
-      ]
+      "attemptedUrls": ["https://www.mez.cz/", "https://www.mezmotors.cz/", "https://www.mez-brno.cz/"]
     },
     {
       "manufacturerId": "sti",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "STI is used by multiple unrelated industrial manufacturers, including safety, transport and process-equipment businesses. The queue record lacks a product or geography discriminator.",
-      "attemptedUrls": [
-        "https://www.sti-usa.com/",
-        "https://www.sti-industrie.com/",
-        "https://www.sti-global.com/"
-      ]
+      "attemptedUrls": ["https://www.sti-usa.com/", "https://www.sti-industrie.com/", "https://www.sti-global.com/"]
     },
     {
       "manufacturerId": "supervac",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "SUPERVAC corresponds to separate manufacturers of vacuum packaging machinery, ventilation equipment and vacuum systems. A canonical match cannot be made from the raw name alone.",
-      "attemptedUrls": [
-        "https://www.supervac.at/",
-        "https://supervac.com/",
-        "https://www.supervac.co/"
-      ]
+      "attemptedUrls": ["https://www.supervac.at/", "https://supervac.com/", "https://www.supervac.co/"]
     },
     {
       "manufacturerId": "bockwoldt",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The Bockwoldt geared-motor identity is plausible, but its manufacturer-owned website could not be reached or verified during this pass. Distributor-hosted catalogs were not accepted as primary evidence.",
-      "attemptedUrls": [
-        "https://www.bockwoldt.de/",
-        "https://www.bockwoldt.com/"
-      ]
+      "attemptedUrls": ["https://www.bockwoldt.de/", "https://www.bockwoldt.com/"]
     },
     {
       "manufacturerId": "kromschroder",
       "status": "DUPLICATE_CANONICAL_CANDIDATE",
       "checkedAt": "2026-08-24",
       "reason": "The Kromschröder identity, Honeywell ownership and combustion-control scope duplicate the existing canonical elster-kromschroeder profile. A second indexable profile would split one current brand identity.",
-      "attemptedUrls": [
-        "https://process.honeywell.com/",
-        "https://www.kromschroeder.de/en/"
-      ]
+      "attemptedUrls": ["https://process.honeywell.com/", "https://www.kromschroeder.de/en/"]
     }
   ],
   "profiles": [
@@ -104,2984 +70,1036 @@
       "manufacturerId": "freymatic",
       "officialName": "FREYMATIC AG",
       "displayName": "FREYMATIC",
-      "aliases": [
-        "FREYMATIC",
-        "FREYMATIC AG"
-      ],
+      "aliases": ["FREYMATIC", "FREYMATIC AG"],
       "formerNames": [],
       "officialWebsite": "https://www.freymatic.com/en/",
-      "officialDomains": [
-        "freymatic.com"
-      ],
+      "officialDomains": ["freymatic.com"],
       "country": "Switzerland",
       "headquarters": "Domat/Ems, Switzerland",
       "foundedYear": 1855,
       "parentCompany": null,
       "shortDescription": "FREYMATIC develops shot-peening systems and tooling for controlled component treatment and handling.",
-      "fullDescription": [
-        "FREYMATIC AG is verified through its manufacturer-owned company profile as a Swiss machine and plant engineering business founded in 1855 and based in Domat/Ems.",
-        "Its current documented focus includes high-end shot-peening and blasting systems, retrofit projects, tooling and equipment for component handling, with particular application in aerospace manufacturing and maintenance."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Промышленная автоматизация и контроллеры",
-        "Оборудование для обработки поверхностей"
-      ],
-      "productFamilies": [
-        "Shot Peening Systems",
-        "Tooling and Equipment",
-        "Retrofit Systems"
-      ],
-      "series": [
-        "roxor"
-      ],
-      "industries": [
-        "Аэрокосмическая промышленность",
-        "Машиностроение"
-      ],
+      "fullDescription": ["FREYMATIC AG is verified through its manufacturer-owned company profile as a Swiss machine and plant engineering business founded in 1855 and based in Domat/Ems.", "Its current documented focus includes high-end shot-peening and blasting systems, retrofit projects, tooling and equipment for component handling, with particular application in aerospace manufacturing and maintenance."],
+      "productCategories": ["Промышленные машины", "Промышленная автоматизация и контроллеры", "Оборудование для обработки поверхностей"],
+      "productFamilies": ["Shot Peening Systems", "Tooling and Equipment", "Retrofit Systems"],
+      "series": ["roxor"],
+      "industries": ["Аэрокосмическая промышленность", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.freymatic.com/en/tooling-equipment/",
-        "https://www.freymatic.com/en/range-of-service/"
-      ],
+      "documentationSources": ["https://www.freymatic.com/en/tooling-equipment/", "https://www.freymatic.com/en/range-of-service/"],
       "sources": [
-        {
-          "sourceId": "brand-freymatic-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_ENGINEERING_SPECIALISATION",
-          "url": "https://www.freymatic.com/en/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-freymatic-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SHOT_PEENING_TOOLING_AND_RETROFIT_SCOPE",
-          "url": "https://www.freymatic.com/en/tooling-equipment/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-freymatic-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_ENGINEERING_SPECIALISATION","url":"https://www.freymatic.com/en/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-freymatic-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SHOT_PEENING_TOOLING_AND_RETROFIT_SCOPE","url":"https://www.freymatic.com/en/tooling-equipment/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "fybroc",
       "officialName": "Fybroc",
       "displayName": "Fybroc",
-      "aliases": [
-        "FYBROC"
-      ],
+      "aliases": ["FYBROC"],
       "formerNames": [],
       "officialWebsite": "https://www.tuskind.com/",
-      "officialDomains": [
-        "tuskind.com"
-      ],
+      "officialDomains": ["tuskind.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Tusk Industrial",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Fybroc is a Tusk Industrial pump brand focused on corrosion-resistant fiberglass pumping equipment.",
-      "fullDescription": [
-        "Fybroc is verified on the manufacturer-owned Tusk Industrial platform as one of its engineered pump brands, alongside Dean and Sethco.",
-        "The official Fybroc range covers corrosion-resistant fiberglass pumps in horizontal ANSI, self-priming, magnetic-drive, vertical and recessed-impeller configurations for demanding process-liquid service."
-      ],
-      "productCategories": [
-        "Промышленные насосы"
-      ],
-      "productFamilies": [
-        "Horizontal ANSI Pumps",
-        "Self-Priming Pumps",
-        "Magnetic Drive Pumps",
-        "Vertical Pumps",
-        "Recessed Impeller Pumps"
-      ],
-      "series": [
-        "1500 Series",
-        "2530 Series",
-        "5500 Series",
-        "7000 Series",
-        "7530 Series"
-      ],
-      "industries": [
-        "Химическая промышленность",
-        "Водоподготовка",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.tuskind.com/wp-content/uploads/2025/10/Tusk-Fybroc-Series-7530-IOMb.pdf"
-      ],
-      "documentationSources": [
-        "https://www.tuskind.com/brands/fybroc/"
-      ],
+      "fullDescription": ["Fybroc is verified on the manufacturer-owned Tusk Industrial platform as one of its engineered pump brands, alongside Dean and Sethco.", "The official Fybroc range covers corrosion-resistant fiberglass pumps in horizontal ANSI, self-priming, magnetic-drive, vertical and recessed-impeller configurations for demanding process-liquid service."],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Horizontal ANSI Pumps", "Self-Priming Pumps", "Magnetic Drive Pumps", "Vertical Pumps", "Recessed Impeller Pumps"],
+      "series": ["1500 Series", "2530 Series", "5500 Series", "7000 Series", "7530 Series"],
+      "industries": ["Химическая промышленность", "Водоподготовка", "Промышленное производство"],
+      "officialCatalogs": ["https://www.tuskind.com/wp-content/uploads/2025/10/Tusk-Fybroc-Series-7530-IOMb.pdf"],
+      "documentationSources": ["https://www.tuskind.com/brands/fybroc/"],
       "sources": [
-        {
-          "sourceId": "brand-fybroc-parent",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_AND_FIBERGLASS_PUMP_SPECIALISATION",
-          "url": "https://www.tuskind.com/who-we-are/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-fybroc-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "CORROSION_RESISTANT_FIBERGLASS_PUMP_FAMILIES",
-          "url": "https://www.tuskind.com/wp-content/uploads/2025/10/Tusk-Fybroc-Series-7530-IOMb.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-fybroc-parent","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_FIBERGLASS_PUMP_SPECIALISATION","url":"https://www.tuskind.com/who-we-are/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-fybroc-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"CORROSION_RESISTANT_FIBERGLASS_PUMP_FAMILIES","url":"https://www.tuskind.com/wp-content/uploads/2025/10/Tusk-Fybroc-Series-7530-IOMb.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "metaris",
       "officialName": "Metaris",
       "displayName": "Metaris",
-      "aliases": [
-        "METARIS",
-        "GENUINE METARIS"
-      ],
+      "aliases": ["METARIS", "GENUINE METARIS"],
       "formerNames": [],
       "officialWebsite": "https://www.hydraulex.com/",
-      "officialDomains": [
-        "hydraulex.com"
-      ],
+      "officialDomains": ["hydraulex.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Hydraulex",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Metaris is a Hydraulex hydraulic brand covering pumps, motors, valves and cylinders.",
-      "fullDescription": [
-        "Metaris is verified through the manufacturer-owned Hydraulex product platform as a current hydraulic equipment brand.",
-        "Its documented portfolio includes gear, vane and piston pumps and motors, dump and refuse pumps, hydraulic valves, power-take-off equipment and cylinders for mobile and industrial hydraulic systems."
-      ],
-      "productCategories": [
-        "Гидравлические насосы",
-        "Гидравлические моторы",
-        "Гидравлические клапаны",
-        "Гидравлические цилиндры"
-      ],
-      "productFamilies": [
-        "Gear Pumps and Motors",
-        "Vane Pumps and Motors",
-        "Piston Pumps and Motors",
-        "Dump Pumps",
-        "Hydraulic Valves",
-        "Hydraulic Cylinders"
-      ],
-      "series": [
-        "T6",
-        "T7",
-        "MHUP"
-      ],
-      "industries": [
-        "Мобильная техника",
-        "Промышленная гидравлика",
-        "Транспорт"
-      ],
-      "officialCatalogs": [
-        "https://www.hydraulex.com/pdfs/Metaris_Gear_Product_TechnicalCatalog-web.pdf",
-        "https://www.hydraulex.com/pdfs/Metaris_Vane_Product_TechnicalCatalog_web.pdf"
-      ],
-      "documentationSources": [
-        "https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php",
-        "https://www.hydraulex.com/metaris-mhup-unloader-pump.php"
-      ],
+      "fullDescription": ["Metaris is verified through the manufacturer-owned Hydraulex product platform as a current hydraulic equipment brand.", "Its documented portfolio includes gear, vane and piston pumps and motors, dump and refuse pumps, hydraulic valves, power-take-off equipment and cylinders for mobile and industrial hydraulic systems."],
+      "productCategories": ["Гидравлические насосы", "Гидравлические моторы", "Гидравлические клапаны", "Гидравлические цилиндры"],
+      "productFamilies": ["Gear Pumps and Motors", "Vane Pumps and Motors", "Piston Pumps and Motors", "Dump Pumps", "Hydraulic Valves", "Hydraulic Cylinders"],
+      "series": ["T6", "T7", "MHUP"],
+      "industries": ["Мобильная техника", "Промышленная гидравлика", "Транспорт"],
+      "officialCatalogs": ["https://www.hydraulex.com/pdfs/Metaris_Gear_Product_TechnicalCatalog-web.pdf", "https://www.hydraulex.com/pdfs/Metaris_Vane_Product_TechnicalCatalog_web.pdf"],
+      "documentationSources": ["https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php", "https://www.hydraulex.com/metaris-mhup-unloader-pump.php"],
       "sources": [
-        {
-          "sourceId": "brand-metaris-parent",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_HYDRAULIC_PORTFOLIO",
-          "url": "https://www.hydraulex.com/sitemap.php",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-metaris-vane-products",
-          "tier": "A",
-          "type": "PRODUCT_PAGE",
-          "scope": "T6_T7_VANE_PUMP_FAMILY",
-          "url": "https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-metaris-parent","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_HYDRAULIC_PORTFOLIO","url":"https://www.hydraulex.com/sitemap.php","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-metaris-vane-products","tier":"A","type":"PRODUCT_PAGE","scope":"T6_T7_VANE_PUMP_FAMILY","url":"https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "nemicon",
       "officialName": "Nemicon Corporation",
       "displayName": "Nemicon",
-      "aliases": [
-        "NEMICON",
-        "NEMICON CORPORATION"
-      ],
+      "aliases": ["NEMICON", "NEMICON CORPORATION"],
       "formerNames": [],
       "officialWebsite": "https://www.nemicon.co.jp/en/",
-      "officialDomains": [
-        "nemicon.co.jp"
-      ],
+      "officialDomains": ["nemicon.co.jp"],
       "country": "Japan",
       "headquarters": "Tokyo, Japan",
       "foundedYear": null,
       "parentCompany": "Broadcom Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Nemicon manufactures incremental, absolute and manual rotary encoders for motion and position feedback.",
-      "fullDescription": [
-        "Nemicon Corporation is verified through its manufacturer-owned English website as a Broadcom group company based in Tokyo, Japan.",
-        "The official range covers incremental and absolute rotary encoders, manual encoders and pulse generators used in motors, machine tools, elevators, printing equipment, medical systems and other motion-control applications."
-      ],
-      "productCategories": [
-        "Промышленные энкодеры",
-        "Промышленные датчики",
-        "Системы управления движением"
-      ],
-      "productFamilies": [
-        "Incremental Encoders",
-        "Absolute Encoders",
-        "Manual Encoders",
-        "Pulse Generators"
-      ],
+      "fullDescription": ["Nemicon Corporation is verified through its manufacturer-owned English website as a Broadcom group company based in Tokyo, Japan.", "The official range covers incremental and absolute rotary encoders, manual encoders and pulse generators used in motors, machine tools, elevators, printing equipment, medical systems and other motion-control applications."],
+      "productCategories": ["Промышленные энкодеры", "Промышленные датчики", "Системы управления движением"],
+      "productFamilies": ["Incremental Encoders", "Absolute Encoders", "Manual Encoders", "Pulse Generators"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Лифтовое оборудование",
-        "Медицинское оборудование",
-        "Полиграфия",
-        "Промышленная автоматизация"
-      ],
-      "officialCatalogs": [
-        "https://www.nemicon.co.jp/en/wp-content/uploads/23E_18M_202005.pdf"
-      ],
-      "documentationSources": [
-        "https://www.nemicon.co.jp/en/"
-      ],
+      "industries": ["Машиностроение", "Лифтовое оборудование", "Медицинское оборудование", "Полиграфия", "Промышленная автоматизация"],
+      "officialCatalogs": ["https://www.nemicon.co.jp/en/wp-content/uploads/23E_18M_202005.pdf"],
+      "documentationSources": ["https://www.nemicon.co.jp/en/"],
       "sources": [
-        {
-          "sourceId": "brand-nemicon-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_PARENT_HEADQUARTERS_AND_ENCODER_SCOPE",
-          "url": "https://www.nemicon.co.jp/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-nemicon-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "INCREMENTAL_ABSOLUTE_AND_MANUAL_ENCODER_FAMILIES",
-          "url": "https://www.nemicon.co.jp/en/wp-content/uploads/23E_18M_202005.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-nemicon-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_PARENT_HEADQUARTERS_AND_ENCODER_SCOPE","url":"https://www.nemicon.co.jp/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-nemicon-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"INCREMENTAL_ABSOLUTE_AND_MANUAL_ENCODER_FAMILIES","url":"https://www.nemicon.co.jp/en/wp-content/uploads/23E_18M_202005.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "niob-fluid",
       "officialName": "NIOB FLUID s.r.o.",
       "displayName": "NIOB FLUID",
-      "aliases": [
-        "NIOB FLUID",
-        "NIOB FLUID SRO"
-      ],
+      "aliases": ["NIOB FLUID", "NIOB FLUID SRO"],
       "formerNames": [],
       "officialWebsite": "https://www.niobfluid.cz/",
-      "officialDomains": [
-        "niobfluid.cz"
-      ],
+      "officialDomains": ["niobfluid.cz"],
       "country": "Czech Republic",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "NIOB FLUID manufactures stainless-steel piping components, fittings and valves for hygienic process systems.",
-      "fullDescription": [
-        "NIOB FLUID s.r.o. is verified through its manufacturer-owned website and technical catalogs as a Czech supplier of stainless-steel flow-system components.",
-        "The documented range includes connecting and fastening fittings, shut-off and control valves, aseptic components and accessories for hygienic piping and process installations."
-      ],
-      "productCategories": [
-        "Промышленные клапаны и арматура",
-        "Трубопроводные компоненты"
-      ],
-      "productFamilies": [
-        "Connecting Fittings",
-        "Shut-Off Valves",
-        "Control Fittings",
-        "Aseptic Components",
-        "Accessories"
-      ],
+      "fullDescription": ["NIOB FLUID s.r.o. is verified through its manufacturer-owned website and technical catalogs as a Czech supplier of stainless-steel flow-system components.", "The documented range includes connecting and fastening fittings, shut-off and control valves, aseptic components and accessories for hygienic piping and process installations."],
+      "productCategories": ["Промышленные клапаны и арматура", "Трубопроводные компоненты"],
+      "productFamilies": ["Connecting Fittings", "Shut-Off Valves", "Control Fittings", "Aseptic Components", "Accessories"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность",
-        "Химическая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf",
-        "https://www.niobfluid.cz/katalogy_2021/07_prislusenstvi_cz_ru.pdf"
-      ],
-      "documentationSources": [
-        "https://www.niobfluid.cz/"
-      ],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Химическая промышленность"],
+      "officialCatalogs": ["https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf", "https://www.niobfluid.cz/katalogy_2021/07_prislusenstvi_cz_ru.pdf"],
+      "documentationSources": ["https://www.niobfluid.cz/"],
       "sources": [
-        {
-          "sourceId": "brand-niob-fluid-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_STAINLESS_FLOW_COMPONENT_SCOPE",
-          "url": "https://www.niobfluid.cz/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-niob-fluid-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "CONNECTING_SHUTOFF_CONTROL_AND_ASEPTIC_FITTINGS",
-          "url": "https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-niob-fluid-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_STAINLESS_FLOW_COMPONENT_SCOPE","url":"https://www.niobfluid.cz/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-niob-fluid-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"CONNECTING_SHUTOFF_CONTROL_AND_ASEPTIC_FITTINGS","url":"https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "metalbud-nowicki",
       "officialName": "Noma Sp. z o.o.",
       "displayName": "NOMA Nowicki Machinery",
-      "aliases": [
-        "NOWICKI",
-        "NOWICKI MACHINERY",
-        "NOMA",
-        "METALBUD NOWICKI"
-      ],
-      "formerNames": [
-        "NOWICKI MACHINERY",
-        "Metalbud Nowicki"
-      ],
+      "aliases": ["NOWICKI", "NOWICKI MACHINERY", "NOMA", "METALBUD NOWICKI"],
+      "formerNames": ["NOWICKI MACHINERY", "Metalbud Nowicki"],
       "officialWebsite": "https://www.noma.tech/en/",
-      "officialDomains": [
-        "noma.tech"
-      ],
+      "officialDomains": ["noma.tech"],
       "country": "Poland",
       "headquarters": "Rawa Mazowiecka, Poland",
       "foundedYear": 1974,
       "parentCompany": null,
       "shortDescription": "NOMA, formerly Nowicki Machinery, develops food-processing machines and automated production lines.",
-      "fullDescription": [
-        "Noma Sp. z o.o. is verified through its manufacturer-owned website as the current identity of the Polish machinery business founded by Henryk Nowicki in 1974 in Rawa Mazowiecka.",
-        "The official offer covers bowl cutters, grinders, vacuum tumblers, brine preparation and injection systems, micro-cutters, washing equipment and automated lines for meat and food processing."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Оборудование для пищевой промышленности",
-        "Оборудование для мойки",
-        "Промышленная автоматизация и контроллеры"
-      ],
-      "productFamilies": [
-        "Bowl Cutters",
-        "Grinders",
-        "Vacuum Tumblers",
-        "Brine Preparation and Injection",
-        "Micro-Cutters",
-        "Washing Systems",
-        "Automatic Processing Lines"
-      ],
+      "fullDescription": ["Noma Sp. z o.o. is verified through its manufacturer-owned website as the current identity of the Polish machinery business founded by Henryk Nowicki in 1974 in Rawa Mazowiecka.", "The official offer covers bowl cutters, grinders, vacuum tumblers, brine preparation and injection systems, micro-cutters, washing equipment and automated lines for meat and food processing."],
+      "productCategories": ["Промышленные машины", "Оборудование для пищевой промышленности", "Оборудование для мойки", "Промышленная автоматизация и контроллеры"],
+      "productFamilies": ["Bowl Cutters", "Grinders", "Vacuum Tumblers", "Brine Preparation and Injection", "Micro-Cutters", "Washing Systems", "Automatic Processing Lines"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность",
-        "Мясопереработка",
-        "Промышленная автоматизация"
-      ],
+      "industries": ["Пищевая промышленность", "Мясопереработка", "Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.noma.tech/en/offer/"
-      ],
+      "documentationSources": ["https://www.noma.tech/en/offer/"],
       "sources": [
-        {
-          "sourceId": "brand-noma-nowicki-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_AND_FORMER_IDENTITY_FOUNDED_HEADQUARTERS_AND_MACHINERY_SPECIALISATION",
-          "url": "https://www.noma.tech/en/about-the-company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-noma-nowicki-rebrand",
-          "tier": "A",
-          "type": "CORPORATE_NOTICE",
-          "scope": "NOWICKI_TO_NOMA_NAME_TRANSITION",
-          "url": "https://www.noma.tech/en/we-are-changing-for-you/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-noma-nowicki-offer",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "FOOD_PROCESSING_MACHINE_AND_LINE_FAMILIES",
-          "url": "https://www.noma.tech/en/offer/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-noma-nowicki-about","tier":"A","type":"ABOUT","scope":"CURRENT_AND_FORMER_IDENTITY_FOUNDED_HEADQUARTERS_AND_MACHINERY_SPECIALISATION","url":"https://www.noma.tech/en/about-the-company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-noma-nowicki-rebrand","tier":"A","type":"CORPORATE_NOTICE","scope":"NOWICKI_TO_NOMA_NAME_TRANSITION","url":"https://www.noma.tech/en/we-are-changing-for-you/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-noma-nowicki-offer","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FOOD_PROCESSING_MACHINE_AND_LINE_FAMILIES","url":"https://www.noma.tech/en/offer/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "sacemi-gamar",
       "officialName": "Sacemi-Gamar S.r.l.",
       "displayName": "Sacemi-Gamar",
-      "aliases": [
-        "SACEMI GAMAR",
-        "SACEMI-GAMAR",
-        "SACEMI",
-        "GAMAR"
-      ],
-      "formerNames": [
-        "Sacemi",
-        "Gamar"
-      ],
+      "aliases": ["SACEMI GAMAR", "SACEMI-GAMAR", "SACEMI", "GAMAR"],
+      "formerNames": ["Sacemi", "Gamar"],
       "officialWebsite": "https://www.sacemigamar.com/en/",
-      "officialDomains": [
-        "sacemigamar.com"
-      ],
+      "officialDomains": ["sacemigamar.com"],
       "country": "Italy",
       "headquarters": "Noventa di Piave, Italy",
       "foundedYear": 2009,
       "parentCompany": null,
       "shortDescription": "Sacemi-Gamar manufactures immersed electric pumps and asynchronous motors for machine and process-fluid circulation.",
-      "fullDescription": [
-        "Sacemi-Gamar S.r.l. is verified through its manufacturer-owned company page as the Italian business formed by the merger of Sacemi and Gamar in October 2009 and based in Noventa di Piave.",
-        "Its official range includes low- and medium-pressure immersed electric pumps and single- and three-phase asynchronous motors, including self-braking configurations, for cooling, lubrication, washing and fluid-circulation duties."
-      ],
-      "productCategories": [
-        "Промышленные насосы",
-        "Промышленные электродвигатели"
-      ],
-      "productFamilies": [
-        "Immersed Electric Pumps",
-        "Low-Pressure Pumps",
-        "Medium-Pressure Pumps",
-        "Three-Phase Asynchronous Motors",
-        "Single-Phase Motors",
-        "Brake Motors"
-      ],
+      "fullDescription": ["Sacemi-Gamar S.r.l. is verified through its manufacturer-owned company page as the Italian business formed by the merger of Sacemi and Gamar in October 2009 and based in Noventa di Piave.", "Its official range includes low- and medium-pressure immersed electric pumps and single- and three-phase asynchronous motors, including self-braking configurations, for cooling, lubrication, washing and fluid-circulation duties."],
+      "productCategories": ["Промышленные насосы", "Промышленные электродвигатели"],
+      "productFamilies": ["Immersed Electric Pumps", "Low-Pressure Pumps", "Medium-Pressure Pumps", "Three-Phase Asynchronous Motors", "Single-Phase Motors", "Brake Motors"],
       "series": [],
-      "industries": [
-        "Станкостроение",
-        "HVAC",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.sacemigamar.com/site/assets/files/2605/sacemi_gamar_catalogo_pompe_en_rev1_2023.pdf"
-      ],
-      "documentationSources": [
-        "https://www.sacemigamar.com/prodotti/",
-        "https://www.sacemigamar.com/download/"
-      ],
+      "industries": ["Станкостроение", "HVAC", "Промышленное производство"],
+      "officialCatalogs": ["https://www.sacemigamar.com/site/assets/files/2605/sacemi_gamar_catalogo_pompe_en_rev1_2023.pdf"],
+      "documentationSources": ["https://www.sacemigamar.com/prodotti/", "https://www.sacemigamar.com/download/"],
       "sources": [
-        {
-          "sourceId": "brand-sacemi-gamar-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_MERGER_HEADQUARTERS_AND_PUMP_MOTOR_SPECIALISATION",
-          "url": "https://www.sacemigamar.com/en/company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-sacemi-gamar-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "ELECTRIC_PUMP_AND_ASYNCHRONOUS_MOTOR_FAMILIES",
-          "url": "https://www.sacemigamar.com/prodotti/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-sacemi-gamar-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_MERGER_HEADQUARTERS_AND_PUMP_MOTOR_SPECIALISATION","url":"https://www.sacemigamar.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-sacemi-gamar-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ELECTRIC_PUMP_AND_ASYNCHRONOUS_MOTOR_FAMILIES","url":"https://www.sacemigamar.com/prodotti/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "sethco",
       "officialName": "Sethco",
       "displayName": "Sethco",
-      "aliases": [
-        "SETHCO"
-      ],
+      "aliases": ["SETHCO"],
       "formerNames": [],
       "officialWebsite": "https://www.tuskind.com/",
-      "officialDomains": [
-        "tuskind.com"
-      ],
+      "officialDomains": ["tuskind.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Tusk Industrial",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Sethco is a Tusk Industrial brand of corrosion-resistant process pumps and filtration equipment.",
-      "fullDescription": [
-        "Sethco is verified on the manufacturer-owned Tusk Industrial platform as one of its current engineered pump brands.",
-        "Its official range covers magnetic-drive horizontal centrifugal pumps, vertical and cantilever pumps, sealless drum pumps and corrosion-resistant suction filtration equipment for process applications."
-      ],
-      "productCategories": [
-        "Промышленные насосы",
-        "Фильтры"
-      ],
-      "productFamilies": [
-        "Magnetic Drive Pumps",
-        "Horizontal Centrifugal Pumps",
-        "Vertical Pumps",
-        "Cantilever Pumps",
-        "Drum Pumps",
-        "Suction Filters"
-      ],
+      "fullDescription": ["Sethco is verified on the manufacturer-owned Tusk Industrial platform as one of its current engineered pump brands.", "Its official range covers magnetic-drive horizontal centrifugal pumps, vertical and cantilever pumps, sealless drum pumps and corrosion-resistant suction filtration equipment for process applications."],
+      "productCategories": ["Промышленные насосы", "Фильтры"],
+      "productFamilies": ["Magnetic Drive Pumps", "Horizontal Centrifugal Pumps", "Vertical Pumps", "Cantilever Pumps", "Drum Pumps", "Suction Filters"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Водоподготовка",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.tuskind.com/wp-content/uploads/2025/10/Sethco-Full-Line-Brochure-2025.pdf"
-      ],
-      "documentationSources": [
-        "https://www.tuskind.com/brands/sethco/"
-      ],
+      "industries": ["Химическая промышленность", "Водоподготовка", "Промышленное производство"],
+      "officialCatalogs": ["https://www.tuskind.com/wp-content/uploads/2025/10/Sethco-Full-Line-Brochure-2025.pdf"],
+      "documentationSources": ["https://www.tuskind.com/brands/sethco/"],
       "sources": [
-        {
-          "sourceId": "brand-sethco-parent",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_AND_PROCESS_PUMP_SPECIALISATION",
-          "url": "https://www.tuskind.com/who-we-are/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-sethco-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "MAGNETIC_DRIVE_VERTICAL_DRUM_PUMP_AND_FILTER_FAMILIES",
-          "url": "https://www.tuskind.com/wp-content/uploads/2025/10/Sethco-Full-Line-Brochure-2025.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-sethco-parent","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_PROCESS_PUMP_SPECIALISATION","url":"https://www.tuskind.com/who-we-are/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-sethco-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MAGNETIC_DRIVE_VERTICAL_DRUM_PUMP_AND_FILTER_FAMILIES","url":"https://www.tuskind.com/wp-content/uploads/2025/10/Sethco-Full-Line-Brochure-2025.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "vuototecnica",
       "officialName": "Vuototecnica S.r.l.",
       "displayName": "Vuototecnica",
-      "aliases": [
-        "VUOTOTECNICA",
-        "VUOTOTECNICA SRL"
-      ],
+      "aliases": ["VUOTOTECNICA", "VUOTOTECNICA SRL"],
       "formerNames": [],
       "officialWebsite": "https://www.vuototecnica.net/",
-      "officialDomains": [
-        "vuototecnica.net"
-      ],
+      "officialDomains": ["vuototecnica.net"],
       "country": "Italy",
-      "headquarters": "Beverate di Brivio, Italy",
+      "headquarters":"Beverate di Brivio, Italy",
       "foundedYear": 1975,
       "parentCompany": null,
       "shortDescription": "Vuototecnica develops vacuum components, pumps, generators and gripping systems for industrial automation.",
-      "fullDescription": [
-        "Vuototecnica S.r.l. is verified through its manufacturer-owned website as an Italian vacuum-technology company founded in 1975.",
-        "The official portfolio covers vacuum cups and holders, vacuum pumps and pneumatic generators, measurement and control instruments, valves, filters, fittings and Octopus gripping systems for automation, robotics, packaging and handling."
-      ],
-      "productCategories": [
-        "Вакуумное оборудование",
-        "Промышленные насосы",
-        "Пневматическое оборудование",
-        "Промышленные клапаны",
-        "Фильтры",
-        "Промышленные датчики"
-      ],
-      "productFamilies": [
-        "Vacuum Cups and Holders",
-        "Vacuum Pumps",
-        "Pneumatic Vacuum Generators",
-        "Vacuum Measurement and Control",
-        "Vacuum Valves",
-        "Suction Filters",
-        "Vacuum Gripping Systems"
-      ],
-      "series": [
-        "Octopus"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Робототехника",
-        "Автомобильная промышленность",
-        "Пищевая промышленность",
-        "Упаковочная промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.vuototecnica.net/downloads/Production-programme-2023.pdf"
-      ],
-      "documentationSources": [
-        "https://www.vuototecnica.net/products.php",
-        "https://www.vuototecnica.net/downloads.php"
-      ],
+      "fullDescription": ["Vuototecnica S.r.l. is verified through its manufacturer-owned website as an Italian vacuum-technology company founded in 1975.", "The official portfolio covers vacuum cups and holders, vacuum pumps and pneumatic generators, measurement and control instruments, valves, filters, fittings and Octopus gripping systems for automation, robotics, packaging and handling."],
+      "productCategories": ["Вакуумное оборудование", "Промышленные насосы", "Пневматическое оборудование", "Промышленные клапаны", "Фильтры", "Промышленные датчики"],
+      "productFamilies": ["Vacuum Cups and Holders", "Vacuum Pumps", "Pneumatic Vacuum Generators", "Vacuum Measurement and Control", "Vacuum Valves", "Suction Filters", "Vacuum Gripping Systems"],
+      "series": ["Octopus"],
+      "industries": ["Промышленная автоматизация", "Робототехника", "Автомобильная промышленность", "Пищевая промышленность", "Упаковочная промышленность"],
+      "officialCatalogs": ["https://www.vuototecnica.net/downloads/Production-programme-2023.pdf"],
+      "documentationSources": ["https://www.vuototecnica.net/products.php", "https://www.vuototecnica.net/downloads.php"],
       "sources": [
-        {
-          "sourceId": "brand-vuototecnica-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_AND_VACUUM_TECHNOLOGY_SPECIALISATION",
-          "url": "https://www.vuototecnica.net/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-vuototecnica-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "VACUUM_COMPONENT_PUMP_GENERATOR_VALVE_FILTER_AND_GRIPPING_FAMILIES",
-          "url": "https://www.vuototecnica.net/products.php",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-vuototecnica-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.vuototecnica.net/contact.php",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+        {"sourceId":"brand-vuototecnica-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_AND_VACUUM_TECHNOLOGY_SPECIALISATION","url":"https://www.vuototecnica.net/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-vuototecnica-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VACUUM_COMPONENT_PUMP_GENERATOR_VALVE_FILTER_AND_GRIPPING_FAMILIES","url":"https://www.vuototecnica.net/products.php","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ,{"sourceId":"brand-vuototecnica-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.vuototecnica.net/contact.php","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "3m",
       "officialName": "3M Company",
       "displayName": "3M",
-      "aliases": [
-        "3M",
-        "3M COMPANY"
-      ],
+      "aliases": ["3M", "3M COMPANY"],
       "formerNames": [],
       "officialWebsite": "https://www.3m.com/",
-      "officialDomains": [
-        "3m.com"
-      ],
+      "officialDomains": ["3m.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "3M develops industrial materials, adhesives, abrasives, filtration products, electrical products and safety equipment.",
-      "fullDescription": [
-        "3M Company is verified through its manufacturer-owned corporate and product platforms as a diversified materials and technology manufacturer.",
-        "Its documented industrial portfolio includes abrasives, adhesives and sealants, coatings, advanced materials, electrical products, films, filtration and separation products, insulation, testing equipment, tapes and personal protective equipment for manufacturing and infrastructure applications."
-      ],
-      "productCategories": [
-        "Абразивные материалы",
-        "Клеи и герметики",
-        "Промышленные покрытия",
-        "Фильтры",
-        "Электротехническое оборудование",
-        "Промышленная безопасность",
-        "Промышленные инструменты"
-      ],
-      "productFamilies": [
-        "Abrasives",
-        "Adhesives and Sealants",
-        "Advanced Materials",
-        "Coatings",
-        "Electrical Products",
-        "Films and Sheeting",
-        "Filtration and Separation",
-        "Personal Protective Equipment",
-        "Industrial Tapes"
-      ],
+      "fullDescription": ["3M Company is verified through its manufacturer-owned corporate and product platforms as a diversified materials and technology manufacturer.", "Its documented industrial portfolio includes abrasives, adhesives and sealants, coatings, advanced materials, electrical products, films, filtration and separation products, insulation, testing equipment, tapes and personal protective equipment for manufacturing and infrastructure applications."],
+      "productCategories": ["Абразивные материалы", "Клеи и герметики", "Промышленные покрытия", "Фильтры", "Электротехническое оборудование", "Промышленная безопасность", "Промышленные инструменты"],
+      "productFamilies": ["Abrasives", "Adhesives and Sealants", "Advanced Materials", "Coatings", "Electrical Products", "Films and Sheeting", "Filtration and Separation", "Personal Protective Equipment", "Industrial Tapes"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность",
-        "Электроника",
-        "Энергетика",
-        "Строительство"
-      ],
+      "industries": ["Промышленное производство", "Автомобильная промышленность", "Электроника", "Энергетика", "Строительство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.3m.com/3M/en_US/p/c/i/manufacturing/",
-        "https://www.3m.com/3M/en_US/p/"
-      ],
+      "documentationSources": ["https://www.3m.com/3M/en_US/p/c/i/manufacturing/", "https://www.3m.com/3M/en_US/p/"],
       "sources": [
-        {
-          "sourceId": "brand-3m-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_AND_DIVERSIFIED_MATERIALS_SPECIALISATION",
-          "url": "https://www.3m.com/3M/en_US/about-3m/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-3m-manufacturing",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "INDUSTRIAL_MATERIAL_ADHESIVE_ABRASIVE_FILTRATION_ELECTRICAL_AND_SAFETY_SCOPE",
-          "url": "https://www.3m.com/3M/en_US/p/c/i/manufacturing/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-3m-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_DIVERSIFIED_MATERIALS_SPECIALISATION","url":"https://www.3m.com/3M/en_US/about-3m/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-3m-manufacturing","tier":"A","type":"PRODUCT_DIRECTORY","scope":"INDUSTRIAL_MATERIAL_ADHESIVE_ABRASIVE_FILTRATION_ELECTRICAL_AND_SAFETY_SCOPE","url":"https://www.3m.com/3M/en_US/p/c/i/manufacturing/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "berges",
       "officialName": "Berges Antriebstechnik GmbH & Co.",
       "displayName": "Berges",
-      "aliases": [
-        "BERGES",
-        "BERGES ANTRIEBSTECHNIK"
-      ],
-      "formerNames": [
-        "Berges Antriebstechnik GmbH"
-      ],
+      "aliases": ["BERGES", "BERGES ANTRIEBSTECHNIK"],
+      "formerNames": ["Berges Antriebstechnik GmbH"],
       "officialWebsite": "https://berges.eu/",
-      "officialDomains": [
-        "berges.eu"
-      ],
+      "officialDomains": ["berges.eu"],
       "country": "Germany",
       "headquarters": "Marienheide, Germany",
       "foundedYear": 1926,
       "parentCompany": null,
       "shortDescription": "Berges manufactures mechanical variable-speed pulley drives and geared drive units for industrial machinery.",
-      "fullDescription": [
-        "Berges Antriebstechnik is verified through its manufacturer-owned website as a German drive-technology business whose history began in Marienheide in 1926.",
-        "The official product range covers symmetric and asymmetric variable pulleys, variable-speed geared motors, ATEX drive units and RGAE mounting units for machinery such as pumps, mixers, machine tools, filling systems and processing equipment."
-      ],
-      "productCategories": [
-        "Промышленные приводы",
-        "Промышленные редукторы",
-        "Промышленные электродвигатели"
-      ],
-      "productFamilies": [
-        "Symmetric Variable Pulleys",
-        "Asymmetric Variable Pulleys",
-        "Variable-Speed Geared Motors",
-        "ATEX Geared Motors",
-        "RGAE Mounting Units"
-      ],
-      "series": [
-        "RGAE"
-      ],
-      "industries": [
-        "Машиностроение",
-        "Пищевая промышленность",
-        "Сельское хозяйство",
-        "Текстильная промышленность",
-        "Строительная техника"
-      ],
+      "fullDescription": ["Berges Antriebstechnik is verified through its manufacturer-owned website as a German drive-technology business whose history began in Marienheide in 1926.", "The official product range covers symmetric and asymmetric variable pulleys, variable-speed geared motors, ATEX drive units and RGAE mounting units for machinery such as pumps, mixers, machine tools, filling systems and processing equipment."],
+      "productCategories": ["Промышленные приводы", "Промышленные редукторы", "Промышленные электродвигатели"],
+      "productFamilies": ["Symmetric Variable Pulleys", "Asymmetric Variable Pulleys", "Variable-Speed Geared Motors", "ATEX Geared Motors", "RGAE Mounting Units"],
+      "series": ["RGAE"],
+      "industries": ["Машиностроение", "Пищевая промышленность", "Сельское хозяйство", "Текстильная промышленность", "Строительная техника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://berges.eu/"
-      ],
+      "documentationSources": ["https://berges.eu/"],
       "sources": [
-        {
-          "sourceId": "brand-berges-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_AND_FORMER_IDENTITY_FOUNDED_HEADQUARTERS_AND_DRIVE_SPECIALISATION",
-          "url": "https://berges.eu/company/?lang=en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-berges-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "VARIABLE_PULLEY_GEARED_MOTOR_ATEX_AND_MOUNTING_UNIT_FAMILIES",
-          "url": "https://berges.eu/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-berges-company","tier":"A","type":"ABOUT","scope":"CURRENT_AND_FORMER_IDENTITY_FOUNDED_HEADQUARTERS_AND_DRIVE_SPECIALISATION","url":"https://berges.eu/company/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-berges-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VARIABLE_PULLEY_GEARED_MOTOR_ATEX_AND_MOUNTING_UNIT_FAMILIES","url":"https://berges.eu/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "carlo-gavazzi",
       "officialName": "Carlo Gavazzi Automation",
       "displayName": "Carlo Gavazzi",
-      "aliases": [
-        "CARLO GAVAZZI",
-        "CARLO GAVAZZI AUTOMATION"
-      ],
+      "aliases": ["CARLO GAVAZZI", "CARLO GAVAZZI AUTOMATION"],
       "formerNames": [],
       "officialWebsite": "https://www.gavazziautomation.com/",
-      "officialDomains": [
-        "gavazziautomation.com"
-      ],
+      "officialDomains": ["gavazziautomation.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Carlo Gavazzi develops electronic control components for industrial and building automation.",
-      "fullDescription": [
-        "Carlo Gavazzi Automation is verified through its manufacturer-owned company pages as a designer and manufacturer of electronic control components for industrial and building automation.",
-        "Its official portfolio covers sensors, solid-state relays, energy meters and analyzers, monitoring relays, timers, soft starters, frequency drives, safety devices, power supplies and fieldbus-based control products."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Промышленная автоматизация и контроллеры",
-        "Реле",
-        "Измерительное оборудование",
-        "Промышленные приводы",
-        "Промышленная безопасность",
-        "Источники питания"
-      ],
-      "productFamilies": [
-        "Sensors",
-        "Solid State Relays",
-        "Energy Meters and Analyzers",
-        "Monitoring Relays",
-        "Timers",
-        "Soft Starters and Drives",
-        "Safety Devices",
-        "Power Supplies",
-        "Fieldbus Systems"
-      ],
-      "series": [
-        "Dupline"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Автоматизация зданий",
-        "Энергетика",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Carlo Gavazzi Automation is verified through its manufacturer-owned company pages as a designer and manufacturer of electronic control components for industrial and building automation.", "Its official portfolio covers sensors, solid-state relays, energy meters and analyzers, monitoring relays, timers, soft starters, frequency drives, safety devices, power supplies and fieldbus-based control products."],
+      "productCategories": ["Промышленные датчики", "Промышленная автоматизация и контроллеры", "Реле", "Измерительное оборудование", "Промышленные приводы", "Промышленная безопасность", "Источники питания"],
+      "productFamilies": ["Sensors", "Solid State Relays", "Energy Meters and Analyzers", "Monitoring Relays", "Timers", "Soft Starters and Drives", "Safety Devices", "Power Supplies", "Fieldbus Systems"],
+      "series": ["Dupline"],
+      "industries": ["Промышленная автоматизация", "Автоматизация зданий", "Энергетика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gavazziautomation.com/en-gb/products"
-      ],
+      "documentationSources": ["https://www.gavazziautomation.com/en-gb/products"],
       "sources": [
-        {
-          "sourceId": "brand-carlo-gavazzi-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CORPORATE_IDENTITY_AND_AUTOMATION_SPECIALISATION",
-          "url": "https://www.gavazziautomation.com/en-gb/company/who-we-are",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-carlo-gavazzi-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SENSOR_RELAY_METER_DRIVE_SAFETY_POWER_AND_FIELDBUS_FAMILIES",
-          "url": "https://www.gavazziautomation.com/en-gb/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-carlo-gavazzi-about","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_AND_AUTOMATION_SPECIALISATION","url":"https://www.gavazziautomation.com/en-gb/company/who-we-are","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-carlo-gavazzi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SENSOR_RELAY_METER_DRIVE_SAFETY_POWER_AND_FIELDBUS_FAMILIES","url":"https://www.gavazziautomation.com/en-gb/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "flottweg",
       "officialName": "Flottweg SE",
       "displayName": "Flottweg",
-      "aliases": [
-        "FLOTTWEG",
-        "FLOTTWEG SE"
-      ],
+      "aliases": ["FLOTTWEG", "FLOTTWEG SE"],
       "formerNames": [],
       "officialWebsite": "https://www.flottweg.com/",
-      "officialDomains": [
-        "flottweg.com"
-      ],
+      "officialDomains": ["flottweg.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1956,
       "parentCompany": null,
       "shortDescription": "Flottweg manufactures centrifuges, separators and belt presses for solid-liquid separation processes.",
-      "fullDescription": [
-        "Flottweg SE is verified through its manufacturer-owned product platform as a German separation-technology manufacturer producing equipment since 1956.",
-        "The official range includes decanter centrifuges, separators, nozzle separators, Tricanter, Sedicanter, Sorticanter and belt presses, plus complete processing systems for food, beverage, wastewater, chemical, mining and recycling applications."
-      ],
-      "productCategories": [
-        "Сепараторы и центрифуги",
-        "Фильтры",
-        "Оборудование для переработки"
-      ],
-      "productFamilies": [
-        "Decanter Centrifuges",
-        "Separators",
-        "Nozzle Separators",
-        "Tricanter",
-        "Sedicanter",
-        "Sorticanter",
-        "Belt Presses",
-        "Processing Systems"
-      ],
-      "series": [
-        "Tricanter",
-        "Sedicanter",
-        "Sorticanter"
-      ],
-      "industries": [
-        "Пищевая промышленность",
-        "Водоподготовка",
-        "Химическая промышленность",
-        "Горнодобывающая промышленность",
-        "Переработка отходов"
-      ],
+      "fullDescription": ["Flottweg SE is verified through its manufacturer-owned product platform as a German separation-technology manufacturer producing equipment since 1956.", "The official range includes decanter centrifuges, separators, nozzle separators, Tricanter, Sedicanter, Sorticanter and belt presses, plus complete processing systems for food, beverage, wastewater, chemical, mining and recycling applications."],
+      "productCategories": ["Сепараторы и центрифуги", "Фильтры", "Оборудование для переработки"],
+      "productFamilies": ["Decanter Centrifuges", "Separators", "Nozzle Separators", "Tricanter", "Sedicanter", "Sorticanter", "Belt Presses", "Processing Systems"],
+      "series": ["Tricanter", "Sedicanter", "Sorticanter"],
+      "industries": ["Пищевая промышленность", "Водоподготовка", "Химическая промышленность", "Горнодобывающая промышленность", "Переработка отходов"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.flottweg.com/product-lines/"
-      ],
+      "documentationSources": ["https://www.flottweg.com/product-lines/"],
       "sources": [
-        {
-          "sourceId": "brand-flottweg-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_FOUNDED_AND_CENTRIFUGE_SEPARATOR_PRESS_FAMILIES",
-          "url": "https://www.flottweg.com/product-lines/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-flottweg-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_FOUNDED_AND_CENTRIFUGE_SEPARATOR_PRESS_FAMILIES","url":"https://www.flottweg.com/product-lines/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "hendor",
       "officialName": "Hendor Pompen B.V.",
       "displayName": "Hendor",
-      "aliases": [
-        "HENDOR",
-        "HENDOR POMPEN"
-      ],
+      "aliases": ["HENDOR", "HENDOR POMPEN"],
       "formerNames": [],
       "officialWebsite": "https://www.hendor.com/en/home",
-      "officialDomains": [
-        "hendor.com"
-      ],
+      "officialDomains": ["hendor.com"],
       "country": "Netherlands",
       "headquarters": "Bladel, Netherlands",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Hendor manufactures pumps and filtration systems for surface-finishing and scrubber applications.",
-      "fullDescription": [
-        "Hendor Pompen B.V. is verified through its manufacturer-owned website as a Netherlands-based designer and manufacturer of pumps and filtration equipment.",
-        "Its official range includes vertical immersion pumps, horizontal centrifugal pumps, in-tank and chamber filtration systems, filter media and precious-metal recovery equipment for surface treatment and air-scrubber processes."
-      ],
-      "productCategories": [
-        "Промышленные насосы",
-        "Фильтры"
-      ],
-      "productFamilies": [
-        "Vertical Immersion Pumps",
-        "Horizontal Centrifugal Pumps",
-        "In-Tank Filtration",
-        "Filter Chambers",
-        "Filter Media",
-        "Precious Metal Recovery"
-      ],
+      "fullDescription": ["Hendor Pompen B.V. is verified through its manufacturer-owned website as a Netherlands-based designer and manufacturer of pumps and filtration equipment.", "Its official range includes vertical immersion pumps, horizontal centrifugal pumps, in-tank and chamber filtration systems, filter media and precious-metal recovery equipment for surface treatment and air-scrubber processes."],
+      "productCategories": ["Промышленные насосы", "Фильтры"],
+      "productFamilies": ["Vertical Immersion Pumps", "Horizontal Centrifugal Pumps", "In-Tank Filtration", "Filter Chambers", "Filter Media", "Precious Metal Recovery"],
       "series": [],
-      "industries": [
-        "Обработка поверхностей",
-        "Очистка воздуха",
-        "Химическая промышленность"
-      ],
+      "industries": ["Обработка поверхностей", "Очистка воздуха", "Химическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hendor.com/en/products"
-      ],
+      "documentationSources": ["https://www.hendor.com/en/products"],
       "sources": [
-        {
-          "sourceId": "brand-hendor-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_PUMP_FILTRATION_SPECIALISATION",
-          "url": "https://www.hendor.com/en/home",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-hendor-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "IMMERSION_CENTRIFUGAL_PUMP_AND_FILTRATION_FAMILIES",
-          "url": "https://www.hendor.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-hendor-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_PUMP_FILTRATION_SPECIALISATION","url":"https://www.hendor.com/en/home","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-hendor-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"IMMERSION_CENTRIFUGAL_PUMP_AND_FILTRATION_FAMILIES","url":"https://www.hendor.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "herzog",
       "officialName": "HERZOG Maschinenfabrik GmbH & Co. KG",
       "displayName": "HERZOG",
-      "aliases": [
-        "HERZOG",
-        "HERZOG MASCHINENFABRIK"
-      ],
+      "aliases": ["HERZOG", "HERZOG MASCHINENFABRIK"],
       "formerNames": [],
       "officialWebsite": "https://www.herzog-maschinenfabrik.de/en-us/",
-      "officialDomains": [
-        "herzog-maschinenfabrik.de"
-      ],
+      "officialDomains": ["herzog-maschinenfabrik.de"],
       "country": "Germany",
       "headquarters": "Osnabrück, Germany",
       "foundedYear": 1959,
       "parentCompany": null,
       "shortDescription": "HERZOG develops sample-preparation machines and laboratory automation systems for analytical workflows.",
-      "fullDescription": [
-        "HERZOG Maschinenfabrik GmbH & Co. KG is verified through its manufacturer-owned website as a German laboratory-equipment business founded in 1959 and based in Osnabrück.",
-        "The official portfolio covers crushing, pulverizing, milling, grinding, fusion, pelletizing, sampling, splitting and dosing systems, pneumatic tube transport and automated laboratories for material-analysis workflows."
-      ],
-      "productCategories": [
-        "Лабораторное оборудование",
-        "Промышленные машины",
-        "Промышленная автоматизация и контроллеры",
-        "Измельчительное оборудование"
-      ],
-      "productFamilies": [
-        "Crushing and Pulverizing",
-        "Milling and Grinding",
-        "Fusion Systems",
-        "Pelletizing",
-        "Sampling and Splitting",
-        "Pneumatic Tube Systems",
-        "Laboratory Automation"
-      ],
+      "fullDescription": ["HERZOG Maschinenfabrik GmbH & Co. KG is verified through its manufacturer-owned website as a German laboratory-equipment business founded in 1959 and based in Osnabrück.", "The official portfolio covers crushing, pulverizing, milling, grinding, fusion, pelletizing, sampling, splitting and dosing systems, pneumatic tube transport and automated laboratories for material-analysis workflows."],
+      "productCategories": ["Лабораторное оборудование", "Промышленные машины", "Промышленная автоматизация и контроллеры", "Измельчительное оборудование"],
+      "productFamilies": ["Crushing and Pulverizing", "Milling and Grinding", "Fusion Systems", "Pelletizing", "Sampling and Splitting", "Pneumatic Tube Systems", "Laboratory Automation"],
       "series": [],
-      "industries": [
-        "Металлургия",
-        "Горнодобывающая промышленность",
-        "Цементная промышленность",
-        "Лаборатории"
-      ],
+      "industries": ["Металлургия", "Горнодобывающая промышленность", "Цементная промышленность", "Лаборатории"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.herzog-maschinenfabrik.de/loesungen/produktuebersicht"
-      ],
+      "documentationSources": ["https://www.herzog-maschinenfabrik.de/loesungen/produktuebersicht"],
       "sources": [
-        {
-          "sourceId": "brand-herzog-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_LAB_AUTOMATION_SPECIALISATION",
-          "url": "https://www.herzog-maschinenfabrik.de/en-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-herzog-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SAMPLE_PREPARATION_AND_LAB_AUTOMATION_FAMILIES",
-          "url": "https://www.herzog-maschinenfabrik.de/loesungen/produktuebersicht",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-herzog-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_LAB_AUTOMATION_SPECIALISATION","url":"https://www.herzog-maschinenfabrik.de/en-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-herzog-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SAMPLE_PREPARATION_AND_LAB_AUTOMATION_FAMILIES","url":"https://www.herzog-maschinenfabrik.de/loesungen/produktuebersicht","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "intorq",
       "officialName": "INTORQ",
       "displayName": "INTORQ",
-      "aliases": [
-        "INTORQ"
-      ],
+      "aliases": ["INTORQ"],
       "formerNames": [],
       "officialWebsite": "https://www.kendrion.com/en/products-services/industrial-brakes/spring-applied-brakes/intorq-14115",
-      "officialDomains": [
-        "kendrion.com"
-      ],
+      "officialDomains": ["kendrion.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Kendrion N.V.",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "INTORQ is a Kendrion brand of electromagnetic clutches and spring-applied industrial brakes.",
-      "fullDescription": [
-        "INTORQ is verified through the manufacturer-owned Kendrion platform as a current industrial brake product brand.",
-        "The documented portfolio includes spring-applied brakes, electromagnetic clutches and brake combinations for motor, automation and drive applications, including multiple BFK and 14-series product families."
-      ],
-      "productCategories": [
-        "Промышленные тормоза",
-        "Промышленные муфты",
-        "Системы управления движением"
-      ],
-      "productFamilies": [
-        "Spring-Applied Brakes",
-        "Electromagnetic Clutches",
-        "Clutch-Brake Combinations"
-      ],
-      "series": [
-        "INTORQ 14.105",
-        "INTORQ 14.115",
-        "BFK453",
-        "BFK455",
-        "BFK457",
-        "BFK458",
-        "BFK464",
-        "BFK468",
-        "BFK470",
-        "BFK471",
-        "BFK552"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Машиностроение",
-        "Промышленные приводы"
-      ],
-      "officialCatalogs": [
-        "https://www.kendrion.com/fileadmin/user_upload/Downloads/Brochures_and_Flyers/Industrial_Brakes_INTORQ/KENDRION_INTORQ_EMBK_13212982_en_05_2024.pdf"
-      ],
-      "documentationSources": [
-        "https://www.kendrion.com/en/products-services/industrial-brakes/spring-applied-brakes/intorq-14115"
-      ],
+      "fullDescription": ["INTORQ is verified through the manufacturer-owned Kendrion platform as a current industrial brake product brand.", "The documented portfolio includes spring-applied brakes, electromagnetic clutches and brake combinations for motor, automation and drive applications, including multiple BFK and 14-series product families."],
+      "productCategories": ["Промышленные тормоза", "Промышленные муфты", "Системы управления движением"],
+      "productFamilies": ["Spring-Applied Brakes", "Electromagnetic Clutches", "Clutch-Brake Combinations"],
+      "series": ["INTORQ 14.105", "INTORQ 14.115", "BFK453", "BFK455", "BFK457", "BFK458", "BFK464", "BFK468", "BFK470", "BFK471", "BFK552"],
+      "industries": ["Промышленная автоматизация", "Машиностроение", "Промышленные приводы"],
+      "officialCatalogs": ["https://www.kendrion.com/fileadmin/user_upload/Downloads/Brochures_and_Flyers/Industrial_Brakes_INTORQ/KENDRION_INTORQ_EMBK_13212982_en_05_2024.pdf"],
+      "documentationSources": ["https://www.kendrion.com/en/products-services/industrial-brakes/spring-applied-brakes/intorq-14115"],
       "sources": [
-        {
-          "sourceId": "brand-intorq-parent-product",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_AND_BRAKE_SPECIALISATION",
-          "url": "https://www.kendrion.com/en/products-services/industrial-brakes/spring-applied-brakes/intorq-14115",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-intorq-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "SPRING_APPLIED_BRAKE_CLUTCH_AND_SERIES_SCOPE",
-          "url": "https://www.kendrion.com/fileadmin/user_upload/Downloads/Brochures_and_Flyers/Industrial_Brakes_INTORQ/KENDRION_INTORQ_EMBK_13212982_en_05_2024.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-intorq-parent-product","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_BRAKE_SPECIALISATION","url":"https://www.kendrion.com/en/products-services/industrial-brakes/spring-applied-brakes/intorq-14115","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-intorq-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"SPRING_APPLIED_BRAKE_CLUTCH_AND_SERIES_SCOPE","url":"https://www.kendrion.com/fileadmin/user_upload/Downloads/Brochures_and_Flyers/Industrial_Brakes_INTORQ/KENDRION_INTORQ_EMBK_13212982_en_05_2024.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "marposs",
       "officialName": "Marposs S.p.A.",
       "displayName": "Marposs",
-      "aliases": [
-        "MARPOSS",
-        "MARPOSS SPA"
-      ],
+      "aliases": ["MARPOSS", "MARPOSS SPA"],
       "formerNames": [],
       "officialWebsite": "https://www.marposs.com/eng/",
-      "officialDomains": [
-        "marposs.com"
-      ],
+      "officialDomains": ["marposs.com"],
       "country": "Italy",
       "headquarters": "Bentivoglio, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Marposs develops precision gauging, inspection, testing and process-monitoring systems for manufacturing.",
-      "fullDescription": [
-        "Marposs S.p.A. is verified through its manufacturer-owned company profile as an Italian measurement and inspection technology business headquartered in Bentivoglio.",
-        "The official range covers machine-tool gauging, dimensional inspection, leak testing, assembly and nondestructive testing, gauging components, process computers and statistical process-control solutions."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Промышленные датчики",
-        "Контрольно-испытательное оборудование",
-        "Промышленная автоматизация и контроллеры"
-      ],
-      "productFamilies": [
-        "Machine Tool Gauging",
-        "Dimensional Inspection",
-        "Leak Testing",
-        "Assembly and NDT",
-        "Gauging Components",
-        "Process Computers",
-        "SPC Systems"
-      ],
+      "fullDescription": ["Marposs S.p.A. is verified through its manufacturer-owned company profile as an Italian measurement and inspection technology business headquartered in Bentivoglio.", "The official range covers machine-tool gauging, dimensional inspection, leak testing, assembly and nondestructive testing, gauging components, process computers and statistical process-control solutions."],
+      "productCategories": ["Измерительное оборудование", "Промышленные датчики", "Контрольно-испытательное оборудование", "Промышленная автоматизация и контроллеры"],
+      "productFamilies": ["Machine Tool Gauging", "Dimensional Inspection", "Leak Testing", "Assembly and NDT", "Gauging Components", "Process Computers", "SPC Systems"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Автомобильная промышленность",
-        "Аэрокосмическая промышленность",
-        "Электроника",
-        "Энергетика"
-      ],
+      "industries": ["Машиностроение", "Автомобильная промышленность", "Аэрокосмическая промышленность", "Электроника", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.marposs.com/eng/all-lines"
-      ],
+      "documentationSources": ["https://www.marposs.com/eng/all-lines"],
       "sources": [
-        {
-          "sourceId": "brand-marposs-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_MEASUREMENT_SPECIALISATION",
-          "url": "https://www.marposs.com/eng/company-profile/about-us",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-marposs-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GAUGING_INSPECTION_LEAK_TESTING_NDT_AND_PROCESS_CONTROL_FAMILIES",
-          "url": "https://www.marposs.com/eng/all-lines",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-marposs-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_MEASUREMENT_SPECIALISATION","url":"https://www.marposs.com/eng/company-profile/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-marposs-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GAUGING_INSPECTION_LEAK_TESTING_NDT_AND_PROCESS_CONTROL_FAMILIES","url":"https://www.marposs.com/eng/all-lines","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "wilcoxon-meggitt",
       "officialName": "Amphenol (Maryland), Inc.",
       "displayName": "Wilcoxon Sensing Technologies",
-      "aliases": [
-        "WILCOXON",
-        "WILCOXON RESEARCH",
-        "MEGGITT",
-        "MEGGITT SENSING SYSTEMS"
-      ],
-      "formerNames": [
-        "Wilcoxon Research, Inc.",
-        "Meggitt (Maryland), Inc.",
-        "Meggitt Sensing Systems"
-      ],
+      "aliases": ["WILCOXON", "WILCOXON RESEARCH", "MEGGITT", "MEGGITT SENSING SYSTEMS"],
+      "formerNames": ["Wilcoxon Research, Inc.", "Meggitt (Maryland), Inc.", "Meggitt Sensing Systems"],
       "officialWebsite": "https://wilcoxon.com/",
-      "officialDomains": [
-        "wilcoxon.com"
-      ],
+      "officialDomains": ["wilcoxon.com"],
       "country": "United States",
       "headquarters": "Frederick, Maryland, United States",
       "foundedYear": 1960,
       "parentCompany": "Amphenol Corporation",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Wilcoxon Sensing Technologies manufactures vibration sensors, transmitters and instrumentation for condition monitoring.",
-      "fullDescription": [
-        "The queue's Wilcoxon/Meggitt identity is resolved by the manufacturer-owned company history: the business began as Wilcoxon Research in 1960, later operated as Meggitt (Maryland), and was acquired by Amphenol in 2017 as Amphenol (Maryland), Inc. doing business as Wilcoxon Sensing Technologies.",
-        "Its current official product scope includes industrial vibration sensors, accelerometers, transmitters, underwater sensing products, portable instrumentation, cables, enclosures, power supplies and monitoring accessories."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Измерительное оборудование",
-        "Системы мониторинга состояния"
-      ],
-      "productFamilies": [
-        "Vibration Sensors",
-        "Accelerometers",
-        "Vibration Transmitters",
-        "Underwater Sensors",
-        "Portable Instrumentation",
-        "Monitoring Accessories"
-      ],
+      "fullDescription": ["The queue's Wilcoxon/Meggitt identity is resolved by the manufacturer-owned company history: the business began as Wilcoxon Research in 1960, later operated as Meggitt (Maryland), and was acquired by Amphenol in 2017 as Amphenol (Maryland), Inc. doing business as Wilcoxon Sensing Technologies.", "Its current official product scope includes industrial vibration sensors, accelerometers, transmitters, underwater sensing products, portable instrumentation, cables, enclosures, power supplies and monitoring accessories."],
+      "productCategories": ["Промышленные датчики", "Измерительное оборудование", "Системы мониторинга состояния"],
+      "productFamilies": ["Vibration Sensors", "Accelerometers", "Vibration Transmitters", "Underwater Sensors", "Portable Instrumentation", "Monitoring Accessories"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика",
-        "Горнодобывающая промышленность",
-        "Морская промышленность",
-        "Оборонная промышленность"
-      ],
+      "industries": ["Промышленное производство", "Энергетика", "Горнодобывающая промышленность", "Морская промышленность", "Оборонная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://wilcoxon.com/products/"
-      ],
+      "documentationSources": ["https://wilcoxon.com/products/"],
       "sources": [
-        {
-          "sourceId": "brand-wilcoxon-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_FORMER_IDENTITY_ACQUISITION_PARENT_FOUNDED_HEADQUARTERS_AND_VIBRATION_SCOPE",
-          "url": "https://wilcoxon.com/about/company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-wilcoxon-acquisition",
-          "tier": "A",
-          "type": "CORPORATE_NOTICE",
-          "scope": "MEGGITT_TO_AMPHENOL_OWNERSHIP_AND_BRAND_TRANSITION",
-          "url": "https://wilcoxon.com/news/announcement-wilcoxon-research-brand-and-meggitt-maryland-inc-business-purchased-by-amphenol-corporation/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-wilcoxon-company","tier":"A","type":"ABOUT","scope":"CURRENT_FORMER_IDENTITY_ACQUISITION_PARENT_FOUNDED_HEADQUARTERS_AND_VIBRATION_SCOPE","url":"https://wilcoxon.com/about/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-wilcoxon-acquisition","tier":"A","type":"CORPORATE_NOTICE","scope":"MEGGITT_TO_AMPHENOL_OWNERSHIP_AND_BRAND_TRANSITION","url":"https://wilcoxon.com/news/announcement-wilcoxon-research-brand-and-meggitt-maryland-inc-business-purchased-by-amphenol-corporation/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "mencarelli",
       "officialName": "Mencarelli Pompe e Valvole S.r.l.",
       "displayName": "Mencarelli",
-      "aliases": [
-        "MENCARELLI",
-        "MENCARELLI POMPE"
-      ],
+      "aliases": ["MENCARELLI", "MENCARELLI POMPE"],
       "formerNames": [],
       "officialWebsite": "https://www.mencarellipompesrl.it/en/",
-      "officialDomains": [
-        "mencarellipompesrl.it"
-      ],
+      "officialDomains": ["mencarellipompesrl.it"],
       "country": "Italy",
       "headquarters": "Bresso, Italy",
       "foundedYear": 1945,
       "parentCompany": "ASCO Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Mencarelli manufactures stainless-steel centrifugal and self-priming pumps for process liquids.",
-      "fullDescription": [
-        "Mencarelli Pompe e Valvole S.r.l. is verified through its manufacturer-owned website as an Italian pump business based in Bresso, working with die-pressed stainless steel since 1945 and now part of ASCO Group.",
-        "Its documented range includes centrifugal, self-priming centrifugal, flexible-impeller, side-channel and volumetric pumps for chemical, pharmaceutical, food, marine and water-treatment processes."
-      ],
-      "productCategories": [
-        "Промышленные насосы"
-      ],
-      "productFamilies": [
-        "Centrifugal Pumps",
-        "Self-Priming Centrifugal Pumps",
-        "Flexible Impeller Pumps",
-        "Side-Channel Pumps",
-        "Volumetric Pumps"
-      ],
-      "series": [
-        "CM",
-        "EL",
-        "H/C",
-        "LT",
-        "QUAD",
-        "G",
-        "G/N",
-        "G/V",
-        "MENC-INOX",
-        "PAS",
-        "MX",
-        "GIGAPAS",
-        "P/L"
-      ],
-      "industries": [
-        "Химическая промышленность",
-        "Фармацевтическая промышленность",
-        "Пищевая промышленность",
-        "Морская промышленность",
-        "Водоподготовка"
-      ],
+      "fullDescription": ["Mencarelli Pompe e Valvole S.r.l. is verified through its manufacturer-owned website as an Italian pump business based in Bresso, working with die-pressed stainless steel since 1945 and now part of ASCO Group.", "Its documented range includes centrifugal, self-priming centrifugal, flexible-impeller, side-channel and volumetric pumps for chemical, pharmaceutical, food, marine and water-treatment processes."],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Centrifugal Pumps", "Self-Priming Centrifugal Pumps", "Flexible Impeller Pumps", "Side-Channel Pumps", "Volumetric Pumps"],
+      "series": ["CM", "EL", "H/C", "LT", "QUAD", "G", "G/N", "G/V", "MENC-INOX", "PAS", "MX", "GIGAPAS", "P/L"],
+      "industries": ["Химическая промышленность", "Фармацевтическая промышленность", "Пищевая промышленность", "Морская промышленность", "Водоподготовка"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.mencarellipompesrl.it/en/series/"
-      ],
+      "documentationSources": ["https://www.mencarellipompesrl.it/en/series/"],
       "sources": [
-        {
-          "sourceId": "brand-mencarelli-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HISTORY_HEADQUARTERS_PARENT_AND_PUMP_SPECIALISATION",
-          "url": "https://www.mencarellipompesrl.it/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-mencarelli-series",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CENTRIFUGAL_SELF_PRIMING_IMPELLER_SIDE_CHANNEL_AND_VOLUMETRIC_PUMP_FAMILIES",
-          "url": "https://www.mencarellipompesrl.it/en/series/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-mencarelli-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_PARENT_AND_PUMP_SPECIALISATION","url":"https://www.mencarellipompesrl.it/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-mencarelli-series","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CENTRIFUGAL_SELF_PRIMING_IMPELLER_SIDE_CHANNEL_AND_VOLUMETRIC_PUMP_FAMILIES","url":"https://www.mencarellipompesrl.it/en/series/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "microsonic",
       "officialName": "microsonic GmbH",
       "displayName": "microsonic",
-      "aliases": [
-        "MICROSONIC",
-        "MICROSONIC GMBH"
-      ],
+      "aliases": ["MICROSONIC", "MICROSONIC GMBH"],
       "formerNames": [],
       "officialWebsite": "https://www.microsonic.de/en.htm",
-      "officialDomains": [
-        "microsonic.de"
-      ],
+      "officialDomains": ["microsonic.de"],
       "country": "Germany",
       "headquarters": "Dortmund, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "microsonic manufactures ultrasonic sensors for distance, level, label and edge-detection applications.",
-      "fullDescription": [
-        "microsonic GmbH is verified through its manufacturer-owned website as a German ultrasonic-sensor manufacturer based in Dortmund.",
-        "The official range includes cylindrical and cuboidal distance sensors, label and splice sensors, through-beam sensors, edge-guidance sensors and accessories for automation, packaging, material handling and machine-building applications."
-      ],
-      "productCategories": [
-        "Промышленные датчики",
-        "Измерительное оборудование"
-      ],
-      "productFamilies": [
-        "Cylindrical Ultrasonic Sensors",
-        "Cuboidal Ultrasonic Sensors",
-        "Label and Splice Sensors",
-        "Through-Beam Sensors",
-        "Edge Sensors",
-        "Accessories"
-      ],
-      "series": [
-        "mic+",
-        "mic",
-        "nero",
-        "pico+",
-        "nano",
-        "cube",
-        "lcs+",
-        "lcs",
-        "sks",
-        "ucs",
-        "esf-1",
-        "esp-4",
-        "ews",
-        "bks+"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Упаковочная промышленность",
-        "Машиностроение",
-        "Логистика"
-      ],
+      "fullDescription": ["microsonic GmbH is verified through its manufacturer-owned website as a German ultrasonic-sensor manufacturer based in Dortmund.", "The official range includes cylindrical and cuboidal distance sensors, label and splice sensors, through-beam sensors, edge-guidance sensors and accessories for automation, packaging, material handling and machine-building applications."],
+      "productCategories": ["Промышленные датчики", "Измерительное оборудование"],
+      "productFamilies": ["Cylindrical Ultrasonic Sensors", "Cuboidal Ultrasonic Sensors", "Label and Splice Sensors", "Through-Beam Sensors", "Edge Sensors", "Accessories"],
+      "series": ["mic+", "mic", "nero", "pico+", "nano", "cube", "lcs+", "lcs", "sks", "ucs", "esf-1", "esp-4", "ews", "bks+"],
+      "industries": ["Промышленная автоматизация", "Упаковочная промышленность", "Машиностроение", "Логистика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.microsonic.de/en/products.htm"
-      ],
+      "documentationSources": ["https://www.microsonic.de/en/products.htm"],
       "sources": [
-        {
-          "sourceId": "brand-microsonic-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_ULTRASONIC_SENSOR_SPECIALISATION",
-          "url": "https://www.microsonic.de/en.htm",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-microsonic-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "DISTANCE_LABEL_THROUGH_BEAM_AND_EDGE_SENSOR_FAMILIES",
-          "url": "https://www.microsonic.de/en/products.htm",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-microsonic-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_ULTRASONIC_SENSOR_SPECIALISATION","url":"https://www.microsonic.de/en.htm","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-microsonic-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DISTANCE_LABEL_THROUGH_BEAM_AND_EDGE_SENSOR_FAMILIES","url":"https://www.microsonic.de/en/products.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "mokveld",
       "officialName": "Mokveld Valves B.V.",
       "displayName": "Mokveld",
-      "aliases": [
-        "MOKVELD",
-        "MOKVELD VALVES"
-      ],
+      "aliases": ["MOKVELD", "MOKVELD VALVES"],
       "formerNames": [],
       "officialWebsite": "https://www.mokveld.com/",
-      "officialDomains": [
-        "mokveld.com"
-      ],
+      "officialDomains": ["mokveld.com"],
       "country": "Netherlands",
       "headquarters": "Gouda, Netherlands",
       "foundedYear": 1922,
       "parentCompany": null,
       "shortDescription": "Mokveld develops engineered valve systems for flow control, protection and conditioning in energy and water networks.",
-      "fullDescription": [
-        "Mokveld Valves B.V. is verified through its manufacturer-owned company profile as a Dutch valve-technology business established in Gouda in 1922.",
-        "Its official scope covers engineered axial-flow control, check and safety valve systems for pressure regulation, anti-surge protection, emergency shutdown and other critical oil, gas and water applications."
-      ],
-      "productCategories": [
-        "Промышленные клапаны и арматура",
-        "Регуляторы давления",
-        "Промышленная безопасность"
-      ],
-      "productFamilies": [
-        "Axial Flow Control Valves",
-        "Check Valves",
-        "Pressure Regulation Systems",
-        "Anti-Surge Valves",
-        "Emergency Shutdown Valves"
-      ],
+      "fullDescription": ["Mokveld Valves B.V. is verified through its manufacturer-owned company profile as a Dutch valve-technology business established in Gouda in 1922.", "Its official scope covers engineered axial-flow control, check and safety valve systems for pressure regulation, anti-surge protection, emergency shutdown and other critical oil, gas and water applications."],
+      "productCategories": ["Промышленные клапаны и арматура", "Регуляторы давления", "Промышленная безопасность"],
+      "productFamilies": ["Axial Flow Control Valves", "Check Valves", "Pressure Regulation Systems", "Anti-Surge Valves", "Emergency Shutdown Valves"],
       "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Водоподготовка",
-        "Энергетика"
-      ],
+      "industries": ["Нефтегазовая промышленность", "Водоподготовка", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://p.mokveld.com/en/about-the-company"
-      ],
+      "documentationSources": ["https://p.mokveld.com/en/about-the-company"],
       "sources": [
-        {
-          "sourceId": "brand-mokveld-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HISTORY_FOUNDED_HEADQUARTERS_AND_VALVE_SPECIALISATION",
-          "url": "https://p.mokveld.com/en/about-the-company",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-mokveld-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_FOUNDED_HEADQUARTERS_AND_VALVE_SPECIALISATION","url":"https://p.mokveld.com/en/about-the-company","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "power-jacks",
       "officialName": "Power Jacks Ltd",
       "displayName": "Power Jacks",
-      "aliases": [
-        "POWER JACKS",
-        "POWER JACKS LTD"
-      ],
+      "aliases": ["POWER JACKS", "POWER JACKS LTD"],
       "formerNames": [],
       "officialWebsite": "https://www.powerjacks.com/",
-      "officialDomains": [
-        "powerjacks.com"
-      ],
+      "officialDomains": ["powerjacks.com"],
       "country": "United Kingdom",
       "headquarters": "Ellon, Scotland, United Kingdom",
       "foundedYear": 1988,
       "parentCompany": null,
       "shortDescription": "Power Jacks manufactures screw jacks, linear actuators and gearboxes for industrial lifting and positioning.",
-      "fullDescription": [
-        "Power Jacks Ltd is verified through its manufacturer-owned company pages as a British electromechanical actuation business founded in 1988 and based in Ellon, Scotland.",
-        "The official portfolio covers screw jacks, electric linear actuators, lead screws, bevel gearboxes and engineered jacking systems for lifting, positioning and motion-control applications."
-      ],
-      "productCategories": [
-        "Линейные приводы",
-        "Промышленные редукторы",
-        "Подъёмное оборудование",
-        "Системы управления движением"
-      ],
-      "productFamilies": [
-        "Screw Jacks",
-        "Electric Linear Actuators",
-        "Lead Screws",
-        "Bevel Gearboxes",
-        "Jacking Systems"
-      ],
-      "series": [
-        "E-Series",
-        "C-Series",
-        "U-Series",
-        "POWERAM",
-        "Rolaram"
-      ],
-      "industries": [
-        "Машиностроение",
-        "Промышленная автоматизация",
-        "Энергетика",
-        "Транспорт"
-      ],
+      "fullDescription": ["Power Jacks Ltd is verified through its manufacturer-owned company pages as a British electromechanical actuation business founded in 1988 and based in Ellon, Scotland.", "The official portfolio covers screw jacks, electric linear actuators, lead screws, bevel gearboxes and engineered jacking systems for lifting, positioning and motion-control applications."],
+      "productCategories": ["Линейные приводы", "Промышленные редукторы", "Подъёмное оборудование", "Системы управления движением"],
+      "productFamilies": ["Screw Jacks", "Electric Linear Actuators", "Lead Screws", "Bevel Gearboxes", "Jacking Systems"],
+      "series": ["E-Series", "C-Series", "U-Series", "POWERAM", "Rolaram"],
+      "industries": ["Машиностроение", "Промышленная автоматизация", "Энергетика", "Транспорт"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.powerjacks.com/about-us/what-we-do/"
-      ],
+      "documentationSources": ["https://www.powerjacks.com/about-us/what-we-do/"],
       "sources": [
-        {
-          "sourceId": "brand-power-jacks-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_ACTUATION_SPECIALISATION",
-          "url": "https://www.powerjacks.com/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-power-jacks-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SCREW_JACK_LINEAR_ACTUATOR_LEAD_SCREW_GEARBOX_AND_SYSTEM_SCOPE",
-          "url": "https://www.powerjacks.com/about-us/what-we-do/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-power-jacks-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_ACTUATION_SPECIALISATION","url":"https://www.powerjacks.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-power-jacks-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SCREW_JACK_LINEAR_ACTUATOR_LEAD_SCREW_GEARBOX_AND_SYSTEM_SCOPE","url":"https://www.powerjacks.com/about-us/what-we-do/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "-quincy-compressor",
       "officialName": "Quincy Compressor LLC",
       "displayName": "Quincy Compressor",
-      "aliases": [
-        "QUINCY",
-        "QUINCY COMPRESSOR"
-      ],
+      "aliases": ["QUINCY", "QUINCY COMPRESSOR"],
       "formerNames": [],
       "officialWebsite": "https://www.quincycompressor.com/",
-      "officialDomains": [
-        "quincycompressor.com"
-      ],
+      "officialDomains": ["quincycompressor.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": 1920,
       "parentCompany": null,
       "shortDescription": "Quincy Compressor manufactures compressed-air and vacuum equipment for industrial and mobile applications.",
-      "fullDescription": [
-        "Quincy Compressor is verified through its manufacturer-owned history and product pages as a United States compressor brand operating since 1920.",
-        "The official range includes reciprocating and rotary-screw compressors, oil-free systems, vacuum pumps, air treatment and piping equipment, receivers and natural-gas compression products."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Вакуумное оборудование",
-        "Фильтры",
-        "Трубопроводные компоненты"
-      ],
-      "productFamilies": [
-        "Reciprocating Compressors",
-        "Rotary Screw Compressors",
-        "Oil-Free Compressors",
-        "Vacuum Pumps",
-        "Air Treatment",
-        "Compressed-Air Piping",
-        "Natural Gas Products"
-      ],
+      "fullDescription": ["Quincy Compressor is verified through its manufacturer-owned history and product pages as a United States compressor brand operating since 1920.", "The official range includes reciprocating and rotary-screw compressors, oil-free systems, vacuum pumps, air treatment and piping equipment, receivers and natural-gas compression products."],
+      "productCategories": ["Промышленные компрессоры", "Вакуумное оборудование", "Фильтры", "Трубопроводные компоненты"],
+      "productFamilies": ["Reciprocating Compressors", "Rotary Screw Compressors", "Oil-Free Compressors", "Vacuum Pumps", "Air Treatment", "Compressed-Air Piping", "Natural Gas Products"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность",
-        "Энергетика",
-        "Строительство"
-      ],
+      "industries": ["Промышленное производство", "Автомобильная промышленность", "Энергетика", "Строительство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.quincycompressor.com/products/"
-      ],
+      "documentationSources": ["https://www.quincycompressor.com/products/"],
       "sources": [
-        {
-          "sourceId": "brand-quincy-history",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_IDENTITY_FOUNDED_AND_COMPRESSOR_SPECIALISATION",
-          "url": "https://www.quincycompressor.com/about-us/history/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-quincy-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "RECIPROCATING_SCREW_OIL_FREE_VACUUM_AND_AIR_TREATMENT_FAMILIES",
-          "url": "https://www.quincycompressor.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-quincy-history","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_FOUNDED_AND_COMPRESSOR_SPECIALISATION","url":"https://www.quincycompressor.com/about-us/history/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-quincy-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RECIPROCATING_SCREW_OIL_FREE_VACUUM_AND_AIR_TREATMENT_FAMILIES","url":"https://www.quincycompressor.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "schaudt",
       "officialName": "SCHAUDT",
       "displayName": "SCHAUDT",
-      "aliases": [
-        "SCHAUDT"
-      ],
+      "aliases": ["SCHAUDT"],
       "formerNames": [],
       "officialWebsite": "https://www.grinding.com/en/about-us/our-brands/",
-      "officialDomains": [
-        "grinding.com"
-      ],
+      "officialDomains": ["grinding.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "UNITED GRINDING Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "SCHAUDT is a UNITED GRINDING brand of cylindrical and non-circular grinding machines.",
-      "fullDescription": [
-        "SCHAUDT is verified through the official UNITED GRINDING brand directory as a machine-tool brand for external cylindrical and non-circular grinding.",
-        "Its documented systems are used for workpieces such as camshafts and gear shafts, including automated grinding solutions for automotive and general manufacturing applications."
-      ],
-      "productCategories": [
-        "Станки",
-        "Шлифовальное оборудование"
-      ],
-      "productFamilies": [
-        "External Cylindrical Grinding Machines",
-        "Non-Circular Grinding Machines",
-        "Automated Grinding Systems"
-      ],
-      "series": [
-        "FlexGrind"
-      ],
-      "industries": [
-        "Автомобильная промышленность",
-        "Машиностроение",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://cdn.grinding.com/fileadmin/content_live_2019/www.schaudt.com/01_pdf/01_brochures/FlexGrind_V1.1_en.pdf"
-      ],
-      "documentationSources": [
-        "https://www.grinding.com/en/about-us/our-brands/"
-      ],
+      "fullDescription": ["SCHAUDT is verified through the official UNITED GRINDING brand directory as a machine-tool brand for external cylindrical and non-circular grinding.", "Its documented systems are used for workpieces such as camshafts and gear shafts, including automated grinding solutions for automotive and general manufacturing applications."],
+      "productCategories": ["Станки", "Шлифовальное оборудование"],
+      "productFamilies": ["External Cylindrical Grinding Machines", "Non-Circular Grinding Machines", "Automated Grinding Systems"],
+      "series": ["FlexGrind"],
+      "industries": ["Автомобильная промышленность", "Машиностроение", "Промышленное производство"],
+      "officialCatalogs": ["https://cdn.grinding.com/fileadmin/content_live_2019/www.schaudt.com/01_pdf/01_brochures/FlexGrind_V1.1_en.pdf"],
+      "documentationSources": ["https://www.grinding.com/en/about-us/our-brands/"],
       "sources": [
-        {
-          "sourceId": "brand-schaudt-parent",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_AND_GRINDING_MACHINE_SPECIALISATION",
-          "url": "https://www.grinding.com/en/about-us/our-brands/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-schaudt-flexgrind",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "FLEXGRIND_CYLINDRICAL_AND_NON_CIRCULAR_GRINDING_SCOPE",
-          "url": "https://cdn.grinding.com/fileadmin/content_live_2019/www.schaudt.com/01_pdf/01_brochures/FlexGrind_V1.1_en.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-schaudt-parent","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_GRINDING_MACHINE_SPECIALISATION","url":"https://www.grinding.com/en/about-us/our-brands/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-schaudt-flexgrind","tier":"A","type":"OFFICIAL_CATALOG","scope":"FLEXGRIND_CYLINDRICAL_AND_NON_CIRCULAR_GRINDING_SCOPE","url":"https://cdn.grinding.com/fileadmin/content_live_2019/www.schaudt.com/01_pdf/01_brochures/FlexGrind_V1.1_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "schenck-process",
       "officialName": "Qlar Group GmbH",
       "displayName": "Qlar / Schenck Process",
-      "aliases": [
-        "SCHENCK PROCESS",
-        "QLAR",
-        "SCHENCK PROCESS EUROPE"
-      ],
-      "formerNames": [
-        "Schenck Process"
-      ],
+      "aliases": ["SCHENCK PROCESS", "QLAR", "SCHENCK PROCESS EUROPE"],
+      "formerNames": ["Schenck Process"],
       "officialWebsite": "https://www.qlar.com/",
-      "officialDomains": [
-        "qlar.com"
-      ],
+      "officialDomains": ["qlar.com"],
       "country": "Germany",
       "headquarters": "Darmstadt, Germany",
       "foundedYear": 1881,
       "parentCompany": null,
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Qlar, formerly Schenck Process, develops weighing, feeding and bulk-material processing systems.",
-      "fullDescription": [
-        "Qlar Group GmbH is verified through its official corporate announcement as the current company identity adopted by Schenck Process in May 2024, with its engineering heritage dating to 1881 and headquarters in Darmstadt.",
-        "The official technology portfolio covers industrial weighing, feeding, pneumatic conveying, milling, grinding and bulk-material handling systems, while Schenck Process remains visible as a product and technology brand."
-      ],
-      "productCategories": [
-        "Весовое оборудование",
-        "Дозирующее оборудование",
-        "Конвейерное оборудование",
-        "Измельчительное оборудование",
-        "Оборудование для переработки"
-      ],
-      "productFamilies": [
-        "Weighing Systems",
-        "Feeding Systems",
-        "Pneumatic Conveying",
-        "Milling and Grinding",
-        "Bulk Material Handling",
-        "Condition Monitoring"
-      ],
-      "series": [
-        "MULTIBELT",
-        "MULTIDOS",
-        "ProFlex",
-        "MULTICOR",
-        "ProPhase",
-        "MoveMaster",
-        "CONiQ",
-        "LOGiQ"
-      ],
-      "industries": [
-        "Цементная промышленность",
-        "Пищевая промышленность",
-        "Химическая промышленность",
-        "Горнодобывающая промышленность",
-        "Энергетика"
-      ],
+      "fullDescription": ["Qlar Group GmbH is verified through its official corporate announcement as the current company identity adopted by Schenck Process in May 2024, with its engineering heritage dating to 1881 and headquarters in Darmstadt.", "The official technology portfolio covers industrial weighing, feeding, pneumatic conveying, milling, grinding and bulk-material handling systems, while Schenck Process remains visible as a product and technology brand."],
+      "productCategories": ["Весовое оборудование", "Дозирующее оборудование", "Конвейерное оборудование", "Измельчительное оборудование", "Оборудование для переработки"],
+      "productFamilies": ["Weighing Systems", "Feeding Systems", "Pneumatic Conveying", "Milling and Grinding", "Bulk Material Handling", "Condition Monitoring"],
+      "series": ["MULTIBELT", "MULTIDOS", "ProFlex", "MULTICOR", "ProPhase", "MoveMaster", "CONiQ", "LOGiQ"],
+      "industries": ["Цементная промышленность", "Пищевая промышленность", "Химическая промышленность", "Горнодобывающая промышленность", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.qlar.com/about-us/groundingpage"
-      ],
+      "documentationSources": ["https://www.qlar.com/about-us/groundingpage"],
       "sources": [
-        {
-          "sourceId": "brand-schenck-process-rebrand",
-          "tier": "A",
-          "type": "CORPORATE_NOTICE",
-          "scope": "SCHENCK_PROCESS_TO_QLAR_CURRENT_IDENTITY_REBRAND_AND_HEADQUARTERS",
-          "url": "https://www.qlar.com/press-and-media/press-releases/schenck-process-becomes-qlar",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-schenck-process-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "HISTORY_AND_WEIGHING_FEEDING_CONVEYING_PROCESS_SCOPE",
-          "url": "https://www.qlar.com/about-us/groundingpage",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-schenck-process-rebrand","tier":"A","type":"CORPORATE_NOTICE","scope":"SCHENCK_PROCESS_TO_QLAR_CURRENT_IDENTITY_REBRAND_AND_HEADQUARTERS","url":"https://www.qlar.com/press-and-media/press-releases/schenck-process-becomes-qlar","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-schenck-process-about","tier":"A","type":"ABOUT","scope":"HISTORY_AND_WEIGHING_FEEDING_CONVEYING_PROCESS_SCOPE","url":"https://www.qlar.com/about-us/groundingpage","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "sonceboz",
       "officialName": "Sonceboz SA",
       "displayName": "Sonceboz",
-      "aliases": [
-        "SONCEBOZ",
-        "SONCEBOZ SA"
-      ],
+      "aliases": ["SONCEBOZ", "SONCEBOZ SA"],
       "formerNames": [],
       "officialWebsite": "https://sonceboz.com/",
-      "officialDomains": [
-        "sonceboz.com"
-      ],
+      "officialDomains": ["sonceboz.com"],
       "country": "Switzerland",
-      "headquarters": "Sonceboz, Switzerland",
+      "headquarters":"Sonceboz, Switzerland",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Sonceboz develops mechatronic drive, positioning and flow-control systems for demanding equipment applications.",
-      "fullDescription": [
-        "Sonceboz SA is verified through its manufacturer-owned website as a Swiss mechatronics company focused on positioning, flow control and drive systems.",
-        "Its official portfolio includes motors and drives, smart actuators, fluid and syringe pumps, scroll pumps, wheel-hub motors, robotics components, clamp systems and human-machine interfaces."
-      ],
-      "productCategories": [
-        "Промышленные электродвигатели",
-        "Системы управления движением",
-        "Линейные приводы",
-        "Промышленные насосы",
-        "Робототехника",
-        "Промышленная автоматизация и контроллеры"
-      ],
-      "productFamilies": [
-        "Motors and Drives",
-        "Smart Actuators",
-        "Fluid Pumps",
-        "Syringe Pumps",
-        "Scroll Pumps",
-        "Wheel-Hub Motors",
-        "Robotics Components",
-        "HMI Systems"
-      ],
+      "fullDescription": ["Sonceboz SA is verified through its manufacturer-owned website as a Swiss mechatronics company focused on positioning, flow control and drive systems.", "Its official portfolio includes motors and drives, smart actuators, fluid and syringe pumps, scroll pumps, wheel-hub motors, robotics components, clamp systems and human-machine interfaces."],
+      "productCategories": ["Промышленные электродвигатели", "Системы управления движением", "Линейные приводы", "Промышленные насосы", "Робототехника", "Промышленная автоматизация и контроллеры"],
+      "productFamilies": ["Motors and Drives", "Smart Actuators", "Fluid Pumps", "Syringe Pumps", "Scroll Pumps", "Wheel-Hub Motors", "Robotics Components", "HMI Systems"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Медицинское оборудование",
-        "Промышленная автоматизация",
-        "Робототехника"
-      ],
+      "industries": ["Автомобильная промышленность", "Медицинское оборудование", "Промышленная автоматизация", "Робототехника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://sonceboz.com/products/"
-      ],
+      "documentationSources": ["https://sonceboz.com/products/"],
       "sources": [
-        {
-          "sourceId": "brand-sonceboz-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_COUNTRY_AND_MECHATRONIC_SPECIALISATION",
-          "url": "https://sonceboz.com/about/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-sonceboz-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "DRIVE_ACTUATOR_PUMP_ROBOTICS_AND_HMI_FAMILIES",
-          "url": "https://sonceboz.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-sonceboz-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://sonceboz.com/legal-notices/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+        {"sourceId":"brand-sonceboz-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_COUNTRY_AND_MECHATRONIC_SPECIALISATION","url":"https://sonceboz.com/about/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-sonceboz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DRIVE_ACTUATOR_PUMP_ROBOTICS_AND_HMI_FAMILIES","url":"https://sonceboz.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+      ,{"sourceId":"brand-sonceboz-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://sonceboz.com/legal-notices/","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "thyssen-krupp",
       "officialName": "thyssenkrupp AG",
       "displayName": "thyssenkrupp",
-      "aliases": [
-        "THYSSENKRUPP",
-        "THYSSEN KRUPP",
-        "THYSSENKRUPP AG"
-      ],
+      "aliases": ["THYSSENKRUPP", "THYSSEN KRUPP", "THYSSENKRUPP AG"],
       "formerNames": [],
       "officialWebsite": "https://www.thyssenkrupp.com/en/",
-      "officialDomains": [
-        "thyssenkrupp.com"
-      ],
+      "officialDomains": ["thyssenkrupp.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "thyssenkrupp is an industrial group active in materials, automotive technology and decarbonization-focused engineering.",
-      "fullDescription": [
-        "thyssenkrupp AG is verified through its official corporate website as a German industrial and technology group organized around automotive technology, decarbon technologies, materials services and steel activities.",
-        "Its public product scope includes automotive components and systems, industrial and plant technologies, materials distribution and services, and flat steel products for manufacturing and infrastructure markets."
-      ],
-      "productCategories": [
-        "Промышленные материалы",
-        "Автомобильные компоненты",
-        "Промышленные машины",
-        "Металлургическое оборудование"
-      ],
-      "productFamilies": [
-        "Automotive Technology",
-        "Decarbon Technologies",
-        "Materials Services",
-        "Steel Products",
-        "Industrial Systems"
-      ],
+      "fullDescription": ["thyssenkrupp AG is verified through its official corporate website as a German industrial and technology group organized around automotive technology, decarbon technologies, materials services and steel activities.", "Its public product scope includes automotive components and systems, industrial and plant technologies, materials distribution and services, and flat steel products for manufacturing and infrastructure markets."],
+      "productCategories": ["Промышленные материалы", "Автомобильные компоненты", "Промышленные машины", "Металлургическое оборудование"],
+      "productFamilies": ["Automotive Technology", "Decarbon Technologies", "Materials Services", "Steel Products", "Industrial Systems"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Металлургия",
-        "Машиностроение",
-        "Энергетика",
-        "Строительство"
-      ],
+      "industries": ["Автомобильная промышленность", "Металлургия", "Машиностроение", "Энергетика", "Строительство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.thyssenkrupp.com/en/products"
-      ],
+      "documentationSources": ["https://www.thyssenkrupp.com/en/products"],
       "sources": [
-        {
-          "sourceId": "brand-thyssenkrupp-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_AND_CURRENT_GROUP_SEGMENTS",
-          "url": "https://www.thyssenkrupp.com/en/company",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-thyssenkrupp-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "AUTOMOTIVE_INDUSTRIAL_MATERIALS_AND_STEEL_SCOPE",
-          "url": "https://www.thyssenkrupp.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-thyssenkrupp-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_CURRENT_GROUP_SEGMENTS","url":"https://www.thyssenkrupp.com/en/company","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-thyssenkrupp-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AUTOMOTIVE_INDUSTRIAL_MATERIALS_AND_STEEL_SCOPE","url":"https://www.thyssenkrupp.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "toray",
       "officialName": "Toray Industries, Inc.",
       "displayName": "Toray",
-      "aliases": [
-        "TORAY",
-        "TORAY INDUSTRIES"
-      ],
+      "aliases": ["TORAY", "TORAY INDUSTRIES"],
       "formerNames": [],
       "officialWebsite": "https://www.toray.com/",
-      "officialDomains": [
-        "toray.com"
-      ],
+      "officialDomains": ["toray.com"],
       "country": "Japan",
       "headquarters": "Tokyo, Japan",
       "foundedYear": 1926,
       "parentCompany": null,
       "shortDescription": "Toray develops fibers, films, resins, carbon-fiber composites, water-treatment materials and life-science products.",
-      "fullDescription": [
-        "Toray Industries, Inc. is verified through its official corporate outline as a Japanese materials company established in 1926 and headquartered in Tokyo.",
-        "The official portfolio spans fibers and textiles, resins, films, chemicals and electronic materials, carbon-fiber composites, water-treatment and environmental engineering products, and pharmaceutical and medical materials."
-      ],
-      "productCategories": [
-        "Промышленные материалы",
-        "Композитные материалы",
-        "Фильтры",
-        "Химические материалы",
-        "Медицинские материалы"
-      ],
-      "productFamilies": [
-        "Fibers and Textiles",
-        "Resins",
-        "Films",
-        "Electronic Materials",
-        "Carbon Fiber Composites",
-        "Water Treatment",
-        "Life Science and Medical Products"
-      ],
+      "fullDescription": ["Toray Industries, Inc. is verified through its official corporate outline as a Japanese materials company established in 1926 and headquartered in Tokyo.", "The official portfolio spans fibers and textiles, resins, films, chemicals and electronic materials, carbon-fiber composites, water-treatment and environmental engineering products, and pharmaceutical and medical materials."],
+      "productCategories": ["Промышленные материалы", "Композитные материалы", "Фильтры", "Химические материалы", "Медицинские материалы"],
+      "productFamilies": ["Fibers and Textiles", "Resins", "Films", "Electronic Materials", "Carbon Fiber Composites", "Water Treatment", "Life Science and Medical Products"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Аэрокосмическая промышленность",
-        "Электроника",
-        "Водоподготовка",
-        "Фармацевтическая промышленность"
-      ],
+      "industries": ["Автомобильная промышленность", "Аэрокосмическая промышленность", "Электроника", "Водоподготовка", "Фармацевтическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.toray.com/products/"
-      ],
+      "documentationSources": ["https://www.toray.com/products/"],
       "sources": [
-        {
-          "sourceId": "brand-toray-outline",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_BUSINESS_SEGMENTS",
-          "url": "https://www.toray.com/aboutus/outline.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-toray-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "FIBER_FILM_RESIN_COMPOSITE_WATER_AND_LIFE_SCIENCE_SCOPE",
-          "url": "https://www.toray.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-toray-outline","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_BUSINESS_SEGMENTS","url":"https://www.toray.com/aboutus/outline.html","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-toray-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FIBER_FILM_RESIN_COMPOSITE_WATER_AND_LIFE_SCIENCE_SCOPE","url":"https://www.toray.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "tyrolit",
       "officialName": "TYROLIT Group",
       "displayName": "TYROLIT",
-      "aliases": [
-        "TYROLIT",
-        "TYROLIT GROUP"
-      ],
+      "aliases": ["TYROLIT", "TYROLIT GROUP"],
       "formerNames": [],
       "officialWebsite": "https://www.tyrolit.group/en",
-      "officialDomains": [
-        "tyrolit.group"
-      ],
+      "officialDomains": ["tyrolit.group"],
       "country": "Austria",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "TYROLIT manufactures abrasive tools and systems for grinding, cutting, drilling, dressing and sawing.",
-      "fullDescription": [
-        "TYROLIT Group is verified through its manufacturer-owned international website as an Austrian manufacturer specializing in abrasive and machining technology.",
-        "Its official product scope covers bonded and superabrasive grinding tools, cutting and drilling tools, dressing tools, saw products and application systems for metalworking, precision industries, construction and stone processing."
-      ],
-      "productCategories": [
-        "Абразивные материалы",
-        "Промышленные инструменты",
-        "Режущее оборудование",
-        "Шлифовальное оборудование",
-        "Буровое оборудование"
-      ],
-      "productFamilies": [
-        "Grinding Tools",
-        "Cutting Tools",
-        "Drilling Tools",
-        "Dressing Tools",
-        "Saw Products",
-        "Application Systems"
-      ],
+      "fullDescription": ["TYROLIT Group is verified through its manufacturer-owned international website as an Austrian manufacturer specializing in abrasive and machining technology.", "Its official product scope covers bonded and superabrasive grinding tools, cutting and drilling tools, dressing tools, saw products and application systems for metalworking, precision industries, construction and stone processing."],
+      "productCategories": ["Абразивные материалы", "Промышленные инструменты", "Режущее оборудование", "Шлифовальное оборудование", "Буровое оборудование"],
+      "productFamilies": ["Grinding Tools", "Cutting Tools", "Drilling Tools", "Dressing Tools", "Saw Products", "Application Systems"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Строительство",
-        "Камнеобработка",
-        "Машиностроение"
-      ],
+      "industries": ["Металлообработка", "Строительство", "Камнеобработка", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.tyrolit.group/en/products"
-      ],
+      "documentationSources": ["https://www.tyrolit.group/en/products"],
       "sources": [
-        {
-          "sourceId": "brand-tyrolit-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_IDENTITY_COUNTRY_AND_ABRASIVE_TECHNOLOGY_SPECIALISATION",
-          "url": "https://www.tyrolit.group/en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-tyrolit-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GRINDING_CUTTING_DRILLING_DRESSING_AND_SAWING_FAMILIES",
-          "url": "https://www.tyrolit.group/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-tyrolit-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CURRENT_IDENTITY_COUNTRY_AND_ABRASIVE_TECHNOLOGY_SPECIALISATION","url":"https://www.tyrolit.group/en","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-tyrolit-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GRINDING_CUTTING_DRILLING_DRESSING_AND_SAWING_FAMILIES","url":"https://www.tyrolit.group/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "weishaupt",
       "officialName": "Max Weishaupt GmbH",
       "displayName": "Weishaupt",
-      "aliases": [
-        "WEISHAUPT",
-        "MAX WEISHAUPT"
-      ],
+      "aliases": ["WEISHAUPT", "MAX WEISHAUPT"],
       "formerNames": [],
       "officialWebsite": "https://www.weishaupt.de/",
-      "officialDomains": [
-        "weishaupt.de"
-      ],
+      "officialDomains": ["weishaupt.de"],
       "country": "Germany",
       "headquarters": "Schwendi, Germany",
       "foundedYear": 1932,
       "parentCompany": null,
       "shortDescription": "Weishaupt manufactures burners, heating systems, heat pumps, solar-thermal systems and energy-storage equipment.",
-      "fullDescription": [
-        "Max Weishaupt GmbH is verified through its manufacturer-owned company material as a German energy-technology business founded in Schwendi in 1932, with burner production beginning in 1952.",
-        "The official portfolio covers gas, oil and dual-fuel burners, condensing heating systems, heat pumps, solar-thermal systems, hot-water systems and energy storage, including industrial burner ranges for high-capacity applications."
-      ],
-      "productCategories": [
-        "Горелочное оборудование",
-        "Системы отопления",
-        "Тепловые насосы",
-        "Солнечные системы",
-        "Системы хранения энергии",
-        "Промышленная автоматизация и контроллеры"
-      ],
-      "productFamilies": [
-        "Gas and Oil Heating Systems",
-        "Heat Pumps",
-        "Solar Thermal Systems",
-        "Hot Water Systems",
-        "Energy Storage",
-        "Gas Burners",
-        "Oil Burners",
-        "Dual-Fuel Burners"
-      ],
-      "series": [
-        "WG",
-        "WL",
-        "WGL",
-        "WM monarch",
-        "WKmono",
-        "WK",
-        "Aeroblock",
-        "Evoblock",
-        "Biblock",
-        "Splitblock",
-        "Geoblock"
-      ],
-      "industries": [
-        "Промышленный нагрев",
-        "Энергетика",
-        "Автоматизация зданий",
-        "Морская промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.weishaupt.de/uploads/tx_weishaupt_documents/documents/en/83243502.pdf"
-      ],
-      "documentationSources": [
-        "https://www.weishaupt.de/produkte/produktportfolio",
-        "https://www.weishaupt.de/produkte/brenner"
-      ],
+      "fullDescription": ["Max Weishaupt GmbH is verified through its manufacturer-owned company material as a German energy-technology business founded in Schwendi in 1932, with burner production beginning in 1952.", "The official portfolio covers gas, oil and dual-fuel burners, condensing heating systems, heat pumps, solar-thermal systems, hot-water systems and energy storage, including industrial burner ranges for high-capacity applications."],
+      "productCategories": ["Горелочное оборудование", "Системы отопления", "Тепловые насосы", "Солнечные системы", "Системы хранения энергии", "Промышленная автоматизация и контроллеры"],
+      "productFamilies": ["Gas and Oil Heating Systems", "Heat Pumps", "Solar Thermal Systems", "Hot Water Systems", "Energy Storage", "Gas Burners", "Oil Burners", "Dual-Fuel Burners"],
+      "series": ["WG", "WL", "WGL", "WM monarch", "WKmono", "WK", "Aeroblock", "Evoblock", "Biblock", "Splitblock", "Geoblock"],
+      "industries": ["Промышленный нагрев", "Энергетика", "Автоматизация зданий", "Морская промышленность"],
+      "officialCatalogs": ["https://www.weishaupt.de/uploads/tx_weishaupt_documents/documents/en/83243502.pdf"],
+      "documentationSources": ["https://www.weishaupt.de/produkte/produktportfolio", "https://www.weishaupt.de/produkte/brenner"],
       "sources": [
-        {
-          "sourceId": "brand-weishaupt-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_ENERGY_TECHNOLOGY_SPECIALISATION",
-          "url": "https://www.weishaupt.de/unternehmen/weishaupt/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-weishaupt-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "HEATING_HEAT_PUMP_SOLAR_STORAGE_AND_BURNER_FAMILIES",
-          "url": "https://www.weishaupt.de/produkte/produktportfolio",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-weishaupt-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_ENERGY_TECHNOLOGY_SPECIALISATION","url":"https://www.weishaupt.de/unternehmen/weishaupt/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-weishaupt-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HEATING_HEAT_PUMP_SOLAR_STORAGE_AND_BURNER_FAMILIES","url":"https://www.weishaupt.de/produkte/produktportfolio","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "ytron",
       "officialName": "YTRON Process Technology GmbH & Co. KG",
       "displayName": "YTRON",
-      "aliases": [
-        "YTRON",
-        "YTRON PROCESS TECHNOLOGY"
-      ],
+      "aliases": ["YTRON", "YTRON PROCESS TECHNOLOGY"],
       "formerNames": [],
       "officialWebsite": "https://www.ytron.com/en/",
-      "officialDomains": [
-        "ytron.com"
-      ],
+      "officialDomains": ["ytron.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "YTRON develops industrial mixing, powder-dissolving, emulsifying and homogenizing systems.",
-      "fullDescription": [
-        "YTRON Process Technology is verified through its manufacturer-owned website as a German specialist in hygienic dispersion and mixing technology.",
-        "The official portfolio covers powder-dissolving and wetting systems, jet-stream mixing turbines, inline dispersing machines, emulsifying and homogenizing equipment, plus configurable process systems for liquid and powder processing."
-      ],
-      "productCategories": [
-        "Смесительное оборудование",
-        "Промышленные машины",
-        "Оборудование для переработки"
-      ],
-      "productFamilies": [
-        "Powder-Dissolving Systems",
-        "Jet-Stream Mixers",
-        "Inline Dispersing Machines",
-        "Emulsifying and Homogenizing Machines",
-        "Process Systems"
-      ],
-      "series": [
-        "YTRON-Y"
-      ],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность",
-        "Химическая промышленность",
-        "Косметическая промышленность"
-      ],
+      "fullDescription": ["YTRON Process Technology is verified through its manufacturer-owned website as a German specialist in hygienic dispersion and mixing technology.", "The official portfolio covers powder-dissolving and wetting systems, jet-stream mixing turbines, inline dispersing machines, emulsifying and homogenizing equipment, plus configurable process systems for liquid and powder processing."],
+      "productCategories": ["Смесительное оборудование", "Промышленные машины", "Оборудование для переработки"],
+      "productFamilies": ["Powder-Dissolving Systems", "Jet-Stream Mixers", "Inline Dispersing Machines", "Emulsifying and Homogenizing Machines", "Process Systems"],
+      "series": ["YTRON-Y"],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Химическая промышленность", "Косметическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.ytron.com/en/"
-      ],
+      "documentationSources": ["https://www.ytron.com/en/"],
       "sources": [
-        {
-          "sourceId": "brand-ytron-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_COUNTRY_AND_MIXING_TECHNOLOGY_SPECIALISATION",
-          "url": "https://www.ytron.com/en/company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-ytron-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "POWDER_DISSOLVING_JET_MIXING_DISPERSING_AND_HOMOGENIZING_SCOPE",
-          "url": "https://www.ytron.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-ytron-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_COUNTRY_AND_MIXING_TECHNOLOGY_SPECIALISATION","url":"https://www.ytron.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-ytron-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"POWDER_DISSOLVING_JET_MIXING_DISPERSING_AND_HOMOGENIZING_SCOPE","url":"https://www.ytron.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "aerzen",
       "officialName": "Aerzener Maschinenfabrik GmbH",
       "displayName": "AERZEN",
-      "aliases": [
-        "AERZEN",
-        "AERZENER MASCHINENFABRIK"
-      ],
+      "aliases": ["AERZEN", "AERZENER MASCHINENFABRIK"],
       "formerNames": [],
       "officialWebsite": "https://www.aerzen.com/",
-      "officialDomains": [
-        "aerzen.com"
-      ],
+      "officialDomains": ["aerzen.com"],
       "country": "Germany",
       "headquarters": "Aerzen, Germany",
       "foundedYear": 1864,
       "parentCompany": null,
       "shortDescription": "AERZEN manufactures blowers, screw compressors, screw blowers and turbo blowers for process-air and gas applications.",
-      "fullDescription": [
-        "Aerzener Maschinenfabrik GmbH is verified through its manufacturer-owned company profile as a German compression-technology manufacturer founded in 1864 and based in Aerzen.",
-        "The official range covers positive-displacement blowers, screw compressors, screw blowers, turbo blowers and controls for compressed air, process gas, vacuum, pneumatic conveying, water treatment and other industrial processes."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Промышленные воздуходувки",
-        "Вакуумное оборудование",
-        "Промышленная автоматизация и контроллеры"
-      ],
-      "productFamilies": [
-        "Positive Displacement Blowers",
-        "Screw Compressors",
-        "Screw Blowers",
-        "Turbo Blowers",
-        "Control Technology"
-      ],
-      "series": [
-        "Delta Blower",
-        "Delta Hybrid",
-        "Delta Screw",
-        "Generation 5",
-        "SI",
-        "DS",
-        "SW",
-        "AERtronic",
-        "AERsmart"
-      ],
-      "industries": [
-        "Водоподготовка",
-        "Пневмотранспорт",
-        "Химическая промышленность",
-        "Пищевая промышленность",
-        "Цементная промышленность",
-        "Морская промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-01_products/02-01-01_product_overview/Produktuebersicht__A1-004-21__EN_web.pdf"
-      ],
-      "documentationSources": [
-        "https://www.aerzen.com/sitemap",
-        "https://www.aerzen.com/products/screw-compressors/overview"
-      ],
+      "fullDescription": ["Aerzener Maschinenfabrik GmbH is verified through its manufacturer-owned company profile as a German compression-technology manufacturer founded in 1864 and based in Aerzen.", "The official range covers positive-displacement blowers, screw compressors, screw blowers, turbo blowers and controls for compressed air, process gas, vacuum, pneumatic conveying, water treatment and other industrial processes."],
+      "productCategories": ["Промышленные компрессоры", "Промышленные воздуходувки", "Вакуумное оборудование", "Промышленная автоматизация и контроллеры"],
+      "productFamilies": ["Positive Displacement Blowers", "Screw Compressors", "Screw Blowers", "Turbo Blowers", "Control Technology"],
+      "series": ["Delta Blower", "Delta Hybrid", "Delta Screw", "Generation 5", "SI", "DS", "SW", "AERtronic", "AERsmart"],
+      "industries": ["Водоподготовка", "Пневмотранспорт", "Химическая промышленность", "Пищевая промышленность", "Цементная промышленность", "Морская промышленность"],
+      "officialCatalogs": ["https://www.aerzen.com/fileadmin/user_upload/02_documents/02-01_products/02-01-01_product_overview/Produktuebersicht__A1-004-21__EN_web.pdf"],
+      "documentationSources": ["https://www.aerzen.com/sitemap", "https://www.aerzen.com/products/screw-compressors/overview"],
       "sources": [
-        {
-          "sourceId": "brand-aerzen-company",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_COMPRESSION_SPECIALISATION",
-          "url": "https://www.aerzen.com/de/unternehmen/profil/unser-kerngeschaeft-komprimierung-von-gasen",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-aerzen-home",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "BLOWER_COMPRESSOR_TURBO_AND_PROCESS_APPLICATION_FAMILIES",
-          "url": "https://www.aerzen.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-aerzen-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_COMPRESSION_SPECIALISATION","url":"https://www.aerzen.com/de/unternehmen/profil/unser-kerngeschaeft-komprimierung-von-gasen","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-aerzen-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BLOWER_COMPRESSOR_TURBO_AND_PROCESS_APPLICATION_FAMILIES","url":"https://www.aerzen.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "affetti",
       "officialName": "Affetti Pumps S.r.l.",
       "displayName": "Affetti Pumps",
-      "aliases": [
-        "AFFETTI",
-        "AFFETTI PUMPS"
-      ],
+      "aliases": ["AFFETTI", "AFFETTI PUMPS"],
       "formerNames": [],
       "officialWebsite": "https://www.affetti.com/en/",
-      "officialDomains": [
-        "affetti.com"
-      ],
+      "officialDomains": ["affetti.com"],
       "country": "Italy",
       "headquarters": "Castellanza, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Affetti Pumps manufactures corrosion-resistant pumps for aggressive and chemically demanding liquids.",
-      "fullDescription": [
-        "Affetti Pumps S.r.l. is verified through its manufacturer-owned website as an Italian pump manufacturer based in Castellanza with more than four decades of corrosion-resistant pump experience.",
-        "The official range includes mechanically sealed and magnetic-drive horizontal centrifugal pumps, self-priming centrifugal pumps, sump pumps and volumetric self-priming pumps for chemical and process duties."
-      ],
-      "productCategories": [
-        "Промышленные насосы"
-      ],
-      "productFamilies": [
-        "Horizontal Centrifugal Pumps",
-        "Magnetic Drive Pumps",
-        "Self-Priming Centrifugal Pumps",
-        "Sump Pumps",
-        "Volumetric Self-Priming Pumps"
-      ],
+      "fullDescription": ["Affetti Pumps S.r.l. is verified through its manufacturer-owned website as an Italian pump manufacturer based in Castellanza with more than four decades of corrosion-resistant pump experience.", "The official range includes mechanically sealed and magnetic-drive horizontal centrifugal pumps, self-priming centrifugal pumps, sump pumps and volumetric self-priming pumps for chemical and process duties."],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Horizontal Centrifugal Pumps", "Magnetic Drive Pumps", "Self-Priming Centrifugal Pumps", "Sump Pumps", "Volumetric Self-Priming Pumps"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Нефтехимическая промышленность",
-        "Водоподготовка",
-        "Горнодобывающая промышленность",
-        "Целлюлозно-бумажная промышленность"
-      ],
+      "industries": ["Химическая промышленность", "Нефтехимическая промышленность", "Водоподготовка", "Горнодобывающая промышленность", "Целлюлозно-бумажная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.affetti.com/en/products/"
-      ],
+      "documentationSources": ["https://www.affetti.com/en/products/"],
       "sources": [
-        {
-          "sourceId": "brand-affetti-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_CORROSION_RESISTANT_PUMP_SPECIALISATION",
-          "url": "https://www.affetti.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-affetti-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CENTRIFUGAL_MAGNETIC_DRIVE_SELF_PRIMING_SUMP_AND_VOLUMETRIC_PUMP_FAMILIES",
-          "url": "https://www.affetti.com/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-affetti-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_CORROSION_RESISTANT_PUMP_SPECIALISATION","url":"https://www.affetti.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-affetti-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CENTRIFUGAL_MAGNETIC_DRIVE_SELF_PRIMING_SUMP_AND_VOLUMETRIC_PUMP_FAMILIES","url":"https://www.affetti.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "berarma",
       "officialName": "BERARMA S.r.l.",
       "displayName": "BERARMA",
-      "aliases": [
-        "BERARMA",
-        "BERARMA SRL"
-      ],
+      "aliases": ["BERARMA", "BERARMA SRL"],
       "formerNames": [],
       "officialWebsite": "https://www.berarma.it/eng/",
-      "officialDomains": [
-        "berarma.it"
-      ],
+      "officialDomains": ["berarma.it"],
       "country": "Italy",
       "headquarters": "Casalecchio di Reno, Italy",
       "foundedYear": 1963,
       "parentCompany": null,
       "shortDescription": "BERARMA manufactures variable-displacement vane pumps and compact hydraulic power components.",
-      "fullDescription": [
-        "BERARMA S.r.l. is verified through its manufacturer-owned website as an Italian family-owned hydraulic business founded in 1963 and based in Casalecchio di Reno.",
-        "Its official portfolio covers variable-displacement vane pumps, compact hydraulic power packs, flow and check valves, and electric motor-pump units for industrial hydraulic systems."
-      ],
-      "productCategories": [
-        "Гидравлические насосы",
-        "Гидравлические станции",
-        "Гидравлические клапаны",
-        "Промышленные электродвигатели"
-      ],
-      "productFamilies": [
-        "Variable Displacement Vane Pumps",
-        "Mini Power Packs",
-        "Flow Control Valves",
-        "Check Valves",
-        "Motor-Pump Units"
-      ],
-      "series": [
-        "PLP",
-        "PHP",
-        "PHPK",
-        "P04",
-        "C04",
-        "NRV",
-        "FCV",
-        "GMP"
-      ],
-      "industries": [
-        "Промышленная гидравлика",
-        "Машиностроение",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["BERARMA S.r.l. is verified through its manufacturer-owned website as an Italian family-owned hydraulic business founded in 1963 and based in Casalecchio di Reno.", "Its official portfolio covers variable-displacement vane pumps, compact hydraulic power packs, flow and check valves, and electric motor-pump units for industrial hydraulic systems."],
+      "productCategories": ["Гидравлические насосы", "Гидравлические станции", "Гидравлические клапаны", "Промышленные электродвигатели"],
+      "productFamilies": ["Variable Displacement Vane Pumps", "Mini Power Packs", "Flow Control Valves", "Check Valves", "Motor-Pump Units"],
+      "series": ["PLP", "PHP", "PHPK", "P04", "C04", "NRV", "FCV", "GMP"],
+      "industries": ["Промышленная гидравлика", "Машиностроение", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.berarma.it/eng/prodotti/pompe/"
-      ],
+      "documentationSources": ["https://www.berarma.it/eng/prodotti/pompe/"],
       "sources": [
-        {
-          "sourceId": "brand-berarma-home",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_HYDRAULIC_SPECIALISATION",
-          "url": "https://www.berarma.it/eng/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-berarma-pumps",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "VANE_PUMP_POWER_PACK_VALVE_AND_MOTOR_PUMP_FAMILIES",
-          "url": "https://www.berarma.it/eng/prodotti/pompe/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-berarma-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_HYDRAULIC_SPECIALISATION","url":"https://www.berarma.it/eng/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-berarma-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VANE_PUMP_POWER_PACK_VALVE_AND_MOTOR_PUMP_FAMILIES","url":"https://www.berarma.it/eng/prodotti/pompe/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "bernard-controls",
       "officialName": "BERNARD CONTROLS S.A.",
       "displayName": "Bernard Controls",
-      "aliases": [
-        "BERNARD CONTROLS",
-        "BC"
-      ],
+      "aliases": ["BERNARD CONTROLS", "BC"],
       "formerNames": [],
       "officialWebsite": "https://www.bernardcontrols.com/",
-      "officialDomains": [
-        "bernardcontrols.com"
-      ],
+      "officialDomains": ["bernardcontrols.com"],
       "country": "France",
       "headquarters": "Gonesse, France",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Bernard Controls manufactures electric actuators and control systems for industrial valves and dampers.",
-      "fullDescription": [
-        "BERNARD CONTROLS is verified through its manufacturer-owned group website as a French specialist in electric actuation for industrial valves and dampers.",
-        "The official range includes quarter-turn and multi-turn actuators, continuous-modulating, fail-safe and explosion-protected configurations, nuclear-qualified solutions, control units and fieldbus-compatible actuator systems."
-      ],
-      "productCategories": [
-        "Электрические приводы",
-        "Промышленные клапаны и арматура",
-        "Промышленная автоматизация и контроллеры",
-        "Промышленная безопасность"
-      ],
-      "productFamilies": [
-        "Quarter-Turn Actuators",
-        "Multi-Turn Actuators",
-        "Continuous Modulating Actuators",
-        "Fail-Safe Actuators",
-        "Explosion-Proof Actuators",
-        "Control Systems"
-      ],
-      "series": [
-        "AQ",
-        "AT",
-        "AQX",
-        "SQ",
-        "ST",
-        "BT",
-        "SQX",
-        "STX",
-        "FQ",
-        "FSE",
-        "INTELLI+"
-      ],
-      "industries": [
-        "Энергетика",
-        "Нефтегазовая промышленность",
-        "Водоподготовка",
-        "Морская промышленность",
-        "Атомная энергетика"
-      ],
-      "officialCatalogs": [
-        "https://www.bernardcontrols.com/ressources/_documentation/source/1/eca1947-2350-brochure_AT_ENG_GRP_rev03c_.pdf"
-      ],
-      "documentationSources": [
-        "https://www.bernardcontrols.com/en/our-solutions/range"
-      ],
+      "fullDescription": ["BERNARD CONTROLS is verified through its manufacturer-owned group website as a French specialist in electric actuation for industrial valves and dampers.", "The official range includes quarter-turn and multi-turn actuators, continuous-modulating, fail-safe and explosion-protected configurations, nuclear-qualified solutions, control units and fieldbus-compatible actuator systems."],
+      "productCategories": ["Электрические приводы", "Промышленные клапаны и арматура", "Промышленная автоматизация и контроллеры", "Промышленная безопасность"],
+      "productFamilies": ["Quarter-Turn Actuators", "Multi-Turn Actuators", "Continuous Modulating Actuators", "Fail-Safe Actuators", "Explosion-Proof Actuators", "Control Systems"],
+      "series": ["AQ", "AT", "AQX", "SQ", "ST", "BT", "SQX", "STX", "FQ", "FSE", "INTELLI+"],
+      "industries": ["Энергетика", "Нефтегазовая промышленность", "Водоподготовка", "Морская промышленность", "Атомная энергетика"],
+      "officialCatalogs": ["https://www.bernardcontrols.com/ressources/_documentation/source/1/eca1947-2350-brochure_AT_ENG_GRP_rev03c_.pdf"],
+      "documentationSources": ["https://www.bernardcontrols.com/en/our-solutions/range"],
       "sources": [
-        {
-          "sourceId": "brand-bernard-controls-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_ELECTRIC_ACTUATION_SPECIALISATION",
-          "url": "https://www.bernardcontrols.com/en/our-group/electric-actuator-specialist",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-bernard-controls-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "QUARTER_TURN_MULTI_TURN_MODULATING_FAIL_SAFE_AND_PROTECTED_ACTUATOR_FAMILIES",
-          "url": "https://www.bernardcontrols.com/en/our-solutions/range",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-bernard-controls-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_ELECTRIC_ACTUATION_SPECIALISATION","url":"https://www.bernardcontrols.com/en/our-group/electric-actuator-specialist","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-bernard-controls-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"QUARTER_TURN_MULTI_TURN_MODULATING_FAIL_SAFE_AND_PROTECTED_ACTUATOR_FAMILIES","url":"https://www.bernardcontrols.com/en/our-solutions/range","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "bornemann-pumps",
       "officialName": "ITT Bornemann GmbH",
       "displayName": "Bornemann Pumps",
-      "aliases": [
-        "BORNEMANN",
-        "BORNEMANN PUMPS",
-        "ITT BORNEMANN"
-      ],
+      "aliases": ["BORNEMANN", "BORNEMANN PUMPS", "ITT BORNEMANN"],
       "formerNames": [],
       "officialWebsite": "https://www.bornemann.com/",
-      "officialDomains": [
-        "bornemann.com",
-        "itt.com"
-      ],
+      "officialDomains": ["bornemann.com", "itt.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "ITT Inc.",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Bornemann is an ITT brand of twin-screw and multiphase pump systems for complex process media.",
-      "fullDescription": [
-        "ITT Bornemann is verified through the manufacturer-owned Bornemann domain and ITT corporate reporting as a current ITT pump technology brand acquired in 2012.",
-        "Its documented scope includes twin-screw pumps, multiphase boosting systems and progressive-cavity pumps for transporting liquid, gas, viscous and abrasive media in oil and gas, marine, food and pharmaceutical applications."
-      ],
-      "productCategories": [
-        "Промышленные насосы"
-      ],
-      "productFamilies": [
-        "Twin-Screw Pumps",
-        "Multiphase Boosting Systems",
-        "Progressive Cavity Pumps"
-      ],
+      "fullDescription": ["ITT Bornemann is verified through the manufacturer-owned Bornemann domain and ITT corporate reporting as a current ITT pump technology brand acquired in 2012.", "Its documented scope includes twin-screw pumps, multiphase boosting systems and progressive-cavity pumps for transporting liquid, gas, viscous and abrasive media in oil and gas, marine, food and pharmaceutical applications."],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Twin-Screw Pumps", "Multiphase Boosting Systems", "Progressive Cavity Pumps"],
       "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Морская промышленность",
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.bornemann.com/ittgp/medialibrary/bornemann/website/Download/Twin-Screw/TankStorage-en.pdf?ext=.pdf"
-      ],
-      "documentationSources": [
-        "https://www.bornemann.com/"
-      ],
+      "industries": ["Нефтегазовая промышленность", "Морская промышленность", "Пищевая промышленность", "Фармацевтическая промышленность"],
+      "officialCatalogs": ["https://www.bornemann.com/ittgp/medialibrary/bornemann/website/Download/Twin-Screw/TankStorage-en.pdf?ext=.pdf"],
+      "documentationSources": ["https://www.bornemann.com/"],
       "sources": [
-        {
-          "sourceId": "brand-bornemann-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_TWIN_SCREW_PUMP_SCOPE",
-          "url": "https://www.bornemann.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-bornemann-parent",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_REPORT",
-          "scope": "ITT_OWNERSHIP_ACQUISITION_AND_PUMP_TECHNOLOGY_FAMILIES",
-          "url": "https://www.itt.com/getattachment/3d435b2c-9104-459b-84f4-a8c7d6dbb633/ITT_2012_Annual_Report.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-bornemann-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_TWIN_SCREW_PUMP_SCOPE","url":"https://www.bornemann.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-bornemann-parent","tier":"B","type":"OFFICIAL_PARENT_REPORT","scope":"ITT_OWNERSHIP_ACQUISITION_AND_PUMP_TECHNOLOGY_FAMILIES","url":"https://www.itt.com/getattachment/3d435b2c-9104-459b-84f4-a8c7d6dbb633/ITT_2012_Annual_Report.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "broadcom-avago",
       "officialName": "Broadcom Inc.",
       "displayName": "Broadcom",
-      "aliases": [
-        "BROADCOM",
-        "AVAGO",
-        "AVAGO TECHNOLOGIES",
-        "BROADCOM LIMITED"
-      ],
-      "formerNames": [
-        "Avago Technologies",
-        "Broadcom Limited"
-      ],
+      "aliases": ["BROADCOM", "AVAGO", "AVAGO TECHNOLOGIES", "BROADCOM LIMITED"],
+      "formerNames": ["Avago Technologies", "Broadcom Limited"],
       "officialWebsite": "https://www.broadcom.com/",
-      "officialDomains": [
-        "broadcom.com"
-      ],
+      "officialDomains": ["broadcom.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Broadcom develops semiconductor and infrastructure-software products, including industrial sensing and connectivity components.",
-      "fullDescription": [
-        "Broadcom Inc. is verified through its official corporate history as the current company identity following Avago Technologies' acquisition of Broadcom Corporation in 2016 and the later Broadcom Limited name and domicile changes.",
-        "Its official product portfolio spans semiconductor and infrastructure software, with industrially relevant families including optical components, encoders, optocouplers, sensors, LEDs and displays, networking, storage and connectivity products."
-      ],
-      "productCategories": [
-        "Электронные компоненты",
-        "Промышленные энкодеры",
-        "Промышленные датчики",
-        "Оптоэлектроника",
-        "Промышленные разъёмы",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Optical Products",
-        "Encoders",
-        "Optocouplers",
-        "Sensors",
-        "LEDs and Displays",
-        "Networking",
-        "Storage and Connectivity",
-        "Infrastructure Software"
-      ],
+      "fullDescription": ["Broadcom Inc. is verified through its official corporate history as the current company identity following Avago Technologies' acquisition of Broadcom Corporation in 2016 and the later Broadcom Limited name and domicile changes.", "Its official product portfolio spans semiconductor and infrastructure software, with industrially relevant families including optical components, encoders, optocouplers, sensors, LEDs and displays, networking, storage and connectivity products."],
+      "productCategories": ["Электронные компоненты", "Промышленные энкодеры", "Промышленные датчики", "Оптоэлектроника", "Промышленные разъёмы", "Промышленное программное обеспечение"],
+      "productFamilies": ["Optical Products", "Encoders", "Optocouplers", "Sensors", "LEDs and Displays", "Networking", "Storage and Connectivity", "Infrastructure Software"],
       "series": [],
-      "industries": [
-        "Электроника",
-        "Телекоммуникации",
-        "Промышленная автоматизация",
-        "Центры обработки данных"
-      ],
+      "industries": ["Электроника", "Телекоммуникации", "Промышленная автоматизация", "Центры обработки данных"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.broadcom.com/products"
-      ],
+      "documentationSources": ["https://www.broadcom.com/products"],
       "sources": [
-        {
-          "sourceId": "brand-broadcom-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "CURRENT_LEGAL_IDENTITY_AND_TECHNOLOGY_SPECIALISATION",
-          "url": "https://www.broadcom.com/company/about-us",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-broadcom-history",
-          "tier": "A",
-          "type": "CORPORATE_HISTORY",
-          "scope": "AVAGO_BROADCOM_ACQUISITION_AND_NAME_TRANSITIONS",
-          "url": "https://www.broadcom.com/company/about-us/company-history",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-broadcom-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SEMICONDUCTOR_SENSOR_ENCODER_OPTICAL_CONNECTIVITY_AND_SOFTWARE_FAMILIES",
-          "url": "https://www.broadcom.com/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-broadcom-about","tier":"A","type":"ABOUT","scope":"CURRENT_LEGAL_IDENTITY_AND_TECHNOLOGY_SPECIALISATION","url":"https://www.broadcom.com/company/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-broadcom-history","tier":"A","type":"CORPORATE_HISTORY","scope":"AVAGO_BROADCOM_ACQUISITION_AND_NAME_TRANSITIONS","url":"https://www.broadcom.com/company/about-us/company-history","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-broadcom-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SEMICONDUCTOR_SENSOR_ENCODER_OPTICAL_CONNECTIVITY_AND_SOFTWARE_FAMILIES","url":"https://www.broadcom.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "dalgakiran",
       "officialName": "Dalgakıran Makina Sanayi ve Ticaret A.Ş.",
       "displayName": "Dalgakıran",
-      "aliases": [
-        "DALGAKIRAN",
-        "DALGAKIRAN COMPRESSOR"
-      ],
+      "aliases": ["DALGAKIRAN", "DALGAKIRAN COMPRESSOR"],
       "formerNames": [],
       "officialWebsite": "https://www.dalgakiran.com/en/",
-      "officialDomains": [
-        "dalgakiran.com"
-      ],
+      "officialDomains": ["dalgakiran.com"],
       "country": "Turkey",
       "headquarters": "Istanbul, Turkey",
       "foundedYear": 1965,
       "parentCompany": null,
       "shortDescription": "Dalgakıran manufactures industrial compressors, compressed-air treatment and gas-generation systems.",
-      "fullDescription": [
-        "Dalgakıran is verified through its manufacturer-owned company profile as a Turkish compressed-air equipment manufacturer founded in Istanbul in 1965 by Ömer Dalgakıran.",
-        "The official range includes oil-injected and oil-free rotary-screw compressors, reciprocating, scroll and turbo compressors, air dryers and filters, receivers, nitrogen generators, chillers and cooling towers."
-      ],
-      "productCategories": [
-        "Промышленные компрессоры",
-        "Фильтры",
-        "Системы сушки",
-        "Газогенераторное оборудование",
-        "Системы охлаждения"
-      ],
-      "productFamilies": [
-        "Oil-Injected Screw Compressors",
-        "Oil-Free Screw Compressors",
-        "Reciprocating Compressors",
-        "Scroll Compressors",
-        "Turbo Compressors",
-        "Air Dryers and Filters",
-        "Nitrogen Generators",
-        "Chillers and Cooling Towers"
-      ],
+      "fullDescription": ["Dalgakıran is verified through its manufacturer-owned company profile as a Turkish compressed-air equipment manufacturer founded in Istanbul in 1965 by Ömer Dalgakıran.", "The official range includes oil-injected and oil-free rotary-screw compressors, reciprocating, scroll and turbo compressors, air dryers and filters, receivers, nitrogen generators, chillers and cooling towers."],
+      "productCategories": ["Промышленные компрессоры", "Фильтры", "Системы сушки", "Газогенераторное оборудование", "Системы охлаждения"],
+      "productFamilies": ["Oil-Injected Screw Compressors", "Oil-Free Screw Compressors", "Reciprocating Compressors", "Scroll Compressors", "Turbo Compressors", "Air Dryers and Filters", "Nitrogen Generators", "Chillers and Cooling Towers"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Пищевая промышленность",
-        "Энергетика",
-        "Машиностроение"
-      ],
+      "industries": ["Промышленное производство", "Пищевая промышленность", "Энергетика", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.dalgakiran.com/en/air-compressors/"
-      ],
+      "documentationSources": ["https://www.dalgakiran.com/en/air-compressors/"],
       "sources": [
-        {
-          "sourceId": "brand-dalgakiran-about",
-          "tier": "A",
-          "type": "ABOUT",
-          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_COMPRESSED_AIR_SPECIALISATION",
-          "url": "https://www.dalgakiran.com/en/about-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-dalgakiran-compressors",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "SCREW_RECIPROCATING_SCROLL_TURBO_AND_AIR_TREATMENT_FAMILIES",
-          "url": "https://www.dalgakiran.com/en/air-compressors/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-dalgakiran-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_COMPRESSED_AIR_SPECIALISATION","url":"https://www.dalgakiran.com/en/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-dalgakiran-compressors","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SCREW_RECIPROCATING_SCROLL_TURBO_AND_AIR_TREATMENT_FAMILIES","url":"https://www.dalgakiran.com/en/air-compressors/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "dansensor",
       "officialName": "Dansensor",
       "displayName": "Dansensor",
-      "aliases": [
-        "DANSENSOR"
-      ],
+      "aliases": ["DANSENSOR"],
       "formerNames": [],
       "officialWebsite": "https://www.ametekmocon.com/products/searchbybrand/dansensor",
-      "officialDomains": [
-        "ametekmocon.com"
-      ],
+      "officialDomains": ["ametekmocon.com"],
       "country": "Denmark",
       "headquarters": "Ringsted, Denmark",
       "foundedYear": null,
       "parentCompany": "AMETEK MOCON",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Dansensor is an AMETEK MOCON brand of gas-analysis and package-integrity testing equipment.",
-      "fullDescription": [
-        "Dansensor is verified through the official AMETEK MOCON product platform as a current packaging-test and gas-analysis brand operated from Ringsted, Denmark.",
-        "Its documented range includes headspace modified-atmosphere gas analyzers, online gas analyzers, package leak detectors and gas mixers for quality control in food and pharmaceutical packaging."
-      ],
-      "productCategories": [
-        "Газоаналитическое оборудование",
-        "Контрольно-испытательное оборудование",
-        "Измерительное оборудование",
-        "Упаковочное оборудование"
-      ],
-      "productFamilies": [
-        "Headspace Gas Analyzers",
-        "Online MAP Gas Analyzers",
-        "Package Leak Detectors",
-        "Gas Mixers"
-      ],
+      "fullDescription": ["Dansensor is verified through the official AMETEK MOCON product platform as a current packaging-test and gas-analysis brand operated from Ringsted, Denmark.", "Its documented range includes headspace modified-atmosphere gas analyzers, online gas analyzers, package leak detectors and gas mixers for quality control in food and pharmaceutical packaging."],
+      "productCategories": ["Газоаналитическое оборудование", "Контрольно-испытательное оборудование", "Измерительное оборудование", "Упаковочное оборудование"],
+      "productFamilies": ["Headspace Gas Analyzers", "Online MAP Gas Analyzers", "Package Leak Detectors", "Gas Mixers"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность",
-        "Фармацевтическая промышленность",
-        "Упаковочная промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.ametekmocon.com/landingpages/dansensor-product-overview-brochure/-/media/ametekmocon/mediapreview/brochures/dansensor-product-brochures/pb-ptps_dansensor-product-overview-en-17.pdf?la=en&revision=d641b48c-661d-46fb-a581-9b7f7de31b58"
-      ],
-      "documentationSources": [
-        "https://www.ametekmocon.com/products/package-testing-products"
-      ],
+      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Упаковочная промышленность"],
+      "officialCatalogs": ["https://www.ametekmocon.com/landingpages/dansensor-product-overview-brochure/-/media/ametekmocon/mediapreview/brochures/dansensor-product-brochures/pb-ptps_dansensor-product-overview-en-17.pdf?la=en&revision=d641b48c-661d-46fb-a581-9b7f7de31b58"],
+      "documentationSources": ["https://www.ametekmocon.com/products/package-testing-products"],
       "sources": [
-        {
-          "sourceId": "brand-dansensor-parent",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_BRAND_PAGE",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_AND_PACKAGE_TESTING_SPECIALISATION",
-          "url": "https://www.ametekmocon.com/products/searchbybrand/dansensor",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-dansensor-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "GAS_ANALYZER_LEAK_DETECTOR_AND_GAS_MIXER_FAMILIES",
-          "url": "https://www.ametekmocon.com/products/package-testing-products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-dansensor-parent","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_PACKAGE_TESTING_SPECIALISATION","url":"https://www.ametekmocon.com/products/searchbybrand/dansensor","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-dansensor-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GAS_ANALYZER_LEAK_DETECTOR_AND_GAS_MIXER_FAMILIES","url":"https://www.ametekmocon.com/products/package-testing-products","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "e-t-a",
       "officialName": "E-T-A Elektrotechnische Apparate GmbH",
       "displayName": "E-T-A",
-      "aliases": [
-        "E-T-A",
-        "ETA ELEKTROTECHNISCHE APPARATE"
-      ],
+      "aliases": ["E-T-A", "ETA ELEKTROTECHNISCHE APPARATE"],
       "formerNames": [],
       "officialWebsite": "https://www.e-t-a.com/",
-      "officialDomains": [
-        "e-t-a.com"
-      ],
+      "officialDomains": ["e-t-a.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "E-T-A manufactures circuit protection, overcurrent protection, relays and power-distribution systems.",
-      "fullDescription": [
-        "E-T-A Elektrotechnische Apparate GmbH is verified through its manufacturer-owned product platform as a German electrical protection and power-management manufacturer.",
-        "The official portfolio includes circuit breakers and protectors, electronic AC and DC overcurrent protection, relays, conventional and intelligent power-distribution systems, customer-specific distribution assemblies and switch-mode power supplies."
-      ],
-      "productCategories": [
-        "Электротехническое оборудование",
-        "Промышленная безопасность",
-        "Реле",
-        "Источники питания",
-        "Промышленная автоматизация и контроллеры"
-      ],
-      "productFamilies": [
-        "Circuit Breakers",
-        "Electronic Overcurrent Protection",
-        "Relays",
-        "Power Distribution Systems",
-        "Custom Power Distribution",
-        "Switch-Mode Power Supplies"
-      ],
-      "series": [
-        "Power-D-Box"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Транспорт",
-        "Энергетика",
-        "Машиностроение"
-      ],
-      "officialCatalogs": [
-        "https://www.e-t-a.com/fileadmin/user_upload/Ordnerstruktur/pdf-Data/Products/Konv_Stromverteilung/Power-D-Box_Systeme/2_en/D_ECONOMYPOWER-D-BOX_EN.pdf"
-      ],
-      "documentationSources": [
-        "https://www.e-t-a.com/products/overview/"
-      ],
+      "fullDescription": ["E-T-A Elektrotechnische Apparate GmbH is verified through its manufacturer-owned product platform as a German electrical protection and power-management manufacturer.", "The official portfolio includes circuit breakers and protectors, electronic AC and DC overcurrent protection, relays, conventional and intelligent power-distribution systems, customer-specific distribution assemblies and switch-mode power supplies."],
+      "productCategories": ["Электротехническое оборудование", "Промышленная безопасность", "Реле", "Источники питания", "Промышленная автоматизация и контроллеры"],
+      "productFamilies": ["Circuit Breakers", "Electronic Overcurrent Protection", "Relays", "Power Distribution Systems", "Custom Power Distribution", "Switch-Mode Power Supplies"],
+      "series": ["Power-D-Box"],
+      "industries": ["Промышленная автоматизация", "Транспорт", "Энергетика", "Машиностроение"],
+      "officialCatalogs": ["https://www.e-t-a.com/fileadmin/user_upload/Ordnerstruktur/pdf-Data/Products/Konv_Stromverteilung/Power-D-Box_Systeme/2_en/D_ECONOMYPOWER-D-BOX_EN.pdf"],
+      "documentationSources": ["https://www.e-t-a.com/products/overview/"],
       "sources": [
-        {
-          "sourceId": "brand-e-t-a-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "LEGAL_IDENTITY_AND_CIRCUIT_PROTECTION_RELAY_POWER_DISTRIBUTION_SCOPE",
-          "url": "https://www.e-t-a.com/products/overview/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-e-t-a-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_CIRCUIT_PROTECTION_RELAY_POWER_DISTRIBUTION_SCOPE","url":"https://www.e-t-a.com/products/overview/","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     },
     {
       "manufacturerId": "enidine",
       "officialName": "Enidine",
       "displayName": "Enidine",
-      "aliases": [
-        "ENIDINE",
-        "ITT ENIDINE"
-      ],
+      "aliases": ["ENIDINE", "ITT ENIDINE"],
       "formerNames": [],
       "officialWebsite": "https://www.enidine.com/",
-      "officialDomains": [
-        "enidine.com"
-      ],
+      "officialDomains": ["enidine.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "ITT Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Enidine is an ITT brand of industrial energy-absorption and vibration-isolation products.",
-      "fullDescription": [
-        "Enidine is verified through its manufacturer-owned website and official technical catalog as an ITT brand focused on engineered motion control, energy absorption and vibration isolation.",
-        "Its documented portfolio includes industrial and heavy-duty shock absorbers, hydraulic rate controls, air springs, wire-rope isolators and related vibration-isolation products for machinery and transport applications."
-      ],
-      "productCategories": [
-        "Промышленные амортизаторы",
-        "Виброизоляционное оборудование",
-        "Гидравлические регуляторы",
-        "Пневматическое оборудование"
-      ],
-      "productFamilies": [
-        "Industrial Shock Absorbers",
-        "Heavy-Duty Shock Absorbers",
-        "Hydraulic Rate Controls",
-        "Air Springs",
-        "Wire Rope Isolators",
-        "Vibration Isolation Products"
-      ],
+      "fullDescription": ["Enidine is verified through its manufacturer-owned website and official technical catalog as an ITT brand focused on engineered motion control, energy absorption and vibration isolation.", "Its documented portfolio includes industrial and heavy-duty shock absorbers, hydraulic rate controls, air springs, wire-rope isolators and related vibration-isolation products for machinery and transport applications."],
+      "productCategories": ["Промышленные амортизаторы", "Виброизоляционное оборудование", "Гидравлические регуляторы", "Пневматическое оборудование"],
+      "productFamilies": ["Industrial Shock Absorbers", "Heavy-Duty Shock Absorbers", "Hydraulic Rate Controls", "Air Springs", "Wire Rope Isolators", "Vibration Isolation Products"],
       "series": [],
-      "industries": [
-        "Машиностроение",
-        "Промышленная автоматизация",
-        "Транспорт",
-        "Аэрокосмическая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.enidine.com/getmedia/b2a382ab-3ee7-4877-8754-5462300da76e/Shock_Catalog.pdf"
-      ],
-      "documentationSources": [
-        "https://www.enidine.com/"
-      ],
+      "industries": ["Машиностроение", "Промышленная автоматизация", "Транспорт", "Аэрокосмическая промышленность"],
+      "officialCatalogs": ["https://www.enidine.com/getmedia/b2a382ab-3ee7-4877-8754-5462300da76e/Shock_Catalog.pdf"],
+      "documentationSources": ["https://www.enidine.com/"],
       "sources": [
-        {
-          "sourceId": "brand-enidine-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_PARENT_AND_ENERGY_ABSORPTION_SPECIALISATION",
-          "url": "https://www.enidine.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-enidine-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "SHOCK_ABSORBER_RATE_CONTROL_AIR_SPRING_AND_ISOLATOR_FAMILIES",
-          "url": "https://www.enidine.com/getmedia/b2a382ab-3ee7-4877-8754-5462300da76e/Shock_Catalog.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
+        {"sourceId":"brand-enidine-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_PARENT_AND_ENERGY_ABSORPTION_SPECIALISATION","url":"https://www.enidine.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-enidine-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"SHOCK_ABSORBER_RATE_CONTROL_AIR_SPRING_AND_ISOLATOR_FAMILIES","url":"https://www.enidine.com/getmedia/b2a382ab-3ee7-4877-8754-5462300da76e/Shock_Catalog.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
       ]
     }
   ]

@@ -6,51 +6,35 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "GTS is used by several unrelated active industrial manufacturers, including transformer, test-system, grinding-technology and sealing businesses. The queue identity contains no legal-name, country or product-scope discriminator.",
-      "attemptedUrls": [
-        "https://www.gts-srl.it/",
-        "https://www.gts-online.net/",
-        "https://www.gtsgrinding.eu/"
-      ]
+      "attemptedUrls": ["https://www.gts-srl.it/", "https://www.gts-online.net/", "https://www.gtsgrinding.eu/"]
     },
     {
       "manufacturerId": "gunther",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "GUNTHER can refer to unrelated current manufacturers, including Günther temperature-sensing products and Günther food-processing machinery. The raw identity provides no safe discriminator.",
-      "attemptedUrls": [
-        "https://www.guenther.eu/",
-        "https://www.guenther-maschinenbau.de/en/"
-      ]
+      "attemptedUrls": ["https://www.guenther.eu/", "https://www.guenther-maschinenbau.de/en/"]
     },
     {
       "manufacturerId": "gutekunst",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "Gutekunst Federn and Gutekunst Formfedern are separate active German spring manufacturers with distinct official domains and product scopes. The undifferentiated record cannot be assigned automatically.",
-      "attemptedUrls": [
-        "https://www.gutekunst-net.de/en/",
-        "https://www.gutekunst-formfedern.de/en/"
-      ]
+      "attemptedUrls": ["https://www.gutekunst-net.de/en/", "https://www.gutekunst-formfedern.de/en/"]
     },
     {
       "manufacturerId": "gvr-pompe",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The name is consistent with GVR Pompe S.r.l., but no reachable manufacturer-owned website or explicit current official-parent source was found. Secondary company and reseller references are insufficient for publication.",
-      "attemptedUrls": [
-        "https://www.gvrpompe.com/",
-        "https://www.gvrpompe.it/"
-      ]
+      "attemptedUrls": ["https://www.gvrpompe.com/", "https://www.gvrpompe.it/"]
     },
     {
       "manufacturerId": "gwb",
       "status": "LEGACY_SOURCE_INSUFFICIENT",
       "checkedAt": "2026-08-24",
       "reason": "GWB is plausibly the historical cardan-shaft brand now associated with Dana/Spicer, but an explicit current manufacturer-owned identity page was not located. The abbreviation is not safe to resolve from secondary references.",
-      "attemptedUrls": [
-        "https://www.dana-industrial.com/",
-        "https://www.dana.com/product/commercial-vehicle/off-highway-driveshafts/"
-      ]
+      "attemptedUrls": ["https://www.dana-industrial.com/", "https://www.dana.com/product/commercial-vehicle/off-highway-driveshafts/"]
     },
     {
       "manufacturerId": "hagby-bil-smide-ab",
@@ -64,58 +48,42 @@
       "status": "LEGACY_SOURCE_INSUFFICIENT",
       "checkedAt": "2026-08-24",
       "reason": "HALBERG is plausibly a historical pump identity associated with KSB, but no explicit current manufacturer-owned page was found that safely resolves this record and its product scope.",
-      "attemptedUrls": [
-        "https://www.ksb.com/"
-      ]
+      "attemptedUrls": ["https://www.ksb.com/"]
     },
     {
       "manufacturerId": "halco",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "HALCO is shared by unrelated current manufacturers, including Halco Rock Tools and Halco USA fastening products. The queue record lacks a country or product-scope discriminator.",
-      "attemptedUrls": [
-        "https://halco.uk/",
-        "https://halcousa.com/"
-      ]
+      "attemptedUrls": ["https://halco.uk/", "https://halcousa.com/"]
     },
     {
       "manufacturerId": "hammond",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "Hammond Manufacturing and Hammond Power Solutions are distinct current manufacturers of different product ranges. The raw HAMMOND identity cannot safely select one official domain.",
-      "attemptedUrls": [
-        "https://www.hammfg.com/",
-        "https://www.hammondpowersolutions.com/"
-      ]
+      "attemptedUrls": ["https://www.hammfg.com/", "https://www.hammondpowersolutions.com/"]
     },
     {
       "manufacturerId": "haug",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "HAUG is used by unrelated current industrial businesses, including ionisation equipment and compressor or machinery companies. The raw record contains no product or legal-entity discriminator.",
-      "attemptedUrls": [
-        "https://www.haug.de/en/",
-        "https://www.haug.ch/en/"
-      ]
+      "attemptedUrls": ["https://www.haug.de/en/", "https://www.haug.ch/en/"]
     },
     {
       "manufacturerId": "hcr-heinrich-cremer",
       "status": "LEGACY_SOURCE_INSUFFICIENT",
       "checkedAt": "2026-08-24",
       "reason": "The former HCR Heinrich Cremer range is referenced by a current spare-parts provider, but no authoritative current manufacturer or explicit parent-company page establishes a publishable legacy identity and scope.",
-      "attemptedUrls": [
-        "https://www.hcr.de/"
-      ]
+      "attemptedUrls": ["https://www.hcr.de/"]
     },
     {
       "manufacturerId": "helios",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "HELIOS is used by multiple unrelated active manufacturers. Helios Ventilatoren is a strong candidate, but the queue identity has no product-scope or legal-name discriminator sufficient for automatic publication.",
-      "attemptedUrls": [
-        "https://www.heliosventilatoren.de/en/",
-        "https://www.helios-heaters.com/"
-      ]
+      "attemptedUrls": ["https://www.heliosventilatoren.de/en/", "https://www.helios-heaters.com/"]
     }
   ],
   "profiles": [
@@ -123,2163 +91,851 @@
       "manufacturerId": "gruen-pumpen",
       "officialName": "grün-pumpen gmbh",
       "displayName": "grün-pumpen",
-      "aliases": [
-        "GRUEN PUMPEN",
-        "Grun Pumpen",
-        "gruen-pumpen"
-      ],
+      "aliases": ["GRUEN PUMPEN", "Grun Pumpen", "gruen-pumpen"],
       "formerNames": [],
       "officialWebsite": "https://www.gruen-pumpen.de/",
-      "officialDomains": [
-        "gruen-pumpen.de"
-      ],
+      "officialDomains": ["gruen-pumpen.de"],
       "country": "Germany",
       "headquarters": "Alzenau, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "grün-pumpen manufactures drum and container pumps for transferring industrial liquids.",
-      "fullDescription": [
-        "grün-pumpen is verified through its manufacturer-owned site and technical literature as a German pump manufacturer.",
-        "Its documented range covers stainless-steel and plastic drum pumps, pump drives and accessories for liquid transfer."
-      ],
-      "productCategories": [
-        "Промышленные насосы"
-      ],
-      "productFamilies": [
-        "Drum Pumps",
-        "Container Pumps",
-        "Pump Drives",
-        "Pump Accessories"
-      ],
+      "fullDescription": ["grün-pumpen is verified through its manufacturer-owned site and technical literature as a German pump manufacturer.", "Its documented range covers stainless-steel and plastic drum pumps, pump drives and accessories for liquid transfer."],
+      "productCategories": ["Промышленные насосы"],
+      "productFamilies": ["Drum Pumps", "Container Pumps", "Pump Drives", "Pump Accessories"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.gruen-pumpen.de/Website%20Content/gruen-pumpen/Downloads/Edelstahl_Fasspumpen_D2114_EN_web.pdf"
-      ],
-      "documentationSources": [
-        "https://www.gruen-pumpen.de/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-gruen-catalog",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_DRUM_CONTAINER_PUMP_SCOPE",
-          "url": "https://www.gruen-pumpen.de/Website%20Content/gruen-pumpen/Downloads/Edelstahl_Fasspumpen_D2114_EN_web.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Химическая промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://www.gruen-pumpen.de/Website%20Content/gruen-pumpen/Downloads/Edelstahl_Fasspumpen_D2114_EN_web.pdf"],
+      "documentationSources": ["https://www.gruen-pumpen.de/"],
+      "sources": [{"sourceId":"wave83-gruen-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_DRUM_CONTAINER_PUMP_SCOPE","url":"https://www.gruen-pumpen.de/Website%20Content/gruen-pumpen/Downloads/Edelstahl_Fasspumpen_D2114_EN_web.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "grw",
       "officialName": "Gebr. Reinfurt GmbH & Co. KG",
       "displayName": "GRW",
-      "aliases": [
-        "GRW",
-        "Gebr. Reinfurt"
-      ],
+      "aliases": ["GRW", "Gebr. Reinfurt"],
       "formerNames": [],
       "officialWebsite": "https://www.grw.de/en-US/",
-      "officialDomains": [
-        "grw.de"
-      ],
+      "officialDomains": ["grw.de"],
       "country": "Germany",
       "headquarters": "Rimpar, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "GRW develops high-precision miniature ball bearings and bearing solutions for demanding machinery and instrumentation.",
-      "fullDescription": [
-        "Gebr. Reinfurt is verified through its official GRW website as a German precision-bearing manufacturer.",
-        "The published portfolio includes miniature, spindle and special ball bearings together with bearing-related test technology and accessories."
-      ],
-      "productCategories": [
-        "Прецизионные подшипники",
-        "Измерительное оборудование"
-      ],
-      "productFamilies": [
-        "Miniature Ball Bearings",
-        "Spindle Bearings",
-        "Special Ball Bearings",
-        "Test Technology"
-      ],
+      "fullDescription": ["Gebr. Reinfurt is verified through its official GRW website as a German precision-bearing manufacturer.", "The published portfolio includes miniature, spindle and special ball bearings together with bearing-related test technology and accessories."],
+      "productCategories": ["Прецизионные подшипники", "Измерительное оборудование"],
+      "productFamilies": ["Miniature Ball Bearings", "Spindle Bearings", "Special Ball Bearings", "Test Technology"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Медицинская техника",
-        "Аэрокосмическая промышленность"
-      ],
+      "industries": ["Промышленное производство", "Медицинская техника", "Аэрокосмическая промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.grw.de/en-US/industry.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-grw-industry",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_PRECISION_BALL_BEARING_SCOPE",
-          "url": "https://www.grw.de/en-US/industry.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.grw.de/en-US/industry.html"],
+      "sources": [{"sourceId":"wave83-grw-industry","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_PRECISION_BALL_BEARING_SCOPE","url":"https://www.grw.de/en-US/industry.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "gtm-testing-and-metrology",
       "officialName": "GTM Testing and Metrology GmbH",
       "displayName": "GTM Testing and Metrology",
-      "aliases": [
-        "GTM",
-        "GTM TESTING AND METROLOGY"
-      ],
+      "aliases": ["GTM", "GTM TESTING AND METROLOGY"],
       "formerNames": [],
       "officialWebsite": "https://www.gtm-gmbh.com/en/",
-      "officialDomains": [
-        "gtm-gmbh.com"
-      ],
+      "officialDomains": ["gtm-gmbh.com"],
       "country": "Germany",
       "headquarters": "Bickenbach, Germany",
       "foundedYear": 1988,
       "parentCompany": null,
       "shortDescription": "GTM Testing and Metrology develops force and torque measurement systems, transducers and calibration equipment.",
-      "fullDescription": [
-        "GTM Testing and Metrology is verified through its official website as a German measurement-technology company founded in 1988.",
-        "Its product scope includes force, torque and multi-component transducers, strain-gauge amplifiers, measurement machines and calibration systems."
-      ],
-      "productCategories": [
-        "Измерительное и калибровочное оборудование",
-        "Датчики силы и момента"
-      ],
-      "productFamilies": [
-        "Force Transducers",
-        "Torque Transducers",
-        "Multi-Component Transducers",
-        "Strain-Gauge Amplifiers",
-        "Calibration Machines"
-      ],
+      "fullDescription": ["GTM Testing and Metrology is verified through its official website as a German measurement-technology company founded in 1988.", "Its product scope includes force, torque and multi-component transducers, strain-gauge amplifiers, measurement machines and calibration systems."],
+      "productCategories": ["Измерительное и калибровочное оборудование", "Датчики силы и момента"],
+      "productFamilies": ["Force Transducers", "Torque Transducers", "Multi-Component Transducers", "Strain-Gauge Amplifiers", "Calibration Machines"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Исследования и лаборатории"
-      ],
+      "industries": ["Промышленное производство", "Исследования и лаборатории"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.gtm-gmbh.com/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-gtm-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "COMPANY_IDENTITY_FOUNDATION_AND_FORCE_TORQUE_CALIBRATION_PRODUCT_SCOPE",
-          "url": "https://www.gtm-gmbh.com/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.gtm-gmbh.com/en/products"],
+      "sources": [{"sourceId":"wave83-gtm-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COMPANY_IDENTITY_FOUNDATION_AND_FORCE_TORQUE_CALIBRATION_PRODUCT_SCOPE","url":"https://www.gtm-gmbh.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "guyson",
       "officialName": "Guyson International Limited",
       "displayName": "Guyson",
-      "aliases": [
-        "GUYSON",
-        "Guyson International"
-      ],
+      "aliases": ["GUYSON", "Guyson International"],
       "formerNames": [],
       "officialWebsite": "https://www.guyson.co.uk/",
-      "officialDomains": [
-        "guyson.co.uk"
-      ],
+      "officialDomains": ["guyson.co.uk"],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Guyson manufactures blast finishing, component-cleaning and automated surface-treatment equipment.",
-      "fullDescription": [
-        "Guyson International is verified through its manufacturer-owned website as a finishing-equipment producer.",
-        "The official range includes blast finishing and shot-peening systems, spray washers, ultrasonic cleaning equipment and automated or robotic finishing cells."
-      ],
-      "productCategories": [
-        "Окрасочное и финишное оборудование",
-        "Промышленные моечные системы",
-        "Роботизированные системы"
-      ],
-      "productFamilies": [
-        "Blast Finishing",
-        "Shot Peening",
-        "Spray Washing",
-        "Ultrasonic Cleaning",
-        "Robotic Systems"
-      ],
+      "fullDescription": ["Guyson International is verified through its manufacturer-owned website as a finishing-equipment producer.", "The official range includes blast finishing and shot-peening systems, spray washers, ultrasonic cleaning equipment and automated or robotic finishing cells."],
+      "productCategories": ["Окрасочное и финишное оборудование", "Промышленные моечные системы", "Роботизированные системы"],
+      "productFamilies": ["Blast Finishing", "Shot Peening", "Spray Washing", "Ultrasonic Cleaning", "Robotic Systems"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Аэрокосмическая промышленность",
-        "Автомобильная промышленность"
-      ],
+      "industries": ["Промышленное производство", "Аэрокосмическая промышленность", "Автомобильная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.guyson.co.uk/finishing-equipment/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-guyson-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_BLAST_CLEANING_AUTOMATION_SCOPE",
-          "url": "https://www.guyson.co.uk/finishing-equipment/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.guyson.co.uk/finishing-equipment/"],
+      "sources": [{"sourceId":"wave83-guyson-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_BLAST_CLEANING_AUTOMATION_SCOPE","url":"https://www.guyson.co.uk/finishing-equipment/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "haag-zeissler-maschinenelemente",
       "officialName": "HAAG + ZEISSLER Maschinenelemente GmbH",
       "displayName": "HAAG + ZEISSLER",
-      "aliases": [
-        "HAAG ZEISSLER MASCHINENELEMENTE",
-        "Haag Zeissler"
-      ],
+      "aliases": ["HAAG ZEISSLER MASCHINENELEMENTE", "Haag Zeissler"],
       "formerNames": [],
       "officialWebsite": "https://haag-zeissler.com/",
-      "officialDomains": [
-        "haag-zeissler.com"
-      ],
+      "officialDomains": ["haag-zeissler.com"],
       "country": "Germany",
       "headquarters": "Hanau, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HAAG + ZEISSLER manufactures rotary unions and rotary joints for transferring media into rotating machinery.",
-      "fullDescription": [
-        "HAAG + ZEISSLER is verified through its official website as a German manufacturer of rotating media-transfer components.",
-        "Its documented range includes rotary unions, multi-passage rotary unions and rotary joints for industrial machinery and process equipment."
-      ],
-      "productCategories": [
-        "Уплотнения и вращающиеся соединения"
-      ],
-      "productFamilies": [
-        "Rotary Unions",
-        "Multi-Passage Rotary Unions",
-        "Rotary Joints"
-      ],
+      "fullDescription": ["HAAG + ZEISSLER is verified through its official website as a German manufacturer of rotating media-transfer components.", "Its documented range includes rotary unions, multi-passage rotary unions and rotary joints for industrial machinery and process equipment."],
+      "productCategories": ["Уплотнения и вращающиеся соединения"],
+      "productFamilies": ["Rotary Unions", "Multi-Passage Rotary Unions", "Rotary Joints"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Машиностроение"
-      ],
+      "industries": ["Промышленное производство", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://haag-zeissler.com/de/produkte/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-haag-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_ROTARY_UNION_JOINT_SCOPE",
-          "url": "https://haag-zeissler.com/de/produkte/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://haag-zeissler.com/de/produkte/"],
+      "sources": [{"sourceId":"wave83-haag-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_ROTARY_UNION_JOINT_SCOPE","url":"https://haag-zeissler.com/de/produkte/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "habasit",
       "officialName": "Habasit International AG",
       "displayName": "Habasit",
-      "aliases": [
-        "HABASIT"
-      ],
+      "aliases": ["HABASIT"],
       "formerNames": [],
       "officialWebsite": "https://www.habasit.com/",
-      "officialDomains": [
-        "habasit.com"
-      ],
+      "officialDomains": ["habasit.com"],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Habasit develops conveyor, processing and power-transmission belts together with chains and conveyor components.",
-      "fullDescription": [
-        "Habasit is verified through its official global product directory as a manufacturer of belting and conveying products.",
-        "The published portfolio covers fabric and monolithic conveyor belts, plastic modular belts, timing and machine belts, chains, profiles and conveyor components."
-      ],
-      "productCategories": [
-        "Конвейерные системы",
-        "Приводные ремни"
-      ],
-      "productFamilies": [
-        "HabaFLOW",
-        "HabasitLINK",
-        "Cleandrive",
-        "HabaSYNC",
-        "HabaCHAIN",
-        "HabaDRIVE",
-        "HabiPLAST"
-      ],
+      "fullDescription": ["Habasit is verified through its official global product directory as a manufacturer of belting and conveying products.", "The published portfolio covers fabric and monolithic conveyor belts, plastic modular belts, timing and machine belts, chains, profiles and conveyor components."],
+      "productCategories": ["Конвейерные системы", "Приводные ремни"],
+      "productFamilies": ["HabaFLOW", "HabasitLINK", "Cleandrive", "HabaSYNC", "HabaCHAIN", "HabaDRIVE", "HabiPLAST"],
       "series": [],
-      "industries": [
-        "Пищевая промышленность",
-        "Упаковочная промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Пищевая промышленность", "Упаковочная промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.habasit.com/Products"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-habasit-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_CONVEYOR_PROCESSING_POWER_TRANSMISSION_PRODUCT_SCOPE",
-          "url": "https://www.habasit.com/Products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.habasit.com/Products"],
+      "sources": [{"sourceId":"wave83-habasit-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_CONVEYOR_PROCESSING_POWER_TRANSMISSION_PRODUCT_SCOPE","url":"https://www.habasit.com/Products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hach-lange",
       "officialName": "Hach Lange GmbH",
       "displayName": "Hach Lange",
-      "aliases": [
-        "HACH LANGE",
-        "Hach"
-      ],
+      "aliases": ["HACH LANGE", "Hach"],
       "formerNames": [],
       "officialWebsite": "https://de.hach.com/",
-      "officialDomains": [
-        "hach.com"
-      ],
+      "officialDomains": ["hach.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Veralto Corporation",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Hach Lange provides instruments, sensors, analyzers and reagents for water-quality measurement and process monitoring.",
-      "fullDescription": [
-        "Hach Lange is verified through Hach's official regional website as a water-analysis and measurement identity.",
-        "The official scope includes laboratory and portable instruments, online analyzers and sensors, controllers, reagents, standards and water-quality software."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Лабораторное оборудование",
-        "Водоподготовка"
-      ],
-      "productFamilies": [
-        "Laboratory Instruments",
-        "Portable Instruments",
-        "Online Analyzers",
-        "Process Sensors",
-        "Controllers",
-        "Reagents and Standards"
-      ],
+      "fullDescription": ["Hach Lange is verified through Hach's official regional website as a water-analysis and measurement identity.", "The official scope includes laboratory and portable instruments, online analyzers and sensors, controllers, reagents, standards and water-quality software."],
+      "productCategories": ["Измерительное оборудование", "Лабораторное оборудование", "Водоподготовка"],
+      "productFamilies": ["Laboratory Instruments", "Portable Instruments", "Online Analyzers", "Process Sensors", "Controllers", "Reagents and Standards"],
       "series": [],
-      "industries": [
-        "Водоснабжение и водоочистка",
-        "Промышленное производство"
-      ],
+      "industries": ["Водоснабжение и водоочистка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://de.hach.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hach-products",
-          "tier": "A",
-          "type": "OFFICIAL_REGIONAL_PRODUCT_SITE",
-          "scope": "CURRENT_HACH_LANGE_IDENTITY_AND_WATER_ANALYSIS_INSTRUMENTATION_SCOPE",
-          "url": "https://de.hach.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://de.hach.com/"],
+      "sources": [{"sourceId":"wave83-hach-products","tier":"A","type":"OFFICIAL_REGIONAL_PRODUCT_SITE","scope":"CURRENT_HACH_LANGE_IDENTITY_AND_WATER_ANALYSIS_INSTRUMENTATION_SCOPE","url":"https://de.hach.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "haco",
       "officialName": "HACO",
       "displayName": "HACO",
-      "aliases": [
-        "Haco"
-      ],
+      "aliases": ["Haco"],
       "formerNames": [],
       "officialWebsite": "https://www.haco.com/",
-      "officialDomains": [
-        "haco.com"
-      ],
+      "officialDomains": ["haco.com"],
       "country": "Belgium",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "HACO Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "HACO manufactures sheet-metal working machinery, including press brakes, shears and laser-cutting systems.",
-      "fullDescription": [
-        "HACO is verified through the official HACO Group brand page as a metalworking-machinery manufacturer.",
-        "Its documented portfolio includes CNC press brakes, guillotine shears, fiber-laser cutting machines and robotic bending systems."
-      ],
-      "productCategories": [
-        "Металлообрабатывающие станки",
-        "Промышленные прессы",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "CNC Press Brakes",
-        "Guillotine Shears",
-        "Fiber Laser Cutting",
-        "Robotic Bending"
-      ],
-      "series": [
-        "OptiForm",
-        "SynchroMaster",
-        "EuroMaster-S",
-        "PressMaster",
-        "HFL",
-        "GSX",
-        "HSLX"
-      ],
-      "industries": [
-        "Металлообработка",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["HACO is verified through the official HACO Group brand page as a metalworking-machinery manufacturer.", "Its documented portfolio includes CNC press brakes, guillotine shears, fiber-laser cutting machines and robotic bending systems."],
+      "productCategories": ["Металлообрабатывающие станки", "Промышленные прессы", "Промышленная автоматизация"],
+      "productFamilies": ["CNC Press Brakes", "Guillotine Shears", "Fiber Laser Cutting", "Robotic Bending"],
+      "series": ["OptiForm", "SynchroMaster", "EuroMaster-S", "PressMaster", "HFL", "GSX", "HSLX"],
+      "industries": ["Металлообработка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.haco.com/en/brands/haco"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-haco-brand",
-          "tier": "A",
-          "type": "OFFICIAL_GROUP_BRAND_PAGE",
-          "scope": "CURRENT_HACO_IDENTITY_AND_SHEET_METAL_MACHINE_SCOPE",
-          "url": "https://www.haco.com/en/brands/haco",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.haco.com/en/brands/haco"],
+      "sources": [{"sourceId":"wave83-haco-brand","tier":"A","type":"OFFICIAL_GROUP_BRAND_PAGE","scope":"CURRENT_HACO_IDENTITY_AND_SHEET_METAL_MACHINE_SCOPE","url":"https://www.haco.com/en/brands/haco","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hafi",
       "officialName": "HAFI Beschläge GmbH",
       "displayName": "HAFI",
-      "aliases": [
-        "HAFI"
-      ],
+      "aliases": ["HAFI"],
       "formerNames": [],
       "officialWebsite": "https://hafi.de/",
-      "officialDomains": [
-        "hafi.de"
-      ],
+      "officialDomains": ["hafi.de"],
       "country": "Germany",
-      "headquarters": "Elchingen, Germany",
+      "headquarters":"Elchingen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HAFI develops door and window hardware, access-control components and locking systems for building applications.",
-      "fullDescription": [
-        "HAFI is verified through its manufacturer-owned product directory as a German architectural-hardware manufacturer.",
-        "Its range covers door and window handles, entrance and security hardware, electronic locking and access systems, panic hardware and sanitary fittings."
-      ],
-      "productCategories": [
-        "Крепежные и монтажные системы",
-        "Промышленная автоматизация",
-        "Системы безопасности"
-      ],
-      "productFamilies": [
-        "Door Handles",
-        "Window Handles",
-        "Entrance Hardware",
-        "Electronic Locking",
-        "Panic Hardware",
-        "Sanitary Fittings"
-      ],
+      "fullDescription": ["HAFI is verified through its manufacturer-owned product directory as a German architectural-hardware manufacturer.", "Its range covers door and window handles, entrance and security hardware, electronic locking and access systems, panic hardware and sanitary fittings."],
+      "productCategories": ["Крепежные и монтажные системы", "Промышленная автоматизация", "Системы безопасности"],
+      "productFamilies": ["Door Handles", "Window Handles", "Entrance Hardware", "Electronic Locking", "Panic Hardware", "Sanitary Fittings"],
       "series": [],
-      "industries": [
-        "Системы зданий"
-      ],
+      "industries": ["Системы зданий"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://hafi.de/produkt-uebersicht/?lang=en"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hafi-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_ARCHITECTURAL_HARDWARE_LOCKING_SCOPE",
-          "url": "https://hafi.de/produkt-uebersicht/?lang=en",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-hafi-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://hafi.de/impressum/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://hafi.de/produkt-uebersicht/?lang=en"],
+      "sources": [{"sourceId":"wave83-hafi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_ARCHITECTURAL_HARDWARE_LOCKING_SCOPE","url":"https://hafi.de/produkt-uebersicht/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-hafi-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://hafi.de/impressum/","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "hafner",
       "officialName": "HAFNER Pneumatik Krämer GmbH & Co. KG",
       "displayName": "HAFNER Pneumatik",
-      "aliases": [
-        "HAFNER",
-        "Hafner Pneumatic"
-      ],
+      "aliases": ["HAFNER", "Hafner Pneumatic"],
       "formerNames": [],
       "officialWebsite": "https://hafner-pneumatik.com/",
-      "officialDomains": [
-        "hafner-pneumatik.com"
-      ],
+      "officialDomains": ["hafner-pneumatik.com"],
       "country": "Germany",
-      "headquarters": "Kornwestheim, Germany",
+      "headquarters":"Kornwestheim, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HAFNER Pneumatik manufactures pneumatic valves, cylinders, fittings and compressed-air preparation components.",
-      "fullDescription": [
-        "HAFNER Pneumatik is verified through its official product directory as a German pneumatic-equipment manufacturer.",
-        "The published range includes directional and process valves, pneumatic cylinders, fittings, tubing, air-preparation units and products for demanding environments."
-      ],
-      "productCategories": [
-        "Пневматическое оборудование",
-        "Промышленные клапаны"
-      ],
-      "productFamilies": [
-        "Pneumatic Valves",
-        "Pneumatic Cylinders",
-        "Fittings",
-        "Tubing",
-        "Air Preparation",
-        "Extreme-Condition Products"
-      ],
+      "fullDescription": ["HAFNER Pneumatik is verified through its official product directory as a German pneumatic-equipment manufacturer.", "The published range includes directional and process valves, pneumatic cylinders, fittings, tubing, air-preparation units and products for demanding environments."],
+      "productCategories": ["Пневматическое оборудование", "Промышленные клапаны"],
+      "productFamilies": ["Pneumatic Valves", "Pneumatic Cylinders", "Fittings", "Tubing", "Air Preparation", "Extreme-Condition Products"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Промышленное производство"
-      ],
+      "industries": ["Промышленная автоматизация", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://hafner-pneumatik.com/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hafner-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_PNEUMATIC_VALVE_CYLINDER_AIR_PREPARATION_SCOPE",
-          "url": "https://hafner-pneumatik.com/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-hafner-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://hafner-pneumatik.com/legal-notice",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://hafner-pneumatik.com/products/"],
+      "sources": [{"sourceId":"wave83-hafner-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_PNEUMATIC_VALVE_CYLINDER_AIR_PREPARATION_SCOPE","url":"https://hafner-pneumatik.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-hafner-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://hafner-pneumatik.com/legal-notice","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "haldex",
       "officialName": "Haldex AB",
       "displayName": "Haldex",
-      "aliases": [
-        "HALDEX"
-      ],
+      "aliases": ["HALDEX"],
       "formerNames": [],
       "officialWebsite": "https://www.haldex.com/",
-      "officialDomains": [
-        "haldex.com"
-      ],
+      "officialDomains": ["haldex.com"],
       "country": "Sweden",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "SAF-HOLLAND Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Haldex develops braking and air-control systems for commercial vehicles, buses and trailers.",
-      "fullDescription": [
-        "Haldex is verified through its official product overview as a commercial-vehicle braking and suspension-control brand.",
-        "Its documented scope includes foundation brakes, disc brakes, automatic brake adjusters, actuators, air dryers, valves and ABS or EBS control systems."
-      ],
-      "productCategories": [
-        "Промышленные тормоза",
-        "Пневматическое оборудование",
-        "Промышленные клапаны"
-      ],
-      "productFamilies": [
-        "Foundation Brake",
-        "Air Controls",
-        "Disc Brakes",
-        "Brake Adjusters",
-        "Actuators",
-        "Air Dryers",
-        "ABS and EBS"
-      ],
+      "fullDescription": ["Haldex is verified through its official product overview as a commercial-vehicle braking and suspension-control brand.", "Its documented scope includes foundation brakes, disc brakes, automatic brake adjusters, actuators, air dryers, valves and ABS or EBS control systems."],
+      "productCategories": ["Промышленные тормоза", "Пневматическое оборудование", "Промышленные клапаны"],
+      "productFamilies": ["Foundation Brake", "Air Controls", "Disc Brakes", "Brake Adjusters", "Actuators", "Air Dryers", "ABS and EBS"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Транспорт"
-      ],
+      "industries": ["Автомобильная промышленность", "Транспорт"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.haldex.com/en/about/product-overview/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-haldex-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_IDENTITY_AND_COMMERCIAL_VEHICLE_BRAKE_AIR_CONTROL_SCOPE",
-          "url": "https://www.haldex.com/en/about/product-overview/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.haldex.com/en/about/product-overview/"],
+      "sources": [{"sourceId":"wave83-haldex-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_COMMERCIAL_VEHICLE_BRAKE_AIR_CONTROL_SCOPE","url":"https://www.haldex.com/en/about/product-overview/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "halliburton",
       "officialName": "Halliburton Company",
       "displayName": "Halliburton",
-      "aliases": [
-        "HALLIBURTON"
-      ],
+      "aliases": ["HALLIBURTON"],
       "formerNames": [],
       "officialWebsite": "https://www.halliburton.com/",
-      "officialDomains": [
-        "halliburton.com"
-      ],
+      "officialDomains": ["halliburton.com"],
       "country": "United States",
       "headquarters": "Houston, Texas, United States",
       "foundedYear": 1919,
       "parentCompany": null,
       "shortDescription": "Halliburton provides drilling, well-construction, completion, production and intervention technologies for the energy sector.",
-      "fullDescription": [
-        "Halliburton is verified through its official website as an energy-services and oilfield-technology company founded in 1919.",
-        "Its documented portfolio spans drilling and evaluation, drill bits and fluids, cementing, completions, production enhancement, well intervention and related digital services."
-      ],
-      "productCategories": [
-        "Промышленные инструменты",
-        "Измерительное оборудование",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Drilling and Evaluation",
-        "Drill Bits",
-        "Drilling Fluids",
-        "Cementing",
-        "Completions",
-        "Production Enhancement",
-        "Well Intervention"
-      ],
+      "fullDescription": ["Halliburton is verified through its official website as an energy-services and oilfield-technology company founded in 1919.", "Its documented portfolio spans drilling and evaluation, drill bits and fluids, cementing, completions, production enhancement, well intervention and related digital services."],
+      "productCategories": ["Промышленные инструменты", "Измерительное оборудование", "Промышленное программное обеспечение"],
+      "productFamilies": ["Drilling and Evaluation", "Drill Bits", "Drilling Fluids", "Cementing", "Completions", "Production Enhancement", "Well Intervention"],
       "series": [],
-      "industries": [
-        "Нефтегазовая промышленность",
-        "Энергетика"
-      ],
+      "industries": ["Нефтегазовая промышленность", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.halliburton.com/en/home",
-        "https://www.halliburton.com/en/completions"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-halliburton-home",
-          "tier": "A",
-          "type": "ABOUT_AND_SERVICES",
-          "scope": "COMPANY_IDENTITY_FOUNDATION_AND_DRILLING_COMPLETION_PRODUCTION_SCOPE",
-          "url": "https://www.halliburton.com/en/home",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.halliburton.com/en/home", "https://www.halliburton.com/en/completions"],
+      "sources": [{"sourceId":"wave83-halliburton-home","tier":"A","type":"ABOUT_AND_SERVICES","scope":"COMPANY_IDENTITY_FOUNDATION_AND_DRILLING_COMPLETION_PRODUCTION_SCOPE","url":"https://www.halliburton.com/en/home","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "haloila",
       "officialName": "Haloila Oy",
       "displayName": "Haloila",
-      "aliases": [
-        "HALOILA"
-      ],
+      "aliases": ["HALOILA"],
       "formerNames": [],
       "officialWebsite": "https://www.signode.com/products/stretch-systems/automatic-stretch-wrapping-machines/",
-      "officialDomains": [
-        "signode.com"
-      ],
+      "officialDomains": ["signode.com"],
       "country": "Finland",
       "headquarters": "Masku, Finland",
       "foundedYear": null,
       "parentCompany": "Signode",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Haloila is the former Finnish company identity behind Signode's Octopus automatic rotary-ring stretch-wrapping systems.",
-      "fullDescription": [
-        "Signode's official history identifies Haloila Oy as the former company name associated with the development of Octopus rotary-ring stretch wrapping.",
-        "The company was renamed Signode Finland Oy in 2020, while the current Octopus range includes B, Compact, S, T and Prestige automatic pallet wrappers."
-      ],
-      "productCategories": [
-        "Упаковочное оборудование",
-        "Паллетные системы"
-      ],
-      "productFamilies": [
-        "Octopus Automatic Stretch Wrappers"
-      ],
-      "series": [
-        "Octopus B",
-        "Octopus Compact",
-        "Octopus S",
-        "Octopus T",
-        "Octopus Prestige"
-      ],
-      "industries": [
-        "Упаковочная промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.signode.com/Signode/media/Signode/Film/Octopus_B_Series_SIGNODE_REV-211012_EN_US_SIG-38_Bro.pdf"
-      ],
-      "documentationSources": [
-        "https://www.signode.com/news/from-haloila-oy-to-signode-finland-oy-the-legacy-o/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-haloila-history",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_HISTORY",
-          "scope": "FORMER_HALOILA_IDENTITY_RENAME_LOCATION_AND_OCTOPUS_STRETCH_WRAPPER_SCOPE",
-          "url": "https://www.signode.com/news/from-haloila-oy-to-signode-finland-oy-the-legacy-o/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "fullDescription": ["Signode's official history identifies Haloila Oy as the former company name associated with the development of Octopus rotary-ring stretch wrapping.", "The company was renamed Signode Finland Oy in 2020, while the current Octopus range includes B, Compact, S, T and Prestige automatic pallet wrappers."],
+      "productCategories": ["Упаковочное оборудование", "Паллетные системы"],
+      "productFamilies": ["Octopus Automatic Stretch Wrappers"],
+      "series": ["Octopus B", "Octopus Compact", "Octopus S", "Octopus T", "Octopus Prestige"],
+      "industries": ["Упаковочная промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://www.signode.com/Signode/media/Signode/Film/Octopus_B_Series_SIGNODE_REV-211012_EN_US_SIG-38_Bro.pdf"],
+      "documentationSources": ["https://www.signode.com/news/from-haloila-oy-to-signode-finland-oy-the-legacy-o/"],
+      "sources": [{"sourceId":"wave83-haloila-history","tier":"A","type":"OFFICIAL_PARENT_HISTORY","scope":"FORMER_HALOILA_IDENTITY_RENAME_LOCATION_AND_OCTOPUS_STRETCH_WRAPPER_SCOPE","url":"https://www.signode.com/news/from-haloila-oy-to-signode-finland-oy-the-legacy-o/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "halter-cnc-automation",
       "officialName": "HALTER CNC Automation B.V.",
       "displayName": "HALTER CNC Automation",
-      "aliases": [
-        "HALTER CNC AUTOMATION",
-        "Halter"
-      ],
+      "aliases": ["HALTER CNC AUTOMATION", "Halter"],
       "formerNames": [],
       "officialWebsite": "https://www.haltercncautomation.com/",
-      "officialDomains": [
-        "haltercncautomation.com"
-      ],
+      "officialDomains": ["haltercncautomation.com"],
       "country": "Netherlands",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HALTER CNC Automation develops robotic loading systems for CNC lathes and milling machines.",
-      "fullDescription": [
-        "HALTER CNC Automation is verified through its manufacturer-owned site as a Dutch CNC-automation business.",
-        "Its range covers modular loading robots, machine-loading cells, grippers, storage modules and SmartControl software for tending lathes and machining centres."
-      ],
-      "productCategories": [
-        "CNC-системы",
-        "Промышленная автоматизация",
-        "Роботизированные системы"
-      ],
-      "productFamilies": [
-        "LoadAssistant",
-        "CNC Loading Robots",
-        "SmartControl",
-        "Grippers and Modules"
-      ],
+      "fullDescription": ["HALTER CNC Automation is verified through its manufacturer-owned site as a Dutch CNC-automation business.", "Its range covers modular loading robots, machine-loading cells, grippers, storage modules and SmartControl software for tending lathes and machining centres."],
+      "productCategories": ["CNC-системы", "Промышленная автоматизация", "Роботизированные системы"],
+      "productFamilies": ["LoadAssistant", "CNC Loading Robots", "SmartControl", "Grippers and Modules"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Промышленная автоматизация"
-      ],
+      "industries": ["Металлообработка", "Промышленная автоматизация"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.haltercncautomation.com/en-us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-halter-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "MANUFACTURER_IDENTITY_AND_CNC_ROBOT_LOADING_AUTOMATION_SCOPE",
-          "url": "https://www.haltercncautomation.com/en-us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.haltercncautomation.com/en-us/"],
+      "sources": [{"sourceId":"wave83-halter-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_AND_CNC_ROBOT_LOADING_AUTOMATION_SCOPE","url":"https://www.haltercncautomation.com/en-us/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hamlin-electronics",
       "officialName": "Hamlin Electronics",
       "displayName": "Hamlin Electronics",
-      "aliases": [
-        "HAMLIN ELECTRONICS",
-        "Hamlin"
-      ],
+      "aliases": ["HAMLIN ELECTRONICS", "Hamlin"],
       "formerNames": [],
       "officialWebsite": "https://www.littelfuse.com/products/sensors/reed-switches",
-      "officialDomains": [
-        "littelfuse.com"
-      ],
+      "officialDomains": ["littelfuse.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Littelfuse, Inc.",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Hamlin Electronics is a Littelfuse legacy sensing brand associated with reed switches and magnetic sensor products.",
-      "fullDescription": [
-        "Hamlin Electronics is verified through official Littelfuse product literature as an acquired sensing identity.",
-        "The documented Hamlin scope includes reed switches and magnetically actuated sensing components now represented within the Littelfuse sensor portfolio."
-      ],
-      "productCategories": [
-        "Датчики",
-        "Промышленные реле"
-      ],
-      "productFamilies": [
-        "Reed Switches",
-        "Magnetic Sensors"
-      ],
+      "fullDescription": ["Hamlin Electronics is verified through official Littelfuse product literature as an acquired sensing identity.", "The documented Hamlin scope includes reed switches and magnetically actuated sensing components now represented within the Littelfuse sensor portfolio."],
+      "productCategories": ["Датчики", "Промышленные реле"],
+      "productFamilies": ["Reed Switches", "Magnetic Sensors"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Автомобильная промышленность",
-        "Электроника"
-      ],
-      "officialCatalogs": [
-        "https://www.littelfuse.com/~/media/electronics/application_guides/littelfuse_hamlin_reed_switch_selection_guide.pdf.pdf"
-      ],
-      "documentationSources": [
-        "https://www.littelfuse.com/products/sensors/reed-switches"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hamlin-guide",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_CATALOG",
-          "scope": "HAMLIN_ACQUIRED_BRAND_IDENTITY_AND_REED_SWITCH_SENSOR_SCOPE",
-          "url": "https://www.littelfuse.com/~/media/electronics/application_guides/littelfuse_hamlin_reed_switch_selection_guide.pdf.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Промышленная автоматизация", "Автомобильная промышленность", "Электроника"],
+      "officialCatalogs": ["https://www.littelfuse.com/~/media/electronics/application_guides/littelfuse_hamlin_reed_switch_selection_guide.pdf.pdf"],
+      "documentationSources": ["https://www.littelfuse.com/products/sensors/reed-switches"],
+      "sources": [{"sourceId":"wave83-hamlin-guide","tier":"A","type":"OFFICIAL_PARENT_CATALOG","scope":"HAMLIN_ACQUIRED_BRAND_IDENTITY_AND_REED_SWITCH_SENSOR_SCOPE","url":"https://www.littelfuse.com/~/media/electronics/application_guides/littelfuse_hamlin_reed_switch_selection_guide.pdf.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hankook-precision",
       "officialName": "Hankook Precision Works Co., Ltd.",
       "displayName": "Hankook Precision Works",
-      "aliases": [
-        "HANKOOK PRECISION",
-        "Hankook Precision"
-      ],
+      "aliases": ["HANKOOK PRECISION", "Hankook Precision"],
       "formerNames": [],
       "officialWebsite": "https://www.hankook-precisionworks.com/en.do?lang=en",
-      "officialDomains": [
-        "hankook-precisionworks.com"
-      ],
+      "officialDomains": ["hankook-precisionworks.com"],
       "country": "South Korea",
       "headquarters": null,
       "foundedYear": 1973,
       "parentCompany": "Hankook & Company Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Hankook Precision Works manufactures tyre moulds, curing containers and precision-machined components.",
-      "fullDescription": [
-        "Hankook Precision Works is verified through its official website and group profile as a South Korean precision-manufacturing company founded in 1973.",
-        "Its documented businesses cover tyre moulds, tyre-curing containers and precision components produced with five-axis and other machining capabilities."
-      ],
-      "productCategories": [
-        "Промышленные пресс-формы",
-        "Механическая обработка"
-      ],
-      "productFamilies": [
-        "Tire Molds",
-        "Curing Containers",
-        "Precision Parts",
-        "Five-Axis Machining"
-      ],
+      "fullDescription": ["Hankook Precision Works is verified through its official website and group profile as a South Korean precision-manufacturing company founded in 1973.", "Its documented businesses cover tyre moulds, tyre-curing containers and precision components produced with five-axis and other machining capabilities."],
+      "productCategories": ["Промышленные пресс-формы", "Механическая обработка"],
+      "productFamilies": ["Tire Molds", "Curing Containers", "Precision Parts", "Five-Axis Machining"],
       "series": [],
-      "industries": [
-        "Автомобильная промышленность",
-        "Промышленное производство"
-      ],
+      "industries": ["Автомобильная промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hankook-precisionworks.com/en/m/product/precision-parts.do"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hankook-products",
-          "tier": "A",
-          "type": "OFFICIAL_GROUP_PRODUCTS",
-          "scope": "CURRENT_COMPANY_IDENTITY_FOUNDATION_AND_TIRE_MOLD_PRECISION_PART_SCOPE",
-          "url": "https://www.hankook-precisionworks.com/en/m/product/precision-parts.do",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.hankook-precisionworks.com/en/m/product/precision-parts.do"],
+      "sources": [{"sourceId":"wave83-hankook-products","tier":"A","type":"OFFICIAL_GROUP_PRODUCTS","scope":"CURRENT_COMPANY_IDENTITY_FOUNDATION_AND_TIRE_MOLD_PRECISION_PART_SCOPE","url":"https://www.hankook-precisionworks.com/en/m/product/precision-parts.do","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hanning",
       "officialName": "HANNING ELEKTRO-WERKE GmbH & Co. KG",
       "displayName": "HANNING",
-      "aliases": [
-        "HANNING"
-      ],
+      "aliases": ["HANNING"],
       "formerNames": [],
       "officialWebsite": "https://www.hanning-hew.com/en/",
-      "officialDomains": [
-        "hanning-hew.com"
-      ],
+      "officialDomains": ["hanning-hew.com"],
       "country": "Germany",
-      "headquarters": "Oerlinghausen, Germany",
+      "headquarters":"Oerlinghausen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HANNING develops electric motors, pumps, fans, drive systems and electronic controls for equipment manufacturers.",
-      "fullDescription": [
-        "HANNING is verified through its official product directory as a German drive and equipment-component manufacturer.",
-        "The portfolio includes motors and drive systems, pumps, fans and blowers, actuators and electronic control units organised under named product families."
-      ],
-      "productCategories": [
-        "Электродвигатели",
-        "Промышленные насосы",
-        "Промышленные вентиляторы",
-        "Промышленные приводы"
-      ],
-      "productFamilies": [
-        "haflowtic",
-        "hamatic",
-        "hamotic",
-        "hatronic",
-        "haventic"
-      ],
+      "fullDescription": ["HANNING is verified through its official product directory as a German drive and equipment-component manufacturer.", "The portfolio includes motors and drive systems, pumps, fans and blowers, actuators and electronic control units organised under named product families."],
+      "productCategories": ["Электродвигатели", "Промышленные насосы", "Промышленные вентиляторы", "Промышленные приводы"],
+      "productFamilies": ["haflowtic", "hamatic", "hamotic", "hatronic", "haventic"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Системы зданий"
-      ],
+      "industries": ["Промышленное производство", "Системы зданий"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hanning-hew.com/en/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hanning-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_MOTOR_PUMP_FAN_CONTROL_SCOPE",
-          "url": "https://www.hanning-hew.com/en/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        },
-        {
-          "sourceId": "brand-hanning-registered-office",
-          "tier": "A",
-          "type": "LEGAL_NOTICE_AND_CONTACT",
-          "scope": "REGISTERED_OFFICE_LOCATION",
-          "url": "https://www.hanning-hew.com/en/imprint.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-31"
-        }
-      ]
+      "documentationSources": ["https://www.hanning-hew.com/en/products/"],
+      "sources": [{"sourceId":"wave83-hanning-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_MOTOR_PUMP_FAN_CONTROL_SCOPE","url":"https://www.hanning-hew.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-hanning-registered-office","tier":"A","type":"LEGAL_NOTICE_AND_CONTACT","scope":"REGISTERED_OFFICE_LOCATION","url":"https://www.hanning-hew.com/en/imprint.html","status":"AVAILABLE","checkedAt":"2026-08-31"}]
     },
     {
       "manufacturerId": "hans-hennig",
       "officialName": "HANS HENNIG GmbH",
       "displayName": "HANS HENNIG",
-      "aliases": [
-        "HANS HENNIG",
-        "Hans Hennig"
-      ],
+      "aliases": ["HANS HENNIG", "Hans Hennig"],
       "formerNames": [],
       "officialWebsite": "https://www.hanshennig.de/en/",
-      "officialDomains": [
-        "hanshennig.de"
-      ],
+      "officialDomains": ["hanshennig.de"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HANS HENNIG develops industrial burner, combustion-control and thermal-process systems.",
-      "fullDescription": [
-        "HANS HENNIG is verified through its manufacturer-owned website as a combustion-technology company.",
-        "Its documented scope includes gas and oil burners, burner control, air-heating systems and thermal post-combustion equipment for industrial processes."
-      ],
-      "productCategories": [
-        "Промышленные горелки и системы сжигания",
-        "Промышленные контроллеры"
-      ],
-      "productFamilies": [
-        "Gas Burners",
-        "Oil Burners",
-        "Air Heating Systems",
-        "Thermal Post-Combustion",
-        "Combustion Controls"
-      ],
-      "series": [
-        "CKM"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика"
-      ],
+      "fullDescription": ["HANS HENNIG is verified through its manufacturer-owned website as a combustion-technology company.", "Its documented scope includes gas and oil burners, burner control, air-heating systems and thermal post-combustion equipment for industrial processes."],
+      "productCategories": ["Промышленные горелки и системы сжигания", "Промышленные контроллеры"],
+      "productFamilies": ["Gas Burners", "Oil Burners", "Air Heating Systems", "Thermal Post-Combustion", "Combustion Controls"],
+      "series": ["CKM"],
+      "industries": ["Промышленное производство", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hanshennig.de/en/burner-technology.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hennig-burners",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_INDUSTRIAL_BURNER_COMBUSTION_CONTROL_SCOPE",
-          "url": "https://www.hanshennig.de/en/burner-technology.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.hanshennig.de/en/burner-technology.html"],
+      "sources": [{"sourceId":"wave83-hennig-burners","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_INDUSTRIAL_BURNER_COMBUSTION_CONTROL_SCOPE","url":"https://www.hanshennig.de/en/burner-technology.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hansa-flex",
       "officialName": "HANSA-FLEX AG",
       "displayName": "HANSA-FLEX",
-      "aliases": [
-        "HANSA FLEX",
-        "Hansa Flex"
-      ],
+      "aliases": ["HANSA FLEX", "Hansa Flex"],
       "formerNames": [],
       "officialWebsite": "https://www.hansa-flex.com/",
-      "officialDomains": [
-        "hansa-flex.com",
-        "hansa-flex.de"
-      ],
+      "officialDomains": ["hansa-flex.com", "hansa-flex.de"],
       "country": "Germany",
       "headquarters": "Bremen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HANSA-FLEX supplies hydraulic hoses, pipelines, fittings, valves, pumps, motors and related fluid-technology components.",
-      "fullDescription": [
-        "HANSA-FLEX is verified through its official product directory as a hydraulic and fluid-technology company.",
-        "Its published range includes hose and pipeline systems, fittings, couplings and valves, hydraulic pumps and motors, cylinders, filtration, pneumatics and sealing products."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленные клапаны",
-        "Промышленные насосы",
-        "Пневматическое оборудование",
-        "Фильтрация"
-      ],
-      "productFamilies": [
-        "Hydraulic Hoses",
-        "Pipelines",
-        "Fittings and Couplings",
-        "Hydraulic Pumps and Motors",
-        "Hydraulic Cylinders",
-        "Filtration",
-        "Pneumatics"
-      ],
+      "fullDescription": ["HANSA-FLEX is verified through its official product directory as a hydraulic and fluid-technology company.", "Its published range includes hose and pipeline systems, fittings, couplings and valves, hydraulic pumps and motors, cylinders, filtration, pneumatics and sealing products."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные клапаны", "Промышленные насосы", "Пневматическое оборудование", "Фильтрация"],
+      "productFamilies": ["Hydraulic Hoses", "Pipelines", "Fittings and Couplings", "Hydraulic Pumps and Motors", "Hydraulic Cylinders", "Filtration", "Pneumatics"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Машиностроение",
-        "Строительная техника"
-      ],
+      "industries": ["Промышленное производство", "Машиностроение", "Строительная техника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hansa-flex.co.uk/products/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hansaflex-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "COMPANY_IDENTITY_AND_HYDRAULIC_HOSE_COMPONENT_SYSTEM_SCOPE",
-          "url": "https://www.hansa-flex.co.uk/products/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.hansa-flex.co.uk/products/"],
+      "sources": [{"sourceId":"wave83-hansaflex-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COMPANY_IDENTITY_AND_HYDRAULIC_HOSE_COMPONENT_SYSTEM_SCOPE","url":"https://www.hansa-flex.co.uk/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hansen-electric",
       "officialName": "Hansen Corporation",
       "displayName": "Hansen Motor",
-      "aliases": [
-        "HANSEN ELECTRIC",
-        "Hansen Electric",
-        "Hansen Motor"
-      ],
+      "aliases": ["HANSEN ELECTRIC", "Hansen Electric", "Hansen Motor"],
       "formerNames": [],
       "officialWebsite": "https://www.hansen-motor.com/",
-      "officialDomains": [
-        "hansen-motor.com"
-      ],
+      "officialDomains": ["hansen-motor.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "ElectroCraft, Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Hansen Motor develops synchronous and DC fractional-horsepower motors for appliance, equipment and motion applications.",
-      "fullDescription": [
-        "Hansen Corporation is verified through its official website as an ElectroCraft company focused on small electric motors.",
-        "The documented product range includes AC synchronous motors, DC motors, gearmotors and related motion-control configurations for original-equipment applications."
-      ],
-      "productCategories": [
-        "Электродвигатели",
-        "Мотор-редукторы",
-        "Управление движением"
-      ],
-      "productFamilies": [
-        "AC Synchronous Motors",
-        "DC Motors",
-        "Gearmotors"
-      ],
+      "fullDescription": ["Hansen Corporation is verified through its official website as an ElectroCraft company focused on small electric motors.", "The documented product range includes AC synchronous motors, DC motors, gearmotors and related motion-control configurations for original-equipment applications."],
+      "productCategories": ["Электродвигатели", "Мотор-редукторы", "Управление движением"],
+      "productFamilies": ["AC Synchronous Motors", "DC Motors", "Gearmotors"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Машиностроение"
-      ],
+      "industries": ["Промышленное производство", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hansen-motor.com/company/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hansen-company",
-          "tier": "A",
-          "type": "OFFICIAL_PARENT_COMPANY_PAGE",
-          "scope": "CURRENT_HANSEN_IDENTITY_PARENT_AND_SMALL_MOTOR_SCOPE",
-          "url": "https://www.hansen-motor.com/company/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.hansen-motor.com/company/"],
+      "sources": [{"sourceId":"wave83-hansen-company","tier":"A","type":"OFFICIAL_PARENT_COMPANY_PAGE","scope":"CURRENT_HANSEN_IDENTITY_PARENT_AND_SMALL_MOTOR_SCOPE","url":"https://www.hansen-motor.com/company/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "harmsco",
       "officialName": "Harmsco Filtration Products",
       "displayName": "Harmsco",
-      "aliases": [
-        "HARMSCO"
-      ],
+      "aliases": ["HARMSCO"],
       "formerNames": [],
       "officialWebsite": "https://harmsco.com/",
-      "officialDomains": [
-        "harmsco.com"
-      ],
+      "officialDomains": ["harmsco.com"],
       "country": "United States",
       "headquarters": "Riviera Beach, Florida, United States",
       "foundedYear": 1958,
       "parentCompany": null,
       "shortDescription": "Harmsco manufactures filter housings and pleated cartridges for water and industrial filtration.",
-      "fullDescription": [
-        "Harmsco is verified through its official website as a United States filtration-products manufacturer operating since 1958.",
-        "Its product scope includes Hurricane filter housings, pleated filter cartridges and filtration systems for municipal, industrial, commercial-pool and marine water applications."
-      ],
-      "productCategories": [
-        "Промышленная фильтрация",
-        "Водоподготовка"
-      ],
-      "productFamilies": [
-        "Hurricane Filter Housings",
-        "Pleated Filter Cartridges",
-        "Water Filtration Systems"
-      ],
-      "series": [
-        "Hurricane"
-      ],
-      "industries": [
-        "Водоснабжение и водоочистка",
-        "Морские применения",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Harmsco is verified through its official website as a United States filtration-products manufacturer operating since 1958.", "Its product scope includes Hurricane filter housings, pleated filter cartridges and filtration systems for municipal, industrial, commercial-pool and marine water applications."],
+      "productCategories": ["Промышленная фильтрация", "Водоподготовка"],
+      "productFamilies": ["Hurricane Filter Housings", "Pleated Filter Cartridges", "Water Filtration Systems"],
+      "series": ["Hurricane"],
+      "industries": ["Водоснабжение и водоочистка", "Морские применения", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://harmsco.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-harmsco-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_WATER_FILTRATION_SCOPE",
-          "url": "https://harmsco.com/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://harmsco.com/"],
+      "sources": [{"sourceId":"wave83-harmsco-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_WATER_FILTRATION_SCOPE","url":"https://harmsco.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "harting",
       "officialName": "HARTING Technology Group",
       "displayName": "HARTING",
-      "aliases": [
-        "HARTING",
-        "Harting"
-      ],
+      "aliases": ["HARTING", "Harting"],
       "formerNames": [],
       "officialWebsite": "https://www.harting.com/",
-      "officialDomains": [
-        "harting.com"
-      ],
+      "officialDomains": ["harting.com"],
       "country": "Germany",
       "headquarters": "Espelkamp, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HARTING develops industrial connectors, cabling, networking and interface technologies for machinery and automation.",
-      "fullDescription": [
-        "HARTING is verified through its official website and product shop as an industrial-connectivity technology group.",
-        "The documented portfolio includes rectangular, circular and device connectors, industrial Ethernet, switches, cable assemblies, operator interfaces and assembly tools."
-      ],
-      "productCategories": [
-        "Промышленные разъёмы",
-        "Промышленные кабели",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Han",
-        "Han-Modular",
-        "M8 and M12",
-        "ix Industrial",
-        "T1 Industrial",
-        "preLink"
-      ],
+      "fullDescription": ["HARTING is verified through its official website and product shop as an industrial-connectivity technology group.", "The documented portfolio includes rectangular, circular and device connectors, industrial Ethernet, switches, cable assemblies, operator interfaces and assembly tools."],
+      "productCategories": ["Промышленные разъёмы", "Промышленные кабели", "Промышленная автоматизация"],
+      "productFamilies": ["Han", "Han-Modular", "M8 and M12", "ix Industrial", "T1 Industrial", "preLink"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Транспорт",
-        "Энергетика"
-      ],
+      "industries": ["Промышленная автоматизация", "Транспорт", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://b2b.harting.com/ebusiness/en_us/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-harting-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "GROUP_IDENTITY_AND_INDUSTRIAL_CONNECTOR_NETWORKING_PRODUCT_SCOPE",
-          "url": "https://b2b.harting.com/ebusiness/en_us/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://b2b.harting.com/ebusiness/en_us/"],
+      "sources": [{"sourceId":"wave83-harting-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"GROUP_IDENTITY_AND_INDUSTRIAL_CONNECTOR_NETWORKING_PRODUCT_SCOPE","url":"https://b2b.harting.com/ebusiness/en_us/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hartmann-lammle",
       "officialName": "Hartmann + Lämmle GmbH",
       "displayName": "Hartmann + Lämmle",
-      "aliases": [
-        "HARTMANN + LÄMMLE",
-        "HARTMANN + LaMMLE",
-        "Hartmann Laemmle"
-      ],
+      "aliases": ["HARTMANN + LÄMMLE", "HARTMANN + LaMMLE", "Hartmann Laemmle"],
       "formerNames": [],
       "officialWebsite": "https://www.voith.com/",
-      "officialDomains": [
-        "voith.com"
-      ],
+      "officialDomains": ["voith.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1965,
       "parentCompany": "Voith Group",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Hartmann + Lämmle is a Voith legacy fluid-power identity associated with hydraulic drive, control and regulation systems.",
-      "fullDescription": [
-        "Voith's official corporate material identifies Hartmann + Lämmle as a subsidiary founded in 1965 and active in fluid-power technology.",
-        "The documented scope includes hydraulic drive, control and regulation systems for sheet-metal and materials-processing machinery; later activities were reorganised through a Voith-Moog joint venture."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленные приводы",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Hydraulic Drive Systems",
-        "Hydraulic Control Systems",
-        "Servo-Hydraulic Systems"
-      ],
+      "fullDescription": ["Voith's official corporate material identifies Hartmann + Lämmle as a subsidiary founded in 1965 and active in fluid-power technology.", "The documented scope includes hydraulic drive, control and regulation systems for sheet-metal and materials-processing machinery; later activities were reorganised through a Voith-Moog joint venture."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленные приводы", "Промышленная автоматизация"],
+      "productFamilies": ["Hydraulic Drive Systems", "Hydraulic Control Systems", "Servo-Hydraulic Systems"],
       "series": [],
-      "industries": [
-        "Металлообработка",
-        "Промышленное производство"
-      ],
+      "industries": ["Металлообработка", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.voith.com/corp-en/news-room/press-releases/2019-09-30_vt_moog-and-voith-intend-to-establish-a-strategic-partnership.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hartmann-laemmle-voith",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_CORPORATE_SOURCE",
-          "scope": "LEGACY_SUBSIDIARY_IDENTITY_FOUNDATION_AND_FLUID_POWER_SCOPE",
-          "url": "https://www.voith.com/corp-en/news-room/press-releases/2019-09-30_vt_moog-and-voith-intend-to-establish-a-strategic-partnership.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.voith.com/corp-en/news-room/press-releases/2019-09-30_vt_moog-and-voith-intend-to-establish-a-strategic-partnership.html"],
+      "sources": [{"sourceId":"wave83-hartmann-laemmle-voith","tier":"B","type":"OFFICIAL_PARENT_CORPORATE_SOURCE","scope":"LEGACY_SUBSIDIARY_IDENTITY_FOUNDATION_AND_FLUID_POWER_SCOPE","url":"https://www.voith.com/corp-en/news-room/press-releases/2019-09-30_vt_moog-and-voith-intend-to-establish-a-strategic-partnership.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hartmann-braun",
       "officialName": "Hartmann & Braun",
       "displayName": "Hartmann & Braun",
-      "aliases": [
-        "HARTMANN BRAUN",
-        "Hartmann and Braun",
-        "H&B"
-      ],
+      "aliases": ["HARTMANN BRAUN", "Hartmann and Braun", "H&B"],
       "formerNames": [],
       "officialWebsite": "https://www.abb.com/global/en/company/about/history/heritage-brands/hartmann-and-braun",
-      "officialDomains": [
-        "abb.com"
-      ],
+      "officialDomains": ["abb.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1879,
       "parentCompany": "ABB Ltd",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Hartmann & Braun is an ABB heritage brand associated with measurement, instrumentation and process-control equipment.",
-      "fullDescription": [
-        "ABB's official heritage archive identifies Hartmann & Braun as a German instrumentation company founded in 1879.",
-        "The legacy product scope covered industrial measurement and process-control equipment, and the business became part of ABB's product portfolio through the Elsag Bailey acquisition in 1999."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Process Instrumentation",
-        "Measurement Systems",
-        "Process Controls"
-      ],
+      "fullDescription": ["ABB's official heritage archive identifies Hartmann & Braun as a German instrumentation company founded in 1879.", "The legacy product scope covered industrial measurement and process-control equipment, and the business became part of ABB's product portfolio through the Elsag Bailey acquisition in 1999."],
+      "productCategories": ["Измерительное оборудование", "Промышленная автоматизация"],
+      "productFamilies": ["Process Instrumentation", "Measurement Systems", "Process Controls"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика"
-      ],
+      "industries": ["Промышленное производство", "Энергетика"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.abb.com/global/en/company/about/history/heritage-brands/hartmann-and-braun"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hartmann-braun-abb",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_HERITAGE_PAGE",
-          "scope": "LEGACY_IDENTITY_FOUNDATION_ACQUISITION_AND_INSTRUMENTATION_SCOPE",
-          "url": "https://www.abb.com/global/en/company/about/history/heritage-brands/hartmann-and-braun",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.abb.com/global/en/company/about/history/heritage-brands/hartmann-and-braun"],
+      "sources": [{"sourceId":"wave83-hartmann-braun-abb","tier":"B","type":"OFFICIAL_PARENT_HERITAGE_PAGE","scope":"LEGACY_IDENTITY_FOUNDATION_ACQUISITION_AND_INSTRUMENTATION_SCOPE","url":"https://www.abb.com/global/en/company/about/history/heritage-brands/hartmann-and-braun","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "haulotte",
       "officialName": "Haulotte Group SA",
       "displayName": "Haulotte",
-      "aliases": [
-        "HAULOTTE",
-        "Haulotte Group"
-      ],
+      "aliases": ["HAULOTTE", "Haulotte Group"],
       "formerNames": [],
       "officialWebsite": "https://www.haulotte.com/en/",
-      "officialDomains": [
-        "haulotte.com"
-      ],
+      "officialDomains": ["haulotte.com"],
       "country": "France",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Haulotte manufactures mobile elevating work platforms and access equipment for construction and industrial maintenance.",
-      "fullDescription": [
-        "Haulotte is verified through its official product site as a manufacturer of aerial work platforms and access equipment.",
-        "Its portfolio includes vertical masts, scissor lifts, articulating and telescopic boom lifts, trailer-mounted platforms and low-emission PULSEO models."
-      ],
-      "productCategories": [
-        "Подъёмное оборудование",
-        "Строительная техника"
-      ],
-      "productFamilies": [
-        "Vertical Masts",
-        "Scissor Lifts",
-        "Articulating Boom Lifts",
-        "Telescopic Boom Lifts",
-        "Trailer-Mounted Platforms"
-      ],
-      "series": [
-        "PULSEO"
-      ],
-      "industries": [
-        "Строительство",
-        "Промышленное производство"
-      ],
+      "fullDescription": ["Haulotte is verified through its official product site as a manufacturer of aerial work platforms and access equipment.", "Its portfolio includes vertical masts, scissor lifts, articulating and telescopic boom lifts, trailer-mounted platforms and low-emission PULSEO models."],
+      "productCategories": ["Подъёмное оборудование", "Строительная техника"],
+      "productFamilies": ["Vertical Masts", "Scissor Lifts", "Articulating Boom Lifts", "Telescopic Boom Lifts", "Trailer-Mounted Platforms"],
+      "series": ["PULSEO"],
+      "industries": ["Строительство", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.haulotte.com/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-haulotte-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_MOBILE_ELEVATING_WORK_PLATFORM_SCOPE",
-          "url": "https://www.haulotte.com/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.haulotte.com/en/"],
+      "sources": [{"sourceId":"wave83-haulotte-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_MOBILE_ELEVATING_WORK_PLATFORM_SCOPE","url":"https://www.haulotte.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hauni-maschinenbau",
       "officialName": "Hauni Maschinenbau GmbH",
       "displayName": "Hauni Maschinenbau",
-      "aliases": [
-        "HAUNI MASCHINENBAU",
-        "Hauni"
-      ],
+      "aliases": ["HAUNI MASCHINENBAU", "Hauni"],
       "formerNames": [],
       "officialWebsite": "https://www.koerber-technologies.com/",
-      "officialDomains": [
-        "koerber.com",
-        "koerber-technologies.com"
-      ],
+      "officialDomains": ["koerber.com", "koerber-technologies.com"],
       "country": "Germany",
       "headquarters": "Hamburg, Germany",
       "foundedYear": null,
       "parentCompany": "Körber AG",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Hauni Maschinenbau is the former identity of Körber's Technologies business for tobacco-processing and cigarette-production machinery.",
-      "fullDescription": [
-        "Körber's official announcement confirms that Hauni Maschinenbau and its subsidiaries adopted the Körber name in September 2022.",
-        "Official group material documents the legacy business around machinery, lines and services for tobacco processing and cigarette production; current enquiries should be checked against Körber Technologies documentation."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Промышленная автоматизация"
-      ],
-      "productFamilies": [
-        "Tobacco Processing Machinery",
-        "Cigarette Production Machinery",
-        "Production Lines and Services"
-      ],
+      "fullDescription": ["Körber's official announcement confirms that Hauni Maschinenbau and its subsidiaries adopted the Körber name in September 2022.", "Official group material documents the legacy business around machinery, lines and services for tobacco processing and cigarette production; current enquiries should be checked against Körber Technologies documentation."],
+      "productCategories": ["Промышленные машины", "Промышленная автоматизация"],
+      "productFamilies": ["Tobacco Processing Machinery", "Cigarette Production Machinery", "Production Lines and Services"],
       "series": [],
-      "industries": [
-        "Промышленное производство"
-      ],
+      "industries": ["Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.koerber.com/en/about-us/news-and-press/hauni-becomes-koerber"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hauni-koerber",
-          "tier": "B",
-          "type": "OFFICIAL_PARENT_RENAME_NOTICE",
-          "scope": "LEGACY_HAUNI_IDENTITY_RENAME_AND_INDUSTRIAL_MACHINERY_SCOPE",
-          "url": "https://www.koerber.com/en/about-us/news-and-press/hauni-becomes-koerber",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.koerber.com/en/about-us/news-and-press/hauni-becomes-koerber"],
+      "sources": [{"sourceId":"wave83-hauni-koerber","tier":"B","type":"OFFICIAL_PARENT_RENAME_NOTICE","scope":"LEGACY_HAUNI_IDENTITY_RENAME_AND_INDUSTRIAL_MACHINERY_SCOPE","url":"https://www.koerber.com/en/about-us/news-and-press/hauni-becomes-koerber","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hawle",
       "officialName": "Hawle Armaturen GmbH",
       "displayName": "Hawle",
-      "aliases": [
-        "HAWLE"
-      ],
+      "aliases": ["HAWLE"],
       "formerNames": [],
       "officialWebsite": "https://www.hawle.com/",
-      "officialDomains": [
-        "hawle.com"
-      ],
+      "officialDomains": ["hawle.com"],
       "country": "Austria",
       "headquarters": "Vöcklabruck, Austria",
       "foundedYear": 1948,
       "parentCompany": "Hawle Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Hawle manufactures valves, hydrants and pipeline fittings for water, wastewater and gas networks.",
-      "fullDescription": [
-        "Hawle is verified through its official product overview and catalogue as an Austrian valve manufacturer founded in 1948.",
-        "The documented range includes gate and control valves, hydrants, service connections, pipe fittings and repair systems for utility networks."
-      ],
-      "productCategories": [
-        "Промышленная арматура",
-        "Водоподготовка"
-      ],
-      "productFamilies": [
-        "Gate Valves",
-        "Control Valves",
-        "Hydrants",
-        "Service Connections",
-        "Pipe Fittings",
-        "Repair Systems"
-      ],
+      "fullDescription": ["Hawle is verified through its official product overview and catalogue as an Austrian valve manufacturer founded in 1948.", "The documented range includes gate and control valves, hydrants, service connections, pipe fittings and repair systems for utility networks."],
+      "productCategories": ["Промышленная арматура", "Водоподготовка"],
+      "productFamilies": ["Gate Valves", "Control Valves", "Hydrants", "Service Connections", "Pipe Fittings", "Repair Systems"],
       "series": [],
-      "industries": [
-        "Водоснабжение и водоотведение",
-        "Газовая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.hawle.com/01_hawle/12_downloads/02_Print/EN/water-catalogue-hawle-2025.pdf"
-      ],
-      "documentationSources": [
-        "https://www.hawle.com/en/products/products-overview"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hawle-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_WATER_GAS_PIPELINE_VALVE_SCOPE",
-          "url": "https://www.hawle.com/en/products/products-overview",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Водоснабжение и водоотведение", "Газовая промышленность"],
+      "officialCatalogs": ["https://www.hawle.com/01_hawle/12_downloads/02_Print/EN/water-catalogue-hawle-2025.pdf"],
+      "documentationSources": ["https://www.hawle.com/en/products/products-overview"],
+      "sources": [{"sourceId":"wave83-hawle-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_WATER_GAS_PIPELINE_VALVE_SCOPE","url":"https://www.hawle.com/en/products/products-overview","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "haydon-kerk",
       "officialName": "Haydon Kerk Motion Solutions",
       "displayName": "Haydon Kerk",
-      "aliases": [
-        "HAYDON KERK",
-        "Haydon Kerk Motion Solutions"
-      ],
+      "aliases": ["HAYDON KERK", "Haydon Kerk Motion Solutions"],
       "formerNames": [],
       "officialWebsite": "https://www.haydonkerkpittman.com/",
-      "officialDomains": [
-        "haydonkerkpittman.com"
-      ],
+      "officialDomains": ["haydonkerkpittman.com"],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "AMETEK, Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Haydon Kerk develops precision linear-motion components, lead screws and linear actuators within AMETEK's motion portfolio.",
-      "fullDescription": [
-        "Haydon Kerk is verified through the official Haydon Kerk Pittman product site as an AMETEK motion brand.",
-        "Its documented product scope includes lead screws and nuts, stepper-motor linear actuators, linear rails and multi-axis systems, together with complementary motors, drives and feedback components."
-      ],
-      "productCategories": [
-        "Линейные актуаторы",
-        "Шарико-винтовые передачи",
-        "Электродвигатели",
-        "Промышленные приводы"
-      ],
-      "productFamilies": [
-        "Lead Screws and Nuts",
-        "Stepper Motor Linear Actuators",
-        "Linear Rails",
-        "Multi-Axis Systems",
-        "Motors and Drives"
-      ],
+      "fullDescription": ["Haydon Kerk is verified through the official Haydon Kerk Pittman product site as an AMETEK motion brand.", "Its documented product scope includes lead screws and nuts, stepper-motor linear actuators, linear rails and multi-axis systems, together with complementary motors, drives and feedback components."],
+      "productCategories": ["Линейные актуаторы", "Шарико-винтовые передачи", "Электродвигатели", "Промышленные приводы"],
+      "productFamilies": ["Lead Screws and Nuts", "Stepper Motor Linear Actuators", "Linear Rails", "Multi-Axis Systems", "Motors and Drives"],
       "series": [],
-      "industries": [
-        "Промышленная автоматизация",
-        "Медицинская техника",
-        "Промышленное производство"
-      ],
+      "industries": ["Промышленная автоматизация", "Медицинская техника", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.haydonkerkpittman.com/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-haydon-products",
-          "tier": "A",
-          "type": "OFFICIAL_GROUP_PRODUCT_DIRECTORY",
-          "scope": "CURRENT_BRAND_IDENTITY_PARENT_AND_LINEAR_MOTION_SCOPE",
-          "url": "https://www.haydonkerkpittman.com/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.haydonkerkpittman.com/products"],
+      "sources": [{"sourceId":"wave83-haydon-products","tier":"A","type":"OFFICIAL_GROUP_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_PARENT_AND_LINEAR_MOTION_SCOPE","url":"https://www.haydonkerkpittman.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hb-products",
       "officialName": "HB Products A/S",
       "displayName": "HB Products",
-      "aliases": [
-        "HB PRODUCTS"
-      ],
+      "aliases": ["HB PRODUCTS"],
       "formerNames": [],
       "officialWebsite": "https://hbproducts.dk/en/",
-      "officialDomains": [
-        "hbproducts.dk"
-      ],
+      "officialDomains": ["hbproducts.dk"],
       "country": "Denmark",
       "headquarters": "Hasselager, Denmark",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HB Products develops sensors and switches for industrial and commercial refrigeration systems and heat pumps.",
-      "fullDescription": [
-        "HB Products is verified through its manufacturer-owned website as a Danish refrigeration-sensor company.",
-        "Its documented range covers liquid-level and vapour-quality sensors, defrost controls, leakage and safety sensors, and related switches for refrigeration and heat-pump systems."
-      ],
-      "productCategories": [
-        "Датчики",
-        "Промышленные контроллеры",
-        "Холодильное оборудование"
-      ],
-      "productFamilies": [
-        "Liquid Level Sensors",
-        "Vapour Quality Sensors",
-        "Defrost Sensors",
-        "Leakage Sensors",
-        "Safety Sensors"
-      ],
+      "fullDescription": ["HB Products is verified through its manufacturer-owned website as a Danish refrigeration-sensor company.", "Its documented range covers liquid-level and vapour-quality sensors, defrost controls, leakage and safety sensors, and related switches for refrigeration and heat-pump systems."],
+      "productCategories": ["Датчики", "Промышленные контроллеры", "Холодильное оборудование"],
+      "productFamilies": ["Liquid Level Sensors", "Vapour Quality Sensors", "Defrost Sensors", "Leakage Sensors", "Safety Sensors"],
       "series": [],
-      "industries": [
-        "Охлаждение и HVAC",
-        "Промышленное производство"
-      ],
+      "industries": ["Охлаждение и HVAC", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://hbproducts.dk/en/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hb-home",
-          "tier": "A",
-          "type": "ABOUT_AND_PRODUCTS",
-          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_REFRIGERATION_SENSOR_SCOPE",
-          "url": "https://hbproducts.dk/en/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://hbproducts.dk/en/"],
+      "sources": [{"sourceId":"wave83-hb-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_REFRIGERATION_SENSOR_SCOPE","url":"https://hbproducts.dk/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hbe",
       "officialName": "HBE GmbH",
       "displayName": "HBE",
-      "aliases": [
-        "HBE"
-      ],
+      "aliases": ["HBE"],
       "formerNames": [],
       "officialWebsite": "https://www.hbe-hydraulics.com/",
-      "officialDomains": [
-        "hbe-hydraulics.com"
-      ],
+      "officialDomains": ["hbe-hydraulics.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HBE manufactures hydraulic tanks, oil coolers, couplings and pump-mounting components for hydraulic systems.",
-      "fullDescription": [
-        "HBE is verified through its official product directory as a German hydraulic-component manufacturer.",
-        "The published portfolio includes oil tanks and tank accessories, heaters, bellhousings, air-oil coolers, drive couplings, pump-mounting plates and hydraulic-system assemblies."
-      ],
-      "productCategories": [
-        "Гидравлическое оборудование",
-        "Промышленное охлаждение",
-        "Промышленные муфты"
-      ],
-      "productFamilies": [
-        "Oil Tanks",
-        "Tank Accessories",
-        "Oil Coolers",
-        "Bellhousings",
-        "Drive Couplings",
-        "Pump Mounting Plates"
-      ],
-      "series": [
-        "Softex",
-        "Starex",
-        "WST",
-        "ACI",
-        "ACIP",
-        "ACM"
-      ],
-      "industries": [
-        "Промышленное производство",
-        "Машиностроение"
-      ],
+      "fullDescription": ["HBE is verified through its official product directory as a German hydraulic-component manufacturer.", "The published portfolio includes oil tanks and tank accessories, heaters, bellhousings, air-oil coolers, drive couplings, pump-mounting plates and hydraulic-system assemblies."],
+      "productCategories": ["Гидравлическое оборудование", "Промышленное охлаждение", "Промышленные муфты"],
+      "productFamilies": ["Oil Tanks", "Tank Accessories", "Oil Coolers", "Bellhousings", "Drive Couplings", "Pump Mounting Plates"],
+      "series": ["Softex", "Starex", "WST", "ACI", "ACIP", "ACM"],
+      "industries": ["Промышленное производство", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.hbe-hydraulics.com/en/products.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hbe-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_HYDRAULIC_TANK_COOLER_COUPLING_SCOPE",
-          "url": "https://www.hbe-hydraulics.com/en/products.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.hbe-hydraulics.com/en/products.html"],
+      "sources": [{"sourceId":"wave83-hbe-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_HYDRAULIC_TANK_COOLER_COUPLING_SCOPE","url":"https://www.hbe-hydraulics.com/en/products.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "heimann-sensor",
       "officialName": "Heimann Sensor GmbH",
       "displayName": "Heimann Sensor",
-      "aliases": [
-        "HEIMANN SENSOR"
-      ],
+      "aliases": ["HEIMANN SENSOR"],
       "formerNames": [],
       "officialWebsite": "https://www.heimannsensor.com/",
-      "officialDomains": [
-        "heimannsensor.com"
-      ],
+      "officialDomains": ["heimannsensor.com"],
       "country": "Germany",
       "headquarters": "Dresden, Germany",
       "foundedYear": 2002,
       "parentCompany": null,
       "shortDescription": "Heimann Sensor develops infrared thermopile, pyroelectric and vacuum-sensing components.",
-      "fullDescription": [
-        "Heimann Sensor is verified through its official product overview as a German sensor manufacturer founded in 2002.",
-        "Its range includes thermopile sensors and arrays, sensor ASICs, pyroelectric sensors, infrared sources, Pirani vacuum sensors and laser-beam profiling devices."
-      ],
-      "productCategories": [
-        "Датчики",
-        "Измерительное оборудование"
-      ],
-      "productFamilies": [
-        "Thermopile Sensors",
-        "Thermopile Arrays",
-        "Pyroelectric Sensors",
-        "Infrared Sources",
-        "Pirani Sensors",
-        "Laser Beam Profilers"
-      ],
-      "series": [
-        "HTPA",
-        "HIM",
-        "HIS"
-      ],
-      "industries": [
-        "Промышленная автоматизация",
-        "Медицинская техника",
-        "Исследования и лаборатории"
-      ],
+      "fullDescription": ["Heimann Sensor is verified through its official product overview as a German sensor manufacturer founded in 2002.", "Its range includes thermopile sensors and arrays, sensor ASICs, pyroelectric sensors, infrared sources, Pirani vacuum sensors and laser-beam profiling devices."],
+      "productCategories": ["Датчики", "Измерительное оборудование"],
+      "productFamilies": ["Thermopile Sensors", "Thermopile Arrays", "Pyroelectric Sensors", "Infrared Sources", "Pirani Sensors", "Laser Beam Profilers"],
+      "series": ["HTPA", "HIM", "HIS"],
+      "industries": ["Промышленная автоматизация", "Медицинская техника", "Исследования и лаборатории"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.heimannsensor.com/products-overview"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-heimann-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_INFRARED_SENSOR_SCOPE",
-          "url": "https://www.heimannsensor.com/products-overview",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.heimannsensor.com/products-overview"],
+      "sources": [{"sourceId":"wave83-heimann-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_INFRARED_SENSOR_SCOPE","url":"https://www.heimannsensor.com/products-overview","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hein-lehmann",
       "officialName": "HEIN, LEHMANN GmbH",
       "displayName": "HEIN, LEHMANN",
-      "aliases": [
-        "HEIN LEHMANN",
-        "Hein Lehmann"
-      ],
+      "aliases": ["HEIN LEHMANN", "Hein Lehmann"],
       "formerNames": [],
       "officialWebsite": "https://www.heinlehmann.com/",
-      "officialDomains": [
-        "heinlehmann.com"
-      ],
+      "officialDomains": ["heinlehmann.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HEIN, LEHMANN develops screening machines and screen media for industrial material separation and classification.",
-      "fullDescription": [
-        "HEIN, LEHMANN is verified through its manufacturer-owned technical brochure as a German screening-technology company.",
-        "The documented range covers screening machines, screening surfaces and related components used to separate and classify bulk materials."
-      ],
-      "productCategories": [
-        "Промышленные машины",
-        "Сепарационное оборудование"
-      ],
-      "productFamilies": [
-        "Screening Machines",
-        "Screen Media",
-        "Screening Components"
-      ],
+      "fullDescription": ["HEIN, LEHMANN is verified through its manufacturer-owned technical brochure as a German screening-technology company.", "The documented range covers screening machines, screening surfaces and related components used to separate and classify bulk materials."],
+      "productCategories": ["Промышленные машины", "Сепарационное оборудование"],
+      "productFamilies": ["Screening Machines", "Screen Media", "Screening Components"],
       "series": [],
-      "industries": [
-        "Горнодобывающая промышленность",
-        "Промышленное производство"
-      ],
-      "officialCatalogs": [
-        "https://www.heinlehmann.com/fileadmin/user_upload/produktgruppenbroschuere-siebmaschinen-en-200901_2K_web.pdf"
-      ],
-      "documentationSources": [
-        "https://www.heinlehmann.com/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-heinlehmann-brochure",
-          "tier": "A",
-          "type": "OFFICIAL_CATALOG",
-          "scope": "MANUFACTURER_IDENTITY_AND_SCREENING_MACHINE_MEDIA_SCOPE",
-          "url": "https://www.heinlehmann.com/fileadmin/user_upload/produktgruppenbroschuere-siebmaschinen-en-200901_2K_web.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Горнодобывающая промышленность", "Промышленное производство"],
+      "officialCatalogs": ["https://www.heinlehmann.com/fileadmin/user_upload/produktgruppenbroschuere-siebmaschinen-en-200901_2K_web.pdf"],
+      "documentationSources": ["https://www.heinlehmann.com/"],
+      "sources": [{"sourceId":"wave83-heinlehmann-brochure","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_AND_SCREENING_MACHINE_MEDIA_SCOPE","url":"https://www.heinlehmann.com/fileadmin/user_upload/produktgruppenbroschuere-siebmaschinen-en-200901_2K_web.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "heinrichs",
       "officialName": "Heinrichs Messtechnik GmbH",
       "displayName": "Heinrichs Messtechnik",
-      "aliases": [
-        "HEINRICHS",
-        "Heinrichs"
-      ],
+      "aliases": ["HEINRICHS", "Heinrichs"],
       "formerNames": [],
       "officialWebsite": "https://www.heinrichs.eu/",
-      "officialDomains": [
-        "heinrichs.eu"
-      ],
+      "officialDomains": ["heinrichs.eu"],
       "country": "Germany",
       "headquarters": "Cologne, Germany",
       "foundedYear": null,
       "parentCompany": "KOBOLD Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Heinrichs Messtechnik manufactures industrial flowmeters and complementary process-measurement instruments.",
-      "fullDescription": [
-        "Heinrichs Messtechnik is verified through its official product directory as a German flow-measurement company within the KOBOLD Group.",
-        "Its range includes Coriolis, variable-area, magnetic-inductive and vortex flowmeters together with instruments for pressure, level, temperature and density."
-      ],
-      "productCategories": [
-        "Измерительное оборудование",
-        "Расходомеры",
-        "Датчики"
-      ],
-      "productFamilies": [
-        "Coriolis Flowmeters",
-        "Variable-Area Flowmeters",
-        "Magnetic-Inductive Flowmeters",
-        "Vortex Flowmeters",
-        "Process Instruments"
-      ],
+      "fullDescription": ["Heinrichs Messtechnik is verified through its official product directory as a German flow-measurement company within the KOBOLD Group.", "Its range includes Coriolis, variable-area, magnetic-inductive and vortex flowmeters together with instruments for pressure, level, temperature and density."],
+      "productCategories": ["Измерительное оборудование", "Расходомеры", "Датчики"],
+      "productFamilies": ["Coriolis Flowmeters", "Variable-Area Flowmeters", "Magnetic-Inductive Flowmeters", "Vortex Flowmeters", "Process Instruments"],
       "series": [],
-      "industries": [
-        "Химическая промышленность",
-        "Промышленное производство",
-        "Водоподготовка"
-      ],
+      "industries": ["Химическая промышленность", "Промышленное производство", "Водоподготовка"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.heinrichs.eu/en/products"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-heinrichs-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_PARENT_AND_FLOW_PROCESS_INSTRUMENT_SCOPE",
-          "url": "https://www.heinrichs.eu/en/products",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.heinrichs.eu/en/products"],
+      "sources": [{"sourceId":"wave83-heinrichs-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_PARENT_AND_FLOW_PROCESS_INSTRUMENT_SCOPE","url":"https://www.heinrichs.eu/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "heitec-ag",
       "officialName": "HEITEC AG",
       "displayName": "HEITEC",
-      "aliases": [
-        "HEITEC AG",
-        "Heitec"
-      ],
+      "aliases": ["HEITEC AG", "Heitec"],
       "formerNames": [],
       "officialWebsite": "https://www.heitec.de/",
-      "officialDomains": [
-        "heitec.de"
-      ],
+      "officialDomains": ["heitec.de"],
       "country": "Germany",
       "headquarters": "Erlangen, Germany",
       "foundedYear": 1984,
       "parentCompany": null,
       "shortDescription": "HEITEC develops automation, production systems, industrial electronics and digital engineering solutions.",
-      "fullDescription": [
-        "HEITEC AG is verified through its official website as a German industrial-engineering and technology company.",
-        "Its documented capabilities cover plant and special machinery, industrial automation, digitalisation and software, electronics and energy-technology projects."
-      ],
-      "productCategories": [
-        "Промышленная автоматизация",
-        "Промышленные машины",
-        "Промышленная электроника",
-        "Промышленное программное обеспечение"
-      ],
-      "productFamilies": [
-        "Automation",
-        "Production Systems",
-        "Electronics",
-        "Digital Engineering",
-        "Energy Technology"
-      ],
+      "fullDescription": ["HEITEC AG is verified through its official website as a German industrial-engineering and technology company.", "Its documented capabilities cover plant and special machinery, industrial automation, digitalisation and software, electronics and energy-technology projects."],
+      "productCategories": ["Промышленная автоматизация", "Промышленные машины", "Промышленная электроника", "Промышленное программное обеспечение"],
+      "productFamilies": ["Automation", "Production Systems", "Electronics", "Digital Engineering", "Energy Technology"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика",
-        "Электроника"
-      ],
+      "industries": ["Промышленное производство", "Энергетика", "Электроника"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.heitec.de/de/home.html?L=1&id=1"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-heitec-home",
-          "tier": "A",
-          "type": "ABOUT_AND_SERVICES",
-          "scope": "COMPANY_IDENTITY_LOCATION_AND_AUTOMATION_MACHINERY_ELECTRONICS_SCOPE",
-          "url": "https://www.heitec.de/de/home.html?L=1&id=1",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.heitec.de/de/home.html?L=1&id=1"],
+      "sources": [{"sourceId":"wave83-heitec-home","tier":"A","type":"ABOUT_AND_SERVICES","scope":"COMPANY_IDENTITY_LOCATION_AND_AUTOMATION_MACHINERY_ELECTRONICS_SCOPE","url":"https://www.heitec.de/de/home.html?L=1&id=1","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "heko",
       "officialName": "HEKO Ketten GmbH",
       "displayName": "HEKO",
-      "aliases": [
-        "HEKO"
-      ],
+      "aliases": ["HEKO"],
       "formerNames": [],
       "officialWebsite": "https://www.heko.com/",
-      "officialDomains": [
-        "heko.com"
-      ],
+      "officialDomains": ["heko.com"],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "HEKO manufactures industrial chains and components for bulk conveyors, bucket elevators and kiln systems.",
-      "fullDescription": [
-        "HEKO is verified through its official component and catalogue pages as a German chain manufacturer.",
-        "Its range includes round-link, steel-link and central chains, bucket-elevator components, sprockets, kiln chains and accessories for bulk-material conveying."
-      ],
-      "productCategories": [
-        "Промышленные цепи",
-        "Конвейерные системы"
-      ],
-      "productFamilies": [
-        "Round-Link Chains",
-        "Steel-Link Chains",
-        "Central Chains",
-        "Kiln Chains",
-        "Sprockets",
-        "Bucket Elevator Components"
-      ],
+      "fullDescription": ["HEKO is verified through its official component and catalogue pages as a German chain manufacturer.", "Its range includes round-link, steel-link and central chains, bucket-elevator components, sprockets, kiln chains and accessories for bulk-material conveying."],
+      "productCategories": ["Промышленные цепи", "Конвейерные системы"],
+      "productFamilies": ["Round-Link Chains", "Steel-Link Chains", "Central Chains", "Kiln Chains", "Sprockets", "Bucket Elevator Components"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Горнодобывающая промышленность"
-      ],
-      "officialCatalogs": [
-        "https://www.heko.com/en/service/catalogues/"
-      ],
-      "documentationSources": [
-        "https://www.heko.com/en/components/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-heko-components",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_CHAIN_BULK_CONVEYOR_COMPONENT_SCOPE",
-          "url": "https://www.heko.com/en/components/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Промышленное производство", "Горнодобывающая промышленность"],
+      "officialCatalogs": ["https://www.heko.com/en/service/catalogues/"],
+      "documentationSources": ["https://www.heko.com/en/components/"],
+      "sources": [{"sourceId":"wave83-heko-components","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_CHAIN_BULK_CONVEYOR_COMPONENT_SCOPE","url":"https://www.heko.com/en/components/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "heliflex",
       "officialName": "Heliflex Tubos e Mangueiras S.A.",
       "displayName": "Heliflex",
-      "aliases": [
-        "HELIFLEX"
-      ],
+      "aliases": ["HELIFLEX"],
       "formerNames": [],
       "officialWebsite": "https://www.heliflex.pt/en/",
-      "officialDomains": [
-        "heliflex.pt"
-      ],
+      "officialDomains": ["heliflex.pt"],
       "country": "Portugal",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Heliflex manufactures flexible hoses and tubing for industrial, agricultural, construction and household applications.",
-      "fullDescription": [
-        "Heliflex is verified through its manufacturer-owned product directory as a Portuguese flexible-hose producer.",
-        "Its documented portfolio includes flexible PVC hoses and tubing for water, air, suction, discharge and other industrial or technical uses."
-      ],
-      "productCategories": [
-        "Пневматические шланги и трубки",
-        "Гибкие промышленные шланги"
-      ],
-      "productFamilies": [
-        "Flexible PVC Hoses",
-        "Suction Hoses",
-        "Discharge Hoses",
-        "Air Hoses",
-        "Technical Tubing"
-      ],
+      "fullDescription": ["Heliflex is verified through its manufacturer-owned product directory as a Portuguese flexible-hose producer.", "Its documented portfolio includes flexible PVC hoses and tubing for water, air, suction, discharge and other industrial or technical uses."],
+      "productCategories": ["Пневматические шланги и трубки", "Гибкие промышленные шланги"],
+      "productFamilies": ["Flexible PVC Hoses", "Suction Hoses", "Discharge Hoses", "Air Hoses", "Technical Tubing"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Сельское хозяйство",
-        "Строительство"
-      ],
+      "industries": ["Промышленное производство", "Сельское хозяйство", "Строительство"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://www.heliflex.pt/en/tipologia/flexible-hose/"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-heliflex-products",
-          "tier": "A",
-          "type": "PRODUCT_DIRECTORY",
-          "scope": "MANUFACTURER_IDENTITY_AND_FLEXIBLE_PVC_HOSE_TUBING_SCOPE",
-          "url": "https://www.heliflex.pt/en/tipologia/flexible-hose/",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://www.heliflex.pt/en/tipologia/flexible-hose/"],
+      "sources": [{"sourceId":"wave83-heliflex-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_FLEXIBLE_PVC_HOSE_TUBING_SCOPE","url":"https://www.heliflex.pt/en/tipologia/flexible-hose/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "hengst-nordic-air-filtration",
       "officialName": "Hengst Air Filtration Denmark A/S",
       "displayName": "Hengst Nordic Air Filtration",
-      "aliases": [
-        "HENGST - NORDIC AIR FILTRATION",
-        "Nordic Air Filtration",
-        "Hengst Air Filtration Denmark"
-      ],
-      "formerNames": [
-        "Nordic Air Filtration A/S"
-      ],
+      "aliases": ["HENGST - NORDIC AIR FILTRATION", "Nordic Air Filtration", "Hengst Air Filtration Denmark"],
+      "formerNames": ["Nordic Air Filtration A/S"],
       "officialWebsite": "https://www.nordic-air-filtration.com/",
-      "officialDomains": [
-        "nordic-air-filtration.com",
-        "hengst.com"
-      ],
+      "officialDomains": ["nordic-air-filtration.com", "hengst.com"],
       "country": "Denmark",
       "headquarters": "Nakskov, Denmark",
       "foundedYear": null,
       "parentCompany": "Hengst SE",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Hengst Nordic Air Filtration supplies industrial air-filter solutions for dust collection, process-air and OEM applications.",
-      "fullDescription": [
-        "The official Nordic Air Filtration website identifies the current operation as Hengst Air Filtration Denmark and documents its membership in the Hengst Group.",
-        "Its industrial portfolio includes filter cartridges, filter bags and related air-filtration elements for dust collectors, turbines and original-equipment applications."
-      ],
-      "productCategories": [
-        "Промышленная фильтрация",
-        "Фильтрация воздуха"
-      ],
-      "productFamilies": [
-        "Filter Cartridges",
-        "Filter Bags",
-        "Dust Collection Filters",
-        "Gas Turbine Filters",
-        "OEM Air Filtration"
-      ],
+      "fullDescription": ["The official Nordic Air Filtration website identifies the current operation as Hengst Air Filtration Denmark and documents its membership in the Hengst Group.", "Its industrial portfolio includes filter cartridges, filter bags and related air-filtration elements for dust collectors, turbines and original-equipment applications."],
+      "productCategories": ["Промышленная фильтрация", "Фильтрация воздуха"],
+      "productFamilies": ["Filter Cartridges", "Filter Bags", "Dust Collection Filters", "Gas Turbine Filters", "OEM Air Filtration"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Энергетика"
-      ],
-      "officialCatalogs": [
-        "https://www.nordic-air-filtration.com/sites/default/files/mediearkiv/synthetic_wavesystem.pdf"
-      ],
-      "documentationSources": [
-        "https://www.nordic-air-filtration.com/en/node/680/nordic-air-filtration-north-america-inc"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-hengst-nordic-site",
-          "tier": "A",
-          "type": "OFFICIAL_GROUP_PRODUCT_SITE",
-          "scope": "CURRENT_HENGST_AIR_FILTRATION_IDENTITY_PARENT_AND_INDUSTRIAL_AIR_FILTER_SCOPE",
-          "url": "https://www.nordic-air-filtration.com/en/node/680/nordic-air-filtration-north-america-inc",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "industries": ["Промышленное производство", "Энергетика"],
+      "officialCatalogs": ["https://www.nordic-air-filtration.com/sites/default/files/mediearkiv/synthetic_wavesystem.pdf"],
+      "documentationSources": ["https://www.nordic-air-filtration.com/en/node/680/nordic-air-filtration-north-america-inc"],
+      "sources": [{"sourceId":"wave83-hengst-nordic-site","tier":"A","type":"OFFICIAL_GROUP_PRODUCT_SITE","scope":"CURRENT_HENGST_AIR_FILTRATION_IDENTITY_PARENT_AND_INDUSTRIAL_AIR_FILTER_SCOPE","url":"https://www.nordic-air-filtration.com/en/node/680/nordic-air-filtration-north-america-inc","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
     {
       "manufacturerId": "henkel",
       "officialName": "Henkel AG & Co. KGaA",
       "displayName": "Henkel",
-      "aliases": [
-        "HENKEL",
-        "Henkel Adhesive Technologies"
-      ],
+      "aliases": ["HENKEL", "Henkel Adhesive Technologies"],
       "formerNames": [],
       "officialWebsite": "https://www.henkel-adhesives.com/",
-      "officialDomains": [
-        "henkel-adhesives.com",
-        "henkel.com"
-      ],
+      "officialDomains": ["henkel-adhesives.com", "henkel.com"],
       "country": "Germany",
       "headquarters": "Düsseldorf, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Henkel Adhesive Technologies develops industrial adhesives, sealants, coatings, surface treatments and dispensing systems.",
-      "fullDescription": [
-        "Henkel is verified through its official Adhesive Technologies product platform as a manufacturer of industrial bonding and functional-material solutions.",
-        "The documented range includes structural and instant adhesives, threadlocking and retaining compounds, sealants, protective coatings, surface treatments, thermal-management materials and application equipment."
-      ],
-      "productCategories": [
-        "Клеенаносящие системы",
-        "Промышленные покрытия",
-        "Промышленное оборудование"
-      ],
-      "productFamilies": [
-        "LOCTITE",
-        "TEROSON",
-        "BONDERITE",
-        "TECHNOMELT",
-        "Industrial Adhesives",
-        "Industrial Sealants",
-        "Surface Treatments",
-        "Dispense Systems"
-      ],
+      "fullDescription": ["Henkel is verified through its official Adhesive Technologies product platform as a manufacturer of industrial bonding and functional-material solutions.", "The documented range includes structural and instant adhesives, threadlocking and retaining compounds, sealants, protective coatings, surface treatments, thermal-management materials and application equipment."],
+      "productCategories": ["Клеенаносящие системы", "Промышленные покрытия", "Промышленное оборудование"],
+      "productFamilies": ["LOCTITE", "TEROSON", "BONDERITE", "TECHNOMELT", "Industrial Adhesives", "Industrial Sealants", "Surface Treatments", "Dispense Systems"],
       "series": [],
-      "industries": [
-        "Промышленное производство",
-        "Автомобильная промышленность",
-        "Электроника",
-        "Упаковочная промышленность"
-      ],
+      "industries": ["Промышленное производство", "Автомобильная промышленность", "Электроника", "Упаковочная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": [
-        "https://next.henkel-adhesives.com/us/en/products.html/producttype_industrial-root-producttype.html"
-      ],
-      "sources": [
-        {
-          "sourceId": "wave83-henkel-products",
-          "tier": "A",
-          "type": "OFFICIAL_PRODUCT_DIRECTORY",
-          "scope": "COMPANY_IDENTITY_AND_INDUSTRIAL_ADHESIVE_SEALANT_COATING_EQUIPMENT_SCOPE",
-          "url": "https://next.henkel-adhesives.com/us/en/products.html/producttype_industrial-root-producttype.html",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-24"
-        }
-      ]
+      "documentationSources": ["https://next.henkel-adhesives.com/us/en/products.html/producttype_industrial-root-producttype.html"],
+      "sources": [{"sourceId":"wave83-henkel-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"COMPANY_IDENTITY_AND_INDUSTRIAL_ADHESIVE_SEALANT_COATING_EQUIPMENT_SCOPE","url":"https://next.henkel-adhesives.com/us/en/products.html/producttype_industrial-root-producttype.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     }
   ]
 }
