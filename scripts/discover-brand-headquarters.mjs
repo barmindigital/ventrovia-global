@@ -174,6 +174,13 @@ function blockNamesBrand(block, name) {
   return brandTokens(name).some((token) => haystack.includes(token));
 }
 
+const KNOWN_IMPRINT_PATHS = [
+  "/impressum", "/en/impressum", "/imprint", "/en/imprint", "/legal-notice",
+  "/en/legal-notice", "/legal", "/mentions-legales", "/note-legali",
+  "/aviso-legal", "/contact", "/en/contact", "/contact-us", "/kontakt",
+  "/contatti", "/contacto", "/about-us", "/en/about-us", "/company",
+];
+
 async function fetchText(url) {
   const response = await fetch(url, {
     redirect: "follow",
@@ -212,7 +219,10 @@ async function investigate(profile) {
   // A legal notice states the registered seat; a contact page often lists every
   // sales office worldwide, so its first address is not the headquarters.
   const pages = [{ url: home.finalUrl, html: home.html, label: "homepage", rank: 0 }];
+  const seen = new Set([home.finalUrl]);
   for (const link of imprintLinks(home.html, home.finalUrl)) {
+    if (seen.has(link.url)) continue;
+    seen.add(link.url);
     try {
       const page = await fetchText(link.url);
       pages.push({
@@ -220,6 +230,22 @@ async function investigate(profile) {
         label: link.label || "legal page", rank: link.rank,
       });
     } catch { /* a missing legal page is itself unremarkable */ }
+  }
+  // Plenty of sites bury the legal notice behind a script-rendered footer, so
+  // the homepage HTML carries no link to it. The conventional paths are worth
+  // trying directly before concluding the address is not published.
+  if (!pages.some((page) => page.rank > 0)) {
+    for (const guess of KNOWN_IMPRINT_PATHS) {
+      let url;
+      try { url = new URL(guess, home.finalUrl).toString(); } catch { continue; }
+      if (seen.has(url)) continue;
+      seen.add(url);
+      try {
+        const page = await fetchText(url);
+        pages.push({ url: page.finalUrl, html: page.html, label: `guessed ${guess}`, rank: 2 });
+        break;
+      } catch { /* the path simply does not exist on this site */ }
+    }
   }
   for (const page of pages) {
     const text = stripTags(page.html);
