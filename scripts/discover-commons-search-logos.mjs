@@ -150,13 +150,23 @@ async function fetchJson(url, attempts = 4) {
         },
         signal: AbortSignal.timeout(8000),
       });
+      if (response.status === 429) {
+        // Wikimedia throttles by client, and retrying at the same pace only
+        // deepens the block. Wait what the response asks for, then longer.
+        const retryAfter = Number(response.headers.get("retry-after")) || 0;
+        const backoff = Math.max(retryAfter * 1000, attempt * 5000);
+        if (attempt < attempts) await delay(backoff);
+        throw new Error(`${response.status} ${response.statusText}`);
+      }
       if (!response.ok) {
         throw new Error(`${response.status} ${response.statusText}`);
       }
       return await response.json();
     } catch (error) {
       lastError = error;
-      if (attempt < attempts) await delay(attempt * 700);
+      if (attempt < attempts && !/429/u.test(String(error?.message))) {
+        await delay(attempt * 700);
+      }
     }
   }
   throw lastError;
@@ -262,11 +272,15 @@ async function discoverManufacturer(manufacturer) {
 }
 
 const results = [];
-const concurrency = 5;
+// A run at concurrency 5 with a 220 ms pause drew 429 for 851 of 1033
+// manufacturers, so the throughput was imaginary. Both knobs are arguments
+// now and the defaults are the polite ones.
+const concurrency = Math.max(Number(process.argv[4] ?? 2), 1);
+const pauseMs = Math.max(Number(process.argv[5] ?? 1200), 0);
 for (let index = 0; index < batch.length; index += concurrency) {
   const chunk = batch.slice(index, index + concurrency);
   results.push(...(await Promise.all(chunk.map(discoverManufacturer))));
-  await delay(220);
+  await delay(pauseMs);
 }
 
 const summary = results.reduce((counts, result) => {
