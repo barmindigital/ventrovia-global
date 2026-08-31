@@ -37,6 +37,16 @@ const extensionByMime = {
   "image/webp": "webp",
 };
 
+function sniffImageMime(bytes) {
+  if (bytes.length < 12) return null;
+  const hex = (start, end) => Buffer.from(bytes.slice(start, end)).toString("hex");
+  if (hex(0, 8) === "89504e470d0a1a0a") return "image/png";
+  if (hex(0, 2) === "ffd8") return "image/jpeg";
+  if (hex(0, 3) === "474946") return "image/gif";
+  if (hex(0, 4) === "52494646" && hex(8, 12) === "57454250") return "image/webp";
+  return null;
+}
+
 function extensionFromUrl(value) {
   try {
     const extension = path.extname(new URL(value).pathname).slice(1).toLowerCase();
@@ -67,7 +77,11 @@ async function download(url) {
     .trim()
     .toLowerCase();
   const isSvg = new TextDecoder().decode(bytes.slice(0, 1000)).includes("<svg");
-  const mime = isSvg ? "image/svg+xml" : contentType;
+  // The URL extension lies often enough to matter: manufacturers serve PNG
+  // bytes from a .jpg path, and a mislabelled file breaks the audit's
+  // dimension read and ships a wrong content type. Trust the magic bytes.
+  const sniffed = sniffImageMime(bytes);
+  const mime = isSvg ? "image/svg+xml" : (sniffed ?? contentType);
   const extension = extensionByMime[mime] ?? extensionFromUrl(response.url);
   if (!extension) throw new Error(`Unsupported asset type: ${mime || "unknown"}`);
   return { bytes, extension, mime, finalUrl: response.url };
