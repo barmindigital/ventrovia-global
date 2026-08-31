@@ -10,7 +10,11 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const GAPS_PATH = path.join(ROOT, "brand-master/data/brand-logo-gaps.json");
+// The generated gap list goes stale as logos land, so a caller can pass a
+// freshly filtered one and avoid re-probing brands that are already done.
+const GAPS_PATH = process.argv[5]
+  ? path.resolve(process.argv[5])
+  : path.join(ROOT, "brand-master/data/brand-logo-gaps.json");
 const OUTPUT_DIR = path.join(ROOT, ".logo-work/header-logo");
 const cliArguments = process.argv.slice(2).filter((a) => a !== "--");
 const offset = Number(cliArguments[0] ?? 0);
@@ -130,7 +134,22 @@ function extractCandidates(html, baseUrl) {
     add(url, named ? 90 : 55, "HEADER_IMAGE", `header img${named ? " named logo" : ""}`);
   }
 
-  // 4. Inline <svg> in the masthead carrying a logo class or title.
+  // 4. Stylesheet background image — a masthead logo is frequently set in CSS
+  // rather than as an <img>, so the served HTML shows no candidate at all.
+  for (const style of html.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/giu)) {
+    for (const rule of style[1].matchAll(/([^{}]*logo[^{}]*)\{([^}]*)\}/giu)) {
+      const bg = /background(?:-image)?\s*:[^;]*url\((['"]?)([^'")]+)\1\)/iu.exec(rule[2]);
+      if (!bg) continue;
+      add(resolveUrl(bg[2], baseUrl), 60, "CSS_BACKGROUND", `css rule ${rule[1].trim().slice(0, 60)}`);
+    }
+  }
+  for (const tag of header.matchAll(/style=["']([^"']*)["']/giu)) {
+    const bg = /background(?:-image)?\s*:[^;]*url\((['"]?)([^'")]+)\1\)/iu.exec(tag[1]);
+    if (!bg) continue;
+    add(resolveUrl(bg[2], baseUrl), 50, "INLINE_STYLE_BACKGROUND", "inline masthead background");
+  }
+
+  // 5. Inline <svg> in the masthead carrying a logo class or title.
   for (const tag of header.matchAll(/<svg\b[^>]*>/giu)) {
     const attrs = attributes(tag[0]);
     const signal = `${attrs.class ?? ""} ${attrs.id ?? ""}`;
