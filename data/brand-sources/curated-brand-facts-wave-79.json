@@ -1,279 +1,2637 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {"manufacturerId":"emi","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"EMI is a generic abbreviation used by multiple unrelated industrial and electronics companies. The repository record has no legal-name, geography or product-scope discriminator that safely selects one manufacturer-owned source.","attemptedUrls":["https://www.google.com/search?q=EMI+industrial+manufacturer+official"]},
-    {"manufacturerId":"emk","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"EMK is used by unrelated manufacturers of ventilation ceilings, grinding products, specialty materials and plastic components. Name similarity cannot establish the intended entity.","attemptedUrls":["https://www.emk.ch/en/","https://emkkorea.co.kr/indexe.php","https://emk-technologies.com/","https://www.emk-kunststofftechnik.de/"]},
-    {"manufacturerId":"ems-ltd","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"EMS Ltd maps to several unrelated businesses in mechatronic drives, HVAC services, fire systems and printing-equipment service. The raw record does not contain a reliable discriminator.","attemptedUrls":["https://www.ems-limited.co.uk/","https://www.emsltd.biz/","https://emsgroup.co.uk/","https://www.emslimited.org/"]},
-    {"manufacturerId":"epro","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"Emerson's manufacturer-owned material states that the legacy Epro brand was retired and became AMS in 2017. The undifferentiated record cannot be published as a current standalone manufacturer without an explicit legacy-profile decision.","attemptedUrls":["https://www.emerson.com/is/content/emerson/ja/systems-and-software/ams/brochures-and-flyers/documents/brochure-reliability-for-engineering-procurement-construction-epc-ams-en-12045318.pdf"]},
-    {"manufacturerId":"eriks","status":"BLOCKED_NON_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"ERIKS' official site describes a multi-brand industrial component and service provider. Its own-brand portfolio does not establish ERIKS itself as the specific manufacturer identity represented by this record.","attemptedUrls":["https://eriks.com/company/en","https://eriks.com/en/what-we-do"]},
-    {"manufacturerId":"erregiemme","status":"BLOCKED_NON_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"Erregiemme's official product pages present a portfolio assembled across multiple represented brands. First-party material reviewed in this pass did not establish a distinct manufacturer-owned Erregiemme product identity.","attemptedUrls":["https://www.erregiemme.it/prodotti/?p=organi-trasmissione","https://www.erregiemme.it/prodotti/?cat=39&p=guide"]},
-    {"manufacturerId":"esq","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"Only reseller-controlled pages were found for the ESQ record. No manufacturer-owned company or product source was available to prove canonical identity and specialization.","attemptedUrls":["https://esq.nt-rt.ru/en","https://www.google.com/search?q=ESQ+ELCOM+manufacturer+official"]},
-    {"manufacturerId":"euro-cold","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Euro Cold is used by multiple unrelated refrigeration and fluid-cooling manufacturers. The repository record does not identify which official company is intended.","attemptedUrls":["https://eurocold.it/index.php?lang=2","https://www.eurocoldsrlnovate.it/en","https://eurocold.ltd/en/"]},
-    {"manufacturerId":"euromatic","status":"BLOCKED_NON_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"Euromatic's official site describes a manufacturer-independent supplier of valves, control and measurement components, not a clearly defined manufacturer identity for this record.","attemptedUrls":["https://www.euromatic.com/"]},
-    {"manufacturerId":"euromec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Euromec is shared by unrelated manufacturers of material-handling equipment, glass machinery, confectionery machinery, lifting equipment and precision components. No safe discriminator exists in the raw record.","attemptedUrls":["https://www.euromectech.it/en/home/","https://www.euromec-srl.com/default.aspx","https://euromec.it/","https://euromecsrl.it/en/","https://www.euromec2000.com/"]},
-    {"manufacturerId":"facon","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"No current manufacturer-owned FACON company and product source could be established. Available material describes a sales or distribution business and cannot verify a manufacturer identity.","attemptedUrls":["https://www.google.com/search?q=FACON+Engineering+manufacturer+official"]},
-    {"manufacturerId":"fagor","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Fagor is used by several distinct businesses and commercial brands, including industrial automation and commercial equipment operations. The undifferentiated repository identity cannot be assigned safely.","attemptedUrls":["https://www.fagorautomation.com/","https://www.fagorprofessional.com/en/"]},
-    {"manufacturerId":"falk-ultramite-gearmotor","status":"BLOCKED_LEGACY_PRODUCT_LINE","checkedAt":"2026-08-24","reason":"Falk UltraMax/UltraMite references identify a legacy gearmotor product line rather than a standalone current manufacturer. A canonical mapping to the current Falk/Rexnord brand must be resolved before publication.","attemptedUrls":["https://www.rexnord.com/","https://www.google.com/search?q=site%3Arexnord.com+Falk+UltraMite"]}
+    {
+      "manufacturerId": "emi",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "EMI is a generic abbreviation used by multiple unrelated industrial and electronics companies. The repository record has no legal-name, geography or product-scope discriminator that safely selects one manufacturer-owned source.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=EMI+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "emk",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "EMK is used by unrelated manufacturers of ventilation ceilings, grinding products, specialty materials and plastic components. Name similarity cannot establish the intended entity.",
+      "attemptedUrls": [
+        "https://www.emk.ch/en/",
+        "https://emkkorea.co.kr/indexe.php",
+        "https://emk-technologies.com/",
+        "https://www.emk-kunststofftechnik.de/"
+      ]
+    },
+    {
+      "manufacturerId": "ems-ltd",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "EMS Ltd maps to several unrelated businesses in mechatronic drives, HVAC services, fire systems and printing-equipment service. The raw record does not contain a reliable discriminator.",
+      "attemptedUrls": [
+        "https://www.ems-limited.co.uk/",
+        "https://www.emsltd.biz/",
+        "https://emsgroup.co.uk/",
+        "https://www.emslimited.org/"
+      ]
+    },
+    {
+      "manufacturerId": "epro",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Emerson's manufacturer-owned material states that the legacy Epro brand was retired and became AMS in 2017. The undifferentiated record cannot be published as a current standalone manufacturer without an explicit legacy-profile decision.",
+      "attemptedUrls": [
+        "https://www.emerson.com/is/content/emerson/ja/systems-and-software/ams/brochures-and-flyers/documents/brochure-reliability-for-engineering-procurement-construction-epc-ams-en-12045318.pdf"
+      ]
+    },
+    {
+      "manufacturerId": "eriks",
+      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ERIKS' official site describes a multi-brand industrial component and service provider. Its own-brand portfolio does not establish ERIKS itself as the specific manufacturer identity represented by this record.",
+      "attemptedUrls": [
+        "https://eriks.com/company/en",
+        "https://eriks.com/en/what-we-do"
+      ]
+    },
+    {
+      "manufacturerId": "erregiemme",
+      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Erregiemme's official product pages present a portfolio assembled across multiple represented brands. First-party material reviewed in this pass did not establish a distinct manufacturer-owned Erregiemme product identity.",
+      "attemptedUrls": [
+        "https://www.erregiemme.it/prodotti/?p=organi-trasmissione",
+        "https://www.erregiemme.it/prodotti/?cat=39&p=guide"
+      ]
+    },
+    {
+      "manufacturerId": "esq",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Only reseller-controlled pages were found for the ESQ record. No manufacturer-owned company or product source was available to prove canonical identity and specialization.",
+      "attemptedUrls": [
+        "https://esq.nt-rt.ru/en",
+        "https://www.google.com/search?q=ESQ+ELCOM+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "euro-cold",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Euro Cold is used by multiple unrelated refrigeration and fluid-cooling manufacturers. The repository record does not identify which official company is intended.",
+      "attemptedUrls": [
+        "https://eurocold.it/index.php?lang=2",
+        "https://www.eurocoldsrlnovate.it/en",
+        "https://eurocold.ltd/en/"
+      ]
+    },
+    {
+      "manufacturerId": "euromatic",
+      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Euromatic's official site describes a manufacturer-independent supplier of valves, control and measurement components, not a clearly defined manufacturer identity for this record.",
+      "attemptedUrls": [
+        "https://www.euromatic.com/"
+      ]
+    },
+    {
+      "manufacturerId": "euromec",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Euromec is shared by unrelated manufacturers of material-handling equipment, glass machinery, confectionery machinery, lifting equipment and precision components. No safe discriminator exists in the raw record.",
+      "attemptedUrls": [
+        "https://www.euromectech.it/en/home/",
+        "https://www.euromec-srl.com/default.aspx",
+        "https://euromec.it/",
+        "https://euromecsrl.it/en/",
+        "https://www.euromec2000.com/"
+      ]
+    },
+    {
+      "manufacturerId": "facon",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "No current manufacturer-owned FACON company and product source could be established. Available material describes a sales or distribution business and cannot verify a manufacturer identity.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=FACON+Engineering+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "fagor",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Fagor is used by several distinct businesses and commercial brands, including industrial automation and commercial equipment operations. The undifferentiated repository identity cannot be assigned safely.",
+      "attemptedUrls": [
+        "https://www.fagorautomation.com/",
+        "https://www.fagorprofessional.com/en/"
+      ]
+    },
+    {
+      "manufacturerId": "falk-ultramite-gearmotor",
+      "status": "BLOCKED_LEGACY_PRODUCT_LINE",
+      "checkedAt": "2026-08-24",
+      "reason": "Falk UltraMax/UltraMite references identify a legacy gearmotor product line rather than a standalone current manufacturer. A canonical mapping to the current Falk/Rexnord brand must be resolved before publication.",
+      "attemptedUrls": [
+        "https://www.rexnord.com/",
+        "https://www.google.com/search?q=site%3Arexnord.com+Falk+UltraMite"
+      ]
+    }
   ],
   "profiles": [
     {
-      "manufacturerId":"emag","officialName":"EMAG GmbH & Co. KG","displayName":"EMAG","aliases":["EMAG","EMAG GROUP"],"formerNames":[],"officialWebsite":"https://www.emag.com/","officialDomains":["emag.com"],"country":"Germany","headquarters":"Salach, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"EMAG manufactures machine tools and production systems for turning, drilling, milling, grinding, gear cutting, laser welding and electrochemical machining.",
-      "fullDescription":["EMAG's manufacturer-owned site identifies a German machine-tool group headquartered in Salach.","Its documented technology portfolio covers machining, gear production, laser joining, electrochemical machining and integrated automation for industrial production systems."],
-      "productCategories":["Промышленные станки","Металлообрабатывающие станки","Промышленная автоматизация"],"productFamilies":["Turning Machines","Grinding Machines","Gear-Cutting Machines","Laser-Welding Systems","Electrochemical Machining Systems","Automation Solutions"],"series":[],"industries":["Машиностроение","Автомобильная промышленность","Аэрокосмическая промышленность","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.emag.com/products-services/"],
-      "sources":[{"sourceId":"brand-emag-company","tier":"A","type":"ABOUT","scope":"GROUP_IDENTITY_HEADQUARTERS_AND_MANUFACTURING_TECHNOLOGIES","url":"https://www.emag.com/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-emag-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MACHINE_TOOL_AUTOMATION_AND_PROCESS_TECHNOLOGY_SCOPE","url":"https://www.emag.com/products-services/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "emag",
+      "officialName": "EMAG GmbH & Co. KG",
+      "displayName": "EMAG",
+      "aliases": [
+        "EMAG",
+        "EMAG GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emag.com/",
+      "officialDomains": [
+        "emag.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Salach, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "EMAG manufactures machine tools and production systems for turning, drilling, milling, grinding, gear cutting, laser welding and electrochemical machining.",
+      "fullDescription": [
+        "EMAG's manufacturer-owned site identifies a German machine-tool group headquartered in Salach.",
+        "Its documented technology portfolio covers machining, gear production, laser joining, electrochemical machining and integrated automation for industrial production systems."
+      ],
+      "productCategories": [
+        "Промышленные станки",
+        "Металлообрабатывающие станки",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Turning Machines",
+        "Grinding Machines",
+        "Gear-Cutting Machines",
+        "Laser-Welding Systems",
+        "Electrochemical Machining Systems",
+        "Automation Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.emag.com/products-services/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emag-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "GROUP_IDENTITY_HEADQUARTERS_AND_MANUFACTURING_TECHNOLOGIES",
+          "url": "https://www.emag.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emag-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MACHINE_TOOL_AUTOMATION_AND_PROCESS_TECHNOLOGY_SCOPE",
+          "url": "https://www.emag.com/products-services/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"emco-wheaton","officialName":"Emco Wheaton","displayName":"Emco Wheaton","aliases":["EMCO WHEATON"],"formerNames":[],"officialWebsite":"https://www.emcowheaton.com/","officialDomains":["emcowheaton.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Ingersoll Rand","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Emco Wheaton develops fluid-transfer equipment for loading, unloading and handling fuels, chemicals and other liquid media.",
-      "fullDescription":["Emco Wheaton's official site documents a fluid-transfer equipment brand within Ingersoll Rand.","The published range includes loading arms, marine loading systems, swivel joints, dry-break couplings, tank-truck systems and fluid-transfer accessories."],
-      "productCategories":["Перекачивающее оборудование","Промышленные клапаны","Металлообработка и изготовление промышленных компонентов"],"productFamilies":["Loading Arms","Marine Loading Systems","Swivel Joints","Dry-Break Couplings","Tank-Truck Systems"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Морская промышленность","Транспорт"],"officialCatalogs":[],"documentationSources":["https://www.emcowheaton.com/products/"],
-      "sources":[{"sourceId":"brand-emco-wheaton-company","tier":"A","type":"ABOUT","scope":"CURRENT_BRAND_IDENTITY_AND_FLUID_TRANSFER_SPECIALISATION","url":"https://www.emcowheaton.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-emco-wheaton-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LOADING_ARM_COUPLING_SWIVEL_AND_TANK_SYSTEM_SCOPE","url":"https://www.emcowheaton.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "emco-wheaton",
+      "officialName": "Emco Wheaton",
+      "displayName": "Emco Wheaton",
+      "aliases": [
+        "EMCO WHEATON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emcowheaton.com/",
+      "officialDomains": [
+        "emcowheaton.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Ingersoll Rand",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Emco Wheaton develops fluid-transfer equipment for loading, unloading and handling fuels, chemicals and other liquid media.",
+      "fullDescription": [
+        "Emco Wheaton's official site documents a fluid-transfer equipment brand within Ingersoll Rand.",
+        "The published range includes loading arms, marine loading systems, swivel joints, dry-break couplings, tank-truck systems and fluid-transfer accessories."
+      ],
+      "productCategories": [
+        "Перекачивающее оборудование",
+        "Промышленные клапаны",
+        "Металлообработка и изготовление промышленных компонентов"
+      ],
+      "productFamilies": [
+        "Loading Arms",
+        "Marine Loading Systems",
+        "Swivel Joints",
+        "Dry-Break Couplings",
+        "Tank-Truck Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Морская промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.emcowheaton.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emco-wheaton-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_FLUID_TRANSFER_SPECIALISATION",
+          "url": "https://www.emcowheaton.com/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emco-wheaton-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LOADING_ARM_COUPLING_SWIVEL_AND_TANK_SYSTEM_SCOPE",
+          "url": "https://www.emcowheaton.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"emg-automation","officialName":"EMG Automation GmbH","displayName":"EMG Automation","aliases":["EMG AUTOMATION"],"formerNames":[],"officialWebsite":"https://www.emg-automation.com/en/","officialDomains":["emg-automation.com"],"country":"Germany","headquarters":"Wenden, Germany","foundedYear":null,"parentCompany":"elexis AG","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"EMG Automation develops automation, quality-assurance and strip-guiding systems for continuous industrial production processes.",
-      "fullDescription":["EMG Automation's official site identifies a German automation company within elexis AG.","Its documented product scope includes strip-guiding and tension-control systems, quality-assurance equipment, hydraulic control systems and automation solutions for metals and other continuous-process industries."],
-      "productCategories":["Промышленная автоматизация","Измерительное оборудование","Гидравлическое оборудование"],"productFamilies":["Strip Guiding Systems","Strip Tension Control","Quality Assurance Systems","Hydraulic Control Systems","Automation Solutions"],"series":[],"industries":["Металлургия","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.emg-automation.com/en/products/"],
-      "sources":[{"sourceId":"brand-emg-automation-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_PROCESS_AUTOMATION_SCOPE","url":"https://www.emg-automation.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-emg-automation-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STRIP_GUIDING_QUALITY_HYDRAULIC_AND_AUTOMATION_PRODUCTS","url":"https://www.emg-automation.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "emg-automation",
+      "officialName": "EMG Automation GmbH",
+      "displayName": "EMG Automation",
+      "aliases": [
+        "EMG AUTOMATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emg-automation.com/en/",
+      "officialDomains": [
+        "emg-automation.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Wenden, Germany",
+      "foundedYear": null,
+      "parentCompany": "elexis AG",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "EMG Automation develops automation, quality-assurance and strip-guiding systems for continuous industrial production processes.",
+      "fullDescription": [
+        "EMG Automation's official site identifies a German automation company within elexis AG.",
+        "Its documented product scope includes strip-guiding and tension-control systems, quality-assurance equipment, hydraulic control systems and automation solutions for metals and other continuous-process industries."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Измерительное оборудование",
+        "Гидравлическое оборудование"
+      ],
+      "productFamilies": [
+        "Strip Guiding Systems",
+        "Strip Tension Control",
+        "Quality Assurance Systems",
+        "Hydraulic Control Systems",
+        "Automation Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Металлургия",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.emg-automation.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emg-automation-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_PROCESS_AUTOMATION_SCOPE",
+          "url": "https://www.emg-automation.com/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emg-automation-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "STRIP_GUIDING_QUALITY_HYDRAULIC_AND_AUTOMATION_PRODUCTS",
+          "url": "https://www.emg-automation.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"emg-presses","officialName":"Ets LONG SAS","displayName":"EMG Presses","aliases":["EMG PRESSES"],"formerNames":[],"officialWebsite":"https://www.emg.fr/en/","officialDomains":["emg.fr"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":"Ets LONG SAS","statusModifier":"COMMERCIAL_BRAND",
-      "shortDescription":"EMG Presses manufactures manual, pneumatic, hydropneumatic and mechanical presses together with marking and custom assembly systems.",
-      "fullDescription":["Ets LONG's official EMG Presses site documents a French press and production-equipment brand.","The published range covers manual and powered bench presses, eccentric mechanical presses, marking equipment, custom machines and production-line integrations."],
-      "productCategories":["Промышленные прессы","Промышленные машины","Промышленная автоматизация"],"productFamilies":["Manual Presses","Pneumatic Presses","Hydropneumatic Presses","Mechanical Presses","Marking Presses","Custom Production Lines"],"series":[],"industries":["Промышленное производство","Металлообработка"],"officialCatalogs":["https://www.emg.fr/support/catalogues/"],"documentationSources":["https://www.emg.fr/support/catalogues/"],
-      "sources":[{"sourceId":"brand-emg-presses-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"ETS_LONG_IDENTITY_AND_PRESS_MANUFACTURING_SCOPE","url":"https://www.emg.fr/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-emg-presses-catalogs","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"MANUAL_PNEUMATIC_HYDROPNEUMATIC_MECHANICAL_AND_MARKING_PRESS_SCOPE","url":"https://www.emg.fr/support/catalogues/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "emg-presses",
+      "officialName": "Ets LONG SAS",
+      "displayName": "EMG Presses",
+      "aliases": [
+        "EMG PRESSES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emg.fr/en/",
+      "officialDomains": [
+        "emg.fr"
+      ],
+      "country": "France",
+      "headquarters": "Marigny-St-Marcel, France",
+      "foundedYear": null,
+      "parentCompany": "Ets LONG SAS",
+      "statusModifier": "COMMERCIAL_BRAND",
+      "shortDescription": "EMG Presses manufactures manual, pneumatic, hydropneumatic and mechanical presses together with marking and custom assembly systems.",
+      "fullDescription": [
+        "Ets LONG's official EMG Presses site documents a French press and production-equipment brand.",
+        "The published range covers manual and powered bench presses, eccentric mechanical presses, marking equipment, custom machines and production-line integrations."
+      ],
+      "productCategories": [
+        "Промышленные прессы",
+        "Промышленные машины",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Manual Presses",
+        "Pneumatic Presses",
+        "Hydropneumatic Presses",
+        "Mechanical Presses",
+        "Marking Presses",
+        "Custom Production Lines"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Металлообработка"
+      ],
+      "officialCatalogs": [
+        "https://www.emg.fr/support/catalogues/"
+      ],
+      "documentationSources": [
+        "https://www.emg.fr/support/catalogues/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emg-presses-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "ETS_LONG_IDENTITY_AND_PRESS_MANUFACTURING_SCOPE",
+          "url": "https://www.emg.fr/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emg-presses-catalogs",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "MANUAL_PNEUMATIC_HYDROPNEUMATIC_MECHANICAL_AND_MARKING_PRESS_SCOPE",
+          "url": "https://www.emg.fr/support/catalogues/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emg-presses-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.emg.fr/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"emit-s-a","officialName":"Zakład Maszyn Elektrycznych EMIT S.A.","displayName":"EMIT","aliases":["EMIT","EMIT S.A.","ZME EMIT"],"formerNames":[],"officialWebsite":"https://www.cantonigroup.com/emit/en/page/emit","officialDomains":["cantonigroup.com"],"country":"Poland","headquarters":"Żychlin, Poland","foundedYear":null,"parentCompany":"Cantoni Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"EMIT manufactures medium- and high-power low- and high-voltage electric machines, including industrial motors and generators.",
-      "fullDescription":["Cantoni Group's official material identifies Zakład Maszyn Elektrycznych EMIT S.A. as a Polish electric-machine manufacturer within the group.","The documented range covers three-phase induction and synchronous motors, generators and specialized electrical machines for industrial applications."],
-      "productCategories":["Промышленные электродвигатели","Электротехническое оборудование"],"productFamilies":["Low-Voltage Electric Motors","High-Voltage Electric Motors","Synchronous Motors","Generators","Special Electrical Machines"],"series":[],"industries":["Энергетика","Промышленное производство","Горнодобывающая промышленность"],"officialCatalogs":["https://www.cantonigroup.com/storage/download/files/131/7276_emit_presentation_en.pdf"],"documentationSources":["https://www.cantonigroup.com/emit/en/page/emit"],
-      "sources":[{"sourceId":"brand-emit-parent-profile","tier":"A","type":"OFFICIAL_PARENT_PROFILE","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_ELECTRIC_MACHINE_SCOPE","url":"https://www.cantonigroup.com/emit/en/page/emit","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-emit-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MOTOR_GENERATOR_AND_SPECIAL_MACHINE_PRODUCT_SCOPE","url":"https://www.cantonigroup.com/storage/download/files/131/7276_emit_presentation_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "emit-s-a",
+      "officialName": "Zakład Maszyn Elektrycznych EMIT S.A.",
+      "displayName": "EMIT",
+      "aliases": [
+        "EMIT",
+        "EMIT S.A.",
+        "ZME EMIT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cantonigroup.com/emit/en/page/emit",
+      "officialDomains": [
+        "cantonigroup.com"
+      ],
+      "country": "Poland",
+      "headquarters": "Żychlin, Poland",
+      "foundedYear": null,
+      "parentCompany": "Cantoni Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "EMIT manufactures medium- and high-power low- and high-voltage electric machines, including industrial motors and generators.",
+      "fullDescription": [
+        "Cantoni Group's official material identifies Zakład Maszyn Elektrycznych EMIT S.A. as a Polish electric-machine manufacturer within the group.",
+        "The documented range covers three-phase induction and synchronous motors, generators and specialized electrical machines for industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели",
+        "Электротехническое оборудование"
+      ],
+      "productFamilies": [
+        "Low-Voltage Electric Motors",
+        "High-Voltage Electric Motors",
+        "Synchronous Motors",
+        "Generators",
+        "Special Electrical Machines"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.cantonigroup.com/storage/download/files/131/7276_emit_presentation_en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.cantonigroup.com/emit/en/page/emit"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emit-parent-profile",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PROFILE",
+          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_ELECTRIC_MACHINE_SCOPE",
+          "url": "https://www.cantonigroup.com/emit/en/page/emit",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emit-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MOTOR_GENERATOR_AND_SPECIAL_MACHINE_PRODUCT_SCOPE",
+          "url": "https://www.cantonigroup.com/storage/download/files/131/7276_emit_presentation_en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"emmegi-group","officialName":"Emmegi S.p.A.","displayName":"Emmegi","aliases":["EMMEGI","EMMEGI GROUP"],"formerNames":[],"officialWebsite":"https://www.emmegi.com/en/","officialDomains":["emmegi.com"],"country":"Italy","headquarters":"Limidi di Soliera, Modena, Italy","foundedYear":1970,"parentCompany":"Voilàp Group","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Emmegi manufactures machining, cutting, assembly and logistics equipment for aluminium, PVC and light-alloy profiles.",
-      "fullDescription":["Emmegi's official site documents an Italian machinery business founded in 1970 and operating within Voilàp Group.","Its product portfolio includes machining centres, saws, copy routers, end-milling machines, assembly equipment, profile-handling systems and industrial software."],
-      "productCategories":["Металлообрабатывающие станки","Промышленные станки","Промышленная автоматизация","Программное обеспечение"],"productFamilies":["Machining Centres","Cutting Machines","Copy Routers","End-Milling Machines","Assembly Equipment","Profile-Handling Systems"],"series":[],"industries":["Металлообработка","Строительная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.emmegi.com/en/products/"],
-      "sources":[{"sourceId":"brand-emmegi-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_GROUP_AND_PROFILE_PROCESSING_SCOPE","url":"https://www.emmegi.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-emmegi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MACHINING_CUTTING_ASSEMBLY_AND_PROFILE_HANDLING_SCOPE","url":"https://www.emmegi.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "emmegi-group",
+      "officialName": "Emmegi S.p.A.",
+      "displayName": "Emmegi",
+      "aliases": [
+        "EMMEGI",
+        "EMMEGI GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emmegi.com/en/",
+      "officialDomains": [
+        "emmegi.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Limidi di Soliera, Modena, Italy",
+      "foundedYear": 1970,
+      "parentCompany": "Voilàp Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Emmegi manufactures machining, cutting, assembly and logistics equipment for aluminium, PVC and light-alloy profiles.",
+      "fullDescription": [
+        "Emmegi's official site documents an Italian machinery business founded in 1970 and operating within Voilàp Group.",
+        "Its product portfolio includes machining centres, saws, copy routers, end-milling machines, assembly equipment, profile-handling systems and industrial software."
+      ],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Промышленные станки",
+        "Промышленная автоматизация",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Machining Centres",
+        "Cutting Machines",
+        "Copy Routers",
+        "End-Milling Machines",
+        "Assembly Equipment",
+        "Profile-Handling Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Строительная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.emmegi.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-emmegi-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_GROUP_AND_PROFILE_PROCESSING_SCOPE",
+          "url": "https://www.emmegi.com/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-emmegi-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MACHINING_CUTTING_ASSEMBLY_AND_PROFILE_HANDLING_SCOPE",
+          "url": "https://www.emmegi.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"enerproject","officialName":"Enerproject SA","displayName":"Enerproject","aliases":["ENERPROJECT"],"formerNames":[],"officialWebsite":"https://www.enerproject.com/","officialDomains":["enerproject.com"],"country":"Switzerland","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Enerproject engineers packaged reciprocating-compressor systems for natural gas, renewable gases and industrial gas applications.",
-      "fullDescription":["Enerproject's manufacturer-owned site documents a Swiss engineering company focused on gas-compression packages.","Its official solutions cover reciprocating compressors and complete packages for fuel gas, gas gathering, biogas, biomethane, hydrogen and other industrial gas duties."],
-      "productCategories":["Промышленные компрессоры","Промышленные машины"],"productFamilies":["Reciprocating Gas Compressors","Fuel-Gas Compressor Packages","Biogas Compressor Packages","Biomethane Compressor Packages","Hydrogen Compression Systems"],"series":[],"industries":["Нефтегазовая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.enerproject.com/products/"],
-      "sources":[{"sourceId":"brand-enerproject-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_GAS_COMPRESSION_SPECIALISATION","url":"https://www.enerproject.com/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-enerproject-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RECIPROCATING_COMPRESSOR_AND_PACKAGED_GAS_SYSTEM_SCOPE","url":"https://www.enerproject.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "enerproject",
+      "officialName": "Enerproject SA",
+      "displayName": "Enerproject",
+      "aliases": [
+        "ENERPROJECT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.enerproject.com/",
+      "officialDomains": [
+        "enerproject.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Enerproject engineers packaged reciprocating-compressor systems for natural gas, renewable gases and industrial gas applications.",
+      "fullDescription": [
+        "Enerproject's manufacturer-owned site documents a Swiss engineering company focused on gas-compression packages.",
+        "Its official solutions cover reciprocating compressors and complete packages for fuel gas, gas gathering, biogas, biomethane, hydrogen and other industrial gas duties."
+      ],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Reciprocating Gas Compressors",
+        "Fuel-Gas Compressor Packages",
+        "Biogas Compressor Packages",
+        "Biomethane Compressor Packages",
+        "Hydrogen Compression Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.enerproject.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-enerproject-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_GAS_COMPRESSION_SPECIALISATION",
+          "url": "https://www.enerproject.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-enerproject-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RECIPROCATING_COMPRESSOR_AND_PACKAGED_GAS_SYSTEM_SCOPE",
+          "url": "https://www.enerproject.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"engel","officialName":"ENGEL AUSTRIA GmbH","displayName":"ENGEL","aliases":["ENGEL","ENGEL AUSTRIA"],"formerNames":[],"officialWebsite":"https://www.engelglobal.com/","officialDomains":["engelglobal.com"],"country":"Austria","headquarters":"Schwertberg, Austria","foundedYear":1945,"parentCompany":null,
-      "shortDescription":"ENGEL develops injection-moulding machines, automation and production cells for plastics processing.",
-      "fullDescription":["ENGEL's official company profile identifies an Austrian manufacturer founded in 1945.","The documented portfolio includes hydraulic, hybrid and all-electric injection-moulding machines, robots, digital solutions and integrated production cells."],
-      "productCategories":["Промышленные машины","Промышленная автоматизация","Робототехника"],"productFamilies":["Hydraulic Injection-Moulding Machines","Hybrid Injection-Moulding Machines","All-Electric Injection-Moulding Machines","Robots","Integrated Production Cells"],"series":["t-win","victory","e-mac","duo","e-victory","e-win","e-motion"],"industries":["Производство пластмасс","Автомобильная промышленность","Упаковочная промышленность","Медицинская промышленность"],"officialCatalogs":[],"documentationSources":["https://www.engelglobal.com/en/us/products/injection-molding-machines"],
-      "sources":[{"sourceId":"brand-engel-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_AND_INJECTION_MOULDING_SPECIALISATION","url":"https://www.engelglobal.com/en/gb/company/engel-injection-moulding","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-engel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_HYBRID_ELECTRIC_MACHINE_AND_AUTOMATION_SCOPE","url":"https://www.engelglobal.com/en/us/products/injection-molding-machines","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "engel",
+      "officialName": "ENGEL AUSTRIA GmbH",
+      "displayName": "ENGEL",
+      "aliases": [
+        "ENGEL",
+        "ENGEL AUSTRIA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.engelglobal.com/",
+      "officialDomains": [
+        "engelglobal.com"
+      ],
+      "country": "Austria",
+      "headquarters": "Schwertberg, Austria",
+      "foundedYear": 1945,
+      "parentCompany": null,
+      "shortDescription": "ENGEL develops injection-moulding machines, automation and production cells for plastics processing.",
+      "fullDescription": [
+        "ENGEL's official company profile identifies an Austrian manufacturer founded in 1945.",
+        "The documented portfolio includes hydraulic, hybrid and all-electric injection-moulding machines, robots, digital solutions and integrated production cells."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Промышленная автоматизация",
+        "Робототехника"
+      ],
+      "productFamilies": [
+        "Hydraulic Injection-Moulding Machines",
+        "Hybrid Injection-Moulding Machines",
+        "All-Electric Injection-Moulding Machines",
+        "Robots",
+        "Integrated Production Cells"
+      ],
+      "series": [
+        "t-win",
+        "victory",
+        "e-mac",
+        "duo",
+        "e-victory",
+        "e-win",
+        "e-motion"
+      ],
+      "industries": [
+        "Производство пластмасс",
+        "Автомобильная промышленность",
+        "Упаковочная промышленность",
+        "Медицинская промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.engelglobal.com/en/us/products/injection-molding-machines"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-engel-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_AND_INJECTION_MOULDING_SPECIALISATION",
+          "url": "https://www.engelglobal.com/en/gb/company/engel-injection-moulding",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-engel-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HYDRAULIC_HYBRID_ELECTRIC_MACHINE_AND_AUTOMATION_SCOPE",
+          "url": "https://www.engelglobal.com/en/us/products/injection-molding-machines",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"epe-italiana","officialName":"EPE Italiana S.r.l.","displayName":"EPE Italiana","aliases":["EPE ITALIANA","EPE"],"formerNames":[],"officialWebsite":"https://www.epeitaliana.it/en/","officialDomains":["epeitaliana.it"],"country":"Italy","headquarters":"Milan, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"EPE Italiana manufactures hydraulic accumulators, pulsation dampers and accessories for fluid-power systems.",
-      "fullDescription":["EPE Italiana's official site identifies an Italian hydraulic-component manufacturer.","Its documented range includes bladder, diaphragm and piston accumulators, pulsation dampers, safety blocks, charging and testing equipment, clamps and cooling accessories."],
-      "productCategories":["Гидравлическое оборудование","Гидроаккумуляторы","Теплообменное оборудование"],"productFamilies":["Bladder Accumulators","Diaphragm Accumulators","Piston Accumulators","Pulsation Dampers","Safety Blocks","Charging and Testing Equipment","Coolers"],"series":[],"industries":["Промышленное производство","Мобильная техника","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.epeitaliana.it/en/products/"],
-      "sources":[{"sourceId":"brand-epe-italiana-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_HYDRAULIC_ACCUMULATOR_SPECIALISATION","url":"https://www.epeitaliana.it/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-epe-italiana-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ACCUMULATOR_DAMPER_SAFETY_BLOCK_AND_ACCESSORY_SCOPE","url":"https://www.epeitaliana.it/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "epe-italiana",
+      "officialName": "EPE Italiana S.r.l.",
+      "displayName": "EPE Italiana",
+      "aliases": [
+        "EPE ITALIANA",
+        "EPE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.epeitaliana.it/en/",
+      "officialDomains": [
+        "epeitaliana.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Milan, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "EPE Italiana manufactures hydraulic accumulators, pulsation dampers and accessories for fluid-power systems.",
+      "fullDescription": [
+        "EPE Italiana's official site identifies an Italian hydraulic-component manufacturer.",
+        "Its documented range includes bladder, diaphragm and piston accumulators, pulsation dampers, safety blocks, charging and testing equipment, clamps and cooling accessories."
+      ],
+      "productCategories": [
+        "Гидравлическое оборудование",
+        "Гидроаккумуляторы",
+        "Теплообменное оборудование"
+      ],
+      "productFamilies": [
+        "Bladder Accumulators",
+        "Diaphragm Accumulators",
+        "Piston Accumulators",
+        "Pulsation Dampers",
+        "Safety Blocks",
+        "Charging and Testing Equipment",
+        "Coolers"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Мобильная техника",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.epeitaliana.it/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-epe-italiana-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_HYDRAULIC_ACCUMULATOR_SPECIALISATION",
+          "url": "https://www.epeitaliana.it/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-epe-italiana-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "ACCUMULATOR_DAMPER_SAFETY_BLOCK_AND_ACCESSORY_SCOPE",
+          "url": "https://www.epeitaliana.it/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"erema-engineering-recycling-maschinen-und-anlagen","officialName":"EREMA Engineering Recycling Maschinen und Anlagen Ges.m.b.H.","displayName":"EREMA","aliases":["EREMA","EREMA ENGINEERING RECYCLING MASCHINEN UND ANLAGEN"],"formerNames":[],"officialWebsite":"https://www.erema.com/en/","officialDomains":["erema.com"],"country":"Austria","headquarters":"Ansfelden, Austria","foundedYear":1983,"parentCompany":"EREMA Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"EREMA develops recycling systems and technologies for processing thermoplastic waste into reusable material.",
-      "fullDescription":["EREMA's official site documents an Austrian recycling-machinery manufacturer established in 1983.","The published portfolio covers plastics recycling machines, filtration systems, pelletising technologies and complete systems for post-consumer, in-house and bottle-recycling applications."],
-      "productCategories":["Оборудование для переработки материалов","Фильтрационное оборудование","Промышленные машины"],"productFamilies":["Plastics Recycling Systems","Melt Filtration Systems","Pelletising Systems","Post-Consumer Recycling Lines","In-House Recycling Systems","Bottle Recycling Systems"],"series":[],"industries":["Переработка пластмасс","Упаковочная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.erema.com/en/plastic_recycling_machines/"],
-      "sources":[{"sourceId":"brand-erema-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_AND_PLASTICS_RECYCLING_SPECIALISATION","url":"https://www.erema.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-erema-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RECYCLING_FILTRATION_PELLETISING_AND_APPLICATION_SCOPE","url":"https://www.erema.com/en/plastic_recycling_machines/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "erema-engineering-recycling-maschinen-und-anlagen",
+      "officialName": "EREMA Engineering Recycling Maschinen und Anlagen Ges.m.b.H.",
+      "displayName": "EREMA",
+      "aliases": [
+        "EREMA",
+        "EREMA ENGINEERING RECYCLING MASCHINEN UND ANLAGEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.erema.com/en/",
+      "officialDomains": [
+        "erema.com"
+      ],
+      "country": "Austria",
+      "headquarters": "Ansfelden, Austria",
+      "foundedYear": 1983,
+      "parentCompany": "EREMA Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "EREMA develops recycling systems and technologies for processing thermoplastic waste into reusable material.",
+      "fullDescription": [
+        "EREMA's official site documents an Austrian recycling-machinery manufacturer established in 1983.",
+        "The published portfolio covers plastics recycling machines, filtration systems, pelletising technologies and complete systems for post-consumer, in-house and bottle-recycling applications."
+      ],
+      "productCategories": [
+        "Оборудование для переработки материалов",
+        "Фильтрационное оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Plastics Recycling Systems",
+        "Melt Filtration Systems",
+        "Pelletising Systems",
+        "Post-Consumer Recycling Lines",
+        "In-House Recycling Systems",
+        "Bottle Recycling Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Переработка пластмасс",
+        "Упаковочная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.erema.com/en/plastic_recycling_machines/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-erema-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_AND_PLASTICS_RECYCLING_SPECIALISATION",
+          "url": "https://www.erema.com/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-erema-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RECYCLING_FILTRATION_PELLETISING_AND_APPLICATION_SCOPE",
+          "url": "https://www.erema.com/en/plastic_recycling_machines/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"erhard","officialName":"ERHARD GmbH & Co. KG","displayName":"ERHARD","aliases":["ERHARD"],"formerNames":[],"officialWebsite":"https://www.erhard.de/en/","officialDomains":["erhard.de"],"country":"Germany","headquarters":"Heidenheim an der Brenz, Germany","foundedYear":1871,"parentCompany":"TALIS Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"ERHARD manufactures valves and hydromechanical equipment for water supply, wastewater and industrial flow-control systems.",
-      "fullDescription":["ERHARD's official site documents a German valve manufacturer with origins in 1871 and current membership in the TALIS Group.","Its product range includes butterfly, gate, check and control valves, hydrants, air valves and equipment for water infrastructure and industrial applications."],
-      "productCategories":["Промышленные клапаны","Запорная арматура","Регулирующая арматура"],"productFamilies":["Butterfly Valves","Gate Valves","Check Valves","Control Valves","Hydrants","Air Valves"],"series":[],"industries":["Водоснабжение и водоотведение","Промышленное производство","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.erhard.de/en/products/"],
-      "sources":[{"sourceId":"brand-erhard-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_GROUP_AND_WATER_VALVE_SCOPE","url":"https://www.erhard.de/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-erhard-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BUTTERFLY_GATE_CHECK_CONTROL_HYDRANT_AND_AIR_VALVE_SCOPE","url":"https://www.erhard.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "erhard",
+      "officialName": "ERHARD GmbH & Co. KG",
+      "displayName": "ERHARD",
+      "aliases": [
+        "ERHARD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.erhard.de/en/",
+      "officialDomains": [
+        "erhard.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Heidenheim an der Brenz, Germany",
+      "foundedYear": 1871,
+      "parentCompany": "TALIS Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "ERHARD manufactures valves and hydromechanical equipment for water supply, wastewater and industrial flow-control systems.",
+      "fullDescription": [
+        "ERHARD's official site documents a German valve manufacturer with origins in 1871 and current membership in the TALIS Group.",
+        "Its product range includes butterfly, gate, check and control valves, hydrants, air valves and equipment for water infrastructure and industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Запорная арматура",
+        "Регулирующая арматура"
+      ],
+      "productFamilies": [
+        "Butterfly Valves",
+        "Gate Valves",
+        "Check Valves",
+        "Control Valves",
+        "Hydrants",
+        "Air Valves"
+      ],
+      "series": [],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Промышленное производство",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.erhard.de/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-erhard-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_GROUP_AND_WATER_VALVE_SCOPE",
+          "url": "https://www.erhard.de/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-erhard-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BUTTERFLY_GATE_CHECK_CONTROL_HYDRANT_AND_AIR_VALVE_SCOPE",
+          "url": "https://www.erhard.de/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"ericsson","officialName":"Telefonaktiebolaget LM Ericsson","displayName":"Ericsson","aliases":["ERICSSON","LM ERICSSON"],"formerNames":[],"officialWebsite":"https://www.ericsson.com/en","officialDomains":["ericsson.com"],"country":"Sweden","headquarters":"Stockholm, Sweden","foundedYear":1876,"parentCompany":null,
-      "shortDescription":"Ericsson develops telecommunications network equipment, software and services for mobile and fixed connectivity infrastructure.",
-      "fullDescription":["Ericsson's official corporate site identifies a Swedish communications-technology company founded in 1876.","Its portfolio covers radio-access networks, core networks, cloud and network-management software, enterprise wireless connectivity and related infrastructure services."],
-      "productCategories":["Инфраструктурные технологии","Телекоммуникационное оборудование","Программное обеспечение"],"productFamilies":["Radio Access Networks","Core Networks","Cloud Software and Services","Network Management","Enterprise Wireless Solutions"],"series":[],"industries":["Телекоммуникации","Промышленная автоматизация","Транспорт"],"officialCatalogs":[],"documentationSources":["https://www.ericsson.com/en/portfolio"],
-      "sources":[{"sourceId":"brand-ericsson-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_COMMUNICATIONS_TECHNOLOGY_SCOPE","url":"https://www.ericsson.com/en/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-ericsson-portfolio","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RADIO_CORE_CLOUD_NETWORK_AND_ENTERPRISE_CONNECTIVITY_SCOPE","url":"https://www.ericsson.com/en/portfolio","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "ericsson",
+      "officialName": "Telefonaktiebolaget LM Ericsson",
+      "displayName": "Ericsson",
+      "aliases": [
+        "ERICSSON",
+        "LM ERICSSON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ericsson.com/en",
+      "officialDomains": [
+        "ericsson.com"
+      ],
+      "country": "Sweden",
+      "headquarters": "Stockholm, Sweden",
+      "foundedYear": 1876,
+      "parentCompany": null,
+      "shortDescription": "Ericsson develops telecommunications network equipment, software and services for mobile and fixed connectivity infrastructure.",
+      "fullDescription": [
+        "Ericsson's official corporate site identifies a Swedish communications-technology company founded in 1876.",
+        "Its portfolio covers radio-access networks, core networks, cloud and network-management software, enterprise wireless connectivity and related infrastructure services."
+      ],
+      "productCategories": [
+        "Инфраструктурные технологии",
+        "Телекоммуникационное оборудование",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Radio Access Networks",
+        "Core Networks",
+        "Cloud Software and Services",
+        "Network Management",
+        "Enterprise Wireless Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Телекоммуникации",
+        "Промышленная автоматизация",
+        "Транспорт"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.ericsson.com/en/portfolio"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ericsson-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_COMMUNICATIONS_TECHNOLOGY_SCOPE",
+          "url": "https://www.ericsson.com/en/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-ericsson-portfolio",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RADIO_CORE_CLOUD_NETWORK_AND_ENTERPRISE_CONNECTIVITY_SCOPE",
+          "url": "https://www.ericsson.com/en/portfolio",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"eriez","officialName":"Eriez Manufacturing Co.","displayName":"Eriez","aliases":["ERIEZ"],"formerNames":[],"officialWebsite":"https://www.eriez.com/","officialDomains":["eriez.com"],"country":"United States","headquarters":"Erie, Pennsylvania, United States","foundedYear":1942,"parentCompany":null,
-      "shortDescription":"Eriez manufactures magnetic separation, metal detection, material-handling and flotation equipment for process industries.",
-      "fullDescription":["Eriez's manufacturer-owned site documents a US process-equipment company established in 1942.","The official portfolio includes magnetic separators, metal detectors, vibratory feeders and conveyors, lifting magnets, fluid-recycling equipment and flotation systems."],
-      "productCategories":["Сепарационное оборудование","Инспекционное оборудование","Конвейерное оборудование","Фильтрационное оборудование"],"productFamilies":["Magnetic Separators","Metal Detectors","Vibratory Feeders","Vibratory Conveyors","Lifting Magnets","Fluid Recycling Equipment","Flotation Systems"],"series":[],"industries":["Горнодобывающая промышленность","Пищевая промышленность","Переработка материалов","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.eriez.com/NA/EN/Products.htm"],
-      "sources":[{"sourceId":"brand-eriez-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_PROCESS_EQUIPMENT_SPECIALISATION","url":"https://www.eriez.com/NA/EN/About-Us.htm","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-eriez-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MAGNETIC_DETECTION_HANDLING_RECYCLING_AND_FLOTATION_SCOPE","url":"https://www.eriez.com/NA/EN/Products.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "eriez",
+      "officialName": "Eriez Manufacturing Co.",
+      "displayName": "Eriez",
+      "aliases": [
+        "ERIEZ"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.eriez.com/",
+      "officialDomains": [
+        "eriez.com"
+      ],
+      "country": "United States",
+      "headquarters": "Erie, Pennsylvania, United States",
+      "foundedYear": 1942,
+      "parentCompany": null,
+      "shortDescription": "Eriez manufactures magnetic separation, metal detection, material-handling and flotation equipment for process industries.",
+      "fullDescription": [
+        "Eriez's manufacturer-owned site documents a US process-equipment company established in 1942.",
+        "The official portfolio includes magnetic separators, metal detectors, vibratory feeders and conveyors, lifting magnets, fluid-recycling equipment and flotation systems."
+      ],
+      "productCategories": [
+        "Сепарационное оборудование",
+        "Инспекционное оборудование",
+        "Конвейерное оборудование",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Magnetic Separators",
+        "Metal Detectors",
+        "Vibratory Feeders",
+        "Vibratory Conveyors",
+        "Lifting Magnets",
+        "Fluid Recycling Equipment",
+        "Flotation Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Пищевая промышленность",
+        "Переработка материалов",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.eriez.com/NA/EN/Products.htm"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-eriez-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_PROCESS_EQUIPMENT_SPECIALISATION",
+          "url": "https://www.eriez.com/NA/EN/About-Us.htm",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-eriez-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MAGNETIC_DETECTION_HANDLING_RECYCLING_AND_FLOTATION_SCOPE",
+          "url": "https://www.eriez.com/NA/EN/Products.htm",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"esab","officialName":"ESAB Corporation","displayName":"ESAB","aliases":["ESAB","ESAB CORPORATION"],"formerNames":[],"officialWebsite":"https://esab.com/","officialDomains":["esab.com"],"country":null,"headquarters":null,"foundedYear":1904,"parentCompany":null,
-      "shortDescription":"ESAB develops welding and cutting equipment, consumables, automation and gas-control products for fabrication operations.",
-      "fullDescription":["ESAB's official corporate and product sites document a welding and cutting technology company whose history began in 1904.","The published portfolio includes welding machines and consumables, plasma and oxy-fuel cutting systems, automation, digital fabrication tools and gas-control equipment."],
-      "productCategories":["Сварочное оборудование","Оборудование для резки","Промышленная автоматизация"],"productFamilies":["Welding Equipment","Welding Consumables","Plasma Cutting Systems","Oxy-Fuel Cutting Systems","Welding Automation","Gas Control Equipment"],"series":[],"industries":["Металлообработка","Судостроение","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://esab.com/us/nam_en/products-solutions/"],
-      "sources":[{"sourceId":"brand-esab-company","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_HISTORY_AND_FABRICATION_TECHNOLOGY_SCOPE","url":"https://investors.esabcorporation.com/company-information","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-esab-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"WELDING_CUTTING_AUTOMATION_CONSUMABLE_AND_GAS_CONTROL_SCOPE","url":"https://esab.com/us/nam_en/products-solutions/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "esab",
+      "officialName": "ESAB Corporation",
+      "displayName": "ESAB",
+      "aliases": [
+        "ESAB",
+        "ESAB CORPORATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://esab.com/",
+      "officialDomains": [
+        "esab.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": 1904,
+      "parentCompany": null,
+      "shortDescription": "ESAB develops welding and cutting equipment, consumables, automation and gas-control products for fabrication operations.",
+      "fullDescription": [
+        "ESAB's official corporate and product sites document a welding and cutting technology company whose history began in 1904.",
+        "The published portfolio includes welding machines and consumables, plasma and oxy-fuel cutting systems, automation, digital fabrication tools and gas-control equipment."
+      ],
+      "productCategories": [
+        "Сварочное оборудование",
+        "Оборудование для резки",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Welding Equipment",
+        "Welding Consumables",
+        "Plasma Cutting Systems",
+        "Oxy-Fuel Cutting Systems",
+        "Welding Automation",
+        "Gas Control Equipment"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Судостроение",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://esab.com/us/nam_en/products-solutions/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-esab-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_IDENTITY_HISTORY_AND_FABRICATION_TECHNOLOGY_SCOPE",
+          "url": "https://investors.esabcorporation.com/company-information",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-esab-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "WELDING_CUTTING_AUTOMATION_CONSUMABLE_AND_GAS_CONTROL_SCOPE",
+          "url": "https://esab.com/us/nam_en/products-solutions/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"esbe","officialName":"ESBE AB","displayName":"ESBE","aliases":["ESBE"],"formerNames":[],"officialWebsite":"https://esbe.eu/group","officialDomains":["esbe.eu"],"country":"Sweden","headquarters":"Reftele, Sweden","foundedYear":1906,"parentCompany":null,
-      "shortDescription":"ESBE develops valves, actuators and controllers for hydronic heating, cooling and domestic hot-water systems.",
-      "fullDescription":["ESBE's official group site identifies a Swedish manufacturer founded in 1906.","Its documented range includes rotary and linear valves, thermostatic mixing valves, actuators, circulation products and electronic controllers for hydronic systems."],
-      "productCategories":["Промышленные клапаны","Регулирующая арматура","Промышленная автоматизация","Теплообменное оборудование"],"productFamilies":["Rotary Valves","Linear Valves","Thermostatic Mixing Valves","Actuators","Circulation Units","Controllers"],"series":[],"industries":["HVAC и здания","Отопление и охлаждение","Водоснабжение"],"officialCatalogs":[],"documentationSources":["https://esbe.eu/group/products"],
-      "sources":[{"sourceId":"brand-esbe-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_HYDRONIC_CONTROL_SPECIALISATION","url":"https://esbe.eu/group/about-esbe","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-esbe-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VALVE_ACTUATOR_CIRCULATION_AND_CONTROLLER_SCOPE","url":"https://esbe.eu/group/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "esbe",
+      "officialName": "ESBE AB",
+      "displayName": "ESBE",
+      "aliases": [
+        "ESBE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://esbe.eu/group",
+      "officialDomains": [
+        "esbe.eu"
+      ],
+      "country": "Sweden",
+      "headquarters": "Reftele, Sweden",
+      "foundedYear": 1906,
+      "parentCompany": null,
+      "shortDescription": "ESBE develops valves, actuators and controllers for hydronic heating, cooling and domestic hot-water systems.",
+      "fullDescription": [
+        "ESBE's official group site identifies a Swedish manufacturer founded in 1906.",
+        "Its documented range includes rotary and linear valves, thermostatic mixing valves, actuators, circulation products and electronic controllers for hydronic systems."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Регулирующая арматура",
+        "Промышленная автоматизация",
+        "Теплообменное оборудование"
+      ],
+      "productFamilies": [
+        "Rotary Valves",
+        "Linear Valves",
+        "Thermostatic Mixing Valves",
+        "Actuators",
+        "Circulation Units",
+        "Controllers"
+      ],
+      "series": [],
+      "industries": [
+        "HVAC и здания",
+        "Отопление и охлаждение",
+        "Водоснабжение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://esbe.eu/group/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-esbe-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_HYDRONIC_CONTROL_SPECIALISATION",
+          "url": "https://esbe.eu/group/about-esbe",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-esbe-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "VALVE_ACTUATOR_CIRCULATION_AND_CONTROLLER_SCOPE",
+          "url": "https://esbe.eu/group/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"esbelt","officialName":"Esbelt S.A.U.","displayName":"Esbelt","aliases":["ESBELT"],"formerNames":[],"officialWebsite":"https://www.esbelt.com/en/","officialDomains":["esbelt.com"],"country":"Spain","headquarters":"Manlleu, Barcelona, Spain","foundedYear":1970,"parentCompany":null,
-      "shortDescription":"Esbelt manufactures thermoplastic conveyor and process belts for food processing and other industrial conveying applications.",
-      "fullDescription":["Esbelt's official site documents a Spanish conveyor-belt manufacturer established in 1970.","The published range includes polyurethane, PVC, polyester and silicone belts, profiles and accessories for food, logistics, agriculture and general industrial processing."],
-      "productCategories":["Промышленные ремни","Конвейерное оборудование"],"productFamilies":["Polyurethane Conveyor Belts","PVC Conveyor Belts","Polyester Belts","Silicone Belts","Profiles and Accessories"],"series":[],"industries":["Пищевая промышленность","Сельское хозяйство","Складская логистика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.esbelt.com/en/products/"],
-      "sources":[{"sourceId":"brand-esbelt-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_CONVEYOR_BELT_SPECIALISATION","url":"https://www.esbelt.com/en/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-esbelt-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"THERMOPLASTIC_BELT_MATERIAL_AND_ACCESSORY_SCOPE","url":"https://www.esbelt.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "esbelt",
+      "officialName": "Esbelt S.A.U.",
+      "displayName": "Esbelt",
+      "aliases": [
+        "ESBELT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.esbelt.com/en/",
+      "officialDomains": [
+        "esbelt.com"
+      ],
+      "country": "Spain",
+      "headquarters": "Manlleu, Barcelona, Spain",
+      "foundedYear": 1970,
+      "parentCompany": null,
+      "shortDescription": "Esbelt manufactures thermoplastic conveyor and process belts for food processing and other industrial conveying applications.",
+      "fullDescription": [
+        "Esbelt's official site documents a Spanish conveyor-belt manufacturer established in 1970.",
+        "The published range includes polyurethane, PVC, polyester and silicone belts, profiles and accessories for food, logistics, agriculture and general industrial processing."
+      ],
+      "productCategories": [
+        "Промышленные ремни",
+        "Конвейерное оборудование"
+      ],
+      "productFamilies": [
+        "Polyurethane Conveyor Belts",
+        "PVC Conveyor Belts",
+        "Polyester Belts",
+        "Silicone Belts",
+        "Profiles and Accessories"
+      ],
+      "series": [],
+      "industries": [
+        "Пищевая промышленность",
+        "Сельское хозяйство",
+        "Складская логистика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.esbelt.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-esbelt-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_CONVEYOR_BELT_SPECIALISATION",
+          "url": "https://www.esbelt.com/en/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-esbelt-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "THERMOPLASTIC_BELT_MATERIAL_AND_ACCESSORY_SCOPE",
+          "url": "https://www.esbelt.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"esr-pollmeier-gmbh","officialName":"ESR Pollmeier GmbH","displayName":"ESR Pollmeier","aliases":["ESR POLLMEIER","ESR POLLMEIER GMBH"],"formerNames":[],"officialWebsite":"https://www.esr-pollmeier.de/en/","officialDomains":["esr-pollmeier.de"],"country":"Germany","headquarters":"Ober-Ramstadt, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"ESR Pollmeier develops servo drives, motion controllers and electric drive systems for industrial machinery.",
-      "fullDescription":["ESR Pollmeier's official site identifies a German motion-control and drive-technology company.","Its documented portfolio includes servo amplifiers, multi-axis drive systems, motion controllers, servo motors and application-specific drive solutions."],
-      "productCategories":["Системы управления движением","Промышленные электродвигатели","Промышленная автоматизация"],"productFamilies":["Servo Amplifiers","Multi-Axis Drive Systems","Motion Controllers","Servo Motors","Application-Specific Drives"],"series":[],"industries":["Промышленная автоматизация","Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.esr-pollmeier.de/en/products/"],
-      "sources":[{"sourceId":"brand-esr-pollmeier-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_MOTION_CONTROL_SPECIALISATION","url":"https://www.esr-pollmeier.de/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-esr-pollmeier-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SERVO_DRIVE_CONTROLLER_MOTOR_AND_SYSTEM_SCOPE","url":"https://www.esr-pollmeier.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "esr-pollmeier-gmbh",
+      "officialName": "ESR Pollmeier GmbH",
+      "displayName": "ESR Pollmeier",
+      "aliases": [
+        "ESR POLLMEIER",
+        "ESR POLLMEIER GMBH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.esr-pollmeier.de/en/",
+      "officialDomains": [
+        "esr-pollmeier.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Ober-Ramstadt, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ESR Pollmeier develops servo drives, motion controllers and electric drive systems for industrial machinery.",
+      "fullDescription": [
+        "ESR Pollmeier's official site identifies a German motion-control and drive-technology company.",
+        "Its documented portfolio includes servo amplifiers, multi-axis drive systems, motion controllers, servo motors and application-specific drive solutions."
+      ],
+      "productCategories": [
+        "Системы управления движением",
+        "Промышленные электродвигатели",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Servo Amplifiers",
+        "Multi-Axis Drive Systems",
+        "Motion Controllers",
+        "Servo Motors",
+        "Application-Specific Drives"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.esr-pollmeier.de/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-esr-pollmeier-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_MOTION_CONTROL_SPECIALISATION",
+          "url": "https://www.esr-pollmeier.de/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-esr-pollmeier-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SERVO_DRIVE_CONTROLLER_MOTOR_AND_SYSTEM_SCOPE",
+          "url": "https://www.esr-pollmeier.de/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"esser","officialName":"ESSER by Honeywell","displayName":"ESSER","aliases":["ESSER","ESSER BY HONEYWELL"],"formerNames":[],"officialWebsite":"https://www.esser-systems.com/en/","officialDomains":["esser-systems.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Honeywell International Inc.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"ESSER is a Honeywell brand for fire-detection, alarm, voice-evacuation and safety-management systems.",
-      "fullDescription":["Honeywell's official ESSER site documents a current fire-safety systems brand.","The published range includes fire-alarm control panels, detectors, manual call points, input/output modules, alarm devices, voice-alarm systems and management software."],
-      "productCategories":["Средства промышленной безопасности","Промышленная автоматизация","Программное обеспечение"],"productFamilies":["Fire Alarm Control Panels","Automatic Fire Detectors","Manual Call Points","Input and Output Modules","Alarm Devices","Voice Alarm Systems","Management Systems"],"series":[],"industries":["HVAC и здания","Промышленное производство","Инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.esser-systems.com/en/products/fire-systems/"],
-      "sources":[{"sourceId":"brand-esser-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_FIRE_SYSTEM_SCOPE","url":"https://www.esser-systems.com/en/products/fire-systems/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-esser-alarm-devices","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ALARM_DEVICE_AND_FIRE_SAFETY_PRODUCT_SCOPE","url":"https://www.esser-systems.com/en/products/list/alarm-devices-2/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "esser",
+      "officialName": "ESSER by Honeywell",
+      "displayName": "ESSER",
+      "aliases": [
+        "ESSER",
+        "ESSER BY HONEYWELL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.esser-systems.com/en/",
+      "officialDomains": [
+        "esser-systems.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Honeywell International Inc.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "ESSER is a Honeywell brand for fire-detection, alarm, voice-evacuation and safety-management systems.",
+      "fullDescription": [
+        "Honeywell's official ESSER site documents a current fire-safety systems brand.",
+        "The published range includes fire-alarm control panels, detectors, manual call points, input/output modules, alarm devices, voice-alarm systems and management software."
+      ],
+      "productCategories": [
+        "Средства промышленной безопасности",
+        "Промышленная автоматизация",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Fire Alarm Control Panels",
+        "Automatic Fire Detectors",
+        "Manual Call Points",
+        "Input and Output Modules",
+        "Alarm Devices",
+        "Voice Alarm Systems",
+        "Management Systems"
+      ],
+      "series": [],
+      "industries": [
+        "HVAC и здания",
+        "Промышленное производство",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.esser-systems.com/en/products/fire-systems/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-esser-products",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_FIRE_SYSTEM_SCOPE",
+          "url": "https://www.esser-systems.com/en/products/fire-systems/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-esser-alarm-devices",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "ALARM_DEVICE_AND_FIRE_SAFETY_PRODUCT_SCOPE",
+          "url": "https://www.esser-systems.com/en/products/list/alarm-devices-2/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"esta","officialName":"ESTA Apparatebau GmbH & Co. KG","displayName":"ESTA","aliases":["ESTA","ESTA APPARATEBAU"],"formerNames":[],"officialWebsite":"https://www.esta.com/en/","officialDomains":["esta.com"],"country":"Germany","headquarters":"Senden, Germany","foundedYear":1972,"parentCompany":null,
-      "shortDescription":"ESTA manufactures extraction and filtration systems for dust, welding fumes, chips and industrial process emissions.",
-      "fullDescription":["ESTA's official site documents a German extraction-technology manufacturer founded in 1972.","Its product range covers dust extractors, welding-fume extraction, stationary filtration systems, industrial vacuum cleaners, oil-mist separators and extraction tables."],
-      "productCategories":["Фильтрационное оборудование","Промышленное вентиляционное оборудование","Промышленные машины"],"productFamilies":["Dust Extractors","Welding-Fume Extractors","Stationary Extraction Systems","Industrial Vacuum Cleaners","Oil-Mist Separators","Extraction Tables"],"series":[],"industries":["Металлообработка","Промышленное производство","Деревообрабатывающая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.esta.com/en/products/"],
-      "sources":[{"sourceId":"brand-esta-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_EXTRACTION_SPECIALISATION","url":"https://www.esta.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-esta-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DUST_FUME_VACUUM_MIST_AND_EXTRACTION_TABLE_SCOPE","url":"https://www.esta.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "esta",
+      "officialName": "ESTA Apparatebau GmbH & Co. KG",
+      "displayName": "ESTA",
+      "aliases": [
+        "ESTA",
+        "ESTA APPARATEBAU"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.esta.com/en/",
+      "officialDomains": [
+        "esta.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Senden, Germany",
+      "foundedYear": 1972,
+      "parentCompany": null,
+      "shortDescription": "ESTA manufactures extraction and filtration systems for dust, welding fumes, chips and industrial process emissions.",
+      "fullDescription": [
+        "ESTA's official site documents a German extraction-technology manufacturer founded in 1972.",
+        "Its product range covers dust extractors, welding-fume extraction, stationary filtration systems, industrial vacuum cleaners, oil-mist separators and extraction tables."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Промышленное вентиляционное оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Dust Extractors",
+        "Welding-Fume Extractors",
+        "Stationary Extraction Systems",
+        "Industrial Vacuum Cleaners",
+        "Oil-Mist Separators",
+        "Extraction Tables"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Промышленное производство",
+        "Деревообрабатывающая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.esta.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-esta-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_EXTRACTION_SPECIALISATION",
+          "url": "https://www.esta.com/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-esta-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "DUST_FUME_VACUUM_MIST_AND_EXTRACTION_TABLE_SCOPE",
+          "url": "https://www.esta.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"etel","officialName":"ETEL S.A.","displayName":"ETEL","aliases":["ETEL"],"formerNames":[],"officialWebsite":"https://www.etel.ch/","officialDomains":["etel.ch"],"country":"Switzerland","headquarters":"Môtiers, Switzerland","foundedYear":1974,"parentCompany":"HEIDENHAIN Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"ETEL develops direct-drive motors, motion systems and precision controllers for advanced industrial machinery.",
-      "fullDescription":["ETEL's official site identifies a Swiss motion-technology company within the HEIDENHAIN Group.","Its documented portfolio includes linear and torque motors, direct-drive stages, motion controllers, position-control electronics and integrated motion systems."],
-      "productCategories":["Системы управления движением","Промышленные электродвигатели","Промышленная автоматизация"],"productFamilies":["Linear Motors","Torque Motors","Direct-Drive Stages","Motion Controllers","Integrated Motion Systems"],"series":[],"industries":["Полупроводниковая промышленность","Машиностроение","Промышленная автоматизация"],"officialCatalogs":[],"documentationSources":["https://www.etel.ch/products/"],
-      "sources":[{"sourceId":"brand-etel-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_DIRECT_DRIVE_SPECIALISATION","url":"https://www.etel.ch/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-etel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LINEAR_TORQUE_STAGE_CONTROLLER_AND_MOTION_SYSTEM_SCOPE","url":"https://www.etel.ch/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "etel",
+      "officialName": "ETEL S.A.",
+      "displayName": "ETEL",
+      "aliases": [
+        "ETEL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.etel.ch/",
+      "officialDomains": [
+        "etel.ch"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Môtiers, Switzerland",
+      "foundedYear": 1974,
+      "parentCompany": "HEIDENHAIN Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "ETEL develops direct-drive motors, motion systems and precision controllers for advanced industrial machinery.",
+      "fullDescription": [
+        "ETEL's official site identifies a Swiss motion-technology company within the HEIDENHAIN Group.",
+        "Its documented portfolio includes linear and torque motors, direct-drive stages, motion controllers, position-control electronics and integrated motion systems."
+      ],
+      "productCategories": [
+        "Системы управления движением",
+        "Промышленные электродвигатели",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Linear Motors",
+        "Torque Motors",
+        "Direct-Drive Stages",
+        "Motion Controllers",
+        "Integrated Motion Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Полупроводниковая промышленность",
+        "Машиностроение",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.etel.ch/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-etel-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_DIRECT_DRIVE_SPECIALISATION",
+          "url": "https://www.etel.ch/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-etel-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LINEAR_TORQUE_STAGE_CONTROLLER_AND_MOTION_SYSTEM_SCOPE",
+          "url": "https://www.etel.ch/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"eti","officialName":"ETI Elektroelement d.o.o.","displayName":"ETI","aliases":["ETI","ETI ELEKTROELEMENT"],"formerNames":[],"officialWebsite":"https://www.eti.si/","officialDomains":["eti.si"],"country":"Slovenia","headquarters":"Izlake, Slovenia","foundedYear":1950,"parentCompany":null,
-      "shortDescription":"ETI manufactures electrical protection and distribution equipment for industrial, building and energy applications.",
-      "fullDescription":["ETI's official site documents a Slovenian electrotechnical manufacturer established in 1950.","The published portfolio includes fuses, circuit breakers, residual-current devices, switches, surge-protection devices, contactors and distribution products."],
-      "productCategories":["Электротехническое оборудование","Средства промышленной безопасности","Промышленные реле"],"productFamilies":["Fuses","Circuit Breakers","Residual-Current Devices","Switches","Surge-Protection Devices","Contactors","Distribution Boards"],"series":[],"industries":["Энергетика","HVAC и здания","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.eti.si/products-services"],
-      "sources":[{"sourceId":"brand-eti-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_ELECTRICAL_PROTECTION_SPECIALISATION","url":"https://www.eti.si/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-eti-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FUSE_BREAKER_SWITCH_PROTECTION_AND_DISTRIBUTION_SCOPE","url":"https://www.eti.si/products-services","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "eti",
+      "officialName": "ETI Elektroelement d.o.o.",
+      "displayName": "ETI",
+      "aliases": [
+        "ETI",
+        "ETI ELEKTROELEMENT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.eti.si/",
+      "officialDomains": [
+        "eti.si"
+      ],
+      "country": "Slovenia",
+      "headquarters": "Izlake, Slovenia",
+      "foundedYear": 1950,
+      "parentCompany": null,
+      "shortDescription": "ETI manufactures electrical protection and distribution equipment for industrial, building and energy applications.",
+      "fullDescription": [
+        "ETI's official site documents a Slovenian electrotechnical manufacturer established in 1950.",
+        "The published portfolio includes fuses, circuit breakers, residual-current devices, switches, surge-protection devices, contactors and distribution products."
+      ],
+      "productCategories": [
+        "Электротехническое оборудование",
+        "Средства промышленной безопасности",
+        "Промышленные реле"
+      ],
+      "productFamilies": [
+        "Fuses",
+        "Circuit Breakers",
+        "Residual-Current Devices",
+        "Switches",
+        "Surge-Protection Devices",
+        "Contactors",
+        "Distribution Boards"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "HVAC и здания",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.eti.si/products-services"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-eti-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_ELECTRICAL_PROTECTION_SPECIALISATION",
+          "url": "https://www.eti.si/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-eti-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FUSE_BREAKER_SWITCH_PROTECTION_AND_DISTRIBUTION_SCOPE",
+          "url": "https://www.eti.si/products-services",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"etipack","officialName":"Etipack S.p.A.","displayName":"Etipack","aliases":["ETIPACK"],"formerNames":[],"officialWebsite":"https://www.etipack.it/en/","officialDomains":["etipack.it"],"country":"Italy","headquarters":"Cinisello Balsamo, Milan, Italy","foundedYear":1978,"parentCompany":null,
-      "shortDescription":"Etipack manufactures labelling, coding, feeding and handling systems for packaging and production lines.",
-      "fullDescription":["Etipack's official site documents an Italian packaging-equipment manufacturer founded in 1978.","Its range includes automatic labelling machines, print-and-apply systems, friction feeders, pick-and-place devices, pharmaceutical track-and-trace equipment and integrated systems."],
-      "productCategories":["Этикетировочное оборудование","Промышленная автоматизация","Инспекционное оборудование"],"productFamilies":["Automatic Labelling Machines","Print-and-Apply Systems","Friction Feeders","Pick-and-Place Systems","Track-and-Trace Systems","Integrated Labelling Lines"],"series":[],"industries":["Упаковочная промышленность","Фармацевтическая промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.etipack.it/en/products/"],
-      "sources":[{"sourceId":"brand-etipack-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_LABELLING_SPECIALISATION","url":"https://www.etipack.it/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-etipack-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LABELLING_PRINT_APPLY_FEEDING_HANDLING_AND_TRACEABILITY_SCOPE","url":"https://www.etipack.it/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "etipack",
+      "officialName": "Etipack S.p.A.",
+      "displayName": "Etipack",
+      "aliases": [
+        "ETIPACK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.etipack.it/en/",
+      "officialDomains": [
+        "etipack.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Cinisello Balsamo, Milan, Italy",
+      "foundedYear": 1978,
+      "parentCompany": null,
+      "shortDescription": "Etipack manufactures labelling, coding, feeding and handling systems for packaging and production lines.",
+      "fullDescription": [
+        "Etipack's official site documents an Italian packaging-equipment manufacturer founded in 1978.",
+        "Its range includes automatic labelling machines, print-and-apply systems, friction feeders, pick-and-place devices, pharmaceutical track-and-trace equipment and integrated systems."
+      ],
+      "productCategories": [
+        "Этикетировочное оборудование",
+        "Промышленная автоматизация",
+        "Инспекционное оборудование"
+      ],
+      "productFamilies": [
+        "Automatic Labelling Machines",
+        "Print-and-Apply Systems",
+        "Friction Feeders",
+        "Pick-and-Place Systems",
+        "Track-and-Trace Systems",
+        "Integrated Labelling Lines"
+      ],
+      "series": [],
+      "industries": [
+        "Упаковочная промышленность",
+        "Фармацевтическая промышленность",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.etipack.it/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-etipack-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_LABELLING_SPECIALISATION",
+          "url": "https://www.etipack.it/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-etipack-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LABELLING_PRINT_APPLY_FEEDING_HANDLING_AND_TRACEABILITY_SCOPE",
+          "url": "https://www.etipack.it/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"etp","officialName":"ETP Transmission AB","displayName":"ETP","aliases":["ETP","ETP TRANSMISSION"],"formerNames":[],"officialWebsite":"https://www.etp.se/en/","officialDomains":["etp.se"],"country":"Sweden","headquarters":"Linköping, Sweden","foundedYear":null,"parentCompany":null,
-      "shortDescription":"ETP Transmission manufactures hydraulic and hydromechanical hub-shaft connections and precision workholding products.",
-      "fullDescription":["ETP Transmission's official site identifies a Swedish manufacturer of shaft-locking and precision-clamping systems.","The documented range includes hydraulic hub-shaft connections, mechanical locking assemblies, quick-change workholding sleeves and precision holders for industrial drives and machining."],
-      "productCategories":["Механические передачи","Зажимные втулки","Промышленные инструменты"],"productFamilies":["Hydraulic Hub-Shaft Connections","Mechanical Locking Assemblies","Hydraulic Workholding Sleeves","Precision Toolholders"],"series":["ETP-EXPRESS","ETP-CLASSIC","ETP-TECHNO","ETP-POWER","ETP-HYDRO-GRIP"],"industries":["Машиностроение","Металлообработка","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.etp.se/en/catalog/node/hub-shaft-connections"],
-      "sources":[{"sourceId":"brand-etp-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_HUB_SHAFT_CONNECTION_SPECIALISATION","url":"https://www.etp.se/en/about-etp","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-etp-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_AND_MECHANICAL_HUB_SHAFT_CONNECTION_SCOPE","url":"https://www.etp.se/en/catalog/node/hub-shaft-connections","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "etp",
+      "officialName": "ETP Transmission AB",
+      "displayName": "ETP",
+      "aliases": [
+        "ETP",
+        "ETP TRANSMISSION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.etp.se/en/",
+      "officialDomains": [
+        "etp.se"
+      ],
+      "country": "Sweden",
+      "headquarters": "Linköping, Sweden",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ETP Transmission manufactures hydraulic and hydromechanical hub-shaft connections and precision workholding products.",
+      "fullDescription": [
+        "ETP Transmission's official site identifies a Swedish manufacturer of shaft-locking and precision-clamping systems.",
+        "The documented range includes hydraulic hub-shaft connections, mechanical locking assemblies, quick-change workholding sleeves and precision holders for industrial drives and machining."
+      ],
+      "productCategories": [
+        "Механические передачи",
+        "Зажимные втулки",
+        "Промышленные инструменты"
+      ],
+      "productFamilies": [
+        "Hydraulic Hub-Shaft Connections",
+        "Mechanical Locking Assemblies",
+        "Hydraulic Workholding Sleeves",
+        "Precision Toolholders"
+      ],
+      "series": [
+        "ETP-EXPRESS",
+        "ETP-CLASSIC",
+        "ETP-TECHNO",
+        "ETP-POWER",
+        "ETP-HYDRO-GRIP"
+      ],
+      "industries": [
+        "Машиностроение",
+        "Металлообработка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.etp.se/en/catalog/node/hub-shaft-connections"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-etp-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_HUB_SHAFT_CONNECTION_SPECIALISATION",
+          "url": "https://www.etp.se/en/about-etp",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-etp-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HYDRAULIC_AND_MECHANICAL_HUB_SHAFT_CONNECTION_SCOPE",
+          "url": "https://www.etp.se/en/catalog/node/hub-shaft-connections",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"euronorm","officialName":"JIE-Euronorm B.V.","displayName":"Euronorm","aliases":["EURONORM","JIE-EURONORM","JIE EURONORM"],"formerNames":["Euronorm Drive Systems"],"officialWebsite":"https://www.jie-euronorm.com/","officialDomains":["jie-euronorm.com","euronormdrives.com","euronormportal.com"],"country":"Netherlands","headquarters":"Sassenheim, Netherlands","foundedYear":null,"parentCompany":"JIE Group","statusModifier":"RENAMED_GROUP_COMPANY",
-      "shortDescription":"Euronorm, now operating as JIE-Euronorm, supplies gear units, geared motors and electric motors for industrial drive systems.",
-      "fullDescription":["JIE-Euronorm's official site and the legacy Euronorm domain establish continuity of the Dutch drive-technology business.","The current portfolio covers worm, helical, bevel-helical, hypoid and planetary gear units, stainless drive systems, geared motors and electric motors."],
-      "productCategories":["Промышленные редукторы","Мотор-редукторы","Промышленные электродвигатели"],"productFamilies":["Worm Gear Units","Helical Gear Units","Bevel-Helical Gear Units","Hypoid Gear Units","Planetary Gear Units","Stainless Drive Systems","Electric Motors"],"series":[],"industries":["Промышленное производство","Пищевая промышленность","Складская логистика"],"officialCatalogs":[],"documentationSources":["https://www.jie-euronorm.com/products/"],
-      "sources":[{"sourceId":"brand-euronorm-legacy-redirect","tier":"A","type":"OFFICIAL_DOMAIN_CONTINUITY","scope":"LEGACY_EURONORM_TO_CURRENT_JIE_EURONORM_IDENTITY","url":"https://www.euronormdrives.com/productos/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-euronorm-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GEAR_UNIT_GEARED_MOTOR_AND_ELECTRIC_MOTOR_SCOPE","url":"https://www.jie-euronorm.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "euronorm",
+      "officialName": "JIE-Euronorm B.V.",
+      "displayName": "Euronorm",
+      "aliases": [
+        "EURONORM",
+        "JIE-EURONORM",
+        "JIE EURONORM"
+      ],
+      "formerNames": [
+        "Euronorm Drive Systems"
+      ],
+      "officialWebsite": "https://www.jie-euronorm.com/",
+      "officialDomains": [
+        "jie-euronorm.com",
+        "euronormdrives.com",
+        "euronormportal.com"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Sassenheim, Netherlands",
+      "foundedYear": null,
+      "parentCompany": "JIE Group",
+      "statusModifier": "RENAMED_GROUP_COMPANY",
+      "shortDescription": "Euronorm, now operating as JIE-Euronorm, supplies gear units, geared motors and electric motors for industrial drive systems.",
+      "fullDescription": [
+        "JIE-Euronorm's official site and the legacy Euronorm domain establish continuity of the Dutch drive-technology business.",
+        "The current portfolio covers worm, helical, bevel-helical, hypoid and planetary gear units, stainless drive systems, geared motors and electric motors."
+      ],
+      "productCategories": [
+        "Промышленные редукторы",
+        "Мотор-редукторы",
+        "Промышленные электродвигатели"
+      ],
+      "productFamilies": [
+        "Worm Gear Units",
+        "Helical Gear Units",
+        "Bevel-Helical Gear Units",
+        "Hypoid Gear Units",
+        "Planetary Gear Units",
+        "Stainless Drive Systems",
+        "Electric Motors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Складская логистика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.jie-euronorm.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-euronorm-legacy-redirect",
+          "tier": "A",
+          "type": "OFFICIAL_DOMAIN_CONTINUITY",
+          "scope": "LEGACY_EURONORM_TO_CURRENT_JIE_EURONORM_IDENTITY",
+          "url": "https://www.euronormdrives.com/productos/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-euronorm-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "GEAR_UNIT_GEARED_MOTOR_AND_ELECTRIC_MOTOR_SCOPE",
+          "url": "https://www.jie-euronorm.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"euroventilatori","officialName":"Euroventilatori International S.r.l.","displayName":"Euroventilatori","aliases":["EUROVENTILATORI","EUROVENTILATORI INTERNATIONAL"],"formerNames":[],"officialWebsite":"https://euroventilatori.com/en/","officialDomains":["euroventilatori.com"],"country":"Italy","headquarters":null,"foundedYear":1981,"parentCompany":null,
-      "shortDescription":"Euroventilatori manufactures axial and centrifugal fans for industrial ventilation and process-air applications.",
-      "fullDescription":["Euroventilatori's official site identifies an Italian industrial-fan manufacturer established in 1981.","Its product range includes axial, forward-curved and backward-curved centrifugal fans, roof fans, special executions and motors for standard and ATEX environments."],
-      "productCategories":["Промышленные вентиляторы","Вентиляционное оборудование","Промышленные электродвигатели"],"productFamilies":["Axial Fans","Forward-Curved Centrifugal Fans","Backward-Curved Centrifugal Fans","Roof Fans","Special Fans","ATEX Motors"],"series":[],"industries":["Промышленное производство","HVAC и здания","Химическая промышленность"],"officialCatalogs":[],"documentationSources":["https://euroventilatori.com/en/products"],
-      "sources":[{"sourceId":"brand-euroventilatori-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_FAN_SPECIALISATION","url":"https://euroventilatori.com/en/euroventilatori","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-euroventilatori-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AXIAL_CENTRIFUGAL_ROOF_SPECIAL_AND_ATEX_SCOPE","url":"https://euroventilatori.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "euroventilatori",
+      "officialName": "Euroventilatori International S.r.l.",
+      "displayName": "Euroventilatori",
+      "aliases": [
+        "EUROVENTILATORI",
+        "EUROVENTILATORI INTERNATIONAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://euroventilatori.com/en/",
+      "officialDomains": [
+        "euroventilatori.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": 1981,
+      "parentCompany": null,
+      "shortDescription": "Euroventilatori manufactures axial and centrifugal fans for industrial ventilation and process-air applications.",
+      "fullDescription": [
+        "Euroventilatori's official site identifies an Italian industrial-fan manufacturer established in 1981.",
+        "Its product range includes axial, forward-curved and backward-curved centrifugal fans, roof fans, special executions and motors for standard and ATEX environments."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Вентиляционное оборудование",
+        "Промышленные электродвигатели"
+      ],
+      "productFamilies": [
+        "Axial Fans",
+        "Forward-Curved Centrifugal Fans",
+        "Backward-Curved Centrifugal Fans",
+        "Roof Fans",
+        "Special Fans",
+        "ATEX Motors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "HVAC и здания",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://euroventilatori.com/en/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-euroventilatori-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_FAN_SPECIALISATION",
+          "url": "https://euroventilatori.com/en/euroventilatori",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-euroventilatori-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "AXIAL_CENTRIFUGAL_ROOF_SPECIAL_AND_ATEX_SCOPE",
+          "url": "https://euroventilatori.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"everelettronica","officialName":"Ever Elettronica S.r.l.","displayName":"Ever Elettronica","aliases":["EVER ELETTRONICA","EVERELETTRONICA","EVER"],"formerNames":[],"officialWebsite":"https://www.everelettronica.it/","officialDomains":["everelettronica.it","everelettronica.com"],"country":"Italy","headquarters":"Lodi, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Ever Elettronica develops stepper and brushless motor drives, motion controllers and integrated automation products.",
-      "fullDescription":["Ever Elettronica's official site and product manuals identify an Italian motion-control manufacturer based in Lodi.","The documented range includes stepper drives and motors, brushless servo drives, programmable motion controllers and integrated drive-and-control solutions."],
-      "productCategories":["Системы управления движением","Промышленные электродвигатели","Промышленная автоматизация"],"productFamilies":["Stepper Motor Drives","Stepper Motors","Brushless Servo Drives","Motion Controllers","Integrated Drive and Control Systems"],"series":["SW1D","SW1A"],"industries":["Промышленная автоматизация","Машиностроение","Промышленное производство"],"officialCatalogs":["https://www.everelettronica.it/images/documents/manuals/Manual_SW1D____GB.pdf"],"documentationSources":["https://www.everelettronica.it/"],
-      "sources":[{"sourceId":"brand-ever-elettronica-site","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_AND_MOTION_CONTROL_PRODUCT_SCOPE","url":"https://www.everelettronica.it/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-ever-elettronica-manual","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"STEPPER_DRIVE_MANUFACTURER_IDENTITY_AND_PRODUCT_EVIDENCE","url":"https://www.everelettronica.it/images/documents/manuals/Manual_SW1D____GB.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "everelettronica",
+      "officialName": "Ever Elettronica S.r.l.",
+      "displayName": "Ever Elettronica",
+      "aliases": [
+        "EVER ELETTRONICA",
+        "EVERELETTRONICA",
+        "EVER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.everelettronica.it/",
+      "officialDomains": [
+        "everelettronica.it",
+        "everelettronica.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Lodi, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Ever Elettronica develops stepper and brushless motor drives, motion controllers and integrated automation products.",
+      "fullDescription": [
+        "Ever Elettronica's official site and product manuals identify an Italian motion-control manufacturer based in Lodi.",
+        "The documented range includes stepper drives and motors, brushless servo drives, programmable motion controllers and integrated drive-and-control solutions."
+      ],
+      "productCategories": [
+        "Системы управления движением",
+        "Промышленные электродвигатели",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Stepper Motor Drives",
+        "Stepper Motors",
+        "Brushless Servo Drives",
+        "Motion Controllers",
+        "Integrated Drive and Control Systems"
+      ],
+      "series": [
+        "SW1D",
+        "SW1A"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.everelettronica.it/images/documents/manuals/Manual_SW1D____GB.pdf"
+      ],
+      "documentationSources": [
+        "https://www.everelettronica.it/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ever-elettronica-site",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_AND_MOTION_CONTROL_PRODUCT_SCOPE",
+          "url": "https://www.everelettronica.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-ever-elettronica-manual",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "STEPPER_DRIVE_MANUFACTURER_IDENTITY_AND_PRODUCT_EVIDENCE",
+          "url": "https://www.everelettronica.it/images/documents/manuals/Manual_SW1D____GB.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"evertz-hydrotechnik","officialName":"Evertz Hydrotechnik GmbH & Co. KG","displayName":"Evertz Hydrotechnik","aliases":["EVERTZ HYDROTECHNIK","EVERTZ HYDRO"],"formerNames":[],"officialWebsite":"https://www.evertz-hydro.com/en/","officialDomains":["evertz-hydro.com","evertz-group.com"],"country":"Germany","headquarters":"Betzdorf, Germany","foundedYear":null,"parentCompany":"Evertz Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"Evertz Hydrotechnik develops water-hydraulic valves and systems for descaling, roll cooling and specialized high-pressure applications.",
-      "fullDescription":["Evertz Hydrotechnik's official site documents a German manufacturer with more than 25 years of water-hydraulic system experience.","The product and application scope includes descaling systems, roll-cooling systems, special valves and water-hydraulic solutions for metallurgical, offshore, mining and testing applications."],
-      "productCategories":["Гидравлическое оборудование","Промышленные клапаны","Промышленное охлаждение"],"productFamilies":["Descaling Systems","Roll-Cooling Systems","Special Valves","Driving-Technology Systems","Water-Hydraulic Systems"],"series":["HP²compact","HP²scaledown","COOLECTRO PRO","PHRAGMSPRAY PRO","PISTONSPRAY PRO"],"industries":["Металлургия","Горнодобывающая промышленность","Морская промышленность","Промышленное производство"],"officialCatalogs":["https://www.evertz-hydro.com/fileadmin/evertz/PDFs/2020_EVERTZ_Produktbroschuere-HUETTENINDUSTRIE_WEB_2.0-en.pdf"],"documentationSources":["https://www.evertz-hydro.com/en/"],
-      "sources":[{"sourceId":"brand-evertz-hydrotechnik-site","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_EXPERIENCE_AND_WATER_HYDRAULIC_SYSTEM_SCOPE","url":"https://www.evertz-hydro.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-evertz-hydrotechnik-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"DESCALING_ROLL_COOLING_SPECIAL_VALVE_AND_METALLURGICAL_SCOPE","url":"https://www.evertz-hydro.com/fileadmin/evertz/PDFs/2020_EVERTZ_Produktbroschuere-HUETTENINDUSTRIE_WEB_2.0-en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "evertz-hydrotechnik",
+      "officialName": "Evertz Hydrotechnik GmbH & Co. KG",
+      "displayName": "Evertz Hydrotechnik",
+      "aliases": [
+        "EVERTZ HYDROTECHNIK",
+        "EVERTZ HYDRO"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.evertz-hydro.com/en/",
+      "officialDomains": [
+        "evertz-hydro.com",
+        "evertz-group.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Betzdorf, Germany",
+      "foundedYear": null,
+      "parentCompany": "Evertz Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Evertz Hydrotechnik develops water-hydraulic valves and systems for descaling, roll cooling and specialized high-pressure applications.",
+      "fullDescription": [
+        "Evertz Hydrotechnik's official site documents a German manufacturer with more than 25 years of water-hydraulic system experience.",
+        "The product and application scope includes descaling systems, roll-cooling systems, special valves and water-hydraulic solutions for metallurgical, offshore, mining and testing applications."
+      ],
+      "productCategories": [
+        "Гидравлическое оборудование",
+        "Промышленные клапаны",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Descaling Systems",
+        "Roll-Cooling Systems",
+        "Special Valves",
+        "Driving-Technology Systems",
+        "Water-Hydraulic Systems"
+      ],
+      "series": [
+        "HP²compact",
+        "HP²scaledown",
+        "COOLECTRO PRO",
+        "PHRAGMSPRAY PRO",
+        "PISTONSPRAY PRO"
+      ],
+      "industries": [
+        "Металлургия",
+        "Горнодобывающая промышленность",
+        "Морская промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.evertz-hydro.com/fileadmin/evertz/PDFs/2020_EVERTZ_Produktbroschuere-HUETTENINDUSTRIE_WEB_2.0-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.evertz-hydro.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-evertz-hydrotechnik-site",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_EXPERIENCE_AND_WATER_HYDRAULIC_SYSTEM_SCOPE",
+          "url": "https://www.evertz-hydro.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-evertz-hydrotechnik-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "DESCALING_ROLL_COOLING_SPECIAL_VALVE_AND_METALLURGICAL_SCOPE",
+          "url": "https://www.evertz-hydro.com/fileadmin/evertz/PDFs/2020_EVERTZ_Produktbroschuere-HUETTENINDUSTRIE_WEB_2.0-en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"evoqua","officialName":"Evoqua Water Technologies","displayName":"Evoqua","aliases":["EVOQUA","EVOQUA WATER TECHNOLOGIES"],"formerNames":[],"officialWebsite":"https://www.xylem.com/en-us/brands/evoqua/","officialDomains":["xylem.com","evoqua.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"Xylem Inc.","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Evoqua is a Xylem water-treatment brand covering filtration, ion exchange, disinfection and wastewater-treatment technologies.",
-      "fullDescription":["Xylem's official brand page records that Evoqua joined Xylem in 2023 and continues as a water-treatment portfolio identity.","The documented product scope includes filtration systems, ion-exchange technologies, disinfection, clarification and equipment for industrial and municipal water and wastewater treatment."],
-      "productCategories":["Фильтрационное оборудование","Водоподготовка и фильтрация","Оборудование для очистки воды"],"productFamilies":["Filtration Systems","Ion Exchange Systems","Disinfection Systems","Clarification Equipment","Wastewater Treatment Systems"],"series":[],"industries":["Водоснабжение и водоотведение","Промышленное производство","Пищевая промышленность","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.xylem.com/en-us/brands/evoqua/"],
-      "sources":[{"sourceId":"brand-evoqua-parent-profile","tier":"A","type":"OFFICIAL_PARENT_PROFILE","scope":"CURRENT_BRAND_IDENTITY_ACQUISITION_AND_WATER_TREATMENT_SCOPE","url":"https://www.xylem.com/en-us/brands/evoqua/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-evoqua-parent-filtration","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"EVOQUA_FILTRATION_SYSTEM_PRODUCT_SCOPE","url":"https://www.xylem.com/en-us/catalog/products--services/filtration-systems/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "evoqua",
+      "officialName": "Evoqua Water Technologies",
+      "displayName": "Evoqua",
+      "aliases": [
+        "EVOQUA",
+        "EVOQUA WATER TECHNOLOGIES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.xylem.com/en-us/brands/evoqua/",
+      "officialDomains": [
+        "xylem.com",
+        "evoqua.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Xylem Inc.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Evoqua is a Xylem water-treatment brand covering filtration, ion exchange, disinfection and wastewater-treatment technologies.",
+      "fullDescription": [
+        "Xylem's official brand page records that Evoqua joined Xylem in 2023 and continues as a water-treatment portfolio identity.",
+        "The documented product scope includes filtration systems, ion-exchange technologies, disinfection, clarification and equipment for industrial and municipal water and wastewater treatment."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Водоподготовка и фильтрация",
+        "Оборудование для очистки воды"
+      ],
+      "productFamilies": [
+        "Filtration Systems",
+        "Ion Exchange Systems",
+        "Disinfection Systems",
+        "Clarification Equipment",
+        "Wastewater Treatment Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.xylem.com/en-us/brands/evoqua/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-evoqua-parent-profile",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PROFILE",
+          "scope": "CURRENT_BRAND_IDENTITY_ACQUISITION_AND_WATER_TREATMENT_SCOPE",
+          "url": "https://www.xylem.com/en-us/brands/evoqua/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-evoqua-parent-filtration",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "EVOQUA_FILTRATION_SYSTEM_PRODUCT_SCOPE",
+          "url": "https://www.xylem.com/en-us/catalog/products--services/filtration-systems/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"exakt","officialName":"EXAKT Advanced Technologies GmbH","displayName":"EXAKT","aliases":["EXAKT","EXAKT ADVANCED TECHNOLOGIES"],"formerNames":[],"officialWebsite":"https://www.exakt.de/en/home/","officialDomains":["exakt.de"],"country":"Germany","headquarters":"Norderstedt, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"EXAKT manufactures three-roll mills and precision cutting and grinding systems for laboratory and industrial applications.",
-      "fullDescription":["EXAKT's manufacturer-owned site identifies a German equipment company based in Norderstedt.","Its documented portfolio comprises three-roll mills for dispersion and homogenisation, ointment mills, diamond band saws and thin-section cutting and grinding systems."],
-      "productCategories":["Промышленные машины","Лабораторное оборудование","Оборудование для резки"],"productFamilies":["Three-Roll Mills","Ointment Mills","Diamond Band Saws","Thin-Section Cutting Systems","Thin-Section Grinding Systems"],"series":[],"industries":["Фармацевтическая промышленность","Лабораторные исследования","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.exakt.de/en/three-roll-mills/","https://www.exakt.de/en/cutting-and-grinding/"],
-      "sources":[{"sourceId":"brand-exakt-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_EQUIPMENT_SPECIALISATION","url":"https://www.exakt.de/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-exakt-mills","tier":"A","type":"PRODUCT_DIRECTORY","scope":"THREE_ROLL_AND_OINTMENT_MILL_SCOPE","url":"https://www.exakt.de/en/three-roll-mills/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-exakt-cutting","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CUTTING_AND_GRINDING_SYSTEM_SCOPE","url":"https://www.exakt.de/en/cutting-and-grinding/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "exakt",
+      "officialName": "EXAKT Advanced Technologies GmbH",
+      "displayName": "EXAKT",
+      "aliases": [
+        "EXAKT",
+        "EXAKT ADVANCED TECHNOLOGIES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.exakt.de/en/home/",
+      "officialDomains": [
+        "exakt.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Norderstedt, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "EXAKT manufactures three-roll mills and precision cutting and grinding systems for laboratory and industrial applications.",
+      "fullDescription": [
+        "EXAKT's manufacturer-owned site identifies a German equipment company based in Norderstedt.",
+        "Its documented portfolio comprises three-roll mills for dispersion and homogenisation, ointment mills, diamond band saws and thin-section cutting and grinding systems."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Лабораторное оборудование",
+        "Оборудование для резки"
+      ],
+      "productFamilies": [
+        "Three-Roll Mills",
+        "Ointment Mills",
+        "Diamond Band Saws",
+        "Thin-Section Cutting Systems",
+        "Thin-Section Grinding Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Фармацевтическая промышленность",
+        "Лабораторные исследования",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.exakt.de/en/three-roll-mills/",
+        "https://www.exakt.de/en/cutting-and-grinding/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-exakt-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_EQUIPMENT_SPECIALISATION",
+          "url": "https://www.exakt.de/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-exakt-mills",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "THREE_ROLL_AND_OINTMENT_MILL_SCOPE",
+          "url": "https://www.exakt.de/en/three-roll-mills/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-exakt-cutting",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CUTTING_AND_GRINDING_SYSTEM_SCOPE",
+          "url": "https://www.exakt.de/en/cutting-and-grinding/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"exide-technologies","officialName":"Exide Technologies","displayName":"Exide Technologies","aliases":["EXIDE TECHNOLOGIES","EXIDE"],"formerNames":[],"officialWebsite":"https://www.exidegroup.com/","officialDomains":["exidegroup.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Exide Technologies manufactures batteries, energy-storage systems and charging solutions for automotive, material-handling and stationary-power applications.",
-      "fullDescription":["Exide Technologies' official site documents a battery and energy-storage manufacturer serving transportation and industrial markets.","The published portfolio includes automotive batteries, traction batteries and chargers for material handling, stationary batteries and battery energy-storage systems."],
-      "productCategories":["Промышленные аккумуляторы","Системы накопления энергии","Зарядное оборудование"],"productFamilies":["Automotive Batteries","Traction Batteries","Material-Handling Chargers","Stationary Batteries","Battery Energy-Storage Systems"],"series":[],"industries":["Автомобильная промышленность","Складская логистика","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.exidegroup.com/en/battery-finder"],
-      "sources":[{"sourceId":"brand-exide-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_AND_TRANSPORTATION_INDUSTRIAL_BATTERY_SCOPE","url":"https://www.exidegroup.com/uk/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-exide-product-finder","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AUTOMOTIVE_TRACTION_STATIONARY_AND_ENERGY_STORAGE_SCOPE","url":"https://www.exidegroup.com/en/battery-finder","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "exide-technologies",
+      "officialName": "Exide Technologies",
+      "displayName": "Exide Technologies",
+      "aliases": [
+        "EXIDE TECHNOLOGIES",
+        "EXIDE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.exidegroup.com/",
+      "officialDomains": [
+        "exidegroup.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Exide Technologies manufactures batteries, energy-storage systems and charging solutions for automotive, material-handling and stationary-power applications.",
+      "fullDescription": [
+        "Exide Technologies' official site documents a battery and energy-storage manufacturer serving transportation and industrial markets.",
+        "The published portfolio includes automotive batteries, traction batteries and chargers for material handling, stationary batteries and battery energy-storage systems."
+      ],
+      "productCategories": [
+        "Промышленные аккумуляторы",
+        "Системы накопления энергии",
+        "Зарядное оборудование"
+      ],
+      "productFamilies": [
+        "Automotive Batteries",
+        "Traction Batteries",
+        "Material-Handling Chargers",
+        "Stationary Batteries",
+        "Battery Energy-Storage Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Складская логистика",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.exidegroup.com/en/battery-finder"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-exide-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_AND_TRANSPORTATION_INDUSTRIAL_BATTERY_SCOPE",
+          "url": "https://www.exidegroup.com/uk/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-exide-product-finder",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "AUTOMOTIVE_TRACTION_STATIONARY_AND_ENERGY_STORAGE_SCOPE",
+          "url": "https://www.exidegroup.com/en/battery-finder",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"extronics","officialName":"Extronics Ltd.","displayName":"Extronics","aliases":["EXTRONICS"],"formerNames":[],"officialWebsite":"https://www.extronics.com/","officialDomains":["extronics.com"],"country":"United Kingdom","headquarters":"Runcorn, United Kingdom","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Extronics develops hazardous-area wireless, RFID, positioning and lighting equipment for industrial sites.",
-      "fullDescription":["Extronics' official site identifies a UK manufacturer and technology provider for hazardous industrial environments.","Its documented range includes intrinsically safe wireless access points, RFID tags and readers, real-time location systems, explosion-protected enclosures and hazardous-area lighting."],
-      "productCategories":["Средства промышленной безопасности","RFID оборудование","Промышленная связь","Электротехническое оборудование"],"productFamilies":["Hazardous-Area Wireless Access Points","RFID Tags and Readers","Real-Time Location Systems","Explosion-Protected Enclosures","Hazardous-Area Lighting"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Горнодобывающая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.extronics.com/products/"],
-      "sources":[{"sourceId":"brand-extronics-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_HAZARDOUS_AREA_TECHNOLOGY_SCOPE","url":"https://www.extronics.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-extronics-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"WIRELESS_RFID_LOCATION_ENCLOSURE_AND_LIGHTING_SCOPE","url":"https://www.extronics.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "extronics",
+      "officialName": "Extronics Ltd.",
+      "displayName": "Extronics",
+      "aliases": [
+        "EXTRONICS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.extronics.com/",
+      "officialDomains": [
+        "extronics.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Runcorn, United Kingdom",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Extronics develops hazardous-area wireless, RFID, positioning and lighting equipment for industrial sites.",
+      "fullDescription": [
+        "Extronics' official site identifies a UK manufacturer and technology provider for hazardous industrial environments.",
+        "Its documented range includes intrinsically safe wireless access points, RFID tags and readers, real-time location systems, explosion-protected enclosures and hazardous-area lighting."
+      ],
+      "productCategories": [
+        "Средства промышленной безопасности",
+        "RFID оборудование",
+        "Промышленная связь",
+        "Электротехническое оборудование"
+      ],
+      "productFamilies": [
+        "Hazardous-Area Wireless Access Points",
+        "RFID Tags and Readers",
+        "Real-Time Location Systems",
+        "Explosion-Protected Enclosures",
+        "Hazardous-Area Lighting"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Горнодобывающая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.extronics.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-extronics-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_HAZARDOUS_AREA_TECHNOLOGY_SCOPE",
+          "url": "https://www.extronics.com/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-extronics-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "WIRELESS_RFID_LOCATION_ENCLOSURE_AND_LIGHTING_SCOPE",
+          "url": "https://www.extronics.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"extrude-hone","officialName":"Extrude Hone LLC","displayName":"Extrude Hone","aliases":["EXTRUDE HONE"],"formerNames":[],"officialWebsite":"https://extrudehone.com/","officialDomains":["extrudehone.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Extrude Hone develops precision finishing and deburring systems based on abrasive-flow, electrochemical, thermal and laser processes.",
-      "fullDescription":["Extrude Hone's official site documents a manufacturer of surface-finishing and deburring equipment.","The product and process portfolio covers abrasive-flow machining, electrochemical machining, thermal deburring and laser-based machining for complex industrial components."],
-      "productCategories":["Металлообрабатывающие станки","Оборудование для финишной обработки","Промышленные машины"],"productFamilies":["Abrasive Flow Machining Systems","Electrochemical Machining Systems","Thermal Deburring Systems","Laser Machining Systems"],"series":[],"industries":["Аэрокосмическая промышленность","Автомобильная промышленность","Медицинская промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://extrudehone.com/processes/"],
-      "sources":[{"sourceId":"brand-extrude-hone-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_PRECISION_FINISHING_SPECIALISATION","url":"https://extrudehone.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-extrude-hone-processes","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ABRASIVE_ELECTROCHEMICAL_THERMAL_AND_LASER_PROCESS_SCOPE","url":"https://extrudehone.com/processes/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "extrude-hone",
+      "officialName": "Extrude Hone LLC",
+      "displayName": "Extrude Hone",
+      "aliases": [
+        "EXTRUDE HONE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://extrudehone.com/",
+      "officialDomains": [
+        "extrudehone.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Extrude Hone develops precision finishing and deburring systems based on abrasive-flow, electrochemical, thermal and laser processes.",
+      "fullDescription": [
+        "Extrude Hone's official site documents a manufacturer of surface-finishing and deburring equipment.",
+        "The product and process portfolio covers abrasive-flow machining, electrochemical machining, thermal deburring and laser-based machining for complex industrial components."
+      ],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Оборудование для финишной обработки",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Abrasive Flow Machining Systems",
+        "Electrochemical Machining Systems",
+        "Thermal Deburring Systems",
+        "Laser Machining Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Аэрокосмическая промышленность",
+        "Автомобильная промышленность",
+        "Медицинская промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://extrudehone.com/processes/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-extrude-hone-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_PRECISION_FINISHING_SPECIALISATION",
+          "url": "https://extrudehone.com/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-extrude-hone-processes",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "ABRASIVE_ELECTROCHEMICAL_THERMAL_AND_LASER_PROCESS_SCOPE",
+          "url": "https://extrudehone.com/processes/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"fabco-air","officialName":"Fabco-Air, Inc.","displayName":"Fabco-Air","aliases":["FABCO-AIR","FABCO AIR"],"formerNames":[],"officialWebsite":"https://fabco-air.com/","officialDomains":["fabco-air.com"],"country":"United States","headquarters":"Gainesville, Florida, United States","foundedYear":1958,"parentCompany":"Festo Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"Fabco-Air manufactures pneumatic cylinders, actuators, directional-control valves and related automation components.",
-      "fullDescription":["Fabco-Air's official site documents a US pneumatic-component manufacturer founded in 1958 and operating within Festo Group.","The published range includes compact, guided, multi-power and stainless-steel cylinders, rotary actuators, grippers, directional valves and flow-control accessories."],
-      "productCategories":["Пневматическое оборудование","Пневматические цилиндры","Промышленные клапаны","Промышленная автоматизация"],"productFamilies":["Pneumatic Cylinders","Guided Cylinders","Rotary Actuators","Pneumatic Grippers","Directional-Control Valves","Flow Controls"],"series":[],"industries":["Промышленная автоматизация","Промышленное производство","Упаковочная промышленность"],"officialCatalogs":[],"documentationSources":["https://fabco-air.com/products/"],
-      "sources":[{"sourceId":"brand-fabco-air-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_GROUP_AND_PNEUMATIC_SPECIALISATION","url":"https://fabco-air.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-fabco-air-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CYLINDER_ACTUATOR_GRIPPER_VALVE_AND_CONTROL_SCOPE","url":"https://fabco-air.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "fabco-air",
+      "officialName": "Fabco-Air, Inc.",
+      "displayName": "Fabco-Air",
+      "aliases": [
+        "FABCO-AIR",
+        "FABCO AIR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://fabco-air.com/",
+      "officialDomains": [
+        "fabco-air.com"
+      ],
+      "country": "United States",
+      "headquarters": "Gainesville, Florida, United States",
+      "foundedYear": 1958,
+      "parentCompany": "Festo Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Fabco-Air manufactures pneumatic cylinders, actuators, directional-control valves and related automation components.",
+      "fullDescription": [
+        "Fabco-Air's official site documents a US pneumatic-component manufacturer founded in 1958 and operating within Festo Group.",
+        "The published range includes compact, guided, multi-power and stainless-steel cylinders, rotary actuators, grippers, directional valves and flow-control accessories."
+      ],
+      "productCategories": [
+        "Пневматическое оборудование",
+        "Пневматические цилиндры",
+        "Промышленные клапаны",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Pneumatic Cylinders",
+        "Guided Cylinders",
+        "Rotary Actuators",
+        "Pneumatic Grippers",
+        "Directional-Control Valves",
+        "Flow Controls"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство",
+        "Упаковочная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://fabco-air.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-fabco-air-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_GROUP_AND_PNEUMATIC_SPECIALISATION",
+          "url": "https://fabco-air.com/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-fabco-air-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CYLINDER_ACTUATOR_GRIPPER_VALVE_AND_CONTROL_SCOPE",
+          "url": "https://fabco-air.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"faccin","officialName":"Faccin S.p.A.","displayName":"Faccin","aliases":["FACCIN"],"formerNames":[],"officialWebsite":"https://www.faccin.com/","officialDomains":["faccin.com"],"country":"Italy","headquarters":"Visano, Brescia, Italy","foundedYear":1968,"parentCompany":"Faccin Group","statusModifier":"GROUP_COMPANY",
-      "shortDescription":"Faccin manufactures plate-bending rolls, angle rolls and equipment for forming dished heads and large metal components.",
-      "fullDescription":["Faccin's official site identifies an Italian metal-forming machinery manufacturer founded in 1968.","Its documented portfolio includes three- and four-roll plate-bending machines, angle rolls, dished-head lines, ship-frame bending systems and special forming equipment."],
-      "productCategories":["Вальцовочное оборудование","Металлообрабатывающие станки","Промышленные прессы"],"productFamilies":["Three-Roll Plate-Bending Machines","Four-Roll Plate-Bending Machines","Angle Rolls","Dished-Head Lines","Ship-Frame Bending Systems","Special Forming Machines"],"series":[],"industries":["Металлообработка","Судостроение","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.faccin.com/products/"],
-      "sources":[{"sourceId":"brand-faccin-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_METAL_FORMING_SPECIALISATION","url":"https://www.faccin.com/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-faccin-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PLATE_ROLL_ANGLE_ROLL_DISHED_HEAD_AND_SPECIAL_FORMING_SCOPE","url":"https://www.faccin.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "faccin",
+      "officialName": "Faccin S.p.A.",
+      "displayName": "Faccin",
+      "aliases": [
+        "FACCIN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.faccin.com/",
+      "officialDomains": [
+        "faccin.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Visano, Brescia, Italy",
+      "foundedYear": 1968,
+      "parentCompany": "Faccin Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Faccin manufactures plate-bending rolls, angle rolls and equipment for forming dished heads and large metal components.",
+      "fullDescription": [
+        "Faccin's official site identifies an Italian metal-forming machinery manufacturer founded in 1968.",
+        "Its documented portfolio includes three- and four-roll plate-bending machines, angle rolls, dished-head lines, ship-frame bending systems and special forming equipment."
+      ],
+      "productCategories": [
+        "Вальцовочное оборудование",
+        "Металлообрабатывающие станки",
+        "Промышленные прессы"
+      ],
+      "productFamilies": [
+        "Three-Roll Plate-Bending Machines",
+        "Four-Roll Plate-Bending Machines",
+        "Angle Rolls",
+        "Dished-Head Lines",
+        "Ship-Frame Bending Systems",
+        "Special Forming Machines"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Судостроение",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.faccin.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-faccin-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_METAL_FORMING_SPECIALISATION",
+          "url": "https://www.faccin.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-faccin-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PLATE_ROLL_ANGLE_ROLL_DISHED_HEAD_AND_SPECIAL_FORMING_SCOPE",
+          "url": "https://www.faccin.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"fafnir","officialName":"Fafnir","displayName":"Fafnir","aliases":["FAFNIR","TIMKEN FAFNIR"],"formerNames":["The Fafnir Bearing Company"],"officialWebsite":"https://www.timken.com/products/timken-fafnir-mounted-ball-bearings/","officialDomains":["timken.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"The Timken Company","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Fafnir is a Timken bearing brand covering mounted, housed and precision ball-bearing products for industrial machinery.",
-      "fullDescription":["Timken's official product material establishes Fafnir as a current bearing brand within The Timken Company.","The documented range includes mounted ball bearings, housed units, deep-groove ball bearings and super-precision bearings for machine-tool and industrial applications."],
-      "productCategories":["Промышленные подшипники"],"productFamilies":["Mounted Ball Bearings","Housed Bearing Units","Deep-Groove Ball Bearings","Super-Precision Bearings"],"series":[],"industries":["Машиностроение","Сельское хозяйство","Промышленное производство"],"officialCatalogs":["https://www.timken.com/resources/timken-super-precision-bearings-for-machine-tool-applications/"],"documentationSources":["https://www.timken.com/products/timken-fafnir-mounted-ball-bearings/"],
-      "sources":[{"sourceId":"brand-fafnir-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_FAFNIR_BRAND_AND_MOUNTED_BEARING_SCOPE","url":"https://www.timken.com/products/timken-fafnir-mounted-ball-bearings/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-fafnir-parent-catalog","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"FAFNIR_SUPER_PRECISION_BEARING_SCOPE","url":"https://www.timken.com/resources/timken-super-precision-bearings-for-machine-tool-applications/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "fafnir",
+      "officialName": "Fafnir",
+      "displayName": "Fafnir",
+      "aliases": [
+        "FAFNIR",
+        "TIMKEN FAFNIR"
+      ],
+      "formerNames": [
+        "The Fafnir Bearing Company"
+      ],
+      "officialWebsite": "https://www.timken.com/products/timken-fafnir-mounted-ball-bearings/",
+      "officialDomains": [
+        "timken.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "The Timken Company",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Fafnir is a Timken bearing brand covering mounted, housed and precision ball-bearing products for industrial machinery.",
+      "fullDescription": [
+        "Timken's official product material establishes Fafnir as a current bearing brand within The Timken Company.",
+        "The documented range includes mounted ball bearings, housed units, deep-groove ball bearings and super-precision bearings for machine-tool and industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные подшипники"
+      ],
+      "productFamilies": [
+        "Mounted Ball Bearings",
+        "Housed Bearing Units",
+        "Deep-Groove Ball Bearings",
+        "Super-Precision Bearings"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Сельское хозяйство",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.timken.com/resources/timken-super-precision-bearings-for-machine-tool-applications/"
+      ],
+      "documentationSources": [
+        "https://www.timken.com/products/timken-fafnir-mounted-ball-bearings/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-fafnir-parent-products",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_FAFNIR_BRAND_AND_MOUNTED_BEARING_SCOPE",
+          "url": "https://www.timken.com/products/timken-fafnir-mounted-ball-bearings/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-fafnir-parent-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "FAFNIR_SUPER_PRECISION_BEARING_SCOPE",
+          "url": "https://www.timken.com/resources/timken-super-precision-bearings-for-machine-tool-applications/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"fai-filtri","officialName":"FAI Filtri S.r.l.","displayName":"FAI Filtri","aliases":["FAI FILTRI","FAI FILTERS"],"formerNames":[],"officialWebsite":"https://www.faifiltri.com/en/","officialDomains":["faifiltri.com"],"country":"Italy","headquarters":"Pontirolo Nuovo, Bergamo, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"FAI Filtri manufactures filtration products for hydraulic, compressed-air, vacuum and process applications.",
-      "fullDescription":["FAI Filtri's official site identifies an Italian filtration manufacturer.","The published range includes hydraulic filters and elements, air-oil separators, compressed-air and vacuum filters, process filters and filtration accessories."],
-      "productCategories":["Фильтрационное оборудование","Гидравлическое оборудование","Промышленные компрессоры","Вакуумное оборудование"],"productFamilies":["Hydraulic Filters","Filter Elements","Air-Oil Separators","Compressed-Air Filters","Vacuum Filters","Process Filters"],"series":[],"industries":["Промышленное производство","Мобильная техника","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.faifiltri.com/en/products/"],
-      "sources":[{"sourceId":"brand-fai-filtri-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_FILTRATION_SPECIALISATION","url":"https://www.faifiltri.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-fai-filtri-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_SEPARATOR_COMPRESSED_AIR_VACUUM_AND_PROCESS_FILTER_SCOPE","url":"https://www.faifiltri.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "fai-filtri",
+      "officialName": "FAI Filtri S.r.l.",
+      "displayName": "FAI Filtri",
+      "aliases": [
+        "FAI FILTRI",
+        "FAI FILTERS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.faifiltri.com/en/",
+      "officialDomains": [
+        "faifiltri.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Pontirolo Nuovo, Bergamo, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "FAI Filtri manufactures filtration products for hydraulic, compressed-air, vacuum and process applications.",
+      "fullDescription": [
+        "FAI Filtri's official site identifies an Italian filtration manufacturer.",
+        "The published range includes hydraulic filters and elements, air-oil separators, compressed-air and vacuum filters, process filters and filtration accessories."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Гидравлическое оборудование",
+        "Промышленные компрессоры",
+        "Вакуумное оборудование"
+      ],
+      "productFamilies": [
+        "Hydraulic Filters",
+        "Filter Elements",
+        "Air-Oil Separators",
+        "Compressed-Air Filters",
+        "Vacuum Filters",
+        "Process Filters"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Мобильная техника",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.faifiltri.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-fai-filtri-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_FILTRATION_SPECIALISATION",
+          "url": "https://www.faifiltri.com/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-fai-filtri-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HYDRAULIC_SEPARATOR_COMPRESSED_AIR_VACUUM_AND_PROCESS_FILTER_SCOPE",
+          "url": "https://www.faifiltri.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"fairchild","officialName":"Fairchild","displayName":"Fairchild","aliases":["FAIRCHILD","FAIRCHILD INDUSTRIAL PRODUCTS"],"formerNames":[],"officialWebsite":"https://www.rotork.com/en/products/flow-pressure-control-filtration/fairchild-pressure-regulators","officialDomains":["rotork.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"Rotork plc","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Fairchild is a Rotork brand for precision pneumatic pressure regulators and industrial control products.",
-      "fullDescription":["Rotork's official product site identifies Fairchild as a current pressure-control brand.","The documented portfolio includes precision, low-pressure, high-pressure, back-pressure, vacuum and motorized regulators for pneumatic control applications."],
-      "productCategories":["Пневматическое оборудование","Регулирующая арматура","Измерительное оборудование"],"productFamilies":["Precision Pressure Regulators","Low-Pressure Regulators","High-Pressure Regulators","Back-Pressure Regulators","Vacuum Regulators","Motorized Regulators"],"series":[],"industries":["Промышленная автоматизация","Промышленное производство","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.rotork.com/en/products/flow-pressure-control-filtration/fairchild-pressure-regulators"],
-      "sources":[{"sourceId":"brand-fairchild-parent-products","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_FAIRCHILD_BRAND_AND_PRESSURE_REGULATOR_SCOPE","url":"https://www.rotork.com/en/products/flow-pressure-control-filtration/fairchild-pressure-regulators","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "fairchild",
+      "officialName": "Fairchild",
+      "displayName": "Fairchild",
+      "aliases": [
+        "FAIRCHILD",
+        "FAIRCHILD INDUSTRIAL PRODUCTS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.rotork.com/en/products/flow-pressure-control-filtration/fairchild-pressure-regulators",
+      "officialDomains": [
+        "rotork.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Rotork plc",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Fairchild is a Rotork brand for precision pneumatic pressure regulators and industrial control products.",
+      "fullDescription": [
+        "Rotork's official product site identifies Fairchild as a current pressure-control brand.",
+        "The documented portfolio includes precision, low-pressure, high-pressure, back-pressure, vacuum and motorized regulators for pneumatic control applications."
+      ],
+      "productCategories": [
+        "Пневматическое оборудование",
+        "Регулирующая арматура",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Precision Pressure Regulators",
+        "Low-Pressure Regulators",
+        "High-Pressure Regulators",
+        "Back-Pressure Regulators",
+        "Vacuum Regulators",
+        "Motorized Regulators"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.rotork.com/en/products/flow-pressure-control-filtration/fairchild-pressure-regulators"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-fairchild-parent-products",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_FAIRCHILD_BRAND_AND_PRESSURE_REGULATOR_SCOPE",
+          "url": "https://www.rotork.com/en/products/flow-pressure-control-filtration/fairchild-pressure-regulators",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     }
   ]
 }

@@ -6,84 +6,113 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "VERDI is used by unrelated current businesses in bulk-material handling, irrigation automation and other sectors. The bare registry record has no legal name, geography or product-scope discriminator.",
-      "attemptedUrls": ["https://www.google.com/search?q=VERDI+industrial+manufacturer+official"]
+      "attemptedUrls": [
+        "https://www.google.com/search?q=VERDI+industrial+manufacturer+official"
+      ]
     },
     {
       "manufacturerId": "vertex-manufacturing-solutions",
       "status": "NOT_MANUFACTURER_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "The exact first-party site identifies Vertex Manufacturing Solutions as a manufacturers' representative agency for third-party capital-equipment builders, not as the manufacturer of the listed equipment.",
-      "attemptedUrls": ["https://vertexms.us/"]
+      "attemptedUrls": [
+        "https://vertexms.us/"
+      ]
     },
     {
       "manufacturerId": "vti",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "VTI is a generic acronym used by unrelated industrial companies. The registry record does not provide a legal name, domain, geography or product-scope discriminator.",
-      "attemptedUrls": ["https://www.vti.de/", "https://www.google.com/search?q=VTI+industrial+manufacturer+official"]
+      "attemptedUrls": [
+        "https://www.vti.de/",
+        "https://www.google.com/search?q=VTI+industrial+manufacturer+official"
+      ]
     },
     {
       "manufacturerId": "wacker",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "WACKER can refer to multiple independent current manufacturers, including Wacker Chemie and Wacker Neuson. The bare registry record does not distinguish one entity.",
-      "attemptedUrls": ["https://www.wacker.com/", "https://www.wackerneuson.com/"]
+      "attemptedUrls": [
+        "https://www.wacker.com/",
+        "https://www.wackerneuson.com/"
+      ]
     },
     {
       "manufacturerId": "walker-electric",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "No unique manufacturer-owned HTTPS identity could be tied to WALKER ELECTRIC. The name is shared by unrelated electrical contractors, suppliers and historical product businesses.",
-      "attemptedUrls": ["https://www.google.com/search?q=%22Walker+Electric%22+manufacturer+official"]
+      "attemptedUrls": [
+        "https://www.google.com/search?q=%22Walker+Electric%22+manufacturer+official"
+      ]
     },
     {
       "manufacturerId": "walton",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "WALTON is shared by unrelated industrial, electronics, tooling and process-equipment companies. The registry record lacks a legal name or product-scope discriminator.",
-      "attemptedUrls": ["https://www.google.com/search?q=WALTON+industrial+manufacturer+official"]
+      "attemptedUrls": [
+        "https://www.google.com/search?q=WALTON+industrial+manufacturer+official"
+      ]
     },
     {
       "manufacturerId": "waters",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The manufacturer-owned Waters product pages returned HTTP 403 to direct validation. The restriction was not bypassed, so substantive official product evidence could not be release-validated.",
-      "attemptedUrls": ["https://www.waters.com/nextgen/us/en/products.html"]
+      "attemptedUrls": [
+        "https://www.waters.com/nextgen/us/en/products.html"
+      ]
     },
     {
       "manufacturerId": "watlow",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "Direct requests to the current manufacturer-owned product paths returned HTTP 404 and then HTTP 429. The restriction was not bypassed and no stable release-valid product source was established.",
-      "attemptedUrls": ["https://www.watlow.com/products", "https://www.watlow.com/products/heaters"]
+      "attemptedUrls": [
+        "https://www.watlow.com/products",
+        "https://www.watlow.com/products/heaters"
+      ]
     },
     {
       "manufacturerId": "webster-drives",
       "status": "LEGACY_IDENTITY_REVIEW",
       "checkedAt": "2026-08-24",
       "reason": "Webster Drives Ltd. appears in historical power-take-off and transmission references, but no current manufacturer-owned HTTPS source was available to establish a continuing standalone manufacturer identity.",
-      "attemptedUrls": ["https://www.google.com/search?q=%22Webster+Drives%22+manufacturer+official"]
+      "attemptedUrls": [
+        "https://www.google.com/search?q=%22Webster+Drives%22+manufacturer+official"
+      ]
     },
     {
       "manufacturerId": "weeke",
       "status": "LEGACY_PRODUCT_BRAND_REVIEW",
       "checkedAt": "2026-08-24",
       "reason": "WEEKE is a former HOMAG woodworking-machine brand rather than a clearly current standalone manufacturer. Publishing it separately would risk a stale product-brand profile and canonical duplication.",
-      "attemptedUrls": ["https://www.homag.com/"]
+      "attemptedUrls": [
+        "https://www.homag.com/"
+      ]
     },
     {
       "manufacturerId": "weiss",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "WEISS is used by unrelated current manufacturers in environmental test systems, rotary indexing and spindle technology, and other sectors. The bare registry record cannot select one safely.",
-      "attemptedUrls": ["https://www.weiss-technik.com/", "https://www.weiss-world.com/"]
+      "attemptedUrls": [
+        "https://www.weiss-technik.com/",
+        "https://www.weiss-world.com/"
+      ]
     },
     {
       "manufacturerId": "wenger",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "WENGER identifies both an industrial process-equipment company and unrelated consumer-product brands. The registry record has no legal-name or product-scope discriminator.",
-      "attemptedUrls": ["https://www.wenger.com/", "https://www.google.com/search?q=Wenger+industrial+manufacturer+official"]
+      "attemptedUrls": [
+        "https://www.wenger.com/",
+        "https://www.google.com/search?q=Wenger+industrial+manufacturer+official"
+      ]
     }
   ],
   "profiles": [
@@ -91,858 +120,2231 @@
       "manufacturerId": "vetter-gmbh",
       "officialName": "Vetter GmbH",
       "displayName": "Vetter",
-      "aliases": ["VETTER GMBH", "VETTER"],
+      "aliases": [
+        "VETTER GMBH",
+        "VETTER"
+      ],
       "formerNames": [],
       "officialWebsite": "https://vetter.de/en/",
-      "officialDomains": ["vetter.de"],
+      "officialDomains": [
+        "vetter.de"
+      ],
       "country": "Germany",
       "headquarters": "Zülpich, Germany",
       "foundedYear": 1964,
       "parentCompany": "IDEX Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Vetter develops inflatable rescue equipment for fire, emergency and industrial response teams. Its official range covers lifting bags, leak-sealing systems, decontamination equipment, rescue tents and supporting pneumatic accessories.",
-      "fullDescription": ["Vetter GmbH is a German manufacturer of pneumatic rescue equipment and an IDEX Corporation unit. The manufacturer-owned product area documents solutions for lifting and recovery, sealing leaks, hazardous-material response, decontamination and temporary shelter. Its equipment is designed for professional emergency services and industrial response applications where controlled inflation, portability and rapid deployment are required."],
-      "productCategories": ["Пневматическое спасательное оборудование", "Промышленное оборудование безопасности"],
-      "productFamilies": ["Lifting Bags", "Leak Sealing Bags", "HazMat Equipment", "Decontamination Systems", "Rescue Tents"],
+      "fullDescription": [
+        "Vetter GmbH is a German manufacturer of pneumatic rescue equipment and an IDEX Corporation unit. The manufacturer-owned product area documents solutions for lifting and recovery, sealing leaks, hazardous-material response, decontamination and temporary shelter. Its equipment is designed for professional emergency services and industrial response applications where controlled inflation, portability and rapid deployment are required."
+      ],
+      "productCategories": [
+        "Пневматическое спасательное оборудование",
+        "Промышленное оборудование безопасности"
+      ],
+      "productFamilies": [
+        "Lifting Bags",
+        "Leak Sealing Bags",
+        "HazMat Equipment",
+        "Decontamination Systems",
+        "Rescue Tents"
+      ],
       "series": [],
-      "industries": ["Аварийно-спасательные службы", "Промышленная безопасность"],
+      "industries": [
+        "Аварийно-спасательные службы",
+        "Промышленная безопасность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://vetter.de/en/products"],
-      "sources": [{"sourceId":"brand-vetter-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_PNEUMATIC_RESCUE_EQUIPMENT_SCOPE","url":"https://vetter.de/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://vetter.de/en/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-vetter-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_PNEUMATIC_RESCUE_EQUIPMENT_SCOPE",
+          "url": "https://vetter.de/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "vibra-maschinenfabrik",
       "officialName": "VIBRA MASCHINENFABRIK Schultheis GmbH & Co.",
       "displayName": "VIBRA Schultheis",
-      "aliases": ["VIBRA MASCHINENFABRIK", "VIBRA SCHULTHEIS", "VIBRA"],
+      "aliases": [
+        "VIBRA MASCHINENFABRIK",
+        "VIBRA SCHULTHEIS",
+        "VIBRA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.vibra-schultheis.de/en/",
-      "officialDomains": ["vibra-schultheis.de"],
+      "officialDomains": [
+        "vibra-schultheis.de"
+      ],
       "country": "Germany",
       "headquarters": "Offenbach am Main, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "VIBRA Schultheis manufactures vibration and process equipment for handling and treating bulk solids. Its portfolio includes vibrating conveyors, screening machines, fluid-bed dryers and coolers, coating and agglomeration systems, vibratory drives and magnetic separators.",
-      "fullDescription": ["VIBRA MASCHINENFABRIK Schultheis develops machinery for conveying, screening and thermally processing bulk materials. The official company site presents vibrating conveyors and dischargers, screening systems, fluid-bed dryers and coolers, coating and agglomeration plants, magnetic separators and the drives used to generate controlled vibration. These systems serve process lines in sectors including chemicals and food production."],
-      "productCategories": ["Вибрационное оборудование", "Конвейерное оборудование", "Оборудование для сушки и охлаждения"],
-      "productFamilies": ["Vibrating Conveyors", "Screening Machines", "Fluid-Bed Dryers and Coolers", "Coating and Agglomeration Systems", "Vibratory Drives", "Magnetic Separators"],
+      "fullDescription": [
+        "VIBRA MASCHINENFABRIK Schultheis develops machinery for conveying, screening and thermally processing bulk materials. The official company site presents vibrating conveyors and dischargers, screening systems, fluid-bed dryers and coolers, coating and agglomeration plants, magnetic separators and the drives used to generate controlled vibration. These systems serve process lines in sectors including chemicals and food production."
+      ],
+      "productCategories": [
+        "Вибрационное оборудование",
+        "Конвейерное оборудование",
+        "Оборудование для сушки и охлаждения"
+      ],
+      "productFamilies": [
+        "Vibrating Conveyors",
+        "Screening Machines",
+        "Fluid-Bed Dryers and Coolers",
+        "Coating and Agglomeration Systems",
+        "Vibratory Drives",
+        "Magnetic Separators"
+      ],
       "series": [],
-      "industries": ["Химическая промышленность", "Пищевая промышленность", "Промышленная переработка"],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Промышленная переработка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.vibra-schultheis.de/en/"],
-      "sources": [{"sourceId":"brand-vibra-schultheis-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_VIBRATION_PROCESS_EQUIPMENT_SCOPE","url":"https://www.vibra-schultheis.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.vibra-schultheis.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-vibra-schultheis-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_VIBRATION_PROCESS_EQUIPMENT_SCOPE",
+          "url": "https://www.vibra-schultheis.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "videojet",
       "officialName": "Videojet Technologies Inc.",
       "displayName": "Videojet",
-      "aliases": ["VIDEOJET", "VIDEOJET TECHNOLOGIES"],
+      "aliases": [
+        "VIDEOJET",
+        "VIDEOJET TECHNOLOGIES"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.videojet.com/us/homepage.html",
-      "officialDomains": ["videojet.com"],
+      "officialDomains": [
+        "videojet.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Veralto Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Videojet develops industrial coding, marking and labelling systems. Its official portfolio includes continuous and thermal inkjet printers, laser markers, thermal-transfer overprinters, large-character systems, label print-and-apply equipment and coding software.",
-      "fullDescription": ["Videojet Technologies supplies systems used to place variable codes, text and graphics on products and packaging. The manufacturer-owned product directory covers continuous inkjet, thermal inkjet, laser marking, thermal-transfer overprinting, large-character inkjet, case coding and label print-and-apply platforms. Supporting software and supplies connect these technologies to packaging and production-line workflows."],
-      "productCategories": ["Маркировочное оборудование", "Промышленная автоматизация", "Промышленное программное обеспечение"],
-      "productFamilies": ["Continuous Inkjet Printers", "Laser Marking Systems", "Thermal Transfer Overprinters", "Thermal Inkjet Printers", "Large Character Marking", "Label Print and Apply"],
+      "fullDescription": [
+        "Videojet Technologies supplies systems used to place variable codes, text and graphics on products and packaging. The manufacturer-owned product directory covers continuous inkjet, thermal inkjet, laser marking, thermal-transfer overprinting, large-character inkjet, case coding and label print-and-apply platforms. Supporting software and supplies connect these technologies to packaging and production-line workflows."
+      ],
+      "productCategories": [
+        "Маркировочное оборудование",
+        "Промышленная автоматизация",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Continuous Inkjet Printers",
+        "Laser Marking Systems",
+        "Thermal Transfer Overprinters",
+        "Thermal Inkjet Printers",
+        "Large Character Marking",
+        "Label Print and Apply"
+      ],
       "series": [],
-      "industries": ["Упаковочная промышленность", "Промышленное производство"],
+      "industries": [
+        "Упаковочная промышленность",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.videojet.com/us/homepage/products.html"],
-      "sources": [{"sourceId":"brand-videojet-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_CODING_MARKING_SCOPE","url":"https://www.videojet.com/us/homepage/products.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.videojet.com/us/homepage/products.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-videojet-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_CODING_MARKING_SCOPE",
+          "url": "https://www.videojet.com/us/homepage/products.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "viessmann",
       "officialName": "Viessmann Climate Solutions SE",
       "displayName": "Viessmann",
-      "aliases": ["VIESSMANN", "VIESSMANN CLIMATE SOLUTIONS"],
+      "aliases": [
+        "VIESSMANN",
+        "VIESSMANN CLIMATE SOLUTIONS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.viessmann-climatesolutions.com/en/energy-and-heating-solutions.html",
-      "officialDomains": ["viessmann-climatesolutions.com"],
+      "officialDomains": [
+        "viessmann-climatesolutions.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1917,
       "parentCompany": "Carrier Global Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Viessmann Climate Solutions develops heating, cooling, ventilation and energy systems for buildings. Its official portfolio includes heat pumps, boilers, solar thermal and photovoltaic systems, storage equipment, water heaters and ventilation solutions.",
-      "fullDescription": ["Viessmann Climate Solutions presents an integrated building-energy portfolio spanning heat generation, cooling, ventilation and electrical energy use. The official solutions directory documents heat pumps, gas and oil boilers, electric heaters, domestic-hot-water storage, solar thermal equipment, photovoltaic and battery-storage systems, ventilation, air conditioning and district-heating solutions."],
-      "productCategories": ["Тепловое оборудование", "Климатическое оборудование", "Энергетическое оборудование"],
-      "productFamilies": ["Heat Pumps", "Boilers", "Solar Thermal Systems", "Photovoltaics and Storage", "Domestic Hot Water Storage", "Ventilation and Air Conditioning"],
+      "fullDescription": [
+        "Viessmann Climate Solutions presents an integrated building-energy portfolio spanning heat generation, cooling, ventilation and electrical energy use. The official solutions directory documents heat pumps, gas and oil boilers, electric heaters, domestic-hot-water storage, solar thermal equipment, photovoltaic and battery-storage systems, ventilation, air conditioning and district-heating solutions."
+      ],
+      "productCategories": [
+        "Тепловое оборудование",
+        "Климатическое оборудование",
+        "Энергетическое оборудование"
+      ],
+      "productFamilies": [
+        "Heat Pumps",
+        "Boilers",
+        "Solar Thermal Systems",
+        "Photovoltaics and Storage",
+        "Domestic Hot Water Storage",
+        "Ventilation and Air Conditioning"
+      ],
       "series": [],
-      "industries": ["Инженерные системы зданий", "Энергетика"],
+      "industries": [
+        "Инженерные системы зданий",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.viessmann-climatesolutions.com/en/energy-and-heating-solutions.html"],
+      "documentationSources": [
+        "https://www.viessmann-climatesolutions.com/en/energy-and-heating-solutions.html"
+      ],
       "sources": [
-        {"sourceId":"brand-viessmann-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_FOUNDING_YEAR_AND_CARRIER_RELATION","url":"https://www.viessmann-climatesolutions.com/en.html","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-viessmann-solutions","tier":"A","type":"OFFICIAL_SOLUTIONS_DIRECTORY","scope":"BUILDING_ENERGY_PRODUCT_SCOPE","url":"https://www.viessmann-climatesolutions.com/en/energy-and-heating-solutions.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "brand-viessmann-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_FOUNDING_YEAR_AND_CARRIER_RELATION",
+          "url": "https://www.viessmann-climatesolutions.com/en.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-viessmann-solutions",
+          "tier": "A",
+          "type": "OFFICIAL_SOLUTIONS_DIRECTORY",
+          "scope": "BUILDING_ENERGY_PRODUCT_SCOPE",
+          "url": "https://www.viessmann-climatesolutions.com/en/energy-and-heating-solutions.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "viking-extrusions",
       "officialName": "Viking Extrusions Ltd",
       "displayName": "Viking Extrusions",
-      "aliases": ["VIKING EXTRUSIONS", "VIKING EXTRUSIONS LTD"],
+      "aliases": [
+        "VIKING EXTRUSIONS",
+        "VIKING EXTRUSIONS LTD"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.vikingextrusions.co.uk/",
-      "officialDomains": ["vikingextrusions.co.uk"],
+      "officialDomains": [
+        "vikingextrusions.co.uk"
+      ],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": 1991,
       "parentCompany": null,
       "shortDescription": "Viking Extrusions manufactures silicone rubber extrusions and fabricated sealing components. Its official range covers profiles, tubing, strips, cord, sponge products, inflatable seals, oven-door seals, O-rings and gaskets.",
-      "fullDescription": ["Viking Extrusions is a UK manufacturer focused on silicone rubber profiles and related fabricated products. The manufacturer-owned site documents solid and sponge extrusions, tubing, cord and strip together with joined, cut and fabricated parts. Product groups include inflatable seals, oven-door seals, O-rings and gaskets for industrial applications that require shaped silicone components."],
-      "productCategories": ["Промышленные уплотнения", "Изделия из силикона"],
-      "productFamilies": ["Silicone Profiles", "Silicone Tubing", "Silicone Sponge", "Inflatable Seals", "Oven Door Seals", "O-Rings and Gaskets"],
+      "fullDescription": [
+        "Viking Extrusions is a UK manufacturer focused on silicone rubber profiles and related fabricated products. The manufacturer-owned site documents solid and sponge extrusions, tubing, cord and strip together with joined, cut and fabricated parts. Product groups include inflatable seals, oven-door seals, O-rings and gaskets for industrial applications that require shaped silicone components."
+      ],
+      "productCategories": [
+        "Промышленные уплотнения",
+        "Изделия из силикона"
+      ],
+      "productFamilies": [
+        "Silicone Profiles",
+        "Silicone Tubing",
+        "Silicone Sponge",
+        "Inflatable Seals",
+        "Oven Door Seals",
+        "O-Rings and Gaskets"
+      ],
       "series": [],
-      "industries": ["Промышленное производство"],
+      "industries": [
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.vikingextrusions.co.uk/"],
-      "sources": [{"sourceId":"brand-viking-extrusions-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_SILICONE_EXTRUSION_SCOPE","url":"https://www.vikingextrusions.co.uk/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.vikingextrusions.co.uk/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-viking-extrusions-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_SILICONE_EXTRUSION_SCOPE",
+          "url": "https://www.vikingextrusions.co.uk/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "vimarc",
       "officialName": "Vimarc Inc.",
       "displayName": "Vimarc",
-      "aliases": ["VIMARC", "VIMARC INC"],
+      "aliases": [
+        "VIMARC",
+        "VIMARC INC"
+      ],
       "formerNames": [],
       "officialWebsite": "https://vimarcusa.com/",
-      "officialDomains": ["vimarcusa.com", "friedrich-schwingtechnik.de"],
+      "officialDomains": [
+        "vimarcusa.com",
+        "friedrich-schwingtechnik.de"
+      ],
       "country": "United States",
       "headquarters": "Houston, Texas, United States",
       "foundedYear": null,
       "parentCompany": "FRIEDRICH Schwingtechnik GmbH",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Vimarc manufactures electric vibrator motors for industrial vibration applications. Current official-group documentation covers standard and application-specific vibration motors used to drive conveying, screening, dosing and compaction equipment.",
-      "fullDescription": ["Vimarc is a vibration-motor manufacturer represented through its Houston operation and the FRIEDRICH Schwingtechnik product group. Manufacturer documentation identifies Vimarc electric vibrator motors for integration into industrial machinery. The motors generate controlled vibration for material conveying, screening, feeding, dosing and compaction duties, with product documentation covering installation and operating requirements."],
-      "productCategories": ["Промышленные вибраторы", "Электродвигатели"],
-      "productFamilies": ["Electric Vibrator Motors"],
+      "fullDescription": [
+        "Vimarc is a vibration-motor manufacturer represented through its Houston operation and the FRIEDRICH Schwingtechnik product group. Manufacturer documentation identifies Vimarc electric vibrator motors for integration into industrial machinery. The motors generate controlled vibration for material conveying, screening, feeding, dosing and compaction duties, with product documentation covering installation and operating requirements."
+      ],
+      "productCategories": [
+        "Промышленные вибраторы",
+        "Электродвигатели"
+      ],
+      "productFamilies": [
+        "Electric Vibrator Motors"
+      ],
       "series": [],
-      "industries": ["Промышленная переработка", "Машиностроение"],
-      "officialCatalogs": ["https://www.friedrich-schwingtechnik.de/assets/downloads/vimarc_vibration_motors_RVS_FP_50_60hz_us.pdf"],
-      "documentationSources": ["https://www.friedrich-schwingtechnik.de/assets/downloads/vimarc_manual_vibration_motors_F_en.pdf"],
+      "industries": [
+        "Промышленная переработка",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://www.friedrich-schwingtechnik.de/assets/downloads/vimarc_vibration_motors_RVS_FP_50_60hz_us.pdf"
+      ],
+      "documentationSources": [
+        "https://www.friedrich-schwingtechnik.de/assets/downloads/vimarc_manual_vibration_motors_F_en.pdf"
+      ],
       "sources": [
-        {"sourceId":"brand-vimarc-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_VIMARC_INC_IDENTITY","url":"https://vimarcusa.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-vimarc-group-documentation","tier":"B","type":"OFFICIAL_GROUP_PRODUCT_DOCUMENT","scope":"ELECTRIC_VIBRATOR_MOTOR_PRODUCT_SCOPE","url":"https://www.friedrich-schwingtechnik.de/assets/downloads/vimarc_manual_vibration_motors_F_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "brand-vimarc-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_VIMARC_INC_IDENTITY",
+          "url": "https://vimarcusa.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-vimarc-group-documentation",
+          "tier": "B",
+          "type": "OFFICIAL_GROUP_PRODUCT_DOCUMENT",
+          "scope": "ELECTRIC_VIBRATOR_MOTOR_PRODUCT_SCOPE",
+          "url": "https://www.friedrich-schwingtechnik.de/assets/downloads/vimarc_manual_vibration_motors_F_en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "vip-air-empowerments",
       "officialName": "VIP Air Empowerment S.p.A.",
       "displayName": "VIP Air Empowerment",
-      "aliases": ["VIP AIR EMPOWERMENTS", "VIP AIR EMPOWERMENT", "VIP"],
+      "aliases": [
+        "VIP AIR EMPOWERMENTS",
+        "VIP AIR EMPOWERMENT",
+        "VIP"
+      ],
       "formerNames": [],
       "officialWebsite": "https://vip-fan.it/",
-      "officialDomains": ["vip-fan.it"],
+      "officialDomains": [
+        "vip-fan.it"
+      ],
       "country": "Italy",
       "headquarters": "Senago, Milan, Italy",
       "foundedYear": null,
       "parentCompany": "Multi-Wing Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "VIP Air Empowerment develops industrial ventilation components and systems. Its official range includes axial and radial fans, impellers, electronic devices, ducting, accessories and monitoring software.",
-      "fullDescription": ["VIP Air Empowerment is an Italian industrial-ventilation company within the Multi-Wing Group. The first-party site documents axial and radial fans, axial and radial impellers, electronic devices, air-conveying components, accessories and software for fan selection and operating-data analysis. The product scope covers standard and engineered ventilation assemblies for industrial equipment."],
-      "productCategories": ["Промышленные вентиляторы", "Промышленная электроника", "Промышленное программное обеспечение"],
-      "productFamilies": ["Axial Fans", "Radial Fans", "Axial Impellers", "Radial Impellers", "Electronic Devices", "Air Conveyors"],
-      "series": ["VIP ADAMS", "VIP ANALYZER"],
-      "industries": ["Промышленное производство", "Климатическое оборудование"],
+      "fullDescription": [
+        "VIP Air Empowerment is an Italian industrial-ventilation company within the Multi-Wing Group. The first-party site documents axial and radial fans, axial and radial impellers, electronic devices, air-conveying components, accessories and software for fan selection and operating-data analysis. The product scope covers standard and engineered ventilation assemblies for industrial equipment."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Промышленная электроника",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Axial Fans",
+        "Radial Fans",
+        "Axial Impellers",
+        "Radial Impellers",
+        "Electronic Devices",
+        "Air Conveyors"
+      ],
+      "series": [
+        "VIP ADAMS",
+        "VIP ANALYZER"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Климатическое оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://vip-fan.it/"],
-      "sources": [{"sourceId":"brand-vip-air-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_GROUP_RELATION_AND_FAN_PRODUCT_SCOPE","url":"https://vip-fan.it/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://vip-fan.it/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-vip-air-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_GROUP_RELATION_AND_FAN_PRODUCT_SCOPE",
+          "url": "https://vip-fan.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "vis-hydraulics",
       "officialName": "VIS Hydraulics S.r.l.",
       "displayName": "VIS Hydraulics",
-      "aliases": ["VIS HYDRAULICS", "VIS HYDRAULICS SRL"],
+      "aliases": [
+        "VIS HYDRAULICS",
+        "VIS HYDRAULICS SRL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.vishydraulics.com/",
-      "officialDomains": ["vishydraulics.com"],
+      "officialDomains": [
+        "vishydraulics.com"
+      ],
       "country": "Italy",
       "headquarters": "Pavullo nel Frignano, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "VIS Hydraulics manufactures screw-in hydraulic cartridge valves and related components. Its official catalogue covers check, flow-control, directional, pressure-control, proportional and solenoid-operated valves, coils and accessories.",
-      "fullDescription": ["VIS Hydraulics is an Italian manufacturer of cartridge-valve technology for hydraulic circuits. Its product directory groups check valves, flow controls, pilot-operated checks, directional valves, relief and reducing valves, compensators, sequence and shuttle valves, and proportional solenoid products. Coils and accessories complete the range for integration into manifolds and mobile or industrial hydraulic systems."],
-      "productCategories": ["Гидравлические клапаны", "Гидравлическое оборудование"],
-      "productFamilies": ["Check Valves", "Flow Controls", "Directional Valves", "Pressure Control Valves", "Proportional Solenoid Valves", "Coils and Accessories"],
+      "fullDescription": [
+        "VIS Hydraulics is an Italian manufacturer of cartridge-valve technology for hydraulic circuits. Its product directory groups check valves, flow controls, pilot-operated checks, directional valves, relief and reducing valves, compensators, sequence and shuttle valves, and proportional solenoid products. Coils and accessories complete the range for integration into manifolds and mobile or industrial hydraulic systems."
+      ],
+      "productCategories": [
+        "Гидравлические клапаны",
+        "Гидравлическое оборудование"
+      ],
+      "productFamilies": [
+        "Check Valves",
+        "Flow Controls",
+        "Directional Valves",
+        "Pressure Control Valves",
+        "Proportional Solenoid Valves",
+        "Coils and Accessories"
+      ],
       "series": [],
-      "industries": ["Мобильная техника", "Промышленное оборудование"],
+      "industries": [
+        "Мобильная техника",
+        "Промышленное оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.vishydraulics.com/en/product/list"],
-      "sources": [{"sourceId":"brand-vis-hydraulics-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_HYDRAULIC_CARTRIDGE_VALVE_SCOPE","url":"https://www.vishydraulics.com/en/product/list","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.vishydraulics.com/en/product/list"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-vis-hydraulics-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_HYDRAULIC_CARTRIDGE_VALVE_SCOPE",
+          "url": "https://www.vishydraulics.com/en/product/list",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "visam",
       "officialName": "VISAM",
       "displayName": "VISAM",
-      "aliases": ["VISAM", "VISAM MOTOVIBRATORS"],
+      "aliases": [
+        "VISAM",
+        "VISAM MOTOVIBRATORS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.olivibra.com/visam-motovibrators/",
-      "officialDomains": ["olivibra.com"],
+      "officialDomains": [
+        "olivibra.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1994,
       "parentCompany": "OLI",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "VISAM is an OLI brand for electric vibrator motors used in industrial machinery. The official brand page and current catalogue document motors for demanding vibration duties, including standard, variable-frequency, high-frequency and application-specific variants.",
-      "fullDescription": ["OLI presents VISAM as its Italian-made electric-motovibrator brand. The first-party brand material documents electric vibration motors intended to generate controlled movement in industrial equipment. The portfolio includes standard, compact, variable-frequency, high-frequency and special-purpose variants for machinery used in conveying, screening, feeding and compaction processes."],
-      "productCategories": ["Промышленные вибраторы", "Электродвигатели"],
-      "productFamilies": ["Electric Motovibrators", "Compact Vibrators", "Variable-Frequency Vibrators", "High-Frequency Vibrators"],
-      "series": ["SPV", "SPX", "AMV", "VFV", "VFC", "HFV", "HFC"],
-      "industries": ["Промышленная переработка", "Машиностроение"],
-      "officialCatalogs": ["https://app.olivibra.com/download/public/documents/1105"],
-      "documentationSources": ["https://www.olivibra.com/visam-motovibrators/"],
-      "sources": [{"sourceId":"brand-visam-parent-brand","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_VISAM_BRAND_IDENTITY_AND_ELECTRIC_MOTOVIBRATOR_SCOPE","url":"https://www.olivibra.com/visam-motovibrators/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "OLI presents VISAM as its Italian-made electric-motovibrator brand. The first-party brand material documents electric vibration motors intended to generate controlled movement in industrial equipment. The portfolio includes standard, compact, variable-frequency, high-frequency and special-purpose variants for machinery used in conveying, screening, feeding and compaction processes."
+      ],
+      "productCategories": [
+        "Промышленные вибраторы",
+        "Электродвигатели"
+      ],
+      "productFamilies": [
+        "Electric Motovibrators",
+        "Compact Vibrators",
+        "Variable-Frequency Vibrators",
+        "High-Frequency Vibrators"
+      ],
+      "series": [
+        "SPV",
+        "SPX",
+        "AMV",
+        "VFV",
+        "VFC",
+        "HFV",
+        "HFC"
+      ],
+      "industries": [
+        "Промышленная переработка",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://app.olivibra.com/download/public/documents/1105"
+      ],
+      "documentationSources": [
+        "https://www.olivibra.com/visam-motovibrators/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-visam-parent-brand",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_VISAM_BRAND_IDENTITY_AND_ELECTRIC_MOTOVIBRATOR_SCOPE",
+          "url": "https://www.olivibra.com/visam-motovibrators/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "volz-filters",
       "officialName": "VOLZ Luftfilter GmbH & Co. KG",
       "displayName": "VOLZ Filters",
-      "aliases": ["VOLZ FILTERS", "VOLZ", "VOLZ LUFTFILTER"],
+      "aliases": [
+        "VOLZ FILTERS",
+        "VOLZ",
+        "VOLZ LUFTFILTER"
+      ],
       "formerNames": [],
       "officialWebsite": "https://volzfilters.com/en",
-      "officialDomains": ["volzfilters.com"],
+      "officialDomains": [
+        "volzfilters.com"
+      ],
       "country": "Germany",
       "headquarters": "Horb am Neckar, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "VOLZ manufactures air filters and filtration media for building, medical, industrial and automotive applications. Its official range includes bag, frame, compact, HEPA, activated-carbon and high-temperature filters, housings and custom filter products.",
-      "fullDescription": ["VOLZ Luftfilter develops standardized and customer-specific air-filtration solutions. The manufacturer-owned product area covers filter media, bag and frame filters, compact and HEPA filters, activated-carbon and high-temperature filters, frames, housings and special designs. The range supports ventilation, clean-air and process-protection requirements across building systems and industrial installations."],
-      "productCategories": ["Фильтрационное оборудование", "Воздушные фильтры"],
-      "productFamilies": ["Bag Filters", "Frame Filters", "Compact Filters", "HEPA Filters", "Activated Carbon Filters", "High-Temperature Filters"],
+      "fullDescription": [
+        "VOLZ Luftfilter develops standardized and customer-specific air-filtration solutions. The manufacturer-owned product area covers filter media, bag and frame filters, compact and HEPA filters, activated-carbon and high-temperature filters, frames, housings and special designs. The range supports ventilation, clean-air and process-protection requirements across building systems and industrial installations."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Воздушные фильтры"
+      ],
+      "productFamilies": [
+        "Bag Filters",
+        "Frame Filters",
+        "Compact Filters",
+        "HEPA Filters",
+        "Activated Carbon Filters",
+        "High-Temperature Filters"
+      ],
       "series": [],
-      "industries": ["Инженерные системы зданий", "Медицинская промышленность", "Автомобильная промышленность", "Промышленное производство"],
+      "industries": [
+        "Инженерные системы зданий",
+        "Медицинская промышленность",
+        "Автомобильная промышленность",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://volzfilters.com/Produkte/Produktfinder/"],
-      "sources": [{"sourceId":"brand-volz-filters-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_AIR_FILTRATION_SCOPE","url":"https://volzfilters.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://volzfilters.com/Produkte/Produktfinder/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-volz-filters-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_AIR_FILTRATION_SCOPE",
+          "url": "https://volzfilters.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "voss",
       "officialName": "VOSS Holding GmbH + Co. KG",
       "displayName": "VOSS",
-      "aliases": ["VOSS FLUID GMBH", "VOSS", "VOSS FLUID"],
+      "aliases": [
+        "VOSS FLUID GMBH",
+        "VOSS",
+        "VOSS FLUID"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.voss.net/en/",
-      "officialDomains": ["voss.net"],
+      "officialDomains": [
+        "voss.net"
+      ],
       "country": "Germany",
       "headquarters": "Wipperfürth, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "VOSS develops fluid-management line and connection systems for mobile and stationary equipment. Its portfolio includes ready-to-install lines, quick connectors, tube couplings, valves, sensors, manifolds, measuring couplings and assembly tools.",
-      "fullDescription": ["VOSS develops and manufactures components and integrated systems for carrying and connecting fluids in vehicles, machines and stationary installations. The official product directory spans ready-to-install line assemblies, modules, quick-connect systems, tube couplings, valves, pressure and temperature sensors, manifolds, measuring couplings and pre-assembly tools. These product groups support hydraulic, pneumatic, fuel, coolant, hydrogen and other fluid circuits."],
-      "productCategories": ["Гидравлические соединения", "Промышленные клапаны", "Промышленные датчики", "Измерительное оборудование"],
-      "productFamilies": ["Ready-to-Install Lines", "Quick Connect Systems", "Tube Couplings", "Valves", "Sensors", "Measuring Couplings", "Manifolds"],
+      "fullDescription": [
+        "VOSS develops and manufactures components and integrated systems for carrying and connecting fluids in vehicles, machines and stationary installations. The official product directory spans ready-to-install line assemblies, modules, quick-connect systems, tube couplings, valves, pressure and temperature sensors, manifolds, measuring couplings and pre-assembly tools. These product groups support hydraulic, pneumatic, fuel, coolant, hydrogen and other fluid circuits."
+      ],
+      "productCategories": [
+        "Гидравлические соединения",
+        "Промышленные клапаны",
+        "Промышленные датчики",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Ready-to-Install Lines",
+        "Quick Connect Systems",
+        "Tube Couplings",
+        "Valves",
+        "Sensors",
+        "Measuring Couplings",
+        "Manifolds"
+      ],
       "series": [],
-      "industries": ["Автомобильная промышленность", "Мобильная техника", "Машиностроение", "Энергетика"],
+      "industries": [
+        "Автомобильная промышленность",
+        "Мобильная техника",
+        "Машиностроение",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.voss.net/en/products/"],
-      "sources": [{"sourceId":"brand-voss-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_GROUP_IDENTITY_AND_FLUID_MANAGEMENT_PRODUCT_SCOPE","url":"https://www.voss.net/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.voss.net/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-voss-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_FLUID_MANAGEMENT_PRODUCT_SCOPE",
+          "url": "https://www.voss.net/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "voumard",
       "officialName": "VOUMARD",
       "displayName": "VOUMARD",
-      "aliases": ["VOUMARD", "VOUMARD MACHINES"],
+      "aliases": [
+        "VOUMARD",
+        "VOUMARD MACHINES"
+      ],
       "formerNames": [],
       "officialWebsite": "https://kellenberger.com/brands/voumard/",
-      "officialDomains": ["kellenberger.com"],
+      "officialDomains": [
+        "kellenberger.com"
+      ],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": 1939,
       "parentCompany": "Kellenberger Switzerland AG",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "VOUMARD is a Kellenberger brand for precision internal and external cylindrical grinding machines. The current official brand page documents VM-series platforms for multi-purpose grinding of complex workpieces.",
-      "fullDescription": ["Kellenberger presents VOUMARD as a current precision-grinding brand with roots dating to 1939. Its official brand page focuses on machines that combine internal and external cylindrical grinding operations for complex components. Current VM platforms support applications in automotive, aerospace, bearing, tool and spindle production where multiple grinding processes must be integrated in one setup."],
-      "productCategories": ["Шлифовальные станки", "Станочное оборудование"],
-      "productFamilies": ["Internal and External Cylindrical Grinding Machines"],
-      "series": ["VOUMARD 30", "VOUMARD 1000"],
-      "industries": ["Автомобильная промышленность", "Аэрокосмическая промышленность", "Подшипниковая промышленность", "Машиностроение"],
+      "fullDescription": [
+        "Kellenberger presents VOUMARD as a current precision-grinding brand with roots dating to 1939. Its official brand page focuses on machines that combine internal and external cylindrical grinding operations for complex components. Current VM platforms support applications in automotive, aerospace, bearing, tool and spindle production where multiple grinding processes must be integrated in one setup."
+      ],
+      "productCategories": [
+        "Шлифовальные станки",
+        "Станочное оборудование"
+      ],
+      "productFamilies": [
+        "Internal and External Cylindrical Grinding Machines"
+      ],
+      "series": [
+        "VOUMARD 30",
+        "VOUMARD 1000"
+      ],
+      "industries": [
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Подшипниковая промышленность",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://kellenberger.com/brands/voumard/"],
-      "sources": [{"sourceId":"brand-voumard-parent-page","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_AND_PRECISION_GRINDING_SCOPE","url":"https://kellenberger.com/brands/voumard/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://kellenberger.com/brands/voumard/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-voumard-parent-page",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_PRECISION_GRINDING_SCOPE",
+          "url": "https://kellenberger.com/brands/voumard/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wabco",
       "officialName": "WABCO",
       "displayName": "WABCO",
-      "aliases": ["WABCO"],
+      "aliases": [
+        "WABCO"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.wabco-customercentre.com/catalog/en_US",
-      "officialDomains": ["wabco-customercentre.com"],
+      "officialDomains": [
+        "wabco-customercentre.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "ZF Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "WABCO is a ZF commercial-vehicle technology brand. Its official catalogue covers air supply and processing, braking and stability systems, wheel brakes, suspension controls, driveline controls, driver-assistance components and diagnostics.",
-      "fullDescription": ["WABCO is presented through ZF's current commercial-vehicle aftermarket and customer-centre infrastructure. The official catalogue organizes products for compressed-air generation and treatment, air-brake and electronic braking systems, wheel-end braking, suspension control, driveline control, advanced driver assistance and workshop diagnostics. The scope is focused on trucks, buses, trailers and related commercial-vehicle systems."],
-      "productCategories": ["Тормозные системы", "Пневматическое оборудование", "Диагностическое оборудование", "Промышленная автоматизация"],
-      "productFamilies": ["Air Supply and Processing", "Air Braking Systems", "Electronic Braking Systems", "Wheel Brakes", "Suspension Controls", "Driveline Controls", "Diagnostics"],
+      "fullDescription": [
+        "WABCO is presented through ZF's current commercial-vehicle aftermarket and customer-centre infrastructure. The official catalogue organizes products for compressed-air generation and treatment, air-brake and electronic braking systems, wheel-end braking, suspension control, driveline control, advanced driver assistance and workshop diagnostics. The scope is focused on trucks, buses, trailers and related commercial-vehicle systems."
+      ],
+      "productCategories": [
+        "Тормозные системы",
+        "Пневматическое оборудование",
+        "Диагностическое оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Air Supply and Processing",
+        "Air Braking Systems",
+        "Electronic Braking Systems",
+        "Wheel Brakes",
+        "Suspension Controls",
+        "Driveline Controls",
+        "Diagnostics"
+      ],
       "series": [],
-      "industries": ["Коммерческий транспорт", "Автомобильная промышленность"],
-      "officialCatalogs": ["https://www.wabco-customercentre.com/catalog/en_US"],
-      "documentationSources": ["https://www.wabco-customercentre.com/catalog/en_US"],
-      "sources": [{"sourceId":"brand-wabco-official-catalog","tier":"A","type":"OFFICIAL_BRAND_CATALOG","scope":"CURRENT_BRAND_IDENTITY_AND_COMMERCIAL_VEHICLE_SYSTEM_SCOPE","url":"https://www.wabco-customercentre.com/catalog/en_US","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Коммерческий транспорт",
+        "Автомобильная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.wabco-customercentre.com/catalog/en_US"
+      ],
+      "documentationSources": [
+        "https://www.wabco-customercentre.com/catalog/en_US"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wabco-official-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_CATALOG",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_COMMERCIAL_VEHICLE_SYSTEM_SCOPE",
+          "url": "https://www.wabco-customercentre.com/catalog/en_US",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wachenhausen",
       "officialName": "Louis Wachenhausen GmbH",
       "displayName": "Wachenhausen",
-      "aliases": ["WACHENHAUSEN GMBH", "WACHENHAUSEN", "LOUIS WACHENHAUSEN"],
+      "aliases": [
+        "WACHENHAUSEN GMBH",
+        "WACHENHAUSEN",
+        "LOUIS WACHENHAUSEN"
+      ],
       "formerNames": [],
       "officialWebsite": "https://wachenhausen.de/",
-      "officialDomains": ["wachenhausen.de"],
+      "officialDomains": [
+        "wachenhausen.de"
+      ],
       "country": "Germany",
       "headquarters": "Laatzen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Wachenhausen manufactures air reversing valves, electromagnetic friction clutches and brakes, and industrial electromagnets. The official product scope supports vacuum pumps, side-channel blowers and drive or control mechanisms.",
-      "fullDescription": ["Louis Wachenhausen GmbH is a German manufacturer of electromechanical and air-control components. Its first-party site documents reversing and changeover air valves used with vacuum pumps and side-channel blowers, electromagnetic friction clutches that brake under spring force when de-energized, and electromagnets for drive and control functions."],
-      "productCategories": ["Промышленные клапаны", "Промышленные муфты и тормоза", "Электромагниты"],
-      "productFamilies": ["Air Reversing Valves", "Electromagnetic Friction Clutches", "Electromagnets"],
+      "fullDescription": [
+        "Louis Wachenhausen GmbH is a German manufacturer of electromechanical and air-control components. Its first-party site documents reversing and changeover air valves used with vacuum pumps and side-channel blowers, electromagnetic friction clutches that brake under spring force when de-energized, and electromagnets for drive and control functions."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Промышленные муфты и тормоза",
+        "Электромагниты"
+      ],
+      "productFamilies": [
+        "Air Reversing Valves",
+        "Electromagnetic Friction Clutches",
+        "Electromagnets"
+      ],
       "series": [],
-      "industries": ["Вакуумная техника", "Машиностроение"],
+      "industries": [
+        "Вакуумная техника",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://wachenhausen.de/"],
-      "sources": [{"sourceId":"brand-wachenhausen-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_VALVE_CLUTCH_ELECTROMAGNET_SCOPE","url":"https://wachenhausen.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://wachenhausen.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wachenhausen-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_VALVE_CLUTCH_ELECTROMAGNET_SCOPE",
+          "url": "https://wachenhausen.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wafios",
       "officialName": "WAFIOS AG",
       "displayName": "WAFIOS",
-      "aliases": ["WAFIOS", "WAFIOS AG"],
+      "aliases": [
+        "WAFIOS",
+        "WAFIOS AG"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.wafios.com/en",
-      "officialDomains": ["wafios.com"],
+      "officialDomains": [
+        "wafios.com"
+      ],
       "country": "Germany",
       "headquarters": "Reutlingen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "WAFIOS manufactures machinery and software for processing wire and tube. Its official range includes spring coilers, wire and tube bending machines, straightening and cutting systems, chain-making machines, pay-off units and automation solutions.",
-      "fullDescription": ["WAFIOS AG develops production machinery for wire, tube, rods and profiles. The official machine directory documents equipment for spring coiling and grinding, two- and three-dimensional wire bending, tube bending and forming, straightening and cutting, chain bending and welding, and electrical-component production such as hairpins and busbars. Pay-off equipment, robotics and software support automated production cells."],
-      "productCategories": ["Станочное оборудование", "Промышленная автоматизация", "Промышленное программное обеспечение"],
-      "productFamilies": ["Spring Coiling Machines", "Wire Bending Machines", "Tube Bending Machines", "Straightening Machines", "Chain Manufacturing Machines", "Pay-Off Units", "Automation Solutions"],
+      "fullDescription": [
+        "WAFIOS AG develops production machinery for wire, tube, rods and profiles. The official machine directory documents equipment for spring coiling and grinding, two- and three-dimensional wire bending, tube bending and forming, straightening and cutting, chain bending and welding, and electrical-component production such as hairpins and busbars. Pay-off equipment, robotics and software support automated production cells."
+      ],
+      "productCategories": [
+        "Станочное оборудование",
+        "Промышленная автоматизация",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Spring Coiling Machines",
+        "Wire Bending Machines",
+        "Tube Bending Machines",
+        "Straightening Machines",
+        "Chain Manufacturing Machines",
+        "Pay-Off Units",
+        "Automation Solutions"
+      ],
       "series": [],
-      "industries": ["Металлообработка", "Автомобильная промышленность", "Промышленное производство"],
+      "industries": [
+        "Металлообработка",
+        "Автомобильная промышленность",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.wafios.com/en/machines"],
-      "sources": [{"sourceId":"brand-wafios-machines","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_WIRE_TUBE_PROCESSING_MACHINERY_SCOPE","url":"https://www.wafios.com/en/machines","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.wafios.com/en/machines"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wafios-machines",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_WIRE_TUBE_PROCESSING_MACHINERY_SCOPE",
+          "url": "https://www.wafios.com/en/machines",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wago",
       "officialName": "WAGO GmbH & Co. KG",
       "displayName": "WAGO",
-      "aliases": ["WAGO", "WAGO GMBH & CO. KG"],
+      "aliases": [
+        "WAGO",
+        "WAGO GMBH & CO. KG"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.wago.com/global/",
-      "officialDomains": ["wago.com"],
+      "officialDomains": [
+        "wago.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "WAGO develops electrical connection, interface-electronics and automation technology. Its official product worlds include terminal blocks, pluggable connectors, I/O systems, controllers, panels, signal conditioners, relays and power supplies.",
-      "fullDescription": ["WAGO combines conductor-connection technology with electronics and industrial automation. The manufacturer-owned directory covers installation, rail-mount and PCB terminal blocks, pluggable connectors and electrical interconnections. Its interface-electronics range includes signal conditioners, relay and optocoupler modules, power supplies and system wiring, while the automation portfolio spans I/O systems, controllers, displays, panels and software."],
-      "productCategories": ["Промышленные разъёмы", "Промышленная электроника", "Промышленная автоматизация", "Источники питания"],
-      "productFamilies": ["Terminal Blocks", "Pluggable Connectors", "Interface Electronics", "I/O Systems", "Controllers", "Touch Panels", "Power Supplies"],
+      "fullDescription": [
+        "WAGO combines conductor-connection technology with electronics and industrial automation. The manufacturer-owned directory covers installation, rail-mount and PCB terminal blocks, pluggable connectors and electrical interconnections. Its interface-electronics range includes signal conditioners, relay and optocoupler modules, power supplies and system wiring, while the automation portfolio spans I/O systems, controllers, displays, panels and software."
+      ],
+      "productCategories": [
+        "Промышленные разъёмы",
+        "Промышленная электроника",
+        "Промышленная автоматизация",
+        "Источники питания"
+      ],
+      "productFamilies": [
+        "Terminal Blocks",
+        "Pluggable Connectors",
+        "Interface Electronics",
+        "I/O Systems",
+        "Controllers",
+        "Touch Panels",
+        "Power Supplies"
+      ],
       "series": [],
-      "industries": ["Промышленная автоматизация", "Инженерные системы зданий", "Машиностроение"],
+      "industries": [
+        "Промышленная автоматизация",
+        "Инженерные системы зданий",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.wago.com/global/"],
-      "sources": [{"sourceId":"brand-wago-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_CONNECTION_INTERFACE_AUTOMATION_SCOPE","url":"https://www.wago.com/global/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.wago.com/global/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wago-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_CONNECTION_INTERFACE_AUTOMATION_SCOPE",
+          "url": "https://www.wago.com/global/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "walchem",
       "officialName": "Walchem",
       "displayName": "Walchem",
-      "aliases": ["WALCHEM"],
+      "aliases": [
+        "WALCHEM"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.walchem.com/",
-      "officialDomains": ["walchem.com"],
+      "officialDomains": [
+        "walchem.com"
+      ],
       "country": "United States",
-      "headquarters": null,
+      "headquarters": "Holliston, MA, United States",
       "foundedYear": null,
       "parentCompany": "Iwaki America Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Walchem develops water-treatment controllers, sensors, metering pumps and cloud-based management tools. Its official portfolio integrates sensing, chemical dosing and electronic control for industrial water-treatment systems.",
-      "fullDescription": ["Walchem is presented by Iwaki America as a water-treatment technology brand integrating sensor, pump and electronic control functions. The official site documents controllers for treatment processes, sensing and measurement products, chemical-metering pumps and software for managing connected controller installations. These components support controlled chemical addition and monitoring in industrial water systems."],
-      "productCategories": ["Оборудование для водоподготовки", "Дозирующие насосы", "Промышленные датчики", "Промышленная автоматизация"],
-      "productFamilies": ["Water Treatment Controllers", "Sensors", "Metering Pumps", "Water Treatment Management Software"],
+      "fullDescription": [
+        "Walchem is presented by Iwaki America as a water-treatment technology brand integrating sensor, pump and electronic control functions. The official site documents controllers for treatment processes, sensing and measurement products, chemical-metering pumps and software for managing connected controller installations. These components support controlled chemical addition and monitoring in industrial water systems."
+      ],
+      "productCategories": [
+        "Оборудование для водоподготовки",
+        "Дозирующие насосы",
+        "Промышленные датчики",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Water Treatment Controllers",
+        "Sensors",
+        "Metering Pumps",
+        "Water Treatment Management Software"
+      ],
       "series": [],
-      "industries": ["Водоподготовка", "Промышленная переработка"],
+      "industries": [
+        "Водоподготовка",
+        "Промышленная переработка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.walchem.com/"],
-      "sources": [{"sourceId":"brand-walchem-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_BRAND_IDENTITY_AND_WATER_TREATMENT_CONTROL_SCOPE","url":"https://www.walchem.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.walchem.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-walchem-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_WATER_TREATMENT_CONTROL_SCOPE",
+          "url": "https://www.walchem.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-walchem-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.walchem.com/key-contacts/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "walther-trowal",
       "officialName": "Walther Trowal GmbH & Co. KG",
       "displayName": "Walther Trowal",
-      "aliases": ["WALTHER TROWAL", "WALTHER TROWAL GMBH & CO. KG"],
+      "aliases": [
+        "WALTHER TROWAL",
+        "WALTHER TROWAL GMBH & CO. KG"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.walther-trowal.com/en/",
-      "officialDomains": ["walther-trowal.com"],
+      "officialDomains": [
+        "walther-trowal.com"
+      ],
       "country": "Germany",
       "headquarters": "Haan, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Walther Trowal develops industrial surface-treatment systems. Its official portfolio covers mass-finishing machines and media, shot-blasting equipment, small-part coating systems, process-water treatment and component-handling automation.",
-      "fullDescription": ["Walther Trowal supplies process technology for repeatable finishing of metal, plastic, rubber and ceramic workpieces. The manufacturer-owned site documents circular and trough vibratory machines, centrifugal and drag-finishing systems, media and compounds, together with shot-blasting and small-part coating equipment. Process-water treatment and automated part handling complete the production-system scope."],
-      "productCategories": ["Оборудование для обработки поверхности", "Дробеструйное оборудование", "Окрасочное оборудование", "Оборудование для очистки воды"],
-      "productFamilies": ["Mass Finishing Systems", "Shot Blasting Systems", "Small-Part Coating Systems", "Process Water Treatment", "Abrasive Media and Compounds"],
+      "fullDescription": [
+        "Walther Trowal supplies process technology for repeatable finishing of metal, plastic, rubber and ceramic workpieces. The manufacturer-owned site documents circular and trough vibratory machines, centrifugal and drag-finishing systems, media and compounds, together with shot-blasting and small-part coating equipment. Process-water treatment and automated part handling complete the production-system scope."
+      ],
+      "productCategories": [
+        "Оборудование для обработки поверхности",
+        "Дробеструйное оборудование",
+        "Окрасочное оборудование",
+        "Оборудование для очистки воды"
+      ],
+      "productFamilies": [
+        "Mass Finishing Systems",
+        "Shot Blasting Systems",
+        "Small-Part Coating Systems",
+        "Process Water Treatment",
+        "Abrasive Media and Compounds"
+      ],
       "series": [],
-      "industries": ["Металлообработка", "Автомобильная промышленность", "Аэрокосмическая промышленность", "Машиностроение"],
+      "industries": [
+        "Металлообработка",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.walther-trowal.com/en/mass-finishing-technology"],
-      "sources": [{"sourceId":"brand-walther-trowal-finishing","tier":"A","type":"OFFICIAL_TECHNOLOGY_PAGE","scope":"CURRENT_COMPANY_IDENTITY_AND_MASS_FINISHING_SYSTEM_SCOPE","url":"https://www.walther-trowal.com/en/mass-finishing-technology","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.walther-trowal.com/en/mass-finishing-technology"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-walther-trowal-finishing",
+          "tier": "A",
+          "type": "OFFICIAL_TECHNOLOGY_PAGE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_MASS_FINISHING_SYSTEM_SCOPE",
+          "url": "https://www.walther-trowal.com/en/mass-finishing-technology",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wampfler",
       "officialName": "Conductix-Wampfler GmbH",
       "displayName": "Conductix-Wampfler",
-      "aliases": ["WAMPFLER", "CONDUCTIX-WAMPFLER", "CONDUCTIX WAMPFLER"],
-      "formerNames": ["Wampfler"],
+      "aliases": [
+        "WAMPFLER",
+        "CONDUCTIX-WAMPFLER",
+        "CONDUCTIX WAMPFLER"
+      ],
+      "formerNames": [
+        "Wampfler"
+      ],
       "officialWebsite": "https://www.conductix.com/",
-      "officialDomains": ["conductix.com"],
+      "officialDomains": [
+        "conductix.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "statusModifier": "SUCCESSOR_IDENTITY",
       "shortDescription": "Conductix-Wampfler develops systems that transfer energy and data to moving equipment. Its official portfolio includes conductor rails, festoon systems, slip rings, rotary joints, inductive power transfer, motor-driven reels and spring reels.",
-      "fullDescription": ["The Wampfler identity continues within Conductix-Wampfler, a current supplier of mobile electrification and data-transfer systems. The official product directory covers conductor rails, cable and hose festoon systems, slip rings and rotary joints, contactless inductive power transfer, motor-driven reels and spring reels. These systems connect moving machines with electrical power, signals, data and fluid media."],
-      "productCategories": ["Системы электропитания", "Промышленные кабельные системы", "Промышленные разъёмы"],
-      "productFamilies": ["Conductor Rails", "Festoon Systems", "Slip Rings and Rotary Joints", "Inductive Power Transfer", "Motor-Driven Reels", "Spring Reels"],
+      "fullDescription": [
+        "The Wampfler identity continues within Conductix-Wampfler, a current supplier of mobile electrification and data-transfer systems. The official product directory covers conductor rails, cable and hose festoon systems, slip rings and rotary joints, contactless inductive power transfer, motor-driven reels and spring reels. These systems connect moving machines with electrical power, signals, data and fluid media."
+      ],
+      "productCategories": [
+        "Системы электропитания",
+        "Промышленные кабельные системы",
+        "Промышленные разъёмы"
+      ],
+      "productFamilies": [
+        "Conductor Rails",
+        "Festoon Systems",
+        "Slip Rings and Rotary Joints",
+        "Inductive Power Transfer",
+        "Motor-Driven Reels",
+        "Spring Reels"
+      ],
       "series": [],
-      "industries": ["Промышленная автоматизация", "Подъёмно-транспортное оборудование", "Интралогистика"],
+      "industries": [
+        "Промышленная автоматизация",
+        "Подъёмно-транспортное оборудование",
+        "Интралогистика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.conductix.com/products"],
-      "sources": [{"sourceId":"brand-wampfler-conductix-products","tier":"A","type":"OFFICIAL_SUCCESSOR_PRODUCT_DIRECTORY","scope":"SUCCESSOR_IDENTITY_AND_ENERGY_DATA_TRANSMISSION_SCOPE","url":"https://www.conductix.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.conductix.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wampfler-conductix-products",
+          "tier": "A",
+          "type": "OFFICIAL_SUCCESSOR_PRODUCT_DIRECTORY",
+          "scope": "SUCCESSOR_IDENTITY_AND_ENERGY_DATA_TRANSMISSION_SCOPE",
+          "url": "https://www.conductix.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "warcom",
       "officialName": "Warcom S.r.l.",
       "displayName": "Warcom",
-      "aliases": ["WARCOM", "WARCOM SRL"],
+      "aliases": [
+        "WARCOM",
+        "WARCOM SRL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://warcom.it/",
-      "officialDomains": ["warcom.it"],
+      "officialDomains": [
+        "warcom.it"
+      ],
       "country": "Italy",
       "headquarters": "Adro, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Warcom manufactures sheet-metal bending machinery. Its official product area documents hydraulic and electric press brakes for forming metal parts, with machine configurations for different lengths, forces and production requirements.",
-      "fullDescription": ["Warcom S.r.l. is an Italian machine-tool manufacturer focused on sheet-metal forming. The manufacturer-owned product page documents press brakes used to bend and form metal sheets. The range includes alternative machine configurations and control options intended for varied workpiece sizes, forming forces and production workflows."],
-      "productCategories": ["Листогибочные прессы", "Станочное оборудование"],
-      "productFamilies": ["Press Brakes"],
+      "fullDescription": [
+        "Warcom S.r.l. is an Italian machine-tool manufacturer focused on sheet-metal forming. The manufacturer-owned product page documents press brakes used to bend and form metal sheets. The range includes alternative machine configurations and control options intended for varied workpiece sizes, forming forces and production workflows."
+      ],
+      "productCategories": [
+        "Листогибочные прессы",
+        "Станочное оборудование"
+      ],
+      "productFamilies": [
+        "Press Brakes"
+      ],
       "series": [],
-      "industries": ["Металлообработка", "Машиностроение"],
+      "industries": [
+        "Металлообработка",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://warcom.it/warcom-products/press-brakes/?lang=en"],
-      "sources": [{"sourceId":"brand-warcom-press-brakes","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"CURRENT_COMPANY_IDENTITY_AND_PRESS_BRAKE_SCOPE","url":"https://warcom.it/warcom-products/press-brakes/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://warcom.it/warcom-products/press-brakes/?lang=en"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-warcom-press-brakes",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_PAGE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_PRESS_BRAKE_SCOPE",
+          "url": "https://warcom.it/warcom-products/press-brakes/?lang=en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "warex-valve",
       "officialName": "WAREX Valve GmbH",
       "displayName": "WAREX Valve",
-      "aliases": ["WAREX VALVE", "WAREX VALVE GMBH", "WAREX"],
+      "aliases": [
+        "WAREX VALVE",
+        "WAREX VALVE GMBH",
+        "WAREX"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.warex-valve.com/en/",
-      "officialDomains": ["warex-valve.com"],
+      "officialDomains": [
+        "warex-valve.com"
+      ],
       "country": "Germany",
       "headquarters": "Senden, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "WAREX Valve manufactures shut-off and process valves for liquids, gases and bulk solids. Its official portfolio includes butterfly, ball, pinch, rotary, flap and swing-check valves together with protection systems.",
-      "fullDescription": ["WAREX Valve GmbH develops industrial valves and systems for demanding process media. The official catalogue documents butterfly and ball valves, pinch valves, flap systems, rotary dosing valves, swing-check valves and protection systems. The products are applied to liquids, gases and abrasive bulk materials, including installations where dust-explosion protection is a design requirement."],
-      "productCategories": ["Промышленные клапаны", "Промышленная арматура"],
-      "productFamilies": ["Butterfly Valves", "Ball Valves", "Pinch Valves", "Rotary Valves", "Flap Systems", "Swing Check Valves"],
-      "series": ["DKZ", "DBV", "DQV", "DTS", "DRK"],
-      "industries": ["Химическая промышленность", "Производство аккумуляторов", "Переработка сыпучих материалов"],
+      "fullDescription": [
+        "WAREX Valve GmbH develops industrial valves and systems for demanding process media. The official catalogue documents butterfly and ball valves, pinch valves, flap systems, rotary dosing valves, swing-check valves and protection systems. The products are applied to liquids, gases and abrasive bulk materials, including installations where dust-explosion protection is a design requirement."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Промышленная арматура"
+      ],
+      "productFamilies": [
+        "Butterfly Valves",
+        "Ball Valves",
+        "Pinch Valves",
+        "Rotary Valves",
+        "Flap Systems",
+        "Swing Check Valves"
+      ],
+      "series": [
+        "DKZ",
+        "DBV",
+        "DQV",
+        "DTS",
+        "DRK"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Производство аккумуляторов",
+        "Переработка сыпучих материалов"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.warex-valve.com/en/produkte/"],
-      "sources": [{"sourceId":"brand-warex-valve-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_INDUSTRIAL_VALVE_SCOPE","url":"https://www.warex-valve.com/en/produkte/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.warex-valve.com/en/produkte/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-warex-valve-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_INDUSTRIAL_VALVE_SCOPE",
+          "url": "https://www.warex-valve.com/en/produkte/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "warren-rupp-inc",
       "officialName": "Warren Rupp, Inc.",
       "displayName": "Warren Rupp",
-      "aliases": ["WARREN RUPP INC", "WARREN RUPP", "WARREN RUPP, INC."],
+      "aliases": [
+        "WARREN RUPP INC",
+        "WARREN RUPP",
+        "WARREN RUPP, INC."
+      ],
       "formerNames": [],
       "officialWebsite": "https://warrenruppinc.com/",
-      "officialDomains": ["warrenruppinc.com"],
+      "officialDomains": [
+        "warrenruppinc.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": 1965,
       "parentCompany": "IDEX Corporation",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Warren Rupp develops air-operated and electrically operated double-diaphragm pumps. Its current official brand portfolio includes SANDPIPER, Versamatic and Cognito pump systems for demanding fluid-transfer duties.",
-      "fullDescription": ["Warren Rupp is a pump manufacturer within IDEX Corporation. Its first-party site presents air-operated double-diaphragm and electrically operated double-diaphragm technologies through the SANDPIPER, Versamatic and Cognito brands. The products are designed for fluid-transfer applications that benefit from self-priming diaphragm operation, solids handling and isolation of the pumped medium."],
-      "productCategories": ["Мембранные насосы", "Промышленные насосы"],
-      "productFamilies": ["Air-Operated Double-Diaphragm Pumps", "Electrically Operated Double-Diaphragm Pumps"],
-      "series": ["SANDPIPER", "Versamatic", "Cognito"],
-      "industries": ["Химическая промышленность", "Промышленная переработка"],
+      "fullDescription": [
+        "Warren Rupp is a pump manufacturer within IDEX Corporation. Its first-party site presents air-operated double-diaphragm and electrically operated double-diaphragm technologies through the SANDPIPER, Versamatic and Cognito brands. The products are designed for fluid-transfer applications that benefit from self-priming diaphragm operation, solids handling and isolation of the pumped medium."
+      ],
+      "productCategories": [
+        "Мембранные насосы",
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Air-Operated Double-Diaphragm Pumps",
+        "Electrically Operated Double-Diaphragm Pumps"
+      ],
+      "series": [
+        "SANDPIPER",
+        "Versamatic",
+        "Cognito"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Промышленная переработка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://warrenruppinc.com/"],
-      "sources": [{"sourceId":"brand-warren-rupp-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_DIAPHRAGM_PUMP_SCOPE","url":"https://warrenruppinc.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://warrenruppinc.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-warren-rupp-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_DIAPHRAGM_PUMP_SCOPE",
+          "url": "https://warrenruppinc.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "watson-marlow",
       "officialName": "Watson-Marlow Fluid Technology Solutions",
       "displayName": "Watson-Marlow",
-      "aliases": ["WATSON MARLOW", "WATSON-MARLOW", "WMFTS"],
+      "aliases": [
+        "WATSON MARLOW",
+        "WATSON-MARLOW",
+        "WMFTS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.wmfts.com/en/",
-      "officialDomains": ["wmfts.com"],
+      "officialDomains": [
+        "wmfts.com"
+      ],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Spirax Group",
       "statusModifier": "GROUP_COMPANY",
       "shortDescription": "Watson-Marlow Fluid Technology Solutions develops positive-displacement pumps and fluid-path technologies. Its portfolio includes peristaltic process and OEM pumps, hose and sinusoidal pumps, tubing, hoses, valves, single-use components and aseptic filling systems.",
-      "fullDescription": ["Watson-Marlow Fluid Technology Solutions combines pump and fluid-path brands for controlled transfer, metering and filling. The official product directory includes cased and panel-mount peristaltic pumps, chemical-metering pumps, hose pumps and sinusoidal pumps. Tubing, hoses, diaphragm valves, single-use assemblies and aseptic liquid-filling equipment extend the range into complete fluid-path applications."],
-      "productCategories": ["Перистальтические насосы", "Промышленные насосы", "Промышленные клапаны", "Фасовочное оборудование"],
-      "productFamilies": ["Peristaltic Pumps", "Hose Pumps", "Sinusoidal Pumps", "Tubing and Hoses", "Diaphragm Valves", "Aseptic Filling Systems"],
-      "series": ["Qdos", "100 Series", "300 Series", "500 Series", "600 Series", "700 Series", "800 Series"],
-      "industries": ["Фармацевтическая промышленность", "Пищевая промышленность", "Водоподготовка", "Химическая промышленность"],
+      "fullDescription": [
+        "Watson-Marlow Fluid Technology Solutions combines pump and fluid-path brands for controlled transfer, metering and filling. The official product directory includes cased and panel-mount peristaltic pumps, chemical-metering pumps, hose pumps and sinusoidal pumps. Tubing, hoses, diaphragm valves, single-use assemblies and aseptic liquid-filling equipment extend the range into complete fluid-path applications."
+      ],
+      "productCategories": [
+        "Перистальтические насосы",
+        "Промышленные насосы",
+        "Промышленные клапаны",
+        "Фасовочное оборудование"
+      ],
+      "productFamilies": [
+        "Peristaltic Pumps",
+        "Hose Pumps",
+        "Sinusoidal Pumps",
+        "Tubing and Hoses",
+        "Diaphragm Valves",
+        "Aseptic Filling Systems"
+      ],
+      "series": [
+        "Qdos",
+        "100 Series",
+        "300 Series",
+        "500 Series",
+        "600 Series",
+        "700 Series",
+        "800 Series"
+      ],
+      "industries": [
+        "Фармацевтическая промышленность",
+        "Пищевая промышленность",
+        "Водоподготовка",
+        "Химическая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.wmfts.com/en/products/"],
-      "sources": [{"sourceId":"brand-watson-marlow-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_POSITIVE_DISPLACEMENT_FLUID_PATH_SCOPE","url":"https://www.wmfts.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.wmfts.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-watson-marlow-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_POSITIVE_DISPLACEMENT_FLUID_PATH_SCOPE",
+          "url": "https://www.wmfts.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "watts-industries",
       "officialName": "Watts Water Technologies, Inc.",
       "displayName": "Watts",
-      "aliases": ["WATTS INDUSTRIES", "WATTS", "WATTS WATER TECHNOLOGIES"],
-      "formerNames": ["Watts Industries"],
+      "aliases": [
+        "WATTS INDUSTRIES",
+        "WATTS",
+        "WATTS WATER TECHNOLOGIES"
+      ],
+      "formerNames": [
+        "Watts Industries"
+      ],
       "officialWebsite": "https://www.watts.com/en/",
-      "officialDomains": ["watts.com"],
+      "officialDomains": [
+        "watts.com"
+      ],
       "country": "United States",
       "headquarters": "North Andover, Massachusetts, United States",
       "foundedYear": 1874,
       "parentCompany": null,
       "statusModifier": "SUCCESSOR_IDENTITY",
       "shortDescription": "Watts Water Technologies develops products and systems for controlling, treating, heating and draining water. The current Watts range covers plumbing and flow control, water quality, drainage, HVAC and hot-water solutions.",
-      "fullDescription": ["The former Watts Industries identity continues as Watts Water Technologies and the Watts commercial brand. Current first-party material documents water-related solutions for plumbing and flow control, filtration and treatment, drainage, heating and hot-water systems. The portfolio includes valves and safety devices, water-quality equipment, drainage components and thermal systems for commercial, industrial, municipal and residential installations."],
-      "productCategories": ["Промышленные клапаны", "Оборудование для водоподготовки", "Дренажное оборудование", "Тепловое оборудование"],
-      "productFamilies": ["Plumbing and Flow Control", "Water Quality and Treatment", "Drainage Systems", "HVAC and Hot Water"],
+      "fullDescription": [
+        "The former Watts Industries identity continues as Watts Water Technologies and the Watts commercial brand. Current first-party material documents water-related solutions for plumbing and flow control, filtration and treatment, drainage, heating and hot-water systems. The portfolio includes valves and safety devices, water-quality equipment, drainage components and thermal systems for commercial, industrial, municipal and residential installations."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Оборудование для водоподготовки",
+        "Дренажное оборудование",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Plumbing and Flow Control",
+        "Water Quality and Treatment",
+        "Drainage Systems",
+        "HVAC and Hot Water"
+      ],
       "series": [],
-      "industries": ["Инженерные системы зданий", "Водоснабжение", "Промышленная переработка"],
-      "officialCatalogs": ["https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/44640-source/639105617640000000/c-wq-dealer.pdf"],
-      "documentationSources": ["https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/44640-source/639105617640000000/c-wq-dealer.pdf"],
-      "sources": [{"sourceId":"brand-watts-current-corporate-profile","tier":"A","type":"OFFICIAL_CORPORATE_PRODUCT_DOCUMENT","scope":"SUCCESSOR_IDENTITY_AND_WATER_TECHNOLOGY_SCOPE","url":"https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/44640-source/639105617640000000/c-wq-dealer.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Инженерные системы зданий",
+        "Водоснабжение",
+        "Промышленная переработка"
+      ],
+      "officialCatalogs": [
+        "https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/44640-source/639105617640000000/c-wq-dealer.pdf"
+      ],
+      "documentationSources": [
+        "https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/44640-source/639105617640000000/c-wq-dealer.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-watts-current-corporate-profile",
+          "tier": "A",
+          "type": "OFFICIAL_CORPORATE_PRODUCT_DOCUMENT",
+          "scope": "SUCCESSOR_IDENTITY_AND_WATER_TECHNOLOGY_SCOPE",
+          "url": "https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/44640-source/639105617640000000/c-wq-dealer.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "waukesha-bearings",
       "officialName": "Waukesha Bearings",
       "displayName": "Waukesha Bearings",
-      "aliases": ["WAUKESHA BEARINGS", "WAUKESHA BEARING"],
+      "aliases": [
+        "WAUKESHA BEARINGS",
+        "WAUKESHA BEARING"
+      ],
       "formerNames": [],
       "officialWebsite": "https://prod.waukbearing.com/en/",
-      "officialDomains": ["waukbearing.com"],
+      "officialDomains": [
+        "waukbearing.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Dover Precision Components",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Waukesha Bearings develops engineered bearing and shaft-support systems for rotating machinery. Official product documentation covers tilting-pad thrust and journal bearings together with related bearing, seal and monitoring solutions.",
-      "fullDescription": ["Waukesha Bearings is a Dover Precision Components brand focused on engineered support systems for rotating shafts. Its official technical literature documents tilting-pad thrust bearings and the broader shaft-support portfolio used in turbomachinery and other critical rotating equipment. The range combines hydrodynamic bearing designs with complementary sealing and condition-monitoring technologies."],
-      "productCategories": ["Промышленные подшипники", "Системы уплотнения", "Системы мониторинга состояния"],
-      "productFamilies": ["Tilting-Pad Thrust Bearings", "Journal Bearings", "Bearing Systems", "Seal Systems", "Condition Monitoring"],
-      "series": ["MS Range"],
-      "industries": ["Энергетика", "Нефтегазовая промышленность", "Промышленное производство"],
-      "officialCatalogs": ["https://prod.waukbearing.com/content/dam/dpc/waukbearing/wb_downloads/product-lit/DHB5A-MS-Range-Tilting-Pad-Thrust-Bearings-ENA4.pdf"],
-      "documentationSources": ["https://prod.waukbearing.com/content/dam/dpc/waukbearing/wb_downloads/product-lit/DHB5A-MS-Range-Tilting-Pad-Thrust-Bearings-ENA4.pdf"],
-      "sources": [{"sourceId":"brand-waukesha-bearings-document","tier":"A","type":"OFFICIAL_PRODUCT_DOCUMENT","scope":"CURRENT_BRAND_IDENTITY_AND_ENGINEERED_BEARING_SCOPE","url":"https://prod.waukbearing.com/content/dam/dpc/waukbearing/wb_downloads/product-lit/DHB5A-MS-Range-Tilting-Pad-Thrust-Bearings-ENA4.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Waukesha Bearings is a Dover Precision Components brand focused on engineered support systems for rotating shafts. Its official technical literature documents tilting-pad thrust bearings and the broader shaft-support portfolio used in turbomachinery and other critical rotating equipment. The range combines hydrodynamic bearing designs with complementary sealing and condition-monitoring technologies."
+      ],
+      "productCategories": [
+        "Промышленные подшипники",
+        "Системы уплотнения",
+        "Системы мониторинга состояния"
+      ],
+      "productFamilies": [
+        "Tilting-Pad Thrust Bearings",
+        "Journal Bearings",
+        "Bearing Systems",
+        "Seal Systems",
+        "Condition Monitoring"
+      ],
+      "series": [
+        "MS Range"
+      ],
+      "industries": [
+        "Энергетика",
+        "Нефтегазовая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://prod.waukbearing.com/content/dam/dpc/waukbearing/wb_downloads/product-lit/DHB5A-MS-Range-Tilting-Pad-Thrust-Bearings-ENA4.pdf"
+      ],
+      "documentationSources": [
+        "https://prod.waukbearing.com/content/dam/dpc/waukbearing/wb_downloads/product-lit/DHB5A-MS-Range-Tilting-Pad-Thrust-Bearings-ENA4.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-waukesha-bearings-document",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DOCUMENT",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_ENGINEERED_BEARING_SCOPE",
+          "url": "https://prod.waukbearing.com/content/dam/dpc/waukbearing/wb_downloads/product-lit/DHB5A-MS-Range-Tilting-Pad-Thrust-Bearings-ENA4.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "weatherford",
       "officialName": "Weatherford International plc",
       "displayName": "Weatherford",
-      "aliases": ["WEATHERFORD", "WEATHERFORD INTERNATIONAL"],
+      "aliases": [
+        "WEATHERFORD",
+        "WEATHERFORD INTERNATIONAL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.weatherford.com/",
-      "officialDomains": ["weatherford.com"],
+      "officialDomains": [
+        "weatherford.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Weatherford provides equipment, technologies and services for well construction, drilling, evaluation, completions, production and intervention. Its official portfolio is organized around the full operating life of oil and gas wells.",
-      "fullDescription": ["Weatherford International supplies technologies and field services for developing and operating oil and gas wells. The official products-and-services directory groups the portfolio into drilling and evaluation, well construction and completions, and production and intervention. The documented scope includes downhole, surface, automation and digital technologies used to construct wells, evaluate formations, maintain integrity and optimize production."],
-      "productCategories": ["Нефтегазовое оборудование", "Буровое оборудование", "Промышленная автоматизация", "Промышленное программное обеспечение"],
-      "productFamilies": ["Drilling and Evaluation", "Well Construction and Completions", "Production and Intervention"],
+      "fullDescription": [
+        "Weatherford International supplies technologies and field services for developing and operating oil and gas wells. The official products-and-services directory groups the portfolio into drilling and evaluation, well construction and completions, and production and intervention. The documented scope includes downhole, surface, automation and digital technologies used to construct wells, evaluate formations, maintain integrity and optimize production."
+      ],
+      "productCategories": [
+        "Нефтегазовое оборудование",
+        "Буровое оборудование",
+        "Промышленная автоматизация",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Drilling and Evaluation",
+        "Well Construction and Completions",
+        "Production and Intervention"
+      ],
       "series": [],
-      "industries": ["Нефтегазовая промышленность"],
+      "industries": [
+        "Нефтегазовая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.weatherford.com/products-and-services/"],
-      "sources": [{"sourceId":"brand-weatherford-products-services","tier":"A","type":"OFFICIAL_PRODUCT_AND_SERVICE_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_WELL_LIFECYCLE_TECHNOLOGY_SCOPE","url":"https://www.weatherford.com/products-and-services/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.weatherford.com/products-and-services/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weatherford-products-services",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_AND_SERVICE_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_WELL_LIFECYCLE_TECHNOLOGY_SCOPE",
+          "url": "https://www.weatherford.com/products-and-services/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "webasto",
       "officialName": "Webasto SE",
       "displayName": "Webasto",
-      "aliases": ["WEBASTO", "WEBASTO SE"],
+      "aliases": [
+        "WEBASTO",
+        "WEBASTO SE"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.webasto.com/en-int/productfinder.html",
-      "officialDomains": ["webasto.com"],
+      "officialDomains": [
+        "webasto.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Webasto develops roof, thermal-management and electrification systems for vehicles and marine applications. Its official product finder covers roof systems, heating and cooling equipment, traction batteries and associated control products.",
-      "fullDescription": ["Webasto SE supplies systems integrated into road vehicles, off-highway machines and marine craft. The official product finder documents fixed and openable roof systems, air and coolant heaters, air-conditioning and cooling equipment, battery systems and supporting electronic controls. These technologies address passenger comfort, thermal management and vehicle electrification."],
-      "productCategories": ["Тепловое оборудование", "Климатическое оборудование", "Аккумуляторные системы", "Автомобильные компоненты"],
-      "productFamilies": ["Roof Systems", "Air Heaters", "Coolant Heaters", "Cooling and Air Conditioning", "Battery Systems"],
+      "fullDescription": [
+        "Webasto SE supplies systems integrated into road vehicles, off-highway machines and marine craft. The official product finder documents fixed and openable roof systems, air and coolant heaters, air-conditioning and cooling equipment, battery systems and supporting electronic controls. These technologies address passenger comfort, thermal management and vehicle electrification."
+      ],
+      "productCategories": [
+        "Тепловое оборудование",
+        "Климатическое оборудование",
+        "Аккумуляторные системы",
+        "Автомобильные компоненты"
+      ],
+      "productFamilies": [
+        "Roof Systems",
+        "Air Heaters",
+        "Coolant Heaters",
+        "Cooling and Air Conditioning",
+        "Battery Systems"
+      ],
       "series": [],
-      "industries": ["Автомобильная промышленность", "Морской транспорт", "Мобильная техника"],
+      "industries": [
+        "Автомобильная промышленность",
+        "Морской транспорт",
+        "Мобильная техника"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.webasto.com/en-int/productfinder.html"],
-      "sources": [{"sourceId":"brand-webasto-productfinder","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_VEHICLE_ROOF_THERMAL_BATTERY_SCOPE","url":"https://www.webasto.com/en-int/productfinder.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.webasto.com/en-int/productfinder.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-webasto-productfinder",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_VEHICLE_ROOF_THERMAL_BATTERY_SCOPE",
+          "url": "https://www.webasto.com/en-int/productfinder.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "webomatic",
       "officialName": "WEBOMATIC Maschinenfabrik GmbH",
       "displayName": "WEBOMATIC",
-      "aliases": ["WEBOMATIC", "WEBOMATIC MASCHINENFABRIK"],
+      "aliases": [
+        "WEBOMATIC",
+        "WEBOMATIC MASCHINENFABRIK"
+      ],
       "formerNames": [],
       "officialWebsite": "https://webomatic.de/en/home/",
-      "officialDomains": ["webomatic.de"],
+      "officialDomains": [
+        "webomatic.de"
+      ],
       "country": "Germany",
       "headquarters": "Bochum, Germany",
       "foundedYear": 1958,
       "parentCompany": null,
       "shortDescription": "WEBOMATIC manufactures vacuum-packaging machinery for food, medical and industrial products. Its official range includes chamber machines, tray sealers, thermoforming machines, shrink systems and complete packaging lines.",
-      "fullDescription": ["WEBOMATIC Maschinenfabrik develops vacuum-packaging systems manufactured in Germany. The official solutions directory covers table and chamber machines, chamber-belt equipment, tray sealers, thermoforming machines, shrinking and drying units, and integrated line solutions. The machinery is applied to food products as well as medical, industrial and consumer goods that require protective or controlled-atmosphere packaging."],
-      "productCategories": ["Упаковочное оборудование", "Вакуумное оборудование"],
-      "productFamilies": ["Chamber Machines", "Tray Sealers", "Thermoforming Machines", "Shrink Systems", "Packaging Lines"],
+      "fullDescription": [
+        "WEBOMATIC Maschinenfabrik develops vacuum-packaging systems manufactured in Germany. The official solutions directory covers table and chamber machines, chamber-belt equipment, tray sealers, thermoforming machines, shrinking and drying units, and integrated line solutions. The machinery is applied to food products as well as medical, industrial and consumer goods that require protective or controlled-atmosphere packaging."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Вакуумное оборудование"
+      ],
+      "productFamilies": [
+        "Chamber Machines",
+        "Tray Sealers",
+        "Thermoforming Machines",
+        "Shrink Systems",
+        "Packaging Lines"
+      ],
       "series": [],
-      "industries": ["Пищевая промышленность", "Медицинская промышленность", "Упаковочная промышленность"],
+      "industries": [
+        "Пищевая промышленность",
+        "Медицинская промышленность",
+        "Упаковочная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://webomatic.de/en/product/"],
-      "sources": [{"sourceId":"brand-webomatic-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_VACUUM_PACKAGING_MACHINERY_SCOPE","url":"https://webomatic.de/en/product/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://webomatic.de/en/product/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-webomatic-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_VACUUM_PACKAGING_MACHINERY_SCOPE",
+          "url": "https://webomatic.de/en/product/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "webtec",
       "officialName": "Webtec Products Limited",
       "displayName": "Webtec",
-      "aliases": ["WEBTEC", "WEBTEC PRODUCTS"],
+      "aliases": [
+        "WEBTEC",
+        "WEBTEC PRODUCTS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.webtec.com/",
-      "officialDomains": ["webtec.com"],
+      "officialDomains": [
+        "webtec.com"
+      ],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Webtec develops hydraulic measurement, test and control equipment. Its official range includes flow-control valves, portable hydraulic testers, flow and pressure instruments, dataloggers, sensors and test-stand instrumentation.",
-      "fullDescription": ["Webtec Products designs equipment used to measure, diagnose and control hydraulic systems. The official product directory covers pressure-compensated and directional control valves, portable hydraulic testers, flow meters, pressure and temperature instruments, dataloggers, sensors and data-acquisition equipment for test stands. The range supports commissioning, condition monitoring and performance analysis of hydraulic machinery."],
-      "productCategories": ["Гидравлические клапаны", "Измерительное оборудование", "Диагностическое оборудование", "Промышленные датчики"],
-      "productFamilies": ["Hydraulic Control Valves", "Portable Hydraulic Testers", "Flow Meters", "Hydraulic Dataloggers", "Condition Monitoring", "Test Stand Instrumentation"],
+      "fullDescription": [
+        "Webtec Products designs equipment used to measure, diagnose and control hydraulic systems. The official product directory covers pressure-compensated and directional control valves, portable hydraulic testers, flow meters, pressure and temperature instruments, dataloggers, sensors and data-acquisition equipment for test stands. The range supports commissioning, condition monitoring and performance analysis of hydraulic machinery."
+      ],
+      "productCategories": [
+        "Гидравлические клапаны",
+        "Измерительное оборудование",
+        "Диагностическое оборудование",
+        "Промышленные датчики"
+      ],
+      "productFamilies": [
+        "Hydraulic Control Valves",
+        "Portable Hydraulic Testers",
+        "Flow Meters",
+        "Hydraulic Dataloggers",
+        "Condition Monitoring",
+        "Test Stand Instrumentation"
+      ],
       "series": [],
-      "industries": ["Гидравлические системы", "Мобильная техника", "Промышленное производство"],
+      "industries": [
+        "Гидравлические системы",
+        "Мобильная техника",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.webtec.com/products/"],
-      "sources": [{"sourceId":"brand-webtec-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_HYDRAULIC_TEST_MEASUREMENT_CONTROL_SCOPE","url":"https://www.webtec.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.webtec.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-webtec-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_HYDRAULIC_TEST_MEASUREMENT_CONTROL_SCOPE",
+          "url": "https://www.webtec.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wedeco",
       "officialName": "Wedeco",
       "displayName": "Wedeco",
-      "aliases": ["WEDECO", "XYLEM WEDECO"],
+      "aliases": [
+        "WEDECO",
+        "XYLEM WEDECO"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.xylem.com/en-us/brand/wedeco/",
-      "officialDomains": ["xylem.com"],
+      "officialDomains": [
+        "xylem.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1976,
       "parentCompany": "Xylem Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Wedeco is a Xylem brand for ultraviolet disinfection, ozone oxidation and advanced oxidation water-treatment systems. Its official product range supports municipal and industrial drinking-water, wastewater and process-water applications.",
-      "fullDescription": ["Xylem presents Wedeco as a current water-treatment brand founded in Germany in 1976. The official portfolio covers ultraviolet disinfection reactors, UV lamps and controls, ozone-generation systems and advanced oxidation processes. These technologies treat drinking water, municipal wastewater and industrial process water without representing conventional chemical-dosing equipment."],
-      "productCategories": ["Системы УФ-дезинфекции воды", "Озонаторы", "Оборудование для водоподготовки"],
-      "productFamilies": ["UV Disinfection Systems", "Ozone Systems", "Advanced Oxidation Processes", "UV Lamps and Controls"],
-      "series": ["Duron", "Spektron", "LBX", "PDOevoPLUS", "SMOevoPLUS", "MiPro"],
-      "industries": ["Водоснабжение", "Очистка сточных вод", "Промышленная водоподготовка"],
+      "fullDescription": [
+        "Xylem presents Wedeco as a current water-treatment brand founded in Germany in 1976. The official portfolio covers ultraviolet disinfection reactors, UV lamps and controls, ozone-generation systems and advanced oxidation processes. These technologies treat drinking water, municipal wastewater and industrial process water without representing conventional chemical-dosing equipment."
+      ],
+      "productCategories": [
+        "Системы УФ-дезинфекции воды",
+        "Озонаторы",
+        "Оборудование для водоподготовки"
+      ],
+      "productFamilies": [
+        "UV Disinfection Systems",
+        "Ozone Systems",
+        "Advanced Oxidation Processes",
+        "UV Lamps and Controls"
+      ],
+      "series": [
+        "Duron",
+        "Spektron",
+        "LBX",
+        "PDOevoPLUS",
+        "SMOevoPLUS",
+        "MiPro"
+      ],
+      "industries": [
+        "Водоснабжение",
+        "Очистка сточных вод",
+        "Промышленная водоподготовка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.xylem.com/en-us/brand/wedeco/wedeco-products/"],
-      "sources": [{"sourceId":"brand-wedeco-parent-page","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_IDENTITY_AND_UV_OZONE_WATER_TREATMENT_SCOPE","url":"https://www.xylem.com/en-us/brand/wedeco/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.xylem.com/en-us/brand/wedeco/wedeco-products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wedeco-parent-page",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_UV_OZONE_WATER_TREATMENT_SCOPE",
+          "url": "https://www.xylem.com/en-us/brand/wedeco/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wegen",
       "officialName": "WEGEN GmbH",
       "displayName": "WEGEN",
-      "aliases": ["WEGEN", "WEGEN GMBH", "ROWEFLEX"],
+      "aliases": [
+        "WEGEN",
+        "WEGEN GMBH",
+        "ROWEFLEX"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.wegen.com/",
-      "officialDomains": ["wegen.com"],
+      "officialDomains": [
+        "wegen.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": 1973,
       "parentCompany": null,
       "shortDescription": "WEGEN develops flexible components and plant solutions for handling difficult bulk materials. Its ROWEFLEX portfolio includes flexible containers, discharge systems, compensators, dosing devices, filling systems and custom rubber components.",
-      "fullDescription": ["WEGEN GmbH designs and manufactures systems for processes involving free-flowing, adhesive and otherwise demanding bulk solids. The official site documents flexible containers, discharge and docking systems, filling and dosing equipment, weighing compensators and application-specific rubber components under the ROWEFLEX name. These solutions are used in food, pharmaceutical, chemical, rubber and plastics processing."],
-      "productCategories": ["Оборудование для сыпучих материалов", "Конвейерное оборудование", "Промышленные компенсаторы"],
-      "productFamilies": ["Flexible Containers", "Discharge Systems", "Filling Systems", "Dosing Devices", "Weighing Compensators", "Docking Systems"],
-      "series": ["ROWEFLEX"],
-      "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Химическая промышленность", "Резиновая промышленность", "Переработка пластмасс"],
+      "fullDescription": [
+        "WEGEN GmbH designs and manufactures systems for processes involving free-flowing, adhesive and otherwise demanding bulk solids. The official site documents flexible containers, discharge and docking systems, filling and dosing equipment, weighing compensators and application-specific rubber components under the ROWEFLEX name. These solutions are used in food, pharmaceutical, chemical, rubber and plastics processing."
+      ],
+      "productCategories": [
+        "Оборудование для сыпучих материалов",
+        "Конвейерное оборудование",
+        "Промышленные компенсаторы"
+      ],
+      "productFamilies": [
+        "Flexible Containers",
+        "Discharge Systems",
+        "Filling Systems",
+        "Dosing Devices",
+        "Weighing Compensators",
+        "Docking Systems"
+      ],
+      "series": [
+        "ROWEFLEX"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Химическая промышленность",
+        "Резиновая промышленность",
+        "Переработка пластмасс"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.wegen.com/"],
-      "sources": [{"sourceId":"brand-wegen-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_BULK_MATERIAL_HANDLING_SCOPE","url":"https://www.wegen.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.wegen.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wegen-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_BULK_MATERIAL_HANDLING_SCOPE",
+          "url": "https://www.wegen.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "weh",
       "officialName": "WEH FluidTech GmbH",
       "displayName": "WEH",
-      "aliases": ["WEH", "WEH FLUIDTECH"],
+      "aliases": [
+        "WEH",
+        "WEH FLUIDTECH"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.weh.com/",
-      "officialDomains": ["weh.com"],
+      "officialDomains": [
+        "weh.com"
+      ],
       "country": "Germany",
       "headquarters": "Illertissen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "WEH develops quick connectors and high-pressure fluid components for testing, filling and refuelling. Its official range includes quick connectors, ultra-high-pressure solutions, hydrogen and CNG refuelling components, check valves, filters and gas-system components.",
-      "fullDescription": ["WEH FluidTech manufactures connection technology for pressure testing, leak testing, filling and evacuation of gases and liquids. The official product directory covers tool-free quick connectors, ultra-high-pressure components, hydrogen and CNG refuelling nozzles and receptacles, check valves, filtration products and gas-system components. The systems are used in manufacturing, automotive, gas-processing and HVAC-R workflows."],
-      "productCategories": ["Промышленные быстроразъёмные соединения", "Промышленные клапаны", "Фильтрационное оборудование", "Оборудование высокого давления"],
-      "productFamilies": ["Quick Connectors", "Ultra-High-Pressure Solutions", "Hydrogen Refuelling Components", "CNG Refuelling Components", "Check Valves", "Gas Components"],
+      "fullDescription": [
+        "WEH FluidTech manufactures connection technology for pressure testing, leak testing, filling and evacuation of gases and liquids. The official product directory covers tool-free quick connectors, ultra-high-pressure components, hydrogen and CNG refuelling nozzles and receptacles, check valves, filtration products and gas-system components. The systems are used in manufacturing, automotive, gas-processing and HVAC-R workflows."
+      ],
+      "productCategories": [
+        "Промышленные быстроразъёмные соединения",
+        "Промышленные клапаны",
+        "Фильтрационное оборудование",
+        "Оборудование высокого давления"
+      ],
+      "productFamilies": [
+        "Quick Connectors",
+        "Ultra-High-Pressure Solutions",
+        "Hydrogen Refuelling Components",
+        "CNG Refuelling Components",
+        "Check Valves",
+        "Gas Components"
+      ],
       "series": [],
-      "industries": ["Автомобильная промышленность", "Газовая промышленность", "Промышленное производство", "Климатическое оборудование"],
-      "officialCatalogs": ["https://shop.weh.com/media/downloads/catalog/qc-catalog-en.pdf"],
-      "documentationSources": ["https://www.weh.com/quick-connectors"],
-      "sources": [{"sourceId":"brand-weh-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_HIGH_PRESSURE_CONNECTION_SCOPE","url":"https://www.weh.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Автомобильная промышленность",
+        "Газовая промышленность",
+        "Промышленное производство",
+        "Климатическое оборудование"
+      ],
+      "officialCatalogs": [
+        "https://shop.weh.com/media/downloads/catalog/qc-catalog-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.weh.com/quick-connectors"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weh-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_HIGH_PRESSURE_CONNECTION_SCOPE",
+          "url": "https://www.weh.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "wehrhahn",
       "officialName": "Wehrhahn GmbH",
       "displayName": "Wehrhahn",
-      "aliases": ["WEHRHAHN", "WEHRHAHN GMBH"],
+      "aliases": [
+        "WEHRHAHN",
+        "WEHRHAHN GMBH"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.wehrhahn.de/en/",
-      "officialDomains": ["wehrhahn.de"],
+      "officialDomains": [
+        "wehrhahn.de"
+      ],
       "country": "Germany",
-      "headquarters": null,
+      "headquarters": "Delmenhorst, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Wehrhahn engineers production plants for autoclaved aerated concrete, fibre cement and dry-mix building materials. Its official scope covers complete plants, process equipment and automation for these material-production lines.",
-      "fullDescription": ["Wehrhahn GmbH is a German plant-engineering company serving producers of construction materials. The manufacturer-owned site documents production plants for autoclaved aerated concrete, fibre-cement boards and dry-mix products such as mortar and adhesives. Its project scope combines material preparation, forming and processing machinery with control and automation for complete production lines."],
-      "productCategories": ["Оборудование для производства строительных материалов", "Промышленная автоматизация", "Технологические линии"],
-      "productFamilies": ["AAC Production Plants", "Fibre Cement Production Plants", "Dry Mix Production Plants"],
+      "fullDescription": [
+        "Wehrhahn GmbH is a German plant-engineering company serving producers of construction materials. The manufacturer-owned site documents production plants for autoclaved aerated concrete, fibre-cement boards and dry-mix products such as mortar and adhesives. Its project scope combines material preparation, forming and processing machinery with control and automation for complete production lines."
+      ],
+      "productCategories": [
+        "Оборудование для производства строительных материалов",
+        "Промышленная автоматизация",
+        "Технологические линии"
+      ],
+      "productFamilies": [
+        "AAC Production Plants",
+        "Fibre Cement Production Plants",
+        "Dry Mix Production Plants"
+      ],
       "series": [],
-      "industries": ["Промышленность строительных материалов", "Промышленное производство"],
+      "industries": [
+        "Промышленность строительных материалов",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.wehrhahn.de/en/"],
-      "sources": [{"sourceId":"brand-wehrhahn-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_BUILDING_MATERIAL_PLANT_SCOPE","url":"https://www.wehrhahn.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.wehrhahn.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wehrhahn-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_BUILDING_MATERIAL_PLANT_SCOPE",
+          "url": "https://www.wehrhahn.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-wehrhahn-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.wehrhahn.de/en/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "weightpack",
       "officialName": "Weightpack S.r.l.",
       "displayName": "Weightpack",
-      "aliases": ["WEIGHTPACK", "WEIGHTPACK SRL"],
+      "aliases": [
+        "WEIGHTPACK",
+        "WEIGHTPACK SRL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://weightpack.com/",
-      "officialDomains": ["weightpack.com"],
+      "officialDomains": [
+        "weightpack.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Weightpack designs and manufactures rotary net-weight filling and capping machinery. Its official solutions handle liquids, powders and granules in rigid containers, with integrated weighing, dosing, capping and line-control functions.",
-      "fullDescription": ["Weightpack develops packaging machinery based on net-weight filling technology. The manufacturer-owned application pages document rotary systems for liquids, powders and granules in glass, PET, HDPE, polypropylene, metal and other rigid containers. Filling controls, dosing devices and multiple capping options are integrated into high-throughput packaging-line configurations."],
-      "productCategories": ["Фасовочное оборудование", "Укупорочное оборудование", "Упаковочное оборудование"],
-      "productFamilies": ["Net Weight Fillers", "Powder and Granule Fillers", "Liquid Fillers", "Capping Systems"],
+      "fullDescription": [
+        "Weightpack develops packaging machinery based on net-weight filling technology. The manufacturer-owned application pages document rotary systems for liquids, powders and granules in glass, PET, HDPE, polypropylene, metal and other rigid containers. Filling controls, dosing devices and multiple capping options are integrated into high-throughput packaging-line configurations."
+      ],
+      "productCategories": [
+        "Фасовочное оборудование",
+        "Укупорочное оборудование",
+        "Упаковочное оборудование"
+      ],
+      "productFamilies": [
+        "Net Weight Fillers",
+        "Powder and Granule Fillers",
+        "Liquid Fillers",
+        "Capping Systems"
+      ],
       "series": [],
-      "industries": ["Пищевая промышленность", "Химическая промышленность", "Упаковочная промышленность"],
+      "industries": [
+        "Пищевая промышленность",
+        "Химическая промышленность",
+        "Упаковочная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://weightpack.com/fields-of-application/powders"],
-      "sources": [{"sourceId":"brand-weightpack-powders","tier":"A","type":"OFFICIAL_APPLICATION_PAGE","scope":"CURRENT_COMPANY_IDENTITY_AND_NET_WEIGHT_FILLING_CAPPING_SCOPE","url":"https://weightpack.com/fields-of-application/powders","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://weightpack.com/fields-of-application/powders"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weightpack-powders",
+          "tier": "A",
+          "type": "OFFICIAL_APPLICATION_PAGE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_NET_WEIGHT_FILLING_CAPPING_SCOPE",
+          "url": "https://weightpack.com/fields-of-application/powders",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "weima",
       "officialName": "WEIMA Maschinenbau GmbH",
       "displayName": "WEIMA",
-      "aliases": ["WEIMA", "WEIMA MASCHINENBAU"],
+      "aliases": [
+        "WEIMA",
+        "WEIMA MASCHINENBAU"
+      ],
       "formerNames": [],
       "officialWebsite": "https://weima.com/en/",
-      "officialDomains": ["weima.com"],
+      "officialDomains": [
+        "weima.com"
+      ],
       "country": "Germany",
       "headquarters": "Ilsfeld, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "WEIMA manufactures machinery for size reduction and compaction of production waste and recyclable materials. Its official range includes single- and multi-shaft shredders, granulators, briquetting presses and dewatering presses.",
-      "fullDescription": ["WEIMA Maschinenbau develops equipment for preparing wood, plastic, paper, metal, biomass and other residual materials for reuse or recycling. The manufacturer-owned portfolio covers single-shaft and multi-shaft shredders, granulators and heavy-duty size-reduction systems. Briquetting, packaging and dewatering presses compact loose or wet materials to reduce volume and simplify handling."],
-      "productCategories": ["Оборудование для переработки отходов", "Промышленные шредеры", "Прессовое оборудование"],
-      "productFamilies": ["Single-Shaft Shredders", "Multi-Shaft Shredders", "Granulators", "Briquetting Presses", "Dewatering Presses"],
-      "series": ["WL", "WLK", "M8", "WSM", "TH", "C"],
-      "industries": ["Переработка отходов", "Деревообработка", "Металлообработка", "Переработка пластмасс"],
+      "fullDescription": [
+        "WEIMA Maschinenbau develops equipment for preparing wood, plastic, paper, metal, biomass and other residual materials for reuse or recycling. The manufacturer-owned portfolio covers single-shaft and multi-shaft shredders, granulators and heavy-duty size-reduction systems. Briquetting, packaging and dewatering presses compact loose or wet materials to reduce volume and simplify handling."
+      ],
+      "productCategories": [
+        "Оборудование для переработки отходов",
+        "Промышленные шредеры",
+        "Прессовое оборудование"
+      ],
+      "productFamilies": [
+        "Single-Shaft Shredders",
+        "Multi-Shaft Shredders",
+        "Granulators",
+        "Briquetting Presses",
+        "Dewatering Presses"
+      ],
+      "series": [
+        "WL",
+        "WLK",
+        "M8",
+        "WSM",
+        "TH",
+        "C"
+      ],
+      "industries": [
+        "Переработка отходов",
+        "Деревообработка",
+        "Металлообработка",
+        "Переработка пластмасс"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://weima.com/en/about-weima/"],
-      "sources": [{"sourceId":"brand-weima-about-machines","tier":"A","type":"OFFICIAL_COMPANY_PRODUCT_PAGE","scope":"CURRENT_COMPANY_IDENTITY_AND_SHREDDING_COMPACTION_SCOPE","url":"https://weima.com/en/about-weima/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://weima.com/en/about-weima/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weima-about-machines",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_PRODUCT_PAGE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_SHREDDING_COMPACTION_SCOPE",
+          "url": "https://weima.com/en/about-weima/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "weintek",
       "officialName": "Weintek Labs., Inc.",
       "displayName": "Weintek",
-      "aliases": ["WEINTEK", "WEINTEK LABS"],
+      "aliases": [
+        "WEINTEK",
+        "WEINTEK LABS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.weintek.com/",
-      "officialDomains": ["weintek.com"],
+      "officialDomains": [
+        "weintek.com"
+      ],
       "country": "Taiwan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Weintek develops industrial human-machine interfaces and related automation software. Its official portfolio includes touchscreen HMIs, headless HMI servers, gateways, industrial monitors, remote-access services and EasyBuilder Pro engineering software.",
-      "fullDescription": ["Weintek Labs develops operator-interface hardware and software for industrial automation. The official site documents cMT and iP touchscreen HMI families, headless HMI servers, gateways, industrial displays and modular I/O products. EasyBuilder Pro engineering software and Weincloud services provide project configuration, protocol connectivity, remote monitoring and data integration."],
-      "productCategories": ["Панели оператора HMI", "Промышленная автоматизация", "Промышленное программное обеспечение", "Промышленные шлюзы"],
-      "productFamilies": ["Touchscreen HMIs", "Headless HMI Servers", "Industrial Gateways", "Industrial Monitors", "HMI Software", "Cloud Services"],
-      "series": ["cMT X", "cMT", "iP", "iR", "EasyBuilder Pro", "Weincloud"],
-      "industries": ["Промышленная автоматизация", "Машиностроение", "Энергетика"],
+      "fullDescription": [
+        "Weintek Labs develops operator-interface hardware and software for industrial automation. The official site documents cMT and iP touchscreen HMI families, headless HMI servers, gateways, industrial displays and modular I/O products. EasyBuilder Pro engineering software and Weincloud services provide project configuration, protocol connectivity, remote monitoring and data integration."
+      ],
+      "productCategories": [
+        "Панели оператора HMI",
+        "Промышленная автоматизация",
+        "Промышленное программное обеспечение",
+        "Промышленные шлюзы"
+      ],
+      "productFamilies": [
+        "Touchscreen HMIs",
+        "Headless HMI Servers",
+        "Industrial Gateways",
+        "Industrial Monitors",
+        "HMI Software",
+        "Cloud Services"
+      ],
+      "series": [
+        "cMT X",
+        "cMT",
+        "iP",
+        "iR",
+        "EasyBuilder Pro",
+        "Weincloud"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.weintek.com/Download/Specification"],
-      "sources": [{"sourceId":"brand-weintek-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_COMPANY_IDENTITY_AND_HMI_AUTOMATION_SCOPE","url":"https://www.weintek.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.weintek.com/Download/Specification"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weintek-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_HMI_AUTOMATION_SCOPE",
+          "url": "https://www.weintek.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "weka-ag",
       "officialName": "WEKA AG",
       "displayName": "WEKA",
-      "aliases": ["WEKA AG", "WEKA"],
+      "aliases": [
+        "WEKA AG",
+        "WEKA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://weka-ag.com/en/",
-      "officialDomains": ["weka-ag.com"],
+      "officialDomains": [
+        "weka-ag.com"
+      ],
       "country": "Switzerland",
       "headquarters": "Bäretswil, Switzerland",
       "foundedYear": 1940,
       "parentCompany": null,
       "shortDescription": "WEKA AG develops cryogenic valves, flow-control components and level-measurement technology. Its official range includes control, shut-off and check valves, quench valves, transfer-line couplings, ejectors and float-based level indicators.",
-      "fullDescription": ["WEKA AG is a Swiss manufacturer of components for cryogenic and demanding process applications. The official product directory covers control and shut-off valves, check and quench valves, transfer-line couplings and ejectors for low-temperature fluids and technical gases. A second product area provides bypass, top-of-tank and in-tank float level instruments with switches, transmitters and accessories."],
-      "productCategories": ["Промышленные клапаны", "Криогенное оборудование", "Измерительное оборудование", "Датчики уровня"],
-      "productFamilies": ["Control and Shut-Off Valves", "Check Valves", "Quench Valves", "Transfer Line Couplings", "Ejectors", "Bypass Level Indicators", "In-Tank Level Instruments"],
-      "series": ["EconomyLine", "SmartLine", "StandardLine", "HighPressureLine", "PetroLine", "HeavyDutyLine"],
-      "industries": ["Химическая промышленность", "Нефтегазовая промышленность", "Энергетика", "Исследовательская инфраструктура", "Морская промышленность"],
+      "fullDescription": [
+        "WEKA AG is a Swiss manufacturer of components for cryogenic and demanding process applications. The official product directory covers control and shut-off valves, check and quench valves, transfer-line couplings and ejectors for low-temperature fluids and technical gases. A second product area provides bypass, top-of-tank and in-tank float level instruments with switches, transmitters and accessories."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Криогенное оборудование",
+        "Измерительное оборудование",
+        "Датчики уровня"
+      ],
+      "productFamilies": [
+        "Control and Shut-Off Valves",
+        "Check Valves",
+        "Quench Valves",
+        "Transfer Line Couplings",
+        "Ejectors",
+        "Bypass Level Indicators",
+        "In-Tank Level Instruments"
+      ],
+      "series": [
+        "EconomyLine",
+        "SmartLine",
+        "StandardLine",
+        "HighPressureLine",
+        "PetroLine",
+        "HeavyDutyLine"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика",
+        "Исследовательская инфраструктура",
+        "Морская промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://weka-ag.com/en/products/downloads/"],
-      "sources": [{"sourceId":"brand-weka-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_COMPANY_IDENTITY_AND_CRYOGENIC_VALVE_LEVEL_MEASUREMENT_SCOPE","url":"https://weka-ag.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://weka-ag.com/en/products/downloads/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weka-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_COMPANY_IDENTITY_AND_CRYOGENIC_VALVE_LEVEL_MEASUREMENT_SCOPE",
+          "url": "https://weka-ag.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "welding-alloys-group",
       "officialName": "Welding Alloys Group",
       "displayName": "Welding Alloys",
-      "aliases": ["WELDING ALLOYS GROUP", "WELDING ALLOYS"],
+      "aliases": [
+        "WELDING ALLOYS GROUP",
+        "WELDING ALLOYS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.welding-alloys.com/",
-      "officialDomains": ["welding-alloys.com"],
+      "officialDomains": [
+        "welding-alloys.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": 1966,
       "parentCompany": null,
       "shortDescription": "Welding Alloys manufactures welding consumables, automated welding machines and engineered wear-protection products. Its official offer includes welding wires, hardfacing and cladding equipment, wear plates, pipes, components and repair services.",
-      "fullDescription": ["Welding Alloys Group develops products and services for joining, rebuilding and protecting industrial components against wear. The official portfolio covers welding consumables, automated equipment for hardfacing, cladding and joining, and fabricated wear plates, pipes and components. Engineered workshop and on-site services apply these technologies to repair equipment and extend component service life."],
-      "productCategories": ["Сварочные материалы", "Сварочное оборудование", "Износостойкие материалы", "Ремонтное оборудование"],
-      "productFamilies": ["Welding Consumables", "Automated Welding Machines", "Wear Plates", "Wear Pipes and Components", "Engineered Wear Services"],
+      "fullDescription": [
+        "Welding Alloys Group develops products and services for joining, rebuilding and protecting industrial components against wear. The official portfolio covers welding consumables, automated equipment for hardfacing, cladding and joining, and fabricated wear plates, pipes and components. Engineered workshop and on-site services apply these technologies to repair equipment and extend component service life."
+      ],
+      "productCategories": [
+        "Сварочные материалы",
+        "Сварочное оборудование",
+        "Износостойкие материалы",
+        "Ремонтное оборудование"
+      ],
+      "productFamilies": [
+        "Welding Consumables",
+        "Automated Welding Machines",
+        "Wear Plates",
+        "Wear Pipes and Components",
+        "Engineered Wear Services"
+      ],
       "series": [],
-      "industries": ["Цементная промышленность", "Горнодобывающая промышленность", "Энергетика", "Переработка отходов", "Металлообработка"],
-      "officialCatalogs": ["https://www.welding-alloys.com/library/corporate-brochure/"],
-      "documentationSources": ["https://www.welding-alloys.com/library/corporate-brochure/"],
-      "sources": [{"sourceId":"brand-welding-alloys-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_GROUP_IDENTITY_AND_WELDING_WEAR_PROTECTION_SCOPE","url":"https://www.welding-alloys.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Цементная промышленность",
+        "Горнодобывающая промышленность",
+        "Энергетика",
+        "Переработка отходов",
+        "Металлообработка"
+      ],
+      "officialCatalogs": [
+        "https://www.welding-alloys.com/library/corporate-brochure/"
+      ],
+      "documentationSources": [
+        "https://www.welding-alloys.com/library/corporate-brochure/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-welding-alloys-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_WELDING_WEAR_PROTECTION_SCOPE",
+          "url": "https://www.welding-alloys.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     }
   ]
 }

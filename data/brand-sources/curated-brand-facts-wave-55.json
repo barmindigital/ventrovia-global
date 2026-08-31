@@ -1,124 +1,1213 @@
 {
-  "checkedAt":"2026-08-20",
-  "blockedIdentities":[
-    {"manufacturerId":"tyco-kunkle-valves","reason":"AMBIGUOUS_IDENTITY","detail":"The raw TYCO VALVES record combines a former corporate identity with Kunkle branding; current official ownership and the intended canonical page cannot be established safely from the record alone."},
-    {"manufacturerId":"autel","reason":"AMBIGUOUS_IDENTITY","detail":"AUTEL is used by unrelated automotive-diagnostics, automation and industrial businesses; the raw record does not identify one manufacturer-owned product portfolio."},
-    {"manufacturerId":"b-systems","reason":"AMBIGUOUS_IDENTITY","detail":"B SYSTEMS is too generic to resolve to one manufacturer-owned domain without independent identity evidence."},
-    {"manufacturerId":"backtech","reason":"AMBIGUOUS_IDENTITY","detail":"BACKTECH can refer to multiple bakery and industrial-technology entities; no exact manufacturer-owned identity relation is proven."},
-    {"manufacturerId":"behringer","reason":"AMBIGUOUS_IDENTITY","detail":"BEHRINGER is shared by unrelated saw, pump and audio-equipment manufacturers; the raw record cannot be disambiguated safely."}
+  "checkedAt": "2026-08-20",
+  "blockedIdentities": [
+    {
+      "manufacturerId": "tyco-kunkle-valves",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "The raw TYCO VALVES record combines a former corporate identity with Kunkle branding; current official ownership and the intended canonical page cannot be established safely from the record alone."
+    },
+    {
+      "manufacturerId": "autel",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "AUTEL is used by unrelated automotive-diagnostics, automation and industrial businesses; the raw record does not identify one manufacturer-owned product portfolio."
+    },
+    {
+      "manufacturerId": "b-systems",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "B SYSTEMS is too generic to resolve to one manufacturer-owned domain without independent identity evidence."
+    },
+    {
+      "manufacturerId": "backtech",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "BACKTECH can refer to multiple bakery and industrial-technology entities; no exact manufacturer-owned identity relation is proven."
+    },
+    {
+      "manufacturerId": "behringer",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "BEHRINGER is shared by unrelated saw, pump and audio-equipment manufacturers; the raw record cannot be disambiguated safely."
+    }
   ],
-  "profiles":[
+  "profiles": [
     {
-      "manufacturerId":"roper-pump","officialName":"Roper Pump Company","displayName":"Roper Pumps","aliases":["ROPER PUMPS","Roper Pump"],"formerNames":[],"officialWebsite":"https://roperpumps.com/","officialDomains":["roperpumps.com"],"country":"United States","headquarters":"Commerce, Georgia, United States","foundedYear":1857,"parentCompany":null,
-      "shortDescription":"Roper Pump manufactures positive-displacement pumps for industrial and transport duties. Its range includes gear, lobe and progressing-cavity pumps plus fuel pumps and flow dividers.",
-      "fullDescription":["Roper Pump Company is a US pump manufacturer whose official material traces the business to 1857. The company designs and manufactures positive-displacement pumping equipment in Commerce, Georgia.","Product families include helical gear and lobe pumps, progressing-cavity pumps, bulk-liquid transfer systems, power-generation fuel pumps and flow dividers. Named ranges serve oil and gas, transport, chemical, food, agriculture, mining and power applications."],
-      "productCategories":["Шестеренные насосы","Кулачковые насосы","Винтовые насосы","Топливные насосы","Делители потока"],"productFamilies":["Gear and Lobe Pumps","Progressing-Cavity Pumps","Bulk-Liquid Pumps","Fuel Pumps","Flow Dividers"],"series":["3600","3600 EVO","eX","Rockworx","XERIC","XT3"],"industries":["Нефтегазовая промышленность","Транспорт","Химическая промышленность","Пищевая промышленность","Энергетика"],"officialCatalogs":["https://roperpumps.com/download/3050/54/11507/ae-series-brochure-page-10"],"documentationSources":["https://roperpumps.com/"],
-      "sources":[{"sourceId":"brand-roper-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_MARKETS","url":"https://roperpumps.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-roper-brochure","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"PUMP_TECHNOLOGIES_AND_HISTORY","url":"https://roperpumps.com/download/3050/54/11507/ae-series-brochure-page-10","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "roper-pump",
+      "officialName": "Roper Pump Company",
+      "displayName": "Roper Pumps",
+      "aliases": [
+        "ROPER PUMPS",
+        "Roper Pump"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://roperpumps.com/",
+      "officialDomains": [
+        "roperpumps.com"
+      ],
+      "country": "United States",
+      "headquarters": "Commerce, Georgia, United States",
+      "foundedYear": 1857,
+      "parentCompany": null,
+      "shortDescription": "Roper Pump manufactures positive-displacement pumps for industrial and transport duties. Its range includes gear, lobe and progressing-cavity pumps plus fuel pumps and flow dividers.",
+      "fullDescription": [
+        "Roper Pump Company is a US pump manufacturer whose official material traces the business to 1857. The company designs and manufactures positive-displacement pumping equipment in Commerce, Georgia.",
+        "Product families include helical gear and lobe pumps, progressing-cavity pumps, bulk-liquid transfer systems, power-generation fuel pumps and flow dividers. Named ranges serve oil and gas, transport, chemical, food, agriculture, mining and power applications."
+      ],
+      "productCategories": [
+        "Шестеренные насосы",
+        "Кулачковые насосы",
+        "Винтовые насосы",
+        "Топливные насосы",
+        "Делители потока"
+      ],
+      "productFamilies": [
+        "Gear and Lobe Pumps",
+        "Progressing-Cavity Pumps",
+        "Bulk-Liquid Pumps",
+        "Fuel Pumps",
+        "Flow Dividers"
+      ],
+      "series": [
+        "3600",
+        "3600 EVO",
+        "eX",
+        "Rockworx",
+        "XERIC",
+        "XT3"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Транспорт",
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://roperpumps.com/download/3050/54/11507/ae-series-brochure-page-10"
+      ],
+      "documentationSources": [
+        "https://roperpumps.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-roper-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_MARKETS",
+          "url": "https://roperpumps.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-roper-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "PUMP_TECHNOLOGIES_AND_HISTORY",
+          "url": "https://roperpumps.com/download/3050/54/11507/ae-series-brochure-page-10",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"servotronix","officialName":"Servotronix Motion Control","displayName":"Servotronix","aliases":["SERVOTRONIX"],"formerNames":[],"officialWebsite":"https://www.servotronix.cn/en/index","officialDomains":["servotronix.cn","servotronix.com"],"country":null,"headquarters":null,"foundedYear":1987,"parentCompany":"Midea Group","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Servotronix develops servo drives, servo motors, motion controllers and integrated motion products. Its systems support precision automation in semiconductor, robotics, machine-tool and manufacturing equipment.",
-      "fullDescription":["Servotronix Motion Control was founded in Israel in 1987 and now operates as a Midea Group motion-control brand. Official pages describe an integrated portfolio for servo and machine-control applications.","The product range includes compact and high-performance motion controllers, single- and multi-axis servo drives, rotary and linear servo motors, integrated motors, encoders and I/O modules. Named platforms include softMC, CDHD, LDHD, SmartPX and PH motor series."],
-      "productCategories":["Сервоприводы","Серводвигатели","Контроллеры движения","Промышленная автоматизация","Энкодеры"],"productFamilies":["Motion Controllers","Servo Drives","Servo Motors","Integrated Motors","Encoders","I/O Modules"],"series":["softMC","CDHD","LDHD","SmartPX","PH","BD3E"],"industries":["Полупроводниковая промышленность","Робототехника","Станкостроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.servotronix.cn/en/product?categoryId=100233"],
-      "sources":[{"sourceId":"brand-servotronix-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_PRODUCT_GROUPS_SERIES_AND_APPLICATIONS","url":"https://www.servotronix.cn/en/index","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-servotronix-history","tier":"A","type":"ABOUT","scope":"FOUNDING_OWNERSHIP_AND_BRAND_HISTORY","url":"https://www.servotronix.cn/en/About-us/about-brands","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "servotronix",
+      "officialName": "Servotronix Motion Control",
+      "displayName": "Servotronix",
+      "aliases": [
+        "SERVOTRONIX"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.servotronix.cn/en/index",
+      "officialDomains": [
+        "servotronix.cn",
+        "servotronix.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": 1987,
+      "parentCompany": "Midea Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Servotronix develops servo drives, servo motors, motion controllers and integrated motion products. Its systems support precision automation in semiconductor, robotics, machine-tool and manufacturing equipment.",
+      "fullDescription": [
+        "Servotronix Motion Control was founded in Israel in 1987 and now operates as a Midea Group motion-control brand. Official pages describe an integrated portfolio for servo and machine-control applications.",
+        "The product range includes compact and high-performance motion controllers, single- and multi-axis servo drives, rotary and linear servo motors, integrated motors, encoders and I/O modules. Named platforms include softMC, CDHD, LDHD, SmartPX and PH motor series."
+      ],
+      "productCategories": [
+        "Сервоприводы",
+        "Серводвигатели",
+        "Контроллеры движения",
+        "Промышленная автоматизация",
+        "Энкодеры"
+      ],
+      "productFamilies": [
+        "Motion Controllers",
+        "Servo Drives",
+        "Servo Motors",
+        "Integrated Motors",
+        "Encoders",
+        "I/O Modules"
+      ],
+      "series": [
+        "softMC",
+        "CDHD",
+        "LDHD",
+        "SmartPX",
+        "PH",
+        "BD3E"
+      ],
+      "industries": [
+        "Полупроводниковая промышленность",
+        "Робототехника",
+        "Станкостроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.servotronix.cn/en/product?categoryId=100233"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-servotronix-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_PRODUCT_GROUPS_SERIES_AND_APPLICATIONS",
+          "url": "https://www.servotronix.cn/en/index",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-servotronix-history",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "FOUNDING_OWNERSHIP_AND_BRAND_HISTORY",
+          "url": "https://www.servotronix.cn/en/About-us/about-brands",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"steriline","officialName":"Steriline S.r.l.","displayName":"Steriline","aliases":["STERILINE"],"formerNames":[],"officialWebsite":"https://www.steriline.it/en/","officialDomains":["steriline.it"],"country":"Italy","headquarters":"Como, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Steriline develops aseptic processing and primary-packaging equipment for injectable drugs. Its range includes washing, depyrogenation, filling, capping, containment, isolation and robotic systems.",
-      "fullDescription":["Steriline S.r.l. is an Italian pharmaceutical-equipment manufacturer based in Como. It develops complete standard and robotic lines for aseptic processing of liquid and powder injectable products in vials, ampoules, cartridges and syringes.","The portfolio includes washing machines, depyrogenation tunnels, filling and capping machines, external decontamination equipment, LAF and RABS barriers, isolators, robotic handling and Intelligent Compounding Systems for hospitals and compounding centres."],
-      "productCategories":["Фармацевтическое оборудование","Асептические линии","Фасовочное оборудование","Изоляторы и барьерные системы","Промышленная робототехника"],"productFamilies":["Washing Machines","Depyrogenation Tunnels","Filling and Capping Machines","Decontamination Machines","RABS and Isolators","Robotic Aseptic Lines","Intelligent Compounding Systems"],"series":["ICS"],"industries":["Фармацевтическая промышленность","Медицинское оборудование"],"officialCatalogs":[],"documentationSources":["https://www.steriline.it/en/products/"],
-      "sources":[{"sourceId":"brand-steriline-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_PRODUCT_GROUPS_AND_APPLICATIONS","url":"https://www.steriline.it/en/products/","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "steriline",
+      "officialName": "Steriline S.r.l.",
+      "displayName": "Steriline",
+      "aliases": [
+        "STERILINE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.steriline.it/en/",
+      "officialDomains": [
+        "steriline.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Como, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Steriline develops aseptic processing and primary-packaging equipment for injectable drugs. Its range includes washing, depyrogenation, filling, capping, containment, isolation and robotic systems.",
+      "fullDescription": [
+        "Steriline S.r.l. is an Italian pharmaceutical-equipment manufacturer based in Como. It develops complete standard and robotic lines for aseptic processing of liquid and powder injectable products in vials, ampoules, cartridges and syringes.",
+        "The portfolio includes washing machines, depyrogenation tunnels, filling and capping machines, external decontamination equipment, LAF and RABS barriers, isolators, robotic handling and Intelligent Compounding Systems for hospitals and compounding centres."
+      ],
+      "productCategories": [
+        "Фармацевтическое оборудование",
+        "Асептические линии",
+        "Фасовочное оборудование",
+        "Изоляторы и барьерные системы",
+        "Промышленная робототехника"
+      ],
+      "productFamilies": [
+        "Washing Machines",
+        "Depyrogenation Tunnels",
+        "Filling and Capping Machines",
+        "Decontamination Machines",
+        "RABS and Isolators",
+        "Robotic Aseptic Lines",
+        "Intelligent Compounding Systems"
+      ],
+      "series": [
+        "ICS"
+      ],
+      "industries": [
+        "Фармацевтическая промышленность",
+        "Медицинское оборудование"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.steriline.it/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-steriline-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_LOCATION_PRODUCT_GROUPS_AND_APPLICATIONS",
+          "url": "https://www.steriline.it/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"tollok","officialName":"Tollok","displayName":"Tollok","aliases":["TOLLOK"],"formerNames":[],"officialWebsite":"https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices","officialDomains":["rexnord.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":"Regal Rexnord Corporation","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Tollok is a Rexnord brand of engineered shaft-locking and clamping devices. Its assemblies secure rotating shafts and transmit torque in industrial and power-generation machinery.",
-      "fullDescription":["Official Rexnord material identifies Tollok as part of Rexnord and documents more than forty years of application experience in shaft-locking technology. The brand serves power generation, process industries and general machinery.","The product range covers locking assemblies grouped by torque capacity and tolerance requirements. The devices connect hubs and shafts, support torque transmission and help manage shaft bending or vibration without presenting Tollok as an independent current company."],
-      "productCategories":["Зажимные втулки","Фиксаторы валов","Компоненты механических передач"],"productFamilies":["Locking Assemblies","Shaft Locking Devices","Clamping Devices"],"series":[],"industries":["Энергетика","Промышленное производство","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices"],
-      "sources":[{"sourceId":"brand-tollok-parent-products","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"IDENTITY_OWNERSHIP_PRODUCT_GROUPS_AND_APPLICATIONS","url":"https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "tollok",
+      "officialName": "Tollok",
+      "displayName": "Tollok",
+      "aliases": [
+        "TOLLOK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices",
+      "officialDomains": [
+        "rexnord.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Regal Rexnord Corporation",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Tollok is a Rexnord brand of engineered shaft-locking and clamping devices. Its assemblies secure rotating shafts and transmit torque in industrial and power-generation machinery.",
+      "fullDescription": [
+        "Official Rexnord material identifies Tollok as part of Rexnord and documents more than forty years of application experience in shaft-locking technology. The brand serves power generation, process industries and general machinery.",
+        "The product range covers locking assemblies grouped by torque capacity and tolerance requirements. The devices connect hubs and shafts, support torque transmission and help manage shaft bending or vibration without presenting Tollok as an independent current company."
+      ],
+      "productCategories": [
+        "Зажимные втулки",
+        "Фиксаторы валов",
+        "Компоненты механических передач"
+      ],
+      "productFamilies": [
+        "Locking Assemblies",
+        "Shaft Locking Devices",
+        "Clamping Devices"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-tollok-parent-products",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "IDENTITY_OWNERSHIP_PRODUCT_GROUPS_AND_APPLICATIONS",
+          "url": "https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"united-electric-controls","officialName":"United Electric Controls Company","displayName":"United Electric Controls","aliases":["UNITED ELECTRIC CONTROLS","UE"],"formerNames":[],"officialWebsite":"https://www.ueonline.com/","officialDomains":["ueonline.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"United Electric Controls manufactures industrial pressure and temperature switches, transmitters and sensors. Its range also includes WirelessHART gas detection and safety instrumentation for critical processes.",
-      "fullDescription":["United Electric Controls develops safety, alarm and emergency-shutdown instrumentation for process and OEM equipment. Official pages document more than ninety years of experience in industrial measurement and switching.","The portfolio includes electromechanical and electronic pressure and temperature switches, pressure and temperature transmitters, thermocouples, RTDs, heat-tracing controls and Vanguard WirelessHART gas detectors for hazardous and demanding applications."],
-      "productCategories":["Реле давления","Реле температуры","Датчики давления","Датчики температуры","Газоанализаторы"],"productFamilies":["Pressure Switches","Temperature Switches","Pressure Transmitters","Temperature Sensors and Transmitters","Wireless Gas Detectors"],"series":["ONE Series","Excela","Vanguard","10 Series"],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.ueonline.com/resources/"],
-      "sources":[{"sourceId":"brand-ue-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_EXPERIENCE_PRODUCT_GROUPS_AND_APPLICATIONS","url":"https://www.ueonline.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-ue-electronic-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SWITCH_TRANSMITTER_AND_SERIES_DETAILS","url":"https://www.ueonline.com/electronic-pressure-temperature-switches-and-transmitters/","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "united-electric-controls",
+      "officialName": "United Electric Controls Company",
+      "displayName": "United Electric Controls",
+      "aliases": [
+        "UNITED ELECTRIC CONTROLS",
+        "UE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ueonline.com/",
+      "officialDomains": [
+        "ueonline.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "United Electric Controls manufactures industrial pressure and temperature switches, transmitters and sensors. Its range also includes WirelessHART gas detection and safety instrumentation for critical processes.",
+      "fullDescription": [
+        "United Electric Controls develops safety, alarm and emergency-shutdown instrumentation for process and OEM equipment. Official pages document more than ninety years of experience in industrial measurement and switching.",
+        "The portfolio includes electromechanical and electronic pressure and temperature switches, pressure and temperature transmitters, thermocouples, RTDs, heat-tracing controls and Vanguard WirelessHART gas detectors for hazardous and demanding applications."
+      ],
+      "productCategories": [
+        "Реле давления",
+        "Реле температуры",
+        "Датчики давления",
+        "Датчики температуры",
+        "Газоанализаторы"
+      ],
+      "productFamilies": [
+        "Pressure Switches",
+        "Temperature Switches",
+        "Pressure Transmitters",
+        "Temperature Sensors and Transmitters",
+        "Wireless Gas Detectors"
+      ],
+      "series": [
+        "ONE Series",
+        "Excela",
+        "Vanguard",
+        "10 Series"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.ueonline.com/resources/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ue-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_EXPERIENCE_PRODUCT_GROUPS_AND_APPLICATIONS",
+          "url": "https://www.ueonline.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-ue-electronic-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SWITCH_TRANSMITTER_AND_SERIES_DETAILS",
+          "url": "https://www.ueonline.com/electronic-pressure-temperature-switches-and-transmitters/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"vipa","officialName":"VIPA","displayName":"VIPA","aliases":["VIPA"],"formerNames":["VIPA GmbH"],"officialWebsite":"https://www.yaskawa.eu.com/","officialDomains":["yaskawa.eu.com","yaskawa.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Yaskawa Electric Corporation","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"VIPA is a Yaskawa automation brand associated with programmable controllers, I/O, operator interfaces and industrial communication technology. Its product heritage complements Yaskawa drives and motion systems.",
-      "fullDescription":["Official Yaskawa material identifies VIPA as a member of the Yaskawa family. The brand's automation portfolio has included PLC and control platforms, distributed I/O, HMI systems, industrial communication components and engineering software.","VIPA is presented as a verified acquired brand within Yaskawa's control, drive and motion ecosystem. Current product sourcing should follow official Yaskawa documentation and regional availability rather than imply that VIPA remains an independent company."],
-      "productCategories":["Промышленные контроллеры","Распределенные системы ввода-вывода","Панели оператора","Промышленная связь","Программное обеспечение автоматизации"],"productFamilies":["Programmable Controllers","Distributed I/O","HMI Systems","Industrial Communication","Control Software"],"series":["SPEED7"],"industries":["Промышленная автоматизация","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.yaskawa.eu.com/Global%20Assets/Downloads/Brochures_Catalogues/Robotics/software/Flyer_YaskawaRobotSoftware_E_06.2014.pdf"],
-      "sources":[{"sourceId":"brand-vipa-parent-document","tier":"B","type":"OFFICIAL_PARENT_DOCUMENT","scope":"IDENTITY_PARENT_RELATION_AND_AUTOMATION_SCOPE","url":"https://www.yaskawa.eu.com/Global%20Assets/Downloads/Brochures_Catalogues/Robotics/software/Flyer_YaskawaRobotSoftware_E_06.2014.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-vipa-parent-products","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_CONTROL_DRIVE_AND_MOTION_CONTEXT","url":"https://www.yaskawa.com/products","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "vipa",
+      "officialName": "VIPA",
+      "displayName": "VIPA",
+      "aliases": [
+        "VIPA"
+      ],
+      "formerNames": [
+        "VIPA GmbH"
+      ],
+      "officialWebsite": "https://www.yaskawa.eu.com/",
+      "officialDomains": [
+        "yaskawa.eu.com",
+        "yaskawa.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Yaskawa Electric Corporation",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "VIPA is a Yaskawa automation brand associated with programmable controllers, I/O, operator interfaces and industrial communication technology. Its product heritage complements Yaskawa drives and motion systems.",
+      "fullDescription": [
+        "Official Yaskawa material identifies VIPA as a member of the Yaskawa family. The brand's automation portfolio has included PLC and control platforms, distributed I/O, HMI systems, industrial communication components and engineering software.",
+        "VIPA is presented as a verified acquired brand within Yaskawa's control, drive and motion ecosystem. Current product sourcing should follow official Yaskawa documentation and regional availability rather than imply that VIPA remains an independent company."
+      ],
+      "productCategories": [
+        "Промышленные контроллеры",
+        "Распределенные системы ввода-вывода",
+        "Панели оператора",
+        "Промышленная связь",
+        "Программное обеспечение автоматизации"
+      ],
+      "productFamilies": [
+        "Programmable Controllers",
+        "Distributed I/O",
+        "HMI Systems",
+        "Industrial Communication",
+        "Control Software"
+      ],
+      "series": [
+        "SPEED7"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.yaskawa.eu.com/Global%20Assets/Downloads/Brochures_Catalogues/Robotics/software/Flyer_YaskawaRobotSoftware_E_06.2014.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-vipa-parent-document",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "IDENTITY_PARENT_RELATION_AND_AUTOMATION_SCOPE",
+          "url": "https://www.yaskawa.eu.com/Global%20Assets/Downloads/Brochures_Catalogues/Robotics/software/Flyer_YaskawaRobotSoftware_E_06.2014.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-vipa-parent-products",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_CONTROL_DRIVE_AND_MOTION_CONTEXT",
+          "url": "https://www.yaskawa.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"waldmann","officialName":"Herbert Waldmann GmbH & Co. KG","displayName":"Waldmann","aliases":["WALDMANN","Waldmann Lighting"],"formerNames":[],"officialWebsite":"https://www.waldmann.com/home.764.en.html","officialDomains":["waldmann.com","waldmannlighting.com"],"country":"Germany","headquarters":"Villingen-Schwenningen, Germany","foundedYear":1928,"parentCompany":null,
-      "shortDescription":"Waldmann develops professional lighting for industrial, office, healthcare and laboratory workplaces. Its range includes machine, task, inspection, medical and networked lighting systems.",
-      "fullDescription":["Herbert Waldmann GmbH & Co. KG is a German lighting manufacturer founded in 1928 and headquartered in Villingen-Schwenningen. Official pages document professional luminaires designed around workplace and application requirements.","The portfolio spans machine and inspection lights, industrial hall systems, task and office luminaires, medical examination and treatment lights, laboratory lighting and connected light-management solutions. Named families include ACURIA, LINURA, ROCIA, TAUREO, LAVIGO, PARA.MI and TRIANGO."],
-      "productCategories":["Промышленное освещение","Станочные светильники","Медицинское освещение","Лабораторное освещение","Системы управления освещением"],"productFamilies":["Industrial Lighting","Machine Lights","Task Lighting","Medical Lighting","Laboratory Lighting","Light Management"],"series":["ACURIA","LINURA","ROCIA","TAUREO","LAVIGO","PARA.MI","TRIANGO"],"industries":["Промышленное производство","Медицинское оборудование","Лабораторное оборудование","Офисная инфраструктура"],"officialCatalogs":["https://www.waldmann.com/waldmann-media/file/ff8081813ba8cf63013ba8ec16cd0429.de.0/waldmann_pl_industry_eng.pdf"],"documentationSources":["https://www.waldmann.com/home.764.en.html"],
-      "sources":[{"sourceId":"brand-waldmann-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_APPLICATIONS","url":"https://www.waldmann.com/home.764.en.html","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-waldmann-industry-catalog","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"INDUSTRIAL_LIGHTING_FAMILIES_AND_LOCATIONS","url":"https://www.waldmann.com/waldmann-media/file/ff8081813ba8cf63013ba8ec16cd0429.de.0/waldmann_pl_industry_eng.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "waldmann",
+      "officialName": "Herbert Waldmann GmbH & Co. KG",
+      "displayName": "Waldmann",
+      "aliases": [
+        "WALDMANN",
+        "Waldmann Lighting"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.waldmann.com/home.764.en.html",
+      "officialDomains": [
+        "waldmann.com",
+        "waldmannlighting.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Villingen-Schwenningen, Germany",
+      "foundedYear": 1928,
+      "parentCompany": null,
+      "shortDescription": "Waldmann develops professional lighting for industrial, office, healthcare and laboratory workplaces. Its range includes machine, task, inspection, medical and networked lighting systems.",
+      "fullDescription": [
+        "Herbert Waldmann GmbH & Co. KG is a German lighting manufacturer founded in 1928 and headquartered in Villingen-Schwenningen. Official pages document professional luminaires designed around workplace and application requirements.",
+        "The portfolio spans machine and inspection lights, industrial hall systems, task and office luminaires, medical examination and treatment lights, laboratory lighting and connected light-management solutions. Named families include ACURIA, LINURA, ROCIA, TAUREO, LAVIGO, PARA.MI and TRIANGO."
+      ],
+      "productCategories": [
+        "Промышленное освещение",
+        "Станочные светильники",
+        "Медицинское освещение",
+        "Лабораторное освещение",
+        "Системы управления освещением"
+      ],
+      "productFamilies": [
+        "Industrial Lighting",
+        "Machine Lights",
+        "Task Lighting",
+        "Medical Lighting",
+        "Laboratory Lighting",
+        "Light Management"
+      ],
+      "series": [
+        "ACURIA",
+        "LINURA",
+        "ROCIA",
+        "TAUREO",
+        "LAVIGO",
+        "PARA.MI",
+        "TRIANGO"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Медицинское оборудование",
+        "Лабораторное оборудование",
+        "Офисная инфраструктура"
+      ],
+      "officialCatalogs": [
+        "https://www.waldmann.com/waldmann-media/file/ff8081813ba8cf63013ba8ec16cd0429.de.0/waldmann_pl_industry_eng.pdf"
+      ],
+      "documentationSources": [
+        "https://www.waldmann.com/home.764.en.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-waldmann-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_APPLICATIONS",
+          "url": "https://www.waldmann.com/home.764.en.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-waldmann-industry-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "INDUSTRIAL_LIGHTING_FAMILIES_AND_LOCATIONS",
+          "url": "https://www.waldmann.com/waldmann-media/file/ff8081813ba8cf63013ba8ec16cd0429.de.0/waldmann_pl_industry_eng.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"weinreich","officialName":"Weinreich Industriekühlung GmbH","displayName":"WEINREICH","aliases":["WEINREICH"],"formerNames":[],"officialWebsite":"https://www.weinreich.de/en-gb/","officialDomains":["weinreich.de"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"WEINREICH develops industrial cooling, temperature-control and special-purpose systems. Its range includes chillers, temperature-control units, heat recovery, water treatment and custom process machines.",
-      "fullDescription":["Weinreich Industriekühlung GmbH is a German manufacturer with more than forty years of documented experience in industrial thermal-management systems. Its official pages group the business into cooling, temperature control and special machinery.","Products include compact, split and radial chillers, pump-tank and free-cooling systems, plate heat-exchanger blocks, water and thermal-oil temperature-control units, cleanroom and process air-conditioning, heat recovery, test systems and customised multi-zone plants."],
-      "productCategories":["Промышленные чиллеры","Термостаты и терморегуляторы","Теплообменные системы","Системы водоподготовки","Специальное оборудование"],"productFamilies":["Water Chillers","Split Chillers","Temperature-Control Units","Heat Recovery Systems","Pump-Tank Systems","Free Coolers","Special Machines"],"series":["KKL-A","KSL","KKL-R","WT","WTD","OT","OTZ","OTM"],"industries":["Промышленное производство","Переработка пластмасс","Лабораторное оборудование","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.weinreich.de/download"],
-      "sources":[{"sourceId":"brand-weinreich-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_EXPERIENCE_AND_PRODUCT_GROUPS","url":"https://www.weinreich.de/en-gb/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-weinreich-cooling","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COOLING_SYSTEM_FAMILIES_AND_SERIES","url":"https://www.weinreich.de/en-gb/galerie","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "weinreich",
+      "officialName": "Weinreich Industriekühlung GmbH",
+      "displayName": "WEINREICH",
+      "aliases": [
+        "WEINREICH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.weinreich.de/en-gb/",
+      "officialDomains": [
+        "weinreich.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "WEINREICH develops industrial cooling, temperature-control and special-purpose systems. Its range includes chillers, temperature-control units, heat recovery, water treatment and custom process machines.",
+      "fullDescription": [
+        "Weinreich Industriekühlung GmbH is a German manufacturer with more than forty years of documented experience in industrial thermal-management systems. Its official pages group the business into cooling, temperature control and special machinery.",
+        "Products include compact, split and radial chillers, pump-tank and free-cooling systems, plate heat-exchanger blocks, water and thermal-oil temperature-control units, cleanroom and process air-conditioning, heat recovery, test systems and customised multi-zone plants."
+      ],
+      "productCategories": [
+        "Промышленные чиллеры",
+        "Термостаты и терморегуляторы",
+        "Теплообменные системы",
+        "Системы водоподготовки",
+        "Специальное оборудование"
+      ],
+      "productFamilies": [
+        "Water Chillers",
+        "Split Chillers",
+        "Temperature-Control Units",
+        "Heat Recovery Systems",
+        "Pump-Tank Systems",
+        "Free Coolers",
+        "Special Machines"
+      ],
+      "series": [
+        "KKL-A",
+        "KSL",
+        "KKL-R",
+        "WT",
+        "WTD",
+        "OT",
+        "OTZ",
+        "OTM"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Переработка пластмасс",
+        "Лабораторное оборудование",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.weinreich.de/download"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-weinreich-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_EXPERIENCE_AND_PRODUCT_GROUPS",
+          "url": "https://www.weinreich.de/en-gb/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-weinreich-cooling",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "COOLING_SYSTEM_FAMILIES_AND_SERIES",
+          "url": "https://www.weinreich.de/en-gb/galerie",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"wipotec","officialName":"WIPOTEC GmbH","displayName":"Wipotec","aliases":["WIPOTEC","WIPOTEC-OCS"],"formerNames":[],"officialWebsite":"https://www.wipotec.com/en/","officialDomains":["wipotec.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Wipotec develops dynamic weighing, inspection and track-and-trace systems for production and logistics. Its portfolio includes checkweighers, X-ray and optical inspection, metal detection, serialization and precision weigh cells.",
-      "fullDescription":["WIPOTEC GmbH is a German manufacturer of high-speed weighing and inspection technology. Official product pages cover production quality control, pharmaceutical traceability and logistics measurement.","The range includes dynamic checkweighers, catchweighers and DWS systems, X-ray, optical and metal inspection, serialization and aggregation, marking and labelling, precision weigh cells, weighing kits and software. HC and EC platforms address food, pharmaceutical, cosmetics and industrial applications."],
-      "productCategories":["Контрольные весы","Рентгеновские инспекционные системы","Металлодетекторы","Системы сериализации","Весоизмерительные ячейки"],"productFamilies":["Checkweighers","Industrial Scales and DWS","X-Ray and Vision Inspection","Metal Detection","Serialization and Aggregation","Marking and Labeling","Weigh Cells"],"series":["HC-A","HC-M","EC-E","TQS","Comscale4"],"industries":["Пищевая промышленность","Фармацевтическая промышленность","Логистика","Промышленное производство"],"officialCatalogs":["https://www.wipotec.com/fileadmin/media/documents/brochure/checkweigher/checkweigher-brochure-en.pdf"],"documentationSources":["https://www.wipotec.com/us/products-solutions"],
-      "sources":[{"sourceId":"brand-wipotec-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_PRODUCT_GROUPS_AND_APPLICATIONS","url":"https://www.wipotec.com/us/products-solutions","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-wipotec-checkweighers","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CHECKWEIGHER_FAMILIES_AND_SERIES","url":"https://www.wipotec.com/en/checkweighers","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "wipotec",
+      "officialName": "WIPOTEC GmbH",
+      "displayName": "Wipotec",
+      "aliases": [
+        "WIPOTEC",
+        "WIPOTEC-OCS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.wipotec.com/en/",
+      "officialDomains": [
+        "wipotec.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Kaiserslautern, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Wipotec develops dynamic weighing, inspection and track-and-trace systems for production and logistics. Its portfolio includes checkweighers, X-ray and optical inspection, metal detection, serialization and precision weigh cells.",
+      "fullDescription": [
+        "WIPOTEC GmbH is a German manufacturer of high-speed weighing and inspection technology. Official product pages cover production quality control, pharmaceutical traceability and logistics measurement.",
+        "The range includes dynamic checkweighers, catchweighers and DWS systems, X-ray, optical and metal inspection, serialization and aggregation, marking and labelling, precision weigh cells, weighing kits and software. HC and EC platforms address food, pharmaceutical, cosmetics and industrial applications."
+      ],
+      "productCategories": [
+        "Контрольные весы",
+        "Рентгеновские инспекционные системы",
+        "Металлодетекторы",
+        "Системы сериализации",
+        "Весоизмерительные ячейки"
+      ],
+      "productFamilies": [
+        "Checkweighers",
+        "Industrial Scales and DWS",
+        "X-Ray and Vision Inspection",
+        "Metal Detection",
+        "Serialization and Aggregation",
+        "Marking and Labeling",
+        "Weigh Cells"
+      ],
+      "series": [
+        "HC-A",
+        "HC-M",
+        "EC-E",
+        "TQS",
+        "Comscale4"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Логистика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.wipotec.com/fileadmin/media/documents/brochure/checkweigher/checkweigher-brochure-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.wipotec.com/us/products-solutions"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wipotec-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_PRODUCT_GROUPS_AND_APPLICATIONS",
+          "url": "https://www.wipotec.com/us/products-solutions",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-wipotec-checkweighers",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CHECKWEIGHER_FAMILIES_AND_SERIES",
+          "url": "https://www.wipotec.com/en/checkweighers",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-wipotec-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.wipotec.com/en/contact",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"aeromeccanica-stranich","officialName":"Aeromeccanica Stranich S.p.A.","displayName":"Aeromeccanica Stranich","aliases":["AEROMECCANICA STRANICH"],"formerNames":[],"officialWebsite":"https://www.stranich.it/en/","officialDomains":["stranich.it","stranich.com"],"country":"Italy","headquarters":"Sesto San Giovanni, Milan, Italy","foundedYear":1928,"parentCompany":null,
-      "shortDescription":"Aeromeccanica Stranich designs industrial ventilation, dust-collection and pneumatic-conveying systems. Its range includes centrifugal and axial fans, blowers, filters, scrubbers, dampers and silencers.",
-      "fullDescription":["Aeromeccanica Stranich S.p.A. is an Italian industrial-air and environmental-equipment manufacturer founded in 1928. Official company material identifies ventilation, dust collection and after-sales industrial service as its three operating units.","The portfolio includes heavy-duty centrifugal fans, axial fans, multistage blowers, dry and wet dust-control equipment, cyclones, scrubbers, pneumatic cleaning and transport systems, dampers, guillotines and silencers for power, steel, chemical, cement, pharmaceutical and oil-and-gas plants."],
-      "productCategories":["Промышленные вентиляторы","Промышленные воздуходувки","Системы пылеулавливания","Пневмотранспорт","Воздушные заслонки"],"productFamilies":["Centrifugal Fans","Axial Fans","Multistage Blowers","Dry Filters","Wet Scrubbers","Pneumatic Conveying","Dampers and Guillotines","Silencers"],"series":["AFIM"],"industries":["Энергетика","Металлургия","Химическая промышленность","Цементная промышленность","Нефтегазовая промышленность"],"officialCatalogs":["https://www.stranich.it/Uploads/Docs/company-profile-2018_2161.pdf"],"documentationSources":["https://www.stranich.it/en/about-us"],
-      "sources":[{"sourceId":"brand-stranich-about","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_INDUSTRIES","url":"https://www.stranich.it/en/about-us","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-stranich-profile","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"LEGAL_IDENTITY_PRODUCT_GROUPS_AND_CAPABILITIES","url":"https://www.stranich.it/Uploads/Docs/company-profile-2018_2161.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "aeromeccanica-stranich",
+      "officialName": "Aeromeccanica Stranich S.p.A.",
+      "displayName": "Aeromeccanica Stranich",
+      "aliases": [
+        "AEROMECCANICA STRANICH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stranich.it/en/",
+      "officialDomains": [
+        "stranich.it",
+        "stranich.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Sesto San Giovanni, Milan, Italy",
+      "foundedYear": 1928,
+      "parentCompany": null,
+      "shortDescription": "Aeromeccanica Stranich designs industrial ventilation, dust-collection and pneumatic-conveying systems. Its range includes centrifugal and axial fans, blowers, filters, scrubbers, dampers and silencers.",
+      "fullDescription": [
+        "Aeromeccanica Stranich S.p.A. is an Italian industrial-air and environmental-equipment manufacturer founded in 1928. Official company material identifies ventilation, dust collection and after-sales industrial service as its three operating units.",
+        "The portfolio includes heavy-duty centrifugal fans, axial fans, multistage blowers, dry and wet dust-control equipment, cyclones, scrubbers, pneumatic cleaning and transport systems, dampers, guillotines and silencers for power, steel, chemical, cement, pharmaceutical and oil-and-gas plants."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Промышленные воздуходувки",
+        "Системы пылеулавливания",
+        "Пневмотранспорт",
+        "Воздушные заслонки"
+      ],
+      "productFamilies": [
+        "Centrifugal Fans",
+        "Axial Fans",
+        "Multistage Blowers",
+        "Dry Filters",
+        "Wet Scrubbers",
+        "Pneumatic Conveying",
+        "Dampers and Guillotines",
+        "Silencers"
+      ],
+      "series": [
+        "AFIM"
+      ],
+      "industries": [
+        "Энергетика",
+        "Металлургия",
+        "Химическая промышленность",
+        "Цементная промышленность",
+        "Нефтегазовая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.stranich.it/Uploads/Docs/company-profile-2018_2161.pdf"
+      ],
+      "documentationSources": [
+        "https://www.stranich.it/en/about-us"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stranich-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_FOUNDING_LOCATION_PRODUCTS_AND_INDUSTRIES",
+          "url": "https://www.stranich.it/en/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-stranich-profile",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "LEGAL_IDENTITY_PRODUCT_GROUPS_AND_CAPABILITIES",
+          "url": "https://www.stranich.it/Uploads/Docs/company-profile-2018_2161.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"brosa","officialName":"BROSA GmbH","displayName":"BROSA","aliases":["BROSA"],"formerNames":[],"officialWebsite":"https://www.brosa.net/en/","officialDomains":["brosa.net"],"country":"Germany","headquarters":"Tettnang, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"BROSA develops force, load, pressure and angle sensors for industrial and safety-related measurement. Its portfolio includes load pins, load cells, transducers and weighing or overload electronics.",
-      "fullDescription":["BROSA GmbH is a German sensor manufacturer based in Tettnang. Official pages document customised force-measurement products and interfaces for integration into industrial safety systems.","The range includes force-measuring pins, tubular, tension, compression and support-jack load cells, force washers and blocks, pressure and angle transducers, torque sensors, ATEX variants and FlexLim weighing or overload electronics."],
-      "productCategories":["Датчики силы","Тензодатчики","Датчики давления","Датчики угла","Весовая электроника"],"productFamilies":["Load Pins","Load Cells","Force Sensors","Pressure Transducers","Angle and Torque Sensors","Weighing and Overload Electronics"],"series":["FlexLim"],"industries":["Подъемно-транспортное оборудование","Мобильная техника","Промышленное производство","Взрывоопасные производства"],"officialCatalogs":["https://www.brosa.net/fileadmin/benutzerdaten/brosa-net/pdf/datenblaetter/BROSA-product_brochure-EN.pdf"],"documentationSources":["https://www.brosa.net/en/downloads/"],
-      "sources":[{"sourceId":"brand-brosa-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_SENSOR_GROUPS_AND_APPLICATIONS","url":"https://www.brosa.net/en/products/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-brosa-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"DATASHEETS_CERTIFICATES_AND_PRODUCT_FAMILIES","url":"https://www.brosa.net/en/downloads/","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "brosa",
+      "officialName": "BROSA GmbH",
+      "displayName": "BROSA",
+      "aliases": [
+        "BROSA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.brosa.net/en/",
+      "officialDomains": [
+        "brosa.net"
+      ],
+      "country": "Germany",
+      "headquarters": "Tettnang, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BROSA develops force, load, pressure and angle sensors for industrial and safety-related measurement. Its portfolio includes load pins, load cells, transducers and weighing or overload electronics.",
+      "fullDescription": [
+        "BROSA GmbH is a German sensor manufacturer based in Tettnang. Official pages document customised force-measurement products and interfaces for integration into industrial safety systems.",
+        "The range includes force-measuring pins, tubular, tension, compression and support-jack load cells, force washers and blocks, pressure and angle transducers, torque sensors, ATEX variants and FlexLim weighing or overload electronics."
+      ],
+      "productCategories": [
+        "Датчики силы",
+        "Тензодатчики",
+        "Датчики давления",
+        "Датчики угла",
+        "Весовая электроника"
+      ],
+      "productFamilies": [
+        "Load Pins",
+        "Load Cells",
+        "Force Sensors",
+        "Pressure Transducers",
+        "Angle and Torque Sensors",
+        "Weighing and Overload Electronics"
+      ],
+      "series": [
+        "FlexLim"
+      ],
+      "industries": [
+        "Подъемно-транспортное оборудование",
+        "Мобильная техника",
+        "Промышленное производство",
+        "Взрывоопасные производства"
+      ],
+      "officialCatalogs": [
+        "https://www.brosa.net/fileadmin/benutzerdaten/brosa-net/pdf/datenblaetter/BROSA-product_brochure-EN.pdf"
+      ],
+      "documentationSources": [
+        "https://www.brosa.net/en/downloads/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-brosa-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_LOCATION_SENSOR_GROUPS_AND_APPLICATIONS",
+          "url": "https://www.brosa.net/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-brosa-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "DATASHEETS_CERTIFICATES_AND_PRODUCT_FAMILIES",
+          "url": "https://www.brosa.net/en/downloads/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"cemp-motors","officialName":"CEMP","displayName":"CEMP Motors","aliases":["CEMP MOTORS","CEMP"],"formerNames":["CEMP S.r.l."],"officialWebsite":"https://www.weg.net/","officialDomains":["weg.net"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":"WEG S.A.","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"CEMP is a WEG electric-motor brand for hazardous-area and special applications. Its portfolio includes explosion-proof, brake and marine motors within WEG's industrial motor range.",
-      "fullDescription":["Official WEG sources identify CEMP as a WEG brand of electric motors for special and hazardous applications. The identity is maintained separately because CEMP continues to appear on current product families.","The documented scope includes flameproof and explosion-protected motors, brake motors and marine-duty designs engineered for hazardous zones and demanding continuous operation. Availability and certification should be confirmed from the current WEG catalogue for each application."],
-      "productCategories":["Взрывозащищенные электродвигатели","Тормозные двигатели","Судовые электродвигатели","Промышленные электродвигатели"],"productFamilies":["Explosion-Proof Motors","Brake Motors","Marine Motors","Special-Application Motors"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Судостроение","Промышленное производство"],"officialCatalogs":["https://static.weg.net/medias/downloadcenter/h53/hde/50022688_english_web.pdf"],"documentationSources":[],
-      "sources":[{"sourceId":"brand-cemp-parent-product","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_PAGE","scope":"IDENTITY_OWNERSHIP_AND_MARINE_MOTOR_SCOPE","url":"https://www.weg.net/catalog/weg/BE/en/Electric-Motors/Special-Application-Motors/Marine-Motors/Cemp/c/EU_MT_LV_IEC_MARINE_CEMP","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-cemp-parent-catalog","tier":"B","type":"OFFICIAL_PARENT_DOCUMENT","scope":"MOTOR_PORTFOLIO_AND_LEGAL_ENTITY_REFERENCE","url":"https://static.weg.net/medias/downloadcenter/h53/hde/50022688_english_web.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "cemp-motors",
+      "officialName": "CEMP",
+      "displayName": "CEMP Motors",
+      "aliases": [
+        "CEMP MOTORS",
+        "CEMP"
+      ],
+      "formerNames": [
+        "CEMP S.r.l."
+      ],
+      "officialWebsite": "https://www.weg.net/",
+      "officialDomains": [
+        "weg.net"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "WEG S.A.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "CEMP is a WEG electric-motor brand for hazardous-area and special applications. Its portfolio includes explosion-proof, brake and marine motors within WEG's industrial motor range.",
+      "fullDescription": [
+        "Official WEG sources identify CEMP as a WEG brand of electric motors for special and hazardous applications. The identity is maintained separately because CEMP continues to appear on current product families.",
+        "The documented scope includes flameproof and explosion-protected motors, brake motors and marine-duty designs engineered for hazardous zones and demanding continuous operation. Availability and certification should be confirmed from the current WEG catalogue for each application."
+      ],
+      "productCategories": [
+        "Взрывозащищенные электродвигатели",
+        "Тормозные двигатели",
+        "Судовые электродвигатели",
+        "Промышленные электродвигатели"
+      ],
+      "productFamilies": [
+        "Explosion-Proof Motors",
+        "Brake Motors",
+        "Marine Motors",
+        "Special-Application Motors"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Судостроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://static.weg.net/medias/downloadcenter/h53/hde/50022688_english_web.pdf"
+      ],
+      "documentationSources": [],
+      "sources": [
+        {
+          "sourceId": "brand-cemp-parent-product",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+          "scope": "IDENTITY_OWNERSHIP_AND_MARINE_MOTOR_SCOPE",
+          "url": "https://www.weg.net/catalog/weg/BE/en/Electric-Motors/Special-Application-Motors/Marine-Motors/Cemp/c/EU_MT_LV_IEC_MARINE_CEMP",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-cemp-parent-catalog",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "MOTOR_PORTFOLIO_AND_LEGAL_ENTITY_REFERENCE",
+          "url": "https://static.weg.net/medias/downloadcenter/h53/hde/50022688_english_web.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"dean-pump","officialName":"Dean Pump","displayName":"Dean Pump","aliases":["DEAN PUMP","CECO Dean Pump"],"formerNames":[],"officialWebsite":"https://www.cecoenviro.com/","officialDomains":["cecoenviro.com"],"country":"United States","headquarters":"Indianapolis, Indiana, United States","foundedYear":null,"parentCompany":"CECO Environmental Corp.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Dean Pump is a CECO process-pump brand for high-temperature and chemical duties. Its portfolio includes metallic centrifugal, ANSI process and vertical inline pumps.",
-      "fullDescription":["Official CECO literature presents Dean Pump as a long-established metallic centrifugal-pump brand manufactured in Indianapolis, Indiana. The brand serves chemical, power, refining and other demanding process applications.","The documented range includes PH ANSI/ASME B73.1 process pumps, DeanLine vertical inline pumps and engineered high-temperature centrifugal pumps in multiple alloys for corrosive and thermal service."],
-      "productCategories":["Центробежные насосы","Химические насосы","Вертикальные насосы","Высокотемпературные насосы"],"productFamilies":["ANSI Process Pumps","Vertical Inline Pumps","High-Temperature Process Pumps","Metallic Centrifugal Pumps"],"series":["PH","DeanLine"],"industries":["Химическая промышленность","Энергетика","Нефтепереработка","Целлюлозно-бумажная промышленность"],"officialCatalogs":["https://www.cecoenviro.com/wp-content/uploads/2024/09/CECO-Dean-ANSI-Brochure_Final.pdf"],"documentationSources":["https://www.cecoenviro.com/wp-content/uploads/2024/04/CECO-Dean-Pumps-Trifold-Brochure.pdf"],
-      "sources":[{"sourceId":"brand-dean-parent-ansi","tier":"B","type":"OFFICIAL_PARENT_DOCUMENT","scope":"IDENTITY_LOCATION_ANSI_PUMP_SERIES_AND_APPLICATIONS","url":"https://www.cecoenviro.com/wp-content/uploads/2024/09/CECO-Dean-ANSI-Brochure_Final.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-dean-parent-profile","tier":"B","type":"OFFICIAL_PARENT_DOCUMENT","scope":"PROCESS_PUMP_PRODUCT_SCOPE","url":"https://www.cecoenviro.com/wp-content/uploads/2024/04/CECO-Dean-Pumps-Trifold-Brochure.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "dean-pump",
+      "officialName": "Dean Pump",
+      "displayName": "Dean Pump",
+      "aliases": [
+        "DEAN PUMP",
+        "CECO Dean Pump"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cecoenviro.com/",
+      "officialDomains": [
+        "cecoenviro.com"
+      ],
+      "country": "United States",
+      "headquarters": "Indianapolis, Indiana, United States",
+      "foundedYear": null,
+      "parentCompany": "CECO Environmental Corp.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Dean Pump is a CECO process-pump brand for high-temperature and chemical duties. Its portfolio includes metallic centrifugal, ANSI process and vertical inline pumps.",
+      "fullDescription": [
+        "Official CECO literature presents Dean Pump as a long-established metallic centrifugal-pump brand manufactured in Indianapolis, Indiana. The brand serves chemical, power, refining and other demanding process applications.",
+        "The documented range includes PH ANSI/ASME B73.1 process pumps, DeanLine vertical inline pumps and engineered high-temperature centrifugal pumps in multiple alloys for corrosive and thermal service."
+      ],
+      "productCategories": [
+        "Центробежные насосы",
+        "Химические насосы",
+        "Вертикальные насосы",
+        "Высокотемпературные насосы"
+      ],
+      "productFamilies": [
+        "ANSI Process Pumps",
+        "Vertical Inline Pumps",
+        "High-Temperature Process Pumps",
+        "Metallic Centrifugal Pumps"
+      ],
+      "series": [
+        "PH",
+        "DeanLine"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Энергетика",
+        "Нефтепереработка",
+        "Целлюлозно-бумажная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.cecoenviro.com/wp-content/uploads/2024/09/CECO-Dean-ANSI-Brochure_Final.pdf"
+      ],
+      "documentationSources": [
+        "https://www.cecoenviro.com/wp-content/uploads/2024/04/CECO-Dean-Pumps-Trifold-Brochure.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-dean-parent-ansi",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "IDENTITY_LOCATION_ANSI_PUMP_SERIES_AND_APPLICATIONS",
+          "url": "https://www.cecoenviro.com/wp-content/uploads/2024/09/CECO-Dean-ANSI-Brochure_Final.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-dean-parent-profile",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "PROCESS_PUMP_PRODUCT_SCOPE",
+          "url": "https://www.cecoenviro.com/wp-content/uploads/2024/04/CECO-Dean-Pumps-Trifold-Brochure.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"dietz-motoren","officialName":"Dietz-motoren GmbH & Co. KG","displayName":"DIETZ-motoren","aliases":["DIETZ MOTOREN","Dietz Motoren"],"formerNames":[],"officialWebsite":"https://www.dietz-motoren.de/en/","officialDomains":["dietz-motoren.de"],"country":"Germany","headquarters":"Dettingen unter Teck, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"DIETZ-motoren develops electric motors, radial fans and blowers. Its range includes air- and liquid-cooled motors plus low-, medium- and high-pressure fan systems.",
-      "fullDescription":["Dietz-motoren GmbH & Co. KG is a German drive and ventilation-equipment manufacturer based in Dettingen unter Teck. Official pages document customised electric motors and industrial air-moving equipment.","Motor families include air-cooled, liquid-cooled, synchronous and application-specific designs. Fan products include SB blowers, HR high-pressure, GR and GT medium-pressure and DN low-pressure radial fans for ventilation, cooling, filtration and machine integration."],
-      "productCategories":["Электродвигатели","Радиальные вентиляторы","Промышленные воздуходувки","Вентиляционное оборудование"],"productFamilies":["Air-Cooled Electric Motors","Liquid-Cooled Electric Motors","Radial Fans","Industrial Blowers"],"series":["SB","HR","GR","GT","DN","TRS"],"industries":["Промышленное производство","Вентиляция и кондиционирование","Железнодорожная промышленность","Судостроение"],"officialCatalogs":[],"documentationSources":["https://www.dietz-motoren.de/en/products-solutions"],
-      "sources":[{"sourceId":"brand-dietz-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_MOTOR_AND_FAN_SCOPE","url":"https://www.dietz-motoren.de/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-dietz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTOR_FAN_FAMILIES_AND_SERIES","url":"https://www.dietz-motoren.de/en/products-solutions","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "dietz-motoren",
+      "officialName": "Dietz-motoren GmbH & Co. KG",
+      "displayName": "DIETZ-motoren",
+      "aliases": [
+        "DIETZ MOTOREN",
+        "Dietz Motoren"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.dietz-motoren.de/en/",
+      "officialDomains": [
+        "dietz-motoren.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Dettingen unter Teck, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "DIETZ-motoren develops electric motors, radial fans and blowers. Its range includes air- and liquid-cooled motors plus low-, medium- and high-pressure fan systems.",
+      "fullDescription": [
+        "Dietz-motoren GmbH & Co. KG is a German drive and ventilation-equipment manufacturer based in Dettingen unter Teck. Official pages document customised electric motors and industrial air-moving equipment.",
+        "Motor families include air-cooled, liquid-cooled, synchronous and application-specific designs. Fan products include SB blowers, HR high-pressure, GR and GT medium-pressure and DN low-pressure radial fans for ventilation, cooling, filtration and machine integration."
+      ],
+      "productCategories": [
+        "Электродвигатели",
+        "Радиальные вентиляторы",
+        "Промышленные воздуходувки",
+        "Вентиляционное оборудование"
+      ],
+      "productFamilies": [
+        "Air-Cooled Electric Motors",
+        "Liquid-Cooled Electric Motors",
+        "Radial Fans",
+        "Industrial Blowers"
+      ],
+      "series": [
+        "SB",
+        "HR",
+        "GR",
+        "GT",
+        "DN",
+        "TRS"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Вентиляция и кондиционирование",
+        "Железнодорожная промышленность",
+        "Судостроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.dietz-motoren.de/en/products-solutions"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-dietz-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_LOCATION_MOTOR_AND_FAN_SCOPE",
+          "url": "https://www.dietz-motoren.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-dietz-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOTOR_FAN_FAMILIES_AND_SERIES",
+          "url": "https://www.dietz-motoren.de/en/products-solutions",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"faster","officialName":"Faster S.r.l.","displayName":"Faster","aliases":["FASTER","Faster Couplings"],"formerNames":[],"officialWebsite":"https://www.fastercouplings.com/","officialDomains":["fastercouplings.com"],"country":"Italy","headquarters":"Rivolta d'Adda, Italy","foundedYear":null,"parentCompany":"Helios Technologies, Inc.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Faster manufactures quick-release hydraulic couplings and multi-connection systems. Its solutions connect fluid and electrical circuits in mobile, industrial and thermal-management applications.",
-      "fullDescription":["Faster S.r.l. is an Italian manufacturer of quick-release hydraulic couplings based in Rivolta d'Adda and managed within Helios Technologies. Official material documents more than seventy-five years of experience in hydraulic connections.","The portfolio includes flat-face and conventional quick couplings, MultiFaster and MultiSlide multi-connections, automatic custom connections, swivel assemblies and thermal-management products for construction, agriculture, industry and high-performance cooling circuits."],
-      "productCategories":["Быстроразъемные соединения","Гидравлические муфты","Мультисоединения","Компоненты терморегулирования"],"productFamilies":["Quick-Release Couplings","Flat-Face Couplings","MultiFaster Systems","MultiSlide Systems","Automatic Multiconnections","Thermal-Management Connections"],"series":["MultiFaster","MultiSlide","MultiQTC","FFH","3FFH","GenYus"],"industries":["Строительная техника","Сельское хозяйство","Промышленное производство","Транспорт"],"officialCatalogs":["https://www.fastercouplings.com/files/catalogs/faster-product-overview.pdf"],"documentationSources":["https://www.fastercouplings.com/"],
-      "sources":[{"sourceId":"brand-faster-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"IDENTITY_LOCATION_OWNERSHIP_PRODUCTS_AND_APPLICATIONS","url":"https://www.fastercouplings.com/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-faster-overview","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"COUPLING_PRODUCT_FAMILIES_AND_EXPERIENCE","url":"https://www.fastercouplings.com/files/catalogs/faster-product-overview.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "faster",
+      "officialName": "Faster S.r.l.",
+      "displayName": "Faster",
+      "aliases": [
+        "FASTER",
+        "Faster Couplings"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.fastercouplings.com/",
+      "officialDomains": [
+        "fastercouplings.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Rivolta d'Adda, Italy",
+      "foundedYear": null,
+      "parentCompany": "Helios Technologies, Inc.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Faster manufactures quick-release hydraulic couplings and multi-connection systems. Its solutions connect fluid and electrical circuits in mobile, industrial and thermal-management applications.",
+      "fullDescription": [
+        "Faster S.r.l. is an Italian manufacturer of quick-release hydraulic couplings based in Rivolta d'Adda and managed within Helios Technologies. Official material documents more than seventy-five years of experience in hydraulic connections.",
+        "The portfolio includes flat-face and conventional quick couplings, MultiFaster and MultiSlide multi-connections, automatic custom connections, swivel assemblies and thermal-management products for construction, agriculture, industry and high-performance cooling circuits."
+      ],
+      "productCategories": [
+        "Быстроразъемные соединения",
+        "Гидравлические муфты",
+        "Мультисоединения",
+        "Компоненты терморегулирования"
+      ],
+      "productFamilies": [
+        "Quick-Release Couplings",
+        "Flat-Face Couplings",
+        "MultiFaster Systems",
+        "MultiSlide Systems",
+        "Automatic Multiconnections",
+        "Thermal-Management Connections"
+      ],
+      "series": [
+        "MultiFaster",
+        "MultiSlide",
+        "MultiQTC",
+        "FFH",
+        "3FFH",
+        "GenYus"
+      ],
+      "industries": [
+        "Строительная техника",
+        "Сельское хозяйство",
+        "Промышленное производство",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.fastercouplings.com/files/catalogs/faster-product-overview.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fastercouplings.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-faster-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "IDENTITY_LOCATION_OWNERSHIP_PRODUCTS_AND_APPLICATIONS",
+          "url": "https://www.fastercouplings.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-faster-overview",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "COUPLING_PRODUCT_FAMILIES_AND_EXPERIENCE",
+          "url": "https://www.fastercouplings.com/files/catalogs/faster-product-overview.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     },
     {
-      "manufacturerId":"waldemar-pruss","officialName":"Hannemann & Pruss GmbH","displayName":"Hannemann & Pruss","aliases":["HANNEMANN & PRUSS","WALDEMAR PRUSS","PRUSS"],"formerNames":[],"officialWebsite":"https://www.pruss.de/en/","officialDomains":["pruss.de"],"country":"Germany","headquarters":"Hilden, Germany","foundedYear":null,"parentCompany":"Pruss Armaturen AG","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Hannemann & Pruss is a Pruss group valve business associated with engineered pressure-control equipment for power and process plants. The wider official portfolio covers control, safety, bypass and anti-surge valves with matching actuators.",
-      "fullDescription":["Official Pruss documents identify Hannemann & Pruss GmbH as a German group company located in Hilden. The public Pruss portfolio is built around custom-engineered industrial valves and actuators for high-pressure and high-temperature services.","Documented solutions include condensate level-control valves, turbine-bypass stations, steam-turbine inlet and emergency-shutoff valves, boiler safety valves, compressor anti-surge valves, gas-turbine fuel-control valves and oxygen or hydrogen service equipment for power, oil and gas, steel and petrochemical plants."],
-      "productCategories":["Регулирующие клапаны","Предохранительные клапаны","Байпасные станции","Противопомпажные клапаны","Промышленные приводы"],"productFamilies":["Control Valves","Safety Valves","Turbine Bypass Stations","Emergency Shutoff Valves","Anti-Surge Valves","Valve Actuators"],"series":["BR 450"],"industries":["Энергетика","Нефтегазовая промышленность","Химическая промышленность","Металлургия","Водородная энергетика"],"officialCatalogs":[],"documentationSources":["https://www.pruss.de/en/"],
-      "sources":[{"sourceId":"brand-hannemann-pruss-home","tier":"B","type":"OFFICIAL_PARENT_GROUP_ABOUT_AND_PRODUCTS","scope":"GROUP_IDENTITY_PRODUCT_SCOPE_AND_APPLICATIONS","url":"https://www.pruss.de/en/","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-hannemann-pruss-terms","tier":"B","type":"OFFICIAL_PARENT_GROUP_DOCUMENT","scope":"LEGAL_IDENTITY_AND_GROUP_RELATION","url":"https://www.pruss.de/media/agb_pruss_armaturen_ag_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"},{"sourceId":"brand-hannemann-pruss-worldwide","tier":"B","type":"OFFICIAL_PARENT_GROUP_DIRECTORY","scope":"COMPANY_LOCATION_AND_CONTACT_RELATION","url":"https://www.pruss.de/de/bereiche/pruss-weltweit/","status":"AVAILABLE","checkedAt":"2026-08-20"}]
+      "manufacturerId": "waldemar-pruss",
+      "officialName": "Hannemann & Pruss GmbH",
+      "displayName": "Hannemann & Pruss",
+      "aliases": [
+        "HANNEMANN & PRUSS",
+        "WALDEMAR PRUSS",
+        "PRUSS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.pruss.de/en/",
+      "officialDomains": [
+        "pruss.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Hilden, Germany",
+      "foundedYear": null,
+      "parentCompany": "Pruss Armaturen AG",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Hannemann & Pruss is a Pruss group valve business associated with engineered pressure-control equipment for power and process plants. The wider official portfolio covers control, safety, bypass and anti-surge valves with matching actuators.",
+      "fullDescription": [
+        "Official Pruss documents identify Hannemann & Pruss GmbH as a German group company located in Hilden. The public Pruss portfolio is built around custom-engineered industrial valves and actuators for high-pressure and high-temperature services.",
+        "Documented solutions include condensate level-control valves, turbine-bypass stations, steam-turbine inlet and emergency-shutoff valves, boiler safety valves, compressor anti-surge valves, gas-turbine fuel-control valves and oxygen or hydrogen service equipment for power, oil and gas, steel and petrochemical plants."
+      ],
+      "productCategories": [
+        "Регулирующие клапаны",
+        "Предохранительные клапаны",
+        "Байпасные станции",
+        "Противопомпажные клапаны",
+        "Промышленные приводы"
+      ],
+      "productFamilies": [
+        "Control Valves",
+        "Safety Valves",
+        "Turbine Bypass Stations",
+        "Emergency Shutoff Valves",
+        "Anti-Surge Valves",
+        "Valve Actuators"
+      ],
+      "series": [
+        "BR 450"
+      ],
+      "industries": [
+        "Энергетика",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Металлургия",
+        "Водородная энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.pruss.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-hannemann-pruss-home",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_GROUP_ABOUT_AND_PRODUCTS",
+          "scope": "GROUP_IDENTITY_PRODUCT_SCOPE_AND_APPLICATIONS",
+          "url": "https://www.pruss.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-hannemann-pruss-terms",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_GROUP_DOCUMENT",
+          "scope": "LEGAL_IDENTITY_AND_GROUP_RELATION",
+          "url": "https://www.pruss.de/media/agb_pruss_armaturen_ag_en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "sourceId": "brand-hannemann-pruss-worldwide",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_GROUP_DIRECTORY",
+          "scope": "COMPANY_LOCATION_AND_CONTACT_RELATION",
+          "url": "https://www.pruss.de/de/bereiche/pruss-weltweit/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-20"
+        }
+      ]
     }
   ]
 }

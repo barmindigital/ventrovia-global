@@ -1,57 +1,2624 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {"manufacturerId":"spraytech","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SPRAYTECH is used by unrelated current manufacturers of paint-finishing systems, leather-finishing machinery and spray nozzles. The bare registry record has no legal name, geography or product-scope discriminator selecting one entity.","attemptedUrls":["https://spraytech.com/","https://www.spraytech.it/","https://spraytechworld.com/"]},
-    {"manufacturerId":"starline","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"STARLINE is a generic industrial brand name shared by unrelated manufacturers. The registry record contains no legal name, domain, geography or product-scope discriminator.","attemptedUrls":["https://www.google.com/search?q=STARLINE+industrial+manufacturer+official"]},
-    {"manufacturerId":"stedman","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"Stedman Machine Company's apparent manufacturer-owned HTTPS pages returned HTTP 403 during direct release verification. The restriction was respected and cached search content was not promoted to AVAILABLE evidence.","attemptedUrls":["https://www.stedman-machine.com/","https://www.stedman-machine.com/industrial-crushing-equipment/"]},
-    {"manufacturerId":"steinle","status":"BLOCKED_NON_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"The apparent pump identity is Steinle Industriepumpen GmbH, whose current materials primarily present distribution, repair and assembly of Tapflo products. The bare STEINLE record also collides with unrelated current metrology and machinery businesses, so a standalone manufacturer profile is not safe.","attemptedUrls":["https://www.steinle-pumpen.de/","https://www.steinle.com/"]},
-    {"manufacturerId":"stem","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"STEM is a generic word and acronym used by unrelated organizations and product businesses. No domain, legal name, geography or industrial scope in the registry record identifies one manufacturer.","attemptedUrls":["https://www.google.com/search?q=STEM+industrial+manufacturer+official"]},
-    {"manufacturerId":"stork","status":"BLOCKED_NON_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"Current STORK identities found in official corporate material primarily describe engineering and maintenance services, while the name is also shared by unrelated businesses. The bare record does not prove one current equipment manufacturer.","attemptedUrls":["https://www.stork.com/","https://www.bilfinger.com/markets/maintenance-modifications-operations/stork/"]},
-    {"manufacturerId":"stoz","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"The current HTTPS stoz.de entity is an industrial coating and surface-services company, while historical STOZ pump references point to a separate HTTP-only legacy domain. Publishing either identity would risk a wrong-company match.","attemptedUrls":["https://stoz.de/en/home","http://www.stoz.com/"]},
-    {"manufacturerId":"stratco","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"STRATCO identifies unrelated current businesses, including an alkylation-technology brand and a building-products manufacturer. The bare registry record has no product or geography discriminator.","attemptedUrls":["https://elessentct.com/stratco-alkylation-technology/","https://stratcoinc.com/"]},
-    {"manufacturerId":"sud-electric-ag","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The apparent SUD-ELECTRIC manufacturer-owned HTTPS site did not complete a response during repeated verification. No reseller or cached snippet was substituted.","attemptedUrls":["https://www.sud-electric.ch/"]},
-    {"manufacturerId":"sun-hydraulics","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"Sun Hydraulics' manufacturer-owned HTTPS site and product directory returned HTTP 403 during direct verification. The restriction was respected and no secondary source was promoted to Tier A evidence.","attemptedUrls":["https://www.sunhydraulics.com/","https://www.sunhydraulics.com/products/"]},
-    {"manufacturerId":"sunflo","status":"BLOCKED_PRODUCT_LINE_IDENTITY","checkedAt":"2026-08-24","reason":"Current official Sundyne evidence presents Sunflo as an industrial-grade pump product family within Sundyne, not an independent manufacturer entity. A separate page would duplicate the canonical Sundyne profile.","attemptedUrls":["https://www.sundyne.com/","https://www.sundyne.com/products/sunflo-industrial-grade-pumps/"]},
-    {"manufacturerId":"sterling-electric","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The apparent Sterling Electric domain currently returns only a JavaScript redirect to a generic lander instead of verifiable company and product content. Historical cached material was not treated as current AVAILABLE evidence.","attemptedUrls":["https://www.sterling-electric.com/","https://www.sterling-electric.com/products/"]},
-    {"manufacturerId":"superior-royal-gold","status":"BLOCKED_PRODUCT_LINE_IDENTITY","checkedAt":"2026-08-24","reason":"Official Royal Manufacturing material identifies Superior Royal Gold as a lubricant product line rather than a standalone manufacturer. Creating a manufacturer page would elevate a product family into a separate company identity.","attemptedUrls":["https://royalmfg.com/wp-content/uploads/2020/07/Grease-Brochure-4-CATEGORIES-FR28-PRINTER-1.pdf"]},
-    {"manufacturerId":"swan","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SWAN is a generic name shared by unrelated current industrial, analytical-instrument and consumer businesses. The registry record has no domain, legal name, geography or product-scope discriminator.","attemptedUrls":["https://www.google.com/search?q=SWAN+industrial+manufacturer+official"]},
-    {"manufacturerId":"swedish-neutral","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The apparent Swedish Neutral manufacturer-owned HTTPS site did not complete a response during repeated direct verification. No reseller evidence was substituted.","attemptedUrls":["https://swedishneutral.se/","https://swedishneutral.se/products/"]},
-    {"manufacturerId":"swr-engineering","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The apparent SWR Engineering manufacturer-owned HTTPS pages did not complete a response during repeated verification, so identity and product scope could not be marked AVAILABLE.","attemptedUrls":["https://www.swr-engineering.com/","https://www.swr-engineering.com/products/"]}
+    {
+      "manufacturerId": "spraytech",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SPRAYTECH is used by unrelated current manufacturers of paint-finishing systems, leather-finishing machinery and spray nozzles. The bare registry record has no legal name, geography or product-scope discriminator selecting one entity.",
+      "attemptedUrls": [
+        "https://spraytech.com/",
+        "https://www.spraytech.it/",
+        "https://spraytechworld.com/"
+      ]
+    },
+    {
+      "manufacturerId": "starline",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "STARLINE is a generic industrial brand name shared by unrelated manufacturers. The registry record contains no legal name, domain, geography or product-scope discriminator.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=STARLINE+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "stedman",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Stedman Machine Company's apparent manufacturer-owned HTTPS pages returned HTTP 403 during direct release verification. The restriction was respected and cached search content was not promoted to AVAILABLE evidence.",
+      "attemptedUrls": [
+        "https://www.stedman-machine.com/",
+        "https://www.stedman-machine.com/industrial-crushing-equipment/"
+      ]
+    },
+    {
+      "manufacturerId": "steinle",
+      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "The apparent pump identity is Steinle Industriepumpen GmbH, whose current materials primarily present distribution, repair and assembly of Tapflo products. The bare STEINLE record also collides with unrelated current metrology and machinery businesses, so a standalone manufacturer profile is not safe.",
+      "attemptedUrls": [
+        "https://www.steinle-pumpen.de/",
+        "https://www.steinle.com/"
+      ]
+    },
+    {
+      "manufacturerId": "stem",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "STEM is a generic word and acronym used by unrelated organizations and product businesses. No domain, legal name, geography or industrial scope in the registry record identifies one manufacturer.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=STEM+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "stork",
+      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Current STORK identities found in official corporate material primarily describe engineering and maintenance services, while the name is also shared by unrelated businesses. The bare record does not prove one current equipment manufacturer.",
+      "attemptedUrls": [
+        "https://www.stork.com/",
+        "https://www.bilfinger.com/markets/maintenance-modifications-operations/stork/"
+      ]
+    },
+    {
+      "manufacturerId": "stoz",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "The current HTTPS stoz.de entity is an industrial coating and surface-services company, while historical STOZ pump references point to a separate HTTP-only legacy domain. Publishing either identity would risk a wrong-company match.",
+      "attemptedUrls": [
+        "https://stoz.de/en/home",
+        "http://www.stoz.com/"
+      ]
+    },
+    {
+      "manufacturerId": "stratco",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "STRATCO identifies unrelated current businesses, including an alkylation-technology brand and a building-products manufacturer. The bare registry record has no product or geography discriminator.",
+      "attemptedUrls": [
+        "https://elessentct.com/stratco-alkylation-technology/",
+        "https://stratcoinc.com/"
+      ]
+    },
+    {
+      "manufacturerId": "sud-electric-ag",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The apparent SUD-ELECTRIC manufacturer-owned HTTPS site did not complete a response during repeated verification. No reseller or cached snippet was substituted.",
+      "attemptedUrls": [
+        "https://www.sud-electric.ch/"
+      ]
+    },
+    {
+      "manufacturerId": "sun-hydraulics",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Sun Hydraulics' manufacturer-owned HTTPS site and product directory returned HTTP 403 during direct verification. The restriction was respected and no secondary source was promoted to Tier A evidence.",
+      "attemptedUrls": [
+        "https://www.sunhydraulics.com/",
+        "https://www.sunhydraulics.com/products/"
+      ]
+    },
+    {
+      "manufacturerId": "sunflo",
+      "status": "BLOCKED_PRODUCT_LINE_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Current official Sundyne evidence presents Sunflo as an industrial-grade pump product family within Sundyne, not an independent manufacturer entity. A separate page would duplicate the canonical Sundyne profile.",
+      "attemptedUrls": [
+        "https://www.sundyne.com/",
+        "https://www.sundyne.com/products/sunflo-industrial-grade-pumps/"
+      ]
+    },
+    {
+      "manufacturerId": "sterling-electric",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The apparent Sterling Electric domain currently returns only a JavaScript redirect to a generic lander instead of verifiable company and product content. Historical cached material was not treated as current AVAILABLE evidence.",
+      "attemptedUrls": [
+        "https://www.sterling-electric.com/",
+        "https://www.sterling-electric.com/products/"
+      ]
+    },
+    {
+      "manufacturerId": "superior-royal-gold",
+      "status": "BLOCKED_PRODUCT_LINE_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Official Royal Manufacturing material identifies Superior Royal Gold as a lubricant product line rather than a standalone manufacturer. Creating a manufacturer page would elevate a product family into a separate company identity.",
+      "attemptedUrls": [
+        "https://royalmfg.com/wp-content/uploads/2020/07/Grease-Brochure-4-CATEGORIES-FR28-PRINTER-1.pdf"
+      ]
+    },
+    {
+      "manufacturerId": "swan",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SWAN is a generic name shared by unrelated current industrial, analytical-instrument and consumer businesses. The registry record has no domain, legal name, geography or product-scope discriminator.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SWAN+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "swedish-neutral",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The apparent Swedish Neutral manufacturer-owned HTTPS site did not complete a response during repeated direct verification. No reseller evidence was substituted.",
+      "attemptedUrls": [
+        "https://swedishneutral.se/",
+        "https://swedishneutral.se/products/"
+      ]
+    },
+    {
+      "manufacturerId": "swr-engineering",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The apparent SWR Engineering manufacturer-owned HTTPS pages did not complete a response during repeated verification, so identity and product scope could not be marked AVAILABLE.",
+      "attemptedUrls": [
+        "https://www.swr-engineering.com/",
+        "https://www.swr-engineering.com/products/"
+      ]
+    }
   ],
   "profiles": [
-    {"manufacturerId":"spn","officialName":"SPN Schwaben Präzision Fritz Hopf GmbH","displayName":"SPN","aliases":["SPN","SPN Drive"],"formerNames":[],"officialWebsite":"https://www.spn-drive.de/en","officialDomains":["spn-drive.de"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SPN develops and manufactures precision gear units and application-specific drive solutions. Its official portfolio covers standard gear units, customized gearboxes and integrated drive engineering for machinery and automation.","fullDescription":["SPN's manufacturer-owned site documents drive technology built around precision gearing and customer-specific engineering. The product scope includes standard gear units and configured or fully customized gearbox solutions for positioning, power transmission and motion tasks in industrial machinery and automated systems."],"productCategories":["Промышленные редукторы","Механические передачи","Системы управления движением"],"productFamilies":["Standard Gear Units","Customized Gear Units","Integrated Drive Solutions"],"series":[],"industries":["Машиностроение","Промышленная автоматизация"],"officialCatalogs":[],"documentationSources":["https://www.spn-drive.de/en/products/gear-units"],"sources":[{"sourceId":"brand-spn-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_DRIVE_TECHNOLOGY_SCOPE","url":"https://www.spn-drive.de/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-spn-gear-units","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STANDARD_AND_CUSTOM_GEAR_UNIT_SCOPE","url":"https://www.spn-drive.de/en/products/gear-units","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"spraying-systems","officialName":"Spraying Systems Co.","displayName":"Spraying Systems Co.","aliases":["SPRAYING SYSTEMS CO.","SPRAYING SYSTEMS"],"formerNames":[],"officialWebsite":"https://www.spray.com/","officialDomains":["spray.com"],"country":"United States","headquarters":"Glendale Heights, Illinois, United States","foundedYear":null,"parentCompany":null,"shortDescription":"Spraying Systems Co. manufactures industrial spray nozzles and engineered spray systems. Its range includes hydraulic and air-atomizing nozzles, spray guns, tank-cleaning equipment and automated spray controls.","fullDescription":["Spraying Systems Co.'s official product directory organizes spray technology for cleaning, coating, cooling, drying, lubricating, dispensing and other process operations. The portfolio spans hydraulic, air-atomizing and automatic nozzles, high-pressure and spray-drying designs, spray guns, tank-cleaning products, headers, lances, accessories and automated control systems."],"productCategories":["Промышленные форсунки","Окрасочное оборудование","Промышленные системы распыления","Очистное оборудование"],"productFamilies":["Hydraulic Spray Nozzles","Air Atomizing Nozzles","Automatic Nozzles","Spray Guns","Tank Cleaning Equipment","Automated Spray Systems"],"series":["FullJet","VeeJet","WhirlJet","TankJet","WindJet","SprayDry"],"industries":["Химическая промышленность","Пищевая промышленность","Фармацевтическая промышленность","Металлургия","Автомобильная промышленность"],"officialCatalogs":[],"documentationSources":["https://www.spray.com/products/nozzles"],"sources":[{"sourceId":"brand-spraying-systems-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_SPRAY_TECHNOLOGY_SCOPE","url":"https://www.spray.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-spraying-systems-nozzles","tier":"A","type":"PRODUCT_DIRECTORY","scope":"NOZZLE_GUN_TANK_CLEANING_AND_SPRAY_SYSTEM_SCOPE","url":"https://www.spray.com/products/nozzles","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"spx-flow","officialName":"SPX FLOW, Inc.","displayName":"SPX FLOW","aliases":["SPX","SPX FLOW"],"formerNames":[],"officialWebsite":"https://www.spxflow.com/","officialDomains":["spxflow.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SPX FLOW develops process equipment and systems for nutrition, health and industrial applications. Its documented portfolio includes pumps, valves, mixers, homogenizers, separators, filtration equipment, dryers and heat exchangers.","fullDescription":["SPX FLOW's official corporate material presents engineered process technologies used to move, mix, separate, heat, cool and transform fluids and ingredients. The portfolio covers pumps and valves, blenders and mixers, homogenizers, centrifuges and separators, filtration, evaporation, drying, crystallization and heat-transfer equipment for food, dairy, beverage, pharmaceutical, personal-care and industrial processes."],"productCategories":["Промышленные насосы","Промышленные клапаны","Смесительное оборудование","Теплообменное оборудование","Фильтрационное оборудование","Сепарационное оборудование"],"productFamilies":["Process Pumps","Process Valves","Mixers and Blenders","Homogenizers","Separators and Centrifuges","Heat Exchangers","Filtration Systems","Dryers"],"series":[],"industries":["Пищевая промышленность","Фармацевтическая промышленность","Химическая промышленность","Промышленное производство"],"officialCatalogs":["https://www.spxflow.com/assets/original/company-overview-july-2022.pdf"],"documentationSources":["https://www.spxflow.com/assets/original/company-overview-july-2022.pdf"],"sources":[{"sourceId":"brand-spx-flow-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_PROCESS_TECHNOLOGY_SCOPE","url":"https://www.spxflow.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-spx-flow-company-overview","tier":"A","type":"OFFICIAL_CATALOG","scope":"PUMP_VALVE_MIXING_SEPARATION_AND_HEAT_TRANSFER_SCOPE","url":"https://www.spxflow.com/assets/original/company-overview-july-2022.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stabilus","officialName":"Stabilus SE","displayName":"Stabilus","aliases":["STABILUS"],"formerNames":[],"officialWebsite":"https://www.stabilus.com/","officialDomains":["stabilus.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Stabilus develops motion-control products for lifting, lowering, positioning and damping. Its official range includes gas springs, hydraulic dampers, vibration-isolation products and electromechanical drives.","fullDescription":["Stabilus' manufacturer-owned product directory documents components and systems that control motion in vehicles, machinery, furniture and industrial equipment. The portfolio combines gas springs and dampers with vibration and isolation technology, electromechanical drives and application-specific motion-control solutions."],"productCategories":["Газовые пружины","Промышленные амортизаторы","Системы управления движением","Линейные приводы"],"productFamilies":["Gas Springs","Hydraulic Dampers","Vibration and Isolation Products","Electromechanical Drives"],"series":[],"industries":["Автомобильная промышленность","Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.stabilus.com/products"],"sources":[{"sourceId":"brand-stabilus-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_MOTION_CONTROL_SCOPE","url":"https://www.stabilus.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stabilus-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GAS_SPRING_DAMPER_ISOLATION_AND_DRIVE_SCOPE","url":"https://www.stabilus.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stahl-cranesystems","officialName":"STAHL CraneSystems GmbH","displayName":"STAHL CraneSystems","aliases":["STAHL CRANESYSTEMS","STAHL"],"formerNames":[],"officialWebsite":"https://www.cmco.com/en-us/our-brands/stahlcranes/","officialDomains":["cmco.com","stahlcranes.com"],"country":"Germany","headquarters":"Künzelsau, Germany","foundedYear":1876,"parentCompany":"Columbus McKinnon Corporation","statusModifier":"GROUP_BRAND","shortDescription":"STAHL CraneSystems is a Columbus McKinnon brand for hoists, crane components and engineered lifting systems. Its range includes chain and wire-rope hoists, winches, crane kits, travel drives and explosion-protected configurations.","fullDescription":["Columbus McKinnon's official STAHL CraneSystems pages document lifting equipment for standard, special and hazardous-area crane applications. The portfolio includes electric chain hoists, wire-rope hoists, winches, wheel blocks, travel drives, crane kits and complete bridge, suspension, portal and slewing-jib crane concepts."],"productCategories":["Грузоподъемное оборудование","Промышленные краны","Промышленные тали","Взрывозащищенное оборудование"],"productFamilies":["Electric Chain Hoists","Wire Rope Hoists","Electric Winches","Crane Kits","Travel Drives","Wheel Blocks","Crane Systems"],"series":["ST","SH","AS 7","SHW 8","SXD","SXF"],"industries":["Машиностроение","Нефтегазовая промышленность","Химическая промышленность","Металлургия","Транспортная инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.cmco.com/en-de/our-brands/stahlcranes/CraneSystems/"],"sources":[{"sourceId":"brand-stahl-cranesystems-official","tier":"B","type":"OFFICIAL_PARENT","scope":"CURRENT_BRAND_IDENTITY_HISTORY_AND_HOIST_SCOPE","url":"https://www.cmco.com/en-us/our-brands/stahlcranes/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stahl-cranesystems-cranes","tier":"B","type":"PRODUCT_DIRECTORY","scope":"CRANE_SYSTEM_AND_FEATURED_HOIST_SCOPE","url":"https://www.cmco.com/en-de/our-brands/stahlcranes/CraneSystems/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stama","officialName":"STAMA","displayName":"STAMA","aliases":["STAMA"],"formerNames":[],"officialWebsite":"https://chiron-group.com/","officialDomains":["chiron-group.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"CHIRON Group SE","statusModifier":"GROUP_BRAND","shortDescription":"STAMA is a CHIRON Group brand for vertical CNC milling and mill-turn machining centers. The brand's official group profile emphasizes stable machine construction and complete machining for flexible production.","fullDescription":["CHIRON Group's official corporate report identifies STAMA as one of its machining-center brands and places it within the group's CNC vertical milling and mill-turn portfolio. STAMA machines support complete machining, while the wider group provides turnkey process integration, automation, digital services and lifecycle support around the machining platform."],"productCategories":["Металлообрабатывающие станки","Обрабатывающие центры","Станки с ЧПУ"],"productFamilies":["Vertical Milling Centers","Mill-Turn Machining Centers","Complete Machining Solutions"],"series":[],"industries":["Автомобильная промышленность","Машиностроение","Медицинская техника","Аэрокосмическая промышленность"],"officialCatalogs":["https://chiron-group.com/storage/bcs-220801-chiron_nhb_22-p12_en_rrz-2.pdf"],"documentationSources":["https://chiron-group.com/storage/bcs-220801-chiron_nhb_22-p12_en_rrz-2.pdf"],"sources":[{"sourceId":"brand-stama-parent-official","tier":"B","type":"OFFICIAL_PARENT","scope":"CURRENT_GROUP_AND_BRAND_IDENTITY","url":"https://chiron-group.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stama-group-report","tier":"B","type":"OFFICIAL_DOCUMENT","scope":"STAMA_VERTICAL_MILLING_MILL_TURN_AND_COMPLETE_MACHINING_SCOPE","url":"https://chiron-group.com/storage/bcs-220801-chiron_nhb_22-p12_en_rrz-2.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stamford","officialName":"STAMFORD","displayName":"STAMFORD","aliases":["STAMFORD ALTERNATORS","STAMFORD | AvK"],"formerNames":[],"officialWebsite":"https://www.stamford-avk.com/alternators/stamford","officialDomains":["stamford-avk.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Cummins Inc.","statusModifier":"GROUP_BRAND","shortDescription":"STAMFORD is a Cummins brand of alternators for generator sets and power-generation systems. Its official range covers wire-wound alternators for continuous and standby applications across multiple output classes.","fullDescription":["The official STAMFORD | AvK site documents STAMFORD alternators for coupling with generator-set prime movers. The current range spans compact through high-output machines for marine, oil and gas auxiliary power, telecommunications, combined heat and power, construction, UPS and other continuous or standby generation duties."],"productCategories":["Промышленные генераторы","Альтернаторы","Электроэнергетическое оборудование"],"productFamilies":["Wire-Wound Alternators","Generator-Set Alternators","Water-Cooled Alternators"],"series":["S0","S1","S4","S5","S6","S7","S9","UC22","UC27","HC4","P80"],"industries":["Энергетика","Судостроение","Нефтегазовая промышленность","Строительная техника","Телекоммуникации"],"officialCatalogs":[],"documentationSources":["https://www.stamford-avk.com/alternators/stamford"],"sources":[{"sourceId":"brand-stamford-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_BRAND_IDENTITY_AND_ALTERNATOR_SCOPE","url":"https://www.stamford-avk.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stamford-alternators","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ALTERNATOR_RANGE_SERIES_AND_APPLICATION_SCOPE","url":"https://www.stamford-avk.com/alternators/stamford","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"standart-pompa","officialName":"Standart Pompa ve Makina Sanayi Ticaret A.Ş.","displayName":"Standart Pompa","aliases":["STANDART POMPA","STANDART"],"formerNames":[],"officialWebsite":"https://www.standartpompa.com/en/","officialDomains":["standartpompa.com"],"country":"Türkiye","headquarters":null,"foundedYear":1957,"parentCompany":null,"shortDescription":"Standart Pompa manufactures pump equipment and packaged pumping systems for buildings, water infrastructure, industry and OEM applications. Its range includes centrifugal pumps, booster sets, fire-fighting pumps and configured pump systems.","fullDescription":["Standart Pompa's manufacturer-owned site and corporate brochure document pump technology developed for water movement and industrial processes. The portfolio is organized around pumps, booster packages, fire-fighting pump sets and integrated pumping systems used in building services, water management, geothermal, petroleum and general industrial applications."],"productCategories":["Промышленные насосы","Насосные станции","Противопожарное оборудование"],"productFamilies":["Centrifugal Pumps","Booster Systems","Fire-Fighting Pumps","Packaged Pump Systems"],"series":[],"industries":["Водоснабжение и водоотведение","Строительство","Промышленное производство","Энергетика"],"officialCatalogs":["https://www.standartpompa.com/en/images/pdf/english/sp_corporate_eng.pdf"],"documentationSources":["https://www.standartpompa.com/en/images/pdf/english/sp_corporate_eng.pdf"],"sources":[{"sourceId":"brand-standart-pompa-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_HISTORY_AND_PUMP_SCOPE","url":"https://www.standartpompa.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-standart-pompa-corporate","tier":"A","type":"OFFICIAL_CATALOG","scope":"PUMP_AND_PACKAGED_SYSTEM_SCOPE","url":"https://www.standartpompa.com/en/images/pdf/english/sp_corporate_eng.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stanley-engineered-fastening","officialName":"STANLEY Engineered Fastening","displayName":"STANLEY Engineered Fastening","aliases":["STANLEY ENGINEERED FASTENING"],"formerNames":[],"officialWebsite":"https://europe.en.stanleyengineeredfastening.com/","officialDomains":["stanleyengineeredfastening.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Stanley Black & Decker, Inc.","statusModifier":"GROUP_DIVISION","shortDescription":"STANLEY Engineered Fastening develops industrial fastening and assembly technologies. Its range includes rivets, lockbolts, rivet nuts, inserts, pins, screws, bolts, sealing fasteners, plastic components and installation systems.","fullDescription":["The official STANLEY Engineered Fastening site documents fastening products for joining structures and components in industrial production. The portfolio spans blind rivets, structural lockbolts, rivet nuts, threaded inserts, pins, screws and bolts, sealing fasteners, engineered plastic components and installation or assembly equipment across several established product brands."],"productCategories":["Промышленный крепеж","Сборочное оборудование","Промышленные инструменты"],"productFamilies":["Blind Rivets","Lockbolts","Rivet Nuts","Threaded Inserts","Pins","Screws and Bolts","Sealing Fasteners","Plastic Fasteners","Assembly Systems"],"series":[],"industries":["Автомобильная промышленность","Аэрокосмическая промышленность","Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://europe.en.stanleyengineeredfastening.com/fasteners"],"sources":[{"sourceId":"brand-stanley-engineered-fastening-official","tier":"A","type":"OFFICIAL_SITE","scope":"DIVISION_IDENTITY_AND_FASTENING_SCOPE","url":"https://europe.en.stanleyengineeredfastening.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stanley-engineered-fastening-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RIVET_LOCKBOLT_INSERT_PIN_AND_FASTENER_SCOPE","url":"https://europe.en.stanleyengineeredfastening.com/fasteners","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stasskol","officialName":"STASSKOL GmbH","displayName":"STASSKOL","aliases":["STASSKOL"],"formerNames":[],"officialWebsite":"https://www.stasskol.de/de/","officialDomains":["stasskol.de"],"country":"Germany","headquarters":null,"foundedYear":1920,"parentCompany":null,"shortDescription":"STASSKOL develops sealing technology for rotating and reciprocating machinery. Its official materials cover mixer seals, mechanical seals and application-specific sealing systems for powders, liquids and process equipment.","fullDescription":["STASSKOL's manufacturer-owned product page and catalog document sealing solutions for shafts and process machinery. The portfolio includes dynamic mixer seals and mechanical-seal designs engineered for mixers, mills, conveyors, extruders, dryers and other systems handling powders, liquids or liquid-solid mixtures."],"productCategories":["Промышленные уплотнения","Торцевые уплотнения","Уплотнения валов"],"productFamilies":["Mixer Seals","Mechanical Seals","Application-Specific Sealing Systems"],"series":["SDF"],"industries":["Химическая промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":["https://www.stasskol.de/wp-content/uploads/2022/04/Webversion-SK-Katalog-Gleitringdichtung-EN-20201202-SCR.pdf"],"documentationSources":["https://www.stasskol.de/en/mixer-seals-sdf-series/","https://www.stasskol.de/wp-content/uploads/2022/04/Webversion-SK-Katalog-Gleitringdichtung-EN-20201202-SCR.pdf"],"sources":[{"sourceId":"brand-stasskol-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_SEALING_SCOPE","url":"https://www.stasskol.de/de/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stasskol-mixer-seals","tier":"A","type":"PRODUCT_PAGE","scope":"MIXER_SEAL_APPLICATION_AND_SERIES_SCOPE","url":"https://www.stasskol.de/en/mixer-seals-sdf-series/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stasskol-seal-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MECHANICAL_SEAL_PORTFOLIO","url":"https://www.stasskol.de/wp-content/uploads/2022/04/Webversion-SK-Katalog-Gleitringdichtung-EN-20201202-SCR.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"staubli-fluid-connectors","officialName":"Stäubli Fluid Connectors","displayName":"Stäubli Fluid Connectors","aliases":["STAUBLI FLUID CONNECTORS","STÄUBLI FLUID CONNECTORS","STAUBLI"],"formerNames":[],"officialWebsite":"https://www.staubli.com/global/en/fluid-connectors.html","officialDomains":["staubli.com"],"country":"Switzerland","headquarters":null,"foundedYear":null,"parentCompany":"Stäubli International AG","statusModifier":"GROUP_DIVISION","shortDescription":"Stäubli Fluid Connectors develops connection systems for fluids, gases and industrial energy circuits. Its portfolio includes quick and dry-disconnect couplings, safety breakaways, multi-couplings, robotic tool changers and quick mold-change systems.","fullDescription":["Stäubli's official corporate and Fluid Connectors documents identify a dedicated division for safe, repeatable connection and disconnection in industrial processes. The documented scope combines quick and dry-disconnect couplings, safety breakaway couplings, multi-connection systems, robotic tool changers and quick mold-change solutions for hydraulic, pneumatic, gas, thermal and other media circuits."],"productCategories":["Быстроразъемные соединения","Промышленные муфты","Промышленные соединители","Системы смены инструмента"],"productFamilies":["Quick and Dry Disconnect Couplings","Safety Breakaway Couplings","Multi-Coupling Solutions","Robotic Tool Changers","Quick Mold Change Systems"],"series":["RBE","MCB","HCB","NCB","KBH","TTX"],"industries":["Автомобильная промышленность","Химическая промышленность","Фармацевтическая промышленность","Энергетика","Промышленная автоматизация"],"officialCatalogs":["https://www.staubli.com/content/dam/corporate/01-corporate-communications/corporate-publications/company-profile/Company-Profile-US.pdf"],"documentationSources":["https://www.staubli.com/content/dam/fcs/brochures/cross-markets/certification-flyers/ADR-RID%20certified%20product%20range-flyer-en.pdf"],"sources":[{"sourceId":"brand-staubli-fluid-connectors-profile","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"GROUP_AND_FLUID_CONNECTORS_DIVISION_IDENTITY","url":"https://www.staubli.com/content/dam/corporate/01-corporate-communications/corporate-publications/company-profile/Company-Profile-US.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-staubli-fluid-connectors-range","tier":"A","type":"OFFICIAL_CATALOG","scope":"QUICK_DRY_BREAKAWAY_AND_FLUID_COUPLING_SCOPE","url":"https://www.staubli.com/content/dam/fcs/brochures/cross-markets/certification-flyers/ADR-RID%20certified%20product%20range-flyer-en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stauff","officialName":"STAUFF Group","displayName":"STAUFF","aliases":["STAUFF","STAUFF GROUP"],"formerNames":[],"officialWebsite":"https://stauff.com/en/","officialDomains":["stauff.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"STAUFF develops hydraulic and fluid-line components for mobile and industrial equipment. Its range includes clamps, tube connectors, flanges, hoses, quick couplings, valves, test equipment, filtration products and reservoir accessories.","fullDescription":["STAUFF's official product directory documents port-to-port components and system assemblies for hydraulic lines. The portfolio covers pipe and hose clamps, tube connectors, flanges, hose fittings and assemblies, quick-release couplings, ball and flow-control valves, diagnostic and measuring devices, filter housings and elements, and accessories for tanks and power units."],"productCategories":["Гидравлические компоненты","Промышленные фитинги","Быстроразъемные соединения","Промышленные клапаны","Фильтрационное оборудование","Измерительное оборудование"],"productFamilies":["STAUFF Clamps","STAUFF Connect","STAUFF Flanges","STAUFF Hose","STAUFF Quick Release Couplings","STAUFF Valves","STAUFF Test","STAUFF Diagtronics","STAUFF Filtration Technology"],"series":[],"industries":["Машиностроение","Строительная техника","Промышленное производство","Энергетика"],"officialCatalogs":[],"documentationSources":["https://stauff.com/en/category"],"sources":[{"sourceId":"brand-stauff-official","tier":"A","type":"OFFICIAL_SITE","scope":"GROUP_IDENTITY_AND_HYDRAULIC_SCOPE","url":"https://stauff.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stauff-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_LINE_COMPONENT_AND_SYSTEM_SCOPE","url":"https://stauff.com/en/category","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stego","officialName":"STEGO Elektrotechnik GmbH","displayName":"STEGO","aliases":["STEGO","STEGO GROUP"],"formerNames":[],"officialWebsite":"https://www.stego-group.com/","officialDomains":["stego-group.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"STEGO develops thermal-management and monitoring components for electrical enclosures. Its official range includes enclosure heaters, thermostats, hygrostats, filter fans, sensors, lighting and accessories.","fullDescription":["STEGO's manufacturer-owned product directory documents components that regulate temperature, humidity and airflow inside control cabinets and enclosures. The portfolio combines heaters, thermostats and hygrostats with filter fans, sensors, enclosure lighting, pressure-compensation devices and supporting accessories for electrical and automation installations."],"productCategories":["Терморегулирующее оборудование","Промышленные термостаты","Вентиляционное оборудование","Промышленные датчики","Шкафное оборудование"],"productFamilies":["Enclosure Heaters","Thermostats","Hygrostats","Filter Fans","Sensors","Enclosure Lighting","Accessories"],"series":[],"industries":["Промышленная автоматизация","Электротехника","Энергетика","Телекоммуникации"],"officialCatalogs":[],"documentationSources":["https://www.stego-group.com/products"],"sources":[{"sourceId":"brand-stego-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_ENCLOSURE_CLIMATE_SCOPE","url":"https://www.stego-group.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stego-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HEATER_THERMOSTAT_FAN_SENSOR_AND_LIGHTING_SCOPE","url":"https://www.stego-group.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"steimel","officialName":"Gebr. Steimel GmbH & Co. KG","displayName":"Steimel","aliases":["STEIMEL"],"formerNames":[],"officialWebsite":"https://www.steimel.com/en","officialDomains":["steimel.com"],"country":"Germany","headquarters":null,"foundedYear":1878,"parentCompany":null,"shortDescription":"Steimel develops pumps, centrifuges and automated process systems for moving and separating liquids, parts and metal chips. Its pump range includes centrifugal, rotary-lobe and gear designs for application-specific media handling.","fullDescription":["Steimel's manufacturer-owned site documents equipment for liquid transfer, parts handling and industrial separation. The portfolio includes centrifugal, rotary-lobe and gear pumps, batch and continuous centrifuges, palletizers, swarf crushers and plant-engineering or automation solutions for marine, food, manufacturing and recycling processes."],"productCategories":["Промышленные насосы","Центрифуги","Перерабатывающее оборудование","Промышленная автоматизация"],"productFamilies":["Centrifugal Pumps","Rotary Lobe Pumps","Gear Pumps","Batch Centrifuges","Continuous Centrifuges","Palletizers","Swarf Crushers"],"series":["T","TF"],"industries":["Судостроение","Пищевая промышленность","Металлообработка","Переработка отходов","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.steimel.com/en/pumps"],"sources":[{"sourceId":"brand-steimel-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_HISTORY_AND_PUMP_CENTRIFUGE_SCOPE","url":"https://www.steimel.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-steimel-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CENTRIFUGAL_ROTARY_LOBE_AND_GEAR_PUMP_SCOPE","url":"https://www.steimel.com/en/pumps","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"steinel","officialName":"STEINEL GmbH","displayName":"STEINEL","aliases":["STEINEL"],"formerNames":[],"officialWebsite":"https://www.steinel.de/en/group/sensors/","officialDomains":["steinel.de"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"STEINEL develops sensor, lighting and professional tool technologies. Its official range includes motion and presence detectors, optical sensors, intelligent luminaires, hot-air tools and related system components.","fullDescription":["STEINEL's official product and catalog pages document sensing and control products for buildings together with professional tools and lighting. The portfolio includes motion and presence detectors, optical and photoelectric devices, KNX and Bluetooth system components, sensor-controlled luminaires, hot-air tools and supporting accessories."],"productCategories":["Промышленные датчики","Датчики движения","Системы освещения","Промышленные инструменты","Автоматизация зданий"],"productFamilies":["Motion Detectors","Presence Detectors","Optical Sensors","Sensor Lights","Professional Hot-Air Tools","System Components"],"series":[],"industries":["Автоматизация зданий","Строительство","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.steinel.de/en/services/general/catalogues-brochures/"],"sources":[{"sourceId":"brand-steinel-sensors","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTION_PRESENCE_OPTICAL_AND_SYSTEM_SENSOR_SCOPE","url":"https://www.steinel.de/en/group/sensors/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-steinel-catalogs","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"SENSOR_LIGHTING_AND_TOOL_CATALOG_SCOPE","url":"https://www.steinel.de/en/services/general/catalogues-brochures/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"steinmeyer","officialName":"August Steinmeyer GmbH & Co. KG","displayName":"Steinmeyer","aliases":["STEINMEYER","AUGUST STEINMEYER"],"formerNames":[],"officialWebsite":"https://www.steinmeyer.com/en/home-page/","officialDomains":["steinmeyer.com"],"country":"Germany","headquarters":"Albstadt, Germany","foundedYear":null,"parentCompany":null,"shortDescription":"Steinmeyer manufactures precision ball screws and linear-drive components. Its range spans miniature, precision, ultra-thrust, cooled, rolled and aerospace ball-screw designs for demanding positioning and motion applications.","fullDescription":["Steinmeyer's manufacturer-owned product directory documents ball-screw technology for converting rotary motion into accurate linear movement. The portfolio includes miniature and precision ball screws, ultra-thrust designs, rotating nuts, cooled ball screws, differential roller screws, rolled ball screws and aerospace configurations for machine tools, robotics, semiconductors, medical systems and automation."],"productCategories":["Шарико-винтовые передачи","Линейные приводы","Системы управления движением"],"productFamilies":["Miniature Ball Screws","Precision Ball Screws","Ultra Thrust Ball Screws","Rotating Nuts","Cooled Ball Screws","Differential Roller Screws","Rolled Ball Screws","Aerospace Ball Screws"],"series":[],"industries":["Машиностроение","Робототехника","Полупроводниковая промышленность","Медицинская техника","Аэрокосмическая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.steinmeyer.com/en/products/"],"sources":[{"sourceId":"brand-steinmeyer-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_BALL_SCREW_SCOPE","url":"https://www.steinmeyer.com/en/home-page/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-steinmeyer-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BALL_SCREW_AND_LINEAR_DRIVE_FAMILY_SCOPE","url":"https://www.steinmeyer.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stemmann-technik","officialName":"STEMMANN-TECHNIK GmbH","displayName":"STEMMANN-TECHNIK","aliases":["STEMMANN TECHNIK","STEMMANN-TECHNIK"],"formerNames":[],"officialWebsite":"https://www.stemmann.com/en/home","officialDomains":["stemmann.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Wabtec Corporation","statusModifier":"GROUP_COMPANY","shortDescription":"STEMMANN-TECHNIK develops systems for transferring electrical power, data and media to moving equipment and vehicles. Its range includes cable reels, festoon systems, slip rings, conductor lines, current collectors and charging systems.","fullDescription":["STEMMANN-TECHNIK's official product overview documents energy and data transfer for cranes, rail vehicles, mobile machinery, ports and industrial installations. The portfolio spans cable festoon systems, motor- and spring-driven cable reels, slip-ring assemblies, conductor lines, roof-mounted pantographs, third-rail current collectors, ground contacts, depot stinger systems and charging or shore-power equipment."],"productCategories":["Кабельные барабаны","Токосъемные системы","Промышленные кабельные системы","Зарядное оборудование"],"productFamilies":["Cable Festoon Systems","Cable Reels","Slip Ring Assemblies","Conductor Lines","Roof-Mounted Pantographs","Third-Rail Current Collectors","Charging Systems","Onshore Power Supply"],"series":[],"industries":["Железнодорожная промышленность","Портовая инфраструктура","Горнодобывающая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.stemmann.com/en/products"],"sources":[{"sourceId":"brand-stemmann-technik-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_POWER_TRANSFER_SCOPE","url":"https://www.stemmann.com/en/home","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stemmann-technik-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"REEL_SLIP_RING_COLLECTOR_AND_CHARGING_SCOPE","url":"https://www.stemmann.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"steris","officialName":"STERIS","displayName":"STERIS","aliases":["STERIS","STERIS CORPORATION"],"formerNames":[],"officialWebsite":"https://www.steris.com/","officialDomains":["steris.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"STERIS develops equipment and consumables for sterilization, disinfection, surgical support and controlled processing. Its healthcare portfolio includes sterilizers, washer-disinfectors, endoscope reprocessing systems and operating-room equipment.","fullDescription":["STERIS' official healthcare product directory documents systems used to clean, disinfect, sterilize and manage medical instruments and procedure environments. The portfolio covers steam and low-temperature sterilization, washer-disinfectors, ultrasonic cleaning, endoscope reprocessing, surgical tables and lights, operating-room integration, water-treatment equipment and related consumables."],"productCategories":["Стерилизационное оборудование","Моечно-дезинфицирующее оборудование","Медицинское оборудование","Лабораторное оборудование"],"productFamilies":["Steam Sterilizers","Low-Temperature Sterilization Systems","Washer-Disinfectors","Ultrasonic Cleaners","Endoscope Reprocessing Systems","Surgical Tables","Surgical Lighting"],"series":[],"industries":["Медицинская техника","Фармацевтическая промышленность","Лабораторная инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.steris.com/healthcare/products"],"sources":[{"sourceId":"brand-steris-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_STERILIZATION_SCOPE","url":"https://www.steris.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-steris-healthcare-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STERILIZER_WASHER_ENDOSCOPE_AND_SURGICAL_SCOPE","url":"https://www.steris.com/healthcare/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"steute","officialName":"steute Technologies GmbH & Co. KG","displayName":"steute Controltec","aliases":["STEUTE","STEUTE CONTROLTEC"],"formerNames":[],"officialWebsite":"https://www.steute-controltec.com/en/","officialDomains":["steute-controltec.com"],"country":"Germany","headquarters":"Löhne, Germany","foundedYear":null,"parentCompany":null,"shortDescription":"steute Controltec develops industrial switches and sensors for safety, automation, hazardous areas and wireless communication. Its range includes position, pull-wire, foot and safety switches together with inductive, magnetic and optical sensors.","fullDescription":["steute Controltec's official product directory documents switchgear and sensing devices for complex industrial environments. The portfolio spans position and limit switches, pull-wire and emergency switches, foot and command devices, solenoid interlocks, belt-monitoring switches, inductive, magnetic, optical and safety sensors, plus explosion-protected and wireless variants."],"productCategories":["Промышленные выключатели","Промышленные датчики","Оборудование промышленной безопасности","Беспроводные системы"],"productFamilies":["Position Switches","Pull-Wire Switches","Foot Switches","Safety Switches","Inductive Sensors","Magnetic Sensors","Optical Sensors","Wireless Switches and Sensors","Explosion-Protected Switchgear"],"series":[],"industries":["Промышленная автоматизация","Конвейерные системы","Судостроение","Пищевая промышленность","Автоматизация зданий"],"officialCatalogs":[],"documentationSources":["https://www.steute-controltec.com/en-us/products"],"sources":[{"sourceId":"brand-steute-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_INDUSTRIAL_SWITCH_SENSOR_SCOPE","url":"https://www.steute-controltec.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-steute-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SWITCH_SENSOR_SAFETY_EX_AND_WIRELESS_SCOPE","url":"https://www.steute-controltec.com/en-us/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"stewart-buchanan-gauges","officialName":"Stewart-Buchanan Gauges Ltd","displayName":"Stewart-Buchanan Gauges","aliases":["STEWART-BUCHANAN GAUGES","STEWART BUCHANAN GAUGES","THE STEWARTS GROUP"],"formerNames":["CA Stewart"],"officialWebsite":"https://www.stewarts-group.com/","officialDomains":["stewarts-group.com"],"country":"United Kingdom","headquarters":"Kilsyth, Scotland, United Kingdom","foundedYear":1870,"parentCompany":null,"shortDescription":"Stewart-Buchanan Gauges designs and manufactures pressure and temperature gauges, industrial valves and instrumentation manifolds. Its range includes needle, ball, double-block-and-bleed, injection and sampling valves.","fullDescription":["Stewart-Buchanan Gauges' manufacturer-owned site documents mechanical measurement and flow-control products made at its facility near Glasgow. The portfolio combines pressure, differential and temperature gauges with needle and ball valves, valve manifolds, monoflanges, double-block-and-bleed valves, injection and sampling valves, distribution manifolds and instrument-panel assemblies."],"productCategories":["Манометры","Термометры","Промышленные клапаны","Промышленная арматура","Измерительное оборудование"],"productFamilies":["Pressure Gauges","Temperature Gauges","Needle Valves","Ball Valves","Valve Manifolds","Monoflanges","Double Block and Bleed Valves","Sampling Valves","Instrumentation Assemblies"],"series":["NITELITEGAUGE","VIBRAGAUGE","SNUBBAGAUGE"],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.stewarts-group.com/our-products-and-services/"],"sources":[{"sourceId":"brand-stewart-buchanan-gauges-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_HISTORY_AND_INSTRUMENTATION_SCOPE","url":"https://www.stewarts-group.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-stewart-buchanan-gauges-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GAUGE_VALVE_MANIFOLD_AND_INSTRUMENT_SCOPE","url":"https://www.stewarts-group.com/our-products-and-services/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"strahman","officialName":"Strahman Group","displayName":"Strahman","aliases":["STRAHMAN","STRAHMAN GROUP"],"formerNames":[],"officialWebsite":"https://www.strahmangroup.com/","officialDomains":["strahmangroup.com"],"country":"United States","headquarters":"Bethlehem, Pennsylvania, United States","foundedYear":1921,"parentCompany":null,"shortDescription":"Strahman manufactures industrial washdown equipment, process valves and valve-automation packages. Its range includes hose stations, spray nozzles, sampling and drain valves, automated valves and thermal shut-off assemblies.","fullDescription":["Strahman Group's official product directory documents fluid-control and sanitation equipment for process facilities. The portfolio combines washdown stations, nozzles, hoses and storage equipment with piston-style sampling and injection valves, drain and bottom-outlet valves, automated ball and butterfly valve packages and fire-safe thermal shut-off solutions."],"productCategories":["Промышленные клапаны","Моечное оборудование","Промышленные форсунки","Приводы клапанов"],"productFamilies":["Washdown Equipment","Washdown Stations","Washdown Nozzles","Process Valves","Valve Automation","Thermal Shut-Off Valves"],"series":["M-159","M-750","M-200TS","SV","MS","QS","QA"],"industries":["Пищевая промышленность","Фармацевтическая промышленность","Нефтегазовая промышленность","Химическая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.strahmangroup.com/products/"],"sources":[{"sourceId":"brand-strahman-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_HISTORY_AND_VALVE_WASHDOWN_SCOPE","url":"https://www.strahmangroup.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-strahman-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"WASHDOWN_VALVE_AUTOMATION_AND_PROCESS_VALVE_SCOPE","url":"https://www.strahmangroup.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"strapex","officialName":"Strapex","displayName":"Strapex","aliases":["STRAPEX"],"formerNames":[],"officialWebsite":"https://www.strapex.com/","officialDomains":["strapex.com"],"country":"Switzerland","headquarters":"Dietikon, Switzerland","foundedYear":null,"parentCompany":"Signode Industrial Group LLC","statusModifier":"GROUP_BRAND","shortDescription":"Strapex is a Signode brand for transport-packaging and load-securement systems. Its range includes automatic and semi-automatic strapping machines, battery and manual tools, plastic or steel strap and related consumables.","fullDescription":["Strapex's official site documents systems used to bundle, secure and protect goods through production and logistics. The portfolio combines automatic and semi-automatic strapping machines with handheld tools, PP and PET strap, steel-strapping solutions and supporting consumables for varied packaging volumes and load configurations."],"productCategories":["Упаковочное оборудование","Стреппинг-оборудование","Промышленные инструменты"],"productFamilies":["Automatic Strapping Machines","Semi-Automatic Strapping Machines","Battery Strapping Tools","Manual Strapping Tools","Plastic Strap","Steel Strap"],"series":["STB"],"industries":["Упаковочная промышленность","Логистика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.strapex.com/strapping-machines.html"],"sources":[{"sourceId":"brand-strapex-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_BRAND_IDENTITY_AND_STRAPPING_SCOPE","url":"https://www.strapex.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-strapex-machines","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AUTOMATIC_AND_SEMIAUTOMATIC_STRAPPING_MACHINE_SCOPE","url":"https://www.strapex.com/strapping-machines.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"straub","officialName":"STRAUB Werke AG","displayName":"STRAUB","aliases":["STRAUB","STRAUB WERKE"],"formerNames":[],"officialWebsite":"https://www.straub.ch/en/","officialDomains":["straub.ch"],"country":"Switzerland","headquarters":"Wangs, Switzerland","foundedYear":null,"parentCompany":"Aliaxis","statusModifier":"GROUP_COMPANY","shortDescription":"STRAUB develops mechanical pipe-coupling systems for joining and repairing pipes. Its range includes axial-restraint, flexible, open-repair, transition and plastic-pipe couplings for water, energy, marine and industrial systems.","fullDescription":["STRAUB Werke's official site documents coupling systems that connect pipes without welding, flanging or extensive end preparation. The portfolio includes grip-type axial-restraint couplings, flexible non-restraint couplings, open repair designs, step and combination couplings, plastic-pipe joints and clamps across a wide range of pipe diameters and materials."],"productCategories":["Трубные соединения","Промышленные муфты","Промышленные фитинги"],"productFamilies":["Axial-Restraint Pipe Couplings","Flexible Pipe Couplings","Open Repair Couplings","Transition Couplings","Plastic Pipe Couplings","Repair Clamps"],"series":["STRAUB-METAL-GRIP","STRAUB-GRIP","STRAUB-PLAST-GRIP","STRAUB-COMBI-GRIP","STRAUB-FLEX","STRAUB-OPEN-FLEX","STRAUB-STEP-FLEX","STRAUB-REP-FLEX"],"industries":["Водоснабжение и водоотведение","Энергетика","Судостроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.straub.ch/en/company/downloads"],"sources":[{"sourceId":"brand-straub-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_PIPE_COUPLING_SCOPE","url":"https://www.straub.ch/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-straub-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"PIPE_COUPLING_PRODUCT_AND_TECHNICAL_DOCUMENT_SCOPE","url":"https://www.straub.ch/en/company/downloads","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"suhner","officialName":"SUHNER Schweiz AG","displayName":"SUHNER","aliases":["SUHNER"],"formerNames":[],"officialWebsite":"https://www.suhner.com/en/","officialDomains":["suhner.com"],"country":"Switzerland","headquarters":null,"foundedYear":1914,"parentCompany":null,"shortDescription":"SUHNER develops solutions for metalworking, machining and production automation. Its scope includes grinding and surface-finishing tools, machining units, robotic grinding systems, components and additive manufacturing services.","fullDescription":["SUHNER's official corporate pages present an integrated metal-processing portfolio from material preparation through machining and surface treatment. Documented capabilities include portable and stationary grinding tools, milling and drilling technology, customized machining units, robot-assisted grinding and deburring, engineered components and metal additive manufacturing."],"productCategories":["Металлообрабатывающее оборудование","Шлифовальное оборудование","Промышленная автоматизация","Промышленные инструменты","Аддитивное производство"],"productFamilies":["Grinding and Surface-Finishing Tools","Machining Units","Robotic Grinding Systems","Custom Automation","Engineered Components","Additive Manufacturing"],"series":["EFCm-02"],"industries":["Металлообработка","Автомобильная промышленность","Аэрокосмическая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.suhner.com/en/about-suhner/"],"sources":[{"sourceId":"brand-suhner-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_METAL_PROCESSING_SCOPE","url":"https://www.suhner.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-suhner-about","tier":"A","type":"OFFICIAL_ABOUT","scope":"HISTORY_AND_MACHINING_AUTOMATION_SURFACE_SCOPE","url":"https://www.suhner.com/en/about-suhner/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sullair","officialName":"Sullair","displayName":"Sullair","aliases":["SULLAIR"],"formerNames":[],"officialWebsite":"https://america.sullair.com/en","officialDomains":["sullair.com"],"country":"United States","headquarters":"Michigan City, Indiana, United States","foundedYear":1965,"parentCompany":"Hitachi Global Air Power US, LLC","statusModifier":"GROUP_BRAND","shortDescription":"Sullair is a Hitachi Global Air Power brand for compressed-air equipment. Its range includes stationary and portable rotary-screw compressors, oil-free compressors, dryers, filtration, fluids and compressed-air management systems.","fullDescription":["Sullair's official site documents compressed-air products for workshops, manufacturing, construction and process operations. The portfolio spans lubricated and oil-free stationary compressors, portable diesel and electric units, centrifugal compressors, air treatment and dryers, filters, fluids, remote monitoring and managed-air-power services."],"productCategories":["Промышленные компрессоры","Воздушные компрессоры","Оборудование подготовки воздуха","Системы мониторинга"],"productFamilies":["Stationary Rotary Screw Compressors","Portable Compressors","Oil-Free Compressors","Centrifugal Compressors","Air Dryers","Air Treatment","Compressed-Air Management"],"series":["LS","DSP","S-energy","ShopTek","SRL","TS"],"industries":["Промышленное производство","Строительная техника","Нефтегазовая промышленность","Пищевая промышленность"],"officialCatalogs":[],"documentationSources":["https://america.sullair.com/en/products?page=1"],"sources":[{"sourceId":"brand-sullair-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_BRAND_IDENTITY_HISTORY_AND_COMPRESSED_AIR_SCOPE","url":"https://america.sullair.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-sullair-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STATIONARY_PORTABLE_OIL_FREE_AND_AIR_TREATMENT_SCOPE","url":"https://america.sullair.com/en/products?page=1","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sundyne","officialName":"Sundyne","displayName":"Sundyne","aliases":["SUNDYNE"],"formerNames":[],"officialWebsite":"https://www.sundyne.com/","officialDomains":["sundyne.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Honeywell International Inc.","statusModifier":"ACQUIRED_BRAND","shortDescription":"Sundyne develops engineered pumps and compressors for process industries. Its portfolio includes direct-drive and integrally geared centrifugal pumps, sealless magnetic-drive pumps, centrifugal compressors and diaphragm gas compressors.","fullDescription":["Sundyne's official site documents rotating equipment for handling liquids and gases in energy, chemical, petrochemical and industrial processes. The portfolio combines high-head centrifugal pumps, multi-stage and integrally geared designs, sealless magnetic-drive pumps, line-mounted and multi-stage centrifugal compressors, and diaphragm compressors for demanding process duties."],"productCategories":["Промышленные насосы","Центробежные насосы","Магнитные насосы","Промышленные компрессоры"],"productFamilies":["Direct Drive Pumps","Integrally Geared Pumps","Multi-Stage Pumps","Sealless Magnetic-Drive Pumps","Centrifugal Compressors","Diaphragm Compressors"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Водородная энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sundyne.com/industries/pumps-compressors-for-the-energy-and-petrochem-industries/"],"sources":[{"sourceId":"brand-sundyne-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_BRAND_IDENTITY_AND_PUMP_COMPRESSOR_SCOPE","url":"https://www.sundyne.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-sundyne-energy-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PROCESS_PUMP_AND_COMPRESSOR_TECHNOLOGY_SCOPE","url":"https://www.sundyne.com/industries/pumps-compressors-for-the-energy-and-petrochem-industries/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sunnen","officialName":"Sunnen Products Company","displayName":"Sunnen","aliases":["SUNNEN"],"formerNames":[],"officialWebsite":"https://www.sunnen.com/","officialDomains":["sunnen.com"],"country":"United States","headquarters":"St. Louis, Missouri, United States","foundedYear":null,"parentCompany":null,"shortDescription":"Sunnen develops precision bore-finishing and honing systems. Its portfolio includes vertical and horizontal honing machines, tube hones, lapping, skiving and roller-burnishing systems, gages, tooling, abrasives and honing fluids.","fullDescription":["Sunnen's official catalog and technical-literature portal documents machines, tools and process supplies for creating and measuring precision bores. The range spans vertical, horizontal and tube honing systems, external honing, lapping, skiving and roller burnishing, deep-hole drilling, bore gages, mandrels, superabrasive tooling, coolants and filtration equipment."],"productCategories":["Хонинговальное оборудование","Металлообрабатывающие станки","Измерительное оборудование","Абразивный инструмент"],"productFamilies":["Vertical Honing Machines","Horizontal Honing Machines","Tube Honing Systems","Lapping Systems","Skiving and Roller Burnishing Systems","Bore Gages","Honing Tooling and Abrasives","Honing Fluids"],"series":["SV","VSS","SH","SSH","HTA","HTB","HTC","HTD","HTE","HTG","HTH","HTS","SVL","AG","PG"],"industries":["Металлообработка","Автомобильная промышленность","Аэрокосмическая промышленность","Гидравлика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sunnen.com/pages/catalogs"],"sources":[{"sourceId":"brand-sunnen-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_HONING_SCOPE","url":"https://www.sunnen.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-sunnen-catalogs","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"HONING_MACHINE_TOOLING_GAGING_AND_FLUID_SCOPE","url":"https://www.sunnen.com/pages/catalogs","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"super-radiator-coils","officialName":"Super Radiator Coils","displayName":"Super Radiator Coils","aliases":["SUPER RADIATOR COILS","SRC"],"formerNames":[],"officialWebsite":"https://www.superradiatorcoils.com/","officialDomains":["superradiatorcoils.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Super Radiator Coils engineers heat-transfer products for HVAC, industrial and nuclear applications. Its range includes fluid, steam, condenser and evaporator coils, industrial heat exchangers and custom assemblies.","fullDescription":["Super Radiator Coils' official site and product brochure document custom heat-transfer equipment for air and process systems. The portfolio covers water and glycol coils, steam coils, condenser and evaporator designs, industrial heat exchangers, corrosion-resistant constructions and engineered coil assemblies for commercial HVAC, data centers, industrial processing and nuclear service."],"productCategories":["Теплообменное оборудование","Промышленные теплообменники","Вентиляционное оборудование","Холодильное оборудование"],"productFamilies":["Fluid Coils","Steam Coils","Condenser Coils","Evaporator Coils","Industrial Heat Exchangers","Nuclear Heat-Transfer Products"],"series":[],"industries":["Вентиляция и кондиционирование","Энергетика","Промышленное производство","Центры обработки данных"],"officialCatalogs":["https://www.superradiatorcoils.com/hubfs/Brochures/Coil%20Products%20Brochure%20-%2009-10-2024%20-%20web.pdf"],"documentationSources":["https://www.superradiatorcoils.com/hubfs/Brochures/Coil%20Products%20Brochure%20-%2009-10-2024%20-%20web.pdf"],"sources":[{"sourceId":"brand-super-radiator-coils-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_HEAT_TRANSFER_SCOPE","url":"https://www.superradiatorcoils.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-super-radiator-coils-brochure","tier":"A","type":"OFFICIAL_CATALOG","scope":"COIL_AND_INDUSTRIAL_HEAT_EXCHANGER_SCOPE","url":"https://www.superradiatorcoils.com/hubfs/Brochures/Coil%20Products%20Brochure%20-%2009-10-2024%20-%20web.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"super-systems-inc","officialName":"Super Systems Inc.","displayName":"Super Systems","aliases":["SUPER SYSTEMS INC","SUPER SYSTEMS","SSI"],"formerNames":[],"officialWebsite":"https://supersystems.com/","officialDomains":["supersystems.com"],"country":"United States","headquarters":"Cincinnati, Ohio, United States","foundedYear":null,"parentCompany":null,"shortDescription":"Super Systems develops instrumentation, controls and software for thermal processing and heat treatment. Its portfolio includes atmosphere, temperature, vacuum and nitriding controllers, probes, analyzers, flow control and engineered systems.","fullDescription":["Super Systems' manufacturer-owned site documents products for monitoring and controlling furnaces and thermal-processing lines. The range combines process and atmosphere probes, gas analyzers, temperature and atmosphere controllers, vacuum and nitriding controls, data-acquisition software, flow panels and integrated control systems for heat-treatment operations."],"productCategories":["Промышленные контроллеры","Газоанализаторы","Промышленные датчики","Программное обеспечение","Термическое оборудование"],"productFamilies":["Temperature Controllers","Atmosphere Controllers","Vacuum Controllers","Nitriding Controllers","Process Probes","Gas Analyzers","Data Acquisition Software","Flow Control Systems"],"series":["Series 8","9000 Series","9205","9215","9220","SuperDATA"],"industries":["Термообработка","Металлообработка","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://supersystems.com/controllers/"],"sources":[{"sourceId":"brand-super-systems-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_THERMAL_PROCESSING_SCOPE","url":"https://supersystems.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-super-systems-controllers","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TEMPERATURE_ATMOSPHERE_VACUUM_AND_NITRIDING_CONTROL_SCOPE","url":"https://supersystems.com/controllers/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"swagelok","officialName":"Swagelok Company","displayName":"Swagelok","aliases":["SWAGELOK"],"formerNames":[],"officialWebsite":"https://www.swagelok.com/en","officialDomains":["swagelok.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Swagelok develops components and assemblies for industrial fluid systems. Its portfolio includes tube and pipe fittings, valves, regulators, hoses, tubing, filters, measurement devices and orbital welding systems.","fullDescription":["Swagelok's official product resources document components for connecting, controlling, measuring and conditioning industrial fluids and gases. The range spans tube, pipe and high-pressure fittings, ball, needle, diaphragm and check valves, pressure regulators, hoses and flexible tubing, filters, pressure and flow measurement, sampling systems and orbital welding equipment."],"productCategories":["Промышленные фитинги","Промышленные клапаны","Регуляторы давления","Промышленные шланги","Фильтрационное оборудование","Измерительное оборудование"],"productFamilies":["Tube Fittings and Adapters","Pipe Fittings","Industrial Valves","Pressure Regulators","Hoses and Flexible Tubing","Filters","Measurement Devices","Welding Systems"],"series":["VCR","FK","IPT","GB","V","VB","VL"],"industries":["Химическая промышленность","Нефтегазовая промышленность","Полупроводниковая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://products.swagelok.com/en"],"sources":[{"sourceId":"brand-swagelok-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_FLUID_SYSTEM_SCOPE","url":"https://www.swagelok.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-swagelok-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FITTING_VALVE_REGULATOR_HOSE_AND_INSTRUMENT_SCOPE","url":"https://products.swagelok.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"swarco","officialName":"SWARCO AG","displayName":"SWARCO","aliases":["SWARCO"],"formerNames":[],"officialWebsite":"https://www.swarco.com/","officialDomains":["swarco.com"],"country":"Austria","headquarters":"Wattens, Austria","foundedYear":1969,"parentCompany":null,"shortDescription":"SWARCO develops products and systems for road marking, traffic control and transport infrastructure. Its range includes road-marking materials, signals, signs, detectors, controllers, parking systems, charging hardware and traffic-management software.","fullDescription":["SWARCO's official product directory documents physical and digital infrastructure used to guide and manage road users. The portfolio covers road-marking materials and glass beads, static and electronic signs, traffic signals and controllers, detection sensors, parking products, barriers, gantries, street furniture, charging systems and software for urban, highway and tunnel traffic management."],"productCategories":["Дорожное оборудование","Системы управления дорожным движением","Промышленные датчики","Системы сигнализации","Программное обеспечение"],"productFamilies":["Road Markings","Traffic Signals","Traffic Controllers","Detection and Sensors","Electronic Signs","Parking Systems","Traffic Management Software","Smart Charging"],"series":["FUTURA","DURALUX"],"industries":["Транспортная инфраструктура","Городская инфраструктура","Дорожное строительство"],"officialCatalogs":[],"documentationSources":["https://www.swarco.com/products"],"sources":[{"sourceId":"brand-swarco-official","tier":"A","type":"OFFICIAL_SITE","scope":"GROUP_IDENTITY_HISTORY_AND_TRAFFIC_TECHNOLOGY_SCOPE","url":"https://www.swarco.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-swarco-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ROAD_MARKING_SIGNAL_SENSOR_PARKING_AND_SOFTWARE_SCOPE","url":"https://www.swarco.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"swedrive","officialName":"Swedrive AB","displayName":"Swedrive","aliases":["SWEDRIVE"],"formerNames":[],"officialWebsite":"https://swedrive.com/","officialDomains":["swedrive.com"],"country":"Sweden","headquarters":"Lagan, Sweden","foundedYear":null,"parentCompany":null,"shortDescription":"Swedrive develops electromechanical drive products for controlled linear and rotary movement. Its official range includes worm gear units, screw jacks, electromechanical cylinders and customized motion solutions.","fullDescription":["Swedrive's manufacturer-owned product directory documents compact drive technology for positioning, lifting and adjustment tasks. The portfolio combines worm gears for rotary power transmission with screw jacks and electromechanical cylinders for controlled linear movement, supported by application-specific customization."],"productCategories":["Червячные редукторы","Винтовые домкраты","Электромеханические цилиндры","Линейные приводы"],"productFamilies":["Worm Gears","Screw Jacks","Electromechanical Cylinders","Customized Drive Solutions"],"series":[],"industries":["Машиностроение","Промышленная автоматизация","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://swedrive.com/products/"],"sources":[{"sourceId":"brand-swedrive-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_AND_MOTION_SCOPE","url":"https://swedrive.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-swedrive-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"WORM_GEAR_SCREW_JACK_AND_CYLINDER_SCOPE","url":"https://swedrive.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"swegon","officialName":"Swegon Group AB","displayName":"Swegon","aliases":["SWEGON"],"formerNames":[],"officialWebsite":"https://www.swegon.com/","officialDomains":["swegon.com"],"country":"Sweden","headquarters":null,"foundedYear":null,"parentCompany":"Investment AB Latour","statusModifier":"GROUP_COMPANY","shortDescription":"Swegon develops systems for ventilation, heating, cooling and indoor-climate control. Its range includes air-handling units, room units, chillers, heat pumps, dampers, air-distribution products and climate-control systems.","fullDescription":["Swegon's official product directory documents equipment and controls for creating and managing indoor environmental conditions. The portfolio spans air-handling units, diffusers and room units, chilled beams, chillers and heat pumps, fire and smoke dampers, airflow-control products, silencers and room-management or climate-control systems."],"productCategories":["Вентиляционное оборудование","Климатическое оборудование","Холодильное оборудование","Тепловые насосы","Автоматизация зданий"],"productFamilies":["Air Handling Units","Room Units","Chillers","Heat Pumps","Fire and Smoke Dampers","Air Distribution Products","Climate Control Systems"],"series":["GOLD","PARAGON","PARASOL","WISE","REACT"],"industries":["Вентиляция и кондиционирование","Автоматизация зданий","Строительство","Коммерческая недвижимость"],"officialCatalogs":[],"documentationSources":["https://www.swegon.com/uk/products/"],"sources":[{"sourceId":"brand-swegon-official","tier":"A","type":"OFFICIAL_SITE","scope":"GROUP_IDENTITY_AND_INDOOR_CLIMATE_SCOPE","url":"https://www.swegon.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-swegon-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AIR_HANDLING_ROOM_COOLING_HEATING_AND_CONTROL_SCOPE","url":"https://www.swegon.com/uk/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"swf-krantechnik","officialName":"SWF Krantechnik GmbH","displayName":"SWF Krantechnik","aliases":["SWF KRANTECHNIK","SWF"],"formerNames":[],"officialWebsite":"https://www.swfkrantechnik.com/en/","officialDomains":["swfkrantechnik.com"],"country":"Germany","headquarters":"Mannheim, Germany","foundedYear":1921,"parentCompany":null,"shortDescription":"SWF Krantechnik develops hoists, crane components and modular lifting systems. Its portfolio includes electric wire-rope, chain and belt hoists, light-crane systems, crane kits, controls, monitoring and explosion-protected variants.","fullDescription":["SWF Krantechnik's official product directory documents modular equipment used by crane builders and industrial lifting-system integrators. The range spans wire-rope hoists, chain and belt hoists, light-crane profiles and structures, jib cranes, crane kits, end carriages, travelling drives, frequency inverters, radio controls, condition monitoring and EX configurations."],"productCategories":["Грузоподъемное оборудование","Промышленные тали","Промышленные краны","Промышленные контроллеры","Взрывозащищенное оборудование"],"productFamilies":["Wire Rope Hoists","Chain Hoists","Belt Hoists","Light Crane Systems","Crane Kits","End Carriages","Crane Controls","Explosion-Protected Hoists"],"series":["NOVA","CRABster","ATHLO","CHAINster","CRAFTster","ProfileMaster","VECTO","CraneKit"],"industries":["Машиностроение","Металлургия","Промышленное производство","Горнодобывающая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.swfkrantechnik.com/en/products/"],"sources":[{"sourceId":"brand-swf-krantechnik-official","tier":"A","type":"OFFICIAL_SITE","scope":"COMPANY_IDENTITY_HISTORY_AND_LIFTING_SCOPE","url":"https://www.swfkrantechnik.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-swf-krantechnik-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HOIST_CRANE_COMPONENT_CONTROL_AND_EX_SCOPE","url":"https://www.swfkrantechnik.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]}
+    {
+      "manufacturerId": "spn",
+      "officialName": "SPN Schwaben Präzision Fritz Hopf GmbH",
+      "displayName": "SPN",
+      "aliases": [
+        "SPN",
+        "SPN Drive"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spn-drive.de/en",
+      "officialDomains": [
+        "spn-drive.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SPN develops and manufactures precision gear units and application-specific drive solutions. Its official portfolio covers standard gear units, customized gearboxes and integrated drive engineering for machinery and automation.",
+      "fullDescription": [
+        "SPN's manufacturer-owned site documents drive technology built around precision gearing and customer-specific engineering. The product scope includes standard gear units and configured or fully customized gearbox solutions for positioning, power transmission and motion tasks in industrial machinery and automated systems."
+      ],
+      "productCategories": [
+        "Промышленные редукторы",
+        "Механические передачи",
+        "Системы управления движением"
+      ],
+      "productFamilies": [
+        "Standard Gear Units",
+        "Customized Gear Units",
+        "Integrated Drive Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.spn-drive.de/en/products/gear-units"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spn-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_DRIVE_TECHNOLOGY_SCOPE",
+          "url": "https://www.spn-drive.de/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-spn-gear-units",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "STANDARD_AND_CUSTOM_GEAR_UNIT_SCOPE",
+          "url": "https://www.spn-drive.de/en/products/gear-units",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "spraying-systems",
+      "officialName": "Spraying Systems Co.",
+      "displayName": "Spraying Systems Co.",
+      "aliases": [
+        "SPRAYING SYSTEMS CO.",
+        "SPRAYING SYSTEMS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spray.com/",
+      "officialDomains": [
+        "spray.com"
+      ],
+      "country": "United States",
+      "headquarters": "Glendale Heights, Illinois, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Spraying Systems Co. manufactures industrial spray nozzles and engineered spray systems. Its range includes hydraulic and air-atomizing nozzles, spray guns, tank-cleaning equipment and automated spray controls.",
+      "fullDescription": [
+        "Spraying Systems Co.'s official product directory organizes spray technology for cleaning, coating, cooling, drying, lubricating, dispensing and other process operations. The portfolio spans hydraulic, air-atomizing and automatic nozzles, high-pressure and spray-drying designs, spray guns, tank-cleaning products, headers, lances, accessories and automated control systems."
+      ],
+      "productCategories": [
+        "Промышленные форсунки",
+        "Окрасочное оборудование",
+        "Промышленные системы распыления",
+        "Очистное оборудование"
+      ],
+      "productFamilies": [
+        "Hydraulic Spray Nozzles",
+        "Air Atomizing Nozzles",
+        "Automatic Nozzles",
+        "Spray Guns",
+        "Tank Cleaning Equipment",
+        "Automated Spray Systems"
+      ],
+      "series": [
+        "FullJet",
+        "VeeJet",
+        "WhirlJet",
+        "TankJet",
+        "WindJet",
+        "SprayDry"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Металлургия",
+        "Автомобильная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.spray.com/products/nozzles"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spraying-systems-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_SPRAY_TECHNOLOGY_SCOPE",
+          "url": "https://www.spray.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-spraying-systems-nozzles",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "NOZZLE_GUN_TANK_CLEANING_AND_SPRAY_SYSTEM_SCOPE",
+          "url": "https://www.spray.com/products/nozzles",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "spx-flow",
+      "officialName": "SPX FLOW, Inc.",
+      "displayName": "SPX FLOW",
+      "aliases": [
+        "SPX",
+        "SPX FLOW"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spxflow.com/",
+      "officialDomains": [
+        "spxflow.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SPX FLOW develops process equipment and systems for nutrition, health and industrial applications. Its documented portfolio includes pumps, valves, mixers, homogenizers, separators, filtration equipment, dryers and heat exchangers.",
+      "fullDescription": [
+        "SPX FLOW's official corporate material presents engineered process technologies used to move, mix, separate, heat, cool and transform fluids and ingredients. The portfolio covers pumps and valves, blenders and mixers, homogenizers, centrifuges and separators, filtration, evaporation, drying, crystallization and heat-transfer equipment for food, dairy, beverage, pharmaceutical, personal-care and industrial processes."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленные клапаны",
+        "Смесительное оборудование",
+        "Теплообменное оборудование",
+        "Фильтрационное оборудование",
+        "Сепарационное оборудование"
+      ],
+      "productFamilies": [
+        "Process Pumps",
+        "Process Valves",
+        "Mixers and Blenders",
+        "Homogenizers",
+        "Separators and Centrifuges",
+        "Heat Exchangers",
+        "Filtration Systems",
+        "Dryers"
+      ],
+      "series": [],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.spxflow.com/assets/original/company-overview-july-2022.pdf"
+      ],
+      "documentationSources": [
+        "https://www.spxflow.com/assets/original/company-overview-july-2022.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spx-flow-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_PROCESS_TECHNOLOGY_SCOPE",
+          "url": "https://www.spxflow.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-spx-flow-company-overview",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "PUMP_VALVE_MIXING_SEPARATION_AND_HEAT_TRANSFER_SCOPE",
+          "url": "https://www.spxflow.com/assets/original/company-overview-july-2022.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stabilus",
+      "officialName": "Stabilus SE",
+      "displayName": "Stabilus",
+      "aliases": [
+        "STABILUS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stabilus.com/",
+      "officialDomains": [
+        "stabilus.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Stabilus develops motion-control products for lifting, lowering, positioning and damping. Its official range includes gas springs, hydraulic dampers, vibration-isolation products and electromechanical drives.",
+      "fullDescription": [
+        "Stabilus' manufacturer-owned product directory documents components and systems that control motion in vehicles, machinery, furniture and industrial equipment. The portfolio combines gas springs and dampers with vibration and isolation technology, electromechanical drives and application-specific motion-control solutions."
+      ],
+      "productCategories": [
+        "Газовые пружины",
+        "Промышленные амортизаторы",
+        "Системы управления движением",
+        "Линейные приводы"
+      ],
+      "productFamilies": [
+        "Gas Springs",
+        "Hydraulic Dampers",
+        "Vibration and Isolation Products",
+        "Electromechanical Drives"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.stabilus.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stabilus-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_MOTION_CONTROL_SCOPE",
+          "url": "https://www.stabilus.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stabilus-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "GAS_SPRING_DAMPER_ISOLATION_AND_DRIVE_SCOPE",
+          "url": "https://www.stabilus.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stahl-cranesystems",
+      "officialName": "STAHL CraneSystems GmbH",
+      "displayName": "STAHL CraneSystems",
+      "aliases": [
+        "STAHL CRANESYSTEMS",
+        "STAHL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cmco.com/en-us/our-brands/stahlcranes/",
+      "officialDomains": [
+        "cmco.com",
+        "stahlcranes.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Künzelsau, Germany",
+      "foundedYear": 1876,
+      "parentCompany": "Columbus McKinnon Corporation",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "STAHL CraneSystems is a Columbus McKinnon brand for hoists, crane components and engineered lifting systems. Its range includes chain and wire-rope hoists, winches, crane kits, travel drives and explosion-protected configurations.",
+      "fullDescription": [
+        "Columbus McKinnon's official STAHL CraneSystems pages document lifting equipment for standard, special and hazardous-area crane applications. The portfolio includes electric chain hoists, wire-rope hoists, winches, wheel blocks, travel drives, crane kits and complete bridge, suspension, portal and slewing-jib crane concepts."
+      ],
+      "productCategories": [
+        "Грузоподъемное оборудование",
+        "Промышленные краны",
+        "Промышленные тали",
+        "Взрывозащищенное оборудование"
+      ],
+      "productFamilies": [
+        "Electric Chain Hoists",
+        "Wire Rope Hoists",
+        "Electric Winches",
+        "Crane Kits",
+        "Travel Drives",
+        "Wheel Blocks",
+        "Crane Systems"
+      ],
+      "series": [
+        "ST",
+        "SH",
+        "AS 7",
+        "SHW 8",
+        "SXD",
+        "SXF"
+      ],
+      "industries": [
+        "Машиностроение",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Металлургия",
+        "Транспортная инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.cmco.com/en-de/our-brands/stahlcranes/CraneSystems/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stahl-cranesystems-official",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT",
+          "scope": "CURRENT_BRAND_IDENTITY_HISTORY_AND_HOIST_SCOPE",
+          "url": "https://www.cmco.com/en-us/our-brands/stahlcranes/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stahl-cranesystems-cranes",
+          "tier": "B",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CRANE_SYSTEM_AND_FEATURED_HOIST_SCOPE",
+          "url": "https://www.cmco.com/en-de/our-brands/stahlcranes/CraneSystems/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stama",
+      "officialName": "STAMA",
+      "displayName": "STAMA",
+      "aliases": [
+        "STAMA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://chiron-group.com/",
+      "officialDomains": [
+        "chiron-group.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "CHIRON Group SE",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "STAMA is a CHIRON Group brand for vertical CNC milling and mill-turn machining centers. The brand's official group profile emphasizes stable machine construction and complete machining for flexible production.",
+      "fullDescription": [
+        "CHIRON Group's official corporate report identifies STAMA as one of its machining-center brands and places it within the group's CNC vertical milling and mill-turn portfolio. STAMA machines support complete machining, while the wider group provides turnkey process integration, automation, digital services and lifecycle support around the machining platform."
+      ],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Обрабатывающие центры",
+        "Станки с ЧПУ"
+      ],
+      "productFamilies": [
+        "Vertical Milling Centers",
+        "Mill-Turn Machining Centers",
+        "Complete Machining Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Машиностроение",
+        "Медицинская техника",
+        "Аэрокосмическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://chiron-group.com/storage/bcs-220801-chiron_nhb_22-p12_en_rrz-2.pdf"
+      ],
+      "documentationSources": [
+        "https://chiron-group.com/storage/bcs-220801-chiron_nhb_22-p12_en_rrz-2.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stama-parent-official",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT",
+          "scope": "CURRENT_GROUP_AND_BRAND_IDENTITY",
+          "url": "https://chiron-group.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stama-group-report",
+          "tier": "B",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "STAMA_VERTICAL_MILLING_MILL_TURN_AND_COMPLETE_MACHINING_SCOPE",
+          "url": "https://chiron-group.com/storage/bcs-220801-chiron_nhb_22-p12_en_rrz-2.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stamford",
+      "officialName": "STAMFORD",
+      "displayName": "STAMFORD",
+      "aliases": [
+        "STAMFORD ALTERNATORS",
+        "STAMFORD | AvK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stamford-avk.com/alternators/stamford",
+      "officialDomains": [
+        "stamford-avk.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Cummins Inc.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "STAMFORD is a Cummins brand of alternators for generator sets and power-generation systems. Its official range covers wire-wound alternators for continuous and standby applications across multiple output classes.",
+      "fullDescription": [
+        "The official STAMFORD | AvK site documents STAMFORD alternators for coupling with generator-set prime movers. The current range spans compact through high-output machines for marine, oil and gas auxiliary power, telecommunications, combined heat and power, construction, UPS and other continuous or standby generation duties."
+      ],
+      "productCategories": [
+        "Промышленные генераторы",
+        "Альтернаторы",
+        "Электроэнергетическое оборудование"
+      ],
+      "productFamilies": [
+        "Wire-Wound Alternators",
+        "Generator-Set Alternators",
+        "Water-Cooled Alternators"
+      ],
+      "series": [
+        "S0",
+        "S1",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S9",
+        "UC22",
+        "UC27",
+        "HC4",
+        "P80"
+      ],
+      "industries": [
+        "Энергетика",
+        "Судостроение",
+        "Нефтегазовая промышленность",
+        "Строительная техника",
+        "Телекоммуникации"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.stamford-avk.com/alternators/stamford"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stamford-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_ALTERNATOR_SCOPE",
+          "url": "https://www.stamford-avk.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stamford-alternators",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "ALTERNATOR_RANGE_SERIES_AND_APPLICATION_SCOPE",
+          "url": "https://www.stamford-avk.com/alternators/stamford",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "standart-pompa",
+      "officialName": "Standart Pompa ve Makina Sanayi Ticaret A.Ş.",
+      "displayName": "Standart Pompa",
+      "aliases": [
+        "STANDART POMPA",
+        "STANDART"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.standartpompa.com/en/",
+      "officialDomains": [
+        "standartpompa.com"
+      ],
+      "country": "Türkiye",
+      "headquarters": null,
+      "foundedYear": 1957,
+      "parentCompany": null,
+      "shortDescription": "Standart Pompa manufactures pump equipment and packaged pumping systems for buildings, water infrastructure, industry and OEM applications. Its range includes centrifugal pumps, booster sets, fire-fighting pumps and configured pump systems.",
+      "fullDescription": [
+        "Standart Pompa's manufacturer-owned site and corporate brochure document pump technology developed for water movement and industrial processes. The portfolio is organized around pumps, booster packages, fire-fighting pump sets and integrated pumping systems used in building services, water management, geothermal, petroleum and general industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Насосные станции",
+        "Противопожарное оборудование"
+      ],
+      "productFamilies": [
+        "Centrifugal Pumps",
+        "Booster Systems",
+        "Fire-Fighting Pumps",
+        "Packaged Pump Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Строительство",
+        "Промышленное производство",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.standartpompa.com/en/images/pdf/english/sp_corporate_eng.pdf"
+      ],
+      "documentationSources": [
+        "https://www.standartpompa.com/en/images/pdf/english/sp_corporate_eng.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-standart-pompa-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_HISTORY_AND_PUMP_SCOPE",
+          "url": "https://www.standartpompa.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-standart-pompa-corporate",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "PUMP_AND_PACKAGED_SYSTEM_SCOPE",
+          "url": "https://www.standartpompa.com/en/images/pdf/english/sp_corporate_eng.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stanley-engineered-fastening",
+      "officialName": "STANLEY Engineered Fastening",
+      "displayName": "STANLEY Engineered Fastening",
+      "aliases": [
+        "STANLEY ENGINEERED FASTENING"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://europe.en.stanleyengineeredfastening.com/",
+      "officialDomains": [
+        "stanleyengineeredfastening.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Stanley Black & Decker, Inc.",
+      "statusModifier": "GROUP_DIVISION",
+      "shortDescription": "STANLEY Engineered Fastening develops industrial fastening and assembly technologies. Its range includes rivets, lockbolts, rivet nuts, inserts, pins, screws, bolts, sealing fasteners, plastic components and installation systems.",
+      "fullDescription": [
+        "The official STANLEY Engineered Fastening site documents fastening products for joining structures and components in industrial production. The portfolio spans blind rivets, structural lockbolts, rivet nuts, threaded inserts, pins, screws and bolts, sealing fasteners, engineered plastic components and installation or assembly equipment across several established product brands."
+      ],
+      "productCategories": [
+        "Промышленный крепеж",
+        "Сборочное оборудование",
+        "Промышленные инструменты"
+      ],
+      "productFamilies": [
+        "Blind Rivets",
+        "Lockbolts",
+        "Rivet Nuts",
+        "Threaded Inserts",
+        "Pins",
+        "Screws and Bolts",
+        "Sealing Fasteners",
+        "Plastic Fasteners",
+        "Assembly Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://europe.en.stanleyengineeredfastening.com/fasteners"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stanley-engineered-fastening-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "DIVISION_IDENTITY_AND_FASTENING_SCOPE",
+          "url": "https://europe.en.stanleyengineeredfastening.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stanley-engineered-fastening-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RIVET_LOCKBOLT_INSERT_PIN_AND_FASTENER_SCOPE",
+          "url": "https://europe.en.stanleyengineeredfastening.com/fasteners",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stasskol",
+      "officialName": "STASSKOL GmbH",
+      "displayName": "STASSKOL",
+      "aliases": [
+        "STASSKOL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stasskol.de/de/",
+      "officialDomains": [
+        "stasskol.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": 1920,
+      "parentCompany": null,
+      "shortDescription": "STASSKOL develops sealing technology for rotating and reciprocating machinery. Its official materials cover mixer seals, mechanical seals and application-specific sealing systems for powders, liquids and process equipment.",
+      "fullDescription": [
+        "STASSKOL's manufacturer-owned product page and catalog document sealing solutions for shafts and process machinery. The portfolio includes dynamic mixer seals and mechanical-seal designs engineered for mixers, mills, conveyors, extruders, dryers and other systems handling powders, liquids or liquid-solid mixtures."
+      ],
+      "productCategories": [
+        "Промышленные уплотнения",
+        "Торцевые уплотнения",
+        "Уплотнения валов"
+      ],
+      "productFamilies": [
+        "Mixer Seals",
+        "Mechanical Seals",
+        "Application-Specific Sealing Systems"
+      ],
+      "series": [
+        "SDF"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.stasskol.de/wp-content/uploads/2022/04/Webversion-SK-Katalog-Gleitringdichtung-EN-20201202-SCR.pdf"
+      ],
+      "documentationSources": [
+        "https://www.stasskol.de/en/mixer-seals-sdf-series/",
+        "https://www.stasskol.de/wp-content/uploads/2022/04/Webversion-SK-Katalog-Gleitringdichtung-EN-20201202-SCR.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stasskol-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_SEALING_SCOPE",
+          "url": "https://www.stasskol.de/de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stasskol-mixer-seals",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "MIXER_SEAL_APPLICATION_AND_SERIES_SCOPE",
+          "url": "https://www.stasskol.de/en/mixer-seals-sdf-series/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stasskol-seal-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MECHANICAL_SEAL_PORTFOLIO",
+          "url": "https://www.stasskol.de/wp-content/uploads/2022/04/Webversion-SK-Katalog-Gleitringdichtung-EN-20201202-SCR.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "staubli-fluid-connectors",
+      "officialName": "Stäubli Fluid Connectors",
+      "displayName": "Stäubli Fluid Connectors",
+      "aliases": [
+        "STAUBLI FLUID CONNECTORS",
+        "STÄUBLI FLUID CONNECTORS",
+        "STAUBLI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.staubli.com/global/en/fluid-connectors.html",
+      "officialDomains": [
+        "staubli.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Stäubli International AG",
+      "statusModifier": "GROUP_DIVISION",
+      "shortDescription": "Stäubli Fluid Connectors develops connection systems for fluids, gases and industrial energy circuits. Its portfolio includes quick and dry-disconnect couplings, safety breakaways, multi-couplings, robotic tool changers and quick mold-change systems.",
+      "fullDescription": [
+        "Stäubli's official corporate and Fluid Connectors documents identify a dedicated division for safe, repeatable connection and disconnection in industrial processes. The documented scope combines quick and dry-disconnect couplings, safety breakaway couplings, multi-connection systems, robotic tool changers and quick mold-change solutions for hydraulic, pneumatic, gas, thermal and other media circuits."
+      ],
+      "productCategories": [
+        "Быстроразъемные соединения",
+        "Промышленные муфты",
+        "Промышленные соединители",
+        "Системы смены инструмента"
+      ],
+      "productFamilies": [
+        "Quick and Dry Disconnect Couplings",
+        "Safety Breakaway Couplings",
+        "Multi-Coupling Solutions",
+        "Robotic Tool Changers",
+        "Quick Mold Change Systems"
+      ],
+      "series": [
+        "RBE",
+        "MCB",
+        "HCB",
+        "NCB",
+        "KBH",
+        "TTX"
+      ],
+      "industries": [
+        "Автомобильная промышленность",
+        "Химическая промышленность",
+        "Фармацевтическая промышленность",
+        "Энергетика",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [
+        "https://www.staubli.com/content/dam/corporate/01-corporate-communications/corporate-publications/company-profile/Company-Profile-US.pdf"
+      ],
+      "documentationSources": [
+        "https://www.staubli.com/content/dam/fcs/brochures/cross-markets/certification-flyers/ADR-RID%20certified%20product%20range-flyer-en.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-staubli-fluid-connectors-profile",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "GROUP_AND_FLUID_CONNECTORS_DIVISION_IDENTITY",
+          "url": "https://www.staubli.com/content/dam/corporate/01-corporate-communications/corporate-publications/company-profile/Company-Profile-US.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-staubli-fluid-connectors-range",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "QUICK_DRY_BREAKAWAY_AND_FLUID_COUPLING_SCOPE",
+          "url": "https://www.staubli.com/content/dam/fcs/brochures/cross-markets/certification-flyers/ADR-RID%20certified%20product%20range-flyer-en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stauff",
+      "officialName": "STAUFF Group",
+      "displayName": "STAUFF",
+      "aliases": [
+        "STAUFF",
+        "STAUFF GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://stauff.com/en/",
+      "officialDomains": [
+        "stauff.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "STAUFF develops hydraulic and fluid-line components for mobile and industrial equipment. Its range includes clamps, tube connectors, flanges, hoses, quick couplings, valves, test equipment, filtration products and reservoir accessories.",
+      "fullDescription": [
+        "STAUFF's official product directory documents port-to-port components and system assemblies for hydraulic lines. The portfolio covers pipe and hose clamps, tube connectors, flanges, hose fittings and assemblies, quick-release couplings, ball and flow-control valves, diagnostic and measuring devices, filter housings and elements, and accessories for tanks and power units."
+      ],
+      "productCategories": [
+        "Гидравлические компоненты",
+        "Промышленные фитинги",
+        "Быстроразъемные соединения",
+        "Промышленные клапаны",
+        "Фильтрационное оборудование",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "STAUFF Clamps",
+        "STAUFF Connect",
+        "STAUFF Flanges",
+        "STAUFF Hose",
+        "STAUFF Quick Release Couplings",
+        "STAUFF Valves",
+        "STAUFF Test",
+        "STAUFF Diagtronics",
+        "STAUFF Filtration Technology"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Строительная техника",
+        "Промышленное производство",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://stauff.com/en/category"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stauff-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "GROUP_IDENTITY_AND_HYDRAULIC_SCOPE",
+          "url": "https://stauff.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stauff-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HYDRAULIC_LINE_COMPONENT_AND_SYSTEM_SCOPE",
+          "url": "https://stauff.com/en/category",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stego",
+      "officialName": "STEGO Elektrotechnik GmbH",
+      "displayName": "STEGO",
+      "aliases": [
+        "STEGO",
+        "STEGO GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stego-group.com/",
+      "officialDomains": [
+        "stego-group.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Schwäbisch Hall, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "STEGO develops thermal-management and monitoring components for electrical enclosures. Its official range includes enclosure heaters, thermostats, hygrostats, filter fans, sensors, lighting and accessories.",
+      "fullDescription": [
+        "STEGO's manufacturer-owned product directory documents components that regulate temperature, humidity and airflow inside control cabinets and enclosures. The portfolio combines heaters, thermostats and hygrostats with filter fans, sensors, enclosure lighting, pressure-compensation devices and supporting accessories for electrical and automation installations."
+      ],
+      "productCategories": [
+        "Терморегулирующее оборудование",
+        "Промышленные термостаты",
+        "Вентиляционное оборудование",
+        "Промышленные датчики",
+        "Шкафное оборудование"
+      ],
+      "productFamilies": [
+        "Enclosure Heaters",
+        "Thermostats",
+        "Hygrostats",
+        "Filter Fans",
+        "Sensors",
+        "Enclosure Lighting",
+        "Accessories"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Электротехника",
+        "Энергетика",
+        "Телекоммуникации"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.stego-group.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stego-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_ENCLOSURE_CLIMATE_SCOPE",
+          "url": "https://www.stego-group.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stego-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HEATER_THERMOSTAT_FAN_SENSOR_AND_LIGHTING_SCOPE",
+          "url": "https://www.stego-group.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stego-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.stego-group.com/imprint",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "steimel",
+      "officialName": "Gebr. Steimel GmbH & Co. KG",
+      "displayName": "Steimel",
+      "aliases": [
+        "STEIMEL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.steimel.com/en",
+      "officialDomains": [
+        "steimel.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Hennef, Germany",
+      "foundedYear": 1878,
+      "parentCompany": null,
+      "shortDescription": "Steimel develops pumps, centrifuges and automated process systems for moving and separating liquids, parts and metal chips. Its pump range includes centrifugal, rotary-lobe and gear designs for application-specific media handling.",
+      "fullDescription": [
+        "Steimel's manufacturer-owned site documents equipment for liquid transfer, parts handling and industrial separation. The portfolio includes centrifugal, rotary-lobe and gear pumps, batch and continuous centrifuges, palletizers, swarf crushers and plant-engineering or automation solutions for marine, food, manufacturing and recycling processes."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Центрифуги",
+        "Перерабатывающее оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Centrifugal Pumps",
+        "Rotary Lobe Pumps",
+        "Gear Pumps",
+        "Batch Centrifuges",
+        "Continuous Centrifuges",
+        "Palletizers",
+        "Swarf Crushers"
+      ],
+      "series": [
+        "T",
+        "TF"
+      ],
+      "industries": [
+        "Судостроение",
+        "Пищевая промышленность",
+        "Металлообработка",
+        "Переработка отходов",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.steimel.com/en/pumps"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-steimel-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_HISTORY_AND_PUMP_CENTRIFUGE_SCOPE",
+          "url": "https://www.steimel.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-steimel-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CENTRIFUGAL_ROTARY_LOBE_AND_GEAR_PUMP_SCOPE",
+          "url": "https://www.steimel.com/en/pumps",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-steimel-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.steimel.com/en/imprint",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "steinel",
+      "officialName": "STEINEL GmbH",
+      "displayName": "STEINEL",
+      "aliases": [
+        "STEINEL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.steinel.de/en/group/sensors/",
+      "officialDomains": [
+        "steinel.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "STEINEL develops sensor, lighting and professional tool technologies. Its official range includes motion and presence detectors, optical sensors, intelligent luminaires, hot-air tools and related system components.",
+      "fullDescription": [
+        "STEINEL's official product and catalog pages document sensing and control products for buildings together with professional tools and lighting. The portfolio includes motion and presence detectors, optical and photoelectric devices, KNX and Bluetooth system components, sensor-controlled luminaires, hot-air tools and supporting accessories."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Датчики движения",
+        "Системы освещения",
+        "Промышленные инструменты",
+        "Автоматизация зданий"
+      ],
+      "productFamilies": [
+        "Motion Detectors",
+        "Presence Detectors",
+        "Optical Sensors",
+        "Sensor Lights",
+        "Professional Hot-Air Tools",
+        "System Components"
+      ],
+      "series": [],
+      "industries": [
+        "Автоматизация зданий",
+        "Строительство",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.steinel.de/en/services/general/catalogues-brochures/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-steinel-sensors",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOTION_PRESENCE_OPTICAL_AND_SYSTEM_SENSOR_SCOPE",
+          "url": "https://www.steinel.de/en/group/sensors/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-steinel-catalogs",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "SENSOR_LIGHTING_AND_TOOL_CATALOG_SCOPE",
+          "url": "https://www.steinel.de/en/services/general/catalogues-brochures/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "steinmeyer",
+      "officialName": "August Steinmeyer GmbH & Co. KG",
+      "displayName": "Steinmeyer",
+      "aliases": [
+        "STEINMEYER",
+        "AUGUST STEINMEYER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.steinmeyer.com/en/home-page/",
+      "officialDomains": [
+        "steinmeyer.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Albstadt, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Steinmeyer manufactures precision ball screws and linear-drive components. Its range spans miniature, precision, ultra-thrust, cooled, rolled and aerospace ball-screw designs for demanding positioning and motion applications.",
+      "fullDescription": [
+        "Steinmeyer's manufacturer-owned product directory documents ball-screw technology for converting rotary motion into accurate linear movement. The portfolio includes miniature and precision ball screws, ultra-thrust designs, rotating nuts, cooled ball screws, differential roller screws, rolled ball screws and aerospace configurations for machine tools, robotics, semiconductors, medical systems and automation."
+      ],
+      "productCategories": [
+        "Шарико-винтовые передачи",
+        "Линейные приводы",
+        "Системы управления движением"
+      ],
+      "productFamilies": [
+        "Miniature Ball Screws",
+        "Precision Ball Screws",
+        "Ultra Thrust Ball Screws",
+        "Rotating Nuts",
+        "Cooled Ball Screws",
+        "Differential Roller Screws",
+        "Rolled Ball Screws",
+        "Aerospace Ball Screws"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Робототехника",
+        "Полупроводниковая промышленность",
+        "Медицинская техника",
+        "Аэрокосмическая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.steinmeyer.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-steinmeyer-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_BALL_SCREW_SCOPE",
+          "url": "https://www.steinmeyer.com/en/home-page/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-steinmeyer-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BALL_SCREW_AND_LINEAR_DRIVE_FAMILY_SCOPE",
+          "url": "https://www.steinmeyer.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stemmann-technik",
+      "officialName": "STEMMANN-TECHNIK GmbH",
+      "displayName": "STEMMANN-TECHNIK",
+      "aliases": [
+        "STEMMANN TECHNIK",
+        "STEMMANN-TECHNIK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.stemmann.com/en/home",
+      "officialDomains": [
+        "stemmann.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Wabtec Corporation",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "STEMMANN-TECHNIK develops systems for transferring electrical power, data and media to moving equipment and vehicles. Its range includes cable reels, festoon systems, slip rings, conductor lines, current collectors and charging systems.",
+      "fullDescription": [
+        "STEMMANN-TECHNIK's official product overview documents energy and data transfer for cranes, rail vehicles, mobile machinery, ports and industrial installations. The portfolio spans cable festoon systems, motor- and spring-driven cable reels, slip-ring assemblies, conductor lines, roof-mounted pantographs, third-rail current collectors, ground contacts, depot stinger systems and charging or shore-power equipment."
+      ],
+      "productCategories": [
+        "Кабельные барабаны",
+        "Токосъемные системы",
+        "Промышленные кабельные системы",
+        "Зарядное оборудование"
+      ],
+      "productFamilies": [
+        "Cable Festoon Systems",
+        "Cable Reels",
+        "Slip Ring Assemblies",
+        "Conductor Lines",
+        "Roof-Mounted Pantographs",
+        "Third-Rail Current Collectors",
+        "Charging Systems",
+        "Onshore Power Supply"
+      ],
+      "series": [],
+      "industries": [
+        "Железнодорожная промышленность",
+        "Портовая инфраструктура",
+        "Горнодобывающая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.stemmann.com/en/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stemmann-technik-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_POWER_TRANSFER_SCOPE",
+          "url": "https://www.stemmann.com/en/home",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stemmann-technik-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "REEL_SLIP_RING_COLLECTOR_AND_CHARGING_SCOPE",
+          "url": "https://www.stemmann.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "steris",
+      "officialName": "STERIS",
+      "displayName": "STERIS",
+      "aliases": [
+        "STERIS",
+        "STERIS CORPORATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.steris.com/",
+      "officialDomains": [
+        "steris.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "STERIS develops equipment and consumables for sterilization, disinfection, surgical support and controlled processing. Its healthcare portfolio includes sterilizers, washer-disinfectors, endoscope reprocessing systems and operating-room equipment.",
+      "fullDescription": [
+        "STERIS' official healthcare product directory documents systems used to clean, disinfect, sterilize and manage medical instruments and procedure environments. The portfolio covers steam and low-temperature sterilization, washer-disinfectors, ultrasonic cleaning, endoscope reprocessing, surgical tables and lights, operating-room integration, water-treatment equipment and related consumables."
+      ],
+      "productCategories": [
+        "Стерилизационное оборудование",
+        "Моечно-дезинфицирующее оборудование",
+        "Медицинское оборудование",
+        "Лабораторное оборудование"
+      ],
+      "productFamilies": [
+        "Steam Sterilizers",
+        "Low-Temperature Sterilization Systems",
+        "Washer-Disinfectors",
+        "Ultrasonic Cleaners",
+        "Endoscope Reprocessing Systems",
+        "Surgical Tables",
+        "Surgical Lighting"
+      ],
+      "series": [],
+      "industries": [
+        "Медицинская техника",
+        "Фармацевтическая промышленность",
+        "Лабораторная инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.steris.com/healthcare/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-steris-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_STERILIZATION_SCOPE",
+          "url": "https://www.steris.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-steris-healthcare-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "STERILIZER_WASHER_ENDOSCOPE_AND_SURGICAL_SCOPE",
+          "url": "https://www.steris.com/healthcare/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "steute",
+      "officialName": "steute Technologies GmbH & Co. KG",
+      "displayName": "steute Controltec",
+      "aliases": [
+        "STEUTE",
+        "STEUTE CONTROLTEC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.steute-controltec.com/en/",
+      "officialDomains": [
+        "steute-controltec.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Löhne, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "steute Controltec develops industrial switches and sensors for safety, automation, hazardous areas and wireless communication. Its range includes position, pull-wire, foot and safety switches together with inductive, magnetic and optical sensors.",
+      "fullDescription": [
+        "steute Controltec's official product directory documents switchgear and sensing devices for complex industrial environments. The portfolio spans position and limit switches, pull-wire and emergency switches, foot and command devices, solenoid interlocks, belt-monitoring switches, inductive, magnetic, optical and safety sensors, plus explosion-protected and wireless variants."
+      ],
+      "productCategories": [
+        "Промышленные выключатели",
+        "Промышленные датчики",
+        "Оборудование промышленной безопасности",
+        "Беспроводные системы"
+      ],
+      "productFamilies": [
+        "Position Switches",
+        "Pull-Wire Switches",
+        "Foot Switches",
+        "Safety Switches",
+        "Inductive Sensors",
+        "Magnetic Sensors",
+        "Optical Sensors",
+        "Wireless Switches and Sensors",
+        "Explosion-Protected Switchgear"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Конвейерные системы",
+        "Судостроение",
+        "Пищевая промышленность",
+        "Автоматизация зданий"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.steute-controltec.com/en-us/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-steute-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_INDUSTRIAL_SWITCH_SENSOR_SCOPE",
+          "url": "https://www.steute-controltec.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-steute-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SWITCH_SENSOR_SAFETY_EX_AND_WIRELESS_SCOPE",
+          "url": "https://www.steute-controltec.com/en-us/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "stewart-buchanan-gauges",
+      "officialName": "Stewart-Buchanan Gauges Ltd",
+      "displayName": "Stewart-Buchanan Gauges",
+      "aliases": [
+        "STEWART-BUCHANAN GAUGES",
+        "STEWART BUCHANAN GAUGES",
+        "THE STEWARTS GROUP"
+      ],
+      "formerNames": [
+        "CA Stewart"
+      ],
+      "officialWebsite": "https://www.stewarts-group.com/",
+      "officialDomains": [
+        "stewarts-group.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Kilsyth, Scotland, United Kingdom",
+      "foundedYear": 1870,
+      "parentCompany": null,
+      "shortDescription": "Stewart-Buchanan Gauges designs and manufactures pressure and temperature gauges, industrial valves and instrumentation manifolds. Its range includes needle, ball, double-block-and-bleed, injection and sampling valves.",
+      "fullDescription": [
+        "Stewart-Buchanan Gauges' manufacturer-owned site documents mechanical measurement and flow-control products made at its facility near Glasgow. The portfolio combines pressure, differential and temperature gauges with needle and ball valves, valve manifolds, monoflanges, double-block-and-bleed valves, injection and sampling valves, distribution manifolds and instrument-panel assemblies."
+      ],
+      "productCategories": [
+        "Манометры",
+        "Термометры",
+        "Промышленные клапаны",
+        "Промышленная арматура",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Pressure Gauges",
+        "Temperature Gauges",
+        "Needle Valves",
+        "Ball Valves",
+        "Valve Manifolds",
+        "Monoflanges",
+        "Double Block and Bleed Valves",
+        "Sampling Valves",
+        "Instrumentation Assemblies"
+      ],
+      "series": [
+        "NITELITEGAUGE",
+        "VIBRAGAUGE",
+        "SNUBBAGAUGE"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.stewarts-group.com/our-products-and-services/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-stewart-buchanan-gauges-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_HISTORY_AND_INSTRUMENTATION_SCOPE",
+          "url": "https://www.stewarts-group.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-stewart-buchanan-gauges-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "GAUGE_VALVE_MANIFOLD_AND_INSTRUMENT_SCOPE",
+          "url": "https://www.stewarts-group.com/our-products-and-services/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "strahman",
+      "officialName": "Strahman Group",
+      "displayName": "Strahman",
+      "aliases": [
+        "STRAHMAN",
+        "STRAHMAN GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.strahmangroup.com/",
+      "officialDomains": [
+        "strahmangroup.com"
+      ],
+      "country": "United States",
+      "headquarters": "Bethlehem, Pennsylvania, United States",
+      "foundedYear": 1921,
+      "parentCompany": null,
+      "shortDescription": "Strahman manufactures industrial washdown equipment, process valves and valve-automation packages. Its range includes hose stations, spray nozzles, sampling and drain valves, automated valves and thermal shut-off assemblies.",
+      "fullDescription": [
+        "Strahman Group's official product directory documents fluid-control and sanitation equipment for process facilities. The portfolio combines washdown stations, nozzles, hoses and storage equipment with piston-style sampling and injection valves, drain and bottom-outlet valves, automated ball and butterfly valve packages and fire-safe thermal shut-off solutions."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Моечное оборудование",
+        "Промышленные форсунки",
+        "Приводы клапанов"
+      ],
+      "productFamilies": [
+        "Washdown Equipment",
+        "Washdown Stations",
+        "Washdown Nozzles",
+        "Process Valves",
+        "Valve Automation",
+        "Thermal Shut-Off Valves"
+      ],
+      "series": [
+        "M-159",
+        "M-750",
+        "M-200TS",
+        "SV",
+        "MS",
+        "QS",
+        "QA"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.strahmangroup.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-strahman-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_HISTORY_AND_VALVE_WASHDOWN_SCOPE",
+          "url": "https://www.strahmangroup.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-strahman-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "WASHDOWN_VALVE_AUTOMATION_AND_PROCESS_VALVE_SCOPE",
+          "url": "https://www.strahmangroup.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "strapex",
+      "officialName": "Strapex",
+      "displayName": "Strapex",
+      "aliases": [
+        "STRAPEX"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.strapex.com/",
+      "officialDomains": [
+        "strapex.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Dietikon, Switzerland",
+      "foundedYear": null,
+      "parentCompany": "Signode Industrial Group LLC",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Strapex is a Signode brand for transport-packaging and load-securement systems. Its range includes automatic and semi-automatic strapping machines, battery and manual tools, plastic or steel strap and related consumables.",
+      "fullDescription": [
+        "Strapex's official site documents systems used to bundle, secure and protect goods through production and logistics. The portfolio combines automatic and semi-automatic strapping machines with handheld tools, PP and PET strap, steel-strapping solutions and supporting consumables for varied packaging volumes and load configurations."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Стреппинг-оборудование",
+        "Промышленные инструменты"
+      ],
+      "productFamilies": [
+        "Automatic Strapping Machines",
+        "Semi-Automatic Strapping Machines",
+        "Battery Strapping Tools",
+        "Manual Strapping Tools",
+        "Plastic Strap",
+        "Steel Strap"
+      ],
+      "series": [
+        "STB"
+      ],
+      "industries": [
+        "Упаковочная промышленность",
+        "Логистика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.strapex.com/strapping-machines.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-strapex-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_STRAPPING_SCOPE",
+          "url": "https://www.strapex.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-strapex-machines",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "AUTOMATIC_AND_SEMIAUTOMATIC_STRAPPING_MACHINE_SCOPE",
+          "url": "https://www.strapex.com/strapping-machines.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "straub",
+      "officialName": "STRAUB Werke AG",
+      "displayName": "STRAUB",
+      "aliases": [
+        "STRAUB",
+        "STRAUB WERKE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.straub.ch/en/",
+      "officialDomains": [
+        "straub.ch"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Wangs, Switzerland",
+      "foundedYear": null,
+      "parentCompany": "Aliaxis",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "STRAUB develops mechanical pipe-coupling systems for joining and repairing pipes. Its range includes axial-restraint, flexible, open-repair, transition and plastic-pipe couplings for water, energy, marine and industrial systems.",
+      "fullDescription": [
+        "STRAUB Werke's official site documents coupling systems that connect pipes without welding, flanging or extensive end preparation. The portfolio includes grip-type axial-restraint couplings, flexible non-restraint couplings, open repair designs, step and combination couplings, plastic-pipe joints and clamps across a wide range of pipe diameters and materials."
+      ],
+      "productCategories": [
+        "Трубные соединения",
+        "Промышленные муфты",
+        "Промышленные фитинги"
+      ],
+      "productFamilies": [
+        "Axial-Restraint Pipe Couplings",
+        "Flexible Pipe Couplings",
+        "Open Repair Couplings",
+        "Transition Couplings",
+        "Plastic Pipe Couplings",
+        "Repair Clamps"
+      ],
+      "series": [
+        "STRAUB-METAL-GRIP",
+        "STRAUB-GRIP",
+        "STRAUB-PLAST-GRIP",
+        "STRAUB-COMBI-GRIP",
+        "STRAUB-FLEX",
+        "STRAUB-OPEN-FLEX",
+        "STRAUB-STEP-FLEX",
+        "STRAUB-REP-FLEX"
+      ],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Энергетика",
+        "Судостроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.straub.ch/en/company/downloads"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-straub-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_PIPE_COUPLING_SCOPE",
+          "url": "https://www.straub.ch/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-straub-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "PIPE_COUPLING_PRODUCT_AND_TECHNICAL_DOCUMENT_SCOPE",
+          "url": "https://www.straub.ch/en/company/downloads",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "suhner",
+      "officialName": "SUHNER Schweiz AG",
+      "displayName": "SUHNER",
+      "aliases": [
+        "SUHNER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.suhner.com/en/",
+      "officialDomains": [
+        "suhner.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": null,
+      "foundedYear": 1914,
+      "parentCompany": null,
+      "shortDescription": "SUHNER develops solutions for metalworking, machining and production automation. Its scope includes grinding and surface-finishing tools, machining units, robotic grinding systems, components and additive manufacturing services.",
+      "fullDescription": [
+        "SUHNER's official corporate pages present an integrated metal-processing portfolio from material preparation through machining and surface treatment. Documented capabilities include portable and stationary grinding tools, milling and drilling technology, customized machining units, robot-assisted grinding and deburring, engineered components and metal additive manufacturing."
+      ],
+      "productCategories": [
+        "Металлообрабатывающее оборудование",
+        "Шлифовальное оборудование",
+        "Промышленная автоматизация",
+        "Промышленные инструменты",
+        "Аддитивное производство"
+      ],
+      "productFamilies": [
+        "Grinding and Surface-Finishing Tools",
+        "Machining Units",
+        "Robotic Grinding Systems",
+        "Custom Automation",
+        "Engineered Components",
+        "Additive Manufacturing"
+      ],
+      "series": [
+        "EFCm-02"
+      ],
+      "industries": [
+        "Металлообработка",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.suhner.com/en/about-suhner/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-suhner-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_METAL_PROCESSING_SCOPE",
+          "url": "https://www.suhner.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-suhner-about",
+          "tier": "A",
+          "type": "OFFICIAL_ABOUT",
+          "scope": "HISTORY_AND_MACHINING_AUTOMATION_SURFACE_SCOPE",
+          "url": "https://www.suhner.com/en/about-suhner/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sullair",
+      "officialName": "Sullair",
+      "displayName": "Sullair",
+      "aliases": [
+        "SULLAIR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://america.sullair.com/en",
+      "officialDomains": [
+        "sullair.com"
+      ],
+      "country": "United States",
+      "headquarters": "Michigan City, Indiana, United States",
+      "foundedYear": 1965,
+      "parentCompany": "Hitachi Global Air Power US, LLC",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Sullair is a Hitachi Global Air Power brand for compressed-air equipment. Its range includes stationary and portable rotary-screw compressors, oil-free compressors, dryers, filtration, fluids and compressed-air management systems.",
+      "fullDescription": [
+        "Sullair's official site documents compressed-air products for workshops, manufacturing, construction and process operations. The portfolio spans lubricated and oil-free stationary compressors, portable diesel and electric units, centrifugal compressors, air treatment and dryers, filters, fluids, remote monitoring and managed-air-power services."
+      ],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Воздушные компрессоры",
+        "Оборудование подготовки воздуха",
+        "Системы мониторинга"
+      ],
+      "productFamilies": [
+        "Stationary Rotary Screw Compressors",
+        "Portable Compressors",
+        "Oil-Free Compressors",
+        "Centrifugal Compressors",
+        "Air Dryers",
+        "Air Treatment",
+        "Compressed-Air Management"
+      ],
+      "series": [
+        "LS",
+        "DSP",
+        "S-energy",
+        "ShopTek",
+        "SRL",
+        "TS"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Строительная техника",
+        "Нефтегазовая промышленность",
+        "Пищевая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://america.sullair.com/en/products?page=1"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sullair-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_BRAND_IDENTITY_HISTORY_AND_COMPRESSED_AIR_SCOPE",
+          "url": "https://america.sullair.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-sullair-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "STATIONARY_PORTABLE_OIL_FREE_AND_AIR_TREATMENT_SCOPE",
+          "url": "https://america.sullair.com/en/products?page=1",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sundyne",
+      "officialName": "Sundyne",
+      "displayName": "Sundyne",
+      "aliases": [
+        "SUNDYNE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sundyne.com/",
+      "officialDomains": [
+        "sundyne.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Honeywell International Inc.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Sundyne develops engineered pumps and compressors for process industries. Its portfolio includes direct-drive and integrally geared centrifugal pumps, sealless magnetic-drive pumps, centrifugal compressors and diaphragm gas compressors.",
+      "fullDescription": [
+        "Sundyne's official site documents rotating equipment for handling liquids and gases in energy, chemical, petrochemical and industrial processes. The portfolio combines high-head centrifugal pumps, multi-stage and integrally geared designs, sealless magnetic-drive pumps, line-mounted and multi-stage centrifugal compressors, and diaphragm compressors for demanding process duties."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Центробежные насосы",
+        "Магнитные насосы",
+        "Промышленные компрессоры"
+      ],
+      "productFamilies": [
+        "Direct Drive Pumps",
+        "Integrally Geared Pumps",
+        "Multi-Stage Pumps",
+        "Sealless Magnetic-Drive Pumps",
+        "Centrifugal Compressors",
+        "Diaphragm Compressors"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Водородная энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sundyne.com/industries/pumps-compressors-for-the-energy-and-petrochem-industries/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sundyne-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_BRAND_IDENTITY_AND_PUMP_COMPRESSOR_SCOPE",
+          "url": "https://www.sundyne.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-sundyne-energy-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PROCESS_PUMP_AND_COMPRESSOR_TECHNOLOGY_SCOPE",
+          "url": "https://www.sundyne.com/industries/pumps-compressors-for-the-energy-and-petrochem-industries/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sunnen",
+      "officialName": "Sunnen Products Company",
+      "displayName": "Sunnen",
+      "aliases": [
+        "SUNNEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sunnen.com/",
+      "officialDomains": [
+        "sunnen.com"
+      ],
+      "country": "United States",
+      "headquarters": "St. Louis, Missouri, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Sunnen develops precision bore-finishing and honing systems. Its portfolio includes vertical and horizontal honing machines, tube hones, lapping, skiving and roller-burnishing systems, gages, tooling, abrasives and honing fluids.",
+      "fullDescription": [
+        "Sunnen's official catalog and technical-literature portal documents machines, tools and process supplies for creating and measuring precision bores. The range spans vertical, horizontal and tube honing systems, external honing, lapping, skiving and roller burnishing, deep-hole drilling, bore gages, mandrels, superabrasive tooling, coolants and filtration equipment."
+      ],
+      "productCategories": [
+        "Хонинговальное оборудование",
+        "Металлообрабатывающие станки",
+        "Измерительное оборудование",
+        "Абразивный инструмент"
+      ],
+      "productFamilies": [
+        "Vertical Honing Machines",
+        "Horizontal Honing Machines",
+        "Tube Honing Systems",
+        "Lapping Systems",
+        "Skiving and Roller Burnishing Systems",
+        "Bore Gages",
+        "Honing Tooling and Abrasives",
+        "Honing Fluids"
+      ],
+      "series": [
+        "SV",
+        "VSS",
+        "SH",
+        "SSH",
+        "HTA",
+        "HTB",
+        "HTC",
+        "HTD",
+        "HTE",
+        "HTG",
+        "HTH",
+        "HTS",
+        "SVL",
+        "AG",
+        "PG"
+      ],
+      "industries": [
+        "Металлообработка",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Гидравлика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sunnen.com/pages/catalogs"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sunnen-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_HONING_SCOPE",
+          "url": "https://www.sunnen.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-sunnen-catalogs",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "HONING_MACHINE_TOOLING_GAGING_AND_FLUID_SCOPE",
+          "url": "https://www.sunnen.com/pages/catalogs",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "super-radiator-coils",
+      "officialName": "Super Radiator Coils",
+      "displayName": "Super Radiator Coils",
+      "aliases": [
+        "SUPER RADIATOR COILS",
+        "SRC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.superradiatorcoils.com/",
+      "officialDomains": [
+        "superradiatorcoils.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Super Radiator Coils engineers heat-transfer products for HVAC, industrial and nuclear applications. Its range includes fluid, steam, condenser and evaporator coils, industrial heat exchangers and custom assemblies.",
+      "fullDescription": [
+        "Super Radiator Coils' official site and product brochure document custom heat-transfer equipment for air and process systems. The portfolio covers water and glycol coils, steam coils, condenser and evaporator designs, industrial heat exchangers, corrosion-resistant constructions and engineered coil assemblies for commercial HVAC, data centers, industrial processing and nuclear service."
+      ],
+      "productCategories": [
+        "Теплообменное оборудование",
+        "Промышленные теплообменники",
+        "Вентиляционное оборудование",
+        "Холодильное оборудование"
+      ],
+      "productFamilies": [
+        "Fluid Coils",
+        "Steam Coils",
+        "Condenser Coils",
+        "Evaporator Coils",
+        "Industrial Heat Exchangers",
+        "Nuclear Heat-Transfer Products"
+      ],
+      "series": [],
+      "industries": [
+        "Вентиляция и кондиционирование",
+        "Энергетика",
+        "Промышленное производство",
+        "Центры обработки данных"
+      ],
+      "officialCatalogs": [
+        "https://www.superradiatorcoils.com/hubfs/Brochures/Coil%20Products%20Brochure%20-%2009-10-2024%20-%20web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.superradiatorcoils.com/hubfs/Brochures/Coil%20Products%20Brochure%20-%2009-10-2024%20-%20web.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-super-radiator-coils-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_HEAT_TRANSFER_SCOPE",
+          "url": "https://www.superradiatorcoils.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-super-radiator-coils-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "COIL_AND_INDUSTRIAL_HEAT_EXCHANGER_SCOPE",
+          "url": "https://www.superradiatorcoils.com/hubfs/Brochures/Coil%20Products%20Brochure%20-%2009-10-2024%20-%20web.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "super-systems-inc",
+      "officialName": "Super Systems Inc.",
+      "displayName": "Super Systems",
+      "aliases": [
+        "SUPER SYSTEMS INC",
+        "SUPER SYSTEMS",
+        "SSI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://supersystems.com/",
+      "officialDomains": [
+        "supersystems.com"
+      ],
+      "country": "United States",
+      "headquarters": "Cincinnati, Ohio, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Super Systems develops instrumentation, controls and software for thermal processing and heat treatment. Its portfolio includes atmosphere, temperature, vacuum and nitriding controllers, probes, analyzers, flow control and engineered systems.",
+      "fullDescription": [
+        "Super Systems' manufacturer-owned site documents products for monitoring and controlling furnaces and thermal-processing lines. The range combines process and atmosphere probes, gas analyzers, temperature and atmosphere controllers, vacuum and nitriding controls, data-acquisition software, flow panels and integrated control systems for heat-treatment operations."
+      ],
+      "productCategories": [
+        "Промышленные контроллеры",
+        "Газоанализаторы",
+        "Промышленные датчики",
+        "Программное обеспечение",
+        "Термическое оборудование"
+      ],
+      "productFamilies": [
+        "Temperature Controllers",
+        "Atmosphere Controllers",
+        "Vacuum Controllers",
+        "Nitriding Controllers",
+        "Process Probes",
+        "Gas Analyzers",
+        "Data Acquisition Software",
+        "Flow Control Systems"
+      ],
+      "series": [
+        "Series 8",
+        "9000 Series",
+        "9205",
+        "9215",
+        "9220",
+        "SuperDATA"
+      ],
+      "industries": [
+        "Термообработка",
+        "Металлообработка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://supersystems.com/controllers/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-super-systems-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_THERMAL_PROCESSING_SCOPE",
+          "url": "https://supersystems.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-super-systems-controllers",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "TEMPERATURE_ATMOSPHERE_VACUUM_AND_NITRIDING_CONTROL_SCOPE",
+          "url": "https://supersystems.com/controllers/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "swagelok",
+      "officialName": "Swagelok Company",
+      "displayName": "Swagelok",
+      "aliases": [
+        "SWAGELOK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.swagelok.com/en",
+      "officialDomains": [
+        "swagelok.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Swagelok develops components and assemblies for industrial fluid systems. Its portfolio includes tube and pipe fittings, valves, regulators, hoses, tubing, filters, measurement devices and orbital welding systems.",
+      "fullDescription": [
+        "Swagelok's official product resources document components for connecting, controlling, measuring and conditioning industrial fluids and gases. The range spans tube, pipe and high-pressure fittings, ball, needle, diaphragm and check valves, pressure regulators, hoses and flexible tubing, filters, pressure and flow measurement, sampling systems and orbital welding equipment."
+      ],
+      "productCategories": [
+        "Промышленные фитинги",
+        "Промышленные клапаны",
+        "Регуляторы давления",
+        "Промышленные шланги",
+        "Фильтрационное оборудование",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Tube Fittings and Adapters",
+        "Pipe Fittings",
+        "Industrial Valves",
+        "Pressure Regulators",
+        "Hoses and Flexible Tubing",
+        "Filters",
+        "Measurement Devices",
+        "Welding Systems"
+      ],
+      "series": [
+        "VCR",
+        "FK",
+        "IPT",
+        "GB",
+        "V",
+        "VB",
+        "VL"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Полупроводниковая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://products.swagelok.com/en"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-swagelok-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_FLUID_SYSTEM_SCOPE",
+          "url": "https://www.swagelok.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-swagelok-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FITTING_VALVE_REGULATOR_HOSE_AND_INSTRUMENT_SCOPE",
+          "url": "https://products.swagelok.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "swarco",
+      "officialName": "SWARCO AG",
+      "displayName": "SWARCO",
+      "aliases": [
+        "SWARCO"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.swarco.com/",
+      "officialDomains": [
+        "swarco.com"
+      ],
+      "country": "Austria",
+      "headquarters": "Wattens, Austria",
+      "foundedYear": 1969,
+      "parentCompany": null,
+      "shortDescription": "SWARCO develops products and systems for road marking, traffic control and transport infrastructure. Its range includes road-marking materials, signals, signs, detectors, controllers, parking systems, charging hardware and traffic-management software.",
+      "fullDescription": [
+        "SWARCO's official product directory documents physical and digital infrastructure used to guide and manage road users. The portfolio covers road-marking materials and glass beads, static and electronic signs, traffic signals and controllers, detection sensors, parking products, barriers, gantries, street furniture, charging systems and software for urban, highway and tunnel traffic management."
+      ],
+      "productCategories": [
+        "Дорожное оборудование",
+        "Системы управления дорожным движением",
+        "Промышленные датчики",
+        "Системы сигнализации",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Road Markings",
+        "Traffic Signals",
+        "Traffic Controllers",
+        "Detection and Sensors",
+        "Electronic Signs",
+        "Parking Systems",
+        "Traffic Management Software",
+        "Smart Charging"
+      ],
+      "series": [
+        "FUTURA",
+        "DURALUX"
+      ],
+      "industries": [
+        "Транспортная инфраструктура",
+        "Городская инфраструктура",
+        "Дорожное строительство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.swarco.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-swarco-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "GROUP_IDENTITY_HISTORY_AND_TRAFFIC_TECHNOLOGY_SCOPE",
+          "url": "https://www.swarco.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-swarco-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "ROAD_MARKING_SIGNAL_SENSOR_PARKING_AND_SOFTWARE_SCOPE",
+          "url": "https://www.swarco.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "swedrive",
+      "officialName": "Swedrive AB",
+      "displayName": "Swedrive",
+      "aliases": [
+        "SWEDRIVE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://swedrive.com/",
+      "officialDomains": [
+        "swedrive.com"
+      ],
+      "country": "Sweden",
+      "headquarters": "Lagan, Sweden",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Swedrive develops electromechanical drive products for controlled linear and rotary movement. Its official range includes worm gear units, screw jacks, electromechanical cylinders and customized motion solutions.",
+      "fullDescription": [
+        "Swedrive's manufacturer-owned product directory documents compact drive technology for positioning, lifting and adjustment tasks. The portfolio combines worm gears for rotary power transmission with screw jacks and electromechanical cylinders for controlled linear movement, supported by application-specific customization."
+      ],
+      "productCategories": [
+        "Червячные редукторы",
+        "Винтовые домкраты",
+        "Электромеханические цилиндры",
+        "Линейные приводы"
+      ],
+      "productFamilies": [
+        "Worm Gears",
+        "Screw Jacks",
+        "Electromechanical Cylinders",
+        "Customized Drive Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://swedrive.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-swedrive-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_AND_MOTION_SCOPE",
+          "url": "https://swedrive.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-swedrive-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "WORM_GEAR_SCREW_JACK_AND_CYLINDER_SCOPE",
+          "url": "https://swedrive.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "swegon",
+      "officialName": "Swegon Group AB",
+      "displayName": "Swegon",
+      "aliases": [
+        "SWEGON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.swegon.com/",
+      "officialDomains": [
+        "swegon.com"
+      ],
+      "country": "Sweden",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Investment AB Latour",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Swegon develops systems for ventilation, heating, cooling and indoor-climate control. Its range includes air-handling units, room units, chillers, heat pumps, dampers, air-distribution products and climate-control systems.",
+      "fullDescription": [
+        "Swegon's official product directory documents equipment and controls for creating and managing indoor environmental conditions. The portfolio spans air-handling units, diffusers and room units, chilled beams, chillers and heat pumps, fire and smoke dampers, airflow-control products, silencers and room-management or climate-control systems."
+      ],
+      "productCategories": [
+        "Вентиляционное оборудование",
+        "Климатическое оборудование",
+        "Холодильное оборудование",
+        "Тепловые насосы",
+        "Автоматизация зданий"
+      ],
+      "productFamilies": [
+        "Air Handling Units",
+        "Room Units",
+        "Chillers",
+        "Heat Pumps",
+        "Fire and Smoke Dampers",
+        "Air Distribution Products",
+        "Climate Control Systems"
+      ],
+      "series": [
+        "GOLD",
+        "PARAGON",
+        "PARASOL",
+        "WISE",
+        "REACT"
+      ],
+      "industries": [
+        "Вентиляция и кондиционирование",
+        "Автоматизация зданий",
+        "Строительство",
+        "Коммерческая недвижимость"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.swegon.com/uk/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-swegon-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "GROUP_IDENTITY_AND_INDOOR_CLIMATE_SCOPE",
+          "url": "https://www.swegon.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-swegon-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "AIR_HANDLING_ROOM_COOLING_HEATING_AND_CONTROL_SCOPE",
+          "url": "https://www.swegon.com/uk/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "swf-krantechnik",
+      "officialName": "SWF Krantechnik GmbH",
+      "displayName": "SWF Krantechnik",
+      "aliases": [
+        "SWF KRANTECHNIK",
+        "SWF"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.swfkrantechnik.com/en/",
+      "officialDomains": [
+        "swfkrantechnik.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Mannheim, Germany",
+      "foundedYear": 1921,
+      "parentCompany": null,
+      "shortDescription": "SWF Krantechnik develops hoists, crane components and modular lifting systems. Its portfolio includes electric wire-rope, chain and belt hoists, light-crane systems, crane kits, controls, monitoring and explosion-protected variants.",
+      "fullDescription": [
+        "SWF Krantechnik's official product directory documents modular equipment used by crane builders and industrial lifting-system integrators. The range spans wire-rope hoists, chain and belt hoists, light-crane profiles and structures, jib cranes, crane kits, end carriages, travelling drives, frequency inverters, radio controls, condition monitoring and EX configurations."
+      ],
+      "productCategories": [
+        "Грузоподъемное оборудование",
+        "Промышленные тали",
+        "Промышленные краны",
+        "Промышленные контроллеры",
+        "Взрывозащищенное оборудование"
+      ],
+      "productFamilies": [
+        "Wire Rope Hoists",
+        "Chain Hoists",
+        "Belt Hoists",
+        "Light Crane Systems",
+        "Crane Kits",
+        "End Carriages",
+        "Crane Controls",
+        "Explosion-Protected Hoists"
+      ],
+      "series": [
+        "NOVA",
+        "CRABster",
+        "ATHLO",
+        "CHAINster",
+        "CRAFTster",
+        "ProfileMaster",
+        "VECTO",
+        "CraneKit"
+      ],
+      "industries": [
+        "Машиностроение",
+        "Металлургия",
+        "Промышленное производство",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.swfkrantechnik.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-swf-krantechnik-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "COMPANY_IDENTITY_HISTORY_AND_LIFTING_SCOPE",
+          "url": "https://www.swfkrantechnik.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-swf-krantechnik-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HOIST_CRANE_COMPONENT_CONTROL_AND_EX_SCOPE",
+          "url": "https://www.swfkrantechnik.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    }
   ]
 }

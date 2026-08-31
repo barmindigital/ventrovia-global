@@ -1,57 +1,2507 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {"manufacturerId":"seli","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"The exact SELI TUNNEL record is a legacy tunnelling identity associated with business units that later moved to different current companies. No manufacturer-owned source supports publishing it as one unambiguous current manufacturer entity.","attemptedUrls":["https://www.tunnelpro.it/en/our-history","https://selioverseas.com/en/about-us/la-nostra-history/"]},
-    {"manufacturerId":"sentry","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SENTRY is shared by multiple unrelated industrial companies and product brands. The undifferentiated repository record has no legal-name, domain or product-scope discriminator that selects one manufacturer safely.","attemptedUrls":["https://www.google.com/search?q=SENTRY+industrial+manufacturer+official"]},
-    {"manufacturerId":"severn-trent-de-nora","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"Severn Trent De Nora is a former joint-venture identity rather than a current independent manufacturer. Current De Nora sources do not support publishing the exact legacy composite as a standalone canonical entity.","attemptedUrls":["https://www.denora.com/"]},
-    {"manufacturerId":"sew-usocome","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The current SEW USOCOME identity and drive-technology product surfaces were identified, but all directly tested first-party pages returned HTTP 403. Search-result extracts were not accepted as publication evidence.","attemptedUrls":["https://www.usocome.com/","https://www.usocome.com/produits/logiciels/etude-et-configuration/configurateur-produit/configurateur-produit.html"]},
-    {"manufacturerId":"sewon","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SEWON matches several unrelated active Korean manufacturers in hydraulics, marine valves, machinery and automation. The bare repository name provides no authoritative discriminator.","attemptedUrls":["https://sewon-ind.com/","https://www.sewonenc.com/kr/main/main.asp"]},
-    {"manufacturerId":"sfk-leblanc","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"Frontmatec's official history confirms that SFK LEBLANC was one of the companies merged into Frontmatec. It is not presented as a current standalone commercial manufacturer, so a separate indexable identity would duplicate the successor.","attemptedUrls":["https://www.frontmatec.com/en/company/about-frontmatec"]},
-    {"manufacturerId":"sicme-motori","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The likely manufacturer-owned SICME MOTORI domain failed direct HTTPS verification. Secondary distributors and mirrored catalogs were not accepted as substitutes for a current first-party source.","attemptedUrls":["https://www.sicmemotori.com/"]},
-    {"manufacturerId":"simalube","status":"NOT_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"The official simatec source identifies simalube as an automatic-lubricator product brand. The exact record does not represent a separate manufacturer entity and would duplicate its manufacturer if published independently.","attemptedUrls":["https://simatec.com/en/simalube/"]},
-    {"manufacturerId":"simax","status":"NOT_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"SIMAX is used as a borosilicate-glass product brand and also by unrelated businesses. No first-party evidence supports the bare record as one independent industrial manufacturer.","attemptedUrls":["https://www.simax.eu/"]},
-    {"manufacturerId":"sidi-mondial","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The manufacturer-owned SIDI MONDIAL site was identified, but its HTTPS challenge returned HTTP 403 during direct verification. Search-result extracts were not accepted as publication evidence.","attemptedUrls":["https://sidimondial.com/home"]}
+    {
+      "manufacturerId": "seli",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "The exact SELI TUNNEL record is a legacy tunnelling identity associated with business units that later moved to different current companies. No manufacturer-owned source supports publishing it as one unambiguous current manufacturer entity.",
+      "attemptedUrls": [
+        "https://www.tunnelpro.it/en/our-history",
+        "https://selioverseas.com/en/about-us/la-nostra-history/"
+      ]
+    },
+    {
+      "manufacturerId": "sentry",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SENTRY is shared by multiple unrelated industrial companies and product brands. The undifferentiated repository record has no legal-name, domain or product-scope discriminator that selects one manufacturer safely.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SENTRY+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "severn-trent-de-nora",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Severn Trent De Nora is a former joint-venture identity rather than a current independent manufacturer. Current De Nora sources do not support publishing the exact legacy composite as a standalone canonical entity.",
+      "attemptedUrls": [
+        "https://www.denora.com/"
+      ]
+    },
+    {
+      "manufacturerId": "sew-usocome",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The current SEW USOCOME identity and drive-technology product surfaces were identified, but all directly tested first-party pages returned HTTP 403. Search-result extracts were not accepted as publication evidence.",
+      "attemptedUrls": [
+        "https://www.usocome.com/",
+        "https://www.usocome.com/produits/logiciels/etude-et-configuration/configurateur-produit/configurateur-produit.html"
+      ]
+    },
+    {
+      "manufacturerId": "sewon",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SEWON matches several unrelated active Korean manufacturers in hydraulics, marine valves, machinery and automation. The bare repository name provides no authoritative discriminator.",
+      "attemptedUrls": [
+        "https://sewon-ind.com/",
+        "https://www.sewonenc.com/kr/main/main.asp"
+      ]
+    },
+    {
+      "manufacturerId": "sfk-leblanc",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Frontmatec's official history confirms that SFK LEBLANC was one of the companies merged into Frontmatec. It is not presented as a current standalone commercial manufacturer, so a separate indexable identity would duplicate the successor.",
+      "attemptedUrls": [
+        "https://www.frontmatec.com/en/company/about-frontmatec"
+      ]
+    },
+    {
+      "manufacturerId": "sicme-motori",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The likely manufacturer-owned SICME MOTORI domain failed direct HTTPS verification. Secondary distributors and mirrored catalogs were not accepted as substitutes for a current first-party source.",
+      "attemptedUrls": [
+        "https://www.sicmemotori.com/"
+      ]
+    },
+    {
+      "manufacturerId": "simalube",
+      "status": "NOT_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "The official simatec source identifies simalube as an automatic-lubricator product brand. The exact record does not represent a separate manufacturer entity and would duplicate its manufacturer if published independently.",
+      "attemptedUrls": [
+        "https://simatec.com/en/simalube/"
+      ]
+    },
+    {
+      "manufacturerId": "simax",
+      "status": "NOT_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SIMAX is used as a borosilicate-glass product brand and also by unrelated businesses. No first-party evidence supports the bare record as one independent industrial manufacturer.",
+      "attemptedUrls": [
+        "https://www.simax.eu/"
+      ]
+    },
+    {
+      "manufacturerId": "sidi-mondial",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The manufacturer-owned SIDI MONDIAL site was identified, but its HTTPS challenge returned HTTP 403 during direct verification. Search-result extracts were not accepted as publication evidence.",
+      "attemptedUrls": [
+        "https://sidimondial.com/home"
+      ]
+    }
   ],
   "profiles": [
-    {"manufacturerId":"sedis","officialName":"SEDIS","displayName":"SEDIS","aliases":["SEDIS CHAINS"],"formerNames":[],"officialWebsite":"https://www.sedis.com/en/","officialDomains":["sedis.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":"Murugappa Group","statusModifier":"GROUP_COMPANY","shortDescription":"SEDIS designs and manufactures industrial chains and associated transmission components. Its official range includes transmission, adapted, leaf and conveyor chains together with sprockets, wheels and complementary components.","fullDescription":["SEDIS' manufacturer-owned product directory establishes the French industrial-chain identity and documents a portfolio for power transmission, lifting and conveying duties.","Published groups include standard and application-specific chains, leaf chains, conveyor chains, sprockets, wheels, discs and related transmission components for industrial installations."],"productCategories":["Промышленные цепи","Промышленные механические передачи"],"productFamilies":["Transmission Chains","Adapted Chains","Leaf Chains","Conveyor Chains","Sprockets and Wheels"],"series":[],"industries":["Промышленное производство","Пищевая промышленность","Энергетика"],"officialCatalogs":["https://www.sedis.com/en/downloads-3/"],"documentationSources":["https://www.sedis.com/en/products2/"],"sources":[{"sourceId":"brand-wave99-sedis-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_GROUP_IDENTITY_AND_INDUSTRIAL_CHAIN_SCOPE","url":"https://www.sedis.com/en/products2/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seelen","officialName":"J. Seelen GmbH","displayName":"SEELEN","aliases":["SEELEN","INGENIEURBUERO J. SEELEN"],"formerNames":[],"officialWebsite":"https://www.seelen.de/","officialDomains":["seelen.de"],"country":"Germany","headquarters":"Xanten, Germany","foundedYear":1978,"parentCompany":null,"shortDescription":"J. Seelen designs and manufactures sootblowers and heating-surface cleaning systems. Its official range covers rotary-tube, feeder and lance sootblowers together with controls, monitoring and steam-valve equipment.","fullDescription":["J. Seelen's manufacturer-owned site identifies the Xanten engineering company and its equipment for cleaning heat-transfer surfaces in boilers, furnaces, recuperators and air preheaters.","The documented range combines several sootblower designs with electrical controls, temperature and pressure monitoring, pressure regulators and steam-valve components."],"productCategories":["Промышленная очистка","Промышленные машины","Промышленные клапаны"],"productFamilies":["Rotary-Tube Sootblowers","Feeder Sootblowers","Lance Sootblowers","Sootblower Controls","Steam Valves"],"series":[],"industries":["Энергетика","Нефтегазовая промышленность","Химическая промышленность","Металлургия"],"officialCatalogs":[],"documentationSources":["https://www.seelen.de/"],"sources":[{"sourceId":"brand-wave99-seelen-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_SOOTBLOWER_HEATING_SURFACE_CLEANING_SCOPE","url":"https://www.seelen.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sef-motoriduttori","officialName":"SEF Motoriduttori S.r.l.","displayName":"SEF Motoriduttori","aliases":["SEF MOTORIDUTTORI"],"formerNames":[],"officialWebsite":"https://www.sefmotoriduttori.com/","officialDomains":["sefmotoriduttori.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SEF Motoriduttori supplies geared-drive and motion equipment for industrial machinery. Its official portfolio covers gear units, geared motors, electric motors and electronic drive-control products.","fullDescription":["SEF Motoriduttori's manufacturer-owned site establishes the Italian geared-drive identity behind the repository record.","The published product scope combines mechanical reduction units and geared motors with electric motors and frequency-control equipment for machine and plant applications."],"productCategories":["Промышленные редукторы","Промышленные электродвигатели","Приводы и системы управления движением"],"productFamilies":["Gear Units","Geared Motors","Electric Motors","Frequency Inverters"],"series":[],"industries":["Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sefmotoriduttori.com/"],"sources":[{"sourceId":"brand-wave99-sef-motoriduttori-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_GEARED_DRIVE_MOTOR_SCOPE","url":"https://www.sefmotoriduttori.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"segler","officialName":"SEGLER-Förderanlagen Maschinenfabrik GmbH","displayName":"SEGLER","aliases":["SEGLER","SEGLER FOERDERANLAGEN"],"formerNames":[],"officialWebsite":"https://www.segler.eu/","officialDomains":["segler.eu"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SEGLER develops process and material-handling machinery for bulk materials. Its documented capabilities include conveying, blending, heating, cooling, coating, grading, pressing and storage systems.","fullDescription":["SEGLER's official product brochure establishes the machine-building identity and its engineered bulk-material processing scope.","The company documents equipment and complete solutions for conveying and storage as well as mixing, thermal treatment, coating, crystallisation, deagglomeration and classification processes."],"productCategories":["Конвейерное оборудование","Промышленные машины","Тепловое оборудование"],"productFamilies":["Conveying Systems","Mixing Systems","Thermal Process Systems","Bulk Storage Systems","Material Processing Equipment"],"series":[],"industries":["Промышленное производство","Пищевая промышленность","Химическая промышленность"],"officialCatalogs":["https://www.segler.eu/wp-content/uploads/2024/12/SEGLER_Produktbroschuere_EN.pdf"],"documentationSources":["https://www.segler.eu/en/company/"],"sources":[{"sourceId":"brand-wave99-segler-brochure","tier":"A","type":"OFFICIAL_PRODUCT_BROCHURE","scope":"LEGAL_IDENTITY_AND_BULK_MATERIAL_PROCESS_EQUIPMENT_SCOPE","url":"https://www.segler.eu/wp-content/uploads/2024/12/SEGLER_Produktbroschuere_EN.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seifert-systems","officialName":"Seifert Systems GmbH","displayName":"Seifert Systems","aliases":["SEIFERT SYSTEMS","SEIFERT"],"formerNames":[],"officialWebsite":"https://seifertsystems.com/","officialDomains":["seifertsystems.com","production.seifertsystems.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Seifert Systems develops thermal-management products for industrial enclosures and machinery. Its official portfolio includes enclosure cooling units, heat exchangers, liquid chillers, filter fans, heaters and enclosure accessories.","fullDescription":["Seifert Systems' first-party product directory confirms the current industrial thermal-management identity and manufacturing scope.","The documented portfolio spans refrigerant and thermoelectric enclosure cooling, air-to-air and air-to-water heat exchange, liquid cooling, ventilation, heating and humidity-control components."],"productCategories":["Промышленное охлаждение","Теплообменное оборудование","Промышленные вентиляторы"],"productFamilies":["SOLITHERM Cooling Units","SOLITHERM Heat Exchangers","SOLITHERM CHILL","SOLIVENT Filter Fans","SOLIFLEX Heaters"],"series":["SLIMLINE","COMPACT","SOLITHERM","SOLIVENT","SOLIFLEX"],"industries":["Промышленное производство","Электроника","Автоматизация производства"],"officialCatalogs":["https://seifertsystems.com/downloads/technical"],"documentationSources":["https://production.seifertsystems.com/en/products/"],"sources":[{"sourceId":"brand-wave99-seifert-systems-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_ENCLOSURE_THERMAL_MANAGEMENT_SCOPE","url":"https://production.seifertsystems.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seimec","officialName":"SEIMEC","displayName":"SEIMEC","aliases":["SEIMEC MOTORI"],"formerNames":[],"officialWebsite":"https://seimecmotori.it/en/cataloghi.html","officialDomains":["seimecmotori.it"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SEIMEC manufactures electric motors for industrial machinery. Its official catalog covers asynchronous three-phase motors, brake motors and flat extruded motor designs.","fullDescription":["SEIMEC's manufacturer-owned catalog page establishes the electric-motor identity represented by the repository record.","The available documentation covers standard asynchronous motors, AC- and DC-brake variants and low-profile extruded motors for applications including cutting and other compact machines."],"productCategories":["Промышленные электродвигатели","Тормозные системы"],"productFamilies":["Asynchronous Three-Phase Motors","Brake Motors","Flat Extruded Motors"],"series":["HF","HFV","HPEV"],"industries":["Машиностроение","Промышленное производство"],"officialCatalogs":["https://seimecmotori.it/en/cataloghi.html"],"documentationSources":["https://seimecmotori.it/en/cataloghi.html"],"sources":[{"sourceId":"brand-wave99-seimec-catalogs","tier":"A","type":"OFFICIAL_CATALOG_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_ASYNCHRONOUS_BRAKE_FLAT_MOTOR_SCOPE","url":"https://seimecmotori.it/en/cataloghi.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seitron","officialName":"SEITRON S.p.A.","displayName":"Seitron","aliases":["SEITRON"],"formerNames":[],"officialWebsite":"https://www.seitron.com/en/","officialDomains":["seitron.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Seitron develops gas-safety, combustion-analysis and climate-control instruments. Its official industrial range includes fixed and portable gas detectors, control units, combustion and emissions analyzers and HVAC controls.","fullDescription":["Seitron's manufacturer-owned product pages establish the Italian instrumentation identity and its safety and combustion-measurement scope.","The documented range covers gas transmitters and multizone control units, portable gas monitors, flue-gas and emissions analyzers and controls used in heating and ventilation systems."],"productCategories":["Промышленные датчики","Измерительное оборудование","HVAC автоматика"],"productFamilies":["Industrial Gas Detectors","Gas Detection Control Units","Portable Gas Monitors","Combustion Analyzers","Climate Controls"],"series":["Chemist","Novo","Gas Master"],"industries":["Промышленное производство","HVAC и здания","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.seitron.com/en/products/industrial-gas-safety/industrial-gas-detector/","https://www.seitron.com/en/products/combustion-and-emissions-analysis/"],"sources":[{"sourceId":"brand-wave99-seitron-industrial-gas","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_GAS_SAFETY_COMBUSTION_ANALYSIS_SCOPE","url":"https://www.seitron.com/en/products/industrial-gas-safety/industrial-gas-detector/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"selectron","officialName":"Selectron Systems AG","displayName":"Selectron","aliases":["SELECTRON"],"formerNames":[],"officialWebsite":"https://www.selectron.ch/en/","officialDomains":["selectron.ch"],"country":"Switzerland","headquarters":"Lyss, Switzerland","foundedYear":null,"parentCompany":"Knorr-Bremse Group","statusModifier":"GROUP_COMPANY","shortDescription":"Selectron Systems develops automation, communication and cybersecurity solutions for rail vehicles. Its official scope centres on train control and management systems, Ethernet communication hardware and rail-specific security technology.","fullDescription":["Selectron's manufacturer-owned products and solutions page confirms the Swiss rail-automation company and its role within Knorr-Bremse.","The documented portfolio combines modular TCMS hardware and software with managed Ethernet communication components and cybersecurity solutions designed for connected rail vehicles."],"productCategories":["Промышленная автоматизация","Промышленное программное обеспечение","Инфраструктурное оборудование"],"productFamilies":["Train Control and Management Systems","Railway Cybersecurity","Ethernet Routers and Switches","Communication Cards and Relays"],"series":[],"industries":["Железнодорожная промышленность","Транспорт","Автоматизация производства"],"officialCatalogs":[],"documentationSources":["https://www.selectron.ch/en/products-and-solutions-hidden/"],"sources":[{"sourceId":"brand-wave99-selectron-products","tier":"A","type":"PRODUCT_AND_SOLUTION_DIRECTORY","scope":"LEGAL_IDENTITY_GROUP_RELATION_AND_RAIL_AUTOMATION_SCOPE","url":"https://www.selectron.ch/en/products-and-solutions-hidden/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"selema","officialName":"Selema","displayName":"Selema","aliases":["SELEMA"],"formerNames":[],"officialWebsite":"https://www.esa-automation.com/en/category/drives-and-motors/","officialDomains":["esa-automation.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":"ESA S.p.A.","statusModifier":"GROUP_BRAND","shortDescription":"Selema is ESA Automation's drives-and-motors brand. Official ESA material links the brand with electric-motor drives and motion solutions used in railway and industrial automation applications.","fullDescription":["ESA Automation's first-party drives and motors page confirms Selema as the group's established electric-motor drive brand rather than an unrelated manufacturer identity.","Current product material combines that drive knowledge with servo drives, motors and integrated motion packages for positioning, conveyors, pumps, rail and machine-automation duties."],"productCategories":["Приводы и системы управления движением","Промышленные электродвигатели","Промышленная автоматизация"],"productFamilies":["Electric Motor Drives","Servo Drives","Servo Motors","Integrated Drive and Motor Packages"],"series":[],"industries":["Автоматизация производства","Железнодорожная промышленность","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.esa-automation.com/en/category/drives-and-motors/"],"sources":[{"sourceId":"brand-wave99-selema-esa-drives","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_SOURCE","scope":"CURRENT_BRAND_RELATION_AND_ELECTRIC_MOTOR_DRIVE_SCOPE","url":"https://www.esa-automation.com/en/category/drives-and-motors/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"selet","officialName":"SELET","displayName":"SELET","aliases":["SELET SENSORS"],"formerNames":[],"officialWebsite":"https://www.selet.it/en/","officialDomains":["selet.it"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":"SENSTRONIC ITALY S.r.l.","statusModifier":"GROUP_BRAND","shortDescription":"SELET is the industrial sensing brand operated by SENSTRONIC ITALY. Its official product lines include proximity and photoelectric sensors, ultrasonic and magnetic sensors, rotary encoders, connection systems and panel instrumentation.","fullDescription":["SELET's manufacturer-owned site links the current brand to SENSTRONIC ITALY and documents its factory-automation sensor portfolio.","Published groups cover inductive, capacitive, optical, ultrasonic and magnetic detection, label sensing, incremental and absolute encoders, connectors, sensor-control units, counters and displays."],"productCategories":["Промышленные датчики","Энкодеры и тахогенераторы","Промышленная автоматизация","Промышленные разъёмы"],"productFamilies":["Inductive Sensors","Capacitive Sensors","Photoelectric Sensors","Ultrasonic Sensors","Magnetic Sensors","Incremental Encoders","Absolute Encoders"],"series":[],"industries":["Автоматизация производства","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.selet.it/en/prodotti"],"sources":[{"sourceId":"brand-wave99-selet-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_PARENT_RELATION_AND_SENSOR_ENCODER_SCOPE","url":"https://www.selet.it/en/prodotti","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"selfa","officialName":"Selfa Grzejnictwo Elektryczne S.A.","displayName":"Selfa","aliases":["SELFA","SELFA GE"],"formerNames":[],"officialWebsite":"https://selfa.pl/en/","officialDomains":["selfa.pl"],"country":"Poland","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Selfa manufactures electric heating elements and heater assemblies. Its official range covers tubular and immersion heaters, duct heaters, infrared radiators and application-specific heating components.","fullDescription":["Selfa's manufacturer-owned catalog establishes the Polish electric-heating company and its industrial heater scope.","The documented portfolio includes elements for liquids and air, immersion and duct configurations, infrared heating products and engineered heater designs for equipment manufacturers."],"productCategories":["Нагревательное оборудование","Тепловое оборудование"],"productFamilies":["Tubular Heating Elements","Immersion Heaters","Duct Heaters","Infrared Radiators","Special Electric Heaters"],"series":[],"industries":["Промышленное производство","Машиностроение"],"officialCatalogs":["https://selfa.pl/wp-content/uploads/2019/11/SELFA_GE_KATALOG_eng.pdf"],"documentationSources":["https://selfa.pl/en/katalog/heating-elements/electric-heaters/"],"sources":[{"sourceId":"brand-wave99-selfa-electric-heaters","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_ELECTRIC_HEATING_ELEMENT_SCOPE","url":"https://selfa.pl/en/katalog/heating-elements/electric-heaters/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"semikron","officialName":"Semikron Danfoss","displayName":"SEMIKRON","aliases":["SEMIKRON","SEMIKRON DANFOSS"],"formerNames":[],"officialWebsite":"https://www.semikron-danfoss.com/","officialDomains":["semikron-danfoss.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Danfoss","statusModifier":"GROUP_BRAND","shortDescription":"SEMIKRON is part of Semikron Danfoss and supplies power-electronics components and systems. Its official portfolio includes semiconductor power modules, intelligent power modules, power stacks and related driver technology.","fullDescription":["Semikron Danfoss' official product directory confirms the continuing SEMIKRON product identity within the combined power-electronics company.","The documented range spans diode, thyristor, IGBT and silicon-carbide power-module platforms together with intelligent modules, drivers and engineered power-electronic assemblies."],"productCategories":["Силовые преобразователи","Электротехническое оборудование","Приводы и системы управления движением"],"productFamilies":["Power Modules","Intelligent Power Modules","Power Electronic Stacks","Gate Drivers"],"series":["SEMIPACK","SEMITOP","SEMiX","SEMITRANS","SKiM","SKiiP"],"industries":["Энергетика","Транспорт","Автоматизация производства","Электроника"],"officialCatalogs":[],"documentationSources":["https://www.semikron-danfoss.com/products/power-modules/power-modules-by-product-line"],"sources":[{"sourceId":"brand-wave99-semikron-danfoss-modules","tier":"A","type":"OFFICIAL_GROUP_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_RELATION_AND_POWER_SEMICONDUCTOR_MODULE_SCOPE","url":"https://www.semikron-danfoss.com/products/power-modules/power-modules-by-product-line","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sempell","officialName":"Sempell","displayName":"Sempell","aliases":["SEMPELL"],"formerNames":[],"officialWebsite":"https://www.emerson.com/en/final-control/brands/sempell","officialDomains":["emerson.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Emerson","statusModifier":"GROUP_BRAND","shortDescription":"Sempell is an Emerson brand for engineered valve solutions in steam and demanding process service. Its official range includes control, safety-relief, isolation and nuclear flow-control valves.","fullDescription":["Emerson's official Sempell page confirms the current brand relationship and its engineered final-control scope.","Published products address steam conditioning and bypass, overpressure protection, process isolation and qualified flow control for power-generation and industrial applications."],"productCategories":["Промышленные клапаны","Регулирующее оборудование"],"productFamilies":["Control Valves","Safety Relief Valves","Isolation Valves","Steam Conditioning Valves","Nuclear Flow Controls"],"series":["Series S","Style A"],"industries":["Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.emerson.com/en/final-control/brands/sempell"],"sources":[{"sourceId":"brand-wave99-sempell-emerson","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_RELATION_AND_CONTROL_SAFETY_ISOLATION_VALVE_SCOPE","url":"https://www.emerson.com/en/final-control/brands/sempell","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"semperit","officialName":"Semperit AG Holding","displayName":"Semperit","aliases":["SEMPERIT","SEMPERIT GROUP"],"formerNames":[],"officialWebsite":"https://www.semperitgroup.com/","officialDomains":["semperitgroup.com"],"country":"Austria","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Semperit develops and manufactures industrial elastomer products. Its official portfolio includes hydraulic and industrial hoses, profiles and seals, conveyor belts, handrails and engineered moulded components.","fullDescription":["Semperit's manufacturer-owned product directory establishes the Austrian industrial-elastomer group and its current operating scope.","The documented divisions provide hoses and profiles alongside conveyor belts, escalator handrails, cableway components, moulded rubber and plastic parts and other engineered elastomer solutions."],"productCategories":["Гидравлическое оборудование","Конвейерное оборудование","Уплотнительные компоненты"],"productFamilies":["Hydraulic Hoses","Industrial Hoses","Profiles and Seals","Conveyor Belts","Escalator Handrails","Moulded Elastomer Products"],"series":[],"industries":["Промышленное производство","Транспорт","Строительство","Горнодобывающая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.semperitgroup.com/products/"],"sources":[{"sourceId":"brand-wave99-semperit-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_INDUSTRIAL_ELASTOMER_PRODUCT_SCOPE","url":"https://www.semperitgroup.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seneca","officialName":"SENECA s.r.l.","displayName":"SENECA","aliases":["SENECA AUTOMATION"],"formerNames":[],"officialWebsite":"https://www.seneca.it/en/","officialDomains":["seneca.it"],"country":"Italy","headquarters":"Padua, Italy","foundedYear":null,"parentCompany":null,"shortDescription":"SENECA develops industrial automation interfaces, communication equipment and electrical measurement systems. Its official lines cover distributed I/O, controllers, gateways, remote-control devices, signal converters, power meters and panel instruments.","fullDescription":["SENECA's official site identifies the Padua manufacturer and documents four coordinated product areas for automation and industrial measurement.","The portfolio connects data acquisition and control with industrial communication, telemetry, energy monitoring, electrical transducers and panel instrumentation."],"productCategories":["Промышленная автоматизация","Измерительное оборудование","Электротехническое оборудование"],"productFamilies":["Distributed I/O Systems","Industrial Gateways","RTUs and Telemetry","Signal Converters","Energy Meters","Panel Instrumentation"],"series":["Z-PC","R-Line","KEY Line","S500","T201"],"industries":["Автоматизация производства","Энергетика","Водоснабжение и водоотведение","Промышленное производство"],"officialCatalogs":["https://www.seneca.it/en/cataloghi-flyers/"],"documentationSources":["https://www.seneca.it/en/"],"sources":[{"sourceId":"brand-wave99-seneca-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_AUTOMATION_COMMUNICATION_MEASUREMENT_SCOPE","url":"https://www.seneca.it/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sensopart","officialName":"SensoPart Industriesensorik GmbH","displayName":"SensoPart","aliases":["SENSOPART"],"formerNames":[],"officialWebsite":"https://www.sensopart.com/en/","officialDomains":["sensopart.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SensoPart manufactures sensor technology for factory automation. Its official range includes optical, ultrasonic and inductive sensors together with compact vision sensors for inspection and identification tasks.","fullDescription":["SensoPart's manufacturer-owned product pages establish the German factory-automation sensor identity.","The documented portfolio combines object-detection and distance-sensing technologies with VISOR smart-camera systems used for inspection, positioning, code reading and robotic guidance."],"productCategories":["Промышленные датчики","Техническое зрение","Инспекционное оборудование"],"productFamilies":["DTECT Optical Sensors","VISOR Vision Sensors","Ultrasonic Sensors","Inductive Sensors"],"series":["DTECT","VISOR"],"industries":["Автоматизация производства","Робототехника","Промышленное производство"],"officialCatalogs":["https://www.sensopart.com/en/service/downloads/"],"documentationSources":["https://www.sensopart.com/en/products/"],"sources":[{"sourceId":"brand-wave99-sensopart-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_FACTORY_AUTOMATION_SENSOR_VISION_SCOPE","url":"https://www.sensopart.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sensor-instruments","officialName":"Sensor Instruments GmbH","displayName":"Sensor Instruments","aliases":["SENSOR INSTRUMENTS"],"formerNames":[],"officialWebsite":"https://www.sensor-instruments.de/","officialDomains":["sensor-instruments.de"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Sensor Instruments develops optical sensor systems for industrial process and quality control. Its official portfolio includes color and contrast sensors, edge and position detection, surface and gloss measurement and application-specific monitoring systems.","fullDescription":["Sensor Instruments' manufacturer-owned product directory confirms the optical sensing and measurement identity behind the repository record.","The documented systems evaluate colour, contrast, fluorescence, gloss, edges, dimensions and process characteristics for automated inspection and control applications."],"productCategories":["Промышленные датчики","Измерительное оборудование","Инспекционное оборудование"],"productFamilies":["Color Sensors","Contrast Sensors","Edge Detection Sensors","Gloss Sensors","Surface Inspection Systems"],"series":["SPECTRO-1","SPECTRO-2","SPECTRO-3"],"industries":["Автоматизация производства","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sensor-instruments.de/products.php?cat=10&group=1&language=en&sid=210"],"sources":[{"sourceId":"brand-wave99-sensor-instruments-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_OPTICAL_SENSOR_MEASUREMENT_SCOPE","url":"https://www.sensor-instruments.de/products.php?cat=10&group=1&language=en&sid=210","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sensortherm","officialName":"Sensortherm Infrared Measurement and Control GmbH","displayName":"Sensortherm","aliases":["SENSORTHERM"],"formerNames":[],"officialWebsite":"https://www.sensortherm.de/en/","officialDomains":["sensortherm.de"],"country":"Germany","headquarters":"Steinbach, Germany","foundedYear":null,"parentCompany":null,"shortDescription":"Sensortherm develops and manufactures infrared temperature-measurement and control equipment. Its official range includes one- and two-colour pyrometers, scanners, calibration sources, controllers and analysis software.","fullDescription":["Sensortherm's manufacturer-owned site establishes the German infrared-instrumentation identity and its in-house development and production scope.","The documented portfolio supports non-contact industrial temperature measurement through fixed and portable pyrometers, thermal line scanners, calibration systems, control devices and software."],"productCategories":["Измерительное оборудование","Промышленные датчики","Регулирующее оборудование"],"productFamilies":["Pyrometers","Infrared Switches","GALAXY Scanners","Calibration Sources","PID Controllers","SensorTools Software"],"series":["METIS","SIRIUS","FELIS","CAPELLA","DIADEM","GALAXY"],"industries":["Промышленное производство","Металлургия","Энергетика","Исследования и лаборатории"],"officialCatalogs":["https://www.sensortherm.de/en/downloads/"],"documentationSources":["https://www.sensortherm.de/en/"],"sources":[{"sourceId":"brand-wave99-sensortherm-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_INFRARED_PYROMETRY_CONTROL_SCOPE","url":"https://www.sensortherm.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sensus","officialName":"Sensus","displayName":"Sensus","aliases":["SENSUS"],"formerNames":[],"officialWebsite":"https://www.xylem.com/en-us/brand/sensus/","officialDomains":["xylem.com","sensus.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Xylem","statusModifier":"GROUP_BRAND","shortDescription":"Sensus is a Xylem brand for smart utility metering and infrastructure technology. Its official scope includes water, gas and electricity meters, communication networks, data endpoints and utility-management applications.","fullDescription":["Xylem's official Sensus page confirms the current brand relationship and its connected-utility technology scope.","The published portfolio combines metering devices with FlexNet communications, gateways, telemetry endpoints and software used to monitor and manage water, gas and electric distribution networks."],"productCategories":["Измерительное оборудование","Инфраструктурное оборудование","Водоподготовка и водоотведение"],"productFamilies":["Water Meters","Gas Meters","Electricity Meters","FlexNet Communication Network","Utility Gateways and Endpoints"],"series":["Cordonel","FlexNet","OMNI","MeiStream","Stratus"],"industries":["Водоснабжение и водоотведение","Энергетика","Инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.xylem.com/en-us/brand/sensus/"],"sources":[{"sourceId":"brand-wave99-sensus-xylem","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_BRAND_RELATION_AND_SMART_UTILITY_METERING_SCOPE","url":"https://www.xylem.com/en-us/brand/sensus/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seoam","officialName":"SEOAM Machinery Industry Co., Ltd.","displayName":"SEOAM","aliases":["SEOAM","SEOAM MACHINERY"],"formerNames":["Hwacheon Gear Works Co., Ltd."],"officialWebsite":"https://www.smiltd.co.kr/english/","officialDomains":["smiltd.co.kr","seoam.kr"],"country":"South Korea","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SEOAM Machinery manufactures precision machine-tool and power-transmission components. Its official materials cover gears, power chucks, hydraulic cylinders, curvic couplings and industrial gear reducers.","fullDescription":["SEOAM's manufacturer-owned product and catalog pages establish the Korean machinery company and its precision-component identity.","The documented range supports workholding and rotating machinery through power chucks and hydraulic cylinders, alongside gears, curvic couplings and engineered reduction gearboxes."],"productCategories":["Станочная оснастка","Гидравлические цилиндры","Промышленные редукторы","Промышленные механические передачи"],"productFamilies":["Power Chucks","Hydraulic Cylinders","Precision Gears","Curvic Couplings","Industrial Gear Reducers"],"series":["SM-HSR","CAHF","YAST"],"industries":["Машиностроение","Металлообработка","Промышленное производство"],"officialCatalogs":["https://www.smiltd.co.kr/english/wp_data_pds/special_chuck_catalog.pdf"],"documentationSources":["https://www.smiltd.co.kr/mobile/english/wp_2ds/02_06.html"],"sources":[{"sourceId":"brand-wave99-seoam-products","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"LEGAL_IDENTITY_AND_CHUCK_CYLINDER_GEAR_REDUCER_SCOPE","url":"https://www.smiltd.co.kr/mobile/english/wp_2ds/02_06.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"serpo-robotique","officialName":"Sepro Group","displayName":"Sepro","aliases":["SERPO ROBOTIQUE","SEPRO ROBOTIQUE","SEPRO GROUP"],"formerNames":[],"officialWebsite":"https://www.sepro-group.com/","officialDomains":["sepro-group.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Sepro Group designs and manufactures robots and automation systems for plastic injection moulding. Its official range includes sprue pickers, three-, five- and six-axis robots, control platforms and integrated automation cells.","fullDescription":["Sepro's manufacturer-owned product directory resolves the misspelled repository record to the French injection-moulding automation company.","The documented platform combines Cartesian and articulated robots with Visual controllers, end-of-arm tooling and engineered cells for part removal, handling and downstream operations."],"productCategories":["Промышленная робототехника","Промышленная автоматизация","Захватные устройства"],"productFamilies":["Sprue Pickers","3-Axis Robots","5-Axis Robots","6-Axis Robots","Sepro Visual Controls","Automation Cells"],"series":["S-Line","S7 Line","Success","5X Line"],"industries":["Производство пластмасс","Автоматизация производства","Автомобильная промышленность","Упаковка"],"officialCatalogs":[],"documentationSources":["https://www.sepro-group.com/robotic-solutions/products?range=%5B1%5D"],"sources":[{"sourceId":"brand-wave99-sepro-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CANONICAL_IDENTITY_AND_INJECTION_MOULDING_ROBOT_SCOPE","url":"https://www.sepro-group.com/robotic-solutions/products?range=%5B1%5D","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"serck","officialName":"Serck Heat Exchange","displayName":"Serck","aliases":["SERCK","SERCK GLOBAL"],"formerNames":[],"officialWebsite":"https://serckglobal.com/","officialDomains":["serckglobal.com"],"country":"United Kingdom","headquarters":null,"foundedYear":null,"parentCompany":"Unipart Group","statusModifier":"GROUP_COMPANY","shortDescription":"Serck Heat Exchange designs, manufactures and services heat-transfer equipment. Its official portfolio includes industrial radiators, heat exchangers, oil and charge-air coolers and climate-control solutions.","fullDescription":["Serck's manufacturer-owned product directory establishes the current Unipart company and its heat-transfer engineering scope.","The documented range covers custom and standard radiators, process heat exchangers, cooling packages and HVAC equipment for industrial, power, transport and heavy-duty applications."],"productCategories":["Теплообменное оборудование","Промышленное охлаждение","HVAC оборудование"],"productFamilies":["Industrial Radiators","Heat Exchangers","Oil Coolers","Charge-Air Coolers","Climate-Control Systems"],"series":[],"industries":["Промышленное производство","Энергетика","Нефтегазовая промышленность","Транспорт"],"officialCatalogs":[],"documentationSources":["https://serckglobal.com/products/"],"sources":[{"sourceId":"brand-wave99-serck-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_GROUP_IDENTITY_AND_HEAT_TRANSFER_EQUIPMENT_SCOPE","url":"https://serckglobal.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sermas","officialName":"SERMAS INDUSTRIE","displayName":"SERMAS","aliases":["SERMAS","SERMAS INDUSTRIE"],"formerNames":[],"officialWebsite":"https://www.sermas.com/","officialDomains":["sermas.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SERMAS designs industrial sawing and machining systems for aluminium and other non-ferrous materials. Its official range includes complete sawing installations, slab, billet, plate and block saws, milling machines and anode-processing equipment.","fullDescription":["SERMAS' manufacturer-owned product directory establishes the French industrial-machine identity and its aluminium processing specialization.","The documented portfolio covers individual saws and complete cutting lines, milling equipment and dedicated machines for cathode, anode, copper and carbon processing."],"productCategories":["Промышленные машины","Режущее оборудование","Металлообрабатывающее оборудование"],"productFamilies":["Complete Sawing Installations","Slab Saws","Billet Saws","Plate Saws","Block Saws","Milling Machines","Anode Processing Machines"],"series":["BS-E"],"industries":["Металлургия","Металлообработка","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sermas.com/html/ourproducts.html"],"sources":[{"sourceId":"brand-wave99-sermas-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_ALUMINIUM_SAWING_MACHINING_SCOPE","url":"https://www.sermas.com/html/ourproducts.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"servolift-gmbh","officialName":"SERVOLIFT GmbH","displayName":"SERVOLIFT","aliases":["SERVOLIFT"],"formerNames":[],"officialWebsite":"https://www.servolift.de/en/","officialDomains":["servolift.de"],"country":"Germany","headquarters":"Offenburg, Germany","foundedYear":null,"parentCompany":null,"shortDescription":"SERVOLIFT develops material-handling and process equipment for pharmaceutical, chemical and food production. Its official range includes lifters, bins, blenders, weighing, sieving, crushing and validated cleaning systems.","fullDescription":["SERVOLIFT's manufacturer-owned site confirms the German process-equipment identity and its focus on hygienic powder and container handling.","The documented portfolio connects drum and bin lifting with weighing, blending, milling, sieving, containment and washing technologies for controlled production environments."],"productCategories":["Погрузочно-разгрузочное оборудование","Промышленные машины","Моечное оборудование"],"productFamilies":["Handling Systems","Bins and Containers","Bin Blenders","Weighing Systems","Sieving and Crushing Systems","Cleaning Systems"],"series":["SL250","SLD250","ServoDose"],"industries":["Фармацевтическая промышленность","Пищевая промышленность","Химическая промышленность"],"officialCatalogs":["https://www.servolift.de/en/news-downloads/downloads"],"documentationSources":["https://www.servolift.de/en/"],"sources":[{"sourceId":"brand-wave99-servolift-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_PHARMA_HANDLING_BLENDING_CLEANING_SCOPE","url":"https://www.servolift.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"servotecnica","officialName":"Servotecnica SpA","displayName":"Servotecnica","aliases":["SERVOTECNICA"],"formerNames":[],"officialWebsite":"https://servotecnica.com/en/","officialDomains":["servotecnica.com"],"country":"Italy","headquarters":"Nova Milanese, Italy","foundedYear":null,"parentCompany":null,"shortDescription":"Servotecnica develops motion-control and mechatronic components. Its official portfolio includes servo and micromotors, digital drives, encoders, precision gearboxes and electrical slip rings.","fullDescription":["Servotecnica's manufacturer-owned product directory establishes the Italian automation and mechatronics identity.","The documented range integrates brushless and coreless motors, servo electronics, rotary feedback, precision reduction units and rotary electrical interfaces for compact and demanding motion systems."],"productCategories":["Приводы и системы управления движением","Промышленные электродвигатели","Энкодеры и тахогенераторы","Токосъёмники и разъёмы"],"productFamilies":["Servomotors","Micromotors","Servo Drives","Encoders","Precision Gearboxes","Slip Rings"],"series":["SVTM","SVTE","SVTS","ATOM","COSMOS","IND-MAX"],"industries":["Автоматизация производства","Робототехника","Машиностроение","Аэрокосмическая промышленность"],"officialCatalogs":["https://servotecnica.com/en/catalogs/servotecnica/"],"documentationSources":["https://us.servotecnica.com/en/products/"],"sources":[{"sourceId":"brand-wave99-servotecnica-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_MOTION_MECHATRONICS_SCOPE","url":"https://us.servotecnica.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"ses-international","officialName":"SES International B.V.","displayName":"SES International","aliases":["SES INTERNATIONAL"],"formerNames":[],"officialWebsite":"https://sesint.nl/","officialDomains":["sesint.nl"],"country":"Netherlands","headquarters":"Delden, Netherlands","foundedYear":null,"parentCompany":null,"shortDescription":"SES International engineers and manufactures packaged rotating-equipment solutions. Its official scope includes compressor packages, pump and multiphase-pump systems, process chillers and industrial refrigeration solutions.","fullDescription":["SES International's company-owned site resolves the generic repository record to the Dutch rotating-equipment systems business.","The documented offering combines engineered gas-compression and pumping skids with chillers and refrigeration packages for food, process and oil-and-gas applications."],"productCategories":["Промышленные компрессоры","Промышленные насосы","Промышленное охлаждение"],"productFamilies":["Compressor Packages","Pump Packages","Multiphase Pump Systems","Process Chillers","Refrigeration Systems"],"series":[],"industries":["Нефтегазовая промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://sesint.nl/"],"sources":[{"sourceId":"brand-wave99-ses-international-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_PACKAGED_COMPRESSOR_PUMP_REFRIGERATION_SCOPE","url":"https://sesint.nl/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"seydelmann","officialName":"Maschinenfabrik Seydelmann KG","displayName":"Seydelmann","aliases":["SEYDELMANN"],"formerNames":[],"officialWebsite":"https://www.seydelmann.com/","officialDomains":["seydelmann.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Seydelmann manufactures food-processing machinery for cutting, grinding, mixing and emulsifying. Its official portfolio spans individual production machines and integrated lines for meat and other food products.","fullDescription":["Seydelmann's manufacturer-owned site establishes the German food-processing machinery identity.","The documented product groups include cutters, grinders, mixers and emulsifiers that can be configured as standalone equipment or linked into automated preparation lines."],"productCategories":["Промышленные машины","Технологическое оборудование"],"productFamilies":["Cutters","Grinders","Mixers","Emulsifiers","Food Processing Lines"],"series":[],"industries":["Пищевая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.seydelmann.com/"],"sources":[{"sourceId":"brand-wave99-seydelmann-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_FOOD_CUTTING_GRINDING_MIXING_SCOPE","url":"https://www.seydelmann.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sferova","officialName":"SFEROVA S.r.l.","displayName":"Sferova","aliases":["SFEROVA"],"formerNames":[],"officialWebsite":"https://www.sferova.com/","officialDomains":["sferova.com"],"country":"Italy","headquarters":"Sulbiate, Italy","foundedYear":null,"parentCompany":null,"shortDescription":"Sferova designs and manufactures engineered ball valves for oil and gas service. Its official portfolio includes floating, trunnion-mounted, top-entry, fully welded and modular valve designs.","fullDescription":["Sferova's manufacturer-owned site establishes the Italian valve company and its current engineered product identity.","The documented range addresses isolation in demanding pressure and temperature conditions through floating, trunnion, top-entry, welded-body and modular ball-valve configurations."],"productCategories":["Промышленные клапаны"],"productFamilies":["Floating Ball Valves","Trunnion Ball Valves","Top-Entry Ball Valves","Fully Welded Ball Valves","Modular Ball Valves"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.sferova.com/"],"sources":[{"sourceId":"brand-wave99-sferova-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_ENGINEERED_BALL_VALVE_SCOPE","url":"https://www.sferova.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"shimadzu","officialName":"Shimadzu Corporation","displayName":"Shimadzu","aliases":["SHIMADZU"],"formerNames":[],"officialWebsite":"https://www.shimadzu.com/","officialDomains":["shimadzu.com"],"country":"Japan","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Shimadzu develops analytical, measuring and testing instruments. Its official analytical portfolio includes chromatography, mass spectrometry, spectroscopy, elemental and surface analysis, material testing, balances and continuous monitoring systems.","fullDescription":["Shimadzu's corporate product directory establishes the Japanese instrumentation company and its analytical and measurement scope.","The documented platform supports laboratory and industrial quality work with chromatographs, mass spectrometers, spectroscopic instruments, materials testers, balances, imaging and environmental analyzers."],"productCategories":["Лабораторное оборудование","Измерительное оборудование","Инспекционное оборудование"],"productFamilies":["Chromatography Systems","Mass Spectrometers","Spectroscopy Instruments","Elemental Analyzers","Material Testing Machines","Balances","Continuous Monitoring Analyzers"],"series":[],"industries":["Исследования и лаборатории","Фармацевтическая промышленность","Химическая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.shimadzu.com/an/products/index.html"],"sources":[{"sourceId":"brand-wave99-shimadzu-analytical-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_ANALYTICAL_MEASUREMENT_TESTING_SCOPE","url":"https://www.shimadzu.com/an/products/index.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"si-analytics","officialName":"SI Analytics","displayName":"SI Analytics","aliases":["SI ANALYTICS"],"formerNames":["SCHOTT Geräte","SCHOTT Instruments"],"officialWebsite":"https://www.xylemanalytics.com/en/products/listing-sia-all","officialDomains":["xylemanalytics.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"Xylem","statusModifier":"GROUP_BRAND","shortDescription":"SI Analytics is a Xylem brand for laboratory and process measurement. Its official range includes titrators, burettes, sample changers, capillary viscometers and electrochemical electrodes.","fullDescription":["Xylem Analytics' official brand directory confirms the current SI Analytics identity and its German-developed laboratory instrumentation.","The documented portfolio supports titration, dosing, viscosity measurement and electrochemical analysis through instruments, electrodes, sample handling and supporting software."],"productCategories":["Лабораторное оборудование","Измерительное оборудование"],"productFamilies":["Titrators","Piston Burettes","Sample Changers","Capillary Viscometers","Viscosity Measurement Systems","Laboratory Electrodes"],"series":["TitroLine","TITRONIC","AVS","ViscoClock"],"industries":["Исследования и лаборатории","Химическая промышленность","Фармацевтическая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.xylemanalytics.com/en/products/listing-sia-all"],"sources":[{"sourceId":"brand-wave99-si-analytics-xylem","tier":"A","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_RELATION_AND_TITRATION_VISCOMETRY_SCOPE","url":"https://www.xylemanalytics.com/en/products/listing-sia-all","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"siat","officialName":"SIAT S.p.A.","displayName":"SIAT","aliases":["SIAT"],"formerNames":[],"officialWebsite":"https://www.siat.com/","officialDomains":["siat.com"],"country":"Italy","headquarters":"Turate, Italy","foundedYear":null,"parentCompany":null,"shortDescription":"SIAT manufactures end-of-line industrial packaging equipment. Its official range includes case erectors and packers, taping machines, stretch wrappers, strapping tools, flexographic machines and tape dispensers.","fullDescription":["SIAT's manufacturer-owned product directory establishes the Italian packaging-machinery identity.","The published portfolio covers carton forming and sealing, case packing, load wrapping, strapping and package marking equipment for integrated end-of-line operations."],"productCategories":["Упаковочное оборудование","Конвейерное оборудование"],"productFamilies":["Case Packers","Taping Machines","Case Erectors","Wrapping Machines","Strapping Tools","Flexographic Machines","Tape Dispensers"],"series":[],"industries":["Упаковка","Пищевая промышленность","Логистика","Промышленное производство"],"officialCatalogs":["https://www.siat.com/siat-media/brochure/"],"documentationSources":["https://www.siat.com/product_category/products/"],"sources":[{"sourceId":"brand-wave99-siat-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_END_OF_LINE_PACKAGING_SCOPE","url":"https://www.siat.com/product_category/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"siba","officialName":"SIBA GmbH","displayName":"SIBA","aliases":["SIBA","SIBA FUSES"],"formerNames":[],"officialWebsite":"https://www.siba-fuses.com/","officialDomains":["siba-fuses.com"],"country":"Germany","headquarters":"Lünen, Germany","foundedYear":null,"parentCompany":null,"shortDescription":"SIBA develops and manufactures electrical fuse-links and protection systems. Its official portfolio covers high-voltage, semiconductor, low-voltage, miniature and special-purpose fuses.","fullDescription":["SIBA's manufacturer-owned product directory confirms the German circuit-protection identity.","The documented range protects power distribution, industrial drives, power electronics, energy storage, rail equipment and sensitive electronic circuits across multiple voltage classes."],"productCategories":["Электротехническое оборудование","Электроэнергетическое оборудование"],"productFamilies":["High-Voltage Fuses","Semiconductor Fuses","Low-Voltage Fuses","Miniature Fuses","Special Fuses"],"series":["HH","UR","LH","GS"],"industries":["Энергетика","Электроника","Железнодорожная промышленность","Автоматизация производства"],"officialCatalogs":[],"documentationSources":["https://www.siba-fuses.com/products"],"sources":[{"sourceId":"brand-wave99-siba-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_ELECTRICAL_FUSE_LINK_SCOPE","url":"https://www.siba-fuses.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sidel","officialName":"Sidel Group","displayName":"Sidel","aliases":["SIDEL"],"formerNames":[],"officialWebsite":"https://www.sidel.com/en","officialDomains":["sidel.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Tetra Laval Group","statusModifier":"GROUP_COMPANY","shortDescription":"Sidel develops equipment and complete lines for packaging beverages, food and other liquid products. Its official scope spans container blowing, filling, labelling, packing, conveying and palletising technologies.","fullDescription":["Sidel's manufacturer-owned site establishes the packaging-equipment company and its complete-line engineering scope.","The documented portfolio connects PET and other container production with filling, capping, labelling, secondary packaging, conveying, accumulation, palletising and line automation."],"productCategories":["Упаковочное оборудование","Конвейерное оборудование","Промышленная автоматизация"],"productFamilies":["Blowing Systems","Filling Systems","Labelling Machines","Case Packers","Conveyors and Accumulation","Palletising Systems","Complete Packaging Lines"],"series":["EvoBLOW","EvoFILL","Combi"],"industries":["Пищевая промышленность","Упаковка","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sidel.com/en"],"sources":[{"sourceId":"brand-wave99-sidel-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_GROUP_IDENTITY_AND_COMPLETE_PACKAGING_LINE_SCOPE","url":"https://www.sidel.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"siebec","officialName":"SIEBEC SAS","displayName":"SIEBEC","aliases":["SIEBEC"],"formerNames":[],"officialWebsite":"https://www.siebec.com/en/","officialDomains":["siebec.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SIEBEC develops industrial liquid filtration, pumping and fluid-treatment equipment. Its official range includes filter-pump sets, chemical-resistant pumps, filtration media and water or effluent treatment stations.","fullDescription":["SIEBEC's manufacturer-owned product pages establish the French industrial-fluid treatment identity.","The documented portfolio combines transfer and dosing pumps with filter housings, cartridges and bags, oil-removal systems and engineered skids for bath recycling, filtration and effluent treatment."],"productCategories":["Фильтрационное оборудование","Промышленные насосы","Водоподготовка и водоотведение"],"productFamilies":["Filter-Pump Sets","Mechanical-Seal Pumps","Magnetic Pumps","Pneumatic Pumps","Filtration Media","Water Treatment Stations"],"series":["S Series","J Series","A Series","CENTRIPURE","MINIPURE","ACIDPURE"],"industries":["Промышленное производство","Водоснабжение и водоотведение","Химическая промышленность","Металлообработка"],"officialCatalogs":[],"documentationSources":["https://www.siebec.com/en/surface-treatment/","https://www.siebec.com/en/products/water-and-effluent-treatment/"],"sources":[{"sourceId":"brand-wave99-siebec-surface-treatment","tier":"A","type":"PRODUCT_AND_SOLUTION_PAGE","scope":"LEGAL_IDENTITY_AND_INDUSTRIAL_FILTRATION_PUMP_SCOPE","url":"https://www.siebec.com/en/surface-treatment/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sigeval","officialName":"SIGEVAL, S.A.","displayName":"SIGEVAL","aliases":["SIGEVAL"],"formerNames":[],"officialWebsite":"https://www.sigeval.com/?lang=en","officialDomains":["sigeval.com"],"country":"Spain","headquarters":"Torrejón de Ardoz, Spain","foundedYear":null,"parentCompany":null,"shortDescription":"SIGEVAL manufactures butterfly valves for industrial fluid-handling systems. Its official range includes wafer, lug, flanged and grooved-end valves with application-specific bodies, seats and actuation options.","fullDescription":["SIGEVAL's manufacturer-owned site establishes the Spanish valve company and its butterfly-valve specialization.","The documented portfolio covers concentric resilient-seated designs and engineered variants for liquids, gases and powders across industrial, HVAC, water, irrigation and fire-protection duties."],"productCategories":["Промышленные клапаны","Регулирующее оборудование"],"productFamilies":["Wafer Butterfly Valves","Lug Butterfly Valves","Flanged Butterfly Valves","Grooved-End Butterfly Valves","Valve Actuation"],"series":["FL(w)","LUG(w)","FG(w)","KL","VV"],"industries":["Промышленное производство","HVAC и здания","Водоснабжение и водоотведение","Пищевая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.sigeval.com/productos/materiales-y-datos-tecnicos/?lang=en"],"sources":[{"sourceId":"brand-wave99-sigeval-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_BUTTERFLY_VALVE_SCOPE","url":"https://www.sigeval.com/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sigma-pumpy-hranice","officialName":"SIGMA PUMPY HRANICE, s.r.o.","displayName":"SIGMA PUMPY HRANICE","aliases":["SIGMA PUMPY HRANICE","SIGMA PUMPS HRANICE"],"formerNames":[],"officialWebsite":"https://www.sigmapumpy.com/","officialDomains":["sigmapumpy.com","sigma.cz"],"country":"Czech Republic","headquarters":"Hranice, Czech Republic","foundedYear":null,"parentCompany":null,"shortDescription":"SIGMA PUMPY HRANICE manufactures pumps for residential, municipal and industrial applications. Its official group source identifies the Hranice company and its pump-manufacturing scope.","fullDescription":["SIGMA's manufacturer-owned group page confirms the legal identity of SIGMA PUMPY HRANICE and distinguishes it from other SIGMA group businesses.","The company is presented as a Czech manufacturer of pumping equipment for house, garden and industry, with official product documentation covering multiple centrifugal pump families."],"productCategories":["Промышленные насосы","Водоподготовка и водоотведение"],"productFamilies":["Centrifugal Pumps","Multistage Pumps","Submersible Pumps","Domestic Water Systems","Industrial Pumping Units"],"series":["LV"],"industries":["Водоснабжение и водоотведение","Промышленное производство","Сельское хозяйство"],"officialCatalogs":[],"documentationSources":["https://www.sigma.cz/index-en.html"],"sources":[{"sourceId":"brand-wave99-sigma-pumpy-group","tier":"A","type":"OFFICIAL_GROUP_SITE","scope":"EXACT_LEGAL_IDENTITY_AND_PUMP_MANUFACTURING_SCOPE","url":"https://www.sigma.cz/index-en.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sigmatek","officialName":"SIGMATEK GmbH & Co KG","displayName":"SIGMATEK","aliases":["SIGMATEK"],"formerNames":[],"officialWebsite":"https://www.sigmatek-automation.com/en/","officialDomains":["sigmatek-automation.com"],"country":"Austria","headquarters":"Lamprechtshausen, Austria","foundedYear":null,"parentCompany":null,"shortDescription":"SIGMATEK develops and manufactures modular automation systems for machines and equipment. Its official portfolio includes controls, I/O, HMIs, motion, functional safety, real-time communication and the LASAL engineering suite.","fullDescription":["SIGMATEK's manufacturer-owned product directory establishes the Austrian industrial-automation identity and its integrated system architecture.","The documented portfolio connects CPUs and industrial PCs with distributed I/O, operator panels, servo drives, safety modules, VARAN networking and engineering software."],"productCategories":["Промышленная автоматизация","Приводы и системы управления движением","Промышленное программное обеспечение"],"productFamilies":["Control Systems","I/O Systems","HMIs","Motion Systems","Safety Systems","VARAN Communication","LASAL Engineering Tools"],"series":["S-DIAS","X-DIAS","P-DIAS","MDD 2000","FDD 3000","LASAL"],"industries":["Автоматизация производства","Робототехника","Упаковка","Энергетика"],"officialCatalogs":["https://www.sigmatek-automation.com/en/service/downloads/catalog-brochures/"],"documentationSources":["https://www.sigmatek-automation.com/en/products/"],"sources":[{"sourceId":"brand-wave99-sigmatek-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_INTEGRATED_AUTOMATION_SYSTEM_SCOPE","url":"https://www.sigmatek-automation.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sikora","officialName":"SIKORA AG","displayName":"SIKORA","aliases":["SIKORA"],"formerNames":[],"officialWebsite":"https://sikora.net/en/","officialDomains":["sikora.net"],"country":"Germany","headquarters":"Bremen, Germany","foundedYear":null,"parentCompany":null,"shortDescription":"SIKORA develops measuring, control, inspection and sorting systems for continuous production. Its official portfolio covers dimensional and material-quality control for cables, optical fibre, hoses, tubes, sheets and plastic raw materials.","fullDescription":["SIKORA's manufacturer-owned product directory establishes the German production-measurement identity.","The documented systems measure diameter, wall thickness, eccentricity, capacitance and temperature, detect faults and inspect or sort materials during cable and plastics processing."],"productCategories":["Измерительное оборудование","Инспекционное оборудование","Промышленные датчики"],"productFamilies":["Diameter Measurement Systems","X-Ray Measurement Systems","Fault Detectors","Spark Testers","Material Inspection and Sorting Systems","Process Control Displays"],"series":["LASER 2000","X-RAY 6000","X-RAY 8000","PURITY SCANNER","ECOCONTROL","CENTERWAVE"],"industries":["Производство кабеля","Производство пластмасс","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://sikora.net/en/category/products/"],"sources":[{"sourceId":"brand-wave99-sikora-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_INLINE_MEASUREMENT_INSPECTION_SCOPE","url":"https://sikora.net/en/category/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"silverson","officialName":"Silverson Machines Ltd.","displayName":"Silverson","aliases":["SILVERSON","SILVERSON MACHINES"],"formerNames":[],"officialWebsite":"https://silverson.com/","officialDomains":["silverson.com"],"country":"United Kingdom","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Silverson manufactures high-shear mixing equipment for laboratory and production processes. Its official range includes batch, in-line, bottom-entry, powder-liquid, homogenising and disintegrator-dissolver systems.","fullDescription":["Silverson's manufacturer-owned product directory establishes the high-shear mixer identity and its rotor-stator process technology.","The documented portfolio scales from laboratory units to production machines for emulsifying, homogenising, dispersing, dissolving, particle-size reduction and powder incorporation."],"productCategories":["Технологическое оборудование","Промышленные машины"],"productFamilies":["Laboratory Mixers","Batch Mixers","In-Line Mixers","Bottom-Entry Mixers","Powder-Liquid Mixers","Homogenizers","Disintegrator-Dissolvers"],"series":["Flashmix","Ultramix","Verso"],"industries":["Пищевая промышленность","Фармацевтическая промышленность","Химическая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://silverson.com/products"],"sources":[{"sourceId":"brand-wave99-silverson-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_HIGH_SHEAR_MIXING_SCOPE","url":"https://silverson.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"silvertronic","officialName":"Silvertronic Limited","displayName":"Silvertronic","aliases":["SILVERTRONIC"],"formerNames":[],"officialWebsite":"https://silvertronic.com/","officialDomains":["silvertronic.com"],"country":"United Kingdom","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Silvertronic manufactures electrical test leads, probes and measurement accessories. Its official catalog covers fused and silicone leads, clips, Kelvin connections, aviation and automotive test kits and three-phase meter accessories.","fullDescription":["Silvertronic's manufacturer-owned catalog establishes the British electrical test-accessory identity.","The documented range includes standard and application-specific lead assemblies, probes, crocodile clips, connector kits and protected test sets for electrical, automotive and aeronautical measurement work."],"productCategories":["Измерительное оборудование","Промышленные разъёмы","Электротехническое оборудование"],"productFamilies":["Fused Test Leads","Silicone Test Leads","Probes","Kelvin Leads","Crocodile Clips","Avionic Test Kits","Automotive Test Kits"],"series":[],"industries":["Электроника","Автомобильная промышленность","Аэрокосмическая промышленность","Промышленное производство"],"officialCatalogs":["https://silvertronic.com/catalogue/"],"documentationSources":["https://silvertronic.com/"],"sources":[{"sourceId":"brand-wave99-silvertronic-official","tier":"A","type":"OFFICIAL_CATALOG_SITE","scope":"LEGAL_IDENTITY_AND_ELECTRICAL_TEST_LEAD_ACCESSORY_SCOPE","url":"https://silvertronic.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]}
+    {
+      "manufacturerId": "sedis",
+      "officialName": "SEDIS",
+      "displayName": "SEDIS",
+      "aliases": [
+        "SEDIS CHAINS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sedis.com/en/",
+      "officialDomains": [
+        "sedis.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Murugappa Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "SEDIS designs and manufactures industrial chains and associated transmission components. Its official range includes transmission, adapted, leaf and conveyor chains together with sprockets, wheels and complementary components.",
+      "fullDescription": [
+        "SEDIS' manufacturer-owned product directory establishes the French industrial-chain identity and documents a portfolio for power transmission, lifting and conveying duties.",
+        "Published groups include standard and application-specific chains, leaf chains, conveyor chains, sprockets, wheels, discs and related transmission components for industrial installations."
+      ],
+      "productCategories": [
+        "Промышленные цепи",
+        "Промышленные механические передачи"
+      ],
+      "productFamilies": [
+        "Transmission Chains",
+        "Adapted Chains",
+        "Leaf Chains",
+        "Conveyor Chains",
+        "Sprockets and Wheels"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.sedis.com/en/downloads-3/"
+      ],
+      "documentationSources": [
+        "https://www.sedis.com/en/products2/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sedis-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_INDUSTRIAL_CHAIN_SCOPE",
+          "url": "https://www.sedis.com/en/products2/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seelen",
+      "officialName": "J. Seelen GmbH",
+      "displayName": "SEELEN",
+      "aliases": [
+        "SEELEN",
+        "INGENIEURBUERO J. SEELEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.seelen.de/",
+      "officialDomains": [
+        "seelen.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Xanten, Germany",
+      "foundedYear": 1978,
+      "parentCompany": null,
+      "shortDescription": "J. Seelen designs and manufactures sootblowers and heating-surface cleaning systems. Its official range covers rotary-tube, feeder and lance sootblowers together with controls, monitoring and steam-valve equipment.",
+      "fullDescription": [
+        "J. Seelen's manufacturer-owned site identifies the Xanten engineering company and its equipment for cleaning heat-transfer surfaces in boilers, furnaces, recuperators and air preheaters.",
+        "The documented range combines several sootblower designs with electrical controls, temperature and pressure monitoring, pressure regulators and steam-valve components."
+      ],
+      "productCategories": [
+        "Промышленная очистка",
+        "Промышленные машины",
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Rotary-Tube Sootblowers",
+        "Feeder Sootblowers",
+        "Lance Sootblowers",
+        "Sootblower Controls",
+        "Steam Valves"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Металлургия"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.seelen.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seelen-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_SOOTBLOWER_HEATING_SURFACE_CLEANING_SCOPE",
+          "url": "https://www.seelen.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sef-motoriduttori",
+      "officialName": "SEF Motoriduttori S.r.l.",
+      "displayName": "SEF Motoriduttori",
+      "aliases": [
+        "SEF MOTORIDUTTORI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sefmotoriduttori.com/",
+      "officialDomains": [
+        "sefmotoriduttori.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SEF Motoriduttori supplies geared-drive and motion equipment for industrial machinery. Its official portfolio covers gear units, geared motors, electric motors and electronic drive-control products.",
+      "fullDescription": [
+        "SEF Motoriduttori's manufacturer-owned site establishes the Italian geared-drive identity behind the repository record.",
+        "The published product scope combines mechanical reduction units and geared motors with electric motors and frequency-control equipment for machine and plant applications."
+      ],
+      "productCategories": [
+        "Промышленные редукторы",
+        "Промышленные электродвигатели",
+        "Приводы и системы управления движением"
+      ],
+      "productFamilies": [
+        "Gear Units",
+        "Geared Motors",
+        "Electric Motors",
+        "Frequency Inverters"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sefmotoriduttori.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sef-motoriduttori-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_GEARED_DRIVE_MOTOR_SCOPE",
+          "url": "https://www.sefmotoriduttori.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "segler",
+      "officialName": "SEGLER-Förderanlagen Maschinenfabrik GmbH",
+      "displayName": "SEGLER",
+      "aliases": [
+        "SEGLER",
+        "SEGLER FOERDERANLAGEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.segler.eu/",
+      "officialDomains": [
+        "segler.eu"
+      ],
+      "country": "Germany",
+      "headquarters": "Berge, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SEGLER develops process and material-handling machinery for bulk materials. Its documented capabilities include conveying, blending, heating, cooling, coating, grading, pressing and storage systems.",
+      "fullDescription": [
+        "SEGLER's official product brochure establishes the machine-building identity and its engineered bulk-material processing scope.",
+        "The company documents equipment and complete solutions for conveying and storage as well as mixing, thermal treatment, coating, crystallisation, deagglomeration and classification processes."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Промышленные машины",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Conveying Systems",
+        "Mixing Systems",
+        "Thermal Process Systems",
+        "Bulk Storage Systems",
+        "Material Processing Equipment"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.segler.eu/wp-content/uploads/2024/12/SEGLER_Produktbroschuere_EN.pdf"
+      ],
+      "documentationSources": [
+        "https://www.segler.eu/en/company/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-segler-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_BROCHURE",
+          "scope": "LEGAL_IDENTITY_AND_BULK_MATERIAL_PROCESS_EQUIPMENT_SCOPE",
+          "url": "https://www.segler.eu/wp-content/uploads/2024/12/SEGLER_Produktbroschuere_EN.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-segler-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.segler.eu/unternehmen/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seifert-systems",
+      "officialName": "Seifert Systems GmbH",
+      "displayName": "Seifert Systems",
+      "aliases": [
+        "SEIFERT SYSTEMS",
+        "SEIFERT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://seifertsystems.com/",
+      "officialDomains": [
+        "seifertsystems.com",
+        "production.seifertsystems.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Seifert Systems develops thermal-management products for industrial enclosures and machinery. Its official portfolio includes enclosure cooling units, heat exchangers, liquid chillers, filter fans, heaters and enclosure accessories.",
+      "fullDescription": [
+        "Seifert Systems' first-party product directory confirms the current industrial thermal-management identity and manufacturing scope.",
+        "The documented portfolio spans refrigerant and thermoelectric enclosure cooling, air-to-air and air-to-water heat exchange, liquid cooling, ventilation, heating and humidity-control components."
+      ],
+      "productCategories": [
+        "Промышленное охлаждение",
+        "Теплообменное оборудование",
+        "Промышленные вентиляторы"
+      ],
+      "productFamilies": [
+        "SOLITHERM Cooling Units",
+        "SOLITHERM Heat Exchangers",
+        "SOLITHERM CHILL",
+        "SOLIVENT Filter Fans",
+        "SOLIFLEX Heaters"
+      ],
+      "series": [
+        "SLIMLINE",
+        "COMPACT",
+        "SOLITHERM",
+        "SOLIVENT",
+        "SOLIFLEX"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Электроника",
+        "Автоматизация производства"
+      ],
+      "officialCatalogs": [
+        "https://seifertsystems.com/downloads/technical"
+      ],
+      "documentationSources": [
+        "https://production.seifertsystems.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seifert-systems-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_ENCLOSURE_THERMAL_MANAGEMENT_SCOPE",
+          "url": "https://production.seifertsystems.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seimec",
+      "officialName": "SEIMEC",
+      "displayName": "SEIMEC",
+      "aliases": [
+        "SEIMEC MOTORI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://seimecmotori.it/en/cataloghi.html",
+      "officialDomains": [
+        "seimecmotori.it"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SEIMEC manufactures electric motors for industrial machinery. Its official catalog covers asynchronous three-phase motors, brake motors and flat extruded motor designs.",
+      "fullDescription": [
+        "SEIMEC's manufacturer-owned catalog page establishes the electric-motor identity represented by the repository record.",
+        "The available documentation covers standard asynchronous motors, AC- and DC-brake variants and low-profile extruded motors for applications including cutting and other compact machines."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели",
+        "Тормозные системы"
+      ],
+      "productFamilies": [
+        "Asynchronous Three-Phase Motors",
+        "Brake Motors",
+        "Flat Extruded Motors"
+      ],
+      "series": [
+        "HF",
+        "HFV",
+        "HPEV"
+      ],
+      "industries": [
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://seimecmotori.it/en/cataloghi.html"
+      ],
+      "documentationSources": [
+        "https://seimecmotori.it/en/cataloghi.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seimec-catalogs",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_ASYNCHRONOUS_BRAKE_FLAT_MOTOR_SCOPE",
+          "url": "https://seimecmotori.it/en/cataloghi.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seitron",
+      "officialName": "SEITRON S.p.A.",
+      "displayName": "Seitron",
+      "aliases": [
+        "SEITRON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.seitron.com/en/",
+      "officialDomains": [
+        "seitron.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Seitron develops gas-safety, combustion-analysis and climate-control instruments. Its official industrial range includes fixed and portable gas detectors, control units, combustion and emissions analyzers and HVAC controls.",
+      "fullDescription": [
+        "Seitron's manufacturer-owned product pages establish the Italian instrumentation identity and its safety and combustion-measurement scope.",
+        "The documented range covers gas transmitters and multizone control units, portable gas monitors, flue-gas and emissions analyzers and controls used in heating and ventilation systems."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Измерительное оборудование",
+        "HVAC автоматика"
+      ],
+      "productFamilies": [
+        "Industrial Gas Detectors",
+        "Gas Detection Control Units",
+        "Portable Gas Monitors",
+        "Combustion Analyzers",
+        "Climate Controls"
+      ],
+      "series": [
+        "Chemist",
+        "Novo",
+        "Gas Master"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "HVAC и здания",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.seitron.com/en/products/industrial-gas-safety/industrial-gas-detector/",
+        "https://www.seitron.com/en/products/combustion-and-emissions-analysis/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seitron-industrial-gas",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_GAS_SAFETY_COMBUSTION_ANALYSIS_SCOPE",
+          "url": "https://www.seitron.com/en/products/industrial-gas-safety/industrial-gas-detector/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "selectron",
+      "officialName": "Selectron Systems AG",
+      "displayName": "Selectron",
+      "aliases": [
+        "SELECTRON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.selectron.ch/en/",
+      "officialDomains": [
+        "selectron.ch"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Lyss, Switzerland",
+      "foundedYear": null,
+      "parentCompany": "Knorr-Bremse Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Selectron Systems develops automation, communication and cybersecurity solutions for rail vehicles. Its official scope centres on train control and management systems, Ethernet communication hardware and rail-specific security technology.",
+      "fullDescription": [
+        "Selectron's manufacturer-owned products and solutions page confirms the Swiss rail-automation company and its role within Knorr-Bremse.",
+        "The documented portfolio combines modular TCMS hardware and software with managed Ethernet communication components and cybersecurity solutions designed for connected rail vehicles."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Промышленное программное обеспечение",
+        "Инфраструктурное оборудование"
+      ],
+      "productFamilies": [
+        "Train Control and Management Systems",
+        "Railway Cybersecurity",
+        "Ethernet Routers and Switches",
+        "Communication Cards and Relays"
+      ],
+      "series": [],
+      "industries": [
+        "Железнодорожная промышленность",
+        "Транспорт",
+        "Автоматизация производства"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.selectron.ch/en/products-and-solutions-hidden/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-selectron-products",
+          "tier": "A",
+          "type": "PRODUCT_AND_SOLUTION_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_GROUP_RELATION_AND_RAIL_AUTOMATION_SCOPE",
+          "url": "https://www.selectron.ch/en/products-and-solutions-hidden/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "selema",
+      "officialName": "Selema",
+      "displayName": "Selema",
+      "aliases": [
+        "SELEMA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.esa-automation.com/en/category/drives-and-motors/",
+      "officialDomains": [
+        "esa-automation.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "ESA S.p.A.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Selema is ESA Automation's drives-and-motors brand. Official ESA material links the brand with electric-motor drives and motion solutions used in railway and industrial automation applications.",
+      "fullDescription": [
+        "ESA Automation's first-party drives and motors page confirms Selema as the group's established electric-motor drive brand rather than an unrelated manufacturer identity.",
+        "Current product material combines that drive knowledge with servo drives, motors and integrated motion packages for positioning, conveyors, pumps, rail and machine-automation duties."
+      ],
+      "productCategories": [
+        "Приводы и системы управления движением",
+        "Промышленные электродвигатели",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Electric Motor Drives",
+        "Servo Drives",
+        "Servo Motors",
+        "Integrated Drive and Motor Packages"
+      ],
+      "series": [],
+      "industries": [
+        "Автоматизация производства",
+        "Железнодорожная промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.esa-automation.com/en/category/drives-and-motors/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-selema-esa-drives",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCT_SOURCE",
+          "scope": "CURRENT_BRAND_RELATION_AND_ELECTRIC_MOTOR_DRIVE_SCOPE",
+          "url": "https://www.esa-automation.com/en/category/drives-and-motors/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "selet",
+      "officialName": "SELET",
+      "displayName": "SELET",
+      "aliases": [
+        "SELET SENSORS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.selet.it/en/",
+      "officialDomains": [
+        "selet.it"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "SENSTRONIC ITALY S.r.l.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "SELET is the industrial sensing brand operated by SENSTRONIC ITALY. Its official product lines include proximity and photoelectric sensors, ultrasonic and magnetic sensors, rotary encoders, connection systems and panel instrumentation.",
+      "fullDescription": [
+        "SELET's manufacturer-owned site links the current brand to SENSTRONIC ITALY and documents its factory-automation sensor portfolio.",
+        "Published groups cover inductive, capacitive, optical, ultrasonic and magnetic detection, label sensing, incremental and absolute encoders, connectors, sensor-control units, counters and displays."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Энкодеры и тахогенераторы",
+        "Промышленная автоматизация",
+        "Промышленные разъёмы"
+      ],
+      "productFamilies": [
+        "Inductive Sensors",
+        "Capacitive Sensors",
+        "Photoelectric Sensors",
+        "Ultrasonic Sensors",
+        "Magnetic Sensors",
+        "Incremental Encoders",
+        "Absolute Encoders"
+      ],
+      "series": [],
+      "industries": [
+        "Автоматизация производства",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.selet.it/en/prodotti"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-selet-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CURRENT_BRAND_PARENT_RELATION_AND_SENSOR_ENCODER_SCOPE",
+          "url": "https://www.selet.it/en/prodotti",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "selfa",
+      "officialName": "Selfa Grzejnictwo Elektryczne S.A.",
+      "displayName": "Selfa",
+      "aliases": [
+        "SELFA",
+        "SELFA GE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://selfa.pl/en/",
+      "officialDomains": [
+        "selfa.pl"
+      ],
+      "country": "Poland",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Selfa manufactures electric heating elements and heater assemblies. Its official range covers tubular and immersion heaters, duct heaters, infrared radiators and application-specific heating components.",
+      "fullDescription": [
+        "Selfa's manufacturer-owned catalog establishes the Polish electric-heating company and its industrial heater scope.",
+        "The documented portfolio includes elements for liquids and air, immersion and duct configurations, infrared heating products and engineered heater designs for equipment manufacturers."
+      ],
+      "productCategories": [
+        "Нагревательное оборудование",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Tubular Heating Elements",
+        "Immersion Heaters",
+        "Duct Heaters",
+        "Infrared Radiators",
+        "Special Electric Heaters"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://selfa.pl/wp-content/uploads/2019/11/SELFA_GE_KATALOG_eng.pdf"
+      ],
+      "documentationSources": [
+        "https://selfa.pl/en/katalog/heating-elements/electric-heaters/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-selfa-electric-heaters",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_ELECTRIC_HEATING_ELEMENT_SCOPE",
+          "url": "https://selfa.pl/en/katalog/heating-elements/electric-heaters/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "semikron",
+      "officialName": "Semikron Danfoss",
+      "displayName": "SEMIKRON",
+      "aliases": [
+        "SEMIKRON",
+        "SEMIKRON DANFOSS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.semikron-danfoss.com/",
+      "officialDomains": [
+        "semikron-danfoss.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Danfoss",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "SEMIKRON is part of Semikron Danfoss and supplies power-electronics components and systems. Its official portfolio includes semiconductor power modules, intelligent power modules, power stacks and related driver technology.",
+      "fullDescription": [
+        "Semikron Danfoss' official product directory confirms the continuing SEMIKRON product identity within the combined power-electronics company.",
+        "The documented range spans diode, thyristor, IGBT and silicon-carbide power-module platforms together with intelligent modules, drivers and engineered power-electronic assemblies."
+      ],
+      "productCategories": [
+        "Силовые преобразователи",
+        "Электротехническое оборудование",
+        "Приводы и системы управления движением"
+      ],
+      "productFamilies": [
+        "Power Modules",
+        "Intelligent Power Modules",
+        "Power Electronic Stacks",
+        "Gate Drivers"
+      ],
+      "series": [
+        "SEMIPACK",
+        "SEMITOP",
+        "SEMiX",
+        "SEMITRANS",
+        "SKiM",
+        "SKiiP"
+      ],
+      "industries": [
+        "Энергетика",
+        "Транспорт",
+        "Автоматизация производства",
+        "Электроника"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.semikron-danfoss.com/products/power-modules/power-modules-by-product-line"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-semikron-danfoss-modules",
+          "tier": "A",
+          "type": "OFFICIAL_GROUP_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_BRAND_RELATION_AND_POWER_SEMICONDUCTOR_MODULE_SCOPE",
+          "url": "https://www.semikron-danfoss.com/products/power-modules/power-modules-by-product-line",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sempell",
+      "officialName": "Sempell",
+      "displayName": "Sempell",
+      "aliases": [
+        "SEMPELL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.emerson.com/en/final-control/brands/sempell",
+      "officialDomains": [
+        "emerson.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Emerson",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Sempell is an Emerson brand for engineered valve solutions in steam and demanding process service. Its official range includes control, safety-relief, isolation and nuclear flow-control valves.",
+      "fullDescription": [
+        "Emerson's official Sempell page confirms the current brand relationship and its engineered final-control scope.",
+        "Published products address steam conditioning and bypass, overpressure protection, process isolation and qualified flow control for power-generation and industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Регулирующее оборудование"
+      ],
+      "productFamilies": [
+        "Control Valves",
+        "Safety Relief Valves",
+        "Isolation Valves",
+        "Steam Conditioning Valves",
+        "Nuclear Flow Controls"
+      ],
+      "series": [
+        "Series S",
+        "Style A"
+      ],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.emerson.com/en/final-control/brands/sempell"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sempell-emerson",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_BRAND_RELATION_AND_CONTROL_SAFETY_ISOLATION_VALVE_SCOPE",
+          "url": "https://www.emerson.com/en/final-control/brands/sempell",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "semperit",
+      "officialName": "Semperit AG Holding",
+      "displayName": "Semperit",
+      "aliases": [
+        "SEMPERIT",
+        "SEMPERIT GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.semperitgroup.com/",
+      "officialDomains": [
+        "semperitgroup.com"
+      ],
+      "country": "Austria",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Semperit develops and manufactures industrial elastomer products. Its official portfolio includes hydraulic and industrial hoses, profiles and seals, conveyor belts, handrails and engineered moulded components.",
+      "fullDescription": [
+        "Semperit's manufacturer-owned product directory establishes the Austrian industrial-elastomer group and its current operating scope.",
+        "The documented divisions provide hoses and profiles alongside conveyor belts, escalator handrails, cableway components, moulded rubber and plastic parts and other engineered elastomer solutions."
+      ],
+      "productCategories": [
+        "Гидравлическое оборудование",
+        "Конвейерное оборудование",
+        "Уплотнительные компоненты"
+      ],
+      "productFamilies": [
+        "Hydraulic Hoses",
+        "Industrial Hoses",
+        "Profiles and Seals",
+        "Conveyor Belts",
+        "Escalator Handrails",
+        "Moulded Elastomer Products"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Транспорт",
+        "Строительство",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.semperitgroup.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-semperit-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_INDUSTRIAL_ELASTOMER_PRODUCT_SCOPE",
+          "url": "https://www.semperitgroup.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seneca",
+      "officialName": "SENECA s.r.l.",
+      "displayName": "SENECA",
+      "aliases": [
+        "SENECA AUTOMATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.seneca.it/en/",
+      "officialDomains": [
+        "seneca.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Padua, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SENECA develops industrial automation interfaces, communication equipment and electrical measurement systems. Its official lines cover distributed I/O, controllers, gateways, remote-control devices, signal converters, power meters and panel instruments.",
+      "fullDescription": [
+        "SENECA's official site identifies the Padua manufacturer and documents four coordinated product areas for automation and industrial measurement.",
+        "The portfolio connects data acquisition and control with industrial communication, telemetry, energy monitoring, electrical transducers and panel instrumentation."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Измерительное оборудование",
+        "Электротехническое оборудование"
+      ],
+      "productFamilies": [
+        "Distributed I/O Systems",
+        "Industrial Gateways",
+        "RTUs and Telemetry",
+        "Signal Converters",
+        "Energy Meters",
+        "Panel Instrumentation"
+      ],
+      "series": [
+        "Z-PC",
+        "R-Line",
+        "KEY Line",
+        "S500",
+        "T201"
+      ],
+      "industries": [
+        "Автоматизация производства",
+        "Энергетика",
+        "Водоснабжение и водоотведение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.seneca.it/en/cataloghi-flyers/"
+      ],
+      "documentationSources": [
+        "https://www.seneca.it/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seneca-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_AUTOMATION_COMMUNICATION_MEASUREMENT_SCOPE",
+          "url": "https://www.seneca.it/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sensopart",
+      "officialName": "SensoPart Industriesensorik GmbH",
+      "displayName": "SensoPart",
+      "aliases": [
+        "SENSOPART"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sensopart.com/en/",
+      "officialDomains": [
+        "sensopart.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SensoPart manufactures sensor technology for factory automation. Its official range includes optical, ultrasonic and inductive sensors together with compact vision sensors for inspection and identification tasks.",
+      "fullDescription": [
+        "SensoPart's manufacturer-owned product pages establish the German factory-automation sensor identity.",
+        "The documented portfolio combines object-detection and distance-sensing technologies with VISOR smart-camera systems used for inspection, positioning, code reading and robotic guidance."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Техническое зрение",
+        "Инспекционное оборудование"
+      ],
+      "productFamilies": [
+        "DTECT Optical Sensors",
+        "VISOR Vision Sensors",
+        "Ultrasonic Sensors",
+        "Inductive Sensors"
+      ],
+      "series": [
+        "DTECT",
+        "VISOR"
+      ],
+      "industries": [
+        "Автоматизация производства",
+        "Робототехника",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.sensopart.com/en/service/downloads/"
+      ],
+      "documentationSources": [
+        "https://www.sensopart.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sensopart-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_FACTORY_AUTOMATION_SENSOR_VISION_SCOPE",
+          "url": "https://www.sensopart.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sensor-instruments",
+      "officialName": "Sensor Instruments GmbH",
+      "displayName": "Sensor Instruments",
+      "aliases": [
+        "SENSOR INSTRUMENTS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sensor-instruments.de/",
+      "officialDomains": [
+        "sensor-instruments.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Sensor Instruments develops optical sensor systems for industrial process and quality control. Its official portfolio includes color and contrast sensors, edge and position detection, surface and gloss measurement and application-specific monitoring systems.",
+      "fullDescription": [
+        "Sensor Instruments' manufacturer-owned product directory confirms the optical sensing and measurement identity behind the repository record.",
+        "The documented systems evaluate colour, contrast, fluorescence, gloss, edges, dimensions and process characteristics for automated inspection and control applications."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Измерительное оборудование",
+        "Инспекционное оборудование"
+      ],
+      "productFamilies": [
+        "Color Sensors",
+        "Contrast Sensors",
+        "Edge Detection Sensors",
+        "Gloss Sensors",
+        "Surface Inspection Systems"
+      ],
+      "series": [
+        "SPECTRO-1",
+        "SPECTRO-2",
+        "SPECTRO-3"
+      ],
+      "industries": [
+        "Автоматизация производства",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sensor-instruments.de/products.php?cat=10&group=1&language=en&sid=210"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sensor-instruments-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_OPTICAL_SENSOR_MEASUREMENT_SCOPE",
+          "url": "https://www.sensor-instruments.de/products.php?cat=10&group=1&language=en&sid=210",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sensortherm",
+      "officialName": "Sensortherm Infrared Measurement and Control GmbH",
+      "displayName": "Sensortherm",
+      "aliases": [
+        "SENSORTHERM"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sensortherm.de/en/",
+      "officialDomains": [
+        "sensortherm.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Steinbach, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Sensortherm develops and manufactures infrared temperature-measurement and control equipment. Its official range includes one- and two-colour pyrometers, scanners, calibration sources, controllers and analysis software.",
+      "fullDescription": [
+        "Sensortherm's manufacturer-owned site establishes the German infrared-instrumentation identity and its in-house development and production scope.",
+        "The documented portfolio supports non-contact industrial temperature measurement through fixed and portable pyrometers, thermal line scanners, calibration systems, control devices and software."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Промышленные датчики",
+        "Регулирующее оборудование"
+      ],
+      "productFamilies": [
+        "Pyrometers",
+        "Infrared Switches",
+        "GALAXY Scanners",
+        "Calibration Sources",
+        "PID Controllers",
+        "SensorTools Software"
+      ],
+      "series": [
+        "METIS",
+        "SIRIUS",
+        "FELIS",
+        "CAPELLA",
+        "DIADEM",
+        "GALAXY"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Металлургия",
+        "Энергетика",
+        "Исследования и лаборатории"
+      ],
+      "officialCatalogs": [
+        "https://www.sensortherm.de/en/downloads/"
+      ],
+      "documentationSources": [
+        "https://www.sensortherm.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sensortherm-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_INFRARED_PYROMETRY_CONTROL_SCOPE",
+          "url": "https://www.sensortherm.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sensus",
+      "officialName": "Sensus",
+      "displayName": "Sensus",
+      "aliases": [
+        "SENSUS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.xylem.com/en-us/brand/sensus/",
+      "officialDomains": [
+        "xylem.com",
+        "sensus.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Xylem",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Sensus is a Xylem brand for smart utility metering and infrastructure technology. Its official scope includes water, gas and electricity meters, communication networks, data endpoints and utility-management applications.",
+      "fullDescription": [
+        "Xylem's official Sensus page confirms the current brand relationship and its connected-utility technology scope.",
+        "The published portfolio combines metering devices with FlexNet communications, gateways, telemetry endpoints and software used to monitor and manage water, gas and electric distribution networks."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Инфраструктурное оборудование",
+        "Водоподготовка и водоотведение"
+      ],
+      "productFamilies": [
+        "Water Meters",
+        "Gas Meters",
+        "Electricity Meters",
+        "FlexNet Communication Network",
+        "Utility Gateways and Endpoints"
+      ],
+      "series": [
+        "Cordonel",
+        "FlexNet",
+        "OMNI",
+        "MeiStream",
+        "Stratus"
+      ],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Энергетика",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.xylem.com/en-us/brand/sensus/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sensus-xylem",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_BRAND_RELATION_AND_SMART_UTILITY_METERING_SCOPE",
+          "url": "https://www.xylem.com/en-us/brand/sensus/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seoam",
+      "officialName": "SEOAM Machinery Industry Co., Ltd.",
+      "displayName": "SEOAM",
+      "aliases": [
+        "SEOAM",
+        "SEOAM MACHINERY"
+      ],
+      "formerNames": [
+        "Hwacheon Gear Works Co., Ltd."
+      ],
+      "officialWebsite": "https://www.smiltd.co.kr/english/",
+      "officialDomains": [
+        "smiltd.co.kr",
+        "seoam.kr"
+      ],
+      "country": "South Korea",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SEOAM Machinery manufactures precision machine-tool and power-transmission components. Its official materials cover gears, power chucks, hydraulic cylinders, curvic couplings and industrial gear reducers.",
+      "fullDescription": [
+        "SEOAM's manufacturer-owned product and catalog pages establish the Korean machinery company and its precision-component identity.",
+        "The documented range supports workholding and rotating machinery through power chucks and hydraulic cylinders, alongside gears, curvic couplings and engineered reduction gearboxes."
+      ],
+      "productCategories": [
+        "Станочная оснастка",
+        "Гидравлические цилиндры",
+        "Промышленные редукторы",
+        "Промышленные механические передачи"
+      ],
+      "productFamilies": [
+        "Power Chucks",
+        "Hydraulic Cylinders",
+        "Precision Gears",
+        "Curvic Couplings",
+        "Industrial Gear Reducers"
+      ],
+      "series": [
+        "SM-HSR",
+        "CAHF",
+        "YAST"
+      ],
+      "industries": [
+        "Машиностроение",
+        "Металлообработка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.smiltd.co.kr/english/wp_data_pds/special_chuck_catalog.pdf"
+      ],
+      "documentationSources": [
+        "https://www.smiltd.co.kr/mobile/english/wp_2ds/02_06.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seoam-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_PAGE",
+          "scope": "LEGAL_IDENTITY_AND_CHUCK_CYLINDER_GEAR_REDUCER_SCOPE",
+          "url": "https://www.smiltd.co.kr/mobile/english/wp_2ds/02_06.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "serpo-robotique",
+      "officialName": "Sepro Group",
+      "displayName": "Sepro",
+      "aliases": [
+        "SERPO ROBOTIQUE",
+        "SEPRO ROBOTIQUE",
+        "SEPRO GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sepro-group.com/",
+      "officialDomains": [
+        "sepro-group.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Sepro Group designs and manufactures robots and automation systems for plastic injection moulding. Its official range includes sprue pickers, three-, five- and six-axis robots, control platforms and integrated automation cells.",
+      "fullDescription": [
+        "Sepro's manufacturer-owned product directory resolves the misspelled repository record to the French injection-moulding automation company.",
+        "The documented platform combines Cartesian and articulated robots with Visual controllers, end-of-arm tooling and engineered cells for part removal, handling and downstream operations."
+      ],
+      "productCategories": [
+        "Промышленная робототехника",
+        "Промышленная автоматизация",
+        "Захватные устройства"
+      ],
+      "productFamilies": [
+        "Sprue Pickers",
+        "3-Axis Robots",
+        "5-Axis Robots",
+        "6-Axis Robots",
+        "Sepro Visual Controls",
+        "Automation Cells"
+      ],
+      "series": [
+        "S-Line",
+        "S7 Line",
+        "Success",
+        "5X Line"
+      ],
+      "industries": [
+        "Производство пластмасс",
+        "Автоматизация производства",
+        "Автомобильная промышленность",
+        "Упаковка"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sepro-group.com/robotic-solutions/products?range=%5B1%5D"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sepro-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CANONICAL_IDENTITY_AND_INJECTION_MOULDING_ROBOT_SCOPE",
+          "url": "https://www.sepro-group.com/robotic-solutions/products?range=%5B1%5D",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "serck",
+      "officialName": "Serck Heat Exchange",
+      "displayName": "Serck",
+      "aliases": [
+        "SERCK",
+        "SERCK GLOBAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://serckglobal.com/",
+      "officialDomains": [
+        "serckglobal.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Unipart Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Serck Heat Exchange designs, manufactures and services heat-transfer equipment. Its official portfolio includes industrial radiators, heat exchangers, oil and charge-air coolers and climate-control solutions.",
+      "fullDescription": [
+        "Serck's manufacturer-owned product directory establishes the current Unipart company and its heat-transfer engineering scope.",
+        "The documented range covers custom and standard radiators, process heat exchangers, cooling packages and HVAC equipment for industrial, power, transport and heavy-duty applications."
+      ],
+      "productCategories": [
+        "Теплообменное оборудование",
+        "Промышленное охлаждение",
+        "HVAC оборудование"
+      ],
+      "productFamilies": [
+        "Industrial Radiators",
+        "Heat Exchangers",
+        "Oil Coolers",
+        "Charge-Air Coolers",
+        "Climate-Control Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Энергетика",
+        "Нефтегазовая промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://serckglobal.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-serck-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_HEAT_TRANSFER_EQUIPMENT_SCOPE",
+          "url": "https://serckglobal.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sermas",
+      "officialName": "SERMAS INDUSTRIE",
+      "displayName": "SERMAS",
+      "aliases": [
+        "SERMAS",
+        "SERMAS INDUSTRIE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sermas.com/",
+      "officialDomains": [
+        "sermas.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SERMAS designs industrial sawing and machining systems for aluminium and other non-ferrous materials. Its official range includes complete sawing installations, slab, billet, plate and block saws, milling machines and anode-processing equipment.",
+      "fullDescription": [
+        "SERMAS' manufacturer-owned product directory establishes the French industrial-machine identity and its aluminium processing specialization.",
+        "The documented portfolio covers individual saws and complete cutting lines, milling equipment and dedicated machines for cathode, anode, copper and carbon processing."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Режущее оборудование",
+        "Металлообрабатывающее оборудование"
+      ],
+      "productFamilies": [
+        "Complete Sawing Installations",
+        "Slab Saws",
+        "Billet Saws",
+        "Plate Saws",
+        "Block Saws",
+        "Milling Machines",
+        "Anode Processing Machines"
+      ],
+      "series": [
+        "BS-E"
+      ],
+      "industries": [
+        "Металлургия",
+        "Металлообработка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sermas.com/html/ourproducts.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sermas-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_ALUMINIUM_SAWING_MACHINING_SCOPE",
+          "url": "https://www.sermas.com/html/ourproducts.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "servolift-gmbh",
+      "officialName": "SERVOLIFT GmbH",
+      "displayName": "SERVOLIFT",
+      "aliases": [
+        "SERVOLIFT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.servolift.de/en/",
+      "officialDomains": [
+        "servolift.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Offenburg, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SERVOLIFT develops material-handling and process equipment for pharmaceutical, chemical and food production. Its official range includes lifters, bins, blenders, weighing, sieving, crushing and validated cleaning systems.",
+      "fullDescription": [
+        "SERVOLIFT's manufacturer-owned site confirms the German process-equipment identity and its focus on hygienic powder and container handling.",
+        "The documented portfolio connects drum and bin lifting with weighing, blending, milling, sieving, containment and washing technologies for controlled production environments."
+      ],
+      "productCategories": [
+        "Погрузочно-разгрузочное оборудование",
+        "Промышленные машины",
+        "Моечное оборудование"
+      ],
+      "productFamilies": [
+        "Handling Systems",
+        "Bins and Containers",
+        "Bin Blenders",
+        "Weighing Systems",
+        "Sieving and Crushing Systems",
+        "Cleaning Systems"
+      ],
+      "series": [
+        "SL250",
+        "SLD250",
+        "ServoDose"
+      ],
+      "industries": [
+        "Фармацевтическая промышленность",
+        "Пищевая промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.servolift.de/en/news-downloads/downloads"
+      ],
+      "documentationSources": [
+        "https://www.servolift.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-servolift-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_PHARMA_HANDLING_BLENDING_CLEANING_SCOPE",
+          "url": "https://www.servolift.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "servotecnica",
+      "officialName": "Servotecnica SpA",
+      "displayName": "Servotecnica",
+      "aliases": [
+        "SERVOTECNICA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://servotecnica.com/en/",
+      "officialDomains": [
+        "servotecnica.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Nova Milanese, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Servotecnica develops motion-control and mechatronic components. Its official portfolio includes servo and micromotors, digital drives, encoders, precision gearboxes and electrical slip rings.",
+      "fullDescription": [
+        "Servotecnica's manufacturer-owned product directory establishes the Italian automation and mechatronics identity.",
+        "The documented range integrates brushless and coreless motors, servo electronics, rotary feedback, precision reduction units and rotary electrical interfaces for compact and demanding motion systems."
+      ],
+      "productCategories": [
+        "Приводы и системы управления движением",
+        "Промышленные электродвигатели",
+        "Энкодеры и тахогенераторы",
+        "Токосъёмники и разъёмы"
+      ],
+      "productFamilies": [
+        "Servomotors",
+        "Micromotors",
+        "Servo Drives",
+        "Encoders",
+        "Precision Gearboxes",
+        "Slip Rings"
+      ],
+      "series": [
+        "SVTM",
+        "SVTE",
+        "SVTS",
+        "ATOM",
+        "COSMOS",
+        "IND-MAX"
+      ],
+      "industries": [
+        "Автоматизация производства",
+        "Робототехника",
+        "Машиностроение",
+        "Аэрокосмическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://servotecnica.com/en/catalogs/servotecnica/"
+      ],
+      "documentationSources": [
+        "https://us.servotecnica.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-servotecnica-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_MOTION_MECHATRONICS_SCOPE",
+          "url": "https://us.servotecnica.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "ses-international",
+      "officialName": "SES International B.V.",
+      "displayName": "SES International",
+      "aliases": [
+        "SES INTERNATIONAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://sesint.nl/",
+      "officialDomains": [
+        "sesint.nl"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Delden, Netherlands",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SES International engineers and manufactures packaged rotating-equipment solutions. Its official scope includes compressor packages, pump and multiphase-pump systems, process chillers and industrial refrigeration solutions.",
+      "fullDescription": [
+        "SES International's company-owned site resolves the generic repository record to the Dutch rotating-equipment systems business.",
+        "The documented offering combines engineered gas-compression and pumping skids with chillers and refrigeration packages for food, process and oil-and-gas applications."
+      ],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Промышленные насосы",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Compressor Packages",
+        "Pump Packages",
+        "Multiphase Pump Systems",
+        "Process Chillers",
+        "Refrigeration Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://sesint.nl/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-ses-international-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_PACKAGED_COMPRESSOR_PUMP_REFRIGERATION_SCOPE",
+          "url": "https://sesint.nl/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "seydelmann",
+      "officialName": "Maschinenfabrik Seydelmann KG",
+      "displayName": "Seydelmann",
+      "aliases": [
+        "SEYDELMANN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.seydelmann.com/",
+      "officialDomains": [
+        "seydelmann.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Seydelmann manufactures food-processing machinery for cutting, grinding, mixing and emulsifying. Its official portfolio spans individual production machines and integrated lines for meat and other food products.",
+      "fullDescription": [
+        "Seydelmann's manufacturer-owned site establishes the German food-processing machinery identity.",
+        "The documented product groups include cutters, grinders, mixers and emulsifiers that can be configured as standalone equipment or linked into automated preparation lines."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Технологическое оборудование"
+      ],
+      "productFamilies": [
+        "Cutters",
+        "Grinders",
+        "Mixers",
+        "Emulsifiers",
+        "Food Processing Lines"
+      ],
+      "series": [],
+      "industries": [
+        "Пищевая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.seydelmann.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-seydelmann-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_FOOD_CUTTING_GRINDING_MIXING_SCOPE",
+          "url": "https://www.seydelmann.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sferova",
+      "officialName": "SFEROVA S.r.l.",
+      "displayName": "Sferova",
+      "aliases": [
+        "SFEROVA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sferova.com/",
+      "officialDomains": [
+        "sferova.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Sulbiate, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Sferova designs and manufactures engineered ball valves for oil and gas service. Its official portfolio includes floating, trunnion-mounted, top-entry, fully welded and modular valve designs.",
+      "fullDescription": [
+        "Sferova's manufacturer-owned site establishes the Italian valve company and its current engineered product identity.",
+        "The documented range addresses isolation in demanding pressure and temperature conditions through floating, trunnion, top-entry, welded-body and modular ball-valve configurations."
+      ],
+      "productCategories": [
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Floating Ball Valves",
+        "Trunnion Ball Valves",
+        "Top-Entry Ball Valves",
+        "Fully Welded Ball Valves",
+        "Modular Ball Valves"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sferova.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sferova-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_ENGINEERED_BALL_VALVE_SCOPE",
+          "url": "https://www.sferova.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "shimadzu",
+      "officialName": "Shimadzu Corporation",
+      "displayName": "Shimadzu",
+      "aliases": [
+        "SHIMADZU"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.shimadzu.com/",
+      "officialDomains": [
+        "shimadzu.com"
+      ],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Shimadzu develops analytical, measuring and testing instruments. Its official analytical portfolio includes chromatography, mass spectrometry, spectroscopy, elemental and surface analysis, material testing, balances and continuous monitoring systems.",
+      "fullDescription": [
+        "Shimadzu's corporate product directory establishes the Japanese instrumentation company and its analytical and measurement scope.",
+        "The documented platform supports laboratory and industrial quality work with chromatographs, mass spectrometers, spectroscopic instruments, materials testers, balances, imaging and environmental analyzers."
+      ],
+      "productCategories": [
+        "Лабораторное оборудование",
+        "Измерительное оборудование",
+        "Инспекционное оборудование"
+      ],
+      "productFamilies": [
+        "Chromatography Systems",
+        "Mass Spectrometers",
+        "Spectroscopy Instruments",
+        "Elemental Analyzers",
+        "Material Testing Machines",
+        "Balances",
+        "Continuous Monitoring Analyzers"
+      ],
+      "series": [],
+      "industries": [
+        "Исследования и лаборатории",
+        "Фармацевтическая промышленность",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.shimadzu.com/an/products/index.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-shimadzu-analytical-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_ANALYTICAL_MEASUREMENT_TESTING_SCOPE",
+          "url": "https://www.shimadzu.com/an/products/index.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "si-analytics",
+      "officialName": "SI Analytics",
+      "displayName": "SI Analytics",
+      "aliases": [
+        "SI ANALYTICS"
+      ],
+      "formerNames": [
+        "SCHOTT Geräte",
+        "SCHOTT Instruments"
+      ],
+      "officialWebsite": "https://www.xylemanalytics.com/en/products/listing-sia-all",
+      "officialDomains": [
+        "xylemanalytics.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Xylem",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "SI Analytics is a Xylem brand for laboratory and process measurement. Its official range includes titrators, burettes, sample changers, capillary viscometers and electrochemical electrodes.",
+      "fullDescription": [
+        "Xylem Analytics' official brand directory confirms the current SI Analytics identity and its German-developed laboratory instrumentation.",
+        "The documented portfolio supports titration, dosing, viscosity measurement and electrochemical analysis through instruments, electrodes, sample handling and supporting software."
+      ],
+      "productCategories": [
+        "Лабораторное оборудование",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Titrators",
+        "Piston Burettes",
+        "Sample Changers",
+        "Capillary Viscometers",
+        "Viscosity Measurement Systems",
+        "Laboratory Electrodes"
+      ],
+      "series": [
+        "TitroLine",
+        "TITRONIC",
+        "AVS",
+        "ViscoClock"
+      ],
+      "industries": [
+        "Исследования и лаборатории",
+        "Химическая промышленность",
+        "Фармацевтическая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.xylemanalytics.com/en/products/listing-sia-all"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-si-analytics-xylem",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_BRAND_RELATION_AND_TITRATION_VISCOMETRY_SCOPE",
+          "url": "https://www.xylemanalytics.com/en/products/listing-sia-all",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "siat",
+      "officialName": "SIAT S.p.A.",
+      "displayName": "SIAT",
+      "aliases": [
+        "SIAT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.siat.com/",
+      "officialDomains": [
+        "siat.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Turate, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIAT manufactures end-of-line industrial packaging equipment. Its official range includes case erectors and packers, taping machines, stretch wrappers, strapping tools, flexographic machines and tape dispensers.",
+      "fullDescription": [
+        "SIAT's manufacturer-owned product directory establishes the Italian packaging-machinery identity.",
+        "The published portfolio covers carton forming and sealing, case packing, load wrapping, strapping and package marking equipment for integrated end-of-line operations."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Конвейерное оборудование"
+      ],
+      "productFamilies": [
+        "Case Packers",
+        "Taping Machines",
+        "Case Erectors",
+        "Wrapping Machines",
+        "Strapping Tools",
+        "Flexographic Machines",
+        "Tape Dispensers"
+      ],
+      "series": [],
+      "industries": [
+        "Упаковка",
+        "Пищевая промышленность",
+        "Логистика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.siat.com/siat-media/brochure/"
+      ],
+      "documentationSources": [
+        "https://www.siat.com/product_category/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-siat-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_END_OF_LINE_PACKAGING_SCOPE",
+          "url": "https://www.siat.com/product_category/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "siba",
+      "officialName": "SIBA GmbH",
+      "displayName": "SIBA",
+      "aliases": [
+        "SIBA",
+        "SIBA FUSES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.siba-fuses.com/",
+      "officialDomains": [
+        "siba-fuses.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Lünen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIBA develops and manufactures electrical fuse-links and protection systems. Its official portfolio covers high-voltage, semiconductor, low-voltage, miniature and special-purpose fuses.",
+      "fullDescription": [
+        "SIBA's manufacturer-owned product directory confirms the German circuit-protection identity.",
+        "The documented range protects power distribution, industrial drives, power electronics, energy storage, rail equipment and sensitive electronic circuits across multiple voltage classes."
+      ],
+      "productCategories": [
+        "Электротехническое оборудование",
+        "Электроэнергетическое оборудование"
+      ],
+      "productFamilies": [
+        "High-Voltage Fuses",
+        "Semiconductor Fuses",
+        "Low-Voltage Fuses",
+        "Miniature Fuses",
+        "Special Fuses"
+      ],
+      "series": [
+        "HH",
+        "UR",
+        "LH",
+        "GS"
+      ],
+      "industries": [
+        "Энергетика",
+        "Электроника",
+        "Железнодорожная промышленность",
+        "Автоматизация производства"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.siba-fuses.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-siba-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_ELECTRICAL_FUSE_LINK_SCOPE",
+          "url": "https://www.siba-fuses.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sidel",
+      "officialName": "Sidel Group",
+      "displayName": "Sidel",
+      "aliases": [
+        "SIDEL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sidel.com/en",
+      "officialDomains": [
+        "sidel.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Tetra Laval Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Sidel develops equipment and complete lines for packaging beverages, food and other liquid products. Its official scope spans container blowing, filling, labelling, packing, conveying and palletising technologies.",
+      "fullDescription": [
+        "Sidel's manufacturer-owned site establishes the packaging-equipment company and its complete-line engineering scope.",
+        "The documented portfolio connects PET and other container production with filling, capping, labelling, secondary packaging, conveying, accumulation, palletising and line automation."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Конвейерное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Blowing Systems",
+        "Filling Systems",
+        "Labelling Machines",
+        "Case Packers",
+        "Conveyors and Accumulation",
+        "Palletising Systems",
+        "Complete Packaging Lines"
+      ],
+      "series": [
+        "EvoBLOW",
+        "EvoFILL",
+        "Combi"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Упаковка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sidel.com/en"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sidel-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_COMPLETE_PACKAGING_LINE_SCOPE",
+          "url": "https://www.sidel.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "siebec",
+      "officialName": "SIEBEC SAS",
+      "displayName": "SIEBEC",
+      "aliases": [
+        "SIEBEC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.siebec.com/en/",
+      "officialDomains": [
+        "siebec.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIEBEC develops industrial liquid filtration, pumping and fluid-treatment equipment. Its official range includes filter-pump sets, chemical-resistant pumps, filtration media and water or effluent treatment stations.",
+      "fullDescription": [
+        "SIEBEC's manufacturer-owned product pages establish the French industrial-fluid treatment identity.",
+        "The documented portfolio combines transfer and dosing pumps with filter housings, cartridges and bags, oil-removal systems and engineered skids for bath recycling, filtration and effluent treatment."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Промышленные насосы",
+        "Водоподготовка и водоотведение"
+      ],
+      "productFamilies": [
+        "Filter-Pump Sets",
+        "Mechanical-Seal Pumps",
+        "Magnetic Pumps",
+        "Pneumatic Pumps",
+        "Filtration Media",
+        "Water Treatment Stations"
+      ],
+      "series": [
+        "S Series",
+        "J Series",
+        "A Series",
+        "CENTRIPURE",
+        "MINIPURE",
+        "ACIDPURE"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Водоснабжение и водоотведение",
+        "Химическая промышленность",
+        "Металлообработка"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.siebec.com/en/surface-treatment/",
+        "https://www.siebec.com/en/products/water-and-effluent-treatment/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-siebec-surface-treatment",
+          "tier": "A",
+          "type": "PRODUCT_AND_SOLUTION_PAGE",
+          "scope": "LEGAL_IDENTITY_AND_INDUSTRIAL_FILTRATION_PUMP_SCOPE",
+          "url": "https://www.siebec.com/en/surface-treatment/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sigeval",
+      "officialName": "SIGEVAL, S.A.",
+      "displayName": "SIGEVAL",
+      "aliases": [
+        "SIGEVAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sigeval.com/?lang=en",
+      "officialDomains": [
+        "sigeval.com"
+      ],
+      "country": "Spain",
+      "headquarters": "Torrejón de Ardoz, Spain",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIGEVAL manufactures butterfly valves for industrial fluid-handling systems. Its official range includes wafer, lug, flanged and grooved-end valves with application-specific bodies, seats and actuation options.",
+      "fullDescription": [
+        "SIGEVAL's manufacturer-owned site establishes the Spanish valve company and its butterfly-valve specialization.",
+        "The documented portfolio covers concentric resilient-seated designs and engineered variants for liquids, gases and powders across industrial, HVAC, water, irrigation and fire-protection duties."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Регулирующее оборудование"
+      ],
+      "productFamilies": [
+        "Wafer Butterfly Valves",
+        "Lug Butterfly Valves",
+        "Flanged Butterfly Valves",
+        "Grooved-End Butterfly Valves",
+        "Valve Actuation"
+      ],
+      "series": [
+        "FL(w)",
+        "LUG(w)",
+        "FG(w)",
+        "KL",
+        "VV"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "HVAC и здания",
+        "Водоснабжение и водоотведение",
+        "Пищевая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sigeval.com/productos/materiales-y-datos-tecnicos/?lang=en"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sigeval-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_BUTTERFLY_VALVE_SCOPE",
+          "url": "https://www.sigeval.com/?lang=en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sigma-pumpy-hranice",
+      "officialName": "SIGMA PUMPY HRANICE, s.r.o.",
+      "displayName": "SIGMA PUMPY HRANICE",
+      "aliases": [
+        "SIGMA PUMPY HRANICE",
+        "SIGMA PUMPS HRANICE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sigmapumpy.com/",
+      "officialDomains": [
+        "sigmapumpy.com",
+        "sigma.cz"
+      ],
+      "country": "Czech Republic",
+      "headquarters": "Hranice, Czech Republic",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIGMA PUMPY HRANICE manufactures pumps for residential, municipal and industrial applications. Its official group source identifies the Hranice company and its pump-manufacturing scope.",
+      "fullDescription": [
+        "SIGMA's manufacturer-owned group page confirms the legal identity of SIGMA PUMPY HRANICE and distinguishes it from other SIGMA group businesses.",
+        "The company is presented as a Czech manufacturer of pumping equipment for house, garden and industry, with official product documentation covering multiple centrifugal pump families."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Водоподготовка и водоотведение"
+      ],
+      "productFamilies": [
+        "Centrifugal Pumps",
+        "Multistage Pumps",
+        "Submersible Pumps",
+        "Domestic Water Systems",
+        "Industrial Pumping Units"
+      ],
+      "series": [
+        "LV"
+      ],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Промышленное производство",
+        "Сельское хозяйство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sigma.cz/index-en.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sigma-pumpy-group",
+          "tier": "A",
+          "type": "OFFICIAL_GROUP_SITE",
+          "scope": "EXACT_LEGAL_IDENTITY_AND_PUMP_MANUFACTURING_SCOPE",
+          "url": "https://www.sigma.cz/index-en.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sigmatek",
+      "officialName": "SIGMATEK GmbH & Co KG",
+      "displayName": "SIGMATEK",
+      "aliases": [
+        "SIGMATEK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sigmatek-automation.com/en/",
+      "officialDomains": [
+        "sigmatek-automation.com"
+      ],
+      "country": "Austria",
+      "headquarters": "Lamprechtshausen, Austria",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIGMATEK develops and manufactures modular automation systems for machines and equipment. Its official portfolio includes controls, I/O, HMIs, motion, functional safety, real-time communication and the LASAL engineering suite.",
+      "fullDescription": [
+        "SIGMATEK's manufacturer-owned product directory establishes the Austrian industrial-automation identity and its integrated system architecture.",
+        "The documented portfolio connects CPUs and industrial PCs with distributed I/O, operator panels, servo drives, safety modules, VARAN networking and engineering software."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Приводы и системы управления движением",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Control Systems",
+        "I/O Systems",
+        "HMIs",
+        "Motion Systems",
+        "Safety Systems",
+        "VARAN Communication",
+        "LASAL Engineering Tools"
+      ],
+      "series": [
+        "S-DIAS",
+        "X-DIAS",
+        "P-DIAS",
+        "MDD 2000",
+        "FDD 3000",
+        "LASAL"
+      ],
+      "industries": [
+        "Автоматизация производства",
+        "Робототехника",
+        "Упаковка",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.sigmatek-automation.com/en/service/downloads/catalog-brochures/"
+      ],
+      "documentationSources": [
+        "https://www.sigmatek-automation.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sigmatek-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_INTEGRATED_AUTOMATION_SYSTEM_SCOPE",
+          "url": "https://www.sigmatek-automation.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sikora",
+      "officialName": "SIKORA AG",
+      "displayName": "SIKORA",
+      "aliases": [
+        "SIKORA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://sikora.net/en/",
+      "officialDomains": [
+        "sikora.net"
+      ],
+      "country": "Germany",
+      "headquarters": "Bremen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SIKORA develops measuring, control, inspection and sorting systems for continuous production. Its official portfolio covers dimensional and material-quality control for cables, optical fibre, hoses, tubes, sheets and plastic raw materials.",
+      "fullDescription": [
+        "SIKORA's manufacturer-owned product directory establishes the German production-measurement identity.",
+        "The documented systems measure diameter, wall thickness, eccentricity, capacitance and temperature, detect faults and inspect or sort materials during cable and plastics processing."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Инспекционное оборудование",
+        "Промышленные датчики"
+      ],
+      "productFamilies": [
+        "Diameter Measurement Systems",
+        "X-Ray Measurement Systems",
+        "Fault Detectors",
+        "Spark Testers",
+        "Material Inspection and Sorting Systems",
+        "Process Control Displays"
+      ],
+      "series": [
+        "LASER 2000",
+        "X-RAY 6000",
+        "X-RAY 8000",
+        "PURITY SCANNER",
+        "ECOCONTROL",
+        "CENTERWAVE"
+      ],
+      "industries": [
+        "Производство кабеля",
+        "Производство пластмасс",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://sikora.net/en/category/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-sikora-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_INLINE_MEASUREMENT_INSPECTION_SCOPE",
+          "url": "https://sikora.net/en/category/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "silverson",
+      "officialName": "Silverson Machines Ltd.",
+      "displayName": "Silverson",
+      "aliases": [
+        "SILVERSON",
+        "SILVERSON MACHINES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://silverson.com/",
+      "officialDomains": [
+        "silverson.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Silverson manufactures high-shear mixing equipment for laboratory and production processes. Its official range includes batch, in-line, bottom-entry, powder-liquid, homogenising and disintegrator-dissolver systems.",
+      "fullDescription": [
+        "Silverson's manufacturer-owned product directory establishes the high-shear mixer identity and its rotor-stator process technology.",
+        "The documented portfolio scales from laboratory units to production machines for emulsifying, homogenising, dispersing, dissolving, particle-size reduction and powder incorporation."
+      ],
+      "productCategories": [
+        "Технологическое оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Laboratory Mixers",
+        "Batch Mixers",
+        "In-Line Mixers",
+        "Bottom-Entry Mixers",
+        "Powder-Liquid Mixers",
+        "Homogenizers",
+        "Disintegrator-Dissolvers"
+      ],
+      "series": [
+        "Flashmix",
+        "Ultramix",
+        "Verso"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://silverson.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-silverson-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_HIGH_SHEAR_MIXING_SCOPE",
+          "url": "https://silverson.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "silvertronic",
+      "officialName": "Silvertronic Limited",
+      "displayName": "Silvertronic",
+      "aliases": [
+        "SILVERTRONIC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://silvertronic.com/",
+      "officialDomains": [
+        "silvertronic.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Silvertronic manufactures electrical test leads, probes and measurement accessories. Its official catalog covers fused and silicone leads, clips, Kelvin connections, aviation and automotive test kits and three-phase meter accessories.",
+      "fullDescription": [
+        "Silvertronic's manufacturer-owned catalog establishes the British electrical test-accessory identity.",
+        "The documented range includes standard and application-specific lead assemblies, probes, crocodile clips, connector kits and protected test sets for electrical, automotive and aeronautical measurement work."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Промышленные разъёмы",
+        "Электротехническое оборудование"
+      ],
+      "productFamilies": [
+        "Fused Test Leads",
+        "Silicone Test Leads",
+        "Probes",
+        "Kelvin Leads",
+        "Crocodile Clips",
+        "Avionic Test Kits",
+        "Automotive Test Kits"
+      ],
+      "series": [],
+      "industries": [
+        "Электроника",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://silvertronic.com/catalogue/"
+      ],
+      "documentationSources": [
+        "https://silvertronic.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wave99-silvertronic-official",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG_SITE",
+          "scope": "LEGAL_IDENTITY_AND_ELECTRICAL_TEST_LEAD_ACCESSORY_SCOPE",
+          "url": "https://silvertronic.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    }
   ]
 }

@@ -6,28 +6,40 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "ITA Industrial is used by unrelated active businesses, including a Brazilian custom-manufacturing company and a United States industrial-tooling company. The queue identity provides no country, legal-name or product-scope discriminator.",
-      "attemptedUrls": ["https://itaindustrial.com.br/en/", "https://www.itaindustrial.com/"]
+      "attemptedUrls": [
+        "https://itaindustrial.com.br/en/",
+        "https://www.itaindustrial.com/"
+      ]
     },
     {
       "manufacturerId": "itarco",
       "status": "NON_MANUFACTURER_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "The raw display name is ITRACO. Its official website describes a trading and consulting company that supplies equipment from numerous manufacturers, not a manufacturer-owned product brand suitable for this publication gate.",
-      "attemptedUrls": ["https://www.itraco.gmbh/", "https://www.itraco.gmbh/products/"]
+      "attemptedUrls": [
+        "https://www.itraco.gmbh/",
+        "https://www.itraco.gmbh/products/"
+      ]
     },
     {
       "manufacturerId": "jackle",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The record is plausibly JÄCKLE Schweiß- und Schneidtechnik, but no reachable current manufacturer-owned website or explicit official-parent page was found. An old catalog hosted by a third party is insufficient for publication.",
-      "attemptedUrls": ["https://www.jaeckle-sst.de/", "https://www.jaeckle.de/"]
+      "attemptedUrls": [
+        "https://www.jaeckle-sst.de/",
+        "https://www.jaeckle.de/"
+      ]
     },
     {
       "manufacturerId": "jahns-hydraulik",
       "status": "DUPLICATE_CANONICAL_CANDIDATE",
       "checkedAt": "2026-08-24",
       "reason": "The official jahns-hydraulik.de imprint identifies the legal manufacturer as Jahns-Regulatoren GmbH. The separate jahns-regulatoren record is the safer canonical entity, so this duplicate candidate must not be published independently.",
-      "attemptedUrls": ["https://www.jahns-hydraulik.de/", "https://www.jahns-hydraulik.de/impressum.html"]
+      "attemptedUrls": [
+        "https://www.jahns-hydraulik.de/",
+        "https://www.jahns-hydraulik.de/impressum.html"
+      ]
     },
     {
       "manufacturerId": "jaron-technologies",
@@ -41,35 +53,48 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "JBC is a short generic identity used by multiple active businesses. JBC Soldering is a strong candidate, but the raw record contains no product, legal-name or country discriminator sufficient for automatic publication.",
-      "attemptedUrls": ["https://www.jbctools.com/"]
+      "attemptedUrls": [
+        "https://www.jbctools.com/"
+      ]
     },
     {
       "manufacturerId": "jentec",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "JENTEC is shared by unrelated active companies in power supplies, engineering, electronics and other industries. The raw identity cannot be tied safely to one manufacturer-owned source.",
-      "attemptedUrls": ["https://www.jentec.com.tw/", "https://www.jentec.co.jp/"]
+      "attemptedUrls": [
+        "https://www.jentec.com.tw/",
+        "https://www.jentec.co.jp/"
+      ]
     },
     {
       "manufacturerId": "jet",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "JET is used by several unrelated industrial brands and companies. The undifferentiated record lacks the product scope or legal identity required to select JET Tools or another candidate safely.",
-      "attemptedUrls": ["https://www.jettools.com/"]
+      "attemptedUrls": [
+        "https://www.jettools.com/"
+      ]
     },
     {
       "manufacturerId": "jms",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "JMS is used by multiple current industrial manufacturers, including engineering, temperature-sensor and packaging businesses. The raw record contains no reliable discriminator.",
-      "attemptedUrls": ["https://www.jms-se.com/", "https://www.jms-universal.com/"]
+      "attemptedUrls": [
+        "https://www.jms-se.com/",
+        "https://www.jms-universal.com/"
+      ]
     },
     {
       "manufacturerId": "jsw",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "JSW can refer to The Japan Steel Works, JSW Steel and other active industrial entities. The raw abbreviation provides no country, product or legal-name discriminator.",
-      "attemptedUrls": ["https://www.jsw.co.jp/en/", "https://www.jsw.in/"]
+      "attemptedUrls": [
+        "https://www.jsw.co.jp/en/",
+        "https://www.jsw.in/"
+      ]
     },
     {
       "manufacturerId": "jugoturbina-system-eureka",
@@ -83,7 +108,10 @@
       "status": "DUPLICATE_CANONICAL_CANDIDATE",
       "checkedAt": "2026-08-24",
       "reason": "Official evidence resolves JIHOSTROY to JIHOSTROJ a.s., already represented by the canonical jihostroj profile. The alternate spelling must not create a second manufacturer page.",
-      "attemptedUrls": ["https://www.jihostroj.com/", "https://www.jihostroj.com/en/"]
+      "attemptedUrls": [
+        "https://www.jihostroj.com/",
+        "https://www.jihostroj.com/en/"
+      ]
     }
   ],
   "profiles": [
@@ -91,845 +119,2324 @@
       "manufacturerId": "isg-pack",
       "officialName": "ISG PACK",
       "displayName": "ISG PACK",
-      "aliases": ["ISG PACK", "Imballaggi Service Group"],
+      "aliases": [
+        "ISG PACK",
+        "Imballaggi Service Group"
+      ],
       "formerNames": [],
       "officialWebsite": "https://en.isg-pack.com/?lang=en",
-      "officialDomains": ["isg-pack.com"],
+      "officialDomains": [
+        "isg-pack.com"
+      ],
       "country": "Italy",
       "headquarters": "Pomezia, Rome, Italy",
       "foundedYear": null,
       "parentCompany": "Imballaggi Service Group s.r.l.",
       "shortDescription": "ISG PACK provides industrial packaging machinery and integrated systems for wrapping, sealing, strapping and automated pallet handling.",
-      "fullDescription": ["ISG PACK is verified through its company-owned website as an Italian industrial-packaging identity operated by Imballaggi Service Group.", "Its documented range covers pallet wrappers, shrink-wrapping systems, carton sealers and erectors, strapping machines, vacuum and flow-pack equipment, and automated palletising solutions."],
-      "productCategories": ["Упаковочное оборудование", "Паллетные системы", "Промышленная автоматизация"],
-      "productFamilies": ["Pallet Wrappers", "Shrink Wrapping Systems", "Carton Sealers and Erectors", "Strapping Machines", "Vacuum Packaging", "Palletising Systems"],
+      "fullDescription": [
+        "ISG PACK is verified through its company-owned website as an Italian industrial-packaging identity operated by Imballaggi Service Group.",
+        "Its documented range covers pallet wrappers, shrink-wrapping systems, carton sealers and erectors, strapping machines, vacuum and flow-pack equipment, and automated palletising solutions."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Паллетные системы",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Pallet Wrappers",
+        "Shrink Wrapping Systems",
+        "Carton Sealers and Erectors",
+        "Strapping Machines",
+        "Vacuum Packaging",
+        "Palletising Systems"
+      ],
       "series": [],
-      "industries": ["Упаковочная промышленность", "Промышленное производство"],
+      "industries": [
+        "Упаковочная промышленность",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.isg-pack.com/en/product-brand/isgpack/"],
-      "sources": [{"sourceId":"wave86-isg-pack-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_INDUSTRIAL_PACKAGING_MACHINERY_SCOPE","url":"https://www.isg-pack.com/en/product-brand/isgpack/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.isg-pack.com/en/product-brand/isgpack/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-isg-pack-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_INDUSTRIAL_PACKAGING_MACHINERY_SCOPE",
+          "url": "https://www.isg-pack.com/en/product-brand/isgpack/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "isgev",
       "officialName": "ISGEV S.p.A.",
       "displayName": "ISGEV",
-      "aliases": ["ISGEV"],
+      "aliases": [
+        "ISGEV"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.isgev.com/en/",
-      "officialDomains": ["isgev.com"],
+      "officialDomains": [
+        "isgev.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1948,
       "parentCompany": null,
       "shortDescription": "ISGEV manufactures standard and application-specific electric motors for industrial, marine, rail and specialised-duty installations.",
-      "fullDescription": ["ISGEV is verified through its official website as an Italian electric-motor manufacturer established in 1948.", "The published portfolio includes three-phase asynchronous motors, brake motors, brushless motors, synchronous-reluctance designs, water-jacket-cooled motors and motors engineered for marine, rail or extreme-temperature service."],
-      "productCategories": ["Электродвигатели"],
-      "productFamilies": ["Three-Phase Asynchronous Motors", "Brake Motors", "Brushless Motors", "Synchronous Reluctance Motors", "Water-Jacket-Cooled Motors", "Marine and Rail Motors"],
+      "fullDescription": [
+        "ISGEV is verified through its official website as an Italian electric-motor manufacturer established in 1948.",
+        "The published portfolio includes three-phase asynchronous motors, brake motors, brushless motors, synchronous-reluctance designs, water-jacket-cooled motors and motors engineered for marine, rail or extreme-temperature service."
+      ],
+      "productCategories": [
+        "Электродвигатели"
+      ],
+      "productFamilies": [
+        "Three-Phase Asynchronous Motors",
+        "Brake Motors",
+        "Brushless Motors",
+        "Synchronous Reluctance Motors",
+        "Water-Jacket-Cooled Motors",
+        "Marine and Rail Motors"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Морская промышленность", "Железнодорожная промышленность"],
+      "industries": [
+        "Промышленное производство",
+        "Морская промышленность",
+        "Железнодорожная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.isgev.com/en/manufacturing-electric-motors", "https://www.isgev.com/en/documents-isgev"],
-      "sources": [{"sourceId":"wave86-isgev-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_ELECTRIC_MOTOR_SCOPE","url":"https://www.isgev.com/en/manufacturing-electric-motors","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.isgev.com/en/manufacturing-electric-motors",
+        "https://www.isgev.com/en/documents-isgev"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-isgev-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_AND_ELECTRIC_MOTOR_SCOPE",
+          "url": "https://www.isgev.com/en/manufacturing-electric-motors",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "ist-metz-holding",
       "officialName": "IST METZ GmbH & Co. KG",
       "displayName": "IST METZ",
-      "aliases": ["IST METZ HOLDING", "IST METZ"],
+      "aliases": [
+        "IST METZ HOLDING",
+        "IST METZ"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.ist-uv.com/en-us/",
-      "officialDomains": ["ist-uv.com"],
+      "officialDomains": [
+        "ist-uv.com"
+      ],
       "country": "Germany",
       "headquarters": "Nürtingen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "IST METZ develops UV, LED UV, infrared and excimer systems for industrial curing, drying and surface-treatment processes.",
-      "fullDescription": ["IST METZ is verified through its official website as a German developer and manufacturer of radiation-based process systems.", "Its product scope includes UV lamp and LED UV curing systems, warm-air and infrared drying systems, excimer technology, measuring devices, laboratory units and system components."],
-      "productCategories": ["Промышленное нагревательное оборудование", "Измерительное оборудование", "Промышленные машины"],
-      "productFamilies": ["UV Systems", "LED UV Systems", "EXIcure", "THERMOcure", "UV Analyzer", "Laboratory Units"],
-      "series": ["BLK", "MBS C", "MBS L", "LEDcure NX", "HANDcure", "SPOTcure"],
-      "industries": ["Полиграфическая промышленность", "Промышленное производство", "Электроника"],
-      "officialCatalogs": ["https://www.ist-uv.com/fileadmin/IST-UV/Unternehmen/Broschueren/IST_METZ_Gesamtproduktkatalog-2024_EN_web.pdf"],
-      "documentationSources": ["https://www.ist-uv.com/en-us/products", "https://www.ist-uv.com/en-us/company/downloads"],
-      "sources": [{"sourceId":"wave86-ist-metz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_UV_LED_IR_EXCIMER_PRODUCT_SCOPE","url":"https://www.ist-uv.com/en-us/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "IST METZ is verified through its official website as a German developer and manufacturer of radiation-based process systems.",
+        "Its product scope includes UV lamp and LED UV curing systems, warm-air and infrared drying systems, excimer technology, measuring devices, laboratory units and system components."
+      ],
+      "productCategories": [
+        "Промышленное нагревательное оборудование",
+        "Измерительное оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "UV Systems",
+        "LED UV Systems",
+        "EXIcure",
+        "THERMOcure",
+        "UV Analyzer",
+        "Laboratory Units"
+      ],
+      "series": [
+        "BLK",
+        "MBS C",
+        "MBS L",
+        "LEDcure NX",
+        "HANDcure",
+        "SPOTcure"
+      ],
+      "industries": [
+        "Полиграфическая промышленность",
+        "Промышленное производство",
+        "Электроника"
+      ],
+      "officialCatalogs": [
+        "https://www.ist-uv.com/fileadmin/IST-UV/Unternehmen/Broschueren/IST_METZ_Gesamtproduktkatalog-2024_EN_web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.ist-uv.com/en-us/products",
+        "https://www.ist-uv.com/en-us/company/downloads"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-ist-metz-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_UV_LED_IR_EXCIMER_PRODUCT_SCOPE",
+          "url": "https://www.ist-uv.com/en-us/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "isuzu",
       "officialName": "Isuzu Motors Limited",
       "displayName": "Isuzu",
-      "aliases": ["ISUZU", "Isuzu Motors"],
+      "aliases": [
+        "ISUZU",
+        "Isuzu Motors"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.isuzu.co.jp/world/",
-      "officialDomains": ["isuzu.co.jp"],
+      "officialDomains": [
+        "isuzu.co.jp"
+      ],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Isuzu develops commercial vehicles and industrial and marine diesel engines for transport, machinery and power-generation applications.",
-      "fullDescription": ["Isuzu is verified through Isuzu Motors Limited's global website as a Japanese commercial-vehicle and diesel-engine manufacturer.", "Its official product scope covers light-, medium- and heavy-duty trucks, buses, pickup vehicles, and low- and high-displacement diesel engines for industrial, marine and generator applications."],
-      "productCategories": ["Строительная и тяжёлая техника", "Промышленные машины"],
-      "productFamilies": ["Light-Duty Trucks", "Medium-Duty Trucks", "Heavy-Duty Trucks", "Buses", "Industrial Diesel Engines", "Marine Diesel Engines"],
-      "series": ["N-Series", "F-Series", "C&E Series", "ELF", "FORWARD", "GIGA", "GALA", "ERGA"],
-      "industries": ["Транспорт", "Строительство", "Сельское хозяйство", "Морская промышленность"],
+      "fullDescription": [
+        "Isuzu is verified through Isuzu Motors Limited's global website as a Japanese commercial-vehicle and diesel-engine manufacturer.",
+        "Its official product scope covers light-, medium- and heavy-duty trucks, buses, pickup vehicles, and low- and high-displacement diesel engines for industrial, marine and generator applications."
+      ],
+      "productCategories": [
+        "Строительная и тяжёлая техника",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Light-Duty Trucks",
+        "Medium-Duty Trucks",
+        "Heavy-Duty Trucks",
+        "Buses",
+        "Industrial Diesel Engines",
+        "Marine Diesel Engines"
+      ],
+      "series": [
+        "N-Series",
+        "F-Series",
+        "C&E Series",
+        "ELF",
+        "FORWARD",
+        "GIGA",
+        "GALA",
+        "ERGA"
+      ],
+      "industries": [
+        "Транспорт",
+        "Строительство",
+        "Сельское хозяйство",
+        "Морская промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.isuzu.co.jp/world/product/", "https://www.isuzu.co.jp/world/product/industrial/"],
-      "sources": [{"sourceId":"wave86-isuzu-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_COMMERCIAL_VEHICLE_DIESEL_ENGINE_SCOPE","url":"https://www.isuzu.co.jp/world/product/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.isuzu.co.jp/world/product/",
+        "https://www.isuzu.co.jp/world/product/industrial/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-isuzu-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_COMMERCIAL_VEHICLE_DIESEL_ENGINE_SCOPE",
+          "url": "https://www.isuzu.co.jp/world/product/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "italian-pack",
       "officialName": "Italianpack S.p.A.",
       "displayName": "Italianpack",
-      "aliases": ["ITALIAN PACK", "Italian Pack"],
+      "aliases": [
+        "ITALIAN PACK",
+        "Italian Pack"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.italianpack.com/en/",
-      "officialDomains": ["italianpack.com"],
+      "officialDomains": [
+        "italianpack.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1988,
       "parentCompany": "MULTIVAC Sepp Haggenmüller SE & Co. KG",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Italianpack manufactures tray-sealing and vacuum-packaging machinery with inline accessories for food and industrial packaging lines.",
-      "fullDescription": ["Italianpack is verified through its official website as an Italian packaging-machinery manufacturer established in 1988 and operating under the direction and coordination of MULTIVAC.", "Its documented range covers automatic, semi-automatic and manual tray sealers, vacuum-in-bag equipment, inline accessories and packaging technologies for skin, vacuum and modified-atmosphere processes."],
-      "productCategories": ["Упаковочное оборудование"],
-      "productFamilies": ["Tray Sealers", "Vacuum-in-Bag Machines", "Inline Accessories"],
-      "series": ["Artemis", "Argo", "Polaris", "Perseus"],
-      "industries": ["Пищевая промышленность", "Упаковочная промышленность"],
+      "fullDescription": [
+        "Italianpack is verified through its official website as an Italian packaging-machinery manufacturer established in 1988 and operating under the direction and coordination of MULTIVAC.",
+        "Its documented range covers automatic, semi-automatic and manual tray sealers, vacuum-in-bag equipment, inline accessories and packaging technologies for skin, vacuum and modified-atmosphere processes."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование"
+      ],
+      "productFamilies": [
+        "Tray Sealers",
+        "Vacuum-in-Bag Machines",
+        "Inline Accessories"
+      ],
+      "series": [
+        "Artemis",
+        "Argo",
+        "Polaris",
+        "Perseus"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Упаковочная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.italianpack.com/en/catalogue/category-product/tray-sealer/"],
-      "sources": [{"sourceId":"wave86-italianpack-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_PARENT_RELATION_AND_PACKAGING_MACHINE_SCOPE","url":"https://www.italianpack.com/en/catalogue/category-product/tray-sealer/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.italianpack.com/en/catalogue/category-product/tray-sealer/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-italianpack-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_PARENT_RELATION_AND_PACKAGING_MACHINE_SCOPE",
+          "url": "https://www.italianpack.com/en/catalogue/category-product/tray-sealer/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "italtecnica",
       "officialName": "Italtecnica S.r.l.",
       "displayName": "Italtecnica",
-      "aliases": ["ITALTECNICA"],
+      "aliases": [
+        "ITALTECNICA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.italtecnica.com/en/",
-      "officialDomains": ["italtecnica.com"],
+      "officialDomains": [
+        "italtecnica.com"
+      ],
       "country": "Italy",
       "headquarters": "Tribano, Padua, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Italtecnica develops electronic and electromechanical controls for pumps, including inverters, pressure and flow controllers, and pressure switches.",
-      "fullDescription": ["Italtecnica is verified through its official website as an Italian producer of pump-control and water-system components.", "Its published portfolio includes variable-frequency inverters, pressure and flow controllers, pressure switches and related accessories for water-management and pumping installations."],
-      "productCategories": ["Промышленные контроллеры", "Датчики давления и расхода", "Преобразователи частоты"],
-      "productFamilies": ["Inverters", "Pressure and Flow Controllers", "Pressure Switches", "Pump-Control Accessories"],
-      "series": ["Nettuno", "Sirio", "Brio", "Argo", "Spin", "PM", "PT", "PS"],
-      "industries": ["Водоснабжение и водоочистка", "Промышленное производство"],
-      "officialCatalogs": ["https://www.italtecnica.com/sites/default/files/Catalogo%20A5%202026_1.pdf"],
-      "documentationSources": ["https://www.italtecnica.com/en/content/products"],
-      "sources": [{"sourceId":"wave86-italtecnica-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_PUMP_CONTROL_PRODUCT_SCOPE","url":"https://www.italtecnica.com/en/content/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Italtecnica is verified through its official website as an Italian producer of pump-control and water-system components.",
+        "Its published portfolio includes variable-frequency inverters, pressure and flow controllers, pressure switches and related accessories for water-management and pumping installations."
+      ],
+      "productCategories": [
+        "Промышленные контроллеры",
+        "Датчики давления и расхода",
+        "Преобразователи частоты"
+      ],
+      "productFamilies": [
+        "Inverters",
+        "Pressure and Flow Controllers",
+        "Pressure Switches",
+        "Pump-Control Accessories"
+      ],
+      "series": [
+        "Nettuno",
+        "Sirio",
+        "Brio",
+        "Argo",
+        "Spin",
+        "PM",
+        "PT",
+        "PS"
+      ],
+      "industries": [
+        "Водоснабжение и водоочистка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.italtecnica.com/sites/default/files/Catalogo%20A5%202026_1.pdf"
+      ],
+      "documentationSources": [
+        "https://www.italtecnica.com/en/content/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-italtecnica-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_PUMP_CONTROL_PRODUCT_SCOPE",
+          "url": "https://www.italtecnica.com/en/content/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "italweber",
       "officialName": "Italweber S.p.A.",
       "displayName": "Italweber",
-      "aliases": ["ITALWEBER"],
+      "aliases": [
+        "ITALWEBER"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.italweber.it/en/",
-      "officialDomains": ["italweber.it"],
+      "officialDomains": [
+        "italweber.it"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 1960,
       "parentCompany": null,
       "shortDescription": "Italweber develops electrical-protection and connection products, including fuses, fuse holders, modular devices and photovoltaic protection equipment.",
-      "fullDescription": ["Italweber is verified through its official website as an Italian electrical-products manufacturer established in 1960.", "Its documented lines cover industrial fuses and fuse holders, photovoltaic protection and distribution, cable-connection products, modular circuit protection and control devices, and related electrical components."],
-      "productCategories": ["Электроэнергетическое оборудование", "Промышленные кабели и соединения"],
-      "productFamilies": ["Industrial Fuses", "Fuse Holders", "Photovoltaic Protection", "Cable Connection Systems", "Modular Protection and Control"],
-      "series": ["FUSINORM", "SOLAR", "CONNESSIONE", "ETIMAT", "MULTILINE"],
-      "industries": ["Электроэнергетика", "Промышленное производство", "Возобновляемая энергетика"],
-      "officialCatalogs": ["https://www.italweber.it/static/upload/cat/catalogo-generale-2026---fusinorm.pdf"],
-      "documentationSources": ["https://www.italweber.it/en/what-we-offer/lines.html"],
-      "sources": [{"sourceId":"wave86-italweber-lines","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_ELECTRICAL_PROTECTION_SCOPE","url":"https://www.italweber.it/en/what-we-offer/lines.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Italweber is verified through its official website as an Italian electrical-products manufacturer established in 1960.",
+        "Its documented lines cover industrial fuses and fuse holders, photovoltaic protection and distribution, cable-connection products, modular circuit protection and control devices, and related electrical components."
+      ],
+      "productCategories": [
+        "Электроэнергетическое оборудование",
+        "Промышленные кабели и соединения"
+      ],
+      "productFamilies": [
+        "Industrial Fuses",
+        "Fuse Holders",
+        "Photovoltaic Protection",
+        "Cable Connection Systems",
+        "Modular Protection and Control"
+      ],
+      "series": [
+        "FUSINORM",
+        "SOLAR",
+        "CONNESSIONE",
+        "ETIMAT",
+        "MULTILINE"
+      ],
+      "industries": [
+        "Электроэнергетика",
+        "Промышленное производство",
+        "Возобновляемая энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.italweber.it/static/upload/cat/catalogo-generale-2026---fusinorm.pdf"
+      ],
+      "documentationSources": [
+        "https://www.italweber.it/en/what-we-offer/lines.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-italweber-lines",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_AND_ELECTRICAL_PROTECTION_SCOPE",
+          "url": "https://www.italweber.it/en/what-we-offer/lines.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "italweber-elettra",
       "officialName": "Italweber Elettra S.r.l.",
       "displayName": "Italweber Elettra",
-      "aliases": ["ITALWEBER ELETTRA"],
+      "aliases": [
+        "ITALWEBER ELETTRA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.italweberelettra.it/en/index.html",
-      "officialDomains": ["italweberelettra.it"],
+      "officialDomains": [
+        "italweberelettra.it"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": 2006,
       "parentCompany": "Italweber S.p.A.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Italweber Elettra manufactures transformers, autotransformers, inductors and power-conditioning equipment for industrial and special applications.",
-      "fullDescription": ["Italweber Elettra is verified through its official website as an Italian electrical-equipment company created in 2006 to extend Italweber's industrial offering.", "Its documented portfolio includes low- and medium-voltage transformers, autotransformers, inductors and reactors, RFI filters, voltage stabilisers and uninterruptible power systems."],
-      "productCategories": ["Трансформаторы и электроэнергетическое оборудование"],
-      "productFamilies": ["Transformers", "Autotransformers", "Inductors and Reactors", "RFI Filters", "Voltage Stabilisers", "Uninterruptible Power Systems"],
+      "fullDescription": [
+        "Italweber Elettra is verified through its official website as an Italian electrical-equipment company created in 2006 to extend Italweber's industrial offering.",
+        "Its documented portfolio includes low- and medium-voltage transformers, autotransformers, inductors and reactors, RFI filters, voltage stabilisers and uninterruptible power systems."
+      ],
+      "productCategories": [
+        "Трансформаторы и электроэнергетическое оборудование"
+      ],
+      "productFamilies": [
+        "Transformers",
+        "Autotransformers",
+        "Inductors and Reactors",
+        "RFI Filters",
+        "Voltage Stabilisers",
+        "Uninterruptible Power Systems"
+      ],
       "series": [],
-      "industries": ["Электроэнергетика", "Промышленная автоматизация", "Железнодорожная промышленность", "Морская промышленность"],
-      "officialCatalogs": ["https://www.italweberelettra.it/static/upload/cat/catalogo-italweber-elettra-2025.pdf"],
-      "documentationSources": ["https://www.italweberelettra.it/en/index.html"],
-      "sources": [{"sourceId":"wave86-italweber-elettra-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_PARENT_RELATION_AND_TRANSFORMER_SCOPE","url":"https://www.italweberelettra.it/en/index.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Электроэнергетика",
+        "Промышленная автоматизация",
+        "Железнодорожная промышленность",
+        "Морская промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.italweberelettra.it/static/upload/cat/catalogo-italweber-elettra-2025.pdf"
+      ],
+      "documentationSources": [
+        "https://www.italweberelettra.it/en/index.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-italweber-elettra-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_PARENT_RELATION_AND_TRANSFORMER_SCOPE",
+          "url": "https://www.italweberelettra.it/en/index.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "itap",
       "officialName": "ITAP S.p.A.",
       "displayName": "ITAP",
-      "aliases": ["ITAP"],
+      "aliases": [
+        "ITAP"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.itap.it/",
-      "officialDomains": ["itap.it"],
+      "officialDomains": [
+        "itap.it"
+      ],
       "country": "Italy",
       "headquarters": "Lumezzane, Brescia, Italy",
       "foundedYear": 1972,
       "parentCompany": "Finpat S.p.A.",
       "shortDescription": "ITAP manufactures valves, fittings and distribution manifolds for plumbing, heating and water-system installations.",
-      "fullDescription": ["ITAP is verified through its official website as an Italian valve and fitting manufacturer established in 1972.", "Its documented range covers ball, check, foot, safety and pressure-reducing valves, pipe fittings and manifolds for building-services and water-distribution systems."],
-      "productCategories": ["Промышленная арматура", "Системы зданий"],
-      "productFamilies": ["Ball Valves", "Check and Foot Valves", "Pressure-Reducing Valves", "Safety Valves", "Fittings", "Distribution Manifolds"],
+      "fullDescription": [
+        "ITAP is verified through its official website as an Italian valve and fitting manufacturer established in 1972.",
+        "Its documented range covers ball, check, foot, safety and pressure-reducing valves, pipe fittings and manifolds for building-services and water-distribution systems."
+      ],
+      "productCategories": [
+        "Промышленная арматура",
+        "Системы зданий"
+      ],
+      "productFamilies": [
+        "Ball Valves",
+        "Check and Foot Valves",
+        "Pressure-Reducing Valves",
+        "Safety Valves",
+        "Fittings",
+        "Distribution Manifolds"
+      ],
       "series": [],
-      "industries": ["Водоснабжение и водоочистка", "Здания и HVAC"],
-      "officialCatalogs": ["https://www.itap.it/cat_files/pdf/EUROPA_CHECK_AND_FOOT_VALVES_en.pdf"],
-      "documentationSources": ["https://www.itap.it/"],
-      "sources": [{"sourceId":"wave86-itap-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_PARENT_AND_VALVE_FITTING_SCOPE","url":"https://www.itap.it/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Водоснабжение и водоочистка",
+        "Здания и HVAC"
+      ],
+      "officialCatalogs": [
+        "https://www.itap.it/cat_files/pdf/EUROPA_CHECK_AND_FOOT_VALVES_en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.itap.it/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-itap-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_PARENT_AND_VALVE_FITTING_SCOPE",
+          "url": "https://www.itap.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "itron",
       "officialName": "Itron, Inc.",
       "displayName": "Itron",
-      "aliases": ["ITRON"],
+      "aliases": [
+        "ITRON"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.itron.com/",
-      "officialDomains": ["itron.com"],
+      "officialDomains": [
+        "itron.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Itron provides electricity, gas, water and thermal metering together with communications, data-management and utility software.",
-      "fullDescription": ["Itron is verified through its official regional and global websites as a provider of utility measurement and management technology.", "The published portfolio includes smart meters, advanced metering infrastructure, network communications, data collection, analytics and software for electricity, gas, water and thermal-energy systems."],
-      "productCategories": ["Измерительное оборудование", "Промышленное программное обеспечение", "Промышленная автоматизация"],
-      "productFamilies": ["Electricity Metering", "Gas Metering", "Water Metering", "Thermal Metering", "Advanced Metering Infrastructure", "Utility Software"],
+      "fullDescription": [
+        "Itron is verified through its official regional and global websites as a provider of utility measurement and management technology.",
+        "The published portfolio includes smart meters, advanced metering infrastructure, network communications, data collection, analytics and software for electricity, gas, water and thermal-energy systems."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Промышленное программное обеспечение",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Electricity Metering",
+        "Gas Metering",
+        "Water Metering",
+        "Thermal Metering",
+        "Advanced Metering Infrastructure",
+        "Utility Software"
+      ],
       "series": [],
-      "industries": ["Электроэнергетика", "Водоснабжение и водоочистка", "Газовая промышленность"],
+      "industries": [
+        "Электроэнергетика",
+        "Водоснабжение и водоочистка",
+        "Газовая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://na.itron.com/categories/smart-residential-metering-1", "https://apac.itron.com/what-we-offer/metering-solutions/water"],
-      "sources": [{"sourceId":"wave86-itron-metering","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COMPANY_IDENTITY_AND_MULTI_UTILITY_METERING_SCOPE","url":"https://apac.itron.com/web/guest/what-we-offer/metering-solutions/electricity","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://na.itron.com/categories/smart-residential-metering-1",
+        "https://apac.itron.com/what-we-offer/metering-solutions/water"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-itron-metering",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "COMPANY_IDENTITY_AND_MULTI_UTILITY_METERING_SCOPE",
+          "url": "https://apac.itron.com/web/guest/what-we-offer/metering-solutions/electricity",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "itt",
       "officialName": "ITT Inc.",
       "displayName": "ITT",
-      "aliases": ["ITT", "ITT Industrial Process"],
+      "aliases": [
+        "ITT",
+        "ITT Industrial Process"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.itt.com/",
-      "officialDomains": ["itt.com", "ittindustrialprocess.com"],
+      "officialDomains": [
+        "itt.com",
+        "ittindustrialprocess.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "ITT's Industrial Process portfolio covers engineered pumps, valves and related systems for demanding fluid-handling applications.",
-      "fullDescription": ["ITT is verified through its corporate and Industrial Process websites as an industrial-technology manufacturer with an engineered fluid-handling portfolio.", "Its official Industrial Process scope includes centrifugal and positive-displacement pumps, valves, motors, water-treatment equipment and plant-monitoring or optimisation systems under brands including Goulds Pumps, Bornemann, Rheinhütte and Habonim."],
-      "productCategories": ["Промышленные насосы", "Промышленные клапаны", "Водоподготовка"],
-      "productFamilies": ["Centrifugal Pumps", "Positive-Displacement Pumps", "Industrial Valves", "Water-Treatment Systems", "Plant Monitoring Systems"],
-      "series": ["Goulds Pumps", "Bornemann", "Rheinhütte", "Habonim", "Engineered Valves"],
-      "industries": ["Химическая промышленность", "Нефтегазовая промышленность", "Энергетика", "Водоснабжение и водоочистка"],
+      "fullDescription": [
+        "ITT is verified through its corporate and Industrial Process websites as an industrial-technology manufacturer with an engineered fluid-handling portfolio.",
+        "Its official Industrial Process scope includes centrifugal and positive-displacement pumps, valves, motors, water-treatment equipment and plant-monitoring or optimisation systems under brands including Goulds Pumps, Bornemann, Rheinhütte and Habonim."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленные клапаны",
+        "Водоподготовка"
+      ],
+      "productFamilies": [
+        "Centrifugal Pumps",
+        "Positive-Displacement Pumps",
+        "Industrial Valves",
+        "Water-Treatment Systems",
+        "Plant Monitoring Systems"
+      ],
+      "series": [
+        "Goulds Pumps",
+        "Bornemann",
+        "Rheinhütte",
+        "Habonim",
+        "Engineered Valves"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика",
+        "Водоснабжение и водоочистка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://ittindustrialprocess.com/"],
-      "sources": [{"sourceId":"wave86-itt-industrial-process","tier":"A","type":"OFFICIAL_DIVISION_AND_PRODUCTS","scope":"CORPORATE_IDENTITY_AND_PUMP_VALVE_PROCESS_SCOPE","url":"https://ittindustrialprocess.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://ittindustrialprocess.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-itt-industrial-process",
+          "tier": "A",
+          "type": "OFFICIAL_DIVISION_AND_PRODUCTS",
+          "scope": "CORPORATE_IDENTITY_AND_PUMP_VALVE_PROCESS_SCOPE",
+          "url": "https://ittindustrialprocess.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "iwis-antriebssysteme",
       "officialName": "iwis antriebssysteme GmbH & Co. KG",
       "displayName": "iwis drive systems",
-      "aliases": ["IWIS ANTRIEBSSYSTEME", "iwis", "iwis drive systems"],
+      "aliases": [
+        "IWIS ANTRIEBSSYSTEME",
+        "iwis",
+        "iwis drive systems"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.iwis.com/drivesystems",
-      "officialDomains": ["iwis.com"],
+      "officialDomains": [
+        "iwis.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "iwis Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "iwis drive systems develops precision roller chains, conveyor chains and monitored chain-drive systems for industrial machinery.",
-      "fullDescription": ["iwis drive systems is verified through the iwis Group's official website as its industrial-chain and drive-system business.", "The published range includes precision roller chains, conveyor chains, special and maintenance-free chains, corrosion-resistant variants, sprockets, lubrication equipment and chain-condition monitoring."],
-      "productCategories": ["Промышленные цепи", "Конвейерные системы"],
-      "productFamilies": ["Precision Roller Chains", "Conveyor Chains", "Maintenance-Free Chains", "Corrosion-Resistant Chains", "Chain Monitoring", "Lubrication Systems"],
-      "series": ["JWIS", "ELITE", "FLEXON", "EUROCHAIN", "MEGAlife", "b.dry", "b.triton", "CCM-S"],
-      "industries": ["Промышленное производство", "Автомобильная промышленность", "Упаковочная промышленность"],
+      "fullDescription": [
+        "iwis drive systems is verified through the iwis Group's official website as its industrial-chain and drive-system business.",
+        "The published range includes precision roller chains, conveyor chains, special and maintenance-free chains, corrosion-resistant variants, sprockets, lubrication equipment and chain-condition monitoring."
+      ],
+      "productCategories": [
+        "Промышленные цепи",
+        "Конвейерные системы"
+      ],
+      "productFamilies": [
+        "Precision Roller Chains",
+        "Conveyor Chains",
+        "Maintenance-Free Chains",
+        "Corrosion-Resistant Chains",
+        "Chain Monitoring",
+        "Lubrication Systems"
+      ],
+      "series": [
+        "JWIS",
+        "ELITE",
+        "FLEXON",
+        "EUROCHAIN",
+        "MEGAlife",
+        "b.dry",
+        "b.triton",
+        "CCM-S"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность",
+        "Упаковочная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.iwis.com/de-de/produkte-services/industrielle-antriebssysteme"],
-      "sources": [{"sourceId":"wave86-iwis-drive-systems","tier":"A","type":"OFFICIAL_DIVISION_AND_PRODUCTS","scope":"BRAND_IDENTITY_PARENT_RELATION_AND_INDUSTRIAL_CHAIN_SCOPE","url":"https://www.iwis.com/drivesystems","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.iwis.com/de-de/produkte-services/industrielle-antriebssysteme"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-iwis-drive-systems",
+          "tier": "A",
+          "type": "OFFICIAL_DIVISION_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_PARENT_RELATION_AND_INDUSTRIAL_CHAIN_SCOPE",
+          "url": "https://www.iwis.com/drivesystems",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "ixys",
       "officialName": "IXYS: A Littelfuse Technology",
       "displayName": "IXYS",
-      "aliases": ["IXYS", "IXYS Corporation"],
+      "aliases": [
+        "IXYS",
+        "IXYS Corporation"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.littelfuse.com/en/products/power-semiconductors-control-ics",
-      "officialDomains": ["littelfuse.com"],
+      "officialDomains": [
+        "littelfuse.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Littelfuse, Inc.",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "IXYS is a Littelfuse technology identity for power semiconductors, control integrated circuits and solid-state switching products.",
-      "fullDescription": ["IXYS is verified through Littelfuse's official product literature as an acquired power-semiconductor technology brand.", "The documented range includes power MOSFETs, IGBTs, thyristors, rectifier diodes, power modules, gate drivers, control ICs and OptoMOS solid-state relays."],
-      "productCategories": ["Электроэнергетическое оборудование", "Промышленные реле"],
-      "productFamilies": ["Power MOSFETs", "IGBTs", "Thyristors", "Rectifier Diodes", "Power Modules", "Gate Drivers", "OptoMOS Relays"],
+      "fullDescription": [
+        "IXYS is verified through Littelfuse's official product literature as an acquired power-semiconductor technology brand.",
+        "The documented range includes power MOSFETs, IGBTs, thyristors, rectifier diodes, power modules, gate drivers, control ICs and OptoMOS solid-state relays."
+      ],
+      "productCategories": [
+        "Электроэнергетическое оборудование",
+        "Промышленные реле"
+      ],
+      "productFamilies": [
+        "Power MOSFETs",
+        "IGBTs",
+        "Thyristors",
+        "Rectifier Diodes",
+        "Power Modules",
+        "Gate Drivers",
+        "OptoMOS Relays"
+      ],
       "series": [],
-      "industries": ["Электроника", "Промышленное производство", "Электроэнергетика"],
-      "officialCatalogs": ["https://www.littelfuse.com/assetdocs/power-semiconductor-and-control-ic-selection-guide?assetguid=7191ba28-bf5c-4af4-8d8b-35f4ea03c371"],
-      "documentationSources": ["https://www.littelfuse.com/en/products/power-semiconductors-control-ics/solid-state-relays/optomos-relays"],
-      "sources": [{"sourceId":"wave86-ixys-littelfuse","tier":"A","type":"OFFICIAL_PARENT_CATALOG","scope":"ACQUIRED_BRAND_IDENTITY_PARENT_RELATION_AND_POWER_SEMICONDUCTOR_SCOPE","url":"https://www.littelfuse.com/assetdocs/power-semiconductor-and-control-ic-selection-guide?assetguid=7191ba28-bf5c-4af4-8d8b-35f4ea03c371","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Электроника",
+        "Промышленное производство",
+        "Электроэнергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.littelfuse.com/assetdocs/power-semiconductor-and-control-ic-selection-guide?assetguid=7191ba28-bf5c-4af4-8d8b-35f4ea03c371"
+      ],
+      "documentationSources": [
+        "https://www.littelfuse.com/en/products/power-semiconductors-control-ics/solid-state-relays/optomos-relays"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-ixys-littelfuse",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_CATALOG",
+          "scope": "ACQUIRED_BRAND_IDENTITY_PARENT_RELATION_AND_POWER_SEMICONDUCTOR_SCOPE",
+          "url": "https://www.littelfuse.com/assetdocs/power-semiconductor-and-control-ic-selection-guide?assetguid=7191ba28-bf5c-4af4-8d8b-35f4ea03c371",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jahns-regulatoren",
       "officialName": "Jahns-Regulatoren GmbH",
       "displayName": "Jahns-Regulatoren",
-      "aliases": ["JAHNS REGULATOREN", "Jahns Hydraulik"],
+      "aliases": [
+        "JAHNS REGULATOREN",
+        "Jahns Hydraulik"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jahns-hydraulik.de/",
-      "officialDomains": ["jahns-hydraulik.de"],
+      "officialDomains": [
+        "jahns-hydraulik.de"
+      ],
       "country": "Germany",
       "headquarters": "Offenbach am Main, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Jahns-Regulatoren develops hydraulic synchronisation, drive and process-engineering components, including flow dividers, motors and pumps.",
-      "fullDescription": ["Jahns-Regulatoren is verified through its official website and legal imprint as a German hydraulic-equipment manufacturer.", "Its official scope covers synchronising solutions, hydraulic drive components and process-engineering products, including gear-flow dividers, radial-piston motors and centrifugal pumps."],
-      "productCategories": ["Гидравлическое оборудование", "Промышленные насосы", "Промышленные приводы"],
-      "productFamilies": ["Gear Flow Dividers", "Radial Piston Motors", "Centrifugal Pumps", "Hydraulic Synchronising Systems"],
+      "fullDescription": [
+        "Jahns-Regulatoren is verified through its official website and legal imprint as a German hydraulic-equipment manufacturer.",
+        "Its official scope covers synchronising solutions, hydraulic drive components and process-engineering products, including gear-flow dividers, radial-piston motors and centrifugal pumps."
+      ],
+      "productCategories": [
+        "Гидравлическое оборудование",
+        "Промышленные насосы",
+        "Промышленные приводы"
+      ],
+      "productFamilies": [
+        "Gear Flow Dividers",
+        "Radial Piston Motors",
+        "Centrifugal Pumps",
+        "Hydraulic Synchronising Systems"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Машиностроение"],
+      "industries": [
+        "Промышленное производство",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.jahns-hydraulik.de/pumps/?lang=en", "https://www.jahns-hydraulik.de/impressum.html"],
-      "sources": [{"sourceId":"wave86-jahns-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"LEGAL_IDENTITY_LOCATION_AND_HYDRAULIC_PRODUCT_SCOPE","url":"https://www.jahns-hydraulik.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.jahns-hydraulik.de/pumps/?lang=en",
+        "https://www.jahns-hydraulik.de/impressum.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jahns-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_LOCATION_AND_HYDRAULIC_PRODUCT_SCOPE",
+          "url": "https://www.jahns-hydraulik.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jakob",
       "officialName": "JAKOB Antriebstechnik GmbH",
       "displayName": "JAKOB Antriebstechnik",
-      "aliases": ["JAKOB", "JAKOB ANTRIEBSTECHNIK GMBH"],
+      "aliases": [
+        "JAKOB",
+        "JAKOB ANTRIEBSTECHNIK GMBH"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jakobantriebstechnik.de/en/",
-      "officialDomains": ["jakobantriebstechnik.de"],
+      "officialDomains": [
+        "jakobantriebstechnik.de"
+      ],
       "country": "Germany",
       "headquarters": "Kleinwallstadt, Germany",
       "foundedYear": 1971,
       "parentCompany": null,
       "shortDescription": "JAKOB Antriebstechnik manufactures precision couplings, clamping systems and vacuum components for machinery and motion-control applications.",
-      "fullDescription": ["JAKOB Antriebstechnik is verified through its official website as a German manufacturer established in 1971.", "The documented range covers metal-bellows, elastomer, servo and safety couplings, mechanical and hydromechanical clamping elements, force amplifiers and vacuum components."],
-      "productCategories": ["Промышленные муфты", "Вакуумное оборудование", "Крепежные и монтажные системы"],
-      "productFamilies": ["Metal Bellows Couplings", "Elastomer Couplings", "Safety Couplings", "Clamping Elements", "Force Amplifiers", "Vacuum Components"],
+      "fullDescription": [
+        "JAKOB Antriebstechnik is verified through its official website as a German manufacturer established in 1971.",
+        "The documented range covers metal-bellows, elastomer, servo and safety couplings, mechanical and hydromechanical clamping elements, force amplifiers and vacuum components."
+      ],
+      "productCategories": [
+        "Промышленные муфты",
+        "Вакуумное оборудование",
+        "Крепежные и монтажные системы"
+      ],
+      "productFamilies": [
+        "Metal Bellows Couplings",
+        "Elastomer Couplings",
+        "Safety Couplings",
+        "Clamping Elements",
+        "Force Amplifiers",
+        "Vacuum Components"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Станкостроение", "Промышленная автоматизация"],
+      "industries": [
+        "Промышленное производство",
+        "Станкостроение",
+        "Промышленная автоматизация"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.jakobantriebstechnik.de/en/"],
-      "sources": [{"sourceId":"wave86-jakob-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_COUPLING_CLAMPING_SCOPE","url":"https://www.jakobantriebstechnik.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.jakobantriebstechnik.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jakob-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_COUPLING_CLAMPING_SCOPE",
+          "url": "https://www.jakobantriebstechnik.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "janitza",
       "officialName": "Janitza electronics GmbH",
       "displayName": "Janitza",
-      "aliases": ["JANITZA", "Janitza electronics"],
+      "aliases": [
+        "JANITZA",
+        "Janitza electronics"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.janitza.com/",
-      "officialDomains": ["janitza.com"],
+      "officialDomains": [
+        "janitza.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Janitza develops power-quality measurement, energy monitoring and residual-current monitoring systems with supporting software.",
-      "fullDescription": ["Janitza is verified through its official product guide as a German electrical measurement and energy-management manufacturer.", "Its documented portfolio includes universal measurement devices, power-quality analyzers, energy meters, residual-current monitoring, data loggers and energy-management or grid-visualisation software."],
-      "productCategories": ["Измерительное оборудование", "Электроэнергетическое оборудование", "Промышленное программное обеспечение"],
-      "productFamilies": ["Power Quality Analyzers", "Energy Meters", "Residual Current Monitoring", "Data Loggers", "Energy Management Software"],
-      "series": ["UMG", "GridVis"],
-      "industries": ["Электроэнергетика", "Промышленное производство", "Здания и HVAC"],
-      "officialCatalogs": ["https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf"],
-      "documentationSources": ["https://www.janitza.com/"],
-      "sources": [{"sourceId":"wave86-janitza-guide","tier":"A","type":"OFFICIAL_PRODUCT_GUIDE","scope":"MANUFACTURER_IDENTITY_AND_POWER_QUALITY_ENERGY_MONITORING_SCOPE","url":"https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Janitza is verified through its official product guide as a German electrical measurement and energy-management manufacturer.",
+        "Its documented portfolio includes universal measurement devices, power-quality analyzers, energy meters, residual-current monitoring, data loggers and energy-management or grid-visualisation software."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Электроэнергетическое оборудование",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Power Quality Analyzers",
+        "Energy Meters",
+        "Residual Current Monitoring",
+        "Data Loggers",
+        "Energy Management Software"
+      ],
+      "series": [
+        "UMG",
+        "GridVis"
+      ],
+      "industries": [
+        "Электроэнергетика",
+        "Промышленное производство",
+        "Здания и HVAC"
+      ],
+      "officialCatalogs": [
+        "https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf"
+      ],
+      "documentationSources": [
+        "https://www.janitza.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-janitza-guide",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_GUIDE",
+          "scope": "MANUFACTURER_IDENTITY_AND_POWER_QUALITY_ENERGY_MONITORING_SCOPE",
+          "url": "https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jaure-kop-flex",
       "officialName": "Jaure and Kop-Flex",
       "displayName": "Jaure / Kop-Flex",
-      "aliases": ["JAURE (KOP-FLEX)", "Jaure", "Kop-Flex"],
+      "aliases": [
+        "JAURE (KOP-FLEX)",
+        "Jaure",
+        "Kop-Flex"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.rexnord.com/products/couplings",
-      "officialDomains": ["rexnord.com"],
+      "officialDomains": [
+        "rexnord.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Regal Rexnord Corporation",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Jaure and Kop-Flex are Regal Rexnord coupling brands for industrial power-transmission and high-performance rotating-equipment applications.",
-      "fullDescription": ["Jaure and Kop-Flex are verified through Regal Rexnord's official brand directory as distinct coupling identities within its process and motion-control portfolio.", "Jaure covers flexible couplings and transmission elements, while Kop-Flex covers high-performance disc, diaphragm and gear couplings for industrial rotating equipment."],
-      "productCategories": ["Промышленные муфты"],
-      "productFamilies": ["Flexible Couplings", "Gear Couplings", "Disc Couplings", "Diaphragm Couplings", "Transmission Elements"],
+      "fullDescription": [
+        "Jaure and Kop-Flex are verified through Regal Rexnord's official brand directory as distinct coupling identities within its process and motion-control portfolio.",
+        "Jaure covers flexible couplings and transmission elements, while Kop-Flex covers high-performance disc, diaphragm and gear couplings for industrial rotating equipment."
+      ],
+      "productCategories": [
+        "Промышленные муфты"
+      ],
+      "productFamilies": [
+        "Flexible Couplings",
+        "Gear Couplings",
+        "Disc Couplings",
+        "Diaphragm Couplings",
+        "Transmission Elements"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Энергетика", "Нефтегазовая промышленность"],
+      "industries": [
+        "Промышленное производство",
+        "Энергетика",
+        "Нефтегазовая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.rexnord.com/brands/process-motion-control-brands"],
-      "sources": [{"sourceId":"wave86-jaure-kopflex-parent","tier":"A","type":"OFFICIAL_PARENT_BRAND_DIRECTORY","scope":"GROUP_BRAND_IDENTITY_PARENT_RELATION_AND_COUPLING_SCOPE","url":"https://www.rexnord.com/brands/process-motion-control-brands","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.rexnord.com/brands/process-motion-control-brands"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jaure-kopflex-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_DIRECTORY",
+          "scope": "GROUP_BRAND_IDENTITY_PARENT_RELATION_AND_COUPLING_SCOPE",
+          "url": "https://www.rexnord.com/brands/process-motion-control-brands",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jean-muller",
       "officialName": "JEAN MÜLLER GmbH Elektrotechnische Fabrik",
       "displayName": "JEAN MÜLLER",
-      "aliases": ["JEAN MULLER", "Jean Müller"],
+      "aliases": [
+        "JEAN MULLER",
+        "Jean Müller"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jeanmueller.com/",
-      "officialDomains": ["jeanmueller.com"],
+      "officialDomains": [
+        "jeanmueller.com"
+      ],
       "country": "Germany",
-      "headquarters": null,
+      "headquarters": "Eltville am Rhein, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "JEAN MÜLLER manufactures low-voltage switchgear, fuse systems, power-distribution equipment and energy-data components.",
-      "fullDescription": ["JEAN MÜLLER is verified through its official product directory as a German electrical-equipment manufacturer.", "Its published portfolio includes fuse-switch disconnectors, low-voltage fuses, distribution enclosures and boards, terminals, busbar-mounted devices and energy-data collection systems."],
-      "productCategories": ["Электроэнергетическое оборудование", "Измерительное оборудование"],
-      "productFamilies": ["Fuse-Switch Disconnectors", "Low-Voltage Fuses", "Distribution Enclosures", "Terminals", "Energy-Data Systems"],
-      "series": ["TOKEO", "SASILplus", "SL", "KETO", "PLVario-II"],
-      "industries": ["Электроэнергетика", "Промышленное производство", "Здания и HVAC"],
+      "fullDescription": [
+        "JEAN MÜLLER is verified through its official product directory as a German electrical-equipment manufacturer.",
+        "Its published portfolio includes fuse-switch disconnectors, low-voltage fuses, distribution enclosures and boards, terminals, busbar-mounted devices and energy-data collection systems."
+      ],
+      "productCategories": [
+        "Электроэнергетическое оборудование",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Fuse-Switch Disconnectors",
+        "Low-Voltage Fuses",
+        "Distribution Enclosures",
+        "Terminals",
+        "Energy-Data Systems"
+      ],
+      "series": [
+        "TOKEO",
+        "SASILplus",
+        "SL",
+        "KETO",
+        "PLVario-II"
+      ],
+      "industries": [
+        "Электроэнергетика",
+        "Промышленное производство",
+        "Здания и HVAC"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.jeanmueller.com/products/"],
-      "sources": [{"sourceId":"wave86-jean-mueller-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_LOW_VOLTAGE_SWITCHGEAR_SCOPE","url":"https://www.jeanmueller.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.jeanmueller.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jean-mueller-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_LOW_VOLTAGE_SWITCHGEAR_SCOPE",
+          "url": "https://www.jeanmueller.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-jean-muller-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.jeanmueller.com/imprint/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "jeol",
       "officialName": "JEOL Ltd.",
       "displayName": "JEOL",
-      "aliases": ["JEOL"],
+      "aliases": [
+        "JEOL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jeol.com/",
-      "officialDomains": ["jeol.com"],
+      "officialDomains": [
+        "jeol.com"
+      ],
       "country": "Japan",
       "headquarters": null,
       "foundedYear": 1949,
       "parentCompany": null,
       "shortDescription": "JEOL develops electron microscopes, analytical instruments, semiconductor systems and electron-beam manufacturing equipment.",
-      "fullDescription": ["JEOL is verified through its official website as a Japanese scientific-instrument manufacturer established in 1949.", "Its documented portfolio includes transmission and scanning electron microscopes, surface-analysis systems, NMR and ESR instruments, mass spectrometers, semiconductor lithography and inspection equipment, and electron-beam metal additive-manufacturing systems."],
-      "productCategories": ["Лабораторное и аналитическое оборудование", "Измерительное оборудование", "Промышленные машины"],
-      "productFamilies": ["Electron Microscopes", "Surface Analysis", "NMR and ESR", "Mass Spectrometry", "Semiconductor Equipment", "Electron-Beam Metal Additive Manufacturing"],
+      "fullDescription": [
+        "JEOL is verified through its official website as a Japanese scientific-instrument manufacturer established in 1949.",
+        "Its documented portfolio includes transmission and scanning electron microscopes, surface-analysis systems, NMR and ESR instruments, mass spectrometers, semiconductor lithography and inspection equipment, and electron-beam metal additive-manufacturing systems."
+      ],
+      "productCategories": [
+        "Лабораторное и аналитическое оборудование",
+        "Измерительное оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Electron Microscopes",
+        "Surface Analysis",
+        "NMR and ESR",
+        "Mass Spectrometry",
+        "Semiconductor Equipment",
+        "Electron-Beam Metal Additive Manufacturing"
+      ],
       "series": [],
-      "industries": ["Исследования и лаборатории", "Электроника и полупроводники", "Медицинская техника", "Промышленное производство"],
+      "industries": [
+        "Исследования и лаборатории",
+        "Электроника и полупроводники",
+        "Медицинская техника",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.jeol.com/products/"],
-      "sources": [{"sourceId":"wave86-jeol-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_SCIENTIFIC_INSTRUMENT_SCOPE","url":"https://www.jeol.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.jeol.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jeol-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_AND_SCIENTIFIC_INSTRUMENT_SCOPE",
+          "url": "https://www.jeol.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jetter",
       "officialName": "Jetter AG",
       "displayName": "Jetter",
-      "aliases": ["JETTER"],
+      "aliases": [
+        "JETTER"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jetter.de/en/",
-      "officialDomains": ["jetter.de"],
+      "officialDomains": [
+        "jetter.de"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Jetter develops automation systems for industrial and mobile machinery, including controllers, HMIs, drives, I/O and software.",
-      "fullDescription": ["Jetter is verified through its official website and technical documentation as a German automation-technology manufacturer.", "Its documented scope covers programmable controllers, mobile controllers, operator panels, servo drives, motors, distributed I/O and engineering software for machine and vehicle automation."],
-      "productCategories": ["Промышленная автоматизация", "Промышленные контроллеры", "Промышленные приводы", "Промышленное программное обеспечение"],
-      "productFamilies": ["Industrial Controllers", "Mobile Controllers", "HMIs", "Servo Drives", "Distributed I/O", "Engineering Software"],
-      "series": ["JetControl"],
-      "industries": ["Промышленная автоматизация", "Мобильная техника", "Машиностроение"],
+      "fullDescription": [
+        "Jetter is verified through its official website and technical documentation as a German automation-technology manufacturer.",
+        "Its documented scope covers programmable controllers, mobile controllers, operator panels, servo drives, motors, distributed I/O and engineering software for machine and vehicle automation."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Промышленные контроллеры",
+        "Промышленные приводы",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Industrial Controllers",
+        "Mobile Controllers",
+        "HMIs",
+        "Servo Drives",
+        "Distributed I/O",
+        "Engineering Software"
+      ],
+      "series": [
+        "JetControl"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Мобильная техника",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.jetter.de/en/", "https://www.jetter.de/fileadmin/benutzerdaten/jetter-de/download-english/01_Controllers/jc-24x/documents/user_manual/jc-24x_ba_3202_manual.pdf"],
-      "sources": [{"sourceId":"wave86-jetter-official","tier":"A","type":"OFFICIAL_COMPANY_AND_DOCUMENTATION","scope":"MANUFACTURER_IDENTITY_AND_INDUSTRIAL_MOBILE_AUTOMATION_SCOPE","url":"https://www.jetter.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.jetter.de/en/",
+        "https://www.jetter.de/fileadmin/benutzerdaten/jetter-de/download-english/01_Controllers/jc-24x/documents/user_manual/jc-24x_ba_3202_manual.pdf"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jetter-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_DOCUMENTATION",
+          "scope": "MANUFACTURER_IDENTITY_AND_INDUSTRIAL_MOBILE_AUTOMATION_SCOPE",
+          "url": "https://www.jetter.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jevi",
       "officialName": "JEVI A/S",
       "displayName": "JEVI",
-      "aliases": ["JEVI"],
+      "aliases": [
+        "JEVI"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jevi.com/",
-      "officialDomains": ["jevi.com"],
+      "officialDomains": [
+        "jevi.com"
+      ],
       "country": "Denmark",
       "headquarters": "Vejle, Denmark",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "JEVI develops electric heating systems, heaters and regulation equipment for industrial processes and demanding environments.",
-      "fullDescription": ["JEVI is verified through its official website and product catalogue as a Danish industrial electric-heating manufacturer.", "Its documented portfolio covers heaters for air, gases, liquids, solids and rooms, explosion-protected heating equipment, frost-protection systems, immersion heaters and temperature-regulation equipment."],
-      "productCategories": ["Промышленное нагревательное оборудование", "Промышленные регуляторы"],
-      "productFamilies": ["Air and Gas Heaters", "Liquid Heaters", "Explosion-Protected Heaters", "Frost Protection", "Immersion Heaters", "Temperature Regulation"],
+      "fullDescription": [
+        "JEVI is verified through its official website and product catalogue as a Danish industrial electric-heating manufacturer.",
+        "Its documented portfolio covers heaters for air, gases, liquids, solids and rooms, explosion-protected heating equipment, frost-protection systems, immersion heaters and temperature-regulation equipment."
+      ],
+      "productCategories": [
+        "Промышленное нагревательное оборудование",
+        "Промышленные регуляторы"
+      ],
+      "productFamilies": [
+        "Air and Gas Heaters",
+        "Liquid Heaters",
+        "Explosion-Protected Heaters",
+        "Frost Protection",
+        "Immersion Heaters",
+        "Temperature Regulation"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Нефтегазовая промышленность", "Морская промышленность", "Энергетика"],
-      "officialCatalogs": ["https://www.jevi.com/download/18.77610af9179fd71e6c11e75/1685100074541/Product%20catalogue.pdf"],
-      "documentationSources": ["https://www.jevi.com/"],
-      "sources": [{"sourceId":"wave86-jevi-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_ELECTRIC_HEATING_SCOPE","url":"https://www.jevi.com/download/18.77610af9179fd71e6c11e75/1685100074541/Product%20catalogue.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Нефтегазовая промышленность",
+        "Морская промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.jevi.com/download/18.77610af9179fd71e6c11e75/1685100074541/Product%20catalogue.pdf"
+      ],
+      "documentationSources": [
+        "https://www.jevi.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jevi-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_ELECTRIC_HEATING_SCOPE",
+          "url": "https://www.jevi.com/download/18.77610af9179fd71e6c11e75/1685100074541/Product%20catalogue.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jiangxi-sop",
       "officialName": "Jiangxi SOP Precision Intelligent Manufacturing Technology Co., Ltd.",
       "displayName": "Jiangxi SOP",
-      "aliases": ["JIANGXI SOP", "SOP Sensors"],
+      "aliases": [
+        "JIANGXI SOP",
+        "SOP Sensors"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.sopsensors.com/",
-      "officialDomains": ["sopsensors.com"],
+      "officialDomains": [
+        "sopsensors.com"
+      ],
       "country": "China",
       "headquarters": "Ganzhou, Jiangxi, China",
       "foundedYear": 2018,
       "parentCompany": null,
       "shortDescription": "Jiangxi SOP manufactures load cells and position, displacement, pressure and torque sensors for industrial measurement systems.",
-      "fullDescription": ["Jiangxi SOP is verified through its official website as a Chinese sensor manufacturer established in 2018.", "Its published range includes load cells, linear-displacement and LVDT sensors, draw-wire sensors, pressure sensors, torque sensors, transmitters and related measurement accessories."],
-      "productCategories": ["Датчики", "Измерительное оборудование"],
-      "productFamilies": ["Load Cells", "Linear Displacement Sensors", "LVDT Sensors", "Draw-Wire Sensors", "Pressure Sensors", "Torque Sensors"],
+      "fullDescription": [
+        "Jiangxi SOP is verified through its official website as a Chinese sensor manufacturer established in 2018.",
+        "Its published range includes load cells, linear-displacement and LVDT sensors, draw-wire sensors, pressure sensors, torque sensors, transmitters and related measurement accessories."
+      ],
+      "productCategories": [
+        "Датчики",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Load Cells",
+        "Linear Displacement Sensors",
+        "LVDT Sensors",
+        "Draw-Wire Sensors",
+        "Pressure Sensors",
+        "Torque Sensors"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Промышленная автоматизация"],
+      "industries": [
+        "Промышленное производство",
+        "Промышленная автоматизация"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.sopsensors.com/"],
-      "sources": [{"sourceId":"wave86-jiangxi-sop-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_SENSOR_SCOPE","url":"https://www.sopsensors.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.sopsensors.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jiangxi-sop-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_SENSOR_SCOPE",
+          "url": "https://www.sopsensors.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "joa",
       "officialName": "Curt G. Joa, Inc.",
       "displayName": "JOA",
-      "aliases": ["JOA", "Curt G. Joa"],
+      "aliases": [
+        "JOA",
+        "Curt G. Joa"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.joa.com/",
-      "officialDomains": ["joa.com"],
+      "officialDomains": [
+        "joa.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "JOA engineers converting machinery and automation for disposable hygiene, absorbent and medical-product manufacturing.",
-      "fullDescription": ["JOA is verified through Curt G. Joa's official website as a United States machinery manufacturer serving high-speed converting applications.", "Its documented scope covers production systems for disposable hygiene, absorbent and medical products, including web-handling, material-application, cutting, placement, assembly and packaging processes."],
-      "productCategories": ["Промышленные машины", "Промышленная автоматизация"],
-      "productFamilies": ["Disposable Hygiene Converting Systems", "Absorbent Product Machinery", "Medical Product Machinery", "Web Handling", "Process Automation"],
+      "fullDescription": [
+        "JOA is verified through Curt G. Joa's official website as a United States machinery manufacturer serving high-speed converting applications.",
+        "Its documented scope covers production systems for disposable hygiene, absorbent and medical products, including web-handling, material-application, cutting, placement, assembly and packaging processes."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Disposable Hygiene Converting Systems",
+        "Absorbent Product Machinery",
+        "Medical Product Machinery",
+        "Web Handling",
+        "Process Automation"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Медицинская техника", "Упаковочная промышленность"],
+      "industries": [
+        "Промышленное производство",
+        "Медицинская техника",
+        "Упаковочная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.joa.com/"],
-      "sources": [{"sourceId":"wave86-joa-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_AND_HYGIENE_MEDICAL_CONVERTING_MACHINERY_SCOPE","url":"https://www.joa.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.joa.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-joa-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_AND_HYGIENE_MEDICAL_CONVERTING_MACHINERY_SCOPE",
+          "url": "https://www.joa.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "joh-clouth-gmbh",
       "officialName": "Joh. Clouth GmbH",
       "displayName": "Joh. Clouth",
-      "aliases": ["JOH. CLOUTH GMBH", "Clouth"],
+      "aliases": [
+        "JOH. CLOUTH GMBH",
+        "Clouth"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.clouth.com/en/",
-      "officialDomains": ["clouth.com"],
+      "officialDomains": [
+        "clouth.com"
+      ],
       "country": "Germany",
       "headquarters": "Hückeswagen, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Joh. Clouth manufactures doctor, coater and creping blades for paper-production and industrial web-processing systems.",
-      "fullDescription": ["Joh. Clouth is verified through its official website as a German manufacturer of blade systems for paper and process machinery.", "The official range includes metal and composite doctor blades, coater blades and creping blades engineered for cleaning, metering and surface-treatment tasks in paper-production equipment."],
-      "productCategories": ["Бумагоделательное оборудование", "Промышленные инструменты"],
-      "productFamilies": ["Doctor Blades", "Coater Blades", "Creping Blades", "Metal Blades", "Composite Blades"],
+      "fullDescription": [
+        "Joh. Clouth is verified through its official website as a German manufacturer of blade systems for paper and process machinery.",
+        "The official range includes metal and composite doctor blades, coater blades and creping blades engineered for cleaning, metering and surface-treatment tasks in paper-production equipment."
+      ],
+      "productCategories": [
+        "Бумагоделательное оборудование",
+        "Промышленные инструменты"
+      ],
+      "productFamilies": [
+        "Doctor Blades",
+        "Coater Blades",
+        "Creping Blades",
+        "Metal Blades",
+        "Composite Blades"
+      ],
       "series": [],
-      "industries": ["Целлюлозно-бумажная промышленность", "Промышленное производство"],
+      "industries": [
+        "Целлюлозно-бумажная промышленность",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.clouth.com/en/products/doctor-blades-coater-blades-creping-blades/metal/clouth-dt-steel-en"],
-      "sources": [{"sourceId":"wave86-clouth-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_PAPER_MACHINE_BLADE_SCOPE","url":"https://www.clouth.com/en/products/doctor-blades-coater-blades-creping-blades/metal/clouth-dt-steel-en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.clouth.com/en/products/doctor-blades-coater-blades-creping-blades/metal/clouth-dt-steel-en"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-clouth-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_PAPER_MACHINE_BLADE_SCOPE",
+          "url": "https://www.clouth.com/en/products/doctor-blades-coater-blades-creping-blades/metal/clouth-dt-steel-en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "john-deere",
       "officialName": "Deere & Company",
       "displayName": "John Deere",
-      "aliases": ["JOHN DEERE", "Deere"],
+      "aliases": [
+        "JOHN DEERE",
+        "Deere"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.deere.com/en/",
-      "officialDomains": ["deere.com"],
+      "officialDomains": [
+        "deere.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "John Deere manufactures agricultural, construction and forestry machinery together with engines, drivetrain components and precision technology.",
-      "fullDescription": ["John Deere is verified through Deere & Company's official website as a machinery and technology manufacturer.", "Its published equipment range includes tractors, harvesting machines, loaders, excavators, dozers, graders, forestry machines and compact equipment, supported by engine, drivetrain and precision-technology products."],
-      "productCategories": ["Строительная и тяжёлая техника", "Промышленная автоматизация"],
-      "productFamilies": ["Tractors", "Harvesting Equipment", "Excavators", "Dozers", "Loaders", "Forestry Equipment", "Industrial Engines", "Precision Technology"],
+      "fullDescription": [
+        "John Deere is verified through Deere & Company's official website as a machinery and technology manufacturer.",
+        "Its published equipment range includes tractors, harvesting machines, loaders, excavators, dozers, graders, forestry machines and compact equipment, supported by engine, drivetrain and precision-technology products."
+      ],
+      "productCategories": [
+        "Строительная и тяжёлая техника",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Tractors",
+        "Harvesting Equipment",
+        "Excavators",
+        "Dozers",
+        "Loaders",
+        "Forestry Equipment",
+        "Industrial Engines",
+        "Precision Technology"
+      ],
       "series": [],
-      "industries": ["Сельское хозяйство", "Строительство", "Лесная промышленность"],
+      "industries": [
+        "Сельское хозяйство",
+        "Строительство",
+        "Лесная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.deere.com/en/equipment/"],
-      "sources": [{"sourceId":"wave86-john-deere-equipment","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_AGRICULTURAL_CONSTRUCTION_FORESTRY_SCOPE","url":"https://www.deere.com/en/equipment/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.deere.com/en/equipment/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-john-deere-equipment",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_AGRICULTURAL_CONSTRUCTION_FORESTRY_SCOPE",
+          "url": "https://www.deere.com/en/equipment/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "john-zink-hamworthy-combustion",
       "officialName": "John Zink Hamworthy Combustion",
       "displayName": "John Zink Hamworthy Combustion",
-      "aliases": ["JOHN ZINK HAMWORTHY COMBUSTION", "John Zink", "Hamworthy Combustion"],
+      "aliases": [
+        "JOHN ZINK HAMWORTHY COMBUSTION",
+        "John Zink",
+        "Hamworthy Combustion"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.hamworthy-combustion.com/",
-      "officialDomains": ["hamworthy-combustion.com"],
+      "officialDomains": [
+        "hamworthy-combustion.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Koch Engineered Solutions",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "John Zink Hamworthy Combustion develops burners, flare systems, thermal oxidizers and emissions-control equipment for industrial combustion processes.",
-      "fullDescription": ["John Zink Hamworthy Combustion is verified through its official website as a Koch Engineered Solutions combustion-technology business.", "Its documented portfolio covers process and boiler burners, flare systems, flare-gas recovery, vapor-control and recovery systems, thermal oxidizers, flue-gas treatment, air heaters and landfill or biogas solutions."],
-      "productCategories": ["Промышленные горелки и системы сжигания", "Тепловое оборудование", "Оборудование очистки газов"],
-      "productFamilies": ["Process Burners", "Boiler Burners", "Flare Systems", "Flare Gas Recovery", "Vapor Control", "Thermal Oxidizers", "Flue Gas Treatment"],
+      "fullDescription": [
+        "John Zink Hamworthy Combustion is verified through its official website as a Koch Engineered Solutions combustion-technology business.",
+        "Its documented portfolio covers process and boiler burners, flare systems, flare-gas recovery, vapor-control and recovery systems, thermal oxidizers, flue-gas treatment, air heaters and landfill or biogas solutions."
+      ],
+      "productCategories": [
+        "Промышленные горелки и системы сжигания",
+        "Тепловое оборудование",
+        "Оборудование очистки газов"
+      ],
+      "productFamilies": [
+        "Process Burners",
+        "Boiler Burners",
+        "Flare Systems",
+        "Flare Gas Recovery",
+        "Vapor Control",
+        "Thermal Oxidizers",
+        "Flue Gas Treatment"
+      ],
       "series": [],
-      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика", "Промышленное производство"],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://hamworthy-combustion.com/products-applications/", "https://www.hamworthy-combustion.com/about/"],
-      "sources": [{"sourceId":"wave86-john-zink-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_RELATION_AND_COMBUSTION_EMISSIONS_SCOPE","url":"https://hamworthy-combustion.com/products-applications/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://hamworthy-combustion.com/products-applications/",
+        "https://www.hamworthy-combustion.com/about/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-john-zink-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_PARENT_RELATION_AND_COMBUSTION_EMISSIONS_SCOPE",
+          "url": "https://hamworthy-combustion.com/products-applications/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jokab-safety",
       "officialName": "ABB Jokab Safety",
       "displayName": "Jokab Safety",
-      "aliases": ["JOKAB SAFETY", "ABB Jokab Safety"],
+      "aliases": [
+        "JOKAB SAFETY",
+        "ABB Jokab Safety"
+      ],
       "formerNames": [],
       "officialWebsite": "https://new.abb.com/low-voltage/products/safety-products",
-      "officialDomains": ["abb.com"],
+      "officialDomains": [
+        "abb.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "ABB Ltd",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Jokab Safety is an ABB machine-safety identity covering safety controllers, relays, sensors, light protection and operator-protection devices.",
-      "fullDescription": ["Jokab Safety is verified through ABB's official product literature as a machine-safety identity within ABB's low-voltage portfolio.", "The documented range includes safety PLCs and controllers, safety relays, light curtains and grids, safety switches and sensors, emergency stops, control devices and perimeter guarding."],
-      "productCategories": ["Промышленная безопасность", "Промышленные контроллеры", "Датчики"],
-      "productFamilies": ["Safety Controllers", "Safety Relays", "Light Curtains and Grids", "Safety Switches", "Emergency Stops", "Perimeter Guarding"],
-      "series": ["Pluto", "Vital", "Sentry", "Orion", "Eden"],
-      "industries": ["Промышленная автоматизация", "Промышленное производство"],
-      "officialCatalogs": ["https://new.abb.com/docs/librariesprovider15/default-document-library/jokab-easy-reference-oct-2019.pdf?sfvrsn=a3287616_2"],
-      "documentationSources": ["https://new.abb.com/low-voltage/products/safety-products"],
-      "sources": [{"sourceId":"wave86-jokab-abb","tier":"A","type":"OFFICIAL_PARENT_CATALOG","scope":"ACQUIRED_BRAND_IDENTITY_PARENT_RELATION_AND_MACHINE_SAFETY_SCOPE","url":"https://new.abb.com/docs/librariesprovider15/default-document-library/jokab-easy-reference-oct-2019.pdf?sfvrsn=a3287616_2","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Jokab Safety is verified through ABB's official product literature as a machine-safety identity within ABB's low-voltage portfolio.",
+        "The documented range includes safety PLCs and controllers, safety relays, light curtains and grids, safety switches and sensors, emergency stops, control devices and perimeter guarding."
+      ],
+      "productCategories": [
+        "Промышленная безопасность",
+        "Промышленные контроллеры",
+        "Датчики"
+      ],
+      "productFamilies": [
+        "Safety Controllers",
+        "Safety Relays",
+        "Light Curtains and Grids",
+        "Safety Switches",
+        "Emergency Stops",
+        "Perimeter Guarding"
+      ],
+      "series": [
+        "Pluto",
+        "Vital",
+        "Sentry",
+        "Orion",
+        "Eden"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://new.abb.com/docs/librariesprovider15/default-document-library/jokab-easy-reference-oct-2019.pdf?sfvrsn=a3287616_2"
+      ],
+      "documentationSources": [
+        "https://new.abb.com/low-voltage/products/safety-products"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jokab-abb",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_CATALOG",
+          "scope": "ACQUIRED_BRAND_IDENTITY_PARENT_RELATION_AND_MACHINE_SAFETY_SCOPE",
+          "url": "https://new.abb.com/docs/librariesprovider15/default-document-library/jokab-easy-reference-oct-2019.pdf?sfvrsn=a3287616_2",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "jola-spezialschalter",
       "officialName": "Jola Spezialschalter GmbH & Co. KG",
       "displayName": "Jola Spezialschalter",
-      "aliases": ["JOLA SPEZIALSCHALTER", "Jola"],
+      "aliases": [
+        "JOLA SPEZIALSCHALTER",
+        "Jola"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jola-info.de/en/",
-      "officialDomains": ["jola-info.de"],
+      "officialDomains": [
+        "jola-info.de"
+      ],
       "country": "Germany",
       "headquarters": "Lambrecht, Germany",
       "foundedYear": 1952,
       "parentCompany": null,
       "shortDescription": "Jola Spezialschalter develops level-control, leakage-detection and limit-switch equipment for industrial and building applications.",
-      "fullDescription": ["Jola Spezialschalter is verified through its official website as a German switch and monitoring-device manufacturer established in 1952.", "Its documented product areas include level controllers, float switches, leakage detectors, electrode relays, limit switches and monitoring devices for tanks, floors and cooling-ceiling systems."],
-      "productCategories": ["Датчики", "Промышленные контроллеры", "Измерительное оборудование"],
-      "productFamilies": ["Level Controllers", "Float Switches", "Leakage Detectors", "Electrode Relays", "Limit Switches", "Cooling-Ceiling Monitoring"],
+      "fullDescription": [
+        "Jola Spezialschalter is verified through its official website as a German switch and monitoring-device manufacturer established in 1952.",
+        "Its documented product areas include level controllers, float switches, leakage detectors, electrode relays, limit switches and monitoring devices for tanks, floors and cooling-ceiling systems."
+      ],
+      "productCategories": [
+        "Датчики",
+        "Промышленные контроллеры",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Level Controllers",
+        "Float Switches",
+        "Leakage Detectors",
+        "Electrode Relays",
+        "Limit Switches",
+        "Cooling-Ceiling Monitoring"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Водоснабжение и водоочистка", "Здания и HVAC"],
+      "industries": [
+        "Промышленное производство",
+        "Водоснабжение и водоочистка",
+        "Здания и HVAC"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.jola-info.de/en/"],
-      "sources": [{"sourceId":"wave86-jola-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_LEVEL_LEAKAGE_SWITCH_SCOPE","url":"https://www.jola-info.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.jola-info.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jola-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_LEVEL_LEAKAGE_SWITCH_SCOPE",
+          "url": "https://www.jola-info.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "junker",
       "officialName": "Erwin Junker Maschinenfabrik GmbH",
       "displayName": "JUNKER",
-      "aliases": ["JUNKER GROUP", "Junker"],
+      "aliases": [
+        "JUNKER GROUP",
+        "Junker"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.junker-group.com/",
-      "officialDomains": ["junker-group.com"],
+      "officialDomains": [
+        "junker-group.com"
+      ],
       "country": "Germany",
-      "headquarters": null,
+      "headquarters": "Nordrach, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "JUNKER develops precision grinding machines and production systems for cylindrical, non-cylindrical, centerless and tool-grinding processes.",
-      "fullDescription": ["JUNKER is verified through the JUNKER Group's official website as a German grinding-machine manufacturer.", "Its product directory covers cylindrical, non-cylindrical, worm-shaft, centerless, double-disc, cutting-tool, profile and cut-off grinding machines, including automated production configurations."],
-      "productCategories": ["Металлообрабатывающие станки", "Промышленная фильтрация"],
-      "productFamilies": ["Cylindrical Grinding Machines", "Non-Cylindrical Grinding Machines", "Centerless Grinding Machines", "Double-Disc Grinding Machines", "Cutting-Tool Grinding Machines", "Filtration Systems"],
-      "series": ["JUMAT", "TAPOMAT", "FLUTEMAT", "JUMAXIMAT", "GRINDSTAR", "SATURN", "JUNICOR"],
-      "industries": ["Промышленное производство", "Автомобильная промышленность", "Энергетика"],
-      "officialCatalogs": ["https://www.junker-group.com/fileadmin/user_upload/Prospekte/JUNKER_GROUP_IMAGE_en.pdf"],
-      "documentationSources": ["https://www.junker-group.com/grinding-machines/product-category/"],
-      "sources": [{"sourceId":"wave86-junker-grinding","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_GRINDING_MACHINE_SCOPE","url":"https://www.junker-group.com/grinding-machines/product-category/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "JUNKER is verified through the JUNKER Group's official website as a German grinding-machine manufacturer.",
+        "Its product directory covers cylindrical, non-cylindrical, worm-shaft, centerless, double-disc, cutting-tool, profile and cut-off grinding machines, including automated production configurations."
+      ],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Промышленная фильтрация"
+      ],
+      "productFamilies": [
+        "Cylindrical Grinding Machines",
+        "Non-Cylindrical Grinding Machines",
+        "Centerless Grinding Machines",
+        "Double-Disc Grinding Machines",
+        "Cutting-Tool Grinding Machines",
+        "Filtration Systems"
+      ],
+      "series": [
+        "JUMAT",
+        "TAPOMAT",
+        "FLUTEMAT",
+        "JUMAXIMAT",
+        "GRINDSTAR",
+        "SATURN",
+        "JUNICOR"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.junker-group.com/fileadmin/user_upload/Prospekte/JUNKER_GROUP_IMAGE_en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.junker-group.com/grinding-machines/product-category/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-junker-grinding",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_GRINDING_MACHINE_SCOPE",
+          "url": "https://www.junker-group.com/grinding-machines/product-category/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-junker-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.junker-usa.com/imprint/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "jvl",
       "officialName": "JVL Industri Elektronik A/S",
       "displayName": "JVL",
-      "aliases": ["JVL", "JVL Industri Elektronik"],
+      "aliases": [
+        "JVL",
+        "JVL Industri Elektronik"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.jvl.dk/",
-      "officialDomains": ["jvl.dk"],
+      "officialDomains": [
+        "jvl.dk"
+      ],
       "country": "Denmark",
       "headquarters": "Birkerød, Denmark",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "JVL develops integrated servo and stepper motors, motion controllers, drives and linear-motion products for industrial automation.",
-      "fullDescription": ["JVL is verified through its official website as a Danish motion-control manufacturer.", "Its product program includes integrated servo and stepper motors, standalone motors, drivers and controllers, linear motors and actuators, HMIs, gear units, encoders, brakes, power supplies and configuration software."],
-      "productCategories": ["Электродвигатели", "Промышленные приводы", "Промышленные контроллеры", "Линейные системы"],
-      "productFamilies": ["Integrated Servo Motors", "Integrated Stepper Motors", "Motor Controllers", "Linear Motors and Actuators", "HMIs", "Gear Units", "Motion Software"],
-      "series": ["MAC", "ServoStep", "QuickStep", "MIS", "HLMT"],
-      "industries": ["Промышленная автоматизация", "Машиностроение"],
-      "officialCatalogs": ["https://www.jvl.dk/files/pdf-1/brochures/lc0022gb.pdf"],
-      "documentationSources": ["https://www.jvl.dk/321/range-of-servo-stepper-motor", "https://www.jvl.dk/doc/menu/65/about-jvl"],
-      "sources": [{"sourceId":"wave86-jvl-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_MOTION_CONTROL_SCOPE","url":"https://www.jvl.dk/321/range-of-servo-stepper-motor","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "JVL is verified through its official website as a Danish motion-control manufacturer.",
+        "Its product program includes integrated servo and stepper motors, standalone motors, drivers and controllers, linear motors and actuators, HMIs, gear units, encoders, brakes, power supplies and configuration software."
+      ],
+      "productCategories": [
+        "Электродвигатели",
+        "Промышленные приводы",
+        "Промышленные контроллеры",
+        "Линейные системы"
+      ],
+      "productFamilies": [
+        "Integrated Servo Motors",
+        "Integrated Stepper Motors",
+        "Motor Controllers",
+        "Linear Motors and Actuators",
+        "HMIs",
+        "Gear Units",
+        "Motion Software"
+      ],
+      "series": [
+        "MAC",
+        "ServoStep",
+        "QuickStep",
+        "MIS",
+        "HLMT"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://www.jvl.dk/files/pdf-1/brochures/lc0022gb.pdf"
+      ],
+      "documentationSources": [
+        "https://www.jvl.dk/321/range-of-servo-stepper-motor",
+        "https://www.jvl.dk/doc/menu/65/about-jvl"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-jvl-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_MOTION_CONTROL_SCOPE",
+          "url": "https://www.jvl.dk/321/range-of-servo-stepper-motor",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "kaibel-sieber",
       "officialName": "Kaibel & Sieber GmbH Maschinen- und Anlagenbau",
       "displayName": "Kaibel & Sieber",
-      "aliases": ["KAIBEL & SIEBER", "Kaibel und Sieber"],
+      "aliases": [
+        "KAIBEL & SIEBER",
+        "Kaibel und Sieber"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.kaibel-sieber.de/",
-      "officialDomains": ["kaibel-sieber.de"],
+      "officialDomains": [
+        "kaibel-sieber.de"
+      ],
       "country": "Germany",
       "headquarters": "Worms, Germany",
       "foundedYear": 1814,
       "parentCompany": null,
       "shortDescription": "Kaibel & Sieber engineers machinery and complete production lines for processing glass-wool and stone-wool insulation materials.",
-      "fullDescription": ["Kaibel & Sieber is verified through its official website as a German machinery and plant-engineering company with roots dating to 1814.", "Its documented range covers winding, packaging, compressing and stacking systems, saws and cutting lines, laminating and marking equipment, conveying and cooling systems, and custom machinery for insulation-material production."],
-      "productCategories": ["Промышленные машины", "Упаковочное оборудование", "Конвейерные системы"],
-      "productFamilies": ["Insulation Processing Lines", "Winding and Packaging Systems", "Saws and Cutting Lines", "Laminating Equipment", "Conveying Systems", "Custom Machinery"],
+      "fullDescription": [
+        "Kaibel & Sieber is verified through its official website as a German machinery and plant-engineering company with roots dating to 1814.",
+        "Its documented range covers winding, packaging, compressing and stacking systems, saws and cutting lines, laminating and marking equipment, conveying and cooling systems, and custom machinery for insulation-material production."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Упаковочное оборудование",
+        "Конвейерные системы"
+      ],
+      "productFamilies": [
+        "Insulation Processing Lines",
+        "Winding and Packaging Systems",
+        "Saws and Cutting Lines",
+        "Laminating Equipment",
+        "Conveying Systems",
+        "Custom Machinery"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Строительные материалы"],
-      "officialCatalogs": ["https://www.kaibel-sieber.de/media/pages/unternehmen/historie/27ecd2a8a1-1407233573/kaibel-sieber-200-jahre-festschrift.pdf"],
-      "documentationSources": ["https://www.kaibel-sieber.de/produkte", "https://www.kaibel-sieber.de/unternehmen"],
-      "sources": [{"sourceId":"wave86-kaibel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_FOUNDATION_AND_INSULATION_MACHINERY_SCOPE","url":"https://www.kaibel-sieber.de/produkte","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Строительные материалы"
+      ],
+      "officialCatalogs": [
+        "https://www.kaibel-sieber.de/media/pages/unternehmen/historie/27ecd2a8a1-1407233573/kaibel-sieber-200-jahre-festschrift.pdf"
+      ],
+      "documentationSources": [
+        "https://www.kaibel-sieber.de/produkte",
+        "https://www.kaibel-sieber.de/unternehmen"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kaibel-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_FOUNDATION_AND_INSULATION_MACHINERY_SCOPE",
+          "url": "https://www.kaibel-sieber.de/produkte",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "kaiser-motoren",
       "officialName": "Kaiser-Motoren GmbH",
       "displayName": "Kaiser Motoren",
-      "aliases": ["KAISER MOTOREN", "Kaiser-Motoren"],
+      "aliases": [
+        "KAISER MOTOREN",
+        "Kaiser-Motoren"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.kaiser-motoren.de/en/",
-      "officialDomains": ["kaiser-motoren.de"],
+      "officialDomains": [
+        "kaiser-motoren.de"
+      ],
       "country": "Germany",
-      "headquarters": null,
+      "headquarters": "Neumünster, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kaiser Motoren manufactures customised electric motors for high-speed, water-cooled, stainless-steel and reluctance-motor applications.",
-      "fullDescription": ["Kaiser-Motoren is verified through its official website and product brochure as a German manufacturer of application-specific electric motors.", "The documented range includes customised and high-speed motors, permanent-magnet and conventional reluctance motors, stainless-steel motors and water-cooled electric motors."],
-      "productCategories": ["Электродвигатели"],
-      "productFamilies": ["Customised Electric Motors", "High-Speed Motors", "Reluctance Motors", "Stainless-Steel Motors", "Water-Cooled Motors"],
+      "fullDescription": [
+        "Kaiser-Motoren is verified through its official website and product brochure as a German manufacturer of application-specific electric motors.",
+        "The documented range includes customised and high-speed motors, permanent-magnet and conventional reluctance motors, stainless-steel motors and water-cooled electric motors."
+      ],
+      "productCategories": [
+        "Электродвигатели"
+      ],
+      "productFamilies": [
+        "Customised Electric Motors",
+        "High-Speed Motors",
+        "Reluctance Motors",
+        "Stainless-Steel Motors",
+        "Water-Cooled Motors"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Пищевая промышленность", "Железнодорожная промышленность"],
-      "officialCatalogs": ["https://www.kaiser-motoren.de/en/downloads/Product%20brochure.pdf"],
-      "documentationSources": ["https://www.kaiser-motoren.de/en/products.htm"],
-      "sources": [{"sourceId":"wave86-kaiser-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_CUSTOM_ELECTRIC_MOTOR_SCOPE","url":"https://www.kaiser-motoren.de/en/products.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Железнодорожная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.kaiser-motoren.de/en/downloads/Product%20brochure.pdf"
+      ],
+      "documentationSources": [
+        "https://www.kaiser-motoren.de/en/products.htm"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kaiser-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_CUSTOM_ELECTRIC_MOTOR_SCOPE",
+          "url": "https://www.kaiser-motoren.de/en/products.htm",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-kaiser-motoren-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.kaiser-motoren.de/en/imprint.htm",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "kaisitong-valve",
       "officialName": "Kaisitong Valve Co., Ltd.",
       "displayName": "Kaisitong Valve",
-      "aliases": ["KAISITONG VALVE", "KST Valve"],
+      "aliases": [
+        "KAISITONG VALVE",
+        "KST Valve"
+      ],
       "formerNames": [],
       "officialWebsite": "https://en.kstvalve.com/",
-      "officialDomains": ["kstvalve.com"],
+      "officialDomains": [
+        "kstvalve.com"
+      ],
       "country": "China",
       "headquarters": "Quzhou, Zhejiang, China",
       "foundedYear": 1988,
       "parentCompany": null,
       "shortDescription": "Kaisitong Valve manufactures industrial ball, gate, globe, check, plug and butterfly valves for pipeline applications.",
-      "fullDescription": ["Kaisitong Valve is verified through its official website as a Chinese industrial-valve manufacturer established in 1988.", "Its documented portfolio includes ball, gate, globe, check, plug, butterfly, cryogenic, copper and forged-steel valves produced for multiple international pipeline standards."],
-      "productCategories": ["Промышленная арматура"],
-      "productFamilies": ["Ball Valves", "Gate Valves", "Globe Valves", "Check Valves", "Plug Valves", "Butterfly Valves", "Cryogenic Valves"],
+      "fullDescription": [
+        "Kaisitong Valve is verified through its official website as a Chinese industrial-valve manufacturer established in 1988.",
+        "Its documented portfolio includes ball, gate, globe, check, plug, butterfly, cryogenic, copper and forged-steel valves produced for multiple international pipeline standards."
+      ],
+      "productCategories": [
+        "Промышленная арматура"
+      ],
+      "productFamilies": [
+        "Ball Valves",
+        "Gate Valves",
+        "Globe Valves",
+        "Check Valves",
+        "Plug Valves",
+        "Butterfly Valves",
+        "Cryogenic Valves"
+      ],
       "series": [],
-      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Электроэнергетика", "Металлургия"],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Электроэнергетика",
+        "Металлургия"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://en.kstvalve.com/"],
-      "sources": [{"sourceId":"wave86-kaisitong-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_INDUSTRIAL_VALVE_SCOPE","url":"https://en.kstvalve.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://en.kstvalve.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kaisitong-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_INDUSTRIAL_VALVE_SCOPE",
+          "url": "https://en.kstvalve.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "kalmar",
       "officialName": "Kalmar Corporation",
       "displayName": "Kalmar",
-      "aliases": ["KALMAR", "Kalmar Global"],
+      "aliases": [
+        "KALMAR",
+        "Kalmar Global"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.kalmarglobal.com/",
-      "officialDomains": ["kalmarglobal.com"],
+      "officialDomains": [
+        "kalmarglobal.com"
+      ],
       "country": "Finland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kalmar develops heavy material-handling equipment and automation for ports, terminals, distribution and industrial logistics.",
-      "fullDescription": ["Kalmar is verified through its official website and annual report as a Finnish cargo- and material-handling equipment manufacturer.", "Its equipment portfolio includes reachstackers, forklift trucks, empty-container handlers, terminal tractors, straddle carriers and crane spreaders, with electric variants and automation solutions across the range."],
-      "productCategories": ["Погрузочная и складская техника", "Промышленная автоматизация"],
-      "productFamilies": ["Reachstackers", "Forklift Trucks", "Empty Container Handlers", "Terminal Tractors", "Straddle Carriers", "Crane Spreaders"],
-      "series": ["Gloria", "Eco Reachstacker", "Electric Reachstacker", "Essential Range"],
-      "industries": ["Транспорт и логистика", "Промышленное производство"],
-      "officialCatalogs": ["https://www.kalmarglobal.com/49329d/globalassets/ir/annual-reports/2024/en_kalmar_annual_report_2024.pdf"],
-      "documentationSources": ["https://www.kalmarglobal.com/equipment/reachstackers/", "https://www.kalmarglobal.com/equipment/terminal-tractors"],
-      "sources": [{"sourceId":"wave86-kalmar-equipment","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_HEAVY_MATERIAL_HANDLING_SCOPE","url":"https://new.kalmarglobal.com/equipment/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Kalmar is verified through its official website and annual report as a Finnish cargo- and material-handling equipment manufacturer.",
+        "Its equipment portfolio includes reachstackers, forklift trucks, empty-container handlers, terminal tractors, straddle carriers and crane spreaders, with electric variants and automation solutions across the range."
+      ],
+      "productCategories": [
+        "Погрузочная и складская техника",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Reachstackers",
+        "Forklift Trucks",
+        "Empty Container Handlers",
+        "Terminal Tractors",
+        "Straddle Carriers",
+        "Crane Spreaders"
+      ],
+      "series": [
+        "Gloria",
+        "Eco Reachstacker",
+        "Electric Reachstacker",
+        "Essential Range"
+      ],
+      "industries": [
+        "Транспорт и логистика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.kalmarglobal.com/49329d/globalassets/ir/annual-reports/2024/en_kalmar_annual_report_2024.pdf"
+      ],
+      "documentationSources": [
+        "https://www.kalmarglobal.com/equipment/reachstackers/",
+        "https://www.kalmarglobal.com/equipment/terminal-tractors"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kalmar-equipment",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_HEAVY_MATERIAL_HANDLING_SCOPE",
+          "url": "https://new.kalmarglobal.com/equipment/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "kamat",
       "officialName": "KAMAT GmbH & Co. KG",
       "displayName": "KAMAT",
-      "aliases": ["KAMAT"],
+      "aliases": [
+        "KAMAT"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.kamat.de/en/",
-      "officialDomains": ["kamat.de"],
+      "officialDomains": [
+        "kamat.de"
+      ],
       "country": "Germany",
       "headquarters": "Witten, Germany",
       "foundedYear": 1974,
       "parentCompany": null,
       "shortDescription": "KAMAT develops high-pressure plunger pumps, pump units and coordinated systems for cleaning, water hydraulics and process applications.",
-      "fullDescription": ["KAMAT is verified through its official website as a German high-pressure-technology manufacturer operating since 1974.", "Its modular portfolio includes triplex and quintuplex plunger pumps, pump stations, hydraulic valves, drive and control equipment, automation and application-specific high-pressure systems."],
-      "productCategories": ["Промышленные насосы", "Гидравлическое оборудование", "Промышленные моечные системы"],
-      "productFamilies": ["High-Pressure Plunger Pumps", "Pump Units", "Water-Hydraulic Systems", "High-Pressure Valves", "Cleaning Systems"],
-      "series": ["K100-3", "K25000-3G", "K45000-3G", "K55000-5G", "K100000-5G", "K300000-5G"],
-      "industries": ["Промышленное производство", "Горнодобывающая промышленность", "Химическая промышленность", "Нефтегазовая промышленность", "Энергетика"],
-      "officialCatalogs": ["https://www.kamat.de/wp-content/uploads/downloads/KAMAT_Portfolio.pdf"],
-      "documentationSources": ["https://www.kamat.de/en/high-pressure-solutions/high-pressure-pumps/"],
-      "sources": [{"sourceId":"wave86-kamat-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_HIGH_PRESSURE_PUMP_SCOPE","url":"https://www.kamat.de/en/high-pressure-solutions/high-pressure-pumps/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "KAMAT is verified through its official website as a German high-pressure-technology manufacturer operating since 1974.",
+        "Its modular portfolio includes triplex and quintuplex plunger pumps, pump stations, hydraulic valves, drive and control equipment, automation and application-specific high-pressure systems."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Гидравлическое оборудование",
+        "Промышленные моечные системы"
+      ],
+      "productFamilies": [
+        "High-Pressure Plunger Pumps",
+        "Pump Units",
+        "Water-Hydraulic Systems",
+        "High-Pressure Valves",
+        "Cleaning Systems"
+      ],
+      "series": [
+        "K100-3",
+        "K25000-3G",
+        "K45000-3G",
+        "K55000-5G",
+        "K100000-5G",
+        "K300000-5G"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Горнодобывающая промышленность",
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.kamat.de/wp-content/uploads/downloads/KAMAT_Portfolio.pdf"
+      ],
+      "documentationSources": [
+        "https://www.kamat.de/en/high-pressure-solutions/high-pressure-pumps/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kamat-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_HIGH_PRESSURE_PUMP_SCOPE",
+          "url": "https://www.kamat.de/en/high-pressure-solutions/high-pressure-pumps/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "kampken",
       "officialName": "Kämpken & Fischer GmbH",
       "displayName": "Kämpken & Fischer",
-      "aliases": ["KAMPKEN", "Kämpken", "Kaempken", "Kämpken & Fischer"],
+      "aliases": [
+        "KAMPKEN",
+        "Kämpken",
+        "Kaempken",
+        "Kämpken & Fischer"
+      ],
       "formerNames": [],
       "officialWebsite": "https://kaempkenfischer.com/en/home/",
-      "officialDomains": ["kaempkenfischer.com", "kaempken.de"],
+      "officialDomains": [
+        "kaempkenfischer.com",
+        "kaempken.de"
+      ],
       "country": "Germany",
       "headquarters": "Neunkirchen-Seelscheid, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kämpken & Fischer manufactures steam injectors, steam coolers, jet pumps and sampling equipment for industrial process systems.",
-      "fullDescription": ["Kämpken & Fischer is verified through its official website as a German process-equipment manufacturer with more than forty years of steam-injection experience.", "Its documented range includes pipeline and vessel steam injectors, mixing nozzles, steam coolers, samplers for solids, jet pumps and application-specific constructions."],
-      "productCategories": ["Тепловое оборудование", "Промышленные насосы"],
-      "productFamilies": ["Steam Injectors", "Mixing Nozzles", "Steam Coolers", "Solid Samplers", "Jet Pumps", "Custom Process Equipment"],
+      "fullDescription": [
+        "Kämpken & Fischer is verified through its official website as a German process-equipment manufacturer with more than forty years of steam-injection experience.",
+        "Its documented range includes pipeline and vessel steam injectors, mixing nozzles, steam coolers, samplers for solids, jet pumps and application-specific constructions."
+      ],
+      "productCategories": [
+        "Тепловое оборудование",
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Steam Injectors",
+        "Mixing Nozzles",
+        "Steam Coolers",
+        "Solid Samplers",
+        "Jet Pumps",
+        "Custom Process Equipment"
+      ],
       "series": [],
-      "industries": ["Химическая промышленность", "Пищевая промышленность", "Промышленное производство", "Энергетика"],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Промышленное производство",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://kaempkenfischer.com/en/home/"],
-      "sources": [{"sourceId":"wave86-kaempken-official","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_STEAM_INJECTION_PROCESS_SCOPE","url":"https://kaempkenfischer.com/en/home/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://kaempkenfischer.com/en/home/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kaempken-official",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_STEAM_INJECTION_PROCESS_SCOPE",
+          "url": "https://kaempkenfischer.com/en/home/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "kanthal",
       "officialName": "Kanthal",
       "displayName": "Kanthal",
-      "aliases": ["KANTHAL", "Kanthal®"],
+      "aliases": [
+        "KANTHAL",
+        "Kanthal®"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.kanthal.com/en/",
-      "officialDomains": ["kanthal.com"],
+      "officialDomains": [
+        "kanthal.com"
+      ],
       "country": "Sweden",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Alleima AB",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Kanthal develops resistance-heating materials, electric heating elements, furnace components and engineered industrial heating systems.",
-      "fullDescription": ["Kanthal is verified through its official website as an Alleima industrial-heating technology brand.", "Its documented offering includes FeCrAl and NiCr wire, strip, tube and bar, metallic and silicon-carbide heating elements, prefabricated heating modules, radiant and furnace tubes, air and gas heaters, and refractory materials."],
-      "productCategories": ["Промышленное нагревательное оборудование", "Электроэнергетическое оборудование"],
-      "productFamilies": ["Resistance Heating Alloys", "Electric Heating Elements", "Heating Modules", "Furnace Tubes", "Air and Gas Heaters", "Refractory Materials"],
-      "series": ["Kanthal Super", "Superthal", "Fibrothal", "Moduthal", "Tubothal"],
-      "industries": ["Промышленное производство", "Металлургия", "Электроника и полупроводники", "Энергетика"],
-      "officialCatalogs": ["https://www.kanthal.com/globalassets/kanthal-global/downloads/resistance-heating-alloys-and-systems-for-industrial-furnaces_b_eng_lr.pdf"],
-      "documentationSources": ["https://www.kanthal.com/en/products/", "https://www.kanthal.com/en/products/furnace-products/"],
-      "sources": [{"sourceId":"wave86-kanthal-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_RELATION_AND_INDUSTRIAL_HEATING_SCOPE","url":"https://www.kanthal.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Kanthal is verified through its official website as an Alleima industrial-heating technology brand.",
+        "Its documented offering includes FeCrAl and NiCr wire, strip, tube and bar, metallic and silicon-carbide heating elements, prefabricated heating modules, radiant and furnace tubes, air and gas heaters, and refractory materials."
+      ],
+      "productCategories": [
+        "Промышленное нагревательное оборудование",
+        "Электроэнергетическое оборудование"
+      ],
+      "productFamilies": [
+        "Resistance Heating Alloys",
+        "Electric Heating Elements",
+        "Heating Modules",
+        "Furnace Tubes",
+        "Air and Gas Heaters",
+        "Refractory Materials"
+      ],
+      "series": [
+        "Kanthal Super",
+        "Superthal",
+        "Fibrothal",
+        "Moduthal",
+        "Tubothal"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Металлургия",
+        "Электроника и полупроводники",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.kanthal.com/globalassets/kanthal-global/downloads/resistance-heating-alloys-and-systems-for-industrial-furnaces_b_eng_lr.pdf"
+      ],
+      "documentationSources": [
+        "https://www.kanthal.com/en/products/",
+        "https://www.kanthal.com/en/products/furnace-products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kanthal-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_PARENT_RELATION_AND_INDUSTRIAL_HEATING_SCOPE",
+          "url": "https://www.kanthal.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "karcher",
       "officialName": "Alfred Kärcher SE & Co. KG",
       "displayName": "Kärcher",
-      "aliases": ["KARCHER", "Kaercher", "Kärcher"],
+      "aliases": [
+        "KARCHER",
+        "Kaercher",
+        "Kärcher"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.kaercher.com/int/",
-      "officialDomains": ["kaercher.com"],
+      "officialDomains": [
+        "kaercher.com"
+      ],
       "country": "Germany",
-      "headquarters": null,
+      "headquarters": "Schwaikheim, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Kärcher develops professional cleaning machinery, including pressure washers, floor-care equipment, industrial vacuums and vehicle-wash systems.",
-      "fullDescription": ["Kärcher is verified through its official international website as a German cleaning-equipment manufacturer.", "Its professional portfolio covers high- and ultra-high-pressure cleaners, scrubber driers, sweepers, wet and dry vacuums, industrial vacuum and dedusting systems, vehicle-wash equipment, dry-ice cleaning, municipal machines and water-treatment products."],
-      "productCategories": ["Промышленные моечные системы", "Вакуумное оборудование"],
-      "productFamilies": ["High-Pressure Cleaners", "Scrubber Driers", "Sweepers", "Wet and Dry Vacuums", "Industrial Vacuum Systems", "Vehicle Wash Systems", "Dry Ice Cleaning"],
-      "series": ["HD", "HDS", "IVR", "IVM"],
-      "industries": ["Промышленное производство", "Транспорт и логистика", "Пищевая промышленность", "Здания и HVAC"],
+      "fullDescription": [
+        "Kärcher is verified through its official international website as a German cleaning-equipment manufacturer.",
+        "Its professional portfolio covers high- and ultra-high-pressure cleaners, scrubber driers, sweepers, wet and dry vacuums, industrial vacuum and dedusting systems, vehicle-wash equipment, dry-ice cleaning, municipal machines and water-treatment products."
+      ],
+      "productCategories": [
+        "Промышленные моечные системы",
+        "Вакуумное оборудование"
+      ],
+      "productFamilies": [
+        "High-Pressure Cleaners",
+        "Scrubber Driers",
+        "Sweepers",
+        "Wet and Dry Vacuums",
+        "Industrial Vacuum Systems",
+        "Vehicle Wash Systems",
+        "Dry Ice Cleaning"
+      ],
+      "series": [
+        "HD",
+        "HDS",
+        "IVR",
+        "IVM"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Транспорт и логистика",
+        "Пищевая промышленность",
+        "Здания и HVAC"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.kaercher.com/int/professional.html", "https://www.kaercher.com/int/professional/industrial-vacuum-cleaners.html"],
-      "sources": [{"sourceId":"wave86-kaercher-professional","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_PROFESSIONAL_CLEANING_SCOPE","url":"https://www.kaercher.com/int/professional.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.kaercher.com/int/professional.html",
+        "https://www.kaercher.com/int/professional/industrial-vacuum-cleaners.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave86-kaercher-professional",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_PROFESSIONAL_CLEANING_SCOPE",
+          "url": "https://www.kaercher.com/int/professional.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-karcher-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.kaercher.com/int/inside-kaercher/company/legal/imprint.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     }
   ]
 }

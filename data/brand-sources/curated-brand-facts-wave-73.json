@@ -1,297 +1,2992 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {"manufacturerId":"filu-filter","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"FILU FILTER resolves mainly to historical FILU Filterbau references. A current manufacturer site promotes FILU-named replacement products but does not provide sufficiently explicit manufacturer-owned evidence that this repository identity transferred to or is owned by that company.","attemptedUrls":["https://www.martech-filterbau.de/","https://www.google.com/search?q=FILU+Filter+manufacturer"]},
-    {"manufacturerId":"hamilton","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"HAMILTON is shared by several unrelated manufacturers in laboratory automation, process instrumentation, material handling and other industries. The repository record has no legal-name, country or product-scope discriminator that selects one manufacturer-owned source safely.","attemptedUrls":["https://www.hamiltoncompany.com/","https://www.hamilton-c.com/","https://www.hamiltoncaster.com/"]},
-    {"manufacturerId":"alba","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ALBA is a generic commercial name used by unrelated industrial manufacturers. No authoritative discriminator in the repository record establishes which company the record represents.","attemptedUrls":["https://www.google.com/search?q=ALBA+industrial+manufacturer+official"]},
-    {"manufacturerId":"alebro","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"Discovery produced reseller claims but no accessible manufacturer-owned site or official corporate source for an industrial manufacturer named ALEBRO. Reseller descriptions cannot satisfy the identity gate.","attemptedUrls":["https://www.google.com/search?q=ALEBRO+industrial+manufacturer+official","https://alforest.ru/alebro"]},
-    {"manufacturerId":"amazon","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"AMAZON is a generic and highly ambiguous name. The repository record lacks a legal-name, country or product-scope discriminator and must not be mapped to Amazon.com or another manufacturer by name alone.","attemptedUrls":["https://www.google.com/search?q=AMAZON+industrial+manufacturer+official"]},
-    {"manufacturerId":"ams-gmbh","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"AMS GMBH is used by multiple unrelated German and Austrian companies. No identity discriminator in the repository record safely selects a manufacturer-owned source.","attemptedUrls":["https://www.google.com/search?q=%22AMS+GmbH%22+industrial+manufacturer"]},
-    {"manufacturerId":"amv","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"AMV is a short abbreviation shared by unrelated manufacturers and service companies. The repository record does not contain enough scope to resolve one official identity.","attemptedUrls":["https://www.google.com/search?q=AMV+industrial+manufacturer+official"]},
-    {"manufacturerId":"ang-equipment","status":"BLOCKED_NON_MANUFACTURER_IDENTITY","checkedAt":"2026-08-24","reason":"The discoverable A&G / ANG Equipment business is an equipment rental and trading company rather than a clearly verified manufacturer. It cannot support a manufacturer profile under the official-source gate.","attemptedUrls":["https://www.angequipment.com.sg/","https://www.google.com/search?q=%22ANG+Equipment%22+manufacturer"]},
-    {"manufacturerId":"ansaldo","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ANSALDO can refer to distinct present and former businesses including Ansaldo Energia and rail-related entities. The undifferentiated repository name cannot be assigned to one current manufacturer without guessing.","attemptedUrls":["https://www.ansaldoenergia.com/","https://www.google.com/search?q=ANSALDO+manufacturer+official"]},
-    {"manufacturerId":"apc","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"APC is a short abbreviation used by multiple companies. Schneider Electric documents its APC power-protection brand, but the repository record contains no product or parent discriminator proving that this is the intended entity.","attemptedUrls":["https://www.se.com/us/en/brands/apc/","https://www.google.com/search?q=APC+industrial+manufacturer+official"]}
+    {
+      "manufacturerId": "filu-filter",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "FILU FILTER resolves mainly to historical FILU Filterbau references. A current manufacturer site promotes FILU-named replacement products but does not provide sufficiently explicit manufacturer-owned evidence that this repository identity transferred to or is owned by that company.",
+      "attemptedUrls": [
+        "https://www.martech-filterbau.de/",
+        "https://www.google.com/search?q=FILU+Filter+manufacturer"
+      ]
+    },
+    {
+      "manufacturerId": "hamilton",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "HAMILTON is shared by several unrelated manufacturers in laboratory automation, process instrumentation, material handling and other industries. The repository record has no legal-name, country or product-scope discriminator that selects one manufacturer-owned source safely.",
+      "attemptedUrls": [
+        "https://www.hamiltoncompany.com/",
+        "https://www.hamilton-c.com/",
+        "https://www.hamiltoncaster.com/"
+      ]
+    },
+    {
+      "manufacturerId": "alba",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ALBA is a generic commercial name used by unrelated industrial manufacturers. No authoritative discriminator in the repository record establishes which company the record represents.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=ALBA+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "alebro",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Discovery produced reseller claims but no accessible manufacturer-owned site or official corporate source for an industrial manufacturer named ALEBRO. Reseller descriptions cannot satisfy the identity gate.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=ALEBRO+industrial+manufacturer+official",
+        "https://alforest.ru/alebro"
+      ]
+    },
+    {
+      "manufacturerId": "amazon",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "AMAZON is a generic and highly ambiguous name. The repository record lacks a legal-name, country or product-scope discriminator and must not be mapped to Amazon.com or another manufacturer by name alone.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=AMAZON+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "ams-gmbh",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "AMS GMBH is used by multiple unrelated German and Austrian companies. No identity discriminator in the repository record safely selects a manufacturer-owned source.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=%22AMS+GmbH%22+industrial+manufacturer"
+      ]
+    },
+    {
+      "manufacturerId": "amv",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "AMV is a short abbreviation shared by unrelated manufacturers and service companies. The repository record does not contain enough scope to resolve one official identity.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=AMV+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "ang-equipment",
+      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "The discoverable A&G / ANG Equipment business is an equipment rental and trading company rather than a clearly verified manufacturer. It cannot support a manufacturer profile under the official-source gate.",
+      "attemptedUrls": [
+        "https://www.angequipment.com.sg/",
+        "https://www.google.com/search?q=%22ANG+Equipment%22+manufacturer"
+      ]
+    },
+    {
+      "manufacturerId": "ansaldo",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "ANSALDO can refer to distinct present and former businesses including Ansaldo Energia and rail-related entities. The undifferentiated repository name cannot be assigned to one current manufacturer without guessing.",
+      "attemptedUrls": [
+        "https://www.ansaldoenergia.com/",
+        "https://www.google.com/search?q=ANSALDO+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "apc",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "APC is a short abbreviation used by multiple companies. Schneider Electric documents its APC power-protection brand, but the repository record contains no product or parent discriminator proving that this is the intended entity.",
+      "attemptedUrls": [
+        "https://www.se.com/us/en/brands/apc/",
+        "https://www.google.com/search?q=APC+industrial+manufacturer+official"
+      ]
+    }
   ],
   "profiles": [
     {
-      "manufacturerId":"aquamatic","officialName":"AquaMatic","displayName":"AquaMatic","aliases":["AQUAMATIC","AQ MATIC"],"formerNames":[],"officialWebsite":"https://www.aq-matic.com/","officialDomains":["aq-matic.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"AQ Matic Valve and Controls Company, Inc.","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"AquaMatic is a fluid-control brand for diaphragm valves, controllers and related water-treatment components.",
-      "fullDescription":["AQ Matic Valve and Controls Company identifies itself as the manufacturer of genuine AquaMatic valves and controls after the product line was transferred from Pentair in 2016.","The official portfolio covers diaphragm valves, multiport stagers, controllers, fluid ejectors and pre-engineered valve-nest assemblies for water-treatment systems."],
-      "productCategories":["Промышленные клапаны","Водоподготовка и фильтрация","Промышленная автоматизация"],"productFamilies":["Diaphragm Valves","Multiport Stagers","Controllers","Fluid Ejectors","Valve Nest Assemblies"],"series":["V42","VAV","V46","K52","K55","Easy Nest"],"industries":["Водоподготовка","Промышленное производство"],"officialCatalogs":["https://aq-matic.com/docs/Catalog%20and%20Prices/4510186-AQ-Matic-Product-Catalog-2021.pdf"],"documentationSources":["https://www.aq-matic.com/index.html"],
-      "sources":[{"sourceId":"brand-aquamatic-company","tier":"A","type":"ABOUT","scope":"CURRENT_MANUFACTURER_IDENTITY_PRODUCT_LINE_TRANSFER_AND_FLUID_CONTROL_SPECIALISATION","url":"https://www.aq-matic.com/index.html","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-aquamatic-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"DIAPHRAGM_VALVE_STAGER_CONTROLLER_EJECTOR_AND_VALVE_NEST_FAMILIES","url":"https://aq-matic.com/docs/Catalog%20and%20Prices/4510186-AQ-Matic-Product-Catalog-2021.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "aquamatic",
+      "officialName": "AquaMatic",
+      "displayName": "AquaMatic",
+      "aliases": [
+        "AQUAMATIC",
+        "AQ MATIC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.aq-matic.com/",
+      "officialDomains": [
+        "aq-matic.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "AQ Matic Valve and Controls Company, Inc.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "AquaMatic is a fluid-control brand for diaphragm valves, controllers and related water-treatment components.",
+      "fullDescription": [
+        "AQ Matic Valve and Controls Company identifies itself as the manufacturer of genuine AquaMatic valves and controls after the product line was transferred from Pentair in 2016.",
+        "The official portfolio covers diaphragm valves, multiport stagers, controllers, fluid ejectors and pre-engineered valve-nest assemblies for water-treatment systems."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Водоподготовка и фильтрация",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Diaphragm Valves",
+        "Multiport Stagers",
+        "Controllers",
+        "Fluid Ejectors",
+        "Valve Nest Assemblies"
+      ],
+      "series": [
+        "V42",
+        "VAV",
+        "V46",
+        "K52",
+        "K55",
+        "Easy Nest"
+      ],
+      "industries": [
+        "Водоподготовка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://aq-matic.com/docs/Catalog%20and%20Prices/4510186-AQ-Matic-Product-Catalog-2021.pdf"
+      ],
+      "documentationSources": [
+        "https://www.aq-matic.com/index.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-aquamatic-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_MANUFACTURER_IDENTITY_PRODUCT_LINE_TRANSFER_AND_FLUID_CONTROL_SPECIALISATION",
+          "url": "https://www.aq-matic.com/index.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-aquamatic-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "DIAPHRAGM_VALVE_STAGER_CONTROLLER_EJECTOR_AND_VALVE_NEST_FAMILIES",
+          "url": "https://aq-matic.com/docs/Catalog%20and%20Prices/4510186-AQ-Matic-Product-Catalog-2021.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"automatic-valve","officialName":"Automatic Valve","displayName":"Automatic Valve","aliases":["AUTOMATIC VALVE","AUTOMATIC VALVE INDUSTRIAL"],"formerNames":[],"officialWebsite":"https://www.automaticvalve.com/","officialDomains":["automaticvalve.com"],"country":"United States","headquarters":null,"foundedYear":1945,"parentCompany":null,
-      "shortDescription":"Automatic Valve develops pneumatic valves, manifolds and custom fluid-power control assemblies.",
-      "fullDescription":["Automatic Valve's manufacturer-owned company page documents a United States fluid-power business operating since 1945.","Its official scope includes directional and solenoid-operated pneumatic valves, manifolds, valve accessories and engineered pneumatic solutions for industrial automation."],
-      "productCategories":["Пневматические клапаны","Промышленная автоматизация"],"productFamilies":["Directional Control Valves","Solenoid Valves","Air Valves","Valve Manifolds","Custom Pneumatic Assemblies"],"series":[],"industries":["Промышленная автоматизация","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.automaticvalve.com/"],
-      "sources":[{"sourceId":"brand-automatic-valve-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_FLUID_POWER_SPECIALISATION","url":"https://www.automaticvalve.com/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-automatic-valve-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PNEUMATIC_VALVE_MANIFOLD_AND_ENGINEERED_ASSEMBLY_SCOPE","url":"https://www.automaticvalve.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "automatic-valve",
+      "officialName": "Automatic Valve",
+      "displayName": "Automatic Valve",
+      "aliases": [
+        "AUTOMATIC VALVE",
+        "AUTOMATIC VALVE INDUSTRIAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.automaticvalve.com/",
+      "officialDomains": [
+        "automaticvalve.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": 1945,
+      "parentCompany": null,
+      "shortDescription": "Automatic Valve develops pneumatic valves, manifolds and custom fluid-power control assemblies.",
+      "fullDescription": [
+        "Automatic Valve's manufacturer-owned company page documents a United States fluid-power business operating since 1945.",
+        "Its official scope includes directional and solenoid-operated pneumatic valves, manifolds, valve accessories and engineered pneumatic solutions for industrial automation."
+      ],
+      "productCategories": [
+        "Пневматические клапаны",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Directional Control Valves",
+        "Solenoid Valves",
+        "Air Valves",
+        "Valve Manifolds",
+        "Custom Pneumatic Assemblies"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.automaticvalve.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-automatic-valve-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_FLUID_POWER_SPECIALISATION",
+          "url": "https://www.automaticvalve.com/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-automatic-valve-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PNEUMATIC_VALVE_MANIFOLD_AND_ENGINEERED_ASSEMBLY_SCOPE",
+          "url": "https://www.automaticvalve.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"bilfinger-water-technologies","officialName":"Aqseptence Group GmbH","displayName":"Bilfinger Water Technologies","aliases":["BILFINGER WATER TECHNOLOGIES"],"formerNames":["Bilfinger Water Technologies GmbH","Passavant-Geiger GmbH"],"officialWebsite":"https://www.aqseptence.com/en/","officialDomains":["aqseptence.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"statusModifier":"FORMER_NAME",
-      "shortDescription":"Bilfinger Water Technologies is a former company name of today's Aqseptence Group, which supplies filtration, screening and water-processing systems.",
-      "fullDescription":["Aqseptence Group's official history records the 2013 renaming to Bilfinger Water Technologies GmbH and the subsequent 2016 renaming to Aqseptence Group GmbH.","The current group organizes its manufacturer portfolio around filtration and thickening systems, screening technology and water-processing solutions under specialist brands including Diemme Filtration, Geiger, Johnson Screens, Noggerath and Passavant."],
-      "productCategories":["Фильтрационное оборудование","Водоподготовка и фильтрация","Сортировочное оборудование"],"productFamilies":["Filtration and Thickening Systems","Screening Technology Systems","Water Processing Solutions"],"series":[],"industries":["Водоподготовка","Горнодобывающая промышленность","Промышленное производство"],"officialCatalogs":["https://www.aqseptence.com/fileadmin/Resources/Aqseptence/Downloads/Aqseptence_at_a_Glance_doppelseitig.pdf"],"documentationSources":["https://www.aqseptence.com/en/about-us/history"],
-      "sources":[{"sourceId":"brand-bilfinger-water-successor-history","tier":"A","type":"OFFICIAL_SUCCESSOR_HISTORY","scope":"FORMER_NAME_RENAMING_CURRENT_IDENTITY_AND_BRAND_CONTINUITY","url":"https://www.aqseptence.com/en/about-us/history","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-bilfinger-water-successor-business","tier":"A","type":"OFFICIAL_SUCCESSOR_PRODUCTS","scope":"FILTRATION_THICKENING_SCREENING_AND_WATER_PROCESSING_SCOPE","url":"https://www.aqseptence.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "bilfinger-water-technologies",
+      "officialName": "Aqseptence Group GmbH",
+      "displayName": "Bilfinger Water Technologies",
+      "aliases": [
+        "BILFINGER WATER TECHNOLOGIES"
+      ],
+      "formerNames": [
+        "Bilfinger Water Technologies GmbH",
+        "Passavant-Geiger GmbH"
+      ],
+      "officialWebsite": "https://www.aqseptence.com/en/",
+      "officialDomains": [
+        "aqseptence.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "statusModifier": "FORMER_NAME",
+      "shortDescription": "Bilfinger Water Technologies is a former company name of today's Aqseptence Group, which supplies filtration, screening and water-processing systems.",
+      "fullDescription": [
+        "Aqseptence Group's official history records the 2013 renaming to Bilfinger Water Technologies GmbH and the subsequent 2016 renaming to Aqseptence Group GmbH.",
+        "The current group organizes its manufacturer portfolio around filtration and thickening systems, screening technology and water-processing solutions under specialist brands including Diemme Filtration, Geiger, Johnson Screens, Noggerath and Passavant."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Водоподготовка и фильтрация",
+        "Сортировочное оборудование"
+      ],
+      "productFamilies": [
+        "Filtration and Thickening Systems",
+        "Screening Technology Systems",
+        "Water Processing Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Водоподготовка",
+        "Горнодобывающая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.aqseptence.com/fileadmin/Resources/Aqseptence/Downloads/Aqseptence_at_a_Glance_doppelseitig.pdf"
+      ],
+      "documentationSources": [
+        "https://www.aqseptence.com/en/about-us/history"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bilfinger-water-successor-history",
+          "tier": "A",
+          "type": "OFFICIAL_SUCCESSOR_HISTORY",
+          "scope": "FORMER_NAME_RENAMING_CURRENT_IDENTITY_AND_BRAND_CONTINUITY",
+          "url": "https://www.aqseptence.com/en/about-us/history",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-bilfinger-water-successor-business",
+          "tier": "A",
+          "type": "OFFICIAL_SUCCESSOR_PRODUCTS",
+          "scope": "FILTRATION_THICKENING_SCREENING_AND_WATER_PROCESSING_SCOPE",
+          "url": "https://www.aqseptence.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"coel","officialName":"COEL Motori S.r.l.","displayName":"COEL","aliases":["COEL","COEL MOTORI"],"formerNames":[],"officialWebsite":"https://coelmotori.it/en/","officialDomains":["coelmotori.it"],"country":"Italy","headquarters":"Pieve Emanuele, Milan, Italy","foundedYear":1976,"parentCompany":null,
-      "shortDescription":"COEL manufactures brake motors, industrial brakes and control equipment for lifting and hazardous-area applications.",
-      "fullDescription":["COEL Motori identifies its Italian manufacturing activity with a history beginning in 1976 and a specialization in braking and motion solutions.","The official range includes brake motors, spring-applied modular brakes, hoist gearmotors, flameproof limit switches and pendant control stations."],
-      "productCategories":["Промышленные электродвигатели","Промышленные тормоза","Промышленная автоматизация"],"productFamilies":["Brake Motors","Spring-Applied Brakes","Hoist Gearmotors","Flameproof Limit Switches","Pendant Stations"],"series":["VIS","LIMITEX","X TOUCH","PMT"],"industries":["Подъёмное оборудование","Промышленная автоматизация","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://coelmotori.it/en/products/coel-brake-motors/28"],
-      "sources":[{"sourceId":"brand-coel-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_BRAKING_SPECIALISATION","url":"https://www.coelmotori.it/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-coel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAKE_MOTOR_BRAKE_HOIST_AND_CONTROL_PRODUCT_FAMILIES","url":"https://coelmotori.it/en/products/coel-brake-motors/28","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "coel",
+      "officialName": "COEL Motori S.r.l.",
+      "displayName": "COEL",
+      "aliases": [
+        "COEL",
+        "COEL MOTORI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://coelmotori.it/en/",
+      "officialDomains": [
+        "coelmotori.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Pieve Emanuele, Milan, Italy",
+      "foundedYear": 1976,
+      "parentCompany": null,
+      "shortDescription": "COEL manufactures brake motors, industrial brakes and control equipment for lifting and hazardous-area applications.",
+      "fullDescription": [
+        "COEL Motori identifies its Italian manufacturing activity with a history beginning in 1976 and a specialization in braking and motion solutions.",
+        "The official range includes brake motors, spring-applied modular brakes, hoist gearmotors, flameproof limit switches and pendant control stations."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели",
+        "Промышленные тормоза",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Brake Motors",
+        "Spring-Applied Brakes",
+        "Hoist Gearmotors",
+        "Flameproof Limit Switches",
+        "Pendant Stations"
+      ],
+      "series": [
+        "VIS",
+        "LIMITEX",
+        "X TOUCH",
+        "PMT"
+      ],
+      "industries": [
+        "Подъёмное оборудование",
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://coelmotori.it/en/products/coel-brake-motors/28"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-coel-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_BRAKING_SPECIALISATION",
+          "url": "https://www.coelmotori.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-coel-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAKE_MOTOR_BRAKE_HOIST_AND_CONTROL_PRODUCT_FAMILIES",
+          "url": "https://coelmotori.it/en/products/coel-brake-motors/28",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"gespasa","officialName":"Gespasa","displayName":"Gespasa","aliases":["GESPASA"],"formerNames":[],"officialWebsite":"https://www.gespasa.es/","officialDomains":["gespasa.es","gespasa.uk"],"country":"Spain","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Gespasa develops equipment for transferring, measuring, filtering and managing fuels, lubricants and other automotive fluids.",
-      "fullDescription":["Gespasa's manufacturer-owned materials describe more than fifty years of work on fluid-transfer and control equipment.","The documented portfolio includes electric, hand and pneumatic pumps, fuel dispensers, flow meters, filters, level-control equipment and systems for diesel, AdBlue, lubricants and related fluids."],
-      "productCategories":["Промышленные насосы","Измерительное оборудование","Фильтрационное оборудование"],"productFamilies":["Electric Transfer Pumps","Hand Pumps","Pneumatic Pumps","Fuel Dispensers","Flow Meters","Fluid Filters","Level and Control Systems"],"series":[],"industries":["Транспорт","Сельское хозяйство","Промышленное производство"],"officialCatalogs":["https://www.gespasa.es/down/info/general_catalogue.pdf"],"documentationSources":["https://gespasa.uk/pumps/"],
-      "sources":[{"sourceId":"brand-gespasa-company-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_FLUID_TRANSFER_MEASUREMENT_PRODUCT_SCOPE","url":"https://www.gespasa.es/down/info/general_catalogue.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-gespasa-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"ELECTRIC_MANUAL_PNEUMATIC_PUMP_AND_FLUID_HANDLING_FAMILIES","url":"https://gespasa.uk/pumps/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "gespasa",
+      "officialName": "Gespasa",
+      "displayName": "Gespasa",
+      "aliases": [
+        "GESPASA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.gespasa.es/",
+      "officialDomains": [
+        "gespasa.es",
+        "gespasa.uk"
+      ],
+      "country": "Spain",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Gespasa develops equipment for transferring, measuring, filtering and managing fuels, lubricants and other automotive fluids.",
+      "fullDescription": [
+        "Gespasa's manufacturer-owned materials describe more than fifty years of work on fluid-transfer and control equipment.",
+        "The documented portfolio includes electric, hand and pneumatic pumps, fuel dispensers, flow meters, filters, level-control equipment and systems for diesel, AdBlue, lubricants and related fluids."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Измерительное оборудование",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Electric Transfer Pumps",
+        "Hand Pumps",
+        "Pneumatic Pumps",
+        "Fuel Dispensers",
+        "Flow Meters",
+        "Fluid Filters",
+        "Level and Control Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Транспорт",
+        "Сельское хозяйство",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.gespasa.es/down/info/general_catalogue.pdf"
+      ],
+      "documentationSources": [
+        "https://gespasa.uk/pumps/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-gespasa-company-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_FLUID_TRANSFER_MEASUREMENT_PRODUCT_SCOPE",
+          "url": "https://www.gespasa.es/down/info/general_catalogue.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-gespasa-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "ELECTRIC_MANUAL_PNEUMATIC_PUMP_AND_FLUID_HANDLING_FAMILIES",
+          "url": "https://gespasa.uk/pumps/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"hidrostal","officialName":"Hidrostal Holding AG","displayName":"Hidrostal","aliases":["HIDROSTAL"],"formerNames":[],"officialWebsite":"https://www.hidrostal.com/","officialDomains":["hidrostal.com"],"country":"Switzerland","headquarters":"Neunkirch, Switzerland","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Hidrostal manufactures screw-centrifugal pumps and pumping systems for solids-handling and difficult-fluid applications.",
-      "fullDescription":["Hidrostal's manufacturer-owned site identifies a Swiss pump group built around its screw-centrifugal impeller technology.","The official range includes end-suction, compact, submersible, immersible, bearing-frame, axial-flow and vertical-turbine pumps together with mixers, aerators and packaged pumping systems."],
-      "productCategories":["Центробежные насосы","Промышленные насосы","Насосные системы"],"productFamilies":["Screw Centrifugal Pumps","End-Suction Pumps","Submersible Pumps","Immersible Pumps","Axial-Flow Pumps","Vertical Turbine Pumps","Pump Systems"],"series":["SuperBetsy","PreroClean","PreroStal"],"industries":["Водоснабжение и водоотведение","Промышленное производство","Пищевая промышленность"],"officialCatalogs":["https://hidrostal.com/Dokumente/Download_190/the-original-screw-centrifugal-impeller-pump-pr0557_en.pdf"],"documentationSources":["https://www.hidrostal.com/"],
-      "sources":[{"sourceId":"brand-hidrostal-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"GROUP_IDENTITY_SCREW_CENTRIFUGAL_TECHNOLOGY_AND_PUMP_PORTFOLIO","url":"https://www.hidrostal.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-hidrostal-impeller-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"SCREW_CENTRIFUGAL_IMPELLER_TECHNOLOGY_AND_APPLICATION_SCOPE","url":"https://hidrostal.com/Dokumente/Download_190/the-original-screw-centrifugal-impeller-pump-pr0557_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "hidrostal",
+      "officialName": "Hidrostal Holding AG",
+      "displayName": "Hidrostal",
+      "aliases": [
+        "HIDROSTAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.hidrostal.com/",
+      "officialDomains": [
+        "hidrostal.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Neunkirch, Switzerland",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Hidrostal manufactures screw-centrifugal pumps and pumping systems for solids-handling and difficult-fluid applications.",
+      "fullDescription": [
+        "Hidrostal's manufacturer-owned site identifies a Swiss pump group built around its screw-centrifugal impeller technology.",
+        "The official range includes end-suction, compact, submersible, immersible, bearing-frame, axial-flow and vertical-turbine pumps together with mixers, aerators and packaged pumping systems."
+      ],
+      "productCategories": [
+        "Центробежные насосы",
+        "Промышленные насосы",
+        "Насосные системы"
+      ],
+      "productFamilies": [
+        "Screw Centrifugal Pumps",
+        "End-Suction Pumps",
+        "Submersible Pumps",
+        "Immersible Pumps",
+        "Axial-Flow Pumps",
+        "Vertical Turbine Pumps",
+        "Pump Systems"
+      ],
+      "series": [
+        "SuperBetsy",
+        "PreroClean",
+        "PreroStal"
+      ],
+      "industries": [
+        "Водоснабжение и водоотведение",
+        "Промышленное производство",
+        "Пищевая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://hidrostal.com/Dokumente/Download_190/the-original-screw-centrifugal-impeller-pump-pr0557_en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.hidrostal.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-hidrostal-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "GROUP_IDENTITY_SCREW_CENTRIFUGAL_TECHNOLOGY_AND_PUMP_PORTFOLIO",
+          "url": "https://www.hidrostal.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-hidrostal-impeller-document",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "SCREW_CENTRIFUGAL_IMPELLER_TECHNOLOGY_AND_APPLICATION_SCOPE",
+          "url": "https://hidrostal.com/Dokumente/Download_190/the-original-screw-centrifugal-impeller-pump-pr0557_en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"air-radiators","officialName":"Air Radiators Pty Ltd","displayName":"Air Radiators","aliases":["AIR RADIATORS","AIR RADIATORS PTY LTD"],"formerNames":[],"officialWebsite":"https://www.airradiators.com/","officialDomains":["airradiators.com"],"country":"Australia","headquarters":"Lara, Victoria, Australia","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Air Radiators designs and manufactures industrial cooling equipment and heat exchangers for mobile and stationary applications.",
-      "fullDescription":["Air Radiators' official website establishes an Australian thermal-management manufacturer based in Lara, Victoria.","Its documented product scope includes engine radiators, dry coolers, air coolers, oil coolers and plate heat exchangers using aluminium-fin, pin-fin, coil and sealing technologies."],
-      "productCategories":["Теплообменное оборудование","Промышленное охлаждение"],"productFamilies":["Engine Radiators","Dry Coolers","Air Coolers","Oil Coolers","Plate Heat Exchangers"],"series":["Alu Fin","Pin Fin","Coil","Ultra Seal"],"industries":["Горнодобывающая промышленность","Энергетика","Транспорт","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.airradiators.com/"],
-      "sources":[{"sourceId":"brand-air-radiators-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_THERMAL_MANUFACTURING_AND_PRODUCT_SCOPE","url":"https://www.airradiators.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-air-radiators-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RADIATOR_DRY_COOLER_AIR_COOLER_OIL_COOLER_AND_PLATE_HEAT_EXCHANGER_FAMILIES","url":"https://www.airradiators.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "air-radiators",
+      "officialName": "Air Radiators Pty Ltd",
+      "displayName": "Air Radiators",
+      "aliases": [
+        "AIR RADIATORS",
+        "AIR RADIATORS PTY LTD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.airradiators.com/",
+      "officialDomains": [
+        "airradiators.com"
+      ],
+      "country": "Australia",
+      "headquarters": "Lara, Victoria, Australia",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Air Radiators designs and manufactures industrial cooling equipment and heat exchangers for mobile and stationary applications.",
+      "fullDescription": [
+        "Air Radiators' official website establishes an Australian thermal-management manufacturer based in Lara, Victoria.",
+        "Its documented product scope includes engine radiators, dry coolers, air coolers, oil coolers and plate heat exchangers using aluminium-fin, pin-fin, coil and sealing technologies."
+      ],
+      "productCategories": [
+        "Теплообменное оборудование",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Engine Radiators",
+        "Dry Coolers",
+        "Air Coolers",
+        "Oil Coolers",
+        "Plate Heat Exchangers"
+      ],
+      "series": [
+        "Alu Fin",
+        "Pin Fin",
+        "Coil",
+        "Ultra Seal"
+      ],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Энергетика",
+        "Транспорт",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.airradiators.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-air-radiators-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_THERMAL_MANUFACTURING_AND_PRODUCT_SCOPE",
+          "url": "https://www.airradiators.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-air-radiators-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RADIATOR_DRY_COOLER_AIR_COOLER_OIL_COOLER_AND_PLATE_HEAT_EXCHANGER_FAMILIES",
+          "url": "https://www.airradiators.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"air-torque","officialName":"Air Torque S.p.A.","displayName":"Air Torque","aliases":["AIR TORQUE","AIR TORQUE SPA"],"formerNames":[],"officialWebsite":"https://airtorque.it/","officialDomains":["airtorque.it"],"country":"Italy","headquarters":"Costa di Mezzate, Bergamo, Italy","foundedYear":1990,"parentCompany":null,
-      "shortDescription":"Air Torque manufactures pneumatic actuators and control systems for industrial valve automation.",
-      "fullDescription":["Air Torque's manufacturer-owned site identifies an Italian actuator company founded in 1990 and based in Costa di Mezzate.","The official range covers rack-and-pinion and scotch-yoke pneumatic actuators, stainless-steel variants and configured control panels for automated valve duties."],
-      "productCategories":["Пневматические приводы","Промышленная автоматизация"],"productFamilies":["Rack-and-Pinion Actuators","Scotch-Yoke Actuators","Stainless-Steel Actuators","Control Panels"],"series":["4th Generation Upgrade","PTU","AT-HD"],"industries":["Нефтегазовая промышленность","Химическая промышленность","Водоподготовка","Промышленная автоматизация"],"officialCatalogs":[],"documentationSources":["https://airtorque.it/products/"],
-      "sources":[{"sourceId":"brand-air-torque-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PNEUMATIC_ACTUATOR_SPECIALISATION","url":"https://airtorque.it/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-air-torque-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RACK_PINION_SCOTCH_YOKE_STAINLESS_AND_CONTROL_SYSTEM_FAMILIES","url":"https://airtorque.it/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "air-torque",
+      "officialName": "Air Torque S.p.A.",
+      "displayName": "Air Torque",
+      "aliases": [
+        "AIR TORQUE",
+        "AIR TORQUE SPA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://airtorque.it/",
+      "officialDomains": [
+        "airtorque.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Costa di Mezzate, Bergamo, Italy",
+      "foundedYear": 1990,
+      "parentCompany": null,
+      "shortDescription": "Air Torque manufactures pneumatic actuators and control systems for industrial valve automation.",
+      "fullDescription": [
+        "Air Torque's manufacturer-owned site identifies an Italian actuator company founded in 1990 and based in Costa di Mezzate.",
+        "The official range covers rack-and-pinion and scotch-yoke pneumatic actuators, stainless-steel variants and configured control panels for automated valve duties."
+      ],
+      "productCategories": [
+        "Пневматические приводы",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Rack-and-Pinion Actuators",
+        "Scotch-Yoke Actuators",
+        "Stainless-Steel Actuators",
+        "Control Panels"
+      ],
+      "series": [
+        "4th Generation Upgrade",
+        "PTU",
+        "AT-HD"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Водоподготовка",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://airtorque.it/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-air-torque-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PNEUMATIC_ACTUATOR_SPECIALISATION",
+          "url": "https://airtorque.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-air-torque-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RACK_PINION_SCOTCH_YOKE_STAINLESS_AND_CONTROL_SYSTEM_FAMILIES",
+          "url": "https://airtorque.it/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"airfins-ltd","officialName":"Airfins Pvt. Ltd.","displayName":"Airfins","aliases":["AIRFINS LTD","AIRFINS"],"formerNames":["Airfins Ltd.","VeriSpring Airfins Pvt. Ltd."],"officialWebsite":"https://airfins.net/","officialDomains":["airfins.net"],"country":"India","headquarters":"Pune, India","foundedYear":null,"parentCompany":"VeriSpring Group","statusModifier":"SUCCESSOR_COMPANY",
-      "shortDescription":"Airfins designs and manufactures air-cooled heat exchangers for process and energy applications.",
-      "fullDescription":["Airfins' official company history records the transfer of Airfins Ltd. intellectual property to VeriSpring Group in 2012 and the current Airfins Pvt. Ltd. identity adopted in 2020.","The company documents engineered air-cooled heat exchangers and finned-tube cooling equipment produced for API 661, ASME, PED and ATEX project requirements."],
-      "productCategories":["Теплообменное оборудование","Промышленное охлаждение"],"productFamilies":["Air-Cooled Heat Exchangers","Finned-Tube Coolers","Process Cooling Systems"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://airfins.net/"],
-      "sources":[{"sourceId":"brand-airfins-company-history","tier":"A","type":"ABOUT","scope":"SUCCESSOR_IDENTITY_IP_TRANSFER_RENAMING_HEADQUARTERS_AND_ENGINEERING_SCOPE","url":"https://airfins.net/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-airfins-products","tier":"A","type":"PRODUCT_AND_STANDARDS","scope":"AIR_COOLED_HEAT_EXCHANGER_FINNED_TUBE_AND_PROJECT_STANDARD_SCOPE","url":"https://airfins.net/air-cooled-heat-exchangers/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "airfins-ltd",
+      "officialName": "Airfins Pvt. Ltd.",
+      "displayName": "Airfins",
+      "aliases": [
+        "AIRFINS LTD",
+        "AIRFINS"
+      ],
+      "formerNames": [
+        "Airfins Ltd.",
+        "VeriSpring Airfins Pvt. Ltd."
+      ],
+      "officialWebsite": "https://airfins.net/",
+      "officialDomains": [
+        "airfins.net"
+      ],
+      "country": "India",
+      "headquarters": "Pune, India",
+      "foundedYear": null,
+      "parentCompany": "VeriSpring Group",
+      "statusModifier": "SUCCESSOR_COMPANY",
+      "shortDescription": "Airfins designs and manufactures air-cooled heat exchangers for process and energy applications.",
+      "fullDescription": [
+        "Airfins' official company history records the transfer of Airfins Ltd. intellectual property to VeriSpring Group in 2012 and the current Airfins Pvt. Ltd. identity adopted in 2020.",
+        "The company documents engineered air-cooled heat exchangers and finned-tube cooling equipment produced for API 661, ASME, PED and ATEX project requirements."
+      ],
+      "productCategories": [
+        "Теплообменное оборудование",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Air-Cooled Heat Exchangers",
+        "Finned-Tube Coolers",
+        "Process Cooling Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://airfins.net/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-airfins-company-history",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "SUCCESSOR_IDENTITY_IP_TRANSFER_RENAMING_HEADQUARTERS_AND_ENGINEERING_SCOPE",
+          "url": "https://airfins.net/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-airfins-products",
+          "tier": "A",
+          "type": "PRODUCT_AND_STANDARDS",
+          "scope": "AIR_COOLED_HEAT_EXCHANGER_FINNED_TUBE_AND_PROJECT_STANDARD_SCOPE",
+          "url": "https://airfins.net/air-cooled-heat-exchangers/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"airloc","officialName":"AirLoc AG","displayName":"AirLoc","aliases":["AIRLOC","AIRLOC AG"],"formerNames":[],"officialWebsite":"https://www.airloc.com/en/","officialDomains":["airloc.com"],"country":"Switzerland","headquarters":"Oetwil am See, Switzerland","foundedYear":null,"parentCompany":null,
-      "shortDescription":"AirLoc develops precision machine-leveling and vibration-isolation systems for industrial equipment and foundations.",
-      "fullDescription":["AirLoc's manufacturer-owned site documents a Swiss specialist with about seventy years of experience in machine setup and vibration isolation.","Its official portfolio includes Wedgemount precision levelers, vibration-isolation pads and engineered foundation-isolation systems for machine tools and production equipment."],
-      "productCategories":["Системы вибрационной изоляции","Промышленные станки"],"productFamilies":["Wedgemount Precision Levelers","Vibration Isolation Pads","Foundation Isolation Systems"],"series":[],"industries":["Станкостроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.airloc.com/en/products/wedgemount-precision-levelers.html"],
-      "sources":[{"sourceId":"brand-airloc-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_EXPERIENCE_AND_VIBRATION_ISOLATION_SPECIALISATION","url":"https://www.airloc.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-airloc-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PRECISION_LEVELER_PAD_AND_FOUNDATION_ISOLATION_FAMILIES","url":"https://www.airloc.com/en/products/wedgemount-precision-levelers.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "airloc",
+      "officialName": "AirLoc AG",
+      "displayName": "AirLoc",
+      "aliases": [
+        "AIRLOC",
+        "AIRLOC AG"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.airloc.com/en/",
+      "officialDomains": [
+        "airloc.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Oetwil am See, Switzerland",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "AirLoc develops precision machine-leveling and vibration-isolation systems for industrial equipment and foundations.",
+      "fullDescription": [
+        "AirLoc's manufacturer-owned site documents a Swiss specialist with about seventy years of experience in machine setup and vibration isolation.",
+        "Its official portfolio includes Wedgemount precision levelers, vibration-isolation pads and engineered foundation-isolation systems for machine tools and production equipment."
+      ],
+      "productCategories": [
+        "Системы вибрационной изоляции",
+        "Промышленные станки"
+      ],
+      "productFamilies": [
+        "Wedgemount Precision Levelers",
+        "Vibration Isolation Pads",
+        "Foundation Isolation Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Станкостроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.airloc.com/en/products/wedgemount-precision-levelers.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-airloc-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_EXPERIENCE_AND_VIBRATION_ISOLATION_SPECIALISATION",
+          "url": "https://www.airloc.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-airloc-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PRECISION_LEVELER_PAD_AND_FOUNDATION_ISOLATION_FAMILIES",
+          "url": "https://www.airloc.com/en/products/wedgemount-precision-levelers.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"akkap-stemmann","officialName":"AKAPP-STEMMANN B.V.","displayName":"AKAPP-STEMMANN","aliases":["AKAPP-STEMMANN","AKAPP","AKAPP STEMMANN"],"formerNames":[],"officialWebsite":"https://akapp.com/","officialDomains":["akapp.com"],"country":"Netherlands","headquarters":null,"foundedYear":1953,"parentCompany":"Wabtec Corporation",
-      "shortDescription":"AKAPP-STEMMANN develops conductor systems, cable reels and mobile energy- and data-transmission equipment.",
-      "fullDescription":["AKAPP-STEMMANN's manufacturer-owned website documents a Dutch mobile-electrification business with roots dating to 1953 and current membership in Wabtec.","Its official portfolio includes enclosed and open conductor systems, spring cable reels, festoon systems, charging reels and accessories for cranes, automated equipment and moving machinery."],
-      "productCategories":["Промышленные кабельные системы","Промышленная автоматизация"],"productFamilies":["Enclosed Conductor Systems","Open Conductor Systems","Spring Cable Reels","Festoon Systems","Charging Reels"],"series":["4-Ductor","Multiconductor","PowerPOZ","Click-Ductor","Pro-Ductor","AV Compact","AV Industry","R150","R300"],"industries":["Подъёмное оборудование","Промышленная автоматизация","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://akapp.com/downloads/"],
-      "sources":[{"sourceId":"brand-akapp-company","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HISTORY_PARENT_AND_MOBILE_ELECTRIFICATION_SPECIALISATION","url":"https://akapp.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-akapp-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"CONDUCTOR_CABLE_REEL_FESTOON_AND_CHARGING_PRODUCT_FAMILIES","url":"https://akapp.com/downloads/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "akkap-stemmann",
+      "officialName": "AKAPP-STEMMANN B.V.",
+      "displayName": "AKAPP-STEMMANN",
+      "aliases": [
+        "AKAPP-STEMMANN",
+        "AKAPP",
+        "AKAPP STEMMANN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://akapp.com/",
+      "officialDomains": [
+        "akapp.com"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Ede, Netherlands",
+      "foundedYear": 1953,
+      "parentCompany": "Wabtec Corporation",
+      "shortDescription": "AKAPP-STEMMANN develops conductor systems, cable reels and mobile energy- and data-transmission equipment.",
+      "fullDescription": [
+        "AKAPP-STEMMANN's manufacturer-owned website documents a Dutch mobile-electrification business with roots dating to 1953 and current membership in Wabtec.",
+        "Its official portfolio includes enclosed and open conductor systems, spring cable reels, festoon systems, charging reels and accessories for cranes, automated equipment and moving machinery."
+      ],
+      "productCategories": [
+        "Промышленные кабельные системы",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Enclosed Conductor Systems",
+        "Open Conductor Systems",
+        "Spring Cable Reels",
+        "Festoon Systems",
+        "Charging Reels"
+      ],
+      "series": [
+        "4-Ductor",
+        "Multiconductor",
+        "PowerPOZ",
+        "Click-Ductor",
+        "Pro-Ductor",
+        "AV Compact",
+        "AV Industry",
+        "R150",
+        "R300"
+      ],
+      "industries": [
+        "Подъёмное оборудование",
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://akapp.com/downloads/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-akapp-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_IDENTITY_HISTORY_PARENT_AND_MOBILE_ELECTRIFICATION_SPECIALISATION",
+          "url": "https://akapp.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-akapp-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "CONDUCTOR_CABLE_REEL_FESTOON_AND_CHARGING_PRODUCT_FAMILIES",
+          "url": "https://akapp.com/downloads/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-akkap-stemmann-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://akapp.com/corporate-information/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"akomag","officialName":"Akomag S.r.l.","displayName":"Akomag","aliases":["AKOMAG","AKOMAG SRL"],"formerNames":[],"officialWebsite":"https://akomag.com/en/home-en/","officialDomains":["akomag.com"],"country":"Italy","headquarters":"Soragna, Parma, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Akomag designs bottle, container and crate washing machinery for bottling and packaging lines.",
-      "fullDescription":["Akomag's manufacturer-owned site identifies an Italian machinery producer based in Soragna, Parma, serving bottling applications.","The documented range covers bottle washers, rinsers, sterilizers, gallon-container washers and crate-washing machines, including combined line configurations."],
-      "productCategories":["Промышленное моечное оборудование","Упаковочное оборудование"],"productFamilies":["Bottle Washers","Rinsing Machines","Sterilizers","Gallon Washers","Crate Washers"],"series":["Combi","Genesi","Hydra","Phoenix","Pixis","Taurus","Sira","Fury"],"industries":["Пищевая промышленность","Упаковочная промышленность","Химическая промышленность"],"officialCatalogs":["https://akomag.com/wp-content/uploads/2019/06/SIRA.pdf"],"documentationSources":["https://akomag.com/en/home-en/"],
-      "sources":[{"sourceId":"brand-akomag-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_CONTAINER_WASHING_MACHINE_SCOPE","url":"https://akomag.com/en/home-en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-akomag-sira-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"BOTTLE_WASHING_MACHINE_FAMILY_AND_TECHNICAL_SCOPE","url":"https://akomag.com/wp-content/uploads/2019/06/SIRA.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "akomag",
+      "officialName": "Akomag S.r.l.",
+      "displayName": "Akomag",
+      "aliases": [
+        "AKOMAG",
+        "AKOMAG SRL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://akomag.com/en/home-en/",
+      "officialDomains": [
+        "akomag.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Soragna, Parma, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Akomag designs bottle, container and crate washing machinery for bottling and packaging lines.",
+      "fullDescription": [
+        "Akomag's manufacturer-owned site identifies an Italian machinery producer based in Soragna, Parma, serving bottling applications.",
+        "The documented range covers bottle washers, rinsers, sterilizers, gallon-container washers and crate-washing machines, including combined line configurations."
+      ],
+      "productCategories": [
+        "Промышленное моечное оборудование",
+        "Упаковочное оборудование"
+      ],
+      "productFamilies": [
+        "Bottle Washers",
+        "Rinsing Machines",
+        "Sterilizers",
+        "Gallon Washers",
+        "Crate Washers"
+      ],
+      "series": [
+        "Combi",
+        "Genesi",
+        "Hydra",
+        "Phoenix",
+        "Pixis",
+        "Taurus",
+        "Sira",
+        "Fury"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Упаковочная промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://akomag.com/wp-content/uploads/2019/06/SIRA.pdf"
+      ],
+      "documentationSources": [
+        "https://akomag.com/en/home-en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-akomag-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_CONTAINER_WASHING_MACHINE_SCOPE",
+          "url": "https://akomag.com/en/home-en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-akomag-sira-document",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "BOTTLE_WASHING_MACHINE_FAMILY_AND_TECHNICAL_SCOPE",
+          "url": "https://akomag.com/wp-content/uploads/2019/06/SIRA.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"albany-pumps","officialName":"Albany Engineering Company Limited","displayName":"Albany Pumps","aliases":["ALBANY PUMPS","ALBANY ENGINEERING"],"formerNames":[],"officialWebsite":"https://www.albany-pumps.co.uk/","officialDomains":["albany-pumps.co.uk"],"country":"United Kingdom","headquarters":"Lydney, Gloucestershire, United Kingdom","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Albany Pumps manufactures positive-displacement and centrifugal pumps for industrial fluid-transfer duties.",
-      "fullDescription":["Albany Engineering's manufacturer-owned website documents a United Kingdom pump maker based in Lydney and operating as an employee-owned company since 2015.","Its official portfolio includes external and internal gear pumps, lobe pumps, twin-screw pumps and centrifugal pumps for lubrication, process and transfer applications."],
-      "productCategories":["Промышленные насосы","Шестерённые насосы","Центробежные насосы"],"productFamilies":["External Gear Pumps","Internal Gear Pumps","Lobe Pumps","Twin-Screw Pumps","Centrifugal Pumps"],"series":["GA","CA","SA","GJ","GP","GC","GT","GB","LA"],"industries":["Химическая промышленность","Морская промышленность","Промышленное производство","Энергетика"],"officialCatalogs":["https://www.albany-pumps.co.uk/wp-content/uploads/2017/11/Albany-Main-24pp-brochure-Updated-Nov-17.pdf"],"documentationSources":["https://www.albany-pumps.co.uk/"],
-      "sources":[{"sourceId":"brand-albany-pumps-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_OWNERSHIP_MODEL_AND_PUMP_MANUFACTURING_SCOPE","url":"https://www.albany-pumps.co.uk/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-albany-pumps-brochure","tier":"A","type":"OFFICIAL_CATALOG","scope":"GEAR_LOBE_SCREW_CENTRIFUGAL_PUMP_FAMILIES_AND_SERIES","url":"https://www.albany-pumps.co.uk/wp-content/uploads/2017/11/Albany-Main-24pp-brochure-Updated-Nov-17.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "albany-pumps",
+      "officialName": "Albany Engineering Company Limited",
+      "displayName": "Albany Pumps",
+      "aliases": [
+        "ALBANY PUMPS",
+        "ALBANY ENGINEERING"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.albany-pumps.co.uk/",
+      "officialDomains": [
+        "albany-pumps.co.uk"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Lydney, Gloucestershire, United Kingdom",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Albany Pumps manufactures positive-displacement and centrifugal pumps for industrial fluid-transfer duties.",
+      "fullDescription": [
+        "Albany Engineering's manufacturer-owned website documents a United Kingdom pump maker based in Lydney and operating as an employee-owned company since 2015.",
+        "Its official portfolio includes external and internal gear pumps, lobe pumps, twin-screw pumps and centrifugal pumps for lubrication, process and transfer applications."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Шестерённые насосы",
+        "Центробежные насосы"
+      ],
+      "productFamilies": [
+        "External Gear Pumps",
+        "Internal Gear Pumps",
+        "Lobe Pumps",
+        "Twin-Screw Pumps",
+        "Centrifugal Pumps"
+      ],
+      "series": [
+        "GA",
+        "CA",
+        "SA",
+        "GJ",
+        "GP",
+        "GC",
+        "GT",
+        "GB",
+        "LA"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Морская промышленность",
+        "Промышленное производство",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.albany-pumps.co.uk/wp-content/uploads/2017/11/Albany-Main-24pp-brochure-Updated-Nov-17.pdf"
+      ],
+      "documentationSources": [
+        "https://www.albany-pumps.co.uk/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-albany-pumps-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_OWNERSHIP_MODEL_AND_PUMP_MANUFACTURING_SCOPE",
+          "url": "https://www.albany-pumps.co.uk/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-albany-pumps-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "GEAR_LOBE_SCREW_CENTRIFUGAL_PUMP_FAMILIES_AND_SERIES",
+          "url": "https://www.albany-pumps.co.uk/wp-content/uploads/2017/11/Albany-Main-24pp-brochure-Updated-Nov-17.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alfa-valvole","officialName":"Alfa Valvole S.r.l.","displayName":"Alfa Valvole","aliases":["ALFA VALVOLE","ALFA VALVOLE SRL"],"formerNames":[],"officialWebsite":"https://www.alfavalvole.com/ENG/","officialDomains":["alfavalvole.com"],"country":"Italy","headquarters":"Casorezzo, Milan, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Alfa Valvole manufactures industrial ball valves, including compact wafer and lined configurations.",
-      "fullDescription":["Alfa Valvole's manufacturer-owned website identifies an Italian valve company based in Casorezzo near Milan.","The official range includes wafer-pattern and flanged ball valves, high-pressure variants, lined valves and application-specific configurations for food and rail service."],
-      "productCategories":["Промышленные клапаны","Шаровые краны"],"productFamilies":["Wafer Ball Valves","Flanged Ball Valves","High-Pressure Ball Valves","Lined Valves","Application-Specific Ball Valves"],"series":["10N","10NF","10HP","11N","11NF","74","78","10 CALL","10 VAG"],"industries":["Химическая промышленность","Пищевая промышленность","Железнодорожная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.alfavalvole.com/ENG/Wafer_ball_valve.php"],
-      "sources":[{"sourceId":"brand-alfa-valvole-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_BALL_VALVE_SPECIALISATION","url":"https://www.alfavalvole.com/ENG/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alfa-valvole-lined","tier":"A","type":"PRODUCT_FAMILY","scope":"LINED_VALVE_PRODUCT_SCOPE","url":"https://www.alfavalvole.com/ENG/Lined_valve.php","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alfa-valvole",
+      "officialName": "Alfa Valvole S.r.l.",
+      "displayName": "Alfa Valvole",
+      "aliases": [
+        "ALFA VALVOLE",
+        "ALFA VALVOLE SRL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.alfavalvole.com/ENG/",
+      "officialDomains": [
+        "alfavalvole.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Casorezzo, Milan, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Alfa Valvole manufactures industrial ball valves, including compact wafer and lined configurations.",
+      "fullDescription": [
+        "Alfa Valvole's manufacturer-owned website identifies an Italian valve company based in Casorezzo near Milan.",
+        "The official range includes wafer-pattern and flanged ball valves, high-pressure variants, lined valves and application-specific configurations for food and rail service."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Шаровые краны"
+      ],
+      "productFamilies": [
+        "Wafer Ball Valves",
+        "Flanged Ball Valves",
+        "High-Pressure Ball Valves",
+        "Lined Valves",
+        "Application-Specific Ball Valves"
+      ],
+      "series": [
+        "10N",
+        "10NF",
+        "10HP",
+        "11N",
+        "11NF",
+        "74",
+        "78",
+        "10 CALL",
+        "10 VAG"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Железнодорожная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.alfavalvole.com/ENG/Wafer_ball_valve.php"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alfa-valvole-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_BALL_VALVE_SPECIALISATION",
+          "url": "https://www.alfavalvole.com/ENG/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alfa-valvole-lined",
+          "tier": "A",
+          "type": "PRODUCT_FAMILY",
+          "scope": "LINED_VALVE_PRODUCT_SCOPE",
+          "url": "https://www.alfavalvole.com/ENG/Lined_valve.php",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"allanson","officialName":"Allanson International","displayName":"Allanson","aliases":["ALLANSON","ALLANSON INTERNATIONAL"],"formerNames":[],"officialWebsite":"https://allanson.com/home/","officialDomains":["allanson.com"],"country":"Canada","headquarters":"Markham, Ontario, Canada","foundedYear":1927,"parentCompany":null,
-      "shortDescription":"Allanson manufactures lighting power components, ignition transformers and electronic controls for HVAC and sign applications.",
-      "fullDescription":["Allanson's manufacturer-owned website documents a Canadian electrical-products company founded in 1927 and based in Markham, Ontario.","Its official portfolio spans LED power supplies and controls, neon and fluorescent components, electronic ignitors, ignition and service transformers, testers and UVC air-treatment products."],
-      "productCategories":["Источники питания","Промышленные трансформаторы","Промышленная автоматизация"],"productFamilies":["LED Power Supplies","Lighting Controllers","Electronic Ignitors","Ignition Transformers","Service Transformers","Testers","UVC Air Treatment"],"series":[],"industries":["Системы отопления и вентиляции","Электронная промышленность","Промышленное производство"],"officialCatalogs":["https://allanson.com/wp-content/uploads/21-297_Allanson-Ignition-Catalogue_English_January-2023_WEB-1.pdf"],"documentationSources":["https://allanson.com/home/"],
-      "sources":[{"sourceId":"brand-allanson-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"IDENTITY_HISTORY_HEADQUARTERS_LIGHTING_AND_IGNITION_PRODUCT_SCOPE","url":"https://allanson.com/home/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-allanson-ignition-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"IGNITOR_IGNITION_TRANSFORMER_SERVICE_TRANSFORMER_AND_TESTER_FAMILIES","url":"https://allanson.com/wp-content/uploads/21-297_Allanson-Ignition-Catalogue_English_January-2023_WEB-1.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "allanson",
+      "officialName": "Allanson International",
+      "displayName": "Allanson",
+      "aliases": [
+        "ALLANSON",
+        "ALLANSON INTERNATIONAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://allanson.com/home/",
+      "officialDomains": [
+        "allanson.com"
+      ],
+      "country": "Canada",
+      "headquarters": "Markham, Ontario, Canada",
+      "foundedYear": 1927,
+      "parentCompany": null,
+      "shortDescription": "Allanson manufactures lighting power components, ignition transformers and electronic controls for HVAC and sign applications.",
+      "fullDescription": [
+        "Allanson's manufacturer-owned website documents a Canadian electrical-products company founded in 1927 and based in Markham, Ontario.",
+        "Its official portfolio spans LED power supplies and controls, neon and fluorescent components, electronic ignitors, ignition and service transformers, testers and UVC air-treatment products."
+      ],
+      "productCategories": [
+        "Источники питания",
+        "Промышленные трансформаторы",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "LED Power Supplies",
+        "Lighting Controllers",
+        "Electronic Ignitors",
+        "Ignition Transformers",
+        "Service Transformers",
+        "Testers",
+        "UVC Air Treatment"
+      ],
+      "series": [],
+      "industries": [
+        "Системы отопления и вентиляции",
+        "Электронная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://allanson.com/wp-content/uploads/21-297_Allanson-Ignition-Catalogue_English_January-2023_WEB-1.pdf"
+      ],
+      "documentationSources": [
+        "https://allanson.com/home/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-allanson-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "IDENTITY_HISTORY_HEADQUARTERS_LIGHTING_AND_IGNITION_PRODUCT_SCOPE",
+          "url": "https://allanson.com/home/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-allanson-ignition-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "IGNITOR_IGNITION_TRANSFORMER_SERVICE_TRANSFORMER_AND_TESTER_FAMILIES",
+          "url": "https://allanson.com/wp-content/uploads/21-297_Allanson-Ignition-Catalogue_English_January-2023_WEB-1.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"allen-bradley","officialName":"Allen-Bradley","displayName":"Allen-Bradley","aliases":["ALLEN BRADLEY","ALLEN-BRADLEY"],"formerNames":[],"officialWebsite":"https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley.html.html","officialDomains":["rockwellautomation.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"Rockwell Automation, Inc.",
-      "shortDescription":"Allen-Bradley is Rockwell Automation's industrial hardware brand for control, safety, sensing, motion and visualization systems.",
-      "fullDescription":["Rockwell Automation's official brand page identifies Allen-Bradley as its hardware portfolio for industrial control and information applications.","The documented range includes programmable controllers, I/O systems, human-machine interfaces, variable-frequency and servo drives, sensors, motor-control equipment, safety devices and industrial network infrastructure."],
-      "productCategories":["Промышленная автоматизация","Промышленные контроллеры","Промышленные датчики","Системы управления движением"],"productFamilies":["Programmable Controllers","Industrial I/O","Human-Machine Interfaces","Variable Frequency Drives","Servo Drives and Motors","Industrial Sensors","Motor Control","Safety Components"],"series":["ControlLogix","CompactLogix","Micro800","FLEX 5000","PanelView","PowerFlex","Kinetix","Stratix"],"industries":["Промышленная автоматизация","Автомобильная промышленность","Пищевая промышленность","Нефтегазовая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley.html.html"],
-      "sources":[{"sourceId":"brand-allen-bradley-parent-products","tier":"A","type":"OFFICIAL_PARENT_BRAND","scope":"CURRENT_BRAND_RELATION_AND_INDUSTRIAL_HARDWARE_SCOPE","url":"https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley.html.html","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-allen-bradley-controls","tier":"A","type":"OFFICIAL_PARENT_PRODUCTS","scope":"PLC_IO_HMI_MOTION_AND_DRIVE_PRODUCT_FAMILIES","url":"https://www.rockwellautomation.com/en-us/products/hardware/programmable-controllers.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "allen-bradley",
+      "officialName": "Allen-Bradley",
+      "displayName": "Allen-Bradley",
+      "aliases": [
+        "ALLEN BRADLEY",
+        "ALLEN-BRADLEY"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley.html.html",
+      "officialDomains": [
+        "rockwellautomation.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Rockwell Automation, Inc.",
+      "shortDescription": "Allen-Bradley is Rockwell Automation's industrial hardware brand for control, safety, sensing, motion and visualization systems.",
+      "fullDescription": [
+        "Rockwell Automation's official brand page identifies Allen-Bradley as its hardware portfolio for industrial control and information applications.",
+        "The documented range includes programmable controllers, I/O systems, human-machine interfaces, variable-frequency and servo drives, sensors, motor-control equipment, safety devices and industrial network infrastructure."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Промышленные контроллеры",
+        "Промышленные датчики",
+        "Системы управления движением"
+      ],
+      "productFamilies": [
+        "Programmable Controllers",
+        "Industrial I/O",
+        "Human-Machine Interfaces",
+        "Variable Frequency Drives",
+        "Servo Drives and Motors",
+        "Industrial Sensors",
+        "Motor Control",
+        "Safety Components"
+      ],
+      "series": [
+        "ControlLogix",
+        "CompactLogix",
+        "Micro800",
+        "FLEX 5000",
+        "PanelView",
+        "PowerFlex",
+        "Kinetix",
+        "Stratix"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Автомобильная промышленность",
+        "Пищевая промышленность",
+        "Нефтегазовая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley.html.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-allen-bradley-parent-products",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND",
+          "scope": "CURRENT_BRAND_RELATION_AND_INDUSTRIAL_HARDWARE_SCOPE",
+          "url": "https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley.html.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-allen-bradley-controls",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PRODUCTS",
+          "scope": "PLC_IO_HMI_MOTION_AND_DRIVE_PRODUCT_FAMILIES",
+          "url": "https://www.rockwellautomation.com/en-us/products/hardware/programmable-controllers.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"allfett","officialName":"ALLFETT Central Lubrication Systems","displayName":"ALLFETT","aliases":["ALLFETT","ALLFETT CENTRAL LUBRICATION SYSTEMS"],"formerNames":[],"officialWebsite":"https://www.allfett.net/","officialDomains":["allfett.net"],"country":"Türkiye","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"ALLFETT manufactures automatic centralized lubrication systems for vehicles, industrial machinery and wind turbines.",
-      "fullDescription":["ALLFETT's manufacturer-owned website documents more than twenty-five years of developing and manufacturing automatic lubrication systems.","The official product scope includes grease and oil pumps, distributors, cartridge-reservoir pumps and service equipment for on-road, off-road, industrial and wind-turbine applications."],
-      "productCategories":["Системы смазки","Промышленные насосы"],"productFamilies":["Grease Pumps","Oil Pumps","Lubrication Distributors","Cartridge Reservoir Pumps","Lubrication Service Equipment"],"series":[],"industries":["Транспорт","Горнодобывающая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.allfett.net/"],
-      "sources":[{"sourceId":"brand-allfett-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_EXPERIENCE_AND_AUTOMATIC_LUBRICATION_SPECIALISATION","url":"https://www.allfett.net/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-allfett-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GREASE_OIL_PUMP_DISTRIBUTOR_RESERVOIR_AND_SERVICE_EQUIPMENT_FAMILIES","url":"https://www.allfett.net/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "allfett",
+      "officialName": "ALLFETT Central Lubrication Systems",
+      "displayName": "ALLFETT",
+      "aliases": [
+        "ALLFETT",
+        "ALLFETT CENTRAL LUBRICATION SYSTEMS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.allfett.net/",
+      "officialDomains": [
+        "allfett.net"
+      ],
+      "country": "Türkiye",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ALLFETT manufactures automatic centralized lubrication systems for vehicles, industrial machinery and wind turbines.",
+      "fullDescription": [
+        "ALLFETT's manufacturer-owned website documents more than twenty-five years of developing and manufacturing automatic lubrication systems.",
+        "The official product scope includes grease and oil pumps, distributors, cartridge-reservoir pumps and service equipment for on-road, off-road, industrial and wind-turbine applications."
+      ],
+      "productCategories": [
+        "Системы смазки",
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Grease Pumps",
+        "Oil Pumps",
+        "Lubrication Distributors",
+        "Cartridge Reservoir Pumps",
+        "Lubrication Service Equipment"
+      ],
+      "series": [],
+      "industries": [
+        "Транспорт",
+        "Горнодобывающая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.allfett.net/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-allfett-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_EXPERIENCE_AND_AUTOMATIC_LUBRICATION_SPECIALISATION",
+          "url": "https://www.allfett.net/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-allfett-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "GREASE_OIL_PUMP_DISTRIBUTOR_RESERVOIR_AND_SERVICE_EQUIPMENT_FAMILIES",
+          "url": "https://www.allfett.net/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"allgaier","officialName":"Allgaier Process Technology GmbH","displayName":"Allgaier","aliases":["ALLGAIER","ALLGAIER PROCESS TECHNOLOGY"],"formerNames":[],"officialWebsite":"https://www.allgaier-process-technology.com/en","officialDomains":["allgaier-process-technology.com","allgaier-group.com"],"country":"Germany","headquarters":"Uhingen, Germany","foundedYear":null,"parentCompany":"STAFAG International GmbH",
-      "shortDescription":"Allgaier Process Technology develops drying, cooling and screening equipment for bulk-material processing.",
-      "fullDescription":["Allgaier Process Technology's official site identifies Allgaier as one of its core brands for bulk-solids processing and states that the business is a subsidiary of STAFAG International.","The documented portfolio includes drum, fluidized-bed and disc dryers, combined drying and cooling systems, tumbler screens, vibration screens and complete process packages."],
-      "productCategories":["Промышленные машины","Сортировочное оборудование","Оборудование для переработки"],"productFamilies":["Drum Dryers","Fluidized-Bed Dryers and Coolers","Disc Dryers","Tumbler Screening Machines","Vibration Screening Machines","Process Systems"],"series":["WB-T","WS-HF-T/K","WS-R-V-CT","WS-GT","TSM","Vibrall","VTS"],"industries":["Химическая промышленность","Пищевая промышленность","Горнодобывающая промышленность","Переработка отходов","Фармацевтическая промышленность"],"officialCatalogs":["https://www.allgaier-process-technology.com/_default_upload_bucket/apt_imagebrosch%C3%BCre_EN_final_2.pdf"],"documentationSources":["https://www.allgaier-process-technology.com/en/Services/Download-Center"],
-      "sources":[{"sourceId":"brand-allgaier-current-company","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_PARENT_HEADQUARTERS_AND_BULK_SOLIDS_SPECIALISATION","url":"https://www.allgaier-process-technology.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-allgaier-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DRYING_COOLING_SCREENING_AND_PROCESS_SYSTEM_FAMILIES","url":"https://www.allgaier-process-technology.com/en/Company/Brands/Allgaier","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "allgaier",
+      "officialName": "Allgaier Process Technology GmbH",
+      "displayName": "Allgaier",
+      "aliases": [
+        "ALLGAIER",
+        "ALLGAIER PROCESS TECHNOLOGY"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.allgaier-process-technology.com/en",
+      "officialDomains": [
+        "allgaier-process-technology.com",
+        "allgaier-group.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Uhingen, Germany",
+      "foundedYear": null,
+      "parentCompany": "STAFAG International GmbH",
+      "shortDescription": "Allgaier Process Technology develops drying, cooling and screening equipment for bulk-material processing.",
+      "fullDescription": [
+        "Allgaier Process Technology's official site identifies Allgaier as one of its core brands for bulk-solids processing and states that the business is a subsidiary of STAFAG International.",
+        "The documented portfolio includes drum, fluidized-bed and disc dryers, combined drying and cooling systems, tumbler screens, vibration screens and complete process packages."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Сортировочное оборудование",
+        "Оборудование для переработки"
+      ],
+      "productFamilies": [
+        "Drum Dryers",
+        "Fluidized-Bed Dryers and Coolers",
+        "Disc Dryers",
+        "Tumbler Screening Machines",
+        "Vibration Screening Machines",
+        "Process Systems"
+      ],
+      "series": [
+        "WB-T",
+        "WS-HF-T/K",
+        "WS-R-V-CT",
+        "WS-GT",
+        "TSM",
+        "Vibrall",
+        "VTS"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Горнодобывающая промышленность",
+        "Переработка отходов",
+        "Фармацевтическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.allgaier-process-technology.com/_default_upload_bucket/apt_imagebrosch%C3%BCre_EN_final_2.pdf"
+      ],
+      "documentationSources": [
+        "https://www.allgaier-process-technology.com/en/Services/Download-Center"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-allgaier-current-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_IDENTITY_PARENT_HEADQUARTERS_AND_BULK_SOLIDS_SPECIALISATION",
+          "url": "https://www.allgaier-process-technology.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-allgaier-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "DRYING_COOLING_SCREENING_AND_PROCESS_SYSTEM_FAMILIES",
+          "url": "https://www.allgaier-process-technology.com/en/Company/Brands/Allgaier",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"allison-transmission","officialName":"Allison Transmission, Inc.","displayName":"Allison Transmission","aliases":["ALLISON TRANSMISSION","ALLISON"],"formerNames":[],"officialWebsite":"https://www.allisontransmission.com/","officialDomains":["allisontransmission.com"],"country":"United States","headquarters":"Indianapolis, Indiana, United States","foundedYear":1915,"parentCompany":null,
-      "shortDescription":"Allison Transmission manufactures fully automatic transmissions and electrified propulsion systems for commercial and defense vehicles.",
-      "fullDescription":["Allison Transmission's official company page documents a business established in 1915 and headquartered in Indianapolis, Indiana.","Its product portfolio includes medium- and heavy-duty fully automatic transmissions, cross-drive systems for tracked vehicles, electric-hybrid propulsion and fully electric axle systems."],
-      "productCategories":["Механические передачи","Системы управления движением"],"productFamilies":["Fully Automatic Transmissions","Cross-Drive Transmissions","Electric-Hybrid Propulsion Systems","Electric Axles"],"series":["1000 Series","2000 Series","3000 Series","4000 Series","6000 Series","8000 Series","9000 Series","FracTran","X Models","eGen Flex","eGen Force","eGen Power"],"industries":["Транспорт","Горнодобывающая промышленность","Строительная промышленность","Оборонная промышленность"],"officialCatalogs":[],"documentationSources":["https://allisontransmission.com/applications--products"],
-      "sources":[{"sourceId":"brand-allison-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PROPULSION_SPECIALISATION","url":"https://www.allisontransmission.com/en-gb/company","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-allison-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AUTOMATIC_TRANSMISSION_HYBRID_ELECTRIC_AXLE_AND_CROSS_DRIVE_FAMILIES","url":"https://allisontransmission.com/applications--products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "allison-transmission",
+      "officialName": "Allison Transmission, Inc.",
+      "displayName": "Allison Transmission",
+      "aliases": [
+        "ALLISON TRANSMISSION",
+        "ALLISON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.allisontransmission.com/",
+      "officialDomains": [
+        "allisontransmission.com"
+      ],
+      "country": "United States",
+      "headquarters": "Indianapolis, Indiana, United States",
+      "foundedYear": 1915,
+      "parentCompany": null,
+      "shortDescription": "Allison Transmission manufactures fully automatic transmissions and electrified propulsion systems for commercial and defense vehicles.",
+      "fullDescription": [
+        "Allison Transmission's official company page documents a business established in 1915 and headquartered in Indianapolis, Indiana.",
+        "Its product portfolio includes medium- and heavy-duty fully automatic transmissions, cross-drive systems for tracked vehicles, electric-hybrid propulsion and fully electric axle systems."
+      ],
+      "productCategories": [
+        "Механические передачи",
+        "Системы управления движением"
+      ],
+      "productFamilies": [
+        "Fully Automatic Transmissions",
+        "Cross-Drive Transmissions",
+        "Electric-Hybrid Propulsion Systems",
+        "Electric Axles"
+      ],
+      "series": [
+        "1000 Series",
+        "2000 Series",
+        "3000 Series",
+        "4000 Series",
+        "6000 Series",
+        "8000 Series",
+        "9000 Series",
+        "FracTran",
+        "X Models",
+        "eGen Flex",
+        "eGen Force",
+        "eGen Power"
+      ],
+      "industries": [
+        "Транспорт",
+        "Горнодобывающая промышленность",
+        "Строительная промышленность",
+        "Оборонная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://allisontransmission.com/applications--products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-allison-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_PROPULSION_SPECIALISATION",
+          "url": "https://www.allisontransmission.com/en-gb/company",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-allison-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "AUTOMATIC_TRANSMISSION_HYBRID_ELECTRIC_AXLE_AND_CROSS_DRIVE_FAMILIES",
+          "url": "https://allisontransmission.com/applications--products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alpatek","officialName":"Alpatek B.V.","displayName":"Alpatek","aliases":["ALPATEK","ALPATEK BV"],"formerNames":[],"officialWebsite":"https://alpatek.com/","officialDomains":["alpatek.com"],"country":"Netherlands","headquarters":"Rhenen, Netherlands","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Alpatek develops and supplies battery-powered drive systems and components for mobile industrial equipment.",
-      "fullDescription":["Alpatek's manufacturer-owned website identifies a Dutch system supplier with more than thirty-five years of experience in battery-powered drive systems, prototype development and series production.","The official portfolio includes electric motors, controllers, transaxles, gearboxes, track drives, wheel drives, dual-drive systems and actuators for mobile and material-handling applications."],
-      "productCategories":["Промышленные электродвигатели","Системы управления движением","Редукторы","Линейные приводы"],"productFamilies":["DC Motors","Motor Controllers","Transaxles","Gearboxes","Track Drives","Drive Wheels","Dual-Drive Systems","Actuators"],"series":[],"industries":["Транспорт","Сельское хозяйство","Строительная промышленность","Морская промышленность","Промышленная автоматизация"],"officialCatalogs":["https://alpatek.com/wp-content/uploads/2020/05/Planetary-GearBoxes.pdf"],"documentationSources":["https://alpatek.com/products/?lang=en"],
-      "sources":[{"sourceId":"brand-alpatek-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_EXPERIENCE_AND_BATTERY_DRIVE_SYSTEM_SCOPE","url":"https://alpatek.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alpatek-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTOR_CONTROLLER_TRANSAXLE_GEARBOX_DRIVE_AND_ACTUATOR_FAMILIES","url":"https://alpatek.com/products/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alpatek",
+      "officialName": "Alpatek B.V.",
+      "displayName": "Alpatek",
+      "aliases": [
+        "ALPATEK",
+        "ALPATEK BV"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://alpatek.com/",
+      "officialDomains": [
+        "alpatek.com"
+      ],
+      "country": "Netherlands",
+      "headquarters": "Rhenen, Netherlands",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Alpatek develops and supplies battery-powered drive systems and components for mobile industrial equipment.",
+      "fullDescription": [
+        "Alpatek's manufacturer-owned website identifies a Dutch system supplier with more than thirty-five years of experience in battery-powered drive systems, prototype development and series production.",
+        "The official portfolio includes electric motors, controllers, transaxles, gearboxes, track drives, wheel drives, dual-drive systems and actuators for mobile and material-handling applications."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели",
+        "Системы управления движением",
+        "Редукторы",
+        "Линейные приводы"
+      ],
+      "productFamilies": [
+        "DC Motors",
+        "Motor Controllers",
+        "Transaxles",
+        "Gearboxes",
+        "Track Drives",
+        "Drive Wheels",
+        "Dual-Drive Systems",
+        "Actuators"
+      ],
+      "series": [],
+      "industries": [
+        "Транспорт",
+        "Сельское хозяйство",
+        "Строительная промышленность",
+        "Морская промышленность",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [
+        "https://alpatek.com/wp-content/uploads/2020/05/Planetary-GearBoxes.pdf"
+      ],
+      "documentationSources": [
+        "https://alpatek.com/products/?lang=en"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alpatek-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_EXPERIENCE_AND_BATTERY_DRIVE_SYSTEM_SCOPE",
+          "url": "https://alpatek.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alpatek-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOTOR_CONTROLLER_TRANSAXLE_GEARBOX_DRIVE_AND_ACTUATOR_FAMILIES",
+          "url": "https://alpatek.com/products/?lang=en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alpha-gear-drives","officialName":"WITTENSTEIN alpha","displayName":"Alpha Gear Drives","aliases":["ALPHA GEAR DRIVES","WITTENSTEIN ALPHA"],"formerNames":["alpha gear drives Inc."],"officialWebsite":"https://www.wittenstein-group.com/int-en/company/wittenstein-group/wittenstein-alpha","officialDomains":["wittenstein-group.com","wittenstein-us.com"],"country":"United States","headquarters":"Bartlett, Illinois, United States","foundedYear":1992,"parentCompany":"WITTENSTEIN SE","statusModifier":"FORMER_NAME",
-      "shortDescription":"Alpha Gear Drives is the former United States company name associated with today's WITTENSTEIN alpha precision-drive business.",
-      "fullDescription":["An official WITTENSTEIN publication records the 1992 founding of its United States organization as alpha gear drives Inc., providing a direct corporate link for this historical identity.","WITTENSTEIN alpha's current official portfolio covers precision planetary and right-angle gearboxes, rack-and-pinion systems, actuators and mechatronic servo-drive solutions."],
-      "productCategories":["Промышленные редукторы","Системы управления движением","Линейные приводы"],"productFamilies":["Planetary Gearboxes","Right-Angle Gearboxes","Rack-and-Pinion Systems","Actuators","Mechatronic Drive Units"],"series":[],"industries":["Промышленная автоматизация","Робототехника","Станкостроение"],"officialCatalogs":["https://www.wittenstein-us.com/fileadmin/06-Downloads/WITTENSTEIN-SE/Kundenmagazin/wittenstein-move-23-en.pdf"],"documentationSources":["https://www.wittenstein-group.com/int-en/company/wittenstein-group/wittenstein-alpha"],
-      "sources":[{"sourceId":"brand-alpha-gear-drives-history","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"FORMER_US_COMPANY_NAME_FOUNDED_YEAR_HEADQUARTERS_AND_CURRENT_GROUP_RELATION","url":"https://www.wittenstein-us.com/fileadmin/06-Downloads/WITTENSTEIN-SE/Kundenmagazin/wittenstein-move-23-en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alpha-gear-drives-current","tier":"A","type":"OFFICIAL_PARENT_BRAND","scope":"CURRENT_WITTENSTEIN_ALPHA_IDENTITY_AND_PRECISION_DRIVE_PORTFOLIO","url":"https://www.wittenstein-group.com/int-en/company/wittenstein-group/wittenstein-alpha","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alpha-gear-drives",
+      "officialName": "WITTENSTEIN alpha",
+      "displayName": "Alpha Gear Drives",
+      "aliases": [
+        "ALPHA GEAR DRIVES",
+        "WITTENSTEIN ALPHA"
+      ],
+      "formerNames": [
+        "alpha gear drives Inc."
+      ],
+      "officialWebsite": "https://www.wittenstein-group.com/int-en/company/wittenstein-group/wittenstein-alpha",
+      "officialDomains": [
+        "wittenstein-group.com",
+        "wittenstein-us.com"
+      ],
+      "country": "United States",
+      "headquarters": "Bartlett, Illinois, United States",
+      "foundedYear": 1992,
+      "parentCompany": "WITTENSTEIN SE",
+      "statusModifier": "FORMER_NAME",
+      "shortDescription": "Alpha Gear Drives is the former United States company name associated with today's WITTENSTEIN alpha precision-drive business.",
+      "fullDescription": [
+        "An official WITTENSTEIN publication records the 1992 founding of its United States organization as alpha gear drives Inc., providing a direct corporate link for this historical identity.",
+        "WITTENSTEIN alpha's current official portfolio covers precision planetary and right-angle gearboxes, rack-and-pinion systems, actuators and mechatronic servo-drive solutions."
+      ],
+      "productCategories": [
+        "Промышленные редукторы",
+        "Системы управления движением",
+        "Линейные приводы"
+      ],
+      "productFamilies": [
+        "Planetary Gearboxes",
+        "Right-Angle Gearboxes",
+        "Rack-and-Pinion Systems",
+        "Actuators",
+        "Mechatronic Drive Units"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Робототехника",
+        "Станкостроение"
+      ],
+      "officialCatalogs": [
+        "https://www.wittenstein-us.com/fileadmin/06-Downloads/WITTENSTEIN-SE/Kundenmagazin/wittenstein-move-23-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.wittenstein-group.com/int-en/company/wittenstein-group/wittenstein-alpha"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alpha-gear-drives-history",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "FORMER_US_COMPANY_NAME_FOUNDED_YEAR_HEADQUARTERS_AND_CURRENT_GROUP_RELATION",
+          "url": "https://www.wittenstein-us.com/fileadmin/06-Downloads/WITTENSTEIN-SE/Kundenmagazin/wittenstein-move-23-en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alpha-gear-drives-current",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND",
+          "scope": "CURRENT_WITTENSTEIN_ALPHA_IDENTITY_AND_PRECISION_DRIVE_PORTFOLIO",
+          "url": "https://www.wittenstein-group.com/int-en/company/wittenstein-group/wittenstein-alpha",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alpha-moisture-systems","officialName":"Alpha Moisture Systems Limited","displayName":"Alpha Moisture Systems","aliases":["ALPHA MOISTURE SYSTEMS","AMS DEW-POINT"],"formerNames":[],"officialWebsite":"https://dew-point.com/","officialDomains":["dew-point.com","amsystems.co.uk"],"country":"United Kingdom","headquarters":"Horsforth, Leeds, United Kingdom","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Alpha Moisture Systems develops dew-point meters, transmitters and calibration systems for trace-moisture measurement in gases.",
-      "fullDescription":["Alpha Moisture Systems' manufacturer-owned website documents a United Kingdom instrumentation company with more than thirty years of trace-moisture measurement experience.","The official range includes portable and online dew-point meters, transmitters, sampling systems, moisture generators and calibration systems for dry compressed air and process gases."],
-      "productCategories":["Измерительное оборудование","Промышленные датчики","Калибровочное оборудование"],"productFamilies":["Portable Dew-Point Meters","Online Dew-Point Hygrometers","Dew-Point Transmitters","Gas Sampling Systems","Moisture Generators","Calibration Systems"],"series":["SADPmini2","Model 6020","DS1200","DS1500","DS4000","AMT","PDT","PSS","MG10"],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":["https://dew-point.com/wp-content/uploads/2024/06/SADPmini2-Dewpoint-Meter-Datasheet-200923-Iss-13.pdf"],"documentationSources":["https://dew-point.com/"],
-      "sources":[{"sourceId":"brand-alpha-moisture-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_EXPERIENCE_AND_TRACE_MOISTURE_SPECIALISATION","url":"https://dew-point.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alpha-moisture-sadp-document","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"PORTABLE_DEW_POINT_METER_SENSOR_AND_COMPANY_IDENTITY","url":"https://dew-point.com/wp-content/uploads/2024/06/SADPmini2-Dewpoint-Meter-Datasheet-200923-Iss-13.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alpha-moisture-systems",
+      "officialName": "Alpha Moisture Systems Limited",
+      "displayName": "Alpha Moisture Systems",
+      "aliases": [
+        "ALPHA MOISTURE SYSTEMS",
+        "AMS DEW-POINT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://dew-point.com/",
+      "officialDomains": [
+        "dew-point.com",
+        "amsystems.co.uk"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Horsforth, Leeds, United Kingdom",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Alpha Moisture Systems develops dew-point meters, transmitters and calibration systems for trace-moisture measurement in gases.",
+      "fullDescription": [
+        "Alpha Moisture Systems' manufacturer-owned website documents a United Kingdom instrumentation company with more than thirty years of trace-moisture measurement experience.",
+        "The official range includes portable and online dew-point meters, transmitters, sampling systems, moisture generators and calibration systems for dry compressed air and process gases."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Промышленные датчики",
+        "Калибровочное оборудование"
+      ],
+      "productFamilies": [
+        "Portable Dew-Point Meters",
+        "Online Dew-Point Hygrometers",
+        "Dew-Point Transmitters",
+        "Gas Sampling Systems",
+        "Moisture Generators",
+        "Calibration Systems"
+      ],
+      "series": [
+        "SADPmini2",
+        "Model 6020",
+        "DS1200",
+        "DS1500",
+        "DS4000",
+        "AMT",
+        "PDT",
+        "PSS",
+        "MG10"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://dew-point.com/wp-content/uploads/2024/06/SADPmini2-Dewpoint-Meter-Datasheet-200923-Iss-13.pdf"
+      ],
+      "documentationSources": [
+        "https://dew-point.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alpha-moisture-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_EXPERIENCE_AND_TRACE_MOISTURE_SPECIALISATION",
+          "url": "https://dew-point.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alpha-moisture-sadp-document",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "PORTABLE_DEW_POINT_METER_SENSOR_AND_COMPANY_IDENTITY",
+          "url": "https://dew-point.com/wp-content/uploads/2024/06/SADPmini2-Dewpoint-Meter-Datasheet-200923-Iss-13.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alpsan","officialName":"Alpsan Alüminyum ve Plastik Profil Sanayi ve Ticaret A.Ş.","displayName":"Alpsan","aliases":["ALPSAN","ALPSAN ALUMINIUM"],"formerNames":[],"officialWebsite":"https://www.alpsan.com/en","officialDomains":["alpsan.com"],"country":"Türkiye","headquarters":"Gebze, Kocaeli, Türkiye","foundedYear":1985,"parentCompany":null,
-      "shortDescription":"Alpsan manufactures aluminium extrusion profiles and provides anodizing, coating and mechanical-processing services.",
-      "fullDescription":["Alpsan's manufacturer-owned company page identifies a Turkish aluminium-profile producer founded in 1985 with extrusion and surface-treatment operations in Gebze.","Its documented capabilities include custom aluminium extrusion, anodizing, powder coating, PVC foil wrapping and CNC cutting, drilling, punching and bending for construction, automotive, machinery, furniture and solar applications."],
-      "productCategories":["Металлообработка и изготовление промышленных компонентов"],"productFamilies":["Aluminium Extrusion Profiles","Anodized Profiles","Powder-Coated Profiles","PVC-Wrapped Profiles","Machined Aluminium Components"],"series":["Starkbau","Norm-Al","Therm-Al"],"industries":["Автомобильная промышленность","Машиностроение","Строительная промышленность","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.alpsan.com/en/file-archieve"],
-      "sources":[{"sourceId":"brand-alpsan-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_CAPABILITIES_AND_MARKETS","url":"https://www.alpsan.com/en/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alpsan-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"EXTRUDED_PROFILE_SYSTEM_AND_APPLICATION_PRODUCT_SCOPE","url":"https://www.alpsan.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alpsan",
+      "officialName": "Alpsan Alüminyum ve Plastik Profil Sanayi ve Ticaret A.Ş.",
+      "displayName": "Alpsan",
+      "aliases": [
+        "ALPSAN",
+        "ALPSAN ALUMINIUM"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.alpsan.com/en",
+      "officialDomains": [
+        "alpsan.com"
+      ],
+      "country": "Türkiye",
+      "headquarters": "Gebze, Kocaeli, Türkiye",
+      "foundedYear": 1985,
+      "parentCompany": null,
+      "shortDescription": "Alpsan manufactures aluminium extrusion profiles and provides anodizing, coating and mechanical-processing services.",
+      "fullDescription": [
+        "Alpsan's manufacturer-owned company page identifies a Turkish aluminium-profile producer founded in 1985 with extrusion and surface-treatment operations in Gebze.",
+        "Its documented capabilities include custom aluminium extrusion, anodizing, powder coating, PVC foil wrapping and CNC cutting, drilling, punching and bending for construction, automotive, machinery, furniture and solar applications."
+      ],
+      "productCategories": [
+        "Металлообработка и изготовление промышленных компонентов"
+      ],
+      "productFamilies": [
+        "Aluminium Extrusion Profiles",
+        "Anodized Profiles",
+        "Powder-Coated Profiles",
+        "PVC-Wrapped Profiles",
+        "Machined Aluminium Components"
+      ],
+      "series": [
+        "Starkbau",
+        "Norm-Al",
+        "Therm-Al"
+      ],
+      "industries": [
+        "Автомобильная промышленность",
+        "Машиностроение",
+        "Строительная промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.alpsan.com/en/file-archieve"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alpsan-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_CAPABILITIES_AND_MARKETS",
+          "url": "https://www.alpsan.com/en/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alpsan-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "EXTRUDED_PROFILE_SYSTEM_AND_APPLICATION_PRODUCT_SCOPE",
+          "url": "https://www.alpsan.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alup","officialName":"ALUP Kompressoren","displayName":"ALUP","aliases":["ALUP","ALUP KOMPRESSOREN","ALUP COMPRESSORS"],"formerNames":[],"officialWebsite":"https://www.alup.com/en-uk","officialDomains":["alup.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"ALUP supplies screw, piston and oil-free compressors together with compressed-air treatment and control equipment.",
-      "fullDescription":["ALUP's manufacturer-owned website documents an industrial compressed-air brand with nearly a century of compressor experience.","The official portfolio includes fixed- and variable-speed screw compressors, piston compressors, oil-free systems, air and nitrogen boosters, dryers, filters, condensate-management equipment and installation controllers."],
-      "productCategories":["Промышленные компрессоры","Фильтрационное оборудование","Промышленная автоматизация"],"productFamilies":["Screw Compressors","Piston Compressors","Oil-Free Compressors","Air and Nitrogen Boosters","Compressed-Air Dryers","Filters","Controllers and Connectivity"],"series":["Allegro","Allegretto","Evoluto","Largo","Sonetto","SCK","HLE","EngineAIR","WisAIR"],"industries":["Промышленное производство","Пищевая промышленность","Фармацевтическая промышленность","Электронная промышленность"],"officialCatalogs":[],"documentationSources":["https://www.alup.com/en-uk/products"],
-      "sources":[{"sourceId":"brand-alup-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CURRENT_BRAND_IDENTITY_COMPRESSOR_EXPERIENCE_AND_COMPRESSED_AIR_SCOPE","url":"https://www.alup.com/en-uk","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alup-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SCREW_PISTON_OIL_FREE_TREATMENT_BOOSTER_AND_CONTROL_FAMILIES","url":"https://www.alup.com/en-uk/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alup",
+      "officialName": "ALUP Kompressoren",
+      "displayName": "ALUP",
+      "aliases": [
+        "ALUP",
+        "ALUP KOMPRESSOREN",
+        "ALUP COMPRESSORS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.alup.com/en-uk",
+      "officialDomains": [
+        "alup.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ALUP supplies screw, piston and oil-free compressors together with compressed-air treatment and control equipment.",
+      "fullDescription": [
+        "ALUP's manufacturer-owned website documents an industrial compressed-air brand with nearly a century of compressor experience.",
+        "The official portfolio includes fixed- and variable-speed screw compressors, piston compressors, oil-free systems, air and nitrogen boosters, dryers, filters, condensate-management equipment and installation controllers."
+      ],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Фильтрационное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Screw Compressors",
+        "Piston Compressors",
+        "Oil-Free Compressors",
+        "Air and Nitrogen Boosters",
+        "Compressed-Air Dryers",
+        "Filters",
+        "Controllers and Connectivity"
+      ],
+      "series": [
+        "Allegro",
+        "Allegretto",
+        "Evoluto",
+        "Largo",
+        "Sonetto",
+        "SCK",
+        "HLE",
+        "EngineAIR",
+        "WisAIR"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Электронная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.alup.com/en-uk/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alup-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "CURRENT_BRAND_IDENTITY_COMPRESSOR_EXPERIENCE_AND_COMPRESSED_AIR_SCOPE",
+          "url": "https://www.alup.com/en-uk",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alup-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SCREW_PISTON_OIL_FREE_TREATMENT_BOOSTER_AND_CONTROL_FAMILIES",
+          "url": "https://www.alup.com/en-uk/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"alzmetall","officialName":"ALZMETALL Werkzeugmaschinenfabrik und Gießerei Friedrich GmbH & Co. KG","displayName":"ALZMETALL","aliases":["ALZMETALL"],"formerNames":[],"officialWebsite":"https://alzmetall.de/en/","officialDomains":["alzmetall.de"],"country":"Germany","headquarters":"Altenmarkt an der Alz, Germany","foundedYear":1945,"parentCompany":null,
-      "shortDescription":"ALZMETALL manufactures industrial drilling machines, CNC machining centres and iron castings.",
-      "fullDescription":["ALZMETALL's official company history records its 1945 foundation and the start of drilling-machine production in 1947.","The manufacturer operates in vertical CNC machining centres, industrial heavy-duty drill presses and grey- and ductile-iron foundry production for mechanical-engineering applications."],
-      "productCategories":["Промышленные станки","Металлообрабатывающие станки","Изготовление промышленных компонентов"],"productFamilies":["Industrial Drilling Machines","Vertical CNC Machining Centres","Automated Drilling Machines","Grey-Iron Castings","Ductile-Iron Castings"],"series":["AX","ABOMAT"],"industries":["Станкостроение","Автомобильная промышленность","Аэрокосмическая промышленность","Машиностроение"],"officialCatalogs":["https://alzmetall.de/wp-content/uploads/2025/01/Preisliste72Classic-EN.pdf"],"documentationSources":["https://alzmetall.de/en/company/"],
-      "sources":[{"sourceId":"brand-alzmetall-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HISTORY_AND_THREE_BUSINESS_SEGMENTS","url":"https://alzmetall.de/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-alzmetall-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"INDUSTRIAL_DRILLING_MACHINE_PRODUCT_SCOPE_AND_HISTORY","url":"https://alzmetall.de/wp-content/uploads/2025/01/Preisliste72Classic-EN.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "alzmetall",
+      "officialName": "ALZMETALL Werkzeugmaschinenfabrik und Gießerei Friedrich GmbH & Co. KG",
+      "displayName": "ALZMETALL",
+      "aliases": [
+        "ALZMETALL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://alzmetall.de/en/",
+      "officialDomains": [
+        "alzmetall.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Altenmarkt an der Alz, Germany",
+      "foundedYear": 1945,
+      "parentCompany": null,
+      "shortDescription": "ALZMETALL manufactures industrial drilling machines, CNC machining centres and iron castings.",
+      "fullDescription": [
+        "ALZMETALL's official company history records its 1945 foundation and the start of drilling-machine production in 1947.",
+        "The manufacturer operates in vertical CNC machining centres, industrial heavy-duty drill presses and grey- and ductile-iron foundry production for mechanical-engineering applications."
+      ],
+      "productCategories": [
+        "Промышленные станки",
+        "Металлообрабатывающие станки",
+        "Изготовление промышленных компонентов"
+      ],
+      "productFamilies": [
+        "Industrial Drilling Machines",
+        "Vertical CNC Machining Centres",
+        "Automated Drilling Machines",
+        "Grey-Iron Castings",
+        "Ductile-Iron Castings"
+      ],
+      "series": [
+        "AX",
+        "ABOMAT"
+      ],
+      "industries": [
+        "Станкостроение",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://alzmetall.de/wp-content/uploads/2025/01/Preisliste72Classic-EN.pdf"
+      ],
+      "documentationSources": [
+        "https://alzmetall.de/en/company/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-alzmetall-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_HISTORY_AND_THREE_BUSINESS_SEGMENTS",
+          "url": "https://alzmetall.de/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-alzmetall-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "INDUSTRIAL_DRILLING_MACHINE_PRODUCT_SCOPE_AND_HISTORY",
+          "url": "https://alzmetall.de/wp-content/uploads/2025/01/Preisliste72Classic-EN.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"amazone","officialName":"AMAZONEN-WERKE H. DREYER SE & Co. KG","displayName":"AMAZONE","aliases":["AMAZONE","AMAZONEN-WERKE"],"formerNames":[],"officialWebsite":"https://amazone.net/en/","officialDomains":["amazone.net"],"country":"Germany","headquarters":"Osnabrück, Germany","foundedYear":1883,"parentCompany":null,
-      "shortDescription":"AMAZONE manufactures agricultural and groundcare machinery for soil preparation, seeding, fertilizing, crop protection and municipal work.",
-      "fullDescription":["AMAZONE's official company profile documents an independent German family business founded in 1883 and headquartered in Osnabrück.","Its product range covers ploughs, cultivators, disc and rotary harrows, rollers, seed drills, precision air seeders, fertilizer spreaders, crop-protection sprayers, hoes, lawn mowers and winter-service spreaders."],
-      "productCategories":["Промышленные машины","Сельскохозяйственная техника"],"productFamilies":["Soil-Tillage Machinery","Seed Drills","Precision Air Seeders","Fertilizer Spreaders","Crop-Protection Sprayers","Hoeing Equipment","Groundcare Machinery"],"series":["Catros","Cenius","Cirrus","Precea","ZA-TS","ZG-TS","Pantera","Venterra","Profihopper"],"industries":["Сельское хозяйство","Промышленное производство"],"officialCatalogs":["https://amazone.net/en/products-digital-solutions/product-brochures"],"documentationSources":["https://amazone.net/en/company/welcome-to-amazone-700572"],
-      "sources":[{"sourceId":"brand-amazone-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_OWNERSHIP_AND_MACHINERY_SCOPE","url":"https://amazone.net/en/company/welcome-to-amazone-700572","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-amazone-brochures","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"TILLAGE_SEEDING_FERTILISING_SPRAYING_HOEING_AND_GROUNDCARE_FAMILIES","url":"https://amazone.net/en/products-digital-solutions/product-brochures","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "amazone",
+      "officialName": "AMAZONEN-WERKE H. DREYER SE & Co. KG",
+      "displayName": "AMAZONE",
+      "aliases": [
+        "AMAZONE",
+        "AMAZONEN-WERKE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://amazone.net/en/",
+      "officialDomains": [
+        "amazone.net"
+      ],
+      "country": "Germany",
+      "headquarters": "Osnabrück, Germany",
+      "foundedYear": 1883,
+      "parentCompany": null,
+      "shortDescription": "AMAZONE manufactures agricultural and groundcare machinery for soil preparation, seeding, fertilizing, crop protection and municipal work.",
+      "fullDescription": [
+        "AMAZONE's official company profile documents an independent German family business founded in 1883 and headquartered in Osnabrück.",
+        "Its product range covers ploughs, cultivators, disc and rotary harrows, rollers, seed drills, precision air seeders, fertilizer spreaders, crop-protection sprayers, hoes, lawn mowers and winter-service spreaders."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Сельскохозяйственная техника"
+      ],
+      "productFamilies": [
+        "Soil-Tillage Machinery",
+        "Seed Drills",
+        "Precision Air Seeders",
+        "Fertilizer Spreaders",
+        "Crop-Protection Sprayers",
+        "Hoeing Equipment",
+        "Groundcare Machinery"
+      ],
+      "series": [
+        "Catros",
+        "Cenius",
+        "Cirrus",
+        "Precea",
+        "ZA-TS",
+        "ZG-TS",
+        "Pantera",
+        "Venterra",
+        "Profihopper"
+      ],
+      "industries": [
+        "Сельское хозяйство",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://amazone.net/en/products-digital-solutions/product-brochures"
+      ],
+      "documentationSources": [
+        "https://amazone.net/en/company/welcome-to-amazone-700572"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-amazone-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_OWNERSHIP_AND_MACHINERY_SCOPE",
+          "url": "https://amazone.net/en/company/welcome-to-amazone-700572",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-amazone-brochures",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "TILLAGE_SEEDING_FERTILISING_SPRAYING_HOEING_AND_GROUNDCARE_FAMILIES",
+          "url": "https://amazone.net/en/products-digital-solutions/product-brochures",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"amf-bruns","officialName":"AMF-Bruns GmbH & Co. KG","displayName":"AMF-Bruns","aliases":["AMF-BRUNS","AMF BRUNS"],"formerNames":[],"officialWebsite":"https://www.amf-bruns.de/","officialDomains":["amf-bruns.de"],"country":"Germany","headquarters":"Apen, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"AMF-Bruns develops bulk-material conveying systems and vehicle-accessibility equipment.",
-      "fullDescription":["AMF-Bruns' manufacturer-owned corporate site identifies two established technical divisions based in Apen, Germany.","The conveying division plans and implements systems for bulk materials, while the vehicle-technology division produces wheelchair lifts, access ramps, restraint systems and vehicle conversions for passengers with reduced mobility."],
-      "productCategories":["Конвейерное оборудование","Подъёмное оборудование"],"productFamilies":["Bulk-Material Conveying Systems","Wheelchair Lifts","Vehicle Access Ramps","Wheelchair Restraint Systems","Accessible Vehicle Conversions"],"series":[],"industries":["Промышленное производство","Транспорт","Пищевая промышленность","Химическая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.amf-bruns.de/"],
-      "sources":[{"sourceId":"brand-amf-bruns-company","tier":"A","type":"ABOUT_AND_DIVISIONS","scope":"LEGAL_IDENTITY_HEADQUARTERS_CONVEYING_AND_VEHICLE_TECHNOLOGY_SCOPE","url":"https://www.amf-bruns.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "amf-bruns",
+      "officialName": "AMF-Bruns GmbH & Co. KG",
+      "displayName": "AMF-Bruns",
+      "aliases": [
+        "AMF-BRUNS",
+        "AMF BRUNS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.amf-bruns.de/",
+      "officialDomains": [
+        "amf-bruns.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Apen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "AMF-Bruns develops bulk-material conveying systems and vehicle-accessibility equipment.",
+      "fullDescription": [
+        "AMF-Bruns' manufacturer-owned corporate site identifies two established technical divisions based in Apen, Germany.",
+        "The conveying division plans and implements systems for bulk materials, while the vehicle-technology division produces wheelchair lifts, access ramps, restraint systems and vehicle conversions for passengers with reduced mobility."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Подъёмное оборудование"
+      ],
+      "productFamilies": [
+        "Bulk-Material Conveying Systems",
+        "Wheelchair Lifts",
+        "Vehicle Access Ramps",
+        "Wheelchair Restraint Systems",
+        "Accessible Vehicle Conversions"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Транспорт",
+        "Пищевая промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.amf-bruns.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-amf-bruns-company",
+          "tier": "A",
+          "type": "ABOUT_AND_DIVISIONS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_CONVEYING_AND_VEHICLE_TECHNOLOGY_SCOPE",
+          "url": "https://www.amf-bruns.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"amk","officialName":"AMKmotion GmbH + Co KG","displayName":"AMKmotion","aliases":["AMK","AMKMOTION"],"formerNames":[],"officialWebsite":"https://www.amk-motion.com/en/","officialDomains":["amk-motion.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"ARBURG GmbH + Co KG",
-      "shortDescription":"AMKmotion develops electric drive, motion-control and industrial-automation systems for machine builders.",
-      "fullDescription":["AMKmotion's official website documents more than sixty years of drive-technology experience and identifies the company as a member of the ARBURG family.","Its product portfolio comprises decentralized and centralized drive systems, servo motors, motion controllers, engineering software and application-specific automation solutions."],
-      "productCategories":["Системы управления движением","Сервоприводы","Промышленные электродвигатели","Промышленная автоматизация"],"productFamilies":["Decentralized Drive Solutions","Centralized Drive Solutions","Servo Motors","Motion Controllers","Engineering Software","Custom Drive Solutions"],"series":["iSA","A4S","DT","DD","DP","DTX","DIP"],"industries":["Промышленная автоматизация","Упаковочная промышленность","Текстильная промышленность","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.amk-motion.com/en/engineering-service/downloadcenter/"],
-      "sources":[{"sourceId":"brand-amk-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CURRENT_IDENTITY_GROUP_RELATION_EXPERIENCE_AND_DRIVE_AUTOMATION_SCOPE","url":"https://www.amk-motion.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-amk-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"DECENTRALIZED_CENTRAL_DRIVE_SERVO_MOTOR_CONTROLLER_AND_SOFTWARE_FAMILIES","url":"https://www.amk-motion.com/en/engineering-service/downloadcenter/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "amk",
+      "officialName": "AMKmotion GmbH + Co KG",
+      "displayName": "AMKmotion",
+      "aliases": [
+        "AMK",
+        "AMKMOTION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.amk-motion.com/en/",
+      "officialDomains": [
+        "amk-motion.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "ARBURG GmbH + Co KG",
+      "shortDescription": "AMKmotion develops electric drive, motion-control and industrial-automation systems for machine builders.",
+      "fullDescription": [
+        "AMKmotion's official website documents more than sixty years of drive-technology experience and identifies the company as a member of the ARBURG family.",
+        "Its product portfolio comprises decentralized and centralized drive systems, servo motors, motion controllers, engineering software and application-specific automation solutions."
+      ],
+      "productCategories": [
+        "Системы управления движением",
+        "Сервоприводы",
+        "Промышленные электродвигатели",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Decentralized Drive Solutions",
+        "Centralized Drive Solutions",
+        "Servo Motors",
+        "Motion Controllers",
+        "Engineering Software",
+        "Custom Drive Solutions"
+      ],
+      "series": [
+        "iSA",
+        "A4S",
+        "DT",
+        "DD",
+        "DP",
+        "DTX",
+        "DIP"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Упаковочная промышленность",
+        "Текстильная промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.amk-motion.com/en/engineering-service/downloadcenter/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-amk-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "CURRENT_IDENTITY_GROUP_RELATION_EXPERIENCE_AND_DRIVE_AUTOMATION_SCOPE",
+          "url": "https://www.amk-motion.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-amk-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "DECENTRALIZED_CENTRAL_DRIVE_SERVO_MOTOR_CONTROLLER_AND_SOFTWARE_FAMILIES",
+          "url": "https://www.amk-motion.com/en/engineering-service/downloadcenter/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"ammeraal-beltech","officialName":"Ammeraal Beltech","displayName":"Ammeraal Beltech","aliases":["AMMERAAL BELTECH","AMMERAALBELTECH"],"formerNames":[],"officialWebsite":"https://www.ammeraalbeltech.com/en/","officialDomains":["ammeraalbeltech.com"],"country":"Netherlands","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Ammeraal Beltech manufactures conveyor, process and power-transmission belting for industrial material handling.",
-      "fullDescription":["Ammeraal Beltech publishes a manufacturer-owned product portfolio for conveyor, process and power-transmission belting.","Its documented range includes synthetic and modular belts, plastic and steel chains, conveyor components, woven and rubber belts, homogeneous belts, flat belts, timing belts and splicing equipment."],
-      "productCategories":["Конвейерное оборудование","Промышленные ремни","Промышленные цепи"],"productFamilies":["Synthetic Belts","Modular Belts","Plastic and Steel Chains","Conveyor Components","Endless Woven Belts","Homogeneous Belts","Flat Belts","Timing Belts","Splicing Equipment"],"series":["ZipLink","RAPPLON","Ultrasync","Ultrascreen","AMMdrive"],"industries":["Пищевая промышленность","Логистика","Автомобильная промышленность","Упаковочная промышленность","Транспорт"],"officialCatalogs":[],"documentationSources":["https://www.ammeraalbeltech.com/en/products/"],
-      "sources":[{"sourceId":"brand-ammeraal-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_BELT_CHAIN_COMPONENT_AND_SPLICING_PRODUCT_FAMILIES","url":"https://www.ammeraalbeltech.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "ammeraal-beltech",
+      "officialName": "Ammeraal Beltech",
+      "displayName": "Ammeraal Beltech",
+      "aliases": [
+        "AMMERAAL BELTECH",
+        "AMMERAALBELTECH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ammeraalbeltech.com/en/",
+      "officialDomains": [
+        "ammeraalbeltech.com"
+      ],
+      "country": "Netherlands",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Ammeraal Beltech manufactures conveyor, process and power-transmission belting for industrial material handling.",
+      "fullDescription": [
+        "Ammeraal Beltech publishes a manufacturer-owned product portfolio for conveyor, process and power-transmission belting.",
+        "Its documented range includes synthetic and modular belts, plastic and steel chains, conveyor components, woven and rubber belts, homogeneous belts, flat belts, timing belts and splicing equipment."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Промышленные ремни",
+        "Промышленные цепи"
+      ],
+      "productFamilies": [
+        "Synthetic Belts",
+        "Modular Belts",
+        "Plastic and Steel Chains",
+        "Conveyor Components",
+        "Endless Woven Belts",
+        "Homogeneous Belts",
+        "Flat Belts",
+        "Timing Belts",
+        "Splicing Equipment"
+      ],
+      "series": [
+        "ZipLink",
+        "RAPPLON",
+        "Ultrasync",
+        "Ultrascreen",
+        "AMMdrive"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Логистика",
+        "Автомобильная промышленность",
+        "Упаковочная промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.ammeraalbeltech.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ammeraal-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_BELT_CHAIN_COMPONENT_AND_SPLICING_PRODUCT_FAMILIES",
+          "url": "https://www.ammeraalbeltech.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"amo-gmbh","officialName":"AMO Automatisierung Messtechnik Optik GmbH","displayName":"AMO","aliases":["AMO GMBH","AMO AUTOMATISIERUNG MESSTECHNIK OPTIK","AMOSIN"],"formerNames":[],"officialWebsite":"https://www.amo-gmbh.com/en/","officialDomains":["amo-gmbh.com","amo.at"],"country":"Austria","headquarters":"St. Peter am Hart, Austria","foundedYear":null,"parentCompany":null,
-      "shortDescription":"AMO develops inductive linear, angle and spindle encoders for precision motion measurement.",
-      "fullDescription":["AMO's manufacturer-owned website identifies the Austrian company and its St. Peter am Hart location through official product and contact materials.","The AMOSIN product range includes incremental and absolute linear encoders, angle encoders and spindle-feedback systems, including variants for hazardous areas."],
-      "productCategories":["Промышленные энкодеры","Измерительное оборудование","Промышленные датчики"],"productFamilies":["Linear Encoders","Angle Encoders","Spindle Encoders","Absolute Encoders","Incremental Encoders","ATEX Measuring Systems"],"series":["AMOSIN","ABSYS","WMK","WMKA","LMK","LMKA"],"industries":["Станкостроение","Промышленная автоматизация","Промышленное производство"],"officialCatalogs":["https://www.amo-gmbh.com/wp-content/uploads/2020/05/Product_Overview_20100719.pdf"],"documentationSources":["https://www.amo-gmbh.com/en/downloads/"],
-      "sources":[{"sourceId":"brand-amo-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_INDUCTIVE_ENCODER_SPECIALISATION","url":"https://www.amo-gmbh.com/en/amosin-products/spindle-encoder/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-amo-product-overview","tier":"A","type":"OFFICIAL_CATALOG","scope":"LINEAR_ANGLE_SPINDLE_ABSOLUTE_AND_INCREMENTAL_ENCODER_FAMILIES","url":"https://www.amo-gmbh.com/wp-content/uploads/2020/05/Product_Overview_20100719.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "amo-gmbh",
+      "officialName": "AMO Automatisierung Messtechnik Optik GmbH",
+      "displayName": "AMO",
+      "aliases": [
+        "AMO GMBH",
+        "AMO AUTOMATISIERUNG MESSTECHNIK OPTIK",
+        "AMOSIN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.amo-gmbh.com/en/",
+      "officialDomains": [
+        "amo-gmbh.com",
+        "amo.at"
+      ],
+      "country": "Austria",
+      "headquarters": "St. Peter am Hart, Austria",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "AMO develops inductive linear, angle and spindle encoders for precision motion measurement.",
+      "fullDescription": [
+        "AMO's manufacturer-owned website identifies the Austrian company and its St. Peter am Hart location through official product and contact materials.",
+        "The AMOSIN product range includes incremental and absolute linear encoders, angle encoders and spindle-feedback systems, including variants for hazardous areas."
+      ],
+      "productCategories": [
+        "Промышленные энкодеры",
+        "Измерительное оборудование",
+        "Промышленные датчики"
+      ],
+      "productFamilies": [
+        "Linear Encoders",
+        "Angle Encoders",
+        "Spindle Encoders",
+        "Absolute Encoders",
+        "Incremental Encoders",
+        "ATEX Measuring Systems"
+      ],
+      "series": [
+        "AMOSIN",
+        "ABSYS",
+        "WMK",
+        "WMKA",
+        "LMK",
+        "LMKA"
+      ],
+      "industries": [
+        "Станкостроение",
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.amo-gmbh.com/wp-content/uploads/2020/05/Product_Overview_20100719.pdf"
+      ],
+      "documentationSources": [
+        "https://www.amo-gmbh.com/en/downloads/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-amo-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_INDUCTIVE_ENCODER_SPECIALISATION",
+          "url": "https://www.amo-gmbh.com/en/amosin-products/spindle-encoder/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-amo-product-overview",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "LINEAR_ANGLE_SPINDLE_ABSOLUTE_AND_INCREMENTAL_ENCODER_FAMILIES",
+          "url": "https://www.amo-gmbh.com/wp-content/uploads/2020/05/Product_Overview_20100719.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"amphenol-339272","officialName":"Amphenol Corporation","displayName":"Amphenol","aliases":["AMPHENOL","AMPHENOL CORPORATION"],"formerNames":["American Phenolic Corporation"],"officialWebsite":"https://www.amphenol.com/","officialDomains":["amphenol.com"],"country":"United States","headquarters":"Wallingford, Connecticut, United States","foundedYear":1932,"parentCompany":null,
-      "shortDescription":"Amphenol designs and manufactures interconnect, sensor, antenna and cable solutions for electronic and industrial systems.",
-      "fullDescription":["Amphenol's official company page records its 1932 foundation as the American Phenolic Corporation and its current headquarters in Wallingford, Connecticut.","The documented portfolio includes electrical and fiber-optic connectors, cable assemblies, sensors, antennas, power-distribution components, raw cable and printed-circuit solutions."],
-      "productCategories":["Промышленные разъёмы","Промышленные датчики","Кабельные системы"],"productFamilies":["Electrical Connectors","Fiber-Optic Interconnects","Cable Assemblies","Industrial Sensors","Antenna Solutions","Power Distribution","Raw Cable","Printed Circuits"],"series":[],"industries":["Автомобильная промышленность","Аэрокосмическая промышленность","Оборонная промышленность","Промышленное производство","Электронная промышленность"],"officialCatalogs":[],"documentationSources":["https://amphenol.com/products"],
-      "sources":[{"sourceId":"brand-amphenol-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FORMER_NAME_FOUNDED_HEADQUARTERS_AND_TECHNOLOGY_SCOPE","url":"https://www.amphenol.com/about","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-amphenol-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CONNECTOR_CABLE_SENSOR_ANTENNA_POWER_AND_PRINTED_CIRCUIT_FAMILIES","url":"https://amphenol.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "amphenol-339272",
+      "officialName": "Amphenol Corporation",
+      "displayName": "Amphenol",
+      "aliases": [
+        "AMPHENOL",
+        "AMPHENOL CORPORATION"
+      ],
+      "formerNames": [
+        "American Phenolic Corporation"
+      ],
+      "officialWebsite": "https://www.amphenol.com/",
+      "officialDomains": [
+        "amphenol.com"
+      ],
+      "country": "United States",
+      "headquarters": "Wallingford, Connecticut, United States",
+      "foundedYear": 1932,
+      "parentCompany": null,
+      "shortDescription": "Amphenol designs and manufactures interconnect, sensor, antenna and cable solutions for electronic and industrial systems.",
+      "fullDescription": [
+        "Amphenol's official company page records its 1932 foundation as the American Phenolic Corporation and its current headquarters in Wallingford, Connecticut.",
+        "The documented portfolio includes electrical and fiber-optic connectors, cable assemblies, sensors, antennas, power-distribution components, raw cable and printed-circuit solutions."
+      ],
+      "productCategories": [
+        "Промышленные разъёмы",
+        "Промышленные датчики",
+        "Кабельные системы"
+      ],
+      "productFamilies": [
+        "Electrical Connectors",
+        "Fiber-Optic Interconnects",
+        "Cable Assemblies",
+        "Industrial Sensors",
+        "Antenna Solutions",
+        "Power Distribution",
+        "Raw Cable",
+        "Printed Circuits"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Оборонная промышленность",
+        "Промышленное производство",
+        "Электронная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://amphenol.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-amphenol-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_FORMER_NAME_FOUNDED_HEADQUARTERS_AND_TECHNOLOGY_SCOPE",
+          "url": "https://www.amphenol.com/about",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-amphenol-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CONNECTOR_CABLE_SENSOR_ANTENNA_POWER_AND_PRINTED_CIRCUIT_FAMILIES",
+          "url": "https://amphenol.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"analog-devices","officialName":"Analog Devices, Inc.","displayName":"Analog Devices","aliases":["ANALOG DEVICES","ADI"],"formerNames":[],"officialWebsite":"https://www.analog.com/","officialDomains":["analog.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Analog Devices develops analog, mixed-signal, power-management, radio-frequency, processing and sensor semiconductors.",
-      "fullDescription":["Analog Devices' official company profile identifies ADI as a semiconductor company combining analog, digital and software technologies for intelligent-edge systems.","Its product directory spans amplifiers, clocks, data converters, interface and isolation devices, power management, processors and microcontrollers, RF and microwave components, security devices, sensors and switches."],
-      "productCategories":["Источники питания","Промышленные датчики","Промышленная автоматизация"],"productFamilies":["Amplifiers","Data Converters","Interface ICs","Isolation ICs","Power Management ICs","Processors and Microcontrollers","RF and Microwave Components","Sensors"],"series":[],"industries":["Промышленная автоматизация","Автомобильная промышленность","Аэрокосмическая промышленность","Электронная промышленность","Медицинское оборудование"],"officialCatalogs":[],"documentationSources":["https://www.analog.com/en/product-category.html"],
-      "sources":[{"sourceId":"brand-analog-devices-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_ANALOG_DIGITAL_POWER_RF_PROCESSOR_SENSOR_SCOPE","url":"https://www.analog.com/en/who-we-are.html","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-analog-devices-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"AMPLIFIER_CONVERTER_INTERFACE_POWER_PROCESSOR_RF_SENSOR_AND_SWITCH_FAMILIES","url":"https://www.analog.com/en/product-category.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "analog-devices",
+      "officialName": "Analog Devices, Inc.",
+      "displayName": "Analog Devices",
+      "aliases": [
+        "ANALOG DEVICES",
+        "ADI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.analog.com/",
+      "officialDomains": [
+        "analog.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Analog Devices develops analog, mixed-signal, power-management, radio-frequency, processing and sensor semiconductors.",
+      "fullDescription": [
+        "Analog Devices' official company profile identifies ADI as a semiconductor company combining analog, digital and software technologies for intelligent-edge systems.",
+        "Its product directory spans amplifiers, clocks, data converters, interface and isolation devices, power management, processors and microcontrollers, RF and microwave components, security devices, sensors and switches."
+      ],
+      "productCategories": [
+        "Источники питания",
+        "Промышленные датчики",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Amplifiers",
+        "Data Converters",
+        "Interface ICs",
+        "Isolation ICs",
+        "Power Management ICs",
+        "Processors and Microcontrollers",
+        "RF and Microwave Components",
+        "Sensors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Электронная промышленность",
+        "Медицинское оборудование"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.analog.com/en/product-category.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-analog-devices-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_ANALOG_DIGITAL_POWER_RF_PROCESSOR_SENSOR_SCOPE",
+          "url": "https://www.analog.com/en/who-we-are.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-analog-devices-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "AMPLIFIER_CONVERTER_INTERFACE_POWER_PROCESSOR_RF_SENSOR_AND_SWITCH_FAMILIES",
+          "url": "https://www.analog.com/en/product-category.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"anca-motion","officialName":"ANCA Motion Pty Ltd","displayName":"ANCA Motion","aliases":["ANCA MOTION"],"formerNames":[],"officialWebsite":"https://motion.anca.com/","officialDomains":["motion.anca.com","ancamotion.com"],"country":"Australia","headquarters":"Bayswater North, Victoria, Australia","foundedYear":null,"parentCompany":"ANCA Group",
-      "shortDescription":"ANCA Motion develops motion-control systems, servo drives, motors and industrial control platforms.",
-      "fullDescription":["ANCA Motion's official website identifies an Australian standalone company within the ANCA Group, based in Bayswater North, Victoria.","Its control portfolio includes AC servo drives, multi-axis servo systems, industrial PCs and CNC control units, permanent-magnet servo motors, EtherCAT pendants and integrated motion architectures."],
-      "productCategories":["Системы управления движением","Промышленные контроллеры","Промышленные электродвигатели","Промышленная автоматизация"],"productFamilies":["AC Servo Drives","Multi-Axis Servo Systems","Industrial PCs","CNC Control Units","Servo Motors","EtherCAT Operator Interfaces"],"series":["AMD2000","AMD5x G2","AMC5 CNC","AMC6 CNC","Alpha","AMI5000"],"industries":["Промышленная автоматизация","Станкостроение","Электронная промышленность","Промышленное производство"],"officialCatalogs":["https://motion.anca.com/Anca.Motion/media/Brochures/ANCA-Motion-CNC-System-Solutions-Brochure-EN.pdf"],"documentationSources":["https://motion.anca.com/control/"],
-      "sources":[{"sourceId":"brand-anca-motion-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_PARENT_HEADQUARTERS_AND_MOTION_CONTROL_ENGINEERING_SCOPE","url":"https://motion.anca.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-anca-motion-control","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SERVO_DRIVE_CONTROL_PLATFORM_MOTOR_AND_ETHERCAT_INTERFACE_FAMILIES","url":"https://motion.anca.com/control/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "anca-motion",
+      "officialName": "ANCA Motion Pty Ltd",
+      "displayName": "ANCA Motion",
+      "aliases": [
+        "ANCA MOTION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://motion.anca.com/",
+      "officialDomains": [
+        "motion.anca.com",
+        "ancamotion.com"
+      ],
+      "country": "Australia",
+      "headquarters": "Bayswater North, Victoria, Australia",
+      "foundedYear": null,
+      "parentCompany": "ANCA Group",
+      "shortDescription": "ANCA Motion develops motion-control systems, servo drives, motors and industrial control platforms.",
+      "fullDescription": [
+        "ANCA Motion's official website identifies an Australian standalone company within the ANCA Group, based in Bayswater North, Victoria.",
+        "Its control portfolio includes AC servo drives, multi-axis servo systems, industrial PCs and CNC control units, permanent-magnet servo motors, EtherCAT pendants and integrated motion architectures."
+      ],
+      "productCategories": [
+        "Системы управления движением",
+        "Промышленные контроллеры",
+        "Промышленные электродвигатели",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "AC Servo Drives",
+        "Multi-Axis Servo Systems",
+        "Industrial PCs",
+        "CNC Control Units",
+        "Servo Motors",
+        "EtherCAT Operator Interfaces"
+      ],
+      "series": [
+        "AMD2000",
+        "AMD5x G2",
+        "AMC5 CNC",
+        "AMC6 CNC",
+        "Alpha",
+        "AMI5000"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Станкостроение",
+        "Электронная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://motion.anca.com/Anca.Motion/media/Brochures/ANCA-Motion-CNC-System-Solutions-Brochure-EN.pdf"
+      ],
+      "documentationSources": [
+        "https://motion.anca.com/control/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-anca-motion-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_PARENT_HEADQUARTERS_AND_MOTION_CONTROL_ENGINEERING_SCOPE",
+          "url": "https://motion.anca.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-anca-motion-control",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SERVO_DRIVE_CONTROL_PLATFORM_MOTOR_AND_ETHERCAT_INTERFACE_FAMILIES",
+          "url": "https://motion.anca.com/control/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"anderson-negele-negele-messtechnik-gmbh","officialName":"Anderson-Negele","displayName":"Anderson-Negele","aliases":["ANDERSON-NEGELE","NEGELE MESSTECHNIK","ANDERSON INSTRUMENT"],"formerNames":[],"officialWebsite":"https://www.anderson-negele.com/","officialDomains":["anderson-negele.com"],"country":"United States","headquarters":"Fultonville, New York, United States","foundedYear":1930,"parentCompany":null,
-      "shortDescription":"Anderson-Negele develops hygienic sensors and process instrumentation for food, beverage and life-science manufacturing.",
-      "fullDescription":["Anderson-Negele's official company page traces its instrumentation activity to 1930 and identifies manufacturing and innovation operations in the United States and Germany.","The official product range includes flow, level, turbidity, conductivity, pressure and temperature sensors, process recorders, weighing systems and hygienic process fittings."],
-      "productCategories":["Промышленные датчики","Измерительное оборудование","Промышленная автоматизация"],"productFamilies":["Flow Sensors","Level Sensors","Turbidity Sensors","Conductivity Sensors","Pressure Sensors","Temperature Sensors","Process Recorders","Weighing Systems"],"series":["ILM-4","TS","L3","NSL-F","IZMAG","FMQ","PPR","AV-9900"],"industries":["Пищевая промышленность","Фармацевтическая промышленность","Биотехнологии","Промышленная автоматизация"],"officialCatalogs":[],"documentationSources":["https://www.anderson-negele.com/products"],
-      "sources":[{"sourceId":"brand-anderson-negele-about","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HISTORY_FOOTPRINT_AND_HYGIENIC_INSTRUMENTATION_SCOPE","url":"https://www.anderson-negele.com/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-anderson-negele-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FLOW_LEVEL_TURBIDITY_CONDUCTIVITY_PRESSURE_TEMPERATURE_AND_RECORDER_FAMILIES","url":"https://www.anderson-negele.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "anderson-negele-negele-messtechnik-gmbh",
+      "officialName": "Anderson-Negele",
+      "displayName": "Anderson-Negele",
+      "aliases": [
+        "ANDERSON-NEGELE",
+        "NEGELE MESSTECHNIK",
+        "ANDERSON INSTRUMENT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.anderson-negele.com/",
+      "officialDomains": [
+        "anderson-negele.com"
+      ],
+      "country": "United States",
+      "headquarters": "Fultonville, New York, United States",
+      "foundedYear": 1930,
+      "parentCompany": null,
+      "shortDescription": "Anderson-Negele develops hygienic sensors and process instrumentation for food, beverage and life-science manufacturing.",
+      "fullDescription": [
+        "Anderson-Negele's official company page traces its instrumentation activity to 1930 and identifies manufacturing and innovation operations in the United States and Germany.",
+        "The official product range includes flow, level, turbidity, conductivity, pressure and temperature sensors, process recorders, weighing systems and hygienic process fittings."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Измерительное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Flow Sensors",
+        "Level Sensors",
+        "Turbidity Sensors",
+        "Conductivity Sensors",
+        "Pressure Sensors",
+        "Temperature Sensors",
+        "Process Recorders",
+        "Weighing Systems"
+      ],
+      "series": [
+        "ILM-4",
+        "TS",
+        "L3",
+        "NSL-F",
+        "IZMAG",
+        "FMQ",
+        "PPR",
+        "AV-9900"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Биотехнологии",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.anderson-negele.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-anderson-negele-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_IDENTITY_HISTORY_FOOTPRINT_AND_HYGIENIC_INSTRUMENTATION_SCOPE",
+          "url": "https://www.anderson-negele.com/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-anderson-negele-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FLOW_LEVEL_TURBIDITY_CONDUCTIVITY_PRESSURE_TEMPERATURE_AND_RECORDER_FAMILIES",
+          "url": "https://www.anderson-negele.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"anritsu","officialName":"Anritsu Corporation","displayName":"Anritsu","aliases":["ANRITSU","ANRITSU CORPORATION"],"formerNames":[],"officialWebsite":"https://www.anritsu.com/","officialDomains":["anritsu.com"],"country":"Japan","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Anritsu develops test-and-measurement instruments, communications components and product-inspection systems.",
-      "fullDescription":["Anritsu's official corporate pages identify a Japanese technology group operating in test and measurement, product-quality assurance and sensing devices.","The documented range includes instruments for wireless, optical and digital communications, microwave and optical components, food and pharmaceutical X-ray inspection systems, checkweighers, metal detectors and optical sensing devices."],
-      "productCategories":["Измерительное оборудование","Инспекционное оборудование","Промышленные датчики"],"productFamilies":["Test and Measurement Instruments","Microwave Components","Optical Components","X-Ray Inspection Systems","Checkweighers","Metal Detectors","Optical Sensing Devices"],"series":[],"industries":["Телекоммуникации","Электронная промышленность","Пищевая промышленность","Фармацевтическая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.anritsu.com/en-us/products"],
-      "sources":[{"sourceId":"brand-anritsu-about","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_AND_BUSINESS_SEGMENTS","url":"https://www.anritsu.com/en-us/about/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-anritsu-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TEST_MEASUREMENT_COMPONENT_INSPECTION_AND_SENSING_PRODUCT_FAMILIES","url":"https://www.anritsu.com/en-us/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "anritsu",
+      "officialName": "Anritsu Corporation",
+      "displayName": "Anritsu",
+      "aliases": [
+        "ANRITSU",
+        "ANRITSU CORPORATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.anritsu.com/",
+      "officialDomains": [
+        "anritsu.com"
+      ],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Anritsu develops test-and-measurement instruments, communications components and product-inspection systems.",
+      "fullDescription": [
+        "Anritsu's official corporate pages identify a Japanese technology group operating in test and measurement, product-quality assurance and sensing devices.",
+        "The documented range includes instruments for wireless, optical and digital communications, microwave and optical components, food and pharmaceutical X-ray inspection systems, checkweighers, metal detectors and optical sensing devices."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Инспекционное оборудование",
+        "Промышленные датчики"
+      ],
+      "productFamilies": [
+        "Test and Measurement Instruments",
+        "Microwave Components",
+        "Optical Components",
+        "X-Ray Inspection Systems",
+        "Checkweighers",
+        "Metal Detectors",
+        "Optical Sensing Devices"
+      ],
+      "series": [],
+      "industries": [
+        "Телекоммуникации",
+        "Электронная промышленность",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.anritsu.com/en-us/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-anritsu-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_IDENTITY_AND_BUSINESS_SEGMENTS",
+          "url": "https://www.anritsu.com/en-us/about/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-anritsu-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "TEST_MEASUREMENT_COMPONENT_INSPECTION_AND_SENSING_PRODUCT_FAMILIES",
+          "url": "https://www.anritsu.com/en-us/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"anton-paar","officialName":"Anton Paar GmbH","displayName":"Anton Paar","aliases":["ANTON PAAR","ANTON PAAR GMBH"],"formerNames":[],"officialWebsite":"https://www.anton-paar.com/corp-en/","officialDomains":["anton-paar.com"],"country":"Austria","headquarters":"Graz, Austria","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Anton Paar develops laboratory and process instruments for physical, chemical and material characterization.",
-      "fullDescription":["Anton Paar's manufacturer-owned website identifies an Austrian analytical-instrument company serving research, quality control and production monitoring.","Its official product portfolio includes density meters, rheometers, viscometers, process sensors, particle analyzers, refractometers, spectroscopy and X-ray instruments, flash-point testers and laboratory automation systems."],
-      "productCategories":["Лабораторное оборудование","Измерительное оборудование","Промышленные датчики"],"productFamilies":["Density Meters","Rheometers","Viscometers","Process Sensors","Particle Size Analyzers","Refractometers","Raman Spectrometers","X-Ray Instruments","Flash Point Testers","Laboratory Automation"],"series":[],"industries":["Химическая промышленность","Пищевая промышленность","Фармацевтическая промышленность","Нефтегазовая промышленность","Научные исследования"],"officialCatalogs":[],"documentationSources":["https://www.anton-paar.com/corp-en/products/"],
-      "sources":[{"sourceId":"brand-anton-paar-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_ANALYTICAL_INSTRUMENT_SCOPE","url":"https://www.anton-paar.com/corp-en/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-anton-paar-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DENSITY_RHEOLOGY_VISCOSITY_SENSOR_SPECTROSCOPY_XRAY_AND_AUTOMATION_FAMILIES","url":"https://www.anton-paar.com/corp-en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "anton-paar",
+      "officialName": "Anton Paar GmbH",
+      "displayName": "Anton Paar",
+      "aliases": [
+        "ANTON PAAR",
+        "ANTON PAAR GMBH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.anton-paar.com/corp-en/",
+      "officialDomains": [
+        "anton-paar.com"
+      ],
+      "country": "Austria",
+      "headquarters": "Graz, Austria",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Anton Paar develops laboratory and process instruments for physical, chemical and material characterization.",
+      "fullDescription": [
+        "Anton Paar's manufacturer-owned website identifies an Austrian analytical-instrument company serving research, quality control and production monitoring.",
+        "Its official product portfolio includes density meters, rheometers, viscometers, process sensors, particle analyzers, refractometers, spectroscopy and X-ray instruments, flash-point testers and laboratory automation systems."
+      ],
+      "productCategories": [
+        "Лабораторное оборудование",
+        "Измерительное оборудование",
+        "Промышленные датчики"
+      ],
+      "productFamilies": [
+        "Density Meters",
+        "Rheometers",
+        "Viscometers",
+        "Process Sensors",
+        "Particle Size Analyzers",
+        "Refractometers",
+        "Raman Spectrometers",
+        "X-Ray Instruments",
+        "Flash Point Testers",
+        "Laboratory Automation"
+      ],
+      "series": [],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Нефтегазовая промышленность",
+        "Научные исследования"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.anton-paar.com/corp-en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-anton-paar-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_ANALYTICAL_INSTRUMENT_SCOPE",
+          "url": "https://www.anton-paar.com/corp-en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-anton-paar-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "DENSITY_RHEOLOGY_VISCOSITY_SENSOR_SPECTROSCOPY_XRAY_AND_AUTOMATION_FAMILIES",
+          "url": "https://www.anton-paar.com/corp-en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"api-heat-transfer","officialName":"API Heat Transfer","displayName":"API Heat Transfer","aliases":["API HEAT TRANSFER","API"],"formerNames":[],"officialWebsite":"https://www.apiheattransfer.com/","officialDomains":["apiheattransfer.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"API Heat Transfer engineers and manufactures industrial heat exchangers and thermal-management systems.",
-      "fullDescription":["API Heat Transfer's official history describes a thermal-engineering organization assembled from specialist manufacturing brands with roots extending to 1879.","The current portfolio spans shell-and-tube, plate, air-cooled and aluminium-brazed heat exchangers, hydraulic oil coolers and integrated cooling modules for industrial and process applications."],
-      "productCategories":["Теплообменное оборудование","Промышленное охлаждение"],"productFamilies":["Shell-and-Tube Heat Exchangers","Plate Heat Exchangers","Air-Cooled Heat Exchangers","Aluminium-Brazed Heat Exchangers","Hydraulic Oil Coolers","Integrated Cooling Systems"],"series":["HCR","ACOCH","SSC","COLW","RM","AOF","PF","B","SB","OCA","AOC"],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Пищевая промышленность","Промышленное производство"],"officialCatalogs":["https://www.apiheattransfer.com/wp-content/uploads/2023/08/Performance-Is-Everything-Overview-Brochure_R5.pdf"],"documentationSources":["https://www.apiheattransfer.com/our-products/product-search/"],
-      "sources":[{"sourceId":"brand-api-heat-transfer-about","tier":"A","type":"ABOUT","scope":"CURRENT_IDENTITY_HISTORY_BRANDS_AND_MULTI_TECHNOLOGY_HEAT_TRANSFER_SCOPE","url":"https://www.apiheattransfer.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-api-heat-transfer-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SHELL_TUBE_PLATE_AIR_COOLED_BRAZED_AND_INTEGRATED_COOLING_FAMILIES","url":"https://www.apiheattransfer.com/our-products/product-search/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "api-heat-transfer",
+      "officialName": "API Heat Transfer",
+      "displayName": "API Heat Transfer",
+      "aliases": [
+        "API HEAT TRANSFER",
+        "API"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.apiheattransfer.com/",
+      "officialDomains": [
+        "apiheattransfer.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "API Heat Transfer engineers and manufactures industrial heat exchangers and thermal-management systems.",
+      "fullDescription": [
+        "API Heat Transfer's official history describes a thermal-engineering organization assembled from specialist manufacturing brands with roots extending to 1879.",
+        "The current portfolio spans shell-and-tube, plate, air-cooled and aluminium-brazed heat exchangers, hydraulic oil coolers and integrated cooling modules for industrial and process applications."
+      ],
+      "productCategories": [
+        "Теплообменное оборудование",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Shell-and-Tube Heat Exchangers",
+        "Plate Heat Exchangers",
+        "Air-Cooled Heat Exchangers",
+        "Aluminium-Brazed Heat Exchangers",
+        "Hydraulic Oil Coolers",
+        "Integrated Cooling Systems"
+      ],
+      "series": [
+        "HCR",
+        "ACOCH",
+        "SSC",
+        "COLW",
+        "RM",
+        "AOF",
+        "PF",
+        "B",
+        "SB",
+        "OCA",
+        "AOC"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.apiheattransfer.com/wp-content/uploads/2023/08/Performance-Is-Everything-Overview-Brochure_R5.pdf"
+      ],
+      "documentationSources": [
+        "https://www.apiheattransfer.com/our-products/product-search/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-api-heat-transfer-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_IDENTITY_HISTORY_BRANDS_AND_MULTI_TECHNOLOGY_HEAT_TRANSFER_SCOPE",
+          "url": "https://www.apiheattransfer.com/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-api-heat-transfer-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SHELL_TUBE_PLATE_AIR_COOLED_BRAZED_AND_INTEGRATED_COOLING_FAMILIES",
+          "url": "https://www.apiheattransfer.com/our-products/product-search/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"apo-fluid-force","officialName":"APO Fluid Force S.r.l.","displayName":"APO Fluid Force","aliases":["APO FLUID FORCE","APO"],"formerNames":["New Apo Fluid Force S.r.l."],"officialWebsite":"https://www.apo.it/it","officialDomains":["apo.it"],"country":"Italy","headquarters":"Casalecchio di Reno, Bologna, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"APO Fluid Force designs and assembles hydraulic power units, fluid-power systems and custom pneumatic installations.",
-      "fullDescription":["APO Fluid Force's manufacturer-owned website identifies an Italian fluid-power company with fifty years of activity and operating locations in Casalecchio di Reno and Parma.","The company documents technical selection, design, production and assembly of standard and custom hydraulic power units, hydraulic components, pneumatic components and configured automation systems."],
-      "productCategories":["Гидравлическое оборудование","Пневматическое оборудование","Промышленная автоматизация"],"productFamilies":["Hydraulic Power Units","Hydraulic Components","Pneumatic Components","Custom Fluid-Power Systems","Automation Assemblies"],"series":[],"industries":["Промышленная автоматизация","Упаковочная промышленность","Автомобильная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.apo.it/it"],
-      "sources":[{"sourceId":"brand-apo-fluid-force-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_LOCATIONS_EXPERIENCE_AND_FLUID_POWER_SCOPE","url":"https://www.apo.it/it","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-apo-fluid-force-privacy","tier":"A","type":"LEGAL_NOTICE","scope":"LEGAL_ENTITY_REGISTERED_OFFICE_AND_OFFICIAL_DOMAIN_CONTROL","url":"https://www.apo.it/it/privacy","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "apo-fluid-force",
+      "officialName": "APO Fluid Force S.r.l.",
+      "displayName": "APO Fluid Force",
+      "aliases": [
+        "APO FLUID FORCE",
+        "APO"
+      ],
+      "formerNames": [
+        "New Apo Fluid Force S.r.l."
+      ],
+      "officialWebsite": "https://www.apo.it/it",
+      "officialDomains": [
+        "apo.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Casalecchio di Reno, Bologna, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "APO Fluid Force designs and assembles hydraulic power units, fluid-power systems and custom pneumatic installations.",
+      "fullDescription": [
+        "APO Fluid Force's manufacturer-owned website identifies an Italian fluid-power company with fifty years of activity and operating locations in Casalecchio di Reno and Parma.",
+        "The company documents technical selection, design, production and assembly of standard and custom hydraulic power units, hydraulic components, pneumatic components and configured automation systems."
+      ],
+      "productCategories": [
+        "Гидравлическое оборудование",
+        "Пневматическое оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Hydraulic Power Units",
+        "Hydraulic Components",
+        "Pneumatic Components",
+        "Custom Fluid-Power Systems",
+        "Automation Assemblies"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Упаковочная промышленность",
+        "Автомобильная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.apo.it/it"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-apo-fluid-force-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_LOCATIONS_EXPERIENCE_AND_FLUID_POWER_SCOPE",
+          "url": "https://www.apo.it/it",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-apo-fluid-force-privacy",
+          "tier": "A",
+          "type": "LEGAL_NOTICE",
+          "scope": "LEGAL_ENTITY_REGISTERED_OFFICE_AND_OFFICIAL_DOMAIN_CONTROL",
+          "url": "https://www.apo.it/it/privacy",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"aranow","officialName":"ARANOW Packaging Machinery, S.L.","displayName":"ARANOW","aliases":["ARANOW","ARANOW PACKAGING MACHINERY"],"formerNames":[],"officialWebsite":"https://www.aranow.com/","officialDomains":["aranow.com"],"country":"Spain","headquarters":"Polinyà, Barcelona, Spain","foundedYear":null,"parentCompany":null,
-      "shortDescription":"ARANOW designs complete packaging lines and machinery for single-dose stick packs and flat sachets.",
-      "fullDescription":["ARANOW's official legal notice and company site identify a Spanish packaging-machinery manufacturer based in Polinyà, Barcelona.","Its documented solutions include stick-pack and flat-sachet machines, filling and dosing systems, secondary packaging, cartoning, transfer and serialization modules for food, beverage, pharmaceutical, nutraceutical, cosmetics and chemical products."],
-      "productCategories":["Упаковочное оборудование","Дозирующее оборудование","Промышленные машины"],"productFamilies":["Stick-Pack Machines","Flat-Sachet Machines","Single-Dose Filling Systems","Secondary Packaging Lines","Cartoners","Transfer Systems","Serialization Systems"],"series":[],"industries":["Пищевая промышленность","Фармацевтическая промышленность","Упаковочная промышленность","Химическая промышленность"],"officialCatalogs":["https://www.aranow.com/wp-content/uploads/2021/02/corporate-brochure-en.pdf"],"documentationSources":["https://www.aranow.com/solutions/pharmaceutical-products/"],
-      "sources":[{"sourceId":"brand-aranow-legal","tier":"A","type":"LEGAL_NOTICE","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_OFFICIAL_DOMAIN_CONTROL","url":"https://www.aranow.com/legal-notice/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-aranow-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STICK_PACK_SACHET_COMPLETE_LINE_AND_SECONDARY_PACKAGING_SCOPE","url":"https://www.aranow.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "aranow",
+      "officialName": "ARANOW Packaging Machinery, S.L.",
+      "displayName": "ARANOW",
+      "aliases": [
+        "ARANOW",
+        "ARANOW PACKAGING MACHINERY"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.aranow.com/",
+      "officialDomains": [
+        "aranow.com"
+      ],
+      "country": "Spain",
+      "headquarters": "Polinyà, Barcelona, Spain",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ARANOW designs complete packaging lines and machinery for single-dose stick packs and flat sachets.",
+      "fullDescription": [
+        "ARANOW's official legal notice and company site identify a Spanish packaging-machinery manufacturer based in Polinyà, Barcelona.",
+        "Its documented solutions include stick-pack and flat-sachet machines, filling and dosing systems, secondary packaging, cartoning, transfer and serialization modules for food, beverage, pharmaceutical, nutraceutical, cosmetics and chemical products."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Дозирующее оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Stick-Pack Machines",
+        "Flat-Sachet Machines",
+        "Single-Dose Filling Systems",
+        "Secondary Packaging Lines",
+        "Cartoners",
+        "Transfer Systems",
+        "Serialization Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Упаковочная промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.aranow.com/wp-content/uploads/2021/02/corporate-brochure-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.aranow.com/solutions/pharmaceutical-products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-aranow-legal",
+          "tier": "A",
+          "type": "LEGAL_NOTICE",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_AND_OFFICIAL_DOMAIN_CONTROL",
+          "url": "https://www.aranow.com/legal-notice/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-aranow-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "STICK_PACK_SACHET_COMPLETE_LINE_AND_SECONDARY_PACKAGING_SCOPE",
+          "url": "https://www.aranow.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"arburg","officialName":"ARBURG GmbH + Co KG","displayName":"ARBURG","aliases":["ARBURG"],"formerNames":[],"officialWebsite":"https://www.arburg.com/en/","officialDomains":["arburg.com"],"country":"Germany","headquarters":"Lossburg, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"ARBURG manufactures injection-moulding machines, robotic systems and additive-manufacturing equipment for plastics processing.",
-      "fullDescription":["ARBURG's manufacturer-owned website identifies a German plastics-processing machinery company with a worldwide organization.","Its official product world includes hydraulic, hybrid and electric ALLROUNDER injection-moulding machines, robotic systems, turnkey production cells, process controls, digital services and freeformer additive-manufacturing systems."],
-      "productCategories":["Промышленные машины","Робототехника","Промышленная автоматизация"],"productFamilies":["Injection-Moulding Machines","Robotic Systems","Turnkey Production Cells","Process Control Systems","Additive-Manufacturing Systems","Digital Manufacturing Services"],"series":["ALLROUNDER","ALLROUNDER TREND","MULTILIFT","freeformer","ALS","arburgXworld"],"industries":["Автомобильная промышленность","Упаковочная промышленность","Медицинское оборудование","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.arburg.com/en/us/"],
-      "sources":[{"sourceId":"brand-arburg-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"LEGAL_IDENTITY_HEADQUARTERS_GLOBAL_FOOTPRINT_AND_PLASTICS_PROCESSING_SCOPE","url":"https://www.arburg.com/en/us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-arburg-product-world","tier":"A","type":"PRODUCT_DIRECTORY","scope":"INJECTION_MOULDING_ROBOT_TURNKEY_CONTROL_DIGITAL_AND_ADDITIVE_FAMILIES","url":"https://www.arburg.com/en/us/product-world/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "arburg",
+      "officialName": "ARBURG GmbH + Co KG",
+      "displayName": "ARBURG",
+      "aliases": [
+        "ARBURG"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.arburg.com/en/",
+      "officialDomains": [
+        "arburg.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Lossburg, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ARBURG manufactures injection-moulding machines, robotic systems and additive-manufacturing equipment for plastics processing.",
+      "fullDescription": [
+        "ARBURG's manufacturer-owned website identifies a German plastics-processing machinery company with a worldwide organization.",
+        "Its official product world includes hydraulic, hybrid and electric ALLROUNDER injection-moulding machines, robotic systems, turnkey production cells, process controls, digital services and freeformer additive-manufacturing systems."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Робототехника",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Injection-Moulding Machines",
+        "Robotic Systems",
+        "Turnkey Production Cells",
+        "Process Control Systems",
+        "Additive-Manufacturing Systems",
+        "Digital Manufacturing Services"
+      ],
+      "series": [
+        "ALLROUNDER",
+        "ALLROUNDER TREND",
+        "MULTILIFT",
+        "freeformer",
+        "ALS",
+        "arburgXworld"
+      ],
+      "industries": [
+        "Автомобильная промышленность",
+        "Упаковочная промышленность",
+        "Медицинское оборудование",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.arburg.com/en/us/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-arburg-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "LEGAL_IDENTITY_HEADQUARTERS_GLOBAL_FOOTPRINT_AND_PLASTICS_PROCESSING_SCOPE",
+          "url": "https://www.arburg.com/en/us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-arburg-product-world",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "INJECTION_MOULDING_ROBOT_TURNKEY_CONTROL_DIGITAL_AND_ADDITIVE_FAMILIES",
+          "url": "https://www.arburg.com/en/us/product-world/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     }
   ]
 }

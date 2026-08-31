@@ -6,21 +6,33 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FAS is used by several unrelated active manufacturers, including lifting-equipment, aquaculture and conveying, vending-machine, foundry and fire-protection businesses. The queue identity contains no legal-name, country or product-scope discriminator.",
-      "attemptedUrls": ["https://www.fasitaly.com/", "https://fas.vr.it/", "https://www.fas.it/it/", "https://www.fasspa.net/en/"]
+      "attemptedUrls": [
+        "https://www.fasitaly.com/",
+        "https://fas.vr.it/",
+        "https://www.fas.it/it/",
+        "https://www.fasspa.net/en/"
+      ]
     },
     {
       "manufacturerId": "fema",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FEMA is shared by unrelated current industrial manufacturers in electro-hydraulics, instrumentation and power-transmission equipment. The raw identity cannot safely select one official domain.",
-      "attemptedUrls": ["https://www.fema-corp.com/", "https://www.fema.es/index-en", "https://fema-group.com/en/"]
+      "attemptedUrls": [
+        "https://www.fema-corp.com/",
+        "https://www.fema.es/index-en",
+        "https://fema-group.com/en/"
+      ]
     },
     {
       "manufacturerId": "fenner",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FENNER currently identifies distinct commercial businesses under different ownership, including Fenner Drives and Fenner Dunlop. The queue record lacks a product-scope discriminator.",
-      "attemptedUrls": ["https://www.fennerdrives.com/", "https://fennerdunlop.com/"]
+      "attemptedUrls": [
+        "https://www.fennerdrives.com/",
+        "https://fennerdunlop.com/"
+      ]
     },
     {
       "manufacturerId": "fib",
@@ -34,35 +46,52 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FILTRON is used by unrelated current filtration and process-equipment manufacturers in several countries. The undifferentiated record cannot be assigned safely to the MANN+HUMMEL automotive brand or another Filtron business.",
-      "attemptedUrls": ["https://filtron.eu/en.html?changeLang=1", "https://www.filtronsrl.com.ar/", "https://www.filtronindia.com/"]
+      "attemptedUrls": [
+        "https://filtron.eu/en.html?changeLang=1",
+        "https://www.filtronsrl.com.ar/",
+        "https://www.filtronindia.com/"
+      ]
     },
     {
       "manufacturerId": "firestone",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FIRESTONE can refer to distinct current tyre, industrial air-spring and building-products identities. The queue record has no legal-name or product-scope discriminator.",
-      "attemptedUrls": ["https://www.firestone.com/", "https://www.firestoneairide.com/", "https://www.holcimelevate.com/brands/firestone"]
+      "attemptedUrls": [
+        "https://www.firestone.com/",
+        "https://www.firestoneairide.com/",
+        "https://www.holcimelevate.com/brands/firestone"
+      ]
     },
     {
       "manufacturerId": "fluid-systems",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FLUID SYSTEMS is a generic name used by unrelated solids-control, hydronic-equipment, automotive and membrane businesses. No source-backed discriminator selects one manufacturer.",
-      "attemptedUrls": ["https://fluidsystems.com/", "https://fluid-systems.com/", "https://tifluidsystems.com/"]
+      "attemptedUrls": [
+        "https://fluidsystems.com/",
+        "https://fluid-systems.com/",
+        "https://tifluidsystems.com/"
+      ]
     },
     {
       "manufacturerId": "fms",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "FMS is a short generic abbreviation used by multiple industrial companies. Although FMS Force Measuring Systems is a plausible candidate, the raw record does not provide a legal-name or product-scope discriminator sufficient for automatic publication.",
-      "attemptedUrls": ["https://www.fms-technology.com/en/"]
+      "attemptedUrls": [
+        "https://www.fms-technology.com/en/"
+      ]
     },
     {
       "manufacturerId": "flour-valve",
       "status": "BLOCKED_INSECURE_OFFICIAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The manufacturer-owned presentation is available only over HTTP and the official host does not provide a working HTTPS endpoint. The international publication gate requires secure official evidence.",
-      "attemptedUrls": ["http://www.flourvalve.net/FLV-presentation.pdf", "https://www.flourvalve.net/FLV-presentation.pdf"]
+      "attemptedUrls": [
+        "http://www.flourvalve.net/FLV-presentation.pdf",
+        "https://www.flourvalve.net/FLV-presentation.pdf"
+      ]
     }
   ],
   "profiles": [
@@ -70,917 +99,2368 @@
       "manufacturerId": "fan-separator",
       "officialName": "FAN Separator GmbH",
       "displayName": "FAN Separator",
-      "aliases": ["FAN SEPARATOR"],
+      "aliases": [
+        "FAN SEPARATOR"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fan-separator.de/en/",
-      "officialDomains": ["fan-separator.de"],
+      "officialDomains": [
+        "fan-separator.de"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "BAUER Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FAN Separator develops solid-liquid separation equipment, pumps and agitation systems for agricultural, wastewater and industrial applications.",
-      "fullDescription": ["FAN Separator is verified through its manufacturer-owned BAUER Group website as a specialist in solid-liquid separation.", "Its official range includes press-screw separators, sludge presses, centrifuges, pump technology, agitation equipment and pulper-reject presses."],
-      "productCategories": ["Сепарационное оборудование", "Промышленные насосы", "Промышленные мешалки"],
-      "productFamilies": ["PSS Separators", "Sludge Press Separators", "CCS Centrifuges", "Pump Technology", "Agitation Technology", "Pulper Reject Presses"],
-      "series": ["PSS", "SPS", "CCS", "PRP"],
-      "industries": ["Сельское хозяйство", "Водоподготовка", "Промышленное производство"],
-      "officialCatalogs": ["https://www.fan-separator.de/wp-content/uploads/sites/4/FAN_019_04-FD-Separator-Plug-Play_EN_preview.pdf"],
-      "documentationSources": ["https://www.fan-separator.de/en/"],
-      "sources": [{"sourceId":"wave80-fan-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"CURRENT_BAUER_GROUP_BRAND_IDENTITY_AND_SEPARATOR_PUMP_AGITATION_PRODUCT_SCOPE","url":"https://www.fan-separator.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "FAN Separator is verified through its manufacturer-owned BAUER Group website as a specialist in solid-liquid separation.",
+        "Its official range includes press-screw separators, sludge presses, centrifuges, pump technology, agitation equipment and pulper-reject presses."
+      ],
+      "productCategories": [
+        "Сепарационное оборудование",
+        "Промышленные насосы",
+        "Промышленные мешалки"
+      ],
+      "productFamilies": [
+        "PSS Separators",
+        "Sludge Press Separators",
+        "CCS Centrifuges",
+        "Pump Technology",
+        "Agitation Technology",
+        "Pulper Reject Presses"
+      ],
+      "series": [
+        "PSS",
+        "SPS",
+        "CCS",
+        "PRP"
+      ],
+      "industries": [
+        "Сельское хозяйство",
+        "Водоподготовка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.fan-separator.de/wp-content/uploads/sites/4/FAN_019_04-FD-Separator-Plug-Play_EN_preview.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fan-separator.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fan-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "CURRENT_BAUER_GROUP_BRAND_IDENTITY_AND_SEPARATOR_PUMP_AGITATION_PRODUCT_SCOPE",
+          "url": "https://www.fan-separator.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fandis",
       "officialName": "Fandis S.p.A.",
       "displayName": "Fandis",
-      "aliases": ["FANDIS"],
+      "aliases": [
+        "FANDIS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fandis.com/en-US/",
-      "officialDomains": ["fandis.com"],
+      "officialDomains": [
+        "fandis.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fandis manufactures thermal-management and environmental-control components for electrical enclosures.",
-      "fullDescription": ["Fandis is verified through its official website as an Italian manufacturer focused on electrical-panel thermal management.", "The documented range includes filter fans, roof exhaust units, anti-condensation heaters, thermoelectric cooling units, thermostats, hygrostats, LED lights and enclosure components."],
-      "productCategories": ["Промышленные вентиляторы", "Охлаждение электрооборудования", "Промышленные контроллеры"],
-      "productFamilies": ["Filter Fans", "Roof Exhaust Units", "Anti-Condensation Heaters", "Cooling Units", "Thermostats and Hygrostats", "LED Lights"],
+      "fullDescription": [
+        "Fandis is verified through its official website as an Italian manufacturer focused on electrical-panel thermal management.",
+        "The documented range includes filter fans, roof exhaust units, anti-condensation heaters, thermoelectric cooling units, thermostats, hygrostats, LED lights and enclosure components."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Охлаждение электрооборудования",
+        "Промышленные контроллеры"
+      ],
+      "productFamilies": [
+        "Filter Fans",
+        "Roof Exhaust Units",
+        "Anti-Condensation Heaters",
+        "Cooling Units",
+        "Thermostats and Hygrostats",
+        "LED Lights"
+      ],
       "series": [],
-      "industries": ["Промышленная автоматизация", "Электротехника"],
-      "officialCatalogs": ["https://www.fandis.com/pdf/Brochure_Fandis_thermal.pdf"],
-      "documentationSources": ["https://www.fandis.com/en-US/"],
-      "sources": [{"sourceId":"wave80-fandis-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_ENCLOSURE_THERMAL_MANAGEMENT_PRODUCT_GROUPS","url":"https://www.fandis.com/en-US/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленная автоматизация",
+        "Электротехника"
+      ],
+      "officialCatalogs": [
+        "https://www.fandis.com/pdf/Brochure_Fandis_thermal.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fandis.com/en-US/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fandis-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_ENCLOSURE_THERMAL_MANAGEMENT_PRODUCT_GROUPS",
+          "url": "https://www.fandis.com/en-US/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fantini-cosmi",
       "officialName": "Fantini Cosmi S.p.A.",
       "displayName": "Fantini Cosmi",
-      "aliases": ["FANTINI COSMI"],
+      "aliases": [
+        "FANTINI COSMI"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fantinicosmi.it/en/",
-      "officialDomains": ["fantinicosmi.it"],
+      "officialDomains": [
+        "fantinicosmi.it"
+      ],
       "country": "Italy",
       "headquarters": "Caleppio di Settala, Milan, Italy",
       "foundedYear": 1931,
       "parentCompany": null,
       "shortDescription": "Fantini Cosmi develops HVAC controls, ventilation products and industrial devices for pressure, level, flow and temperature control.",
-      "fullDescription": ["Fantini Cosmi is verified through its official website as an Italian company founded in 1931.", "Its portfolio covers thermostats and building controls, ventilation and heat-recovery products, pressure and level controls, flow controls, solenoid valves and gas-safety equipment."],
-      "productCategories": ["HVAC-контроллеры", "Промышленные вентиляторы", "Датчики и измерительные приборы", "Промышленные клапаны"],
-      "productFamilies": ["Thermostats", "Ventilation Systems", "Pressure Controls", "Level Controls", "Flow Controls", "Solenoid Valves", "Gas Safety"],
+      "fullDescription": [
+        "Fantini Cosmi is verified through its official website as an Italian company founded in 1931.",
+        "Its portfolio covers thermostats and building controls, ventilation and heat-recovery products, pressure and level controls, flow controls, solenoid valves and gas-safety equipment."
+      ],
+      "productCategories": [
+        "HVAC-контроллеры",
+        "Промышленные вентиляторы",
+        "Датчики и измерительные приборы",
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Thermostats",
+        "Ventilation Systems",
+        "Pressure Controls",
+        "Level Controls",
+        "Flow Controls",
+        "Solenoid Valves",
+        "Gas Safety"
+      ],
       "series": [],
-      "industries": ["Системы зданий", "Промышленная автоматизация"],
+      "industries": [
+        "Системы зданий",
+        "Промышленная автоматизация"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fantinicosmi.it/en/"],
-      "sources": [{"sourceId":"wave80-fantini-company","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"COMPANY_IDENTITY_FOUNDATION_AND_HVAC_VENTILATION_INDUSTRIAL_CONTROL_SCOPE","url":"https://www.fantinicosmi.it/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fantinicosmi.it/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fantini-company",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "COMPANY_IDENTITY_FOUNDATION_AND_HVAC_VENTILATION_INDUSTRIAL_CONTROL_SCOPE",
+          "url": "https://www.fantinicosmi.it/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fasco",
       "officialName": "Fasco",
       "displayName": "Fasco",
-      "aliases": ["FASCO", "Fasco Motors"],
+      "aliases": [
+        "FASCO",
+        "Fasco Motors"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.regalrexnord.com/brands/fasco",
-      "officialDomains": ["regalrexnord.com"],
+      "officialDomains": [
+        "regalrexnord.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Regal Rexnord Corporation",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Fasco is a Regal Rexnord brand for electric motors and air-moving systems used in HVAC, refrigeration and equipment applications.",
-      "fullDescription": ["Fasco is verified through Regal Rexnord's official brand and product material as a current motor and air-movement brand.", "The documented scope includes AC and electronically commutated motors, blowers and fan assemblies for HVAC, refrigeration and industrial equipment."],
-      "productCategories": ["Электродвигатели", "Промышленные вентиляторы и воздуходувки"],
-      "productFamilies": ["AC Motors", "Electronically Commutated Motors", "Blowers", "Fan Assemblies"],
+      "fullDescription": [
+        "Fasco is verified through Regal Rexnord's official brand and product material as a current motor and air-movement brand.",
+        "The documented scope includes AC and electronically commutated motors, blowers and fan assemblies for HVAC, refrigeration and industrial equipment."
+      ],
+      "productCategories": [
+        "Электродвигатели",
+        "Промышленные вентиляторы и воздуходувки"
+      ],
+      "productFamilies": [
+        "AC Motors",
+        "Electronically Commutated Motors",
+        "Blowers",
+        "Fan Assemblies"
+      ],
       "series": [],
-      "industries": ["HVAC и системы зданий", "Холодильное оборудование", "Промышленное оборудование"],
+      "industries": [
+        "HVAC и системы зданий",
+        "Холодильное оборудование",
+        "Промышленное оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.regalrexnord.com/brands/fasco"],
-      "sources": [{"sourceId":"wave80-fasco-parent","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_FASCO_IDENTITY_AND_MOTOR_BLOWER_FAN_SCOPE","url":"https://www.regalrexnord.com/brands/fasco","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.regalrexnord.com/brands/fasco"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fasco-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_FASCO_IDENTITY_AND_MOTOR_BLOWER_FAN_SCOPE",
+          "url": "https://www.regalrexnord.com/brands/fasco",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fase-italy",
       "officialName": "FASE S.r.l.",
       "displayName": "FASE Italy",
-      "aliases": ["FASE", "FASE ITALY"],
+      "aliases": [
+        "FASE",
+        "FASE ITALY"
+      ],
       "formerNames": [],
       "officialWebsite": "https://fase.it/en/",
-      "officialDomains": ["fase.it"],
+      "officialDomains": [
+        "fase.it"
+      ],
       "country": "Italy",
-      "headquarters": null,
+      "headquarters": "Senago, Italy",
       "foundedYear": 1956,
       "parentCompany": null,
       "shortDescription": "FASE Italy manufactures electrical measuring instruments and electronic equipment for industrial, railway, marine and defence applications.",
-      "fullDescription": ["FASE Italy is verified through its official website as an Italian designer and manufacturer of electrical instrumentation operating since 1956.", "Its product scope includes analogue and digital indicators, energy meters, shunts, measurement converters, pressure and temperature sensors, control panels and railway electronic equipment."],
-      "productCategories": ["Измерительное оборудование", "Датчики", "Промышленная электроника"],
-      "productFamilies": ["Electrical Indicators", "Energy Meters", "Shunts", "Measurement Converters", "Pressure and Temperature Sensors", "Control Panels"],
+      "fullDescription": [
+        "FASE Italy is verified through its official website as an Italian designer and manufacturer of electrical instrumentation operating since 1956.",
+        "Its product scope includes analogue and digital indicators, energy meters, shunts, measurement converters, pressure and temperature sensors, control panels and railway electronic equipment."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Датчики",
+        "Промышленная электроника"
+      ],
+      "productFamilies": [
+        "Electrical Indicators",
+        "Energy Meters",
+        "Shunts",
+        "Measurement Converters",
+        "Pressure and Temperature Sensors",
+        "Control Panels"
+      ],
       "series": [],
-      "industries": ["Железнодорожный транспорт", "Судостроение", "Промышленное производство"],
+      "industries": [
+        "Железнодорожный транспорт",
+        "Судостроение",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://fase.it/en/"],
-      "sources": [{"sourceId":"wave80-fase-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_ELECTRICAL_MEASUREMENT_ELECTRONICS_SCOPE","url":"https://fase.it/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://fase.it/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fase-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_AND_ELECTRICAL_MEASUREMENT_ELECTRONICS_SCOPE",
+          "url": "https://fase.it/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-fase-italy-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://fase.it/en/contacts/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "fbr-elpo",
       "officialName": "F.B.R. Bruciatori S.r.l.",
       "displayName": "FBR ELPO",
-      "aliases": ["FBR", "F.B.R. Burners", "FBR Bruciatori"],
+      "aliases": [
+        "FBR",
+        "F.B.R. Burners",
+        "FBR Bruciatori"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fbr.it/eng/",
-      "officialDomains": ["fbr.it"],
+      "officialDomains": [
+        "fbr.it"
+      ],
       "country": "Italy",
       "headquarters": "Angiari, Verona, Italy",
       "foundedYear": 1969,
       "parentCompany": null,
       "shortDescription": "FBR manufactures combustion burners for gas, light oil, heavy oil and dual-fuel heating systems.",
-      "fullDescription": ["FBR is verified through its manufacturer-owned website as an Italian burner producer founded in 1969.", "Its official range includes gas, light-oil, heavy-oil and dual-fuel burners for civil and industrial boilers and heating processes."],
-      "productCategories": ["Промышленные горелки и системы сжигания"],
-      "productFamilies": ["Gas Burners", "Light Oil Burners", "Heavy Oil Burners", "Dual-Fuel Burners", "Low-NOx Burners"],
+      "fullDescription": [
+        "FBR is verified through its manufacturer-owned website as an Italian burner producer founded in 1969.",
+        "Its official range includes gas, light-oil, heavy-oil and dual-fuel burners for civil and industrial boilers and heating processes."
+      ],
+      "productCategories": [
+        "Промышленные горелки и системы сжигания"
+      ],
+      "productFamilies": [
+        "Gas Burners",
+        "Light Oil Burners",
+        "Heavy Oil Burners",
+        "Dual-Fuel Burners",
+        "Low-NOx Burners"
+      ],
       "series": [],
-      "industries": ["Энергетика", "Промышленное производство", "Системы зданий"],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Системы зданий"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fbr.it/eng/"],
-      "sources": [{"sourceId":"wave80-fbr-profile","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_COMBUSTION_BURNER_SCOPE","url":"https://www.fbr.it/eng/profile","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fbr.it/eng/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fbr-profile",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_COMBUSTION_BURNER_SCOPE",
+          "url": "https://www.fbr.it/eng/profile",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fein",
       "officialName": "C. & E. Fein GmbH",
       "displayName": "FEIN",
-      "aliases": ["Fein"],
+      "aliases": [
+        "Fein"
+      ],
       "formerNames": [],
       "officialWebsite": "https://fein.com/",
-      "officialDomains": ["fein.com"],
+      "officialDomains": [
+        "fein.com"
+      ],
       "country": "Germany",
       "headquarters": "Schwäbisch Gmünd-Bargau, Germany",
       "foundedYear": 1867,
       "parentCompany": null,
       "shortDescription": "FEIN manufactures professional power tools and accessories for metalworking, fabrication and industrial assembly.",
-      "fullDescription": ["FEIN is verified through its official website as a German power-tool manufacturer founded in 1867.", "The official range includes drilling and screwdriving tools, grinders, magnetic core drills, saws, sheet-metal tools, oscillating tools, dust extractors and industrial tightening systems."],
-      "productCategories": ["Профессиональный инструмент", "Металлообрабатывающий инструмент", "Промышленные системы затяжки"],
-      "productFamilies": ["Drilling and Screwdriving", "Grinding and Polishing", "Magnetic Core Drills", "Sawing", "Sheet Metal Tools", "Oscillating Tools", "Dust Extraction"],
-      "series": ["MULTIMASTER", "VersaMAG", "AccuTec"],
-      "industries": ["Металлообработка", "Промышленное производство", "Строительство"],
+      "fullDescription": [
+        "FEIN is verified through its official website as a German power-tool manufacturer founded in 1867.",
+        "The official range includes drilling and screwdriving tools, grinders, magnetic core drills, saws, sheet-metal tools, oscillating tools, dust extractors and industrial tightening systems."
+      ],
+      "productCategories": [
+        "Профессиональный инструмент",
+        "Металлообрабатывающий инструмент",
+        "Промышленные системы затяжки"
+      ],
+      "productFamilies": [
+        "Drilling and Screwdriving",
+        "Grinding and Polishing",
+        "Magnetic Core Drills",
+        "Sawing",
+        "Sheet Metal Tools",
+        "Oscillating Tools",
+        "Dust Extraction"
+      ],
+      "series": [
+        "MULTIMASTER",
+        "VersaMAG",
+        "AccuTec"
+      ],
+      "industries": [
+        "Металлообработка",
+        "Промышленное производство",
+        "Строительство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://fein.com/en_us/tools/"],
-      "sources": [{"sourceId":"wave80-fein-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_PROFESSIONAL_POWER_TOOL_SCOPE","url":"https://fein.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://fein.com/en_us/tools/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fein-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_PROFESSIONAL_POWER_TOOL_SCOPE",
+          "url": "https://fein.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fenac",
       "officialName": "Fenac Engineering",
       "displayName": "FENAC",
-      "aliases": ["Fenac", "FENAC Encoders"],
+      "aliases": [
+        "Fenac",
+        "FENAC Encoders"
+      ],
       "formerNames": [],
       "officialWebsite": "https://fenac.com.tr/en/",
-      "officialDomains": ["fenac.com.tr"],
+      "officialDomains": [
+        "fenac.com.tr"
+      ],
       "country": "Turkey",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FENAC develops rotary encoders and feedback sensors for motors, machinery and industrial automation.",
-      "fullDescription": ["FENAC is verified through its manufacturer-owned website as an encoder and sensor producer.", "Its product groups include incremental and absolute rotary encoders, motor and geared-motor encoders, linear encoders and industrial communication variants using SSI, BiSS, CANopen, PROFINET and EtherCAT."],
-      "productCategories": ["Энкодеры и датчики обратной связи", "Датчики", "Промышленная автоматизация"],
-      "productFamilies": ["Incremental Rotary Encoders", "Absolute Encoders", "Motor Encoders", "Linear Encoders", "Industrial Ethernet Encoders"],
-      "series": ["FNC"],
-      "industries": ["Промышленная автоматизация", "Машиностроение"],
+      "fullDescription": [
+        "FENAC is verified through its manufacturer-owned website as an encoder and sensor producer.",
+        "Its product groups include incremental and absolute rotary encoders, motor and geared-motor encoders, linear encoders and industrial communication variants using SSI, BiSS, CANopen, PROFINET and EtherCAT."
+      ],
+      "productCategories": [
+        "Энкодеры и датчики обратной связи",
+        "Датчики",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Incremental Rotary Encoders",
+        "Absolute Encoders",
+        "Motor Encoders",
+        "Linear Encoders",
+        "Industrial Ethernet Encoders"
+      ],
+      "series": [
+        "FNC"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fenac.com.tr/en/urunler"],
-      "sources": [{"sourceId":"wave80-fenac-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_INCREMENTAL_ABSOLUTE_MOTOR_LINEAR_ENCODER_SCOPE","url":"https://www.fenac.com.tr/en/urunler","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fenac.com.tr/en/urunler"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fenac-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_INCREMENTAL_ABSOLUTE_MOTOR_LINEAR_ENCODER_SCOPE",
+          "url": "https://www.fenac.com.tr/en/urunler",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "ferraz-shawmut",
       "officialName": "Ferraz Shawmut",
       "displayName": "Ferraz Shawmut",
-      "aliases": ["FERRAZ SHAWMUT"],
+      "aliases": [
+        "FERRAZ SHAWMUT"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.mersen.com/en/products/electrical-protection-and-control/fuses-and-fusegear",
-      "officialDomains": ["mersen.com"],
+      "officialDomains": [
+        "mersen.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Mersen",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "Ferraz Shawmut is a Mersen fuse and electrical-protection brand covering industrial, semiconductor and medium-voltage protection products.",
-      "fullDescription": ["Ferraz Shawmut is verified through Mersen's official product pages and corporate literature as a complementary electrical-protection brand.", "The documented scope includes industrial fuses and fusegear, semiconductor-protection fuses, medium-voltage fuses and photovoltaic circuit-protection products."],
-      "productCategories": ["Электроэнергетические системы защиты", "Плавкие предохранители"],
-      "productFamilies": ["Industrial Fuses", "Fusegear", "Semiconductor Fuses", "Medium-Voltage Fuses", "Photovoltaic Fuses"],
+      "fullDescription": [
+        "Ferraz Shawmut is verified through Mersen's official product pages and corporate literature as a complementary electrical-protection brand.",
+        "The documented scope includes industrial fuses and fusegear, semiconductor-protection fuses, medium-voltage fuses and photovoltaic circuit-protection products."
+      ],
+      "productCategories": [
+        "Электроэнергетические системы защиты",
+        "Плавкие предохранители"
+      ],
+      "productFamilies": [
+        "Industrial Fuses",
+        "Fusegear",
+        "Semiconductor Fuses",
+        "Medium-Voltage Fuses",
+        "Photovoltaic Fuses"
+      ],
       "series": [],
-      "industries": ["Энергетика", "Промышленное производство", "Железнодорожный транспорт"],
-      "officialCatalogs": ["https://www.mersen.com/sites/default/files/files_imported/2020-07-en-sales-brochure-mersen.pdf"],
-      "documentationSources": ["https://www.mersen.com/en/products/fes-hrc-ii-fuses?page=1"],
-      "sources": [{"sourceId":"wave80-ferraz-parent","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"FERRAZ_SHAWMUT_BRAND_RELATIONSHIP_AND_FUSE_PROTECTION_SCOPE","url":"https://www.mersen.com/sites/default/files/files_imported/2020-07-en-sales-brochure-mersen.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Железнодорожный транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.mersen.com/sites/default/files/files_imported/2020-07-en-sales-brochure-mersen.pdf"
+      ],
+      "documentationSources": [
+        "https://www.mersen.com/en/products/fes-hrc-ii-fuses?page=1"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-ferraz-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "FERRAZ_SHAWMUT_BRAND_RELATIONSHIP_AND_FUSE_PROTECTION_SCOPE",
+          "url": "https://www.mersen.com/sites/default/files/files_imported/2020-07-en-sales-brochure-mersen.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fette-compacting",
       "officialName": "Fette Compacting GmbH",
       "displayName": "Fette Compacting",
-      "aliases": ["FETTE COMPACTING"],
+      "aliases": [
+        "FETTE COMPACTING"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fette-compacting.com/en/",
-      "officialDomains": ["fette-compacting.com"],
+      "officialDomains": [
+        "fette-compacting.com"
+      ],
       "country": "Germany",
       "headquarters": "Schwarzenbek, Germany",
       "foundedYear": null,
       "parentCompany": "LMT Group",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Fette Compacting develops tablet presses, tableting tools and integrated process equipment for pharmaceutical and nutrition production.",
-      "fullDescription": ["Fette Compacting is verified through its official website as a German provider of integrated equipment for industrial tablet production.", "Its portfolio includes rotary tablet presses, containment solutions, tableting tools, format parts and process equipment for pharmaceutical, nutrition and chemical applications."],
-      "productCategories": ["Фармацевтические машины", "Промышленное процессное оборудование"],
-      "productFamilies": ["Tablet Presses", "Containment Solutions", "Tableting Tools", "Format Parts", "Process Equipment"],
-      "series": ["FE Series", "i Series", "p Series"],
-      "industries": ["Фармацевтическая промышленность", "Пищевая промышленность", "Химическая промышленность"],
-      "officialCatalogs": ["https://www.fette-compacting.com/fileadmin/user_upload/Downloads/P-Series_EN.pdf"],
-      "documentationSources": ["https://www.fette-compacting.com/en/production-solutions/tablet-presses/fe-series"],
-      "sources": [{"sourceId":"wave80-fette-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"COMPANY_IDENTITY_LOCATION_AND_TABLET_PRESS_TOOL_PROCESS_EQUIPMENT_SCOPE","url":"https://www.fette-compacting.com/en/company/about-the-company","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Fette Compacting is verified through its official website as a German provider of integrated equipment for industrial tablet production.",
+        "Its portfolio includes rotary tablet presses, containment solutions, tableting tools, format parts and process equipment for pharmaceutical, nutrition and chemical applications."
+      ],
+      "productCategories": [
+        "Фармацевтические машины",
+        "Промышленное процессное оборудование"
+      ],
+      "productFamilies": [
+        "Tablet Presses",
+        "Containment Solutions",
+        "Tableting Tools",
+        "Format Parts",
+        "Process Equipment"
+      ],
+      "series": [
+        "FE Series",
+        "i Series",
+        "p Series"
+      ],
+      "industries": [
+        "Фармацевтическая промышленность",
+        "Пищевая промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.fette-compacting.com/fileadmin/user_upload/Downloads/P-Series_EN.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fette-compacting.com/en/production-solutions/tablet-presses/fe-series"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fette-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "COMPANY_IDENTITY_LOCATION_AND_TABLET_PRESS_TOOL_PROCESS_EQUIPMENT_SCOPE",
+          "url": "https://www.fette-compacting.com/en/company/about-the-company",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fezer",
       "officialName": "Albert Fezer Maschinenfabrik GmbH",
       "displayName": "FEZER",
-      "aliases": ["Fezer"],
+      "aliases": [
+        "Fezer"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fezer.com/en/home",
-      "officialDomains": ["fezer.com"],
+      "officialDomains": [
+        "fezer.com"
+      ],
       "country": "Germany",
       "headquarters": "Altbach, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FEZER develops vacuum handling and lifting systems for moving sheets, coils, glass, wood, stone and other industrial loads.",
-      "fullDescription": ["FEZER is verified through its manufacturer-owned website as a German producer of vacuum handling equipment.", "Its documented solutions include vacuum lifters, gripping devices, crane-integrated handling systems and application-specific equipment for metal, glass, wood, logistics and other materials."],
-      "productCategories": ["Вакуумное оборудование", "Подъёмно-транспортное оборудование"],
-      "productFamilies": ["Vacuum Lifters", "Vacuum Gripping Systems", "Crane Handling Systems", "Material Handling Devices"],
+      "fullDescription": [
+        "FEZER is verified through its manufacturer-owned website as a German producer of vacuum handling equipment.",
+        "Its documented solutions include vacuum lifters, gripping devices, crane-integrated handling systems and application-specific equipment for metal, glass, wood, logistics and other materials."
+      ],
+      "productCategories": [
+        "Вакуумное оборудование",
+        "Подъёмно-транспортное оборудование"
+      ],
+      "productFamilies": [
+        "Vacuum Lifters",
+        "Vacuum Gripping Systems",
+        "Crane Handling Systems",
+        "Material Handling Devices"
+      ],
       "series": [],
-      "industries": ["Металлообработка", "Стекольная промышленность", "Складская логистика"],
-      "officialCatalogs": ["https://www.fezer.com/en/branches/branches-l-z/cranes?cid=136387&file=files%2Ffezer%2Fdeutsch%2Fpdfs%2Fvacuum_handling_complete_catalog.pdf"],
-      "documentationSources": ["https://www.fezer.com/en/home"],
-      "sources": [{"sourceId":"wave80-fezer-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_VACUUM_HANDLING_SCOPE","url":"https://www.fezer.com/en/home","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Металлообработка",
+        "Стекольная промышленность",
+        "Складская логистика"
+      ],
+      "officialCatalogs": [
+        "https://www.fezer.com/en/branches/branches-l-z/cranes?cid=136387&file=files%2Ffezer%2Fdeutsch%2Fpdfs%2Fvacuum_handling_complete_catalog.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fezer.com/en/home"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fezer-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_VACUUM_HANDLING_SCOPE",
+          "url": "https://www.fezer.com/en/home",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fg-wilson",
       "officialName": "FG Wilson",
       "displayName": "FG Wilson",
-      "aliases": ["FG WILSON", "F.G. Wilson"],
+      "aliases": [
+        "FG WILSON",
+        "F.G. Wilson"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fgwilson.com/",
-      "officialDomains": ["fgwilson.com"],
+      "officialDomains": [
+        "fgwilson.com"
+      ],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": 1966,
       "parentCompany": "Caterpillar Inc.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FG Wilson designs diesel and gas generator sets, control panels and configured power systems for prime and standby power.",
-      "fullDescription": ["FG Wilson is verified through its official website as a generator-set brand founded in Belfast in 1966.", "Its current range covers diesel and gas generator sets, rental configurations, acoustic enclosures, control panels and customised power systems."],
-      "productCategories": ["Энергетические установки", "Промышленные контроллеры"],
-      "productFamilies": ["Diesel Generator Sets", "Gas Generator Sets", "Rental Generators", "Generator Enclosures", "Control Panels", "Power Systems"],
-      "series": ["P Series", "PRO Rental Range"],
-      "industries": ["Энергетика", "Промышленное производство", "Инфраструктура"],
+      "fullDescription": [
+        "FG Wilson is verified through its official website as a generator-set brand founded in Belfast in 1966.",
+        "Its current range covers diesel and gas generator sets, rental configurations, acoustic enclosures, control panels and customised power systems."
+      ],
+      "productCategories": [
+        "Энергетические установки",
+        "Промышленные контроллеры"
+      ],
+      "productFamilies": [
+        "Diesel Generator Sets",
+        "Gas Generator Sets",
+        "Rental Generators",
+        "Generator Enclosures",
+        "Control Panels",
+        "Power Systems"
+      ],
+      "series": [
+        "P Series",
+        "PRO Rental Range"
+      ],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Инфраструктура"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fgwilson.com/en_GB/products.index.html"],
-      "sources": [{"sourceId":"wave80-fgwilson-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_FOUNDATION_AND_DIESEL_GAS_GENERATOR_SCOPE","url":"https://www.fgwilson.com/en_GB/company/about-us.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fgwilson.com/en_GB/products.index.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fgwilson-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_FOUNDATION_AND_DIESEL_GAS_GENERATOR_SCOPE",
+          "url": "https://www.fgwilson.com/en_GB/company/about-us.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fiam",
       "officialName": "Fiam Utensili Pneumatici S.p.A.",
       "displayName": "Fiam",
-      "aliases": ["FIAM", "Fiamgroup"],
+      "aliases": [
+        "FIAM",
+        "Fiamgroup"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fiamgroup.com/en/",
-      "officialDomains": ["fiamgroup.com"],
+      "officialDomains": [
+        "fiamgroup.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fiam designs pneumatic and electric tightening tools, automated screw-feeding modules and assembly-control systems.",
-      "fullDescription": ["Fiam is verified through its manufacturer-owned website as an Italian producer of industrial tightening systems.", "Its product scope includes air and electric screwdrivers, nutrunner motors, torque-control units, reaction arms, multi-spindle units and automatic screw-feeding modules."],
-      "productCategories": ["Промышленные системы затяжки", "Пневматический инструмент", "Промышленная автоматизация"],
-      "productFamilies": ["Pneumatic Screwdrivers", "Electric Tightening Systems", "Nutrunner Motors", "Reaction Arms", "Automatic Screw Feeders", "Multi-Spindle Units"],
-      "series": ["eTensil", "MCA", "MCB"],
-      "industries": ["Промышленное производство", "Автомобильная промышленность"],
+      "fullDescription": [
+        "Fiam is verified through its manufacturer-owned website as an Italian producer of industrial tightening systems.",
+        "Its product scope includes air and electric screwdrivers, nutrunner motors, torque-control units, reaction arms, multi-spindle units and automatic screw-feeding modules."
+      ],
+      "productCategories": [
+        "Промышленные системы затяжки",
+        "Пневматический инструмент",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Pneumatic Screwdrivers",
+        "Electric Tightening Systems",
+        "Nutrunner Motors",
+        "Reaction Arms",
+        "Automatic Screw Feeders",
+        "Multi-Spindle Units"
+      ],
+      "series": [
+        "eTensil",
+        "MCA",
+        "MCB"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fiamgroup.com/en/products/"],
-      "sources": [{"sourceId":"wave80-fiam-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_PNEUMATIC_ELECTRIC_AUTOMATED_TIGHTENING_SCOPE","url":"https://www.fiamgroup.com/landing/industrial-tightening/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fiamgroup.com/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fiam-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_PNEUMATIC_ELECTRIC_AUTOMATED_TIGHTENING_SCOPE",
+          "url": "https://www.fiamgroup.com/landing/industrial-tightening/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fildos",
       "officialName": "Fildos",
       "displayName": "Fildos",
-      "aliases": ["FILDOS"],
+      "aliases": [
+        "FILDOS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://fildos.com.tr/",
-      "officialDomains": ["fildos.com.tr"],
+      "officialDomains": [
+        "fildos.com.tr"
+      ],
       "country": "Turkey",
       "headquarters": "Istanbul, Turkey",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fildos engineers chemical-dosing skids, fluid-transfer systems and process equipment for water and industrial applications.",
-      "fullDescription": ["Fildos is verified through its official company page as a Turkish engineering business focused on chemical dosing and fluid transfer.", "Its documented solutions combine metering pumps, transfer pumps, chemical tanks, polymer-preparation units, pH-correction systems and project-specific skid assemblies."],
-      "productCategories": ["Дозирующее оборудование", "Промышленные насосы", "Водоподготовительное оборудование"],
-      "productFamilies": ["Chemical Dosing Skids", "Metering Pumps", "Transfer Pumps", "Polymer Preparation Units", "pH Correction Systems"],
+      "fullDescription": [
+        "Fildos is verified through its official company page as a Turkish engineering business focused on chemical dosing and fluid transfer.",
+        "Its documented solutions combine metering pumps, transfer pumps, chemical tanks, polymer-preparation units, pH-correction systems and project-specific skid assemblies."
+      ],
+      "productCategories": [
+        "Дозирующее оборудование",
+        "Промышленные насосы",
+        "Водоподготовительное оборудование"
+      ],
+      "productFamilies": [
+        "Chemical Dosing Skids",
+        "Metering Pumps",
+        "Transfer Pumps",
+        "Polymer Preparation Units",
+        "pH Correction Systems"
+      ],
       "series": [],
-      "industries": ["Водоподготовка", "Химическая промышленность", "Энергетика"],
+      "industries": [
+        "Водоподготовка",
+        "Химическая промышленность",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://fildos.com.tr/hakkimizda/"],
-      "sources": [{"sourceId":"wave80-fildos-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"COMPANY_IDENTITY_LOCATION_AND_CHEMICAL_DOSING_TRANSFER_SKID_SCOPE","url":"https://fildos.com.tr/hakkimizda/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://fildos.com.tr/hakkimizda/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fildos-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "COMPANY_IDENTITY_LOCATION_AND_CHEMICAL_DOSING_TRANSFER_SKID_SCOPE",
+          "url": "https://fildos.com.tr/hakkimizda/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "filterflo",
       "officialName": "Filterflo S.r.l.",
       "displayName": "Filterflo",
-      "aliases": ["FILTERFLO"],
-      "formerNames": ["Vessel Aircomp"],
+      "aliases": [
+        "FILTERFLO"
+      ],
+      "formerNames": [
+        "Vessel Aircomp"
+      ],
       "officialWebsite": "https://www.filterflo.com/en/",
-      "officialDomains": ["filterflo.com"],
+      "officialDomains": [
+        "filterflo.com"
+      ],
       "country": "Italy",
       "headquarters": "Binasco, Milan, Italy",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Filterflo supplies process-filtration equipment, including liquid and gas filter housings, cartridges, bags and filter media.",
-      "fullDescription": ["Filterflo is verified through its official company page as an Italian process-filtration business established from the former Vessel Aircomp operation.", "Its official catalogue covers filters for liquid and gas applications, housings, cartridges, filter bags and sheet media for industrial processes."],
-      "productCategories": ["Промышленное фильтрационное оборудование"],
-      "productFamilies": ["Liquid Filters", "Gas Filters", "Filter Housings", "Filter Cartridges", "Filter Bags", "Filter Media"],
+      "fullDescription": [
+        "Filterflo is verified through its official company page as an Italian process-filtration business established from the former Vessel Aircomp operation.",
+        "Its official catalogue covers filters for liquid and gas applications, housings, cartridges, filter bags and sheet media for industrial processes."
+      ],
+      "productCategories": [
+        "Промышленное фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Liquid Filters",
+        "Gas Filters",
+        "Filter Housings",
+        "Filter Cartridges",
+        "Filter Bags",
+        "Filter Media"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Пищевая промышленность", "Химическая промышленность"],
-      "officialCatalogs": ["https://www.filterflo.com/en/who-we-are"],
-      "documentationSources": ["https://www.filterflo.com/en/who-we-are"],
-      "sources": [{"sourceId":"wave80-filterflo-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"COMPANY_IDENTITY_FORMER_NAME_LOCATION_AND_PROCESS_FILTER_SCOPE","url":"https://www.filterflo.com/en/who-we-are","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.filterflo.com/en/who-we-are"
+      ],
+      "documentationSources": [
+        "https://www.filterflo.com/en/who-we-are"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-filterflo-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "COMPANY_IDENTITY_FORMER_NAME_LOCATION_AND_PROCESS_FILTER_SCOPE",
+          "url": "https://www.filterflo.com/en/who-we-are",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "filtertech",
       "officialName": "Filtertech, Inc.",
       "displayName": "Filtertech",
-      "aliases": ["FILTERTECH"],
+      "aliases": [
+        "FILTERTECH"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.filtertech.com/",
-      "officialDomains": ["filtertech.com"],
+      "officialDomains": [
+        "filtertech.com"
+      ],
       "country": "United States",
       "headquarters": "Manlius, New York, United States",
       "foundedYear": 1969,
       "parentCompany": null,
       "shortDescription": "Filtertech manufactures industrial liquid-filtration, separation, clarification and wastewater-treatment systems.",
-      "fullDescription": ["Filtertech is verified through its manufacturer-owned website as a US filtration-system producer established in 1969.", "Its range includes gravity, vacuum and pressure filters, centrifuges, magnetic separators, evaporators, sludge-dewatering systems and process-water treatment equipment."],
-      "productCategories": ["Промышленное фильтрационное оборудование", "Сепарационное оборудование", "Водоподготовительное оборудование"],
-      "productFamilies": ["Gravity Filters", "Vacuum Filters", "Pressure Filters", "Centrifuges", "Magnetic Separators", "Sludge Dewatering", "Process Water Systems"],
-      "series": ["DBGF", "LGF", "LVF", "APF", "ACF"],
-      "industries": ["Металлообработка", "Автомобильная промышленность", "Водоподготовка"],
+      "fullDescription": [
+        "Filtertech is verified through its manufacturer-owned website as a US filtration-system producer established in 1969.",
+        "Its range includes gravity, vacuum and pressure filters, centrifuges, magnetic separators, evaporators, sludge-dewatering systems and process-water treatment equipment."
+      ],
+      "productCategories": [
+        "Промышленное фильтрационное оборудование",
+        "Сепарационное оборудование",
+        "Водоподготовительное оборудование"
+      ],
+      "productFamilies": [
+        "Gravity Filters",
+        "Vacuum Filters",
+        "Pressure Filters",
+        "Centrifuges",
+        "Magnetic Separators",
+        "Sludge Dewatering",
+        "Process Water Systems"
+      ],
+      "series": [
+        "DBGF",
+        "LGF",
+        "LVF",
+        "APF",
+        "ACF"
+      ],
+      "industries": [
+        "Металлообработка",
+        "Автомобильная промышленность",
+        "Водоподготовка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.filtertech.com/products/"],
-      "sources": [{"sourceId":"wave80-filtertech-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"COMPANY_IDENTITY_FOUNDATION_LOCATION_AND_LIQUID_FILTRATION_SEPARATION_SCOPE","url":"https://www.filtertech.com/about/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.filtertech.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-filtertech-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "COMPANY_IDENTITY_FOUNDATION_LOCATION_AND_LIQUID_FILTRATION_SEPARATION_SCOPE",
+          "url": "https://www.filtertech.com/about/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "filtrec",
       "officialName": "Filtrec S.p.A.",
       "displayName": "FILTREC",
-      "aliases": ["Filtrec"],
+      "aliases": [
+        "Filtrec"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.filtrec.com/",
-      "officialDomains": ["filtrec.com"],
+      "officialDomains": [
+        "filtrec.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FILTREC manufactures filtration products for hydraulic, process, air and oil applications.",
-      "fullDescription": ["FILTREC is verified through its manufacturer-owned website as a specialist in industrial filtration.", "Its official product scope includes hydraulic filters and replacement elements, process filters, air filters, oil-separation products and contamination-control accessories."],
-      "productCategories": ["Гидравлические фильтры", "Промышленное фильтрационное оборудование"],
-      "productFamilies": ["Hydraulic Filters", "Filter Elements", "Process Filters", "Air Filters", "Oil Separation", "Contamination Control"],
+      "fullDescription": [
+        "FILTREC is verified through its manufacturer-owned website as a specialist in industrial filtration.",
+        "Its official product scope includes hydraulic filters and replacement elements, process filters, air filters, oil-separation products and contamination-control accessories."
+      ],
+      "productCategories": [
+        "Гидравлические фильтры",
+        "Промышленное фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Hydraulic Filters",
+        "Filter Elements",
+        "Process Filters",
+        "Air Filters",
+        "Oil Separation",
+        "Contamination Control"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Гидравлические системы"],
+      "industries": [
+        "Промышленное производство",
+        "Гидравлические системы"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.filtrec.com/"],
-      "sources": [{"sourceId":"wave80-filtrec-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_HYDRAULIC_PROCESS_AIR_OIL_FILTRATION_SCOPE","url":"https://www.filtrec.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.filtrec.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-filtrec-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_AND_HYDRAULIC_PROCESS_AIR_OIL_FILTRATION_SCOPE",
+          "url": "https://www.filtrec.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fimec",
       "officialName": "FIMEC S.r.l.",
       "displayName": "FIMEC",
-      "aliases": ["Fimec"],
+      "aliases": [
+        "Fimec"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fimec.it/",
-      "officialDomains": ["fimec.it"],
+      "officialDomains": [
+        "fimec.it"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FIMEC manufactures electric motors for industrial machinery and application-specific drive systems.",
-      "fullDescription": ["FIMEC is verified through its official website as an Italian manufacturer of electric motors.", "Its documented range covers asynchronous electric motors and application-specific motor configurations for industrial machinery, including braking and special-duty variants."],
-      "productCategories": ["Электродвигатели"],
-      "productFamilies": ["Asynchronous Motors", "Brake Motors", "Special-Purpose Motors"],
+      "fullDescription": [
+        "FIMEC is verified through its official website as an Italian manufacturer of electric motors.",
+        "Its documented range covers asynchronous electric motors and application-specific motor configurations for industrial machinery, including braking and special-duty variants."
+      ],
+      "productCategories": [
+        "Электродвигатели"
+      ],
+      "productFamilies": [
+        "Asynchronous Motors",
+        "Brake Motors",
+        "Special-Purpose Motors"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Машиностроение"],
+      "industries": [
+        "Промышленное производство",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fimec.it/"],
-      "sources": [{"sourceId":"wave80-fimec-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_INDUSTRIAL_ELECTRIC_MOTOR_SCOPE","url":"https://www.fimec.it/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fimec.it/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fimec-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_AND_INDUSTRIAL_ELECTRIC_MOTOR_SCOPE",
+          "url": "https://www.fimec.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fimer",
       "officialName": "FIMER S.p.A.",
       "displayName": "FIMER",
-      "aliases": ["Fimer"],
+      "aliases": [
+        "Fimer"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fimer.com/",
-      "officialDomains": ["fimer.com"],
+      "officialDomains": [
+        "fimer.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "MA Solar Italy",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FIMER develops solar inverters, energy-storage systems and digital equipment for photovoltaic installations.",
-      "fullDescription": ["FIMER is verified through its official website and current corporate material as a solar-technology brand owned by MA Solar Italy.", "Its documented portfolio includes string and central inverters, energy-storage systems, monitoring platforms and control equipment for residential, commercial and utility-scale photovoltaic installations."],
-      "productCategories": ["Силовые преобразователи", "Накопители энергии", "Промышленные контроллеры"],
-      "productFamilies": ["String Inverters", "Central Inverters", "Energy Storage", "Monitoring and Control"],
+      "fullDescription": [
+        "FIMER is verified through its official website and current corporate material as a solar-technology brand owned by MA Solar Italy.",
+        "Its documented portfolio includes string and central inverters, energy-storage systems, monitoring platforms and control equipment for residential, commercial and utility-scale photovoltaic installations."
+      ],
+      "productCategories": [
+        "Силовые преобразователи",
+        "Накопители энергии",
+        "Промышленные контроллеры"
+      ],
+      "productFamilies": [
+        "String Inverters",
+        "Central Inverters",
+        "Energy Storage",
+        "Monitoring and Control"
+      ],
       "series": [],
-      "industries": ["Энергетика", "Солнечная энергетика"],
-      "officialCatalogs": ["https://www.fimer.com/sites/default/files/FIMER_SIMTEL-EN_2025_11_0.pdf"],
-      "documentationSources": ["https://www.fimer.com/products-and-services/solar/string-inverters"],
-      "sources": [{"sourceId":"wave80-fimer-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_OWNERSHIP_AND_SOLAR_INVERTER_STORAGE_MONITORING_SCOPE","url":"https://www.fimer.com/products-and-services/solar/string-inverters","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Энергетика",
+        "Солнечная энергетика"
+      ],
+      "officialCatalogs": [
+        "https://www.fimer.com/sites/default/files/FIMER_SIMTEL-EN_2025_11_0.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fimer.com/products-and-services/solar/string-inverters"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fimer-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CURRENT_BRAND_OWNERSHIP_AND_SOLAR_INVERTER_STORAGE_MONITORING_SCOPE",
+          "url": "https://www.fimer.com/products-and-services/solar/string-inverters",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "findeva",
       "officialName": "Findeva AG",
       "displayName": "Findeva",
-      "aliases": ["FINDEVA"],
+      "aliases": [
+        "FINDEVA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.findeva.com/",
-      "officialDomains": ["findeva.com"],
+      "officialDomains": [
+        "findeva.com"
+      ],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Findeva manufactures pneumatic vibrators for conveying, feeding, compacting, separating and emptying bulk materials.",
-      "fullDescription": ["Findeva is verified through its official website and catalogue as a Swiss manufacturer of pneumatic vibration equipment.", "Its range includes ball, roller, turbine, linear and impact vibrators used to move, compact, loosen, separate and discharge bulk materials in industrial processes."],
-      "productCategories": ["Пневматические вибраторы", "Вибрационное оборудование"],
-      "productFamilies": ["Ball Vibrators", "Roller Vibrators", "Turbine Vibrators", "Linear Vibrators", "Impact Vibrators"],
+      "fullDescription": [
+        "Findeva is verified through its official website and catalogue as a Swiss manufacturer of pneumatic vibration equipment.",
+        "Its range includes ball, roller, turbine, linear and impact vibrators used to move, compact, loosen, separate and discharge bulk materials in industrial processes."
+      ],
+      "productCategories": [
+        "Пневматические вибраторы",
+        "Вибрационное оборудование"
+      ],
+      "productFamilies": [
+        "Ball Vibrators",
+        "Roller Vibrators",
+        "Turbine Vibrators",
+        "Linear Vibrators",
+        "Impact Vibrators"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Переработка сыпучих материалов"],
-      "officialCatalogs": ["https://www.findeva.com/images/downloads-products/00_brochures/Complete_catalogue_21.pdf"],
-      "documentationSources": ["https://www.findeva.com/"],
-      "sources": [{"sourceId":"wave80-findeva-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_AND_PNEUMATIC_VIBRATOR_PRODUCT_SCOPE","url":"https://www.findeva.com/images/downloads-products/00_brochures/Complete_catalogue_21.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Переработка сыпучих материалов"
+      ],
+      "officialCatalogs": [
+        "https://www.findeva.com/images/downloads-products/00_brochures/Complete_catalogue_21.pdf"
+      ],
+      "documentationSources": [
+        "https://www.findeva.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-findeva-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MANUFACTURER_IDENTITY_AND_PNEUMATIC_VIBRATOR_PRODUCT_SCOPE",
+          "url": "https://www.findeva.com/images/downloads-products/00_brochures/Complete_catalogue_21.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "finish-thompson",
       "officialName": "Finish Thompson Inc.",
       "displayName": "Finish Thompson",
-      "aliases": ["FINISH THOMPSON", "FTI"],
+      "aliases": [
+        "FINISH THOMPSON",
+        "FTI"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.finishthompson.com/",
-      "officialDomains": ["finishthompson.com"],
+      "officialDomains": [
+        "finishthompson.com"
+      ],
       "country": "United States",
-      "headquarters": null,
+      "headquarters": "Erie, PA, United States",
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Finish Thompson manufactures industrial pumps for chemical transfer, drum and barrel handling, and process applications.",
-      "fullDescription": ["Finish Thompson is verified through its manufacturer-owned website as an industrial pump producer.", "Its product range includes sealless plastic and ANSI centrifugal pumps, self-priming pumps, drum and barrel pumps, sealed centrifugal pumps and vertical pumps for chemical-transfer and process duties."],
-      "productCategories": ["Промышленные насосы", "Химические насосы"],
-      "productFamilies": ["Sealless Plastic Pumps", "ANSI Sealless Pumps", "Self-Priming Pumps", "Drum and Barrel Pumps", "Sealed Pumps", "Vertical Pumps"],
+      "fullDescription": [
+        "Finish Thompson is verified through its manufacturer-owned website as an industrial pump producer.",
+        "Its product range includes sealless plastic and ANSI centrifugal pumps, self-priming pumps, drum and barrel pumps, sealed centrifugal pumps and vertical pumps for chemical-transfer and process duties."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Химические насосы"
+      ],
+      "productFamilies": [
+        "Sealless Plastic Pumps",
+        "ANSI Sealless Pumps",
+        "Self-Priming Pumps",
+        "Drum and Barrel Pumps",
+        "Sealed Pumps",
+        "Vertical Pumps"
+      ],
       "series": [],
-      "industries": ["Химическая промышленность", "Водоподготовка", "Промышленное производство"],
+      "industries": [
+        "Химическая промышленность",
+        "Водоподготовка",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.finishthompson.com/products/"],
-      "sources": [{"sourceId":"wave80-finishthompson-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_SEALLESS_DRUM_SELF_PRIMING_VERTICAL_PUMP_SCOPE","url":"https://www.finishthompson.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.finishthompson.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-finishthompson-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_SEALLESS_DRUM_SELF_PRIMING_VERTICAL_PUMP_SCOPE",
+          "url": "https://www.finishthompson.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-finish-thompson-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.finishthompson.com/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
       "manufacturerId": "fip",
       "officialName": "FIP",
       "displayName": "FIP",
-      "aliases": ["FIP Valves"],
+      "aliases": [
+        "FIP Valves"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fipnet.com/",
-      "officialDomains": ["fipnet.com"],
+      "officialDomains": [
+        "fipnet.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Aliaxis",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FIP is an Aliaxis brand for thermoplastic valves, fittings and flow-control systems used in industrial piping.",
-      "fullDescription": ["FIP is verified through its official manufacturer website as an Aliaxis brand focused on thermoplastic flow control.", "Its portfolio covers manual and actuated valves, fittings, measurement and control products, and associated systems for industrial fluid-handling installations."],
-      "productCategories": ["Промышленные клапаны", "Измерительное оборудование", "Трубопроводная арматура"],
-      "productFamilies": ["Manual Valves", "Actuated Valves", "Fittings", "Measurement and Control", "Thermoplastic Piping Systems"],
+      "fullDescription": [
+        "FIP is verified through its official manufacturer website as an Aliaxis brand focused on thermoplastic flow control.",
+        "Its portfolio covers manual and actuated valves, fittings, measurement and control products, and associated systems for industrial fluid-handling installations."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Измерительное оборудование",
+        "Трубопроводная арматура"
+      ],
+      "productFamilies": [
+        "Manual Valves",
+        "Actuated Valves",
+        "Fittings",
+        "Measurement and Control",
+        "Thermoplastic Piping Systems"
+      ],
       "series": [],
-      "industries": ["Химическая промышленность", "Водоподготовка", "Промышленное производство"],
+      "industries": [
+        "Химическая промышленность",
+        "Водоподготовка",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fipnet.com/"],
-      "sources": [{"sourceId":"wave80-fip-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"CURRENT_ALIAXIS_BRAND_IDENTITY_AND_THERMOPLASTIC_VALVE_FITTING_FLOW_CONTROL_SCOPE","url":"https://www.fipnet.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fipnet.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fip-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "CURRENT_ALIAXIS_BRAND_IDENTITY_AND_THERMOPLASTIC_VALVE_FITTING_FLOW_CONTROL_SCOPE",
+          "url": "https://www.fipnet.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fipa",
       "officialName": "FIPA GmbH",
       "displayName": "FIPA",
-      "aliases": ["Fipa"],
+      "aliases": [
+        "Fipa"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fipa.com/en/",
-      "officialDomains": ["fipa.com"],
+      "officialDomains": [
+        "fipa.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FIPA develops vacuum automation, end-of-arm tooling and lifting systems for industrial handling processes.",
-      "fullDescription": ["FIPA is verified through its official website as a manufacturer of vacuum and handling technology.", "Its documented product groups include vacuum cups and generators, gripping systems, robot end-of-arm tooling, vacuum lifters and tube lifters for automated and manual material handling."],
-      "productCategories": ["Вакуумное оборудование", "Роботизированные захваты", "Подъёмно-транспортное оборудование"],
-      "productFamilies": ["Vacuum Cups", "Vacuum Generators", "Gripping Systems", "End-of-Arm Tooling", "Vacuum Lifters", "Tube Lifters"],
+      "fullDescription": [
+        "FIPA is verified through its official website as a manufacturer of vacuum and handling technology.",
+        "Its documented product groups include vacuum cups and generators, gripping systems, robot end-of-arm tooling, vacuum lifters and tube lifters for automated and manual material handling."
+      ],
+      "productCategories": [
+        "Вакуумное оборудование",
+        "Роботизированные захваты",
+        "Подъёмно-транспортное оборудование"
+      ],
+      "productFamilies": [
+        "Vacuum Cups",
+        "Vacuum Generators",
+        "Gripping Systems",
+        "End-of-Arm Tooling",
+        "Vacuum Lifters",
+        "Tube Lifters"
+      ],
       "series": [],
-      "industries": ["Промышленная автоматизация", "Складская логистика", "Промышленное производство"],
+      "industries": [
+        "Промышленная автоматизация",
+        "Складская логистика",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fipa.com/en/products-and-solutions/"],
-      "sources": [{"sourceId":"wave80-fipa-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_VACUUM_AUTOMATION_EOAT_LIFTING_SCOPE","url":"https://www.fipa.com/en/products-and-solutions/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fipa.com/en/products-and-solutions/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fipa-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_VACUUM_AUTOMATION_EOAT_LIFTING_SCOPE",
+          "url": "https://www.fipa.com/en/products-and-solutions/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fischbach",
       "officialName": "Fischbach Luft- und Ventilatorentechnik GmbH",
       "displayName": "Fischbach",
-      "aliases": ["FISCHBACH"],
+      "aliases": [
+        "FISCHBACH"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fischbach-luft.de/en/",
-      "officialDomains": ["fischbach-luft.de"],
+      "officialDomains": [
+        "fischbach-luft.de"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fischbach manufactures compact centrifugal fans, axial fans and disc-rotor motors for ventilation and air-handling systems.",
-      "fullDescription": ["Fischbach is verified through its manufacturer-owned website and technical literature as a German air-movement equipment producer.", "Its documented range includes compact centrifugal fans, axial fans, fan units and disc-rotor motors for ventilation, HVAC and industrial air-handling applications."],
-      "productCategories": ["Промышленные вентиляторы", "Электродвигатели"],
-      "productFamilies": ["Compact Centrifugal Fans", "Axial Fans", "Fan Units", "Disc-Rotor Motors"],
+      "fullDescription": [
+        "Fischbach is verified through its manufacturer-owned website and technical literature as a German air-movement equipment producer.",
+        "Its documented range includes compact centrifugal fans, axial fans, fan units and disc-rotor motors for ventilation, HVAC and industrial air-handling applications."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Электродвигатели"
+      ],
+      "productFamilies": [
+        "Compact Centrifugal Fans",
+        "Axial Fans",
+        "Fan Units",
+        "Disc-Rotor Motors"
+      ],
       "series": [],
-      "industries": ["HVAC и системы зданий", "Промышленное производство"],
-      "officialCatalogs": ["https://www.fischbach-luft.de/wp-content/uploads/2021/02/fischbach-basic-information-centrifugal-fans-compact-fans.pdf"],
-      "documentationSources": ["https://www.fischbach-luft.de/en/"],
-      "sources": [{"sourceId":"wave80-fischbach-catalog","tier":"A","type":"OFFICIAL_TECHNICAL_DOCUMENT","scope":"MANUFACTURER_IDENTITY_AND_CENTRIFUGAL_AXIAL_FAN_DISC_ROTOR_MOTOR_SCOPE","url":"https://www.fischbach-luft.de/wp-content/uploads/2021/02/fischbach-basic-information-centrifugal-fans-compact-fans.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "HVAC и системы зданий",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.fischbach-luft.de/wp-content/uploads/2021/02/fischbach-basic-information-centrifugal-fans-compact-fans.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fischbach-luft.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fischbach-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_TECHNICAL_DOCUMENT",
+          "scope": "MANUFACTURER_IDENTITY_AND_CENTRIFUGAL_AXIAL_FAN_DISC_ROTOR_MOTOR_SCOPE",
+          "url": "https://www.fischbach-luft.de/wp-content/uploads/2021/02/fischbach-basic-information-centrifugal-fans-compact-fans.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fitok",
       "officialName": "FITOK Group",
       "displayName": "FITOK",
-      "aliases": ["Fitok"],
+      "aliases": [
+        "Fitok"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fitokgroup.com/",
-      "officialDomains": ["fitokgroup.com"],
+      "officialDomains": [
+        "fitokgroup.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": 1998,
       "parentCompany": null,
       "shortDescription": "FITOK manufactures instrumentation valves, fittings and fluid-system components for industrial process installations.",
-      "fullDescription": ["FITOK is verified through its official company website as a fluid-system component manufacturer founded in 1998.", "Its product scope includes tube fittings, valves, manifolds, filters, quick connects, hoses, tubing, sampling systems and pressure regulators for instrumentation and process service."],
-      "productCategories": ["Промышленные клапаны", "Трубопроводная арматура", "Промышленное фильтрационное оборудование", "Регуляторы давления"],
-      "productFamilies": ["Tube Fittings", "Valves", "Manifolds", "Filters", "Quick Connects", "Hoses and Tubing", "Sampling Systems", "Pressure Regulators"],
+      "fullDescription": [
+        "FITOK is verified through its official company website as a fluid-system component manufacturer founded in 1998.",
+        "Its product scope includes tube fittings, valves, manifolds, filters, quick connects, hoses, tubing, sampling systems and pressure regulators for instrumentation and process service."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Трубопроводная арматура",
+        "Промышленное фильтрационное оборудование",
+        "Регуляторы давления"
+      ],
+      "productFamilies": [
+        "Tube Fittings",
+        "Valves",
+        "Manifolds",
+        "Filters",
+        "Quick Connects",
+        "Hoses and Tubing",
+        "Sampling Systems",
+        "Pressure Regulators"
+      ],
       "series": [],
-      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Промышленное производство"],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fitokgroup.com/about/"],
-      "sources": [{"sourceId":"wave80-fitok-about","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_INSTRUMENTATION_VALVE_FITTING_FLUID_SYSTEM_SCOPE","url":"https://www.fitokgroup.com/about/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fitokgroup.com/about/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fitok-about",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_AND_INSTRUMENTATION_VALVE_FITTING_FLUID_SYSTEM_SCOPE",
+          "url": "https://www.fitokgroup.com/about/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fixturlaser",
       "officialName": "Fixturlaser",
       "displayName": "Fixturlaser",
-      "aliases": ["FIXTURLASER", "Acoem Fixturlaser"],
+      "aliases": [
+        "FIXTURLASER",
+        "Acoem Fixturlaser"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.acoem.com/en/about-us/our-company/our-brands/",
-      "officialDomains": ["acoem.com"],
+      "officialDomains": [
+        "acoem.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Acoem",
       "statusModifier": "ACQUIRED_BRAND",
       "shortDescription": "Fixturlaser is an Acoem brand for laser shaft alignment and geometric measurement systems used on rotating machinery.",
-      "fullDescription": ["Fixturlaser is verified through Acoem's official brand page as a laser-alignment brand acquired in 2014.", "Its documented scope includes shaft-alignment systems, roll-alignment instruments and geometric measurement solutions for turbines, extruders and other rotating industrial assets."],
-      "productCategories": ["Лазерные измерительные системы", "Измерительное оборудование"],
-      "productFamilies": ["Shaft Alignment Systems", "Roll Alignment Systems", "Geometric Measurement Systems"],
+      "fullDescription": [
+        "Fixturlaser is verified through Acoem's official brand page as a laser-alignment brand acquired in 2014.",
+        "Its documented scope includes shaft-alignment systems, roll-alignment instruments and geometric measurement solutions for turbines, extruders and other rotating industrial assets."
+      ],
+      "productCategories": [
+        "Лазерные измерительные системы",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Shaft Alignment Systems",
+        "Roll Alignment Systems",
+        "Geometric Measurement Systems"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Энергетика", "Машиностроение"],
+      "industries": [
+        "Промышленное производство",
+        "Энергетика",
+        "Машиностроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.acoem.com/en/about-us/our-company/our-brands/"],
-      "sources": [{"sourceId":"wave80-fixturlaser-parent","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_ACOEM_BRAND_IDENTITY_ACQUISITION_AND_LASER_ALIGNMENT_SCOPE","url":"https://www.acoem.com/en/about-us/our-company/our-brands/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.acoem.com/en/about-us/our-company/our-brands/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fixturlaser-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_ACOEM_BRAND_IDENTITY_ACQUISITION_AND_LASER_ALIGNMENT_SCOPE",
+          "url": "https://www.acoem.com/en/about-us/our-company/our-brands/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fkl",
       "officialName": "Fabrika kotrljajućih ležajeva i kardana FKL a.d.",
       "displayName": "FKL",
-      "aliases": ["FKL Serbia"],
+      "aliases": [
+        "FKL Serbia"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fkl-serbia.com/",
-      "officialDomains": ["fkl-serbia.com"],
+      "officialDomains": [
+        "fkl-serbia.com"
+      ],
       "country": "Serbia",
       "headquarters": "Temerin, Serbia",
       "foundedYear": 1961,
       "parentCompany": null,
       "shortDescription": "FKL manufactures rolling bearings, bearing units and cardan shafts for agricultural and industrial machinery.",
-      "fullDescription": ["FKL is verified through its official website as a Serbian bearing and cardan-shaft manufacturer whose production history dates to 1961.", "Its product range includes ball and roller bearings, bearing units, agricultural bearings and cardan shafts for machinery and power-transmission applications."],
-      "productCategories": ["Подшипники", "Механические передачи"],
-      "productFamilies": ["Ball Bearings", "Roller Bearings", "Bearing Units", "Agricultural Bearings", "Cardan Shafts"],
+      "fullDescription": [
+        "FKL is verified through its official website as a Serbian bearing and cardan-shaft manufacturer whose production history dates to 1961.",
+        "Its product range includes ball and roller bearings, bearing units, agricultural bearings and cardan shafts for machinery and power-transmission applications."
+      ],
+      "productCategories": [
+        "Подшипники",
+        "Механические передачи"
+      ],
+      "productFamilies": [
+        "Ball Bearings",
+        "Roller Bearings",
+        "Bearing Units",
+        "Agricultural Bearings",
+        "Cardan Shafts"
+      ],
       "series": [],
-      "industries": ["Сельское хозяйство", "Машиностроение", "Промышленное производство"],
-      "officialCatalogs": ["https://www.fkl-serbia.com/download/Ball_Bearings_and_Bearing_Units_web.pdf"],
-      "documentationSources": ["https://www.fkl-serbia.com/products.php?val=7"],
-      "sources": [{"sourceId":"wave80-fkl-history","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_BEARING_CARDAN_SCOPE","url":"https://www.fkl-serbia.com/history.php","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Сельское хозяйство",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.fkl-serbia.com/download/Ball_Bearings_and_Bearing_Units_web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fkl-serbia.com/products.php?val=7"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fkl-history",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_BEARING_CARDAN_SCOPE",
+          "url": "https://www.fkl-serbia.com/history.php",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flakt-woods",
       "officialName": "Woods Air Movement",
       "displayName": "Fläkt Woods",
-      "aliases": ["FLAKT WOODS", "Flakt Woods", "Woods Air Movement"],
+      "aliases": [
+        "FLAKT WOODS",
+        "Flakt Woods",
+        "Woods Air Movement"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.flaktgroup.com/in/our-brands/woods/",
-      "officialDomains": ["flaktgroup.com"],
+      "officialDomains": [
+        "flaktgroup.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "FläktGroup",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Fläkt Woods is a FläktGroup air-movement brand for industrial fans, ventilation and smoke-control applications.",
-      "fullDescription": ["Fläkt Woods is verified through FläktGroup's official Woods brand page as part of its air-movement portfolio.", "The documented scope includes axial, centrifugal and high-temperature fans, ventilation equipment and fire-safety air-movement solutions for industrial and infrastructure projects."],
-      "productCategories": ["Промышленные вентиляторы", "Вентиляционное оборудование", "Оборудование пожарной безопасности"],
-      "productFamilies": ["Axial Fans", "Centrifugal Fans", "High-Temperature Fans", "Smoke-Control Fans", "Ventilation Equipment"],
+      "fullDescription": [
+        "Fläkt Woods is verified through FläktGroup's official Woods brand page as part of its air-movement portfolio.",
+        "The documented scope includes axial, centrifugal and high-temperature fans, ventilation equipment and fire-safety air-movement solutions for industrial and infrastructure projects."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Вентиляционное оборудование",
+        "Оборудование пожарной безопасности"
+      ],
+      "productFamilies": [
+        "Axial Fans",
+        "Centrifugal Fans",
+        "High-Temperature Fans",
+        "Smoke-Control Fans",
+        "Ventilation Equipment"
+      ],
       "series": [],
-      "industries": ["HVAC и системы зданий", "Инфраструктура", "Промышленное производство"],
-      "officialCatalogs": ["https://www.flaktgroup.com/globalassets/solutions/2.-all-solutions/explosive-environments/atex_marketing-brochure-10003gb_20170320.pdf"],
-      "documentationSources": ["https://www.flaktgroup.com/in/our-brands/woods/"],
-      "sources": [{"sourceId":"wave80-flaktwoods-parent","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_FLAKTGROUP_BRAND_IDENTITY_AND_INDUSTRIAL_FAN_VENTILATION_FIRE_SAFETY_SCOPE","url":"https://www.flaktgroup.com/in/our-brands/woods/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "HVAC и системы зданий",
+        "Инфраструктура",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.flaktgroup.com/globalassets/solutions/2.-all-solutions/explosive-environments/atex_marketing-brochure-10003gb_20170320.pdf"
+      ],
+      "documentationSources": [
+        "https://www.flaktgroup.com/in/our-brands/woods/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flaktwoods-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_FLAKTGROUP_BRAND_IDENTITY_AND_INDUSTRIAL_FAN_VENTILATION_FIRE_SAFETY_SCOPE",
+          "url": "https://www.flaktgroup.com/in/our-brands/woods/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flamco",
       "officialName": "Flamco",
       "displayName": "Flamco",
-      "aliases": ["FLAMCO"],
+      "aliases": [
+        "FLAMCO"
+      ],
       "formerNames": [],
       "officialWebsite": "https://flamcogroup.com/",
-      "officialDomains": ["flamcogroup.com"],
+      "officialDomains": [
+        "flamcogroup.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Aalberts N.V.",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Flamco is an Aalberts brand for hydronic-system components used in heating and cooling installations.",
-      "fullDescription": ["Flamco is verified through its official brand website and product guide as part of Aalberts hydronic flow control.", "Its documented range includes expansion vessels, air and dirt separators, vacuum degassing equipment, pressurisation systems and components for closed heating and cooling circuits."],
-      "productCategories": ["Теплотехническое оборудование", "Фильтрационное оборудование", "Оборудование регулирования давления"],
-      "productFamilies": ["Expansion Vessels", "Air and Dirt Separators", "Vacuum Degassers", "Pressurisation Systems", "Heating and Cooling Components"],
-      "series": ["Flexcon", "Flamcovent", "Flamcomat"],
-      "industries": ["HVAC и системы зданий", "Промышленное производство"],
-      "officialCatalogs": ["https://flamcogroup.us/main/wp-content/uploads/2021/06/sf-WEB-flamco-hep-product-guide-v05-20240823.pdf"],
-      "documentationSources": ["https://flamcogroup.com/"],
-      "sources": [{"sourceId":"wave80-flamco-catalog","tier":"A","type":"OFFICIAL_PRODUCT_GUIDE","scope":"CURRENT_AALBERTS_BRAND_IDENTITY_AND_HYDRONIC_EXPANSION_SEPARATION_PRESSURISATION_SCOPE","url":"https://flamcogroup.us/main/wp-content/uploads/2021/06/sf-WEB-flamco-hep-product-guide-v05-20240823.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Flamco is verified through its official brand website and product guide as part of Aalberts hydronic flow control.",
+        "Its documented range includes expansion vessels, air and dirt separators, vacuum degassing equipment, pressurisation systems and components for closed heating and cooling circuits."
+      ],
+      "productCategories": [
+        "Теплотехническое оборудование",
+        "Фильтрационное оборудование",
+        "Оборудование регулирования давления"
+      ],
+      "productFamilies": [
+        "Expansion Vessels",
+        "Air and Dirt Separators",
+        "Vacuum Degassers",
+        "Pressurisation Systems",
+        "Heating and Cooling Components"
+      ],
+      "series": [
+        "Flexcon",
+        "Flamcovent",
+        "Flamcomat"
+      ],
+      "industries": [
+        "HVAC и системы зданий",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://flamcogroup.us/main/wp-content/uploads/2021/06/sf-WEB-flamco-hep-product-guide-v05-20240823.pdf"
+      ],
+      "documentationSources": [
+        "https://flamcogroup.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flamco-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_GUIDE",
+          "scope": "CURRENT_AALBERTS_BRAND_IDENTITY_AND_HYDRONIC_EXPANSION_SEPARATION_PRESSURISATION_SCOPE",
+          "url": "https://flamcogroup.us/main/wp-content/uploads/2021/06/sf-WEB-flamco-hep-product-guide-v05-20240823.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flamgard",
       "officialName": "Flamgard Engineering Limited",
       "displayName": "Flamgard",
-      "aliases": ["FLAMGARD"],
+      "aliases": [
+        "FLAMGARD"
+      ],
       "formerNames": [],
       "officialWebsite": "https://flamgard.co.uk/",
-      "officialDomains": ["flamgard.co.uk"],
+      "officialDomains": [
+        "flamgard.co.uk"
+      ],
       "country": "United Kingdom",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Flamgard manufactures fire, smoke, isolation and control dampers for industrial ventilation and safety systems.",
-      "fullDescription": ["Flamgard is verified through its official website and manufacturer catalogue as a specialist damper producer.", "Its documented range includes fire and smoke dampers, isolation and control dampers, blast and backdraught dampers, louvres and moisture eliminators for demanding ventilation applications."],
-      "productCategories": ["Оборудование пожарной безопасности", "Вентиляционное оборудование", "Промышленные клапаны"],
-      "productFamilies": ["Fire Dampers", "Smoke Dampers", "Isolation Dampers", "Control Dampers", "Blast Dampers", "Backdraught Dampers", "Louvres and Moisture Eliminators"],
+      "fullDescription": [
+        "Flamgard is verified through its official website and manufacturer catalogue as a specialist damper producer.",
+        "Its documented range includes fire and smoke dampers, isolation and control dampers, blast and backdraught dampers, louvres and moisture eliminators for demanding ventilation applications."
+      ],
+      "productCategories": [
+        "Оборудование пожарной безопасности",
+        "Вентиляционное оборудование",
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Fire Dampers",
+        "Smoke Dampers",
+        "Isolation Dampers",
+        "Control Dampers",
+        "Blast Dampers",
+        "Backdraught Dampers",
+        "Louvres and Moisture Eliminators"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Инфраструктура", "Энергетика"],
-      "officialCatalogs": ["https://flamgard.co.uk/wp-content/uploads/sites/10/2014/11/Flamgard-Dampers-Catalogue-25886-v2-LOWRES.pdf"],
-      "documentationSources": ["https://flamgard.co.uk/"],
-      "sources": [{"sourceId":"wave80-flamgard-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_AND_FIRE_SMOKE_ISOLATION_CONTROL_DAMPER_SCOPE","url":"https://flamgard.co.uk/wp-content/uploads/sites/10/2014/11/Flamgard-Dampers-Catalogue-25886-v2-LOWRES.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Инфраструктура",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://flamgard.co.uk/wp-content/uploads/sites/10/2014/11/Flamgard-Dampers-Catalogue-25886-v2-LOWRES.pdf"
+      ],
+      "documentationSources": [
+        "https://flamgard.co.uk/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flamgard-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MANUFACTURER_IDENTITY_AND_FIRE_SMOKE_ISOLATION_CONTROL_DAMPER_SCOPE",
+          "url": "https://flamgard.co.uk/wp-content/uploads/sites/10/2014/11/Flamgard-Dampers-Catalogue-25886-v2-LOWRES.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fleetguard-inc",
       "officialName": "Fleetguard",
       "displayName": "Fleetguard",
-      "aliases": ["FLEETGUARD", "Fleetguard Inc."],
+      "aliases": [
+        "FLEETGUARD",
+        "Fleetguard Inc."
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.atmus.com/our-brands",
-      "officialDomains": ["atmus.com"],
+      "officialDomains": [
+        "atmus.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Atmus Filtration Technologies",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Fleetguard is an Atmus brand for filtration and coolant products used in engines and heavy-duty equipment.",
-      "fullDescription": ["Fleetguard is verified through Atmus Filtration Technologies' official brand page as its filtration and coolant brand.", "The documented range includes air, fuel, lube and hydraulic filters, fuel-water separators, crankcase-ventilation products and engine coolants for heavy-duty equipment."],
-      "productCategories": ["Промышленное фильтрационное оборудование", "Охлаждающие жидкости"],
-      "productFamilies": ["Air Filters", "Fuel Filters", "Lube Filters", "Hydraulic Filters", "Fuel-Water Separators", "Crankcase Ventilation", "Engine Coolants"],
+      "fullDescription": [
+        "Fleetguard is verified through Atmus Filtration Technologies' official brand page as its filtration and coolant brand.",
+        "The documented range includes air, fuel, lube and hydraulic filters, fuel-water separators, crankcase-ventilation products and engine coolants for heavy-duty equipment."
+      ],
+      "productCategories": [
+        "Промышленное фильтрационное оборудование",
+        "Охлаждающие жидкости"
+      ],
+      "productFamilies": [
+        "Air Filters",
+        "Fuel Filters",
+        "Lube Filters",
+        "Hydraulic Filters",
+        "Fuel-Water Separators",
+        "Crankcase Ventilation",
+        "Engine Coolants"
+      ],
       "series": [],
-      "industries": ["Транспорт", "Горнодобывающая промышленность", "Промышленное оборудование"],
+      "industries": [
+        "Транспорт",
+        "Горнодобывающая промышленность",
+        "Промышленное оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.atmus.com/our-brands"],
-      "sources": [{"sourceId":"wave80-fleetguard-parent","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_ATMUS_BRAND_IDENTITY_AND_ENGINE_HEAVY_DUTY_FILTRATION_SCOPE","url":"https://www.atmus.com/our-brands","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.atmus.com/our-brands"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fleetguard-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_ATMUS_BRAND_IDENTITY_AND_ENGINE_HEAVY_DUTY_FILTRATION_SCOPE",
+          "url": "https://www.atmus.com/our-brands",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flexco",
       "officialName": "Flexco",
       "displayName": "Flexco",
-      "aliases": ["FLEXCO", "Flexible Steel Lacing Company"],
+      "aliases": [
+        "FLEXCO",
+        "Flexible Steel Lacing Company"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.flexco.com/",
-      "officialDomains": ["flexco.com", "flexco.de"],
+      "officialDomains": [
+        "flexco.com",
+        "flexco.de"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Flexco develops conveyor-belt fastening, cleaning, tracking and maintenance systems for bulk-material operations.",
-      "fullDescription": ["Flexco is verified through its manufacturer-owned website as a conveyor-belt system supplier.", "Its official portfolio includes mechanical belt fasteners, belt cleaners, tracking systems, pulley lagging, rollers, belt-splicing tools and maintenance accessories for light- and heavy-duty conveying."],
-      "productCategories": ["Конвейерное оборудование", "Промышленный инструмент"],
-      "productFamilies": ["Mechanical Belt Fasteners", "Belt Cleaners", "Belt Tracking", "Pulley Lagging", "Conveyor Rollers", "Belt-Splicing Tools"],
+      "fullDescription": [
+        "Flexco is verified through its manufacturer-owned website as a conveyor-belt system supplier.",
+        "Its official portfolio includes mechanical belt fasteners, belt cleaners, tracking systems, pulley lagging, rollers, belt-splicing tools and maintenance accessories for light- and heavy-duty conveying."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Промышленный инструмент"
+      ],
+      "productFamilies": [
+        "Mechanical Belt Fasteners",
+        "Belt Cleaners",
+        "Belt Tracking",
+        "Pulley Lagging",
+        "Conveyor Rollers",
+        "Belt-Splicing Tools"
+      ],
       "series": [],
-      "industries": ["Горнодобывающая промышленность", "Промышленное производство", "Складская логистика"],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Промышленное производство",
+        "Складская логистика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.flexco.com/NA/EN/Flexco/Company/Flexco-Brands.htm"],
-      "sources": [{"sourceId":"wave80-flexco-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_AND_CONVEYOR_BELT_FASTENING_CLEANING_TRACKING_SCOPE","url":"https://www.flexco.com/NA/EN/Flexco/Company/Flexco-Brands.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.flexco.com/NA/EN/Flexco/Company/Flexco-Brands.htm"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flexco-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_AND_CONVEYOR_BELT_FASTENING_CLEANING_TRACKING_SCOPE",
+          "url": "https://www.flexco.com/NA/EN/Flexco/Company/Flexco-Brands.htm",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flexitallic",
       "officialName": "Flexitallic",
       "displayName": "Flexitallic",
-      "aliases": ["FLEXITALLIC"],
+      "aliases": [
+        "FLEXITALLIC"
+      ],
       "formerNames": [],
       "officialWebsite": "https://flexitallic.com/",
-      "officialDomains": ["flexitallic.com"],
+      "officialDomains": [
+        "flexitallic.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Flexitallic develops industrial gaskets, sealing and isolation products for process piping and equipment.",
-      "fullDescription": ["Flexitallic is verified through its official website and product literature as an industrial sealing manufacturer.", "Its documented portfolio includes spiral-wound and metal gaskets, sheet and filler materials, isolation products and engineered sealing solutions for process industries."],
-      "productCategories": ["Промышленные прокладки", "Уплотнительные материалы", "Изоляционные системы"],
-      "productFamilies": ["Spiral-Wound Gaskets", "Metal Gaskets", "Sheet Gaskets", "Filler Materials", "Isolation Products", "Engineered Sealing Solutions"],
-      "series": ["Change", "Thermiculite", "Sigma", "Corriculite"],
-      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика"],
-      "officialCatalogs": ["https://flexitallic.com/global/wp-content/uploads/sites/2/2023/05/Product-and-Services-English.pdf"],
-      "documentationSources": ["https://flexitallic.com/"],
-      "sources": [{"sourceId":"wave80-flexitallic-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_AND_GASKET_SEALING_ISOLATION_PRODUCT_SCOPE","url":"https://flexitallic.com/global/wp-content/uploads/sites/2/2023/05/Product-and-Services-English.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "fullDescription": [
+        "Flexitallic is verified through its official website and product literature as an industrial sealing manufacturer.",
+        "Its documented portfolio includes spiral-wound and metal gaskets, sheet and filler materials, isolation products and engineered sealing solutions for process industries."
+      ],
+      "productCategories": [
+        "Промышленные прокладки",
+        "Уплотнительные материалы",
+        "Изоляционные системы"
+      ],
+      "productFamilies": [
+        "Spiral-Wound Gaskets",
+        "Metal Gaskets",
+        "Sheet Gaskets",
+        "Filler Materials",
+        "Isolation Products",
+        "Engineered Sealing Solutions"
+      ],
+      "series": [
+        "Change",
+        "Thermiculite",
+        "Sigma",
+        "Corriculite"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://flexitallic.com/global/wp-content/uploads/sites/2/2023/05/Product-and-Services-English.pdf"
+      ],
+      "documentationSources": [
+        "https://flexitallic.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flexitallic-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MANUFACTURER_IDENTITY_AND_GASKET_SEALING_ISOLATION_PRODUCT_SCOPE",
+          "url": "https://flexitallic.com/global/wp-content/uploads/sites/2/2023/05/Product-and-Services-English.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flexlink",
       "officialName": "FlexLink AB",
       "displayName": "FlexLink",
-      "aliases": ["FLEXLINK"],
+      "aliases": [
+        "FLEXLINK"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.flexlink.com/",
-      "officialDomains": ["flexlink.com"],
+      "officialDomains": [
+        "flexlink.com"
+      ],
       "country": "Sweden",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Coesia",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "FlexLink is a Coesia company that develops automated conveyor and material-flow systems for manufacturing lines.",
-      "fullDescription": ["FlexLink is verified through its official website as a Coesia company specialising in factory-flow automation.", "Its product scope includes modular plastic-chain conveyors, wide-belt and stainless-steel conveyors, pallet and puck systems, elevators, spiral conveyors and line-control solutions."],
-      "productCategories": ["Конвейерное оборудование", "Промышленная автоматизация"],
-      "productFamilies": ["Plastic Chain Conveyors", "Wide Belt Conveyors", "Stainless Steel Conveyors", "Pallet Systems", "Puck Handling", "Elevators and Spirals"],
+      "fullDescription": [
+        "FlexLink is verified through its official website as a Coesia company specialising in factory-flow automation.",
+        "Its product scope includes modular plastic-chain conveyors, wide-belt and stainless-steel conveyors, pallet and puck systems, elevators, spiral conveyors and line-control solutions."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Plastic Chain Conveyors",
+        "Wide Belt Conveyors",
+        "Stainless Steel Conveyors",
+        "Pallet Systems",
+        "Puck Handling",
+        "Elevators and Spirals"
+      ],
       "series": [],
-      "industries": ["Промышленная автоматизация", "Пищевая промышленность", "Фармацевтическая промышленность"],
+      "industries": [
+        "Промышленная автоматизация",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.flexlink.com/de/coesia_technical_library/747/view"],
-      "sources": [{"sourceId":"wave80-flexlink-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CURRENT_COESIA_COMPANY_IDENTITY_AND_AUTOMATED_CONVEYOR_MATERIAL_FLOW_SCOPE","url":"https://www.flexlink.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.flexlink.com/de/coesia_technical_library/747/view"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flexlink-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "CURRENT_COESIA_COMPANY_IDENTITY_AND_AUTOMATED_CONVEYOR_MATERIAL_FLOW_SCOPE",
+          "url": "https://www.flexlink.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flintec",
       "officialName": "Flintec Group AB",
       "displayName": "Flintec",
-      "aliases": ["FLINTEC"],
+      "aliases": [
+        "FLINTEC"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.flintec.com/",
-      "officialDomains": ["flintec.com"],
+      "officialDomains": [
+        "flintec.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": 1968,
       "parentCompany": null,
       "shortDescription": "Flintec designs load cells, force sensors and weighing electronics for industrial measurement systems.",
-      "fullDescription": ["Flintec is verified through its official website and catalogue as a load-measurement technology company founded in 1968.", "Its product range includes beam, compression, tension and single-point load cells, force sensors, weighing electronics, junction boxes and associated mounting hardware."],
-      "productCategories": ["Тензодатчики", "Датчики силы", "Измерительное оборудование"],
-      "productFamilies": ["Beam Load Cells", "Compression Load Cells", "Tension Load Cells", "Single-Point Load Cells", "Force Sensors", "Weighing Electronics", "Mounting Hardware"],
+      "fullDescription": [
+        "Flintec is verified through its official website and catalogue as a load-measurement technology company founded in 1968.",
+        "Its product range includes beam, compression, tension and single-point load cells, force sensors, weighing electronics, junction boxes and associated mounting hardware."
+      ],
+      "productCategories": [
+        "Тензодатчики",
+        "Датчики силы",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Beam Load Cells",
+        "Compression Load Cells",
+        "Tension Load Cells",
+        "Single-Point Load Cells",
+        "Force Sensors",
+        "Weighing Electronics",
+        "Mounting Hardware"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Автоматизация", "Весоизмерительные системы"],
-      "officialCatalogs": ["https://www.flintec.com/media/downloads/flintec-catalogue-en-web.pdf"],
-      "documentationSources": ["https://www.flintec.com/"],
-      "sources": [{"sourceId":"wave80-flintec-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"MANUFACTURER_IDENTITY_FOUNDATION_AND_LOAD_CELL_FORCE_SENSOR_WEIGHING_SCOPE","url":"https://www.flintec.com/media/downloads/flintec-catalogue-en-web.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "industries": [
+        "Промышленное производство",
+        "Автоматизация",
+        "Весоизмерительные системы"
+      ],
+      "officialCatalogs": [
+        "https://www.flintec.com/media/downloads/flintec-catalogue-en-web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.flintec.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flintec-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_AND_LOAD_CELL_FORCE_SENSOR_WEIGHING_SCOPE",
+          "url": "https://www.flintec.com/media/downloads/flintec-catalogue-en-web.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "flir",
       "officialName": "Teledyne FLIR LLC",
       "displayName": "FLIR",
-      "aliases": ["Flir", "Teledyne FLIR"],
-      "formerNames": ["FLIR Systems"],
+      "aliases": [
+        "Flir",
+        "Teledyne FLIR"
+      ],
+      "formerNames": [
+        "FLIR Systems"
+      ],
       "officialWebsite": "https://www.flir.com/",
-      "officialDomains": ["flir.com"],
+      "officialDomains": [
+        "flir.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "Teledyne Technologies Incorporated",
       "statusModifier": "GROUP_BRAND",
       "shortDescription": "Teledyne FLIR develops thermal-imaging cameras, infrared modules and sensing instruments for industrial inspection and monitoring.",
-      "fullDescription": ["FLIR is verified through its official website as a Teledyne brand for thermal imaging and sensing technology.", "Its documented portfolio includes thermal cameras, infrared camera modules, optical gas-imaging systems and test and measurement instruments used for inspection, condition monitoring, research and safety applications."],
-      "productCategories": ["Тепловизионные камеры", "Датчики", "Измерительное оборудование"],
-      "productFamilies": ["Thermal Cameras", "Infrared Camera Modules", "Optical Gas Imaging", "Test and Measurement Instruments"],
+      "fullDescription": [
+        "FLIR is verified through its official website as a Teledyne brand for thermal imaging and sensing technology.",
+        "Its documented portfolio includes thermal cameras, infrared camera modules, optical gas-imaging systems and test and measurement instruments used for inspection, condition monitoring, research and safety applications."
+      ],
+      "productCategories": [
+        "Тепловизионные камеры",
+        "Датчики",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Thermal Cameras",
+        "Infrared Camera Modules",
+        "Optical Gas Imaging",
+        "Test and Measurement Instruments"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Энергетика", "Исследования", "Безопасность"],
+      "industries": [
+        "Промышленное производство",
+        "Энергетика",
+        "Исследования",
+        "Безопасность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://oem.flir.com/en-gb/"],
-      "sources": [{"sourceId":"wave80-flir-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_TELEDYNE_BRAND_IDENTITY_AND_THERMAL_IMAGING_INFRARED_SENSING_SCOPE","url":"https://www.flir.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://oem.flir.com/en-gb/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-flir-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CURRENT_TELEDYNE_BRAND_IDENTITY_AND_THERMAL_IMAGING_INFRARED_SENSING_SCOPE",
+          "url": "https://www.flir.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fluenta",
       "officialName": "Fluenta AS",
       "displayName": "Fluenta",
-      "aliases": ["FLUENTA"],
+      "aliases": [
+        "FLUENTA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fluenta.com/",
-      "officialDomains": ["fluenta.com"],
+      "officialDomains": [
+        "fluenta.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fluenta develops ultrasonic flare-gas measurement systems, transducers and monitoring software for industrial emissions measurement.",
-      "fullDescription": ["Fluenta is verified through its manufacturer-owned website as a specialist in ultrasonic flare-gas measurement.", "Its documented offering combines ultrasonic flow meters, field transducers, signal-processing equipment and software for measuring and managing flare-gas streams in industrial operations."],
-      "productCategories": ["Ультразвуковые расходомеры", "Измерительное оборудование", "Промышленное программное обеспечение"],
-      "productFamilies": ["Flare Gas Meters", "Ultrasonic Transducers", "Flow-Measurement Software"],
-      "series": ["FGM 160", "FGM 260", "UFM Manager"],
-      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика"],
+      "fullDescription": [
+        "Fluenta is verified through its manufacturer-owned website as a specialist in ultrasonic flare-gas measurement.",
+        "Its documented offering combines ultrasonic flow meters, field transducers, signal-processing equipment and software for measuring and managing flare-gas streams in industrial operations."
+      ],
+      "productCategories": [
+        "Ультразвуковые расходомеры",
+        "Измерительное оборудование",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Flare Gas Meters",
+        "Ultrasonic Transducers",
+        "Flow-Measurement Software"
+      ],
+      "series": [
+        "FGM 160",
+        "FGM 260",
+        "UFM Manager"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fluenta.com/fluenta_products/fgm-160"],
-      "sources": [{"sourceId":"wave80-fluenta-products","tier":"A","type":"PRODUCT_PAGE","scope":"MANUFACTURER_IDENTITY_AND_ULTRASONIC_FLARE_GAS_METERING_SCOPE","url":"https://www.fluenta.com/fluenta_products/fgm-160","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fluenta.com/fluenta_products/fgm-160"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fluenta-products",
+          "tier": "A",
+          "type": "PRODUCT_PAGE",
+          "scope": "MANUFACTURER_IDENTITY_AND_ULTRASONIC_FLARE_GAS_METERING_SCOPE",
+          "url": "https://www.fluenta.com/fluenta_products/fgm-160",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fluid-o-tech",
       "officialName": "Fluid-o-Tech S.r.l.",
       "displayName": "Fluid-o-Tech",
-      "aliases": ["FLUID-O-TECH", "Fluid O Tech"],
+      "aliases": [
+        "FLUID-O-TECH",
+        "Fluid O Tech"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fluidotech.it/",
-      "officialDomains": ["fluidotech.it"],
+      "officialDomains": [
+        "fluidotech.it"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fluid-o-Tech develops precision pumps, valves and fluid-management components for equipment manufacturers.",
-      "fullDescription": ["Fluid-o-Tech is verified through its manufacturer-owned website as an Italian fluid-handling technology producer.", "Its product portfolio includes external and internal gear pumps, rotary-vane and peristaltic pumps, electronic and thermostatic valves, and integrated fluid-management components."],
-      "productCategories": ["Промышленные насосы", "Промышленные клапаны"],
-      "productFamilies": ["External Gear Pumps", "Internal Gear Pumps", "Rotary Vane Pumps", "Peristaltic Pumps", "Electronic Valves", "Thermostatic Valves"],
+      "fullDescription": [
+        "Fluid-o-Tech is verified through its manufacturer-owned website as an Italian fluid-handling technology producer.",
+        "Its product portfolio includes external and internal gear pumps, rotary-vane and peristaltic pumps, electronic and thermostatic valves, and integrated fluid-management components."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "External Gear Pumps",
+        "Internal Gear Pumps",
+        "Rotary Vane Pumps",
+        "Peristaltic Pumps",
+        "Electronic Valves",
+        "Thermostatic Valves"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Пищевая промышленность", "Медицинское оборудование"],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Медицинское оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fluidotech.it/en/products/search/"],
-      "sources": [{"sourceId":"wave80-fluidotech-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_PRECISION_PUMP_VALVE_FLUID_MANAGEMENT_SCOPE","url":"https://www.fluidotech.it/en/products/search/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fluidotech.it/en/products/search/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fluidotech-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_PRECISION_PUMP_VALVE_FLUID_MANAGEMENT_SCOPE",
+          "url": "https://www.fluidotech.it/en/products/search/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fluiten",
       "officialName": "Fluiten Italia S.p.A.",
       "displayName": "Fluiten",
-      "aliases": ["FLUITEN"],
+      "aliases": [
+        "FLUITEN"
+      ],
       "formerNames": [],
       "officialWebsite": "https://fluiten.com/",
-      "officialDomains": ["fluiten.com"],
+      "officialDomains": [
+        "fluiten.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "Fluiten designs and manufactures mechanical seals and auxiliary sealing systems for pumps, mixers and rotating equipment.",
-      "fullDescription": ["Fluiten is verified through its manufacturer-owned website as an Italian mechanical-seal producer.", "Its documented range includes component and cartridge seals, API 682 sealing arrangements, mixer and agitator seals, marine seals and auxiliary systems for rotating industrial equipment."],
-      "productCategories": ["Механические уплотнения", "Уплотнительные системы"],
-      "productFamilies": ["Component Seals", "Cartridge Seals", "API 682 Seals", "Mixer and Agitator Seals", "Marine Seals", "Auxiliary Systems"],
+      "fullDescription": [
+        "Fluiten is verified through its manufacturer-owned website as an Italian mechanical-seal producer.",
+        "Its documented range includes component and cartridge seals, API 682 sealing arrangements, mixer and agitator seals, marine seals and auxiliary systems for rotating industrial equipment."
+      ],
+      "productCategories": [
+        "Механические уплотнения",
+        "Уплотнительные системы"
+      ],
+      "productFamilies": [
+        "Component Seals",
+        "Cartridge Seals",
+        "API 682 Seals",
+        "Mixer and Agitator Seals",
+        "Marine Seals",
+        "Auxiliary Systems"
+      ],
       "series": [],
-      "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Судостроение"],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Судостроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://fluiten.com/"],
-      "sources": [{"sourceId":"wave80-fluiten-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_AND_MECHANICAL_SEAL_AUXILIARY_SYSTEM_SCOPE","url":"https://fluiten.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://fluiten.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fluiten-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_AND_MECHANICAL_SEAL_AUXILIARY_SYSTEM_SCOPE",
+          "url": "https://fluiten.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fms-technologies",
       "officialName": "FMC Technologies, Inc.",
       "displayName": "FMC Technologies",
-      "aliases": ["FMC TECHNOLOGIES", "FMC Technologies"],
+      "aliases": [
+        "FMC TECHNOLOGIES",
+        "FMC Technologies"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.technipfmc.com/en/about-us",
-      "officialDomains": ["technipfmc.com"],
+      "officialDomains": [
+        "technipfmc.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": "TechnipFMC plc",
       "statusModifier": "LEGACY_BRAND",
       "shortDescription": "FMC Technologies is a legacy energy-technology identity that combined with Technip to form TechnipFMC in 2017.",
-      "fullDescription": ["FMC Technologies is verified through TechnipFMC's official corporate record as one of the two companies combined to create TechnipFMC in 2017.", "The legacy business covered subsea production systems, surface well systems and associated technologies for oil and gas projects; current sourcing context should be checked against the TechnipFMC portfolio."],
-      "productCategories": ["Нефтегазовое оборудование", "Подводные производственные системы", "Промышленные клапаны"],
-      "productFamilies": ["Subsea Production Systems", "Surface Well Systems", "Energy Project Technologies"],
+      "fullDescription": [
+        "FMC Technologies is verified through TechnipFMC's official corporate record as one of the two companies combined to create TechnipFMC in 2017.",
+        "The legacy business covered subsea production systems, surface well systems and associated technologies for oil and gas projects; current sourcing context should be checked against the TechnipFMC portfolio."
+      ],
+      "productCategories": [
+        "Нефтегазовое оборудование",
+        "Подводные производственные системы",
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Subsea Production Systems",
+        "Surface Well Systems",
+        "Energy Project Technologies"
+      ],
       "series": [],
-      "industries": ["Нефтегазовая промышленность", "Энергетика"],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.technipfmc.com/en/investors/financial-news-releases/press-release/technipfmc-begins-operations-as-a-combined-company-after-completing-merger-of-fmc-technologies-and-technip/"],
-      "sources": [{"sourceId":"wave80-fmctechnologies-merger","tier":"A","type":"OFFICIAL_PARENT_CORPORATE_RELEASE","scope":"LEGACY_FMC_TECHNOLOGIES_IDENTITY_2017_MERGER_AND_ENERGY_TECHNOLOGY_SCOPE","url":"https://www.technipfmc.com/en/investors/financial-news-releases/press-release/technipfmc-begins-operations-as-a-combined-company-after-completing-merger-of-fmc-technologies-and-technip/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.technipfmc.com/en/investors/financial-news-releases/press-release/technipfmc-begins-operations-as-a-combined-company-after-completing-merger-of-fmc-technologies-and-technip/"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fmctechnologies-merger",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_CORPORATE_RELEASE",
+          "scope": "LEGACY_FMC_TECHNOLOGIES_IDENTITY_2017_MERGER_AND_ENERGY_TECHNOLOGY_SCOPE",
+          "url": "https://www.technipfmc.com/en/investors/financial-news-releases/press-release/technipfmc-begins-operations-as-a-combined-company-after-completing-merger-of-fmc-technologies-and-technip/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
       "manufacturerId": "fmt-ag",
       "officialName": "FMT Swiss AG",
       "displayName": "FMT AG",
-      "aliases": ["FMT", "FMT Swiss"],
+      "aliases": [
+        "FMT",
+        "FMT Swiss"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.fmtag.com/",
-      "officialDomains": ["fmtag.com"],
+      "officialDomains": [
+        "fmtag.com"
+      ],
       "country": "Switzerland",
       "headquarters": null,
       "foundedYear": null,
       "parentCompany": null,
       "shortDescription": "FMT Swiss develops pumps, dispensing equipment and lubrication systems for transferring fuels, oils, urea solutions and workshop fluids.",
-      "fullDescription": ["FMT Swiss is verified through its manufacturer-owned website as a supplier of fluid-transfer and workshop equipment.", "Its documented product scope includes hand and electric pumps, dispensing systems for diesel, heating oil and urea solutions, grease and oil equipment, central lubrication components and fluid-management accessories."],
-      "productCategories": ["Промышленные насосы", "Дозирующее оборудование", "Смазочные системы"],
-      "productFamilies": ["Hand Pumps", "Electric Transfer Pumps", "Fuel Dispensing Systems", "Urea Solution Equipment", "Grease and Oil Equipment", "Central Lubrication"],
+      "fullDescription": [
+        "FMT Swiss is verified through its manufacturer-owned website as a supplier of fluid-transfer and workshop equipment.",
+        "Its documented product scope includes hand and electric pumps, dispensing systems for diesel, heating oil and urea solutions, grease and oil equipment, central lubrication components and fluid-management accessories."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Дозирующее оборудование",
+        "Смазочные системы"
+      ],
+      "productFamilies": [
+        "Hand Pumps",
+        "Electric Transfer Pumps",
+        "Fuel Dispensing Systems",
+        "Urea Solution Equipment",
+        "Grease and Oil Equipment",
+        "Central Lubrication"
+      ],
       "series": [],
-      "industries": ["Транспорт", "Сельское хозяйство", "Промышленное производство"],
+      "industries": [
+        "Транспорт",
+        "Сельское хозяйство",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.fmtag.com/produkte/?lang=en"],
-      "sources": [{"sourceId":"wave80-fmt-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_FUEL_OIL_UREA_LUBRICATION_TRANSFER_SCOPE","url":"https://www.fmtag.com/produkte/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": [
+        "https://www.fmtag.com/produkte/?lang=en"
+      ],
+      "sources": [
+        {
+          "sourceId": "wave80-fmt-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_FUEL_OIL_UREA_LUBRICATION_TRANSFER_SCOPE",
+          "url": "https://www.fmtag.com/produkte/?lang=en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     }
   ]
 }

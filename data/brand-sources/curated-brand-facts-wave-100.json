@@ -1,57 +1,1857 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {"manufacturerId":"simplatroll","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"Search results expose distributor and catalogue mentions for SIMPLATROLL, but no current manufacturer-owned HTTPS company and product source could be established. Secondary sellers were not promoted to identity evidence.","attemptedUrls":["https://www.google.com/search?q=SIMPLATROLL+manufacturer+official"]},
-    {"manufacturerId":"simplex","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SIMPLEX GMBH does not identify one current manufacturer safely. Current official results include Simplex Hydronic Technology and historical Simplex Armaturen & Systeme identities, while the repository record contains no product, legal-name or geography discriminator.","attemptedUrls":["https://www.simplex-armaturen.de/","https://www.simplexitalia.it/"]},
-    {"manufacturerId":"simrit","status":"LEGACY_IDENTITY_UNRESOLVED","checkedAt":"2026-08-24","reason":"SIMRIT is historically associated with Freudenberg sealing products, but no accessible current manufacturer-owned source establishes the exact repository record as a current independent brand identity. The legacy name was not converted into a new canonical entity by inference.","attemptedUrls":["https://www.simrit.com/","https://www.fst.com/"]},
-    {"manufacturerId":"singflo","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"Search evidence associates SINGFLO with industrial pumps, but the apparent manufacturer-owned HTTPS domain did not respond during validation. No reseller source was substituted.","attemptedUrls":["https://www.singflo.com/"]},
-    {"manufacturerId":"sino","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SINO is a generic name used by unrelated industrial manufacturers and product brands. The repository record has no legal name, product scope or geography discriminator needed to select one official domain safely.","attemptedUrls":["https://www.google.com/search?q=SINO+industrial+manufacturer+official"]},
-    {"manufacturerId":"sirai","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"SIRAI valve references are widely reproduced by distributors, but no accessible current manufacturer-owned HTTPS page was found that establishes the exact brand identity and current product scope. Distributor evidence was not accepted.","attemptedUrls":["https://www.sirai.com/","https://www.emerson.com/"]},
-    {"manufacturerId":"skako","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The current SKAKO Vibration manufacturer domain was identified, but its homepage, product and company pages all returned HTTP 403 during validation. The restriction was respected and no secondary source was promoted.","attemptedUrls":["https://skako.com/","https://skako.com/products/","https://skako.com/about-us/"]},
-    {"manufacturerId":"sks-sensors","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SKS SENSORS cannot be resolved to one current manufacturer: search results mix unrelated instrumentation businesses, gauge suppliers and product-line references. The record lacks a legal-name or domain discriminator.","attemptedUrls":["https://www.google.com/search?q=%22SKS+Sensors%22+manufacturer+official"]},
-    {"manufacturerId":"smart","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SMART is a generic brand name shared by many unrelated industrial, electronics and software companies. No product, legal-name or geography discriminator exists in the repository record.","attemptedUrls":["https://www.google.com/search?q=SMART+industrial+manufacturer+official"]},
-    {"manufacturerId":"smedegaard","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The apparent manufacturer domain returned an application-level security incident page instead of accessible company and product evidence. Its current corporate and product status could not be verified without bypassing the restriction.","attemptedUrls":["https://www.smedegaard.dk/"]},
-    {"manufacturerId":"smw-autoblok","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The SMW-AUTOBLOK manufacturer domain and product pages returned HTTP 403 during validation. The restriction was respected and reseller copies were not used to establish BRAND_SAFE evidence.","attemptedUrls":["https://www.smwautoblok.com/","https://www.smwautoblok.com/products/"]},
-    {"manufacturerId":"sodime","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"No current manufacturer-owned HTTPS source could be tied unambiguously to the exact SODIME record. Similar names and secondary listings do not provide a safe identity discriminator.","attemptedUrls":["https://www.google.com/search?q=SODIME+industrial+manufacturer+official"]},
-    {"manufacturerId":"sofrance","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"Official Safran references indicate a historical SOFRANCE filtration identity, but the relevant current parent-company pages were inaccessible during validation. A current successor profile was not inferred from third-party sources.","attemptedUrls":["https://www.safran-group.com/","https://www.safran-group.com/companies/safran-filtration-systems"]},
-    {"manufacturerId":"solartron","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SOLARTRON is used by distinct current metrology and analytical-instrument businesses. The bare repository record does not distinguish Solartron Metrology from Solartron Analytical or another historical entity.","attemptedUrls":["https://www.solartronmetrology.com/","https://www.ameteksi.com/brands/solartron-analytical"]},
-    {"manufacturerId":"solving-deutschland-gmbh","status":"BLOCKED_IDENTITY_SCOPE_UNRESOLVED","checkedAt":"2026-08-24","reason":"The Solving group publishes manufacturer-owned material-handling product information, but the exact legal relationship and current scope of the separate SOLVING DEUTSCHLAND GMBH repository entity could not be established from the accessible official pages.","attemptedUrls":["https://www.solving.com/","https://www.solving.com/products/"]},
-    {"manufacturerId":"soosan","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"SOOSAN is associated with multiple heavy-equipment and industrial identities across different markets, and current search results present a material wrong-company and domain-hijack risk. The record lacks a product or legal-name discriminator.","attemptedUrls":["https://www.google.com/search?q=SOOSAN+manufacturer+official"]},
-    {"manufacturerId":"southwest-oilfeld-products","status":"BLOCKED_DUPLICATE_CANONICAL_ENTITY","checkedAt":"2026-08-24","reason":"This misspelled repository record represents the same Southwest Oilfield Products manufacturer as canonical manufacturerId southwest-oilfield-products. Publishing both would create duplicate identity and SEO pages.","attemptedUrls":["https://swoil.com/mud-pump-solutions/"]},
-    {"manufacturerId":"spaggiari","status":"BLOCKED_NO_AUTHORITATIVE_SOURCE","checkedAt":"2026-08-24","reason":"No current manufacturer-owned HTTPS company and product source could be assigned unambiguously to the exact SPAGGIARI record. Similar family and company names in secondary results were not treated as identity evidence.","attemptedUrls":["https://www.google.com/search?q=SPAGGIARI+industrial+manufacturer+official"]},
-    {"manufacturerId":"spandau-pumpen","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"Official SKF material documents the historical Spandau Pumpen range, but an accessible current manufacturer-owned source confirming the post-divestment identity was unavailable. Historical evidence alone was not used to publish a current manufacturer profile.","attemptedUrls":["https://evolution.skf.com/always-right-on-the-spot/","https://www.ebara.com/global-en/newsroom/2023/1211701_1673/"]},
-    {"manufacturerId":"spectro","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"Current SPECTRO Analytical Instruments product and corporate pages were identified but returned HTTP 403 or failed to respond during validation. No distributor or search snippet was substituted for first-party evidence.","attemptedUrls":["https://www.spectro.com/","https://www.ametek.com/brands/spectro"]},
-    {"manufacturerId":"spirol","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The SPIROL manufacturer site and official product documents returned HTTP 403 during validation. The restriction was respected and third-party catalogues were not promoted to authoritative evidence.","attemptedUrls":["https://www.spirol.com/","https://www.spirol.com/products/"]}
+    {
+      "manufacturerId": "simplatroll",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Search results expose distributor and catalogue mentions for SIMPLATROLL, but no current manufacturer-owned HTTPS company and product source could be established. Secondary sellers were not promoted to identity evidence.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SIMPLATROLL+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "simplex",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SIMPLEX GMBH does not identify one current manufacturer safely. Current official results include Simplex Hydronic Technology and historical Simplex Armaturen & Systeme identities, while the repository record contains no product, legal-name or geography discriminator.",
+      "attemptedUrls": [
+        "https://www.simplex-armaturen.de/",
+        "https://www.simplexitalia.it/"
+      ]
+    },
+    {
+      "manufacturerId": "simrit",
+      "status": "LEGACY_IDENTITY_UNRESOLVED",
+      "checkedAt": "2026-08-24",
+      "reason": "SIMRIT is historically associated with Freudenberg sealing products, but no accessible current manufacturer-owned source establishes the exact repository record as a current independent brand identity. The legacy name was not converted into a new canonical entity by inference.",
+      "attemptedUrls": [
+        "https://www.simrit.com/",
+        "https://www.fst.com/"
+      ]
+    },
+    {
+      "manufacturerId": "singflo",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Search evidence associates SINGFLO with industrial pumps, but the apparent manufacturer-owned HTTPS domain did not respond during validation. No reseller source was substituted.",
+      "attemptedUrls": [
+        "https://www.singflo.com/"
+      ]
+    },
+    {
+      "manufacturerId": "sino",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SINO is a generic name used by unrelated industrial manufacturers and product brands. The repository record has no legal name, product scope or geography discriminator needed to select one official domain safely.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SINO+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "sirai",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "SIRAI valve references are widely reproduced by distributors, but no accessible current manufacturer-owned HTTPS page was found that establishes the exact brand identity and current product scope. Distributor evidence was not accepted.",
+      "attemptedUrls": [
+        "https://www.sirai.com/",
+        "https://www.emerson.com/"
+      ]
+    },
+    {
+      "manufacturerId": "skako",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The current SKAKO Vibration manufacturer domain was identified, but its homepage, product and company pages all returned HTTP 403 during validation. The restriction was respected and no secondary source was promoted.",
+      "attemptedUrls": [
+        "https://skako.com/",
+        "https://skako.com/products/",
+        "https://skako.com/about-us/"
+      ]
+    },
+    {
+      "manufacturerId": "sks-sensors",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SKS SENSORS cannot be resolved to one current manufacturer: search results mix unrelated instrumentation businesses, gauge suppliers and product-line references. The record lacks a legal-name or domain discriminator.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=%22SKS+Sensors%22+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "smart",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SMART is a generic brand name shared by many unrelated industrial, electronics and software companies. No product, legal-name or geography discriminator exists in the repository record.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SMART+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "smedegaard",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The apparent manufacturer domain returned an application-level security incident page instead of accessible company and product evidence. Its current corporate and product status could not be verified without bypassing the restriction.",
+      "attemptedUrls": [
+        "https://www.smedegaard.dk/"
+      ]
+    },
+    {
+      "manufacturerId": "smw-autoblok",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The SMW-AUTOBLOK manufacturer domain and product pages returned HTTP 403 during validation. The restriction was respected and reseller copies were not used to establish BRAND_SAFE evidence.",
+      "attemptedUrls": [
+        "https://www.smwautoblok.com/",
+        "https://www.smwautoblok.com/products/"
+      ]
+    },
+    {
+      "manufacturerId": "sodime",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "No current manufacturer-owned HTTPS source could be tied unambiguously to the exact SODIME record. Similar names and secondary listings do not provide a safe identity discriminator.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SODIME+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "sofrance",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Official Safran references indicate a historical SOFRANCE filtration identity, but the relevant current parent-company pages were inaccessible during validation. A current successor profile was not inferred from third-party sources.",
+      "attemptedUrls": [
+        "https://www.safran-group.com/",
+        "https://www.safran-group.com/companies/safran-filtration-systems"
+      ]
+    },
+    {
+      "manufacturerId": "solartron",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SOLARTRON is used by distinct current metrology and analytical-instrument businesses. The bare repository record does not distinguish Solartron Metrology from Solartron Analytical or another historical entity.",
+      "attemptedUrls": [
+        "https://www.solartronmetrology.com/",
+        "https://www.ameteksi.com/brands/solartron-analytical"
+      ]
+    },
+    {
+      "manufacturerId": "solving-deutschland-gmbh",
+      "status": "BLOCKED_IDENTITY_SCOPE_UNRESOLVED",
+      "checkedAt": "2026-08-24",
+      "reason": "The Solving group publishes manufacturer-owned material-handling product information, but the exact legal relationship and current scope of the separate SOLVING DEUTSCHLAND GMBH repository entity could not be established from the accessible official pages.",
+      "attemptedUrls": [
+        "https://www.solving.com/",
+        "https://www.solving.com/products/"
+      ]
+    },
+    {
+      "manufacturerId": "soosan",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "SOOSAN is associated with multiple heavy-equipment and industrial identities across different markets, and current search results present a material wrong-company and domain-hijack risk. The record lacks a product or legal-name discriminator.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SOOSAN+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "southwest-oilfeld-products",
+      "status": "BLOCKED_DUPLICATE_CANONICAL_ENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "This misspelled repository record represents the same Southwest Oilfield Products manufacturer as canonical manufacturerId southwest-oilfield-products. Publishing both would create duplicate identity and SEO pages.",
+      "attemptedUrls": [
+        "https://swoil.com/mud-pump-solutions/"
+      ]
+    },
+    {
+      "manufacturerId": "spaggiari",
+      "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "No current manufacturer-owned HTTPS company and product source could be assigned unambiguously to the exact SPAGGIARI record. Similar family and company names in secondary results were not treated as identity evidence.",
+      "attemptedUrls": [
+        "https://www.google.com/search?q=SPAGGIARI+industrial+manufacturer+official"
+      ]
+    },
+    {
+      "manufacturerId": "spandau-pumpen",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Official SKF material documents the historical Spandau Pumpen range, but an accessible current manufacturer-owned source confirming the post-divestment identity was unavailable. Historical evidence alone was not used to publish a current manufacturer profile.",
+      "attemptedUrls": [
+        "https://evolution.skf.com/always-right-on-the-spot/",
+        "https://www.ebara.com/global-en/newsroom/2023/1211701_1673/"
+      ]
+    },
+    {
+      "manufacturerId": "spectro",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "Current SPECTRO Analytical Instruments product and corporate pages were identified but returned HTTP 403 or failed to respond during validation. No distributor or search snippet was substituted for first-party evidence.",
+      "attemptedUrls": [
+        "https://www.spectro.com/",
+        "https://www.ametek.com/brands/spectro"
+      ]
+    },
+    {
+      "manufacturerId": "spirol",
+      "status": "BLOCKED_EXTERNAL_SOURCE",
+      "checkedAt": "2026-08-24",
+      "reason": "The SPIROL manufacturer site and official product documents returned HTTP 403 during validation. The restriction was respected and third-party catalogues were not promoted to authoritative evidence.",
+      "attemptedUrls": [
+        "https://www.spirol.com/",
+        "https://www.spirol.com/products/"
+      ]
+    }
   ],
   "profiles": [
-    {"manufacturerId":"simco-ion","officialName":"Simco-Ion","displayName":"Simco-Ion","aliases":["SIMCO-ION","SIMCO ION"],"formerNames":[],"officialWebsite":"https://www.simco-ion.com/products/category/static-neutralizing-systems","officialDomains":["simco-ion.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"Illinois Tool Works Inc.","statusModifier":"GROUP_DIVISION","shortDescription":"Simco-Ion develops static-control equipment for industrial processes. Its official product range includes ionizing and neutralizing systems, static monitoring and measurement devices, charging equipment and particulate-removal systems.","fullDescription":["Simco-Ion's manufacturer-owned product directory identifies the brand as an ITW business focused on controlling electrostatic charge in production environments.","The documented range covers ionizing bars and blowers, monitoring instruments, charging systems and web-cleaning equipment used where static affects material handling, cleanliness or process stability."],"productCategories":["Промышленная автоматизация","Измерительное оборудование","Оборудование для очистки"],"productFamilies":["Static Neutralizing Systems","Static Monitoring Systems","Static Measuring Equipment","Static Charging Systems","Web Cleaning Systems"],"series":[],"industries":["Промышленное производство","Электронная промышленность","Упаковочная промышленность"],"officialCatalogs":[],"documentationSources":["https://www.simco-ion.com/products/category/static-neutralizing-systems"],"sources":[{"sourceId":"brand-simco-ion-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_ITW_IDENTITY_AND_STATIC_CONTROL_PRODUCT_SCOPE","url":"https://www.simco-ion.com/products/category/static-neutralizing-systems","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"single-temperiertechnik-gmbh","officialName":"SINGLE Group GmbH","displayName":"SINGLE","aliases":["SINGLE","SINGLE GROUP"],"formerNames":["SINGLE Temperiertechnik GmbH"],"officialWebsite":"https://single-temp.com/en/","officialDomains":["single-temp.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SINGLE develops temperature-control equipment for industrial processes. Its official range includes water- and oil-operated temperature-control units, cooling systems and chillers for controlled heating and cooling duties.","fullDescription":["The current SINGLE manufacturer site establishes the SINGLE Group identity and its specialization in process temperature control.","The documented portfolio combines circulating temperature-control units with cooling equipment and engineered systems for applications that require stable thermal conditions."],"productCategories":["Промышленное охлаждение","Теплообменное оборудование","Промышленная автоматизация"],"productFamilies":["Water Temperature Control Units","Oil Temperature Control Units","Cooling Systems","Chillers"],"series":[],"industries":["Переработка пластмасс","Промышленное производство","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://single-temp.com/en/"],"sources":[{"sourceId":"brand-single-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_IDENTITY_AND_INDUSTRIAL_TEMPERATURE_CONTROL_SCOPE","url":"https://single-temp.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sintex","officialName":"Sintex A/S","displayName":"Sintex","aliases":["SINTEX"],"formerNames":[],"officialWebsite":"https://sintex.com/","officialDomains":["sintex.com"],"country":"Denmark","headquarters":null,"foundedYear":1997,"parentCompany":null,"shortDescription":"Sintex develops and manufactures powder-metal and sintered components for industrial applications. Its official capabilities include metal injection moulding, magnetic couplings and rotors, porous filters, bearings and friction solutions.","fullDescription":["Sintex's manufacturer-owned site establishes the Danish company identity and its work with powder-based materials and engineered component production.","The documented technology range covers sintered metal parts, MIM components, magnetic assemblies, porous filtration components and application-specific bearing and friction products."],"productCategories":["Механические передачи","Фильтрационное оборудование","Промышленные подшипники"],"productFamilies":["Sintered Components","Metal Injection Moulded Components","Magnetic Couplings and Rotors","Porous Filters","Bearings and Friction Solutions"],"series":[],"industries":["Промышленное производство","Автомобильная промышленность","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://sintex.com/"],"sources":[{"sourceId":"brand-sintex-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_POWDER_METAL_COMPONENT_SCOPE","url":"https://sintex.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sisp-gearboxes","officialName":"SISP Gearboxes","displayName":"SISP Gearboxes","aliases":["SISP","SISP GEARBOXES"],"formerNames":[],"officialWebsite":"https://www.sisp-gearboxes.eu/telechargements/","officialDomains":["sisp-gearboxes.eu"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SISP Gearboxes manufactures gear units and engineered transmission components. Its official documentation covers reduction gearboxes together with straight, helical and bevel gearing for industrial drive applications.","fullDescription":["SISP's manufacturer-owned documentation area establishes its specialization in mechanical transmissions and custom gearing.","The published scope includes gearbox configurations and gear-manufacturing capabilities used to adapt speed, torque and shaft arrangement in machinery."],"productCategories":["Промышленные редукторы","Механические передачи"],"productFamilies":["Reduction Gearboxes","Straight Gears","Helical Gears","Bevel Gears"],"series":[],"industries":["Машиностроение","Промышленное производство"],"officialCatalogs":["https://www.sisp-gearboxes.eu/telechargements/"],"documentationSources":["https://www.sisp-gearboxes.eu/telechargements/"],"sources":[{"sourceId":"brand-sisp-documentation","tier":"A","type":"OFFICIAL_DOCUMENTATION_PORTAL","scope":"GEARBOX_AND_INDUSTRIAL_GEAR_SCOPE","url":"https://www.sisp-gearboxes.eu/telechargements/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sitecna","officialName":"SITECNA S.r.l.","displayName":"SITECNA","aliases":["SITECNA"],"formerNames":[],"officialWebsite":"https://www.sitecna.eu/web/index.php?Itemid=581&id=1&layout=category&option=com_k2&task=category&view=itemlist","officialDomains":["sitecna.eu"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SITECNA develops fluid-control components and engineered pneumatic systems. Its official range includes air-preparation equipment, process and control valves, instrumentation and application-specific pneumatic packages.","fullDescription":["SITECNA's manufacturer-owned product directory documents components and assemblies for controlling compressed air and process media.","The range combines air treatment, valve technology, measurement devices and engineered systems for chemical, petrochemical, energy and glass-production applications."],"productCategories":["Пневматическое оборудование","Промышленные клапаны и арматура","Измерительное оборудование"],"productFamilies":["Air Preparation Equipment","Process Valves","Control Valves","Pneumatic Systems","Instrumentation"],"series":[],"industries":["Химическая промышленность","Нефтегазовая промышленность","Энергетика","Стекольная промышленность"],"officialCatalogs":[],"documentationSources":["https://www.sitecna.eu/web/index.php?Itemid=581&id=1&layout=category&option=com_k2&task=category&view=itemlist"],"sources":[{"sourceId":"brand-sitecna-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"FLUID_CONTROL_PNEUMATIC_VALVE_AND_INSTRUMENT_SCOPE","url":"https://www.sitecna.eu/web/index.php?Itemid=581&id=1&layout=category&option=com_k2&task=category&view=itemlist","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sitema","officialName":"SITEMA GmbH & Co. KG","displayName":"SITEMA","aliases":["SITEMA"],"formerNames":[],"officialWebsite":"https://www.sitema.de/en/","officialDomains":["sitema.de","sitema.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SITEMA manufactures locking and safety devices for linear motion. Its official range includes safety catchers, rod locks, clamping heads, locking units and power-stroke systems.","fullDescription":["SITEMA's manufacturer-owned site establishes its specialization in devices that clamp, hold or stop moving rods and loads.","The documented product families serve machine and automation applications that require controlled locking, load retention or safety against unintended movement."],"productCategories":["Промышленные тормозные системы","Промышленные актуаторы","Оборудование промышленной безопасности"],"productFamilies":["Safety Catchers","Rod Locks","Clamping Heads","Locking Units","PowerStroke Systems"],"series":[],"industries":["Машиностроение","Промышленная автоматизация","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sitema.de/en/"],"sources":[{"sourceId":"brand-sitema-official","tier":"A","type":"OFFICIAL_SITE","scope":"LINEAR_LOCKING_CLAMPING_AND_SAFETY_DEVICE_SCOPE","url":"https://www.sitema.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sitron","officialName":"Sitron Instrument Company","displayName":"Sitron","aliases":["SITRON"],"formerNames":[],"officialWebsite":"https://www.sitron.com/company/","officialDomains":["sitron.com"],"country":"Brazil","headquarters":"São Paulo, Brazil","foundedYear":1978,"parentCompany":null,"shortDescription":"Sitron develops industrial instrumentation for process monitoring and control. Its official portfolio covers level, flow, pressure, temperature and vibration measurement together with control relays.","fullDescription":["Sitron's manufacturer-owned company page documents its Brazilian identity and long-term focus on industrial sensing and instrumentation.","The published range combines process sensors, switches, transmitters and relays for monitoring liquids, bulk materials and machine condition."],"productCategories":["Промышленные датчики","Измерительное оборудование","Промышленные реле"],"productFamilies":["Level Instruments","Flow Instruments","Pressure Instruments","Temperature Instruments","Vibration Instruments","Control Relays"],"series":[],"industries":["Промышленное производство","Химическая промышленность","Водоснабжение и водоотведение"],"officialCatalogs":[],"documentationSources":["https://www.sitron.com/company/"],"sources":[{"sourceId":"brand-sitron-company","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_PROCESS_INSTRUMENT_SCOPE","url":"https://www.sitron.com/company/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sivag","officialName":"SIVAG Pumpen GmbH","displayName":"SIVAG","aliases":["SIVAG","SIVAG PUMPEN"],"formerNames":[],"officialWebsite":"https://www.sivag-pumpen.at/en","officialDomains":["sivag-pumpen.at"],"country":"Austria","headquarters":null,"foundedYear":1989,"parentCompany":null,"shortDescription":"SIVAG manufactures pumps for industrial fluid handling. Its official range includes chemical standard pumps, rotary-lobe pumps, internal-gear pumps and self-priming pump designs.","fullDescription":["SIVAG's manufacturer-owned site identifies the Austrian company and its specialization in industrial pump engineering.","The documented portfolio covers several positive-displacement and centrifugal pump principles for transferring process liquids under different viscosity and suction conditions."],"productCategories":["Промышленные насосы"],"productFamilies":["Chemical Standard Pumps","Rotary Lobe Pumps","Internal Gear Pumps","Self-Priming Pumps"],"series":[],"industries":["Химическая промышленность","Промышленное производство","Пищевая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.sivag-pumpen.at/en"],"sources":[{"sourceId":"brand-sivag-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_PUMP_SCOPE","url":"https://www.sivag-pumpen.at/en","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"skc-gleittechnik","officialName":"SKC Gleittechnik GmbH","displayName":"SKC Gleittechnik","aliases":["SKC","SKC GLEITTECHNIK"],"formerNames":[],"officialWebsite":"https://skc-technik.de/","officialDomains":["skc-technik.de"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"statusModifier":"LEGACY_BRAND","shortDescription":"SKC Gleittechnik provides processing services for mouldable sliding and joint coatings. Its official notice states that the associated product business transferred to DIAMANT Polymer on 1 April 2026 while SKC retained the application-service activity.","fullDescription":["SKC's manufacturer-owned site provides current evidence for the continuing company identity and clearly separates its service scope from the transferred product portfolio.","The page documents mouldable sliding coatings and joint coatings as the relevant technology families, while avoiding a claim that SKC still owns the transferred product business."],"productCategories":["Промышленные покрытия"],"productFamilies":["Mouldable Sliding Coatings","Joint Coatings"],"series":[],"industries":["Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://skc-technik.de/"],"sources":[{"sourceId":"brand-skc-transition","tier":"A","type":"OFFICIAL_SUCCESSOR_AND_SCOPE_NOTICE","scope":"CURRENT_COMPANY_SCOPE_AND_PRODUCT_BUSINESS_TRANSFER","url":"https://skc-technik.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"skoda-electric","officialName":"Škoda Electric a.s.","displayName":"Škoda Electric","aliases":["SKODA ELECTRIC","ŠKODA ELECTRIC"],"formerNames":[],"officialWebsite":"https://www.skodagroup.com/catalogues/electric-systems-components","officialDomains":["skodagroup.com"],"country":"Czech Republic","headquarters":null,"foundedYear":null,"parentCompany":"Škoda Group","statusModifier":"GROUP_COMPANY","shortDescription":"Škoda Electric develops traction equipment and electrical systems for rail and public-transport vehicles. The official group portfolio covers traction motors, converters, battery chargers, motor-gear units, HVAC systems and energy measurement.","fullDescription":["Škoda Group's official component catalogue establishes Škoda Electric's product identity within the transport-equipment group.","The documented range combines motors, power electronics, auxiliary electrical equipment and thermal systems used in locomotives, trains, trams, metro vehicles and trolleybuses."],"productCategories":["Электродвигатели","Силовые преобразователи","Промышленное охлаждение","Измерительное оборудование"],"productFamilies":["Traction Motors","Traction Converters","Static Converters","Battery Chargers","Motor-Gear Units","HVAC Systems","Energy Measurement Systems"],"series":[],"industries":["Железнодорожная промышленность","Транспорт"],"officialCatalogs":["https://www.skodagroup.com/catalogues/electric-systems-components"],"documentationSources":["https://www.skodagroup.com/catalogues/electric-systems-components"],"sources":[{"sourceId":"brand-skoda-electric-group-catalogue","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_CATALOG","scope":"CURRENT_GROUP_IDENTITY_AND_TRACTION_ELECTRICAL_SYSTEM_SCOPE","url":"https://www.skodagroup.com/catalogues/electric-systems-components","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sml-maschinengesellschaft","officialName":"SML Maschinengesellschaft mbH","displayName":"SML","aliases":["SML","SML MASCHINENGESELLSCHAFT"],"formerNames":[],"officialWebsite":"https://www.sml.at/company","officialDomains":["sml.at"],"country":"Austria","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SML develops extrusion machinery and production lines for plastics processing. Its official portfolio includes cast-film, sheet, coating and laminating, multifilament and spinning-line technologies.","fullDescription":["SML's manufacturer-owned company page establishes the Austrian machinery business and its specialization in extrusion-line engineering.","The documented systems cover flat-film and sheet production, coating and lamination, technical filament manufacture and related line automation."],"productCategories":["Оборудование для переработки","Промышленные машины","Промышленная автоматизация"],"productFamilies":["Cast Film Lines","Sheet Lines","Coating and Laminating Lines","Multifilament Spinning Lines","Extrusion Systems"],"series":[],"industries":["Переработка пластмасс","Упаковочная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sml.at/company"],"sources":[{"sourceId":"brand-sml-company","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_AND_EXTRUSION_LINE_SCOPE","url":"https://www.sml.at/company","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sms-elotherm","officialName":"SMS Elotherm GmbH","displayName":"SMS Elotherm","aliases":["SMS ELOTHERM","ELOTHERM"],"formerNames":[],"officialWebsite":"https://www.sms-elotherm.com/en/about-us/key-facts/","officialDomains":["sms-elotherm.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"SMS group GmbH","statusModifier":"GROUP_COMPANY","shortDescription":"SMS Elotherm develops induction-based systems for heating and thermal processing of metals. Its official scope includes induction hardening, quench-and-temper lines, welding and annealing, strip heating and forging heating.","fullDescription":["SMS Elotherm's manufacturer-owned company page identifies the business within SMS group and documents its induction-technology specialization.","The portfolio combines power supplies, inductors, handling and process controls into equipment for heat treatment, joining and forming preparation."],"productCategories":["Теплообменное оборудование","Сварочное оборудование","Промышленные машины","Промышленная автоматизация"],"productFamilies":["Induction Hardening Systems","Quench and Temper Lines","Induction Welding and Annealing Systems","Strip Heating Systems","Forging Heating Systems"],"series":[],"industries":["Металлообработка","Автомобильная промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sms-elotherm.com/en/about-us/key-facts/"],"sources":[{"sourceId":"brand-sms-elotherm-key-facts","tier":"A","type":"OFFICIAL_COMPANY_SITE","scope":"CURRENT_GROUP_IDENTITY_AND_INDUCTION_THERMAL_PROCESS_SCOPE","url":"https://www.sms-elotherm.com/en/about-us/key-facts/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sms-meer","officialName":"SMS Meer GmbH","displayName":"SMS Meer","aliases":["SMS MEER"],"formerNames":[],"officialWebsite":"https://www.sms-group.com/en-us/company/our-brands/heritage-brands/meer","officialDomains":["sms-group.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":"SMS group GmbH","statusModifier":"LEGACY_BRAND","shortDescription":"SMS Meer is an SMS group heritage brand associated with machinery and plants for tube, pipe, section and long-product production. Official group history records its integration into the unified SMS group identity.","fullDescription":["SMS group's official heritage page establishes the SMS Meer identity and explains the organizational transition into the current group.","The documented historical scope covers rolling mills and production systems for tubes, pipes, sections and metallurgical long products; the page is presented as a legacy profile rather than a claim of an independent current manufacturer."],"productCategories":["Металлообрабатывающее оборудование","Промышленные машины","Оборудование для переработки"],"productFamilies":["Tube and Pipe Mills","Section Mills","Long-Product Plants","Metallurgical Machinery"],"series":[],"industries":["Металлургия","Промышленное производство","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.sms-group.com/en-us/company/our-brands/heritage-brands/meer"],"sources":[{"sourceId":"brand-sms-meer-heritage","tier":"B","type":"OFFICIAL_PARENT_SUCCESSOR_HISTORY","scope":"LEGACY_IDENTITY_INTEGRATION_AND_METALLURGICAL_MACHINERY_SCOPE","url":"https://www.sms-group.com/en-us/company/our-brands/heritage-brands/meer","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sn-maschinenbau","officialName":"SN Maschinenbau GmbH","displayName":"SN Maschinenbau","aliases":["SN MASCHINENBAU","SN PACKAGING"],"formerNames":[],"officialWebsite":"https://www.sn-packaging.com/en/","officialDomains":["sn-packaging.com","sn-maschinenbau.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SN Maschinenbau develops horizontal pouch-packaging machinery and complete filling and sealing lines. Its official range includes form-fill-seal systems, premade-pouch machines and application-specific packaging automation.","fullDescription":["The current SN Packaging manufacturer site establishes the SN Maschinenbau identity and its specialization in horizontal pouch technology.","The documented machines form, fill and seal flexible packages or handle prepared pouches, with line configurations adapted to food, beverage, pet-food and industrial products."],"productCategories":["Упаковочное оборудование","Дозирующее оборудование","Промышленная автоматизация"],"productFamilies":["Horizontal Form-Fill-Seal Machines","Premade-Pouch Machines","Filling and Sealing Lines","Packaging Automation"],"series":[],"industries":["Упаковочная промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.sn-packaging.com/en/"],"sources":[{"sourceId":"brand-sn-packaging-official","tier":"A","type":"OFFICIAL_SITE","scope":"CURRENT_LEGAL_IDENTITY_AND_HORIZONTAL_POUCH_PACKAGING_SCOPE","url":"https://www.sn-packaging.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"snfa","officialName":"SNFA","displayName":"SNFA","aliases":["SNFA BEARINGS"],"formerNames":[],"officialWebsite":"https://evolution.skf.com/en/brand-new/","officialDomains":["evolution.skf.com","skf.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"AB SKF","statusModifier":"LEGACY_BRAND","shortDescription":"SNFA is a legacy super-precision bearing brand now represented within SKF's current portfolio. SKF's official notice states that former SNFA products are offered under the SKF brand.","fullDescription":["SKF's official publication establishes the SNFA successor relationship and avoids presenting SNFA as an independent current manufacturer.","The documented scope concerns super-precision bearings, particularly angular-contact bearing solutions for high-speed and precision machinery."],"productCategories":["Промышленные подшипники"],"productFamilies":["Super-Precision Bearings","Angular Contact Ball Bearings"],"series":[],"industries":["Станкостроение","Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://evolution.skf.com/en/brand-new/"],"sources":[{"sourceId":"brand-snfa-skf-successor","tier":"B","type":"OFFICIAL_PARENT_SUCCESSOR_NOTICE","scope":"LEGACY_BRAND_SUCCESSION_AND_SUPER_PRECISION_BEARING_SCOPE","url":"https://evolution.skf.com/en/brand-new/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"snr","officialName":"NTN-SNR","displayName":"SNR","aliases":["SNR","NTN-SNR","NTN SNR"],"formerNames":[],"officialWebsite":"https://www.ntn-snr.com/","officialDomains":["ntn-snr.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":"NTN Corporation","statusModifier":"GROUP_BRAND","shortDescription":"SNR is represented within NTN-SNR's current bearing and motion-component portfolio. The official site covers industrial and automotive bearings together with related maintenance and drivetrain products.","fullDescription":["The NTN-SNR manufacturer site provides current first-party evidence for the SNR identity within NTN Corporation.","The documented range includes ball and roller bearings, bearing units and supporting products for industrial machinery and automotive maintenance applications."],"productCategories":["Промышленные подшипники","Механические передачи"],"productFamilies":["Ball Bearings","Roller Bearings","Bearing Units","Automotive Bearings","Maintenance Products"],"series":[],"industries":["Промышленное производство","Автомобильная промышленность","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.ntn-snr.com/"],"sources":[{"sourceId":"brand-snr-official","tier":"A","type":"OFFICIAL_GROUP_BRAND_SITE","scope":"CURRENT_NTN_GROUP_IDENTITY_AND_BEARING_SCOPE","url":"https://www.ntn-snr.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"soco-sSystem","officialName":"SOCO SYSTEM A/S","displayName":"SOCO SYSTEM","aliases":["SOCO SYSTEM","SOCO"],"formerNames":[],"officialWebsite":"https://www.socosystem.com/world","officialDomains":["socosystem.com"],"country":"Denmark","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SOCO SYSTEM develops end-of-line packaging and material-handling equipment. Its official portfolio covers case erection and sealing, roller conveyors, pallet handling and collaborative packaging automation.","fullDescription":["SOCO SYSTEM's manufacturer-owned site documents modular equipment for moving, closing and preparing packaged goods at the end of production lines.","The range combines case-handling machines, conveyors, pallet equipment and cobot-based cells into standalone stations or integrated packaging flows."],"productCategories":["Упаковочное оборудование","Конвейерное оборудование","Промышленная автоматизация"],"productFamilies":["Case Erectors","Case Sealers","Roller Conveyors","Pallet Handling Systems","Cobot Packaging Systems"],"series":[],"industries":["Упаковочная промышленность","Промышленное производство","Интралогистика"],"officialCatalogs":[],"documentationSources":["https://www.socosystem.com/world"],"sources":[{"sourceId":"brand-soco-system-official","tier":"A","type":"OFFICIAL_SITE","scope":"END_OF_LINE_PACKAGING_CONVEYING_AND_PALLET_HANDLING_SCOPE","url":"https://www.socosystem.com/world","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"socomec","officialName":"Socomec SAS","displayName":"Socomec","aliases":["SOCOMEC"],"formerNames":[],"officialWebsite":"https://www.socomec.com/","officialDomains":["socomec.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Socomec develops electrical power-control and power-conversion systems. Its official portfolio includes switching and protection, UPS systems, energy storage, power conversion, metering and monitoring.","fullDescription":["Socomec's manufacturer-owned site establishes its specialization in managing the availability, control and measurement of low-voltage electrical power.","The documented product areas cover source transfer and switching, uninterruptible power, storage and conversion systems, and instruments for measuring and supervising electrical networks."],"productCategories":["Промышленная автоматизация","Измерительное оборудование","Источники питания","Системы накопления энергии"],"productFamilies":["Power Switching and Protection","Uninterruptible Power Supplies","Energy Storage Systems","Power Conversion Systems","Power Metering and Monitoring"],"series":[],"industries":["Энергетика","Центры обработки данных","Промышленное производство","Инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.socomec.com/"],"sources":[{"sourceId":"brand-socomec-official","tier":"A","type":"OFFICIAL_SITE","scope":"ELECTRICAL_SWITCHING_UPS_STORAGE_AND_METERING_SCOPE","url":"https://www.socomec.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sodeca","officialName":"SODECA, S.L.U.","displayName":"SODECA","aliases":["SODECA"],"formerNames":[],"officialWebsite":"https://www.sodeca.com/productos","officialDomains":["sodeca.com"],"country":"Spain","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SODECA manufactures fans and air-moving equipment for industrial and building applications. Its official product directory covers axial, centrifugal and roof fans together with smoke-extraction and air-treatment systems.","fullDescription":["SODECA's manufacturer-owned product directory establishes the company's ventilation-equipment scope.","The documented range includes fan configurations for general ventilation, process air, hazardous atmospheres and fire-smoke control, plus packaged air-treatment solutions."],"productCategories":["Промышленные вентиляторы и воздуходувки","Промышленное охлаждение"],"productFamilies":["Axial Fans","Centrifugal Fans","Roof Fans","Smoke Extraction Fans","Air Treatment Units"],"series":[],"industries":["Промышленное производство","Автоматизация зданий","Инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.sodeca.com/productos"],"sources":[{"sourceId":"brand-sodeca-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"INDUSTRIAL_FAN_SMOKE_EXTRACTION_AND_AIR_TREATMENT_SCOPE","url":"https://www.sodeca.com/productos","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"sodick","officialName":"Sodick Co., Ltd.","displayName":"Sodick","aliases":["SODICK"],"formerNames":[],"officialWebsite":"https://www.sodick.co.jp/en/product/","officialDomains":["sodick.co.jp"],"country":"Japan","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Sodick develops precision manufacturing machinery and production systems. Its official range includes electrical-discharge machines, machining centres, metal additive-manufacturing systems, injection-moulding machines and industrial processing equipment.","fullDescription":["Sodick's manufacturer-owned product directory documents machine platforms for precision toolmaking, component production and specialised processing.","The portfolio combines EDM and machining technologies with metal 3D printing, injection moulding and selected industrial and food-machinery systems."],"productCategories":["Станочное оборудование","Промышленные машины","Оборудование для переработки"],"productFamilies":["Electrical Discharge Machines","Machining Centres","Metal 3D Printers","Injection Moulding Machines","Industrial Machinery"],"series":[],"industries":["Металлообработка","Промышленное производство","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.sodick.co.jp/en/product/"],"sources":[{"sourceId":"brand-sodick-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"EDM_MACHINING_ADDITIVE_AND_MOULDING_MACHINE_SCOPE","url":"https://www.sodick.co.jp/en/product/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"solberg","officialName":"Solberg Manufacturing, Inc.","displayName":"Solberg","aliases":["SOLBERG","SOLBERG MANUFACTURING"],"formerNames":[],"officialWebsite":"https://www.solbergmfg.com/pages/filters-traps-silencers","officialDomains":["solbergmfg.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Solberg manufactures filtration, separation and silencing equipment for industrial air and gas systems. Its official range includes inlet filters, liquid separators, vacuum filters, silencers and oil-mist elimination systems.","fullDescription":["Solberg's manufacturer-owned product page documents equipment used to protect compressors, blowers, vacuum pumps and other air-moving machinery.","The portfolio combines particulate filtration, liquid removal, noise attenuation and oil-mist control in standard and application-specific assemblies."],"productCategories":["Фильтрационное оборудование","Вакуумное оборудование","Компрессоры"],"productFamilies":["Inlet Filters","Liquid Separators","Vacuum Filters","Industrial Silencers","Oil Mist Eliminators"],"series":[],"industries":["Промышленное производство","Энергетика","Водоснабжение и водоотведение"],"officialCatalogs":[],"documentationSources":["https://www.solbergmfg.com/pages/filters-traps-silencers"],"sources":[{"sourceId":"brand-solberg-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"INDUSTRIAL_FILTER_SEPARATOR_SILENCER_AND_MIST_SCOPE","url":"https://www.solbergmfg.com/pages/filters-traps-silencers","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"solcon","officialName":"Solcon-IGEL","displayName":"Solcon","aliases":["SOLCON","SOLCON-IGEL","SOLCON IGEL"],"formerNames":[],"officialWebsite":"https://solconigel.com/products/","officialDomains":["solconigel.com","solcon.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"Solcon-IGEL develops motor-control and power-control equipment. Its official product range includes low- and medium-voltage soft starters, motor protection relays, switchgear and industrial heat-control systems.","fullDescription":["The current Solcon-IGEL manufacturer site establishes the continuing Solcon product identity and documents its electrical control portfolio.","The range combines soft-start technology, protection and switching equipment for managing motors and resistive heating loads in industrial installations."],"productCategories":["Системы управления движением","Промышленные реле","Промышленная автоматизация"],"productFamilies":["Low-Voltage Soft Starters","Medium-Voltage Soft Starters","Motor Protection Relays","Switchgear","Heat Control Systems"],"series":[],"industries":["Промышленное производство","Водоснабжение и водоотведение","Энергетика"],"officialCatalogs":[],"documentationSources":["https://solconigel.com/products/"],"sources":[{"sourceId":"brand-solcon-current-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"CURRENT_SOLCON_IGEL_IDENTITY_AND_SOFT_STARTER_SCOPE","url":"https://solconigel.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"somai","officialName":"SOMAI S.r.l.","displayName":"SOMAI","aliases":["SOMAI"],"formerNames":[],"officialWebsite":"https://www.somai.it/chi_siamo.htm","officialDomains":["somai.it"],"country":"Italy","headquarters":null,"foundedYear":1976,"parentCompany":null,"shortDescription":"SOMAI manufactures vibration equipment and machinery for industrial material handling and concrete production. Its official scope includes electric and pneumatic vibrators together with systems for precast-concrete processes.","fullDescription":["SOMAI's manufacturer-owned company page establishes the Italian business and its specialization in industrial vibration technology.","The documented product scope covers external and application-specific vibrators plus machinery that uses controlled vibration in production and bulk-material processes."],"productCategories":["Вибрационное оборудование","Пневматическое оборудование","Промышленные машины"],"productFamilies":["Electric Vibrators","Pneumatic Vibrators","Precast Concrete Machinery","Custom Vibration Systems"],"series":[],"industries":["Строительные материалы","Промышленное производство","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.somai.it/chi_siamo.htm"],"sources":[{"sourceId":"brand-somai-company","tier":"A","type":"OFFICIAL_COMPANY_AND_PRODUCT_SITE","scope":"LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_VIBRATION_SCOPE","url":"https://www.somai.it/chi_siamo.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"somas","officialName":"SOMAS Instrument AB","displayName":"SOMAS","aliases":["SOMAS"],"formerNames":[],"officialWebsite":"https://somas.se/en/products/","officialDomains":["somas.se"],"country":"Sweden","headquarters":"Säffle, Sweden","foundedYear":null,"parentCompany":null,"shortDescription":"SOMAS manufactures valves and actuators for industrial process control. Its official portfolio includes ball-segment, butterfly and ball valves in control, on-off and manual configurations together with pneumatic actuators.","fullDescription":["SOMAS' manufacturer-owned product directory establishes the Swedish company identity and its specialization in industrial flow control.","The documented range combines valve geometries and actuator options for regulating or isolating process media in demanding industrial applications."],"productCategories":["Промышленные клапаны и арматура","Промышленные актуаторы","Промышленная автоматизация"],"productFamilies":["Ball Segment Valves","Butterfly Valves","Ball Valves","Control Valves","On-Off Valves","Pneumatic Actuators"],"series":[],"industries":["Целлюлозно-бумажная промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://somas.se/en/products/"],"sources":[{"sourceId":"brand-somas-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_INDUSTRIAL_VALVE_ACTUATOR_SCOPE","url":"https://somas.se/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"southwest-oilfield-products","officialName":"Southwest Oilfield Products, Inc.","displayName":"Southwest Oilfield Products","aliases":["SOUTHWEST OILFIELD PRODUCTS","SWOP","SOUTHWEST"],"formerNames":[],"officialWebsite":"https://swoil.com/mud-pump-solutions/","officialDomains":["swoil.com"],"country":"United States","headquarters":"Houston, Texas, United States","foundedYear":null,"parentCompany":null,"shortDescription":"Southwest Oilfield Products manufactures mud-pump systems and replacement components for drilling operations. Its official range includes pump packages, fluid ends, liners, pistons, valves, seats and related mud-system components.","fullDescription":["Southwest Oilfield Products' manufacturer-owned product page establishes the company identity and its specialization in drilling-fluid pump equipment.","The documented portfolio covers complete mud-pump packages and critical wear or fluid-end components used to maintain and configure drilling circulation systems."],"productCategories":["Промышленные насосы","Промышленные клапаны и арматура"],"productFamilies":["Mud Pump Packages","Fluid Ends","Liners and Pistons","Valves and Seats","Mud System Components"],"series":[],"industries":["Нефтегазовая промышленность"],"officialCatalogs":[],"documentationSources":["https://swoil.com/mud-pump-solutions/"],"sources":[{"sourceId":"brand-southwest-oilfield-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_MUD_PUMP_COMPONENT_SCOPE","url":"https://swoil.com/mud-pump-solutions/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"spal-automotive","officialName":"SPAL Automotive S.r.l.","displayName":"SPAL Automotive","aliases":["SPAL","SPAL AUTOMOTIVE"],"formerNames":[],"officialWebsite":"https://www.spal.com/","officialDomains":["spal.com","spalautomotive.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SPAL Automotive develops electric fans, blowers and fluid-management components for vehicle and industrial thermal systems. Its official range includes axial fans, centrifugal blowers and electric drive solutions.","fullDescription":["SPAL's manufacturer-owned site establishes the automotive and industrial thermal-management identity of the brand.","The documented products move air or fluids through cooling and HVAC systems, with fan, blower and electric-drive configurations developed for original-equipment applications."],"productCategories":["Промышленные вентиляторы и воздуходувки","Электродвигатели","Промышленное охлаждение"],"productFamilies":["Axial Fans","Centrifugal Blowers","Electric Fan Drives","Cooling System Components"],"series":[],"industries":["Автомобильная промышленность","Транспорт","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.spal.com/"],"sources":[{"sourceId":"brand-spal-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_FAN_BLOWER_THERMAL_SCOPE","url":"https://www.spal.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"spg-co","officialName":"SPG Co., Ltd.","displayName":"SPG","aliases":["SPG","SPG CO"],"formerNames":[],"officialWebsite":"https://spg.co.kr/products?gnbScroll=1&sub=6&tab=1","officialDomains":["spg.co.kr"],"country":"South Korea","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SPG manufactures electric motors, geared motors and precision reduction equipment. Its official portfolio includes AC, DC and brushless geared motors together with worm, planetary, strain-wave and cycloidal gear systems.","fullDescription":["SPG's manufacturer-owned product directory establishes the Korean company identity and its specialization in compact and precision drive technology.","The documented range combines motors with reduction stages and precision gearing for automation, robotics, machinery and motion-control applications."],"productCategories":["Электродвигатели","Мотор-редукторы","Промышленные редукторы","Системы управления движением"],"productFamilies":["AC Geared Motors","DC Geared Motors","Brushless DC Geared Motors","Worm Reducers","Planetary Gears","Strain-Wave Gears","Cycloidal Gears"],"series":[],"industries":["Промышленная автоматизация","Робототехника","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://spg.co.kr/products?gnbScroll=1&sub=6&tab=1"],"sources":[{"sourceId":"brand-spg-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"ELECTRIC_MOTOR_GEARMOTOR_AND_PRECISION_GEAR_SCOPE","url":"https://spg.co.kr/products?gnbScroll=1&sub=6&tab=1","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"spir-star","officialName":"SPIR STAR AG","displayName":"SPIR STAR","aliases":["SPIR STAR","SPIRSTAR"],"formerNames":[],"officialWebsite":"https://www.spirstar.de/en/products/","officialDomains":["spirstar.de"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SPIR STAR manufactures ultra-high-pressure hose and connection systems. Its official range includes thermoplastic hoses, valves, adapters, tubing and quick-coupling components for demanding fluid-power applications.","fullDescription":["SPIR STAR's manufacturer-owned product directory establishes the German company identity and its specialization in high-pressure fluid conveyance.","The documented portfolio combines hose assemblies with compatible valves and connection hardware for water-blasting, hydraulic and process applications."],"productCategories":["Промышленные клапаны и арматура","Гидравлическое оборудование","Разъёмы и соединительные системы"],"productFamilies":["Ultra-High-Pressure Hoses","High-Pressure Valves","Adapters and Fittings","High-Pressure Tubing","Quick Couplings"],"series":[],"industries":["Нефтегазовая промышленность","Промышленное производство","Водоснабжение и водоотведение"],"officialCatalogs":[],"documentationSources":["https://www.spirstar.de/en/products/"],"sources":[{"sourceId":"brand-spir-star-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"ULTRA_HIGH_PRESSURE_HOSE_VALVE_AND_CONNECTION_SCOPE","url":"https://www.spirstar.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]},
-    {"manufacturerId":"spm-instrument","officialName":"SPM Instrument AB","displayName":"SPM Instrument","aliases":["SPM","SPM INSTRUMENT"],"formerNames":[],"officialWebsite":"https://www.spminstrument.com/","officialDomains":["spminstrument.com"],"country":"Sweden","headquarters":null,"foundedYear":null,"parentCompany":null,"shortDescription":"SPM Instrument develops condition-monitoring equipment and software for rotating machinery. Its official portfolio includes vibration measurement, shock-pulse bearing monitoring, sensors, portable instruments and online monitoring systems.","fullDescription":["SPM Instrument's manufacturer-owned site establishes the Swedish company identity and its specialization in machine-condition assessment.","The documented range combines sensors, handheld and online instruments, analysis software and bearing-monitoring methods for detecting developing mechanical faults."],"productCategories":["Промышленные датчики","Измерительное оборудование","Промышленная автоматизация"],"productFamilies":["Vibration Monitoring Systems","Shock Pulse Measurement","Condition Monitoring Sensors","Portable Instruments","Online Monitoring Systems","Condition Monitoring Software"],"series":["Intellinova","Leonova"],"industries":["Промышленное производство","Энергетика","Горнодобывающая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.spminstrument.com/"],"sources":[{"sourceId":"brand-spm-instrument-official","tier":"A","type":"OFFICIAL_SITE","scope":"LEGAL_IDENTITY_AND_CONDITION_MONITORING_SCOPE","url":"https://www.spminstrument.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]}
+    {
+      "manufacturerId": "simco-ion",
+      "officialName": "Simco-Ion",
+      "displayName": "Simco-Ion",
+      "aliases": [
+        "SIMCO-ION",
+        "SIMCO ION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.simco-ion.com/products/category/static-neutralizing-systems",
+      "officialDomains": [
+        "simco-ion.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Illinois Tool Works Inc.",
+      "statusModifier": "GROUP_DIVISION",
+      "shortDescription": "Simco-Ion develops static-control equipment for industrial processes. Its official product range includes ionizing and neutralizing systems, static monitoring and measurement devices, charging equipment and particulate-removal systems.",
+      "fullDescription": [
+        "Simco-Ion's manufacturer-owned product directory identifies the brand as an ITW business focused on controlling electrostatic charge in production environments.",
+        "The documented range covers ionizing bars and blowers, monitoring instruments, charging systems and web-cleaning equipment used where static affects material handling, cleanliness or process stability."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Измерительное оборудование",
+        "Оборудование для очистки"
+      ],
+      "productFamilies": [
+        "Static Neutralizing Systems",
+        "Static Monitoring Systems",
+        "Static Measuring Equipment",
+        "Static Charging Systems",
+        "Web Cleaning Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Электронная промышленность",
+        "Упаковочная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.simco-ion.com/products/category/static-neutralizing-systems"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-simco-ion-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_ITW_IDENTITY_AND_STATIC_CONTROL_PRODUCT_SCOPE",
+          "url": "https://www.simco-ion.com/products/category/static-neutralizing-systems",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "single-temperiertechnik-gmbh",
+      "officialName": "SINGLE Group GmbH",
+      "displayName": "SINGLE",
+      "aliases": [
+        "SINGLE",
+        "SINGLE GROUP"
+      ],
+      "formerNames": [
+        "SINGLE Temperiertechnik GmbH"
+      ],
+      "officialWebsite": "https://single-temp.com/en/",
+      "officialDomains": [
+        "single-temp.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Hochdorf, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SINGLE develops temperature-control equipment for industrial processes. Its official range includes water- and oil-operated temperature-control units, cooling systems and chillers for controlled heating and cooling duties.",
+      "fullDescription": [
+        "The current SINGLE manufacturer site establishes the SINGLE Group identity and its specialization in process temperature control.",
+        "The documented portfolio combines circulating temperature-control units with cooling equipment and engineered systems for applications that require stable thermal conditions."
+      ],
+      "productCategories": [
+        "Промышленное охлаждение",
+        "Теплообменное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Water Temperature Control Units",
+        "Oil Temperature Control Units",
+        "Cooling Systems",
+        "Chillers"
+      ],
+      "series": [],
+      "industries": [
+        "Переработка пластмасс",
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://single-temp.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-single-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_IDENTITY_AND_INDUSTRIAL_TEMPERATURE_CONTROL_SCOPE",
+          "url": "https://single-temp.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-single-temperiertechnik-gmbh-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://single-temp.com/en/Footernavigation/Information/Contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sintex",
+      "officialName": "Sintex A/S",
+      "displayName": "Sintex",
+      "aliases": [
+        "SINTEX"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://sintex.com/",
+      "officialDomains": [
+        "sintex.com"
+      ],
+      "country": "Denmark",
+      "headquarters": "Hobro, Denmark",
+      "foundedYear": 1997,
+      "parentCompany": null,
+      "shortDescription": "Sintex develops and manufactures powder-metal and sintered components for industrial applications. Its official capabilities include metal injection moulding, magnetic couplings and rotors, porous filters, bearings and friction solutions.",
+      "fullDescription": [
+        "Sintex's manufacturer-owned site establishes the Danish company identity and its work with powder-based materials and engineered component production.",
+        "The documented technology range covers sintered metal parts, MIM components, magnetic assemblies, porous filtration components and application-specific bearing and friction products."
+      ],
+      "productCategories": [
+        "Механические передачи",
+        "Фильтрационное оборудование",
+        "Промышленные подшипники"
+      ],
+      "productFamilies": [
+        "Sintered Components",
+        "Metal Injection Moulded Components",
+        "Magnetic Couplings and Rotors",
+        "Porous Filters",
+        "Bearings and Friction Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://sintex.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sintex-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_POWDER_METAL_COMPONENT_SCOPE",
+          "url": "https://sintex.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-sintex-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://sintex.com/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sisp-gearboxes",
+      "officialName": "SISP Gearboxes",
+      "displayName": "SISP Gearboxes",
+      "aliases": [
+        "SISP",
+        "SISP GEARBOXES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sisp-gearboxes.eu/telechargements/",
+      "officialDomains": [
+        "sisp-gearboxes.eu"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SISP Gearboxes manufactures gear units and engineered transmission components. Its official documentation covers reduction gearboxes together with straight, helical and bevel gearing for industrial drive applications.",
+      "fullDescription": [
+        "SISP's manufacturer-owned documentation area establishes its specialization in mechanical transmissions and custom gearing.",
+        "The published scope includes gearbox configurations and gear-manufacturing capabilities used to adapt speed, torque and shaft arrangement in machinery."
+      ],
+      "productCategories": [
+        "Промышленные редукторы",
+        "Механические передачи"
+      ],
+      "productFamilies": [
+        "Reduction Gearboxes",
+        "Straight Gears",
+        "Helical Gears",
+        "Bevel Gears"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.sisp-gearboxes.eu/telechargements/"
+      ],
+      "documentationSources": [
+        "https://www.sisp-gearboxes.eu/telechargements/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sisp-documentation",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENTATION_PORTAL",
+          "scope": "GEARBOX_AND_INDUSTRIAL_GEAR_SCOPE",
+          "url": "https://www.sisp-gearboxes.eu/telechargements/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sitecna",
+      "officialName": "SITECNA S.r.l.",
+      "displayName": "SITECNA",
+      "aliases": [
+        "SITECNA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sitecna.eu/web/index.php?Itemid=581&id=1&layout=category&option=com_k2&task=category&view=itemlist",
+      "officialDomains": [
+        "sitecna.eu"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SITECNA develops fluid-control components and engineered pneumatic systems. Its official range includes air-preparation equipment, process and control valves, instrumentation and application-specific pneumatic packages.",
+      "fullDescription": [
+        "SITECNA's manufacturer-owned product directory documents components and assemblies for controlling compressed air and process media.",
+        "The range combines air treatment, valve technology, measurement devices and engineered systems for chemical, petrochemical, energy and glass-production applications."
+      ],
+      "productCategories": [
+        "Пневматическое оборудование",
+        "Промышленные клапаны и арматура",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Air Preparation Equipment",
+        "Process Valves",
+        "Control Valves",
+        "Pneumatic Systems",
+        "Instrumentation"
+      ],
+      "series": [],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика",
+        "Стекольная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sitecna.eu/web/index.php?Itemid=581&id=1&layout=category&option=com_k2&task=category&view=itemlist"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sitecna-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "FLUID_CONTROL_PNEUMATIC_VALVE_AND_INSTRUMENT_SCOPE",
+          "url": "https://www.sitecna.eu/web/index.php?Itemid=581&id=1&layout=category&option=com_k2&task=category&view=itemlist",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sitema",
+      "officialName": "SITEMA GmbH & Co. KG",
+      "displayName": "SITEMA",
+      "aliases": [
+        "SITEMA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sitema.de/en/",
+      "officialDomains": [
+        "sitema.de",
+        "sitema.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Karlsruhe, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SITEMA manufactures locking and safety devices for linear motion. Its official range includes safety catchers, rod locks, clamping heads, locking units and power-stroke systems.",
+      "fullDescription": [
+        "SITEMA's manufacturer-owned site establishes its specialization in devices that clamp, hold or stop moving rods and loads.",
+        "The documented product families serve machine and automation applications that require controlled locking, load retention or safety against unintended movement."
+      ],
+      "productCategories": [
+        "Промышленные тормозные системы",
+        "Промышленные актуаторы",
+        "Оборудование промышленной безопасности"
+      ],
+      "productFamilies": [
+        "Safety Catchers",
+        "Rod Locks",
+        "Clamping Heads",
+        "Locking Units",
+        "PowerStroke Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sitema.de/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sitema-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LINEAR_LOCKING_CLAMPING_AND_SAFETY_DEVICE_SCOPE",
+          "url": "https://www.sitema.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-sitema-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.sitema.de/en/imprint/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sitron",
+      "officialName": "Sitron Instrument Company",
+      "displayName": "Sitron",
+      "aliases": [
+        "SITRON"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sitron.com/company/",
+      "officialDomains": [
+        "sitron.com"
+      ],
+      "country": "Brazil",
+      "headquarters": "São Paulo, Brazil",
+      "foundedYear": 1978,
+      "parentCompany": null,
+      "shortDescription": "Sitron develops industrial instrumentation for process monitoring and control. Its official portfolio covers level, flow, pressure, temperature and vibration measurement together with control relays.",
+      "fullDescription": [
+        "Sitron's manufacturer-owned company page documents its Brazilian identity and long-term focus on industrial sensing and instrumentation.",
+        "The published range combines process sensors, switches, transmitters and relays for monitoring liquids, bulk materials and machine condition."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Измерительное оборудование",
+        "Промышленные реле"
+      ],
+      "productFamilies": [
+        "Level Instruments",
+        "Flow Instruments",
+        "Pressure Instruments",
+        "Temperature Instruments",
+        "Vibration Instruments",
+        "Control Relays"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Химическая промышленность",
+        "Водоснабжение и водоотведение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sitron.com/company/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sitron-company",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_PROCESS_INSTRUMENT_SCOPE",
+          "url": "https://www.sitron.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sivag",
+      "officialName": "SIVAG Pumpen GmbH",
+      "displayName": "SIVAG",
+      "aliases": [
+        "SIVAG",
+        "SIVAG PUMPEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sivag-pumpen.at/en",
+      "officialDomains": [
+        "sivag-pumpen.at"
+      ],
+      "country": "Austria",
+      "headquarters": null,
+      "foundedYear": 1989,
+      "parentCompany": null,
+      "shortDescription": "SIVAG manufactures pumps for industrial fluid handling. Its official range includes chemical standard pumps, rotary-lobe pumps, internal-gear pumps and self-priming pump designs.",
+      "fullDescription": [
+        "SIVAG's manufacturer-owned site identifies the Austrian company and its specialization in industrial pump engineering.",
+        "The documented portfolio covers several positive-displacement and centrifugal pump principles for transferring process liquids under different viscosity and suction conditions."
+      ],
+      "productCategories": [
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Chemical Standard Pumps",
+        "Rotary Lobe Pumps",
+        "Internal Gear Pumps",
+        "Self-Priming Pumps"
+      ],
+      "series": [],
+      "industries": [
+        "Химическая промышленность",
+        "Промышленное производство",
+        "Пищевая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sivag-pumpen.at/en"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sivag-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_PUMP_SCOPE",
+          "url": "https://www.sivag-pumpen.at/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "skc-gleittechnik",
+      "officialName": "SKC Gleittechnik GmbH",
+      "displayName": "SKC Gleittechnik",
+      "aliases": [
+        "SKC",
+        "SKC GLEITTECHNIK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://skc-technik.de/",
+      "officialDomains": [
+        "skc-technik.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "statusModifier": "LEGACY_BRAND",
+      "shortDescription": "SKC Gleittechnik provides processing services for mouldable sliding and joint coatings. Its official notice states that the associated product business transferred to DIAMANT Polymer on 1 April 2026 while SKC retained the application-service activity.",
+      "fullDescription": [
+        "SKC's manufacturer-owned site provides current evidence for the continuing company identity and clearly separates its service scope from the transferred product portfolio.",
+        "The page documents mouldable sliding coatings and joint coatings as the relevant technology families, while avoiding a claim that SKC still owns the transferred product business."
+      ],
+      "productCategories": [
+        "Промышленные покрытия"
+      ],
+      "productFamilies": [
+        "Mouldable Sliding Coatings",
+        "Joint Coatings"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://skc-technik.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-skc-transition",
+          "tier": "A",
+          "type": "OFFICIAL_SUCCESSOR_AND_SCOPE_NOTICE",
+          "scope": "CURRENT_COMPANY_SCOPE_AND_PRODUCT_BUSINESS_TRANSFER",
+          "url": "https://skc-technik.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "skoda-electric",
+      "officialName": "Škoda Electric a.s.",
+      "displayName": "Škoda Electric",
+      "aliases": [
+        "SKODA ELECTRIC",
+        "ŠKODA ELECTRIC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.skodagroup.com/catalogues/electric-systems-components",
+      "officialDomains": [
+        "skodagroup.com"
+      ],
+      "country": "Czech Republic",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Škoda Group",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "Škoda Electric develops traction equipment and electrical systems for rail and public-transport vehicles. The official group portfolio covers traction motors, converters, battery chargers, motor-gear units, HVAC systems and energy measurement.",
+      "fullDescription": [
+        "Škoda Group's official component catalogue establishes Škoda Electric's product identity within the transport-equipment group.",
+        "The documented range combines motors, power electronics, auxiliary electrical equipment and thermal systems used in locomotives, trains, trams, metro vehicles and trolleybuses."
+      ],
+      "productCategories": [
+        "Электродвигатели",
+        "Силовые преобразователи",
+        "Промышленное охлаждение",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Traction Motors",
+        "Traction Converters",
+        "Static Converters",
+        "Battery Chargers",
+        "Motor-Gear Units",
+        "HVAC Systems",
+        "Energy Measurement Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Железнодорожная промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.skodagroup.com/catalogues/electric-systems-components"
+      ],
+      "documentationSources": [
+        "https://www.skodagroup.com/catalogues/electric-systems-components"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-skoda-electric-group-catalogue",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_CATALOG",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_TRACTION_ELECTRICAL_SYSTEM_SCOPE",
+          "url": "https://www.skodagroup.com/catalogues/electric-systems-components",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sml-maschinengesellschaft",
+      "officialName": "SML Maschinengesellschaft mbH",
+      "displayName": "SML",
+      "aliases": [
+        "SML",
+        "SML MASCHINENGESELLSCHAFT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sml.at/company",
+      "officialDomains": [
+        "sml.at"
+      ],
+      "country": "Austria",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SML develops extrusion machinery and production lines for plastics processing. Its official portfolio includes cast-film, sheet, coating and laminating, multifilament and spinning-line technologies.",
+      "fullDescription": [
+        "SML's manufacturer-owned company page establishes the Austrian machinery business and its specialization in extrusion-line engineering.",
+        "The documented systems cover flat-film and sheet production, coating and lamination, technical filament manufacture and related line automation."
+      ],
+      "productCategories": [
+        "Оборудование для переработки",
+        "Промышленные машины",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Cast Film Lines",
+        "Sheet Lines",
+        "Coating and Laminating Lines",
+        "Multifilament Spinning Lines",
+        "Extrusion Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Переработка пластмасс",
+        "Упаковочная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sml.at/company"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sml-company",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
+          "scope": "LEGAL_IDENTITY_AND_EXTRUSION_LINE_SCOPE",
+          "url": "https://www.sml.at/company",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sms-elotherm",
+      "officialName": "SMS Elotherm GmbH",
+      "displayName": "SMS Elotherm",
+      "aliases": [
+        "SMS ELOTHERM",
+        "ELOTHERM"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sms-elotherm.com/en/about-us/key-facts/",
+      "officialDomains": [
+        "sms-elotherm.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "SMS group GmbH",
+      "statusModifier": "GROUP_COMPANY",
+      "shortDescription": "SMS Elotherm develops induction-based systems for heating and thermal processing of metals. Its official scope includes induction hardening, quench-and-temper lines, welding and annealing, strip heating and forging heating.",
+      "fullDescription": [
+        "SMS Elotherm's manufacturer-owned company page identifies the business within SMS group and documents its induction-technology specialization.",
+        "The portfolio combines power supplies, inductors, handling and process controls into equipment for heat treatment, joining and forming preparation."
+      ],
+      "productCategories": [
+        "Теплообменное оборудование",
+        "Сварочное оборудование",
+        "Промышленные машины",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Induction Hardening Systems",
+        "Quench and Temper Lines",
+        "Induction Welding and Annealing Systems",
+        "Strip Heating Systems",
+        "Forging Heating Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Автомобильная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sms-elotherm.com/en/about-us/key-facts/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sms-elotherm-key-facts",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_SITE",
+          "scope": "CURRENT_GROUP_IDENTITY_AND_INDUCTION_THERMAL_PROCESS_SCOPE",
+          "url": "https://www.sms-elotherm.com/en/about-us/key-facts/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sms-meer",
+      "officialName": "SMS Meer GmbH",
+      "displayName": "SMS Meer",
+      "aliases": [
+        "SMS MEER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sms-group.com/en-us/company/our-brands/heritage-brands/meer",
+      "officialDomains": [
+        "sms-group.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "SMS group GmbH",
+      "statusModifier": "LEGACY_BRAND",
+      "shortDescription": "SMS Meer is an SMS group heritage brand associated with machinery and plants for tube, pipe, section and long-product production. Official group history records its integration into the unified SMS group identity.",
+      "fullDescription": [
+        "SMS group's official heritage page establishes the SMS Meer identity and explains the organizational transition into the current group.",
+        "The documented historical scope covers rolling mills and production systems for tubes, pipes, sections and metallurgical long products; the page is presented as a legacy profile rather than a claim of an independent current manufacturer."
+      ],
+      "productCategories": [
+        "Металлообрабатывающее оборудование",
+        "Промышленные машины",
+        "Оборудование для переработки"
+      ],
+      "productFamilies": [
+        "Tube and Pipe Mills",
+        "Section Mills",
+        "Long-Product Plants",
+        "Metallurgical Machinery"
+      ],
+      "series": [],
+      "industries": [
+        "Металлургия",
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sms-group.com/en-us/company/our-brands/heritage-brands/meer"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sms-meer-heritage",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_SUCCESSOR_HISTORY",
+          "scope": "LEGACY_IDENTITY_INTEGRATION_AND_METALLURGICAL_MACHINERY_SCOPE",
+          "url": "https://www.sms-group.com/en-us/company/our-brands/heritage-brands/meer",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sn-maschinenbau",
+      "officialName": "SN Maschinenbau GmbH",
+      "displayName": "SN Maschinenbau",
+      "aliases": [
+        "SN MASCHINENBAU",
+        "SN PACKAGING"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sn-packaging.com/en/",
+      "officialDomains": [
+        "sn-packaging.com",
+        "sn-maschinenbau.com"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SN Maschinenbau develops horizontal pouch-packaging machinery and complete filling and sealing lines. Its official range includes form-fill-seal systems, premade-pouch machines and application-specific packaging automation.",
+      "fullDescription": [
+        "The current SN Packaging manufacturer site establishes the SN Maschinenbau identity and its specialization in horizontal pouch technology.",
+        "The documented machines form, fill and seal flexible packages or handle prepared pouches, with line configurations adapted to food, beverage, pet-food and industrial products."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Дозирующее оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Horizontal Form-Fill-Seal Machines",
+        "Premade-Pouch Machines",
+        "Filling and Sealing Lines",
+        "Packaging Automation"
+      ],
+      "series": [],
+      "industries": [
+        "Упаковочная промышленность",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sn-packaging.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sn-packaging-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "CURRENT_LEGAL_IDENTITY_AND_HORIZONTAL_POUCH_PACKAGING_SCOPE",
+          "url": "https://www.sn-packaging.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "snfa",
+      "officialName": "SNFA",
+      "displayName": "SNFA",
+      "aliases": [
+        "SNFA BEARINGS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://evolution.skf.com/en/brand-new/",
+      "officialDomains": [
+        "evolution.skf.com",
+        "skf.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "AB SKF",
+      "statusModifier": "LEGACY_BRAND",
+      "shortDescription": "SNFA is a legacy super-precision bearing brand now represented within SKF's current portfolio. SKF's official notice states that former SNFA products are offered under the SKF brand.",
+      "fullDescription": [
+        "SKF's official publication establishes the SNFA successor relationship and avoids presenting SNFA as an independent current manufacturer.",
+        "The documented scope concerns super-precision bearings, particularly angular-contact bearing solutions for high-speed and precision machinery."
+      ],
+      "productCategories": [
+        "Промышленные подшипники"
+      ],
+      "productFamilies": [
+        "Super-Precision Bearings",
+        "Angular Contact Ball Bearings"
+      ],
+      "series": [],
+      "industries": [
+        "Станкостроение",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://evolution.skf.com/en/brand-new/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-snfa-skf-successor",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_SUCCESSOR_NOTICE",
+          "scope": "LEGACY_BRAND_SUCCESSION_AND_SUPER_PRECISION_BEARING_SCOPE",
+          "url": "https://evolution.skf.com/en/brand-new/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "snr",
+      "officialName": "NTN-SNR",
+      "displayName": "SNR",
+      "aliases": [
+        "SNR",
+        "NTN-SNR",
+        "NTN SNR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ntn-snr.com/",
+      "officialDomains": [
+        "ntn-snr.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "NTN Corporation",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "SNR is represented within NTN-SNR's current bearing and motion-component portfolio. The official site covers industrial and automotive bearings together with related maintenance and drivetrain products.",
+      "fullDescription": [
+        "The NTN-SNR manufacturer site provides current first-party evidence for the SNR identity within NTN Corporation.",
+        "The documented range includes ball and roller bearings, bearing units and supporting products for industrial machinery and automotive maintenance applications."
+      ],
+      "productCategories": [
+        "Промышленные подшипники",
+        "Механические передачи"
+      ],
+      "productFamilies": [
+        "Ball Bearings",
+        "Roller Bearings",
+        "Bearing Units",
+        "Automotive Bearings",
+        "Maintenance Products"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.ntn-snr.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-snr-official",
+          "tier": "A",
+          "type": "OFFICIAL_GROUP_BRAND_SITE",
+          "scope": "CURRENT_NTN_GROUP_IDENTITY_AND_BEARING_SCOPE",
+          "url": "https://www.ntn-snr.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "soco-sSystem",
+      "officialName": "SOCO SYSTEM A/S",
+      "displayName": "SOCO SYSTEM",
+      "aliases": [
+        "SOCO SYSTEM",
+        "SOCO"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.socosystem.com/world",
+      "officialDomains": [
+        "socosystem.com"
+      ],
+      "country": "Denmark",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SOCO SYSTEM develops end-of-line packaging and material-handling equipment. Its official portfolio covers case erection and sealing, roller conveyors, pallet handling and collaborative packaging automation.",
+      "fullDescription": [
+        "SOCO SYSTEM's manufacturer-owned site documents modular equipment for moving, closing and preparing packaged goods at the end of production lines.",
+        "The range combines case-handling machines, conveyors, pallet equipment and cobot-based cells into standalone stations or integrated packaging flows."
+      ],
+      "productCategories": [
+        "Упаковочное оборудование",
+        "Конвейерное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Case Erectors",
+        "Case Sealers",
+        "Roller Conveyors",
+        "Pallet Handling Systems",
+        "Cobot Packaging Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Упаковочная промышленность",
+        "Промышленное производство",
+        "Интралогистика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.socosystem.com/world"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-soco-system-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "END_OF_LINE_PACKAGING_CONVEYING_AND_PALLET_HANDLING_SCOPE",
+          "url": "https://www.socosystem.com/world",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "socomec",
+      "officialName": "Socomec SAS",
+      "displayName": "Socomec",
+      "aliases": [
+        "SOCOMEC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.socomec.com/",
+      "officialDomains": [
+        "socomec.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Socomec develops electrical power-control and power-conversion systems. Its official portfolio includes switching and protection, UPS systems, energy storage, power conversion, metering and monitoring.",
+      "fullDescription": [
+        "Socomec's manufacturer-owned site establishes its specialization in managing the availability, control and measurement of low-voltage electrical power.",
+        "The documented product areas cover source transfer and switching, uninterruptible power, storage and conversion systems, and instruments for measuring and supervising electrical networks."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Измерительное оборудование",
+        "Источники питания",
+        "Системы накопления энергии"
+      ],
+      "productFamilies": [
+        "Power Switching and Protection",
+        "Uninterruptible Power Supplies",
+        "Energy Storage Systems",
+        "Power Conversion Systems",
+        "Power Metering and Monitoring"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Центры обработки данных",
+        "Промышленное производство",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.socomec.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-socomec-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "ELECTRICAL_SWITCHING_UPS_STORAGE_AND_METERING_SCOPE",
+          "url": "https://www.socomec.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sodeca",
+      "officialName": "SODECA, S.L.U.",
+      "displayName": "SODECA",
+      "aliases": [
+        "SODECA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sodeca.com/productos",
+      "officialDomains": [
+        "sodeca.com"
+      ],
+      "country": "Spain",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SODECA manufactures fans and air-moving equipment for industrial and building applications. Its official product directory covers axial, centrifugal and roof fans together with smoke-extraction and air-treatment systems.",
+      "fullDescription": [
+        "SODECA's manufacturer-owned product directory establishes the company's ventilation-equipment scope.",
+        "The documented range includes fan configurations for general ventilation, process air, hazardous atmospheres and fire-smoke control, plus packaged air-treatment solutions."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы и воздуходувки",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Axial Fans",
+        "Centrifugal Fans",
+        "Roof Fans",
+        "Smoke Extraction Fans",
+        "Air Treatment Units"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Автоматизация зданий",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sodeca.com/productos"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sodeca-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "INDUSTRIAL_FAN_SMOKE_EXTRACTION_AND_AIR_TREATMENT_SCOPE",
+          "url": "https://www.sodeca.com/productos",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "sodick",
+      "officialName": "Sodick Co., Ltd.",
+      "displayName": "Sodick",
+      "aliases": [
+        "SODICK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.sodick.co.jp/en/product/",
+      "officialDomains": [
+        "sodick.co.jp"
+      ],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Sodick develops precision manufacturing machinery and production systems. Its official range includes electrical-discharge machines, machining centres, metal additive-manufacturing systems, injection-moulding machines and industrial processing equipment.",
+      "fullDescription": [
+        "Sodick's manufacturer-owned product directory documents machine platforms for precision toolmaking, component production and specialised processing.",
+        "The portfolio combines EDM and machining technologies with metal 3D printing, injection moulding and selected industrial and food-machinery systems."
+      ],
+      "productCategories": [
+        "Станочное оборудование",
+        "Промышленные машины",
+        "Оборудование для переработки"
+      ],
+      "productFamilies": [
+        "Electrical Discharge Machines",
+        "Machining Centres",
+        "Metal 3D Printers",
+        "Injection Moulding Machines",
+        "Industrial Machinery"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.sodick.co.jp/en/product/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sodick-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "EDM_MACHINING_ADDITIVE_AND_MOULDING_MACHINE_SCOPE",
+          "url": "https://www.sodick.co.jp/en/product/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "solberg",
+      "officialName": "Solberg Manufacturing, Inc.",
+      "displayName": "Solberg",
+      "aliases": [
+        "SOLBERG",
+        "SOLBERG MANUFACTURING"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.solbergmfg.com/pages/filters-traps-silencers",
+      "officialDomains": [
+        "solbergmfg.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Solberg manufactures filtration, separation and silencing equipment for industrial air and gas systems. Its official range includes inlet filters, liquid separators, vacuum filters, silencers and oil-mist elimination systems.",
+      "fullDescription": [
+        "Solberg's manufacturer-owned product page documents equipment used to protect compressors, blowers, vacuum pumps and other air-moving machinery.",
+        "The portfolio combines particulate filtration, liquid removal, noise attenuation and oil-mist control in standard and application-specific assemblies."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Вакуумное оборудование",
+        "Компрессоры"
+      ],
+      "productFamilies": [
+        "Inlet Filters",
+        "Liquid Separators",
+        "Vacuum Filters",
+        "Industrial Silencers",
+        "Oil Mist Eliminators"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Энергетика",
+        "Водоснабжение и водоотведение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.solbergmfg.com/pages/filters-traps-silencers"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-solberg-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "INDUSTRIAL_FILTER_SEPARATOR_SILENCER_AND_MIST_SCOPE",
+          "url": "https://www.solbergmfg.com/pages/filters-traps-silencers",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "solcon",
+      "officialName": "Solcon-IGEL",
+      "displayName": "Solcon",
+      "aliases": [
+        "SOLCON",
+        "SOLCON-IGEL",
+        "SOLCON IGEL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://solconigel.com/products/",
+      "officialDomains": [
+        "solconigel.com",
+        "solcon.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Solcon-IGEL develops motor-control and power-control equipment. Its official product range includes low- and medium-voltage soft starters, motor protection relays, switchgear and industrial heat-control systems.",
+      "fullDescription": [
+        "The current Solcon-IGEL manufacturer site establishes the continuing Solcon product identity and documents its electrical control portfolio.",
+        "The range combines soft-start technology, protection and switching equipment for managing motors and resistive heating loads in industrial installations."
+      ],
+      "productCategories": [
+        "Системы управления движением",
+        "Промышленные реле",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Low-Voltage Soft Starters",
+        "Medium-Voltage Soft Starters",
+        "Motor Protection Relays",
+        "Switchgear",
+        "Heat Control Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Водоснабжение и водоотведение",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://solconigel.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-solcon-current-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "CURRENT_SOLCON_IGEL_IDENTITY_AND_SOFT_STARTER_SCOPE",
+          "url": "https://solconigel.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "somai",
+      "officialName": "SOMAI S.r.l.",
+      "displayName": "SOMAI",
+      "aliases": [
+        "SOMAI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.somai.it/chi_siamo.htm",
+      "officialDomains": [
+        "somai.it"
+      ],
+      "country": "Italy",
+      "headquarters": "Cisliano, Italy",
+      "foundedYear": 1976,
+      "parentCompany": null,
+      "shortDescription": "SOMAI manufactures vibration equipment and machinery for industrial material handling and concrete production. Its official scope includes electric and pneumatic vibrators together with systems for precast-concrete processes.",
+      "fullDescription": [
+        "SOMAI's manufacturer-owned company page establishes the Italian business and its specialization in industrial vibration technology.",
+        "The documented product scope covers external and application-specific vibrators plus machinery that uses controlled vibration in production and bulk-material processes."
+      ],
+      "productCategories": [
+        "Вибрационное оборудование",
+        "Пневматическое оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Electric Vibrators",
+        "Pneumatic Vibrators",
+        "Precast Concrete Machinery",
+        "Custom Vibration Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Строительные материалы",
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.somai.it/chi_siamo.htm"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-somai-company",
+          "tier": "A",
+          "type": "OFFICIAL_COMPANY_AND_PRODUCT_SITE",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_INDUSTRIAL_VIBRATION_SCOPE",
+          "url": "https://www.somai.it/chi_siamo.htm",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "somas",
+      "officialName": "SOMAS Instrument AB",
+      "displayName": "SOMAS",
+      "aliases": [
+        "SOMAS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://somas.se/en/products/",
+      "officialDomains": [
+        "somas.se"
+      ],
+      "country": "Sweden",
+      "headquarters": "Säffle, Sweden",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SOMAS manufactures valves and actuators for industrial process control. Its official portfolio includes ball-segment, butterfly and ball valves in control, on-off and manual configurations together with pneumatic actuators.",
+      "fullDescription": [
+        "SOMAS' manufacturer-owned product directory establishes the Swedish company identity and its specialization in industrial flow control.",
+        "The documented range combines valve geometries and actuator options for regulating or isolating process media in demanding industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные клапаны и арматура",
+        "Промышленные актуаторы",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Ball Segment Valves",
+        "Butterfly Valves",
+        "Ball Valves",
+        "Control Valves",
+        "On-Off Valves",
+        "Pneumatic Actuators"
+      ],
+      "series": [],
+      "industries": [
+        "Целлюлозно-бумажная промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://somas.se/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-somas-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_INDUSTRIAL_VALVE_ACTUATOR_SCOPE",
+          "url": "https://somas.se/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "southwest-oilfield-products",
+      "officialName": "Southwest Oilfield Products, Inc.",
+      "displayName": "Southwest Oilfield Products",
+      "aliases": [
+        "SOUTHWEST OILFIELD PRODUCTS",
+        "SWOP",
+        "SOUTHWEST"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://swoil.com/mud-pump-solutions/",
+      "officialDomains": [
+        "swoil.com"
+      ],
+      "country": "United States",
+      "headquarters": "Houston, Texas, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Southwest Oilfield Products manufactures mud-pump systems and replacement components for drilling operations. Its official range includes pump packages, fluid ends, liners, pistons, valves, seats and related mud-system components.",
+      "fullDescription": [
+        "Southwest Oilfield Products' manufacturer-owned product page establishes the company identity and its specialization in drilling-fluid pump equipment.",
+        "The documented portfolio covers complete mud-pump packages and critical wear or fluid-end components used to maintain and configure drilling circulation systems."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленные клапаны и арматура"
+      ],
+      "productFamilies": [
+        "Mud Pump Packages",
+        "Fluid Ends",
+        "Liners and Pistons",
+        "Valves and Seats",
+        "Mud System Components"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://swoil.com/mud-pump-solutions/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-southwest-oilfield-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_MUD_PUMP_COMPONENT_SCOPE",
+          "url": "https://swoil.com/mud-pump-solutions/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "spal-automotive",
+      "officialName": "SPAL Automotive S.r.l.",
+      "displayName": "SPAL Automotive",
+      "aliases": [
+        "SPAL",
+        "SPAL AUTOMOTIVE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spal.com/",
+      "officialDomains": [
+        "spal.com",
+        "spalautomotive.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SPAL Automotive develops electric fans, blowers and fluid-management components for vehicle and industrial thermal systems. Its official range includes axial fans, centrifugal blowers and electric drive solutions.",
+      "fullDescription": [
+        "SPAL's manufacturer-owned site establishes the automotive and industrial thermal-management identity of the brand.",
+        "The documented products move air or fluids through cooling and HVAC systems, with fan, blower and electric-drive configurations developed for original-equipment applications."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы и воздуходувки",
+        "Электродвигатели",
+        "Промышленное охлаждение"
+      ],
+      "productFamilies": [
+        "Axial Fans",
+        "Centrifugal Blowers",
+        "Electric Fan Drives",
+        "Cooling System Components"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Транспорт",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.spal.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spal-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_FAN_BLOWER_THERMAL_SCOPE",
+          "url": "https://www.spal.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "spg-co",
+      "officialName": "SPG Co., Ltd.",
+      "displayName": "SPG",
+      "aliases": [
+        "SPG",
+        "SPG CO"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://spg.co.kr/products?gnbScroll=1&sub=6&tab=1",
+      "officialDomains": [
+        "spg.co.kr"
+      ],
+      "country": "South Korea",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SPG manufactures electric motors, geared motors and precision reduction equipment. Its official portfolio includes AC, DC and brushless geared motors together with worm, planetary, strain-wave and cycloidal gear systems.",
+      "fullDescription": [
+        "SPG's manufacturer-owned product directory establishes the Korean company identity and its specialization in compact and precision drive technology.",
+        "The documented range combines motors with reduction stages and precision gearing for automation, robotics, machinery and motion-control applications."
+      ],
+      "productCategories": [
+        "Электродвигатели",
+        "Мотор-редукторы",
+        "Промышленные редукторы",
+        "Системы управления движением"
+      ],
+      "productFamilies": [
+        "AC Geared Motors",
+        "DC Geared Motors",
+        "Brushless DC Geared Motors",
+        "Worm Reducers",
+        "Planetary Gears",
+        "Strain-Wave Gears",
+        "Cycloidal Gears"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Робототехника",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://spg.co.kr/products?gnbScroll=1&sub=6&tab=1"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spg-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "ELECTRIC_MOTOR_GEARMOTOR_AND_PRECISION_GEAR_SCOPE",
+          "url": "https://spg.co.kr/products?gnbScroll=1&sub=6&tab=1",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "spir-star",
+      "officialName": "SPIR STAR AG",
+      "displayName": "SPIR STAR",
+      "aliases": [
+        "SPIR STAR",
+        "SPIRSTAR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spirstar.de/en/products/",
+      "officialDomains": [
+        "spirstar.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SPIR STAR manufactures ultra-high-pressure hose and connection systems. Its official range includes thermoplastic hoses, valves, adapters, tubing and quick-coupling components for demanding fluid-power applications.",
+      "fullDescription": [
+        "SPIR STAR's manufacturer-owned product directory establishes the German company identity and its specialization in high-pressure fluid conveyance.",
+        "The documented portfolio combines hose assemblies with compatible valves and connection hardware for water-blasting, hydraulic and process applications."
+      ],
+      "productCategories": [
+        "Промышленные клапаны и арматура",
+        "Гидравлическое оборудование",
+        "Разъёмы и соединительные системы"
+      ],
+      "productFamilies": [
+        "Ultra-High-Pressure Hoses",
+        "High-Pressure Valves",
+        "Adapters and Fittings",
+        "High-Pressure Tubing",
+        "Quick Couplings"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Промышленное производство",
+        "Водоснабжение и водоотведение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.spirstar.de/en/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spir-star-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "ULTRA_HIGH_PRESSURE_HOSE_VALVE_AND_CONNECTION_SCOPE",
+          "url": "https://www.spirstar.de/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "manufacturerId": "spm-instrument",
+      "officialName": "SPM Instrument AB",
+      "displayName": "SPM Instrument",
+      "aliases": [
+        "SPM",
+        "SPM INSTRUMENT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spminstrument.com/",
+      "officialDomains": [
+        "spminstrument.com"
+      ],
+      "country": "Sweden",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "SPM Instrument develops condition-monitoring equipment and software for rotating machinery. Its official portfolio includes vibration measurement, shock-pulse bearing monitoring, sensors, portable instruments and online monitoring systems.",
+      "fullDescription": [
+        "SPM Instrument's manufacturer-owned site establishes the Swedish company identity and its specialization in machine-condition assessment.",
+        "The documented range combines sensors, handheld and online instruments, analysis software and bearing-monitoring methods for detecting developing mechanical faults."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Измерительное оборудование",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Vibration Monitoring Systems",
+        "Shock Pulse Measurement",
+        "Condition Monitoring Sensors",
+        "Portable Instruments",
+        "Online Monitoring Systems",
+        "Condition Monitoring Software"
+      ],
+      "series": [
+        "Intellinova",
+        "Leonova"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Энергетика",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.spminstrument.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-spm-instrument-official",
+          "tier": "A",
+          "type": "OFFICIAL_SITE",
+          "scope": "LEGAL_IDENTITY_AND_CONDITION_MONITORING_SCOPE",
+          "url": "https://www.spminstrument.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    }
   ]
 }

@@ -1,306 +1,2295 @@
 {
   "checkedAt": "2026-08-19",
   "blockedIdentities": [
-    {"manufacturerId":"kraftmann-gmbh","reason":"AMBIGUOUS_IDENTITY","detail":"Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity."},
-    {"manufacturerId":"nimco","reason":"AMBIGUOUS_IDENTITY","detail":"The short repository name resolves to multiple unrelated businesses and no zero-ambiguity manufacturer-owned source was established."}
+    {
+      "manufacturerId": "kraftmann-gmbh",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity."
+    },
+    {
+      "manufacturerId": "nimco",
+      "reason": "AMBIGUOUS_IDENTITY",
+      "detail": "The short repository name resolves to multiple unrelated businesses and no zero-ambiguity manufacturer-owned source was established."
+    }
   ],
   "profiles": [
     {
-      "manufacturerId":"blackmer","officialName":"Blackmer","displayName":"Blackmer","aliases":["BLACKMER","BLACKMER PUMPS"],"formerNames":[],
-      "officialWebsite":"https://www.psgdover.com/blackmer/company","officialDomains":["psgdover.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":"PSG, a Dover company",
-      "shortDescription":"Blackmer is a PSG brand for industrial pumps and reciprocating gas compressors.",
-      "fullDescription":["The official PSG brand page establishes Blackmer as a pump and compressor manufacturer within Dover.","Its documented portfolio includes sliding-vane, gear, centrifugal, regenerative-turbine and screw pumps together with reciprocating gas compressors."],
-      "productCategories":["Промышленные насосы","Компрессорное оборудование"],"productFamilies":["Sliding-Vane Pumps","Gear Pumps","Centrifugal Pumps","Regenerative-Turbine Pumps","Screw Pumps","Reciprocating Gas Compressors"],"series":[],
-      "industries":["Промышленность","Нефтегазовая промышленность","Химическая промышленность","Транспорт"],"officialCatalogs":["https://www.psgdover.com/blackmer/company"],"documentationSources":["https://store.psgdover.com/"],
-      "sources":[{"sourceId":"brand-blackmer-company","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.psgdover.com/blackmer/company","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-blackmer-products","tier":"A","type":"OFFICIAL_PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://store.psgdover.com/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "blackmer",
+      "officialName": "Blackmer",
+      "displayName": "Blackmer",
+      "aliases": [
+        "BLACKMER",
+        "BLACKMER PUMPS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.psgdover.com/blackmer/company",
+      "officialDomains": [
+        "psgdover.com"
+      ],
+      "country": "США",
+      "headquarters": "Grand Rapids, MI, United States",
+      "foundedYear": null,
+      "parentCompany": "PSG, a Dover company",
+      "shortDescription": "Blackmer is a PSG brand for industrial pumps and reciprocating gas compressors.",
+      "fullDescription": [
+        "The official PSG brand page establishes Blackmer as a pump and compressor manufacturer within Dover.",
+        "Its documented portfolio includes sliding-vane, gear, centrifugal, regenerative-turbine and screw pumps together with reciprocating gas compressors."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Компрессорное оборудование"
+      ],
+      "productFamilies": [
+        "Sliding-Vane Pumps",
+        "Gear Pumps",
+        "Centrifugal Pumps",
+        "Regenerative-Turbine Pumps",
+        "Screw Pumps",
+        "Reciprocating Gas Compressors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.psgdover.com/blackmer/company"
+      ],
+      "documentationSources": [
+        "https://store.psgdover.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-blackmer-company",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_PAGE",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.psgdover.com/blackmer/company",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-blackmer-products",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://store.psgdover.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-blackmer-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.psgdover.com/blackmer/contact-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"bran-luebbe-gmbh","officialName":"Bran+Luebbe","displayName":"Bran+Luebbe","aliases":["BRAN+LUEBBE","BRAN LUEBBE"],"formerNames":[],
-      "officialWebsite":"https://www.spxflow.com/bran-luebbe/","officialDomains":["spxflow.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"SPX FLOW",
-      "shortDescription":"Bran+Luebbe is an SPX FLOW brand for metering, process pumping, chemical injection and process analysis.",
-      "fullDescription":["Official SPX FLOW material identifies Bran+Luebbe with precision metering and process equipment.","The documented range includes metering pumps, process diaphragm pumps, chemical-injection systems, analyzers and mixing systems."],
-      "productCategories":["Промышленные насосы","Измерительное оборудование","Технологическое оборудование"],"productFamilies":["Metering Pumps","Process Diaphragm Pumps","Chemical-Injection Systems","Process Analyzers","Mixing Systems"],"series":[],
-      "industries":["Химическая промышленность","Нефтегазовая промышленность","Энергетика","Промышленность"],"officialCatalogs":["https://www.spxflow.com/assets/original/bran-luebbe-product-overview-bro-gb.pdf"],"documentationSources":["https://www.spxflow.com/branplusluebbe/"],
-      "sources":[{"sourceId":"brand-bran-luebbe-page","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.spxflow.com/bran-luebbe/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-bran-luebbe-overview","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.spxflow.com/assets/original/bran-luebbe-product-overview-bro-gb.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "bran-luebbe-gmbh",
+      "officialName": "Bran+Luebbe",
+      "displayName": "Bran+Luebbe",
+      "aliases": [
+        "BRAN+LUEBBE",
+        "BRAN LUEBBE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spxflow.com/bran-luebbe/",
+      "officialDomains": [
+        "spxflow.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "SPX FLOW",
+      "shortDescription": "Bran+Luebbe is an SPX FLOW brand for metering, process pumping, chemical injection and process analysis.",
+      "fullDescription": [
+        "Official SPX FLOW material identifies Bran+Luebbe with precision metering and process equipment.",
+        "The documented range includes metering pumps, process diaphragm pumps, chemical-injection systems, analyzers and mixing systems."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Измерительное оборудование",
+        "Технологическое оборудование"
+      ],
+      "productFamilies": [
+        "Metering Pumps",
+        "Process Diaphragm Pumps",
+        "Chemical-Injection Systems",
+        "Process Analyzers",
+        "Mixing Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.spxflow.com/assets/original/bran-luebbe-product-overview-bro-gb.pdf"
+      ],
+      "documentationSources": [
+        "https://www.spxflow.com/branplusluebbe/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bran-luebbe-page",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_PAGE",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.spxflow.com/bran-luebbe/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-bran-luebbe-overview",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.spxflow.com/assets/original/bran-luebbe-product-overview-bro-gb.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"general-kinematics","officialName":"General Kinematics Corporation","displayName":"General Kinematics","aliases":["GENERAL KINEMATICS","GK"],"formerNames":[],
-      "officialWebsite":"https://www.generalkinematics.com/","officialDomains":["generalkinematics.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"General Kinematics develops vibratory and rotary equipment for processing and moving bulk materials.",
-      "fullDescription":["The official General Kinematics site documents material-processing equipment for foundry, recycling, mining and bulk-handling operations.","Its product groups include vibratory feeders, conveyors, screens, cooling systems and rotary process equipment."],
-      "productCategories":["Вибрационное оборудование","Конвейерное оборудование","Технологическое оборудование"],"productFamilies":["Vibratory Feeders","Vibratory Conveyors","Screening Equipment","Cooling Systems","Rotary Process Equipment"],"series":[],
-      "industries":["Горнодобывающая промышленность","Металлургия","Переработка","Промышленность"],"officialCatalogs":["https://www.generalkinematics.com/vibration-equipment/"],"documentationSources":["https://www.generalkinematics.com/"],
-      "sources":[{"sourceId":"brand-general-kinematics-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.generalkinematics.com/vibration-equipment/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "general-kinematics",
+      "officialName": "General Kinematics Corporation",
+      "displayName": "General Kinematics",
+      "aliases": [
+        "GENERAL KINEMATICS",
+        "GK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.generalkinematics.com/",
+      "officialDomains": [
+        "generalkinematics.com"
+      ],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "General Kinematics develops vibratory and rotary equipment for processing and moving bulk materials.",
+      "fullDescription": [
+        "The official General Kinematics site documents material-processing equipment for foundry, recycling, mining and bulk-handling operations.",
+        "Its product groups include vibratory feeders, conveyors, screens, cooling systems and rotary process equipment."
+      ],
+      "productCategories": [
+        "Вибрационное оборудование",
+        "Конвейерное оборудование",
+        "Технологическое оборудование"
+      ],
+      "productFamilies": [
+        "Vibratory Feeders",
+        "Vibratory Conveyors",
+        "Screening Equipment",
+        "Cooling Systems",
+        "Rotary Process Equipment"
+      ],
+      "series": [],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Металлургия",
+        "Переработка",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.generalkinematics.com/vibration-equipment/"
+      ],
+      "documentationSources": [
+        "https://www.generalkinematics.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-general-kinematics-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.generalkinematics.com/vibration-equipment/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"magnescale","officialName":"Magnescale Co., Ltd.","displayName":"Magnescale","aliases":["MAGNESCALE","MAGNESCALE CO LTD"],"formerNames":[],
-      "officialWebsite":"https://www.magnescale.com/en/","officialDomains":["magnescale.com"],"country":"Япония","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Magnescale develops precision linear and angular measurement systems for industrial positioning and metrology.",
-      "fullDescription":["Official Magnescale material documents magnetic and laser-based measurement technologies for machine positioning.","The portfolio includes linear scales, angle encoders, Laserscale systems and digital gauges."],
-      "productCategories":["Измерительное оборудование","Энкодеры"],"productFamilies":["Magnescale Linear Scales","Laserscale Systems","Angle Encoders","Digital Gauges"],"series":[],
-      "industries":["Станкостроение","Промышленность","Электроника"],"officialCatalogs":["https://www.magnescale.com/en/product/catalog/LS_En_web_0618.pdf"],"documentationSources":["https://www.magnescale.com/en/"],
-      "sources":[{"sourceId":"brand-magnescale-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.magnescale.com/en/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-magnescale-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.magnescale.com/en/product/catalog/LS_En_web_0618.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "magnescale",
+      "officialName": "Magnescale Co., Ltd.",
+      "displayName": "Magnescale",
+      "aliases": [
+        "MAGNESCALE",
+        "MAGNESCALE CO LTD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.magnescale.com/en/",
+      "officialDomains": [
+        "magnescale.com"
+      ],
+      "country": "Япония",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Magnescale develops precision linear and angular measurement systems for industrial positioning and metrology.",
+      "fullDescription": [
+        "Official Magnescale material documents magnetic and laser-based measurement technologies for machine positioning.",
+        "The portfolio includes linear scales, angle encoders, Laserscale systems and digital gauges."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Энкодеры"
+      ],
+      "productFamilies": [
+        "Magnescale Linear Scales",
+        "Laserscale Systems",
+        "Angle Encoders",
+        "Digital Gauges"
+      ],
+      "series": [],
+      "industries": [
+        "Станкостроение",
+        "Промышленность",
+        "Электроника"
+      ],
+      "officialCatalogs": [
+        "https://www.magnescale.com/en/product/catalog/LS_En_web_0618.pdf"
+      ],
+      "documentationSources": [
+        "https://www.magnescale.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-magnescale-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.magnescale.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-magnescale-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.magnescale.com/en/product/catalog/LS_En_web_0618.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"mueller-steam-specialty","officialName":"Mueller Steam Specialty","displayName":"Mueller Steam Specialty","aliases":["MUELLER STEAM SPECIALTY","MUELLER"],"formerNames":[],
-      "officialWebsite":"https://www.watts.com/our-story/brands/mueller-steam-specialty","officialDomains":["watts.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":"Watts Water Technologies",
-      "shortDescription":"Mueller Steam Specialty is a Watts brand for industrial strainers, valves and flow-system components.",
-      "fullDescription":["The official Watts brand page establishes Mueller Steam Specialty within its industrial flow-control portfolio.","Documented products include basket, duplex, Y and tee strainers together with butterfly, check and control valves, line blinds and suction diffusers."],
-      "productCategories":["Фильтрационное оборудование","Промышленные клапаны"],"productFamilies":["Basket Strainers","Duplex Strainers","Y Strainers","Tee Strainers","Butterfly Valves","Check Valves","Control Valves","Suction Diffusers"],"series":[],
-      "industries":["Промышленность","Энергетика","Водоснабжение"],"officialCatalogs":["https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/36631-source/638773792860000000/c-mueller"],"documentationSources":["https://www.watts.com/our-story/brands/mueller-steam-specialty"],
-      "sources":[{"sourceId":"brand-mueller-steam-page","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.watts.com/our-story/brands/mueller-steam-specialty","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-mueller-steam-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/36631-source/638773792860000000/c-mueller","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "mueller-steam-specialty",
+      "officialName": "Mueller Steam Specialty",
+      "displayName": "Mueller Steam Specialty",
+      "aliases": [
+        "MUELLER STEAM SPECIALTY",
+        "MUELLER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.watts.com/our-story/brands/mueller-steam-specialty",
+      "officialDomains": [
+        "watts.com"
+      ],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Watts Water Technologies",
+      "shortDescription": "Mueller Steam Specialty is a Watts brand for industrial strainers, valves and flow-system components.",
+      "fullDescription": [
+        "The official Watts brand page establishes Mueller Steam Specialty within its industrial flow-control portfolio.",
+        "Documented products include basket, duplex, Y and tee strainers together with butterfly, check and control valves, line blinds and suction diffusers."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Basket Strainers",
+        "Duplex Strainers",
+        "Y Strainers",
+        "Tee Strainers",
+        "Butterfly Valves",
+        "Check Valves",
+        "Control Valves",
+        "Suction Diffusers"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Энергетика",
+        "Водоснабжение"
+      ],
+      "officialCatalogs": [
+        "https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/36631-source/638773792860000000/c-mueller"
+      ],
+      "documentationSources": [
+        "https://www.watts.com/our-story/brands/mueller-steam-specialty"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-mueller-steam-page",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_PAGE",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.watts.com/our-story/brands/mueller-steam-specialty",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-mueller-steam-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.watts.com/dfsmedia/0533dbba17714b1ab581ab07a4cbb521/36631-source/638773792860000000/c-mueller",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"richardson-electronics","officialName":"Richardson Electronics, Ltd.","displayName":"Richardson Electronics","aliases":["RICHARDSON ELECTRONICS","RELL"],"formerNames":[],
-      "officialWebsite":"https://www.rell.com/product-portfolio/","officialDomains":["rell.com","relltubes.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Richardson Electronics supplies engineered components and systems for RF, microwave, power-electronics and industrial display applications.",
-      "fullDescription":["The official Richardson Electronics portfolio covers RF and microwave components, power-grid and microwave tubes, vacuum capacitors and power-electronic technologies.","First-party product material also documents CT and MRI tubes, industrial monitors and related engineered solutions."],
-      "productCategories":["Электрические компоненты","Измерительное оборудование"],"productFamilies":["RF and Microwave Components","Power-Grid Tubes","Microwave Tubes","Vacuum Capacitors","Power Electronics","CT and MRI Tubes","Industrial Monitors"],"series":[],
-      "industries":["Промышленность","Энергетика","Медицинская промышленность","Электроника"],"officialCatalogs":["https://www.relltubes.com/documents/Catalog/Industrial%20Microwave%20Product%20Guide%202026.pdf"],"documentationSources":["https://www.rell.com/product-portfolio/"],
-      "sources":[{"sourceId":"brand-richardson-portfolio","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.rell.com/product-portfolio/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-richardson-tubes","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.relltubes.com/documents/Catalog/Industrial%20Microwave%20Product%20Guide%202026.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "richardson-electronics",
+      "officialName": "Richardson Electronics, Ltd.",
+      "displayName": "Richardson Electronics",
+      "aliases": [
+        "RICHARDSON ELECTRONICS",
+        "RELL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.rell.com/product-portfolio/",
+      "officialDomains": [
+        "rell.com",
+        "relltubes.com"
+      ],
+      "country": "США",
+      "headquarters": "LaFox, IL, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Richardson Electronics supplies engineered components and systems for RF, microwave, power-electronics and industrial display applications.",
+      "fullDescription": [
+        "The official Richardson Electronics portfolio covers RF and microwave components, power-grid and microwave tubes, vacuum capacitors and power-electronic technologies.",
+        "First-party product material also documents CT and MRI tubes, industrial monitors and related engineered solutions."
+      ],
+      "productCategories": [
+        "Электрические компоненты",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "RF and Microwave Components",
+        "Power-Grid Tubes",
+        "Microwave Tubes",
+        "Vacuum Capacitors",
+        "Power Electronics",
+        "CT and MRI Tubes",
+        "Industrial Monitors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Энергетика",
+        "Медицинская промышленность",
+        "Электроника"
+      ],
+      "officialCatalogs": [
+        "https://www.relltubes.com/documents/Catalog/Industrial%20Microwave%20Product%20Guide%202026.pdf"
+      ],
+      "documentationSources": [
+        "https://www.rell.com/product-portfolio/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-richardson-portfolio",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.rell.com/product-portfolio/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-richardson-tubes",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.relltubes.com/documents/Catalog/Industrial%20Microwave%20Product%20Guide%202026.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-richardson-electronics-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.rell.com/contact-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"timmer-pneumatik-gmbh","officialName":"Timmer GmbH","displayName":"Timmer","aliases":["TIMMER","TIMMER PNEUMATIK"],"formerNames":[],
-      "officialWebsite":"https://www.timmer.de/","officialDomains":["timmer.de"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Timmer develops industrial pumps, pneumatic components and vacuum-lifting systems.",
-      "fullDescription":["The official Timmer site structures its range around pumps, pneumatics and vacuum lifting.","Documented products include double-diaphragm, high-pressure diaphragm and piston pumps, pneumatic cylinders and vacuum-handling equipment."],
-      "productCategories":["Промышленные насосы","Пневматическое оборудование","Вакуумное оборудование"],"productFamilies":["Double-Diaphragm Pumps","High-Pressure Diaphragm Pumps","Piston Pumps","Pneumatic Cylinders","Vacuum Lifting Systems"],"series":[],
-      "industries":["Промышленность","Машиностроение"],"officialCatalogs":["https://www.timmer.de/Pumpen/"],"documentationSources":["https://www.timmer.de/en/service/Services/"],
-      "sources":[{"sourceId":"brand-timmer-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.timmer.de/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-timmer-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.timmer.de/Pumpen/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "timmer-pneumatik-gmbh",
+      "officialName": "Timmer GmbH",
+      "displayName": "Timmer",
+      "aliases": [
+        "TIMMER",
+        "TIMMER PNEUMATIK"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.timmer.de/",
+      "officialDomains": [
+        "timmer.de"
+      ],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Timmer develops industrial pumps, pneumatic components and vacuum-lifting systems.",
+      "fullDescription": [
+        "The official Timmer site structures its range around pumps, pneumatics and vacuum lifting.",
+        "Documented products include double-diaphragm, high-pressure diaphragm and piston pumps, pneumatic cylinders and vacuum-handling equipment."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Пневматическое оборудование",
+        "Вакуумное оборудование"
+      ],
+      "productFamilies": [
+        "Double-Diaphragm Pumps",
+        "High-Pressure Diaphragm Pumps",
+        "Piston Pumps",
+        "Pneumatic Cylinders",
+        "Vacuum Lifting Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://www.timmer.de/Pumpen/"
+      ],
+      "documentationSources": [
+        "https://www.timmer.de/en/service/Services/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-timmer-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.timmer.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-timmer-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.timmer.de/Pumpen/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"uraca","officialName":"URACA GmbH & Co. KG","displayName":"URACA","aliases":["URACA","URACA PUMPS"],"formerNames":[],
-      "officialWebsite":"https://www.uraca.com/en-GB/home","officialDomains":["uraca.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"URACA develops high-pressure plunger pumps, process pumps and engineered high-pressure cleaning systems.",
-      "fullDescription":["The official URACA site documents plunger-pump technology for high-pressure and process applications.","Its portfolio also includes automated high-pressure cleaning systems, accessories and system-control solutions."],
-      "productCategories":["Промышленные насосы","Промышленная очистка","Промышленная автоматизация и управление"],"productFamilies":["High-Pressure Plunger Pumps","Process Pumps","Automated Cleaning Systems","High-Pressure Accessories"],"series":[],
-      "industries":["Промышленность","Химическая промышленность","Энергетика","Нефтегазовая промышленность"],"officialCatalogs":["https://www.uraca.com/en-GB/home"],"documentationSources":["https://www.uraca.com/en-GB/home"],
-      "sources":[{"sourceId":"brand-uraca-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.uraca.com/en-GB/home","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "uraca",
+      "officialName": "URACA GmbH & Co. KG",
+      "displayName": "URACA",
+      "aliases": [
+        "URACA",
+        "URACA PUMPS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.uraca.com/en-GB/home",
+      "officialDomains": [
+        "uraca.com"
+      ],
+      "country": "Германия",
+      "headquarters": "Bad Urach, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "URACA develops high-pressure plunger pumps, process pumps and engineered high-pressure cleaning systems.",
+      "fullDescription": [
+        "The official URACA site documents plunger-pump technology for high-pressure and process applications.",
+        "Its portfolio also includes automated high-pressure cleaning systems, accessories and system-control solutions."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленная очистка",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "High-Pressure Plunger Pumps",
+        "Process Pumps",
+        "Automated Cleaning Systems",
+        "High-Pressure Accessories"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Нефтегазовая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.uraca.com/en-GB/home"
+      ],
+      "documentationSources": [
+        "https://www.uraca.com/en-GB/home"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-uraca-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.uraca.com/en-GB/home",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"wilden","officialName":"Wilden Pump & Engineering LLC","displayName":"Wilden","aliases":["WILDEN","WILDEN PUMPS"],"formerNames":[],
-      "officialWebsite":"https://www.psgdover.com/wilden","officialDomains":["psgdover.com"],"country":"США","headquarters":null,"foundedYear":1955,"parentCompany":"PSG, a Dover company",
-      "shortDescription":"Wilden is a PSG brand for air-operated and electrically operated double-diaphragm pumps.",
-      "fullDescription":["The official PSG page records Wilden's development of the air-operated double-diaphragm pump in 1955.","The current portfolio includes Pro-Flo SHIFT and Pro-Flo pump platforms, specialty diaphragm pumps and surge dampeners."],
-      "productCategories":["Промышленные насосы","Пневматическое оборудование"],"productFamilies":["Air-Operated Double-Diaphragm Pumps","Electric-Operated Double-Diaphragm Pumps","Specialty Diaphragm Pumps","Surge Dampeners"],"series":["Pro-Flo SHIFT","Pro-Flo"],
-      "industries":["Промышленность","Химическая промышленность","Пищевая промышленность","Горнодобывающая промышленность"],"officialCatalogs":["https://www.psgdover.com/wilden/download-library"],"documentationSources":["https://www.psgdover.com/wilden"],
-      "sources":[{"sourceId":"brand-wilden-page","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.psgdover.com/wilden","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-wilden-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://www.psgdover.com/wilden/download-library","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "wilden",
+      "officialName": "Wilden Pump & Engineering LLC",
+      "displayName": "Wilden",
+      "aliases": [
+        "WILDEN",
+        "WILDEN PUMPS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.psgdover.com/wilden",
+      "officialDomains": [
+        "psgdover.com"
+      ],
+      "country": "США",
+      "headquarters": "Grand Terrace, CA, United States",
+      "foundedYear": 1955,
+      "parentCompany": "PSG, a Dover company",
+      "shortDescription": "Wilden is a PSG brand for air-operated and electrically operated double-diaphragm pumps.",
+      "fullDescription": [
+        "The official PSG page records Wilden's development of the air-operated double-diaphragm pump in 1955.",
+        "The current portfolio includes Pro-Flo SHIFT and Pro-Flo pump platforms, specialty diaphragm pumps and surge dampeners."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Пневматическое оборудование"
+      ],
+      "productFamilies": [
+        "Air-Operated Double-Diaphragm Pumps",
+        "Electric-Operated Double-Diaphragm Pumps",
+        "Specialty Diaphragm Pumps",
+        "Surge Dampeners"
+      ],
+      "series": [
+        "Pro-Flo SHIFT",
+        "Pro-Flo"
+      ],
+      "industries": [
+        "Промышленность",
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.psgdover.com/wilden/download-library"
+      ],
+      "documentationSources": [
+        "https://www.psgdover.com/wilden"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-wilden-page",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_PAGE",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.psgdover.com/wilden",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-wilden-downloads",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION",
+          "url": "https://www.psgdover.com/wilden/download-library",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"bomar","officialName":"BOMAR, spol. s r.o.","displayName":"BOMAR","aliases":["BOMAR","BOMAR SAWS"],"formerNames":[],
-      "officialWebsite":"https://bomar-saws.com/products-band-saws.html","officialDomains":["bomar-saws.com"],"country":"Чехия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"BOMAR manufactures industrial band saws and complementary material-cutting equipment.",
-      "fullDescription":["The official BOMAR product directory documents manual, semi-automatic and automatic band-saw machines.","Its published range also includes deburring machines, belt sanders and material-handling accessories."],
-      "productCategories":["Промышленные станки","Конвейерное оборудование"],"productFamilies":["Manual Band Saws","Semi-Automatic Band Saws","Automatic Band Saws","Deburring Machines","Belt Sanders","Material-Handling Systems"],"series":[],
-      "industries":["Металлургия","Машиностроение","Промышленность"],"officialCatalogs":["https://bomar-saws.com/products-band-saws.html"],"documentationSources":["https://bomar-saws.com/products-band-saws.html"],
-      "sources":[{"sourceId":"brand-bomar-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://bomar-saws.com/products-band-saws.html","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "bomar",
+      "officialName": "BOMAR, spol. s r.o.",
+      "displayName": "BOMAR",
+      "aliases": [
+        "BOMAR",
+        "BOMAR SAWS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://bomar-saws.com/products-band-saws.html",
+      "officialDomains": [
+        "bomar-saws.com"
+      ],
+      "country": "Чехия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BOMAR manufactures industrial band saws and complementary material-cutting equipment.",
+      "fullDescription": [
+        "The official BOMAR product directory documents manual, semi-automatic and automatic band-saw machines.",
+        "Its published range also includes deburring machines, belt sanders and material-handling accessories."
+      ],
+      "productCategories": [
+        "Промышленные станки",
+        "Конвейерное оборудование"
+      ],
+      "productFamilies": [
+        "Manual Band Saws",
+        "Semi-Automatic Band Saws",
+        "Automatic Band Saws",
+        "Deburring Machines",
+        "Belt Sanders",
+        "Material-Handling Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Металлургия",
+        "Машиностроение",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://bomar-saws.com/products-band-saws.html"
+      ],
+      "documentationSources": [
+        "https://bomar-saws.com/products-band-saws.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bomar-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://bomar-saws.com/products-band-saws.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"4b-braime","officialName":"4B Braime Components Ltd","displayName":"4B Braime","aliases":["BRAIME 4B","4B BRAIME","4B"],"formerNames":[],
-      "officialWebsite":"https://go4b.co.uk/","officialDomains":["go4b.co.uk"],"country":"Великобритания","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"4B Braime develops components and monitoring systems for bucket elevators and bulk-material conveyors.",
-      "fullDescription":["The official 4B site documents elevator buckets, bolts, belting and chain-conveyor components for bulk handling.","Its portfolio also includes speed, alignment, level and hazard-monitoring sensors and control systems."],
-      "productCategories":["Конвейерное оборудование","Промышленные датчики","Промышленная автоматизация и управление"],"productFamilies":["Bucket-Elevator Components","Chain-Conveyor Components","Speed Sensors","Alignment Sensors","Level Sensors","Hazard-Monitoring Systems"],"series":[],
-      "industries":["Промышленность","Сельское хозяйство","Пищевая промышленность","Горнодобывающая промышленность"],"officialCatalogs":["https://go4b.co.uk/bucket-elevator-components"],"documentationSources":["https://go4b.co.uk/"],
-      "sources":[{"sourceId":"brand-4b-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://go4b.co.uk/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-4b-elevator","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://go4b.co.uk/bucket-elevator-components","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "4b-braime",
+      "officialName": "4B Braime Components Ltd",
+      "displayName": "4B Braime",
+      "aliases": [
+        "BRAIME 4B",
+        "4B BRAIME",
+        "4B"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://go4b.co.uk/",
+      "officialDomains": [
+        "go4b.co.uk"
+      ],
+      "country": "Великобритания",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "4B Braime develops components and monitoring systems for bucket elevators and bulk-material conveyors.",
+      "fullDescription": [
+        "The official 4B site documents elevator buckets, bolts, belting and chain-conveyor components for bulk handling.",
+        "Its portfolio also includes speed, alignment, level and hazard-monitoring sensors and control systems."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Промышленные датчики",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "Bucket-Elevator Components",
+        "Chain-Conveyor Components",
+        "Speed Sensors",
+        "Alignment Sensors",
+        "Level Sensors",
+        "Hazard-Monitoring Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Сельское хозяйство",
+        "Пищевая промышленность",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://go4b.co.uk/bucket-elevator-components"
+      ],
+      "documentationSources": [
+        "https://go4b.co.uk/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-4b-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://go4b.co.uk/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-4b-elevator",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://go4b.co.uk/bucket-elevator-components",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"fireye","officialName":"Fireye","displayName":"Fireye","aliases":["FIREYE","FIREYE FLAME SAFEGUARD"],"formerNames":[],
-      "officialWebsite":"https://www.fireye.com/","officialDomains":["fireye.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":"Carrier Global Corporation",
-      "shortDescription":"Fireye develops flame-safeguard, burner-management and combustion-control equipment.",
-      "fullDescription":["Official Fireye product material documents ultraviolet and infrared flame scanners, flame safeguards and burner-management controls.","The portfolio also includes igniters, pilots and combustion-efficiency controls for industrial firing systems."],
-      "productCategories":["Промышленные датчики","Промышленная автоматизация и управление","Тепловое оборудование"],"productFamilies":["Flame Scanners","Flame-Safeguard Controls","Burner-Management Systems","Igniters and Pilots","Combustion-Efficiency Controls"],"series":["M-Series","D-Series"],
-      "industries":["Энергетика","Промышленность","Нефтегазовая промышленность"],"officialCatalogs":["https://www.fireye.com/wp-content/uploads/sites/10/2025/04/TD-00-2-0700-0-008-A-Flame-Monitor_M-Series_D-Series_Service_Guide-Web.pdf"],"documentationSources":["https://www.fireye.com/products/flame-monitoring/ir-flame-scanners/"],
-      "sources":[{"sourceId":"brand-fireye-scanners","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.fireye.com/products/flame-monitoring/ir-flame-scanners/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-fireye-guide","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.fireye.com/wp-content/uploads/sites/10/2025/04/TD-00-2-0700-0-008-A-Flame-Monitor_M-Series_D-Series_Service_Guide-Web.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "fireye",
+      "officialName": "Fireye",
+      "displayName": "Fireye",
+      "aliases": [
+        "FIREYE",
+        "FIREYE FLAME SAFEGUARD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.fireye.com/",
+      "officialDomains": [
+        "fireye.com"
+      ],
+      "country": "США",
+      "headquarters": "Derry, NH, United States",
+      "foundedYear": null,
+      "parentCompany": "Carrier Global Corporation",
+      "shortDescription": "Fireye develops flame-safeguard, burner-management and combustion-control equipment.",
+      "fullDescription": [
+        "Official Fireye product material documents ultraviolet and infrared flame scanners, flame safeguards and burner-management controls.",
+        "The portfolio also includes igniters, pilots and combustion-efficiency controls for industrial firing systems."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Промышленная автоматизация и управление",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Flame Scanners",
+        "Flame-Safeguard Controls",
+        "Burner-Management Systems",
+        "Igniters and Pilots",
+        "Combustion-Efficiency Controls"
+      ],
+      "series": [
+        "M-Series",
+        "D-Series"
+      ],
+      "industries": [
+        "Энергетика",
+        "Промышленность",
+        "Нефтегазовая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.fireye.com/wp-content/uploads/sites/10/2025/04/TD-00-2-0700-0-008-A-Flame-Monitor_M-Series_D-Series_Service_Guide-Web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.fireye.com/products/flame-monitoring/ir-flame-scanners/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-fireye-scanners",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.fireye.com/products/flame-monitoring/ir-flame-scanners/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fireye-guide",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.fireye.com/wp-content/uploads/sites/10/2025/04/TD-00-2-0700-0-008-A-Flame-Monitor_M-Series_D-Series_Service_Guide-Web.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-fireye-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.fireye.com/aboutus/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"plenty","officialName":"Plenty","displayName":"Plenty Filters","aliases":["PLENTY FILTERS","PLENTY"],"formerNames":[],
-      "officialWebsite":"https://www.spxflow.com/plenty","officialDomains":["spxflow.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"SPX FLOW",
-      "shortDescription":"Plenty is an SPX FLOW brand for industrial filtration and straining equipment.",
-      "fullDescription":["The official SPX FLOW brand page establishes the Plenty identity within its process-equipment portfolio.","Its filtration range covers industrial strainers and filtration equipment for liquid-handling systems."],
-      "productCategories":["Фильтрационное оборудование"],"productFamilies":["Industrial Strainers","Liquid-Filtration Systems"],"series":[],
-      "industries":["Промышленность","Нефтегазовая промышленность","Химическая промышленность","Энергетика"],"officialCatalogs":["https://spxflow-com-v8.azurewebsites.net/products/type?productType=filtration"],"documentationSources":["https://www.spxflow.com/plenty"],
-      "sources":[{"sourceId":"brand-plenty-page","tier":"A","type":"OFFICIAL_BRAND_PAGE","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.spxflow.com/plenty","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-plenty-filtration","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://spxflow-com-v8.azurewebsites.net/products/type?productType=filtration","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "plenty",
+      "officialName": "Plenty",
+      "displayName": "Plenty Filters",
+      "aliases": [
+        "PLENTY FILTERS",
+        "PLENTY"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.spxflow.com/plenty",
+      "officialDomains": [
+        "spxflow.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "SPX FLOW",
+      "shortDescription": "Plenty is an SPX FLOW brand for industrial filtration and straining equipment.",
+      "fullDescription": [
+        "The official SPX FLOW brand page establishes the Plenty identity within its process-equipment portfolio.",
+        "Its filtration range covers industrial strainers and filtration equipment for liquid-handling systems."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Industrial Strainers",
+        "Liquid-Filtration Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://spxflow-com-v8.azurewebsites.net/products/type?productType=filtration"
+      ],
+      "documentationSources": [
+        "https://www.spxflow.com/plenty"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-plenty-page",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_PAGE",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.spxflow.com/plenty",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-plenty-filtration",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://spxflow-com-v8.azurewebsites.net/products/type?productType=filtration",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"ahp-merkle","officialName":"AHP Merkle GmbH","displayName":"AHP Merkle","aliases":["AHP MERKLE","AHP"],"formerNames":[],
-      "officialWebsite":"https://www.ahp.de/","officialDomains":["ahp.de"],"country":"Германия","headquarters":null,"foundedYear":1973,"parentCompany":null,
-      "shortDescription":"AHP Merkle develops hydraulic cylinders and electrohydraulic linear actuators for industrial machinery.",
-      "fullDescription":["The official AHP Merkle site documents hydraulic-cylinder engineering since 1973.","Its product range includes block, standard and locking cylinders together with electrohydraulic linear actuators and cylinder accessories."],
-      "productCategories":["Гидравлические цилиндры","Линейные приводы"],"productFamilies":["Block Cylinders","Standard Cylinders","Locking Cylinders","Electrohydraulic Linear Actuators","Cylinder Accessories"],"series":[],
-      "industries":["Машиностроение","Промышленность"],"officialCatalogs":["https://www.ahp.de/en/products/hydraulic-cylinders/ahp-standard-cylinder/"],"documentationSources":["https://www.ahp.de/"],
-      "sources":[{"sourceId":"brand-ahp-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.ahp.de/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-ahp-cylinders","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.ahp.de/en/products/hydraulic-cylinders/ahp-standard-cylinder/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "ahp-merkle",
+      "officialName": "AHP Merkle GmbH",
+      "displayName": "AHP Merkle",
+      "aliases": [
+        "AHP MERKLE",
+        "AHP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ahp.de/",
+      "officialDomains": [
+        "ahp.de"
+      ],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": 1973,
+      "parentCompany": null,
+      "shortDescription": "AHP Merkle develops hydraulic cylinders and electrohydraulic linear actuators for industrial machinery.",
+      "fullDescription": [
+        "The official AHP Merkle site documents hydraulic-cylinder engineering since 1973.",
+        "Its product range includes block, standard and locking cylinders together with electrohydraulic linear actuators and cylinder accessories."
+      ],
+      "productCategories": [
+        "Гидравлические цилиндры",
+        "Линейные приводы"
+      ],
+      "productFamilies": [
+        "Block Cylinders",
+        "Standard Cylinders",
+        "Locking Cylinders",
+        "Electrohydraulic Linear Actuators",
+        "Cylinder Accessories"
+      ],
+      "series": [],
+      "industries": [
+        "Машиностроение",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.ahp.de/en/products/hydraulic-cylinders/ahp-standard-cylinder/"
+      ],
+      "documentationSources": [
+        "https://www.ahp.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ahp-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.ahp.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-ahp-cylinders",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.ahp.de/en/products/hydraulic-cylinders/ahp-standard-cylinder/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"br-automation","officialName":"B&R Industrial Automation GmbH","displayName":"B&R Automation","aliases":["B&R AUTOMATION","B&R","BR AUTOMATION"],"formerNames":[],
-      "officialWebsite":"https://www.br-automation.com/en-us/products/","officialDomains":["br-automation.com","abb.com"],"country":"Австрия","headquarters":null,"foundedYear":null,"parentCompany":"ABB Group",
-      "shortDescription":"B&R develops industrial automation, control, visualization and motion-control technologies within the ABB Group.",
-      "fullDescription":["The official B&R product directory covers control, monitoring, industrial computing, safety and motion technologies.","First-party ABB material identifies B&R as part of its machine-automation portfolio, including Automation Studio engineering software."],
-      "productCategories":["Промышленная автоматизация и управление","Приводные системы","Промышленное программное обеспечение"],"productFamilies":["PLC and Control Systems","HMI and Visualization","Industrial PCs","Machine Safety","Motion Control","Automation Studio"],"series":[],
-      "industries":["Промышленная автоматизация","Машиностроение","Упаковка"],"officialCatalogs":["https://www.br-automation.com/en-us/products/"],"documentationSources":["https://new.abb.com/uk/about/our-businesses/automation"],
-      "sources":[{"sourceId":"brand-br-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.br-automation.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-br-abb","tier":"A","type":"OFFICIAL_PARENT_PAGE","scope":"OWNERSHIP_AND_CATEGORY","url":"https://new.abb.com/uk/about/our-businesses/automation","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "br-automation",
+      "officialName": "B&R Industrial Automation GmbH",
+      "displayName": "B&R Automation",
+      "aliases": [
+        "B&R AUTOMATION",
+        "B&R",
+        "BR AUTOMATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.br-automation.com/en-us/products/",
+      "officialDomains": [
+        "br-automation.com",
+        "abb.com"
+      ],
+      "country": "Австрия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "ABB Group",
+      "shortDescription": "B&R develops industrial automation, control, visualization and motion-control technologies within the ABB Group.",
+      "fullDescription": [
+        "The official B&R product directory covers control, monitoring, industrial computing, safety and motion technologies.",
+        "First-party ABB material identifies B&R as part of its machine-automation portfolio, including Automation Studio engineering software."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация и управление",
+        "Приводные системы",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "PLC and Control Systems",
+        "HMI and Visualization",
+        "Industrial PCs",
+        "Machine Safety",
+        "Motion Control",
+        "Automation Studio"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Машиностроение",
+        "Упаковка"
+      ],
+      "officialCatalogs": [
+        "https://www.br-automation.com/en-us/products/"
+      ],
+      "documentationSources": [
+        "https://new.abb.com/uk/about/our-businesses/automation"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-br-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.br-automation.com/en-us/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-br-abb",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_PAGE",
+          "scope": "OWNERSHIP_AND_CATEGORY",
+          "url": "https://new.abb.com/uk/about/our-businesses/automation",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"baltimore-aircoil","officialName":"Baltimore Aircoil Company","displayName":"Baltimore Aircoil","aliases":["BALTIMORE AIRCOIL","BAC"],"formerNames":[],
-      "officialWebsite":"https://baltimoreaircoil.com/products?page=1","officialDomains":["baltimoreaircoil.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Baltimore Aircoil develops evaporative, dry and hybrid heat-rejection and thermal-storage equipment.",
-      "fullDescription":["The official BAC product directory documents cooling towers, closed-circuit cooling towers, evaporative condensers and dry or adiabatic products.","The range also includes hybrid coolers, ice thermal storage and immersion-cooling systems."],
-      "productCategories":["Охлаждающее оборудование","Тепловое оборудование"],"productFamilies":["Cooling Towers","Closed-Circuit Cooling Towers","Evaporative Condensers","Dry and Adiabatic Coolers","Hybrid Coolers","Ice Thermal Storage","Immersion Cooling"],"series":[],
-      "industries":["Промышленность","Энергетика","HVAC","Водоснабжение"],"officialCatalogs":["https://baltimoreaircoil.com/products?page=1"],"documentationSources":["https://baltimoreaircoil.com/products?page=1"],
-      "sources":[{"sourceId":"brand-bac-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://baltimoreaircoil.com/products?page=1","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "baltimore-aircoil",
+      "officialName": "Baltimore Aircoil Company",
+      "displayName": "Baltimore Aircoil",
+      "aliases": [
+        "BALTIMORE AIRCOIL",
+        "BAC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://baltimoreaircoil.com/products?page=1",
+      "officialDomains": [
+        "baltimoreaircoil.com"
+      ],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Baltimore Aircoil develops evaporative, dry and hybrid heat-rejection and thermal-storage equipment.",
+      "fullDescription": [
+        "The official BAC product directory documents cooling towers, closed-circuit cooling towers, evaporative condensers and dry or adiabatic products.",
+        "The range also includes hybrid coolers, ice thermal storage and immersion-cooling systems."
+      ],
+      "productCategories": [
+        "Охлаждающее оборудование",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Cooling Towers",
+        "Closed-Circuit Cooling Towers",
+        "Evaporative Condensers",
+        "Dry and Adiabatic Coolers",
+        "Hybrid Coolers",
+        "Ice Thermal Storage",
+        "Immersion Cooling"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Энергетика",
+        "HVAC",
+        "Водоснабжение"
+      ],
+      "officialCatalogs": [
+        "https://baltimoreaircoil.com/products?page=1"
+      ],
+      "documentationSources": [
+        "https://baltimoreaircoil.com/products?page=1"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bac-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://baltimoreaircoil.com/products?page=1",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"elgo-electronic","officialName":"ELGO Electronic GmbH & Co. KG","displayName":"ELGO Electronic","aliases":["ELGO ELECTRONIC","ELGO"],"formerNames":[],
-      "officialWebsite":"https://www.elgo.de/en/","officialDomains":["elgo.de"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"ELGO Electronic develops magnetic measurement, position indication and positioning-control systems.",
-      "fullDescription":["The official ELGO catalogue documents magnetic linear and rotary measurement systems.","Its product groups include position indicators, positioning controls and LIMAX shaft-information systems for lifts."],
-      "productCategories":["Измерительное оборудование","Энкодеры","Промышленная автоматизация и управление"],"productFamilies":["Magnetic Linear Measurement","Rotary Measurement Systems","Position Indicators","Positioning Controls","Lift Shaft-Information Systems"],"series":["LIMAX"],
-      "industries":["Промышленность","Машиностроение","Подъёмное оборудование"],"officialCatalogs":["https://www.elgo.de/fileadmin/user_upload/pdf/catalog/ELGO_Product_Catalogue.pdf"],"documentationSources":["https://www.elgo.de/en/support/catalogs/"],
-      "sources":[{"sourceId":"brand-elgo-catalogs","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.elgo.de/en/support/catalogs/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-elgo-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.elgo.de/fileadmin/user_upload/pdf/catalog/ELGO_Product_Catalogue.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "elgo-electronic",
+      "officialName": "ELGO Electronic GmbH & Co. KG",
+      "displayName": "ELGO Electronic",
+      "aliases": [
+        "ELGO ELECTRONIC",
+        "ELGO"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.elgo.de/en/",
+      "officialDomains": [
+        "elgo.de"
+      ],
+      "country": "Германия",
+      "headquarters": "Rielasingen-Worblingen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "ELGO Electronic develops magnetic measurement, position indication and positioning-control systems.",
+      "fullDescription": [
+        "The official ELGO catalogue documents magnetic linear and rotary measurement systems.",
+        "Its product groups include position indicators, positioning controls and LIMAX shaft-information systems for lifts."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Энкодеры",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "Magnetic Linear Measurement",
+        "Rotary Measurement Systems",
+        "Position Indicators",
+        "Positioning Controls",
+        "Lift Shaft-Information Systems"
+      ],
+      "series": [
+        "LIMAX"
+      ],
+      "industries": [
+        "Промышленность",
+        "Машиностроение",
+        "Подъёмное оборудование"
+      ],
+      "officialCatalogs": [
+        "https://www.elgo.de/fileadmin/user_upload/pdf/catalog/ELGO_Product_Catalogue.pdf"
+      ],
+      "documentationSources": [
+        "https://www.elgo.de/en/support/catalogs/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-elgo-catalogs",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.elgo.de/en/support/catalogs/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elgo-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.elgo.de/fileadmin/user_upload/pdf/catalog/ELGO_Product_Catalogue.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-elgo-electronic-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.elgo.de/en/contact/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"filton","officialName":"Filton Limited","displayName":"Filton","aliases":["FILTON","FILTON LTD"],"formerNames":[],
-      "officialWebsite":"https://www.filtonltd.com/EN/","officialDomains":["filtonltd.com"],"country":"Великобритания","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Filton manufactures rotary unions, swivel joints and associated fluid-transfer components.",
-      "fullDescription":["The official Filton site documents rotary unions and swivel joints for transferring fluids into rotating or moving machinery.","Its range also includes air-breather filters and flexible hoses."],
-      "productCategories":["Поворотные соединения","Фильтрационное оборудование","Промышленные шланги"],"productFamilies":["Rotary Unions","Swivel Joints","Air-Breather Filters","Flexible Hoses"],"series":[],
-      "industries":["Промышленность","Машиностроение"],"officialCatalogs":["https://www.filtonltd.com/EN/"],"documentationSources":["https://www.filtonltd.com/EN/"],
-      "sources":[{"sourceId":"brand-filton-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.filtonltd.com/EN/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "filton",
+      "officialName": "Filton Limited",
+      "displayName": "Filton",
+      "aliases": [
+        "FILTON",
+        "FILTON LTD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.filtonltd.com/EN/",
+      "officialDomains": [
+        "filtonltd.com"
+      ],
+      "country": "Великобритания",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Filton manufactures rotary unions, swivel joints and associated fluid-transfer components.",
+      "fullDescription": [
+        "The official Filton site documents rotary unions and swivel joints for transferring fluids into rotating or moving machinery.",
+        "Its range also includes air-breather filters and flexible hoses."
+      ],
+      "productCategories": [
+        "Поворотные соединения",
+        "Фильтрационное оборудование",
+        "Промышленные шланги"
+      ],
+      "productFamilies": [
+        "Rotary Unions",
+        "Swivel Joints",
+        "Air-Breather Filters",
+        "Flexible Hoses"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [
+        "https://www.filtonltd.com/EN/"
+      ],
+      "documentationSources": [
+        "https://www.filtonltd.com/EN/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-filton-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.filtonltd.com/EN/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"heinzmann","officialName":"HEINZMANN GmbH & Co. KG","displayName":"HEINZMANN","aliases":["HEINZMANN GMBH","HEINZMANN"],"formerNames":[],
-      "officialWebsite":"https://www.heinzmann.com/en/","officialDomains":["heinzmann.com"],"country":"Германия","headquarters":null,"foundedYear":1897,"parentCompany":null,
-      "shortDescription":"HEINZMANN develops engine and turbine management, fuel-injection and generator-control technologies.",
-      "fullDescription":["Official HEINZMANN material documents analogue, digital and hydraulic speed governors together with actuators and sensors.","The portfolio also covers injection and common-rail systems, turbine controls and generator-management equipment."],
-      "productCategories":["Промышленная автоматизация и управление","Промышленные датчики","Турбинное оборудование"],"productFamilies":["Speed Governors","Engine Actuators","Fuel-Injection Systems","Common-Rail Systems","Turbine Controls","Generator Management","Industrial Sensors"],"series":[],
-      "industries":["Энергетика","Морская промышленность","Промышленность","Транспорт"],"officialCatalogs":["https://www.heinzmann.com/en/downloads/governors/send/33-allgemein/501-product-guide"],"documentationSources":["https://www.heinzmann.com/en/products/components-analogue-speed-governors"],
-      "sources":[{"sourceId":"brand-heinzmann-governors","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.heinzmann.com/en/products/components-analogue-speed-governors","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-heinzmann-guide","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.heinzmann.com/en/downloads/governors/send/33-allgemein/501-product-guide","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "heinzmann",
+      "officialName": "HEINZMANN GmbH & Co. KG",
+      "displayName": "HEINZMANN",
+      "aliases": [
+        "HEINZMANN GMBH",
+        "HEINZMANN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.heinzmann.com/en/",
+      "officialDomains": [
+        "heinzmann.com"
+      ],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": 1897,
+      "parentCompany": null,
+      "shortDescription": "HEINZMANN develops engine and turbine management, fuel-injection and generator-control technologies.",
+      "fullDescription": [
+        "Official HEINZMANN material documents analogue, digital and hydraulic speed governors together with actuators and sensors.",
+        "The portfolio also covers injection and common-rail systems, turbine controls and generator-management equipment."
+      ],
+      "productCategories": [
+        "Промышленная автоматизация и управление",
+        "Промышленные датчики",
+        "Турбинное оборудование"
+      ],
+      "productFamilies": [
+        "Speed Governors",
+        "Engine Actuators",
+        "Fuel-Injection Systems",
+        "Common-Rail Systems",
+        "Turbine Controls",
+        "Generator Management",
+        "Industrial Sensors"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Морская промышленность",
+        "Промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.heinzmann.com/en/downloads/governors/send/33-allgemein/501-product-guide"
+      ],
+      "documentationSources": [
+        "https://www.heinzmann.com/en/products/components-analogue-speed-governors"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-heinzmann-governors",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.heinzmann.com/en/products/components-analogue-speed-governors",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-heinzmann-guide",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.heinzmann.com/en/downloads/governors/send/33-allgemein/501-product-guide",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"m-pumps","officialName":"M PUMPS S.r.l.","displayName":"M PUMPS","aliases":["M PUMPS","M-PUMPS"],"formerNames":[],
-      "officialWebsite":"https://www.mpumps.it/about-us/","officialDomains":["mpumps.it"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"M PUMPS manufactures sealless magnetic-drive and mechanically sealed process pumps.",
-      "fullDescription":["The official company profile documents magnetic-drive and mechanical-seal pump technologies for process applications.","The range includes single- and multistage centrifugal pumps and positive-displacement pump families."],
-      "productCategories":["Промышленные насосы"],"productFamilies":["Magnetic-Drive Pumps","Mechanical-Seal Pumps","Centrifugal Pumps","Multistage Pumps","Positive-Displacement Pumps"],"series":["CN","CR","CM","CT","SC"],
-      "industries":["Химическая промышленность","Нефтегазовая промышленность","Промышленность"],"officialCatalogs":["https://www.mpumps.it/wp-content/uploads/2018/06/Web-Company-Profile-EN-1.pdf"],"documentationSources":["https://www.mpumps.it/about-us/"],
-      "sources":[{"sourceId":"brand-m-pumps-about","tier":"A","type":"ABOUT","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.mpumps.it/about-us/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-m-pumps-profile","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.mpumps.it/wp-content/uploads/2018/06/Web-Company-Profile-EN-1.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "m-pumps",
+      "officialName": "M PUMPS S.r.l.",
+      "displayName": "M PUMPS",
+      "aliases": [
+        "M PUMPS",
+        "M-PUMPS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.mpumps.it/about-us/",
+      "officialDomains": [
+        "mpumps.it"
+      ],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "M PUMPS manufactures sealless magnetic-drive and mechanically sealed process pumps.",
+      "fullDescription": [
+        "The official company profile documents magnetic-drive and mechanical-seal pump technologies for process applications.",
+        "The range includes single- and multistage centrifugal pumps and positive-displacement pump families."
+      ],
+      "productCategories": [
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Magnetic-Drive Pumps",
+        "Mechanical-Seal Pumps",
+        "Centrifugal Pumps",
+        "Multistage Pumps",
+        "Positive-Displacement Pumps"
+      ],
+      "series": [
+        "CN",
+        "CR",
+        "CM",
+        "CT",
+        "SC"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.mpumps.it/wp-content/uploads/2018/06/Web-Company-Profile-EN-1.pdf"
+      ],
+      "documentationSources": [
+        "https://www.mpumps.it/about-us/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-m-pumps-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.mpumps.it/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-m-pumps-profile",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.mpumps.it/wp-content/uploads/2018/06/Web-Company-Profile-EN-1.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"pegas-gonda","officialName":"PEGAS-GONDA s.r.o.","displayName":"PEGAS-GONDA","aliases":["PEGAS GONDA","PEGAS-GONDA"],"formerNames":[],
-      "officialWebsite":"https://www.pegas-gonda.cz/en/","officialDomains":["pegas-gonda.cz"],"country":"Чехия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"PEGAS-GONDA manufactures industrial band-saw machines and material-handling accessories.",
-      "fullDescription":["The official catalogue documents joint, double-column, angle-cutting, bundle-cutting and high-efficiency band saws.","The product scope also includes circular saws, roller tables and handling systems for cut material."],
-      "productCategories":["Промышленные станки","Конвейерное оборудование"],"productFamilies":["Joint Band Saws","Double-Column Band Saws","Angle-Cutting Saws","Bundle-Cutting Saws","Circular Saws","Roller Tables"],"series":[],
-      "industries":["Металлургия","Машиностроение","Промышленность"],"officialCatalogs":["https://www.pegas-gonda.cz/en/pdf/categoryList/15/Band%20saw%20machine.pdf"],"documentationSources":["https://www.pegas-gonda.cz/en/downloads/0/download"],
-      "sources":[{"sourceId":"brand-pegas-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.pegas-gonda.cz/en/downloads/0/download","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-pegas-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"FAMILY_CATEGORY","url":"https://www.pegas-gonda.cz/en/pdf/categoryList/15/Band%20saw%20machine.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "pegas-gonda",
+      "officialName": "PEGAS-GONDA s.r.o.",
+      "displayName": "PEGAS-GONDA",
+      "aliases": [
+        "PEGAS GONDA",
+        "PEGAS-GONDA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.pegas-gonda.cz/en/",
+      "officialDomains": [
+        "pegas-gonda.cz"
+      ],
+      "country": "Чехия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "PEGAS-GONDA manufactures industrial band-saw machines and material-handling accessories.",
+      "fullDescription": [
+        "The official catalogue documents joint, double-column, angle-cutting, bundle-cutting and high-efficiency band saws.",
+        "The product scope also includes circular saws, roller tables and handling systems for cut material."
+      ],
+      "productCategories": [
+        "Промышленные станки",
+        "Конвейерное оборудование"
+      ],
+      "productFamilies": [
+        "Joint Band Saws",
+        "Double-Column Band Saws",
+        "Angle-Cutting Saws",
+        "Bundle-Cutting Saws",
+        "Circular Saws",
+        "Roller Tables"
+      ],
+      "series": [],
+      "industries": [
+        "Металлургия",
+        "Машиностроение",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.pegas-gonda.cz/en/pdf/categoryList/15/Band%20saw%20machine.pdf"
+      ],
+      "documentationSources": [
+        "https://www.pegas-gonda.cz/en/downloads/0/download"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-pegas-downloads",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.pegas-gonda.cz/en/downloads/0/download",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-pegas-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.pegas-gonda.cz/en/pdf/categoryList/15/Band%20saw%20machine.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"sofima","officialName":"SOFIMA Filter","displayName":"SOFIMA Hydraulics","aliases":["SOFIMA HYDRAULICS","SOFIMA","UFI SOFIMA"],"formerNames":[],
-      "officialWebsite":"https://www.ufihyd.com/products/","officialDomains":["ufihyd.com"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":"UFI Filters",
-      "shortDescription":"SOFIMA is part of UFI Filters' hydraulic filtration portfolio for mobile and industrial systems.",
-      "fullDescription":["The official UFI Hydraulics product directory retains the UFI and SOFIMA filtration brands.","Its documented range includes suction, pressure, return, offline, transmission and air filters, filter elements and clogging indicators."],
-      "productCategories":["Фильтрационное оборудование","Гидравлическое оборудование","Промышленные датчики"],"productFamilies":["Suction Filters","Pressure Filters","Return Filters","Offline Filters","Transmission Filters","Air Filters","Filter Elements","Clogging Indicators"],"series":[],
-      "industries":["Промышленность","Машиностроение","Транспорт"],"officialCatalogs":["https://www.ufihyd.com/pdf/en/Ufi-Sofima_HYD_Brochure_2020_no_ombre_R3_220120_web.pdf"],"documentationSources":["https://www.ufihyd.com/products/"],
-      "sources":[{"sourceId":"brand-sofima-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.ufihyd.com/products/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-sofima-brochure","tier":"A","type":"OFFICIAL_BRAND_BROCHURE","scope":"FAMILY_CATEGORY","url":"https://www.ufihyd.com/pdf/en/Ufi-Sofima_HYD_Brochure_2020_no_ombre_R3_220120_web.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "sofima",
+      "officialName": "SOFIMA Filter",
+      "displayName": "SOFIMA Hydraulics",
+      "aliases": [
+        "SOFIMA HYDRAULICS",
+        "SOFIMA",
+        "UFI SOFIMA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ufihyd.com/products/",
+      "officialDomains": [
+        "ufihyd.com"
+      ],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "UFI Filters",
+      "shortDescription": "SOFIMA is part of UFI Filters' hydraulic filtration portfolio for mobile and industrial systems.",
+      "fullDescription": [
+        "The official UFI Hydraulics product directory retains the UFI and SOFIMA filtration brands.",
+        "Its documented range includes suction, pressure, return, offline, transmission and air filters, filter elements and clogging indicators."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Гидравлическое оборудование",
+        "Промышленные датчики"
+      ],
+      "productFamilies": [
+        "Suction Filters",
+        "Pressure Filters",
+        "Return Filters",
+        "Offline Filters",
+        "Transmission Filters",
+        "Air Filters",
+        "Filter Elements",
+        "Clogging Indicators"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Машиностроение",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.ufihyd.com/pdf/en/Ufi-Sofima_HYD_Brochure_2020_no_ombre_R3_220120_web.pdf"
+      ],
+      "documentationSources": [
+        "https://www.ufihyd.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-sofima-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.ufihyd.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-sofima-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_BRAND_BROCHURE",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.ufihyd.com/pdf/en/Ufi-Sofima_HYD_Brochure_2020_no_ombre_R3_220120_web.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"parker-hiross-zander","officialName":"Parker Zander","displayName":"Zander","aliases":["ZANDER","PARKER ZANDER","PARKER HIROSS ZANDER"],"formerNames":[],
-      "officialWebsite":"https://www.parker.com/","officialDomains":["parker.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Parker Hannifin",
-      "shortDescription":"Zander is a Parker brand for compressed-air and gas treatment equipment.",
-      "fullDescription":["Official Parker material retains the Zander brand for compressed-air dryers, filters and related service components.","The documented portfolio includes adsorption and high-pressure dryers, compressed-air and gas filters, breathing-air purification and condensate-management technologies."],
-      "productCategories":["Компрессорное оборудование","Фильтрационное оборудование"],"productFamilies":["Compressed-Air Dryers","High-Pressure Dryers","Compressed-Air Filters","Gas Filters","Breathing-Air Purifiers","Condensate Management"],"series":["K-MT","KA-MT","HDK-MT"],
-      "industries":["Промышленность","Пищевая промышленность","Фармацевтическая промышленность","Химическая промышленность"],"officialCatalogs":["https://www.parker.com/content/dam/Parker-com/Literature/Hiross-Zander-Division/PDF-Files/Catalogs/GSFE-2020-CAGT-Product-Catalogue.pdf"],"documentationSources":["https://ph.parker.com/us/en/skk6-k7-d2-12"],
-      "sources":[{"sourceId":"brand-zander-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.parker.com/content/dam/Parker-com/Literature/Hiross-Zander-Division/PDF-Files/Catalogs/GSFE-2020-CAGT-Product-Catalogue.pdf","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-zander-product","tier":"A","type":"OFFICIAL_PRODUCT_PAGE","scope":"FAMILY_AND_SERIES","url":"https://ph.parker.com/us/en/skk6-k7-d2-12","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "parker-hiross-zander",
+      "officialName": "Parker Zander",
+      "displayName": "Zander",
+      "aliases": [
+        "ZANDER",
+        "PARKER ZANDER",
+        "PARKER HIROSS ZANDER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.parker.com/",
+      "officialDomains": [
+        "parker.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Parker Hannifin",
+      "shortDescription": "Zander is a Parker brand for compressed-air and gas treatment equipment.",
+      "fullDescription": [
+        "Official Parker material retains the Zander brand for compressed-air dryers, filters and related service components.",
+        "The documented portfolio includes adsorption and high-pressure dryers, compressed-air and gas filters, breathing-air purification and condensate-management technologies."
+      ],
+      "productCategories": [
+        "Компрессорное оборудование",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Compressed-Air Dryers",
+        "High-Pressure Dryers",
+        "Compressed-Air Filters",
+        "Gas Filters",
+        "Breathing-Air Purifiers",
+        "Condensate Management"
+      ],
+      "series": [
+        "K-MT",
+        "KA-MT",
+        "HDK-MT"
+      ],
+      "industries": [
+        "Промышленность",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.parker.com/content/dam/Parker-com/Literature/Hiross-Zander-Division/PDF-Files/Catalogs/GSFE-2020-CAGT-Product-Catalogue.pdf"
+      ],
+      "documentationSources": [
+        "https://ph.parker.com/us/en/skk6-k7-d2-12"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-zander-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hiross-Zander-Division/PDF-Files/Catalogs/GSFE-2020-CAGT-Product-Catalogue.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-zander-product",
+          "tier": "A",
+          "type": "OFFICIAL_PRODUCT_PAGE",
+          "scope": "FAMILY_AND_SERIES",
+          "url": "https://ph.parker.com/us/en/skk6-k7-d2-12",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"abp-induction","officialName":"ABP Induction Systems GmbH","displayName":"ABP Induction","aliases":["ABP INDUCTION","ABP"],"formerNames":[],
-      "officialWebsite":"https://abpinduction.com/en/people-1/about-abp/","officialDomains":["abpinduction.com"],"country":"Германия","headquarters":null,"foundedYear":2005,"parentCompany":"Mitsubishi Heavy Industries and Primetals Technologies group",
-      "shortDescription":"ABP Induction develops induction furnaces and heating systems for metals processing.",
-      "fullDescription":["The official ABP profile documents induction melting, pouring, holding and heating systems for ferrous and non-ferrous metals.","Its foundry portfolio includes coreless and channel induction furnaces together with digital service and control technologies."],
-      "productCategories":["Тепловое оборудование","Промышленная автоматизация и управление"],"productFamilies":["Coreless Induction Furnaces","Channel Induction Furnaces","Induction Heating Systems","Pouring and Holding Systems","Digital Furnace Controls"],"series":["EcoLine","FS","IFM","IFM-S","RZS","RKS","RMS"],
-      "industries":["Металлургия","Промышленность"],"officialCatalogs":["https://abpinduction.com/en/technology-2/foundries/"],"documentationSources":["https://abpinduction.com/en/people-1/about-abp/"],
-      "sources":[{"sourceId":"brand-abp-about","tier":"A","type":"ABOUT","scope":"BRAND_IDENTITY_AND_OWNERSHIP","url":"https://abpinduction.com/en/people-1/about-abp/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-abp-foundries","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://abpinduction.com/en/technology-2/foundries/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "abp-induction",
+      "officialName": "ABP Induction Systems GmbH",
+      "displayName": "ABP Induction",
+      "aliases": [
+        "ABP INDUCTION",
+        "ABP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://abpinduction.com/en/people-1/about-abp/",
+      "officialDomains": [
+        "abpinduction.com"
+      ],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": 2005,
+      "parentCompany": "Mitsubishi Heavy Industries and Primetals Technologies group",
+      "shortDescription": "ABP Induction develops induction furnaces and heating systems for metals processing.",
+      "fullDescription": [
+        "The official ABP profile documents induction melting, pouring, holding and heating systems for ferrous and non-ferrous metals.",
+        "Its foundry portfolio includes coreless and channel induction furnaces together with digital service and control technologies."
+      ],
+      "productCategories": [
+        "Тепловое оборудование",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "Coreless Induction Furnaces",
+        "Channel Induction Furnaces",
+        "Induction Heating Systems",
+        "Pouring and Holding Systems",
+        "Digital Furnace Controls"
+      ],
+      "series": [
+        "EcoLine",
+        "FS",
+        "IFM",
+        "IFM-S",
+        "RZS",
+        "RKS",
+        "RMS"
+      ],
+      "industries": [
+        "Металлургия",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://abpinduction.com/en/technology-2/foundries/"
+      ],
+      "documentationSources": [
+        "https://abpinduction.com/en/people-1/about-abp/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-abp-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY_AND_OWNERSHIP",
+          "url": "https://abpinduction.com/en/people-1/about-abp/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-abp-foundries",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://abpinduction.com/en/technology-2/foundries/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"bondioli-pavesi","officialName":"Bondioli & Pavesi S.p.A.","displayName":"Bondioli & Pavesi","aliases":["BONDIOLI PAVESI","BONDIOLI & PAVESI"],"formerNames":[],
-      "officialWebsite":"https://www.bondioli-pavesi.com/en/products","officialDomains":["bondioli-pavesi.com"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Bondioli & Pavesi develops mechanical power-transmission, hydraulic-control and heat-exchange components.",
-      "fullDescription":["The official product directory covers drive shafts, gearboxes, clutches, hydraulic pumps and motors.","It also documents directional and cartridge valves, electronic control components, fan-drive systems and heat exchangers."],
-      "productCategories":["Приводные системы","Гидравлическое оборудование","Промышленные клапаны","Тепловое оборудование"],"productFamilies":["Drive Shafts","Industrial Gearboxes","Hydraulic Pumps and Motors","Directional-Control Valves","Cartridge Valves","Electronic Controls","Heat Exchangers"],"series":[],
-      "industries":["Сельское хозяйство","Промышленность","Транспорт"],"officialCatalogs":["https://www.bondioli-pavesi.com/en/download/pdf"],"documentationSources":["https://www.bondioli-pavesi.com/en/products"],
-      "sources":[{"sourceId":"brand-bondioli-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.bondioli-pavesi.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-bondioli-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://www.bondioli-pavesi.com/en/download/pdf","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "bondioli-pavesi",
+      "officialName": "Bondioli & Pavesi S.p.A.",
+      "displayName": "Bondioli & Pavesi",
+      "aliases": [
+        "BONDIOLI PAVESI",
+        "BONDIOLI & PAVESI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bondioli-pavesi.com/en/products",
+      "officialDomains": [
+        "bondioli-pavesi.com"
+      ],
+      "country": "Италия",
+      "headquarters": "Suzzara, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Bondioli & Pavesi develops mechanical power-transmission, hydraulic-control and heat-exchange components.",
+      "fullDescription": [
+        "The official product directory covers drive shafts, gearboxes, clutches, hydraulic pumps and motors.",
+        "It also documents directional and cartridge valves, electronic control components, fan-drive systems and heat exchangers."
+      ],
+      "productCategories": [
+        "Приводные системы",
+        "Гидравлическое оборудование",
+        "Промышленные клапаны",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Drive Shafts",
+        "Industrial Gearboxes",
+        "Hydraulic Pumps and Motors",
+        "Directional-Control Valves",
+        "Cartridge Valves",
+        "Electronic Controls",
+        "Heat Exchangers"
+      ],
+      "series": [],
+      "industries": [
+        "Сельское хозяйство",
+        "Промышленность",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.bondioli-pavesi.com/en/download/pdf"
+      ],
+      "documentationSources": [
+        "https://www.bondioli-pavesi.com/en/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bondioli-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.bondioli-pavesi.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-bondioli-downloads",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION",
+          "url": "https://www.bondioli-pavesi.com/en/download/pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-bondioli-pavesi-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.bondioli-pavesi.com/en/legal-declarations",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"clextral","officialName":"Clextral S.A.S.","displayName":"Clextral","aliases":["CLEXTRAL"],"formerNames":[],
-      "officialWebsite":"https://www.clextral.com/","officialDomains":["clextral.com"],"country":"Франция","headquarters":null,"foundedYear":1956,"parentCompany":null,
-      "shortDescription":"Clextral develops twin-screw extrusion systems and integrated process lines for food and industrial applications.",
-      "fullDescription":["The official Clextral site documents co-rotating twin-screw extruders, preconditioners, dryers and ancillary production-line equipment.","Its process scope covers food and feed production as well as non-food extrusion, green industries and drying technologies."],
-      "productCategories":["Экструзионное оборудование","Технологическое оборудование","Промышленные машины"],"productFamilies":["Twin-Screw Extruders","Preconditioners","Industrial Dryers","Ancillary Process Equipment","Integrated Production Lines"],"series":["Evolum+","Evolum","BC"],
-      "industries":["Пищевая промышленность","Промышленность","Химическая промышленность"],"officialCatalogs":["https://www.clextral.com/our-offer/"],"documentationSources":["https://www.clextral.com/we-are-clextral/"],
-      "sources":[{"sourceId":"brand-clextral-offer","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.clextral.com/our-offer/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-clextral-about","tier":"A","type":"ABOUT","scope":"HISTORY_AND_INDUSTRY","url":"https://www.clextral.com/we-are-clextral/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "clextral",
+      "officialName": "Clextral S.A.S.",
+      "displayName": "Clextral",
+      "aliases": [
+        "CLEXTRAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.clextral.com/",
+      "officialDomains": [
+        "clextral.com"
+      ],
+      "country": "Франция",
+      "headquarters": null,
+      "foundedYear": 1956,
+      "parentCompany": null,
+      "shortDescription": "Clextral develops twin-screw extrusion systems and integrated process lines for food and industrial applications.",
+      "fullDescription": [
+        "The official Clextral site documents co-rotating twin-screw extruders, preconditioners, dryers and ancillary production-line equipment.",
+        "Its process scope covers food and feed production as well as non-food extrusion, green industries and drying technologies."
+      ],
+      "productCategories": [
+        "Экструзионное оборудование",
+        "Технологическое оборудование",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Twin-Screw Extruders",
+        "Preconditioners",
+        "Industrial Dryers",
+        "Ancillary Process Equipment",
+        "Integrated Production Lines"
+      ],
+      "series": [
+        "Evolum+",
+        "Evolum",
+        "BC"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.clextral.com/our-offer/"
+      ],
+      "documentationSources": [
+        "https://www.clextral.com/we-are-clextral/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-clextral-offer",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.clextral.com/our-offer/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-clextral-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "HISTORY_AND_INDUSTRY",
+          "url": "https://www.clextral.com/we-are-clextral/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"dynisco","officialName":"Dynisco","displayName":"Dynisco","aliases":["DYNISCO"],"formerNames":[],
-      "officialWebsite":"https://www.dynisco.com/sensors-and-measurement/","officialDomains":["dynisco.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Dynisco develops melt-pressure sensors, instrumentation and analytical equipment for polymer processing.",
-      "fullDescription":["The official Dynisco portfolio documents melt-pressure transducers and transmitters for extrusion and polymer-processing environments.","It also includes indicators, controls and polymer-testing or analytical instruments supported by first-party technical documentation."],
-      "productCategories":["Промышленные датчики","Измерительное оборудование","Лабораторное оборудование"],"productFamilies":["Melt-Pressure Sensors","Pressure Transmitters","Industrial Indicators","Process Controls","Polymer-Testing Instruments"],"series":["831","851","861"],
-      "industries":["Промышленность","Химическая промышленность","Лабораторные исследования"],"officialCatalogs":["https://www.dynisco.com/userfiles/files/dynisco_product_portfolio.pdf"],"documentationSources":["https://www.dynisco.com/knowledge-center/index.cfm?tid=Datasheets-7"],
-      "sources":[{"sourceId":"brand-dynisco-sensors","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.dynisco.com/sensors-and-measurement/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-dynisco-docs","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://www.dynisco.com/knowledge-center/index.cfm?tid=Datasheets-7","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "dynisco",
+      "officialName": "Dynisco",
+      "displayName": "Dynisco",
+      "aliases": [
+        "DYNISCO"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.dynisco.com/sensors-and-measurement/",
+      "officialDomains": [
+        "dynisco.com"
+      ],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Dynisco develops melt-pressure sensors, instrumentation and analytical equipment for polymer processing.",
+      "fullDescription": [
+        "The official Dynisco portfolio documents melt-pressure transducers and transmitters for extrusion and polymer-processing environments.",
+        "It also includes indicators, controls and polymer-testing or analytical instruments supported by first-party technical documentation."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Измерительное оборудование",
+        "Лабораторное оборудование"
+      ],
+      "productFamilies": [
+        "Melt-Pressure Sensors",
+        "Pressure Transmitters",
+        "Industrial Indicators",
+        "Process Controls",
+        "Polymer-Testing Instruments"
+      ],
+      "series": [
+        "831",
+        "851",
+        "861"
+      ],
+      "industries": [
+        "Промышленность",
+        "Химическая промышленность",
+        "Лабораторные исследования"
+      ],
+      "officialCatalogs": [
+        "https://www.dynisco.com/userfiles/files/dynisco_product_portfolio.pdf"
+      ],
+      "documentationSources": [
+        "https://www.dynisco.com/knowledge-center/index.cfm?tid=Datasheets-7"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-dynisco-sensors",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.dynisco.com/sensors-and-measurement/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-dynisco-docs",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION",
+          "url": "https://www.dynisco.com/knowledge-center/index.cfm?tid=Datasheets-7",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"flender","officialName":"Flender GmbH","displayName":"Flender","aliases":["FLENDER"],"formerNames":[],
-      "officialWebsite":"https://www.flender.com/en/products","officialDomains":["flender.com"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Flender develops industrial gear units, couplings and associated drive-system components.",
-      "fullDescription":["The official Flender product directory documents helical, bevel-helical and planetary gear units for industrial applications.","Its coupling portfolio covers flexible, torsionally rigid, hydrodynamic, backlash-free and railway configurations, with supporting drive components and documentation."],
-      "productCategories":["Редукторы и мотор-редукторы","Промышленные муфты","Приводные системы"],"productFamilies":["Helical Gear Units","Planetary Gear Units","Flexible Couplings","Torsionally Rigid Couplings","Hydrodynamic Couplings","Railway Couplings","Drive-System Components"],"series":["FLENDER ONE","PLANUREX","N-EUPEX","FLUDEX","ARPEX","ZAPEX"],
-      "industries":["Промышленность","Энергетика","Металлургия","Морская промышленность","Железнодорожный транспорт"],"officialCatalogs":["https://www.flender.com/en/products"],"documentationSources":["https://www.flender.com/"],
-      "sources":[{"sourceId":"brand-flender-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.flender.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "flender",
+      "officialName": "Flender GmbH",
+      "displayName": "Flender",
+      "aliases": [
+        "FLENDER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.flender.com/en/products",
+      "officialDomains": [
+        "flender.com"
+      ],
+      "country": "Германия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Flender develops industrial gear units, couplings and associated drive-system components.",
+      "fullDescription": [
+        "The official Flender product directory documents helical, bevel-helical and planetary gear units for industrial applications.",
+        "Its coupling portfolio covers flexible, torsionally rigid, hydrodynamic, backlash-free and railway configurations, with supporting drive components and documentation."
+      ],
+      "productCategories": [
+        "Редукторы и мотор-редукторы",
+        "Промышленные муфты",
+        "Приводные системы"
+      ],
+      "productFamilies": [
+        "Helical Gear Units",
+        "Planetary Gear Units",
+        "Flexible Couplings",
+        "Torsionally Rigid Couplings",
+        "Hydrodynamic Couplings",
+        "Railway Couplings",
+        "Drive-System Components"
+      ],
+      "series": [
+        "FLENDER ONE",
+        "PLANUREX",
+        "N-EUPEX",
+        "FLUDEX",
+        "ARPEX",
+        "ZAPEX"
+      ],
+      "industries": [
+        "Промышленность",
+        "Энергетика",
+        "Металлургия",
+        "Морская промышленность",
+        "Железнодорожный транспорт"
+      ],
+      "officialCatalogs": [
+        "https://www.flender.com/en/products"
+      ],
+      "documentationSources": [
+        "https://www.flender.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-flender-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.flender.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"givi-misure","officialName":"GIVI MISURE S.r.l.","displayName":"GIVI MISURE","aliases":["GIVI MISURE","GIVI"],"formerNames":[],
-      "officialWebsite":"https://www.givimisure.it/en/products/","officialDomains":["givimisure.it"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"GIVI MISURE develops linear and rotary measurement and positioning systems for industrial machinery.",
-      "fullDescription":["The official product directory documents optical scales, magnetic measurement systems and rotary encoders.","The range also includes digital readouts, position controllers and related accessories."],
-      "productCategories":["Измерительное оборудование","Энкодеры","Промышленная автоматизация и управление"],"productFamilies":["Optical Scales","Magnetic Measurement Systems","Rotary Encoders","Digital Readouts","Position Controllers"],"series":[],
-      "industries":["Станкостроение","Промышленность"],"officialCatalogs":["https://www.givimisure.it/en/products/"],"documentationSources":["https://www.givimisure.it/"],
-      "sources":[{"sourceId":"brand-givi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.givimisure.it/en/products/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "givi-misure",
+      "officialName": "GIVI MISURE S.r.l.",
+      "displayName": "GIVI MISURE",
+      "aliases": [
+        "GIVI MISURE",
+        "GIVI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.givimisure.it/en/products/",
+      "officialDomains": [
+        "givimisure.it"
+      ],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "GIVI MISURE develops linear and rotary measurement and positioning systems for industrial machinery.",
+      "fullDescription": [
+        "The official product directory documents optical scales, magnetic measurement systems and rotary encoders.",
+        "The range also includes digital readouts, position controllers and related accessories."
+      ],
+      "productCategories": [
+        "Измерительное оборудование",
+        "Энкодеры",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "Optical Scales",
+        "Magnetic Measurement Systems",
+        "Rotary Encoders",
+        "Digital Readouts",
+        "Position Controllers"
+      ],
+      "series": [],
+      "industries": [
+        "Станкостроение",
+        "Промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.givimisure.it/en/products/"
+      ],
+      "documentationSources": [
+        "https://www.givimisure.it/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-givi-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.givimisure.it/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"hankison","officialName":"Hankison","displayName":"Hankison","aliases":["HANKISON","HANKISON AIR"],"formerNames":[],
-      "officialWebsite":"https://www.hankisonair.com/en/","officialDomains":["hankisonair.com"],"country":"США","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Hankison develops compressed-air dryers, filters, purifiers and condensate-management equipment.",
-      "fullDescription":["The official Hankison product directory covers refrigerated, desiccant and membrane compressed-air dryers.","Its portfolio also includes air filters, breathing-air purifiers and condensate-management systems."],
-      "productCategories":["Компрессорное оборудование","Фильтрационное оборудование"],"productFamilies":["Refrigerated Air Dryers","Desiccant Air Dryers","Membrane Air Dryers","Compressed-Air Filters","Breathing-Air Purifiers","Condensate Management"],"series":["HF"],
-      "industries":["Промышленность","Пищевая промышленность","Фармацевтическая промышленность"],"officialCatalogs":["https://www.hankisonair.com/api/get-file?id=CONTA12C0BC44F5F412E91A15111D471DBA3"],"documentationSources":["https://www.hankisonair.com/en/"],
-      "sources":[{"sourceId":"brand-hankison-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.hankisonair.com/en/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-hankison-filters","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"FAMILY_CATEGORY","url":"https://www.hankisonair.com/api/get-file?id=CONTA12C0BC44F5F412E91A15111D471DBA3","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "hankison",
+      "officialName": "Hankison",
+      "displayName": "Hankison",
+      "aliases": [
+        "HANKISON",
+        "HANKISON AIR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.hankisonair.com/en/",
+      "officialDomains": [
+        "hankisonair.com"
+      ],
+      "country": "США",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Hankison develops compressed-air dryers, filters, purifiers and condensate-management equipment.",
+      "fullDescription": [
+        "The official Hankison product directory covers refrigerated, desiccant and membrane compressed-air dryers.",
+        "Its portfolio also includes air filters, breathing-air purifiers and condensate-management systems."
+      ],
+      "productCategories": [
+        "Компрессорное оборудование",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Refrigerated Air Dryers",
+        "Desiccant Air Dryers",
+        "Membrane Air Dryers",
+        "Compressed-Air Filters",
+        "Breathing-Air Purifiers",
+        "Condensate Management"
+      ],
+      "series": [
+        "HF"
+      ],
+      "industries": [
+        "Промышленность",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.hankisonair.com/api/get-file?id=CONTA12C0BC44F5F412E91A15111D471DBA3"
+      ],
+      "documentationSources": [
+        "https://www.hankisonair.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-hankison-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.hankisonair.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-hankison-filters",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.hankisonair.com/api/get-file?id=CONTA12C0BC44F5F412E91A15111D471DBA3",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"headline-filters","officialName":"Headline Filters Limited","displayName":"Headline Filters","aliases":["HEADLINE FILTERS","HEADLINE FILTERS LTD"],"formerNames":[],
-      "officialWebsite":"https://headlinefilters.com/products","officialDomains":["headlinefilters.com"],"country":"Великобритания","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Headline Filters manufactures filter elements, housings and separators for gases and liquids.",
-      "fullDescription":["The official product directory covers filter elements and housings for compressed air, natural gas, high-purity gas and liquids.","It also documents disposable inline filters, adsorbers, membrane separators and sample-conditioning components."],
-      "productCategories":["Фильтрационное оборудование"],"productFamilies":["Filter Elements","Filter Housings","Compressed-Air Filters","Gas Filters","Liquid Filters","Inline Filters and Adsorbers","Membrane Separators","Sample-Conditioning Components"],"series":[],
-      "industries":["Промышленность","Нефтегазовая промышленность","Лабораторные исследования","Транспорт"],"officialCatalogs":["https://headlinefilters.com/products"],"documentationSources":["https://headlinefilters.com/pages/applications"],
-      "sources":[{"sourceId":"brand-headline-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://headlinefilters.com/products","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-headline-applications","tier":"A","type":"OFFICIAL_APPLICATION_PAGE","scope":"CATEGORY_AND_APPLICATION","url":"https://headlinefilters.com/pages/applications","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "headline-filters",
+      "officialName": "Headline Filters Limited",
+      "displayName": "Headline Filters",
+      "aliases": [
+        "HEADLINE FILTERS",
+        "HEADLINE FILTERS LTD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://headlinefilters.com/products",
+      "officialDomains": [
+        "headlinefilters.com"
+      ],
+      "country": "Великобритания",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Headline Filters manufactures filter elements, housings and separators for gases and liquids.",
+      "fullDescription": [
+        "The official product directory covers filter elements and housings for compressed air, natural gas, high-purity gas and liquids.",
+        "It also documents disposable inline filters, adsorbers, membrane separators and sample-conditioning components."
+      ],
+      "productCategories": [
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Filter Elements",
+        "Filter Housings",
+        "Compressed-Air Filters",
+        "Gas Filters",
+        "Liquid Filters",
+        "Inline Filters and Adsorbers",
+        "Membrane Separators",
+        "Sample-Conditioning Components"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленность",
+        "Нефтегазовая промышленность",
+        "Лабораторные исследования",
+        "Транспорт"
+      ],
+      "officialCatalogs": [
+        "https://headlinefilters.com/products"
+      ],
+      "documentationSources": [
+        "https://headlinefilters.com/pages/applications"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-headline-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://headlinefilters.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-headline-applications",
+          "tier": "A",
+          "type": "OFFICIAL_APPLICATION_PAGE",
+          "scope": "CATEGORY_AND_APPLICATION",
+          "url": "https://headlinefilters.com/pages/applications",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"italvibras","officialName":"Italvibras G. Silingardi S.p.A.","displayName":"Italvibras","aliases":["ITALVIBRAS","ITALVIBRAS G SILINGARDI"],"formerNames":[],
-      "officialWebsite":"https://www.italvibras.it/","officialDomains":["italvibras.it"],"country":"Италия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Italvibras manufactures electric, mechanical and electromagnetic vibrators for industrial equipment.",
-      "fullDescription":["The official product pages document foot-mounted and flange-mounted electric vibrators.","The range also includes high-frequency, mechanical and electromagnetic vibrators for industrial process equipment."],
-      "productCategories":["Вибрационное оборудование","Промышленные электродвигатели"],"productFamilies":["Foot-Mounted Electric Vibrators","Flange-Mounted Electric Vibrators","High-Frequency Vibrators","Mechanical Vibrators","Electromagnetic Vibrators"],"series":["MTF","MTF-E","MVB","MVB-FLC","VB"],
-      "industries":["Промышленность","Строительство","Пищевая промышленность","Горнодобывающая промышленность"],"officialCatalogs":["https://www.italvibras.it/products/flanged-electric-vibrators/?lang=en"],"documentationSources":["https://www.italvibras.it/"],
-      "sources":[{"sourceId":"brand-italvibras-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_FAMILY","url":"https://www.italvibras.it/products/flanged-electric-vibrators/?lang=en","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "italvibras",
+      "officialName": "Italvibras G. Silingardi S.p.A.",
+      "displayName": "Italvibras",
+      "aliases": [
+        "ITALVIBRAS",
+        "ITALVIBRAS G SILINGARDI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.italvibras.it/",
+      "officialDomains": [
+        "italvibras.it"
+      ],
+      "country": "Италия",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Italvibras manufactures electric, mechanical and electromagnetic vibrators for industrial equipment.",
+      "fullDescription": [
+        "The official product pages document foot-mounted and flange-mounted electric vibrators.",
+        "The range also includes high-frequency, mechanical and electromagnetic vibrators for industrial process equipment."
+      ],
+      "productCategories": [
+        "Вибрационное оборудование",
+        "Промышленные электродвигатели"
+      ],
+      "productFamilies": [
+        "Foot-Mounted Electric Vibrators",
+        "Flange-Mounted Electric Vibrators",
+        "High-Frequency Vibrators",
+        "Mechanical Vibrators",
+        "Electromagnetic Vibrators"
+      ],
+      "series": [
+        "MTF",
+        "MTF-E",
+        "MVB",
+        "MVB-FLC",
+        "VB"
+      ],
+      "industries": [
+        "Промышленность",
+        "Строительство",
+        "Пищевая промышленность",
+        "Горнодобывающая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.italvibras.it/products/flanged-electric-vibrators/?lang=en"
+      ],
+      "documentationSources": [
+        "https://www.italvibras.it/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-italvibras-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_FAMILY",
+          "url": "https://www.italvibras.it/products/flanged-electric-vibrators/?lang=en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        }
+      ]
     },
     {
-      "manufacturerId":"knoll","officialName":"KNOLL Maschinenbau GmbH","displayName":"KNOLL","aliases":["KNOLL","KNOLL MASCHINENBAU"],"formerNames":[],
-      "officialWebsite":"https://www.knoll-mb.de/en/","officialDomains":["knoll-mb.de"],"country":"Германия","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"KNOLL develops conveyor, filtration and pump systems for machine tools and metalworking processes.",
-      "fullDescription":["The official KNOLL site structures its portfolio around chip conveyors, coolant-filtration systems, automation and industrial pumps.","Documented pump families include screw-spindle, centrifugal, submersible and high-pressure configurations for machine-tool and process applications."],
-      "productCategories":["Конвейерное оборудование","Фильтрационное оборудование","Промышленные насосы","Промышленная автоматизация и управление"],"productFamilies":["Chip Conveyors","Coolant-Filtration Systems","Screw-Spindle Pumps","Centrifugal Pumps","Submersible Pumps","Automation Systems"],"series":["KTS","KTSL","KTSV","BS","T","TSC","MicroPur","TURBO","VRF"],
-      "industries":["Станкостроение","Металлургия","Промышленность","Химическая промышленность"],"officialCatalogs":["https://www.knoll-mb.de/en/downloads/"],"documentationSources":["https://www.knoll-mb.de/en/products/pumps/screw-pumps"],
-      "sources":[{"sourceId":"brand-knoll-home","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_AND_CATEGORY","url":"https://www.knoll-mb.de/en/","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-knoll-pumps","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAMILY_CATEGORY","url":"https://www.knoll-mb.de/en/products/pumps/screw-pumps","status":"AVAILABLE","checkedAt":"2026-08-19"},{"sourceId":"brand-knoll-downloads","tier":"A","type":"OFFICIAL_DOCUMENT_DIRECTORY","scope":"DOCUMENTATION","url":"https://www.knoll-mb.de/en/downloads/","status":"AVAILABLE","checkedAt":"2026-08-19"}]
+      "manufacturerId": "knoll",
+      "officialName": "KNOLL Maschinenbau GmbH",
+      "displayName": "KNOLL",
+      "aliases": [
+        "KNOLL",
+        "KNOLL MASCHINENBAU"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.knoll-mb.de/en/",
+      "officialDomains": [
+        "knoll-mb.de"
+      ],
+      "country": "Германия",
+      "headquarters": "Bad Saulgau, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "KNOLL develops conveyor, filtration and pump systems for machine tools and metalworking processes.",
+      "fullDescription": [
+        "The official KNOLL site structures its portfolio around chip conveyors, coolant-filtration systems, automation and industrial pumps.",
+        "Documented pump families include screw-spindle, centrifugal, submersible and high-pressure configurations for machine-tool and process applications."
+      ],
+      "productCategories": [
+        "Конвейерное оборудование",
+        "Фильтрационное оборудование",
+        "Промышленные насосы",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "Chip Conveyors",
+        "Coolant-Filtration Systems",
+        "Screw-Spindle Pumps",
+        "Centrifugal Pumps",
+        "Submersible Pumps",
+        "Automation Systems"
+      ],
+      "series": [
+        "KTS",
+        "KTSL",
+        "KTSV",
+        "BS",
+        "T",
+        "TSC",
+        "MicroPur",
+        "TURBO",
+        "VRF"
+      ],
+      "industries": [
+        "Станкостроение",
+        "Металлургия",
+        "Промышленность",
+        "Химическая промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.knoll-mb.de/en/downloads/"
+      ],
+      "documentationSources": [
+        "https://www.knoll-mb.de/en/products/pumps/screw-pumps"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-knoll-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_AND_CATEGORY",
+          "url": "https://www.knoll-mb.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-knoll-pumps",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAMILY_CATEGORY",
+          "url": "https://www.knoll-mb.de/en/products/pumps/screw-pumps",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-knoll-downloads",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT_DIRECTORY",
+          "scope": "DOCUMENTATION",
+          "url": "https://www.knoll-mb.de/en/downloads/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-knoll-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.knoll-mb.de/en/impressum",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     }
   ]
 }

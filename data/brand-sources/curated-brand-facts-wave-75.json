@@ -1,309 +1,2944 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {"manufacturerId":"bautz","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"The queue label identifies BAUTZ as a Danaher brand, but no current manufacturer-owned or explicit official corporate-parent source was found that establishes the surviving brand identity and product scope without relying on historical third-party material.","attemptedUrls":[]},
-    {"manufacturerId":"bea","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"BEA is a generic abbreviation. BEA Sensors is a plausible industrial match, but the raw queue record contains no discriminator that safely excludes unrelated BEA manufacturers.","attemptedUrls":["https://us.beasensors.com/en/","https://us.beasensors.com/en/products/page/7/?filter=artwork-protection"]},
-    {"manufacturerId":"beha","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"BEHA is used by multiple unrelated businesses and product brands. The raw queue identity does not safely distinguish the intended industrial manufacturer.","attemptedUrls":["https://www.beha.no/about-beha/?lang=en"]},
-    {"manufacturerId":"charlotte","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CHARLOTTE is a generic name used by multiple companies and brands. No queue-level discriminator ties it unambiguously to one manufacturer-owned source.","attemptedUrls":[]},
-    {"manufacturerId":"chemfeed","status":"BLOCKED_IDENTITY_SCOPE","checkedAt":"2026-08-24","reason":"The accessible CHEMFEED-owned website presents a supplier and distributor of mixing and dosing products rather than an unambiguous manufacturer identity for the raw queue record. That scope is insufficient for BRAND_SAFE.","attemptedUrls":["https://chemfeed.com/"]},
-    {"manufacturerId":"chemineer","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"Current SPX FLOW material references service for Chemineer equipment, but an authoritative current brand page establishing Chemineer as an active manufacturer identity and defining its current product scope was not available.","attemptedUrls":["https://www.spxflow.com/product-types/mixers-agitators/","https://www.spxflow.com/assets/pdf/ms-top-entry-inspect-repair-program-us.pdf"]},
-    {"manufacturerId":"chemtec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CHEMTEC is used by several unrelated active manufacturers in flow instrumentation, surface treatment and metal components. The raw queue identity does not resolve the conflict.","attemptedUrls":["https://www.chemtec.com/about/","https://chemtec.it/en/chemtec-updated-tradition/","https://chemtecusa.com/products/"]},
-    {"manufacturerId":"ckd-group","status":"DUPLICATE_CANONICAL_IDENTITY","checkedAt":"2026-08-24","reason":"CKD GROUP resolves to the same CKD Corporation identity and official product estate as the separate canonical CKD queue record. Publishing both as independent manufacturer pages would create a duplicate identity.","attemptedUrls":["https://www.ckd.co.jp/en/productinfo/","https://www.ckd.co.jp/kiki/en/"]}
+    {
+      "manufacturerId": "bautz",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "The queue label identifies BAUTZ as a Danaher brand, but no current manufacturer-owned or explicit official corporate-parent source was found that establishes the surviving brand identity and product scope without relying on historical third-party material.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "bea",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "BEA is a generic abbreviation. BEA Sensors is a plausible industrial match, but the raw queue record contains no discriminator that safely excludes unrelated BEA manufacturers.",
+      "attemptedUrls": [
+        "https://us.beasensors.com/en/",
+        "https://us.beasensors.com/en/products/page/7/?filter=artwork-protection"
+      ]
+    },
+    {
+      "manufacturerId": "beha",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "BEHA is used by multiple unrelated businesses and product brands. The raw queue identity does not safely distinguish the intended industrial manufacturer.",
+      "attemptedUrls": [
+        "https://www.beha.no/about-beha/?lang=en"
+      ]
+    },
+    {
+      "manufacturerId": "charlotte",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "CHARLOTTE is a generic name used by multiple companies and brands. No queue-level discriminator ties it unambiguously to one manufacturer-owned source.",
+      "attemptedUrls": []
+    },
+    {
+      "manufacturerId": "chemfeed",
+      "status": "BLOCKED_IDENTITY_SCOPE",
+      "checkedAt": "2026-08-24",
+      "reason": "The accessible CHEMFEED-owned website presents a supplier and distributor of mixing and dosing products rather than an unambiguous manufacturer identity for the raw queue record. That scope is insufficient for BRAND_SAFE.",
+      "attemptedUrls": [
+        "https://chemfeed.com/"
+      ]
+    },
+    {
+      "manufacturerId": "chemineer",
+      "status": "BLOCKED_LEGACY_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "Current SPX FLOW material references service for Chemineer equipment, but an authoritative current brand page establishing Chemineer as an active manufacturer identity and defining its current product scope was not available.",
+      "attemptedUrls": [
+        "https://www.spxflow.com/product-types/mixers-agitators/",
+        "https://www.spxflow.com/assets/pdf/ms-top-entry-inspect-repair-program-us.pdf"
+      ]
+    },
+    {
+      "manufacturerId": "chemtec",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "CHEMTEC is used by several unrelated active manufacturers in flow instrumentation, surface treatment and metal components. The raw queue identity does not resolve the conflict.",
+      "attemptedUrls": [
+        "https://www.chemtec.com/about/",
+        "https://chemtec.it/en/chemtec-updated-tradition/",
+        "https://chemtecusa.com/products/"
+      ]
+    },
+    {
+      "manufacturerId": "ckd-group",
+      "status": "DUPLICATE_CANONICAL_IDENTITY",
+      "checkedAt": "2026-08-24",
+      "reason": "CKD GROUP resolves to the same CKD Corporation identity and official product estate as the separate canonical CKD queue record. Publishing both as independent manufacturer pages would create a duplicate identity.",
+      "attemptedUrls": [
+        "https://www.ckd.co.jp/en/productinfo/",
+        "https://www.ckd.co.jp/kiki/en/"
+      ]
+    }
   ],
   "profiles": [
     {
-      "manufacturerId":"baltec-ag","officialName":"BalTec AG","displayName":"BalTec","aliases":["BALTEC AG","BALTEC"],"formerNames":[],"officialWebsite":"https://baltec.com/","officialDomains":["baltec.com"],"country":"Switzerland","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"BalTec develops riveting and joining machines for permanent mechanical assembly in industrial production.",
-      "fullDescription":["BalTec AG is verified through its manufacturer-owned website as a Swiss specialist in riveting and joining technology.","Its documented range covers radial, orbital and roller-forming processes together with standalone machines, work cells, process monitoring and application tooling."],
-      "productCategories":["Промышленные машины"],"productFamilies":["Radial Riveting Machines","Orbital Riveting Machines","Roller Forming Machines","Joining Work Cells","Process Control Systems"],"series":[],"industries":["Промышленное производство","Автомобильная промышленность"],"officialCatalogs":["https://baltec.com/sites/default/files/2022-12/202212-BALTEC_en1.pdf"],"documentationSources":["https://baltec.com/"],
-      "sources":[{"sourceId":"brand-baltec-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_RIVETING_JOINING_SCOPE","url":"https://baltec.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-baltec-overview","tier":"A","type":"OFFICIAL_CATALOG","scope":"RIVETING_PROCESS_MACHINE_AND_CONTROL_FAMILIES","url":"https://baltec.com/sites/default/files/2022-12/202212-BALTEC_en1.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "baltec-ag",
+      "officialName": "BalTec AG",
+      "displayName": "BalTec",
+      "aliases": [
+        "BALTEC AG",
+        "BALTEC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://baltec.com/",
+      "officialDomains": [
+        "baltec.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BalTec develops riveting and joining machines for permanent mechanical assembly in industrial production.",
+      "fullDescription": [
+        "BalTec AG is verified through its manufacturer-owned website as a Swiss specialist in riveting and joining technology.",
+        "Its documented range covers radial, orbital and roller-forming processes together with standalone machines, work cells, process monitoring and application tooling."
+      ],
+      "productCategories": [
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Radial Riveting Machines",
+        "Orbital Riveting Machines",
+        "Roller Forming Machines",
+        "Joining Work Cells",
+        "Process Control Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://baltec.com/sites/default/files/2022-12/202212-BALTEC_en1.pdf"
+      ],
+      "documentationSources": [
+        "https://baltec.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-baltec-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_RIVETING_JOINING_SCOPE",
+          "url": "https://baltec.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-baltec-overview",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "RIVETING_PROCESS_MACHINE_AND_CONTROL_FAMILIES",
+          "url": "https://baltec.com/sites/default/files/2022-12/202212-BALTEC_en1.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"bando","officialName":"Bando Chemical Industries, Ltd.","displayName":"Bando","aliases":["BANDO","BANDO CHEMICAL INDUSTRIES"],"formerNames":[],"officialWebsite":"https://products.bandogrp.com/en/","officialDomains":["bandogrp.com"],"country":"Japan","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Bando manufactures industrial power-transmission belts, conveyor belts and engineered polymer products.",
-      "fullDescription":["Bando Chemical Industries is verified through its official product portal as a manufacturer of belt-drive and conveying products.","The published portfolio includes friction and synchronous power-transmission belts, conveyor belts, resin products, thermal-management materials and specialist cleaning and polishing products."],
-      "productCategories":["Промышленные ремни","Конвейерное оборудование","Тепловое оборудование","Промышленная очистка"],"productFamilies":["Power Transmission Belts","Synchronous Belts","Conveyor Belts","Engineered Resin Products","Thermal Management Products"],"series":[],"industries":["Промышленное производство","Автомобильная промышленность","Логистика"],"officialCatalogs":[],"documentationSources":["https://products.bandogrp.com/en/product/"],
-      "sources":[{"sourceId":"brand-bando-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BELT_CONVEYOR_RESIN_AND_THERMAL_PRODUCT_SCOPE","url":"https://products.bandogrp.com/en/product/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-bando-portal","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_OFFICIAL_PRODUCT_ESTATE","url":"https://products.bandogrp.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "bando",
+      "officialName": "Bando Chemical Industries, Ltd.",
+      "displayName": "Bando",
+      "aliases": [
+        "BANDO",
+        "BANDO CHEMICAL INDUSTRIES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://products.bandogrp.com/en/",
+      "officialDomains": [
+        "bandogrp.com"
+      ],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Bando manufactures industrial power-transmission belts, conveyor belts and engineered polymer products.",
+      "fullDescription": [
+        "Bando Chemical Industries is verified through its official product portal as a manufacturer of belt-drive and conveying products.",
+        "The published portfolio includes friction and synchronous power-transmission belts, conveyor belts, resin products, thermal-management materials and specialist cleaning and polishing products."
+      ],
+      "productCategories": [
+        "Промышленные ремни",
+        "Конвейерное оборудование",
+        "Тепловое оборудование",
+        "Промышленная очистка"
+      ],
+      "productFamilies": [
+        "Power Transmission Belts",
+        "Synchronous Belts",
+        "Conveyor Belts",
+        "Engineered Resin Products",
+        "Thermal Management Products"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Автомобильная промышленность",
+        "Логистика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://products.bandogrp.com/en/product/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bando-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BELT_CONVEYOR_RESIN_AND_THERMAL_PRODUCT_SCOPE",
+          "url": "https://products.bandogrp.com/en/product/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-bando-portal",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_OFFICIAL_PRODUCT_ESTATE",
+          "url": "https://products.bandogrp.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"banner-engineering","officialName":"Banner Engineering Corp.","displayName":"Banner Engineering","aliases":["BANNER ENGINEERING","BANNER"],"formerNames":[],"officialWebsite":"https://www.bannerengineering.com/us/en.html","officialDomains":["bannerengineering.com"],"country":"United States","headquarters":null,"foundedYear":1966,"parentCompany":null,
-      "shortDescription":"Banner Engineering manufactures industrial sensors, machine-safety devices, indication products and automation connectivity systems.",
-      "fullDescription":["Banner Engineering Corp. is verified through its manufacturer-owned website as an industrial automation manufacturer established in 1966.","Its official portfolio covers photoelectric and measurement sensors, safety light curtains and controllers, machine lighting and indication, wireless systems, barcode and machine-vision equipment, remote I/O and connectivity."],
-      "productCategories":["Промышленные датчики","Промышленная безопасность","Системы технического зрения","Промышленная автоматизация и контроллеры"],"productFamilies":["Photoelectric Sensors","Measurement Sensors","Safety Light Curtains","Machine Lighting and Indication","Wireless Systems","Barcode Readers","Remote I/O"],"series":[],"industries":["Промышленная автоматизация","Промышленное производство","Логистика"],"officialCatalogs":[],"documentationSources":["https://www.bannerengineering.com/us/en/products/part.html"],
-      "sources":[{"sourceId":"brand-banner-home","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_AUTOMATION_SCOPE","url":"https://www.bannerengineering.com/us/en.html","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-banner-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SENSOR_SAFETY_VISION_CONNECTIVITY_AND_IO_FAMILIES","url":"https://www.bannerengineering.com/us/en/products/part.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "banner-engineering",
+      "officialName": "Banner Engineering Corp.",
+      "displayName": "Banner Engineering",
+      "aliases": [
+        "BANNER ENGINEERING",
+        "BANNER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bannerengineering.com/us/en.html",
+      "officialDomains": [
+        "bannerengineering.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": 1966,
+      "parentCompany": null,
+      "shortDescription": "Banner Engineering manufactures industrial sensors, machine-safety devices, indication products and automation connectivity systems.",
+      "fullDescription": [
+        "Banner Engineering Corp. is verified through its manufacturer-owned website as an industrial automation manufacturer established in 1966.",
+        "Its official portfolio covers photoelectric and measurement sensors, safety light curtains and controllers, machine lighting and indication, wireless systems, barcode and machine-vision equipment, remote I/O and connectivity."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Промышленная безопасность",
+        "Системы технического зрения",
+        "Промышленная автоматизация и контроллеры"
+      ],
+      "productFamilies": [
+        "Photoelectric Sensors",
+        "Measurement Sensors",
+        "Safety Light Curtains",
+        "Machine Lighting and Indication",
+        "Wireless Systems",
+        "Barcode Readers",
+        "Remote I/O"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство",
+        "Логистика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.bannerengineering.com/us/en/products/part.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-banner-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_AUTOMATION_SCOPE",
+          "url": "https://www.bannerengineering.com/us/en.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-banner-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SENSOR_SAFETY_VISION_CONNECTIVITY_AND_IO_FAMILIES",
+          "url": "https://www.bannerengineering.com/us/en/products/part.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"bartec","officialName":"BARTEC GmbH","displayName":"BARTEC","aliases":["BARTEC"],"formerNames":[],"officialWebsite":"https://bartec.com/","officialDomains":["bartec.com"],"country":"Germany","headquarters":null,"foundedYear":1975,"parentCompany":null,
-      "shortDescription":"BARTEC develops explosion-protection equipment, electrical infrastructure and automation solutions for hazardous areas.",
-      "fullDescription":["BARTEC is verified through its manufacturer-owned website as a German hazardous-area technology company founded in 1975.","Its documented solutions include mobile and connectivity equipment, electrical trace heating, analysis and measurement systems, hazardous-area lighting, energy distribution and machine-control technology."],
-      "productCategories":["Промышленная безопасность","Промышленная автоматизация и контроллеры","Контрольно-измерительные приборы","Тепловое оборудование"],"productFamilies":["Explosion-Protected Mobile Devices","Electrical Trace Heating","Analysis and Measurement Systems","Hazardous-Area Lighting","Energy Distribution","Machine Control"],"series":[],"industries":["Нефтегазовая промышленность","Химическая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://bartec.com/products-solutions/solutions-overview"],
-      "sources":[{"sourceId":"brand-bartec-home","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_EXPLOSION_PROTECTION_SCOPE","url":"https://bartec.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-bartec-solutions","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOBILE_HEATING_MEASUREMENT_LIGHTING_AND_CONTROL_FAMILIES","url":"https://bartec.com/products-solutions/solutions-overview","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "bartec",
+      "officialName": "BARTEC GmbH",
+      "displayName": "BARTEC",
+      "aliases": [
+        "BARTEC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://bartec.com/",
+      "officialDomains": [
+        "bartec.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Bad Mergentheim, Germany",
+      "foundedYear": 1975,
+      "parentCompany": null,
+      "shortDescription": "BARTEC develops explosion-protection equipment, electrical infrastructure and automation solutions for hazardous areas.",
+      "fullDescription": [
+        "BARTEC is verified through its manufacturer-owned website as a German hazardous-area technology company founded in 1975.",
+        "Its documented solutions include mobile and connectivity equipment, electrical trace heating, analysis and measurement systems, hazardous-area lighting, energy distribution and machine-control technology."
+      ],
+      "productCategories": [
+        "Промышленная безопасность",
+        "Промышленная автоматизация и контроллеры",
+        "Контрольно-измерительные приборы",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Explosion-Protected Mobile Devices",
+        "Electrical Trace Heating",
+        "Analysis and Measurement Systems",
+        "Hazardous-Area Lighting",
+        "Energy Distribution",
+        "Machine Control"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://bartec.com/products-solutions/solutions-overview"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bartec-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_EXPLOSION_PROTECTION_SCOPE",
+          "url": "https://bartec.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-bartec-solutions",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOBILE_HEATING_MEASUREMENT_LIGHTING_AND_CONTROL_FAMILIES",
+          "url": "https://bartec.com/products-solutions/solutions-overview",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-bartec-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://bartec.com/imprint/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"barton-firtop","officialName":"Barton Firtop Engineering Co Limited","displayName":"Barton Firtop","aliases":["BARTON FIRTOP","BARTON FIRTOP ENGINEERING"],"formerNames":[],"officialWebsite":"https://www.bartonfirtop.co.uk/","officialDomains":["bartonfirtop.co.uk"],"country":"United Kingdom","headquarters":"Kidderminster, United Kingdom","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Barton Firtop manufactures industrial filters, strainers, pressure vessels and associated pipeline equipment.",
-      "fullDescription":["Barton Firtop Engineering Co Limited is verified through its manufacturer-owned site as a United Kingdom filtration and pipeline-equipment manufacturer.","Its documented portfolio includes bag, basket, cartridge, duplex, Y-type and low-pressure-loss strainers and filters, plus coalescers, separators, pressure vessels, flame arresters, sight glasses and static mixers."],
-      "productCategories":["Промышленная фильтрация","Промышленные клапаны","Промышленное оборудование для переработки"],"productFamilies":["Bag Filters","Basket Strainers","Cartridge Filters","Duplex Strainers","Y-Type Strainers","Pressure Vessels","Flame Arresters"],"series":["Rotagate","Firplex","Low-Loss"],"industries":["Нефтегазовая промышленность","Химическая промышленность","Водоочистка"],"officialCatalogs":[],"documentationSources":["https://www.bartonfirtop.co.uk/products"],
-      "sources":[{"sourceId":"brand-barton-firtop-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_LOCATION_AND_MANUFACTURING_SCOPE","url":"https://www.bartonfirtop.co.uk/company-profile","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-barton-firtop-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FILTER_STRAINER_VESSEL_AND_PIPELINE_FAMILIES","url":"https://www.bartonfirtop.co.uk/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "barton-firtop",
+      "officialName": "Barton Firtop Engineering Co Limited",
+      "displayName": "Barton Firtop",
+      "aliases": [
+        "BARTON FIRTOP",
+        "BARTON FIRTOP ENGINEERING"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bartonfirtop.co.uk/",
+      "officialDomains": [
+        "bartonfirtop.co.uk"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Kidderminster, United Kingdom",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Barton Firtop manufactures industrial filters, strainers, pressure vessels and associated pipeline equipment.",
+      "fullDescription": [
+        "Barton Firtop Engineering Co Limited is verified through its manufacturer-owned site as a United Kingdom filtration and pipeline-equipment manufacturer.",
+        "Its documented portfolio includes bag, basket, cartridge, duplex, Y-type and low-pressure-loss strainers and filters, plus coalescers, separators, pressure vessels, flame arresters, sight glasses and static mixers."
+      ],
+      "productCategories": [
+        "Промышленная фильтрация",
+        "Промышленные клапаны",
+        "Промышленное оборудование для переработки"
+      ],
+      "productFamilies": [
+        "Bag Filters",
+        "Basket Strainers",
+        "Cartridge Filters",
+        "Duplex Strainers",
+        "Y-Type Strainers",
+        "Pressure Vessels",
+        "Flame Arresters"
+      ],
+      "series": [
+        "Rotagate",
+        "Firplex",
+        "Low-Loss"
+      ],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Водоочистка"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.bartonfirtop.co.uk/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-barton-firtop-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_LOCATION_AND_MANUFACTURING_SCOPE",
+          "url": "https://www.bartonfirtop.co.uk/company-profile",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-barton-firtop-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FILTER_STRAINER_VESSEL_AND_PIPELINE_FAMILIES",
+          "url": "https://www.bartonfirtop.co.uk/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"baruffaldi","officialName":"Baruffaldi Plastic Technology S.r.l.","displayName":"Baruffaldi Plastic Technology","aliases":["BARUFFALDI","BARUFFALDI PLASTIC TECHNOLOGY"],"formerNames":[],"officialWebsite":"https://www.baruffaldi.eu/","officialDomains":["baruffaldi.eu"],"country":"Italy","headquarters":null,"foundedYear":1953,"parentCompany":null,
-      "shortDescription":"Baruffaldi Plastic Technology manufactures extrusion downstream, cutting, punching and welding machinery for plastic profiles and pipes.",
-      "fullDescription":["Baruffaldi Plastic Technology is verified through its manufacturer-owned website as an Italian machinery company operating since 1953.","Its official range covers extrusion tooling and downstream equipment for profiles, pipes and roller shutters, including haul-off, punching, cutting, slotting and socket-welding systems."],
-      "productCategories":["Промышленные машины","Оборудование для резки","Сварочное оборудование"],"productFamilies":["Profile Extrusion Lines","Pipe Extrusion Downstream Equipment","Roller Shutter Machinery","Punching Machines","Cutting Machines","Socket Welding Machines"],"series":[],"industries":["Промышленное производство","Производство пластмасс"],"officialCatalogs":[],"documentationSources":["https://www.baruffaldi.eu/extruders-lines-and-downstream-equipment/"],
-      "sources":[{"sourceId":"brand-baruffaldi-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_PLASTICS_MACHINERY_SCOPE","url":"https://www.baruffaldi.eu/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-baruffaldi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"EXTRUSION_CUTTING_PUNCHING_AND_WELDING_FAMILIES","url":"https://www.baruffaldi.eu/extruders-lines-and-downstream-equipment/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "baruffaldi",
+      "officialName": "Baruffaldi Plastic Technology S.r.l.",
+      "displayName": "Baruffaldi Plastic Technology",
+      "aliases": [
+        "BARUFFALDI",
+        "BARUFFALDI PLASTIC TECHNOLOGY"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.baruffaldi.eu/",
+      "officialDomains": [
+        "baruffaldi.eu"
+      ],
+      "country": "Italy",
+      "headquarters": "Fusignano, Italy",
+      "foundedYear": 1953,
+      "parentCompany": null,
+      "shortDescription": "Baruffaldi Plastic Technology manufactures extrusion downstream, cutting, punching and welding machinery for plastic profiles and pipes.",
+      "fullDescription": [
+        "Baruffaldi Plastic Technology is verified through its manufacturer-owned website as an Italian machinery company operating since 1953.",
+        "Its official range covers extrusion tooling and downstream equipment for profiles, pipes and roller shutters, including haul-off, punching, cutting, slotting and socket-welding systems."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Оборудование для резки",
+        "Сварочное оборудование"
+      ],
+      "productFamilies": [
+        "Profile Extrusion Lines",
+        "Pipe Extrusion Downstream Equipment",
+        "Roller Shutter Machinery",
+        "Punching Machines",
+        "Cutting Machines",
+        "Socket Welding Machines"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Производство пластмасс"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.baruffaldi.eu/extruders-lines-and-downstream-equipment/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-baruffaldi-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_PLASTICS_MACHINERY_SCOPE",
+          "url": "https://www.baruffaldi.eu/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-baruffaldi-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "EXTRUSION_CUTTING_PUNCHING_AND_WELDING_FAMILIES",
+          "url": "https://www.baruffaldi.eu/extruders-lines-and-downstream-equipment/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-baruffaldi-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.baruffaldi.eu/en_UK/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"basler-electric","officialName":"Basler Electric Company","displayName":"Basler Electric","aliases":["BASLER ELECTRIC","BASLER"],"formerNames":[],"officialWebsite":"https://www.basler.com/","officialDomains":["basler.com"],"country":"United States","headquarters":"Highland, Illinois, United States","foundedYear":null,"parentCompany":null,
-      "shortDescription":"Basler Electric manufactures power-control, protection and regulation equipment for electrical generation and distribution systems.",
-      "fullDescription":["Basler Electric Company is verified through its manufacturer-owned website as a United States electrical-equipment manufacturer.","The official portfolio includes protective relays, excitation systems, automatic voltage regulators, generator-set controls, transformers and software for power-system control and protection."],
-      "productCategories":["Промышленные реле","Электроэнергетическое оборудование","Промышленная автоматизация и контроллеры","Промышленные трансформаторы"],"productFamilies":["Protective Relays","Excitation Systems","Automatic Voltage Regulators","Genset Controls","Transformers","Power-System Software"],"series":[],"industries":["Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.basler.com/Products/"],
-      "sources":[{"sourceId":"brand-basler-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_LOCATION_AND_POWER_CONTROL_SCOPE","url":"https://www.basler.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-basler-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"RELAY_EXCITATION_REGULATOR_CONTROL_AND_TRANSFORMER_FAMILIES","url":"https://www.basler.com/Products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "basler-electric",
+      "officialName": "Basler Electric Company",
+      "displayName": "Basler Electric",
+      "aliases": [
+        "BASLER ELECTRIC",
+        "BASLER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.basler.com/",
+      "officialDomains": [
+        "basler.com"
+      ],
+      "country": "United States",
+      "headquarters": "Highland, Illinois, United States",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Basler Electric manufactures power-control, protection and regulation equipment for electrical generation and distribution systems.",
+      "fullDescription": [
+        "Basler Electric Company is verified through its manufacturer-owned website as a United States electrical-equipment manufacturer.",
+        "The official portfolio includes protective relays, excitation systems, automatic voltage regulators, generator-set controls, transformers and software for power-system control and protection."
+      ],
+      "productCategories": [
+        "Промышленные реле",
+        "Электроэнергетическое оборудование",
+        "Промышленная автоматизация и контроллеры",
+        "Промышленные трансформаторы"
+      ],
+      "productFamilies": [
+        "Protective Relays",
+        "Excitation Systems",
+        "Automatic Voltage Regulators",
+        "Genset Controls",
+        "Transformers",
+        "Power-System Software"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.basler.com/Products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-basler-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_LOCATION_AND_POWER_CONTROL_SCOPE",
+          "url": "https://www.basler.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-basler-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "RELAY_EXCITATION_REGULATOR_CONTROL_AND_TRANSFORMER_FAMILIES",
+          "url": "https://www.basler.com/Products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"baykal","officialName":"Baykal Makina A.Ş.","displayName":"Baykal","aliases":["BAYKAL","BAYKAL MAKINA"],"formerNames":[],"officialWebsite":"https://www.baykalgroup.com/","officialDomains":["baykalgroup.com"],"country":"Türkiye","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Baykal manufactures sheet-metal laser cutting, bending and tube-processing machinery.",
-      "fullDescription":["Baykal Makina is verified through its manufacturer-owned website as a Turkish metalworking-machinery producer.","Its official portfolio covers fiber-laser cutting systems, press brakes, shears, punching equipment and tube and profile processing machinery."],
-      "productCategories":["Металлообрабатывающие станки","Оборудование для резки","Промышленные прессы"],"productFamilies":["Fiber Laser Cutting Machines","Press Brakes","Guillotine Shears","Punching Machines","Tube and Profile Processing Machines"],"series":[],"industries":["Металлообработка","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.baykalgroup.com/"],
-      "sources":[{"sourceId":"brand-baykal-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_LASER_BENDING_TUBE_PROCESSING_SCOPE","url":"https://www.baykalgroup.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "baykal",
+      "officialName": "Baykal Makina A.Ş.",
+      "displayName": "Baykal",
+      "aliases": [
+        "BAYKAL",
+        "BAYKAL MAKINA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.baykalgroup.com/",
+      "officialDomains": [
+        "baykalgroup.com"
+      ],
+      "country": "Türkiye",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Baykal manufactures sheet-metal laser cutting, bending and tube-processing machinery.",
+      "fullDescription": [
+        "Baykal Makina is verified through its manufacturer-owned website as a Turkish metalworking-machinery producer.",
+        "Its official portfolio covers fiber-laser cutting systems, press brakes, shears, punching equipment and tube and profile processing machinery."
+      ],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Оборудование для резки",
+        "Промышленные прессы"
+      ],
+      "productFamilies": [
+        "Fiber Laser Cutting Machines",
+        "Press Brakes",
+        "Guillotine Shears",
+        "Punching Machines",
+        "Tube and Profile Processing Machines"
+      ],
+      "series": [],
+      "industries": [
+        "Металлообработка",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.baykalgroup.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-baykal-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_AND_LASER_BENDING_TUBE_PROCESSING_SCOPE",
+          "url": "https://www.baykalgroup.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"bbl-industriemesstechnik","officialName":"BBL-Industriemesstechnik GmbH & Co. KG","displayName":"BBL Industriemesstechnik","aliases":["BBL INDUSTRIEMESSTECHNIK","BBL SENSOR"],"formerNames":[],"officialWebsite":"https://www.bbl-sensor.de/","officialDomains":["bbl-sensor.de"],"country":"Germany","headquarters":"Aachen, Germany","foundedYear":null,"parentCompany":null,
-      "shortDescription":"BBL Industriemesstechnik manufactures industrial temperature probes and sensor assemblies for process machinery.",
-      "fullDescription":["BBL-Industriemesstechnik is verified through its manufacturer-owned website as a German industrial measurement company.","Its documented range includes melt-temperature probes for extruders and rubber mixers, Pt100 resistance sensors, thermocouples and associated sensor accessories."],
-      "productCategories":["Промышленные датчики","Контрольно-измерительные приборы"],"productFamilies":["Melt Temperature Probes","Pt100 Resistance Sensors","Thermocouples","Sensor Accessories"],"series":[],"industries":["Производство пластмасс","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.bbl-sensor.de/"],
-      "sources":[{"sourceId":"brand-bbl-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_TEMPERATURE_SENSOR_SCOPE","url":"https://www.bbl-sensor.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "bbl-industriemesstechnik",
+      "officialName": "BBL-Industriemesstechnik GmbH & Co. KG",
+      "displayName": "BBL Industriemesstechnik",
+      "aliases": [
+        "BBL INDUSTRIEMESSTECHNIK",
+        "BBL SENSOR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bbl-sensor.de/",
+      "officialDomains": [
+        "bbl-sensor.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Aachen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "BBL Industriemesstechnik manufactures industrial temperature probes and sensor assemblies for process machinery.",
+      "fullDescription": [
+        "BBL-Industriemesstechnik is verified through its manufacturer-owned website as a German industrial measurement company.",
+        "Its documented range includes melt-temperature probes for extruders and rubber mixers, Pt100 resistance sensors, thermocouples and associated sensor accessories."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Контрольно-измерительные приборы"
+      ],
+      "productFamilies": [
+        "Melt Temperature Probes",
+        "Pt100 Resistance Sensors",
+        "Thermocouples",
+        "Sensor Accessories"
+      ],
+      "series": [],
+      "industries": [
+        "Производство пластмасс",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.bbl-sensor.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bbl-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_LOCATION_AND_TEMPERATURE_SENSOR_SCOPE",
+          "url": "https://www.bbl-sensor.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"belden","officialName":"Belden Inc.","displayName":"Belden","aliases":["BELDEN"],"formerNames":[],"officialWebsite":"https://www.belden.com/","officialDomains":["belden.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Belden supplies industrial connectivity, networking and automation-infrastructure products.",
-      "fullDescription":["Belden Inc. is verified through its official corporate website as a manufacturer of network and signal-transmission infrastructure.","Its documented portfolio includes industrial cables, connectors, cable assemblies, I/O systems, Ethernet switches, wireless networking, cybersecurity products, racks and cabinets."],
-      "productCategories":["Промышленные кабели","Промышленные разъёмы","Промышленная автоматизация и контроллеры"],"productFamilies":["Industrial Cables","Connectors","Cable Assemblies","Industrial Ethernet","Remote I/O","Wireless Networking","Racks and Cabinets"],"series":[],"industries":["Промышленная автоматизация","Транспорт","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.belden.com/products"],
-      "sources":[{"sourceId":"brand-belden-home","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_AND_CONNECTIVITY_SCOPE","url":"https://www.belden.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-belden-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CABLE_CONNECTOR_NETWORK_IO_AND_CABINET_FAMILIES","url":"https://www.belden.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "belden",
+      "officialName": "Belden Inc.",
+      "displayName": "Belden",
+      "aliases": [
+        "BELDEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.belden.com/",
+      "officialDomains": [
+        "belden.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Belden supplies industrial connectivity, networking and automation-infrastructure products.",
+      "fullDescription": [
+        "Belden Inc. is verified through its official corporate website as a manufacturer of network and signal-transmission infrastructure.",
+        "Its documented portfolio includes industrial cables, connectors, cable assemblies, I/O systems, Ethernet switches, wireless networking, cybersecurity products, racks and cabinets."
+      ],
+      "productCategories": [
+        "Промышленные кабели",
+        "Промышленные разъёмы",
+        "Промышленная автоматизация и контроллеры"
+      ],
+      "productFamilies": [
+        "Industrial Cables",
+        "Connectors",
+        "Cable Assemblies",
+        "Industrial Ethernet",
+        "Remote I/O",
+        "Wireless Networking",
+        "Racks and Cabinets"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Транспорт",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.belden.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-belden-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_IDENTITY_AND_CONNECTIVITY_SCOPE",
+          "url": "https://www.belden.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-belden-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CABLE_CONNECTOR_NETWORK_IO_AND_CABINET_FAMILIES",
+          "url": "https://www.belden.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"bell-gossett","officialName":"Bell & Gossett","displayName":"Bell & Gossett","aliases":["BELL GOSSETT","BELL & GOSSETT"],"formerNames":[],"officialWebsite":"https://www.xylem.com/en-us/brands/bell-gossett/","officialDomains":["xylem.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Xylem Inc.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Bell & Gossett is a Xylem brand of pumps, valves and heat-transfer equipment for hydronic and plumbing systems.",
-      "fullDescription":["Bell & Gossett is verified through Xylem's official brand pages as part of the Xylem portfolio.","The documented range covers hydronic circulators and pumps, control and balance valves, heat exchangers and accessories for HVAC, plumbing and wastewater applications."],
-      "productCategories":["Промышленные насосы","Промышленные клапаны","Теплообменное оборудование"],"productFamilies":["Circulator Pumps","Hydronic Pumps","Balance Valves","Control Valves","Heat Exchangers"],"series":[],"industries":["HVAC и здания","Водоснабжение","Водоотведение"],"officialCatalogs":[],"documentationSources":["https://www.xylem.com/en-us/brands/bell-gossett/bell--gossett-products/pumps-circulators/circulator-pumps/"],
-      "sources":[{"sourceId":"brand-bell-gossett-xylem","tier":"B","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"BRAND_IDENTITY_PARENT_AND_HYDRONIC_PRODUCT_SCOPE","url":"https://www.xylem.com/en-us/brands/bell-gossett/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-bell-gossett-pumps","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CIRCULATOR_AND_HYDRONIC_PUMP_FAMILIES","url":"https://www.xylem.com/en-us/brands/bell-gossett/bell--gossett-products/pumps-circulators/circulator-pumps/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "bell-gossett",
+      "officialName": "Bell & Gossett",
+      "displayName": "Bell & Gossett",
+      "aliases": [
+        "BELL GOSSETT",
+        "BELL & GOSSETT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.xylem.com/en-us/brands/bell-gossett/",
+      "officialDomains": [
+        "xylem.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Xylem Inc.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Bell & Gossett is a Xylem brand of pumps, valves and heat-transfer equipment for hydronic and plumbing systems.",
+      "fullDescription": [
+        "Bell & Gossett is verified through Xylem's official brand pages as part of the Xylem portfolio.",
+        "The documented range covers hydronic circulators and pumps, control and balance valves, heat exchangers and accessories for HVAC, plumbing and wastewater applications."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленные клапаны",
+        "Теплообменное оборудование"
+      ],
+      "productFamilies": [
+        "Circulator Pumps",
+        "Hydronic Pumps",
+        "Balance Valves",
+        "Control Valves",
+        "Heat Exchangers"
+      ],
+      "series": [],
+      "industries": [
+        "HVAC и здания",
+        "Водоснабжение",
+        "Водоотведение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.xylem.com/en-us/brands/bell-gossett/bell--gossett-products/pumps-circulators/circulator-pumps/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-bell-gossett-xylem",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "BRAND_IDENTITY_PARENT_AND_HYDRONIC_PRODUCT_SCOPE",
+          "url": "https://www.xylem.com/en-us/brands/bell-gossett/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-bell-gossett-pumps",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "CIRCULATOR_AND_HYDRONIC_PUMP_FAMILIES",
+          "url": "https://www.xylem.com/en-us/brands/bell-gossett/bell--gossett-products/pumps-circulators/circulator-pumps/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"belliss-morcom","officialName":"Belliss & Morcom","displayName":"Belliss & Morcom","aliases":["BELLISS & MORCOM","BELLISS MORCOM"],"formerNames":[],"officialWebsite":"https://www.bellissandmorcom.com/en/","officialDomains":["bellissandmorcom.com"],"country":"United Kingdom","headquarters":"Redditch, United Kingdom","foundedYear":1852,"parentCompany":"Ingersoll Rand Inc.","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Belliss & Morcom manufactures oil-free reciprocating compressors and engineered air and gas systems.",
-      "fullDescription":["Belliss & Morcom is verified through its official brand website as a United Kingdom compressor manufacturer with roots dating to 1852 and current ownership within Ingersoll Rand.","Its documented portfolio covers oil-free reciprocating air compressors, nitrogen boosters and engineered compressor packages for industrial process applications."],
-      "productCategories":["Промышленные компрессоры","Компрессоры технологического газа"],"productFamilies":["Oil-Free Reciprocating Compressors","Nitrogen Boosters","Engineered Air Systems","Engineered Gas Systems"],"series":[],"industries":["Пищевая промышленность","Промышленное производство","Энергетика"],"officialCatalogs":[],"documentationSources":["https://www.bellissandmorcom.com/en/"],
-      "sources":[{"sourceId":"brand-belliss-morcom-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_HISTORY_PARENT_AND_COMPRESSOR_SCOPE","url":"https://www.bellissandmorcom.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "belliss-morcom",
+      "officialName": "Belliss & Morcom",
+      "displayName": "Belliss & Morcom",
+      "aliases": [
+        "BELLISS & MORCOM",
+        "BELLISS MORCOM"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.bellissandmorcom.com/en/",
+      "officialDomains": [
+        "bellissandmorcom.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Redditch, United Kingdom",
+      "foundedYear": 1852,
+      "parentCompany": "Ingersoll Rand Inc.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Belliss & Morcom manufactures oil-free reciprocating compressors and engineered air and gas systems.",
+      "fullDescription": [
+        "Belliss & Morcom is verified through its official brand website as a United Kingdom compressor manufacturer with roots dating to 1852 and current ownership within Ingersoll Rand.",
+        "Its documented portfolio covers oil-free reciprocating air compressors, nitrogen boosters and engineered compressor packages for industrial process applications."
+      ],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Компрессоры технологического газа"
+      ],
+      "productFamilies": [
+        "Oil-Free Reciprocating Compressors",
+        "Nitrogen Boosters",
+        "Engineered Air Systems",
+        "Engineered Gas Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Пищевая промышленность",
+        "Промышленное производство",
+        "Энергетика"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.bellissandmorcom.com/en/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-belliss-morcom-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_HISTORY_PARENT_AND_COMPRESSOR_SCOPE",
+          "url": "https://www.bellissandmorcom.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"belt-technologies","officialName":"Belt Technologies, Inc.","displayName":"Belt Technologies","aliases":["BELT TECHNOLOGIES","PURESTEEL"],"formerNames":[],"officialWebsite":"https://www.belttechnologies.com/","officialDomains":["belttechnologies.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Belt Technologies designs and manufactures stainless-steel belts, drive tapes, pulleys and conveyor systems.",
-      "fullDescription":["Belt Technologies, Inc. is verified through its manufacturer-owned website as a producer of PureSteel metal-belt technology.","Its official range includes endless stainless-steel belts, perforated belts, drive tapes, timing belts, pulleys, conveyor systems and replacement conveyor belts."],
-      "productCategories":["Промышленные ремни","Конвейерное оборудование"],"productFamilies":["PureSteel Belts","Perforated Metal Belts","Drive Tapes","Timing Belts","Pulleys","Conveyor Systems"],"series":["PureSteel"],"industries":["Промышленное производство","Электронная промышленность","Медицинское оборудование"],"officialCatalogs":[],"documentationSources":["https://www.belttechnologies.com/products/"],
-      "sources":[{"sourceId":"brand-belt-technologies-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_METAL_BELT_SCOPE","url":"https://www.belttechnologies.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-belt-technologies-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BELT_TAPE_PULLEY_AND_CONVEYOR_FAMILIES","url":"https://www.belttechnologies.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "belt-technologies",
+      "officialName": "Belt Technologies, Inc.",
+      "displayName": "Belt Technologies",
+      "aliases": [
+        "BELT TECHNOLOGIES",
+        "PURESTEEL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.belttechnologies.com/",
+      "officialDomains": [
+        "belttechnologies.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Belt Technologies designs and manufactures stainless-steel belts, drive tapes, pulleys and conveyor systems.",
+      "fullDescription": [
+        "Belt Technologies, Inc. is verified through its manufacturer-owned website as a producer of PureSteel metal-belt technology.",
+        "Its official range includes endless stainless-steel belts, perforated belts, drive tapes, timing belts, pulleys, conveyor systems and replacement conveyor belts."
+      ],
+      "productCategories": [
+        "Промышленные ремни",
+        "Конвейерное оборудование"
+      ],
+      "productFamilies": [
+        "PureSteel Belts",
+        "Perforated Metal Belts",
+        "Drive Tapes",
+        "Timing Belts",
+        "Pulleys",
+        "Conveyor Systems"
+      ],
+      "series": [
+        "PureSteel"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Электронная промышленность",
+        "Медицинское оборудование"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.belttechnologies.com/products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-belt-technologies-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_METAL_BELT_SCOPE",
+          "url": "https://www.belttechnologies.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-belt-technologies-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BELT_TAPE_PULLEY_AND_CONVEYOR_FAMILIES",
+          "url": "https://www.belttechnologies.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"caterpillar","officialName":"Caterpillar Inc.","displayName":"Caterpillar","aliases":["CATERPILLAR","CAT"],"formerNames":[],"officialWebsite":"https://www.caterpillar.com/","officialDomains":["caterpillar.com","cat.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Caterpillar manufactures construction and mining machinery, industrial engines and turbomachinery.",
-      "fullDescription":["Caterpillar Inc. is verified through its official corporate website as a manufacturer serving construction, mining, energy and transportation markets.","Its documented equipment scope includes earthmoving and mining machines, off-highway diesel and natural-gas engines, gas turbines and diesel-electric locomotives."],
-      "productCategories":["Строительная техника","Горнодобывающее оборудование","Промышленные турбины"],"productFamilies":["Construction Machines","Mining Equipment","Off-Highway Diesel Engines","Natural Gas Engines","Gas Turbines","Diesel-Electric Locomotives"],"series":["Cat"],"industries":["Строительство","Горнодобывающая промышленность","Энергетика","Транспорт"],"officialCatalogs":[],"documentationSources":["https://www.caterpillar.com/en/company/about-caterpillar/industries.html"],
-      "sources":[{"sourceId":"brand-caterpillar-company","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_AND_INDUSTRIAL_SCOPE","url":"https://www.caterpillar.com/en/company.html","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-caterpillar-industries","tier":"A","type":"PRODUCT_AND_INDUSTRY_DIRECTORY","scope":"CONSTRUCTION_MINING_ENGINE_TURBINE_AND_LOCOMOTIVE_SCOPE","url":"https://www.caterpillar.com/en/company/about-caterpillar/industries.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "caterpillar",
+      "officialName": "Caterpillar Inc.",
+      "displayName": "Caterpillar",
+      "aliases": [
+        "CATERPILLAR",
+        "CAT"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.caterpillar.com/",
+      "officialDomains": [
+        "caterpillar.com",
+        "cat.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Caterpillar manufactures construction and mining machinery, industrial engines and turbomachinery.",
+      "fullDescription": [
+        "Caterpillar Inc. is verified through its official corporate website as a manufacturer serving construction, mining, energy and transportation markets.",
+        "Its documented equipment scope includes earthmoving and mining machines, off-highway diesel and natural-gas engines, gas turbines and diesel-electric locomotives."
+      ],
+      "productCategories": [
+        "Строительная техника",
+        "Горнодобывающее оборудование",
+        "Промышленные турбины"
+      ],
+      "productFamilies": [
+        "Construction Machines",
+        "Mining Equipment",
+        "Off-Highway Diesel Engines",
+        "Natural Gas Engines",
+        "Gas Turbines",
+        "Diesel-Electric Locomotives"
+      ],
+      "series": [
+        "Cat"
+      ],
+      "industries": [
+        "Строительство",
+        "Горнодобывающая промышленность",
+        "Энергетика",
+        "Транспорт"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.caterpillar.com/en/company/about-caterpillar/industries.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-caterpillar-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_IDENTITY_AND_INDUSTRIAL_SCOPE",
+          "url": "https://www.caterpillar.com/en/company.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-caterpillar-industries",
+          "tier": "A",
+          "type": "PRODUCT_AND_INDUSTRY_DIRECTORY",
+          "scope": "CONSTRUCTION_MINING_ENGINE_TURBINE_AND_LOCOMOTIVE_SCOPE",
+          "url": "https://www.caterpillar.com/en/company/about-caterpillar/industries.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cathodic-technology-limited","officialName":"Cathodic Technology Limited","displayName":"Cathodic Technology","aliases":["CATHODIC TECHNOLOGY LIMITED","CATHODIC TECHNOLOGY"],"formerNames":[],"officialWebsite":"https://www.cathodicprotectiondcvginstruments.com/","officialDomains":["cathodicprotectiondcvginstruments.com"],"country":"United Kingdom","headquarters":null,"foundedYear":1980,"parentCompany":null,
-      "shortDescription":"Cathodic Technology supplies corrosion-survey instruments and engineering services for cathodic-protection systems.",
-      "fullDescription":["Cathodic Technology Limited is verified through its manufacturer-owned website as a company incorporated in 1980 and focused on pipeline integrity and cathodic protection.","Its documented scope includes DCVG and CIPS survey instruments, corrosion monitoring equipment, pipeline surveys, consulting and associated cathodic-protection engineering services."],
-      "productCategories":["Контрольно-измерительные приборы","Промышленная безопасность"],"productFamilies":["DCVG Survey Instruments","CIPS Survey Instruments","Cathodic Protection Test Equipment","Pipeline Integrity Survey Systems"],"series":[],"industries":["Нефтегазовая промышленность","Инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.cathodicprotectiondcvginstruments.com/contact/"],
-      "sources":[{"sourceId":"brand-cathodic-technology-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_AND_CORROSION_INSTRUMENT_SCOPE","url":"https://www.cathodicprotectiondcvginstruments.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cathodic-technology-contact","tier":"A","type":"CONTACT","scope":"LEGAL_IDENTITY_AND_OFFICIAL_CONTACT","url":"https://www.cathodicprotectiondcvginstruments.com/contact/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cathodic-technology-limited",
+      "officialName": "Cathodic Technology Limited",
+      "displayName": "Cathodic Technology",
+      "aliases": [
+        "CATHODIC TECHNOLOGY LIMITED",
+        "CATHODIC TECHNOLOGY"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cathodicprotectiondcvginstruments.com/",
+      "officialDomains": [
+        "cathodicprotectiondcvginstruments.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": 1980,
+      "parentCompany": null,
+      "shortDescription": "Cathodic Technology supplies corrosion-survey instruments and engineering services for cathodic-protection systems.",
+      "fullDescription": [
+        "Cathodic Technology Limited is verified through its manufacturer-owned website as a company incorporated in 1980 and focused on pipeline integrity and cathodic protection.",
+        "Its documented scope includes DCVG and CIPS survey instruments, corrosion monitoring equipment, pipeline surveys, consulting and associated cathodic-protection engineering services."
+      ],
+      "productCategories": [
+        "Контрольно-измерительные приборы",
+        "Промышленная безопасность"
+      ],
+      "productFamilies": [
+        "DCVG Survey Instruments",
+        "CIPS Survey Instruments",
+        "Cathodic Protection Test Equipment",
+        "Pipeline Integrity Survey Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.cathodicprotectiondcvginstruments.com/contact/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cathodic-technology-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_CORROSION_INSTRUMENT_SCOPE",
+          "url": "https://www.cathodicprotectiondcvginstruments.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-cathodic-technology-contact",
+          "tier": "A",
+          "type": "CONTACT",
+          "scope": "LEGAL_IDENTITY_AND_OFFICIAL_CONTACT",
+          "url": "https://www.cathodicprotectiondcvginstruments.com/contact/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cedes","officialName":"CEDES AG","displayName":"CEDES","aliases":["CEDES"],"formerNames":[],"officialWebsite":"https://www.cedes.com/","officialDomains":["cedes.com"],"country":"Switzerland","headquarters":"Landquart, Switzerland","foundedYear":null,"parentCompany":null,
-      "shortDescription":"CEDES develops optical sensors, light curtains and positioning systems for elevators, doors and automated facilities.",
-      "fullDescription":["CEDES AG is verified through its manufacturer-owned website as a Swiss sensor and safety-technology company.","The official portfolio covers elevator and escalator sensors, light curtains, time-of-flight 3D sensors, positioning and control systems, door safeguarding and warehouse-automation sensing."],
-      "productCategories":["Промышленные датчики","Промышленная безопасность","Промышленная автоматизация и контроллеры"],"productFamilies":["Light Curtains","Time-of-Flight Sensors","Elevator Sensors","Door Safeguarding Systems","Positioning Systems","IoT Sensors"],"series":[],"industries":["Промышленная автоматизация","Логистика","Здания и инфраструктура"],"officialCatalogs":[],"documentationSources":["https://www.cedes.com/en/products-for-elevators-escalators/"],
-      "sources":[{"sourceId":"brand-cedes-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_LOCATION_AND_SENSOR_SCOPE","url":"https://www.cedes.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cedes-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SENSOR_LIGHT_CURTAIN_POSITIONING_AND_CONTROL_FAMILIES","url":"https://www.cedes.com/en/products-for-elevators-escalators/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cedes",
+      "officialName": "CEDES AG",
+      "displayName": "CEDES",
+      "aliases": [
+        "CEDES"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cedes.com/",
+      "officialDomains": [
+        "cedes.com"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Landquart, Switzerland",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CEDES develops optical sensors, light curtains and positioning systems for elevators, doors and automated facilities.",
+      "fullDescription": [
+        "CEDES AG is verified through its manufacturer-owned website as a Swiss sensor and safety-technology company.",
+        "The official portfolio covers elevator and escalator sensors, light curtains, time-of-flight 3D sensors, positioning and control systems, door safeguarding and warehouse-automation sensing."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Промышленная безопасность",
+        "Промышленная автоматизация и контроллеры"
+      ],
+      "productFamilies": [
+        "Light Curtains",
+        "Time-of-Flight Sensors",
+        "Elevator Sensors",
+        "Door Safeguarding Systems",
+        "Positioning Systems",
+        "IoT Sensors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Логистика",
+        "Здания и инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.cedes.com/en/products-for-elevators-escalators/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cedes-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_LOCATION_AND_SENSOR_SCOPE",
+          "url": "https://www.cedes.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-cedes-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SENSOR_LIGHT_CURTAIN_POSITIONING_AND_CONTROL_FAMILIES",
+          "url": "https://www.cedes.com/en/products-for-elevators-escalators/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"ceds-duradrive","officialName":"CEDS DURADRIVE GmbH","displayName":"CEDS DURADRIVE","aliases":["CEDS DURADRIVE","DURADRIVE"],"formerNames":["SSB Antriebstechnik GmbH"],"officialWebsite":"https://www.ceds-duradrive.de/en/","officialDomains":["ceds-duradrive.de"],"country":"Germany","headquarters":null,"foundedYear":1970,"parentCompany":null,
-      "shortDescription":"CEDS DURADRIVE develops electric motors, geared motors and customised drive systems.",
-      "fullDescription":["CEDS DURADRIVE GmbH is verified through its manufacturer-owned website as a German drive-technology company whose history began in 1970 as SSB Antriebstechnik.","Its documented range includes asynchronous, synchronous, direct-current, torque and servo motors, plus geared motors and customised electric-drive solutions."],
-      "productCategories":["Промышленные электродвигатели","Мотор-редукторы","Промышленные приводы"],"productFamilies":["Asynchronous Motors","Synchronous Motors","DC Motors","Torque Motors","Servo Motors","Geared Motors","Custom Drives"],"series":[],"industries":["Промышленное производство","Машиностроение"],"officialCatalogs":[],"documentationSources":["https://www.ceds-duradrive.de/en/ceds-duradrive/about-us/"],
-      "sources":[{"sourceId":"brand-ceds-duradrive-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_FORMER_NAME","url":"https://www.ceds-duradrive.de/en/ceds-duradrive/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-ceds-duradrive-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTOR_GEARED_MOTOR_AND_CUSTOM_DRIVE_FAMILIES","url":"https://www.ceds-duradrive.de/en/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "ceds-duradrive",
+      "officialName": "CEDS DURADRIVE GmbH",
+      "displayName": "CEDS DURADRIVE",
+      "aliases": [
+        "CEDS DURADRIVE",
+        "DURADRIVE"
+      ],
+      "formerNames": [
+        "SSB Antriebstechnik GmbH"
+      ],
+      "officialWebsite": "https://www.ceds-duradrive.de/en/",
+      "officialDomains": [
+        "ceds-duradrive.de"
+      ],
+      "country": "Germany",
+      "headquarters": null,
+      "foundedYear": 1970,
+      "parentCompany": null,
+      "shortDescription": "CEDS DURADRIVE develops electric motors, geared motors and customised drive systems.",
+      "fullDescription": [
+        "CEDS DURADRIVE GmbH is verified through its manufacturer-owned website as a German drive-technology company whose history began in 1970 as SSB Antriebstechnik.",
+        "Its documented range includes asynchronous, synchronous, direct-current, torque and servo motors, plus geared motors and customised electric-drive solutions."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели",
+        "Мотор-редукторы",
+        "Промышленные приводы"
+      ],
+      "productFamilies": [
+        "Asynchronous Motors",
+        "Synchronous Motors",
+        "DC Motors",
+        "Torque Motors",
+        "Servo Motors",
+        "Geared Motors",
+        "Custom Drives"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Машиностроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.ceds-duradrive.de/en/ceds-duradrive/about-us/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ceds-duradrive-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_FORMER_NAME",
+          "url": "https://www.ceds-duradrive.de/en/ceds-duradrive/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-ceds-duradrive-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOTOR_GEARED_MOTOR_AND_CUSTOM_DRIVE_FAMILIES",
+          "url": "https://www.ceds-duradrive.de/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"celduc-relais","officialName":"celduc relais","displayName":"celduc relais","aliases":["CELDUC RELAIS","CELDUC"],"formerNames":[],"officialWebsite":"https://www.celduc-relais.com/en-us/","officialDomains":["celduc-relais.com"],"country":"France","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"celduc relais manufactures solid-state relays, reed relays and magnetic proximity sensors.",
-      "fullDescription":["celduc relais is verified through its manufacturer-owned website as a French manufacturer of electronic switching and sensing components.","Its official product range covers solid-state relays, power controllers, reed relays, reed switches and magnetic proximity sensors for industrial control applications."],
-      "productCategories":["Промышленные реле","Промышленные датчики","Силовые преобразователи"],"productFamilies":["Solid-State Relays","Power Controllers","Reed Relays","Reed Switches","Magnetic Proximity Sensors"],"series":[],"industries":["Промышленная автоматизация","Промышленное производство"],"officialCatalogs":["https://www.celduc-relais.com/wp-content/uploads/GUIDUS2019.pdf"],"documentationSources":["https://www.celduc-relais.com/en-us/our-products/"],
-      "sources":[{"sourceId":"brand-celduc-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SSR_REED_RELAY_SWITCH_AND_SENSOR_FAMILIES","url":"https://www.celduc-relais.com/en-us/our-products/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-celduc-guide","tier":"A","type":"OFFICIAL_CATALOG","scope":"ELECTRONIC_SWITCHING_AND_SENSOR_PRODUCT_SCOPE","url":"https://www.celduc-relais.com/wp-content/uploads/GUIDUS2019.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "celduc-relais",
+      "officialName": "celduc relais",
+      "displayName": "celduc relais",
+      "aliases": [
+        "CELDUC RELAIS",
+        "CELDUC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.celduc-relais.com/en-us/",
+      "officialDomains": [
+        "celduc-relais.com"
+      ],
+      "country": "France",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "celduc relais manufactures solid-state relays, reed relays and magnetic proximity sensors.",
+      "fullDescription": [
+        "celduc relais is verified through its manufacturer-owned website as a French manufacturer of electronic switching and sensing components.",
+        "Its official product range covers solid-state relays, power controllers, reed relays, reed switches and magnetic proximity sensors for industrial control applications."
+      ],
+      "productCategories": [
+        "Промышленные реле",
+        "Промышленные датчики",
+        "Силовые преобразователи"
+      ],
+      "productFamilies": [
+        "Solid-State Relays",
+        "Power Controllers",
+        "Reed Relays",
+        "Reed Switches",
+        "Magnetic Proximity Sensors"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.celduc-relais.com/wp-content/uploads/GUIDUS2019.pdf"
+      ],
+      "documentationSources": [
+        "https://www.celduc-relais.com/en-us/our-products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-celduc-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SSR_REED_RELAY_SWITCH_AND_SENSOR_FAMILIES",
+          "url": "https://www.celduc-relais.com/en-us/our-products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-celduc-guide",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "ELECTRONIC_SWITCHING_AND_SENSOR_PRODUCT_SCOPE",
+          "url": "https://www.celduc-relais.com/wp-content/uploads/GUIDUS2019.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"celesco","officialName":"Celesco","displayName":"Celesco","aliases":["CELESCO","CELESCO TRANSDUCER PRODUCTS"],"formerNames":[],"officialWebsite":"https://www.te.com/en/products/brands/celesco.html","officialDomains":["te.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"TE Connectivity Ltd.","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Celesco is a TE Connectivity brand of linear and rotary position sensors for industrial measurement applications.",
-      "fullDescription":["Celesco is verified through TE Connectivity's official product estate as a position-sensor brand within the TE portfolio.","The documented range includes cable-extension transducers, string potentiometers, linear-position sensors and industrial rotary potentiometers for displacement and position measurement."],
-      "productCategories":["Промышленные датчики","Контрольно-измерительные приборы"],"productFamilies":["Cable-Extension Position Sensors","String Potentiometers","Linear Position Sensors","Rotary Potentiometers"],"series":[],"industries":["Промышленное производство","Транспорт"],"officialCatalogs":[],"documentationSources":["https://www.te.com/en/product-CAT-RDP0003.html","https://www.te.com/en/product-CAT-RDP0001.html"],
-      "sources":[{"sourceId":"brand-celesco-linear","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_PAGE","scope":"CELESCO_IDENTITY_AND_LINEAR_POSITION_SENSOR_SCOPE","url":"https://www.te.com/en/product-CAT-RDP0003.html","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-celesco-rotary","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_PAGE","scope":"ROTARY_POSITION_SENSOR_SCOPE","url":"https://www.te.com/en/product-CAT-RDP0001.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "celesco",
+      "officialName": "Celesco",
+      "displayName": "Celesco",
+      "aliases": [
+        "CELESCO",
+        "CELESCO TRANSDUCER PRODUCTS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.te.com/en/products/brands/celesco.html",
+      "officialDomains": [
+        "te.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "TE Connectivity Ltd.",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Celesco is a TE Connectivity brand of linear and rotary position sensors for industrial measurement applications.",
+      "fullDescription": [
+        "Celesco is verified through TE Connectivity's official product estate as a position-sensor brand within the TE portfolio.",
+        "The documented range includes cable-extension transducers, string potentiometers, linear-position sensors and industrial rotary potentiometers for displacement and position measurement."
+      ],
+      "productCategories": [
+        "Промышленные датчики",
+        "Контрольно-измерительные приборы"
+      ],
+      "productFamilies": [
+        "Cable-Extension Position Sensors",
+        "String Potentiometers",
+        "Linear Position Sensors",
+        "Rotary Potentiometers"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Транспорт"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.te.com/en/product-CAT-RDP0003.html",
+        "https://www.te.com/en/product-CAT-RDP0001.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-celesco-linear",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+          "scope": "CELESCO_IDENTITY_AND_LINEAR_POSITION_SENSOR_SCOPE",
+          "url": "https://www.te.com/en/product-CAT-RDP0003.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-celesco-rotary",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+          "scope": "ROTARY_POSITION_SENSOR_SCOPE",
+          "url": "https://www.te.com/en/product-CAT-RDP0001.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"celma-indukta","officialName":"CELMA INDUKTA S.A.","displayName":"CELMA INDUKTA","aliases":["CELMA INDUKTA","CELMA"],"formerNames":[],"officialWebsite":"https://www.cantonigroup.com/celma/en/page/celma-indukta","officialDomains":["cantonigroup.com"],"country":"Poland","headquarters":"Cieszyn, Poland","foundedYear":null,"parentCompany":"Cantoni Group","statusModifier":"GROUP_BRAND",
-      "shortDescription":"CELMA INDUKTA is a Cantoni Group manufacturer of general-purpose and special-purpose electric motors.",
-      "fullDescription":["CELMA INDUKTA S.A. is verified through Cantoni Group's official company page as a Polish electric-motor manufacturer with more than a century of industrial experience.","Its documented product scope includes three-phase squirrel-cage motors and special motors for mining, chemical, metallurgical, shipbuilding and other demanding applications."],
-      "productCategories":["Промышленные электродвигатели"],"productFamilies":["Three-Phase Squirrel-Cage Motors","Special-Purpose Electric Motors","Mining Motors","Marine Motors"],"series":[],"industries":["Горнодобывающая промышленность","Химическая промышленность","Металлургия","Судостроение"],"officialCatalogs":[],"documentationSources":["https://www.cantonigroup.com/celma/en/page/celma-indukta"],
-      "sources":[{"sourceId":"brand-celma-cantoni","tier":"B","type":"OFFICIAL_PARENT_COMPANY_PAGE","scope":"LEGAL_IDENTITY_PARENT_LOCATION_AND_MOTOR_SCOPE","url":"https://www.cantonigroup.com/celma/en/page/celma-indukta","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "celma-indukta",
+      "officialName": "CELMA INDUKTA S.A.",
+      "displayName": "CELMA INDUKTA",
+      "aliases": [
+        "CELMA INDUKTA",
+        "CELMA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cantonigroup.com/celma/en/page/celma-indukta",
+      "officialDomains": [
+        "cantonigroup.com"
+      ],
+      "country": "Poland",
+      "headquarters": "Cieszyn, Poland",
+      "foundedYear": null,
+      "parentCompany": "Cantoni Group",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "CELMA INDUKTA is a Cantoni Group manufacturer of general-purpose and special-purpose electric motors.",
+      "fullDescription": [
+        "CELMA INDUKTA S.A. is verified through Cantoni Group's official company page as a Polish electric-motor manufacturer with more than a century of industrial experience.",
+        "Its documented product scope includes three-phase squirrel-cage motors and special motors for mining, chemical, metallurgical, shipbuilding and other demanding applications."
+      ],
+      "productCategories": [
+        "Промышленные электродвигатели"
+      ],
+      "productFamilies": [
+        "Three-Phase Squirrel-Cage Motors",
+        "Special-Purpose Electric Motors",
+        "Mining Motors",
+        "Marine Motors"
+      ],
+      "series": [],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Химическая промышленность",
+        "Металлургия",
+        "Судостроение"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.cantonigroup.com/celma/en/page/celma-indukta"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-celma-cantoni",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_COMPANY_PAGE",
+          "scope": "LEGAL_IDENTITY_PARENT_LOCATION_AND_MOTOR_SCOPE",
+          "url": "https://www.cantonigroup.com/celma/en/page/celma-indukta",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cemb","officialName":"CEMB S.p.A.","displayName":"CEMB","aliases":["CEMB"],"formerNames":[],"officialWebsite":"https://industry.cemb.com/","officialDomains":["cemb.com"],"country":"Italy","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CEMB manufactures balancing machines and rotor-analysis systems for industrial production and maintenance.",
-      "fullDescription":["CEMB S.p.A. is verified through its manufacturer-owned industrial website as a manufacturer of balancing technology.","Its official range includes universal, automatic and custom balancing machines for rotors, shafts, fans, pumps, turbines and other rotating assemblies, together with vibration and measurement solutions."],
-      "productCategories":["Балансировочные машины","Контрольно-измерительные приборы","Вибрационное оборудование"],"productFamilies":["Universal Balancing Machines","Automatic Balancing Machines","Custom Balancing Systems","Rotor Balancing Systems","Vibration Instruments"],"series":[],"industries":["Автомобильная промышленность","Аэрокосмическая промышленность","Энергетика","Железнодорожный транспорт","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://industry.cemb.com/industrial-balancing-machines/universal-balancing-machines/"],
-      "sources":[{"sourceId":"brand-cemb-industry","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_BALANCING_SCOPE","url":"https://industry.cemb.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cemb-universal","tier":"A","type":"PRODUCT_DIRECTORY","scope":"UNIVERSAL_AUTOMATIC_AND_CUSTOM_BALANCING_FAMILIES","url":"https://industry.cemb.com/industrial-balancing-machines/universal-balancing-machines/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cemb",
+      "officialName": "CEMB S.p.A.",
+      "displayName": "CEMB",
+      "aliases": [
+        "CEMB"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://industry.cemb.com/",
+      "officialDomains": [
+        "cemb.com"
+      ],
+      "country": "Italy",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CEMB manufactures balancing machines and rotor-analysis systems for industrial production and maintenance.",
+      "fullDescription": [
+        "CEMB S.p.A. is verified through its manufacturer-owned industrial website as a manufacturer of balancing technology.",
+        "Its official range includes universal, automatic and custom balancing machines for rotors, shafts, fans, pumps, turbines and other rotating assemblies, together with vibration and measurement solutions."
+      ],
+      "productCategories": [
+        "Балансировочные машины",
+        "Контрольно-измерительные приборы",
+        "Вибрационное оборудование"
+      ],
+      "productFamilies": [
+        "Universal Balancing Machines",
+        "Automatic Balancing Machines",
+        "Custom Balancing Systems",
+        "Rotor Balancing Systems",
+        "Vibration Instruments"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Энергетика",
+        "Железнодорожный транспорт",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://industry.cemb.com/industrial-balancing-machines/universal-balancing-machines/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cemb-industry",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_BALANCING_SCOPE",
+          "url": "https://industry.cemb.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-cemb-universal",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "UNIVERSAL_AUTOMATIC_AND_CUSTOM_BALANCING_FAMILIES",
+          "url": "https://industry.cemb.com/industrial-balancing-machines/universal-balancing-machines/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"centa","officialName":"CENTA","displayName":"CENTA","aliases":["CENTA","CENTA POWER TRANSMISSION"],"formerNames":["CENTA Antriebe Kirschey GmbH"],"officialWebsite":"https://www.rexnord.com/products-services/process-motion-control/couplings/torsionally-soft-couplings","officialDomains":["rexnord.com"],"country":null,"headquarters":null,"foundedYear":1970,"parentCompany":"Regal Rexnord Corporation","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"CENTA is a Regal Rexnord brand of torsionally flexible, disc and shaft-coupling systems.",
-      "fullDescription":["CENTA is verified through Regal Rexnord's official product and technical-document estate as a power-transmission brand founded in 1970.","The documented portfolio covers torsionally soft couplings, disc couplings, shaft couplings and drive solutions for marine, energy and industrial machinery."],
-      "productCategories":["Промышленные муфты","Компоненты механических передач"],"productFamilies":["Torsionally Soft Couplings","Disc Couplings","Shaft Couplings","Driveshaft Systems"],"series":["CENTAFLEX","CENTAMAX","CENTAX","CENTADISC"],"industries":["Морская промышленность","Энергетика","Промышленное производство"],"officialCatalogs":["https://www.rexnord.com/contentitems/techlibrary/documents/couplings/centa/cm-en-02-18"],"documentationSources":["https://www.rexnord.com/products-services/process-motion-control/couplings/disc-couplings/centa-disc-couplings"],
-      "sources":[{"sourceId":"brand-centa-soft-couplings","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_AND_TORSIONAL_COUPLING_SCOPE","url":"https://www.rexnord.com/products-services/process-motion-control/couplings/torsionally-soft-couplings","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-centa-document","tier":"B","type":"OFFICIAL_PARENT_CATALOG","scope":"HISTORY_AND_COUPLING_PRODUCT_FAMILIES","url":"https://www.rexnord.com/contentitems/techlibrary/documents/couplings/centa/cm-en-02-18","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "centa",
+      "officialName": "CENTA",
+      "displayName": "CENTA",
+      "aliases": [
+        "CENTA",
+        "CENTA POWER TRANSMISSION"
+      ],
+      "formerNames": [
+        "CENTA Antriebe Kirschey GmbH"
+      ],
+      "officialWebsite": "https://www.rexnord.com/products-services/process-motion-control/couplings/torsionally-soft-couplings",
+      "officialDomains": [
+        "rexnord.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": 1970,
+      "parentCompany": "Regal Rexnord Corporation",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "CENTA is a Regal Rexnord brand of torsionally flexible, disc and shaft-coupling systems.",
+      "fullDescription": [
+        "CENTA is verified through Regal Rexnord's official product and technical-document estate as a power-transmission brand founded in 1970.",
+        "The documented portfolio covers torsionally soft couplings, disc couplings, shaft couplings and drive solutions for marine, energy and industrial machinery."
+      ],
+      "productCategories": [
+        "Промышленные муфты",
+        "Компоненты механических передач"
+      ],
+      "productFamilies": [
+        "Torsionally Soft Couplings",
+        "Disc Couplings",
+        "Shaft Couplings",
+        "Driveshaft Systems"
+      ],
+      "series": [
+        "CENTAFLEX",
+        "CENTAMAX",
+        "CENTAX",
+        "CENTADISC"
+      ],
+      "industries": [
+        "Морская промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.rexnord.com/contentitems/techlibrary/documents/couplings/centa/cm-en-02-18"
+      ],
+      "documentationSources": [
+        "https://www.rexnord.com/products-services/process-motion-control/couplings/disc-couplings/centa-disc-couplings"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-centa-soft-couplings",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_PARENT_AND_TORSIONAL_COUPLING_SCOPE",
+          "url": "https://www.rexnord.com/products-services/process-motion-control/couplings/torsionally-soft-couplings",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-centa-document",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_CATALOG",
+          "scope": "HISTORY_AND_COUPLING_PRODUCT_FAMILIES",
+          "url": "https://www.rexnord.com/contentitems/techlibrary/documents/couplings/centa/cm-en-02-18",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"center-line","officialName":"Center Line","displayName":"Center Line","aliases":["CENTER LINE","CENTERLINE"],"formerNames":[],"officialWebsite":"https://cranecpe.com/product/center-line-resilient-seated-butterfly-valves/","officialDomains":["cranecpe.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":"Crane Company","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Center Line is a Crane brand of resilient-seated butterfly valves for industrial flow control.",
-      "fullDescription":["Center Line is verified through Crane ChemPharma & Energy's official product pages as a butterfly-valve brand within the Crane portfolio.","Its documented range includes resilient-seated wafer, lug and flanged butterfly valves for water, HVAC, chemical, power and marine duties."],
-      "productCategories":["Промышленные клапаны"],"productFamilies":["Resilient-Seated Butterfly Valves","Wafer Butterfly Valves","Lug Butterfly Valves","Flanged Butterfly Valves"],"series":["Series 200","Series 225","Series 250","Series 800","Series RS"],"industries":["Водоснабжение","HVAC и здания","Химическая промышленность","Энергетика","Морская промышленность"],"officialCatalogs":[],"documentationSources":["https://cranecpe.com/product/center-line-butterfly-valves-series-rs/"],
-      "sources":[{"sourceId":"brand-center-line-resilient","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_PAGE","scope":"BRAND_IDENTITY_PARENT_AND_RESILIENT_BUTTERFLY_VALVE_SCOPE","url":"https://cranecpe.com/product/center-line-resilient-seated-butterfly-valves/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-center-line-rs","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_PAGE","scope":"SERIES_RS_BUTTERFLY_VALVE_SCOPE","url":"https://cranecpe.com/product/center-line-butterfly-valves-series-rs/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "center-line",
+      "officialName": "Center Line",
+      "displayName": "Center Line",
+      "aliases": [
+        "CENTER LINE",
+        "CENTERLINE"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://cranecpe.com/product/center-line-resilient-seated-butterfly-valves/",
+      "officialDomains": [
+        "cranecpe.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Crane Company",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Center Line is a Crane brand of resilient-seated butterfly valves for industrial flow control.",
+      "fullDescription": [
+        "Center Line is verified through Crane ChemPharma & Energy's official product pages as a butterfly-valve brand within the Crane portfolio.",
+        "Its documented range includes resilient-seated wafer, lug and flanged butterfly valves for water, HVAC, chemical, power and marine duties."
+      ],
+      "productCategories": [
+        "Промышленные клапаны"
+      ],
+      "productFamilies": [
+        "Resilient-Seated Butterfly Valves",
+        "Wafer Butterfly Valves",
+        "Lug Butterfly Valves",
+        "Flanged Butterfly Valves"
+      ],
+      "series": [
+        "Series 200",
+        "Series 225",
+        "Series 250",
+        "Series 800",
+        "Series RS"
+      ],
+      "industries": [
+        "Водоснабжение",
+        "HVAC и здания",
+        "Химическая промышленность",
+        "Энергетика",
+        "Морская промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://cranecpe.com/product/center-line-butterfly-valves-series-rs/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-center-line-resilient",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+          "scope": "BRAND_IDENTITY_PARENT_AND_RESILIENT_BUTTERFLY_VALVE_SCOPE",
+          "url": "https://cranecpe.com/product/center-line-resilient-seated-butterfly-valves/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-center-line-rs",
+          "tier": "B",
+          "type": "OFFICIAL_PARENT_PRODUCT_PAGE",
+          "scope": "SERIES_RS_BUTTERFLY_VALVE_SCOPE",
+          "url": "https://cranecpe.com/product/center-line-butterfly-valves-series-rs/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"certuss","officialName":"CERTUSS Dampfautomaten GmbH & Co. KG","displayName":"CERTUSS","aliases":["CERTUSS"],"formerNames":[],"officialWebsite":"https://www.certuss.com/en/","officialDomains":["certuss.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CERTUSS manufactures compact industrial steam generators and complete steam-supply systems.",
-      "fullDescription":["CERTUSS is verified through its manufacturer-owned website as a German producer of rapid steam generators.","The official portfolio covers gas-, oil- and electrically heated steam generators, supply units, water-treatment equipment and associated heat exchangers for industrial steam systems."],
-      "productCategories":["Тепловое оборудование","Промышленные машины","Водоподготовка"],"productFamilies":["Rapid Steam Generators","Electric Steam Generators","Gas-Fired Steam Generators","Oil-Fired Steam Generators","Steam Supply Units","Water Treatment Systems"],"series":["UMX","EMX","Universal","Junior"],"industries":["Промышленное производство","Пищевая промышленность","Фармацевтическая промышленность"],"officialCatalogs":[],"documentationSources":["https://www.certuss.com/en/downloads"],
-      "sources":[{"sourceId":"brand-certuss-steam","tier":"A","type":"PRODUCT_DIRECTORY","scope":"STEAM_GENERATOR_AND_SUPPLY_SYSTEM_FAMILIES","url":"https://www.certuss.com/en/steam-generators","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-certuss-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"OFFICIAL_PRODUCT_DOCUMENTATION","url":"https://www.certuss.com/en/downloads","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "certuss",
+      "officialName": "CERTUSS Dampfautomaten GmbH & Co. KG",
+      "displayName": "CERTUSS",
+      "aliases": [
+        "CERTUSS"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.certuss.com/en/",
+      "officialDomains": [
+        "certuss.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Krefeld, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CERTUSS manufactures compact industrial steam generators and complete steam-supply systems.",
+      "fullDescription": [
+        "CERTUSS is verified through its manufacturer-owned website as a German producer of rapid steam generators.",
+        "The official portfolio covers gas-, oil- and electrically heated steam generators, supply units, water-treatment equipment and associated heat exchangers for industrial steam systems."
+      ],
+      "productCategories": [
+        "Тепловое оборудование",
+        "Промышленные машины",
+        "Водоподготовка"
+      ],
+      "productFamilies": [
+        "Rapid Steam Generators",
+        "Electric Steam Generators",
+        "Gas-Fired Steam Generators",
+        "Oil-Fired Steam Generators",
+        "Steam Supply Units",
+        "Water Treatment Systems"
+      ],
+      "series": [
+        "UMX",
+        "EMX",
+        "Universal",
+        "Junior"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.certuss.com/en/downloads"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-certuss-steam",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "STEAM_GENERATOR_AND_SUPPLY_SYSTEM_FAMILIES",
+          "url": "https://www.certuss.com/en/steam-generators",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-certuss-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "OFFICIAL_PRODUCT_DOCUMENTATION",
+          "url": "https://www.certuss.com/en/downloads",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-certuss-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://www.certuss.com/en/legal-information",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"cerulean","officialName":"Cerulean","displayName":"Cerulean","aliases":["CERULEAN","CERULEAN MPRD"],"formerNames":[],"officialWebsite":"https://www.cerulean.com/en","officialDomains":["cerulean.com"],"country":"United Kingdom","headquarters":null,"foundedYear":null,"parentCompany":"Coesia S.p.A.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Cerulean develops precision test and measurement systems for nicotine, tobacco, vaping and packaging applications.",
-      "fullDescription":["Cerulean is verified through its official website as a Coesia company focused on precision test and measurement equipment.","Its documented portfolio includes smoking and vaping test systems, product-analysis instruments, physical-testing equipment, air-sampling systems, carton testing and packing equipment."],
-      "productCategories":["Лабораторное оборудование","Контрольно-измерительные приборы","Инспекционное оборудование","Упаковочное оборудование"],"productFamilies":["Smoking Test Systems","Vaping Test Systems","Product Analysis Instruments","Physical Test Equipment","Air Sampling Systems","Carton Testers"],"series":[],"industries":["Лабораторные исследования","Упаковочная промышленность","Промышленное производство"],"officialCatalogs":["https://www.cerulean.com/sites/cerulean/files/2020-08/CERULEAN%20ENDS%20Brochure%20CEB-JC-0820-1.pdf"],"documentationSources":["https://www.cerulean.com/en/solutions/products"],
-      "sources":[{"sourceId":"brand-cerulean-home","tier":"A","type":"ABOUT","scope":"BRAND_IDENTITY_PARENT_AND_MEASUREMENT_SCOPE","url":"https://www.cerulean.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cerulean-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TEST_ANALYSIS_SAMPLING_AND_PACKAGING_FAMILIES","url":"https://www.cerulean.com/en/solutions/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cerulean",
+      "officialName": "Cerulean",
+      "displayName": "Cerulean",
+      "aliases": [
+        "CERULEAN",
+        "CERULEAN MPRD"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cerulean.com/en",
+      "officialDomains": [
+        "cerulean.com"
+      ],
+      "country": "United Kingdom",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Coesia S.p.A.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Cerulean develops precision test and measurement systems for nicotine, tobacco, vaping and packaging applications.",
+      "fullDescription": [
+        "Cerulean is verified through its official website as a Coesia company focused on precision test and measurement equipment.",
+        "Its documented portfolio includes smoking and vaping test systems, product-analysis instruments, physical-testing equipment, air-sampling systems, carton testing and packing equipment."
+      ],
+      "productCategories": [
+        "Лабораторное оборудование",
+        "Контрольно-измерительные приборы",
+        "Инспекционное оборудование",
+        "Упаковочное оборудование"
+      ],
+      "productFamilies": [
+        "Smoking Test Systems",
+        "Vaping Test Systems",
+        "Product Analysis Instruments",
+        "Physical Test Equipment",
+        "Air Sampling Systems",
+        "Carton Testers"
+      ],
+      "series": [],
+      "industries": [
+        "Лабораторные исследования",
+        "Упаковочная промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.cerulean.com/sites/cerulean/files/2020-08/CERULEAN%20ENDS%20Brochure%20CEB-JC-0820-1.pdf"
+      ],
+      "documentationSources": [
+        "https://www.cerulean.com/en/solutions/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cerulean-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY_PARENT_AND_MEASUREMENT_SCOPE",
+          "url": "https://www.cerulean.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-cerulean-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "TEST_ANALYSIS_SAMPLING_AND_PACKAGING_FAMILIES",
+          "url": "https://www.cerulean.com/en/solutions/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"chandler-engineering","officialName":"Chandler Engineering","displayName":"Chandler Engineering","aliases":["CHANDLER ENGINEERING","CHANDLER"],"formerNames":[],"officialWebsite":"https://www.chandlereng.com/","officialDomains":["chandlereng.com"],"country":"United States","headquarters":"Tulsa, Oklahoma, United States","foundedYear":1949,"parentCompany":"AMETEK, Inc.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Chandler Engineering manufactures laboratory and process instruments for oilfield cementing, drilling fluids and reservoir analysis.",
-      "fullDescription":["Chandler Engineering is verified through its official website and product literature as an AMETEK business founded in 1949.","Its documented range covers oil-well cement testing, drilling-fluid and fracturing-fluid instruments, reservoir analysis, rheology and viscosity systems, precision pumps and pilot-plant equipment."],
-      "productCategories":["Лабораторное оборудование","Контрольно-измерительные приборы","Промышленные насосы"],"productFamilies":["Oil-Well Cement Test Equipment","Drilling Fluid Instruments","Fracturing Fluid Instruments","Reservoir Analysis Systems","Rheometers","Precision Pumps","Pilot Plants"],"series":[],"industries":["Нефтегазовая промышленность","Лабораторные исследования"],"officialCatalogs":["https://www.chandlereng.com/-/media/ametekchandlereng/files/pdfs/oil-well-cementing-brochure---complete.pdf?la=en&revision=fed9f41a-8d38-4c08-bfe7-bc2af7dd53b5"],"documentationSources":["https://www.chandlereng.com/products"],
-      "sources":[{"sourceId":"brand-chandler-home","tier":"A","type":"ABOUT","scope":"BRAND_IDENTITY_PARENT_LOCATION_AND_HISTORY","url":"https://www.chandlereng.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chandler-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CEMENT_DRILLING_RESERVOIR_RHEOLOGY_AND_PUMP_FAMILIES","url":"https://www.chandlereng.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chandler-engineering",
+      "officialName": "Chandler Engineering",
+      "displayName": "Chandler Engineering",
+      "aliases": [
+        "CHANDLER ENGINEERING",
+        "CHANDLER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.chandlereng.com/",
+      "officialDomains": [
+        "chandlereng.com"
+      ],
+      "country": "United States",
+      "headquarters": "Tulsa, Oklahoma, United States",
+      "foundedYear": 1949,
+      "parentCompany": "AMETEK, Inc.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Chandler Engineering manufactures laboratory and process instruments for oilfield cementing, drilling fluids and reservoir analysis.",
+      "fullDescription": [
+        "Chandler Engineering is verified through its official website and product literature as an AMETEK business founded in 1949.",
+        "Its documented range covers oil-well cement testing, drilling-fluid and fracturing-fluid instruments, reservoir analysis, rheology and viscosity systems, precision pumps and pilot-plant equipment."
+      ],
+      "productCategories": [
+        "Лабораторное оборудование",
+        "Контрольно-измерительные приборы",
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Oil-Well Cement Test Equipment",
+        "Drilling Fluid Instruments",
+        "Fracturing Fluid Instruments",
+        "Reservoir Analysis Systems",
+        "Rheometers",
+        "Precision Pumps",
+        "Pilot Plants"
+      ],
+      "series": [],
+      "industries": [
+        "Нефтегазовая промышленность",
+        "Лабораторные исследования"
+      ],
+      "officialCatalogs": [
+        "https://www.chandlereng.com/-/media/ametekchandlereng/files/pdfs/oil-well-cementing-brochure---complete.pdf?la=en&revision=fed9f41a-8d38-4c08-bfe7-bc2af7dd53b5"
+      ],
+      "documentationSources": [
+        "https://www.chandlereng.com/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chandler-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "BRAND_IDENTITY_PARENT_LOCATION_AND_HISTORY",
+          "url": "https://www.chandlereng.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chandler-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CEMENT_DRILLING_RESERVOIR_RHEOLOGY_AND_PUMP_FAMILIES",
+          "url": "https://www.chandlereng.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"chang-ai","officialName":"CHANG AI","displayName":"CHANG AI","aliases":["CHANG-AI","CHANG AI"],"formerNames":[],"officialWebsite":"https://www.changai.com/","officialDomains":["changai.com"],"country":"China","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CHANG AI manufactures gas-analysis instruments for oxygen, moisture and industrial process monitoring.",
-      "fullDescription":["CHANG AI is verified through its manufacturer-owned website as a producer of gas-analysis and monitoring instruments.","Its documented range includes oxygen analyzers, moisture and dew-point analyzers, gas-analysis systems and instruments for environmental, safety and industrial-process monitoring."],
-      "productCategories":["Контрольно-измерительные приборы","Лабораторное оборудование"],"productFamilies":["Oxygen Analyzers","Moisture Analyzers","Dew Point Analyzers","Gas Analysis Systems","Process Monitoring Instruments"],"series":[],"industries":["Химическая промышленность","Энергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.changai.com/about-us.html"],
-      "sources":[{"sourceId":"brand-chang-ai-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_AND_GAS_ANALYZER_SCOPE","url":"https://www.changai.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chang-ai-about","tier":"A","type":"ABOUT","scope":"COMPANY_IDENTITY_AND_APPLICATION_SCOPE","url":"https://www.changai.com/about-us.html","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chang-ai",
+      "officialName": "CHANG AI",
+      "displayName": "CHANG AI",
+      "aliases": [
+        "CHANG-AI",
+        "CHANG AI"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.changai.com/",
+      "officialDomains": [
+        "changai.com"
+      ],
+      "country": "China",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CHANG AI manufactures gas-analysis instruments for oxygen, moisture and industrial process monitoring.",
+      "fullDescription": [
+        "CHANG AI is verified through its manufacturer-owned website as a producer of gas-analysis and monitoring instruments.",
+        "Its documented range includes oxygen analyzers, moisture and dew-point analyzers, gas-analysis systems and instruments for environmental, safety and industrial-process monitoring."
+      ],
+      "productCategories": [
+        "Контрольно-измерительные приборы",
+        "Лабораторное оборудование"
+      ],
+      "productFamilies": [
+        "Oxygen Analyzers",
+        "Moisture Analyzers",
+        "Dew Point Analyzers",
+        "Gas Analysis Systems",
+        "Process Monitoring Instruments"
+      ],
+      "series": [],
+      "industries": [
+        "Химическая промышленность",
+        "Энергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.changai.com/about-us.html"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chang-ai-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_AND_GAS_ANALYZER_SCOPE",
+          "url": "https://www.changai.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chang-ai-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "COMPANY_IDENTITY_AND_APPLICATION_SCOPE",
+          "url": "https://www.changai.com/about-us.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"chart-industies","officialName":"Chart Industries, Inc.","displayName":"Chart Industries","aliases":["CHART INDUSTRIES","CHART INDUSTIES","CHART"],"formerNames":[],"officialWebsite":"https://www.chartindustries.com/","officialDomains":["chartindustries.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"Baker Hughes Company","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Chart Industries supplies cryogenic, heat-transfer and rotating equipment for industrial gas and energy applications.",
-      "fullDescription":["Chart Industries is verified through its official website as a Baker Hughes business focused on process and cryogenic technology.","Its documented portfolio includes cryogenic storage and distribution equipment, heat exchangers, fans, compressors, blowers, turbines and gas-processing systems."],
-      "productCategories":["Вакуумное и криогенное оборудование","Теплообменное оборудование","Промышленные компрессоры","Промышленные вентиляторы","Промышленные турбины"],"productFamilies":["Cryogenic Storage Systems","Cryogenic Distribution Equipment","Heat Exchangers","Industrial Fans","Compressors and Blowers","Turbines","Gas Processing Systems"],"series":[],"industries":["Энергетика","Нефтегазовая промышленность","Химическая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.chartindustries.com/Products"],
-      "sources":[{"sourceId":"brand-chart-home","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_PARENT_AND_PROCESS_SCOPE","url":"https://www.chartindustries.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chart-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CRYOGENIC_HEAT_TRANSFER_COMPRESSOR_FAN_AND_TURBINE_FAMILIES","url":"https://www.chartindustries.com/Products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chart-industies",
+      "officialName": "Chart Industries, Inc.",
+      "displayName": "Chart Industries",
+      "aliases": [
+        "CHART INDUSTRIES",
+        "CHART INDUSTIES",
+        "CHART"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.chartindustries.com/",
+      "officialDomains": [
+        "chartindustries.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "Baker Hughes Company",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Chart Industries supplies cryogenic, heat-transfer and rotating equipment for industrial gas and energy applications.",
+      "fullDescription": [
+        "Chart Industries is verified through its official website as a Baker Hughes business focused on process and cryogenic technology.",
+        "Its documented portfolio includes cryogenic storage and distribution equipment, heat exchangers, fans, compressors, blowers, turbines and gas-processing systems."
+      ],
+      "productCategories": [
+        "Вакуумное и криогенное оборудование",
+        "Теплообменное оборудование",
+        "Промышленные компрессоры",
+        "Промышленные вентиляторы",
+        "Промышленные турбины"
+      ],
+      "productFamilies": [
+        "Cryogenic Storage Systems",
+        "Cryogenic Distribution Equipment",
+        "Heat Exchangers",
+        "Industrial Fans",
+        "Compressors and Blowers",
+        "Turbines",
+        "Gas Processing Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Энергетика",
+        "Нефтегазовая промышленность",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.chartindustries.com/Products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chart-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_IDENTITY_PARENT_AND_PROCESS_SCOPE",
+          "url": "https://www.chartindustries.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chart-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CRYOGENIC_HEAT_TRANSFER_COMPRESSOR_FAN_AND_TURBINE_FAMILIES",
+          "url": "https://www.chartindustries.com/Products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"chelic","officialName":"CHELIC Corporation","displayName":"CHELIC","aliases":["CHELIC","CHELIC PNEUMATIC"],"formerNames":[],"officialWebsite":"https://www.chelic.com/","officialDomains":["chelic.com"],"country":"Taiwan","headquarters":"New Taipei City, Taiwan","foundedYear":1986,"parentCompany":null,
-      "shortDescription":"CHELIC manufactures pneumatic and electric automation components for machine control and handling.",
-      "fullDescription":["CHELIC Corporation is verified through its manufacturer-owned website and official product overview as a Taiwanese automation-component manufacturer founded in 1986.","Its documented range includes pneumatic cylinders, air preparation, solenoid and process valves, vacuum equipment, electric actuators, grippers and control components."],
-      "productCategories":["Пневматическое оборудование","Пневматические цилиндры","Промышленные клапаны","Вакуумное оборудование","Линейные актуаторы"],"productFamilies":["Pneumatic Cylinders","Air Preparation Units","Solenoid Valves","Process Valves","Vacuum Components","Electric Actuators","Grippers"],"series":[],"industries":["Промышленная автоматизация","Промышленное производство","Электронная промышленность"],"officialCatalogs":["https://www.chelic.com/document/TW/Catalogue/2024PRODUCTOVERVIEW.pdf"],"documentationSources":["https://www.chelic.com/en/products_Info/ProductSeries/24"],
-      "sources":[{"sourceId":"brand-chelic-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_AND_LOCATION","url":"https://www.chelic.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chelic-overview","tier":"A","type":"OFFICIAL_CATALOG","scope":"PNEUMATIC_VALVE_VACUUM_AND_ACTUATOR_FAMILIES","url":"https://www.chelic.com/document/TW/Catalogue/2024PRODUCTOVERVIEW.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chelic",
+      "officialName": "CHELIC Corporation",
+      "displayName": "CHELIC",
+      "aliases": [
+        "CHELIC",
+        "CHELIC PNEUMATIC"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.chelic.com/",
+      "officialDomains": [
+        "chelic.com"
+      ],
+      "country": "Taiwan",
+      "headquarters": "New Taipei City, Taiwan",
+      "foundedYear": 1986,
+      "parentCompany": null,
+      "shortDescription": "CHELIC manufactures pneumatic and electric automation components for machine control and handling.",
+      "fullDescription": [
+        "CHELIC Corporation is verified through its manufacturer-owned website and official product overview as a Taiwanese automation-component manufacturer founded in 1986.",
+        "Its documented range includes pneumatic cylinders, air preparation, solenoid and process valves, vacuum equipment, electric actuators, grippers and control components."
+      ],
+      "productCategories": [
+        "Пневматическое оборудование",
+        "Пневматические цилиндры",
+        "Промышленные клапаны",
+        "Вакуумное оборудование",
+        "Линейные актуаторы"
+      ],
+      "productFamilies": [
+        "Pneumatic Cylinders",
+        "Air Preparation Units",
+        "Solenoid Valves",
+        "Process Valves",
+        "Vacuum Components",
+        "Electric Actuators",
+        "Grippers"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленная автоматизация",
+        "Промышленное производство",
+        "Электронная промышленность"
+      ],
+      "officialCatalogs": [
+        "https://www.chelic.com/document/TW/Catalogue/2024PRODUCTOVERVIEW.pdf"
+      ],
+      "documentationSources": [
+        "https://www.chelic.com/en/products_Info/ProductSeries/24"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chelic-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_LOCATION",
+          "url": "https://www.chelic.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chelic-overview",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "PNEUMATIC_VALVE_VACUUM_AND_ACTUATOR_FAMILIES",
+          "url": "https://www.chelic.com/document/TW/Catalogue/2024PRODUCTOVERVIEW.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"chicago-pneumatic","officialName":"Chicago Pneumatic","displayName":"Chicago Pneumatic","aliases":["CHICAGO PNEUMATIC","CP"],"formerNames":[],"officialWebsite":"https://www.cp.com/en","officialDomains":["cp.com"],"country":null,"headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Chicago Pneumatic supplies compressors, pneumatic and cordless tools, and construction and workshop equipment.",
-      "fullDescription":["Chicago Pneumatic is verified through its manufacturer-owned global website as an industrial-equipment brand.","The official range covers air compressors and dryers, pneumatic and cordless tools, workshop equipment, construction tools, generators and light towers."],
-      "productCategories":["Промышленные компрессоры","Промышленные инструменты","Строительная техника","Электроэнергетическое оборудование"],"productFamilies":["Air Compressors","Compressed-Air Dryers","Pneumatic Tools","Cordless Tools","Workshop Equipment","Construction Tools","Generators","Light Towers"],"series":[],"industries":["Промышленное производство","Строительство","Автомобильная промышленность"],"officialCatalogs":[],"documentationSources":["https://compressors.cp.com/en-us/products","https://tools.cp.com/en/products/all"],
-      "sources":[{"sourceId":"brand-chicago-pneumatic-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_AND_GLOBAL_EQUIPMENT_SCOPE","url":"https://www.cp.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chicago-pneumatic-compressors","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COMPRESSOR_AND_AIR_TREATMENT_FAMILIES","url":"https://compressors.cp.com/en-us/products","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chicago-pneumatic-tools","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TOOL_WORKSHOP_AND_CONSTRUCTION_FAMILIES","url":"https://tools.cp.com/en/products/all","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chicago-pneumatic",
+      "officialName": "Chicago Pneumatic",
+      "displayName": "Chicago Pneumatic",
+      "aliases": [
+        "CHICAGO PNEUMATIC",
+        "CP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cp.com/en",
+      "officialDomains": [
+        "cp.com"
+      ],
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Chicago Pneumatic supplies compressors, pneumatic and cordless tools, and construction and workshop equipment.",
+      "fullDescription": [
+        "Chicago Pneumatic is verified through its manufacturer-owned global website as an industrial-equipment brand.",
+        "The official range covers air compressors and dryers, pneumatic and cordless tools, workshop equipment, construction tools, generators and light towers."
+      ],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Промышленные инструменты",
+        "Строительная техника",
+        "Электроэнергетическое оборудование"
+      ],
+      "productFamilies": [
+        "Air Compressors",
+        "Compressed-Air Dryers",
+        "Pneumatic Tools",
+        "Cordless Tools",
+        "Workshop Equipment",
+        "Construction Tools",
+        "Generators",
+        "Light Towers"
+      ],
+      "series": [],
+      "industries": [
+        "Промышленное производство",
+        "Строительство",
+        "Автомобильная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://compressors.cp.com/en-us/products",
+        "https://tools.cp.com/en/products/all"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chicago-pneumatic-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_AND_GLOBAL_EQUIPMENT_SCOPE",
+          "url": "https://www.cp.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chicago-pneumatic-compressors",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "COMPRESSOR_AND_AIR_TREATMENT_FAMILIES",
+          "url": "https://compressors.cp.com/en-us/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chicago-pneumatic-tools",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "TOOL_WORKSHOP_AND_CONSTRUCTION_FAMILIES",
+          "url": "https://tools.cp.com/en/products/all",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"chiron","officialName":"CHIRON Group SE","displayName":"CHIRON","aliases":["CHIRON","CHIRON GROUP"],"formerNames":[],"officialWebsite":"https://chiron-group.com/","officialDomains":["chiron-group.com"],"country":"Germany","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CHIRON manufactures CNC machining centres, turn-mill systems and automated production solutions.",
-      "fullDescription":["CHIRON Group SE is verified through its manufacturer-owned website as a German machine-tool manufacturer.","Its official portfolio covers vertical CNC machining centres, mill-turn machining, additive manufacturing, automation cells and turnkey production systems."],
-      "productCategories":["Станки с ЧПУ","Обрабатывающие центры","Промышленная автоматизация и контроллеры","Промышленные машины"],"productFamilies":["Vertical Machining Centres","Mill-Turn Centres","Additive Manufacturing Systems","Automation Cells","Turnkey Production Systems"],"series":[],"industries":["Автомобильная промышленность","Аэрокосмическая промышленность","Машиностроение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://chiron-group.com/de/produkte"],
-      "sources":[{"sourceId":"brand-chiron-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_AND_MACHINE_TOOL_SCOPE","url":"https://chiron-group.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-chiron-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CNC_MILL_TURN_ADDITIVE_AND_AUTOMATION_FAMILIES","url":"https://chiron-group.com/de/produkte","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chiron",
+      "officialName": "CHIRON Group SE",
+      "displayName": "CHIRON",
+      "aliases": [
+        "CHIRON",
+        "CHIRON GROUP"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://chiron-group.com/",
+      "officialDomains": [
+        "chiron-group.com"
+      ],
+      "country": "Germany",
+      "headquarters": "Tuttlingen, Germany",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CHIRON manufactures CNC machining centres, turn-mill systems and automated production solutions.",
+      "fullDescription": [
+        "CHIRON Group SE is verified through its manufacturer-owned website as a German machine-tool manufacturer.",
+        "Its official portfolio covers vertical CNC machining centres, mill-turn machining, additive manufacturing, automation cells and turnkey production systems."
+      ],
+      "productCategories": [
+        "Станки с ЧПУ",
+        "Обрабатывающие центры",
+        "Промышленная автоматизация и контроллеры",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Vertical Machining Centres",
+        "Mill-Turn Centres",
+        "Additive Manufacturing Systems",
+        "Automation Cells",
+        "Turnkey Production Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Автомобильная промышленность",
+        "Аэрокосмическая промышленность",
+        "Машиностроение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://chiron-group.com/de/produkte"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chiron-home",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_AND_MACHINE_TOOL_SCOPE",
+          "url": "https://chiron-group.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chiron-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CNC_MILL_TURN_ADDITIVE_AND_AUTOMATION_FAMILIES",
+          "url": "https://chiron-group.com/de/produkte",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-chiron-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://chiron-group.com/imprint",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
+      ]
     },
     {
-      "manufacturerId":"chocotech","officialName":"CHOCOTECH GmbH","displayName":"CHOCOTECH","aliases":["CHOCOTECH"],"formerNames":[],"officialWebsite":"https://www.chocotech.de/","officialDomains":["chocotech.de"],"country":"Germany","headquarters":"Wernigerode, Germany","foundedYear":1920,"parentCompany":null,
-      "shortDescription":"CHOCOTECH develops process machinery and complete systems for industrial confectionery production.",
-      "fullDescription":["CHOCOTECH GmbH is verified through its manufacturer-owned website as a German confectionery-technology company with history dating to 1920.","Its documented systems cover weighing, dissolving, cooking, vacuum processing, caramelising, crystallising, aerating, cooling, dosing, forming, tempering and laboratory-scale confectionery production."],
-      "productCategories":["Промышленные машины","Дозирующее оборудование","Лабораторное оборудование","Тепловое оборудование"],"productFamilies":["Weighing Systems","Cooking Systems","Vacuum Processing Systems","Caramelising Systems","Aeration Systems","Dosing Systems","Forming Systems","Laboratory Plants"],"series":["AUTOGRAV","CARASTAR","JELLYMASTER","SUCROMASTER","CHEWMASTER","TORNADO","CHOCOFORM"],"industries":["Пищевая промышленность","Кондитерская промышленность"],"officialCatalogs":[],"documentationSources":["https://www.chocotech.de/"],
-      "sources":[{"sourceId":"brand-chocotech-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_CONFECTIONERY_PROCESS_SCOPE","url":"https://www.chocotech.de/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "chocotech",
+      "officialName": "CHOCOTECH GmbH",
+      "displayName": "CHOCOTECH",
+      "aliases": [
+        "CHOCOTECH"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.chocotech.de/",
+      "officialDomains": [
+        "chocotech.de"
+      ],
+      "country": "Germany",
+      "headquarters": "Wernigerode, Germany",
+      "foundedYear": 1920,
+      "parentCompany": null,
+      "shortDescription": "CHOCOTECH develops process machinery and complete systems for industrial confectionery production.",
+      "fullDescription": [
+        "CHOCOTECH GmbH is verified through its manufacturer-owned website as a German confectionery-technology company with history dating to 1920.",
+        "Its documented systems cover weighing, dissolving, cooking, vacuum processing, caramelising, crystallising, aerating, cooling, dosing, forming, tempering and laboratory-scale confectionery production."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Дозирующее оборудование",
+        "Лабораторное оборудование",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Weighing Systems",
+        "Cooking Systems",
+        "Vacuum Processing Systems",
+        "Caramelising Systems",
+        "Aeration Systems",
+        "Dosing Systems",
+        "Forming Systems",
+        "Laboratory Plants"
+      ],
+      "series": [
+        "AUTOGRAV",
+        "CARASTAR",
+        "JELLYMASTER",
+        "SUCROMASTER",
+        "CHEWMASTER",
+        "TORNADO",
+        "CHOCOFORM"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Кондитерская промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.chocotech.de/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-chocotech-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_AND_CONFECTIONERY_PROCESS_SCOPE",
+          "url": "https://www.chocotech.de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cifa","officialName":"CIFA S.p.A.","displayName":"CIFA","aliases":["CIFA"],"formerNames":[],"officialWebsite":"https://www.cifa.com/en/","officialDomains":["cifa.com"],"country":"Italy","headquarters":"Senago, Italy","foundedYear":null,"parentCompany":null,
-      "shortDescription":"CIFA manufactures concrete pumps, truck mixers and equipment for concrete production and placement.",
-      "fullDescription":["CIFA S.p.A. is verified through its manufacturer-owned website as an Italian construction-equipment manufacturer.","Its official portfolio covers truck mixers, mixer pumps, truck-mounted and portable concrete pumps, batching and recycling plants, placing booms and underground shotcrete and transport equipment."],
-      "productCategories":["Промышленные насосы","Строительная техника","Промышленные машины"],"productFamilies":["Truck Mixers","Mixer Pumps","Truck-Mounted Concrete Pumps","Portable Concrete Pumps","Batching Plants","Placing Booms","Underground Shotcrete Equipment"],"series":[],"industries":["Строительство","Горнодобывающая промышленность","Инфраструктура"],"officialCatalogs":["https://www.cifa.com/img.php?_=899c266424&url=imgsharepoint%2FDEALER+ALL%2FUNDERGROUND%2FShotcrete%2FCat_UNDERGROUND_ENG.pdf"],"documentationSources":["https://www.cifa.com/en/products"],
-      "sources":[{"sourceId":"brand-cifa-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_LOCATION_AND_CONCRETE_EQUIPMENT_FAMILIES","url":"https://www.cifa.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cifa-underground","tier":"A","type":"OFFICIAL_CATALOG","scope":"UNDERGROUND_SHOTCRETE_AND_TRANSPORT_SCOPE","url":"https://www.cifa.com/img.php?_=899c266424&url=imgsharepoint%2FDEALER+ALL%2FUNDERGROUND%2FShotcrete%2FCat_UNDERGROUND_ENG.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cifa",
+      "officialName": "CIFA S.p.A.",
+      "displayName": "CIFA",
+      "aliases": [
+        "CIFA"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cifa.com/en/",
+      "officialDomains": [
+        "cifa.com"
+      ],
+      "country": "Italy",
+      "headquarters": "Senago, Italy",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CIFA manufactures concrete pumps, truck mixers and equipment for concrete production and placement.",
+      "fullDescription": [
+        "CIFA S.p.A. is verified through its manufacturer-owned website as an Italian construction-equipment manufacturer.",
+        "Its official portfolio covers truck mixers, mixer pumps, truck-mounted and portable concrete pumps, batching and recycling plants, placing booms and underground shotcrete and transport equipment."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Строительная техника",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Truck Mixers",
+        "Mixer Pumps",
+        "Truck-Mounted Concrete Pumps",
+        "Portable Concrete Pumps",
+        "Batching Plants",
+        "Placing Booms",
+        "Underground Shotcrete Equipment"
+      ],
+      "series": [],
+      "industries": [
+        "Строительство",
+        "Горнодобывающая промышленность",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [
+        "https://www.cifa.com/img.php?_=899c266424&url=imgsharepoint%2FDEALER+ALL%2FUNDERGROUND%2FShotcrete%2FCat_UNDERGROUND_ENG.pdf"
+      ],
+      "documentationSources": [
+        "https://www.cifa.com/en/products"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cifa-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_LOCATION_AND_CONCRETE_EQUIPMENT_FAMILIES",
+          "url": "https://www.cifa.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-cifa-underground",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "UNDERGROUND_SHOTCRETE_AND_TRANSPORT_SCOPE",
+          "url": "https://www.cifa.com/img.php?_=899c266424&url=imgsharepoint%2FDEALER+ALL%2FUNDERGROUND%2FShotcrete%2FCat_UNDERGROUND_ENG.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cincinnati-fan","officialName":"Cincinnati Fan","displayName":"Cincinnati Fan","aliases":["CINCINNATI FAN","CINCINNATI FAN & VENTILATOR"],"formerNames":[],"officialWebsite":"https://www.cincinnatifan.com/","officialDomains":["cincinnatifan.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"Cincinnati Fan manufactures industrial centrifugal and axial fans, blowers and air-movement equipment.",
-      "fullDescription":["Cincinnati Fan is verified through its manufacturer-owned website as a United States producer of industrial air-movement equipment with more than 70 years of operating history.","Its documented range includes centrifugal fans and blowers, axial fans, custom fans, dust collectors and portable fume exhausters."],
-      "productCategories":["Промышленные вентиляторы","Промышленная фильтрация"],"productFamilies":["Centrifugal Fans","Centrifugal Blowers","Axial Fans","Custom Fans","Dust Collectors","Portable Fume Exhausters"],"series":["PLF","PFI","EV","RBE"],"industries":["Промышленное производство","HVAC и здания"],"officialCatalogs":["https://www.cincinnatifan.com/wp-content/uploads/2024/07/CF-General-24.pdf"],"documentationSources":["https://www.cincinnatifan.com/"],
-      "sources":[{"sourceId":"brand-cincinnati-fan-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_FAN_BLOWER_FAMILIES","url":"https://www.cincinnatifan.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-cincinnati-fan-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"INDUSTRIAL_FAN_AND_BLOWER_PRODUCT_SCOPE","url":"https://www.cincinnatifan.com/wp-content/uploads/2024/07/CF-General-24.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cincinnati-fan",
+      "officialName": "Cincinnati Fan",
+      "displayName": "Cincinnati Fan",
+      "aliases": [
+        "CINCINNATI FAN",
+        "CINCINNATI FAN & VENTILATOR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cincinnatifan.com/",
+      "officialDomains": [
+        "cincinnatifan.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "Cincinnati Fan manufactures industrial centrifugal and axial fans, blowers and air-movement equipment.",
+      "fullDescription": [
+        "Cincinnati Fan is verified through its manufacturer-owned website as a United States producer of industrial air-movement equipment with more than 70 years of operating history.",
+        "Its documented range includes centrifugal fans and blowers, axial fans, custom fans, dust collectors and portable fume exhausters."
+      ],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Промышленная фильтрация"
+      ],
+      "productFamilies": [
+        "Centrifugal Fans",
+        "Centrifugal Blowers",
+        "Axial Fans",
+        "Custom Fans",
+        "Dust Collectors",
+        "Portable Fume Exhausters"
+      ],
+      "series": [
+        "PLF",
+        "PFI",
+        "EV",
+        "RBE"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "HVAC и здания"
+      ],
+      "officialCatalogs": [
+        "https://www.cincinnatifan.com/wp-content/uploads/2024/07/CF-General-24.pdf"
+      ],
+      "documentationSources": [
+        "https://www.cincinnatifan.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cincinnati-fan-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_FAN_BLOWER_FAMILIES",
+          "url": "https://www.cincinnatifan.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-cincinnati-fan-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "INDUSTRIAL_FAN_AND_BLOWER_PRODUCT_SCOPE",
+          "url": "https://www.cincinnatifan.com/wp-content/uploads/2024/07/CF-General-24.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"circle-seal-controls","officialName":"Circle Seal Controls","displayName":"Circle Seal Controls","aliases":["CIRCLE SEAL CONTROLS","CIRCLE SEAL"],"formerNames":[],"officialWebsite":"https://circleseal.circor.com/","officialDomains":["circleseal.circor.com","circor.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":"CIRCOR International, Inc.","statusModifier":"GROUP_BRAND",
-      "shortDescription":"Circle Seal Controls is a CIRCOR brand of valves, regulators and engineered fluid-control components.",
-      "fullDescription":["Circle Seal Controls is verified through its official CIRCOR-hosted website as a flow-control brand within CIRCOR International.","Its documented portfolio covers check, control, relief, shutoff and solenoid valves, pressure regulators and specialised sealing and fluid-control solutions for aerospace and industrial systems."],
-      "productCategories":["Промышленные клапаны","Промышленные регуляторы","Промышленные уплотнения"],"productFamilies":["Check Valves","Control Valves","Relief Valves","Shutoff Valves","Solenoid Valves","Pressure Regulators","Sealing Solutions"],"series":[],"industries":["Аэрокосмическая промышленность","Химическая промышленность","Морская промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://circleseal.circor.com/"],
-      "sources":[{"sourceId":"brand-circle-seal-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_AND_FLOW_CONTROL_SCOPE","url":"https://circleseal.circor.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "circle-seal-controls",
+      "officialName": "Circle Seal Controls",
+      "displayName": "Circle Seal Controls",
+      "aliases": [
+        "CIRCLE SEAL CONTROLS",
+        "CIRCLE SEAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://circleseal.circor.com/",
+      "officialDomains": [
+        "circleseal.circor.com",
+        "circor.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": "CIRCOR International, Inc.",
+      "statusModifier": "GROUP_BRAND",
+      "shortDescription": "Circle Seal Controls is a CIRCOR brand of valves, regulators and engineered fluid-control components.",
+      "fullDescription": [
+        "Circle Seal Controls is verified through its official CIRCOR-hosted website as a flow-control brand within CIRCOR International.",
+        "Its documented portfolio covers check, control, relief, shutoff and solenoid valves, pressure regulators and specialised sealing and fluid-control solutions for aerospace and industrial systems."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Промышленные регуляторы",
+        "Промышленные уплотнения"
+      ],
+      "productFamilies": [
+        "Check Valves",
+        "Control Valves",
+        "Relief Valves",
+        "Shutoff Valves",
+        "Solenoid Valves",
+        "Pressure Regulators",
+        "Sealing Solutions"
+      ],
+      "series": [],
+      "industries": [
+        "Аэрокосмическая промышленность",
+        "Химическая промышленность",
+        "Морская промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://circleseal.circor.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-circle-seal-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "BRAND_IDENTITY_PARENT_AND_FLOW_CONTROL_SCOPE",
+          "url": "https://circleseal.circor.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"circor-international","officialName":"CIRCOR International, Inc.","displayName":"CIRCOR","aliases":["CIRCOR","CIRCOR INTERNATIONAL"],"formerNames":[],"officialWebsite":"https://www.circor.com/","officialDomains":["circor.com"],"country":"United States","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CIRCOR manufactures engineered pumps, valves and flow-control systems for critical industrial and aerospace applications.",
-      "fullDescription":["CIRCOR International is verified through its official corporate website as an engineered flow-control manufacturer serving industrial, aerospace and defence markets.","Its documented business groups cover industrial pumps, control and specialty valves, recirculation valves, instrumentation and integrated fluid-control systems."],
-      "productCategories":["Промышленные насосы","Промышленные клапаны","Контрольно-измерительные приборы"],"productFamilies":["Industrial Pumps","Control Valves","Automatic Recirculation Valves","Specialty Valves","Instrumentation","Integrated Fluid-Control Systems"],"series":[],"industries":["Аэрокосмическая промышленность","Энергетика","Морская промышленность","Промышленное производство"],"officialCatalogs":["https://www.circor.com/sites/default/files/2022-03/circor_product_catalog.pdf"],"documentationSources":["https://www.circor.com/business-groups"],
-      "sources":[{"sourceId":"brand-circor-groups","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CORPORATE_IDENTITY_AND_PUMP_VALVE_BUSINESS_SCOPE","url":"https://www.circor.com/business-groups","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-circor-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"PUMP_VALVE_AND_FLOW_CONTROL_PRODUCT_SCOPE","url":"https://www.circor.com/sites/default/files/2022-03/circor_product_catalog.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "circor-international",
+      "officialName": "CIRCOR International, Inc.",
+      "displayName": "CIRCOR",
+      "aliases": [
+        "CIRCOR",
+        "CIRCOR INTERNATIONAL"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.circor.com/",
+      "officialDomains": [
+        "circor.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CIRCOR manufactures engineered pumps, valves and flow-control systems for critical industrial and aerospace applications.",
+      "fullDescription": [
+        "CIRCOR International is verified through its official corporate website as an engineered flow-control manufacturer serving industrial, aerospace and defence markets.",
+        "Its documented business groups cover industrial pumps, control and specialty valves, recirculation valves, instrumentation and integrated fluid-control systems."
+      ],
+      "productCategories": [
+        "Промышленные насосы",
+        "Промышленные клапаны",
+        "Контрольно-измерительные приборы"
+      ],
+      "productFamilies": [
+        "Industrial Pumps",
+        "Control Valves",
+        "Automatic Recirculation Valves",
+        "Specialty Valves",
+        "Instrumentation",
+        "Integrated Fluid-Control Systems"
+      ],
+      "series": [],
+      "industries": [
+        "Аэрокосмическая промышленность",
+        "Энергетика",
+        "Морская промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.circor.com/sites/default/files/2022-03/circor_product_catalog.pdf"
+      ],
+      "documentationSources": [
+        "https://www.circor.com/business-groups"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-circor-groups",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "CORPORATE_IDENTITY_AND_PUMP_VALVE_BUSINESS_SCOPE",
+          "url": "https://www.circor.com/business-groups",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-circor-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "PUMP_VALVE_AND_FLOW_CONTROL_PRODUCT_SCOPE",
+          "url": "https://www.circor.com/sites/default/files/2022-03/circor_product_catalog.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"circutor","officialName":"CIRCUTOR, SA","displayName":"CIRCUTOR","aliases":["CIRCUTOR"],"formerNames":[],"officialWebsite":"https://circutor.com/en/","officialDomains":["circutor.com"],"country":"Spain","headquarters":"Viladecavalls, Barcelona, Spain","foundedYear":null,"parentCompany":null,
-      "shortDescription":"CIRCUTOR manufactures electrical-energy measurement, protection, power-quality and charging systems.",
-      "fullDescription":["CIRCUTOR is verified through its manufacturer-owned website as a Spanish electrical-energy technology company.","Its official portfolio covers power analyzers and meters, protection and control devices, power-factor correction and harmonic filtering, electric-vehicle charging, renewable-energy systems, industrial IoT controllers and energy-management software."],
-      "productCategories":["Контрольно-измерительные приборы","Электроэнергетическое оборудование","Промышленная автоматизация и контроллеры","Промышленные аккумуляторные системы","Промышленное программное обеспечение"],"productFamilies":["Power Analyzers","Energy Meters","Protection Relays","Power Factor Controllers","Harmonic Filters","EV Charging Stations","Edge Controllers","Energy Management Software"],"series":["CVM","QNA","RGU","AFQ","PowerStudio"],"industries":["Энергетика","Промышленное производство","Инфраструктура"],"officialCatalogs":[],"documentationSources":["https://circutor.com/en/support/downloads/catalogues-and-brochures/"],
-      "sources":[{"sourceId":"brand-circutor-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MEASUREMENT_PROTECTION_POWER_QUALITY_CHARGING_AND_IOT_FAMILIES","url":"https://circutor.com/en/circutor-products-and-solutions/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-circutor-downloads","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"OFFICIAL_PRODUCT_CATALOGS_AND_BROCHURES","url":"https://circutor.com/en/support/downloads/catalogues-and-brochures/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "circutor",
+      "officialName": "CIRCUTOR, SA",
+      "displayName": "CIRCUTOR",
+      "aliases": [
+        "CIRCUTOR"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://circutor.com/en/",
+      "officialDomains": [
+        "circutor.com"
+      ],
+      "country": "Spain",
+      "headquarters": "Viladecavalls, Barcelona, Spain",
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CIRCUTOR manufactures electrical-energy measurement, protection, power-quality and charging systems.",
+      "fullDescription": [
+        "CIRCUTOR is verified through its manufacturer-owned website as a Spanish electrical-energy technology company.",
+        "Its official portfolio covers power analyzers and meters, protection and control devices, power-factor correction and harmonic filtering, electric-vehicle charging, renewable-energy systems, industrial IoT controllers and energy-management software."
+      ],
+      "productCategories": [
+        "Контрольно-измерительные приборы",
+        "Электроэнергетическое оборудование",
+        "Промышленная автоматизация и контроллеры",
+        "Промышленные аккумуляторные системы",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Power Analyzers",
+        "Energy Meters",
+        "Protection Relays",
+        "Power Factor Controllers",
+        "Harmonic Filters",
+        "EV Charging Stations",
+        "Edge Controllers",
+        "Energy Management Software"
+      ],
+      "series": [
+        "CVM",
+        "QNA",
+        "RGU",
+        "AFQ",
+        "PowerStudio"
+      ],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Инфраструктура"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://circutor.com/en/support/downloads/catalogues-and-brochures/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-circutor-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MEASUREMENT_PROTECTION_POWER_QUALITY_CHARGING_AND_IOT_FAMILIES",
+          "url": "https://circutor.com/en/circutor-products-and-solutions/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-circutor-downloads",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "OFFICIAL_PRODUCT_CATALOGS_AND_BROCHURES",
+          "url": "https://circutor.com/en/support/downloads/catalogues-and-brochures/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cjc","officialName":"C.C.JENSEN A/S","displayName":"CJC","aliases":["CJC","CJC SYSTEMS","C.C.JENSEN"],"formerNames":[],"officialWebsite":"https://www.cjc.dk/","officialDomains":["cjc.dk"],"country":"Denmark","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CJC manufactures offline oil-filtration, purification and condition-monitoring systems.",
-      "fullDescription":["C.C.JENSEN A/S is verified through its manufacturer-owned CJC website as a Danish producer of offline oil-filtration and purification equipment.","Its documented range includes offline filters, filter separators, oil purifiers, filter inserts and online oil-condition monitoring for industrial, marine, mining, power and wind applications."],
-      "productCategories":["Промышленная фильтрация","Контрольно-измерительные приборы"],"productFamilies":["Offline Oil Filters","Filter Separators","Oil Purifiers","Filter Inserts","Online Condition Monitoring"],"series":["CJC"],"industries":["Морская промышленность","Горнодобывающая промышленность","Энергетика","Ветроэнергетика","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.cjc.dk/dk/produkter/"],
-      "sources":[{"sourceId":"brand-cjc-products","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_HISTORY_AND_OIL_FILTRATION_SCOPE","url":"https://www.cjc.dk/dk/produkter/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cjc",
+      "officialName": "C.C.JENSEN A/S",
+      "displayName": "CJC",
+      "aliases": [
+        "CJC",
+        "CJC SYSTEMS",
+        "C.C.JENSEN"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.cjc.dk/",
+      "officialDomains": [
+        "cjc.dk"
+      ],
+      "country": "Denmark",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CJC manufactures offline oil-filtration, purification and condition-monitoring systems.",
+      "fullDescription": [
+        "C.C.JENSEN A/S is verified through its manufacturer-owned CJC website as a Danish producer of offline oil-filtration and purification equipment.",
+        "Its documented range includes offline filters, filter separators, oil purifiers, filter inserts and online oil-condition monitoring for industrial, marine, mining, power and wind applications."
+      ],
+      "productCategories": [
+        "Промышленная фильтрация",
+        "Контрольно-измерительные приборы"
+      ],
+      "productFamilies": [
+        "Offline Oil Filters",
+        "Filter Separators",
+        "Oil Purifiers",
+        "Filter Inserts",
+        "Online Condition Monitoring"
+      ],
+      "series": [
+        "CJC"
+      ],
+      "industries": [
+        "Морская промышленность",
+        "Горнодобывающая промышленность",
+        "Энергетика",
+        "Ветроэнергетика",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.cjc.dk/dk/produkter/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cjc-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "LEGAL_IDENTITY_HISTORY_AND_OIL_FILTRATION_SCOPE",
+          "url": "https://www.cjc.dk/dk/produkter/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"ckd","officialName":"CKD Corporation","displayName":"CKD","aliases":["CKD","CKD CORPORATION"],"formerNames":[],"officialWebsite":"https://www.ckd.co.jp/en/","officialDomains":["ckd.co.jp"],"country":"Japan","headquarters":null,"foundedYear":null,"parentCompany":null,
-      "shortDescription":"CKD manufactures pneumatic, fluid-control and electric-motion components together with industrial automation machinery.",
-      "fullDescription":["CKD Corporation is verified through its official corporate and product websites as a Japanese automation manufacturer.","Its documented range covers pneumatic cylinders and valves, air-preparation and vacuum components, fluid-control devices, sensors and controllers, electric actuators, index units, inspection machines and battery-winding machinery."],
-      "productCategories":["Пневматическое оборудование","Пневматические цилиндры","Промышленные клапаны","Вакуумное оборудование","Промышленные датчики","Линейные актуаторы","Промышленная автоматизация и контроллеры"],"productFamilies":["Pneumatic Cylinders","Directional Control Valves","Air Preparation Components","Vacuum Components","Fluid Control Components","Electric Actuators","Direct Drive Motors","Inspection Machines"],"series":["ABSODEX","Selex","HP","FP","P4"],"industries":["Промышленная автоматизация","Пищевая промышленность","Фармацевтическая промышленность","Электронная промышленность"],"officialCatalogs":[],"documentationSources":["https://www.ckd.co.jp/kiki/en/general_catalog/"],
-      "sources":[{"sourceId":"brand-ckd-corporate-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CORPORATE_IDENTITY_COMPONENT_AND_MACHINE_SCOPE","url":"https://www.ckd.co.jp/en/productinfo/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-ckd-components","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PNEUMATIC_FLUID_ELECTRIC_SENSOR_AND_VACUUM_FAMILIES","url":"https://www.ckd.co.jp/kiki/en/?d=pc","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-ckd-catalogs","tier":"A","type":"DOCUMENTATION_PORTAL","scope":"OFFICIAL_GENERAL_CATALOGS_AND_SERIES","url":"https://www.ckd.co.jp/kiki/en/general_catalog/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "ckd",
+      "officialName": "CKD Corporation",
+      "displayName": "CKD",
+      "aliases": [
+        "CKD",
+        "CKD CORPORATION"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://www.ckd.co.jp/en/",
+      "officialDomains": [
+        "ckd.co.jp"
+      ],
+      "country": "Japan",
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
+      "shortDescription": "CKD manufactures pneumatic, fluid-control and electric-motion components together with industrial automation machinery.",
+      "fullDescription": [
+        "CKD Corporation is verified through its official corporate and product websites as a Japanese automation manufacturer.",
+        "Its documented range covers pneumatic cylinders and valves, air-preparation and vacuum components, fluid-control devices, sensors and controllers, electric actuators, index units, inspection machines and battery-winding machinery."
+      ],
+      "productCategories": [
+        "Пневматическое оборудование",
+        "Пневматические цилиндры",
+        "Промышленные клапаны",
+        "Вакуумное оборудование",
+        "Промышленные датчики",
+        "Линейные актуаторы",
+        "Промышленная автоматизация и контроллеры"
+      ],
+      "productFamilies": [
+        "Pneumatic Cylinders",
+        "Directional Control Valves",
+        "Air Preparation Components",
+        "Vacuum Components",
+        "Fluid Control Components",
+        "Electric Actuators",
+        "Direct Drive Motors",
+        "Inspection Machines"
+      ],
+      "series": [
+        "ABSODEX",
+        "Selex",
+        "HP",
+        "FP",
+        "P4"
+      ],
+      "industries": [
+        "Промышленная автоматизация",
+        "Пищевая промышленность",
+        "Фармацевтическая промышленность",
+        "Электронная промышленность"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.ckd.co.jp/kiki/en/general_catalog/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-ckd-corporate-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CORPORATE_IDENTITY_COMPONENT_AND_MACHINE_SCOPE",
+          "url": "https://www.ckd.co.jp/en/productinfo/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-ckd-components",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PNEUMATIC_FLUID_ELECTRIC_SENSOR_AND_VACUUM_FAMILIES",
+          "url": "https://www.ckd.co.jp/kiki/en/?d=pc",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-ckd-catalogs",
+          "tier": "A",
+          "type": "DOCUMENTATION_PORTAL",
+          "scope": "OFFICIAL_GENERAL_CATALOGS_AND_SERIES",
+          "url": "https://www.ckd.co.jp/kiki/en/general_catalog/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"clack","officialName":"Clack Corporation","displayName":"Clack","aliases":["CLACK","CLACK CORPORATION"],"formerNames":["Clack Soft Water"],"officialWebsite":"https://www.clackcorp.com/","officialDomains":["clackcorp.com"],"country":"United States","headquarters":"Windsor, Wisconsin, United States","foundedYear":1944,"parentCompany":null,
-      "shortDescription":"Clack manufactures control valves, tanks, filter media and components for water-treatment systems.",
-      "fullDescription":["Clack Corporation is verified through its manufacturer-owned website as a United States water-treatment equipment manufacturer established in 1944.","Its documented product scope includes automatic control valves, mineral and brine tanks, distribution components, filter cartridges and specialist media for residential, commercial and industrial water treatment."],
-      "productCategories":["Промышленные клапаны","Промышленная фильтрация","Водоподготовка"],"productFamilies":["Water Treatment Control Valves","Mineral Tanks","Brine Tanks","Distribution Systems","Filter Cartridges","Filter Media"],"series":["WS","Hydro-Cure","Filter-Ox","Corosex"],"industries":["Водоподготовка","Водоснабжение","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://www.clackcorp.com/about/","https://www.clackcorp.com/featured-products/"],
-      "sources":[{"sourceId":"brand-clack-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_LOCATION_AND_WATER_TREATMENT_SCOPE","url":"https://www.clackcorp.com/about/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-clack-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VALVE_TANK_FILTER_AND_MEDIA_FAMILIES","url":"https://www.clackcorp.com/featured-products/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "clack",
+      "officialName": "Clack Corporation",
+      "displayName": "Clack",
+      "aliases": [
+        "CLACK",
+        "CLACK CORPORATION"
+      ],
+      "formerNames": [
+        "Clack Soft Water"
+      ],
+      "officialWebsite": "https://www.clackcorp.com/",
+      "officialDomains": [
+        "clackcorp.com"
+      ],
+      "country": "United States",
+      "headquarters": "Windsor, Wisconsin, United States",
+      "foundedYear": 1944,
+      "parentCompany": null,
+      "shortDescription": "Clack manufactures control valves, tanks, filter media and components for water-treatment systems.",
+      "fullDescription": [
+        "Clack Corporation is verified through its manufacturer-owned website as a United States water-treatment equipment manufacturer established in 1944.",
+        "Its documented product scope includes automatic control valves, mineral and brine tanks, distribution components, filter cartridges and specialist media for residential, commercial and industrial water treatment."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Промышленная фильтрация",
+        "Водоподготовка"
+      ],
+      "productFamilies": [
+        "Water Treatment Control Valves",
+        "Mineral Tanks",
+        "Brine Tanks",
+        "Distribution Systems",
+        "Filter Cartridges",
+        "Filter Media"
+      ],
+      "series": [
+        "WS",
+        "Hydro-Cure",
+        "Filter-Ox",
+        "Corosex"
+      ],
+      "industries": [
+        "Водоподготовка",
+        "Водоснабжение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://www.clackcorp.com/about/",
+        "https://www.clackcorp.com/featured-products/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-clack-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_LOCATION_AND_WATER_TREATMENT_SCOPE",
+          "url": "https://www.clackcorp.com/about/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-clack-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "VALVE_TANK_FILTER_AND_MEDIA_FAMILIES",
+          "url": "https://www.clackcorp.com/featured-products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"cleveland-mixer","officialName":"Cleveland Mixer","displayName":"Cleveland Mixer","aliases":["CLEVELAND MIXER"],"formerNames":[],"officialWebsite":"https://clevelandmixer.com/","officialDomains":["clevelandmixer.com"],"country":"United States","headquarters":null,"foundedYear":1940,"parentCompany":null,
-      "shortDescription":"Cleveland Mixer manufactures industrial agitators and mixers for vessels, tanks and process systems.",
-      "fullDescription":["Cleveland Mixer is verified through its manufacturer-owned website as an industrial mixer company operating since 1940.","Its documented product range includes top-entry, side-entry, portable, tabletop and laboratory mixers, with direct-drive and gear-drive configurations for varied process vessels."],
-      "productCategories":["Промышленные машины","Лабораторное оборудование"],"productFamilies":["Top-Entry Mixers","Side-Entry Mixers","Portable Mixers","Tabletop Mixers","Laboratory Mixers","Direct-Drive Mixers","Gear-Drive Mixers"],"series":["XTL","MTD","FRG"],"industries":["Химическая промышленность","Пищевая промышленность","Промышленное производство"],"officialCatalogs":[],"documentationSources":["https://clevelandmixer.com/"],
-      "sources":[{"sourceId":"brand-cleveland-mixer-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_MIXER_FAMILIES","url":"https://clevelandmixer.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "cleveland-mixer",
+      "officialName": "Cleveland Mixer",
+      "displayName": "Cleveland Mixer",
+      "aliases": [
+        "CLEVELAND MIXER"
+      ],
+      "formerNames": [],
+      "officialWebsite": "https://clevelandmixer.com/",
+      "officialDomains": [
+        "clevelandmixer.com"
+      ],
+      "country": "United States",
+      "headquarters": null,
+      "foundedYear": 1940,
+      "parentCompany": null,
+      "shortDescription": "Cleveland Mixer manufactures industrial agitators and mixers for vessels, tanks and process systems.",
+      "fullDescription": [
+        "Cleveland Mixer is verified through its manufacturer-owned website as an industrial mixer company operating since 1940.",
+        "Its documented product range includes top-entry, side-entry, portable, tabletop and laboratory mixers, with direct-drive and gear-drive configurations for varied process vessels."
+      ],
+      "productCategories": [
+        "Промышленные машины",
+        "Лабораторное оборудование"
+      ],
+      "productFamilies": [
+        "Top-Entry Mixers",
+        "Side-Entry Mixers",
+        "Portable Mixers",
+        "Tabletop Mixers",
+        "Laboratory Mixers",
+        "Direct-Drive Mixers",
+        "Gear-Drive Mixers"
+      ],
+      "series": [
+        "XTL",
+        "MTD",
+        "FRG"
+      ],
+      "industries": [
+        "Химическая промышленность",
+        "Пищевая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [],
+      "documentationSources": [
+        "https://clevelandmixer.com/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-cleveland-mixer-home",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_MIXER_FAMILIES",
+          "url": "https://clevelandmixer.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     },
     {
-      "manufacturerId":"clorius-control","officialName":"BROEN Clorius Controls","displayName":"Clorius Controls","aliases":["CLORIUS CONTROL","CLORIUS CONTROLS","BROEN CLORIUS CONTROLS"],"formerNames":["Clorius Controls"],"officialWebsite":"https://www.cloriuscontrols.com/","officialDomains":["cloriuscontrols.com"],"country":"Denmark","headquarters":"Assens, Denmark","foundedYear":1902,"parentCompany":"Vexve Group","statusModifier":"ACQUIRED_BRAND",
-      "shortDescription":"Clorius Controls manufactures control valves, actuators and temperature and pressure regulation systems.",
-      "fullDescription":["BROEN Clorius Controls is verified through its manufacturer-owned website as a Danish valve and control-technology company with heritage dating to 1902; the site records its 2026 entry into Vexve Group.","Its documented product scope covers two- and three-way control valves, electric and pneumatic actuators, self-acting thermostats, differential-pressure controls, controllers and positioners for marine, energy, building and industrial applications."],
-      "productCategories":["Промышленные клапаны","Линейные актуаторы","Промышленные регуляторы","Тепловое оборудование"],"productFamilies":["Two-Way Control Valves","Three-Way Control Valves","Electric Actuators","Pneumatic Actuators","Self-Acting Thermostats","Differential Pressure Controls","Positioners"],"series":["M1F","G1F","H1F","M3F","G3F","TD56","ER 2022","ER 2025"],"industries":["Морская промышленность","Энергетика","HVAC и здания","Промышленное производство"],"officialCatalogs":["https://www.cloriuscontrols.com/media/8070/cc-product-catalogue-july-2024-edition-15.pdf"],"documentationSources":["https://www.cloriuscontrols.com/documentation/control-valves-instruction-manuals/"],
-      "sources":[{"sourceId":"brand-clorius-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_PARENT_LOCATION_AND_CONTROL_SCOPE","url":"https://www.cloriuscontrols.com/about-us/who-we-are/","status":"AVAILABLE","checkedAt":"2026-08-24"},{"sourceId":"brand-clorius-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"CONTROL_VALVE_ACTUATOR_THERMOSTAT_AND_CONTROLLER_FAMILIES","url":"https://www.cloriuscontrols.com/media/8070/cc-product-catalogue-july-2024-edition-15.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "manufacturerId": "clorius-control",
+      "officialName": "BROEN Clorius Controls",
+      "displayName": "Clorius Controls",
+      "aliases": [
+        "CLORIUS CONTROL",
+        "CLORIUS CONTROLS",
+        "BROEN CLORIUS CONTROLS"
+      ],
+      "formerNames": [
+        "Clorius Controls"
+      ],
+      "officialWebsite": "https://www.cloriuscontrols.com/",
+      "officialDomains": [
+        "cloriuscontrols.com"
+      ],
+      "country": "Denmark",
+      "headquarters": "Assens, Denmark",
+      "foundedYear": 1902,
+      "parentCompany": "Vexve Group",
+      "statusModifier": "ACQUIRED_BRAND",
+      "shortDescription": "Clorius Controls manufactures control valves, actuators and temperature and pressure regulation systems.",
+      "fullDescription": [
+        "BROEN Clorius Controls is verified through its manufacturer-owned website as a Danish valve and control-technology company with heritage dating to 1902; the site records its 2026 entry into Vexve Group.",
+        "Its documented product scope covers two- and three-way control valves, electric and pneumatic actuators, self-acting thermostats, differential-pressure controls, controllers and positioners for marine, energy, building and industrial applications."
+      ],
+      "productCategories": [
+        "Промышленные клапаны",
+        "Линейные актуаторы",
+        "Промышленные регуляторы",
+        "Тепловое оборудование"
+      ],
+      "productFamilies": [
+        "Two-Way Control Valves",
+        "Three-Way Control Valves",
+        "Electric Actuators",
+        "Pneumatic Actuators",
+        "Self-Acting Thermostats",
+        "Differential Pressure Controls",
+        "Positioners"
+      ],
+      "series": [
+        "M1F",
+        "G1F",
+        "H1F",
+        "M3F",
+        "G3F",
+        "TD56",
+        "ER 2022",
+        "ER 2025"
+      ],
+      "industries": [
+        "Морская промышленность",
+        "Энергетика",
+        "HVAC и здания",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.cloriuscontrols.com/media/8070/cc-product-catalogue-july-2024-edition-15.pdf"
+      ],
+      "documentationSources": [
+        "https://www.cloriuscontrols.com/documentation/control-valves-instruction-manuals/"
+      ],
+      "sources": [
+        {
+          "sourceId": "brand-clorius-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "LEGAL_IDENTITY_HISTORY_PARENT_LOCATION_AND_CONTROL_SCOPE",
+          "url": "https://www.cloriuscontrols.com/about-us/who-we-are/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-clorius-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "CONTROL_VALVE_ACTUATOR_THERMOSTAT_AND_CONTROLLER_FAMILIES",
+          "url": "https://www.cloriuscontrols.com/media/8070/cc-product-catalogue-july-2024-edition-15.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
+      ]
     }
   ]
 }

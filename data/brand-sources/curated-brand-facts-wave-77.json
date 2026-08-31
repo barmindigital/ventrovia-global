@@ -6,21 +6,31 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "DAYTON is shared by unrelated active industrial identities, including Grainger's Dayton equipment brand and Dayton Parts. The queue record has no legal-name, country or product-scope discriminator that safely selects one manufacturer-owned source.",
-      "attemptedUrls": ["https://www.grainger.com/category/brands/dayton", "https://www.daytonparts.com/"]
+      "attemptedUrls": [
+        "https://www.grainger.com/category/brands/dayton",
+        "https://www.daytonparts.com/"
+      ]
     },
     {
       "manufacturerId": "devilbiss",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "DEVILBISS is used by unrelated current industrial-finishing and healthcare equipment businesses. The raw identity does not distinguish the Carlisle spray brand from Drive DeVilbiss Healthcare.",
-      "attemptedUrls": ["https://www.carlisleft.com/brands/devilbiss/", "https://www.drivemedical.com/us/en/our-brands/devilbiss-healthcare/c/brand-devilbiss"]
+      "attemptedUrls": [
+        "https://www.carlisleft.com/brands/devilbiss/",
+        "https://www.drivemedical.com/us/en/our-brands/devilbiss-healthcare/c/brand-devilbiss"
+      ]
     },
     {
       "manufacturerId": "dewa",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "DEWA is used by multiple unrelated manufacturers and organizations, including sludge-treatment, pharmaceutical-water and wet-milling equipment businesses. The queue record provides no discriminator for a safe match.",
-      "attemptedUrls": ["https://dewaco.fi/", "https://www.dewa-anlagen.de/", "https://dewa.ru/en/"]
+      "attemptedUrls": [
+        "https://dewaco.fi/",
+        "https://www.dewa-anlagen.de/",
+        "https://dewa.ru/en/"
+      ]
     },
     {
       "manufacturerId": "dgs-system",
@@ -34,7 +44,10 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "DIGI is an active brand name for unrelated technology businesses, including Teraoka weighing and retail systems and Digi International communications products. The undifferentiated queue identity cannot be assigned safely.",
-      "attemptedUrls": ["https://www.digisystem.com/", "https://www.digi.com/"]
+      "attemptedUrls": [
+        "https://www.digisystem.com/",
+        "https://www.digi.com/"
+      ]
     },
     {
       "manufacturerId": "dinansi",
@@ -48,7 +61,9 @@
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "DURST is used by unrelated industrial identities, including Durst Group digital-printing systems and other engineering or pump businesses. The raw record lacks a product-scope discriminator, so selecting one would be unsafe.",
-      "attemptedUrls": ["https://www.durst-group.com/"]
+      "attemptedUrls": [
+        "https://www.durst-group.com/"
+      ]
     }
   ],
   "profiles": [
@@ -56,10 +71,15 @@
       "manufacturerId": "davi",
       "officialName": "Davi Promau S.r.l.",
       "displayName": "DAVI",
-      "aliases": ["DAVI", "DAVI PROMAU"],
+      "aliases": [
+        "DAVI",
+        "DAVI PROMAU"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.davi.com/en/",
-      "officialDomains": ["davi.com"],
+      "officialDomains": [
+        "davi.com"
+      ],
       "country": "Italy",
       "headquarters": "Cesena, Italy",
       "foundedYear": 1966,
@@ -69,25 +89,73 @@
         "DAVI is verified through its manufacturer-owned website as an Italian producer of plate and angle rolling machinery founded in 1966.",
         "Its documented portfolio includes three- and four-roll plate machines, section-bending machines, automated lines, CNC control systems and non-contact measuring systems."
       ],
-      "productCategories": ["Металлообрабатывающие станки", "Промышленная автоматизация и управление"],
-      "productFamilies": ["Plate Rolls", "Angle Rolls", "Automated Rolling Lines", "Control Systems", "Measuring Systems"],
-      "series": ["MCA", "MCB", "MCE e-POWER", "MAV", "MCO", "MCP", "MC4P", "MCFR", "iRoll Performance", "iRoll eXtreme", "AI-Vision"],
-      "industries": ["Металлообработка", "Энергетика", "Аэрокосмическая промышленность", "Судостроение"],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Промышленная автоматизация и управление"
+      ],
+      "productFamilies": [
+        "Plate Rolls",
+        "Angle Rolls",
+        "Automated Rolling Lines",
+        "Control Systems",
+        "Measuring Systems"
+      ],
+      "series": [
+        "MCA",
+        "MCB",
+        "MCE e-POWER",
+        "MAV",
+        "MCO",
+        "MCP",
+        "MC4P",
+        "MCFR",
+        "iRoll Performance",
+        "iRoll eXtreme",
+        "AI-Vision"
+      ],
+      "industries": [
+        "Металлообработка",
+        "Энергетика",
+        "Аэрокосмическая промышленность",
+        "Судостроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.davi.com/en/products"],
+      "documentationSources": [
+        "https://www.davi.com/en/products"
+      ],
       "sources": [
-        {"sourceId":"wave77-davi-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_HEADQUARTERS_AND_ROLLING_MACHINERY_SCOPE","url":"https://www.davi.com/en/company/about-us","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-davi-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PLATE_ROLL_ANGLE_ROLL_AUTOMATION_AND_MEASUREMENT_FAMILIES","url":"https://www.davi.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-davi-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_HEADQUARTERS_AND_ROLLING_MACHINERY_SCOPE",
+          "url": "https://www.davi.com/en/company/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-davi-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PLATE_ROLL_ANGLE_ROLL_AUTOMATION_AND_MEASUREMENT_FAMILIES",
+          "url": "https://www.davi.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dayco",
       "officialName": "Dayco IP Holdings, LLC",
       "displayName": "Dayco",
-      "aliases": ["DAYCO"],
+      "aliases": [
+        "DAYCO"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dayco.com/",
-      "officialDomains": ["dayco.com"],
+      "officialDomains": [
+        "dayco.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -97,25 +165,69 @@
         "Dayco is verified through its manufacturer-owned company profile as a designer and manufacturer of engine-drive systems and related components.",
         "The official product structure covers industrial and automotive belts, tensioners, pulleys, drive kits, hoses, water pumps and associated rigid components."
       ],
-      "productCategories": ["Промышленные ремни и шкивы", "Приводные системы"],
-      "productFamilies": ["Industrial Belts", "Timing Belts", "Serpentine Belts", "Tensioners", "Pulleys", "Drive System Kits", "Hoses", "Water Pumps"],
-      "series": ["GOLD LABEL", "DRIVE RITE", "HT POWER"],
-      "industries": ["Автомобильная промышленность", "Сельское хозяйство", "Строительная техника", "Промышленное производство"],
+      "productCategories": [
+        "Промышленные ремни и шкивы",
+        "Приводные системы"
+      ],
+      "productFamilies": [
+        "Industrial Belts",
+        "Timing Belts",
+        "Serpentine Belts",
+        "Tensioners",
+        "Pulleys",
+        "Drive System Kits",
+        "Hoses",
+        "Water Pumps"
+      ],
+      "series": [
+        "GOLD LABEL",
+        "DRIVE RITE",
+        "HT POWER"
+      ],
+      "industries": [
+        "Автомобильная промышленность",
+        "Сельское хозяйство",
+        "Строительная техника",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dayco.com/all-resources/"],
+      "documentationSources": [
+        "https://www.dayco.com/all-resources/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dayco-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_AND_DRIVE_SYSTEM_SPECIALISATION","url":"https://www.dayco.com/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dayco-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BELT_TENSIONER_PULLEY_HOSE_AND_DRIVE_KIT_FAMILIES","url":"https://www.dayco.com/products/aftermarket-products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dayco-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_AND_DRIVE_SYSTEM_SPECIALISATION",
+          "url": "https://www.dayco.com/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dayco-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BELT_TENSIONER_PULLEY_HOSE_AND_DRIVE_KIT_FAMILIES",
+          "url": "https://www.dayco.com/products/aftermarket-products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "de-gier",
       "officialName": "De Gier Drive Systems B.V.",
       "displayName": "De Gier Drive Systems",
-      "aliases": ["DE GIER", "DE GIER DRIVE SYSTEMS"],
+      "aliases": [
+        "DE GIER",
+        "DE GIER DRIVE SYSTEMS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.degierdrivesystems.com/en/",
-      "officialDomains": ["degierdrivesystems.com"],
+      "officialDomains": [
+        "degierdrivesystems.com"
+      ],
       "country": "Netherlands",
       "headquarters": "Wateringen, Netherlands",
       "foundedYear": null,
@@ -125,25 +237,62 @@
         "De Gier Drive Systems is verified through its manufacturer-owned website as a Dutch drive-system manufacturer.",
         "Its official range includes GW motor gearboxes, controls and feedback components for greenhouse, livestock, crop-storage and non-residential applications."
       ],
-      "productCategories": ["Мотор-редукторы", "Приводные системы"],
-      "productFamilies": ["Motor Gearboxes", "Drive Controls", "Position Feedback Components"],
-      "series": ["GW", "I-DE"],
-      "industries": ["Сельское хозяйство", "Промышленное производство", "Автоматизация"],
+      "productCategories": [
+        "Мотор-редукторы",
+        "Приводные системы"
+      ],
+      "productFamilies": [
+        "Motor Gearboxes",
+        "Drive Controls",
+        "Position Feedback Components"
+      ],
+      "series": [
+        "GW",
+        "I-DE"
+      ],
+      "industries": [
+        "Сельское хозяйство",
+        "Промышленное производство",
+        "Автоматизация"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.degierdrivesystems.com/en/products"],
+      "documentationSources": [
+        "https://www.degierdrivesystems.com/en/products"
+      ],
       "sources": [
-        {"sourceId":"wave77-de-gier-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_AND_DRIVE_SYSTEM_SCOPE","url":"https://www.degierdrivesystems.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-de-gier-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GW_MOTOR_GEARBOX_AND_FEEDBACK_COMPONENT_FAMILIES","url":"https://www.degierdrivesystems.com/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-de-gier-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_AND_DRIVE_SYSTEM_SCOPE",
+          "url": "https://www.degierdrivesystems.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-de-gier-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "GW_MOTOR_GEARBOX_AND_FEEDBACK_COMPONENT_FAMILIES",
+          "url": "https://www.degierdrivesystems.com/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dego-hydraulik",
       "officialName": "DEGO Hydraulik GmbH",
       "displayName": "DEGO Hydraulik",
-      "aliases": ["DEGO", "DEGO HYDRAULIK"],
+      "aliases": [
+        "DEGO",
+        "DEGO HYDRAULIK"
+      ],
       "formerNames": [],
       "officialWebsite": "https://en.dego-hydraulik.com/",
-      "officialDomains": ["dego-hydraulik.com"],
+      "officialDomains": [
+        "dego-hydraulik.com"
+      ],
       "country": "Germany",
       "headquarters": "Gemünden am Main, Germany",
       "foundedYear": 1981,
@@ -153,25 +302,62 @@
         "DEGO Hydraulik is verified through its manufacturer-owned website as a German hydraulic-equipment producer established in 1981.",
         "The documented portfolio covers large and special cylinders, DIN and CETOP cylinders, rolling-mill cylinders, filling valves, rotary distributors and media pumps."
       ],
-      "productCategories": ["Гидравлические цилиндры", "Промышленные клапаны", "Промышленные насосы"],
-      "productFamilies": ["Special Hydraulic Cylinders", "DIN Cylinders", "CETOP Cylinders", "Rolling Mill Cylinders", "Filling Valves", "Rotary Distributors", "Media Pumps"],
+      "productCategories": [
+        "Гидравлические цилиндры",
+        "Промышленные клапаны",
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Special Hydraulic Cylinders",
+        "DIN Cylinders",
+        "CETOP Cylinders",
+        "Rolling Mill Cylinders",
+        "Filling Valves",
+        "Rotary Distributors",
+        "Media Pumps"
+      ],
       "series": [],
-      "industries": ["Металлургия", "Промышленное производство"],
+      "industries": [
+        "Металлургия",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://en.dego-hydraulik.com/produkte"],
+      "documentationSources": [
+        "https://en.dego-hydraulik.com/produkte"
+      ],
       "sources": [
-        {"sourceId":"wave77-dego-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_HYDRAULIC_SCOPE","url":"https://en.dego-hydraulik.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dego-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CYLINDER_VALVE_DISTRIBUTOR_AND_MEDIA_PUMP_FAMILIES","url":"https://en.dego-hydraulik.com/produkte","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dego-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_HYDRAULIC_SCOPE",
+          "url": "https://en.dego-hydraulik.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dego-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CYLINDER_VALVE_DISTRIBUTOR_AND_MEDIA_PUMP_FAMILIES",
+          "url": "https://en.dego-hydraulik.com/produkte",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dehn",
       "officialName": "DEHN SE",
       "displayName": "DEHN",
-      "aliases": ["DEHN"],
+      "aliases": [
+        "DEHN"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dehn-international.com/en",
-      "officialDomains": ["dehn-international.com"],
+      "officialDomains": [
+        "dehn-international.com"
+      ],
       "country": "Germany",
       "headquarters": "Neumarkt, Germany",
       "foundedYear": null,
@@ -181,25 +367,65 @@
         "DEHN is verified through its manufacturer-owned website as a German family-owned electrical-engineering company.",
         "Its official catalogue is organised around lightning protection and earthing, surge protection for power and information systems, and equipment for safe work on electrical installations."
       ],
-      "productCategories": ["Промышленная безопасность", "Электрические системы защиты"],
-      "productFamilies": ["Lightning Protection and Earthing", "Power Supply Surge Protection", "Information Technology Surge Protection", "Electrical Safety Equipment"],
-      "series": ["Red/Line", "Yellow/Line", "DEHNguard", "DEHNventil", "DEHNshield"],
-      "industries": ["Энергетика", "Промышленное производство", "Здания и инфраструктура"],
+      "productCategories": [
+        "Промышленная безопасность",
+        "Электрические системы защиты"
+      ],
+      "productFamilies": [
+        "Lightning Protection and Earthing",
+        "Power Supply Surge Protection",
+        "Information Technology Surge Protection",
+        "Electrical Safety Equipment"
+      ],
+      "series": [
+        "Red/Line",
+        "Yellow/Line",
+        "DEHNguard",
+        "DEHNventil",
+        "DEHNshield"
+      ],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Здания и инфраструктура"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dehn-international.com/en/products/online-catalogue"],
+      "documentationSources": [
+        "https://www.dehn-international.com/en/products/online-catalogue"
+      ],
       "sources": [
-        {"sourceId":"wave77-dehn-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_HEADQUARTERS_AND_ELECTRICAL_PROTECTION_SCOPE","url":"https://www.dehn-international.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dehn-catalogue","tier":"A","type":"PRODUCT_DIRECTORY","scope":"LIGHTNING_EARTHING_SURGE_AND_SAFETY_PRODUCT_GROUPS","url":"https://www.dehn-international.com/en/products/online-catalogue","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dehn-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_HEADQUARTERS_AND_ELECTRICAL_PROTECTION_SCOPE",
+          "url": "https://www.dehn-international.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dehn-catalogue",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "LIGHTNING_EARTHING_SURGE_AND_SAFETY_PRODUCT_GROUPS",
+          "url": "https://www.dehn-international.com/en/products/online-catalogue",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "deif",
       "officialName": "DEIF A/S",
       "displayName": "DEIF",
-      "aliases": ["DEIF"],
+      "aliases": [
+        "DEIF"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.deif.com/",
-      "officialDomains": ["deif.com"],
+      "officialDomains": [
+        "deif.com"
+      ],
       "country": "Denmark",
       "headquarters": "Skive, Denmark",
       "foundedYear": 1933,
@@ -209,25 +435,68 @@
         "DEIF is verified through its manufacturer-owned product site and corporate material as a Danish controls and instrumentation company founded in 1933.",
         "Its documented product groups include genset and plant controllers, PLCs, protection relays, power converters, HMI equipment, bridge instrumentation and remote-monitoring solutions."
       ],
-      "productCategories": ["Промышленная автоматизация и управление", "Промышленные контроллеры", "Электрические преобразователи", "Измерительное оборудование"],
-      "productFamilies": ["Genset Controllers", "Plant Controllers", "PLCs", "Protection Relays", "Power Converters", "HMI", "Bridge Instrumentation", "Remote Monitoring"],
+      "productCategories": [
+        "Промышленная автоматизация и управление",
+        "Промышленные контроллеры",
+        "Электрические преобразователи",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Genset Controllers",
+        "Plant Controllers",
+        "PLCs",
+        "Protection Relays",
+        "Power Converters",
+        "HMI",
+        "Bridge Instrumentation",
+        "Remote Monitoring"
+      ],
       "series": [],
-      "industries": ["Энергетика", "Судостроение", "Промышленная автоматизация", "Ветроэнергетика"],
+      "industries": [
+        "Энергетика",
+        "Судостроение",
+        "Промышленная автоматизация",
+        "Ветроэнергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.deif.com/products"],
+      "documentationSources": [
+        "https://www.deif.com/products"
+      ],
       "sources": [
-        {"sourceId":"wave77-deif-company","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_HEADQUARTERS_AND_CONTROL_SCOPE","url":"https://www.deif.com/media/sfkbj1mt/csr-report-2021.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-deif-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CONTROLLER_RELAY_CONVERTER_HMI_AND_INSTRUMENTATION_GROUPS","url":"https://www.deif.com/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-deif-company",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_HEADQUARTERS_AND_CONTROL_SCOPE",
+          "url": "https://www.deif.com/media/sfkbj1mt/csr-report-2021.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-deif-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CONTROLLER_RELAY_CONVERTER_HMI_AND_INSTRUMENTATION_GROUPS",
+          "url": "https://www.deif.com/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "delachaux",
       "officialName": "Delachaux Group",
       "displayName": "Delachaux",
-      "aliases": ["DELACHAUX", "GROUPE DELACHAUX", "DELACHAUX GROUP"],
+      "aliases": [
+        "DELACHAUX",
+        "GROUPE DELACHAUX",
+        "DELACHAUX GROUP"
+      ],
       "formerNames": [],
       "officialWebsite": "https://delachaux.com/",
-      "officialDomains": ["delachaux.com"],
+      "officialDomains": [
+        "delachaux.com"
+      ],
       "country": "France",
       "headquarters": null,
       "foundedYear": 1902,
@@ -237,25 +506,64 @@
         "Delachaux is verified through its group-owned website as a family-owned French industrial group created in 1902.",
         "The official business structure covers rail infrastructure through Pandrol, energy and data-management systems through Conductix-Wampfler, chromium metal through DCX Chrome and industrial magnetic systems through Lenoir-MEC."
       ],
-      "productCategories": ["Железнодорожная инфраструктура", "Промышленная электрификация", "Промышленные системы магнитной сепарации"],
-      "productFamilies": ["Rail Infrastructure Systems", "Energy and Data Management Systems", "Chromium Metal", "Industrial Magnetic Systems"],
+      "productCategories": [
+        "Железнодорожная инфраструктура",
+        "Промышленная электрификация",
+        "Промышленные системы магнитной сепарации"
+      ],
+      "productFamilies": [
+        "Rail Infrastructure Systems",
+        "Energy and Data Management Systems",
+        "Chromium Metal",
+        "Industrial Magnetic Systems"
+      ],
       "series": [],
-      "industries": ["Железнодорожная промышленность", "Портовая инфраструктура", "Аэрокосмическая промышленность", "Промышленное производство"],
-      "officialCatalogs": ["https://www.delachaux.com/wp-content/uploads/2023/04/DELACHAUX_DPEF_EN.pdf"],
-      "documentationSources": ["https://delachaux.com/group/"],
+      "industries": [
+        "Железнодорожная промышленность",
+        "Портовая инфраструктура",
+        "Аэрокосмическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.delachaux.com/wp-content/uploads/2023/04/DELACHAUX_DPEF_EN.pdf"
+      ],
+      "documentationSources": [
+        "https://delachaux.com/group/"
+      ],
       "sources": [
-        {"sourceId":"wave77-delachaux-group","tier":"A","type":"ABOUT","scope":"GROUP_IDENTITY_FOUNDATION_AND_CURRENT_BUSINESS_STRUCTURE","url":"https://delachaux.com/group/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-delachaux-report","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"RAIL_ENERGY_DATA_CHROMIUM_AND_MAGNETIC_SYSTEM_BUSINESSES","url":"https://www.delachaux.com/wp-content/uploads/2023/04/DELACHAUX_DPEF_EN.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-delachaux-group",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "GROUP_IDENTITY_FOUNDATION_AND_CURRENT_BUSINESS_STRUCTURE",
+          "url": "https://delachaux.com/group/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-delachaux-report",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "RAIL_ENERGY_DATA_CHROMIUM_AND_MAGNETIC_SYSTEM_BUSINESSES",
+          "url": "https://www.delachaux.com/wp-content/uploads/2023/04/DELACHAUX_DPEF_EN.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "delavan",
       "officialName": "Delavan",
       "displayName": "Delavan",
-      "aliases": ["DELAVAN", "DELAVAN SPRAY TECHNOLOGIES"],
+      "aliases": [
+        "DELAVAN",
+        "DELAVAN SPRAY TECHNOLOGIES"
+      ],
       "formerNames": [],
       "officialWebsite": "https://delavan.com/",
-      "officialDomains": ["delavan.com"],
+      "officialDomains": [
+        "delavan.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": 1935,
@@ -266,24 +574,55 @@
         "Delavan is verified through its official brand site as a Beckett company with spray-nozzle manufacturing history dating to 1935.",
         "The documented range covers combustion nozzles, industrial spray nozzles, spray-drying atomisers, air-atomising systems and tank-cleaning equipment."
       ],
-      "productCategories": ["Оборудование для распыления и нанесения покрытий"],
-      "productFamilies": ["Combustion Nozzles", "Industrial Spray Nozzles", "Spray Drying Nozzles", "Air Atomising Systems", "Tank Cleaning Equipment"],
-      "series": ["SDX", "Swirl-Air", "VCN"],
-      "industries": ["Промышленное производство", "Пищевая промышленность", "Химическая промышленность"],
+      "productCategories": [
+        "Оборудование для распыления и нанесения покрытий"
+      ],
+      "productFamilies": [
+        "Combustion Nozzles",
+        "Industrial Spray Nozzles",
+        "Spray Drying Nozzles",
+        "Air Atomising Systems",
+        "Tank Cleaning Equipment"
+      ],
+      "series": [
+        "SDX",
+        "Swirl-Air",
+        "VCN"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Пищевая промышленность",
+        "Химическая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://delavan.com/"],
+      "documentationSources": [
+        "https://delavan.com/"
+      ],
       "sources": [
-        {"sourceId":"wave77-delavan-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"CURRENT_BECKETT_BRAND_IDENTITY_FOUNDATION_AND_SPRAY_NOZZLE_SCOPE","url":"https://delavan.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-delavan-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "CURRENT_BECKETT_BRAND_IDENTITY_FOUNDATION_AND_SPRAY_NOZZLE_SCOPE",
+          "url": "https://delavan.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dell",
       "officialName": "Dell Technologies Inc.",
       "displayName": "Dell",
-      "aliases": ["DELL", "DELL TECHNOLOGIES"],
+      "aliases": [
+        "DELL",
+        "DELL TECHNOLOGIES"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dell.com/",
-      "officialDomains": ["dell.com"],
+      "officialDomains": [
+        "dell.com"
+      ],
       "country": "United States",
       "headquarters": null,
       "foundedYear": null,
@@ -293,25 +632,72 @@
         "Dell Technologies is verified through its corporate and product-owned sources as a developer of client and infrastructure technology.",
         "The official portfolio includes laptops, desktops, workstations and monitors together with servers, storage, networking, edge, private-cloud and cyber-resilience solutions."
       ],
-      "productCategories": ["Инфраструктурные технологии", "Промышленные компьютеры и рабочие станции", "Промышленное программное обеспечение"],
-      "productFamilies": ["Laptops", "Desktop Computers", "Workstations", "Servers", "Storage", "Networking", "Edge Infrastructure", "Private Cloud"],
-      "series": ["Dell Pro", "Precision", "PowerEdge", "PowerStore", "PowerScale"],
-      "industries": ["Промышленное производство", "Инфраструктура", "Автоматизация"],
+      "productCategories": [
+        "Инфраструктурные технологии",
+        "Промышленные компьютеры и рабочие станции",
+        "Промышленное программное обеспечение"
+      ],
+      "productFamilies": [
+        "Laptops",
+        "Desktop Computers",
+        "Workstations",
+        "Servers",
+        "Storage",
+        "Networking",
+        "Edge Infrastructure",
+        "Private Cloud"
+      ],
+      "series": [
+        "Dell Pro",
+        "Precision",
+        "PowerEdge",
+        "PowerStore",
+        "PowerScale"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Инфраструктура",
+        "Автоматизация"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dell.com/en-us/shop"],
+      "documentationSources": [
+        "https://www.dell.com/en-us/shop"
+      ],
       "sources": [
-        {"sourceId":"wave77-dell-company","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"CORPORATE_IDENTITY_AND_CLIENT_INFRASTRUCTURE_TECHNOLOGY_SCOPE","url":"https://www.dell.com/content/dam/digitalassets/active/en/unauth/offering-overview-documents/solutions/key_facts_about_dell_technologies.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dell-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CLIENT_SERVER_STORAGE_NETWORKING_AND_EDGE_GROUPS","url":"https://www.dell.com/en-us/shop","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dell-company",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "CORPORATE_IDENTITY_AND_CLIENT_INFRASTRUCTURE_TECHNOLOGY_SCOPE",
+          "url": "https://www.dell.com/content/dam/digitalassets/active/en/unauth/offering-overview-documents/solutions/key_facts_about_dell_technologies.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dell-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CLIENT_SERVER_STORAGE_NETWORKING_AND_EDGE_GROUPS",
+          "url": "https://www.dell.com/en-us/shop",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "delu",
       "officialName": "Delu Cabos de Aço Ltda.",
       "displayName": "DELU",
-      "aliases": ["DELU", "DELU CABOS DE ACO", "DELU CABOS DE AÇO"],
+      "aliases": [
+        "DELU",
+        "DELU CABOS DE ACO",
+        "DELU CABOS DE AÇO"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.delu.com.br/",
-      "officialDomains": ["delu.com.br"],
+      "officialDomains": [
+        "delu.com.br"
+      ],
       "country": "Brazil",
       "headquarters": "Navegantes, Santa Catarina, Brazil",
       "foundedYear": 2010,
@@ -321,25 +707,63 @@
         "DELU is verified through its company-owned website as a Brazilian lifting and rigging business established in 2010.",
         "Its official scope includes the manufacture of wire-rope slings and a documented range of wire ropes, lifting slings, chains, hooks, shackles, eye bolts and tensioning accessories."
       ],
-      "productCategories": ["Подъёмное оборудование", "Промышленные цепи и тросы"],
-      "productFamilies": ["Wire Ropes", "Wire Rope Slings", "Lifting Slings", "Chains", "Hooks", "Shackles", "Eye Bolts", "Tensioners"],
+      "productCategories": [
+        "Подъёмное оборудование",
+        "Промышленные цепи и тросы"
+      ],
+      "productFamilies": [
+        "Wire Ropes",
+        "Wire Rope Slings",
+        "Lifting Slings",
+        "Chains",
+        "Hooks",
+        "Shackles",
+        "Eye Bolts",
+        "Tensioners"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Судостроение", "Логистика"],
+      "industries": [
+        "Промышленное производство",
+        "Судостроение",
+        "Логистика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.delu.com.br/produtos/index.php"],
+      "documentationSources": [
+        "https://www.delu.com.br/produtos/index.php"
+      ],
       "sources": [
-        {"sourceId":"wave77-delu-company","tier":"A","type":"ABOUT","scope":"COMPANY_IDENTITY_FOUNDATION_LOCATION_AND_WIRE_ROPE_SLING_MANUFACTURING","url":"https://www.delu.com.br/quem-somos","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-delu-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"WIRE_ROPE_SLING_CHAIN_AND_LIFTING_ACCESSORY_GROUPS","url":"https://www.delu.com.br/produtos/index.php","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-delu-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "COMPANY_IDENTITY_FOUNDATION_LOCATION_AND_WIRE_ROPE_SLING_MANUFACTURING",
+          "url": "https://www.delu.com.br/quem-somos",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-delu-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "WIRE_ROPE_SLING_CHAIN_AND_LIFTING_ACCESSORY_GROUPS",
+          "url": "https://www.delu.com.br/produtos/index.php",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dendor",
       "officialName": "DENDOR",
       "displayName": "DENDOR",
-      "aliases": ["DENDOR"],
+      "aliases": [
+        "DENDOR"
+      ],
       "formerNames": [],
       "officialWebsite": "https://dendor.ru/",
-      "officialDomains": ["dendor.ru"],
+      "officialDomains": [
+        "dendor.ru"
+      ],
       "country": "Russia",
       "headquarters": null,
       "foundedYear": null,
@@ -350,25 +774,58 @@
         "DENDOR is verified through its official brand site, which identifies AO Energia as the company operating the production and supply activity.",
         "The first-party catalogue establishes an industrial pipeline-valve scope, including butterfly and check valves, strainers and associated valve equipment."
       ],
-      "productCategories": ["Промышленная арматура"],
-      "productFamilies": ["Butterfly Valves", "Check Valves", "Pipeline Strainers"],
+      "productCategories": [
+        "Промышленная арматура"
+      ],
+      "productFamilies": [
+        "Butterfly Valves",
+        "Check Valves",
+        "Pipeline Strainers"
+      ],
       "series": [],
-      "industries": ["Водоснабжение", "Промышленное производство", "Энергетика"],
+      "industries": [
+        "Водоснабжение",
+        "Промышленное производство",
+        "Энергетика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://dendor.ru/"],
+      "documentationSources": [
+        "https://dendor.ru/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dendor-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"BRAND_IDENTITY_MANUFACTURING_STATUS_AND_PIPELINE_VALVE_SCOPE","url":"https://dendor.ru/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dendor-company-status","tier":"A","type":"ABOUT","scope":"AO_ENERGIA_RELATION_AND_CURRENT_PRODUCTION_STATUS","url":"https://dendor.ru/o-rabote-kompanii/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dendor-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "BRAND_IDENTITY_MANUFACTURING_STATUS_AND_PIPELINE_VALVE_SCOPE",
+          "url": "https://dendor.ru/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dendor-company-status",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "AO_ENERGIA_RELATION_AND_CURRENT_PRODUCTION_STATUS",
+          "url": "https://dendor.ru/o-rabote-kompanii/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "deno-compressors",
       "officialName": "Deno Compressors B.V.",
       "displayName": "Deno Compressors",
-      "aliases": ["DENO", "DENO COMPRESSORS"],
+      "aliases": [
+        "DENO",
+        "DENO COMPRESSORS"
+      ],
       "formerNames": [],
       "officialWebsite": "https://denocomp.nl/",
-      "officialDomains": ["denocomp.nl"],
+      "officialDomains": [
+        "denocomp.nl"
+      ],
       "country": "Netherlands",
       "headquarters": "Krimpen aan den IJssel, Netherlands",
       "foundedYear": 1918,
@@ -378,25 +835,65 @@
         "Deno Compressors is verified through its manufacturer-owned website as a Dutch air-compressor producer with designs dating to 1918.",
         "Its documented range includes starting, working and emergency air compressors, refrigerated and adsorption dryers, skids, filters and nitrogen-generation systems."
       ],
-      "productCategories": ["Промышленные компрессоры", "Фильтрационное оборудование"],
-      "productFamilies": ["Starting Air Compressors", "Working Air Compressors", "Emergency Starting Air Compressors", "Refrigerated Air Dryers", "Adsorption Air Dryers", "Skids", "Filters", "Nitrogen Generation Systems"],
+      "productCategories": [
+        "Промышленные компрессоры",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Starting Air Compressors",
+        "Working Air Compressors",
+        "Emergency Starting Air Compressors",
+        "Refrigerated Air Dryers",
+        "Adsorption Air Dryers",
+        "Skids",
+        "Filters",
+        "Nitrogen Generation Systems"
+      ],
       "series": [],
-      "industries": ["Судостроение", "Морская промышленность"],
-      "officialCatalogs": ["https://denocomp.nl/files/downloads/deno-brochure-2021.pdf"],
-      "documentationSources": ["https://denocomp.nl/"],
+      "industries": [
+        "Судостроение",
+        "Морская промышленность"
+      ],
+      "officialCatalogs": [
+        "https://denocomp.nl/files/downloads/deno-brochure-2021.pdf"
+      ],
+      "documentationSources": [
+        "https://denocomp.nl/"
+      ],
       "sources": [
-        {"sourceId":"wave77-deno-company-products","tier":"A","type":"ABOUT_AND_PRODUCTS","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_MARINE_COMPRESSOR_RANGE","url":"https://denocomp.nl/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-deno-brochure","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"MARINE_COMPRESSOR_AND_AIR_TREATMENT_PRODUCT_SCOPE","url":"https://denocomp.nl/files/downloads/deno-brochure-2021.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-deno-company-products",
+          "tier": "A",
+          "type": "ABOUT_AND_PRODUCTS",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_MARINE_COMPRESSOR_RANGE",
+          "url": "https://denocomp.nl/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-deno-brochure",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "MARINE_COMPRESSOR_AND_AIR_TREATMENT_PRODUCT_SCOPE",
+          "url": "https://denocomp.nl/files/downloads/deno-brochure-2021.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "derrick",
       "officialName": "Derrick Corporation",
       "displayName": "Derrick",
-      "aliases": ["DERRICK", "DERRICK CORPORATION"],
+      "aliases": [
+        "DERRICK",
+        "DERRICK CORPORATION"
+      ],
       "formerNames": [],
       "officialWebsite": "https://derrick.com/",
-      "officialDomains": ["derrick.com"],
+      "officialDomains": [
+        "derrick.com"
+      ],
       "country": "United States",
       "headquarters": "Buffalo, New York, United States",
       "foundedYear": null,
@@ -406,25 +903,69 @@
         "Derrick Corporation is verified through its manufacturer-owned corporate material as a United States producer of fine-screening technology.",
         "The official portfolio covers wet and dry screening machines, screen media and solids-control systems used in mineral processing, industrial separation and oil-and-gas drilling."
       ],
-      "productCategories": ["Горнодобывающее оборудование", "Промышленное просеивающее оборудование", "Промышленное процессное оборудование"],
-      "productFamilies": ["Wet Screening Machines", "Dry Screening Machines", "Screen Media", "Solids Control Systems"],
-      "series": ["Polyweb", "Trilogy"],
-      "industries": ["Горнодобывающая промышленность", "Нефтегазовая промышленность", "Промышленное производство"],
-      "officialCatalogs": ["https://derrick.com/wp-content/uploads/2016/05/Derrick-Corporate-Brochure_LR.pdf"],
-      "documentationSources": ["https://derrick.com/"],
+      "productCategories": [
+        "Горнодобывающее оборудование",
+        "Промышленное просеивающее оборудование",
+        "Промышленное процессное оборудование"
+      ],
+      "productFamilies": [
+        "Wet Screening Machines",
+        "Dry Screening Machines",
+        "Screen Media",
+        "Solids Control Systems"
+      ],
+      "series": [
+        "Polyweb",
+        "Trilogy"
+      ],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Нефтегазовая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://derrick.com/wp-content/uploads/2016/05/Derrick-Corporate-Brochure_LR.pdf"
+      ],
+      "documentationSources": [
+        "https://derrick.com/"
+      ],
       "sources": [
-        {"sourceId":"wave77-derrick-corporate","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"MANUFACTURER_IDENTITY_HEADQUARTERS_AND_FINE_SCREENING_SCOPE","url":"https://derrick.com/wp-content/uploads/2016/05/Derrick-Corporate-Brochure_LR.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-derrick-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SCREENING_MACHINE_SCREEN_MEDIA_AND_SOLIDS_CONTROL_GROUPS","url":"https://derrick.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-derrick-corporate",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "MANUFACTURER_IDENTITY_HEADQUARTERS_AND_FINE_SCREENING_SCOPE",
+          "url": "https://derrick.com/wp-content/uploads/2016/05/Derrick-Corporate-Brochure_LR.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-derrick-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SCREENING_MACHINE_SCREEN_MEDIA_AND_SOLIDS_CONTROL_GROUPS",
+          "url": "https://derrick.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "desch-antriebstechnik",
       "officialName": "Nidec DESCH Antriebstechnik GmbH & Co. KG",
       "displayName": "Nidec DESCH",
-      "aliases": ["DESCH", "DESCH ANTRIEBSTECHNIK", "NIDEC DESCH"],
-      "formerNames": ["DESCH Antriebstechnik"],
+      "aliases": [
+        "DESCH",
+        "DESCH ANTRIEBSTECHNIK",
+        "NIDEC DESCH"
+      ],
+      "formerNames": [
+        "DESCH Antriebstechnik"
+      ],
       "officialWebsite": "https://www.desch.com/en/",
-      "officialDomains": ["desch.com"],
+      "officialDomains": [
+        "desch.com"
+      ],
       "country": "Germany",
       "headquarters": "Arnsberg, Germany",
       "foundedYear": null,
@@ -435,25 +976,62 @@
         "Nidec DESCH is verified through its official company page as a German developer and manufacturer of industrial drive systems.",
         "Its documented portfolio includes gear and drive solutions, clutches and brakes, drive components, machine-tool components and specialised pump, compressor and marine components."
       ],
-      "productCategories": ["Промышленные редукторы", "Муфты и тормоза", "Приводные системы"],
-      "productFamilies": ["Gear and Drive Solutions", "Clutches and Brakes", "Drive Components", "Machine Tool Components", "Pump and Compressor Components"],
+      "productCategories": [
+        "Промышленные редукторы",
+        "Муфты и тормоза",
+        "Приводные системы"
+      ],
+      "productFamilies": [
+        "Gear and Drive Solutions",
+        "Clutches and Brakes",
+        "Drive Components",
+        "Machine Tool Components",
+        "Pump and Compressor Components"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Судостроение", "Станкостроение"],
+      "industries": [
+        "Промышленное производство",
+        "Судостроение",
+        "Станкостроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.desch.com/north-america/products/"],
+      "documentationSources": [
+        "https://www.desch.com/north-america/products/"
+      ],
       "sources": [
-        {"sourceId":"wave77-desch-company","tier":"A","type":"ABOUT","scope":"CURRENT_NIDEC_DESCH_IDENTITY_HEADQUARTERS_AND_DRIVE_SYSTEM_SCOPE","url":"https://www.desch.com/en/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-desch-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GEAR_DRIVE_CLUTCH_BRAKE_AND_COMPONENT_GROUPS","url":"https://www.desch.com/north-america/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-desch-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CURRENT_NIDEC_DESCH_IDENTITY_HEADQUARTERS_AND_DRIVE_SYSTEM_SCOPE",
+          "url": "https://www.desch.com/en/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-desch-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "GEAR_DRIVE_CLUTCH_BRAKE_AND_COMPONENT_GROUPS",
+          "url": "https://www.desch.com/north-america/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "deta-international",
       "officialName": "DETA International Co., Ltd.",
       "displayName": "DETA International",
-      "aliases": ["DETA", "DETA International"],
+      "aliases": [
+        "DETA",
+        "DETA International"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.deta.com.tw/",
-      "officialDomains": ["deta.com.tw"],
+      "officialDomains": [
+        "deta.com.tw"
+      ],
       "country": "Taiwan",
       "headquarters": "Taichung, Taiwan",
       "foundedYear": 1994,
@@ -463,25 +1041,59 @@
         "DETA International is verified through its manufacturer-owned website as a Taiwan-based producer of peripheral equipment for CNC machining centres.",
         "Its documented product scope includes automatic tool changers, automatic workpiece changers, rotary tables and other modules used to automate machining operations."
       ],
-      "productCategories": ["Автоматизация металлообрабатывающих станков", "Промышленные механизмы"],
-      "productFamilies": ["Automatic Tool Changers", "Automatic Workpiece Changers", "Rotary Tables", "CNC Peripheral Equipment"],
+      "productCategories": [
+        "Автоматизация металлообрабатывающих станков",
+        "Промышленные механизмы"
+      ],
+      "productFamilies": [
+        "Automatic Tool Changers",
+        "Automatic Workpiece Changers",
+        "Rotary Tables",
+        "CNC Peripheral Equipment"
+      ],
       "series": [],
-      "industries": ["Станкостроение", "Металлообработка"],
+      "industries": [
+        "Станкостроение",
+        "Металлообработка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.deta.com.tw/products"],
+      "documentationSources": [
+        "https://www.deta.com.tw/products"
+      ],
       "sources": [
-        {"sourceId":"wave77-deta-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_CNC_AUTOMATION_SCOPE","url":"https://www.deta.com.tw/aboutus","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-deta-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TOOL_CHANGER_WORKPIECE_CHANGER_ROTARY_TABLE_AND_PERIPHERAL_EQUIPMENT_GROUPS","url":"https://www.deta.com.tw/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-deta-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_CNC_AUTOMATION_SCOPE",
+          "url": "https://www.deta.com.tw/aboutus",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-deta-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "TOOL_CHANGER_WORKPIECE_CHANGER_ROTARY_TABLE_AND_PERIPHERAL_EQUIPMENT_GROUPS",
+          "url": "https://www.deta.com.tw/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dettin",
       "officialName": "Dettin S.p.A.",
       "displayName": "Dettin",
-      "aliases": ["DETTIN", "Dettin S.p.A."],
+      "aliases": [
+        "DETTIN",
+        "Dettin S.p.A."
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dettinspa.com/",
-      "officialDomains": ["dettinspa.com"],
+      "officialDomains": [
+        "dettinspa.com"
+      ],
       "country": "Italy",
       "headquarters": "Schio, Italy",
       "foundedYear": 1962,
@@ -491,25 +1103,62 @@
         "Dettin is verified through its official website as an Italian process-equipment manufacturer operating since 1962.",
         "Its documented portfolio covers hydroextractors, dryers and automated process systems, together with engineered pressure equipment such as tanks, heat exchangers, columns and valves."
       ],
-      "productCategories": ["Промышленное процессное оборудование", "Центрифуги и сепараторы", "Промышленная арматура"],
-      "productFamilies": ["Hydroextractors", "Dryers", "Automatic Systems", "Pressure Vessels", "Heat Exchangers", "Columns", "Valves"],
+      "productCategories": [
+        "Промышленное процессное оборудование",
+        "Центрифуги и сепараторы",
+        "Промышленная арматура"
+      ],
+      "productFamilies": [
+        "Hydroextractors",
+        "Dryers",
+        "Automatic Systems",
+        "Pressure Vessels",
+        "Heat Exchangers",
+        "Columns",
+        "Valves"
+      ],
       "series": [],
-      "industries": ["Фармацевтическая промышленность", "Химическая промышленность"],
+      "industries": [
+        "Фармацевтическая промышленность",
+        "Химическая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dettinspa.com/wp-content/uploads/2021/02/7_-1900085_C_Politica-per-la-qualita%CC%80-A3_en.pdf"],
+      "documentationSources": [
+        "https://www.dettinspa.com/wp-content/uploads/2021/02/7_-1900085_C_Politica-per-la-qualita%CC%80-A3_en.pdf"
+      ],
       "sources": [
-        {"sourceId":"wave77-dettin-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_PROCESS_EQUIPMENT_SCOPE","url":"https://www.dettinspa.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dettin-quality","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"OFFICIAL_COMPANY_IDENTITY_LOCATION_AND_MANUFACTURING_SCOPE","url":"https://www.dettinspa.com/wp-content/uploads/2021/02/7_-1900085_C_Politica-per-la-qualita%CC%80-A3_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dettin-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_PROCESS_EQUIPMENT_SCOPE",
+          "url": "https://www.dettinspa.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dettin-quality",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "OFFICIAL_COMPANY_IDENTITY_LOCATION_AND_MANUFACTURING_SCOPE",
+          "url": "https://www.dettinspa.com/wp-content/uploads/2021/02/7_-1900085_C_Politica-per-la-qualita%CC%80-A3_en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "deutronic",
       "officialName": "Deutronic Elektronik GmbH",
       "displayName": "Deutronic",
-      "aliases": ["DEUTRONIC"],
+      "aliases": [
+        "DEUTRONIC"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.deutronic.com/",
-      "officialDomains": ["deutronic.com"],
+      "officialDomains": [
+        "deutronic.com"
+      ],
       "country": "Germany",
       "headquarters": "Adlkofen, Germany",
       "foundedYear": 1983,
@@ -519,25 +1168,62 @@
         "Deutronic is verified through its manufacturer-owned website as a German power-electronics company founded in 1983.",
         "Its official product search and documentation cover battery-charging systems, DC/DC converters, power supplies, motor controllers and electronic test systems for industrial and vehicle applications."
       ],
-      "productCategories": ["Источники питания и силовая электроника", "Контроллеры электродвигателей", "Измерительное и испытательное оборудование"],
-      "productFamilies": ["Battery Chargers", "DC/DC Converters", "Power Supplies", "Motor Controllers", "Test Systems"],
+      "productCategories": [
+        "Источники питания и силовая электроника",
+        "Контроллеры электродвигателей",
+        "Измерительное и испытательное оборудование"
+      ],
+      "productFamilies": [
+        "Battery Chargers",
+        "DC/DC Converters",
+        "Power Supplies",
+        "Motor Controllers",
+        "Test Systems"
+      ],
       "series": [],
-      "industries": ["Автомобильная промышленность", "Промышленная автоматизация"],
-      "officialCatalogs": ["https://www.deutronic.com/downloads_en/cataloge-flyer/"],
-      "documentationSources": ["https://www.deutronic.com/produkte/product-search/"],
+      "industries": [
+        "Автомобильная промышленность",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [
+        "https://www.deutronic.com/downloads_en/cataloge-flyer/"
+      ],
+      "documentationSources": [
+        "https://www.deutronic.com/produkte/product-search/"
+      ],
       "sources": [
-        {"sourceId":"wave77-deutronic-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_POWER_ELECTRONICS_SCOPE","url":"https://www.deutronic.com/unternehmen/about-deutronic/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-deutronic-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CHARGER_CONVERTER_POWER_SUPPLY_MOTOR_CONTROLLER_AND_TEST_SYSTEM_GROUPS","url":"https://www.deutronic.com/produkte/product-search/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-deutronic-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_POWER_ELECTRONICS_SCOPE",
+          "url": "https://www.deutronic.com/unternehmen/about-deutronic/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-deutronic-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CHARGER_CONVERTER_POWER_SUPPLY_MOTOR_CONTROLLER_AND_TEST_SYSTEM_GROUPS",
+          "url": "https://www.deutronic.com/produkte/product-search/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "deutz",
       "officialName": "DEUTZ AG",
       "displayName": "DEUTZ",
-      "aliases": ["Deutz"],
+      "aliases": [
+        "Deutz"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.deutz.com/en/",
-      "officialDomains": ["deutz.com"],
+      "officialDomains": [
+        "deutz.com"
+      ],
       "country": "Germany",
       "headquarters": "Cologne, Germany",
       "foundedYear": 1864,
@@ -547,25 +1233,62 @@
         "DEUTZ is verified through its corporate website as a German drive-system manufacturer whose history began in 1864.",
         "Its official portfolio includes diesel, gas, petrol and hydrogen engines, electric drive systems and generator-set solutions for off-highway equipment and industrial applications."
       ],
-      "productCategories": ["Промышленные двигатели", "Электрические приводные системы", "Энергетические установки"],
-      "productFamilies": ["Diesel Engines", "Gas and Petrol Engines", "Hydrogen Engines", "Electric Drive Systems", "Generator Sets"],
+      "productCategories": [
+        "Промышленные двигатели",
+        "Электрические приводные системы",
+        "Энергетические установки"
+      ],
+      "productFamilies": [
+        "Diesel Engines",
+        "Gas and Petrol Engines",
+        "Hydrogen Engines",
+        "Electric Drive Systems",
+        "Generator Sets"
+      ],
       "series": [],
-      "industries": ["Строительная техника", "Сельскохозяйственная техника", "Промышленное оборудование"],
+      "industries": [
+        "Строительная техника",
+        "Сельскохозяйственная техника",
+        "Промышленное оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.deutz.com/en/products/"],
+      "documentationSources": [
+        "https://www.deutz.com/en/products/"
+      ],
       "sources": [
-        {"sourceId":"wave77-deutz-company","tier":"A","type":"ABOUT","scope":"CORPORATE_IDENTITY_FOUNDATION_HEADQUARTERS_AND_DRIVE_SYSTEM_SCOPE","url":"https://www.deutz.com/en/company/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-deutz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"COMBUSTION_HYDROGEN_ELECTRIC_DRIVE_AND_GENSET_GROUPS","url":"https://www.deutz.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-deutz-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_IDENTITY_FOUNDATION_HEADQUARTERS_AND_DRIVE_SYSTEM_SCOPE",
+          "url": "https://www.deutz.com/en/company/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-deutz-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "COMBUSTION_HYDROGEN_ELECTRIC_DRIVE_AND_GENSET_GROUPS",
+          "url": "https://www.deutz.com/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dewalt",
       "officialName": "DEWALT",
       "displayName": "DEWALT",
-      "aliases": ["DeWALT", "DeWalt"],
+      "aliases": [
+        "DeWALT",
+        "DeWalt"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dewalt.com/",
-      "officialDomains": ["dewalt.com"],
+      "officialDomains": [
+        "dewalt.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -576,25 +1299,63 @@
         "DEWALT is verified through its official brand website as a Stanley Black & Decker brand serving professional tool users.",
         "The documented range includes corded and cordless power tools, outdoor equipment, storage and organisation products, hand tools, accessories and jobsite safety equipment."
       ],
-      "productCategories": ["Профессиональный инструмент", "Средства безопасности", "Системы хранения"],
-      "productFamilies": ["Power Tools", "Outdoor Equipment", "Hand Tools", "Storage and Organisation", "Accessories", "Safety Equipment"],
+      "productCategories": [
+        "Профессиональный инструмент",
+        "Средства безопасности",
+        "Системы хранения"
+      ],
+      "productFamilies": [
+        "Power Tools",
+        "Outdoor Equipment",
+        "Hand Tools",
+        "Storage and Organisation",
+        "Accessories",
+        "Safety Equipment"
+      ],
       "series": [],
-      "industries": ["Строительство", "Промышленное обслуживание"],
+      "industries": [
+        "Строительство",
+        "Промышленное обслуживание"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dewalt.com/en-us/products/power-tools"],
+      "documentationSources": [
+        "https://www.dewalt.com/en-us/products/power-tools"
+      ],
       "sources": [
-        {"sourceId":"wave77-dewalt-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"CURRENT_BRAND_IDENTITY_PARENT_RELATIONSHIP_AND_PROFESSIONAL_TOOL_SCOPE","url":"https://www.dewalt.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dewalt-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"POWER_TOOL_OUTDOOR_STORAGE_ACCESSORY_AND_SAFETY_GROUPS","url":"https://www.dewalt.com/en-us/products/power-tools","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dewalt-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "CURRENT_BRAND_IDENTITY_PARENT_RELATIONSHIP_AND_PROFESSIONAL_TOOL_SCOPE",
+          "url": "https://www.dewalt.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dewalt-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "POWER_TOOL_OUTDOOR_STORAGE_ACCESSORY_AND_SAFETY_GROUPS",
+          "url": "https://www.dewalt.com/en-us/products/power-tools",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dickow-pump-company",
       "officialName": "DICKOW Pumpen GmbH & Co. KG",
       "displayName": "DICKOW Pump Company",
-      "aliases": ["DICKOW", "Dickow Pumpen", "Dickow Pump Company"],
+      "aliases": [
+        "DICKOW",
+        "Dickow Pumpen",
+        "Dickow Pump Company"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dickow.de/",
-      "officialDomains": ["dickow.de"],
+      "officialDomains": [
+        "dickow.de"
+      ],
       "country": "Germany",
       "headquarters": "Waldkraiburg, Germany",
       "foundedYear": null,
@@ -604,27 +1365,62 @@
         "DICKOW is verified through its manufacturer-owned website and official company profile as a German pump manufacturer based in Waldkraiburg.",
         "Its documented range covers magnetic-drive pumps, side-channel pumps, centrifugal pumps and multistage pump designs for demanding industrial fluid-handling duties."
       ],
-      "productCategories": ["Промышленные насосы"],
-      "productFamilies": ["Magnetic Drive Pumps", "Side Channel Pumps", "Centrifugal Pumps", "Multistage Pumps"],
+      "productCategories": [
+        "Промышленные насосы"
+      ],
+      "productFamilies": [
+        "Magnetic Drive Pumps",
+        "Side Channel Pumps",
+        "Centrifugal Pumps",
+        "Multistage Pumps"
+      ],
       "series": [],
-      "industries": ["Химическая промышленность", "Нефтегазовая промышленность", "Энергетика"],
-      "officialCatalogs": ["https://dickow.de/images/Stammverzeichnis/01_Produkte/dokumente/Firmenprofil_EN.pdf"],
-      "documentationSources": ["https://www.dickow.de/index.php/de/"],
+      "industries": [
+        "Химическая промышленность",
+        "Нефтегазовая промышленность",
+        "Энергетика"
+      ],
+      "officialCatalogs": [
+        "https://dickow.de/images/Stammverzeichnis/01_Produkte/dokumente/Firmenprofil_EN.pdf"
+      ],
+      "documentationSources": [
+        "https://www.dickow.de/index.php/de/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dickow-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_INDUSTRIAL_PUMP_SCOPE","url":"https://www.dickow.de/index.php/de/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dickow-profile","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"COMPANY_PROFILE_AND_PUMP_TECHNOLOGY_GROUPS","url":"https://dickow.de/images/Stammverzeichnis/01_Produkte/dokumente/Firmenprofil_EN.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dickow-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_INDUSTRIAL_PUMP_SCOPE",
+          "url": "https://www.dickow.de/index.php/de/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dickow-profile",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "COMPANY_PROFILE_AND_PUMP_TECHNOLOGY_GROUPS",
+          "url": "https://dickow.de/images/Stammverzeichnis/01_Produkte/dokumente/Firmenprofil_EN.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "diefenbach",
       "officialName": "Diefenbach S.r.l.",
       "displayName": "Diefenbach",
-      "aliases": ["DIEFENBACH"],
+      "aliases": [
+        "DIEFENBACH"
+      ],
       "formerNames": [],
       "officialWebsite": "https://diefenbach.com/",
-      "officialDomains": ["diefenbach.com"],
+      "officialDomains": [
+        "diefenbach.com"
+      ],
       "country": "Italy",
-      "headquarters": null,
+      "headquarters": "Medolago, Italy",
       "foundedYear": 1907,
       "parentCompany": null,
       "shortDescription": "Diefenbach designs solid-liquid separation systems, including filter presses, thickeners and automated dewatering equipment.",
@@ -632,24 +1428,68 @@
         "Diefenbach is verified through its manufacturer-owned website as an Italian solid-liquid separation specialist with a history dating to 1907.",
         "Its official product presentation covers filter presses, thickeners and automated separation systems for industrial dewatering and process applications."
       ],
-      "productCategories": ["Фильтрационное и водоподготовительное оборудование", "Промышленное процессное оборудование"],
-      "productFamilies": ["Filter Presses", "Thickeners", "Automated Separation Systems"],
-      "series": ["OH", "SB", "iONIC", "TIGER", "P", "HR"],
-      "industries": ["Горнодобывающая промышленность", "Химическая промышленность", "Водоподготовка"],
+      "productCategories": [
+        "Фильтрационное и водоподготовительное оборудование",
+        "Промышленное процессное оборудование"
+      ],
+      "productFamilies": [
+        "Filter Presses",
+        "Thickeners",
+        "Automated Separation Systems"
+      ],
+      "series": [
+        "OH",
+        "SB",
+        "iONIC",
+        "TIGER",
+        "P",
+        "HR"
+      ],
+      "industries": [
+        "Горнодобывающая промышленность",
+        "Химическая промышленность",
+        "Водоподготовка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://diefenbach.com/it/"],
+      "documentationSources": [
+        "https://diefenbach.com/it/"
+      ],
       "sources": [
-        {"sourceId":"wave77-diefenbach-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_HISTORY_AND_SOLID_LIQUID_SEPARATION_SCOPE","url":"https://diefenbach.com/it/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-diefenbach-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_HISTORY_AND_SOLID_LIQUID_SEPARATION_SCOPE",
+          "url": "https://diefenbach.com/it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-diefenbach-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://diefenbach.com/about-us",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
       ]
     },
     {
       "manufacturerId": "dionex",
       "officialName": "Thermo Scientific Dionex",
       "displayName": "Dionex",
-      "aliases": ["DIONEX", "Thermo Scientific Dionex"],
-      "formerNames": ["Dionex Corporation"],
+      "aliases": [
+        "DIONEX",
+        "Thermo Scientific Dionex"
+      ],
+      "formerNames": [
+        "Dionex Corporation"
+      ],
       "officialWebsite": "https://www.thermofisher.com/ca/en/home/industrial/chromatography/dionex.html",
-      "officialDomains": ["thermofisher.com"],
+      "officialDomains": [
+        "thermofisher.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -660,24 +1500,51 @@
         "Dionex is verified through Thermo Fisher Scientific's official brand page as a current Thermo Scientific chromatography product identity.",
         "The official portfolio includes ion chromatography, HPLC and UHPLC systems, automated sample-preparation equipment and Chromeleon chromatography data-system software."
       ],
-      "productCategories": ["Хроматографическое и лабораторное оборудование", "Программное обеспечение"],
-      "productFamilies": ["Ion Chromatography", "HPLC and UHPLC", "Automated Sample Preparation", "Chromeleon CDS"],
+      "productCategories": [
+        "Хроматографическое и лабораторное оборудование",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Ion Chromatography",
+        "HPLC and UHPLC",
+        "Automated Sample Preparation",
+        "Chromeleon CDS"
+      ],
       "series": [],
-      "industries": ["Лабораторный анализ", "Фармацевтическая промышленность", "Экологический контроль"],
+      "industries": [
+        "Лабораторный анализ",
+        "Фармацевтическая промышленность",
+        "Экологический контроль"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.thermofisher.com/ca/en/home/industrial/chromatography/dionex.html"],
+      "documentationSources": [
+        "https://www.thermofisher.com/ca/en/home/industrial/chromatography/dionex.html"
+      ],
       "sources": [
-        {"sourceId":"wave77-dionex-parent","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_DIONEX_BRAND_IDENTITY_AND_CHROMATOGRAPHY_PRODUCT_SCOPE","url":"https://www.thermofisher.com/ca/en/home/industrial/chromatography/dionex.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dionex-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_DIONEX_BRAND_IDENTITY_AND_CHROMATOGRAPHY_PRODUCT_SCOPE",
+          "url": "https://www.thermofisher.com/ca/en/home/industrial/chromatography/dionex.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "directlogic",
       "officialName": "DirectLOGIC",
       "displayName": "DirectLOGIC",
-      "aliases": ["DIRECTLOGIC", "Direct Logic"],
+      "aliases": [
+        "DIRECTLOGIC",
+        "Direct Logic"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.automationdirect.com/adc/overview/catalog/programmable_controllers/directlogic_series_plcs_(micro_to_small,_brick_-a-_modular)",
-      "officialDomains": ["automationdirect.com"],
+      "officialDomains": [
+        "automationdirect.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -688,24 +1555,59 @@
         "DirectLOGIC is verified through AutomationDirect's official product documentation as a programmable logic controller family rather than an independent company.",
         "The documented range covers micro, brick and modular PLC platforms, expansion I/O, communications options and the DirectSOFT programming environment."
       ],
-      "productCategories": ["Промышленные контроллеры и автоматизация", "Программное обеспечение"],
-      "productFamilies": ["Micro PLCs", "Brick PLCs", "Modular PLCs", "Expansion I/O", "DirectSOFT"],
-      "series": ["DL05", "DL06", "DL105", "DL205", "DL305", "DL405"],
-      "industries": ["Промышленная автоматизация"],
-      "officialCatalogs": ["https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf"],
-      "documentationSources": ["https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf"],
+      "productCategories": [
+        "Промышленные контроллеры и автоматизация",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Micro PLCs",
+        "Brick PLCs",
+        "Modular PLCs",
+        "Expansion I/O",
+        "DirectSOFT"
+      ],
+      "series": [
+        "DL05",
+        "DL06",
+        "DL105",
+        "DL205",
+        "DL305",
+        "DL405"
+      ],
+      "industries": [
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [
+        "https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf"
+      ],
+      "documentationSources": [
+        "https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf"
+      ],
       "sources": [
-        {"sourceId":"wave77-directlogic-parent","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"DIRECTLOGIC_IDENTITY_PLC_FAMILIES_IO_AND_PROGRAMMING_SCOPE","url":"https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-directlogic-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "DIRECTLOGIC_IDENTITY_PLC_FAMILIES_IO_AND_PROGRAMMING_SCOPE",
+          "url": "https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "disab",
       "officialName": "DISAB Vacuum Technology AB",
       "displayName": "DISAB",
-      "aliases": ["Disab", "DISAB Vacuum Technology"],
+      "aliases": [
+        "Disab",
+        "DISAB Vacuum Technology"
+      ],
       "formerNames": [],
       "officialWebsite": "https://disab.com/",
-      "officialDomains": ["disab.com"],
+      "officialDomains": [
+        "disab.com"
+      ],
       "country": "Sweden",
       "headquarters": null,
       "foundedYear": null,
@@ -716,25 +1618,58 @@
         "DISAB is verified through its official website as a Swedish industrial-vacuum specialist within Ferrata Group.",
         "Its documented portfolio includes vacuum trucks and loaders, mobile and stationary vacuum units, and engineered central vacuum systems for collecting and transporting industrial material."
       ],
-      "productCategories": ["Промышленные вакуумные системы", "Промышленные машины"],
-      "productFamilies": ["Vacuum Loaders", "Mobile Vacuum Units", "Stationary Vacuum Units", "Central Vacuum Systems"],
+      "productCategories": [
+        "Промышленные вакуумные системы",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Vacuum Loaders",
+        "Mobile Vacuum Units",
+        "Stationary Vacuum Units",
+        "Central Vacuum Systems"
+      ],
       "series": [],
-      "industries": ["Промышленная уборка", "Перерабатывающая промышленность"],
+      "industries": [
+        "Промышленная уборка",
+        "Перерабатывающая промышленность"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://disab.com/products/"],
+      "documentationSources": [
+        "https://disab.com/products/"
+      ],
       "sources": [
-        {"sourceId":"wave77-disab-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_PARENT_RELATIONSHIP_AND_INDUSTRIAL_VACUUM_SCOPE","url":"https://disab.com/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-disab-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"VACUUM_LOADER_MOBILE_STATIONARY_AND_CENTRAL_SYSTEM_GROUPS","url":"https://disab.com/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-disab-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_PARENT_RELATIONSHIP_AND_INDUSTRIAL_VACUUM_SCOPE",
+          "url": "https://disab.com/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-disab-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "VACUUM_LOADER_MOBILE_STATIONARY_AND_CENTRAL_SYSTEM_GROUPS",
+          "url": "https://disab.com/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dittel",
       "officialName": "Dittel Messtechnik GmbH",
       "displayName": "Dittel",
-      "aliases": ["DITTEL"],
+      "aliases": [
+        "DITTEL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dittel.com/",
-      "officialDomains": ["dittel.com"],
+      "officialDomains": [
+        "dittel.com"
+      ],
       "country": "Germany",
       "headquarters": null,
       "foundedYear": null,
@@ -745,25 +1680,60 @@
         "Dittel is verified through its official website as a German developer of machine-tool monitoring technology and a member of the Marposs group since 2012.",
         "Its product scope includes balancing systems, acoustic-emission sensors, process-monitoring units, multi-function systems and associated power electronics for grinding applications."
       ],
-      "productCategories": ["Измерительное и диагностическое оборудование", "Датчики", "Системы автоматизации станков"],
-      "productFamilies": ["Balancing Systems", "Acoustic Emission Sensors", "Process Monitoring", "Multi-Function Systems", "Power Electronics"],
+      "productCategories": [
+        "Измерительное и диагностическое оборудование",
+        "Датчики",
+        "Системы автоматизации станков"
+      ],
+      "productFamilies": [
+        "Balancing Systems",
+        "Acoustic Emission Sensors",
+        "Process Monitoring",
+        "Multi-Function Systems",
+        "Power Electronics"
+      ],
       "series": [],
-      "industries": ["Станкостроение", "Шлифовальная обработка"],
+      "industries": [
+        "Станкостроение",
+        "Шлифовальная обработка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dittel.com/index.php/en/products"],
+      "documentationSources": [
+        "https://www.dittel.com/index.php/en/products"
+      ],
       "sources": [
-        {"sourceId":"wave77-dittel-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_MARPOSS_RELATIONSHIP_AND_GRINDING_MONITORING_SCOPE","url":"https://www.dittel.com/index.php/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dittel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BALANCING_SENSOR_MONITORING_MULTISYSTEM_AND_POWER_ELECTRONICS_GROUPS","url":"https://www.dittel.com/index.php/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dittel-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_MARPOSS_RELATIONSHIP_AND_GRINDING_MONITORING_SCOPE",
+          "url": "https://www.dittel.com/index.php/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dittel-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "BALANCING_SENSOR_MONITORING_MULTISYSTEM_AND_POWER_ELECTRONICS_GROUPS",
+          "url": "https://www.dittel.com/index.php/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "doga",
       "officialName": "DOGA, S.A.",
       "displayName": "DOGA",
-      "aliases": ["Doga"],
+      "aliases": [
+        "Doga"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.doga.es/",
-      "officialDomains": ["doga.es"],
+      "officialDomains": [
+        "doga.es"
+      ],
       "country": "Spain",
       "headquarters": null,
       "foundedYear": null,
@@ -773,25 +1743,61 @@
         "DOGA is verified through its manufacturer-owned website as a Spanish engineering and manufacturing company serving vehicle and industrial applications.",
         "Its official portfolio includes DC motors and gearmotors, wiper and washer systems, electronic modules, tanks and plastic components developed as integrated mechatronic solutions."
       ],
-      "productCategories": ["Электродвигатели и мотор-редукторы", "Промышленная электроника", "Автомобильные компоненты"],
-      "productFamilies": ["DC Motors", "Gearmotors", "Wiper Systems", "Washer Systems", "Electronics", "Tanks and Plastic Systems"],
+      "productCategories": [
+        "Электродвигатели и мотор-редукторы",
+        "Промышленная электроника",
+        "Автомобильные компоненты"
+      ],
+      "productFamilies": [
+        "DC Motors",
+        "Gearmotors",
+        "Wiper Systems",
+        "Washer Systems",
+        "Electronics",
+        "Tanks and Plastic Systems"
+      ],
       "series": [],
-      "industries": ["Автомобильная промышленность", "Промышленное оборудование"],
+      "industries": [
+        "Автомобильная промышленность",
+        "Промышленное оборудование"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.doga.es/product-category/motors/"],
+      "documentationSources": [
+        "https://www.doga.es/product-category/motors/"
+      ],
       "sources": [
-        {"sourceId":"wave77-doga-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_COUNTRY_AND_ENGINEERING_SCOPE","url":"https://www.doga.es/global-engineering-and-manufacturing/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-doga-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTOR_GEARMOTOR_WIPER_WASHER_ELECTRONICS_AND_PLASTIC_SYSTEM_GROUPS","url":"https://www.doga.es/product-category/motors/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-doga-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_COUNTRY_AND_ENGINEERING_SCOPE",
+          "url": "https://www.doga.es/global-engineering-and-manufacturing/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-doga-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOTOR_GEARMOTOR_WIPER_WASHER_ELECTRONICS_AND_PLASTIC_SYSTEM_GROUPS",
+          "url": "https://www.doga.es/product-category/motors/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dohle",
       "officialName": "Dohle GmbH",
       "displayName": "Dohle",
-      "aliases": ["DOHLE"],
+      "aliases": [
+        "DOHLE"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dohle.de/en",
-      "officialDomains": ["dohle.de"],
+      "officialDomains": [
+        "dohle.de"
+      ],
       "country": "Germany",
       "headquarters": "Eschweiler, Germany",
       "foundedYear": 1870,
@@ -801,24 +1807,50 @@
         "Dohle is verified through its manufacturer-owned website as a German industrial sewing-machine manufacturer based in Eschweiler, with roots dating to 1870.",
         "The company develops specialised machinery for textile and carpet processing where robust stitching and application-specific machine configurations are required."
       ],
-      "productCategories": ["Промышленные швейные машины"],
-      "productFamilies": ["Industrial Sewing Machines", "Carpet Sewing Machines", "Textile Processing Machines"],
+      "productCategories": [
+        "Промышленные швейные машины"
+      ],
+      "productFamilies": [
+        "Industrial Sewing Machines",
+        "Carpet Sewing Machines",
+        "Textile Processing Machines"
+      ],
       "series": [],
-      "industries": ["Текстильная промышленность", "Производство ковров"],
+      "industries": [
+        "Текстильная промышленность",
+        "Производство ковров"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dohle.de/en"],
+      "documentationSources": [
+        "https://www.dohle.de/en"
+      ],
       "sources": [
-        {"sourceId":"wave77-dohle-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_INDUSTRIAL_SEWING_MACHINE_SCOPE","url":"https://www.dohle.de/en","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dohle-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_INDUSTRIAL_SEWING_MACHINE_SCOPE",
+          "url": "https://www.dohle.de/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "domnick-hunter",
       "officialName": "Parker domnick hunter",
       "displayName": "domnick hunter",
-      "aliases": ["DOMNICK HUNTER", "Parker domnick hunter"],
-      "formerNames": ["domnick hunter"],
+      "aliases": [
+        "DOMNICK HUNTER",
+        "Parker domnick hunter"
+      ],
+      "formerNames": [
+        "domnick hunter"
+      ],
       "officialWebsite": "https://www.parker.com/",
-      "officialDomains": ["parker.com"],
+      "officialDomains": [
+        "parker.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -829,27 +1861,68 @@
         "domnick hunter is verified through Parker Hannifin's official documentation as a current Parker product brand for filtration, purification and separation technology.",
         "The documented range includes compressed-air filtration and drying, gas generation and purification, and process-filtration equipment used in industrial production."
       ],
-      "productCategories": ["Фильтрационное оборудование", "Оборудование подготовки сжатого воздуха", "Газогенерирующее оборудование"],
-      "productFamilies": ["Compressed Air Filters", "Compressed Air Dryers", "Gas Generation", "Gas Purification", "Process Filtration"],
-      "series": ["OIL-X Evolution"],
-      "industries": ["Пищевая промышленность", "Производство напитков", "Промышленное производство"],
-      "officialCatalogs": ["https://test.parker.com/content/dam/Parker-com/Literature/domnick-hunter-Industrial-Division/Literature---Documents/174004402_EN_OIL-X_EVOLUTION_PRODUCT_RANGE_BROCHURE.PDF"],
-      "documentationSources": ["https://www.parker.com/content/dam/Parker-com/Literature/Bioscience-Division/FoodBev/US-Lit/FoodBev-LineCard_dhP-NA-2013-Rev-C_GL_FB_LC.pdf"],
+      "productCategories": [
+        "Фильтрационное оборудование",
+        "Оборудование подготовки сжатого воздуха",
+        "Газогенерирующее оборудование"
+      ],
+      "productFamilies": [
+        "Compressed Air Filters",
+        "Compressed Air Dryers",
+        "Gas Generation",
+        "Gas Purification",
+        "Process Filtration"
+      ],
+      "series": [
+        "OIL-X Evolution"
+      ],
+      "industries": [
+        "Пищевая промышленность",
+        "Производство напитков",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://test.parker.com/content/dam/Parker-com/Literature/domnick-hunter-Industrial-Division/Literature---Documents/174004402_EN_OIL-X_EVOLUTION_PRODUCT_RANGE_BROCHURE.PDF"
+      ],
+      "documentationSources": [
+        "https://www.parker.com/content/dam/Parker-com/Literature/Bioscience-Division/FoodBev/US-Lit/FoodBev-LineCard_dhP-NA-2013-Rev-C_GL_FB_LC.pdf"
+      ],
       "sources": [
-        {"sourceId":"wave77-domnick-parent","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"CURRENT_PARKER_DOMNICK_HUNTER_IDENTITY_AND_FILTRATION_PURIFICATION_SCOPE","url":"https://www.parker.com/content/dam/Parker-com/Literature/Bioscience-Division/FoodBev/US-Lit/FoodBev-LineCard_dhP-NA-2013-Rev-C_GL_FB_LC.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-domnick-products","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"OIL_X_COMPRESSED_AIR_FILTRATION_PRODUCT_RANGE","url":"https://test.parker.com/content/dam/Parker-com/Literature/domnick-hunter-Industrial-Division/Literature---Documents/174004402_EN_OIL-X_EVOLUTION_PRODUCT_RANGE_BROCHURE.PDF","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-domnick-parent",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "CURRENT_PARKER_DOMNICK_HUNTER_IDENTITY_AND_FILTRATION_PURIFICATION_SCOPE",
+          "url": "https://www.parker.com/content/dam/Parker-com/Literature/Bioscience-Division/FoodBev/US-Lit/FoodBev-LineCard_dhP-NA-2013-Rev-C_GL_FB_LC.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-domnick-products",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "OIL_X_COMPRESSED_AIR_FILTRATION_PRODUCT_RANGE",
+          "url": "https://test.parker.com/content/dam/Parker-com/Literature/domnick-hunter-Industrial-Division/Literature---Documents/174004402_EN_OIL-X_EVOLUTION_PRODUCT_RANGE_BROCHURE.PDF",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "donati-sollevamenti",
       "officialName": "Donati Sollevamenti S.r.l.",
       "displayName": "Donati Sollevamenti",
-      "aliases": ["DONATI", "Donati Cranes"],
+      "aliases": [
+        "DONATI",
+        "Donati Cranes"
+      ],
       "formerNames": [],
       "officialWebsite": "https://donaticranes.com/",
-      "officialDomains": ["donaticranes.com"],
+      "officialDomains": [
+        "donaticranes.com"
+      ],
       "country": "Italy",
-      "headquarters": null,
+      "headquarters": "Agrate Brianza, Italy",
       "foundedYear": 1930,
       "parentCompany": "Konecranes",
       "statusModifier": "GROUP_BRAND",
@@ -858,25 +1931,70 @@
         "Donati Sollevamenti is verified through its official website as an Italian lifting-equipment manufacturer founded in 1930 and part of the Konecranes group since 2017.",
         "Its official range covers electric chain hoists, wire-rope hoists, jib cranes and modular lifting components for workshops and industrial material handling."
       ],
-      "productCategories": ["Подъёмно-транспортное оборудование", "Промышленные краны"],
-      "productFamilies": ["Electric Chain Hoists", "Wire Rope Hoists", "Jib Cranes", "Modular Lifting Systems"],
+      "productCategories": [
+        "Подъёмно-транспортное оборудование",
+        "Промышленные краны"
+      ],
+      "productFamilies": [
+        "Electric Chain Hoists",
+        "Wire Rope Hoists",
+        "Jib Cranes",
+        "Modular Lifting Systems"
+      ],
       "series": [],
-      "industries": ["Промышленное производство", "Складская логистика"],
-      "officialCatalogs": ["https://donaticranes.com/it/documentazione"],
-      "documentationSources": ["https://donaticranes.com/it/documentazione"],
+      "industries": [
+        "Промышленное производство",
+        "Складская логистика"
+      ],
+      "officialCatalogs": [
+        "https://donaticranes.com/it/documentazione"
+      ],
+      "documentationSources": [
+        "https://donaticranes.com/it/documentazione"
+      ],
       "sources": [
-        {"sourceId":"wave77-donati-company","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_KONECRANES_RELATIONSHIP_AND_LIFTING_SCOPE","url":"https://donaticranes.com/it/azienda","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-donati-docs","tier":"A","type":"DOCUMENTATION","scope":"HOIST_CRANE_AND_MODULAR_LIFTING_DOCUMENTATION","url":"https://donaticranes.com/it/documentazione","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-donati-company",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_KONECRANES_RELATIONSHIP_AND_LIFTING_SCOPE",
+          "url": "https://donaticranes.com/it/azienda",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-donati-docs",
+          "tier": "A",
+          "type": "DOCUMENTATION",
+          "scope": "HOIST_CRANE_AND_MODULAR_LIFTING_DOCUMENTATION",
+          "url": "https://donaticranes.com/it/documentazione",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "brand-donati-sollevamenti-registered-office",
+          "tier": "A",
+          "type": "LEGAL_NOTICE_AND_CONTACT",
+          "scope": "REGISTERED_OFFICE_LOCATION",
+          "url": "https://donaticranes.com/en/company",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-31"
+        }
       ]
     },
     {
       "manufacturerId": "doorhan",
       "officialName": "DoorHan",
       "displayName": "DoorHan",
-      "aliases": ["DOORHAN", "DoorHan Group"],
+      "aliases": [
+        "DOORHAN",
+        "DoorHan Group"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.doorhan.com/",
-      "officialDomains": ["doorhan.com"],
+      "officialDomains": [
+        "doorhan.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -886,25 +2004,61 @@
         "DoorHan is verified through its official corporate website as a group of manufacturing companies producing access, loading and building systems.",
         "Its documented product scope includes industrial and residential doors, gates, automation equipment, loading-bay systems and prefabricated building components."
       ],
-      "productCategories": ["Промышленная автоматизация", "Промышленные ворота и двери", "Погрузочное оборудование"],
-      "productFamilies": ["Doors", "Gates", "Automation", "Loading Bay Equipment", "Prefabricated Buildings"],
+      "productCategories": [
+        "Промышленная автоматизация",
+        "Промышленные ворота и двери",
+        "Погрузочное оборудование"
+      ],
+      "productFamilies": [
+        "Doors",
+        "Gates",
+        "Automation",
+        "Loading Bay Equipment",
+        "Prefabricated Buildings"
+      ],
       "series": [],
-      "industries": ["Промышленное строительство", "Складская логистика"],
+      "industries": [
+        "Промышленное строительство",
+        "Складская логистика"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.doorhan.com/catalog/"],
+      "documentationSources": [
+        "https://www.doorhan.com/catalog/"
+      ],
       "sources": [
-        {"sourceId":"wave77-doorhan-about","tier":"A","type":"ABOUT","scope":"GROUP_IDENTITY_AND_DOOR_GATE_LOADING_BUILDING_SCOPE","url":"https://www.doorhan.com/about/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-doorhan-catalog","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DOOR_GATE_AUTOMATION_LOADING_AND_BUILDING_PRODUCT_GROUPS","url":"https://www.doorhan.com/catalog/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-doorhan-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "GROUP_IDENTITY_AND_DOOR_GATE_LOADING_BUILDING_SCOPE",
+          "url": "https://www.doorhan.com/about/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-doorhan-catalog",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "DOOR_GATE_AUTOMATION_LOADING_AND_BUILDING_PRODUCT_GROUPS",
+          "url": "https://www.doorhan.com/catalog/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "doosan",
       "officialName": "Doosan Corporation",
       "displayName": "Doosan",
-      "aliases": ["DOOSAN", "Doosan Group"],
+      "aliases": [
+        "DOOSAN",
+        "Doosan Group"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.doosan.com/en",
-      "officialDomains": ["doosan.com"],
+      "officialDomains": [
+        "doosan.com"
+      ],
       "country": "South Korea",
       "headquarters": null,
       "foundedYear": null,
@@ -914,25 +2068,60 @@
         "Doosan is verified through its official corporate website as a South Korean industrial group operating through multiple affiliated companies.",
         "The group's documented business scope includes energy and power systems, robotics, mobility technologies and industrial machinery. Individual Doosan product brands remain distinct where the group presents them as separate commercial identities."
       ],
-      "productCategories": ["Энергетическое оборудование", "Промышленная автоматизация и робототехника", "Промышленные машины"],
-      "productFamilies": ["Energy Systems", "Robotics", "Mobility Technology", "Industrial Machinery"],
+      "productCategories": [
+        "Энергетическое оборудование",
+        "Промышленная автоматизация и робототехника",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Energy Systems",
+        "Robotics",
+        "Mobility Technology",
+        "Industrial Machinery"
+      ],
       "series": [],
-      "industries": ["Энергетика", "Промышленное производство", "Инфраструктура"],
+      "industries": [
+        "Энергетика",
+        "Промышленное производство",
+        "Инфраструктура"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.doosan.com/en/intro/affiliates/"],
+      "documentationSources": [
+        "https://www.doosan.com/en/intro/affiliates/"
+      ],
       "sources": [
-        {"sourceId":"wave77-doosan-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"CURRENT_CORPORATE_IDENTITY_AND_INDUSTRIAL_GROUP_SCOPE","url":"https://www.doosan.com/en","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-doosan-affiliates","tier":"A","type":"CORPORATE_DIRECTORY","scope":"OFFICIAL_AFFILIATE_AND_BUSINESS_AREA_EVIDENCE","url":"https://www.doosan.com/en/intro/affiliates/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-doosan-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "CURRENT_CORPORATE_IDENTITY_AND_INDUSTRIAL_GROUP_SCOPE",
+          "url": "https://www.doosan.com/en",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-doosan-affiliates",
+          "tier": "A",
+          "type": "CORPORATE_DIRECTORY",
+          "scope": "OFFICIAL_AFFILIATE_AND_BUSINESS_AREA_EVIDENCE",
+          "url": "https://www.doosan.com/en/intro/affiliates/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dosatron",
       "officialName": "Dosatron International S.A.S.",
       "displayName": "Dosatron",
-      "aliases": ["DOSATRON"],
+      "aliases": [
+        "DOSATRON"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dosatron.com/",
-      "officialDomains": ["dosatron.com"],
+      "officialDomains": [
+        "dosatron.com"
+      ],
       "country": "France",
       "headquarters": "Tresses, France",
       "foundedYear": 1974,
@@ -942,25 +2131,59 @@
         "Dosatron is verified through its manufacturer-owned website as a French producer of proportional dosing pumps founded in 1974 and based in Tresses.",
         "Its official product range uses water flow as the driving force to meter and mix liquid concentrates for water treatment, agriculture, animal health, food processing and industrial applications."
       ],
-      "productCategories": ["Дозирующие насосы", "Водоподготовительное оборудование"],
-      "productFamilies": ["Water-Powered Dosing Pumps", "Proportional Dosers", "Dosing Accessories"],
+      "productCategories": [
+        "Дозирующие насосы",
+        "Водоподготовительное оборудование"
+      ],
+      "productFamilies": [
+        "Water-Powered Dosing Pumps",
+        "Proportional Dosers",
+        "Dosing Accessories"
+      ],
       "series": [],
-      "industries": ["Сельское хозяйство", "Животноводство", "Пищевая промышленность", "Водоподготовка"],
+      "industries": [
+        "Сельское хозяйство",
+        "Животноводство",
+        "Пищевая промышленность",
+        "Водоподготовка"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dosatron.com/en-us/products/"],
+      "documentationSources": [
+        "https://www.dosatron.com/en-us/products/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dosatron-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_WATER_POWERED_DOSING_SCOPE","url":"https://www.dosatron.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dosatron-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PROPORTIONAL_DOSING_PUMP_PRODUCT_GROUPS","url":"https://www.dosatron.com/en-us/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dosatron-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_WATER_POWERED_DOSING_SCOPE",
+          "url": "https://www.dosatron.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dosatron-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PROPORTIONAL_DOSING_PUMP_PRODUCT_GROUPS",
+          "url": "https://www.dosatron.com/en-us/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "doseuro",
       "officialName": "Doseuro S.r.l.",
       "displayName": "Doseuro",
-      "aliases": ["DOSEURO"],
+      "aliases": [
+        "DOSEURO"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.doseuro.com/",
-      "officialDomains": ["doseuro.com"],
+      "officialDomains": [
+        "doseuro.com"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
@@ -970,25 +2193,62 @@
         "Doseuro is verified through its manufacturer-owned website and official product literature as an Italian manufacturer of chemical dosing equipment.",
         "Its documented portfolio includes plunger and diaphragm metering pumps, dosing packages and accessories used to control chemical injection in water-treatment and industrial processes."
       ],
-      "productCategories": ["Дозирующие насосы", "Водоподготовительное оборудование"],
-      "productFamilies": ["Plunger Metering Pumps", "Diaphragm Metering Pumps", "Dosing Systems", "Dosing Accessories"],
+      "productCategories": [
+        "Дозирующие насосы",
+        "Водоподготовительное оборудование"
+      ],
+      "productFamilies": [
+        "Plunger Metering Pumps",
+        "Diaphragm Metering Pumps",
+        "Dosing Systems",
+        "Dosing Accessories"
+      ],
       "series": [],
-      "industries": ["Водоподготовка", "Химическая промышленность", "Промышленное производство"],
-      "officialCatalogs": ["https://www.doseuro.com/download/2_en.pdf", "https://www.doseuro.com/download/6_en.pdf"],
-      "documentationSources": ["https://www.doseuro.com/"],
+      "industries": [
+        "Водоподготовка",
+        "Химическая промышленность",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.doseuro.com/download/2_en.pdf",
+        "https://www.doseuro.com/download/6_en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.doseuro.com/"
+      ],
       "sources": [
-        {"sourceId":"wave77-doseuro-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_METERING_PUMP_SCOPE","url":"https://www.doseuro.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-doseuro-docs","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"PLUNGER_DIAPHRAGM_DOSING_SYSTEM_AND_ACCESSORY_GROUPS","url":"https://www.doseuro.com/download/2_en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-doseuro-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_AND_METERING_PUMP_SCOPE",
+          "url": "https://www.doseuro.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-doseuro-docs",
+          "tier": "A",
+          "type": "OFFICIAL_DOCUMENT",
+          "scope": "PLUNGER_DIAPHRAGM_DOSING_SYSTEM_AND_ACCESSORY_GROUPS",
+          "url": "https://www.doseuro.com/download/2_en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dospel",
       "officialName": "DOSPEL Sp. z o.o.",
       "displayName": "DOSPEL",
-      "aliases": ["Dospel"],
+      "aliases": [
+        "Dospel"
+      ],
       "formerNames": [],
       "officialWebsite": "https://dospel.com/en/",
-      "officialDomains": ["dospel.com"],
+      "officialDomains": [
+        "dospel.com"
+      ],
       "country": "Poland",
       "headquarters": "Częstochowa, Poland",
       "foundedYear": 1974,
@@ -998,25 +2258,61 @@
         "DOSPEL is verified through its manufacturer-owned website as a Polish ventilation-equipment producer founded in 1974 and based in Częstochowa.",
         "Its official portfolio includes industrial and domestic fans, heat-recovery units, ventilation-system components and filters for air-handling applications."
       ],
-      "productCategories": ["Промышленные вентиляторы", "Вентиляционное и климатическое оборудование", "Фильтрационное оборудование"],
-      "productFamilies": ["Industrial Fans", "Domestic Fans", "Heat Recovery Units", "Ventilation Components", "Air Filters"],
+      "productCategories": [
+        "Промышленные вентиляторы",
+        "Вентиляционное и климатическое оборудование",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Industrial Fans",
+        "Domestic Fans",
+        "Heat Recovery Units",
+        "Ventilation Components",
+        "Air Filters"
+      ],
       "series": [],
-      "industries": ["Промышленная вентиляция", "Коммерческие здания", "Жилые здания"],
+      "industries": [
+        "Промышленная вентиляция",
+        "Коммерческие здания",
+        "Жилые здания"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://b2b.dospel.com/en/p"],
+      "documentationSources": [
+        "https://b2b.dospel.com/en/p"
+      ],
       "sources": [
-        {"sourceId":"wave77-dospel-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_VENTILATION_SCOPE","url":"https://dospel.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dospel-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"FAN_HEAT_RECOVERY_COMPONENT_AND_FILTER_GROUPS","url":"https://b2b.dospel.com/en/p","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dospel-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_VENTILATION_SCOPE",
+          "url": "https://dospel.com/en/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dospel-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "FAN_HEAT_RECOVERY_COMPONENT_AND_FILTER_GROUPS",
+          "url": "https://b2b.dospel.com/en/p",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dossena",
       "officialName": "Dossena S.r.l.",
       "displayName": "Dossena",
-      "aliases": ["DOSSENA"],
+      "aliases": [
+        "DOSSENA"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dossena.it/",
-      "officialDomains": ["dossena.it"],
+      "officialDomains": [
+        "dossena.it"
+      ],
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
@@ -1026,25 +2322,65 @@
         "Dossena is verified through its manufacturer-owned website and official catalogue as an Italian producer of electrical protection and control equipment.",
         "Its documented range includes protection relays, control relays, measuring instruments and devices for monitoring electrical networks and industrial installations."
       ],
-      "productCategories": ["Электрозащитное оборудование", "Промышленные контроллеры", "Измерительное оборудование"],
-      "productFamilies": ["Protection Relays", "Control Relays", "Measuring Instruments", "Electrical Network Monitoring"],
+      "productCategories": [
+        "Электрозащитное оборудование",
+        "Промышленные контроллеры",
+        "Измерительное оборудование"
+      ],
+      "productFamilies": [
+        "Protection Relays",
+        "Control Relays",
+        "Measuring Instruments",
+        "Electrical Network Monitoring"
+      ],
       "series": [],
-      "industries": ["Энергетика", "Промышленная автоматизация"],
-      "officialCatalogs": ["https://www.dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf"],
-      "documentationSources": ["https://www.dossena.it/"],
+      "industries": [
+        "Энергетика",
+        "Промышленная автоматизация"
+      ],
+      "officialCatalogs": [
+        "https://www.dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf"
+      ],
+      "documentationSources": [
+        "https://www.dossena.it/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dossena-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_ELECTRICAL_PROTECTION_CONTROL_MEASUREMENT_SCOPE","url":"https://www.dossena.it/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dossena-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"PROTECTION_RELAY_CONTROL_RELAY_AND_MEASUREMENT_PRODUCT_GROUPS","url":"https://www.dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dossena-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_AND_ELECTRICAL_PROTECTION_CONTROL_MEASUREMENT_SCOPE",
+          "url": "https://www.dossena.it/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dossena-catalog",
+          "tier": "A",
+          "type": "OFFICIAL_CATALOG",
+          "scope": "PROTECTION_RELAY_CONTROL_RELAY_AND_MEASUREMENT_PRODUCT_GROUPS",
+          "url": "https://www.dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dow-corning",
       "officialName": "DOWSIL™",
       "displayName": "Dow Corning",
-      "aliases": ["DOW CORNING", "Dow Corning Corporation", "DOWSIL"],
-      "formerNames": ["Dow Corning"],
+      "aliases": [
+        "DOW CORNING",
+        "Dow Corning Corporation",
+        "DOWSIL"
+      ],
+      "formerNames": [
+        "Dow Corning"
+      ],
       "officialWebsite": "https://www.dow.com/en-us/brand/dowsil.html",
-      "officialDomains": ["dow.com"],
+      "officialDomains": [
+        "dow.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -1055,25 +2391,68 @@
         "Dow Corning is retained as a legacy manufacturer identity and is verified through Dow's official transition material as the predecessor branding for the current DOWSIL product portfolio.",
         "Dow's official silicone technology resources cover sealants and adhesives, silicone fluids, elastomers, resins, silanes and related materials for industrial manufacturing and construction applications."
       ],
-      "productCategories": ["Промышленные герметики и клеи", "Силиконовые материалы", "Покрытия"],
-      "productFamilies": ["Silicone Sealants", "Silicone Adhesives", "Silicone Fluids", "Silicone Elastomers", "Resins and Silanes"],
-      "series": ["DOWSIL"],
-      "industries": ["Промышленное производство", "Строительство", "Электроника"],
+      "productCategories": [
+        "Промышленные герметики и клеи",
+        "Силиконовые материалы",
+        "Покрытия"
+      ],
+      "productFamilies": [
+        "Silicone Sealants",
+        "Silicone Adhesives",
+        "Silicone Fluids",
+        "Silicone Elastomers",
+        "Resins and Silanes"
+      ],
+      "series": [
+        "DOWSIL"
+      ],
+      "industries": [
+        "Промышленное производство",
+        "Строительство",
+        "Электроника"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.dow.com/documents/11/11-3921-01-advanced-silicone-adhesives-and-sealants.pdf?bypass=true"],
+      "documentationSources": [
+        "https://www.dow.com/documents/11/11-3921-01-advanced-silicone-adhesives-and-sealants.pdf?bypass=true"
+      ],
       "sources": [
-        {"sourceId":"wave77-dowcorning-transition","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"DOW_CORNING_TO_DOWSIL_BRAND_TRANSITION","url":"https://in.dow.com/en-us/news/new-brand-name-same-excellence-in-quality-and-service.html","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dowsil-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"SILICONE_ADHESIVE_SEALANT_FLUID_ELASTOMER_RESIN_AND_SILANE_SCOPE","url":"https://www.dow.com/en-us/product-technology/pt-silicone-hybrids-silanes.html","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dowcorning-transition",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "DOW_CORNING_TO_DOWSIL_BRAND_TRANSITION",
+          "url": "https://in.dow.com/en-us/news/new-brand-name-same-excellence-in-quality-and-service.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dowsil-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "SILICONE_ADHESIVE_SEALANT_FLUID_ELASTOMER_RESIN_AND_SILANE_SCOPE",
+          "url": "https://www.dow.com/en-us/product-technology/pt-silicone-hybrids-silanes.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dow-filmtec",
       "officialName": "DuPont™ FilmTec™",
       "displayName": "FilmTec",
-      "aliases": ["DOW FILMTEC", "Dow FilmTec", "FILMTEC", "DuPont FilmTec"],
-      "formerNames": ["Dow FilmTec"],
+      "aliases": [
+        "DOW FILMTEC",
+        "Dow FilmTec",
+        "FILMTEC",
+        "DuPont FilmTec"
+      ],
+      "formerNames": [
+        "Dow FilmTec"
+      ],
       "officialWebsite": "https://www.dupont.com/brands/filmtec.html",
-      "officialDomains": ["dupont.com"],
+      "officialDomains": [
+        "dupont.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -1084,25 +2463,63 @@
         "Dow FilmTec is retained as a former-name search identity and is verified through DuPont's official site as the current FilmTec membrane brand.",
         "The documented portfolio includes reverse-osmosis and nanofiltration membrane elements used for brackish water, seawater desalination, industrial process water and other separation duties."
       ],
-      "productCategories": ["Мембраны и водоподготовительное оборудование", "Фильтрационное оборудование"],
-      "productFamilies": ["Reverse Osmosis Elements", "Nanofiltration Elements", "Brackish Water Membranes", "Seawater Membranes"],
-      "series": ["FilmTec"],
-      "industries": ["Водоподготовка", "Опреснение", "Промышленное производство"],
-      "officialCatalogs": ["https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/RO-NF-FilmTec-Manual-45-D01504-en.pdf"],
-      "documentationSources": ["https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/RO-NF-FilmTec-Manual-45-D01504-en.pdf"],
+      "productCategories": [
+        "Мембраны и водоподготовительное оборудование",
+        "Фильтрационное оборудование"
+      ],
+      "productFamilies": [
+        "Reverse Osmosis Elements",
+        "Nanofiltration Elements",
+        "Brackish Water Membranes",
+        "Seawater Membranes"
+      ],
+      "series": [
+        "FilmTec"
+      ],
+      "industries": [
+        "Водоподготовка",
+        "Опреснение",
+        "Промышленное производство"
+      ],
+      "officialCatalogs": [
+        "https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/RO-NF-FilmTec-Manual-45-D01504-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/RO-NF-FilmTec-Manual-45-D01504-en.pdf"
+      ],
       "sources": [
-        {"sourceId":"wave77-filmtec-brand","tier":"A","type":"OFFICIAL_PARENT_BRAND_PAGE","scope":"CURRENT_DUPONT_FILMTEC_IDENTITY_AND_MEMBRANE_SCOPE","url":"https://www.dupont.com/brands/filmtec.html","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-filmtec-manual","tier":"A","type":"OFFICIAL_PARENT_DOCUMENT","scope":"REVERSE_OSMOSIS_AND_NANOFILTRATION_PRODUCT_FAMILIES","url":"https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/RO-NF-FilmTec-Manual-45-D01504-en.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-filmtec-brand",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_BRAND_PAGE",
+          "scope": "CURRENT_DUPONT_FILMTEC_IDENTITY_AND_MEMBRANE_SCOPE",
+          "url": "https://www.dupont.com/brands/filmtec.html",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-filmtec-manual",
+          "tier": "A",
+          "type": "OFFICIAL_PARENT_DOCUMENT",
+          "scope": "REVERSE_OSMOSIS_AND_NANOFILTRATION_PRODUCT_FAMILIES",
+          "url": "https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/RO-NF-FilmTec-Manual-45-D01504-en.pdf",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dragflow",
       "officialName": "Dragflow S.r.l.",
       "displayName": "Dragflow",
-      "aliases": ["DRAGFLOW"],
+      "aliases": [
+        "DRAGFLOW"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.dragflowpumps.com/",
-      "officialDomains": ["dragflowpumps.com"],
+      "officialDomains": [
+        "dragflowpumps.com"
+      ],
       "country": "Italy",
       "headquarters": "Roverbella, Italy",
       "foundedYear": null,
@@ -1112,25 +2529,63 @@
         "Dragflow is verified through its manufacturer-owned website as an Italian producer of dredging equipment based in Roverbella.",
         "Its official portfolio includes hydraulic and electric submersible slurry pumps, dredges, excavator-mounted systems and weed harvesters for sediment-removal and abrasive-material applications."
       ],
-      "productCategories": ["Шламовые и дноуглубительные насосы", "Промышленные машины"],
-      "productFamilies": ["Hydraulic Dredging Pumps", "Electric Dredging Pumps", "Dredges", "Excavator Systems", "Weed Harvesters"],
+      "productCategories": [
+        "Шламовые и дноуглубительные насосы",
+        "Промышленные машины"
+      ],
+      "productFamilies": [
+        "Hydraulic Dredging Pumps",
+        "Electric Dredging Pumps",
+        "Dredges",
+        "Excavator Systems",
+        "Weed Harvesters"
+      ],
       "series": [],
-      "industries": ["Дноуглубительные работы", "Горнодобывающая промышленность", "Строительство"],
-      "officialCatalogs": ["https://www.dragflowpumps.com/docs/categories/2/dragflow-dredging-pumps-product-catalogue-2025-en.pdf"],
-      "documentationSources": ["https://www.dragflowpumps.com/dredges/"],
+      "industries": [
+        "Дноуглубительные работы",
+        "Горнодобывающая промышленность",
+        "Строительство"
+      ],
+      "officialCatalogs": [
+        "https://www.dragflowpumps.com/docs/categories/2/dragflow-dredging-pumps-product-catalogue-2025-en.pdf"
+      ],
+      "documentationSources": [
+        "https://www.dragflowpumps.com/dredges/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dragflow-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_DREDGING_EQUIPMENT_SCOPE","url":"https://www.dragflowpumps.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dragflow-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_ELECTRIC_DREDGING_PUMP_AND_DREDGE_GROUPS","url":"https://www.dragflowpumps.com/dredging-pumps/hydraulic/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dragflow-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_AND_DREDGING_EQUIPMENT_SCOPE",
+          "url": "https://www.dragflowpumps.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dragflow-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HYDRAULIC_ELECTRIC_DREDGING_PUMP_AND_DREDGE_GROUPS",
+          "url": "https://www.dragflowpumps.com/dredging-pumps/hydraulic/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "ducom",
       "officialName": "Ducom Instruments",
       "displayName": "Ducom",
-      "aliases": ["DUCOM", "Ducom Instruments"],
+      "aliases": [
+        "DUCOM",
+        "Ducom Instruments"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.ducom.com/",
-      "officialDomains": ["ducom.com"],
+      "officialDomains": [
+        "ducom.com"
+      ],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -1140,25 +2595,64 @@
         "Ducom is verified through its manufacturer-owned website as a developer of instruments for tribology, mechanical testing and materials characterisation.",
         "Its official product explorer includes tribometers, mechanical and petroleum testers, microscopy and profilometry systems, and MOOHA software for laboratory workflows."
       ],
-      "productCategories": ["Лабораторное и испытательное оборудование", "Измерительное оборудование", "Программное обеспечение"],
-      "productFamilies": ["Tribometers", "Mechanical Testers", "Petroleum Testers", "Microscopy", "Profilometry", "MOOHA Software"],
+      "productCategories": [
+        "Лабораторное и испытательное оборудование",
+        "Измерительное оборудование",
+        "Программное обеспечение"
+      ],
+      "productFamilies": [
+        "Tribometers",
+        "Mechanical Testers",
+        "Petroleum Testers",
+        "Microscopy",
+        "Profilometry",
+        "MOOHA Software"
+      ],
       "series": [],
-      "industries": ["Материаловедение", "Лабораторные исследования", "Нефтехимия"],
+      "industries": [
+        "Материаловедение",
+        "Лабораторные исследования",
+        "Нефтехимия"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.ducom.com/products-explorer"],
+      "documentationSources": [
+        "https://www.ducom.com/products-explorer"
+      ],
       "sources": [
-        {"sourceId":"wave77-ducom-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_TRIBOLOGY_MATERIALS_TESTING_SCOPE","url":"https://www.ducom.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-ducom-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TRIBOMETER_TESTER_MICROSCOPY_PROFILOMETRY_AND_SOFTWARE_GROUPS","url":"https://www.ducom.com/products-explorer","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-ducom-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_AND_TRIBOLOGY_MATERIALS_TESTING_SCOPE",
+          "url": "https://www.ducom.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-ducom-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "TRIBOMETER_TESTER_MICROSCOPY_PROFILOMETRY_AND_SOFTWARE_GROUPS",
+          "url": "https://www.ducom.com/products-explorer",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "duesterloh",
       "officialName": "Düsterloh Fluidtechnik GmbH",
       "displayName": "Düsterloh",
-      "aliases": ["DUESTERLOH", "Duesterloh", "Düsterloh Fluidtechnik"],
+      "aliases": [
+        "DUESTERLOH",
+        "Duesterloh",
+        "Düsterloh Fluidtechnik"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.duesterloh.de/en/home",
-      "officialDomains": ["duesterloh.de"],
+      "officialDomains": [
+        "duesterloh.de"
+      ],
       "country": "Germany",
       "headquarters": "Hattingen, Germany",
       "foundedYear": null,
@@ -1168,25 +2662,61 @@
         "Düsterloh is verified through its manufacturer-owned website as a German fluid-power and drive-technology company based in Hattingen.",
         "Its documented range includes hydraulic motors, pneumatic motors and starters, hydraulic power units and gearbox solutions for demanding industrial machinery."
       ],
-      "productCategories": ["Гидравлическое оборудование", "Пневматические двигатели", "Промышленные редукторы"],
-      "productFamilies": ["Hydraulic Motors", "Pneumatic Motors", "Pneumatic Starters", "Hydraulic Power Units", "Gearboxes"],
+      "productCategories": [
+        "Гидравлическое оборудование",
+        "Пневматические двигатели",
+        "Промышленные редукторы"
+      ],
+      "productFamilies": [
+        "Hydraulic Motors",
+        "Pneumatic Motors",
+        "Pneumatic Starters",
+        "Hydraulic Power Units",
+        "Gearboxes"
+      ],
       "series": [],
-      "industries": ["Промышленное машиностроение", "Горнодобывающая промышленность", "Судостроение"],
+      "industries": [
+        "Промышленное машиностроение",
+        "Горнодобывающая промышленность",
+        "Судостроение"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.duesterloh.de/en/products"],
+      "documentationSources": [
+        "https://www.duesterloh.de/en/products"
+      ],
       "sources": [
-        {"sourceId":"wave77-duesterloh-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_LOCATION_HISTORY_AND_FLUID_POWER_SCOPE","url":"https://www.duesterloh.de/en/home","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-duesterloh-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HYDRAULIC_PNEUMATIC_POWER_UNIT_AND_GEARBOX_GROUPS","url":"https://www.duesterloh.de/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-duesterloh-home",
+          "tier": "A",
+          "type": "OFFICIAL_WEBSITE",
+          "scope": "MANUFACTURER_IDENTITY_LOCATION_HISTORY_AND_FLUID_POWER_SCOPE",
+          "url": "https://www.duesterloh.de/en/home",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-duesterloh-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "HYDRAULIC_PNEUMATIC_POWER_UNIT_AND_GEARBOX_GROUPS",
+          "url": "https://www.duesterloh.de/en/products",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "durbal",
       "officialName": "DURBAL Metallwarenfabrik GmbH",
       "displayName": "DURBAL",
-      "aliases": ["Durbal"],
+      "aliases": [
+        "Durbal"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.durbal.de/en/",
-      "officialDomains": ["durbal.de"],
+      "officialDomains": [
+        "durbal.de"
+      ],
       "country": "Germany",
       "headquarters": "Öhringen, Germany",
       "foundedYear": 1979,
@@ -1197,24 +2727,51 @@
         "DURBAL is verified through its official website as a German bearing and linkage-component manufacturer founded in 1979 and now part of The Timken Company.",
         "Its documented portfolio includes rod ends, spherical plain bearings, clevises, angular joints and related linkage products for machine and motion-control applications."
       ],
-      "productCategories": ["Подшипники и шарнирные соединения", "Компоненты приводных систем"],
-      "productFamilies": ["Rod Ends", "Spherical Plain Bearings", "Clevises", "Angular Joints", "Linkage Components"],
+      "productCategories": [
+        "Подшипники и шарнирные соединения",
+        "Компоненты приводных систем"
+      ],
+      "productFamilies": [
+        "Rod Ends",
+        "Spherical Plain Bearings",
+        "Clevises",
+        "Angular Joints",
+        "Linkage Components"
+      ],
       "series": [],
-      "industries": ["Промышленное машиностроение", "Автоматизация"],
+      "industries": [
+        "Промышленное машиностроение",
+        "Автоматизация"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.durbal.de/en/products/"],
+      "documentationSources": [
+        "https://www.durbal.de/en/products/"
+      ],
       "sources": [
-        {"sourceId":"wave77-durbal-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CURRENT_MANUFACTURER_IDENTITY_TIMKEN_RELATIONSHIP_AND_BEARING_LINKAGE_PRODUCT_GROUPS","url":"https://www.durbal.de/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-durbal-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "CURRENT_MANUFACTURER_IDENTITY_TIMKEN_RELATIONSHIP_AND_BEARING_LINKAGE_PRODUCT_GROUPS",
+          "url": "https://www.durbal.de/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "durma",
       "officialName": "Durmazlar Makina Sanayi ve Ticaret A.Ş.",
       "displayName": "DURMA",
-      "aliases": ["Durma", "DURMAZLAR"],
+      "aliases": [
+        "Durma",
+        "DURMAZLAR"
+      ],
       "formerNames": [],
       "officialWebsite": "https://www.durmazlar.com.tr/en/",
-      "officialDomains": ["durmazlar.com.tr"],
+      "officialDomains": [
+        "durmazlar.com.tr"
+      ],
       "country": "Turkey",
       "headquarters": "Bursa, Turkey",
       "foundedYear": 1956,
@@ -1225,25 +2782,61 @@
         "DURMA is verified through Durmazlar Makina's official website as its sheet-metal machinery brand. The company was founded in 1956 in Bursa, and the DURMA brand was registered in 1999.",
         "Its official portfolio includes press brakes, laser and plasma cutting systems, guillotine shears, plate-rolling machines, punching machines and automated loading solutions."
       ],
-      "productCategories": ["Металлообрабатывающие станки", "Промышленная автоматизация"],
-      "productFamilies": ["Press Brakes", "Laser Cutting Machines", "Plasma Cutting Machines", "Guillotine Shears", "Plate Rolls", "Punching Machines", "Loading Systems"],
+      "productCategories": [
+        "Металлообрабатывающие станки",
+        "Промышленная автоматизация"
+      ],
+      "productFamilies": [
+        "Press Brakes",
+        "Laser Cutting Machines",
+        "Plasma Cutting Machines",
+        "Guillotine Shears",
+        "Plate Rolls",
+        "Punching Machines",
+        "Loading Systems"
+      ],
       "series": [],
-      "industries": ["Металлообработка", "Промышленное производство"],
+      "industries": [
+        "Металлообработка",
+        "Промышленное производство"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.durmazlar.com.tr/en/products/"],
+      "documentationSources": [
+        "https://www.durmazlar.com.tr/en/products/"
+      ],
       "sources": [
-        {"sourceId":"wave77-durma-about","tier":"A","type":"ABOUT","scope":"CORPORATE_AND_BRAND_IDENTITY_FOUNDATION_LOCATION_AND_HISTORY","url":"https://www.durmazlar.com.tr/en/corporate/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-durma-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"PRESS_BRAKE_CUTTING_SHEAR_ROLL_PUNCH_AND_LOADING_GROUPS","url":"https://www.durmazlar.com.tr/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-durma-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "CORPORATE_AND_BRAND_IDENTITY_FOUNDATION_LOCATION_AND_HISTORY",
+          "url": "https://www.durmazlar.com.tr/en/corporate/about-us/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-durma-products",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "PRESS_BRAKE_CUTTING_SHEAR_ROLL_PUNCH_AND_LOADING_GROUPS",
+          "url": "https://www.durmazlar.com.tr/en/products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     },
     {
       "manufacturerId": "dustcontrol",
       "officialName": "Dustcontrol AB",
       "displayName": "Dustcontrol",
-      "aliases": ["DUSTCONTROL"],
+      "aliases": [
+        "DUSTCONTROL"
+      ],
       "formerNames": [],
       "officialWebsite": "https://dustcontrol.com/",
-      "officialDomains": ["dustcontrol.com"],
+      "officialDomains": [
+        "dustcontrol.com"
+      ],
       "country": "Sweden",
       "headquarters": "Norsborg, Sweden",
       "foundedYear": 1972,
@@ -1253,15 +2846,46 @@
         "Dustcontrol is verified through its manufacturer-owned website as a Swedish dust-extraction company founded in 1972 and based in Norsborg.",
         "Its official range includes mobile dust extractors, industrial vacuum cleaners, air cleaners and engineered central extraction systems for capturing dust at source."
       ],
-      "productCategories": ["Промышленные вакуумные системы", "Фильтрационное оборудование", "Промышленная вентиляция"],
-      "productFamilies": ["Mobile Dust Extractors", "Industrial Vacuum Cleaners", "Air Cleaners", "Central Extraction Systems"],
+      "productCategories": [
+        "Промышленные вакуумные системы",
+        "Фильтрационное оборудование",
+        "Промышленная вентиляция"
+      ],
+      "productFamilies": [
+        "Mobile Dust Extractors",
+        "Industrial Vacuum Cleaners",
+        "Air Cleaners",
+        "Central Extraction Systems"
+      ],
       "series": [],
-      "industries": ["Строительство", "Промышленное производство", "Обработка материалов"],
+      "industries": [
+        "Строительство",
+        "Промышленное производство",
+        "Обработка материалов"
+      ],
       "officialCatalogs": [],
-      "documentationSources": ["https://dustcontrol.com/"],
+      "documentationSources": [
+        "https://dustcontrol.com/"
+      ],
       "sources": [
-        {"sourceId":"wave77-dustcontrol-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_SOURCE_EXTRACTION_SCOPE","url":"https://dustcontrol.com/about-dustcontrol/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dustcontrol-home","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOBILE_EXTRACTOR_VACUUM_AIR_CLEANER_AND_CENTRAL_SYSTEM_GROUPS","url":"https://dustcontrol.com/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {
+          "sourceId": "wave77-dustcontrol-about",
+          "tier": "A",
+          "type": "ABOUT",
+          "scope": "MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_SOURCE_EXTRACTION_SCOPE",
+          "url": "https://dustcontrol.com/about-dustcontrol/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "sourceId": "wave77-dustcontrol-home",
+          "tier": "A",
+          "type": "PRODUCT_DIRECTORY",
+          "scope": "MOBILE_EXTRACTOR_VACUUM_AIR_CLEANER_AND_CENTRAL_SYSTEM_GROUPS",
+          "url": "https://dustcontrol.com/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-08-24"
+        }
       ]
     }
   ]
