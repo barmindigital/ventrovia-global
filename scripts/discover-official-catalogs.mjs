@@ -82,6 +82,17 @@ function candidateLinks(html, baseUrl, domains) {
   return [...found.values()].sort((a, b) => b.score - a.score).slice(0, 6);
 }
 
+// A download area often exists without a homepage link to it, exactly as
+// legal notices do. These are the conventional paths worth requesting before
+// concluding a manufacturer publishes no literature.
+const KNOWN_CATALOG_PATHS = [
+  "/downloads", "/download", "/en/downloads", "/en/download",
+  "/catalogue", "/catalogues", "/catalog", "/catalogs", "/en/catalogue",
+  "/en/catalog", "/katalog", "/kataloge", "/cataloghi", "/catalogo",
+  "/documentation", "/en/documentation", "/dokumentation", "/documentazione",
+  "/brochures", "/media", "/service/downloads", "/support/downloads",
+];
+
 async function fetchHtml(url) {
   const response = await fetch(url, {
     redirect: "follow",
@@ -145,7 +156,23 @@ async function investigate(profile) {
     record.error = error instanceof Error ? error.message : String(error);
     return record;
   }
-  const links = candidateLinks(home.html, home.finalUrl, domains);
+  let links = candidateLinks(home.html, home.finalUrl, domains);
+  if (!links.length) {
+    // Nothing in the served HTML: try the conventional paths directly, and
+    // read whatever answers for literature links of its own.
+    for (const guess of KNOWN_CATALOG_PATHS) {
+      let url;
+      try { url = new URL(guess, home.finalUrl).toString(); } catch { continue; }
+      try {
+        const page = await fetchHtml(url);
+        const inner = candidateLinks(page.html, page.finalUrl, domains);
+        links = inner.length
+          ? inner
+          : [{ url: page.finalUrl, label: `direct ${guess}`, score: 1 }];
+        break;
+      } catch { /* the path does not exist on this site */ }
+    }
+  }
   for (const link of links.slice(0, 4)) {
     const check = await verify(link.url);
     record.candidates.push({
