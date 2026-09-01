@@ -559,7 +559,7 @@
       "officialDomains": ["vahterus.com"],
       "country": "Finland",
       "headquarters": null,
-      "foundedYear": null,
+      "foundedYear":1990,
       "parentCompany": null,
       "shortDescription": "Vahterus develops and manufactures Plate & Shell heat exchangers for industrial thermal processes. Its product range supports heating, cooling, condensation and evaporation duties across process and energy applications.",
       "fullDescription": ["Vahterus' official product information centres on welded Plate & Shell heat-exchanger technology. The documented portfolio covers compact units for refrigeration, chemical and process duties, energy systems, heat pumps and other applications that require heat transfer, condensation or evaporation."],
@@ -572,7 +572,7 @@
       "sources": [
         {"sourceId": "brand-vahterus-official", "tier": "A", "type": "OFFICIAL_SITE", "scope": "MANUFACTURER_IDENTITY_AND_PLATE_SHELL_SCOPE", "url": "https://vahterus.com/", "status": "AVAILABLE", "checkedAt": "2026-08-24"},
         {"sourceId": "brand-vahterus-products", "tier": "A", "type": "PRODUCT_DIRECTORY", "scope": "HEAT_EXCHANGER_PRODUCT_SCOPE", "url": "https://vahterus.com/products/", "status": "AVAILABLE", "checkedAt": "2026-08-24"}
-      ]
+      ,{"sourceId":"brand-vahterus-founding-year","tier":"A","type":"COMPANY_HISTORY_PAGE","scope":"FOUNDING_YEAR","url":"https://vahterus.com/company/","status":"AVAILABLE","checkedAt":"2026-09-01"}]
     },
     {
       "manufacturerId": "vaisala",
