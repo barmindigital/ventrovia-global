@@ -18548,6 +18548,16 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     licenseUrl: "https://www.sensor-instruments.de/",
     attribution: "Sensor Instruments; asset served by the official manufacturer website",
   },
+  {
+    slug: "gorman-rupp",
+    name: "Gorman-Rupp",
+    src: "/images/brand-logos/gorman-rupp.png",
+    sourcePage: "https://www.grpumps.eu/?redirected=1",
+    originalFile: "https://www.grpumps.eu/img/pump_group/GR_logo-europe_mobile.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.grpumps.eu/?redirected=1",
+    attribution: "Gorman-Rupp; asset served by the official manufacturer website",
+  },
 ];
 
 export const brandLogoRegistry: BrandLogo[] = brandLogoRegistryBase.concat(
