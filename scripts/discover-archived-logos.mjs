@@ -32,6 +32,28 @@ function decodeEntities(value = "") {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// The availability API returns only the closest capture, and that one is
+// often the parked page or error that made the site unreachable in the first
+// place. The CDX index lists every capture, so an older, healthy one can be
+// tried when the closest yields nothing.
+async function captureList(url) {
+  const api = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}`
+    + "&output=json&fl=timestamp,statuscode&filter=statuscode:200&collapse=timestamp:6&limit=-12";
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(api, {
+        headers: { "user-agent": archiveAgent, accept: "application/json" },
+        signal: AbortSignal.timeout(30000),
+      });
+      if (response.status === 429) { await sleep(attempt * 15000); continue; }
+      if (!response.ok) return [];
+      const rows = await response.json();
+      return rows.slice(1).map((r) => r[0]).reverse();
+    } catch { await sleep(attempt * 3000); }
+  }
+  return [];
+}
+
 async function archived(url) {
   const api = `https://archive.org/wayback/available?url=${encodeURIComponent(url)}`;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
@@ -118,26 +140,38 @@ const records = [];
 let done = 0;
 for (const brand of targets) {
   const record = { slug: brand.slug, name: brand.name, officialWebsite: brand.officialWebsite, reviewRequired: true, candidates: [] };
-  const snap = await archived(brand.officialWebsite);
+  const closest = await archived(brand.officialWebsite);
   await sleep(pauseMs);
-  if (!snap) {
+  const stamps = [];
+  if (closest) stamps.push(closest.timestamp);
+  // Walk back through older captures until one yields a candidate.
+  for (const t of await captureList(brand.officialWebsite)) {
+    if (!stamps.includes(t)) stamps.push(t);
+    if (stamps.length >= 5) break;
+  }
+  await sleep(pauseMs);
+  if (!stamps.length) {
     record.status = "NO_SNAPSHOT";
     records.push(record);
   } else {
-    record.archiveUrl = snap.url;
-    record.capturedAt = snap.timestamp;
-    try {
-      const page = await fetchHtml(snap.url);
-      record.candidates = candidates(page.html, page.finalUrl).map((c) => ({
-        ...c, originalUrl: originalOf(c.url),
-      }));
-      record.status = record.candidates.length ? "CANDIDATES_FOUND" : "NO_CANDIDATE";
-    } catch (e) {
-      record.status = "SNAPSHOT_UNREADABLE";
-      record.error = String(e.message ?? e).slice(0, 40);
+    record.status = "NO_CANDIDATE";
+    for (const stamp of stamps) {
+      const snapshotUrl = `https://web.archive.org/web/${stamp}/${brand.officialWebsite}`;
+      try {
+        const page = await fetchHtml(snapshotUrl);
+        const found = candidates(page.html, page.finalUrl).map((c) => ({ ...c, originalUrl: originalOf(c.url) }));
+        if (found.length) {
+          record.archiveUrl = page.finalUrl;
+          record.capturedAt = stamp;
+          record.candidates = found;
+          record.status = "CANDIDATES_FOUND";
+          record.triedCaptures = stamps.indexOf(stamp) + 1;
+          break;
+        }
+      } catch { /* this capture is unreadable, try an older one */ }
+      await sleep(pauseMs);
     }
     records.push(record);
-    await sleep(pauseMs);
   }
   if (++done % 20 === 0) process.stdout.write(`  ${done}/${targets.length}\n`);
 }

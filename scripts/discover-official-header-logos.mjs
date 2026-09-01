@@ -161,15 +161,60 @@ function extractCandidates(html, baseUrl) {
   return [...candidates.values()].sort((a, b) => b.score - a.score).slice(0, 6);
 }
 
-async function fetchPage(brand) {
+// A site that refuses the first request often accepts one that looks like it
+// followed a link, or one made over plain HTTP, or one aimed at a language
+// path rather than the bare root. Each variant is tried before giving up.
+function requestVariants(url) {
+  const variants = [{ url, headers: {} }];
   try {
-    const response = await fetch(brand.officialWebsite, {
+    const parsed = new URL(url);
+    variants.push({
+      url,
+      headers: {
+        referer: `${parsed.protocol}//${parsed.hostname}/`,
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "upgrade-insecure-requests": "1",
+      },
+    });
+    const bare = parsed.hostname.replace(/^www\./u, "");
+    const swapped = parsed.hostname.startsWith("www.") ? bare : `www.${bare}`;
+    variants.push({ url: `${parsed.protocol}//${swapped}${parsed.pathname}`, headers: {} });
+    if (parsed.protocol === "https:") {
+      variants.push({ url: `http://${parsed.hostname}${parsed.pathname}`, headers: {} });
+    }
+    if (parsed.pathname === "/" || parsed.pathname === "") {
+      for (const path of ["/en/", "/en", "/home", "/index.html"]) {
+        variants.push({ url: `${parsed.protocol}//${parsed.hostname}${path}`, headers: {} });
+      }
+    }
+  } catch { /* keep the original */ }
+  return variants;
+}
+
+async function fetchPage(brand) {
+  let lastStatus = null;
+  for (const variant of requestVariants(brand.officialWebsite)) {
+    const attempt = await fetchOnce(brand, variant);
+    if (attempt.status === "CANDIDATES_FOUND" || attempt.status === "NO_CANDIDATE") {
+      if (variant.url !== brand.officialWebsite) attempt.reachedVia = variant.url;
+      return attempt;
+    }
+    lastStatus = attempt;
+  }
+  return lastStatus ?? { brand, status: "FETCH_ERROR", candidates: [] };
+}
+
+async function fetchOnce(brand, variant) {
+  try {
+    const response = await fetch(variant.url, {
       redirect: "follow",
       signal: AbortSignal.timeout(20000),
       headers: {
         "user-agent": userAgent,
         accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "accept-language": "en-US,en;q=0.9",
+        ...variant.headers,
       },
     });
     const contentType = response.headers.get("content-type") ?? "";

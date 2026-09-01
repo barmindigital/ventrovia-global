@@ -19128,6 +19128,26 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     licenseUrl: "https://www.aryung-pump.com/",
     attribution: "Aryung; asset from the manufacturer website, retrieved via the Internet Archive capture of 2026-04-16",
   },
+  {
+    slug: "georgii-kobold",
+    name: "GEORGII KOBOLD",
+    src: "/images/brand-logos/georgii-kobold.jpg",
+    sourcePage: "https://www.georgiikobold.de/en/",
+    originalFile: "https://www.georgiikobold.de/fileadmin/user_upload/logo.jpg",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.georgiikobold.de/en/",
+    attribution: "GEORGII KOBOLD; asset served by the official manufacturer website",
+  },
+  {
+    slug: "kwangshin-machine",
+    name: "KwangShin Machine",
+    src: "/images/brand-logos/kwangshin-machine.png",
+    sourcePage: "http://www.kwangshin.com/index/",
+    originalFile: "http://www.kwangshin.com/make_img/common/logo.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "http://www.kwangshin.com/index/",
+    attribution: "KwangShin Machine; asset served by the official manufacturer website",
+  },
 ];
 
 export const brandLogoRegistry: BrandLogo[] = brandLogoRegistryBase.concat(
