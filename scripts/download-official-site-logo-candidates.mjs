@@ -60,15 +60,29 @@ function extensionFromUrl(value) {
   }
 }
 
-async function download(url) {
-  const response = await fetch(url, {
+// Discovery reaches these pages with a browser agent while this step used the
+// audit agent, so assets that had just been found came back 403 - elsto and
+// hontko among them. The audit agent is still tried first because it says who
+// we are; the browser agent is the fallback the site already answered.
+const browserAgent =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36";
+
+async function requestAsset(url, agent) {
+  return fetch(url, {
     redirect: "follow",
     signal: AbortSignal.timeout(downloadTimeoutMs),
     headers: {
-      "user-agent": userAgent,
-      accept: "image/svg+xml,image/png,image/webp,image/jpeg,image/gif",
+      "user-agent": agent,
+      accept: "image/svg+xml,image/png,image/webp,image/jpeg,image/gif,*/*;q=0.8",
     },
   });
+}
+
+async function download(url) {
+  let response = await requestAsset(url, userAgent);
+  if (response.status === 403 || response.status === 401 || response.status === 406) {
+    response = await requestAsset(url, browserAgent);
+  }
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   const bytes = new Uint8Array(await response.arrayBuffer());
   if (bytes.length < 100) throw new Error(`Asset too small: ${bytes.length} bytes`);
