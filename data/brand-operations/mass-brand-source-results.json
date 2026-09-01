@@ -192,19 +192,72 @@
   },
   {
     "manufacturerId": "elco-motors",
-    "displayName": "ELCO",
-    "status": "BRAND_REVIEW",
+    "displayName": "Elco",
+    "status": "BRAND_SAFE",
     "priority": 5,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "ELCO is shared by unrelated heating, cutting-tool, electrical and motor businesses; the historical catalog entity is not yet tied to one official company."
+    "effortClass": "FAST",
+    "domain": "elco-spa.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HVAC_MOTOR_AND_FAN_RANGE_WITH_CO_AND_DD_SERIES",
+        "url": "https://www.elco-spa.com/prodotti/condizionamento?lang=en",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "COMMERCIAL_REFRIGERATION_MOTOR_AND_AXIAL_FAN_RANGE",
+        "url": "https://www.elco-spa.com/prodotti/refrigerazione?lang=en",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "GROUP_ORIGIN_1954_AND_INZAGO_MANUFACTURING_SITE",
+        "url": "https://www.elco-spa.com/chisiamo/storia?lang=en",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "GEAR_MOTOR_PREMIX_AGITATOR_RANGE_AND_REGAL_GROUP_AFFILIATION",
+        "url": "https://www.elco-spa.com/prodotti/altri-prodotti?lang=en",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "industrial fans and blowers",
+        "gear units and geared drives"
+      ],
+      "families": [
+        "Shaded Pole",
+        "ECM",
+        "ECM HC",
+        "Asynchronous Motors",
+        "EC Motors",
+        "Centrifugal Fans",
+        "Fan Deck",
+        "Axial Fans",
+        "Gear Motors",
+        "Pre-mix",
+        "Agitator"
+      ],
+      "industries": [
+        "building systems",
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Milan, Italy"
     },
-    "checkedAt": "2026-08-12",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -13078,18 +13131,61 @@
   },
   {
     "manufacturerId": "mil-s",
-    "displayName": "MIL S",
-    "status": "BRAND_REVIEW",
+    "displayName": "MIL'S",
+    "status": "BRAND_SAFE",
     "priority": 283,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "mils.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HOSPITAIR_MEDICAL_AIR_PLANT_FAMILY_NAMES",
+        "url": "https://www.mils.com/healthcare/air/medical-air-plants/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "AIRMILS_TECHNICAL_AIR_RANGES_AND_COMPRESSOR_TYPES",
+        "url": "https://www.mils.com/healthcare/air/technical-air-plants/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "FOUNDING_1926_GENAS_HEADQUARTERS_AND_PRODUCT_SCOPE",
+        "url": "https://www.mils.com/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "compressors and compressed-air systems",
+        "vacuum equipment",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "HOSPITAIR",
+        "HOSPITAIR SCROLAIR",
+        "AIRMIL'S 1/2",
+        "AIRMIL'S G",
+        "PSA oxygen generators",
+        "VPSA oxygen generators",
+        "Medical air plants",
+        "Technical air plants",
+        "Vacuum systems"
+      ],
+      "industries": [
+        "industrial processing"
+      ],
+      "country": "France",
+      "headquarters": "Genas, France"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -13568,18 +13664,60 @@
   },
   {
     "manufacturerId": "nimco",
-    "displayName": "NIMCO",
-    "status": "BRAND_REVIEW",
+    "displayName": "NiMCO",
+    "status": "BRAND_SAFE",
     "priority": 294,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "nimco.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "QUART_LITER_GABLE_TOP_MACHINE_MODEL_DESIGNATIONS",
+        "url": "https://www.nimco.com/products/quart.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "GALLON_MACHINE_MODELS_AND_CAP_PAC_ULTRA_CLEAN_OPTIONS",
+        "url": "https://www.nimco.com/products/gallon.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "CRYSTAL_LAKE_LOCATION_FOUNDED_1962_AND_MACHINE_SCOPE",
+        "url": "https://nimco.com/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filling and packaging machinery",
+        "industrial machinery"
+      ],
+      "families": [
+        "Hand Machines",
+        "Semi-Automatic Machines",
+        "Automatic Machines",
+        "Custom Machines",
+        "Cross Cartons",
+        "CAP-PAC Spout Applicator",
+        "Ultra Clean H2O2"
+      ],
+      "industries": [
+        "packaging",
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "United States",
+      "headquarters": "Crystal Lake, United States"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -21624,19 +21762,64 @@
   },
   {
     "manufacturerId": "cometal",
-    "displayName": "COMETAL",
-    "status": "BRAND_REVIEW",
+    "displayName": "Cometal Engineering",
+    "status": "BRAND_SAFE",
     "priority": 445,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The generic repository identity COMETAL cannot be bound safely to one manufacturer. Multiple unrelated manufacturer-owned domains are active for aluminium extrusion machinery, semi-finished non-ferrous metals, metallurgy materials and other industrial businesses."
+    "effortClass": "FAST",
+    "domain": "cometaleng.eu",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FOUNDRY_FURNACE_AND_CASTING_PRODUCT_FAMILIES",
+        "url": "https://www.cometaleng.eu/foundry",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ALUMINIUM_EXTRUSION_LINE_PRODUCT_FAMILIES",
+        "url": "https://www.cometaleng.eu/extrusion",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_YEAR_AND_MONTICHIARI_HEADQUARTERS",
+        "url": "https://www.cometaleng.eu/about",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "industrial machinery",
+        "filling and packaging machinery"
+      ],
+      "families": [
+        "Single Chamber Melting Furnaces",
+        "Twin Chamber Melting Furnaces",
+        "Holding Furnaces",
+        "Billets Casting Line",
+        "Logs Homogenizing Centre",
+        "Logs Automatic Stacker",
+        "Extrusion Presses",
+        "Extrusion Table",
+        "Die Heating Oven",
+        "Aging Line",
+        "Packing line"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Montichiari, Italy"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -27501,19 +27684,65 @@
   },
   {
     "manufacturerId": "slavkov",
-    "displayName": "SLAVKOV",
-    "status": "BRAND_REVIEW",
+    "displayName": "EMP Slavkov",
+    "status": "BRAND_SAFE",
     "priority": 531,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The unqualified name SLAVKOV does not establish a unique manufacturer identity. EMP Slavkov is a plausible electric-motor company, but the existing record contains no independent discriminator that permits a safe canonical match."
+    "effortClass": "FAST",
+    "domain": "emp-slavkov.cz",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MOTOR_AND_PUMP_SERIES_RANGE",
+        "url": "https://emp-slavkov.cz/products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "COMPANY_ORIGIN_FOUNDING_AND_CERTIFICATIONS",
+        "url": "https://emp-slavkov.cz/onas",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "JMC_PERMANENT_CAPACITOR_MOTOR_MODEL_EVIDENCE",
+        "url": "https://emp-slavkov.cz/products/jednofazove-motory-motory-rady-jmc-s-trvale-pripojenym-kondenzatorem",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "REGISTERED_ADDRESS_SLAVKOV_U_BRNA",
+        "url": "https://emp-slavkov.cz/contact",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Asynchronous Electric Motors",
+        "Single-phase",
+        "Three-phase",
+        "Built-in",
+        "Electric Pumps",
+        "Special Submersible Motors"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Czech Republic",
+      "headquarters": "Slavkov u Brna, Czech Republic"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -27871,17 +28100,55 @@
   {
     "manufacturerId": "tecnomec-3",
     "displayName": "TECNOMEC 3",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 538,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "tecnomec3.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BRACKET_SERIES_FB_FF_RM_AND_ROTATING_RU_RANGE",
+        "url": "https://www.tecnomec3.com/eng/products-brackets.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "COMPANY_ACTIVITY_AND_TURBIGO_ITALY_ADDRESS",
+        "url": "https://www.tecnomec3.com/eng/company.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "SPREADER_ROLL_SERIES_A_B_G_M_AND_SIZE_TABLES",
+        "url": "https://www.tecnomec3.com/eng/products-paper-industry.html",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "process equipment"
+      ],
+      "families": [
+        "Spreader roll",
+        "Brackets",
+        "Teflon Sleeve",
+        "Roll with spiral Grooving"
+      ],
+      "industries": [
+        "wood and paper processing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Turbigo, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -32027,19 +32294,69 @@
   },
   {
     "manufacturerId": "buhler",
-    "displayName": "BUHLER",
-    "status": "BRAND_REVIEW",
+    "displayName": "Bühler Motor",
+    "status": "BRAND_SAFE",
     "priority": 614,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "Buhler/Bühler identifies several unrelated manufacturer-owned businesses, including Bühler Group, Bühler Motor and Buehler materials-analysis equipment. No safe discriminator exists in the canonical record."
+    "effortClass": "FAST",
+    "domain": "buehlermotor.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "INDUSTRIAL_MOTOR_GEAR_MOTOR_AND_ENCODER_RANGE",
+        "url": "https://www.buehlermotor.com/products-and-markets/industrial/industrial-products.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_NUREMBERG_REGISTERED_ADDRESS",
+        "url": "https://www.buehlermotor.com/legal-information/legal-notice.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_YEAR_FORMER_NAME_AND_MILESTONES",
+        "url": "https://www.buehlermotor.com/company/history-milestones.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "STOCK_SERVICE_DC_AND_EC_MOTOR_TYPE_DESIGNATIONS",
+        "url": "https://www.buehlermotor.com/produkte-maerkte/support/stock-service.html",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "gear units and geared drives",
+        "drive and motion-control systems",
+        "linear-motion components"
+      ],
+      "families": [
+        "Motors",
+        "Motors & actuators",
+        "Gear motors",
+        "Electric pumps",
+        "Encoders/brakes",
+        "Micro-drives"
+      ],
+      "industries": [
+        "transportation",
+        "aerospace",
+        "factory automation",
+        "agriculture"
+      ],
+      "country": "Germany",
+      "headquarters": "Nuremberg, Germany"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -33988,18 +34305,57 @@
   },
   {
     "manufacturerId": "alltec",
-    "displayName": "ALLTEC",
-    "status": "BRAND_REVIEW",
+    "displayName": "ALLTEC FOBA",
+    "status": "BRAND_SAFE",
     "priority": 654,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "fobalaser.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LASER_MARKING_MACHINE_AND_M_SERIES_SCOPE",
+        "url": "https://www.fobalaser.com/products/laser-marking-machines/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "ALLTEC_LEGAL_ENTITY_AND_SELMSDORF_LOCATION",
+        "url": "https://www.fobalaser.com/imprint/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Laser Marking Systems",
+        "Laser Marking Machines",
+        "Fiber Laser Markers",
+        "CO2 Laser Markers",
+        "UV Laser Markers",
+        "Green Laser Markers",
+        "Ultrashort Pulse Laser Markers",
+        "Laser Marking Software",
+        "Vision Systems",
+        "Automation & Process Integration",
+        "FOBA M-Series"
+      ],
+      "industries": [
+        "transportation",
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": "Selmsdorf, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -34483,34 +34839,144 @@
   },
   {
     "manufacturerId": "keller",
-    "displayName": "KELLER",
-    "status": "BRAND_REVIEW",
+    "displayName": "KELLER Pressure",
+    "status": "BRAND_SAFE",
     "priority": 666,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "keller-pressure.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_YEAR_FAMILY_OWNERSHIP_AND_HEADCOUNT",
+        "url": "https://keller-pressure.com/en/company",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_WINTERTHUR_ADDRESS",
+        "url": "https://keller-pressure.com/en/info/legal-notice",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_CATEGORY_AND_SERIES_STRUCTURE",
+        "url": "https://keller-pressure.com/en/products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "DCX_22_LEVEL_LOGGER_PRODUCT_RECORD",
+        "url": "https://keller-pressure.com/en/products/data-loggers/level-loggers/dcx-22",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Pressure Transducers",
+        "Pressure Transmitters",
+        "Level Probes",
+        "Data Loggers",
+        "Digital Pressure Gauges",
+        "Wireless Solutions",
+        "Custom Solutions",
+        "Software & Accessories"
+      ],
+      "industries": [
+        "oil and gas",
+        "water and wastewater",
+        "building systems",
+        "aerospace"
+      ],
+      "country": "Switzerland",
+      "headquarters": "Winterthur, Switzerland"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "koch",
-    "displayName": "KOCH",
-    "status": "BRAND_REVIEW",
+    "displayName": "Koch Membrane Systems (Kovalus)",
+    "status": "BRAND_SAFE",
     "priority": 667,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "kovalus.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "NAME_HISTORY_FROM_KOCH_MEMBRANE_SYSTEMS_TO_KOVALUS",
+        "url": "https://www.kovalus.com/about/history-brands/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FLUID_SYSTEMS_TFC_SPIRAL_ELEMENT_RANGE",
+        "url": "https://www.kovalus.com/technologies/membrane-filtration/fluid-systems-elements/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MEMBRANE_PRODUCT_FAMILY_NAMES_BY_GEOMETRY",
+        "url": "https://www.kovalus.com/technologies/membrane-filtration/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "HEADQUARTERS_ADDRESS_WILMINGTON_MASSACHUSETTS",
+        "url": "https://www.kovalus.com/about/locations/?region=americas",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "process equipment",
+        "industrial cleaning systems"
+      ],
+      "families": [
+        "FLUID SYSTEMS®",
+        "KPAK® PLUS",
+        "Sani-Pro®",
+        "SelRO®",
+        "EDCORE®",
+        "PURON®",
+        "PULSION®",
+        "ROMICON®",
+        "ROMIPRO™",
+        "ASPIDA™",
+        "SUPER-COR®",
+        "SUPER-G™",
+        "FEG PLUS®",
+        "KSS Ceramic Membranes",
+        "SepTrac™"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "water and wastewater",
+        "chemical processing",
+        "mining"
+      ],
+      "country": "United States",
+      "headquarters": "Wilmington, United States"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -35228,18 +35694,63 @@
   },
   {
     "manufacturerId": "backtech",
-    "displayName": "BACKTECH",
-    "status": "BRAND_REVIEW",
+    "displayName": "BackTech SAM",
+    "status": "BRAND_SAFE",
     "priority": 685,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "backtechsam.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BAKERY_MACHINE_FAMILY_AND_MODEL_NAMES",
+        "url": "https://backtechsam.de/produkt/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "2016_MERGER_ORIGIN_AND_HALLBERGMOOS_SEAT",
+        "url": "https://backtechsam.de/unternehmen/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_NAME_AND_REGISTERED_ADDRESS",
+        "url": "https://backtechsam.de/impressum/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "process equipment",
+        "conveying and material-handling systems"
+      ],
+      "families": [
+        "Teigteil- und Wirkmaschinen",
+        "Kompaktanlagen",
+        "Formgebäckanlagen",
+        "Elementanlagen",
+        "Kompakte Teigbandanlagen",
+        "Multifunktionsanlagen",
+        "Industrieanlagen",
+        "BREWIC / WiBrez",
+        "Gebrauchtanlagen"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": "Hallbergmoos, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -36082,19 +36593,61 @@
   },
   {
     "manufacturerId": "unimac",
-    "displayName": "UNIMAC",
-    "status": "BRAND_REVIEW",
+    "displayName": "UniMac",
+    "status": "BRAND_SAFE",
     "priority": 704,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "UNIMAC is used by unrelated active manufacturers in laundry equipment, industrial machinery and other sectors. The repository record has no official-domain, location or product-scope discriminator that selects one entity."
+    "effortClass": "FAST",
+    "domain": "unimac.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "LAUNDRY_EQUIPMENT_PRODUCT_SCOPE",
+        "url": "https://unimac.com/products/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "WASHER_EXTRACTOR_LINES_AND_CAPACITIES",
+        "url": "https://unimac.com/product/washer-extractors/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "ALLIANCE_LAUNDRY_OWNERSHIP_AND_RIPON_ADDRESS",
+        "url": "https://unimac.com/contact-unimac/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial cleaning systems",
+        "industrial machinery",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "Washer-Extractors",
+        "Tumble Dryers",
+        "Stacked Washer-Extractor/Tumble Dryers",
+        "Light Commercial",
+        "PPE Drying Cabinet",
+        "Softmount Washer-Extractors",
+        "UW Series"
+      ],
+      "industries": [
+        "industrial processing",
+        "marine applications",
+        "food and pharmaceutical processing"
+      ],
+      "country": "United States",
+      "headquarters": "Ripon, United States"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -37380,19 +37933,67 @@
   },
   {
     "manufacturerId": "rotex",
-    "displayName": "ROTEX",
-    "status": "BRAND_REVIEW",
+    "displayName": "Rotex",
+    "status": "BRAND_SAFE",
     "priority": 734,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "ROTEX is used by unrelated coupling, automation and screening-equipment businesses. A fuzzy name match is insufficient and the repository record lacks an authoritative discriminator."
+    "effortClass": "FAST",
+    "domain": "therotexgroup.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "SCREENER_SEPARATOR_AND_ANALYZER_PRODUCT_SCOPE",
+        "url": "https://therotexgroup.com/products/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "CINCINNATI_HEADQUARTERS_AND_GLOBAL_LOCATIONS",
+        "url": "https://therotexgroup.com/contact/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_1844_AND_HILLENBRAND_OWNERSHIP",
+        "url": "https://therotexgroup.com/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial vibration equipment",
+        "conveying and material-handling systems",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Rotex",
+        "Apex",
+        "Ultrex",
+        "Minerals Separator",
+        "Megatex XD",
+        "Gradex",
+        "Hi Cline",
+        "Super Screen",
+        "Classic Screen",
+        "Plastic Pellet Screener",
+        "Megatex Grain Cleaner",
+        "Direct Drive Feeder"
+      ],
+      "industries": [
+        "agriculture",
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "mining"
+      ],
+      "country": "United States",
+      "headquarters": "Cincinnati, United States"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -43960,18 +44561,50 @@
   {
     "manufacturerId": "fibro",
     "displayName": "FIBRO",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 875,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The FIBRO identity now spans FIBRO GmbH standard parts and the independently operated FIBRO Rundtische GmbH rotary-table business. The unsuffixed repository record does not distinguish these current entities, so a combined profile would be misleading."
+    "effortClass": "FAST",
+    "domain": "fibrort.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ROTARY_TABLE_FAMILY_AND_SERIES_SCOPE",
+        "url": "https://www.fibrort.com/en/products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDED_1958_WEINSBERG_AND_INDEPENDENCE_SINCE_2024",
+        "url": "https://www.fibrort.com/en/about-us",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "industrial automation and control"
+      ],
+      "families": [
+        "FIBROTOR",
+        "FIBROMAT",
+        "FIBROPLAN",
+        "FIBRODYN",
+        "FIBROTAKT",
+        "FIBROMAX"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "transportation"
+      ],
+      "country": "Germany",
+      "headquarters": "Weinsberg, Germany"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -44854,18 +45487,55 @@
   {
     "manufacturerId": "udicom",
     "displayName": "UDICOM",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 895,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "No manufacturer-owned corporate domain could be tied unambiguously to the UDICOM queue identity."
+    "effortClass": "FAST",
+    "domain": "udicom.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "INDUSTRIAL_ELECTRONICS_PRODUCT_RANGE_AND_MODEL_NAMES",
+        "url": "https://udicom.it/en/products/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "COMPANY_ACTIVITY_AND_ITALIAN_LOCATION",
+        "url": "https://udicom.it/en/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "CAN Modules",
+        "CAN Axis Control Module",
+        "Kaparossa - Fanless Industrial PC",
+        "Panel PC",
+        "SunTracker",
+        "GPS Synchro Timer Cricket",
+        "5-Channel Infrared (IR) Receiver",
+        "Encoder Signal Converter LineDriver/PushPull",
+        "SynchroMaster",
+        "MultiMetro"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial processing",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": "Tavagnacco, Italy"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -46898,19 +47568,51 @@
   },
   {
     "manufacturerId": "steelbau",
-    "displayName": "STEELBAU",
-    "status": "BRAND_REVIEW",
+    "displayName": "Steelbau",
+    "status": "BRAND_SAFE",
     "priority": 941,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "STEELBAU is a generic company-name fragment shared by unrelated steel-fabrication businesses. The repository identity has no country, legal-name or product-scope discriminator that safely selects one manufacturer-owned source."
+    "effortClass": "FAST",
+    "domain": "steelbau.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "STAINLESS_STEEL_BOWL_HOPPER_AND_ACCESSORY_RANGE",
+        "url": "https://www.steelbau.com/en/products/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_YEAR_AND_ISOLA_VICENTINA_HEADQUARTERS",
+        "url": "https://www.steelbau.com/en/company/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "process equipment"
+      ],
+      "families": [
+        "Deep pressed drawn bowls",
+        "Planetary",
+        "Tailor-made bowls",
+        "Special bowls",
+        "Hoppers",
+        "Accessories"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Isola Vicentina, Italy"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
