@@ -18578,6 +18578,36 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     licenseUrl: "https://aqmaticvalvesandcontrols.com/",
     attribution: "AquaMatic; asset served by the official manufacturer website",
   },
+  {
+    slug: "agiecharmilles",
+    name: "AgieCharmilles",
+    src: "/images/brand-logos/agiecharmilles.webp",
+    sourcePage: "https://www.agiecharmilles.com/",
+    originalFile: "https://contentland.ums.swiss/asset/289273c5-8186-4fad-bfd3-cb56d4db8eb8/thumbnail/webimage-Logo-achie-charmilles_rgb",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.agiecharmilles.com/",
+    attribution: "AgieCharmilles; asset served by the official manufacturer website",
+  },
+  {
+    slug: "wheatley-pump",
+    name: "Wheatley Pump",
+    src: "/images/brand-logos/wheatley-pump.webp",
+    sourcePage: "https://www.wheatleypump.com/",
+    originalFile: "https://www.wheatleypump.com/wp-content/uploads/2021/09/cropped-F44F2F3F-028D-4581-8DE8-37660BD1E5A1.webp",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.wheatleypump.com/",
+    attribution: "Wheatley Pump; asset served by the official manufacturer website",
+  },
+  {
+    slug: "novick",
+    name: "NOVICK",
+    src: "/images/brand-logos/novick.png",
+    sourcePage: "https://novick.eu/",
+    originalFile: "https://novick.eu/fileadmin/Novick_edm/Novick_Grafic/Novick_general_grafic/Novick_Banners_Grafic/novick-europe-white.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://novick.eu/",
+    attribution: "NOVICK; asset served by the official manufacturer website",
+  },
 ];
 
 export const brandLogoRegistry: BrandLogo[] = brandLogoRegistryBase.concat(
