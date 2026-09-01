@@ -18558,6 +18558,26 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     licenseUrl: "https://www.grpumps.eu/?redirected=1",
     attribution: "Gorman-Rupp; asset served by the official manufacturer website",
   },
+  {
+    slug: "magnetek",
+    name: "Magnetek",
+    src: "/images/brand-logos/magnetek.svg",
+    sourcePage: "https://www.cmco.com/en-de/",
+    originalFile: "https://www.cmco.com/cdn-cgi/image/background=white,width=75,height=,background=rgba(0%2c0%2c0%2c0),fit=pad/globalassets/logos/magnetek/new/magnetek_wide_color-10.11.svg",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.cmco.com/en-de/",
+    attribution: "Magnetek; asset served by the official manufacturer website",
+  },
+  {
+    slug: "aquamatic",
+    name: "AquaMatic",
+    src: "/images/brand-logos/aquamatic.webp",
+    sourcePage: "https://aqmaticvalvesandcontrols.com/",
+    originalFile: "https://aqmaticvalvesandcontrols.com/wp-content/uploads/aqm-logo-1.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://aqmaticvalvesandcontrols.com/",
+    attribution: "AquaMatic; asset served by the official manufacturer website",
+  },
 ];
 
 export const brandLogoRegistry: BrandLogo[] = brandLogoRegistryBase.concat(
