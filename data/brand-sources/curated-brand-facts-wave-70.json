@@ -2,13 +2,6 @@
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
     {
-      "manufacturerId": "ibs",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "IBS is shared by multiple unrelated active industrial manufacturers, including fluid-control, cooling-system and power-system businesses. The repository record has no country, legal-name or product-scope discriminator that safely selects one manufacturer-owned source.",
-      "attemptedUrls": ["https://www.ibs-grp.com/", "https://ibs.com.tr/en/", "https://www.ibspower.com/en/company/"]
-    },
-    {
       "manufacturerId": "kranz-kuhrmeier",
       "status": "BLOCKED_INSUFFICIENT_OFFICIAL_EVIDENCE",
       "checkedAt": "2026-08-24",
@@ -21,13 +14,6 @@
       "checkedAt": "2026-08-24",
       "reason": "ARTTECH is used by multiple unrelated businesses and no manufacturer-owned domain with matching industrial product identity could be tied to this unsuffixed repository record without guessing.",
       "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "cab",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CAB is a short generic identity used by unrelated companies. The repository record has no country, legal-name or product-family discriminator that would safely establish one canonical manufacturer.",
-      "attemptedUrls": ["https://www.cab.de/en/"]
     },
     {
       "manufacturerId": "hibar-systems",

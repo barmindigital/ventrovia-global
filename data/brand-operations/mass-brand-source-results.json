@@ -4050,19 +4050,74 @@
   },
   {
     "manufacturerId": "datasensor",
-    "displayName": "DATASENSOR",
-    "status": "BRAND_REVIEW",
+    "displayName": "Datasensing",
+    "status": "BRAND_SAFE",
     "priority": 90,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "Current official Datalogic-group materials use the Datasensing identity. The evidence reviewed does not yet prove whether the historical DATASENSOR record should redirect, remain a legacy brand, or map to a different entity."
+    "effortClass": "FAST",
+    "domain": "datasensing.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "DATALOGIC_AND_MD_MICRO_DETECTORS_MERGER_PORTFOLIO_SIZE_AND_MISSION",
+        "url": "https://www.datasensing.com/eng/company/company-overview-co-4220.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MACHINE_VISION_SENSORS_AND_SAFETY_PRODUCT_GROUPS_AND_INDUSTRIES",
+        "url": "https://www.datasensing.com/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "DATALOGIC_SPA_HEADQUARTERS_ADDRESS_LISTED_ON_DATASENSING_SITE",
+        "url": "https://www.datasensing.com/eng/company/global-presence-co-4448.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "DATASENSING_SRL_COPYRIGHT_AND_DATALOGIC_TRADEMARK_OWNERSHIP",
+        "url": "https://www.datasensing.com/eng/legal-notice-pa-92.html",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial sensors",
+        "industrial safety equipment",
+        "industrial automation and control",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Machine Vision",
+        "Sensors",
+        "Safety and Guidance",
+        "Safety light curtains",
+        "Safety laser scanners",
+        "Photoelectric sensors",
+        "Inductive sensors",
+        "Capacitive sensors",
+        "Ultrasonic sensors",
+        "Area sensors",
+        "Encoders",
+        "Lidars"
+      ],
+      "industries": [
+        "factory automation",
+        "transportation",
+        "packaging"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -6184,19 +6239,69 @@
   },
   {
     "manufacturerId": "freund",
-    "displayName": "FREUND",
-    "status": "BRAND_REVIEW",
+    "displayName": "Freund",
+    "status": "BRAND_SAFE",
     "priority": 137,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "FREUND is used by unrelated pharmaceutical-equipment and industrial-material businesses; the local identity has no independent discriminator that proves one entity."
+    "effortClass": "FAST",
+    "domain": "freund.eu",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "PADERBORN_ADDRESS_COMPANY_PROFILE_AND_EXPORT_FIGURES",
+        "url": "https://www.freund.eu/ueber-uns.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ENGLISH_ALL_PRODUCTS_CATALOGUE_SIZE_FILTER_AXES_AND_CATEGORY_NAMES",
+        "url": "https://www.freund.eu/produkte/alle-produkte.html?___store=english&___from_store=default",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BBK28_06D_CIRCULAR_BREASTBONE_SAW_MODEL_PAGE",
+        "url": "https://www.freund.eu/bbk28-06d.html?___store=english&___from_store=default",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "pneumatic equipment",
+        "industrial cleaning systems"
+      ],
+      "families": [
+        "Splitter Bandsaw",
+        "Circular-Breastbone-Saw",
+        "Circular Saws",
+        "Circular Saws for Automation",
+        "Reciprocating Saws",
+        "Shears and Cutters",
+        "Quartering Shear",
+        "Trimmer",
+        "Dehider",
+        "Electro-Stun-Tongs",
+        "Electronic Stunning Equipment",
+        "Pneumatic Bolt Stunner",
+        "Vacuum Systems",
+        "Sterilization-systems",
+        "Steam-Vacuum-Sanitiser-Systems",
+        "Animal Drover"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Paderborn, Germany"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -8403,19 +8508,82 @@
   },
   {
     "manufacturerId": "champion",
-    "displayName": "CHAMPION",
-    "status": "BRAND_REVIEW",
+    "displayName": "Champion Pneumatic",
+    "status": "BRAND_SAFE",
     "priority": 185,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "CHAMPION is used by unrelated industrial brands; the local identity record does not contain enough evidence to select one manufacturer-owned domain safely."
+    "effortClass": "FAST",
+    "domain": "championpneumatic.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "CENTURY_OF_EXPERIENCE_FROM_1919_SERVED_INDUSTRIES_AND_DISTRIBUTOR_COUNT",
+        "url": "https://www.championpneumatic.com/en/about/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_MENU_GROUPS_LUBRICANTS_AND_COMPRESSED_AIR_PIPING_SCOPE",
+        "url": "https://www.championpneumatic.com/en/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "RECIPROCATING_AND_ROTARY_SERIES_NAMES_AS_PRINTED",
+        "url": "https://www.championpneumatic.com/en/reciprocating-compressors/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "OIL_LESS_CA_SERIES_AND_V_W_SERIES_NAMES_AS_PRINTED",
+        "url": "https://www.championpneumatic.com/en/oil-less-compressors/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FRL_XCME_CFL_AND_CFF_FILTER_SERIES_CAGI_AND_ISO_8573",
+        "url": "https://www.championpneumatic.com/en/air-treatment/filters-and-separators/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CSP_ENVIROCHAMP_2_OIL_WATER_SEPARATOR_SPECIFICATION",
+        "url": "https://www.championpneumatic.com/en/condensate-management/oil-water-separators/csp-envirochamp-2/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "compressors and compressed-air systems",
+        "filtration and water systems",
+        "pneumatic equipment"
+      ],
+      "families": [
+        "Reciprocating Compressors",
+        "Oil Lubricated Rotary Compressors",
+        "Oil Less Compressors",
+        "Air Treatment Products",
+        "Condensate Management",
+        "Compressed Air Piping",
+        "Lubricants"
+      ],
+      "industries": [
+        "transportation",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -10817,19 +10985,65 @@
   },
   {
     "manufacturerId": "kohler-motors",
-    "displayName": "KOHLER",
-    "status": "BRAND_REVIEW",
+    "displayName": "KOHLER Power Systems (Rehlko)",
+    "status": "BRAND_SAFE",
     "priority": 234,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The local KOHLER record is not yet proven to represent Kohler engines, former Kohler Power Systems, or another Kohler product scope. Kohler Energy/Power Systems is now Rehlko, so a legacy name match cannot safely establish this manufacturer entity."
+    "effortClass": "FAST",
+    "domain": "powersystems.rehlko.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "POWER_SYSTEMS_PRODUCT_GROUPS_AND_MISSION_CRITICAL_APPLICATIONS",
+        "url": "https://www.powersystems.rehlko.com/products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CONTROLLER_FAMILIES_POWER_RANGES_AND_KOHLER_POWER_SYSTEMS_IS_NOW_REHLKO",
+        "url": "https://www.powersystems.rehlko.com/products/Controllers",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "KOHLER_ENERGY_IS_NOW_REHLKO_AND_THREE_BUSINESS_SEGMENTS",
+        "url": "https://www.rehlko.com/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "B",
+        "scope": "MANUFACTURING_PLANT_LOCATIONS_STATED_ON_POWER_SYSTEMS_INDIA_CONTACT_PAGE",
+        "url": "https://www.powersystems.rehlko.com/in-en/contact-us",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electrical power systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Diesel generators",
+        "Gaseous generators",
+        "Mobile generators",
+        "Automatic transfer switches",
+        "Paralleling switchgear",
+        "Controllers",
+        "Accessories"
+      ],
+      "industries": [
+        "energy"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-17",
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -11452,19 +11666,59 @@
   },
   {
     "manufacturerId": "elko",
-    "displayName": "ELKO",
-    "status": "BRAND_REVIEW",
+    "displayName": "ELKO Elektrokovina Maribor",
+    "status": "BRAND_SAFE",
     "priority": 248,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The catalog contains separate ELKO and ELKO EP entities. Official ELKO EP evidence proves the relay manufacturer but does not yet prove that the historical ELKO record is the same entity."
+    "effortClass": "FAST",
+    "domain": "elkomb.si",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MOTOR_TYPE_DESIGNATIONS_2EK_3EK_ESK_EKSK_TZF",
+        "url": "https://www.elkomb.si/wp-content/uploads/2022/08/KATALOG-ELEKTROMOTORJI-IEC_2022_compressed.pdf",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "COMPANY_IDENTITY_MARIBOR_AND_PRODUCT_MENU_HEADINGS",
+        "url": "https://www.elkomb.si/en/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MECHANICAL_TREATMENT_AND_CASTING_MATERIALS",
+        "url": "https://www.elkomb.si/en/mechanical-treatment/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Electric motors",
+        "Clean water pumps",
+        "Dirty water pumps",
+        "Sewage pumps",
+        "Hydropower stations and hydroblocks",
+        "Submersible propeller mixers"
+      ],
+      "industries": [
+        "industrial processing",
+        "water and wastewater",
+        "industrial manufacturing"
+      ],
+      "country": "Slovenia",
+      "headquarters": "Maribor, Slovenia"
     },
-    "checkedAt": "2026-08-17",
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -18034,18 +18288,56 @@
   },
   {
     "manufacturerId": "stone",
-    "displayName": "STONE",
-    "status": "BRAND_REVIEW",
+    "displayName": "Stone Hydraulics",
+    "status": "BRAND_SAFE",
     "priority": 382,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "hydraulictechnologies.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "STONE_BRAND_OWNERSHIP_AND_PICK_A_PACK_SCOPE",
+        "url": "https://hydraulictechnologies.com/brands/stone",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "STONE_POWER_UNIT_AND_KIT_SERIES_DESIGNATIONS",
+        "url": "https://hydraulictechnologies.com/hubfs/DocumentsFinder/WC_stone-catalog-st0604-us.pdf",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "hydraulic equipment",
+        "pumps and pumping systems",
+        "industrial valves and flow control",
+        "electric motors"
+      ],
+      "families": [
+        "Stone Pick-A-Pack",
+        "AC Power Units",
+        "DC Power Units",
+        "Pump Kits AFC Series",
+        "Reservoirs",
+        "Endheads",
+        "Integral Valves",
+        "Motor Kits"
+      ],
+      "industries": [
+        "agriculture",
+        "transportation",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -23422,19 +23714,53 @@
   },
   {
     "manufacturerId": "ena",
-    "displayName": "ENA",
-    "status": "BRAND_REVIEW",
+    "displayName": "ЭНА (ENA)",
+    "status": "BRAND_SAFE",
     "priority": 468,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The short repository identity ENA cannot be bound safely to one manufacturer. At least two unrelated German industrial manufacturers use ENA as their official name: ENA Energietechnik und Anlagenbau GmbH supplies industrial dampers and valves, while ENA Elektrotechnologien und Anlagenbau GmbH and ENA Industrieofenbau GmbH provide industrial furnace technology."
+    "effortClass": "FAST",
+    "domain": "ena.ru",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "NDM_MULTISECTION_TWO_BEARING_OIL_PUMP_RANGE",
+        "url": "https://www.ena.ru/products/nasosy_neft/nasosy_ndm/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FULL_PUMP_FAMILY_AND_SERIES_CATALOGUE",
+        "url": "https://www.ena.ru/products/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "PRODUCTION_SINCE_1950_AND_SHCHELKOVO_PLANT_ADDRESS",
+        "url": "https://www.ena.ru/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "industrial machinery"
+      ],
+      "families": [],
+      "industries": [
+        "oil and gas",
+        "chemical processing",
+        "marine applications",
+        "energy"
+      ],
+      "country": "Russia",
+      "headquarters": "Shchelkovo, Russia"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -24318,19 +24644,62 @@
   },
   {
     "manufacturerId": "gamet",
-    "displayName": "GAMET",
-    "status": "BRAND_REVIEW",
+    "displayName": "Gamet Bearings",
+    "status": "BRAND_SAFE",
     "priority": 481,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The repository identity GAMET is shared by unrelated active manufacturers. Gamet Manufacturing Incorporated makes grain-sampling equipment in the United States, while GAMET Sp. z o.o. manufactures furniture and door accessories in Poland. The repository record contains no official domain, legal name, country or product-scope evidence that proves which entity is intended."
+    "effortClass": "FAST",
+    "domain": "hb-bearings.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "GAMET_MANUFACTURED_SINCE_1956_IN_UK_AND_SECTORS_SERVED",
+        "url": "https://www.hb-bearings.com/7gamet/gametproductoverviewx.htm",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "SINGLE_AND_DOUBLE_ROW_BEARING_TYPES_AND_RUNOUT_TOLERANCES",
+        "url": "https://www.hb-bearings.com/7gamet/gametproductrangex.htm",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "BESPOKE_BEARING_MANUFACTURE_TYPES_CAPACITY_AND_ISO_9001_2015",
+        "url": "https://www.hb-bearings.com/1manufacture/manufacturex.htm",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "REGISTERED_COMPANY_NAME_NUMBER_AND_UK_ADDRESS",
+        "url": "https://www.hb-bearings.com/6gen/statinfox.htm",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "bearings",
+        "industrial machinery"
+      ],
+      "families": [
+        "Gamet Bearings",
+        "Single Row Bearings",
+        "Double Row Bearings"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "packaging"
+      ],
+      "country": "United Kingdom",
+      "headquarters": "Holmfirth, United Kingdom"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -24668,18 +25037,84 @@
   {
     "manufacturerId": "gsm",
     "displayName": "GSM",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 486,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The generic repository identity GSM cannot be bound safely to one manufacturer. Multiple unrelated manufacturer-owned businesses actively use GSM for different industrial product scopes, while the repository record has no domain, alias, country or product-scope evidence that distinguishes the intended entity."
+    "effortClass": "FAST",
+    "domain": "stmspa.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "STM_IDENTITY_FOUNDING_ADDRESS_AND_GSM_ACQUISITION_TIMELINE",
+        "url": "https://www.stmspa.com/en/about-us-pa-37",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HIGH_TECH_MOTION_INDUSTRIAL_AND_HEAVY_DUTY_SERIES_RANGE",
+        "url": "https://www.stmspa.com/en/products/high-tech-ln-1",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_CATEGORY_NAMES_ACROSS_HIGH_TECH_STANDARD_ELECTRONIC_CUSTOM",
+        "url": "https://www.stmspa.com/en/product-catalogue-pa-57",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "APPLICATION_SECTORS_SERVED",
+        "url": "https://www.stmspa.com/en/applications-pa-7",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "GSMOVERX_RIGID_BASE_GEARBOX_MODEL_EVIDENCE",
+        "url": "https://www.stmspa.com/it/prodotti/high-tech/riduttori-con-base-rigida-gsmoverx-pd-75",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "gear units and geared drives",
+        "drive and motion-control systems",
+        "electric motors"
+      ],
+      "families": [
+        "High Tech",
+        "Standard",
+        "Electronic",
+        "Custom",
+        "Inline Gearboxes",
+        "Parallel Gearboxes",
+        "Shaft Mounted Gearboxes",
+        "Bevel Helical Gearboxes",
+        "Planetary Gearboxes",
+        "Worm Gearboxes",
+        "Helical Worm Gearboxes",
+        "Right Angle Gearboxes",
+        "Mechanical Speed Variators",
+        "Electronic Speed Variators",
+        "Electric Motors",
+        "Inverters"
+      ],
+      "industries": [
+        "chemical processing",
+        "mining",
+        "industrial manufacturing",
+        "energy"
+      ],
+      "country": "Italy",
+      "headquarters": "Lippo di Calderara di Reno, Italy"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -25882,18 +26317,66 @@
   {
     "manufacturerId": "jiskoot",
     "displayName": "JISKOOT",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 501,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The repository identity JISKOOT cannot be bound safely to one current manufacturer. Jiskoot Solutions Ltd is an independent sampling and measurement consultancy and equipment developer, while its own company history distinguishes that business from the earlier Jiskoot Ltd, whose JISKOOT technology became part of SLB. The repository record has no domain, legal name or product-scope discriminator that proves which entity is intended."
+    "effortClass": "FAST",
+    "domain": "sensiaglobal.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "JISKOOT_SAMPLING_PRODUCT_FAMILIES_AND_APPLICATIONS",
+        "url": "https://www.sensiaglobal.com/measurement/custody-transfer-and-fiscal-sampling/jiskoot-sampling-products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "MEASUREMENT_BRAND_PORTFOLIO_AND_INTEGRATED_SYSTEM_AREAS",
+        "url": "https://www.sensiaglobal.com/measurement",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "SENSIA_JOINT_VENTURE_IDENTITY_AND_ANNOUNCED_DISSOLUTION",
+        "url": "https://www.sensiaglobal.com/new-chapter",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "SENSIA_LLC_HEADQUARTERS_ADDRESS",
+        "url": "https://www.sensiaglobal.com/contact-us",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial automation and control"
+      ],
+      "families": [
+        "JISKOOT Gas Samplers",
+        "JISKOOT Liquid Cell Samplers",
+        "JISKOOT Liquid Probe Samplers",
+        "JISKOOT Loop Extractors",
+        "JISKOOT Sample Receivers",
+        "JISKOOT Sampling Control Systems",
+        "JISKOOT Laboratory Equipment"
+      ],
+      "industries": [
+        "oil and gas",
+        "energy",
+        "chemical processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -25915,19 +26398,98 @@
   },
   {
     "manufacturerId": "lamson",
-    "displayName": "LAMSON",
-    "status": "BRAND_REVIEW",
+    "displayName": "Lamson",
+    "status": "BRAND_SAFE",
     "priority": 503,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The repository identity LAMSON is shared by multiple active manufacturer-owned businesses. Official sites identify a Lamson industrial-blower brand within Hoffman & Lamson, Lamson Oil Company for metalworking fluids, Lamson Manufacturing for CNC machining, and Lamson Concepts for materials-handling and pneumatic-tube systems. The repository record has no domain or product-scope evidence that selects one of these unrelated entities."
+    "effortClass": "FAST",
+    "domain": "hoffmanandlamson.com",
+    "sources": [
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "BRAND_HISTORY_GARDNER_DENVER_NASH_DIVISION_AND_MANUFACTURING_SITES",
+        "url": "https://www.hoffmanandlamson.com/en/about-us/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "LAMSON_1880_AND_HOFFMAN_1905_ESTABLISHMENT_DATES",
+        "url": "https://www.hoffmanandlamson.com/en/about-us/history/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "SMALL_INLET_MULTISTAGE_LAMSON_FRAME_MODELS",
+        "url": "https://www.hoffmanandlamson.com/en/products/blowers-and-exhausters/multistage-centrifugal/small-inlet/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MEDIUM_FLOW_INLET_MULTISTAGE_LAMSON_FRAME_MODELS",
+        "url": "https://www.hoffmanandlamson.com/en/products/blowers-and-exhausters/multistage-centrifugal/medium-inlet/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HIGH_FLOW_INLET_MULTISTAGE_LAMSON_FRAME_MODELS",
+        "url": "https://www.hoffmanandlamson.com/en/products/blowers-and-exhausters/multistage-centrifugal/large-inlet/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CONTROLS_AND_ENERGY_MANAGEMENT_PRODUCT_NAMES",
+        "url": "https://www.hoffmanandlamson.com/en/products/controls-and-energy-management/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "GENERAL_INDUSTRIAL_APPLICATIONS_NAMED",
+        "url": "https://www.hoffmanandlamson.com/en/industries/general-industry/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "WATER_AND_WASTEWATER_TREATMENT_APPLICATIONS_NAMED",
+        "url": "https://www.hoffmanandlamson.com/en/industries/water-and-wastewater-treatment/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial fans and blowers",
+        "compressors and compressed-air systems",
+        "vacuum equipment"
+      ],
+      "families": [
+        "Multistage Centrifugal",
+        "PD Blowers",
+        "Turbo Blowers",
+        "Regenerative Blowers",
+        "Fabricated Blowers",
+        "Remanufactured Blowers",
+        "Legacy Central Vacuum",
+        "Controls and Energy Management",
+        "Custom Engineered Solutions"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing",
+        "chemical processing"
+      ],
+      "country": "United States",
+      "headquarters": null
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -34982,17 +35544,67 @@
   {
     "manufacturerId": "lmf",
     "displayName": "LMF",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 668,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "lmf.at",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HIGH_PRESSURE_COMPRESSOR_MODELS_AND_APPLICATIONS",
+        "url": "https://www.lmf.at/applications/industrial-applications/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "AUSTRIAN_IDENTITY_FOUNDING_AND_KAISHAN_GROUP_MEMBERSHIP",
+        "url": "https://www.lmf.at/about-lmf/about-us/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "PROCESS_GAS_PACKAGE_SCOPE_FRAME_RATING_AND_OIL_GAS_APPLICATIONS",
+        "url": "https://www.lmf.at/applications/oil-gas/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BROCHURE_TITLES_INCLUDING_PET_VC_AND_V_TYPE",
+        "url": "https://www.lmf.at/about-lmf/download-area/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "compressors and compressed-air systems",
+        "industrial machinery"
+      ],
+      "families": [
+        "V-Type Aircooled Watercooled",
+        "PET-VC",
+        "Bare Blocks",
+        "Mobile Solutions",
+        "API618",
+        "CNG-CBG",
+        "Rotary Screw"
+      ],
+      "industries": [
+        "oil and gas",
+        "energy",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "Austria",
+      "headquarters": "Leobersdorf, Austria"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -35663,17 +36275,79 @@
   {
     "manufacturerId": "autel",
     "displayName": "AUTEL",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 683,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "aeautel.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ELECTRONIC_CONTROLLER_AND_DISPLAY_MODEL_RANGE",
+        "url": "https://www.aeautel.it/en/product-category-4/electronics/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MECHANICAL_FILTRATION_VALVE_SIZES",
+        "url": "https://www.aeautel.it/en/divisions/filtration/valves/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MECHANICAL_FILTRATION_TANK_RANGE",
+        "url": "https://www.aeautel.it/en/divisions/filtration/tanks/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_YEAR_SASSUOLO_HEADQUARTERS_CERTIFICATIONS_AND_THREE_BUSINESS_UNITS",
+        "url": "https://www.aeautel.it/en/company/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "SERVED_APPLICATION_SECTORS",
+        "url": "https://www.aeautel.it/en/sectors/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "filtration and water systems",
+        "industrial valves and flow control",
+        "measurement and instrumentation"
+      ],
+      "families": [
+        "Mechanical Filtration",
+        "Valves",
+        "Tanks",
+        "Electronic Multi-Sector",
+        "Filtration Controllers",
+        "Controllers for other application sectors",
+        "Control Panel Multi-Sector",
+        "Motor Starter and Control Cabinets",
+        "PLC Based Automation",
+        "Smart Factory"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "energy",
+        "agriculture",
+        "factory automation"
+      ],
+      "country": "Italy",
+      "headquarters": "Sassuolo, Italy"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -35756,17 +36430,62 @@
   {
     "manufacturerId": "behringer",
     "displayName": "BEHRINGER",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 686,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "reason": "AMBIGUOUS_IDENTITY"
+    "effortClass": "FAST",
+    "domain": "behringer.net",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_FAMILY_NAMES_BANDSAWS_CIRCULAR_SAWS_VERNET_LINES_AND_CAST_IRON",
+        "url": "https://www.behringer.net/en/products.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PROFILE_LINE_SERIES_HDX_HDV_MAPS_HDL_AND_ALL_VPX_MODELS",
+        "url": "https://www.behringer.net/en/products/profile-lines.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_1919_FAMILY_OWNERSHIP_GROUP_COMPANIES_AND_CUSTOMER_BASE",
+        "url": "https://www.behringer.net/en/behringer-group/behringer.html",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PLATE_MACHINING_MAG_AND_FG_SERIES",
+        "url": "https://www.behringer.net/en/products/plate-machines.html",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "BEHRINGER Bandsaws",
+        "EISELE Circular Saws",
+        "VERNET Profile Lines",
+        "VERNET Plate Machines",
+        "BEHRINGER Cast Iron Products"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Kirchardt, Germany"
     },
-    "checkedAt": null,
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -36529,19 +37248,65 @@
   },
   {
     "manufacturerId": "stm-industrial-electronics",
-    "displayName": "STM INDUSTRIAL ELECTRONICS",
-    "status": "BRAND_REVIEW",
+    "displayName": "STM Products",
+    "status": "BRAND_SAFE",
     "priority": 702,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The repository label STM INDUSTRIAL ELECTRONICS does not include a legal name, country, official domain or product discriminator. It cannot be bound safely to one manufacturer-owned source without risking a wrong-company profile."
+    "effortClass": "FAST",
+    "domain": "stm-products.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "OVEN_CONTROLLER_MODEL_RANGE_INCLUDING_DEOC_AND_DEOC_G",
+        "url": "https://www.stm-products.com/en/electronic-solutions/control-for-food/control-for-food-prodotti/sensatic-forni/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_YEAR_1983_FOUNDERS_AND_INDUSTRIAL_ELECTRONICS_SCOPE",
+        "url": "https://www.stm-products.com/en/stm/storia/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_VERONA_ADDRESS",
+        "url": "https://www.stm-products.com/en/contatti/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "filling and packaging machinery",
+        "thermal-management equipment"
+      ],
+      "families": [
+        "SENSATIC CELLS",
+        "SENSATIC OVENS",
+        "SENSATIC MIXER",
+        "WATER CHILLERS",
+        "PROFESSIONAL WATER CHILLERS",
+        "INDUSTRIAL WATER CHILLERS",
+        "DOSER-MIXERS",
+        "YELLOW LINE",
+        "ORANGE LINE",
+        "GREEN LINE"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing",
+        "factory automation",
+        "marine applications"
+      ],
+      "country": "Italy",
+      "headquarters": "Verona, Italy"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -36995,36 +37760,155 @@
   },
   {
     "manufacturerId": "carver",
-    "displayName": "CARVER",
-    "status": "BRAND_REVIEW",
+    "displayName": "Carver Pump",
+    "status": "BRAND_SAFE",
     "priority": 712,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "CARVER is a shared industrial name. Manufacturer-owned sources identify unrelated pump, press, laboratory-equipment and vehicle businesses, while the repository record lacks a domain, legal name, country or product discriminator."
+    "effortClass": "FAST",
+    "domain": "carverpump.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "CENTRIFUGAL_PUMP_PRODUCT_LINE_SCOPE",
+        "url": "https://www.carverpump.com/pumps/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_1938_MUSCATINE_IOWA_MANUFACTURING_AND_ISO_9001",
+        "url": "https://www.carverpump.com/company/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "M_SERIES_ASTM_F998_MARINE_NAVAL_SPECIFICATION",
+        "url": "https://www.carverpump.com/product-line/m-series/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "BROCHURE_AND_MANUAL_LIBRARY_FOR_PUMP_MODELS",
+        "url": "https://www.carverpump.com/resources/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "industrial machinery"
+      ],
+      "families": [
+        "API Maxum OH2",
+        "Maxum OH1",
+        "RS",
+        "GH",
+        "G2C",
+        "G2S",
+        "M Series",
+        "850",
+        "855",
+        "KWP",
+        "VLO",
+        "RSV",
+        "DPC Systems"
+      ],
+      "industries": [
+        "marine applications",
+        "oil and gas",
+        "energy",
+        "wood and paper processing"
+      ],
+      "country": "United States",
+      "headquarters": "Muscatine, Iowa, United States"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "cms",
     "displayName": "CMS",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 713,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "The three-letter identity CMS is not sufficient to select one manufacturer. Multiple unrelated machine, measurement and industrial-equipment companies use the name and no authoritative discriminator is present in the repository record."
+    "effortClass": "FAST",
+    "domain": "cms.it",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "TECNOCUT_PRESSURE_INTENSIFIER_MODELS_AND_SPECIFICATIONS",
+        "url": "https://www.cms.it/en/advancedmaterials/products/complete-waterjet-systems.c163614/pressure-intensifiers.163616/tecnocut-jetpower-evo.163619",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "FOUNDING_1969_PIETRO_ACETI_MATERIAL_SECTORS_AND_INDUSTRIES",
+        "url": "https://www.cms.it/en",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "SCM_GROUP_MEMBERSHIP_SINCE_2002_AND_ZOGNO_PRODUCTION_SITES",
+        "url": "https://www.cms.it/en/company",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "CONTACT",
+        "tier": "A",
+        "scope": "CMS_SPA_OFFICES_AND_PRODUCTION_ADDRESS_IN_ZOGNO_BG_ITALY",
+        "url": "https://www.cms.it/en/contacts",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "ADVANCED_MATERIALS_PRODUCT_FAMILY_NAMES",
+        "url": "https://www.cms.it/en/advancedmaterials/products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "KREATOR_ARES_KREATOR_A3_AND_KREAROB_ADDITIVE_PRODUCTS",
+        "url": "https://www.cms.it/en/advancedmaterials/products/solutions-for-additive.c142608",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "5-axis CNC machining centers for milling and drilling",
+        "CNC machining center for the eyewear industry",
+        "CNC machining centers for gunstocks processing",
+        "Wind blade working systems",
+        "Solutions for Additive Manufacturing",
+        "Complete waterjet systems",
+        "Pressure intensifiers",
+        "Waterjet cutting machines",
+        "Solutions for Automation",
+        "Beam saws"
+      ],
+      "industries": [
+        "aerospace",
+        "transportation",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Zogno (BG), Italy"
     },
-    "checkedAt": "2026-08-20",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -38331,35 +39215,132 @@
   {
     "manufacturerId": "wolf",
     "displayName": "WOLF",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 743,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "WOLF is used by multiple unrelated current manufacturers, and the queue record does not contain enough scope information to identify one manufacturer-owned source without risking a false match."
+    "effortClass": "FAST",
+    "domain": "wolf.eu",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "AIR_HANDLING_UNIT_PRODUCT_SCOPE",
+        "url": "https://www.wolf.eu/en-de/professional/ahu-products",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDING_1963_MAINBURG_ARISTON_OWNERSHIP_AND_SALES_NETWORK",
+        "url": "https://www.wolf.eu/en-de/about-us/company",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "REGISTERED_ADDRESS_AND_ARISTON_HOLDING_OWNERSHIP",
+        "url": "https://www.wolf.eu/en-de/imprint",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "CKL_POOL_UNIT_SIZES_AND_TECHNICAL_SCOPE",
+        "url": "https://www.wolf.eu/en-de/professional/ahu-products/pool-units/ckl-pool",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "HEATING_AND_AIRHANDLING_DOCUMENT_DOWNLOADS",
+        "url": "https://www.wolf.eu/en-de/professional/downloads",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "KG Top",
+        "KG Flex",
+        "KG Flex Pool",
+        "CKL Pool",
+        "Fanwall DCA",
+        "CHA-Monoblock",
+        "Air heating & fan systems"
+      ],
+      "industries": [
+        "building systems",
+        "factory automation"
+      ],
+      "country": "Germany",
+      "headquarters": "Mainburg, Germany"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
     "manufacturerId": "aeg",
     "displayName": "AEG",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 744,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "AEG is a broad licensed and legacy brand used across several present-day product businesses; the raw record does not identify the intended legal manufacturer or industrial product scope."
+    "effortClass": "FAST",
+    "domain": "aeg-low-voltage.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_SITE",
+        "tier": "A",
+        "scope": "LOW_VOLTAGE_INSTALLATION_DEVICE_SCOPE_AND_ELECTROLUX_TRADEMARK_LICENCE",
+        "url": "https://www.aeg-low-voltage.com/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "ABB_ASEA_BROWN_BOVERI_PROVIDER_INFORMATION",
+        "url": "https://aeg-low-voltage.com/impressum",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "TECHNICAL_DOCUMENTATION",
+        "tier": "A",
+        "scope": "MASTER_DATA_AND_QUALIFIED_ELECTRICIAN_INSTALLATION_NOTICE",
+        "url": "https://aeg-low-voltage.com/richtlinien",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "ONLINE_CATALOG_ARTICLE_NUMBER_SEARCH_AND_LUEDENSCHEID_SALES_SERVICE",
+        "url": "https://aeg-low-voltage.com/kontakt",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial safety equipment",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Miniature circuit breakers",
+        "Residual current circuit breakers",
+        "Surge protection devices"
+      ],
+      "industries": [
+        "factory automation",
+        "energy"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -43458,18 +44439,57 @@
   {
     "manufacturerId": "ibs",
     "displayName": "IBS",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 850,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "IBS is shared by multiple unrelated active industrial manufacturers, including fluid-control, cooling-system and power-system businesses. The repository record has no country, legal-name or product-scope discriminator that safely selects one manufacturer-owned source."
+    "effortClass": "FAST",
+    "domain": "ibs-brenner.de",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "INDUSTRIAL_BURNER_RANGE_AND_GBC_GBS_SPECIFICATION",
+        "url": "https://www.ibs-brenner.de/gas-burner-gbc-gbs.php",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDATION_1969_HAGEN_LOCATION_AND_COMPANY_HISTORY",
+        "url": "https://www.ibs-brenner.de/enterprise.php",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "thermal-management equipment",
+        "industrial valves and flow control",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "Process Burner CONEFIRE",
+        "Duct Burner GRIDFIRE",
+        "Recuperative Burner LOOPFIRE",
+        "Recuperative Burner RECUFIRE",
+        "Gas Burner GBC/GBS",
+        "Regenerative Burner REGFIRE",
+        "High Temperature Burner GBS H",
+        "Lance Burner LANCEFIRE",
+        "Pilot Burner IPB",
+        "Ceramic Radiant Tubes",
+        "Gas Governor Systems",
+        "Hot Gas Generators"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Hagen, Germany"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -44334,19 +45354,83 @@
   },
   {
     "manufacturerId": "cab",
-    "displayName": "CAB",
-    "status": "BRAND_REVIEW",
+    "displayName": "cab",
+    "status": "BRAND_SAFE",
     "priority": 870,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "CAB is a short generic identity used by unrelated companies. The repository record has no country, legal-name or product-family discriminator that would safely establish one canonical manufacturer."
+    "effortClass": "FAST",
+    "domain": "cab.de",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "KARLSRUHE_LEGAL_ENTITY_AND_MARKING_ELECTRONICS_DIVISION_SCOPE",
+        "url": "https://www.cab.de/en/company/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "FOUNDED_1975_EIGHT_COUNTRIES_500_DISTRIBUTION_PARTNERS_TURNOVER_AND_APPLICATION_SECTORS",
+        "url": "https://www.cab.de/en/company/about-us/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "MARKING_PRODUCT_GROUPS_AND_MODEL_DESIGNATIONS",
+        "url": "https://www.cab.de/en/marking/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PCB_SEPARATOR_MAGAZINE_CONNECTOR_AND_SOCKET_DESIGNATIONS",
+        "url": "https://www.cab.de/en/electronics/",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "filling and packaging machinery",
+        "industrial connectivity",
+        "industrial automation and control"
+      ],
+      "families": [
+        "MACH1/MACH2",
+        "MACH 4S",
+        "EOS2/EOS5",
+        "SQUIX",
+        "SQUIX Linerless",
+        "XC Q",
+        "XD Q",
+        "HERMES Q",
+        "HERMES QL",
+        "Hermes C",
+        "AXON 1",
+        "AXON 2",
+        "ROXI",
+        "IXOR",
+        "IXOR +",
+        "PX Q",
+        "PX QS",
+        "XENO",
+        "cablabel S3",
+        "HEKTOR 2",
+        "MAESTRO"
+      ],
+      "industries": [
+        "packaging",
+        "industrial processing",
+        "factory automation"
+      ],
+      "country": "Germany",
+      "headquarters": "Karlsruhe, Germany"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
@@ -46964,19 +48048,71 @@
   },
   {
     "manufacturerId": "diemme",
-    "displayName": "DIEMME",
-    "status": "BRAND_REVIEW",
+    "displayName": "Diemme Filtration",
+    "status": "BRAND_SAFE",
     "priority": 927,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "AMBIGUOUS_IDENTITY",
-      "reason": "DIEMME is used by two active Italian equipment manufacturers, Diemme Filtration and DIEMME Enologia. The raw identity does not identify which entity is intended."
+    "effortClass": "FAST",
+    "domain": "diemmefiltration.com",
+    "sources": [
+      {
+        "type": "ABOUT_AND_PRODUCTS",
+        "tier": "A",
+        "scope": "FILTER_PRESS_THICKENER_AND_PUMP_PRODUCT_SCOPE_AND_LUGO_ADDRESS",
+        "url": "https://www.diemmefiltration.com/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "EARLY_1970S_ORIGIN_FROM_FOOD_INDUSTRY_FILTER_PRESS_TECHNOLOGY",
+        "url": "https://www.diemmefiltration.com/sludge-disposal/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "NEWS",
+        "tier": "A",
+        "scope": "SALE_OF_DIEMME_FILTRATION_BY_AQSEPTENCE_GROUP_TO_SANDVIK_GROUP",
+        "url": "https://www.diemmefiltration.com/blog/aqseptence-oaktree-sale-diemme-filtration-sandvik/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "PISTON_AND_PISTON_MEMBRANE_PUMPS_FOR_SMALL_AND_MEDIUM_RECESSED_PLATE_FILTER_PRESSES",
+        "url": "https://www.diemmefiltration.com/pumps/",
+        "checkedAt": "2026-09-01"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PISTON_AND_PISTON_MEMBRANE_PUMP_MODEL_DESIGNATIONS",
+        "url": "https://www.diemmefiltration.com/wp-content/uploads/2022/08/pompe_eng.pdf",
+        "checkedAt": "2026-09-01"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Filter Presses",
+        "Thickeners",
+        "Pumps"
+      ],
+      "industries": [
+        "mining",
+        "chemical processing",
+        "water and wastewater",
+        "food and pharmaceutical processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Lugo (RA), Italy"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-01",
     "nextReviewAt": null
   },
   {
