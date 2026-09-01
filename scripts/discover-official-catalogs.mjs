@@ -165,11 +165,21 @@ async function investigate(profile) {
       try { url = new URL(guess, home.finalUrl).toString(); } catch { continue; }
       try {
         const page = await fetchHtml(url);
+        // Many sites answer an unknown path with a redirect to the homepage
+        // and status 200, so a guessed URL only counts when the destination
+        // still looks like the page that was asked for. Affetti, EXAKT and
+        // Tadano all landed back on their homepage this way, and Little Giant
+        // served its own /404 page with a 200.
+        const landed = new URL(page.finalUrl);
+        const keyword = guess.split("/").filter(Boolean).pop().slice(0, 6);
+        const stillThere = landed.pathname.toLowerCase().includes(keyword)
+          && !/\b404\b|not[-_]?found/iu.test(landed.pathname);
         const inner = candidateLinks(page.html, page.finalUrl, domains);
-        links = inner.length
-          ? inner
-          : [{ url: page.finalUrl, label: `direct ${guess}`, score: 1 }];
-        break;
+        if (inner.length) { links = inner; break; }
+        if (stillThere) {
+          links = [{ url: page.finalUrl, label: `direct ${guess}`, score: 1 }];
+          break;
+        }
       } catch { /* the path does not exist on this site */ }
     }
   }
