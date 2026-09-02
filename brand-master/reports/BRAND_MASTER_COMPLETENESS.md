@@ -4,23 +4,23 @@ Generated: 2026-08-24T00:00:00.000Z
 
 Completeness is an inventory indicator, not a truth score. A complete record can still require future revalidation; an unresolved record is not promoted merely because many fields are populated.
 
-- Total identities: 2806
-- BRAND_SAFE: 2231
-- BRAND_REVIEW: 575
-- BRAND_COMPLETE: 1938
-- SAFE with logo: 1590
-- Sources: 3917
+- Total identities: 2740
+- BRAND_SAFE: 2354
+- BRAND_REVIEW: 386
+- BRAND_COMPLETE: 2155
+- SAFE with logo: 1812
+- Sources: 4528
 
 | Field | Records | Coverage |
 | --- | ---: | ---: |
-| identity | 2231 | 79.5% |
-| source | 2231 | 79.5% |
-| description | 2231 | 79.5% |
-| category | 2231 | 79.5% |
-| families | 2215 | 78.9% |
-| country | 2029 | 72.3% |
-| headquarters | 965 | 34.4% |
-| logo | 1590 | 56.7% |
-| documents | 2171 | 77.4% |
+| identity | 2354 | 85.9% |
+| source | 2354 | 85.9% |
+| description | 2354 | 85.9% |
+| category | 2354 | 85.9% |
+| families | 2330 | 85.0% |
+| country | 2141 | 78.1% |
+| headquarters | 1260 | 46.0% |
+| logo | 1812 | 66.1% |
+| documents | 2308 | 84.2% |
 
 Per-brand results are stored in `data/brand-completeness.json`.

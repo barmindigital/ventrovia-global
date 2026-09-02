@@ -684,7 +684,7 @@ const presentationPayload = brands
 if (siteSpecificPattern.test(presentationPayload)) {
   throw new Error("Portable Brand Master contains site-specific presentation copy.");
 }
-if (brands.length !== identities.manufacturerCount || brands.length !== 2806) {
+if (brands.length !== identities.manufacturerCount || brands.length !== 2740) {
   throw new Error(`Brand Master count mismatch: ${brands.length}`);
 }
 if (new Set(brands.map((brand) => brand.id)).size !== brands.length) {

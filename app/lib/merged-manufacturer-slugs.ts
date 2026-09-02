@@ -37,4 +37,9 @@ export const mergedManufacturerSlugs: ReadonlyArray<{ from: string; to: string }
   { from: "orsatti-motori", to: "ome-motors" },
   { from: "sew-usocome", to: "sew-eurodrive" },
   { from: "sirai", to: "asco-numatics" },
+  { from: "gat-gmbh", to: "moog" },
+  { from: "herborner-pumpenfabrik", to: "herborner-pumpentechnik" },
+  { from: "santasalo", to: "david-brown" },
+  { from: "negele", to: "anderson-negele-negele-messtechnik-gmbh" },
+  { from: "mtl", to: "mtl-instruments" },
 ];

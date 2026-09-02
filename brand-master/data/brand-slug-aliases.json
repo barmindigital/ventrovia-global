@@ -51,24 +51,37 @@
       "brandId": "elco-motors",
       "canonicalSlug": "elco-motors",
       "nameAliases": [
-        "ELCO"
+        "ELCO",
+        "Elco Group",
+        "Elco S.p.A.",
+        "Elettromeccanica F.lli Colombo di Vittorio"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "elco",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
+      "safeAliasSlugs": [
+        "elco",
+        "elco-group",
+        "elco-s-p-a",
+        "elettromeccanica-f-lli-colombo-di-vittorio"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "micro-detectors",
       "canonicalSlug": "micro-detectors",
       "nameAliases": [
-        "MICRO DETECTORS"
+        "MICRO DETECTORS",
+        "M.D. Micro Detectors",
+        "MD Micro Detectors",
+        "Datasensing",
+        "M.D. Micro Detectors S.p.A.",
+        "Diell"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "m-d-micro-detectors",
+        "md-micro-detectors",
+        "datasensing",
+        "m-d-micro-detectors-s-p-a",
+        "diell"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -112,10 +125,18 @@
         "BESEL"
       ],
       "safeAliasSlugs": [
-        "cantoni-motor",
-        "besel"
+        "cantoni-motor"
       ],
-      "blockedAliasSlugs": []
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "besel",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "cantoni-group",
+            "besel-sa"
+          ]
+        }
+      ]
     },
     {
       "brandId": "brook-crompton",
@@ -185,9 +206,20 @@
       "brandId": "tee-electric-motors",
       "canonicalSlug": "tee-electric-motors",
       "nameAliases": [
-        "TEE ELECTRIC MOTORS"
+        "TEE ELECTRIC MOTORS",
+        "TEE",
+        "WAT Motor",
+        "WAT",
+        "Türk General Elektrik Endüstrisi A.Ş.",
+        "Türk Elektrik Endüstrisi A.Ş."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "tee",
+        "wat-motor",
+        "wat",
+        "turk-general-elektrik-endustrisi-a-s",
+        "turk-elektrik-endustrisi-a-s"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -268,15 +300,6 @@
       "safeAliasSlugs": [
         "leybold-vacuum"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "macro-sensors",
-      "canonicalSlug": "macro-sensors",
-      "nameAliases": [
-        "MACRO SENSORS"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -772,16 +795,10 @@
         "EBRO ARMATUREN",
         "EBRO"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "ebro",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "ebro-armaturen"
-          ]
-        }
-      ]
+      "safeAliasSlugs": [
+        "ebro"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "wagner",
@@ -1036,9 +1053,15 @@
       "brandId": "datasensor",
       "canonicalSlug": "datasensor",
       "nameAliases": [
-        "DATASENSOR"
+        "DATASENSOR",
+        "Datasensor",
+        "Datalogic Datasensor",
+        "Datasensing S.r.l."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "datalogic-datasensor",
+        "datasensing-s-r-l"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -1150,9 +1173,13 @@
       "brandId": "simotop",
       "canonicalSlug": "simotop",
       "nameAliases": [
-        "SIMOTOP"
+        "SIMOTOP",
+        "Simotop Group",
+        "SimoTop"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "simotop-group"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -1534,9 +1561,14 @@
       "brandId": "freund",
       "canonicalSlug": "freund",
       "nameAliases": [
-        "FREUND"
+        "FREUND",
+        "Freund Germany",
+        "Freund Maschinenfabrik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "freund-germany",
+        "freund-maschinenfabrik"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -2060,9 +2092,13 @@
       "brandId": "champion",
       "canonicalSlug": "champion",
       "nameAliases": [
-        "CHAMPION"
+        "CHAMPION",
+        "Champion",
+        "Champion Compressors"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "champion-compressors"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -2426,17 +2462,10 @@
         "KROMSCHRÖDER"
       ],
       "safeAliasSlugs": [
-        "elster-kromschroder"
+        "elster-kromschroder",
+        "kromschroder"
       ],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "kromschroder",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "elster-kromschroeder"
-          ]
-        }
-      ]
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "huba-control",
@@ -2590,16 +2619,20 @@
       "brandId": "kohler-motors",
       "canonicalSlug": "kohler-motors",
       "nameAliases": [
-        "KOHLER"
+        "KOHLER",
+        "Kohler Power",
+        "Rehlko Power Systems",
+        "Kohler Energy",
+        "Kohler Power Systems"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "kohler",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
+      "safeAliasSlugs": [
+        "kohler",
+        "kohler-power",
+        "rehlko-power-systems",
+        "kohler-energy",
+        "kohler-power-systems"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "krombach",
@@ -2756,9 +2789,14 @@
       "brandId": "elko",
       "canonicalSlug": "elko",
       "nameAliases": [
-        "ELKO"
+        "ELKO",
+        "Elko Maribor",
+        "Elko Elektrokovina"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "elko-maribor",
+        "elko-elektrokovina"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -3182,9 +3220,12 @@
       "brandId": "mil-s",
       "canonicalSlug": "mil-s",
       "nameAliases": [
-        "MIL S"
+        "MIL S",
+        "MILS"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "mils"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -3303,9 +3344,12 @@
       "brandId": "nimco",
       "canonicalSlug": "nimco",
       "nameAliases": [
-        "NIMCO"
+        "NIMCO",
+        "Nimco Corporation"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "nimco-corporation"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -4300,9 +4344,14 @@
       "brandId": "stone",
       "canonicalSlug": "stone",
       "nameAliases": [
-        "STONE"
+        "STONE",
+        "Stone Hydraulic",
+        "Stone Pick-A-Pack"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "stone-hydraulic",
+        "stone-pick-a-pack"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5107,9 +5156,13 @@
       "brandId": "cometal",
       "canonicalSlug": "cometal",
       "nameAliases": [
-        "COMETAL"
+        "COMETAL",
+        "Cometal",
+        "Cometal Eng"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "cometal-eng"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5413,9 +5466,12 @@
       "brandId": "ena",
       "canonicalSlug": "ena",
       "nameAliases": [
-        "ENA"
+        "ENA",
+        "AO ENA"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ao-ena"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5592,9 +5648,15 @@
       "brandId": "gamet",
       "canonicalSlug": "gamet",
       "nameAliases": [
-        "GAMET"
+        "GAMET",
+        "Gamet",
+        "HB Bearings",
+        "HB Bearings Limited"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "hb-bearings",
+        "hb-bearings-limited"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5660,10 +5722,23 @@
       "brandId": "gsm",
       "canonicalSlug": "gsm",
       "nameAliases": [
-        "GSM"
+        "GSM",
+        "G.S.M. SpA",
+        "STM"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "g-s-m-spa"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "stm",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "gsm",
+            "stm-industrial-electronics"
+          ]
+        }
+      ]
     },
     {
       "brandId": "gsr-ventiltechnik",
@@ -5842,9 +5917,15 @@
       "brandId": "jiskoot",
       "canonicalSlug": "jiskoot",
       "nameAliases": [
-        "JISKOOT"
+        "JISKOOT",
+        "Jiskoot",
+        "JISKOOT Sampling",
+        "Sensia JISKOOT"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "jiskoot-sampling",
+        "sensia-jiskoot"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5860,9 +5941,13 @@
       "brandId": "lamson",
       "canonicalSlug": "lamson",
       "nameAliases": [
-        "LAMSON"
+        "LAMSON",
+        "Hoffman & Lamson",
+        "Hoffman and Lamson"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "hoffman-and-lamson"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5937,17 +6022,10 @@
       ],
       "safeAliasSlugs": [
         "nord-drivesystems",
+        "getriebebau-nord",
         "nord-gear"
       ],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "getriebebau-nord",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "nord"
-          ]
-        }
-      ]
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "nuaire",
@@ -6248,9 +6326,16 @@
       "brandId": "slavkov",
       "canonicalSlug": "slavkov",
       "nameAliases": [
-        "SLAVKOV"
+        "SLAVKOV",
+        "EMP",
+        "EMP s.r.o. Slavkov u Brna",
+        "EMP elektromotory a čerpadla"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "emp",
+        "emp-s-r-o-slavkov-u-brna",
+        "emp-elektromotory-a-cerpadla"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -6342,9 +6427,14 @@
       "brandId": "tecnomec-3",
       "canonicalSlug": "tecnomec-3",
       "nameAliases": [
-        "TECNOMEC 3"
+        "TECNOMEC 3",
+        "Tecnomec3",
+        "TECNOMEC 3 S.r.l."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "tecnomec3",
+        "tecnomec-3-s-r-l"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -7270,15 +7360,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "aseptomag",
-      "canonicalSlug": "aseptomag",
-      "nameAliases": [
-        "ASEPTOMAG"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "balkansko-echo",
       "canonicalSlug": "balkansko-echo",
       "nameAliases": [
@@ -7294,9 +7375,17 @@
       "brandId": "buhler",
       "canonicalSlug": "buhler",
       "nameAliases": [
-        "BUHLER"
+        "BUHLER",
+        "Buehler Motor",
+        "Buhler Motor",
+        "BÜHLER MOTOR",
+        "Gebrüder Bühler Nachfolger"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "buehler-motor",
+        "buhler-motor",
+        "gebruder-buhler-nachfolger"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -7772,9 +7861,16 @@
       "brandId": "alltec",
       "canonicalSlug": "alltec",
       "nameAliases": [
-        "ALLTEC"
+        "ALLTEC",
+        "FOBA",
+        "Alltec FOBA",
+        "FOBA Laser Marking + Engraving"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "foba",
+        "alltec-foba",
+        "foba-laser-marking-engraving"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -7888,27 +7984,52 @@
       "brandId": "keller",
       "canonicalSlug": "keller",
       "nameAliases": [
-        "KELLER"
+        "KELLER",
+        "Keller Pressure",
+        "KELLER Druckmesstechnik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "keller-pressure",
+        "keller-druckmesstechnik"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "koch",
       "canonicalSlug": "koch",
       "nameAliases": [
-        "KOCH"
+        "KOCH",
+        "Koch Membrane Systems",
+        "KMS",
+        "Koch Separation Solutions",
+        "Kovalus",
+        "Abcor, Inc.",
+        "Koch Membrane Systems, Inc."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "koch-membrane-systems",
+        "kms",
+        "koch-separation-solutions",
+        "kovalus",
+        "abcor-inc",
+        "koch-membrane-systems-inc"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "lmf",
       "canonicalSlug": "lmf",
       "nameAliases": [
-        "LMF"
+        "LMF",
+        "LMF Kaishan",
+        "Leobersdorfer Maschinenfabrik",
+        "LMF Compressors"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "lmf-kaishan",
+        "leobersdorfer-maschinenfabrik",
+        "lmf-compressors"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8065,9 +8186,14 @@
       "brandId": "autel",
       "canonicalSlug": "autel",
       "nameAliases": [
-        "AUTEL"
+        "AUTEL",
+        "AE Autel",
+        "Autel S.r.l."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ae-autel",
+        "autel-s-r-l"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8083,18 +8209,36 @@
       "brandId": "backtech",
       "canonicalSlug": "backtech",
       "nameAliases": [
-        "BACKTECH"
+        "BACKTECH",
+        "BACKTECH SAM",
+        "BackTech",
+        "Back-Tech Austria",
+        "SAM Bäckereitechnik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "backtech-sam",
+        "back-tech-austria",
+        "sam-backereitechnik"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "behringer",
       "canonicalSlug": "behringer",
       "nameAliases": [
-        "BEHRINGER"
+        "BEHRINGER",
+        "Behringer",
+        "Behringer Group",
+        "Behringer GmbH Maschinenfabrik und Eisengießerei",
+        "Vernet Behringer",
+        "Behringer Eisele"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "behringer-group",
+        "behringer-gmbh-maschinenfabrik-und-eisengie-erei",
+        "vernet-behringer",
+        "behringer-eisele"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8277,10 +8421,25 @@
       "brandId": "stm-industrial-electronics",
       "canonicalSlug": "stm-industrial-electronics",
       "nameAliases": [
-        "STM INDUSTRIAL ELECTRONICS"
+        "STM INDUSTRIAL ELECTRONICS",
+        "STM PRODUCTS",
+        "STM",
+        "STM Products S.r.l."
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "stm-products",
+        "stm-products-s-r-l"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "stm",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "gsm",
+            "stm-industrial-electronics"
+          ]
+        }
+      ]
     },
     {
       "brandId": "studer",
@@ -8298,9 +8457,12 @@
       "brandId": "unimac",
       "canonicalSlug": "unimac",
       "nameAliases": [
-        "UNIMAC"
+        "UNIMAC",
+        "Uni-Mac"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "uni-mac"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8348,16 +8510,10 @@
         "AGIE CHARMILLES",
         "Agie Charmilles"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "agie-charmilles",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "agiecharmilles"
-          ]
-        }
-      ]
+      "safeAliasSlugs": [
+        "agie-charmilles"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "anderson-greenwood",
@@ -8393,18 +8549,28 @@
       "brandId": "carver",
       "canonicalSlug": "carver",
       "nameAliases": [
-        "CARVER"
+        "CARVER",
+        "Carver Pump Co."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "carver-pump-co"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "cms",
       "canonicalSlug": "cms",
       "nameAliases": [
-        "CMS"
+        "CMS",
+        "CMS SpA",
+        "Costruzioni Macchine Speciali",
+        "CMS Advanced Materials Technology"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "cms-spa",
+        "costruzioni-macchine-speciali",
+        "cms-advanced-materials-technology"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8621,9 +8787,14 @@
       "brandId": "rotex",
       "canonicalSlug": "rotex",
       "nameAliases": [
-        "ROTEX"
+        "ROTEX",
+        "Rotex Global",
+        "Rotex Europe"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "rotex-global",
+        "rotex-europe"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8638,21 +8809,6 @@
         "robuschi-pumps"
       ],
       "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "seybert-rahier",
-      "canonicalSlug": "seybert-rahier",
-      "nameAliases": [
-        "SEYBERT & RAHIER"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "seybert-and-rahier",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
     },
     {
       "brandId": "siempelkamp",
@@ -8718,18 +8874,30 @@
       "brandId": "wolf",
       "canonicalSlug": "wolf",
       "nameAliases": [
-        "WOLF"
+        "WOLF",
+        "WOLF GmbH",
+        "Wolf Heiztechnik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "wolf-gmbh",
+        "wolf-heiztechnik"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "aeg",
       "canonicalSlug": "aeg",
       "nameAliases": [
-        "AEG"
+        "AEG",
+        "AEG Low Voltage",
+        "AEG Niederspannung",
+        "AEG Baja Tensión"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "aeg-low-voltage",
+        "aeg-niederspannung",
+        "aeg-baja-tension"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -8944,10 +9112,18 @@
       ],
       "safeAliasSlugs": [
         "nowicki",
-        "nowicki-machinery",
-        "noma"
+        "nowicki-machinery"
       ],
-      "blockedAliasSlugs": []
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "noma",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "metalbud-nowicki",
+            "noma-getriebe"
+          ]
+        }
+      ]
     },
     {
       "brandId": "oriental-motor",
@@ -9006,17 +9182,10 @@
         "Gamar"
       ],
       "safeAliasSlugs": [
-        "sacemi"
+        "sacemi",
+        "gamar"
       ],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "gamar",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "sacemi-gamar"
-          ]
-        }
-      ]
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "sandvik",
@@ -9233,15 +9402,6 @@
       "canonicalSlug": "itec",
       "nameAliases": [
         "ITEC"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "kromschroder",
-      "canonicalSlug": "kromschroder",
-      "nameAliases": [
-        "KROMSCHRODER"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -9518,9 +9678,12 @@
       "brandId": "bockwoldt",
       "canonicalSlug": "bockwoldt",
       "nameAliases": [
-        "BOCKWOLDT"
+        "BOCKWOLDT",
+        "BOCKWOLDT Antriebstechnik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "bockwoldt-antriebstechnik"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -9889,9 +10052,16 @@
       "brandId": "allen-coding-systems",
       "canonicalSlug": "allen-coding-systems",
       "nameAliases": [
-        "ALLEN CODING SYSTEMS"
+        "ALLEN CODING SYSTEMS",
+        "Allen Coding",
+        "ALLEN",
+        "Allen Coding GmbH"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "allen-coding",
+        "allen",
+        "allen-coding-gmbh"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10045,9 +10215,15 @@
       "brandId": "ibs",
       "canonicalSlug": "ibs",
       "nameAliases": [
-        "IBS"
+        "IBS",
+        "IBS Brenner",
+        "IBS-Brenner",
+        "IBS GmbH"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ibs-brenner",
+        "ibs-gmbh"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10078,9 +10254,14 @@
       "brandId": "kranz-kuhrmeier",
       "canonicalSlug": "kranz-kuhrmeier",
       "nameAliases": [
-        "KRANZ KUHRMEIER"
+        "KRANZ KUHRMEIER",
+        "KRANZ",
+        "KRANZ-Packungen"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "kranz",
+        "kranz-packungen"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10278,9 +10459,12 @@
       "brandId": "cab",
       "canonicalSlug": "cab",
       "nameAliases": [
-        "CAB"
+        "CAB",
+        "cab Produkttechnik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "cab-produkttechnik"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10333,9 +10517,14 @@
       "brandId": "fibro",
       "canonicalSlug": "fibro",
       "nameAliases": [
-        "FIBRO"
+        "FIBRO",
+        "FIBRO Rotary Tables",
+        "FIBRO Rundtische"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "fibro-rotary-tables",
+        "fibro-rundtische"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10457,15 +10646,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "konrad-reitz-ventilatoren",
-      "canonicalSlug": "konrad-reitz-ventilatoren",
-      "nameAliases": [
-        "KONRAD REITZ VENTILATOREN"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "leine8201linde",
       "canonicalSlug": "leine8201linde",
       "nameAliases": [
@@ -10577,9 +10757,13 @@
       "brandId": "udicom",
       "canonicalSlug": "udicom",
       "nameAliases": [
-        "UDICOM"
+        "UDICOM",
+        "UDICOM Elettronica",
+        "Udicom"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "udicom-elettronica"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10867,9 +11051,16 @@
       "brandId": "pelikan-vrchlabi",
       "canonicalSlug": "pelikan-vrchlabi",
       "nameAliases": [
-        "PELIKAN VRCHLABI"
+        "PELIKAN VRCHLABI",
+        "Labit metalworks",
+        "PELIKÁN Vrchlabí s.r.o.",
+        "Metalworks s.r.o."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "labit-metalworks",
+        "pelikan-vrchlabi-s-r-o",
+        "metalworks-s-r-o"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -10991,9 +11182,14 @@
       "brandId": "diemme",
       "canonicalSlug": "diemme",
       "nameAliases": [
-        "DIEMME"
+        "DIEMME",
+        "Diemme Filtration",
+        "Diemme Filtration S.r.l."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "diemme-filtration",
+        "diemme-filtration-s-r-l"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -11108,17 +11304,10 @@
         "KONRAD REITZ VENTILATOREN"
       ],
       "safeAliasSlugs": [
-        "reitz-group"
+        "reitz-group",
+        "konrad-reitz-ventilatoren"
       ],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "konrad-reitz-ventilatoren",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "reitz"
-          ]
-        }
-      ]
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "samchully",
@@ -11173,9 +11362,12 @@
       "brandId": "steelbau",
       "canonicalSlug": "steelbau",
       "nameAliases": [
-        "STEELBAU"
+        "STEELBAU",
+        "Steelbau Srl"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "steelbau-srl"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -11198,21 +11390,6 @@
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "zahnradpumpenfabrik",
-      "canonicalSlug": "zahnradpumpenfabrik",
-      "nameAliases": [
-        "ZAHNRAD PUMPEN FABRIK"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "zahnrad-pumpen-fabrik",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
     },
     {
       "brandId": "abc-compressors",
@@ -12157,15 +12334,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "agie-charmilles",
-      "canonicalSlug": "agie-charmilles",
-      "nameAliases": [
-        "AGIE CHARMILLES"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "agilent-101367",
       "canonicalSlug": "agilent-101367",
       "nameAliases": [
@@ -12352,9 +12520,12 @@
       "brandId": "alebro",
       "canonicalSlug": "alebro",
       "nameAliases": [
-        "ALEBRO"
+        "ALEBRO",
+        "ALEBRO Dosier- und Umwelttechnik"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "alebro-dosier-und-umwelttechnik"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -12647,15 +12818,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "ang-equipment",
-      "canonicalSlug": "ang-equipment",
-      "nameAliases": [
-        "ANG EQUIPMENT"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "anritsu",
       "canonicalSlug": "anritsu",
       "nameAliases": [
@@ -12756,15 +12918,6 @@
         "arca",
         "arca-regler"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "ari-stevi-comeval",
-      "canonicalSlug": "ari-stevi-comeval",
-      "nameAliases": [
-        "ARI STEVI (COMEVAL)"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -13253,21 +13406,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "b-r-acopos",
-      "canonicalSlug": "b-r-acopos",
-      "nameAliases": [
-        "B&R ACOPOS"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "b-and-r-acopos",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
-    },
-    {
       "brandId": "bachmann1",
       "canonicalSlug": "bachmann1",
       "nameAliases": [
@@ -13281,15 +13419,6 @@
           "owners": []
         }
       ]
-    },
-    {
-      "brandId": "bachofen",
-      "canonicalSlug": "bachofen",
-      "nameAliases": [
-        "BACHOFEN"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
     },
     {
       "brandId": "badger-meter",
@@ -13569,15 +13698,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "berg",
-      "canonicalSlug": "berg",
-      "nameAliases": [
-        "BERG"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "berger",
       "canonicalSlug": "berger",
       "nameAliases": [
@@ -13590,9 +13710,12 @@
       "brandId": "bertoli",
       "canonicalSlug": "bertoli",
       "nameAliases": [
-        "BERTOLI"
+        "BERTOLI",
+        "Bertoli Homogenizers"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "bertoli-homogenizers"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -13608,10 +13731,24 @@
       "brandId": "besel-sa",
       "canonicalSlug": "besel-sa",
       "nameAliases": [
-        "BESEL SA"
+        "BESEL SA",
+        "BESEL",
+        "Besel SA",
+        "Fabryka Silników Elektrycznych BESEL"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "fabryka-silnikow-elektrycznych-besel"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "besel",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "cantoni-group",
+            "besel-sa"
+          ]
+        }
+      ]
     },
     {
       "brandId": "bhs-corrugated",
@@ -13714,9 +13851,14 @@
       "brandId": "bl-bag-line",
       "canonicalSlug": "bl-bag-line",
       "nameAliases": [
-        "BL BAG LINE"
+        "BL BAG LINE",
+        "BL",
+        "BL Mediterraneo"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "bl",
+        "bl-mediterraneo"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -13861,9 +14003,14 @@
       "brandId": "bostak",
       "canonicalSlug": "bostak",
       "nameAliases": [
-        "BOSTAK"
+        "BOSTAK",
+        "Bombas Bostak",
+        "BOSTAK ELECTROMECANICA"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "bombas-bostak",
+        "bostak-electromecanica"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -14408,23 +14555,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "caryle",
-      "canonicalSlug": "caryle",
-      "nameAliases": [
-        "CARLYLE"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "carlyle",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": [
-            "carlyle-compressors"
-          ]
-        }
-      ]
-    },
-    {
       "brandId": "carlyle-compressors",
       "canonicalSlug": "carlyle-compressors",
       "nameAliases": [
@@ -14649,15 +14779,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "chemfeed",
-      "canonicalSlug": "chemfeed",
-      "nameAliases": [
-        "CHEMFEED"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "chemineer",
       "canonicalSlug": "chemineer",
       "nameAliases": [
@@ -14789,15 +14910,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "ckd-group",
-      "canonicalSlug": "ckd-group",
-      "nameAliases": [
-        "CKD GROUP"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "clack",
       "canonicalSlug": "clack",
       "nameAliases": [
@@ -14892,24 +15004,6 @@
       "safeAliasSlugs": [
         "cnh"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "coax",
-      "canonicalSlug": "coax",
-      "nameAliases": [
-        "COAX"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "coelmotori",
-      "canonicalSlug": "coelmotori",
-      "nameAliases": [
-        "COELMOTORI"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -15123,9 +15217,15 @@
       "brandId": "controlli",
       "canonicalSlug": "controlli",
       "nameAliases": [
-        "CONTROLLI"
+        "CONTROLLI",
+        "Controlli",
+        "iSMA CONTROLLI",
+        "Controlli S.p.A."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "isma-controlli",
+        "controlli-s-p-a"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -16041,15 +16141,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "ebro",
-      "canonicalSlug": "ebro",
-      "nameAliases": [
-        "EBRO"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "ecco",
       "canonicalSlug": "ecco",
       "nameAliases": [
@@ -16423,28 +16514,10 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "elliott-bay",
-      "canonicalSlug": "elliott-bay",
-      "nameAliases": [
-        "ELLIOTT BAY"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "elma",
       "canonicalSlug": "elma",
       "nameAliases": [
         "ELMA"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "elmo",
-      "canonicalSlug": "elmo",
-      "nameAliases": [
-        "ELMO"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -16697,24 +16770,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "eriks",
-      "canonicalSlug": "eriks",
-      "nameAliases": [
-        "ERIKS"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "erregiemme",
-      "canonicalSlug": "erregiemme",
-      "nameAliases": [
-        "ERREGIEMME"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "esab",
       "canonicalSlug": "esab",
       "nameAliases": [
@@ -16843,15 +16898,6 @@
       "canonicalSlug": "euro-cold",
       "nameAliases": [
         "EURO COLD"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "euromatic",
-      "canonicalSlug": "euromatic",
-      "nameAliases": [
-        "EUROMATIC"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -16995,9 +17041,12 @@
       "brandId": "facon",
       "canonicalSlug": "facon",
       "nameAliases": [
-        "FACON"
+        "FACON",
+        "Facon Srl"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "facon-srl"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -17169,15 +17218,6 @@
       "safeAliasSlugs": [
         "fenac-encoders"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "fenner",
-      "canonicalSlug": "fenner",
-      "nameAliases": [
-        "FENNER"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -17516,9 +17556,13 @@
       "brandId": "flour-valve",
       "canonicalSlug": "flour-valve",
       "nameAliases": [
-        "FLOUR VALVE"
+        "FLOUR VALVE",
+        "FLV",
+        "Flour Valve"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "flv"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -17738,15 +17782,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "franke",
-      "canonicalSlug": "franke",
-      "nameAliases": [
-        "FRANKE"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "franz-ziel-gmbh",
       "canonicalSlug": "franz-ziel-gmbh",
       "nameAliases": [
@@ -17806,9 +17841,12 @@
       "brandId": "friand-elektrotechniek-b-v",
       "canonicalSlug": "friand-elektrotechniek-b-v",
       "nameAliases": [
-        "FRIAND ELEKTROTECHNIEK B.V."
+        "FRIAND ELEKTROTECHNIEK B.V.",
+        "Friand"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "friand"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -17833,15 +17871,6 @@
       "safeAliasSlugs": [
         "johnson-controls-frick"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "fricke",
-      "canonicalSlug": "fricke",
-      "nameAliases": [
-        "FRICKE"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -18058,15 +18087,6 @@
       "safeAliasSlugs": [
         "gamak-electric-motors"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "gamar",
-      "canonicalSlug": "gamar",
-      "nameAliases": [
-        "GAMAR"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -18370,21 +18390,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "getriebebau-nord",
-      "canonicalSlug": "getriebebau-nord",
-      "nameAliases": [
-        "GETRIEBEBAU NORD GMBH"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "getriebebau-nord-gmbh",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
-    },
-    {
       "brandId": "gfa-elektromaten",
       "canonicalSlug": "gfa-elektromaten",
       "nameAliases": [
@@ -18467,15 +18472,6 @@
       "canonicalSlug": "gipo",
       "nameAliases": [
         "GIPO"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "giporec",
-      "canonicalSlug": "giporec",
-      "nameAliases": [
-        "GIPOREC"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -18663,15 +18659,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "grainger",
-      "canonicalSlug": "grainger",
-      "nameAliases": [
-        "GRAINGER"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "gram-equipment",
       "canonicalSlug": "gram-equipment",
       "nameAliases": [
@@ -18847,18 +18834,26 @@
       "brandId": "gvr-pompe",
       "canonicalSlug": "gvr-pompe",
       "nameAliases": [
-        "GVR POMPE"
+        "GVR POMPE",
+        "GVR"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "gvr"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "gwb",
       "canonicalSlug": "gwb",
       "nameAliases": [
-        "GWB"
+        "GWB",
+        "GWB™",
+        "GWB Driveshaft"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "gwbtm",
+        "gwb-driveshaft"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -18929,16 +18924,14 @@
       "brandId": "hagby-bil-smide-ab",
       "canonicalSlug": "hagby-bil-smide-ab",
       "nameAliases": [
-        "HAGBY BIL & SMIDE AB"
+        "HAGBY BIL & SMIDE AB",
+        "Hagbybil"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "hagby-bil-and-smide-ab",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
+      "safeAliasSlugs": [
+        "hagby-bil-and-smide-ab",
+        "hagbybil"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "halberg",
@@ -19894,15 +19887,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "hydroscand",
-      "canonicalSlug": "hydroscand",
-      "nameAliases": [
-        "HYDROSCAND"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "hydrotechnik",
       "canonicalSlug": "hydrotechnik",
       "nameAliases": [
@@ -19957,9 +19941,12 @@
       "brandId": "ibk-engineering",
       "canonicalSlug": "ibk-engineering",
       "nameAliases": [
-        "IBK ENGINEERING"
+        "IBK ENGINEERING",
+        "IBK Engineering GmbH"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ibk-engineering-gmbh"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -20195,24 +20182,6 @@
       "safeAliasSlugs": [
         "inductotherm-group"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "industrial-power-and-control",
-      "canonicalSlug": "industrial-power-and-control",
-      "nameAliases": [
-        "INDUSTRIAL POWER AND CONTROL"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "industrial-power-units",
-      "canonicalSlug": "industrial-power-units",
-      "nameAliases": [
-        "INDUSTRIAL POWER UNITS"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -20504,21 +20473,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "itarco",
-      "canonicalSlug": "itarco",
-      "nameAliases": [
-        "ITRACO"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "itraco",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
-    },
-    {
       "brandId": "itron",
       "canonicalSlug": "itron",
       "nameAliases": [
@@ -20575,31 +20529,16 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "jahns-hydraulik",
-      "canonicalSlug": "jahns-hydraulik",
-      "nameAliases": [
-        "JAHNS HYDRAULIK"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "jahns-regulatoren",
       "canonicalSlug": "jahns-regulatoren",
       "nameAliases": [
         "JAHNS REGULATOREN",
         "Jahns Hydraulik"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "jahns-hydraulik",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": [
-            "jahns-regulatoren"
-          ]
-        }
-      ]
+      "safeAliasSlugs": [
+        "jahns-hydraulik"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "jakob",
@@ -20722,15 +20661,6 @@
       "safeAliasSlugs": [
         "sop-sensors"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "jihostroy",
-      "canonicalSlug": "jihostroy",
-      "nameAliases": [
-        "JIHOSTROY"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -21200,15 +21130,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "kentek",
-      "canonicalSlug": "kentek",
-      "nameAliases": [
-        "KENTEK"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "keofitt",
       "canonicalSlug": "keofitt",
       "nameAliases": [
@@ -21291,15 +21212,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "kiesel",
-      "canonicalSlug": "kiesel",
-      "nameAliases": [
-        "KIESEL"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "kieselmann",
       "canonicalSlug": "kieselmann",
       "nameAliases": [
@@ -21312,9 +21224,13 @@
       "brandId": "kiheung",
       "canonicalSlug": "kiheung",
       "nameAliases": [
-        "KIHEUNG"
+        "KIHEUNG",
+        "KIHEUNG Machinery",
+        "기흥기계"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "kiheung-machinery"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -21363,15 +21279,6 @@
       "safeAliasSlugs": [
         "kitagawa"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "kitagawa-america",
-      "canonicalSlug": "kitagawa-america",
-      "nameAliases": [
-        "KITAGAWA AMERICA"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -21825,9 +21732,12 @@
       "brandId": "lamcotec",
       "canonicalSlug": "lamcotec",
       "nameAliases": [
-        "LAMCOTEC"
+        "LAMCOTEC",
+        "Laminating Coating Technologies"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "laminating-coating-technologies"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -22015,9 +21925,14 @@
       "brandId": "leroi",
       "canonicalSlug": "leroi",
       "nameAliases": [
-        "LEROI"
+        "LEROI",
+        "LeROI Compressors",
+        "LeROI Gas"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "leroi-compressors",
+        "leroi-gas"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -22540,15 +22455,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "marathon-motors",
-      "canonicalSlug": "marathon-motors",
-      "nameAliases": [
-        "MARATHON MOTORS"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "marden-edwards",
       "canonicalSlug": "marden-edwards",
       "nameAliases": [
@@ -22671,9 +22577,14 @@
       "brandId": "max-mueller",
       "canonicalSlug": "max-mueller",
       "nameAliases": [
-        "MAX MUELLER"
+        "MAX MUELLER",
+        "MAX MÜLLER",
+        "max müller",
+        "Max Mueller"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "max-muller"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23087,9 +22998,12 @@
       "brandId": "michell-instruments",
       "canonicalSlug": "michell-instruments",
       "nameAliases": [
-        "MICHELL INSTRUMENTS"
+        "MICHELL INSTRUMENTS",
+        "Michell"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "michell"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23141,18 +23055,26 @@
       "brandId": "midland-pump",
       "canonicalSlug": "midland-pump",
       "nameAliases": [
-        "MIDLAND PUMP"
+        "MIDLAND PUMP",
+        "Midland Pump Manufacturing Company"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "midland-pump-manufacturing-company"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "midland-acs",
       "canonicalSlug": "midland-acs",
       "nameAliases": [
-        "MIDLAND-ACS"
+        "MIDLAND-ACS",
+        "Midland-ACS",
+        "Midland ACS",
+        "Midland Flow"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "midland-flow"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23186,9 +23108,12 @@
       "brandId": "milton-roy",
       "canonicalSlug": "milton-roy",
       "nameAliases": [
-        "MILTON ROY"
+        "MILTON ROY",
+        "Milton Roy Mixing"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "milton-roy-mixing"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23386,7 +23311,8 @@
       "brandId": "molex",
       "canonicalSlug": "molex",
       "nameAliases": [
-        "MOLEX"
+        "MOLEX",
+        "Molex"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -23460,9 +23386,12 @@
       "brandId": "morara",
       "canonicalSlug": "morara",
       "nameAliases": [
-        "MORARA"
+        "MORARA",
+        "Morara Grinding Machines"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "morara-grinding-machines"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23487,9 +23416,12 @@
       "brandId": "morrillon",
       "canonicalSlug": "morrillon",
       "nameAliases": [
-        "MORILLON"
+        "MORILLON",
+        "Morillon Systems"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "morillon-systems"
+      ],
       "blockedAliasSlugs": [
         {
           "aliasSlug": "morillon",
@@ -23514,9 +23446,19 @@
       "brandId": "morse",
       "canonicalSlug": "morse",
       "nameAliases": [
-        "MORSE"
+        "MORSE",
+        "Morse",
+        "Morse Drive Components",
+        "Morse Chain",
+        "Morse Manufacturing Company",
+        "Morse Chain Company"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "morse-drive-components",
+        "morse-chain",
+        "morse-manufacturing-company",
+        "morse-chain-company"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23559,9 +23501,13 @@
       "brandId": "motomeccanica",
       "canonicalSlug": "motomeccanica",
       "nameAliases": [
-        "MOTOMECCANICA"
+        "MOTOMECCANICA",
+        "Motomeccanica",
+        "Motomeccanica Srl"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "motomeccanica-srl"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23658,10 +23604,28 @@
       "brandId": "mtl-instruments",
       "canonicalSlug": "mtl-instruments",
       "nameAliases": [
-        "MTL INSTRUMENTS"
+        "MTL INSTRUMENTS",
+        "MTL",
+        "MTL Products",
+        "Crouse-Hinds series MTL",
+        "Eaton MTL",
+        "Measurement Technology Limited"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "mtl-products",
+        "crouse-hinds-series-mtl",
+        "eaton-mtl",
+        "measurement-technology-limited"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "mtl",
+          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
+          "owners": [
+            "mtl-instruments"
+          ]
+        }
+      ]
     },
     {
       "brandId": "mtu",
@@ -23721,9 +23685,12 @@
       "brandId": "multivac",
       "canonicalSlug": "multivac",
       "nameAliases": [
-        "MULTIVAC"
+        "MULTIVAC",
+        "Multivac Sepp Haggenmüller"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "multivac-sepp-haggenmuller"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23813,18 +23780,23 @@
       "brandId": "nalco",
       "canonicalSlug": "nalco",
       "nameAliases": [
-        "NALCO"
+        "NALCO",
+        "Nalco",
+        "Nalco Water, an Ecolab company",
+        "Nalco Water & Process Services",
+        "National Aluminate Corporation",
+        "Nalco Chemical Company",
+        "Ondeo Nalco Company",
+        "Nalco Holding Company"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "namur",
-      "canonicalSlug": "namur",
-      "nameAliases": [
-        "NAMUR"
+      "safeAliasSlugs": [
+        "nalco-water-an-ecolab-company",
+        "nalco-water-and-process-services",
+        "national-aluminate-corporation",
+        "nalco-chemical-company",
+        "ondeo-nalco-company",
+        "nalco-holding-company"
       ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -23849,9 +23821,13 @@
       "brandId": "narzedziowcy",
       "canonicalSlug": "narzedziowcy",
       "nameAliases": [
-        "NARZEDZIOWCY"
+        "NARZEDZIOWCY",
+        "NARZĘDZIOWCY",
+        "ZPU NARZĘDZIOWCY"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "zpu-narzedziowcy"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -23876,15 +23852,6 @@
       "safeAliasSlugs": [
         "naval"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "ndt-rus-llc",
-      "canonicalSlug": "ndt-rus-llc",
-      "nameAliases": [
-        "NDT RUS LLC"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -23927,9 +23894,14 @@
       "brandId": "new-york-blower",
       "canonicalSlug": "new-york-blower",
       "nameAliases": [
-        "NEW YORK BLOWER"
+        "NEW YORK BLOWER",
+        "nyb",
+        "NYB",
+        "New York Blower"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "nyb"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -24002,9 +23974,14 @@
       "brandId": "ngr-next-generation",
       "canonicalSlug": "ngr-next-generation",
       "nameAliases": [
-        "NGR NEXT GENERATION RECYCLINGMASCHINEN GMBH"
+        "NGR NEXT GENERATION RECYCLINGMASCHINEN GMBH",
+        "NGR",
+        "Next Generation Recycling Machines"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ngr",
+        "next-generation-recycling-machines"
+      ],
       "blockedAliasSlugs": [
         {
           "aliasSlug": "ngr-next-generation-recyclingmaschinen-gmbh",
@@ -24166,19 +24143,24 @@
       "brandId": "noma-getriebe",
       "canonicalSlug": "noma-getriebe",
       "nameAliases": [
-        "NOMA GETRIEBE"
+        "NOMA GETRIEBE",
+        "NOMA",
+        "nomagears",
+        "Noma-Getriebe"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "nooney-controls",
-      "canonicalSlug": "nooney-controls",
-      "nameAliases": [
-        "NOONEY CONTROLS"
+      "safeAliasSlugs": [
+        "nomagears"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "noma",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "metalbud-nowicki",
+            "noma-getriebe"
+          ]
+        }
+      ]
     },
     {
       "brandId": "nordinox",
@@ -24193,9 +24175,15 @@
       "brandId": "norelem",
       "canonicalSlug": "norelem",
       "nameAliases": [
-        "NORELEM"
+        "NORELEM",
+        "norelem",
+        "norelem Normelemente Bau- und Vertrieb GmbH",
+        "PMP – Petite Mécanique de Précision"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "norelem-normelemente-bau-und-vertrieb-gmbh",
+        "pmp-petite-mecanique-de-precision"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -24226,18 +24214,26 @@
       "brandId": "norriseal",
       "canonicalSlug": "norriseal",
       "nameAliases": [
-        "NORRISEAL"
+        "NORRISEAL",
+        "Norriseal Wellmark",
+        "Norriseal-Wellmark Valves & Controls"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "norriseal-wellmark",
+        "norriseal-wellmark-valves-and-controls"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "novaseptic",
       "canonicalSlug": "novaseptic",
       "nameAliases": [
-        "NOVASEPTIC"
+        "NOVASEPTIC",
+        "NovAseptic Hardware"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "novaseptic-hardware"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -24334,9 +24330,12 @@
       "brandId": "oberdorfer-pumps",
       "canonicalSlug": "oberdorfer-pumps",
       "nameAliases": [
-        "OBERDORFER PUMPS"
+        "OBERDORFER PUMPS",
+        "Oberdorfer"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "oberdorfer"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -24373,9 +24372,14 @@
       "brandId": "officine-meccaniche-gallaratesi",
       "canonicalSlug": "officine-meccaniche-gallaratesi",
       "nameAliases": [
-        "OFFICINE MECCANICHE GALLARATESI"
+        "OFFICINE MECCANICHE GALLARATESI",
+        "OMG",
+        "OMG Pumps"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "omg",
+        "omg-pumps"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -24550,9 +24554,12 @@
       "brandId": "omi",
       "canonicalSlug": "omi",
       "nameAliases": [
-        "OMI"
+        "OMI",
+        "OMI Italy"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "omi-italy"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -24700,15 +24707,6 @@
       "nameAliases": [
         "ORBIT MERRET",
         "ORBIT-MERRET"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "orsatti-motori",
-      "canonicalSlug": "orsatti-motori",
-      "nameAliases": [
-        "ORSATTI MOTORI"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -25379,21 +25377,24 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "powerjacks",
-      "canonicalSlug": "powerjacks",
-      "nameAliases": [
-        "POWERJACKS"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "powernet-oy",
       "canonicalSlug": "powernet-oy",
       "nameAliases": [
-        "POWERNET OY"
+        "POWERNET OY",
+        "Inission Power",
+        "Powernet International Oy",
+        "Powernet Oy",
+        "Enedo Finland Oy",
+        "Enedo Oyj",
+        "Efore Oyj"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "inission-power",
+        "powernet-international-oy",
+        "enedo-finland-oy",
+        "enedo-oyj",
+        "efore-oyj"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -25522,10 +25523,23 @@
       "brandId": "provibtech",
       "canonicalSlug": "provibtech",
       "nameAliases": [
-        "PROVIBTECH"
+        "PROVIBTECH",
+        "PVTVM",
+        "ProvibTech",
+        "ProvibTech, Inc."
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "provibtech-inc"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "pvtvm",
+          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
+          "owners": [
+            "provibtech"
+          ]
+        }
+      ]
     },
     {
       "brandId": "proxes",
@@ -25573,9 +25587,13 @@
       "brandId": "psp-pohony",
       "canonicalSlug": "psp-pohony",
       "nameAliases": [
-        "PSP POHONY"
+        "PSP POHONY",
+        "PSP Pohony",
+        "PSP Pohony a.s."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "psp-pohony-a-s"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -25741,9 +25759,14 @@
       "brandId": "ransburg",
       "canonicalSlug": "ransburg",
       "nameAliases": [
-        "RANSBURG"
+        "RANSBURG",
+        "Ransburg by Binks",
+        "Ransburg Electrostatic"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ransburg-by-binks",
+        "ransburg-electrostatic"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -25792,9 +25815,13 @@
       "brandId": "ravent",
       "canonicalSlug": "ravent",
       "nameAliases": [
-        "RAVENT"
+        "RAVENT",
+        "RaVent",
+        "RaVent s. r. o."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ravent-s-r-o"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -26016,15 +26043,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "reyher",
-      "canonicalSlug": "reyher",
-      "nameAliases": [
-        "REYHER"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "rg-antriebstechnik",
       "canonicalSlug": "rg-antriebstechnik",
       "nameAliases": [
@@ -26055,9 +26073,15 @@
       "brandId": "rhineair",
       "canonicalSlug": "rhineair",
       "nameAliases": [
-        "RHINEAIR"
+        "RHINEAIR",
+        "Aerial",
+        "Aerial Machine & Tool",
+        "RhineAir"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "aerial",
+        "aerial-machine-and-tool"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -26073,9 +26097,14 @@
       "brandId": "ridgid",
       "canonicalSlug": "ridgid",
       "nameAliases": [
-        "RIDGID"
+        "RIDGID",
+        "Ridge Tool",
+        "RIDGID Tools"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "ridge-tool",
+        "ridgid-tools"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -26205,7 +26234,8 @@
       "brandId": "roberts-gordon",
       "canonicalSlug": "roberts-gordon",
       "nameAliases": [
-        "ROBERTS-GORDON"
+        "ROBERTS-GORDON",
+        "Roberts Gordon"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -26214,7 +26244,8 @@
       "brandId": "robertshaw",
       "canonicalSlug": "robertshaw",
       "nameAliases": [
-        "ROBERTSHAW"
+        "ROBERTSHAW",
+        "Robertshaw"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -26276,9 +26307,14 @@
       "brandId": "roesen",
       "canonicalSlug": "roesen",
       "nameAliases": [
-        "ROESEN"
+        "ROESEN",
+        "Roesen GmbH Lubrication Systems",
+        "Roesen-Bremen Lubrication Systems"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "roesen-gmbh-lubrication-systems",
+        "roesen-bremen-lubrication-systems"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -26547,15 +26583,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "royal-brinkman",
-      "canonicalSlug": "royal-brinkman",
-      "nameAliases": [
-        "ROYAL BRINKMAN"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "rpm-spa",
       "canonicalSlug": "rpm-spa",
       "nameAliases": [
@@ -26604,9 +26631,15 @@
       "brandId": "rueger",
       "canonicalSlug": "rueger",
       "nameAliases": [
-        "RUEGER"
+        "RUEGER",
+        "Rüeger",
+        "Rueger",
+        "Rüeger Holdings SA",
+        "Rüeger®"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "rueger-holdings-sa"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -26920,18 +26953,26 @@
       "brandId": "sauermann",
       "canonicalSlug": "sauermann",
       "nameAliases": [
-        "SAUERMANN"
+        "SAUERMANN",
+        "Sauermann Group"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "sauermann-group"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "saunders",
       "canonicalSlug": "saunders",
       "nameAliases": [
-        "SAUNDERS"
+        "SAUNDERS",
+        "SAUNDERS IDV",
+        "SAUNDERS HC4"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "saunders-idv",
+        "saunders-hc4"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -26961,9 +27002,12 @@
       "brandId": "scan-coin",
       "canonicalSlug": "scan-coin",
       "nameAliases": [
-        "SCAN COIN"
+        "SCAN COIN",
+        "ScanCoin"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "scancoin"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -27188,9 +27232,16 @@
       "brandId": "sed-flowcontrol",
       "canonicalSlug": "sed-flowcontrol",
       "nameAliases": [
-        "SED FLOWCONTROL"
+        "SED FLOWCONTROL",
+        "SED",
+        "SED Flow Control",
+        "SAMSON SED"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "sed",
+        "sed-flow-control",
+        "samson-sed"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -27510,15 +27561,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "sew-usocome",
-      "canonicalSlug": "sew-usocome",
-      "nameAliases": [
-        "SEW USOCOME"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "sewon",
       "canonicalSlug": "sewon",
       "nameAliases": [
@@ -27609,9 +27651,17 @@
       "brandId": "sicme-motori",
       "canonicalSlug": "sicme-motori",
       "nameAliases": [
-        "SICME MOTORI"
+        "SICME MOTORI",
+        "Sicme Motori",
+        "Orange1 Sicme",
+        "Sicme Orange1",
+        "Sicme Motori S.r.l."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "orange1-sicme",
+        "sicme-orange1",
+        "sicme-motori-s-r-l"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -27627,9 +27677,15 @@
       "brandId": "sidi-mondial",
       "canonicalSlug": "sidi-mondial",
       "nameAliases": [
-        "SIDI MONDIAL"
+        "SIDI MONDIAL",
+        "SIDI",
+        "Sidi Mondial",
+        "Sidi Mondial Srl"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "sidi",
+        "sidi-mondial-srl"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -27709,38 +27765,11 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "simalube",
-      "canonicalSlug": "simalube",
-      "nameAliases": [
-        "SIMALUBE"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "simax",
-      "canonicalSlug": "simax",
-      "nameAliases": [
-        "SIMAX"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "simco-ion",
       "canonicalSlug": "simco-ion",
       "nameAliases": [
         "SIMCO-ION",
         "SIMCO ION"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "simplatroll",
-      "canonicalSlug": "simplatroll",
-      "nameAliases": [
-        "SIMPLATROLL"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -27773,9 +27802,15 @@
       "brandId": "singflo",
       "canonicalSlug": "singflo",
       "nameAliases": [
-        "SINGFLO"
+        "SINGFLO",
+        "Singflo",
+        "Xiamen Youme Electric",
+        "Youme"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "xiamen-youme-electric",
+        "youme"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -27807,15 +27842,6 @@
       "canonicalSlug": "sintex",
       "nameAliases": [
         "SINTEX"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "sirai",
-      "canonicalSlug": "sirai",
-      "nameAliases": [
-        "SIRAI"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -27875,9 +27901,14 @@
       "brandId": "skako",
       "canonicalSlug": "skako",
       "nameAliases": [
-        "SKAKO"
+        "SKAKO",
+        "SKAKO Vibration",
+        "SKAKO VIBRATION A/S"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "skako-vibration",
+        "skako-vibration-a-s"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -27975,9 +28006,13 @@
       "brandId": "smw-autoblok",
       "canonicalSlug": "smw-autoblok",
       "nameAliases": [
-        "SMW-AUTOBLOK"
+        "SMW-AUTOBLOK",
+        "SMW Autoblok",
+        "AUTOBLOK S.P.A."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "autoblok-s-p-a"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28053,15 +28088,6 @@
       "canonicalSlug": "sodick",
       "nameAliases": [
         "SODICK"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "sodime",
-      "canonicalSlug": "sodime",
-      "nameAliases": [
-        "SODIME"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -28146,21 +28172,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "southwest-oilfeld-products",
-      "canonicalSlug": "southwest-oilfeld-products",
-      "nameAliases": [
-        "SOUTHWEST OILFIELD PRODUCTS"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "southwest-oilfield-products",
-          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
-          "owners": []
-        }
-      ]
-    },
-    {
       "brandId": "southwest-oilfield-products",
       "canonicalSlug": "southwest-oilfield-products",
       "nameAliases": [
@@ -28199,9 +28210,14 @@
       "brandId": "spandau-pumpen",
       "canonicalSlug": "spandau-pumpen",
       "nameAliases": [
-        "SPANDAU PUMPEN"
+        "SPANDAU PUMPEN",
+        "Spandau Pumpen by EBARA",
+        "Spandau"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "spandau-pumpen-by-ebara",
+        "spandau"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28247,9 +28263,12 @@
       "brandId": "spirol",
       "canonicalSlug": "spirol",
       "nameAliases": [
-        "SPIROL"
+        "SPIROL",
+        "SPIROL International"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "spirol-international"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28421,9 +28440,12 @@
       "brandId": "stedman",
       "canonicalSlug": "stedman",
       "nameAliases": [
-        "STEDMAN"
+        "STEDMAN",
+        "Stedman Machine"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "stedman-machine"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28452,15 +28474,6 @@
       "canonicalSlug": "steinel",
       "nameAliases": [
         "STEINEL"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "steinle",
-      "canonicalSlug": "steinle",
-      "nameAliases": [
-        "STEINLE"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -28512,9 +28525,16 @@
       "brandId": "sterling-electric",
       "canonicalSlug": "sterling-electric",
       "nameAliases": [
-        "STERLING ELECTRIC"
+        "STERLING ELECTRIC",
+        "Sterling Electric, Inc",
+        "Sterling Electric Motors",
+        "Sterling Power Systems, Inc."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "sterling-electric-inc",
+        "sterling-electric-motors",
+        "sterling-power-systems-inc"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28542,15 +28562,6 @@
         "the-stewarts-group",
         "ca-stewart"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "stork",
-      "canonicalSlug": "stork",
-      "nameAliases": [
-        "STORK"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -28635,9 +28646,12 @@
       "brandId": "sun-hydraulics",
       "canonicalSlug": "sun-hydraulics",
       "nameAliases": [
-        "SUN HYDRAULICS"
+        "SUN HYDRAULICS",
+        "Sun"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "sun"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28645,15 +28659,6 @@
       "canonicalSlug": "sundyne",
       "nameAliases": [
         "SUNDYNE"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "sunflo",
-      "canonicalSlug": "sunflo",
-      "nameAliases": [
-        "SUNFLO"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -28733,9 +28738,12 @@
       "brandId": "swedish-neutral",
       "canonicalSlug": "swedish-neutral",
       "nameAliases": [
-        "SWEDISH NEUTRAL"
+        "SWEDISH NEUTRAL",
+        "Swedish Neutral AB"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "swedish-neutral-ab"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28772,27 +28780,29 @@
       "brandId": "swr-engineering",
       "canonicalSlug": "swr-engineering",
       "nameAliases": [
-        "SWR ENGINEERING"
+        "SWR ENGINEERING",
+        "ENVEA - SWR engineering",
+        "ENVEA Process",
+        "SWR engineering"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "envea-swr-engineering",
+        "envea-process"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "sylvania",
       "canonicalSlug": "sylvania",
       "nameAliases": [
-        "SYLVANIA"
+        "SYLVANIA",
+        "Sylvania Group",
+        "FEILO Sylvania"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "syntegon-technology",
-      "canonicalSlug": "syntegon-technology",
-      "nameAliases": [
-        "SYNTEGON TECHNOLOGY"
+      "safeAliasSlugs": [
+        "sylvania-group",
+        "feilo-sylvania"
       ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -28884,15 +28894,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "taylor-goodman",
-      "canonicalSlug": "taylor-goodman",
-      "nameAliases": [
-        "TAYLOR GOODMAN"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "taylor-hobson",
       "canonicalSlug": "taylor-hobson",
       "nameAliases": [
@@ -28905,9 +28906,14 @@
       "brandId": "tb-woods",
       "canonicalSlug": "tb-woods",
       "nameAliases": [
-        "TB WOODS"
+        "TB WOODS",
+        "TB Wood's",
+        "TB Wood's Incorporated"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "tb-wood-s",
+        "tb-wood-s-incorporated"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -28965,18 +28971,24 @@
       "brandId": "te-connectivity",
       "canonicalSlug": "te-connectivity",
       "nameAliases": [
-        "TE CONNECTIVITY"
+        "TE CONNECTIVITY",
+        "TE"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "te"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "teaflex",
       "canonicalSlug": "teaflex",
       "nameAliases": [
-        "TEAFLEX"
+        "TEAFLEX",
+        "Teaflex S.p.a"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "teaflex-s-p-a"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -29010,16 +29022,14 @@
       "brandId": "fmc",
       "canonicalSlug": "fmc",
       "nameAliases": [
-        "TECHNIPFMC"
+        "TECHNIPFMC",
+        "TechnipFMC",
+        "FMC"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "technipfmc",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
+      "safeAliasSlugs": [
+        "technipfmc"
+      ],
+      "blockedAliasSlugs": []
     },
     {
       "brandId": "tecna",
@@ -29091,7 +29101,8 @@
       "brandId": "tekno-stamap",
       "canonicalSlug": "tekno-stamap",
       "nameAliases": [
-        "TEKNO STAMAP"
+        "TEKNO STAMAP",
+        "Tekno Stamap"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -29172,21 +29183,18 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "telestar",
-      "canonicalSlug": "telestar",
-      "nameAliases": [
-        "TELESTAR"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "televac",
       "canonicalSlug": "televac",
       "nameAliases": [
-        "TELEVAC"
+        "TELEVAC",
+        "Televac",
+        "Fredericks",
+        "The Fredericks Company"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "fredericks",
+        "the-fredericks-company"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -29972,21 +29980,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "lapp-gmbh",
-      "canonicalSlug": "lapp-gmbh",
-      "nameAliases": [
-        "U.I. LAPP GMBH"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "u-i-lapp-gmbh",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
-    },
-    {
       "brandId": "uas",
       "canonicalSlug": "uas",
       "nameAliases": [
@@ -30188,28 +30181,10 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "valsteam",
-      "canonicalSlug": "valsteam",
-      "nameAliases": [
-        "VALSTEAM"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "valtec",
       "canonicalSlug": "valtec",
       "nameAliases": [
         "VALTEC"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "valtek",
-      "canonicalSlug": "valtek",
-      "nameAliases": [
-        "VALTEK"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -30324,15 +30299,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "verdermag",
-      "canonicalSlug": "verdermag",
-      "nameAliases": [
-        "VERDERMAG"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "verdi",
       "canonicalSlug": "verdi",
       "nameAliases": [
@@ -30340,21 +30306,6 @@
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "vertex-manufacturing-solutions",
-      "canonicalSlug": "vertex-manufacturing-solutions",
-      "nameAliases": [
-        "VERTEX MANUFACTURING SOLUTIONS (VMS)"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "vertex-manufacturing-solutions-vms",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
     },
     {
       "brandId": "vetter-gmbh",
@@ -30669,18 +30620,26 @@
       "brandId": "waters",
       "canonicalSlug": "waters",
       "nameAliases": [
-        "WATERS"
+        "WATERS",
+        "Waters",
+        "Waters Corp."
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "waters-corp"
+      ],
       "blockedAliasSlugs": []
     },
     {
       "brandId": "watlow",
       "canonicalSlug": "watlow",
       "nameAliases": [
-        "WATLOW"
+        "WATLOW",
+        "Watlow",
+        "Watlow Electric"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "watlow-electric"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -30790,15 +30749,6 @@
       "safeAliasSlugs": [
         "xylem-wedeco"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "weeke",
-      "canonicalSlug": "weeke",
-      "nameAliases": [
-        "WEEKE"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {

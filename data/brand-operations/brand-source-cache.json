@@ -46375,17 +46375,6 @@
       "reason": "Galvi is a short generic name used in unrelated industrial and materials contexts. No queue-level discriminator resolves the intended manufacturer-owned identity."
     },
     {
-      "manufacturerId": "gat-gmbh",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "attemptedUrls": [
-        "https://www.gat-mbh.de/en/",
-        "https://www.gat-mbh.de/en/products/"
-      ],
-      "checkedAt": "2026-08-24",
-      "nextReviewAt": null,
-      "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company."
-    },
-    {
       "manufacturerId": "general-electric",
       "status": "BLOCKED_CORPORATE_SPLIT_SCOPE",
       "attemptedUrls": [
@@ -46589,16 +46578,6 @@
       "checkedAt": "2026-08-24",
       "nextReviewAt": null,
       "reason": "HELIOS is used by multiple unrelated active manufacturers. Helios Ventilatoren is a strong candidate, but the queue identity has no product-scope or legal-name discriminator sufficient for automatic publication."
-    },
-    {
-      "manufacturerId": "herborner-pumpenfabrik",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "attemptedUrls": [
-        "https://www.herborner-pumpen.com/en/info/"
-      ],
-      "checkedAt": "2026-08-24",
-      "nextReviewAt": null,
-      "reason": "HERBORNER PUMPENFABRIK resolves to the same current legal manufacturer and official domain as the existing Herborner Pumpentechnik profile. Publishing both would duplicate one manufacturer identity."
     },
     {
       "manufacturerId": "hibar-systems",
@@ -47365,17 +47344,6 @@
       "reason": "The MOTOROLA record does not distinguish Motorola Solutions, Motorola Mobility or a legacy industrial/electronics business. These are materially different current identities and cannot be merged into one manufacturer profile safely."
     },
     {
-      "manufacturerId": "mtl",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "attemptedUrls": [
-        "https://www.mtl-inst.com/",
-        "https://www.eaton.com/us/en-us/products/process-safety-automation-measurement.html"
-      ],
-      "checkedAt": "2026-08-24",
-      "nextReviewAt": null,
-      "reason": "MTL and MTL INSTRUMENTS refer to the same current Eaton Crouse-Hinds series MTL identity. Publishing both records would create duplicate canonical brand pages; the shorter record must remain blocked pending an editorial merge decision."
-    },
-    {
       "manufacturerId": "muller",
       "status": "AMBIGUOUS_IDENTITY",
       "attemptedUrls": [
@@ -47441,16 +47409,6 @@
       "checkedAt": "2026-08-24",
       "nextReviewAt": null,
       "reason": "NAPCO is used by multiple unrelated current manufacturers and industrial companies in adhesives, packaging, aluminium, security and other sectors. The repository record has no authoritative discriminator."
-    },
-    {
-      "manufacturerId": "negele",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "attemptedUrls": [
-        "https://www.anderson-negele.com/us/products/"
-      ],
-      "checkedAt": "2026-08-24",
-      "nextReviewAt": null,
-      "reason": "The current Anderson-Negele manufacturer identity already has the canonical record and sourced profile anderson-negele-negele-messtechnik-gmbh. Publishing the bare NEGELE record would duplicate that verified brand page."
     },
     {
       "manufacturerId": "neway",
@@ -48172,16 +48130,6 @@
       "checkedAt": "2026-08-24",
       "nextReviewAt": null,
       "reason": "SAMSUNG identifies a corporate group and numerous distinct operating companies and product businesses. The bare record does not identify one industrial manufacturer entity or scope."
-    },
-    {
-      "manufacturerId": "santasalo",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "attemptedUrls": [
-        "https://www.dbsantasalo.com/new-gear-systems"
-      ],
-      "checkedAt": "2026-08-24",
-      "nextReviewAt": null,
-      "reason": "Current official evidence identifies Santasalo within David Brown Santasalo, which is already represented by canonical manufacturerId david-brown. Publishing another current profile would duplicate the same company and official domain."
     },
     {
       "manufacturerId": "satec",

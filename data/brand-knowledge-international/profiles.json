@@ -173476,16 +173476,6 @@
       "attemptedUrls": []
     },
     {
-      "manufacturerId": "gat-gmbh",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company.",
-      "attemptedUrls": [
-        "https://www.gat-mbh.de/en/",
-        "https://www.gat-mbh.de/en/products/"
-      ]
-    },
-    {
       "manufacturerId": "general-electric",
       "status": "BLOCKED_CORPORATE_SPLIT_SCOPE",
       "checkedAt": "2026-08-24",
@@ -173670,15 +173660,6 @@
       "attemptedUrls": [
         "https://www.heliosventilatoren.de/en/",
         "https://www.helios-heaters.com/"
-      ]
-    },
-    {
-      "manufacturerId": "herborner-pumpenfabrik",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "HERBORNER PUMPENFABRIK resolves to the same current legal manufacturer and official domain as the existing Herborner Pumpentechnik profile. Publishing both would duplicate one manufacturer identity.",
-      "attemptedUrls": [
-        "https://www.herborner-pumpen.com/en/info/"
       ]
     },
     {
@@ -174378,16 +174359,6 @@
       ]
     },
     {
-      "manufacturerId": "mtl",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "MTL and MTL INSTRUMENTS refer to the same current Eaton Crouse-Hinds series MTL identity. Publishing both records would create duplicate canonical brand pages; the shorter record must remain blocked pending an editorial merge decision.",
-      "attemptedUrls": [
-        "https://www.mtl-inst.com/",
-        "https://www.eaton.com/us/en-us/products/process-safety-automation-measurement.html"
-      ]
-    },
-    {
       "manufacturerId": "muller",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -174446,15 +174417,6 @@
       "reason": "NAPCO is used by multiple unrelated current manufacturers and industrial companies in adhesives, packaging, aluminium, security and other sectors. The repository record has no authoritative discriminator.",
       "attemptedUrls": [
         "https://www.google.com/search?q=NAPCO+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "negele",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The current Anderson-Negele manufacturer identity already has the canonical record and sourced profile anderson-negele-negele-messtechnik-gmbh. Publishing the bare NEGELE record would duplicate that verified brand page.",
-      "attemptedUrls": [
-        "https://www.anderson-negele.com/us/products/"
       ]
     },
     {
@@ -175108,15 +175070,6 @@
       "reason": "SAMSUNG identifies a corporate group and numerous distinct operating companies and product businesses. The bare record does not identify one industrial manufacturer entity or scope.",
       "attemptedUrls": [
         "https://www.samsung.com/"
-      ]
-    },
-    {
-      "manufacturerId": "santasalo",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Current official evidence identifies Santasalo within David Brown Santasalo, which is already represented by canonical manufacturerId david-brown. Publishing another current profile would duplicate the same company and official domain.",
-      "attemptedUrls": [
-        "https://www.dbsantasalo.com/new-gear-systems"
       ]
     },
     {
@@ -176050,6 +176003,6 @@
     "enContentReady": 2354,
     "enSeoReady": 2354,
     "sourceRecords": 4528,
-    "brandReview": 386
+    "brandReview": 381
   }
 }

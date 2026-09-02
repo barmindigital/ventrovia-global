@@ -4,26 +4,6 @@
   "policy": "CANDIDATES_ONLY_NO_AUTOMATIC_MERGES",
   "normalizedIdentityCollisions": [
     {
-      "normalizedValue": "agiecharmilles",
-      "matches": [
-        {
-          "brandId": "agiecharmilles",
-          "matchedValue": "AGIECHARMILLES",
-          "valueType": "NAME"
-        },
-        {
-          "brandId": "agie-charmilles",
-          "matchedValue": "AGIE CHARMILLES",
-          "valueType": "NAME"
-        }
-      ],
-      "brandIds": [
-        "agiecharmilles",
-        "agie-charmilles"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
       "normalizedValue": "btg",
       "matches": [
         {
@@ -42,79 +22,9 @@
         "btg"
       ],
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "normalizedValue": "powerjacks",
-      "matches": [
-        {
-          "brandId": "power-jacks",
-          "matchedValue": "POWER JACKS",
-          "valueType": "NAME"
-        },
-        {
-          "brandId": "powerjacks",
-          "matchedValue": "POWERJACKS",
-          "valueType": "NAME"
-        }
-      ],
-      "brandIds": [
-        "power-jacks",
-        "powerjacks"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "normalizedValue": "southwestoilfieldproducts",
-      "matches": [
-        {
-          "brandId": "southwest-oilfeld-products",
-          "matchedValue": "SOUTHWEST OILFIELD PRODUCTS",
-          "valueType": "NAME"
-        },
-        {
-          "brandId": "southwest-oilfield-products",
-          "matchedValue": "SOUTHWEST OILFIELD PRODUCTS",
-          "valueType": "NAME"
-        }
-      ],
-      "brandIds": [
-        "southwest-oilfeld-products",
-        "southwest-oilfield-products"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     }
   ],
   "reviewDuplicateCandidates": [
-    {
-      "brandId": "agie-charmilles",
-      "blockerCode": "BLOCKED_IDENTITY_SCOPE",
-      "reason": "This record resolves to the same AgieCharmilles commercial identity already published under canonical manufacturer ID agiecharmilles. A second indexable profile would create a duplicate canonical entity; alias or redirect review is required instead.",
-      "attemptedUrls": [
-        "https://www.agiecharmilles.com/",
-        "https://www.gfms.com/en-us/machines/edm.html"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "ari-stevi-comeval",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "Official evidence resolves STEVI to a product family of ARI-Armaturen, which is already represented by the canonical ari-armaturen manufacturer profile. A second manufacturer page would duplicate the same legal identity.",
-      "attemptedUrls": [
-        "https://www.ari-armaturen.com/en/",
-        "https://www.ari-armaturen.com/en/products/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "b-r-acopos",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "ACOPOS is an official B&R motion-control product family, while B&R Industrial Automation is already represented by the canonical br-automation manufacturer profile. It is not a separate manufacturer identity.",
-      "attemptedUrls": [
-        "https://www.br-automation.com/en-us/",
-        "https://www.br-automation.com/en-us/products/motion-control/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
     {
       "brandId": "btg",
       "blockerCode": "AMBIGUOUS_IDENTITY",
@@ -122,64 +32,6 @@
       "attemptedUrls": [
         "https://www.btg.com/",
         "https://www.btgworld.com/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "caryle",
-      "blockerCode": "BLOCKED_IDENTITY_SCOPE",
-      "reason": "The CARYLE/CARLYLE record resolves to the same compressor identity represented by the adjacent canonical record carlyle-compressors. Publishing both would create duplicate pages; the misspelled record requires alias or redirect review.",
-      "attemptedUrls": [
-        "https://www.carlylecompressor.com/",
-        "https://www.carlylecompressor.com/about/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "ckd-group",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "reason": "CKD GROUP resolves to the same CKD Corporation identity and official product estate as the separate canonical CKD queue record. Publishing both as independent manufacturer pages would create a duplicate identity.",
-      "attemptedUrls": [
-        "https://www.ckd.co.jp/en/productinfo/",
-        "https://www.ckd.co.jp/kiki/en/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "coax",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "Official evidence resolves this record to müller co-ax gmbh, which is already represented by the canonical co-ax-valves-inc manufacturer profile. A second public page would duplicate the same current company.",
-      "attemptedUrls": [
-        "https://co-ax.com/en/",
-        "https://co-ax.com/en/products.php"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "coelmotori",
-      "blockerCode": "AMBIGUOUS_CANONICAL_DUPLICATE",
-      "reason": "COELMOTORI resolves to the same manufacturer-owned identity and domain already represented by the canonical COEL record. A second public manufacturer profile would create a duplicate identity until canonical alias handling is explicitly approved.",
-      "attemptedUrls": [
-        "https://coelmotori.it/en/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "ebro",
-      "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
-      "reason": "EBRO resolves to the same legal manufacturer and official domain as the existing canonical EBRO ARMATUREN profile. Publishing both would create duplicate manufacturer identities.",
-      "attemptedUrls": [
-        "https://www.ebro-armaturen.com/en/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "gamar",
-      "blockerCode": "BLOCKED_CANONICAL_OVERLAP",
-      "reason": "The Gamar record shares the Sacemi-Gamar domain, company lineage and pump/motor scope with the canonical sacemi-gamar identity. Current first-party evidence does not justify a second standalone indexable manufacturer profile.",
-      "attemptedUrls": [
-        "https://www.sacemigamar.com/en/",
-        "https://www.sacemigamar.com/en/company/"
       ],
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     },
@@ -194,91 +46,11 @@
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     },
     {
-      "brandId": "getriebebau-nord",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "Official evidence resolves this record to Getriebebau NORD GmbH & Co. KG, already represented by the canonical nord manufacturer profile. A second NORD DRIVESYSTEMS page would duplicate the same current company.",
-      "attemptedUrls": [
-        "https://www.nord.com/",
-        "https://www.nord.com/en/products/products.jsp"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
       "brandId": "herborner-pumpenfabrik",
       "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
       "reason": "HERBORNER PUMPENFABRIK resolves to the same current legal manufacturer and official domain as the existing Herborner Pumpentechnik profile. Publishing both would duplicate one manufacturer identity.",
       "attemptedUrls": [
         "https://www.herborner-pumpen.com/en/info/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "jahns-hydraulik",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "The official jahns-hydraulik.de imprint identifies the legal manufacturer as Jahns-Regulatoren GmbH. The separate jahns-regulatoren record is the safer canonical entity, so this duplicate candidate must not be published independently.",
-      "attemptedUrls": [
-        "https://www.jahns-hydraulik.de/",
-        "https://www.jahns-hydraulik.de/impressum.html"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "jihostroy",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "Official evidence resolves JIHOSTROY to JIHOSTROJ a.s., already represented by the canonical jihostroj profile. The alternate spelling must not create a second manufacturer page.",
-      "attemptedUrls": [
-        "https://www.jihostroj.com/",
-        "https://www.jihostroj.com/en/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "kitagawa-america",
-      "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
-      "reason": "Kitagawa America and Kitagawa-NorthTech resolve to the same North American legal company and workholding portfolio. The existing Kitagawa-NorthTech profile is retained as the canonical identity.",
-      "attemptedUrls": [
-        "https://kitagawa-usa.com/",
-        "https://kitagawa.com/en/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "konrad-reitz-ventilatoren",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "reason": "Konrad Reitz Ventilatoren GmbH & Co. KG is already represented by the curated canonical manufacturerId reitz. Creating another SAFE profile would publish duplicate manufacturer pages; this record requires canonical merge or alias resolution.",
-      "attemptedUrls": [
-        "https://www.reitzgroup.com/en/our-company/the-reitz-group/",
-        "https://www.reitzgroup.com/produkte/ventilatoren/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "kromschroder",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "The Kromschröder identity, Honeywell ownership and combustion-control scope duplicate the existing canonical elster-kromschroeder profile. A second indexable profile would split one current brand identity.",
-      "attemptedUrls": [
-        "https://process.honeywell.com/",
-        "https://www.kromschroeder.de/en/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "lapp-gmbh",
-      "blockerCode": "CANONICAL_DUPLICATE_REVIEW",
-      "reason": "The verified U.I. Lapp GmbH identity is already represented by canonical registry entity lapp-kabel in curated Wave 88. Publishing this record would duplicate the same officialName, displayName and corporate domain.",
-      "attemptedUrls": [
-        "https://www.lapp.com/en/global",
-        "https://www.lapp.com/en_GB/gb/GBP/our-product-portfolio/e/081191"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "marathon-motors",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "reason": "The verified Marathon Motors candidate resolves to the same current Marathon Electric commercial identity already represented by canonical manufacturerId marathon-electric. Publishing a second profile would create a duplicate brand page, so this record remains blocked for canonical alias resolution.",
-      "attemptedUrls": [
-        "https://www.marathonelectric.com/",
-        "https://www.weg.net/institutional/MX/en/news/result-and-investiments/weg-acquires-industrial-electric-motors-and-generators-business-from-regal-rexnord"
       ],
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     },
@@ -298,15 +70,6 @@
       "reason": "The current Anderson-Negele manufacturer identity already has the canonical record and sourced profile anderson-negele-negele-messtechnik-gmbh. Publishing the bare NEGELE record would duplicate that verified brand page.",
       "attemptedUrls": [
         "https://www.anderson-negele.com/us/products/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "powerjacks",
-      "blockerCode": "BLOCKED_DUPLICATE_CANONICAL_ENTITY",
-      "reason": "The exact Power Jacks manufacturer is already represented by canonical manufacturerId power-jacks in curated wave 69. Publishing the undelimited powerjacks record would create a duplicate manufacturer identity and duplicate SEO page.",
-      "attemptedUrls": [
-        "https://www.powerjacks.com/products/"
       ],
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     },
@@ -338,44 +101,6 @@
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     },
     {
-      "brandId": "simalube",
-      "blockerCode": "NOT_MANUFACTURER_IDENTITY",
-      "reason": "The official simatec source identifies simalube as an automatic-lubricator product brand. The exact record does not represent a separate manufacturer entity and would duplicate its manufacturer if published independently.",
-      "attemptedUrls": [
-        "https://simatec.com/en/simalube/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "southwest-oilfeld-products",
-      "blockerCode": "BLOCKED_DUPLICATE_CANONICAL_ENTITY",
-      "reason": "This misspelled repository record represents the same Southwest Oilfield Products manufacturer as canonical manufacturerId southwest-oilfield-products. Publishing both would create duplicate identity and SEO pages.",
-      "attemptedUrls": [
-        "https://swoil.com/mud-pump-solutions/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "sunflo",
-      "blockerCode": "BLOCKED_PRODUCT_LINE_IDENTITY",
-      "reason": "Current official Sundyne evidence presents Sunflo as an industrial-grade pump product family within Sundyne, not an independent manufacturer entity. A separate page would duplicate the canonical Sundyne profile.",
-      "attemptedUrls": [
-        "https://www.sundyne.com/",
-        "https://www.sundyne.com/products/sunflo-industrial-grade-pumps/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "syntegon-technology",
-      "blockerCode": "DUPLICATE_CANONICAL_ENTITY",
-      "reason": "Syntegon Technology GmbH is already represented by the verified Bosch Packaging Technology successor profile in Wave 11. Publishing this second repository record would create a duplicate current corporate identity and duplicate official domain.",
-      "attemptedUrls": [
-        "https://www.syntegon.com/about-us/history/",
-        "https://www.syntegon.com/solutions/food-packaging-machinery/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
       "brandId": "turolla",
       "blockerCode": "ACQUIRED_BRAND_REVIEW",
       "reason": "TUROLLA has acquisition and ownership history connected with Danfoss and Sauer-Danfoss. A standalone current manufacturer identity could not be established without risking a canonical duplicate.",
@@ -392,36 +117,6 @@
       "attemptedUrls": [
         "https://environmental.senseca.com/ghm-group/",
         "https://www.senseca.com/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "valsteam",
-      "blockerCode": "CANONICAL_DUPLICATE_REVIEW",
-      "reason": "VALSTEAM ADCA Engineering S.A. is already represented by canonical registry entity adca in curated Wave 62. Publishing the valsteam record would duplicate that verified manufacturer identity.",
-      "attemptedUrls": [
-        "https://www.valsteam.com/",
-        "https://www.valsteam.com/products"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "valtek",
-      "blockerCode": "PRODUCT_BRAND_CANONICAL_REVIEW",
-      "reason": "Valtek is presented within Flowserve's control-valve portfolio, while Flowserve already has a canonical manufacturer record. A separate profile would risk a product-brand duplicate.",
-      "attemptedUrls": [
-        "https://www.flowserve.com/",
-        "https://www.flowserve.com/en/products/products-catalog/valves/control-valves/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "verdermag",
-      "blockerCode": "PRODUCT_LINE_CANONICAL_REVIEW",
-      "reason": "VERDERMAG is a pump product brand inside the Verder Liquids portfolio, while VERDER has its own canonical record in this cohort. A separate profile would create a canonical product-brand duplicate.",
-      "attemptedUrls": [
-        "https://www.verderliquids.com/",
-        "https://www.verder.com/"
       ],
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     }
@@ -508,6 +203,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "aeg",
+      "parentCompany": "ABB",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "aeroquip",
       "parentCompany": "Danfoss A/S",
       "formerNames": [],
@@ -576,6 +277,14 @@
       "brandId": "allen-bradley",
       "parentCompany": "Rockwell Automation, Inc.",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "allen-coding-systems",
+      "parentCompany": "ITW Group",
+      "formerNames": [
+        "Allen Coding GmbH"
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -797,6 +506,15 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "backtech",
+      "parentCompany": null,
+      "formerNames": [
+        "Back-Tech Austria",
+        "SAM Bäckereitechnik"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "bahco",
       "parentCompany": "Snap-on Incorporated",
       "formerNames": [],
@@ -930,8 +648,20 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "bertoli",
+      "parentCompany": "INTERPUMP GROUP S.p.A.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "beru",
       "parentCompany": "BorgWarner",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "besel-sa",
+      "parentCompany": "Cantoni Group",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -991,6 +721,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "bl-bag-line",
+      "parentCompany": "CAM",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "blackmer",
       "parentCompany": "PSG, a Dover company",
       "formerNames": [],
@@ -999,6 +735,12 @@
     {
       "brandId": "blagdon-pump",
       "parentCompany": "Warren Rupp, Inc.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "bockwoldt",
+      "parentCompany": "HIMMEL technologies",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -1033,6 +775,14 @@
       "brandId": "bossar",
       "parentCompany": "SIG Group",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "bostak",
+      "parentCompany": null,
+      "formerNames": [
+        "BOSTAK ELECTROMECANICA"
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -1154,6 +904,14 @@
       "formerNames": [
         "Buffalo Steam Pump Company",
         "Buffalo Pumps Division"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "buhler",
+      "parentCompany": null,
+      "formerNames": [
+        "Gebrüder Bühler Nachfolger"
       ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -1338,6 +1096,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "cms",
+      "parentCompany": "SCM Group",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "collin",
       "parentCompany": "NGA Next Generation Analytics GmbH",
       "formerNames": [
@@ -1392,6 +1156,14 @@
       "brandId": "control-techniques",
       "parentCompany": "Nidec Motor Corporation",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "controlli",
+      "parentCompany": null,
+      "formerNames": [
+        "Controlli S.p.A."
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -1476,6 +1248,12 @@
     {
       "brandId": "dansensor",
       "parentCompany": "AMETEK MOCON",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "datasensor",
+      "parentCompany": "Datalogic S.p.A.",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -1566,6 +1344,12 @@
     {
       "brandId": "dewalt",
       "parentCompany": "Stanley Black & Decker",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "diemme",
+      "parentCompany": "Sandvik Group",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -1737,6 +1521,14 @@
       "brandId": "ekomak",
       "parentCompany": "Atlas Copco Group",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "elco-motors",
+      "parentCompany": "Regal Beloit",
+      "formerNames": [
+        "Elettromeccanica F.lli Colombo di Vittorio"
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -2676,6 +2468,14 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "ibs",
+      "parentCompany": null,
+      "formerNames": [
+        "IBS GmbH"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "idam",
       "parentCompany": "Schaeffler Group",
       "formerNames": [],
@@ -2812,6 +2612,12 @@
     {
       "brandId": "jaure-kop-flex",
       "parentCompany": "Regal Rexnord Corporation",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "jiskoot",
+      "parentCompany": "Sensia LLC",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -2989,9 +2795,28 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "koch",
+      "parentCompany": "Sun Capital Partners",
+      "formerNames": [
+        "Abcor, Inc.",
+        "Koch Membrane Systems, Inc.",
+        "Koch Separation Solutions"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "koellmann-gear",
       "parentCompany": "Thielenhaus Technologies GmbH",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "kohler-motors",
+      "parentCompany": null,
+      "formerNames": [
+        "Kohler Energy",
+        "Kohler Power Systems"
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -3039,6 +2864,18 @@
     {
       "brandId": "lafert",
       "parentCompany": "Sumitomo Heavy Industries, Ltd.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "lamcotec",
+      "parentCompany": "Trelleborg",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "lamson",
+      "parentCompany": "Gardner Denver Inc.",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -3128,6 +2965,12 @@
     {
       "brandId": "little-giant-pumps",
       "parentCompany": "Franklin Electric",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "lmf",
+      "parentCompany": "Kaishan Group",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -3383,11 +3226,38 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "michell-instruments",
+      "parentCompany": "DwyerOmega",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "mico",
       "parentCompany": "ZF Friedrichshafen AG",
       "formerNames": [
         "MICO, Inc."
       ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "micro-detectors",
+      "parentCompany": "Datalogic",
+      "formerNames": [
+        "M.D. Micro Detectors S.p.A.",
+        "Diell"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "midland-acs",
+      "parentCompany": "Dacke Industri",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "milton-roy",
+      "parentCompany": "Ingersoll Rand",
+      "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -3457,6 +3327,21 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "morara",
+      "parentCompany": "FFG Europe & Americas",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "morse",
+      "parentCompany": "Regal Rexnord Corporation",
+      "formerNames": [
+        "Morse Manufacturing Company",
+        "Morse Chain Company"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "motan",
       "parentCompany": null,
       "formerNames": [
@@ -3468,6 +3353,14 @@
       "brandId": "moventas",
       "parentCompany": "Flender GmbH",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "mtl-instruments",
+      "parentCompany": "Eaton Corporation plc",
+      "formerNames": [
+        "Measurement Technology Limited"
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -3503,6 +3396,17 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "nalco",
+      "parentCompany": "Ecolab Inc.",
+      "formerNames": [
+        "National Aluminate Corporation",
+        "Nalco Chemical Company",
+        "Ondeo Nalco Company",
+        "Nalco Holding Company"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "national-oilwell-varco",
       "parentCompany": null,
       "formerNames": [
@@ -3525,6 +3429,12 @@
     {
       "brandId": "nemicon",
       "parentCompany": "Broadcom Inc.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "ngr-next-generation",
+      "parentCompany": "Next Generation Holding GmbH",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -3564,6 +3474,27 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "norelem",
+      "parentCompany": null,
+      "formerNames": [
+        "norelem Normelemente Bau- und Vertrieb GmbH",
+        "PMP – Petite Mécanique de Précision"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "norriseal",
+      "parentCompany": "ChampionX",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "novaseptic",
+      "parentCompany": "Merck KGaA, Darmstadt, Germany",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "nuaire",
       "parentCompany": "Genuit Group plc",
       "formerNames": [],
@@ -3578,6 +3509,12 @@
     {
       "brandId": "nvent-therminal-belgium-nv",
       "parentCompany": "Chemelex",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "oberdorfer-pumps",
+      "parentCompany": "Ingersoll Rand",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -3736,6 +3673,15 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "pelikan-vrchlabi",
+      "parentCompany": "Labit a.s.",
+      "formerNames": [
+        "PELIKÁN Vrchlabí s.r.o.",
+        "Metalworks s.r.o."
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "penny-giles",
       "parentCompany": "Curtiss-Wright Corporation",
       "formerNames": [],
@@ -3818,6 +3764,17 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "powernet-oy",
+      "parentCompany": "Inission Group",
+      "formerNames": [
+        "Powernet Oy",
+        "Enedo Finland Oy",
+        "Enedo Oyj",
+        "Efore Oyj"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "pratissoli",
       "parentCompany": "Interpump Group S.p.A.",
       "formerNames": [],
@@ -3839,6 +3796,14 @@
       "brandId": "procon-pump",
       "parentCompany": "Standex International Corporation",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "provibtech",
+      "parentCompany": null,
+      "formerNames": [
+        "ProvibTech, Inc."
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -3876,6 +3841,12 @@
     {
       "brandId": "radiodetection",
       "parentCompany": "SPX Technologies",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "ransburg",
+      "parentCompany": "Binks",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -3924,6 +3895,20 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "rhineair",
+      "parentCompany": null,
+      "formerNames": [
+        "RhineAir"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "ridgid",
+      "parentCompany": "Emerson",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "riedel",
       "parentCompany": "AQ Group AB",
       "formerNames": [
@@ -3946,6 +3931,12 @@
     {
       "brandId": "rmf-systems",
       "parentCompany": "Des-Case Corporation",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "roberts-gordon",
+      "parentCompany": "Madison Air",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4016,6 +4007,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "rotex",
+      "parentCompany": "Hillenbrand, Inc.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "rothe-erde",
       "parentCompany": "thyssenkrupp AG",
       "formerNames": [],
@@ -4048,6 +4045,12 @@
     {
       "brandId": "rubinetterie-bresciane",
       "parentCompany": "Bonomi Group",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "rueger",
+      "parentCompany": "Ashcroft",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4125,6 +4128,18 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "saunders",
+      "parentCompany": "Crane Company",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "scan-coin",
+      "parentCompany": "PayComplete",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "schaublin",
       "parentCompany": "RBC Bearings Incorporated",
       "formerNames": [],
@@ -4167,6 +4182,12 @@
     {
       "brandId": "schroedahl",
       "parentCompany": "CIRCOR International",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "sed-flowcontrol",
+      "parentCompany": "SAMSON AKTIENGESELLSCHAFT",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4286,6 +4307,14 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "sicme-motori",
+      "parentCompany": "Orange1 Electric Motors S.p.A.",
+      "formerNames": [
+        "Sicme Motori S.r.l."
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "sidel",
       "parentCompany": "Tetra Laval Group",
       "formerNames": [],
@@ -4360,6 +4389,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "spandau-pumpen",
+      "parentCompany": "EBARA Pumps Europe S.p.A.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "stafsjo",
       "parentCompany": "EBRO ARMATUREN Gebr. Bröer GmbH",
       "formerNames": [],
@@ -4402,6 +4437,15 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "sterling-electric",
+      "parentCompany": null,
+      "formerNames": [
+        "Sterling Electric Motors",
+        "Sterling Power Systems, Inc."
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "sterling-sihi",
       "parentCompany": "Flowserve Corporation",
       "formerNames": [],
@@ -4418,6 +4462,12 @@
     {
       "brandId": "stieber-gmbh",
       "parentCompany": "Regal Rexnord",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "stone",
+      "parentCompany": "Hydraulic Technologies",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4454,6 +4504,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "sun-hydraulics",
+      "parentCompany": "Helios Technologies",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "sundyne",
       "parentCompany": "Honeywell International Inc.",
       "formerNames": [],
@@ -4472,8 +4528,22 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "swr-engineering",
+      "parentCompany": null,
+      "formerNames": [
+        "SWR engineering"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "sydex",
       "parentCompany": "Gévelot Group",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "sylvania",
+      "parentCompany": "INESA (Group) Co. Limited",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4510,6 +4580,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "tb-woods",
+      "parentCompany": "Regal Rexnord",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "tde-macno-spa",
       "parentCompany": "BDF Digital S.p.A.",
       "formerNames": [
@@ -4533,8 +4609,23 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "tee-electric-motors",
+      "parentCompany": "Arçelik A.Ş. (Koç Holding)",
+      "formerNames": [
+        "Türk General Elektrik Endüstrisi A.Ş.",
+        "Türk Elektrik Endüstrisi A.Ş."
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "telemecanique",
       "parentCompany": "YAGEO Group",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "televac",
+      "parentCompany": "The Fredericks Company",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4697,6 +4788,18 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "twiflex",
+      "parentCompany": "Regal Rexnord",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "unimac",
+      "parentCompany": "Alliance Laundry Systems, LLC",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "unistrut",
       "parentCompany": "Atkore Inc.",
       "formerNames": [],
@@ -4719,6 +4822,12 @@
     {
       "brandId": "valbia",
       "parentCompany": "Bonomi Group",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "valpes",
+      "parentCompany": "Watts Water Technologies Group",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -5024,6 +5133,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "wolf",
+      "parentCompany": "Ariston Holding N.V.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "woma",
       "parentCompany": "Alfred Kärcher SE & Co. KG",
       "formerNames": [],
@@ -5092,25 +5207,11 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
-      "brandId": "aeg",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "AEG is a broad licensed and legacy brand used across several present-day product businesses; the raw record does not identify the intended legal manufacturer or industrial product scope."
-    },
-    {
       "brandId": "ansaldo",
       "parentCompany": null,
       "formerNames": [],
       "status": "REVIEW_REQUIRED",
       "reason": "ANSALDO can refer to distinct present and former businesses including Ansaldo Energia and rail-related entities. The undifferentiated repository name cannot be assigned to one current manufacturer without guessing."
-    },
-    {
-      "brandId": "bachofen",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "The official Bachofen site verifies a Swiss industrial-automation engineering, distribution and service company, but it presents a portfolio of partner products rather than a distinct manufacturer-owned product line. That evidence does not satisfy the manufacturer identity gate."
     },
     {
       "brandId": "bautz",
@@ -5146,13 +5247,6 @@
       "formerNames": [],
       "status": "REVIEW_REQUIRED",
       "reason": "Danaher Motion was a former umbrella business whose product lines now belong to different current companies and brands. No single current manufacturer-owned identity can represent the undifferentiated record safely."
-    },
-    {
-      "brandId": "datasensor",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "Current official Datalogic-group materials use the Datasensing identity. The evidence reviewed does not yet prove whether the historical DATASENSOR record should redirect, remain a legacy brand, or map to a different entity."
     },
     {
       "brandId": "econosto",
@@ -5225,13 +5319,6 @@
       "reason": "GTS is used by several unrelated active industrial manufacturers, including transformer, test-system, grinding-technology and sealing businesses. The queue identity contains no legal-name, country or product-scope discriminator."
     },
     {
-      "brandId": "gwb",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "GWB is plausibly the historical cardan-shaft brand now associated with Dana/Spicer, but an explicit current manufacturer-owned identity page was not located. The abbreviation is not safe to resolve from secondary references."
-    },
-    {
       "brandId": "halberg",
       "parentCompany": null,
       "formerNames": [],
@@ -5295,13 +5382,6 @@
       "reason": "The manufacturer-owned domain exposes only limited legacy material and did not provide a current, readable About and Products evidence set sufficient for a public English manufacturer profile."
     },
     {
-      "brandId": "kohler-motors",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "The local KOHLER record is not yet proven to represent Kohler engines, former Kohler Power Systems, or another Kohler product scope. Kohler Energy/Power Systems is now Rehlko, so a legacy name match cannot safely establish this manufacturer entity."
-    },
-    {
       "brandId": "maho",
       "parentCompany": null,
       "formerNames": [],
@@ -5337,13 +5417,6 @@
       "reason": "GEA's official parent-company pages for the acquired Pavan food-processing business returned HTTP 403 during release verification. The restriction was not bypassed, and inaccessible parent evidence was not promoted."
     },
     {
-      "brandId": "powernet-oy",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "Search evidence associates Powernet Oy with Finnish power supplies and chargers, but no current manufacturer-owned HTTPS company and product page could be reached. The unavailable legacy domain was not replaced with secondary evidence."
-    },
-    {
       "brandId": "pyronics",
       "parentCompany": null,
       "formerNames": [],
@@ -5365,25 +5438,11 @@
       "reason": "Robbins & Myers was acquired and its former product businesses no longer resolve to one current standalone manufacturer profile. Available corporate evidence does not support assigning the bare legacy record to a single current brand scope."
     },
     {
-      "brandId": "rueger",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "The legacy RUEGER domain now resolves to Ashcroft Europe, while Ashcroft's official acquisition page returned HTTP 403 during release verification. Current brand continuity and product scope were therefore not released."
-    },
-    {
       "brandId": "salmson",
       "parentCompany": null,
       "formerNames": [],
       "status": "REVIEW_REQUIRED",
       "reason": "SALMSON is a legacy pump brand associated with Wilo, and no current standalone manufacturer-owned HTTPS profile with sufficiently clear brand continuity and product scope was established for publication."
-    },
-    {
-      "brandId": "scan-coin",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "The former SCAN COIN domain redirects to a PayComplete brand page that returned HTTP 403. The restriction was respected and current acquired-brand scope was not released."
     },
     {
       "brandId": "sdmo",
@@ -5405,13 +5464,6 @@
       "formerNames": [],
       "status": "REVIEW_REQUIRED",
       "reason": "Severn Trent De Nora is a former joint-venture identity rather than a current independent manufacturer. Current De Nora sources do not support publishing the exact legacy composite as a standalone canonical entity."
-    },
-    {
-      "brandId": "seybert-rahier",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "Official sera material documents the historical Seybert & Rahier identity, but the repository entity requires editorial confirmation before it is mapped to the current sera brand rather than retained as a legacy manufacturer record."
     },
     {
       "brandId": "simrit",
@@ -5496,13 +5548,6 @@
       "formerNames": [],
       "status": "REVIEW_REQUIRED",
       "reason": "Webster Drives Ltd. appears in historical power-take-off and transmission references, but no current manufacturer-owned HTTPS source was available to establish a continuing standalone manufacturer identity."
-    },
-    {
-      "brandId": "weeke",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "WEEKE is a former HOMAG woodworking-machine brand rather than a clearly current standalone manufacturer. Publishing it separately would risk a stale product-brand profile and canonical duplication."
     },
     {
       "brandId": "wemco",
