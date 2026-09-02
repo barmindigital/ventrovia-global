@@ -36,53 +36,6 @@
       "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
     },
     {
-      "brandId": "gat-gmbh",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company.",
-      "attemptedUrls": [
-        "https://www.gat-mbh.de/en/",
-        "https://www.gat-mbh.de/en/products/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "herborner-pumpenfabrik",
-      "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
-      "reason": "HERBORNER PUMPENFABRIK resolves to the same current legal manufacturer and official domain as the existing Herborner Pumpentechnik profile. Publishing both would duplicate one manufacturer identity.",
-      "attemptedUrls": [
-        "https://www.herborner-pumpen.com/en/info/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "mtl",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "reason": "MTL and MTL INSTRUMENTS refer to the same current Eaton Crouse-Hinds series MTL identity. Publishing both records would create duplicate canonical brand pages; the shorter record must remain blocked pending an editorial merge decision.",
-      "attemptedUrls": [
-        "https://www.mtl-inst.com/",
-        "https://www.eaton.com/us/en-us/products/process-safety-automation-measurement.html"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "negele",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "reason": "The current Anderson-Negele manufacturer identity already has the canonical record and sourced profile anderson-negele-negele-messtechnik-gmbh. Publishing the bare NEGELE record would duplicate that verified brand page.",
-      "attemptedUrls": [
-        "https://www.anderson-negele.com/us/products/"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
-      "brandId": "santasalo",
-      "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
-      "reason": "Current official evidence identifies Santasalo within David Brown Santasalo, which is already represented by canonical manufacturerId david-brown. Publishing another current profile would duplicate the same company and official domain.",
-      "attemptedUrls": [
-        "https://www.dbsantasalo.com/new-gear-systems"
-      ],
-      "recommendation": "MANUAL_REVIEW_DO_NOT_AUTO_MERGE"
-    },
-    {
       "brandId": "sauer-danfoss",
       "blockerCode": "BLOCKED_LEGACY_IDENTITY",
       "reason": "Sauer-Danfoss is a former corporate name now represented by Danfoss Power Solutions. The registry record cannot be released as a current standalone manufacturer without creating a legacy duplicate.",

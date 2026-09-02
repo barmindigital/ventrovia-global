@@ -1,42 +1,42 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 386,
+  "totalReview": 381,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "count": 267,
-      "share": 0.6917
+      "share": 0.7008
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
       "count": 51,
-      "share": 0.1321
+      "share": 0.1339
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
       "count": 32,
-      "share": 0.0829
+      "share": 0.084
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
       "count": 16,
-      "share": 0.0415
-    },
-    {
-      "blockerCategory": "POSSIBLE_DUPLICATE",
-      "count": 10,
-      "share": 0.0259
+      "share": 0.042
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 5,
-      "share": 0.013
+      "share": 0.0131
+    },
+    {
+      "blockerCategory": "POSSIBLE_DUPLICATE",
+      "count": 5,
+      "share": 0.0131
     },
     {
       "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
       "count": 4,
-      "share": 0.0104
+      "share": 0.0105
     },
     {
       "blockerCategory": "OTHER",
@@ -1005,20 +1005,6 @@
         "https://fam-stumabo.com/legal-disclaimer/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "herborner-pumpenfabrik",
-      "displayName": "HERBORNER PUMPENFABRIK",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
-      "blockerCategory": "POSSIBLE_DUPLICATE",
-      "reason": "HERBORNER PUMPENFABRIK resolves to the same current legal manufacturer and official domain as the existing Herborner Pumpentechnik profile. Publishing both would duplicate one manufacturer identity.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.herborner-pumpen.com/en/info/"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "kovosvit-mas",
@@ -3018,21 +3004,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "gat-gmbh",
-      "displayName": "GAT GMBH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "DUPLICATE_CANONICAL_CANDIDATE",
-      "blockerCategory": "POSSIBLE_DUPLICATE",
-      "reason": "The official source resolves this record to Moog GAT GmbH, which is already represented by the existing canonical manufacturer identity 'moog'. Publishing both identities would create duplicate manufacturer pages for the same current company.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.gat-mbh.de/en/",
-        "https://www.gat-mbh.de/en/products/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "general-electric",
       "displayName": "GENERAL ELECTRIC",
       "aliases": [],
@@ -4083,21 +4054,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "mtl",
-      "displayName": "MTL",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "blockerCategory": "POSSIBLE_DUPLICATE",
-      "reason": "MTL and MTL INSTRUMENTS refer to the same current Eaton Crouse-Hinds series MTL identity. Publishing both records would create duplicate canonical brand pages; the shorter record must remain blocked pending an editorial merge decision.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.mtl-inst.com/",
-        "https://www.eaton.com/us/en-us/products/process-safety-automation-measurement.html"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "muller",
       "displayName": "MULLER",
       "aliases": [],
@@ -4182,20 +4138,6 @@
         "https://www.google.com/search?q=NAPCO+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "negele",
-      "displayName": "NEGELE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "DUPLICATE_CANONICAL_IDENTITY",
-      "blockerCategory": "POSSIBLE_DUPLICATE",
-      "reason": "The current Anderson-Negele manufacturer identity already has the canonical record and sourced profile anderson-negele-negele-messtechnik-gmbh. Publishing the bare NEGELE record would duplicate that verified brand page.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.anderson-negele.com/us/products/"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "neway",
@@ -5063,20 +5005,6 @@
         "https://www.samsung.com/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "santasalo",
-      "displayName": "SANTASALO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_CANONICAL_DUPLICATE",
-      "blockerCategory": "POSSIBLE_DUPLICATE",
-      "reason": "Current official evidence identifies Santasalo within David Brown Santasalo, which is already represented by canonical manufacturerId david-brown. Publishing another current profile would duplicate the same company and official domain.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.dbsantasalo.com/new-gear-systems"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "satec",

@@ -11,11 +11,6 @@ No merge is performed automatically. Normalized matches can represent spelling v
 ## Existing duplicate/canonical review candidates
 
 - `btg` — AMBIGUOUS_IDENTITY
-- `gat-gmbh` — DUPLICATE_CANONICAL_CANDIDATE
-- `herborner-pumpenfabrik` — BLOCKED_CANONICAL_DUPLICATE
-- `mtl` — DUPLICATE_CANONICAL_IDENTITY
-- `negele` — DUPLICATE_CANONICAL_IDENTITY
-- `santasalo` — BLOCKED_CANONICAL_DUPLICATE
 - `sauer-danfoss` — BLOCKED_LEGACY_IDENTITY
 - `sfk-leblanc` — BLOCKED_LEGACY_IDENTITY
 - `turolla` — ACQUIRED_BRAND_REVIEW
