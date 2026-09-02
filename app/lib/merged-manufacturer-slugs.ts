@@ -34,4 +34,7 @@ export const mergedManufacturerSlugs: ReadonlyArray<{ from: string; to: string }
   { from: "valtek", to: "flowserve" },
   { from: "verdermag", to: "verder" },
   { from: "weeke", to: "homag" },
+  { from: "orsatti-motori", to: "ome-motors" },
+  { from: "sew-usocome", to: "sew-eurodrive" },
+  { from: "sirai", to: "asco-numatics" },
 ];

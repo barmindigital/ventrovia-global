@@ -37,20 +37,6 @@
       "attemptedUrls": ["https://www.google.com/search?q=WALTON+industrial+manufacturer+official"]
     },
     {
-      "manufacturerId": "waters",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "The manufacturer-owned Waters product pages returned HTTP 403 to direct validation. The restriction was not bypassed, so substantive official product evidence could not be release-validated.",
-      "attemptedUrls": ["https://www.waters.com/nextgen/us/en/products.html"]
-    },
-    {
-      "manufacturerId": "watlow",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "Direct requests to the current manufacturer-owned product paths returned HTTP 404 and then HTTP 429. The restriction was not bypassed and no stable release-valid product source was established.",
-      "attemptedUrls": ["https://www.watlow.com/products", "https://www.watlow.com/products/heaters"]
-    },
-    {
       "manufacturerId": "webster-drives",
       "status": "LEGACY_IDENTITY_REVIEW",
       "checkedAt": "2026-08-24",

@@ -9,25 +9,11 @@
   },
   "blockedIdentities": [
     {
-      "manufacturerId": "micro-detectors",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-12",
-      "reason": "The previously expected microdetectors.com domain currently redirects to a parked-domain page, so identity and assets cannot be accepted from it.",
-      "attemptedUrls": ["https://www.microdetectors.com/"]
-    },
-    {
       "manufacturerId": "pragati",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-17",
       "reason": "The historical name Pragati can refer to unrelated machine-tool and automation manufacturers; the local entity cannot yet be tied to one official company without stronger evidence.",
       "attemptedUrls": ["https://pragatimachines.com/", "https://pragati-automation.com/"]
-    },
-    {
-      "manufacturerId": "tee-electric-motors",
-      "status": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "checkedAt": "2026-08-17",
-      "reason": "No authoritative manufacturer-owned domain with sufficient identity and product evidence was confirmed during the Wave 2 pass.",
-      "attemptedUrls": []
     }
   ],
   "profiles": [
