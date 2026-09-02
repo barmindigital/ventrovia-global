@@ -21002,6 +21002,17 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     licenseUrl: "https://www.cytivalifesciences.com/en/us/shop/whatman-laboratory-filtration",
     attribution: "Whatman; asset served by the official manufacturer website",
   },
+  {
+    slug: "bielomatik",
+    name: "bielomatik",
+    src: "/images/brand-logos/bielomatik.jpg",
+    sourcePage: "https://commons.wikimedia.org/wiki/File:Bielomatik_logo.jpg",
+    originalFile:
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/Bielomatik_logo.jpg",
+    license: "Public domain (Wikimedia Commons)",
+    licenseUrl: "https://commons.wikimedia.org/wiki/File:Bielomatik_logo.jpg",
+    attribution: "bielomatik Leuze GmbH + Co. KG",
+  },
 ];
 
 export const brandLogoRegistry: BrandLogo[] = brandLogoRegistryBase.concat(
