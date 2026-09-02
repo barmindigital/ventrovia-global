@@ -79,32 +79,11 @@
       "attemptedUrls": ["https://www.bachmann.info/en/", "https://www.bachmann.com/en/"]
     },
     {
-      "manufacturerId": "bachofen",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "The official Bachofen site verifies a Swiss industrial-automation engineering, distribution and service company, but it presents a portfolio of partner products rather than a distinct manufacturer-owned product line. That evidence does not satisfy the manufacturer identity gate.",
-      "attemptedUrls": ["https://www.bachofen.ch/en/company/about-us/", "https://www.bachofen.ch/en/products-brands/product-range/"]
-    },
-    {
       "manufacturerId": "bae",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "BAE is a generic abbreviation and can refer to multiple unrelated corporate and product identities. The queue record contains no legal-name, country or product-scope discriminator.",
       "attemptedUrls": ["https://www.baesystems.com/"]
-    },
-    {
-      "manufacturerId": "ari-stevi-comeval",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Official evidence resolves STEVI to a product family of ARI-Armaturen, which is already represented by the canonical ari-armaturen manufacturer profile. A second manufacturer page would duplicate the same legal identity.",
-      "attemptedUrls": ["https://www.ari-armaturen.com/en/", "https://www.ari-armaturen.com/en/products/"]
-    },
-    {
-      "manufacturerId": "b-r-acopos",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "ACOPOS is an official B&R motion-control product family, while B&R Industrial Automation is already represented by the canonical br-automation manufacturer profile. It is not a separate manufacturer identity.",
-      "attemptedUrls": ["https://www.br-automation.com/en-us/", "https://www.br-automation.com/en-us/products/motion-control/"]
     }
   ],
   "profiles": [

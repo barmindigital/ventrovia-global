@@ -165224,16 +165224,6 @@
       ]
     },
     {
-      "manufacturerId": "agie-charmilles",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-20",
-      "reason": "This record resolves to the same AgieCharmilles commercial identity already published under canonical manufacturer ID agiecharmilles. A second indexable profile would create a duplicate canonical entity; alias or redirect review is required instead.",
-      "attemptedUrls": [
-        "https://www.agiecharmilles.com/",
-        "https://www.gfms.com/en-us/machines/edm.html"
-      ]
-    },
-    {
       "manufacturerId": "alba",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -165310,16 +165300,6 @@
       ]
     },
     {
-      "manufacturerId": "ang-equipment",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The discoverable A&G / ANG Equipment business is an equipment rental and trading company rather than a clearly verified manufacturer. It cannot support a manufacturer profile under the official-source gate.",
-      "attemptedUrls": [
-        "https://www.angequipment.com.sg/",
-        "https://www.google.com/search?q=%22ANG+Equipment%22+manufacturer"
-      ]
-    },
-    {
       "manufacturerId": "ansaldo",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -165337,16 +165317,6 @@
       "attemptedUrls": [
         "https://www.se.com/us/en/brands/apc/",
         "https://www.google.com/search?q=APC+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "ari-stevi-comeval",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Official evidence resolves STEVI to a product family of ARI-Armaturen, which is already represented by the canonical ari-armaturen manufacturer profile. A second manufacturer page would duplicate the same legal identity.",
-      "attemptedUrls": [
-        "https://www.ari-armaturen.com/en/",
-        "https://www.ari-armaturen.com/en/products/"
       ]
     },
     {
@@ -165382,15 +165352,6 @@
       "attemptedUrls": [
         "https://www.asahi-yukizai.co.jp/en/",
         "https://www.asahi-america.com/"
-      ]
-    },
-    {
-      "manufacturerId": "aseptomag",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "GEA's official evidence identifies ASEPTOMAG as an aseptic-valve product range of GEA Tuchenhagen rather than a separate manufacturer entity. Product ranges are not published as standalone Ventrovia manufacturers.",
-      "attemptedUrls": [
-        "https://www.gea.com/en/products/pumps-valves-flow-components/valves-components-aseptic-liquid-processing/"
       ]
     },
     {
@@ -165461,16 +165422,6 @@
       ]
     },
     {
-      "manufacturerId": "b-r-acopos",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "ACOPOS is an official B&R motion-control product family, while B&R Industrial Automation is already represented by the canonical br-automation manufacturer profile. It is not a separate manufacturer identity.",
-      "attemptedUrls": [
-        "https://www.br-automation.com/en-us/",
-        "https://www.br-automation.com/en-us/products/motion-control/"
-      ]
-    },
-    {
       "manufacturerId": "b-systems",
       "reason": "AMBIGUOUS_IDENTITY",
       "detail": "B SYSTEMS is too generic to resolve to one manufacturer-owned domain without independent identity evidence."
@@ -165483,16 +165434,6 @@
       "attemptedUrls": [
         "https://www.bachmann.info/en/",
         "https://www.bachmann.com/en/"
-      ]
-    },
-    {
-      "manufacturerId": "bachofen",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "The official Bachofen site verifies a Swiss industrial-automation engineering, distribution and service company, but it presents a portfolio of partner products rather than a distinct manufacturer-owned product line. That evidence does not satisfy the manufacturer identity gate.",
-      "attemptedUrls": [
-        "https://www.bachofen.ch/en/company/about-us/",
-        "https://www.bachofen.ch/en/products-brands/product-range/"
       ]
     },
     {
@@ -165537,16 +165478,6 @@
       "reason": "BEHA is used by multiple unrelated businesses and product brands. The raw queue identity does not safely distinguish the intended industrial manufacturer.",
       "attemptedUrls": [
         "https://www.beha.no/about-beha/?lang=en"
-      ]
-    },
-    {
-      "manufacturerId": "berg",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "BERG is used by numerous unrelated industrial manufacturers. The repository record has no domain, legal name, country or product discriminator that selects one manufacturer-owned source.",
-      "attemptedUrls": [
-        "https://www.berg.com/",
-        "https://www.berg-spanntechnik.de/"
       ]
     },
     {
@@ -165710,16 +165641,6 @@
       ]
     },
     {
-      "manufacturerId": "caryle",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-20",
-      "reason": "The CARYLE/CARLYLE record resolves to the same compressor identity represented by the adjacent canonical record carlyle-compressors. Publishing both would create duplicate pages; the misspelled record requires alias or redirect review.",
-      "attemptedUrls": [
-        "https://www.carlylecompressor.com/",
-        "https://www.carlylecompressor.com/about/"
-      ]
-    },
-    {
       "manufacturerId": "cbi",
       "reason": "AMBIGUOUS_IDENTITY",
       "detail": "CBI is a generic abbreviation used by multiple industrial manufacturers and no manufacturer-owned source could be tied safely to this raw identity."
@@ -165730,15 +165651,6 @@
       "checkedAt": "2026-08-24",
       "reason": "CHARLOTTE is a generic name used by multiple companies and brands. No queue-level discriminator ties it unambiguously to one manufacturer-owned source.",
       "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "chemfeed",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "The accessible CHEMFEED-owned website presents a supplier and distributor of mixing and dosing products rather than an unambiguous manufacturer identity for the raw queue record. That scope is insufficient for BRAND_SAFE.",
-      "attemptedUrls": [
-        "https://chemfeed.com/"
-      ]
     },
     {
       "manufacturerId": "chemineer",
@@ -165762,41 +165674,12 @@
       ]
     },
     {
-      "manufacturerId": "ckd-group",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "CKD GROUP resolves to the same CKD Corporation identity and official product estate as the separate canonical CKD queue record. Publishing both as independent manufacturer pages would create a duplicate identity.",
-      "attemptedUrls": [
-        "https://www.ckd.co.jp/en/productinfo/",
-        "https://www.ckd.co.jp/kiki/en/"
-      ]
-    },
-    {
       "manufacturerId": "cmb",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "CMB is a short name shared by unrelated industrial businesses. The repository record has no legal-name, country or product-scope discriminator that safely selects one manufacturer-owned source.",
       "attemptedUrls": [
         "https://www.google.com/search?q=CMB+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "coax",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Official evidence resolves this record to müller co-ax gmbh, which is already represented by the canonical co-ax-valves-inc manufacturer profile. A second public page would duplicate the same current company.",
-      "attemptedUrls": [
-        "https://co-ax.com/en/",
-        "https://co-ax.com/en/products.php"
-      ]
-    },
-    {
-      "manufacturerId": "coelmotori",
-      "status": "AMBIGUOUS_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "COELMOTORI resolves to the same manufacturer-owned identity and domain already represented by the canonical COEL record. A second public manufacturer profile would create a duplicate identity until canonical alias handling is explicitly approved.",
-      "attemptedUrls": [
-        "https://coelmotori.it/en/"
       ]
     },
     {
@@ -166024,15 +165907,6 @@
       "attemptedUrls": []
     },
     {
-      "manufacturerId": "ebro",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "EBRO resolves to the same legal manufacturer and official domain as the existing canonical EBRO ARMATUREN profile. Publishing both would create duplicate manufacturer identities.",
-      "attemptedUrls": [
-        "https://www.ebro-armaturen.com/en/"
-      ]
-    },
-    {
       "manufacturerId": "ecco",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -166116,13 +165990,6 @@
       "attemptedUrls": []
     },
     {
-      "manufacturerId": "elliott-bay",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "The surfaced Elliott Bay entities do not establish a clear industrial manufacturer and product scope corresponding to the queue record.",
-      "attemptedUrls": []
-    },
-    {
       "manufacturerId": "elma",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -166130,15 +165997,6 @@
       "attemptedUrls": [
         "https://www.elma.com/",
         "https://www.elma-ultrasonic.com/"
-      ]
-    },
-    {
-      "manufacturerId": "elmo",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "ELMO is used by several unrelated industrial and technology brands. The queue record does not distinguish Elmo Motion Control from other ELMO entities or the separately indexed Elmo Rietschle brand.",
-      "attemptedUrls": [
-        "https://www.elmomc.com/"
       ]
     },
     {
@@ -166209,26 +166067,6 @@
       ]
     },
     {
-      "manufacturerId": "eriks",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "ERIKS' official site describes a multi-brand industrial component and service provider. Its own-brand portfolio does not establish ERIKS itself as the specific manufacturer identity represented by this record.",
-      "attemptedUrls": [
-        "https://eriks.com/company/en",
-        "https://eriks.com/en/what-we-do"
-      ]
-    },
-    {
-      "manufacturerId": "erregiemme",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Erregiemme's official product pages present a portfolio assembled across multiple represented brands. First-party material reviewed in this pass did not establish a distinct manufacturer-owned Erregiemme product identity.",
-      "attemptedUrls": [
-        "https://www.erregiemme.it/prodotti/?p=organi-trasmissione",
-        "https://www.erregiemme.it/prodotti/?cat=39&p=guide"
-      ]
-    },
-    {
       "manufacturerId": "esq",
       "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
       "checkedAt": "2026-08-24",
@@ -166247,15 +166085,6 @@
         "https://eurocold.it/index.php?lang=2",
         "https://www.eurocoldsrlnovate.it/en",
         "https://eurocold.ltd/en/"
-      ]
-    },
-    {
-      "manufacturerId": "euromatic",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Euromatic's official site describes a manufacturer-independent supplier of valves, control and measurement components, not a clearly defined manufacturer identity for this record.",
-      "attemptedUrls": [
-        "https://www.euromatic.com/"
       ]
     },
     {
@@ -166333,16 +166162,6 @@
         "https://www.fema-corp.com/",
         "https://www.fema.es/index-en",
         "https://fema-group.com/en/"
-      ]
-    },
-    {
-      "manufacturerId": "fenner",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FENNER currently identifies distinct commercial businesses under different ownership, including Fenner Drives and Fenner Dunlop. The queue record lacks a product-scope discriminator.",
-      "attemptedUrls": [
-        "https://www.fennerdrives.com/",
-        "https://fennerdunlop.com/"
       ]
     },
     {
@@ -166432,31 +166251,12 @@
       "attemptedUrls": []
     },
     {
-      "manufacturerId": "franke",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Franke is used by multiple industrial groups and specialist manufacturers. The raw identity does not distinguish the intended entity or product scope with sufficient certainty.",
-      "attemptedUrls": [
-        "https://www.franke.com/",
-        "https://www.franke-industrie.com/"
-      ]
-    },
-    {
       "manufacturerId": "friand-elektrotechniek-b-v",
       "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "No accessible manufacturer-owned source was found that establishes Friand Elektrotechniek B.V. as a current manufacturer and documents a specific product range.",
       "attemptedUrls": [
         "https://www.friand.nl/"
-      ]
-    },
-    {
-      "manufacturerId": "fricke",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "The official FRICKE Group source identifies an agricultural-machinery, commercial-vehicle and replacement-parts trading group. It does not establish the queue identity as one distinct manufacturer brand with a defensible product scope.",
-      "attemptedUrls": [
-        "https://www.fricke.de/en/"
       ]
     },
     {
@@ -166487,16 +166287,6 @@
       "attemptedUrls": []
     },
     {
-      "manufacturerId": "gamar",
-      "status": "BLOCKED_CANONICAL_OVERLAP",
-      "checkedAt": "2026-08-24",
-      "reason": "The Gamar record shares the Sacemi-Gamar domain, company lineage and pump/motor scope with the canonical sacemi-gamar identity. Current first-party evidence does not justify a second standalone indexable manufacturer profile.",
-      "attemptedUrls": [
-        "https://www.sacemigamar.com/en/",
-        "https://www.sacemigamar.com/en/company/"
-      ]
-    },
-    {
       "manufacturerId": "gat-gmbh",
       "status": "DUPLICATE_CANONICAL_CANDIDATE",
       "checkedAt": "2026-08-24",
@@ -166524,16 +166314,6 @@
       "detail": "Official GERGEN material supports a current vehicle-equipment manufacturer and an older GERGEN-JUNG name, but the available source set does not establish the exact canonical relationship with sufficient certainty for automatic publication."
     },
     {
-      "manufacturerId": "getriebebau-nord",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Official evidence resolves this record to Getriebebau NORD GmbH & Co. KG, already represented by the canonical nord manufacturer profile. A second NORD DRIVESYSTEMS page would duplicate the same current company.",
-      "attemptedUrls": [
-        "https://www.nord.com/",
-        "https://www.nord.com/en/products/products.jsp"
-      ]
-    },
-    {
       "manufacturerId": "gfl",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -166541,15 +166321,6 @@
       "attemptedUrls": [
         "https://gfl.co.in/",
         "https://www.google.com/search?q=GFL+laboratory+equipment+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "giporec",
-      "status": "BLOCKED_PRODUCT_LINE_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "GIPOREC is documented as a GIPO mobile impact-crusher product family, not a standalone manufacturer. Publication requires canonical alias or product-line handling under GIPO.",
-      "attemptedUrls": [
-        "https://www.gipo.ch/en/products/impact-crushers/"
       ]
     },
     {
@@ -166591,16 +166362,6 @@
       "reason": "GRAETZ is associated with multiple historical and current product identities, and no current first-party manufacturer source could be tied safely to this undifferentiated record.",
       "attemptedUrls": [
         "https://www.google.com/search?q=GRAETZ+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "grainger",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Grainger's official corporate material describes an industrial distribution business. It does not establish Grainger as the manufacturer identity for the broad multi-brand inventory represented by the record.",
-      "attemptedUrls": [
-        "https://www.grainger.com/content/about-us",
-        "https://invest.grainger.com/company-profile/default.aspx"
       ]
     },
     {
@@ -166847,16 +166608,6 @@
       "detail": "HYDRO can denote Norsk Hydro, water-treatment brands and multiple hydraulic-equipment companies; no exact manufacturer-owned identity match is available."
     },
     {
-      "manufacturerId": "hydroscand",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Hydroscand's official material presents a multi-brand hose and fluid-component provider and service network. It does not establish a sufficiently specific Hydroscand manufacturer identity for the broad record.",
-      "attemptedUrls": [
-        "https://www.hydroscand.com/",
-        "https://www.hydroscand.com/about-us"
-      ]
-    },
-    {
       "manufacturerId": "ibk-engineering",
       "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
       "checkedAt": "2026-08-24",
@@ -166915,16 +166666,6 @@
       "reason": "Industrial Power and Control is a generic business name. No unambiguous manufacturer-owned identity and product source could be tied to this record.",
       "attemptedUrls": [
         "https://www.google.com/search?q=%22Industrial+Power+and+Control%22+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "industrial-power-units",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The likely Industrial Power Units business is documented primarily as an engine and power-product supplier and service company. First-party material did not establish a distinct manufactured product range for this identity.",
-      "attemptedUrls": [
-        "https://www.industrialpowerunits.co.uk/",
-        "https://www.google.com/search?q=%22Industrial+Power+Units%22+manufacturer+official"
       ]
     },
     {
@@ -166994,16 +166735,6 @@
       ]
     },
     {
-      "manufacturerId": "itarco",
-      "status": "NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The raw display name is ITRACO. Its official website describes a trading and consulting company that supplies equipment from numerous manufacturers, not a manufacturer-owned product brand suitable for this publication gate.",
-      "attemptedUrls": [
-        "https://www.itraco.gmbh/",
-        "https://www.itraco.gmbh/products/"
-      ]
-    },
-    {
       "manufacturerId": "itec",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -167032,16 +166763,6 @@
       "attemptedUrls": [
         "https://www.jaeckle-sst.de/",
         "https://www.jaeckle.de/"
-      ]
-    },
-    {
-      "manufacturerId": "jahns-hydraulik",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "The official jahns-hydraulik.de imprint identifies the legal manufacturer as Jahns-Regulatoren GmbH. The separate jahns-regulatoren record is the safer canonical entity, so this duplicate candidate must not be published independently.",
-      "attemptedUrls": [
-        "https://www.jahns-hydraulik.de/",
-        "https://www.jahns-hydraulik.de/impressum.html"
       ]
     },
     {
@@ -167077,16 +166798,6 @@
       "reason": "JET is used by several unrelated industrial brands and companies. The undifferentiated record lacks the product scope or legal identity required to select JET Tools or another candidate safely.",
       "attemptedUrls": [
         "https://www.jettools.com/"
-      ]
-    },
-    {
-      "manufacturerId": "jihostroy",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Official evidence resolves JIHOSTROY to JIHOSTROJ a.s., already represented by the canonical jihostroj profile. The alternate spelling must not create a second manufacturer page.",
-      "attemptedUrls": [
-        "https://www.jihostroj.com/",
-        "https://www.jihostroj.com/en/"
       ]
     },
     {
@@ -167132,26 +166843,6 @@
       "detail": "KASON is used by multiple active manufacturer-owned sites, including Kason Corporation for process screening equipment and Kason Industries for refrigeration and enclosure hardware; the raw record alone does not resolve the intended entity."
     },
     {
-      "manufacturerId": "kentek",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Kentek's first-party site presents a Finnish importer and multi-brand industrial filtration supplier. It does not establish a distinct Kentek-manufactured product portfolio for the undifferentiated repository record.",
-      "attemptedUrls": [
-        "https://www.kentek.fi/en/products/",
-        "https://www.kentek.fi/en/company/"
-      ]
-    },
-    {
-      "manufacturerId": "kiesel",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Kiesel's first-party site describes a system partner and distributor for construction machinery from multiple manufacturers. The record does not identify a separate Kiesel-manufactured equipment portfolio with sufficient certainty.",
-      "attemptedUrls": [
-        "https://www.kiesel.net/",
-        "https://www.kiesel.net/de"
-      ]
-    },
-    {
       "manufacturerId": "kiheung",
       "status": "BLOCKED_INSECURE_OFFICIAL_SOURCE",
       "checkedAt": "2026-08-24",
@@ -167172,16 +166863,6 @@
       ]
     },
     {
-      "manufacturerId": "kitagawa-america",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Kitagawa America and Kitagawa-NorthTech resolve to the same North American legal company and workholding portfolio. The existing Kitagawa-NorthTech profile is retained as the canonical identity.",
-      "attemptedUrls": [
-        "https://kitagawa-usa.com/",
-        "https://kitagawa.com/en/"
-      ]
-    },
-    {
       "manufacturerId": "klima-celje",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-20",
@@ -167190,16 +166871,6 @@
         "https://www.klima-celje.si/",
         "https://www.klima-celje.si/en/",
         "https://www.klima-celje.si/wp-content/uploads/2015/11/art_7_all.pdf"
-      ]
-    },
-    {
-      "manufacturerId": "konrad-reitz-ventilatoren",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Konrad Reitz Ventilatoren GmbH & Co. KG is already represented by the curated canonical manufacturerId reitz. Creating another SAFE profile would publish duplicate manufacturer pages; this record requires canonical merge or alias resolution.",
-      "attemptedUrls": [
-        "https://www.reitzgroup.com/en/our-company/the-reitz-group/",
-        "https://www.reitzgroup.com/produkte/ventilatoren/"
       ]
     },
     {
@@ -167228,16 +166899,6 @@
       "attemptedUrls": [
         "https://www.kranz-packungen.de/",
         "https://kranz-packungen.com/"
-      ]
-    },
-    {
-      "manufacturerId": "kromschroder",
-      "status": "DUPLICATE_CANONICAL_CANDIDATE",
-      "checkedAt": "2026-08-24",
-      "reason": "The Kromschröder identity, Honeywell ownership and combustion-control scope duplicate the existing canonical elster-kromschroeder profile. A second indexable profile would split one current brand identity.",
-      "attemptedUrls": [
-        "https://process.honeywell.com/",
-        "https://www.kromschroeder.de/en/"
       ]
     },
     {
@@ -167279,16 +166940,6 @@
       "attemptedUrls": [
         "https://www.lamcotec.com/",
         "https://lamcotec.com/"
-      ]
-    },
-    {
-      "manufacturerId": "lapp-gmbh",
-      "status": "CANONICAL_DUPLICATE_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "The verified U.I. Lapp GmbH identity is already represented by canonical registry entity lapp-kabel in curated Wave 88. Publishing this record would duplicate the same officialName, displayName and corporate domain.",
-      "attemptedUrls": [
-        "https://www.lapp.com/en/global",
-        "https://www.lapp.com/en_GB/gb/GBP/our-product-portfolio/e/081191"
       ]
     },
     {
@@ -167400,15 +167051,6 @@
       ]
     },
     {
-      "manufacturerId": "macro-sensors",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-17",
-      "reason": "The Amphenol Sensors corporate portal is official, but the current evidence does not unambiguously bind the historical Macro Sensors record to a publishable standalone brand profile.",
-      "attemptedUrls": [
-        "https://amphenolsensors.com/"
-      ]
-    },
-    {
       "manufacturerId": "magneta",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
@@ -167434,16 +167076,6 @@
       "reason": "MAHO is a historical machine-tool name associated with Deckel Maho and DMG MORI, but no current manufacturer-owned brand profile establishes MAHO alone as a separately publishable manufacturer identity and product scope.",
       "attemptedUrls": [
         "https://en.dmgmori.com/"
-      ]
-    },
-    {
-      "manufacturerId": "marathon-motors",
-      "status": "DUPLICATE_CANONICAL_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The verified Marathon Motors candidate resolves to the same current Marathon Electric commercial identity already represented by canonical manufacturerId marathon-electric. Publishing a second profile would create a duplicate brand page, so this record remains blocked for canonical alias resolution.",
-      "attemptedUrls": [
-        "https://www.marathonelectric.com/",
-        "https://www.weg.net/institutional/MX/en/news/result-and-investiments/weg-acquires-industrial-electric-motors-and-generators-business-from-regal-rexnord"
       ]
     },
     {
@@ -167840,15 +167472,6 @@
       ]
     },
     {
-      "manufacturerId": "namur",
-      "status": "NOT_A_MANUFACTURER",
-      "checkedAt": "2026-08-24",
-      "reason": "NAMUR is an international user association for automation technology in process industries, not a manufacturer identity. It must not be published as an equipment manufacturer.",
-      "attemptedUrls": [
-        "https://www.namur.net/en/"
-      ]
-    },
-    {
       "manufacturerId": "napco",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -167864,15 +167487,6 @@
       "reason": "No current manufacturer-owned HTTPS company and product source matching the exact NARZEDZIOWCY record could be established. Search results did not provide a distinct manufacturing identity.",
       "attemptedUrls": [
         "https://www.google.com/search?q=NARZEDZIOWCY+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "ndt-rus-llc",
-      "status": "NOT_A_MANUFACTURER",
-      "checkedAt": "2026-08-24",
-      "reason": "Available company descriptions characterize NDT RUS LLC as a supplier and testing-service business rather than a distinct equipment manufacturer. Reseller or service evidence cannot satisfy the manufacturer publication gate.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22NDT+RUS+LLC%22+official"
       ]
     },
     {
@@ -167969,15 +167583,6 @@
       "reason": "A likely manufacturer-owned NOMA Getriebe domain was identified, but its HTTPS endpoint failed the direct TLS verification. Search-result text was not used as publication evidence.",
       "attemptedUrls": [
         "https://noma-getriebe.org/"
-      ]
-    },
-    {
-      "manufacturerId": "nooney-controls",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The first-party Nooney Controls site identifies the company as a distributor and service provider rather than a manufacturer. It does not support a manufacturer profile.",
-      "attemptedUrls": [
-        "https://nooneycontrols.com/"
       ]
     },
     {
@@ -168292,15 +167897,6 @@
       ]
     },
     {
-      "manufacturerId": "powerjacks",
-      "status": "BLOCKED_DUPLICATE_CANONICAL_ENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The exact Power Jacks manufacturer is already represented by canonical manufacturerId power-jacks in curated wave 69. Publishing the undelimited powerjacks record would create a duplicate manufacturer identity and duplicate SEO page.",
-      "attemptedUrls": [
-        "https://www.powerjacks.com/products/"
-      ]
-    },
-    {
       "manufacturerId": "powernet-oy",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
@@ -168514,15 +168110,6 @@
       ]
     },
     {
-      "manufacturerId": "reyher",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The official REYHER site identifies F. REYHER Nchfg. GmbH & Co. KG as a wholesaler and supply-chain service company for fasteners, not as the manufacturer represented by this manufacturer record.",
-      "attemptedUrls": [
-        "https://www.reyher.de/en/"
-      ]
-    },
-    {
       "manufacturerId": "rg-antriebstechnik",
       "status": "BLOCKED_INSECURE_SOURCE",
       "checkedAt": "2026-08-24",
@@ -168653,15 +168240,6 @@
       "reason": "ROTECH is used by multiple unrelated manufacturers in sensing, valve monitoring, rotating equipment and engineered products. The bare record cannot be mapped to one official domain safely.",
       "attemptedUrls": [
         "https://www.google.com/search?q=ROTECH+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "royal-brinkman",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Royal Brinkman presents itself primarily as a horticultural supplier and knowledge partner rather than an unambiguous manufacturer-owned industrial product brand. This does not meet the manufacturer evidence gate.",
-      "attemptedUrls": [
-        "https://royalbrinkman.com/"
       ]
     },
     {
@@ -168978,16 +168556,6 @@
       ]
     },
     {
-      "manufacturerId": "seybert-rahier",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "Official sera material documents the historical Seybert & Rahier identity, but the repository entity requires editorial confirmation before it is mapped to the current sera brand rather than retained as a legacy manufacturer record.",
-      "attemptedUrls": [
-        "https://www.sera-web.com/en/",
-        "https://www.sera-web.com/en/company/"
-      ]
-    },
-    {
       "manufacturerId": "sfk-leblanc",
       "status": "BLOCKED_LEGACY_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -169012,24 +168580,6 @@
       "reason": "The manufacturer-owned SIDI MONDIAL site was identified, but its HTTPS challenge returned HTTP 403 during direct verification. Search-result extracts were not accepted as publication evidence.",
       "attemptedUrls": [
         "https://sidimondial.com/home"
-      ]
-    },
-    {
-      "manufacturerId": "simalube",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The official simatec source identifies simalube as an automatic-lubricator product brand. The exact record does not represent a separate manufacturer entity and would duplicate its manufacturer if published independently.",
-      "attemptedUrls": [
-        "https://simatec.com/en/simalube/"
-      ]
-    },
-    {
-      "manufacturerId": "simax",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "SIMAX is used as a borosilicate-glass product brand and also by unrelated businesses. No first-party evidence supports the bare record as one independent industrial manufacturer.",
-      "attemptedUrls": [
-        "https://www.simax.eu/"
       ]
     },
     {
@@ -169202,15 +168752,6 @@
       ]
     },
     {
-      "manufacturerId": "southwest-oilfeld-products",
-      "status": "BLOCKED_DUPLICATE_CANONICAL_ENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "This misspelled repository record represents the same Southwest Oilfield Products manufacturer as canonical manufacturerId southwest-oilfield-products. Publishing both would create duplicate identity and SEO pages.",
-      "attemptedUrls": [
-        "https://swoil.com/mud-pump-solutions/"
-      ]
-    },
-    {
       "manufacturerId": "spaggiari",
       "status": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
       "checkedAt": "2026-08-24",
@@ -169292,16 +168833,6 @@
       ]
     },
     {
-      "manufacturerId": "steinle",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The apparent pump identity is Steinle Industriepumpen GmbH, whose current materials primarily present distribution, repair and assembly of Tapflo products. The bare STEINLE record also collides with unrelated current metrology and machinery businesses, so a standalone manufacturer profile is not safe.",
-      "attemptedUrls": [
-        "https://www.steinle-pumpen.de/",
-        "https://www.steinle.com/"
-      ]
-    },
-    {
       "manufacturerId": "stem",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -169337,16 +168868,6 @@
       "checkedAt": "2026-08-19",
       "reason": "The short STMSI name cannot be resolved to one manufacturer-owned domain with sufficient confidence.",
       "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "stork",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Current STORK identities found in official corporate material primarily describe engineering and maintenance services, while the name is also shared by unrelated businesses. The bare record does not prove one current equipment manufacturer.",
-      "attemptedUrls": [
-        "https://www.stork.com/",
-        "https://www.bilfinger.com/markets/maintenance-modifications-operations/stork/"
-      ]
     },
     {
       "manufacturerId": "stoz",
@@ -169395,16 +168916,6 @@
       "attemptedUrls": [
         "https://www.sunhydraulics.com/",
         "https://www.sunhydraulics.com/products/"
-      ]
-    },
-    {
-      "manufacturerId": "sunflo",
-      "status": "BLOCKED_PRODUCT_LINE_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Current official Sundyne evidence presents Sunflo as an industrial-grade pump product family within Sundyne, not an independent manufacturer entity. A separate page would duplicate the canonical Sundyne profile.",
-      "attemptedUrls": [
-        "https://www.sundyne.com/",
-        "https://www.sundyne.com/products/sunflo-industrial-grade-pumps/"
       ]
     },
     {
@@ -169467,16 +168978,6 @@
       ]
     },
     {
-      "manufacturerId": "syntegon-technology",
-      "status": "DUPLICATE_CANONICAL_ENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Syntegon Technology GmbH is already represented by the verified Bosch Packaging Technology successor profile in Wave 11. Publishing this second repository record would create a duplicate current corporate identity and duplicate official domain.",
-      "attemptedUrls": [
-        "https://www.syntegon.com/about-us/history/",
-        "https://www.syntegon.com/solutions/food-packaging-machinery/"
-      ]
-    },
-    {
       "manufacturerId": "system-plast",
       "status": "BLOCKED_EXTERNAL_SOURCE",
       "checkedAt": "2026-08-24",
@@ -169503,15 +169004,6 @@
       "reason": "TAIYO is shared by multiple unrelated Japanese industrial manufacturers and brands. The undifferentiated record has no legal-name, product-scope or domain evidence that resolves the intended entity.",
       "attemptedUrls": [
         "https://www.google.com/search?q=TAIYO+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "taylor-goodman",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The matched Taylor & Goodman company presents industrial electrical and mechanical maintenance, repair and field services rather than a manufacturer-owned product portfolio. Its site also lacks a current HTTPS publication surface suitable for the gate.",
-      "attemptedUrls": [
-        "http://www.taylorgoodman.co.uk/"
       ]
     },
     {
@@ -169591,15 +169083,6 @@
       "reason": "TEKO is a generic short name used by several unrelated manufacturers and technology companies. No authoritative discriminator in the repository selects one current industrial entity.",
       "attemptedUrls": [
         "https://www.google.com/search?q=TEKO+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "telestar",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The matched Telestar Automation company presents distribution, system integration and service around third-party automation brands rather than a clear manufacturer-owned product portfolio. It must not be confused with the separate Telstar pharmaceutical-equipment identity.",
-      "attemptedUrls": [
-        "https://www.telestar-automation.it/"
       ]
     },
     {
@@ -169912,32 +169395,12 @@
       ]
     },
     {
-      "manufacturerId": "valsteam",
-      "status": "CANONICAL_DUPLICATE_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "VALSTEAM ADCA Engineering S.A. is already represented by canonical registry entity adca in curated Wave 62. Publishing the valsteam record would duplicate that verified manufacturer identity.",
-      "attemptedUrls": [
-        "https://www.valsteam.com/",
-        "https://www.valsteam.com/products"
-      ]
-    },
-    {
       "manufacturerId": "valtec",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "VALTEC is used by unrelated valve, plumbing, automation and electronics businesses. The bare registry identity has no legal-name or product-scope discriminator.",
       "attemptedUrls": [
         "https://www.google.com/search?q=VALTEC+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "valtek",
-      "status": "PRODUCT_BRAND_CANONICAL_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "Valtek is presented within Flowserve's control-valve portfolio, while Flowserve already has a canonical manufacturer record. A separate profile would risk a product-brand duplicate.",
-      "attemptedUrls": [
-        "https://www.flowserve.com/",
-        "https://www.flowserve.com/en/products/products-catalog/valves/control-valves/"
       ]
     },
     {
@@ -169986,31 +169449,12 @@
       ]
     },
     {
-      "manufacturerId": "verdermag",
-      "status": "PRODUCT_LINE_CANONICAL_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "VERDERMAG is a pump product brand inside the Verder Liquids portfolio, while VERDER has its own canonical record in this cohort. A separate profile would create a canonical product-brand duplicate.",
-      "attemptedUrls": [
-        "https://www.verderliquids.com/",
-        "https://www.verder.com/"
-      ]
-    },
-    {
       "manufacturerId": "verdi",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
       "reason": "VERDI is used by unrelated current businesses in bulk-material handling, irrigation automation and other sectors. The bare registry record has no legal name, geography or product-scope discriminator.",
       "attemptedUrls": [
         "https://www.google.com/search?q=VERDI+industrial+manufacturer+official"
-      ]
-    },
-    {
-      "manufacturerId": "vertex-manufacturing-solutions",
-      "status": "NOT_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "The exact first-party site identifies Vertex Manufacturing Solutions as a manufacturers' representative agency for third-party capital-equipment builders, not as the manufacturer of the listed equipment.",
-      "attemptedUrls": [
-        "https://vertexms.us/"
       ]
     },
     {
@@ -170092,15 +169536,6 @@
       ]
     },
     {
-      "manufacturerId": "weeke",
-      "status": "LEGACY_PRODUCT_BRAND_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "WEEKE is a former HOMAG woodworking-machine brand rather than a clearly current standalone manufacturer. Publishing it separately would risk a stale product-brand profile and canonical duplication.",
-      "attemptedUrls": [
-        "https://www.homag.com/"
-      ]
-    },
-    {
       "manufacturerId": "weiss",
       "status": "AMBIGUOUS_IDENTITY",
       "checkedAt": "2026-08-24",
@@ -170170,15 +169605,6 @@
       ]
     },
     {
-      "manufacturerId": "zahnradpumpenfabrik",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "ZAHNRAD PUMPEN FABRIK is a descriptive German phrase rather than a sufficiently discriminated legal or commercial identity. No authoritative manufacturer-owned source could be tied to this exact repository record without guessing.",
-      "attemptedUrls": [
-        "https://www.google.com/search?q=Zahnrad+Pumpen+Fabrik+manufacturer"
-      ]
-    },
-    {
       "manufacturerId": "zama-sensor",
       "status": "LEGACY_IDENTITY_UNRESOLVED",
       "checkedAt": "2026-08-24",
@@ -170193,6 +169619,6 @@
     "enContentReady": 2269,
     "enSeoReady": 2269,
     "sourceRecords": 4318,
-    "brandReview": 537
+    "brandReview": 477
   }
 }

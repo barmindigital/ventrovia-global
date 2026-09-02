@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { mergedManufacturerSlugs } from "./app/lib/merged-manufacturer-slugs";
 
 const nextConfig: NextConfig = {
   async headers() {
@@ -32,6 +33,11 @@ const nextConfig: NextConfig = {
         destination: "https://ventroviaglobal.com/:path*",
         permanent: true,
       },
+      ...mergedManufacturerSlugs.map(({ from, to }) => ({
+        source: `/manufacturers/${from}`,
+        destination: `/manufacturers/${to}`,
+        permanent: true,
+      })),
     ];
   },
 };

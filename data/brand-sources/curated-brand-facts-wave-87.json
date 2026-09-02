@@ -2,32 +2,11 @@
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
     {
-      "manufacturerId": "kentek",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Kentek's first-party site presents a Finnish importer and multi-brand industrial filtration supplier. It does not establish a distinct Kentek-manufactured product portfolio for the undifferentiated repository record.",
-      "attemptedUrls": ["https://www.kentek.fi/en/products/", "https://www.kentek.fi/en/company/"]
-    },
-    {
-      "manufacturerId": "kiesel",
-      "status": "BLOCKED_NON_MANUFACTURER_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Kiesel's first-party site describes a system partner and distributor for construction machinery from multiple manufacturers. The record does not identify a separate Kiesel-manufactured equipment portfolio with sufficient certainty.",
-      "attemptedUrls": ["https://www.kiesel.net/", "https://www.kiesel.net/de"]
-    },
-    {
       "manufacturerId": "kiheung",
       "status": "BLOCKED_INSECURE_OFFICIAL_SOURCE",
       "checkedAt": "2026-08-24",
       "reason": "The manufacturer product directory is available only over HTTP and the official HTTPS endpoint presents an invalid self-signed certificate. The international publication gate requires secure official evidence.",
       "attemptedUrls": ["http://www.kiheung.com/bbs/board.php?bo_table=product", "https://www.kiheung.com/bbs/board.php?bo_table=product"]
-    },
-    {
-      "manufacturerId": "kitagawa-america",
-      "status": "BLOCKED_CANONICAL_DUPLICATE",
-      "checkedAt": "2026-08-24",
-      "reason": "Kitagawa America and Kitagawa-NorthTech resolve to the same North American legal company and workholding portfolio. The existing Kitagawa-NorthTech profile is retained as the canonical identity.",
-      "attemptedUrls": ["https://kitagawa-usa.com/", "https://kitagawa.com/en/"]
     }
   ],
   "profiles": [
