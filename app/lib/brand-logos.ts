@@ -21713,6 +21713,26 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
     licenseUrl: "https://www.nijhuissaurindustries.com/",
     attribution: "Nijhuis; asset served by the official manufacturer website",
   },
+  {
+    slug: "matheson",
+    name: "MATHESON",
+    src: "/images/brand-logos/matheson.webp",
+    sourcePage: "https://us.nipponsanso.com/",
+    originalFile: "https://us.nipponsanso.com/wp-content/uploads/2021/01/cropped-MATH_NewTag_PRO_2020.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://us.nipponsanso.com/",
+    attribution: "MATHESON; asset served by the official manufacturer website",
+  },
+  {
+    slug: "trevisan",
+    name: "Trevisan",
+    src: "/images/brand-logos/trevisan.png",
+    sourcePage: "https://www.trevisanmachinetools.com/",
+    originalFile: "https://www.trevisanmachinetools.com/wp-content/uploads/2022/04/trevisan-2.png",
+    license: "Official manufacturer website asset — identification use; rights retained by brand owner",
+    licenseUrl: "https://www.trevisanmachinetools.com/",
+    attribution: "Trevisan; asset served by the official manufacturer website",
+  },
 ];
 
 export const brandLogoRegistry: BrandLogo[] = brandLogoRegistryBase.concat(
