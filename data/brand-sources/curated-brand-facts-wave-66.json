@@ -1,11 +1,7 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "calex",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "CALEX identifies at least two unrelated active manufacturer-owned businesses: Calex Electronics Ltd in the United Kingdom manufactures infrared temperature sensors, controllers and calibration equipment, while Calex Manufacturing Company, Inc. in the United States manufactures DC/DC power-conversion products. The unsuffixed raw record provides no reliable discriminator, so neither identity can be selected safely."
-    }
+    {"manufacturerId":"calex","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CALEX identifies at least two unrelated active manufacturer-owned businesses: Calex Electronics Ltd in the United Kingdom manufactures infrared temperature sensors, controllers and calibration equipment, while Calex Manufacturing Company, Inc. in the United States manufactures DC/DC power-conversion products. The unsuffixed raw record provides no reliable discriminator, so neither identity can be selected safely."}
   ],
   "profiles": [
     {

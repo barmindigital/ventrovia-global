@@ -1,26 +1,10 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "bohler",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "BÖHLER is used across distinct active voestalpine businesses and product identities, including specialty steels, welding products and aerospace forgings; the unsuffixed raw record does not safely select one canonical entity."
-    },
-    {
-      "manufacturerId": "boss",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "BOSS is used by multiple unrelated active manufacturer-owned businesses in industrial adhesives, log-processing equipment, musical electronics and other sectors; the raw name is insufficient for a zero-conflict identity match."
-    },
-    {
-      "manufacturerId": "bowman",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "BOWMAN identifies multiple unrelated active manufacturer-owned industrial businesses, including heat-exchanger, coating-measurement and other equipment companies; the raw record provides no safe discriminator."
-    },
-    {
-      "manufacturerId": "braun",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "BRAUN is used by unrelated active manufacturer-owned businesses, including consumer appliances and industrial machinery. A secondary-source logo candidate does not establish which entity the raw record represents."
-    }
+    {"manufacturerId":"bohler","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"BÖHLER is used across distinct active voestalpine businesses and product identities, including specialty steels, welding products and aerospace forgings; the unsuffixed raw record does not safely select one canonical entity."},
+    {"manufacturerId":"boss","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"BOSS is used by multiple unrelated active manufacturer-owned businesses in industrial adhesives, log-processing equipment, musical electronics and other sectors; the raw name is insufficient for a zero-conflict identity match."},
+    {"manufacturerId":"bowman","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"BOWMAN identifies multiple unrelated active manufacturer-owned industrial businesses, including heat-exchanger, coating-measurement and other equipment companies; the raw record provides no safe discriminator."},
+    {"manufacturerId":"braun","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"BRAUN is used by unrelated active manufacturer-owned businesses, including consumer appliances and industrial machinery. A secondary-source logo candidate does not establish which entity the raw record represents."}
   ],
   "profiles": [
     {

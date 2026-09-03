@@ -1,36 +1,12 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "kason",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "KASON is used by multiple active manufacturer-owned sites, including Kason Corporation for process screening equipment and Kason Industries for refrigeration and enclosure hardware; the raw record alone does not resolve the intended entity."
-    },
-    {
-      "manufacturerId": "tecnium",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "TECNIUM is used by separate active industrial businesses in Spain and Brazil with different portfolios; no independent identity evidence in the record safely selects one of them."
-    },
-    {
-      "manufacturerId": "wemco",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "WEMCO identifies several distinct industrial product businesses and legacy brands, including wire-handling equipment and pump or flotation equipment; the canonical entity cannot be selected from the raw name alone."
-    },
-    {
-      "manufacturerId": "elro",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "ELRO is an active name for unrelated manufacturer-owned product portfolios, including Crane ELRO peristaltic pumps and ELRO professional cooking systems; the source record does not disambiguate them."
-    },
-    {
-      "manufacturerId": "hpi",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "HPI is used by multiple unrelated industrial manufacturers in hydraulics, light-metal plant engineering, turbomachinery controls and process equipment; the intended manufacturer cannot be proven from the acronym alone."
-    },
-    {
-      "manufacturerId": "mwm",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "MWM currently identifies separate engine businesses with manufacturer-owned sites in Germany and Brazil; both publish industrial engine and generation portfolios, so the raw name is insufficient for a zero-conflict canonical match."
-    }
+    {"manufacturerId":"kason","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"KASON is used by multiple active manufacturer-owned sites, including Kason Corporation for process screening equipment and Kason Industries for refrigeration and enclosure hardware; the raw record alone does not resolve the intended entity."},
+    {"manufacturerId":"tecnium","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TECNIUM is used by separate active industrial businesses in Spain and Brazil with different portfolios; no independent identity evidence in the record safely selects one of them."},
+    {"manufacturerId":"wemco","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"WEMCO identifies several distinct industrial product businesses and legacy brands, including wire-handling equipment and pump or flotation equipment; the canonical entity cannot be selected from the raw name alone."},
+    {"manufacturerId":"elro","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ELRO is an active name for unrelated manufacturer-owned product portfolios, including Crane ELRO peristaltic pumps and ELRO professional cooking systems; the source record does not disambiguate them."},
+    {"manufacturerId":"hpi","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"HPI is used by multiple unrelated industrial manufacturers in hydraulics, light-metal plant engineering, turbomachinery controls and process equipment; the intended manufacturer cannot be proven from the acronym alone."},
+    {"manufacturerId":"mwm","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"MWM currently identifies separate engine businesses with manufacturer-owned sites in Germany and Brazil; both publish industrial engine and generation portfolios, so the raw name is insufficient for a zero-conflict canonical match."}
   ],
   "profiles": [
     {

@@ -1,9 +1,9 @@
 {
   "checkedAt":"2026-08-20",
   "blockedIdentities":[
-    {"manufacturerId":"cbi","reason":"AMBIGUOUS_IDENTITY","detail":"CBI is a generic abbreviation used by multiple industrial manufacturers and no manufacturer-owned source could be tied safely to this raw identity."},
-    {"manufacturerId":"deltech","reason":"AMBIGUOUS_IDENTITY","detail":"DELTECH resolves to multiple unrelated equipment and materials businesses; the intended manufacturer identity is not established by the raw record."},
-    {"manufacturerId":"hydro","reason":"AMBIGUOUS_IDENTITY","detail":"HYDRO can denote Norsk Hydro, water-treatment brands and multiple hydraulic-equipment companies; no exact manufacturer-owned identity match is available."}
+    {"manufacturerId":"cbi","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"CBI is a generic abbreviation used by multiple industrial manufacturers and no manufacturer-owned source could be tied safely to this raw identity."},
+    {"manufacturerId":"deltech","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"DELTECH resolves to multiple unrelated equipment and materials businesses; the intended manufacturer identity is not established by the raw record."},
+    {"manufacturerId":"hydro","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"HYDRO can denote Norsk Hydro, water-treatment brands and multiple hydraulic-equipment companies; no exact manufacturer-owned identity match is available."}
   ],
   "profiles":[
     {

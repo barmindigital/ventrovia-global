@@ -1,36 +1,12 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "a-flow",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "A-FLOW/Aflow identifies unrelated active manufacturer-owned industrial businesses, including AlsaceFlow instrumentation and valve products and Aflow Group industrial valves; the raw record does not safely select one canonical entity."
-    },
-    {
-      "manufacturerId": "aams",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "AAMS is used by multiple active manufacturer-owned businesses in unrelated sectors, including metal fabrication, medical aesthetics, industrial research and agricultural test equipment; the acronym alone cannot resolve the intended entity."
-    },
-    {
-      "manufacturerId": "abacus",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "ABACUS identifies several unrelated active industrial manufacturers, including lighting, semiconductor and automation businesses; no independent record evidence distinguishes the intended manufacturer."
-    },
-    {
-      "manufacturerId": "abtech",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "ABTECH is used by unrelated active industrial businesses, including a manufacturer of hazardous-area electrical equipment and a construction-technology supplier; the source record does not establish one identity with near-zero conflict risk."
-    },
-    {
-      "manufacturerId": "ace",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "ACE is a highly ambiguous industrial name used by multiple active manufacturers. Although ACE Controls publishes official damping-technology products, the raw ACE record contains no evidence that safely distinguishes that company from other manufacturers."
-    },
-    {
-      "manufacturerId": "acme",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "ACME PUMPS matches at least two unrelated active manufacturer-owned pump businesses in Singapore and Italy with different portfolios; the raw name does not safely determine which entity is intended."
-    }
+    {"manufacturerId":"a-flow","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"A-FLOW/Aflow identifies unrelated active manufacturer-owned industrial businesses, including AlsaceFlow instrumentation and valve products and Aflow Group industrial valves; the raw record does not safely select one canonical entity."},
+    {"manufacturerId":"aams","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"AAMS is used by multiple active manufacturer-owned businesses in unrelated sectors, including metal fabrication, medical aesthetics, industrial research and agricultural test equipment; the acronym alone cannot resolve the intended entity."},
+    {"manufacturerId":"abacus","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ABACUS identifies several unrelated active industrial manufacturers, including lighting, semiconductor and automation businesses; no independent record evidence distinguishes the intended manufacturer."},
+    {"manufacturerId":"abtech","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ABTECH is used by unrelated active industrial businesses, including a manufacturer of hazardous-area electrical equipment and a construction-technology supplier; the source record does not establish one identity with near-zero conflict risk."},
+    {"manufacturerId":"ace","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ACE is a highly ambiguous industrial name used by multiple active manufacturers. Although ACE Controls publishes official damping-technology products, the raw ACE record contains no evidence that safely distinguishes that company from other manufacturers."},
+    {"manufacturerId":"acme","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ACME PUMPS matches at least two unrelated active manufacturer-owned pump businesses in Singapore and Italy with different portfolios; the raw name does not safely determine which entity is intended."}
   ],
   "profiles": [
     {

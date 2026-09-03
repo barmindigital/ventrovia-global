@@ -46146,38 +46146,52 @@
   "negative": [
     {
       "manufacturerId": "a-flow",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "A-FLOW/Aflow identifies unrelated active manufacturer-owned industrial businesses, including AlsaceFlow instrumentation and valve products and Aflow Group industrial valves; the raw record does not safely select one canonical entity."
     },
     {
       "manufacturerId": "aams",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "AAMS is used by multiple active manufacturer-owned businesses in unrelated sectors, including metal fabrication, medical aesthetics, industrial research and agricultural test equipment; the acronym alone cannot resolve the intended entity."
     },
     {
       "manufacturerId": "abacus",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "ABACUS identifies several unrelated active industrial manufacturers, including lighting, semiconductor and automation businesses; no independent record evidence distinguishes the intended manufacturer."
     },
     {
       "manufacturerId": "abtech",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "ABTECH is used by unrelated active industrial businesses, including a manufacturer of hazardous-area electrical equipment and a construction-technology supplier; the source record does not establish one identity with near-zero conflict risk."
     },
     {
       "manufacturerId": "ace",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "ACE is a highly ambiguous industrial name used by multiple active manufacturers. Although ACE Controls publishes official damping-technology products, the raw ACE record contains no evidence that safely distinguishes that company from other manufacturers."
     },
     {
       "manufacturerId": "acme",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "ACME PUMPS matches at least two unrelated active manufacturer-owned pump businesses in Singapore and Italy with different portfolios; the raw name does not safely determine which entity is intended."
     },
     {
       "manufacturerId": "acovent",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "The canonical ACOVENT record cannot yet be bound safely: manufacturer-owned acovent.com identifies an Italian industrial-fan business, while manufacturer-owned acovent.ru identifies a separate Russian compressor-equipment business. No independent repository identifier resolves the conflict."
     },
     {
       "manufacturerId": "aerogen",
@@ -46316,8 +46330,10 @@
     },
     {
       "manufacturerId": "asi-international",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "The repository raw identity ASI INTERNATIONAL is shared by multiple unrelated companies, and no surviving independent repository evidence binds it safely to ASI International Ltd. at asi-alloys.com; the plausible metallurgy candidate must remain noindex until that mapping is independently resolved."
     },
     {
       "manufacturerId": "ask",
@@ -46390,8 +46406,10 @@
     },
     {
       "manufacturerId": "b-systems",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "B SYSTEMS is too generic to resolve to one manufacturer-owned domain without independent identity evidence."
     },
     {
       "manufacturerId": "bachmann1",
@@ -46488,23 +46506,31 @@
     },
     {
       "manufacturerId": "bohler",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "BÖHLER is used across distinct active voestalpine businesses and product identities, including specialty steels, welding products and aerospace forgings; the unsuffixed raw record does not safely select one canonical entity."
     },
     {
       "manufacturerId": "boss",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "BOSS is used by multiple unrelated active manufacturer-owned businesses in industrial adhesives, log-processing equipment, musical electronics and other sectors; the raw name is insufficient for a zero-conflict identity match."
     },
     {
       "manufacturerId": "bowman",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "BOWMAN identifies multiple unrelated active manufacturer-owned industrial businesses, including heat-exchanger, coating-measurement and other equipment companies; the raw record provides no safe discriminator."
     },
     {
       "manufacturerId": "braun",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "BRAUN is used by unrelated active manufacturer-owned businesses, including consumer appliances and industrial machinery. A secondary-source logo candidate does not establish which entity the raw record represents."
     },
     {
       "manufacturerId": "bremse",
@@ -46563,8 +46589,10 @@
     },
     {
       "manufacturerId": "calex",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "CALEX identifies at least two unrelated active manufacturer-owned businesses: Calex Electronics Ltd in the United Kingdom manufactures infrared temperature sensors, controllers and calibration equipment, while Calex Manufacturing Company, Inc. in the United States manufactures DC/DC power-conversion products. The unsuffixed raw record provides no reliable discriminator, so neither identity can be selected safely."
     },
     {
       "manufacturerId": "cannon",
@@ -46579,8 +46607,10 @@
     },
     {
       "manufacturerId": "cbi",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "CBI is a generic abbreviation used by multiple industrial manufacturers and no manufacturer-owned source could be tied safely to this raw identity."
     },
     {
       "manufacturerId": "charlotte",
@@ -46770,8 +46800,10 @@
     },
     {
       "manufacturerId": "deltech",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "DELTECH resolves to multiple unrelated equipment and materials businesses; the intended manufacturer identity is not established by the raw record."
     },
     {
       "manufacturerId": "devilbiss",
@@ -46825,8 +46857,10 @@
     },
     {
       "manufacturerId": "drive-systems",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "The generic repository label does not identify one manufacturer with sufficient certainty."
     },
     {
       "manufacturerId": "durst",
@@ -46963,8 +46997,10 @@
     },
     {
       "manufacturerId": "elro",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "ELRO is an active name for unrelated manufacturer-owned product portfolios, including Crane ELRO peristaltic pumps and ELRO professional cooking systems; the source record does not disambiguate them."
     },
     {
       "manufacturerId": "eltacon",
@@ -47238,8 +47274,10 @@
     },
     {
       "manufacturerId": "gergen-jung",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "Official GERGEN material supports a current vehicle-equipment manufacturer and an older GERGEN-JUNG name, but the available source set does not establish the exact canonical relationship with sufficient certainty for automatic publication."
     },
     {
       "manufacturerId": "gfl",
@@ -47477,8 +47515,10 @@
     },
     {
       "manufacturerId": "hpi",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "HPI is used by multiple unrelated industrial manufacturers in hydraulics, light-metal plant engineering, turbomachinery controls and process equipment; the intended manufacturer cannot be proven from the acronym alone."
     },
     {
       "manufacturerId": "hubner",
@@ -47516,13 +47556,17 @@
     },
     {
       "manufacturerId": "hydraulik-seehausen",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "An official Seehausen hydraulics business was found, but the repository name does not establish a zero-ambiguity canonical match."
     },
     {
       "manufacturerId": "hydro",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "HYDRO can denote Norsk Hydro, water-treatment brands and multiple hydraulic-equipment companies; no exact manufacturer-owned identity match is available."
     },
     {
       "manufacturerId": "iks-group-of-companies",
@@ -47568,8 +47612,10 @@
     },
     {
       "manufacturerId": "indufil",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "Discovery found similarly named filtration businesses but did not establish an exact match to the repository identity."
     },
     {
       "manufacturerId": "innova-systems",
@@ -47734,8 +47780,10 @@
     },
     {
       "manufacturerId": "kason",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "KASON is used by multiple active manufacturer-owned sites, including Kason Corporation for process screening equipment and Kason Industries for refrigeration and enclosure hardware; the raw record alone does not resolve the intended entity."
     },
     {
       "manufacturerId": "kissling",
@@ -47764,8 +47812,10 @@
     },
     {
       "manufacturerId": "kraftmann-gmbh",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity."
     },
     {
       "manufacturerId": "kruss",
@@ -48159,8 +48209,10 @@
     },
     {
       "manufacturerId": "mwm",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "MWM currently identifies separate engine businesses with manufacturer-owned sites in Germany and Brazil; both publish industrial engine and generation portfolios, so the raw name is insufficient for a zero-conflict canonical match."
     },
     {
       "manufacturerId": "nagel",
@@ -48486,8 +48538,10 @@
     },
     {
       "manufacturerId": "precilec",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity."
     },
     {
       "manufacturerId": "precise",
@@ -49070,8 +49124,10 @@
     },
     {
       "manufacturerId": "spco",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "The abbreviation maps to multiple unrelated businesses and no zero-ambiguity canonical identity was established."
     },
     {
       "manufacturerId": "spraytech",
@@ -49233,8 +49289,10 @@
     },
     {
       "manufacturerId": "tecnium",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "TECNIUM is used by separate active industrial businesses in Spain and Brazil with different portfolios; no independent identity evidence in the record safely selects one of them."
     },
     {
       "manufacturerId": "teka",
@@ -49473,8 +49531,10 @@
     },
     {
       "manufacturerId": "tyco-kunkle-valves",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "The raw TYCO VALVES record combines a former corporate identity with Kunkle branding; current official ownership and the intended canonical page cannot be established safely from the record alone."
     },
     {
       "manufacturerId": "uas",
@@ -49650,8 +49710,10 @@
     },
     {
       "manufacturerId": "walter",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "WALTER can refer to several distinct manufacturer-owned identities, including cutting-tool, machine-tool and food-equipment companies; the raw record does not disambiguate them."
     },
     {
       "manufacturerId": "walton",
@@ -49686,8 +49748,10 @@
     },
     {
       "manufacturerId": "wemco",
+      "status": "AMBIGUOUS_IDENTITY",
+      "checkedAt": "2026-08-24",
       "nextReviewAt": null,
-      "reason": "AMBIGUOUS_IDENTITY"
+      "reason": "WEMCO identifies several distinct industrial product businesses and legacy brands, including wire-handling equipment and pump or flotation equipment; the canonical entity cannot be selected from the raw name alone."
     },
     {
       "manufacturerId": "wenger",

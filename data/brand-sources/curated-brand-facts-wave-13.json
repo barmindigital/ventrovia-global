@@ -1,9 +1,9 @@
 {
   "checkedAt":"2026-08-19",
   "blockedIdentities":[
-    {"manufacturerId":"spco","reason":"AMBIGUOUS_IDENTITY","detail":"The abbreviation maps to multiple unrelated businesses and no zero-ambiguity canonical identity was established."},
-    {"manufacturerId":"drive-systems","reason":"AMBIGUOUS_IDENTITY","detail":"The generic repository label does not identify one manufacturer with sufficient certainty."},
-    {"manufacturerId":"indufil","reason":"AMBIGUOUS_IDENTITY","detail":"Discovery found similarly named filtration businesses but did not establish an exact match to the repository identity."}
+    {"manufacturerId":"spco","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"The abbreviation maps to multiple unrelated businesses and no zero-ambiguity canonical identity was established."},
+    {"manufacturerId":"drive-systems","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"The generic repository label does not identify one manufacturer with sufficient certainty."},
+    {"manufacturerId":"indufil","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Discovery found similarly named filtration businesses but did not establish an exact match to the repository identity."}
   ],
   "profiles":[
     {

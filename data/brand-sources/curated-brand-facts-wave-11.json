@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-08-19",
   "blockedIdentities": [
-    {"manufacturerId":"precilec","reason":"AMBIGUOUS_IDENTITY","detail":"Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity."},
-    {"manufacturerId":"hydraulik-seehausen","reason":"AMBIGUOUS_IDENTITY","detail":"An official Seehausen hydraulics business was found, but the repository name does not establish a zero-ambiguity canonical match."}
+    {"manufacturerId":"precilec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity."},
+    {"manufacturerId":"hydraulik-seehausen","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"An official Seehausen hydraulics business was found, but the repository name does not establish a zero-ambiguity canonical match."}
   ],
   "profiles": [
     {

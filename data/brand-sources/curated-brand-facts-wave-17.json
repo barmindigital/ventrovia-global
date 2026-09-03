@@ -836,10 +836,6 @@
     }
   ],
   "blockedIdentities": [
-    {
-      "manufacturerId": "acovent",
-      "reason": "AMBIGUOUS_IDENTITY",
-      "detail": "The canonical ACOVENT record cannot yet be bound safely: manufacturer-owned acovent.com identifies an Italian industrial-fan business, while manufacturer-owned acovent.ru identifies a separate Russian compressor-equipment business. No independent repository identifier resolves the conflict."
-    }
+    {"manufacturerId":"acovent","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"The canonical ACOVENT record cannot yet be bound safely: manufacturer-owned acovent.com identifies an Italian industrial-fan business, while manufacturer-owned acovent.ru identifies a separate Russian compressor-equipment business. No independent repository identifier resolves the conflict."}
   ]
 }
