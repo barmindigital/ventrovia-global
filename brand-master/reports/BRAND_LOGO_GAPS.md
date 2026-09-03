@@ -3,20 +3,18 @@
 Generated: 2026-08-24T00:00:00.000Z
 
 - SAFE brands: 2395
-- SAFE with publishable identity-matched logo: 2067
-- SAFE without logo: 328
+- SAFE with publishable identity-matched logo: 2090
+- SAFE without logo: 305
 - Registry mappings excluded because identity is not SAFE: 30
 
 ## Priority distribution
 
-- HIGH: 324
-- NORMAL: 4
+- HIGH: 305
 
 ## First 100 gaps
 
 - Elco (`elco-motors`) — elco-spa.com
 - HERZ (`herz`) — herz.eu
-- Pragati Automation (`pragati`) — pragati-automation.com
 - Thomson (`thomson`) — thomsonlinear.com
 - Lutz Pumpen (`lutz-pumpen-gmbh`) — lutzpumps.com
 - Duplomatic (`duplomatic`) — duplomaticms.com
@@ -36,7 +34,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Ascon Tecnologic (`ascon-tecnologic`) — ascontecnologic.com
 - co-ax (`co-ax-valves-inc`) — co-ax.com
 - ipf electronic (`ipf-electronic`) — ipf-electronic.de
-- NOCCHI (`nocchi`) — starite.it
 - Pneumax (`pneumax`) — pneumaxspa.com
 - KABELSCHLEPP (`kabelschlepp`) — tsubaki-kabelschlepp.com
 - Kadant Johnson (`kadant-johnson`) — fluidhandling.kadant.com
@@ -50,7 +47,6 @@ Generated: 2026-08-24T00:00:00.000Z
 - Dynisco (`dynisco`) — dynisco.com
 - Hankison (`hankison`) — hankisonair.com
 - LTN Servotechnik (`ltn-servotechnik`) — heidenhain.de
-- URLIŃSKI (`urlinski`) — urlinski.com.pl
 - Welch (`welch-vacuum`) — welchvacuum.com
 - GEMELS (`gemels`) — gemels.com
 - Nicotra Gebhardt (`nicotra`) — nicotra-gebhardt.com
@@ -73,12 +69,10 @@ Generated: 2026-08-24T00:00:00.000Z
 - GSM (`gsm`) — stmspa.com
 - Hanovia (`hanovia`) — hanovia.com
 - Haskel (`haskel`) — haskel.com
-- Lamson (`lamson`) — hoffmanandlamson.com
 - EMP Slavkov (`slavkov`) — emp-slavkov.cz
 - Yılmaz Redüktör (`yilmaz`) — yr.com.tr
 - Balston (`balston`) — parker.com
 - Berger Lahr (`berger-lahr`) — se.com
-- CompAir (`compair`) — compair.com
 - HSME (`hsme`) — hsmecorp.com
 - PROCOM Valves (`procom-valves`) — procomcontrolfluid.com
 - RIEGLER (`riegler`) — riegler.de
@@ -100,9 +94,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Dean Pump (`dean-pump`) — cecoenviro.com
 - Hannemann & Pruss (`waldemar-pruss`) — pruss.de
 - Exlar (`exlar`) — cw-actuation.com
-- Hydrovane (`hydrovane`) — compair.com
 - IDAM (`idam`) — schaeffler.com
-- KLIMA CELJE (`klima-celje`) — klima-celje.si
 - Mecafrance (`mecafrance`) — mecafrance-bonn.de
 - Norton Clipper (`norton`) — nortonabrasives.com
 - Rotex (`rotex`) — therotexgroup.com
@@ -114,5 +106,12 @@ Generated: 2026-08-24T00:00:00.000Z
 - Sethco (`sethco`) — tuskind.com
 - Vuototecnica (`vuototecnica`) — vuototecnica.net
 - HERZOG (`herzog`) — herzog-maschinenfabrik.de
+- INTORQ (`intorq`) — kendrion.com
+- microsonic (`microsonic`) — microsonic.de
+- SCHAUDT (`schaudt`) — grinding.com
+- YTRON (`ytron`) — ytron.com
+- Thomas (`thomas`) — thomaspumps.com
+- HSD (`hsd`) — hsdmechatronics.com
+- KRANZ KUHRMEIER (`kranz-kuhrmeier`) — kranz-packungen.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
