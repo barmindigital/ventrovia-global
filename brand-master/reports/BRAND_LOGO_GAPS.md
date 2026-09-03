@@ -2,14 +2,14 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-- SAFE brands: 2396
+- SAFE brands: 2395
 - SAFE with publishable identity-matched logo: 2067
-- SAFE without logo: 329
+- SAFE without logo: 328
 - Registry mappings excluded because identity is not SAFE: 30
 
 ## Priority distribution
 
-- HIGH: 325
+- HIGH: 324
 - NORMAL: 4
 
 ## First 100 gaps
@@ -86,7 +86,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - WINKEL (`winkel`) — winkel.de
 - HAHN Gasfedern (`hahn-gasfedern`) — hahn-gasfedern.de
 - Balkansko Echo (`balkansko-echo`) — balkanskoecho.com
-- STERLING SIHI (`sterling-sihi`) — sterling-pumps.com
+- STERLING SIHI (`sterling-sihi`) — sterlingsihi.com
 - Tamrotor (`tamrotor`) — ingersollrand.com
 - PRUFTECHNIK (`pruftechnik`) — pruftechnik.com
 - Robuschi (`robuschi`) — robuschi.com
@@ -94,7 +94,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Electro Adda (`electro-adda`) — electroadda.com
 - KELLER Pressure (`keller`) — keller-pressure.com
 - Motovario (`motovario`) — motovario.com
-- Tollok (`tollok`) — rexnord.com
+- Tollok (`tollok`) — regalrexnord.com
 - WEINREICH (`weinreich`) — weinreich.de
 - Aeromeccanica Stranich (`aeromeccanica-stranich`) — stranich.it
 - Dean Pump (`dean-pump`) — cecoenviro.com

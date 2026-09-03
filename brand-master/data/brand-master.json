@@ -40279,7 +40279,7 @@
       "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "pentair.eu",
-      "officialWebsite": "https://www.pentair.eu/",
+      "officialWebsite": "https://www.pentair.eu/components/products/valves/control-valves",
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
@@ -70235,7 +70235,7 @@
           "fullDescription": [
             "The confirmed EMEC record is based on official sources for filling and packaging machinery, pumps and pumping systems, filtration and water systems, industrial automation and control, industrial sensors, and measurement and instrumentation. The confirmed country record is Italy. The documented headquarters is Rieti, Italy. Official company information dates its foundation to 1982.",
             "The documented product structure includes Motor-Driven Dosing Pumps, Stepper Metering Pumps, Solenoid-Driven Dosing Pumps, Process Controllers, Measurement Probes, Pulse-Emitting Water Meters, Preassembled Dosing Systems, Disinfection Systems, Pool Systems, and Cooling-Tower Systems. Family membership alone does not establish a model's configuration, compatibility or current production status.",
-            "Published applications span water and wastewater, food and pharmaceutical processing, chemical processing, oil and gas, agriculture, and building systems."
+            "Published applications span water and wastewater, swimming pool and spa, food and pharmaceutical processing, chemical processing, oil and gas, and agriculture."
           ],
           "language": "en",
           "status": "READY",
@@ -70397,6 +70397,7 @@
       ],
       "industries": [
         "water and wastewater",
+        "swimming pool and spa",
         "food and pharmaceutical processing",
         "chemical processing",
         "oil and gas",
@@ -75500,7 +75501,7 @@
           "fullDescription": [
             "The Hanovia identity and product scope are established through official company and product material covering filtration and water systems. The confirmed country record is United Kingdom. The documented headquarters is Slough, Berkshire, United Kingdom. Official company information dates its foundation to 1924. The documented corporate parent is Halma plc.",
             "Published families and lines include Legacy UV Water-Treatment Systems, UV Water Disinfection Systems, UV Dechlorination Systems, PureLine UV Systems, UVCare Aftercare and Support, PureLine PQ, PureLine UVEO, PureLine DC, and UVCare. They provide portfolio context without replacing model-specific technical documentation.",
-            "Hanovia materials reference food and pharmaceutical processing, water and wastewater, and industrial processing."
+            "Hanovia materials reference food and pharmaceutical processing, swimming pool and spa, water and wastewater, and industrial processing."
           ],
           "language": "en",
           "status": "READY",
@@ -75541,6 +75542,7 @@
       ],
       "industries": [
         "food and pharmaceutical processing",
+        "swimming pool and spa",
         "water and wastewater",
         "industrial processing"
       ],
@@ -90282,7 +90284,7 @@
           "fullDescription": [
             "The confirmed UDOR record is based on official sources for pumps and pumping systems. The confirmed country record is Italy. The documented headquarters is Rubiera, Reggio Emilia, Italy. Official company information dates its foundation to 1966.",
             "The documented product structure includes Diaphragm Pumps, Plunger Pumps, Piston Pumps, Low-Pressure Pumps, Medium-Pressure Pumps, and High-Pressure Pumps. Family membership alone does not establish a model's configuration, compatibility or current production status.",
-            "Published applications span agriculture, municipal utilities, and industrial processing."
+            "Published applications span agriculture, fire protection, municipal utilities, and industrial processing."
           ],
           "language": "en",
           "status": "READY",
@@ -90314,6 +90316,7 @@
       "series": [],
       "industries": [
         "agriculture",
+        "fire protection",
         "municipal utilities",
         "industrial processing"
       ],
@@ -95606,31 +95609,34 @@
     },
     {
       "id": "sterling-sihi",
-      "canonicalName": "STERLING SIHI GmbH",
+      "canonicalName": "Flowserve SIHI Germany GmbH",
       "displayName": "STERLING SIHI",
       "slug": "sterling-sihi",
       "aliases": [
         "STERLING SIHI",
         "SIHI",
-        "STERLING PUMPS"
+        "STERLING PUMPS",
+        "FLOWSERVE SIHI"
       ],
-      "formerNames": [],
+      "formerNames": [
+        "Sterling SIHI GmbH"
+      ],
       "identityStatus": "CONFIRMED",
-      "lifecycleStatus": "ACQUIRED_BRAND",
+      "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "sterling-pumps.com",
-      "officialWebsite": "https://www.sterling-pumps.com/",
+      "officialDomain": "sterlingsihi.com",
+      "officialWebsite": "https://www.sterlingsihi.com/",
       "country": "Germany",
       "headquarters": "Itzehoe, Germany",
-      "foundedYear": null,
+      "foundedYear": 1920,
       "parentCompany": "Flowserve Corporation",
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish STERLING SIHI in pumps and pumping systems, vacuum equipment, and compressors and compressed-air systems. The confirmed country record is Germany.",
+          "shortDescription": "First-party sources establish STERLING SIHI in pumps and pumping systems, vacuum equipment, and compressors and compressed-air systems. Official company information dates its foundation to 1920.",
           "fullDescription": [
-            "The confirmed STERLING SIHI record is based on official sources for pumps and pumping systems, vacuum equipment, and compressors and compressed-air systems. The confirmed country record is Germany. The documented headquarters is Itzehoe, Germany. The documented corporate parent is Flowserve Corporation.",
+            "The confirmed STERLING SIHI record is based on official sources for pumps and pumping systems, vacuum equipment, and compressors and compressed-air systems. The confirmed country record is Germany. The documented headquarters is Itzehoe, Germany. Official company information dates its foundation to 1920. The documented corporate parent is Flowserve Corporation.",
             "The documented product structure includes Centrifugal Pumps, Liquid-Ring Vacuum Pumps, Dry Vacuum Pumps, Compressors, and Engineered Pump Systems. Family membership alone does not establish a model's configuration, compatibility or current production status.",
-            "Published applications span chemical processing, energy, industrial processing, and water and wastewater."
+            "Published applications span chemical processing, energy, industrial processing, food and pharmaceutical processing, and water and wastewater."
           ],
           "language": "en",
           "status": "READY",
@@ -95644,8 +95650,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-sihi-current",
-            "brand-sihi-products"
+            "brand-sihi-home",
+            "brand-sihi-imprint",
+            "brand-sihi-flowserve-products"
           ]
         },
         {
@@ -95654,8 +95661,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-sihi-current",
-            "brand-sihi-products"
+            "brand-sihi-home",
+            "brand-sihi-imprint",
+            "brand-sihi-flowserve-products"
           ]
         },
         {
@@ -95664,8 +95672,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-sihi-current",
-            "brand-sihi-products"
+            "brand-sihi-home",
+            "brand-sihi-imprint",
+            "brand-sihi-flowserve-products"
           ]
         }
       ],
@@ -95686,6 +95695,7 @@
         "chemical processing",
         "energy",
         "industrial processing",
+        "food and pharmaceutical processing",
         "water and wastewater"
       ],
       "documents": [
@@ -95696,10 +95706,11 @@
       ],
       "logo": null,
       "sourceRecordIds": [
-        "brand-sihi-current",
-        "brand-sihi-products"
+        "brand-sihi-home",
+        "brand-sihi-imprint",
+        "brand-sihi-flowserve-products"
       ],
-      "checkedAt": "2026-08-20",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
@@ -96184,8 +96195,8 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "blagdonpumps.co.uk",
-      "officialWebsite": "https://www.blagdonpumps.co.uk/",
+      "officialDomain": "blagdonpump.com",
+      "officialWebsite": "https://blagdonpump.com/",
       "country": "United Kingdom",
       "headquarters": "Gateshead, United Kingdom",
       "foundedYear": null,
@@ -103328,8 +103339,8 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "ACQUIRED_BRAND",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "rexnord.com",
-      "officialWebsite": "https://www.rexnord.com/products-services/process-motion-control/pt-drive-components/locking-clamping-devices/locking-devices",
+      "officialDomain": "regalrexnord.com",
+      "officialWebsite": "https://www.regalrexnord.com/brands/tollok",
       "country": "Italy",
       "headquarters": "Masi Torello, Italy",
       "foundedYear": null,
@@ -138540,143 +138551,64 @@
     },
     {
       "id": "pelikan-vrchlabi",
-      "canonicalName": "Labit metalworks s.r.o.",
-      "displayName": "PELIKÁN Vrchlabí",
+      "canonicalName": "PELIKAN VRCHLABI",
+      "displayName": "PELIKAN VRCHLABI",
       "slug": "pelikan-vrchlabi",
-      "aliases": [
-        "PELIKAN VRCHLABI",
-        "Labit metalworks"
-      ],
-      "formerNames": [
-        "PELIKÁN Vrchlabí s.r.o.",
-        "Metalworks s.r.o."
-      ],
-      "identityStatus": "CONFIRMED",
-      "lifecycleStatus": "CURRENT",
-      "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "labit.cz",
-      "officialWebsite": "https://metalworks.labit.cz/",
-      "country": "Czech Republic",
-      "headquarters": "Vrchlabí, Czech Republic",
-      "foundedYear": 1992,
-      "parentCompany": "Labit a.s.",
+      "aliases": [],
+      "formerNames": [],
+      "identityStatus": "REVIEW_REQUIRED",
+      "lifecycleStatus": "UNKNOWN",
+      "publicationStatus": "BRAND_REVIEW",
+      "officialDomain": null,
+      "officialWebsite": null,
+      "country": null,
+      "headquarters": null,
+      "foundedYear": null,
+      "parentCompany": null,
       "descriptions": {
-        "en": {
-          "shortDescription": "The source-backed PELIKÁN Vrchlabí portfolio covers hydraulic equipment, industrial valves and flow control, and industrial machinery. Its documented corporate parent is Labit a.s..",
-          "fullDescription": [
-            "PELIKÁN Vrchlabí is documented through first-party sources that describe hydraulic equipment, industrial valves and flow control, and industrial machinery. The confirmed country record is Czech Republic. The documented headquarters is Vrchlabí, Czech Republic. Official company information dates its foundation to 1992. The documented corporate parent is Labit a.s..",
-            "PELIKÁN Vrchlabí publishes information for MA / JHMA hydraulic motors, MRAK 6 hydraulic motors, MAK 1 hydraulic motors, MAK 2 / MRAK 3 hydraulic motors, GAR 1 hydraulic pumps, PPAR 1 hydraulic pumps, GAR 2 / PPAR 2 hydraulic pumps, VP2 / VP4 pressure valves, P-VP pressure valves, and SV 6 servo valves. These names are retained as source-backed family data rather than as model-level specifications.",
-            "Documented application contexts include industrial manufacturing, industrial processing, and energy."
-          ],
-          "language": "en",
-          "status": "READY",
-          "presentationCopyIncluded": false
-        }
+        "en": null
       },
-      "categories": [
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-pelikan-vrchlabi-about"
-          ]
-        },
-        {
-          "id": "industrial-valves-and-flow-control",
-          "label": "industrial valves and flow control",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-pelikan-vrchlabi-about"
-          ]
-        },
-        {
-          "id": "industrial-machinery",
-          "label": "industrial machinery",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-pelikan-vrchlabi-about"
-          ]
-        }
-      ],
-      "productGroups": [
-        "hydraulic equipment",
-        "industrial valves and flow control",
-        "industrial machinery"
-      ],
-      "families": [
-        "MA / JHMA hydraulic motors",
-        "MRAK 6 hydraulic motors",
-        "MAK 1 hydraulic motors",
-        "MAK 2 / MRAK 3 hydraulic motors",
-        "GAR 1 hydraulic pumps",
-        "PPAR 1 hydraulic pumps",
-        "GAR 2 / PPAR 2 hydraulic pumps",
-        "VP2 / VP4 pressure valves",
-        "P-VP pressure valves",
-        "SV 6 servo valves"
-      ],
+      "categories": [],
+      "productGroups": [],
+      "families": [],
       "series": [],
-      "industries": [
-        "industrial manufacturing",
-        "industrial processing",
-        "energy"
-      ],
-      "documents": [
-        {
-          "type": "OFFICIAL_CATALOG",
-          "url": "https://metalworks.labit.cz/#hydraulika"
-        }
-      ],
+      "industries": [],
+      "documents": [],
       "logo": null,
-      "sourceRecordIds": [
-        "brand-pelikan-vrchlabi-about"
-      ],
-      "checkedAt": "2026-09-01",
-      "contentStatus": "EN_CONTENT_READY",
-      "seoStatus": "SEO_CORE_READY",
-      "seo": {
-        "titleCore": "PELIKÁN Vrchlabí Hydraulic equipment",
-        "siteSuffix": null,
-        "metaFactual": "PELIKÁN Vrchlabí manufacturer profile covering hydraulic equipment, industrial valves and flow control, and industrial machinery, based on official company and product sources.",
-        "siteSpecificCta": null,
-        "primaryIntent": "PELIKÁN Vrchlabí hydraulic equipment",
-        "secondaryIntents": [
-          "PELIKÁN Vrchlabí industrial equipment",
-          "PELIKÁN Vrchlabí sourcing",
-          "PELIKÁN Vrchlabí industrial valves and flow control",
-          "PELIKÁN Vrchlabí industrial machinery"
-        ],
-        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
-      },
+      "sourceRecordIds": [],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "NOT_READY",
+      "seoStatus": "NOT_READY",
+      "seo": null,
       "reviewStatus": {
-        "state": "RESOLVED",
-        "blockerCode": null,
-        "blockerCategory": null,
-        "reason": null,
+        "state": "REQUIRES_REVIEW",
+        "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+        "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+        "reason": "The manufacturer ceased operations on 2026-01-31 (its own site now shows only a closure notice for Metalworks s.r.o.). The stated parent, Labit a.s., has fully pivoted to hydropower, construction and real estate and makes no mention of PELIKAN Vrchlabi or hydraulic-component manufacturing. A historical alternate domain (pelikan-z.cz) no longer resolves. ARGO-HYTOS traces lineage to the same 1956 plant via a separate 1992 privatization but is a distinct corporate entity with a distinct current product range and cannot be substituted without misattributing history. No operating successor selling hydraulic motors, pumps or valves under the PELIKAN Vrchlabi name could be found.",
         "detail": null,
-        "attemptedUrls": []
+        "attemptedUrls": [
+          "http://metalworks.labit.cz/",
+          "https://www.labit.cz/",
+          "https://pelikan-z.cz/"
+        ]
       },
       "completeness": {
-        "score": 85,
-        "indicator": "BRAND_COMPLETE",
+        "score": 0,
+        "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 20,
-          "officialDomain": 10,
+          "identitySource": 0,
+          "officialDomain": 0,
           "logo": 0,
-          "description": 15,
-          "categories": 10,
-          "families": 10,
-          "countryAndHeadquarters": 10,
-          "documents": 5,
-          "seo": 5
+          "description": 0,
+          "categories": 0,
+          "families": 0,
+          "countryAndHeadquarters": 0,
+          "documents": 0,
+          "seo": 0
         }
       },
-      "notes": null
+      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
     },
     {
       "id": "perske",
@@ -162569,7 +162501,7 @@
           "fullDescription": [
             "ATG UV Systems is represented by manufacturer-owned evidence for filtration and water systems. The confirmed country record is United Kingdom. Official company information dates its foundation to 1981. The documented corporate parent is Xylem Inc..",
             "Official product material names Medium-Pressure UV Systems, Low-Pressure UV Systems, Drinking-Water UV Systems, Industrial-Water UV Systems, TOC Reduction UV Systems, Wafer, VT TOC, SX, VX Mini, and VX Midi. Technical characteristics should be checked against the document for the exact model or series.",
-            "The confirmed market and application context includes water and wastewater, municipal utilities, and industrial processing."
+            "The confirmed market and application context includes water and wastewater, municipal utilities, industrial processing, and swimming pool and spa."
           ],
           "language": "en",
           "status": "READY",
@@ -162608,7 +162540,8 @@
       "industries": [
         "water and wastewater",
         "municipal utilities",
-        "industrial processing"
+        "industrial processing",
+        "swimming pool and spa"
       ],
       "documents": [
         {
@@ -170925,7 +170858,7 @@
           "fullDescription": [
             "The Bombas Ideal identity and product scope are established through official company and product material covering pumps and pumping systems. The confirmed country record is Spain. Official company information dates its foundation to 1902.",
             "Published families and lines include Horizontal Pumps, Vertical Pumps, Submersible Pumps, Wastewater Pumps, Multistage Pumps, Pressure Booster Sets, Fire-Fighting Sets, Solar Pumping Systems, GNI, and RFI. They provide portfolio context without replacing model-specific technical documentation.",
-            "Bombas Ideal materials reference water and wastewater, agriculture, and industrial processing."
+            "Bombas Ideal materials reference water and wastewater, agriculture, fire protection, and industrial processing."
           ],
           "language": "en",
           "status": "READY",
@@ -170972,6 +170905,7 @@
       "industries": [
         "water and wastewater",
         "agriculture",
+        "fire protection",
         "industrial processing"
       ],
       "documents": [
@@ -173437,7 +173371,7 @@
           "fullDescription": [
             "The confirmed Broady Flow Control record is based on official sources for industrial valves and flow control. The confirmed country record is United Kingdom. The documented headquarters is Hull, United Kingdom. Official company information dates its foundation to 1902. The documented corporate parent is Valvitalia Group.",
             "The documented product structure includes Safety Relief Valves, Pilot Operated Valves, Pressure Reducing Valves, Sustaining Valves, Hydrant Valves, Naval Defence Valves, Type 3500, Type 4000, Type 180, and C Series. Family membership alone does not establish a model's configuration, compatibility or current production status.",
-            "Published applications span industrial processing and marine applications."
+            "Published applications span industrial processing, marine applications, and fire protection."
           ],
           "language": "en",
           "status": "READY",
@@ -173475,7 +173409,8 @@
       ],
       "industries": [
         "industrial processing",
-        "marine applications"
+        "marine applications",
+        "fire protection"
       ],
       "documents": [
         {
@@ -179275,7 +179210,7 @@
       "lifecycleStatus": "ACQUIRED_BRAND",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "te.com",
-      "officialWebsite": "https://www.te.com/en/products/brands/celesco.html",
+      "officialWebsite": "https://www.te.com/en/products/brands/meas.html",
       "country": "United States",
       "headquarters": "Chatsworth, United States",
       "foundedYear": null,
@@ -179703,8 +179638,8 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "ACQUIRED_BRAND",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "rexnord.com",
-      "officialWebsite": "https://www.rexnord.com/products-services/process-motion-control/couplings/torsionally-soft-couplings",
+      "officialDomain": "regalrexnord.com",
+      "officialWebsite": "https://www.regalrexnord.com/brands/centa",
       "country": null,
       "headquarters": null,
       "foundedYear": 1970,
@@ -192814,20 +192749,20 @@
       ],
       "formerNames": [],
       "identityStatus": "CONFIRMED",
-      "lifecycleStatus": "GROUP_BRAND",
+      "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "automationdirect.com",
-      "officialWebsite": "https://www.automationdirect.com/adc/overview/catalog/programmable_controllers/directlogic_series_plcs_(micro_to_small,_brick_-a-_modular)",
+      "officialWebsite": "https://www.automationdirect.com/adc/overview/catalog/programmable_controllers/directlogic_plcs_(micro_to_small,_brick_-a-_modular)",
       "country": "United States",
       "headquarters": "Cumming, United States",
       "foundedYear": null,
       "parentCompany": "AutomationDirect",
       "descriptions": {
         "en": {
-          "shortDescription": "DirectLOGIC is documented in official material for industrial automation and control and industrial software. Official product material names Micro PLCs, Brick PLCs, Modular PLCs, Expansion I/O, DirectSOFT, DL05, DL06, DL105, DL205, and DL305.",
+          "shortDescription": "DirectLOGIC is documented in official material for industrial automation and control and industrial software. Official product material names Micro PLCs, Brick PLCs, Modular PLCs, Expansion I/O, DirectSOFT, DL05, DL06, DL205, DL305, and DL405.",
           "fullDescription": [
             "Manufacturer-owned material confirms DirectLOGIC and a portfolio centred on industrial automation and control and industrial software. The confirmed country record is United States. The documented headquarters is Cumming, United States. The documented corporate parent is AutomationDirect.",
-            "Named product families, ranges and series include Micro PLCs, Brick PLCs, Modular PLCs, Expansion I/O, DirectSOFT, DL05, DL06, DL105, DL205, and DL305. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
+            "Named product families, ranges and series include Micro PLCs, Brick PLCs, Modular PLCs, Expansion I/O, DirectSOFT, DL05, DL06, DL205, DL305, and DL405. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers factory automation."
           ],
           "language": "en",
@@ -192842,7 +192777,8 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "wave77-directlogic-parent"
+            "wave77-directlogic-parent",
+            "wave77-directlogic-catalog-pdf"
           ]
         },
         {
@@ -192851,7 +192787,8 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "wave77-directlogic-parent"
+            "wave77-directlogic-parent",
+            "wave77-directlogic-catalog-pdf"
           ]
         }
       ],
@@ -192869,7 +192806,6 @@
       "series": [
         "DL05",
         "DL06",
-        "DL105",
         "DL205",
         "DL305",
         "DL405"
@@ -192889,9 +192825,10 @@
       ],
       "logo": null,
       "sourceRecordIds": [
-        "wave77-directlogic-parent"
+        "wave77-directlogic-parent",
+        "wave77-directlogic-catalog-pdf"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
@@ -197155,20 +197092,20 @@
       ],
       "formerNames": [],
       "identityStatus": "CONFIRMED",
-      "lifecycleStatus": "GROUP_BRAND",
+      "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "ecoflam-burners.com",
-      "officialWebsite": "https://www.ecoflam-burners.com/int/en/",
+      "officialWebsite": "https://www.ecoflam-burners.com/",
       "country": "Italy",
       "headquarters": "Resana, Italy",
       "foundedYear": null,
       "parentCompany": "Ariston Group",
       "descriptions": {
         "en": {
-          "shortDescription": "Ecoflam publishes official information for combustion and burner systems. The published range names Gas Burners, Light Oil Burners, Heavy Oil Burners, Dual-Fuel Burners, MAX GAS, BLU, MAX, MAIOR, MAXFLAM, and OILFLAM.",
+          "shortDescription": "Ecoflam publishes official information for combustion and burner systems. The published range names Gas Burners, Light Oil Burners, Heavy Oil Burners, Dual-Fuel Burners, Duoblock Burners, MAX GAS, BLU, MAX, MAIOR, and MAXFLAM.",
           "fullDescription": [
             "Official Ecoflam sources document the manufacturer identity and its work in combustion and burner systems. The confirmed country record is Italy. The documented headquarters is Resana, Italy. The documented corporate parent is Ariston Group.",
-            "The official range identifies Gas Burners, Light Oil Burners, Heavy Oil Burners, Dual-Fuel Burners, MAX GAS, BLU, MAX, MAIOR, MAXFLAM, and OILFLAM. Exact variants, options and operating limits remain model-specific.",
+            "The official range identifies Gas Burners, Light Oil Burners, Heavy Oil Burners, Dual-Fuel Burners, Duoblock Burners, MAX GAS, BLU, MAX, MAIOR, and MAXFLAM. Exact variants, options and operating limits remain model-specific.",
             "Official material associates the range with industrial processing, energy, and building systems."
           ],
           "language": "en",
@@ -197183,6 +197120,7 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
+            "brand-ecoflam-contacts",
             "brand-ecoflam-products"
           ]
         }
@@ -197194,7 +197132,8 @@
         "Gas Burners",
         "Light Oil Burners",
         "Heavy Oil Burners",
-        "Dual-Fuel Burners"
+        "Dual-Fuel Burners",
+        "Duoblock Burners"
       ],
       "series": [
         "MAX GAS",
@@ -197204,7 +197143,8 @@
         "MAXFLAM",
         "OILFLAM",
         "MULTICALOR",
-        "MULTIFLAM"
+        "MULTIFLAM",
+        "TS RANGE"
       ],
       "industries": [
         "industrial processing",
@@ -197236,9 +197176,10 @@
         "presentationBackground": "light"
       },
       "sourceRecordIds": [
+        "brand-ecoflam-contacts",
         "brand-ecoflam-products"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
@@ -198473,8 +198414,8 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "FORMER_NAME",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "ekd-systems.de",
-      "officialWebsite": "https://www.ekd-systems.de/en/",
+      "officialDomain": "helu.com",
+      "officialWebsite": "https://www.helu.com/ch-en/products-solutions/energy-chains/",
       "country": "Germany",
       "headquarters": "Erkrath, Germany",
       "foundedYear": null,
@@ -206208,20 +206149,20 @@
       ],
       "formerNames": [],
       "identityStatus": "CONFIRMED",
-      "lifecycleStatus": "ACQUIRED_BRAND",
+      "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "xylem.com",
-      "officialWebsite": "https://www.xylem.com/en-us/brands/evoqua/",
+      "officialWebsite": "https://www.xylem.com/en-us/brand/evoqua/",
       "country": "United States",
       "headquarters": "Pittsburgh, United States",
       "foundedYear": null,
       "parentCompany": "Xylem Inc.",
       "descriptions": {
         "en": {
-          "shortDescription": "Official Evoqua material documents a product scope covering filtration and water systems and industrial cleaning systems. Documented families and lines include Filtration Systems, Ion Exchange Systems, Disinfection Systems, Clarification Equipment, and Wastewater Treatment Systems.",
+          "shortDescription": "Official Evoqua material documents a product scope covering filtration and water systems and industrial cleaning systems. Documented families and lines include Filtration Systems, Disinfection Systems, High Purity Water Systems, Clarification Equipment, and Wastewater Treatment Systems.",
           "fullDescription": [
             "Evoqua Water Technologies is represented by manufacturer-owned evidence for filtration and water systems and industrial cleaning systems. The confirmed country record is United States. The documented headquarters is Pittsburgh, United States. The documented corporate parent is Xylem Inc..",
-            "Official product material names Filtration Systems, Ion Exchange Systems, Disinfection Systems, Clarification Equipment, and Wastewater Treatment Systems. Technical characteristics should be checked against the document for the exact model or series.",
+            "Official product material names Filtration Systems, Disinfection Systems, High Purity Water Systems, Clarification Equipment, and Wastewater Treatment Systems. Technical characteristics should be checked against the document for the exact model or series.",
             "The confirmed market and application context includes water and wastewater, industrial processing, food and pharmaceutical processing, and energy."
           ],
           "language": "en",
@@ -206237,7 +206178,7 @@
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
             "brand-evoqua-parent-profile",
-            "brand-evoqua-parent-filtration"
+            "brand-evoqua-parent-datasheet"
           ]
         },
         {
@@ -206247,7 +206188,7 @@
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
             "brand-evoqua-parent-profile",
-            "brand-evoqua-parent-filtration"
+            "brand-evoqua-parent-datasheet"
           ]
         }
       ],
@@ -206257,8 +206198,8 @@
       ],
       "families": [
         "Filtration Systems",
-        "Ion Exchange Systems",
         "Disinfection Systems",
+        "High Purity Water Systems",
         "Clarification Equipment",
         "Wastewater Treatment Systems"
       ],
@@ -206272,7 +206213,7 @@
       "documents": [
         {
           "type": "OFFICIAL_DOCUMENTATION",
-          "url": "https://www.xylem.com/en-us/brands/evoqua/"
+          "url": "https://www.xylem.com/en-us/brand/evoqua/"
         }
       ],
       "logo": {
@@ -206295,9 +206236,9 @@
       },
       "sourceRecordIds": [
         "brand-evoqua-parent-profile",
-        "brand-evoqua-parent-filtration"
+        "brand-evoqua-parent-datasheet"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
@@ -209199,7 +209140,7 @@
       "lifecycleStatus": "LEGACY_BRAND",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "mersen.com",
-      "officialWebsite": "https://www.mersen.com/en/products/electrical-protection-and-control/fuses-and-fusegear",
+      "officialWebsite": "https://www.mersen.com/en/products/fuses",
       "country": "France",
       "headquarters": "Courbevoie, France",
       "foundedYear": null,
@@ -212125,7 +212066,7 @@
     },
     {
       "id": "flakt-woods",
-      "canonicalName": "Woods Air Movement",
+      "canonicalName": "Flakt Woods Ltd (T/A Woods Air Movement)",
       "displayName": "Fläkt Woods",
       "slug": "flakt-woods",
       "aliases": [
@@ -212135,21 +212076,21 @@
       ],
       "formerNames": [],
       "identityStatus": "CONFIRMED",
-      "lifecycleStatus": "GROUP_BRAND",
+      "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "flaktgroup.com",
-      "officialWebsite": "https://www.flaktgroup.com/in/our-brands/woods/",
+      "officialDomain": "woodsairmovement.com",
+      "officialWebsite": "https://www.woodsairmovement.com/en-gb/",
       "country": "United Kingdom",
-      "headquarters": "Colchester, United Kingdom",
+      "headquarters": "Axial Way, Colchester CO4 5ZD, United Kingdom",
       "foundedYear": null,
       "parentCompany": "FläktGroup",
       "descriptions": {
         "en": {
-          "shortDescription": "Fläkt Woods publishes official information for industrial fans and blowers, ventilation equipment, and industrial safety equipment. The published range names Axial Fans, Centrifugal Fans, High-Temperature Fans, Smoke-Control Fans, and Ventilation Equipment.",
+          "shortDescription": "Fläkt Woods publishes official information for industrial fans and blowers, ventilation equipment, and industrial safety equipment. The published range names Axial Fans, Jet Fans, Plate Fans, Induction Thrust Fans, PowerBox3 T120, and BoudECa.",
           "fullDescription": [
-            "Official Fläkt Woods sources document the manufacturer identity and its work in industrial fans and blowers, ventilation equipment, and industrial safety equipment. The confirmed country record is United Kingdom. The documented headquarters is Colchester, United Kingdom. The documented corporate parent is FläktGroup.",
-            "The official range identifies Axial Fans, Centrifugal Fans, High-Temperature Fans, Smoke-Control Fans, and Ventilation Equipment. Exact variants, options and operating limits remain model-specific.",
-            "Official material associates the range with building systems and industrial processing."
+            "Official Fläkt Woods sources document the manufacturer identity and its work in industrial fans and blowers, ventilation equipment, and industrial safety equipment. The confirmed country record is United Kingdom. The documented headquarters is Axial Way, Colchester CO4 5ZD, United Kingdom. The documented corporate parent is FläktGroup.",
+            "The official range identifies Axial Fans, Jet Fans, Plate Fans, Induction Thrust Fans, PowerBox3 T120, and BoudECa. Exact variants, options and operating limits remain model-specific.",
+            "Official material associates the range with building systems and transportation."
           ],
           "language": "en",
           "status": "READY",
@@ -212163,7 +212104,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "wave80-flaktwoods-parent"
+            "verified-woodsairmovement-home-2026",
+            "verified-woodsairmovement-products-2026",
+            "verified-woodsairmovement-legal-notice-2026"
           ]
         },
         {
@@ -212172,7 +212115,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "wave80-flaktwoods-parent"
+            "verified-woodsairmovement-home-2026",
+            "verified-woodsairmovement-products-2026",
+            "verified-woodsairmovement-legal-notice-2026"
           ]
         },
         {
@@ -212181,7 +212126,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "wave80-flaktwoods-parent"
+            "verified-woodsairmovement-home-2026",
+            "verified-woodsairmovement-products-2026",
+            "verified-woodsairmovement-legal-notice-2026"
           ]
         }
       ],
@@ -212192,31 +212139,31 @@
       ],
       "families": [
         "Axial Fans",
-        "Centrifugal Fans",
-        "High-Temperature Fans",
-        "Smoke-Control Fans",
-        "Ventilation Equipment"
+        "Jet Fans",
+        "Plate Fans",
+        "Induction Thrust Fans"
       ],
-      "series": [],
+      "series": [
+        "PowerBox3 T120",
+        "BoudECa"
+      ],
       "industries": [
         "building systems",
-        "industrial processing"
+        "transportation"
       ],
       "documents": [
         {
-          "type": "OFFICIAL_CATALOG",
-          "url": "https://www.flaktgroup.com/globalassets/solutions/2.-all-solutions/explosive-environments/atex_marketing-brochure-10003gb_20170320.pdf"
-        },
-        {
           "type": "OFFICIAL_DOCUMENTATION",
-          "url": "https://www.flaktgroup.com/in/our-brands/woods/"
+          "url": "https://www.woodsairmovement.com/en-gb/products/"
         }
       ],
       "logo": null,
       "sourceRecordIds": [
-        "wave80-flaktwoods-parent"
+        "verified-woodsairmovement-home-2026",
+        "verified-woodsairmovement-products-2026",
+        "verified-woodsairmovement-legal-notice-2026"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
@@ -212242,7 +212189,7 @@
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 90,
+        "score": 85,
         "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
@@ -212253,7 +212200,7 @@
           "categories": 10,
           "families": 10,
           "countryAndHeadquarters": 10,
-          "documents": 10,
+          "documents": 5,
           "seo": 5
         }
       },
@@ -221423,8 +221370,8 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "GROUP_COMPANY",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "generacmobileproducts.com",
-      "officialWebsite": "https://www.generacmobileproducts.com/",
+      "officialDomain": "towerlight.com",
+      "officialWebsite": "https://www.towerlight.com/",
       "country": "Italy",
       "headquarters": null,
       "foundedYear": null,
@@ -238965,7 +238912,7 @@
       "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "hwacheon.com",
-      "officialWebsite": "https://www.hwacheon.com/en/",
+      "officialWebsite": "https://www.hwacheon.com/en/main.do",
       "country": "South Korea",
       "headquarters": "Gwangju, South Korea",
       "foundedYear": null,
@@ -240451,7 +240398,7 @@
       "lifecycleStatus": "GROUP_BRAND",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "smithsinterconnect.com",
-      "officialWebsite": "https://www.smithsinterconnect.com/products/connectors/hypertac/",
+      "officialWebsite": "https://www.smithsinterconnect.com/our-company/who-we-are/our-technology-brands/hypertac/",
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -241424,19 +241371,19 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "insertdeal.com",
-      "officialWebsite": "https://www.insertdeal.com/",
+      "officialDomain": "idinsertdeal.com",
+      "officialWebsite": "https://www.idinsertdeal.com/en/",
       "country": "Italy",
-      "headquarters": null,
-      "foundedYear": null,
+      "headquarters": "Villasanta (MB), Italy",
+      "foundedYear": 2004,
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed ID Insert Deal portfolio covers pneumatic equipment, industrial valves and flow control, and industrial automation and control. The confirmed country record is Italy.",
+          "shortDescription": "The source-backed ID Insert Deal portfolio covers pneumatic equipment, industrial valves and flow control, and filtration and water systems. The confirmed country record is Italy.",
           "fullDescription": [
-            "ID Insert Deal is documented through first-party sources that describe pneumatic equipment, industrial valves and flow control, and industrial automation and control. The confirmed country record is Italy.",
-            "ID Insert Deal publishes information for Solenoid Valves, Mechanically Operated Valves, Pneumatic Cylinders, Air-Preparation Units, and Pneumatic Fittings. These names are retained as source-backed family data rather than as model-level specifications.",
-            "Documented application contexts include factory automation, industrial processing, and packaging."
+            "ID Insert Deal is documented through first-party sources that describe pneumatic equipment, industrial valves and flow control, and filtration and water systems. The confirmed country record is Italy. The documented headquarters is Villasanta (MB), Italy. Official company information dates its foundation to 2004.",
+            "ID Insert Deal publishes information for Pressure Regulators, Filters, Filter-Regulators (FRL), Lubricators, Relief Valves, and Decompression Units. These names are retained as source-backed family data rather than as model-level specifications.",
+            "Documented application contexts include chemical processing, fire protection, packaging, oil and gas, and food and pharmaceutical processing."
           ],
           "language": "en",
           "status": "READY",
@@ -241450,8 +241397,8 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-insert-deal-company-products",
-            "brand-insert-deal-products"
+            "brand-idinsertdeal-company",
+            "brand-idinsertdeal-products"
           ]
         },
         {
@@ -241460,64 +241407,67 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-insert-deal-company-products",
-            "brand-insert-deal-products"
+            "brand-idinsertdeal-company",
+            "brand-idinsertdeal-products"
           ]
         },
         {
-          "id": "industrial-automation-and-control",
-          "label": "industrial automation and control",
+          "id": "filtration-and-water-systems",
+          "label": "filtration and water systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-insert-deal-company-products",
-            "brand-insert-deal-products"
+            "brand-idinsertdeal-company",
+            "brand-idinsertdeal-products"
           ]
         }
       ],
       "productGroups": [
         "pneumatic equipment",
         "industrial valves and flow control",
-        "industrial automation and control"
+        "filtration and water systems"
       ],
       "families": [
-        "Solenoid Valves",
-        "Mechanically Operated Valves",
-        "Pneumatic Cylinders",
-        "Air-Preparation Units",
-        "Pneumatic Fittings"
+        "Pressure Regulators",
+        "Filters",
+        "Filter-Regulators (FRL)",
+        "Lubricators",
+        "Relief Valves",
+        "Decompression Units"
       ],
       "series": [],
       "industries": [
-        "factory automation",
-        "industrial processing",
-        "packaging"
+        "chemical processing",
+        "fire protection",
+        "packaging",
+        "oil and gas",
+        "food and pharmaceutical processing"
       ],
       "documents": [
         {
           "type": "OFFICIAL_DOCUMENTATION",
-          "url": "https://www.insertdeal.com/products/"
+          "url": "https://www.idinsertdeal.com/en/products/"
         }
       ],
       "logo": null,
       "sourceRecordIds": [
-        "brand-insert-deal-company-products",
-        "brand-insert-deal-products"
+        "brand-idinsertdeal-company",
+        "brand-idinsertdeal-products"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
         "titleCore": "ID Insert Deal Pneumatic equipment",
         "siteSuffix": null,
-        "metaFactual": "ID Insert Deal manufacturer profile covering pneumatic equipment, industrial valves and flow control, and industrial automation and control, based on official company and product sources.",
+        "metaFactual": "ID Insert Deal manufacturer profile covering pneumatic equipment, industrial valves and flow control, and filtration and water systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "ID Insert Deal pneumatic equipment",
         "secondaryIntents": [
           "ID Insert Deal industrial equipment",
           "ID Insert Deal sourcing",
           "ID Insert Deal industrial valves and flow control",
-          "ID Insert Deal industrial automation and control"
+          "ID Insert Deal filtration and water systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -241530,8 +241480,8 @@
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 80,
-        "indicator": "BRAND_INCOMPLETE",
+        "score": 85,
+        "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
           "identitySource": 20,
@@ -241540,7 +241490,7 @@
           "description": 15,
           "categories": 10,
           "families": 10,
-          "countryAndHeadquarters": 5,
+          "countryAndHeadquarters": 10,
           "documents": 5,
           "seo": 5
         }
@@ -244166,7 +244116,7 @@
       "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
       "officialDomain": "injecta.com",
-      "officialWebsite": "https://www.injecta.com/en/",
+      "officialWebsite": "https://www.injecta.eu/en/",
       "country": "Italy",
       "headquarters": "Rieti, Italy",
       "foundedYear": 1989,
@@ -244177,7 +244127,7 @@
           "fullDescription": [
             "The Injecta identity and product scope are established through official company and product material covering pumps and pumping systems, measurement and instrumentation, industrial automation and control, and filtration and water systems. The confirmed country record is Italy. The documented headquarters is Rieti, Italy. Official company information dates its foundation to 1989.",
             "Published families and lines include Electromagnetic Dosing Pumps, Motor-Driven Dosing Pumps, Peristaltic Pumps, Dosing Controllers, Measurement Probes, and Chemical-Dosing Systems. They provide portfolio context without replacing model-specific technical documentation.",
-            "Injecta materials reference water and wastewater, industrial processing, and food and pharmaceutical processing."
+            "Injecta materials reference water and wastewater, swimming pool and spa, industrial processing, and cleaning and disinfection."
           ],
           "language": "en",
           "status": "READY",
@@ -244243,13 +244193,14 @@
       "series": [],
       "industries": [
         "water and wastewater",
+        "swimming pool and spa",
         "industrial processing",
-        "food and pharmaceutical processing"
+        "cleaning and disinfection"
       ],
       "documents": [
         {
           "type": "OFFICIAL_DOCUMENTATION",
-          "url": "https://www.injecta.com/en/products/"
+          "url": "https://www.injecta.eu/en/"
         }
       ],
       "logo": {
@@ -244274,7 +244225,7 @@
         "brand-injecta-company",
         "brand-injecta-products"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
@@ -244822,19 +244773,19 @@
       "identityStatus": "CONFIRMED",
       "lifecycleStatus": "CURRENT",
       "publicationStatus": "BRAND_SAFE",
-      "officialDomain": "integral-hydraulik.com",
-      "officialWebsite": "https://www.integral-hydraulik.com/en/",
+      "officialDomain": "rupf-industries.com",
+      "officialWebsite": "https://rupf-industries.com/en/rupf-industries/business-segments/hydraulic/integral-hydraulik/",
       "country": "Germany",
       "headquarters": "Willich, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "INTEGRAL HYDRAULIK publishes official information for hydraulic equipment, industrial valves and flow control, and contract manufacturing and fabrication. The published range names Hydraulic Manifolds, Cartridge-Valve Blocks, Hydraulic Control Plates, Valve Assemblies, and Custom Hydraulic Systems.",
+          "shortDescription": "INTEGRAL HYDRAULIK publishes official information for hydraulic equipment, industrial valves and flow control, and contract manufacturing and fabrication. The published range names Hydraulic Power Units, Electro-Hydraulic Control Systems, Hydraulic Test Stands, Hydraulic Cylinders, Control Blocks, and Pressure Relief Valves.",
           "fullDescription": [
             "Official INTEGRAL HYDRAULIK sources document the manufacturer identity and its work in hydraulic equipment, industrial valves and flow control, and contract manufacturing and fabrication. The confirmed country record is Germany. The documented headquarters is Willich, Germany.",
-            "The official range identifies Hydraulic Manifolds, Cartridge-Valve Blocks, Hydraulic Control Plates, Valve Assemblies, and Custom Hydraulic Systems. Exact variants, options and operating limits remain model-specific.",
-            "Official material associates the range with industrial processing and industrial manufacturing."
+            "The official range identifies Hydraulic Power Units, Electro-Hydraulic Control Systems, Hydraulic Test Stands, Hydraulic Cylinders, Control Blocks, and Pressure Relief Valves. Exact variants, options and operating limits remain model-specific.",
+            "Official material associates the range with energy, industrial manufacturing, and water and wastewater."
           ],
           "language": "en",
           "status": "READY",
@@ -244848,8 +244799,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-integral-hydraulik-company",
-            "brand-integral-hydraulik-products"
+            "brand-integral-hydraulik-rupf-overview",
+            "brand-integral-hydraulik-rupf-sitemap",
+            "brand-integral-hydraulik-rupf-impressum"
           ]
         },
         {
@@ -244858,8 +244810,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-integral-hydraulik-company",
-            "brand-integral-hydraulik-products"
+            "brand-integral-hydraulik-rupf-overview",
+            "brand-integral-hydraulik-rupf-sitemap",
+            "brand-integral-hydraulik-rupf-impressum"
           ]
         },
         {
@@ -244868,8 +244821,9 @@
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
-            "brand-integral-hydraulik-company",
-            "brand-integral-hydraulik-products"
+            "brand-integral-hydraulik-rupf-overview",
+            "brand-integral-hydraulik-rupf-sitemap",
+            "brand-integral-hydraulik-rupf-impressum"
           ]
         }
       ],
@@ -244879,29 +244833,36 @@
         "contract manufacturing and fabrication"
       ],
       "families": [
-        "Hydraulic Manifolds",
-        "Cartridge-Valve Blocks",
-        "Hydraulic Control Plates",
-        "Valve Assemblies",
-        "Custom Hydraulic Systems"
+        "Hydraulic Power Units",
+        "Electro-Hydraulic Control Systems",
+        "Hydraulic Test Stands",
+        "Hydraulic Cylinders",
+        "Control Blocks",
+        "Pressure Relief Valves"
       ],
       "series": [],
       "industries": [
-        "industrial processing",
-        "industrial manufacturing"
+        "energy",
+        "industrial manufacturing",
+        "water and wastewater"
       ],
       "documents": [
         {
           "type": "OFFICIAL_DOCUMENTATION",
-          "url": "https://www.integral-hydraulik.com/en/products/"
+          "url": "https://rupf-industries.com/en/rupf-industries/business-segments/hydraulic/integral-hydraulik/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://rupf-industries.com/integral-hydraulik/sitemap.html"
         }
       ],
       "logo": null,
       "sourceRecordIds": [
-        "brand-integral-hydraulik-company",
-        "brand-integral-hydraulik-products"
+        "brand-integral-hydraulik-rupf-overview",
+        "brand-integral-hydraulik-rupf-sitemap",
+        "brand-integral-hydraulik-rupf-impressum"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-09-03",
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {

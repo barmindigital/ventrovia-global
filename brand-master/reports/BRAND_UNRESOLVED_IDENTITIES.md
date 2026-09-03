@@ -2,16 +2,16 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-This report classifies all 334 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
+This report classifies all 335 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
 
 ## Pareto by blocker
 
 | Blocker category | Records | Share |
 | --- | ---: | ---: |
-| AMBIGUOUS_IDENTITY | 253 | 75.8% |
-| ACQUISITION_OR_LEGACY | 44 | 13.2% |
+| AMBIGUOUS_IDENTITY | 253 | 75.5% |
+| ACQUISITION_OR_LEGACY | 44 | 13.1% |
 | SOURCE_ACCESS_BLOCKED | 14 | 4.2% |
-| OFFICIAL_SOURCE_NOT_ESTABLISHED | 10 | 3.0% |
+| OFFICIAL_SOURCE_NOT_ESTABLISHED | 11 | 3.3% |
 | NOT_MANUFACTURER_OR_SCOPE_MISMATCH | 5 | 1.5% |
 | POSSIBLE_DUPLICATE | 5 | 1.5% |
 | OTHER | 2 | 0.6% |
@@ -19,11 +19,12 @@ This report classifies all 334 unresolved records. REVIEW is an explicit data-qu
 
 ## Bounded-research queue
 
-The following 24 records are the first retry cohort because their blocker may be resolved through a bounded official-source pass. They remain REVIEW until that pass succeeds.
+The following 25 records are the first retry cohort because their blocker may be resolved through a bounded official-source pass. They remain REVIEW until that pass succeeds.
 
 - KOVOSVIT MAS (`kovosvit-mas`) — SOURCE_ACCESS_BLOCKED
 - RAYCHEM (`raychem`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - AMCA HYDRAULIC CONTROLS (`amca-hydraulic-controls`) — SOURCE_ACCESS_BLOCKED
+- PELIKAN VRCHLABI (`pelikan-vrchlabi`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - BB BATTERY (`bb-battery`) — SOURCE_ACCESS_BLOCKED
 - ATAV (`atav`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - DINANSI (`dinansi`) — INSUFFICIENT_PRODUCT_SCOPE

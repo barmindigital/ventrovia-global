@@ -17238,21 +17238,21 @@
     },
     {
       "brandId": "pelikan-vrchlabi",
-      "identityStatus": "CONFIRMED",
-      "publicationStatus": "BRAND_SAFE",
-      "score": 85,
-      "indicator": "BRAND_COMPLETE",
+      "identityStatus": "REVIEW_REQUIRED",
+      "publicationStatus": "BRAND_REVIEW",
+      "score": 0,
+      "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": true,
-        "source": true,
-        "description": true,
-        "category": true,
-        "families": true,
-        "country": true,
-        "headquarters": true,
+        "identity": false,
+        "source": false,
+        "description": false,
+        "category": false,
+        "families": false,
+        "country": false,
+        "headquarters": false,
         "logo": false,
-        "documents": true
+        "documents": false
       }
     },
     {
@@ -27785,7 +27785,7 @@
       "brandId": "flakt-woods",
       "identityStatus": "CONFIRMED",
       "publicationStatus": "BRAND_SAFE",
-      "score": 90,
+      "score": 85,
       "indicator": "BRAND_COMPLETE",
       "verificationIndependent": true,
       "fields": {
@@ -32022,8 +32022,8 @@
       "brandId": "id-insert-deal",
       "identityStatus": "CONFIRMED",
       "publicationStatus": "BRAND_SAFE",
-      "score": 80,
-      "indicator": "BRAND_INCOMPLETE",
+      "score": 85,
+      "indicator": "BRAND_COMPLETE",
       "verificationIndependent": true,
       "fields": {
         "identity": true,
@@ -32032,7 +32032,7 @@
         "category": true,
         "families": true,
         "country": true,
-        "headquarters": false,
+        "headquarters": true,
         "logo": false,
         "documents": true
       }

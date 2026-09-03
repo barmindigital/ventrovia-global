@@ -1,37 +1,37 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 334,
+  "totalReview": 335,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "count": 253,
-      "share": 0.7575
+      "share": 0.7552
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
       "count": 44,
-      "share": 0.1317
+      "share": 0.1313
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
       "count": 14,
-      "share": 0.0419
+      "share": 0.0418
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "count": 10,
-      "share": 0.0299
+      "count": 11,
+      "share": 0.0328
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 5,
-      "share": 0.015
+      "share": 0.0149
     },
     {
       "blockerCategory": "POSSIBLE_DUPLICATE",
       "count": 5,
-      "share": 0.015
+      "share": 0.0149
     },
     {
       "blockerCategory": "OTHER",
@@ -90,6 +90,22 @@
       "attemptedUrls": [
         "https://www.amca-nl.com/",
         "https://www.amcahydraulics.com/"
+      ],
+      "effortClass": "NORMAL"
+    },
+    {
+      "brandId": "pelikan-vrchlabi",
+      "displayName": "PELIKAN VRCHLABI",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+      "reason": "The manufacturer ceased operations on 2026-01-31 (its own site now shows only a closure notice for Metalworks s.r.o.). The stated parent, Labit a.s., has fully pivoted to hydropower, construction and real estate and makes no mention of PELIKAN Vrchlabi or hydraulic-component manufacturing. A historical alternate domain (pelikan-z.cz) no longer resolves. ARGO-HYTOS traces lineage to the same 1956 plant via a separate 1992 privatization but is a distinct corporate entity with a distinct current product range and cannot be substituted without misattributing history. No operating successor selling hydraulic motors, pumps or valves under the PELIKAN Vrchlabi name could be found.",
+      "detail": null,
+      "attemptedUrls": [
+        "http://metalworks.labit.cz/",
+        "https://www.labit.cz/",
+        "https://pelikan-z.cz/"
       ],
       "effortClass": "NORMAL"
     },
@@ -798,6 +814,22 @@
         "https://www.loenne.de/"
       ],
       "effortClass": "EXPENSIVE"
+    },
+    {
+      "brandId": "pelikan-vrchlabi",
+      "displayName": "PELIKAN VRCHLABI",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+      "reason": "The manufacturer ceased operations on 2026-01-31 (its own site now shows only a closure notice for Metalworks s.r.o.). The stated parent, Labit a.s., has fully pivoted to hydropower, construction and real estate and makes no mention of PELIKAN Vrchlabi or hydraulic-component manufacturing. A historical alternate domain (pelikan-z.cz) no longer resolves. ARGO-HYTOS traces lineage to the same 1956 plant via a separate 1992 privatization but is a distinct corporate entity with a distinct current product range and cannot be substituted without misattributing history. No operating successor selling hydraulic motors, pumps or valves under the PELIKAN Vrchlabi name could be found.",
+      "detail": null,
+      "attemptedUrls": [
+        "http://metalworks.labit.cz/",
+        "https://www.labit.cz/",
+        "https://pelikan-z.cz/"
+      ],
+      "effortClass": "NORMAL"
     },
     {
       "brandId": "valvola",

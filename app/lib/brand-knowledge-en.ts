@@ -235,6 +235,10 @@ const industryRules: Array<[RegExp, string]> = [
   [/биотехнолог/iu, "biotechnology"],
   [/образован/iu, "education"],
   [/коммунальн/iu, "municipal utilities"],
+  [/противопожарн|пожаротушен/iu, "fire protection"],
+  [/бассейн|спа-салон|spa[- ]салон/iu, "swimming pool and spa"],
+  [/дезинфекц|обеззараживан/iu, "cleaning and disinfection"],
+  [/транспортная инфраструктур/iu, "transport infrastructure"],
   [/промышлен|производств|process|технологическ/iu, "industrial processing"],
 ];
 

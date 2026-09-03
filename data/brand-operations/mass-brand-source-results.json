@@ -24232,6 +24232,7 @@
       ],
       "industries": [
         "water and wastewater",
+        "swimming pool and spa",
         "food and pharmaceutical processing",
         "chemical processing",
         "oil and gas",
@@ -26370,6 +26371,7 @@
       ],
       "industries": [
         "food and pharmaceutical processing",
+        "swimming pool and spa",
         "water and wastewater",
         "industrial processing"
       ],
@@ -32081,6 +32083,7 @@
       ],
       "industries": [
         "agriculture",
+        "fire protection",
         "municipal utilities",
         "industrial processing"
       ],
@@ -33881,21 +33884,28 @@
     "status": "BRAND_SAFE",
     "priority": 617,
     "effortClass": "FAST",
-    "domain": "sterling-pumps.com",
+    "domain": "sterlingsihi.com",
     "sources": [
       {
-        "type": "ABOUT_AND_PRODUCTS",
+        "type": "ABOUT",
         "tier": "A",
-        "scope": "CURRENT_IDENTITY_ACQUISITION_AND_PUMP_VACUUM_SCOPE",
-        "url": "https://www.sterling-pumps.com/",
-        "checkedAt": "2026-08-20"
+        "scope": "CURRENT_IDENTITY_AND_CORPORATE_GROUP",
+        "url": "https://www.sterlingsihi.com/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_IMPRINT",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_NAME_HEADQUARTERS_AND_REGISTRATION",
+        "url": "https://www.sterlingsihi.com/cms/home/imprint.html",
+        "checkedAt": "2026-09-03"
       },
       {
         "type": "PRODUCT_DIRECTORY",
         "tier": "A",
-        "scope": "CENTRIFUGAL_VACUUM_COMPRESSOR_AND_SYSTEM_FAMILIES",
-        "url": "https://www.sterlingsihi.com/cms/it/home.html",
-        "checkedAt": "2026-08-20"
+        "scope": "PUMP_VACUUM_COMPRESSOR_PRODUCT_LINES_AND_HISTORY",
+        "url": "https://www.flowserve.com/en/products/brands/sihi/",
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -33916,6 +33926,7 @@
         "chemical processing",
         "energy",
         "industrial processing",
+        "food and pharmaceutical processing",
         "water and wastewater"
       ],
       "country": "Germany",
@@ -33923,7 +33934,7 @@
     },
     "logoStatus": "MISSING",
     "blocker": null,
-    "checkedAt": "2026-08-20",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -34082,7 +34093,7 @@
     "status": "BRAND_SAFE",
     "priority": 621,
     "effortClass": "FAST",
-    "domain": "blagdonpumps.co.uk",
+    "domain": "blagdonpump.com",
     "sources": [
       {
         "type": "ABOUT",
@@ -36535,7 +36546,7 @@
     "status": "BRAND_SAFE",
     "priority": 669,
     "effortClass": "FAST",
-    "domain": "rexnord.com",
+    "domain": "regalrexnord.com",
     "sources": [
       {
         "type": "OFFICIAL_PARENT_BRAND_PAGE",
@@ -48532,50 +48543,19 @@
   },
   {
     "manufacturerId": "pelikan-vrchlabi",
-    "displayName": "PELIKÁN Vrchlabí",
-    "status": "BRAND_SAFE",
+    "displayName": "PELIKAN VRCHLABI",
+    "status": "BRAND_REVIEW",
     "priority": 908,
-    "effortClass": "FAST",
-    "domain": "labit.cz",
-    "sources": [
-      {
-        "type": "MANUFACTURER_WEBSITE",
-        "tier": "A",
-        "scope": "COMPANY_PROFILE_AND_CAPABILITIES",
-        "url": "https://metalworks.labit.cz/",
-        "checkedAt": "2026-09-01"
-      }
-    ],
-    "facts": {
-      "identity": true,
-      "specialization": [
-        "hydraulic equipment",
-        "industrial valves and flow control",
-        "industrial machinery"
-      ],
-      "families": [
-        "MA / JHMA hydraulic motors",
-        "MRAK 6 hydraulic motors",
-        "MAK 1 hydraulic motors",
-        "MAK 2 / MRAK 3 hydraulic motors",
-        "GAR 1 hydraulic pumps",
-        "PPAR 1 hydraulic pumps",
-        "GAR 2 / PPAR 2 hydraulic pumps",
-        "VP2 / VP4 pressure valves",
-        "P-VP pressure valves",
-        "SV 6 servo valves"
-      ],
-      "industries": [
-        "industrial manufacturing",
-        "industrial processing",
-        "energy"
-      ],
-      "country": "Czech Republic",
-      "headquarters": "Vrchlabí, Czech Republic"
-    },
+    "effortClass": "BLOCKED",
+    "domain": null,
+    "sources": [],
+    "facts": null,
     "logoStatus": "MISSING",
-    "blocker": null,
-    "checkedAt": "2026-09-01",
+    "blocker": {
+      "code": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "reason": "The manufacturer ceased operations on 2026-01-31 (its own site now shows only a closure notice for Metalworks s.r.o.). The stated parent, Labit a.s., has fully pivoted to hydropower, construction and real estate and makes no mention of PELIKAN Vrchlabi or hydraulic-component manufacturing. A historical alternate domain (pelikan-z.cz) no longer resolves. ARGO-HYTOS traces lineage to the same 1956 plant via a separate 1992 privatization but is a distinct corporate entity with a distinct current product range and cannot be substituted without misattributing history. No operating successor selling hydraulic motors, pumps or valves under the PELIKAN Vrchlabi name could be found."
+    },
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -56535,7 +56515,8 @@
       "industries": [
         "water and wastewater",
         "municipal utilities",
-        "industrial processing"
+        "industrial processing",
+        "swimming pool and spa"
       ],
       "country": "United Kingdom",
       "headquarters": null
@@ -59327,6 +59308,7 @@
       "industries": [
         "water and wastewater",
         "agriculture",
+        "fire protection",
         "industrial processing"
       ],
       "country": "Spain",
@@ -60186,7 +60168,8 @@
       ],
       "industries": [
         "industrial processing",
-        "marine applications"
+        "marine applications",
+        "fire protection"
       ],
       "country": "United Kingdom",
       "headquarters": "Hull, United Kingdom"
@@ -62242,7 +62225,7 @@
     "status": "BRAND_SAFE",
     "priority": 1214,
     "effortClass": "FAST",
-    "domain": "rexnord.com",
+    "domain": "regalrexnord.com",
     "sources": [
       {
         "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
@@ -66440,8 +66423,15 @@
         "type": "OFFICIAL_PARENT_DOCUMENT",
         "tier": "A",
         "scope": "DIRECTLOGIC_IDENTITY_PLC_FAMILIES_IO_AND_PROGRAMMING_SCOPE",
+        "url": "https://www.automationdirect.com/adc/overview/catalog/programmable_controllers/directlogic_plcs_(micro_to_small,_brick_-a-_modular)",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_PARENT_DOCUMENT",
+        "tier": "A",
+        "scope": "DIRECTLOGIC_IDENTITY_PLC_FAMILIES_IO_AND_PROGRAMMING_SCOPE",
         "url": "https://cdn.automationdirect.com/static/catalog/images/product-pdf/DL-DL-Overview.pdf",
-        "checkedAt": "2026-08-24"
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -66465,7 +66455,7 @@
     },
     "logoStatus": "MISSING",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -67876,11 +67866,18 @@
     "domain": "ecoflam-burners.com",
     "sources": [
       {
-        "type": "ABOUT_AND_PRODUCT_DIRECTORY",
+        "type": "ABOUT",
         "tier": "A",
-        "scope": "LEGAL_IDENTITY_PARENT_AND_GAS_OIL_DUAL_FUEL_BURNER_SCOPE",
+        "scope": "LEGAL_IDENTITY_RESANA_ADDRESS_AND_VAT_SCOPE",
+        "url": "https://www.ecoflam-burners.com/int/en/page/6/contacts",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "GAS_LIGHT_OIL_HEAVY_OIL_DUAL_FUEL_AND_DUOBLOCK_BURNER_SCOPE",
         "url": "https://www.ecoflam-burners.com/int/en/page/4/product-range",
-        "checkedAt": "2026-08-24"
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -67892,7 +67889,8 @@
         "Gas Burners",
         "Light Oil Burners",
         "Heavy Oil Burners",
-        "Dual-Fuel Burners"
+        "Dual-Fuel Burners",
+        "Duoblock Burners"
       ],
       "industries": [
         "industrial processing",
@@ -67904,7 +67902,7 @@
     },
     "logoStatus": "PUBLISHABLE",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -68316,7 +68314,7 @@
     "status": "BRAND_SAFE",
     "priority": 1359,
     "effortClass": "FAST",
-    "domain": "ekd-systems.de",
+    "domain": "helu.com",
     "sources": [
       {
         "type": "ABOUT",
@@ -70875,15 +70873,15 @@
         "type": "OFFICIAL_PARENT_PROFILE",
         "tier": "A",
         "scope": "CURRENT_BRAND_IDENTITY_ACQUISITION_AND_WATER_TREATMENT_SCOPE",
-        "url": "https://www.xylem.com/en-us/brands/evoqua/",
-        "checkedAt": "2026-08-24"
+        "url": "https://www.xylem.com/en-us/brand/evoqua/",
+        "checkedAt": "2026-09-03"
       },
       {
-        "type": "OFFICIAL_PARENT_PRODUCT_DIRECTORY",
+        "type": "OFFICIAL_PARENT_PRODUCT_DATASHEET",
         "tier": "A",
-        "scope": "EVOQUA_FILTRATION_SYSTEM_PRODUCT_SCOPE",
-        "url": "https://www.xylem.com/en-us/catalog/products--services/filtration-systems/",
-        "checkedAt": "2026-08-24"
+        "scope": "EVOQUA_BRANDED_EPV_WATER_PURIFICATION_SYSTEM_ON_XYLEM_DOMAIN",
+        "url": "https://www.xylem.com/siteassets/brand/evoqua/resources/data-sheet/hps-epv-ds-0625_digital.pdf",
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -70894,8 +70892,8 @@
       ],
       "families": [
         "Filtration Systems",
-        "Ion Exchange Systems",
         "Disinfection Systems",
+        "High Purity Water Systems",
         "Clarification Equipment",
         "Wastewater Treatment Systems"
       ],
@@ -70910,7 +70908,7 @@
     },
     "logoStatus": "PUBLISHABLE",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -72718,14 +72716,28 @@
     "status": "BRAND_SAFE",
     "priority": 1463,
     "effortClass": "FAST",
-    "domain": "flaktgroup.com",
+    "domain": "woodsairmovement.com",
     "sources": [
       {
-        "type": "OFFICIAL_PARENT_BRAND_PAGE",
+        "type": "OFFICIAL_BRAND_SITE",
         "tier": "A",
-        "scope": "CURRENT_FLAKTGROUP_BRAND_IDENTITY_AND_INDUSTRIAL_FAN_VENTILATION_FIRE_SAFETY_SCOPE",
-        "url": "https://www.flaktgroup.com/in/our-brands/woods/",
-        "checkedAt": "2026-08-24"
+        "scope": "CURRENT_BRAND_IDENTITY_ADDRESS_AND_PRODUCT_SCOPE",
+        "url": "https://www.woodsairmovement.com/en-gb/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAN_PRODUCT_FAMILY_SCOPE",
+        "url": "https://www.woodsairmovement.com/en-gb/products/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_NOTICE",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_REGISTERED_ADDRESS",
+        "url": "https://www.woodsairmovement.com/en-gb/legal/legal-notice/",
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -72737,21 +72749,20 @@
       ],
       "families": [
         "Axial Fans",
-        "Centrifugal Fans",
-        "High-Temperature Fans",
-        "Smoke-Control Fans",
-        "Ventilation Equipment"
+        "Jet Fans",
+        "Plate Fans",
+        "Induction Thrust Fans"
       ],
       "industries": [
         "building systems",
-        "industrial processing"
+        "transportation"
       ],
       "country": "United Kingdom",
-      "headquarters": "Colchester, United Kingdom"
+      "headquarters": "Axial Way, Colchester CO4 5ZD, United Kingdom"
     },
     "logoStatus": "MISSING",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -75534,7 +75545,7 @@
     "status": "BRAND_SAFE",
     "priority": 1532,
     "effortClass": "FAST",
-    "domain": "generacmobileproducts.com",
+    "domain": "towerlight.com",
     "sources": [
       {
         "type": "ABOUT",
@@ -81797,21 +81808,21 @@
     "status": "BRAND_SAFE",
     "priority": 1686,
     "effortClass": "FAST",
-    "domain": "insertdeal.com",
+    "domain": "idinsertdeal.com",
     "sources": [
       {
         "type": "ABOUT_AND_PRODUCTS",
         "tier": "A",
-        "scope": "LEGAL_IDENTITY_AND_PNEUMATIC_VALVE_CYLINDER_SCOPE",
-        "url": "https://www.insertdeal.com/",
-        "checkedAt": "2026-08-24"
+        "scope": "LEGAL_IDENTITY_AND_PRESSURE_REGULATION_FILTRATION_SCOPE",
+        "url": "https://www.idinsertdeal.com/en/company/",
+        "checkedAt": "2026-09-03"
       },
       {
         "type": "PRODUCT_DIRECTORY",
         "tier": "A",
-        "scope": "VALVE_CYLINDER_AIR_PREPARATION_AND_FITTING_SCOPE",
-        "url": "https://www.insertdeal.com/products/",
-        "checkedAt": "2026-08-24"
+        "scope": "REGULATOR_FILTER_LUBRICATOR_AND_RELIEF_VALVE_SCOPE",
+        "url": "https://www.idinsertdeal.com/en/products/",
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -81819,26 +81830,29 @@
       "specialization": [
         "pneumatic equipment",
         "industrial valves and flow control",
-        "industrial automation and control"
+        "filtration and water systems"
       ],
       "families": [
-        "Solenoid Valves",
-        "Mechanically Operated Valves",
-        "Pneumatic Cylinders",
-        "Air-Preparation Units",
-        "Pneumatic Fittings"
+        "Pressure Regulators",
+        "Filters",
+        "Filter-Regulators (FRL)",
+        "Lubricators",
+        "Relief Valves",
+        "Decompression Units"
       ],
       "industries": [
-        "factory automation",
-        "industrial processing",
-        "packaging"
+        "chemical processing",
+        "fire protection",
+        "packaging",
+        "oil and gas",
+        "food and pharmaceutical processing"
       ],
       "country": "Italy",
-      "headquarters": null
+      "headquarters": "Villasanta (MB), Italy"
     },
     "logoStatus": "MISSING",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -82729,15 +82743,15 @@
         "type": "ABOUT",
         "tier": "A",
         "scope": "LEGAL_IDENTITY_HISTORY_AND_DOSING_EQUIPMENT_SCOPE",
-        "url": "https://www.injecta.com/en/company/",
-        "checkedAt": "2026-08-24"
+        "url": "https://www.injecta.eu/en/",
+        "checkedAt": "2026-09-03"
       },
       {
         "type": "PRODUCT_DIRECTORY",
         "tier": "A",
-        "scope": "DOSING_PUMP_CONTROLLER_PROBE_MIXER_AND_SYSTEM_SCOPE",
-        "url": "https://www.injecta.com/en/products/",
-        "checkedAt": "2026-08-24"
+        "scope": "DOSING_PUMP_CONTROLLER_PROBE_AND_SYSTEM_SCOPE",
+        "url": "https://www.injecta.eu/en/categoria-prodotto/pompe-elettromagnetiche/",
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -82758,15 +82772,16 @@
       ],
       "industries": [
         "water and wastewater",
+        "swimming pool and spa",
         "industrial processing",
-        "food and pharmaceutical processing"
+        "cleaning and disinfection"
       ],
       "country": "Italy",
       "headquarters": "Rieti, Italy"
     },
     "logoStatus": "PUBLISHABLE",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -82929,21 +82944,28 @@
     "status": "BRAND_SAFE",
     "priority": 1713,
     "effortClass": "FAST",
-    "domain": "integral-hydraulik.com",
+    "domain": "rupf-industries.com",
     "sources": [
       {
         "type": "ABOUT",
         "tier": "A",
-        "scope": "LEGAL_IDENTITY_AND_HYDRAULIC_CONTROL_BLOCK_SCOPE",
-        "url": "https://www.integral-hydraulik.com/en/company/",
-        "checkedAt": "2026-08-24"
+        "scope": "REPLACES_DEAD_DOMAIN_integral-hydraulik.com_TLS_FAILS_WITH_LIVE_RUPF_INDUSTRIES_HOSTED_COMPANY_OVERVIEW_CONFIRMING_HYDRAULIC_POWER_UNIT_SCOPE_AND_WILLICH_HQ",
+        "url": "https://rupf-industries.com/en/rupf-industries/business-segments/hydraulic/integral-hydraulik/",
+        "checkedAt": "2026-09-03"
       },
       {
         "type": "PRODUCT_DIRECTORY",
         "tier": "A",
-        "scope": "MANIFOLD_CARTRIDGE_BLOCK_PLATE_AND_VALVE_ASSEMBLY_SCOPE",
-        "url": "https://www.integral-hydraulik.com/en/products/",
-        "checkedAt": "2026-08-24"
+        "scope": "FULL_PRODUCT_STRUCTURE_SYSTEMS_TEST_STANDS_COMPONENTS_AND_INDUSTRY_LIST",
+        "url": "https://rupf-industries.com/integral-hydraulik/sitemap.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_NOTICE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_ADDRESS_HRA_5030_AND_OWN_GENERAL_PARTNER_CONFIRMATION",
+        "url": "https://rupf-industries.com/integral-hydraulik/impressum/",
+        "checkedAt": "2026-09-03"
       }
     ],
     "facts": {
@@ -82954,22 +82976,24 @@
         "contract manufacturing and fabrication"
       ],
       "families": [
-        "Hydraulic Manifolds",
-        "Cartridge-Valve Blocks",
-        "Hydraulic Control Plates",
-        "Valve Assemblies",
-        "Custom Hydraulic Systems"
+        "Hydraulic Power Units",
+        "Electro-Hydraulic Control Systems",
+        "Hydraulic Test Stands",
+        "Hydraulic Cylinders",
+        "Control Blocks",
+        "Pressure Relief Valves"
       ],
       "industries": [
-        "industrial processing",
-        "industrial manufacturing"
+        "energy",
+        "industrial manufacturing",
+        "water and wastewater"
       ],
       "country": "Germany",
       "headquarters": "Willich, Germany"
     },
     "logoStatus": "MISSING",
     "blocker": null,
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {

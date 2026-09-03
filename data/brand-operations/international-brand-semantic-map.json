@@ -7669,7 +7669,7 @@
       "Blagdon Pump RFQ"
     ],
     "evidenceCoverage": {
-      "officialDomains": 2,
+      "officialDomains": 1,
       "sources": 2,
       "tierA": 2,
       "categories": 1,
@@ -15725,7 +15725,6 @@
       "DirectSOFT",
       "DL05",
       "DL06",
-      "DL105",
       "DL205",
       "DL305",
       "DL405"
@@ -15738,10 +15737,10 @@
     ],
     "evidenceCoverage": {
       "officialDomains": 1,
-      "sources": 1,
-      "tierA": 1,
+      "sources": 2,
+      "tierA": 2,
       "categories": 2,
-      "families": 11
+      "families": 10
     }
   },
   {
@@ -17363,6 +17362,7 @@
       "Light Oil Burners",
       "Heavy Oil Burners",
       "Dual-Fuel Burners",
+      "Duoblock Burners",
       "MAX GAS",
       "BLU",
       "MAX",
@@ -17370,7 +17370,8 @@
       "MAXFLAM",
       "OILFLAM",
       "MULTICALOR",
-      "MULTIFLAM"
+      "MULTIFLAM",
+      "TS RANGE"
     ],
     "primarySeoIntent": "Ecoflam combustion and burner systems",
     "secondarySeoIntents": [
@@ -17380,10 +17381,10 @@
     ],
     "evidenceCoverage": {
       "officialDomains": 1,
-      "sources": 1,
-      "tierA": 1,
+      "sources": 2,
+      "tierA": 2,
       "categories": 1,
-      "families": 12
+      "families": 14
     }
   },
   {
@@ -17799,7 +17800,7 @@
       "EKD Systems RFQ"
     ],
     "evidenceCoverage": {
-      "officialDomains": 3,
+      "officialDomains": 1,
       "sources": 2,
       "tierA": 2,
       "categories": 1,
@@ -20430,8 +20431,8 @@
     ],
     "families": [
       "Filtration Systems",
-      "Ion Exchange Systems",
       "Disinfection Systems",
+      "High Purity Water Systems",
       "Clarification Equipment",
       "Wastewater Treatment Systems"
     ],
@@ -22484,10 +22485,11 @@
     ],
     "families": [
       "Axial Fans",
-      "Centrifugal Fans",
-      "High-Temperature Fans",
-      "Smoke-Control Fans",
-      "Ventilation Equipment"
+      "Jet Fans",
+      "Plate Fans",
+      "Induction Thrust Fans",
+      "PowerBox3 T120",
+      "BoudECa"
     ],
     "primarySeoIntent": "Fläkt Woods industrial fans and blowers",
     "secondarySeoIntents": [
@@ -22497,10 +22499,10 @@
     ],
     "evidenceCoverage": {
       "officialDomains": 2,
-      "sources": 1,
-      "tierA": 1,
+      "sources": 3,
+      "tierA": 3,
       "categories": 3,
-      "families": 5
+      "families": 6
     }
   },
   {
@@ -32421,14 +32423,15 @@
     "primaryCategory": "pneumatic equipment",
     "secondaryCategories": [
       "industrial valves and flow control",
-      "industrial automation and control"
+      "filtration and water systems"
     ],
     "families": [
-      "Solenoid Valves",
-      "Mechanically Operated Valves",
-      "Pneumatic Cylinders",
-      "Air-Preparation Units",
-      "Pneumatic Fittings"
+      "Pressure Regulators",
+      "Filters",
+      "Filter-Regulators (FRL)",
+      "Lubricators",
+      "Relief Valves",
+      "Decompression Units"
     ],
     "primarySeoIntent": "ID Insert Deal pneumatic equipment",
     "secondarySeoIntents": [
@@ -32441,7 +32444,7 @@
       "sources": 2,
       "tierA": 2,
       "categories": 3,
-      "families": 5
+      "families": 6
     }
   },
   {
@@ -33387,11 +33390,12 @@
       "contract manufacturing and fabrication"
     ],
     "families": [
-      "Hydraulic Manifolds",
-      "Cartridge-Valve Blocks",
-      "Hydraulic Control Plates",
-      "Valve Assemblies",
-      "Custom Hydraulic Systems"
+      "Hydraulic Power Units",
+      "Electro-Hydraulic Control Systems",
+      "Hydraulic Test Stands",
+      "Hydraulic Cylinders",
+      "Control Blocks",
+      "Pressure Relief Valves"
     ],
     "primarySeoIntent": "INTEGRAL HYDRAULIK hydraulic equipment",
     "secondarySeoIntents": [
@@ -33400,11 +33404,11 @@
       "INTEGRAL HYDRAULIK RFQ"
     ],
     "evidenceCoverage": {
-      "officialDomains": 2,
-      "sources": 2,
-      "tierA": 2,
+      "officialDomains": 1,
+      "sources": 3,
+      "tierA": 3,
       "categories": 3,
-      "families": 5
+      "families": 6
     }
   },
   {
@@ -51145,40 +51149,6 @@
     }
   },
   {
-    "manufacturerId": "pelikan-vrchlabi",
-    "brand": "PELIKÁN Vrchlabí",
-    "primaryCategory": "hydraulic equipment",
-    "secondaryCategories": [
-      "industrial valves and flow control",
-      "industrial machinery"
-    ],
-    "families": [
-      "MA / JHMA hydraulic motors",
-      "MRAK 6 hydraulic motors",
-      "MAK 1 hydraulic motors",
-      "MAK 2 / MRAK 3 hydraulic motors",
-      "GAR 1 hydraulic pumps",
-      "PPAR 1 hydraulic pumps",
-      "GAR 2 / PPAR 2 hydraulic pumps",
-      "VP2 / VP4 pressure valves",
-      "P-VP pressure valves",
-      "SV 6 servo valves"
-    ],
-    "primarySeoIntent": "PELIKÁN Vrchlabí hydraulic equipment",
-    "secondarySeoIntents": [
-      "PELIKÁN Vrchlabí industrial equipment",
-      "PELIKÁN Vrchlabí sourcing",
-      "PELIKÁN Vrchlabí RFQ"
-    ],
-    "evidenceCoverage": {
-      "officialDomains": 1,
-      "sources": 1,
-      "tierA": 1,
-      "categories": 3,
-      "families": 10
-    }
-  },
-  {
     "manufacturerId": "penny-giles",
     "brand": "Penny & Giles",
     "primaryCategory": "industrial sensors",
@@ -64095,8 +64065,8 @@
     ],
     "evidenceCoverage": {
       "officialDomains": 2,
-      "sources": 2,
-      "tierA": 2,
+      "sources": 3,
+      "tierA": 3,
       "categories": 3,
       "families": 5
     }
@@ -67600,7 +67570,7 @@
       "Tollok RFQ"
     ],
     "evidenceCoverage": {
-      "officialDomains": 1,
+      "officialDomains": 2,
       "sources": 1,
       "tierA": 0,
       "categories": 1,
