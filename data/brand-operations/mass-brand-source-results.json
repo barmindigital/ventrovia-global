@@ -11010,18 +11010,63 @@
   {
     "manufacturerId": "nocchi",
     "displayName": "NOCCHI",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 227,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "reason": "Pentair confirms relevant pump categories, but the accessible first-party pages did not establish the current Nocchi identity and portfolio precisely enough for an independent public brand profile."
+    "effortClass": "FAST",
+    "domain": "starite.it",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_TRANSITION_TO_STARITE",
+        "url": "https://www.starite.it/en/multimedia/press/details/a-new-star-in-the-pentair-portfolio-1.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_AND_MANUFACTURING",
+        "url": "https://www.starite.it/en/company.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_ADDRESS",
+        "url": "https://www.starite.it/en/imprint.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_NAVIGATION",
+        "url": "https://www.starite.it/en/products.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "EUROPEAN_DISTRIBUTION_DISCONTINUED_NOTICE",
+        "url": "https://www.starite.it/en/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [],
+      "industries": [
+        "water and wastewater",
+        "municipal utilities"
+      ],
+      "country": "Italy",
+      "headquarters": "Pisa, Italy"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -31808,6 +31853,7 @@
       ],
       "industries": [
         "agriculture",
+        "municipal utilities",
         "industrial processing"
       ],
       "country": "Italy",
@@ -35650,7 +35696,8 @@
         "Accessories"
       ],
       "industries": [
-        "water and wastewater"
+        "water and wastewater",
+        "municipal utilities"
       ],
       "country": "United States",
       "headquarters": null
@@ -37872,6 +37919,7 @@
       "specialization": [
         "electrical power systems",
         "industrial sensors",
+        "alarm and signalling systems",
         "industrial automation and control"
       ],
       "families": [
@@ -38832,19 +38880,72 @@
   {
     "manufacturerId": "klima-celje",
     "displayName": "KLIMA CELJE",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 723,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The manufacturer-owned domain exposes only limited legacy material and did not provide a current, readable About and Products evidence set sufficient for a public English manufacturer profile."
+    "effortClass": "FAST",
+    "domain": "klima-celje.si",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "ABOUT_COMPANY",
+        "url": "https://www.klima-celje.si/o-podjetju/?lang=en",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCTION_PROGRAM",
+        "url": "https://www.klima-celje.si/production-program?lang=en",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "CONTACT_AND_ADDRESS",
+        "url": "https://www.klima-celje.si/contacts/?lang=en",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "ventilation equipment",
+        "thermal-management equipment",
+        "filtration and water systems",
+        "industrial machinery"
+      ],
+      "families": [
+        "LAZ",
+        "AVL",
+        "AVS (AVSV)",
+        "N-AVV-D/K",
+        "ODT-AV",
+        "ODT-CV",
+        "SVH2",
+        "SVV2",
+        "SVK2",
+        "KC",
+        "GNA2",
+        "GNJ2",
+        "EGN",
+        "KG 28",
+        "RC",
+        "HC"
+      ],
+      "industries": [
+        "industrial processing",
+        "chemical processing",
+        "laboratory and life-science applications",
+        "transportation"
+      ],
+      "country": "Slovenia",
+      "headquarters": "Celje, Slovenia"
     },
-    "checkedAt": "2026-08-20",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "kortho",
@@ -43510,6 +43611,7 @@
       "identity": true,
       "specialization": [
         "thermal-management equipment",
+        "alarm and signalling systems",
         "industrial safety equipment"
       ],
       "families": [
@@ -48666,6 +48768,7 @@
       ],
       "industries": [
         "water and wastewater",
+        "municipal utilities",
         "energy",
         "industrial processing"
       ],
@@ -48747,20 +48850,50 @@
   },
   {
     "manufacturerId": "mas-lambertoni",
-    "displayName": "MAS LAMBERTONI",
-    "status": "BRAND_REVIEW",
+    "displayName": "M.A.S. Lambertoni",
+    "status": "BRAND_SAFE",
     "priority": 926,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "No authoritative manufacturer-owned source establishing the MAS LAMBERTONI identity and product scope was available."
+    "effortClass": "FAST",
+    "domain": "applicatorihotmelt.com",
+    "sources": [
+      {
+        "type": "MANUFACTURER_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_HISTORY_AND_PRODUCTS",
+        "url": "https://maslambertoni.com/chi-siamo/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "MANUFACTURER_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_AND_LEGAL_IDENTITY",
+        "url": "https://applicatorihotmelt.com/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "industrial automation and control",
+        "filling and packaging machinery"
+      ],
+      "families": [
+        "Hot Melt",
+        "PUR Melt"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing",
+        "wood and paper processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Cairate, Italy"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "metrus-ls-mechanik",
@@ -55867,6 +56000,7 @@
       ],
       "industries": [
         "water and wastewater",
+        "municipal utilities",
         "industrial processing"
       ],
       "country": "United Kingdom",
@@ -77253,10 +77387,10 @@
     "facts": null,
     "logoStatus": "MISSING",
     "blocker": {
-      "code": "LEGACY_SOURCE_INSUFFICIENT",
-      "reason": "HALBERG is plausibly a historical pump identity associated with KSB, but no explicit current manufacturer-owned page was found that safely resolves this record and its product scope."
+      "code": "BLOCKED_NO_PRODUCT_CONTENT",
+      "reason": "halberg.com is live and is the brand own domain, but it serves only a landing page: a combined Flowserve-HALBERG logo, a language switch, and a two-item quick navigation pointing at the Flowserve SIHI and Flowserve sites. It publishes no product catalogue, specifications or application pages, so no HALBERG product area can be sourced first-party and a brand page would have nothing to show. The imprint names Flowserve SIHI Germany GmbH, Itzehoe, as responsible for the site; the copyright line names Halberg Maschinenbau GmbH."
     },
-    "checkedAt": "2026-08-24",
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -81829,19 +81963,56 @@
   },
   {
     "manufacturerId": "inever",
-    "displayName": "INEVER",
-    "status": "BRAND_REVIEW",
+    "displayName": "INVpack",
+    "status": "BRAND_SAFE",
     "priority": 1707,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "reason": "No current manufacturer-owned INEVER company, domain and product source could be established. Reseller listings cannot verify the identity."
+    "effortClass": "FAST",
+    "domain": "invpack.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_HISTORY_AND_FORMER_NAME",
+        "url": "https://invpack.com/experiencia/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE",
+        "url": "https://invpack.com/en/experience/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW",
+        "url": "https://invpack.com/en/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filling and packaging machinery",
+        "industrial machinery"
+      ],
+      "families": [
+        "Stick pack",
+        "Sachet",
+        "Bagger",
+        "Capsules"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Spain",
+      "headquarters": "Argentona, Spain"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -83824,19 +83995,63 @@
   },
   {
     "manufacturerId": "jugoturbina-system-eureka",
-    "displayName": "JUGOTURBINA SYSTEM EUREKA",
-    "status": "BRAND_REVIEW",
+    "displayName": "Jugoturbina System Eureka",
+    "status": "BRAND_SAFE",
     "priority": 1759,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "LEGACY_SOURCE_INSUFFICIENT",
-      "reason": "No reachable current manufacturer-owned website or explicit official successor source was found for Jugoturbina System Eureka. Historical and resale references cannot establish a publishable legacy identity and scope."
+    "effortClass": "FAST",
+    "domain": "croatia-pumpe.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_HISTORY_AND_SUCCESSION",
+        "url": "https://www.croatia-pumpe.com/en/company.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "SERVICES_AND_EUREKA_LICENCE",
+        "url": "https://www.croatia-pumpe.com/en/services.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "CG_PUMP_SPECIFICATION",
+        "url": "https://www.croatia-pumpe.com/en/proizvodi-2/brodske-pumpe/cg-vertical-single-stage-volute-pump.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_OVERVIEW",
+        "url": "https://www.croatia-pumpe.com/en/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems"
+      ],
+      "families": [
+        "Marine pumps",
+        "Energy pumps",
+        "General service pumps"
+      ],
+      "industries": [
+        "marine applications",
+        "energy",
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "HR",
+      "headquarters": "Karlovac, Croatia"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -87954,6 +88169,7 @@
       ],
       "industries": [
         "energy",
+        "municipal utilities",
         "building systems"
       ],
       "country": "Switzerland",
@@ -90103,18 +90319,39 @@
   {
     "manufacturerId": "maho",
     "displayName": "MAHO",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 1905,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "LEGACY_SOURCE_INSUFFICIENT",
-      "reason": "MAHO is a historical machine-tool name associated with Deckel Maho and DMG MORI, but no current manufacturer-owned brand profile establishes MAHO alone as a separately publishable manufacturer identity and product scope."
+    "effortClass": "FAST",
+    "domain": "dmgmori.com",
+    "sources": [
+      {
+        "type": "MANUFACTURER_WEBSITE",
+        "tier": "A",
+        "scope": "SITE_HISTORY_AND_PRODUCTION_SCOPE",
+        "url": "https://en.dmgmori.com/company/locations/production-sites/pfronten",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery"
+      ],
+      "families": [
+        "monoBLOCK",
+        "LASERTEC"
+      ],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing",
+        "aerospace"
+      ],
+      "country": "Germany",
+      "headquarters": "Pfronten, Germany"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -91478,19 +91715,46 @@
   {
     "manufacturerId": "medc",
     "displayName": "MEDC",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 1939,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Eaton's official MEDC product surface was identified, but it did not return a usable response to the verification client during this pass. No reseller source was substituted."
+    "effortClass": "FAST",
+    "domain": "eaton.com",
+    "sources": [
+      {
+        "type": "MANUFACTURER_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_PORTFOLIO_OVERVIEW",
+        "url": "https://content.eaton.com/hazcomms",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "MANUFACTURER_WEBSITE",
+        "tier": "A",
+        "scope": "SIGNALLING_PRODUCT_SCOPE",
+        "url": "https://content.eaton.com/hazcomms_signalling",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "alarm and signalling systems",
+        "explosion-protected electrical equipment"
+      ],
+      "families": [],
+      "industries": [
+        "oil and gas",
+        "mining",
+        "marine applications",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "medenus",
@@ -96962,20 +97226,64 @@
   },
   {
     "manufacturerId": "norman-filters",
-    "displayName": "NORMAN FILTERS CO.",
-    "status": "BRAND_REVIEW",
+    "displayName": "Norman Filters",
+    "status": "BRAND_SAFE",
     "priority": 2072,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The identified Norman Filter Company manufacturer site returned HTTP 403 during direct verification. Search-result snippets and distributor pages were not accepted as evidence."
+    "effortClass": "FAST",
+    "domain": "normanfilters.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_COMPANY_PAGE",
+        "tier": "A",
+        "scope": "MANUFACTURER_IDENTITY_AS9100_CERTIFICATION_FILTER_HOUSING_ELEMENT_SCOPE_AND_BRIDGEVIEW_FACILITY (page serves the same body copy as the site root)",
+        "url": "https://www.normanfilters.com/about-us.html",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "HIGH_PRESSURE_INLINE_FILTER_SERIES_LIST",
+        "url": "https://www.normanfilters.com/high-pressure-inline-filters.html",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems",
+        "hydraulic equipment"
+      ],
+      "families": [
+        "High Pressure T-Type Filters",
+        "High Pressure Inline Filters",
+        "Mobile Filtration Systems",
+        "Medium Pressure Filter",
+        "Low Pressure Filters",
+        "Spin On Filters",
+        "Tank Top Filters",
+        "High Pressure Filter Assemblies",
+        "Specialty Application Filters",
+        "Manifold Filter Assemblies",
+        "Threadless Filters",
+        "Nickel 200 Filters",
+        "Brass Filters (Oxygen Application)",
+        "Metal Filter Elements",
+        "Coalescing Filter Elements",
+        "Epoxy & Non Metal Filter Elements"
+      ],
+      "industries": [
+        "aerospace",
+        "oil and gas",
+        "industrial processing",
+        "energy"
+      ],
+      "country": "United States",
+      "headquarters": "Bridgeview, Illinois, United States"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "norres",
@@ -99816,19 +100124,73 @@
   {
     "manufacturerId": "pavan",
     "displayName": "PAVAN",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2141,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "GEA's official parent-company pages for the acquired Pavan food-processing business returned HTTP 403 during release verification. The restriction was not bypassed, and inaccessible parent evidence was not promoted."
+    "effortClass": "FAST",
+    "domain": "gea.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_OWNER_MARKET_PAGE",
+        "url": "https://www.gea.com/en/food/pasta/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PORTFOLIO_CATEGORY_NAMES",
+        "url": "https://www.gea.com/en/products/pasta-snacks-breakfast-cereals/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_DRY_PASTA",
+        "url": "https://www.gea.com/en/products/pasta-snacks-breakfast-cereals/dry-pasta-processing",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_TECHNOLOGY_STORY",
+        "url": "https://www.gea.com/en/stories/technology-making-high-quality-pasta-available-worldwide/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "TECHNOLOGY_CENTER_LOCATION",
+        "url": "https://www.gea.com/en/campaigns/pasta-extrusion-technology-center/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "conveying and material-handling systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Dry Pasta Processing Equipment",
+        "Fresh Pasta Processing Equipment",
+        "Dies & Moulds",
+        "Pasta Packaging Equipment",
+        "Snacks & Breakfast Cereals Equipment"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Italy",
+      "headquarters": null
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "payper",
@@ -105073,6 +105435,7 @@
       ],
       "industries": [
         "water and wastewater",
+        "municipal utilities",
         "industrial processing"
       ],
       "country": "Netherlands",
@@ -106409,18 +106772,66 @@
   {
     "manufacturerId": "saalfelder-hebezeugbau-gmbh",
     "displayName": "SAALFELDER HEBEZEUGBAU GMBH",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2304,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "reason": "No current manufacturer-owned HTTPS source could be established for Saalfelder Hebezeugbau GmbH, and reliable current brand continuity could not be confirmed."
+    "effortClass": "FAST",
+    "domain": "shb-net.de",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_AND_PRODUCT_OVERVIEW",
+        "url": "https://shb-net.de/en/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "IMPRINT",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_REGISTRATION",
+        "url": "https://shb-net.de/impressum/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "CONVEYOR_PRODUCT_RANGE",
+        "url": "https://shb-net.de/en/foerdertechnik/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "RAILWAY_PRODUCT_RANGE",
+        "url": "https://shb-net.de/en/bahntechnik/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "industrial machinery",
+        "hydraulic equipment"
+      ],
+      "families": [
+        "Trommelbremsen",
+        "Scheibenbremsen",
+        "Hydraulikpuffer",
+        "Kupplungen",
+        "Laufräder, Laufradsätze",
+        "Seiltrommeln",
+        "Lokomotivzugeinrichtungen"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
+      "country": "Germany",
+      "headquarters": "Saalfeld, Germany"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -111834,20 +112245,63 @@
   },
   {
     "manufacturerId": "spectro",
-    "displayName": "SPECTRO ANALYTICAL INSTRUMENTS",
-    "status": "BRAND_REVIEW",
+    "displayName": "SPECTRO Analytical Instruments",
+    "status": "BRAND_SAFE",
     "priority": 2445,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Current SPECTRO Analytical Instruments product and corporate pages were identified but returned HTTP 403 or failed to respond during validation. No distributor or search snippet was substituted for first-party evidence."
+    "effortClass": "FAST",
+    "domain": "spectro.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW_AND_PRODUCTS",
+        "url": "https://www.spectro.com/about-us/overview",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_AND_ADDRESS",
+        "url": "https://www.spectro.com/contact/imprint",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_CATALOG",
+        "url": "https://www.spectro.com/products/analytical-instruments-overview",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "industrial automation and control"
+      ],
+      "families": [
+        "ICP-OES Spectrometers",
+        "ICP-MS Spectrometers",
+        "XRF Spectrometers",
+        "Handheld XRF Analyzers",
+        "Mobile Metal Analyzers",
+        "Stationary Metal Analyzers"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "mining",
+        "chemical processing",
+        "oil and gas",
+        "food and pharmaceutical processing"
+      ],
+      "country": "Germany",
+      "headquarters": "Kleve, Germany"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "spg-co",
@@ -113935,6 +114389,7 @@
       "identity": true,
       "specialization": [
         "industrial sensors",
+        "alarm and signalling systems",
         "industrial software"
       ],
       "families": [
@@ -116121,20 +116576,82 @@
   },
   {
     "manufacturerId": "tetra-pak",
-    "displayName": "TETRA PAK",
-    "status": "BRAND_REVIEW",
+    "displayName": "Tetra Pak",
+    "status": "BRAND_SAFE",
     "priority": 2542,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Tetra Pak's manufacturer-owned processing and packaging pages were identified, but repeated direct HTTPS requests returned HTTP 403. Search-result extracts were not used to open an indexable profile."
+    "effortClass": "FAST",
+    "domain": "tetrapak.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW",
+        "url": "https://www.tetrapak.com/about-tetra-pak",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE",
+        "url": "https://www.tetrapak.com/solutions",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PROCESSING_EQUIPMENT",
+        "url": "https://www.tetrapak.com/solutions/processing",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "FILLING_MACHINES",
+        "url": "https://www.tetrapak.com/solutions/packaging/filling-machines",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PARENT_COMPANY_WEBSITE",
+        "tier": "A",
+        "scope": "OWNERSHIP",
+        "url": "https://www.tetralaval.com/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial machinery",
+        "thermal-management equipment",
+        "filtration and water systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Tetra Brik Aseptic",
+        "Tetra Top",
+        "Tetra Rex",
+        "Tetra Recart",
+        "Tetra Fino Aseptic",
+        "Tetra Wedge Aseptic",
+        "Tetra Classic Aseptic",
+        "Tetra Pak Factory OS",
+        "Tetra Pak Pasteurizer D",
+        "Tetra Pak Homogenizer",
+        "Tetra Pak High Shear Mixer",
+        "Tetra Pak Continuous Freezer A2",
+        "Tetra Pak Multilane Wrapper A4"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "texas-instruments",

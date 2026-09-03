@@ -2,14 +2,15 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-- SAFE brands: 2354
-- SAFE with publishable identity-matched logo: 2061
-- SAFE without logo: 293
-- Registry mappings excluded because identity is not SAFE: 36
+- SAFE brands: 2366
+- SAFE with publishable identity-matched logo: 2062
+- SAFE without logo: 304
+- Registry mappings excluded because identity is not SAFE: 35
 
 ## Priority distribution
 
-- HIGH: 293
+- HIGH: 303
+- NORMAL: 1
 
 ## First 100 gaps
 
@@ -32,6 +33,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Ascon Tecnologic (`ascon-tecnologic`) — ascontecnologic.com
 - co-ax (`co-ax-valves-inc`) — co-ax.com
 - ipf electronic (`ipf-electronic`) — ipf-electronic.de
+- NOCCHI (`nocchi`) — starite.it
 - Pneumax (`pneumax`) — pneumaxspa.com
 - KABELSCHLEPP (`kabelschlepp`) — tsubaki-kabelschlepp.com
 - Kadant Johnson (`kadant-johnson`) — fluidhandling.kadant.com
@@ -95,6 +97,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Exlar (`exlar`) — cw-actuation.com
 - Hydrovane (`hydrovane`) — compair.com
 - IDAM (`idam`) — schaeffler.com
+- KLIMA CELJE (`klima-celje`) — klima-celje.si
 - Mecafrance (`mecafrance`) — mecafrance-bonn.de
 - Rotex (`rotex`) — therotexgroup.com
 - TAKISAWA (`takisawa`) — takisawa.co.jp
@@ -111,7 +114,5 @@ Generated: 2026-08-24T00:00:00.000Z
 - Thomas (`thomas`) — thomaspumps.com
 - HSD (`hsd`) — hsdmechatronics.com
 - KRANZ KUHRMEIER (`kranz-kuhrmeier`) — kranz-packungen.com
-- Liquiflo (`liquiflo`) — liquiflo.com
-- ARO (`aro`) — arozone.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.

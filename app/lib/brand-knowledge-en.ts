@@ -202,6 +202,7 @@ const categoryRules: Array<[RegExp, string]> = [
   [/трубопроводные систем/iu, "piping systems"],
   [/пищевое оборудован/iu, "food-processing equipment"],
   [/аналитические приборы/iu, "analytical instruments"],
+  [/оповещен|сигнализац/iu, "alarm and signalling systems"],
 ];
 
 const industryRules: Array<[RegExp, string]> = [
@@ -233,6 +234,7 @@ const industryRules: Array<[RegExp, string]> = [
   [/гостиничный бизнес/iu, "hospitality"],
   [/биотехнолог/iu, "biotechnology"],
   [/образован/iu, "education"],
+  [/коммунальн/iu, "municipal utilities"],
   [/промышлен|производств|process|технологическ/iu, "industrial processing"],
 ];
 

@@ -1,20 +1,7 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "klima-celje",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-20",
-      "reason": "The manufacturer-owned domain exposes only limited legacy material and did not provide a current, readable About and Products evidence set sufficient for a public English manufacturer profile.",
-      "attemptedUrls": ["https://www.klima-celje.si/", "https://www.klima-celje.si/en/", "https://www.klima-celje.si/wp-content/uploads/2015/11/art_7_all.pdf"]
-    },
-    {
-      "manufacturerId": "norton",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "NORTON is shared by unrelated industrial and commercial brands. The repository label has no domain, country, legal name or product discriminator that safely selects one manufacturer-owned source.",
-      "attemptedUrls": ["https://www.nortonabrasives.com/", "https://www.nortonmotorcycles.com/"]
-    }
+    {"manufacturerId":"norton","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-20","reason":"NORTON is shared by unrelated industrial and commercial brands. The repository label has no domain, country, legal name or product discriminator that safely selects one manufacturer-owned source.","attemptedUrls":["https://www.nortonabrasives.com/","https://www.nortonmotorcycles.com/"]}
   ],
   "profiles": [
     {

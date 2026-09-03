@@ -1,69 +1,14 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "ita-industrial",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "ITA Industrial is used by unrelated active businesses, including a Brazilian custom-manufacturing company and a United States industrial-tooling company. The queue identity provides no country, legal-name or product-scope discriminator.",
-      "attemptedUrls": ["https://itaindustrial.com.br/en/", "https://www.itaindustrial.com/"]
-    },
-    {
-      "manufacturerId": "jackle",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "The record is plausibly JÄCKLE Schweiß- und Schneidtechnik, but no reachable current manufacturer-owned website or explicit official-parent page was found. An old catalog hosted by a third party is insufficient for publication.",
-      "attemptedUrls": ["https://www.jaeckle-sst.de/", "https://www.jaeckle.de/"]
-    },
-    {
-      "manufacturerId": "jaron-technologies",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-24",
-      "reason": "No reachable manufacturer-owned domain or explicit current parent-company source was found for Jaron Technologies. Secondary directory and resale references do not satisfy the identity gate.",
-      "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "jbc",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "JBC is a short generic identity used by multiple active businesses. JBC Soldering is a strong candidate, but the raw record contains no product, legal-name or country discriminator sufficient for automatic publication.",
-      "attemptedUrls": ["https://www.jbctools.com/"]
-    },
-    {
-      "manufacturerId": "jentec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "JENTEC is shared by unrelated active companies in power supplies, engineering, electronics and other industries. The raw identity cannot be tied safely to one manufacturer-owned source.",
-      "attemptedUrls": ["https://www.jentec.com.tw/", "https://www.jentec.co.jp/"]
-    },
-    {
-      "manufacturerId": "jet",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "JET is used by several unrelated industrial brands and companies. The undifferentiated record lacks the product scope or legal identity required to select JET Tools or another candidate safely.",
-      "attemptedUrls": ["https://www.jettools.com/"]
-    },
-    {
-      "manufacturerId": "jms",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "JMS is used by multiple current industrial manufacturers, including engineering, temperature-sensor and packaging businesses. The raw record contains no reliable discriminator.",
-      "attemptedUrls": ["https://www.jms-se.com/", "https://www.jms-universal.com/"]
-    },
-    {
-      "manufacturerId": "jsw",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "JSW can refer to The Japan Steel Works, JSW Steel and other active industrial entities. The raw abbreviation provides no country, product or legal-name discriminator.",
-      "attemptedUrls": ["https://www.jsw.co.jp/en/", "https://www.jsw.in/"]
-    },
-    {
-      "manufacturerId": "jugoturbina-system-eureka",
-      "status": "LEGACY_SOURCE_INSUFFICIENT",
-      "checkedAt": "2026-08-24",
-      "reason": "No reachable current manufacturer-owned website or explicit official successor source was found for Jugoturbina System Eureka. Historical and resale references cannot establish a publishable legacy identity and scope.",
-      "attemptedUrls": []
-    }
+    {"manufacturerId":"ita-industrial","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ITA Industrial is used by unrelated active businesses, including a Brazilian custom-manufacturing company and a United States industrial-tooling company. The queue identity provides no country, legal-name or product-scope discriminator.","attemptedUrls":["https://itaindustrial.com.br/en/","https://www.itaindustrial.com/"]},
+    {"manufacturerId":"jackle","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"The record is plausibly JÄCKLE Schweiß- und Schneidtechnik, but no reachable current manufacturer-owned website or explicit official-parent page was found. An old catalog hosted by a third party is insufficient for publication.","attemptedUrls":["https://www.jaeckle-sst.de/","https://www.jaeckle.de/"]},
+    {"manufacturerId":"jaron-technologies","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-24","reason":"No reachable manufacturer-owned domain or explicit current parent-company source was found for Jaron Technologies. Secondary directory and resale references do not satisfy the identity gate.","attemptedUrls":[]},
+    {"manufacturerId":"jbc","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"JBC is a short generic identity used by multiple active businesses. JBC Soldering is a strong candidate, but the raw record contains no product, legal-name or country discriminator sufficient for automatic publication.","attemptedUrls":["https://www.jbctools.com/"]},
+    {"manufacturerId":"jentec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"JENTEC is shared by unrelated active companies in power supplies, engineering, electronics and other industries. The raw identity cannot be tied safely to one manufacturer-owned source.","attemptedUrls":["https://www.jentec.com.tw/","https://www.jentec.co.jp/"]},
+    {"manufacturerId":"jet","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"JET is used by several unrelated industrial brands and companies. The undifferentiated record lacks the product scope or legal identity required to select JET Tools or another candidate safely.","attemptedUrls":["https://www.jettools.com/"]},
+    {"manufacturerId":"jms","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"JMS is used by multiple current industrial manufacturers, including engineering, temperature-sensor and packaging businesses. The raw record contains no reliable discriminator.","attemptedUrls":["https://www.jms-se.com/","https://www.jms-universal.com/"]},
+    {"manufacturerId":"jsw","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"JSW can refer to The Japan Steel Works, JSW Steel and other active industrial entities. The raw abbreviation provides no country, product or legal-name discriminator.","attemptedUrls":["https://www.jsw.co.jp/en/","https://www.jsw.in/"]}
   ],
   "profiles": [
     {

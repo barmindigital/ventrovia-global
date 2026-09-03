@@ -1,47 +1,47 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 381,
+  "totalReview": 369,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "count": 267,
-      "share": 0.7008
+      "share": 0.7236
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "count": 51,
-      "share": 0.1339
+      "count": 46,
+      "share": 0.1247
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "count": 32,
-      "share": 0.084
+      "count": 27,
+      "share": 0.0732
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "count": 16,
-      "share": 0.042
+      "count": 13,
+      "share": 0.0352
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 5,
-      "share": 0.0131
+      "share": 0.0136
     },
     {
       "blockerCategory": "POSSIBLE_DUPLICATE",
       "count": 5,
-      "share": 0.0131
+      "share": 0.0136
     },
     {
       "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
       "count": 4,
-      "share": 0.0105
+      "share": 0.0108
     },
     {
       "blockerCategory": "OTHER",
-      "count": 1,
-      "share": 0.0026
+      "count": 2,
+      "share": 0.0054
     }
   ],
   "fastReviewCandidates": [
@@ -70,21 +70,6 @@
       "reason": "Only secondary company material was accessible for SPECKEN-DRUMAG; no current manufacturer-owned identity and product source was verified.",
       "detail": null,
       "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "nocchi",
-      "displayName": "NOCCHI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "Pentair confirms relevant pump categories, but the accessible first-party pages did not establish the current Nocchi identity and portfolio precisely enough for an independent public brand profile.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.pentair.com/en-us/products.html",
-        "https://www.pentair.com/en-us/flow/commercial-products/water-supply-pumps.html"
-      ],
       "effortClass": "NORMAL"
     },
     {
@@ -145,18 +130,6 @@
         "https://www.amca-nl.com/",
         "https://www.amcahydraulics.com/"
       ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "mas-lambertoni",
-      "displayName": "MAS LAMBERTONI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "No authoritative manufacturer-owned source establishing the MAS LAMBERTONI identity and product scope was available.",
-      "detail": null,
-      "attemptedUrls": [],
       "effortClass": "NORMAL"
     },
     {
@@ -244,20 +217,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "inever",
-      "displayName": "INEVER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "No current manufacturer-owned INEVER company, domain and product source could be established. Reseller listings cannot verify the identity.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=INEVER+industrial+manufacturer+official"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "jackle",
       "displayName": "JACKLE",
       "aliases": [],
@@ -311,21 +270,6 @@
       "attemptedUrls": [
         "https://magneta.de/",
         "https://www.magneta.de/download/doku/Magnetpulverkupplungen_Katalog_deutsch_englisch_.pdf"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "medc",
-      "displayName": "MEDC",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Eaton's official MEDC product surface was identified, but it did not return a usable response to the verification client during this pass. No reseller source was substituted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.eaton.com/gb/en-gb/products/safety-security-emergency-communications/alarms-and-signaling-devices.html",
-        "https://content.eaton.com/hazcomms"
       ],
       "effortClass": "NORMAL"
     },
@@ -401,21 +345,6 @@
         "https://www.morganadvancedmaterials.com/en-gb/",
         "https://www.morganadvancedmaterials.com/en-gb/who-we-are/",
         "https://www.morganadvancedmaterials.com/en-gb/what-we-do/businesses/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "norman-filters",
-      "displayName": "NORMAN FILTERS CO.",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The identified Norman Filter Company manufacturer site returned HTTP 403 during direct verification. Search-result snippets and distributor pages were not accepted as evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.normanfilters.com/",
-        "https://www.normanfilters.com/filters.html"
       ],
       "effortClass": "NORMAL"
     },
@@ -519,20 +448,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.google.com/search?q=%22Rosati+Fratelli%22+manufacturer+official"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "saalfelder-hebezeugbau-gmbh",
-      "displayName": "SAALFELDER HEBEZEUGBAU GMBH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "No current manufacturer-owned HTTPS source could be established for Saalfelder Hebezeugbau GmbH, and reliable current brand continuity could not be confirmed.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Saalfelder+Hebezeugbau+GmbH%22+official"
       ],
       "effortClass": "NORMAL"
     },
@@ -654,21 +569,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "spectro",
-      "displayName": "SPECTRO ANALYTICAL INSTRUMENTS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Current SPECTRO Analytical Instruments product and corporate pages were identified but returned HTTP 403 or failed to respond during validation. No distributor or search snippet was substituted for first-party evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.spectro.com/",
-        "https://www.ametek.com/brands/spectro"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "sud-electric-ag",
       "displayName": "SUD-ELECTRIC AG",
       "aliases": [],
@@ -694,21 +594,6 @@
       "attemptedUrls": [
         "https://www.systemplastsmartguide.com/",
         "https://www.regalrexnord.com/brands/system-plast"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "tetra-pak",
-      "displayName": "TETRA PAK",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Tetra Pak's manufacturer-owned processing and packaging pages were identified, but repeated direct HTTPS requests returned HTTP 403. Search-result extracts were not used to open an indexable profile.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.tetrapak.com/solutions",
-        "https://www.tetrapak.com/about-tetra-pak"
       ],
       "effortClass": "NORMAL"
     },
@@ -843,21 +728,6 @@
       "detail": null,
       "attemptedUrls": [],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "nocchi",
-      "displayName": "NOCCHI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "Pentair confirms relevant pump categories, but the accessible first-party pages did not establish the current Nocchi identity and portfolio precisely enough for an independent public brand profile.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.pentair.com/en-us/products.html",
-        "https://www.pentair.com/en-us/flow/commercial-products/water-supply-pumps.html"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "andritz-gouda",
@@ -1202,22 +1072,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "klima-celje",
-      "displayName": "KLIMA CELJE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "The manufacturer-owned domain exposes only limited legacy material and did not provide a current, readable About and Products evidence set sufficient for a public English manufacturer profile.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.klima-celje.si/",
-        "https://www.klima-celje.si/en/",
-        "https://www.klima-celje.si/wp-content/uploads/2015/11/art_7_all.pdf"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "norton",
       "displayName": "NORTON",
       "aliases": [],
@@ -1412,18 +1266,6 @@
         "https://www.lvfvalve.cn/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "mas-lambertoni",
-      "displayName": "MAS LAMBERTONI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "No authoritative manufacturer-owned source establishing the MAS LAMBERTONI identity and product scope was available.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "valvola",
@@ -3176,12 +3018,13 @@
       "displayName": "HALBERG",
       "aliases": [],
       "state": "REQUIRES_REVIEW",
-      "blockerCode": "LEGACY_SOURCE_INSUFFICIENT",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "HALBERG is plausibly a historical pump identity associated with KSB, but no explicit current manufacturer-owned page was found that safely resolves this record and its product scope.",
+      "blockerCode": "BLOCKED_NO_PRODUCT_CONTENT",
+      "blockerCategory": "OTHER",
+      "reason": "halberg.com is live and is the brand own domain, but it serves only a landing page: a combined Flowserve-HALBERG logo, a language switch, and a two-item quick navigation pointing at the Flowserve SIHI and Flowserve sites. It publishes no product catalogue, specifications or application pages, so no HALBERG product area can be sourced first-party and a brand page would have nothing to show. The imprint names Flowserve SIHI Germany GmbH, Itzehoe, as responsible for the site; the copyright line names Halberg Maschinenbau GmbH.",
       "detail": null,
       "attemptedUrls": [
-        "https://www.ksb.com/"
+        "https://www.halberg.com/cms/",
+        "https://www.halberg.com/cms/index.php?id=2025"
       ],
       "effortClass": "NORMAL"
     },
@@ -3410,20 +3253,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "inever",
-      "displayName": "INEVER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "No current manufacturer-owned INEVER company, domain and product source could be established. Reseller listings cannot verify the identity.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=INEVER+industrial+manufacturer+official"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "innovari",
       "displayName": "INNOVARI",
       "aliases": [],
@@ -3597,18 +3426,6 @@
         "https://www.jsw.in/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "jugoturbina-system-eureka",
-      "displayName": "JUGOTURBINA SYSTEM EUREKA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "LEGACY_SOURCE_INSUFFICIENT",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "No reachable current manufacturer-owned website or explicit official successor source was found for Jugoturbina System Eureka. Historical and resale references cannot establish a publishable legacy identity and scope.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "kruss",
@@ -3788,20 +3605,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "maho",
-      "displayName": "MAHO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "LEGACY_SOURCE_INSUFFICIENT",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "MAHO is a historical machine-tool name associated with Deckel Maho and DMG MORI, but no current manufacturer-owned brand profile establishes MAHO alone as a separately publishable manufacturer identity and product scope.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://en.dmgmori.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "marley",
       "displayName": "MARLEY",
       "aliases": [],
@@ -3859,21 +3662,6 @@
         "https://www.imi-critical.com/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "medc",
-      "displayName": "MEDC",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Eaton's official MEDC product surface was identified, but it did not return a usable response to the verification client during this pass. No reseller source was substituted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.eaton.com/gb/en-gb/products/safety-security-emergency-communications/alarms-and-signaling-devices.html",
-        "https://content.eaton.com/hazcomms"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "mercer-valve",
@@ -4227,21 +4015,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "norman-filters",
-      "displayName": "NORMAN FILTERS CO.",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The identified Norman Filter Company manufacturer site returned HTTP 403 during direct verification. Search-result snippets and distributor pages were not accepted as evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.normanfilters.com/",
-        "https://www.normanfilters.com/filters.html"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "ofc",
       "displayName": "OFC",
       "aliases": [],
@@ -4403,21 +4176,6 @@
         "https://www.danobatgroup.com/en/overbeck"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "pavan",
-      "displayName": "PAVAN",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "GEA's official parent-company pages for the acquired Pavan food-processing business returned HTTP 403 during release verification. The restriction was not bypassed, and inaccessible parent evidence was not promoted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.gea.com/en/food/pasta/",
-        "https://www.gea.com/en/company/news/press-releases/2017/gea-acquires-pavan-group/"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "peco",
@@ -4863,20 +4621,6 @@
         "https://www.google.com/search?q=%22RPM+S.p.A.%22+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "saalfelder-hebezeugbau-gmbh",
-      "displayName": "SAALFELDER HEBEZEUGBAU GMBH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "No current manufacturer-owned HTTPS source could be established for Saalfelder Hebezeugbau GmbH, and reliable current brand continuity could not be confirmed.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Saalfelder+Hebezeugbau+GmbH%22+official"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "sae",
@@ -5369,21 +5113,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "spectro",
-      "displayName": "SPECTRO ANALYTICAL INSTRUMENTS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Current SPECTRO Analytical Instruments product and corporate pages were identified but returned HTTP 403 or failed to respond during validation. No distributor or search snippet was substituted for first-party evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.spectro.com/",
-        "https://www.ametek.com/brands/spectro"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "spraytech",
       "displayName": "SPRAYTECH",
       "aliases": [],
@@ -5611,21 +5340,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.rockwellautomation.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "tetra-pak",
-      "displayName": "TETRA PAK",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Tetra Pak's manufacturer-owned processing and packaging pages were identified, but repeated direct HTTPS requests returned HTTP 403. Search-result extracts were not used to open an indexable profile.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.tetrapak.com/solutions",
-        "https://www.tetrapak.com/about-tetra-pak"
       ],
       "effortClass": "NORMAL"
     },

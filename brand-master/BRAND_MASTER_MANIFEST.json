@@ -6,16 +6,16 @@
   "scope": "PORTABLE_FRAMEWORK_NEUTRAL_BRAND_KNOWLEDGE",
   "counts": {
     "brandsTotal": 2735,
-    "brandSafe": 2354,
-    "brandReview": 381,
-    "brandComplete": 2335,
-    "safeWithLogo": 2061,
-    "safeWithoutLogo": 293,
-    "countries": 2184,
-    "headquarters": 1340,
-    "familyEvidence": 2339,
-    "sourceRecords": 4528,
-    "categories": 99
+    "brandSafe": 2366,
+    "brandReview": 369,
+    "brandComplete": 2342,
+    "safeWithLogo": 2062,
+    "safeWithoutLogo": 304,
+    "countries": 2194,
+    "headquarters": 1349,
+    "familyEvidence": 2349,
+    "sourceRecords": 4567,
+    "categories": 100
   },
   "policies": {
     "stableIdsPreserved": true,
@@ -10885,6 +10885,12 @@
       "role": "BRAND_LOGO"
     },
     {
+      "path": "brand-assets/logos/tetra-pak.svg",
+      "size": 10550,
+      "sha256": "04b37fc76c87f3f0604019805a5866942633e56e5b6fbfe2309d0c98b027a5a6",
+      "role": "BRAND_LOGO"
+    },
+    {
       "path": "brand-assets/logos/texas-instruments.svg",
       "size": 17456,
       "sha256": "4c77f1768f13d103770ba28939414fade3a8c4796d06b6f2d6b0f85dadca8491",
@@ -12398,68 +12404,68 @@
     },
     {
       "path": "data/brand-category-taxonomy.json",
-      "size": 140554,
-      "sha256": "632bf8605df03411c32b2c469f14f8aab4c9919f4374286b4d1ad76fc7874400",
+      "size": 141447,
+      "sha256": "8776173cc1ad6a80c1e379791b24a2edb5c2c8c118d25a0d20340237ffb943cb",
       "role": "DATA"
     },
     {
       "path": "data/brand-completeness.json",
-      "size": 1312480,
-      "sha256": "2d99c43db855a235e61c6e18f914dbd34f7781b8617339c2b37f1ecafbbca650",
+      "size": 1312294,
+      "sha256": "b91ab4318091eb303584ff089bc0498f9a4732d69051c1c05e97701492f648fa",
       "role": "DATA"
     },
     {
       "path": "data/brand-content-quality-audit.json",
       "size": 1241,
-      "sha256": "68a3e401e8faeae0bd9311fef16a77bdf693209f2a6c47d4c72669d76d4f9a7f",
+      "sha256": "bdb3a9f3cabff8cd324f45e95705630d44a4c5cbc4a25a1f6da00cb902c9b904",
       "role": "DATA"
     },
     {
       "path": "data/brand-duplicate-candidates.json",
-      "size": 155567,
-      "sha256": "85f8296da845e9e4267fe13f64ece3b211470c755d96abb2294fc9321783282d",
+      "size": 155524,
+      "sha256": "01622f21fddf8b18b07e34db0af116946550aa43358e842c4c5ee0dcbdf8ce6c",
       "role": "DATA"
     },
     {
       "path": "data/brand-logo-gaps.json",
-      "size": 122083,
-      "sha256": "df59e0639bc080ff5f9fca023a6826b8471ce830e54ae7ef704b8bf361915c59",
+      "size": 126693,
+      "sha256": "6b50584089e0db7e04491c92b8c0f9fca5c05da23b426f933bca98986f9261df",
       "role": "DATA"
     },
     {
       "path": "data/brand-master.csv",
-      "size": 2454383,
-      "sha256": "a492d9a6647d5d740509a92b7ec1eaaac9771ad6ffc2f948363b1fc9e1de818e",
+      "size": 2465757,
+      "sha256": "ae4b2522e4fa1334a66a68f0387c157ad64d3cae97501c8370bbd39e3be3ae32",
       "role": "DATA"
     },
     {
       "path": "data/brand-master.json",
-      "size": 13788760,
-      "sha256": "f7355218b565ab2a932f5130511d6671b9316193ea2a332ee07a93c9a63ffd3d",
+      "size": 13830934,
+      "sha256": "2e6df250d40b5f4ea31ec55189f0257debc2660cbd97d27fb3a1bd33733a85b6",
       "role": "DATA"
     },
     {
       "path": "data/brand-review-queue.json",
-      "size": 265210,
-      "sha256": "b537b625cb6bef66ae9f765a99a5461776054ad96aaf924e7202262c16ece44e",
+      "size": 253206,
+      "sha256": "1c2e68fab31dd1bd6522d82d73b4937c1fd48d58f96363d19ea4f7180c9d3ada",
       "role": "DATA"
     },
     {
       "path": "data/brand-seo-semantic-map.json",
-      "size": 2497073,
-      "sha256": "21e575d6f7e9e126c740d7e58127c7de97713f49c199132f74c79e791c779a21",
+      "size": 2511479,
+      "sha256": "82d17bd7f74e67e80fec51e4bc8c40ae3927b7f9560bb6fb31ccad074289ffbd",
       "role": "DATA"
     },
     {
       "path": "data/brand-slug-aliases.json",
-      "size": 663019,
-      "sha256": "70eaa82256873c29186540e029443ee87565de2ea4b9ae4ef6aa3971dec76f6c",
+      "size": 664292,
+      "sha256": "15146e1af258423aa1125ab5489e6e8fbe3e0da6a32f331de49b914e417493b7",
       "role": "DATA"
     },
     {
       "path": "data/brand-sources.json",
-      "size": 1813582,
-      "sha256": "f9895456b7e47302bd82fde52954a42efe14ff18aacf88d5e0027c8c2c7239fc",
+      "size": 1828682,
+      "sha256": "4f7838c686519f8322e1038475292a49ba1e9469f4d465228f901bb1e45da56c",
       "role": "DATA"
     },
     {
@@ -12483,7 +12489,7 @@
     {
       "path": "reports/BRAND_CONTENT_PORTABILITY_AUDIT.md",
       "size": 741,
-      "sha256": "e8f2aa612cd9afb2689ecd25cd98c496e8b9d41792743b02247a24c48c461a28",
+      "sha256": "6cb8434196bebd31c2889041dc52319949b9a957b5dfac6dc19da82d96ba7560",
       "role": "REPORT"
     },
     {
@@ -12494,20 +12500,20 @@
     },
     {
       "path": "reports/BRAND_LOGO_GAPS.md",
-      "size": 4997,
-      "sha256": "0c501bc744ee6747494be7f0041ee2938f3c1d847ba187e04c2f8970430f2ab4",
+      "size": 5022,
+      "sha256": "4be5733d1af9ac985fcd0e7a3d743fc4a3ed8c213c94a5404ee1a29310b565b1",
       "role": "REPORT"
     },
     {
       "path": "reports/BRAND_MASTER_COMPLETENESS.md",
       "size": 760,
-      "sha256": "f413fbbbc94d1ddaed64689637e118e0a1a902f1a5cbb35f5f46647fb0a0abbd",
+      "sha256": "d854cfa8e6a895c89450cb51d0717e4f9c73d827356659eff8bdb60780ff3c33",
       "role": "REPORT"
     },
     {
       "path": "reports/BRAND_UNRESOLVED_IDENTITIES.md",
-      "size": 3870,
-      "sha256": "3ea88df489de800f90b14c44079d4be450e7a71bf7913aca50bc8a5f8ddd2076",
+      "size": 3367,
+      "sha256": "886bd55c8015369f9bd539a7516edb52eb14e541b5927ae59228f20233ff35b1",
       "role": "REPORT"
     },
     {

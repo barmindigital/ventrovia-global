@@ -6673,6 +6673,25 @@
       }
     },
     {
+      "brandId": "nocchi",
+      "displayName": "NOCCHI",
+      "primaryCategory": "pumps and pumping systems",
+      "secondaryCategories": [],
+      "families": [],
+      "primaryIntent": "NOCCHI pumps and pumping systems",
+      "secondaryIntents": [
+        "NOCCHI industrial equipment",
+        "NOCCHI sourcing"
+      ],
+      "titleCore": "NOCCHI Pumps and pumping systems",
+      "metaFactual": "NOCCHI manufacturer profile covering pumps and pumping systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 5,
+        "categories": 1,
+        "families": 0
+      }
+    },
+    {
       "brandId": "pneumax",
       "displayName": "Pneumax",
       "primaryCategory": "pneumatic equipment",
@@ -22657,6 +22676,7 @@
       "primaryCategory": "electrical power systems",
       "secondaryCategories": [
         "industrial sensors",
+        "alarm and signalling systems",
         "industrial automation and control"
       ],
       "families": [
@@ -22674,13 +22694,13 @@
         "Zelisko industrial equipment",
         "Zelisko sourcing",
         "Zelisko industrial sensors",
-        "Zelisko industrial automation and control"
+        "Zelisko alarm and signalling systems"
       ],
       "titleCore": "Zelisko Electrical power systems",
-      "metaFactual": "Zelisko manufacturer profile covering electrical power systems, industrial sensors, and industrial automation and control, based on official company and product sources.",
+      "metaFactual": "Zelisko manufacturer profile covering electrical power systems, industrial sensors, and alarm and signalling systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 1,
-        "categories": 3,
+        "categories": 4,
         "families": 8
       }
     },
@@ -23265,6 +23285,63 @@
         "sourceRecords": 2,
         "categories": 1,
         "families": 10
+      }
+    },
+    {
+      "brandId": "klima-celje",
+      "displayName": "KLIMA CELJE",
+      "primaryCategory": "ventilation equipment",
+      "secondaryCategories": [
+        "thermal-management equipment",
+        "filtration and water systems",
+        "industrial machinery"
+      ],
+      "families": [
+        "LAZ",
+        "AVL",
+        "AVS (AVSV)",
+        "N-AVV-D/K",
+        "ODT-AV",
+        "ODT-CV",
+        "SVH2",
+        "SVV2",
+        "SVK2",
+        "KC",
+        "GNA2",
+        "GNJ2",
+        "EGN",
+        "KG 28",
+        "RC",
+        "HC",
+        "LAZ 250 – LAZ 315",
+        "AVL 355 – 630",
+        "AVS (AVSV) 400 – 1600",
+        "N-AVV-D/K 630 – 2240",
+        "ODT-AVV",
+        "ODT-AVR",
+        "ODT-AVJ",
+        "ODT-AVJ-R",
+        "EX SVK2",
+        "ODT-SVK",
+        "ODT-SVK2",
+        "EX GN A/J",
+        "133 CV",
+        "134 CV",
+        "136 CV"
+      ],
+      "primaryIntent": "KLIMA CELJE ventilation equipment",
+      "secondaryIntents": [
+        "KLIMA CELJE industrial equipment",
+        "KLIMA CELJE sourcing",
+        "KLIMA CELJE thermal-management equipment",
+        "KLIMA CELJE filtration and water systems"
+      ],
+      "titleCore": "KLIMA CELJE Ventilation equipment",
+      "metaFactual": "KLIMA CELJE manufacturer profile covering ventilation equipment, thermal-management equipment, and filtration and water systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 4,
+        "families": 31
       }
     },
     {
@@ -26149,6 +26226,7 @@
       "displayName": "Pfannenberg",
       "primaryCategory": "thermal-management equipment",
       "secondaryCategories": [
+        "alarm and signalling systems",
         "industrial safety equipment"
       ],
       "families": [
@@ -26164,13 +26242,14 @@
       "secondaryIntents": [
         "Pfannenberg industrial equipment",
         "Pfannenberg sourcing",
+        "Pfannenberg alarm and signalling systems",
         "Pfannenberg industrial safety equipment"
       ],
       "titleCore": "Pfannenberg Thermal-management equipment",
-      "metaFactual": "Pfannenberg manufacturer profile covering thermal-management equipment and industrial safety equipment, based on official company and product sources.",
+      "metaFactual": "Pfannenberg manufacturer profile covering thermal-management equipment, alarm and signalling systems, and industrial safety equipment, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 2,
+        "categories": 3,
         "families": 7
       }
     },
@@ -29346,6 +29425,33 @@
         "sourceRecords": 2,
         "categories": 3,
         "families": 9
+      }
+    },
+    {
+      "brandId": "mas-lambertoni",
+      "displayName": "M.A.S. Lambertoni",
+      "primaryCategory": "industrial machinery",
+      "secondaryCategories": [
+        "industrial automation and control",
+        "filling and packaging machinery"
+      ],
+      "families": [
+        "Hot Melt",
+        "PUR Melt"
+      ],
+      "primaryIntent": "M.A.S. Lambertoni industrial machinery",
+      "secondaryIntents": [
+        "M.A.S. Lambertoni industrial equipment",
+        "M.A.S. Lambertoni sourcing",
+        "M.A.S. Lambertoni industrial automation and control",
+        "M.A.S. Lambertoni filling and packaging machinery"
+      ],
+      "titleCore": "M.A.S. Lambertoni Industrial machinery",
+      "metaFactual": "M.A.S. Lambertoni manufacturer profile covering industrial machinery, industrial automation and control, and filling and packaging machinery, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 3,
+        "families": 2
       }
     },
     {
@@ -49012,6 +49118,38 @@
       }
     },
     {
+      "brandId": "inever",
+      "displayName": "INVpack",
+      "primaryCategory": "filling and packaging machinery",
+      "secondaryCategories": [
+        "industrial machinery"
+      ],
+      "families": [
+        "Stick pack",
+        "Sachet",
+        "Bagger",
+        "Capsules",
+        "BY",
+        "SP",
+        "PH",
+        "PHA",
+        "MVA"
+      ],
+      "primaryIntent": "INVpack filling and packaging machinery",
+      "secondaryIntents": [
+        "INVpack industrial equipment",
+        "INVpack sourcing",
+        "INVpack industrial machinery"
+      ],
+      "titleCore": "INVpack Filling and packaging machinery",
+      "metaFactual": "INVpack manufacturer profile covering filling and packaging machinery and industrial machinery, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 2,
+        "families": 9
+      }
+    },
+    {
       "brandId": "infastaub",
       "displayName": "Infastaub",
       "primaryCategory": "filtration and water systems",
@@ -50229,6 +50367,53 @@
         "sourceRecords": 1,
         "categories": 3,
         "families": 6
+      }
+    },
+    {
+      "brandId": "jugoturbina-system-eureka",
+      "displayName": "Jugoturbina System Eureka",
+      "primaryCategory": "pumps and pumping systems",
+      "secondaryCategories": [],
+      "families": [
+        "Marine pumps",
+        "Energy pumps",
+        "General service pumps",
+        "NN",
+        "KV/VS",
+        "CG",
+        "BV/BV2",
+        "PSN",
+        "SVV",
+        "CV/CH",
+        "EKP",
+        "SOM/SOK",
+        "SUE",
+        "KK/KK2",
+        "NK",
+        "IN",
+        "RPP",
+        "KPP/VKPP",
+        "DH/DHv",
+        "AVZ",
+        "KVL",
+        "VSN",
+        "PKH/PKV",
+        "BO",
+        "VK/VGKQ",
+        "ZH",
+        "KP"
+      ],
+      "primaryIntent": "Jugoturbina System Eureka pumps and pumping systems",
+      "secondaryIntents": [
+        "Jugoturbina System Eureka industrial equipment",
+        "Jugoturbina System Eureka sourcing"
+      ],
+      "titleCore": "Jugoturbina System Eureka Pumps and pumping systems",
+      "metaFactual": "Jugoturbina System Eureka manufacturer profile covering pumps and pumping systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 4,
+        "categories": 1,
+        "families": 27
       }
     },
     {
@@ -54389,6 +54574,29 @@
       }
     },
     {
+      "brandId": "maho",
+      "displayName": "MAHO",
+      "primaryCategory": "industrial machinery",
+      "secondaryCategories": [],
+      "families": [
+        "monoBLOCK",
+        "LASERTEC",
+        "LASERTEC 3D"
+      ],
+      "primaryIntent": "MAHO industrial machinery",
+      "secondaryIntents": [
+        "MAHO industrial equipment",
+        "MAHO sourcing"
+      ],
+      "titleCore": "MAHO Industrial machinery",
+      "metaFactual": "MAHO manufacturer profile covering industrial machinery, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 1,
+        "categories": 1,
+        "families": 3
+      }
+    },
+    {
       "brandId": "mahr",
       "displayName": "Mahr",
       "primaryCategory": "measurement and instrumentation",
@@ -55306,6 +55514,28 @@
         "sourceRecords": 1,
         "categories": 2,
         "families": 9
+      }
+    },
+    {
+      "brandId": "medc",
+      "displayName": "MEDC",
+      "primaryCategory": "alarm and signalling systems",
+      "secondaryCategories": [
+        "explosion-protected electrical equipment"
+      ],
+      "families": [],
+      "primaryIntent": "MEDC alarm and signalling systems",
+      "secondaryIntents": [
+        "MEDC industrial equipment",
+        "MEDC sourcing",
+        "MEDC explosion-protected electrical equipment"
+      ],
+      "titleCore": "MEDC Alarm and signalling systems",
+      "metaFactual": "MEDC manufacturer profile covering alarm and signalling systems and explosion-protected electrical equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 2,
+        "families": 0
       }
     },
     {
@@ -58675,6 +58905,53 @@
       }
     },
     {
+      "brandId": "norman-filters",
+      "displayName": "Norman Filters",
+      "primaryCategory": "filtration and water systems",
+      "secondaryCategories": [
+        "hydraulic equipment"
+      ],
+      "families": [
+        "High Pressure T-Type Filters",
+        "High Pressure Inline Filters",
+        "Mobile Filtration Systems",
+        "Medium Pressure Filter",
+        "Low Pressure Filters",
+        "Spin On Filters",
+        "Tank Top Filters",
+        "High Pressure Filter Assemblies",
+        "Specialty Application Filters",
+        "Manifold Filter Assemblies",
+        "Threadless Filters",
+        "Nickel 200 Filters",
+        "Brass Filters (Oxygen Application)",
+        "Metal Filter Elements",
+        "Coalescing Filter Elements",
+        "Epoxy & Non Metal Filter Elements",
+        "4500 Series",
+        "4100 Series (Mini-T Type)",
+        "U-115 Series Filter",
+        "4900 Series",
+        "4200 Series",
+        "4300 Series",
+        "30K Series",
+        "B31.3 Compliant Filter Series"
+      ],
+      "primaryIntent": "Norman Filters filtration and water systems",
+      "secondaryIntents": [
+        "Norman Filters industrial equipment",
+        "Norman Filters sourcing",
+        "Norman Filters hydraulic equipment"
+      ],
+      "titleCore": "Norman Filters Filtration and water systems",
+      "metaFactual": "Norman Filters manufacturer profile covering filtration and water systems and hydraulic equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 2,
+        "families": 24
+      }
+    },
+    {
       "brandId": "norres",
       "displayName": "NORRES",
       "primaryCategory": "pneumatic equipment",
@@ -60351,6 +60628,40 @@
         "sourceRecords": 3,
         "categories": 3,
         "families": 5
+      }
+    },
+    {
+      "brandId": "pavan",
+      "displayName": "PAVAN",
+      "primaryCategory": "industrial machinery",
+      "secondaryCategories": [
+        "conveying and material-handling systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Dry Pasta Processing Equipment",
+        "Fresh Pasta Processing Equipment",
+        "Dies & Moulds",
+        "Pasta Packaging Equipment",
+        "Snacks & Breakfast Cereals Equipment",
+        "GEA NexGen",
+        "Multidrive",
+        "Multi tier",
+        "TAS"
+      ],
+      "primaryIntent": "PAVAN industrial machinery",
+      "secondaryIntents": [
+        "PAVAN industrial equipment",
+        "PAVAN sourcing",
+        "PAVAN conveying and material-handling systems",
+        "PAVAN industrial automation and control"
+      ],
+      "titleCore": "PAVAN Industrial machinery",
+      "metaFactual": "PAVAN manufacturer profile covering industrial machinery, conveying and material-handling systems, and industrial automation and control, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 5,
+        "categories": 3,
+        "families": 9
       }
     },
     {
@@ -64321,6 +64632,38 @@
       }
     },
     {
+      "brandId": "saalfelder-hebezeugbau-gmbh",
+      "displayName": "SAALFELDER HEBEZEUGBAU GMBH",
+      "primaryCategory": "conveying and material-handling systems",
+      "secondaryCategories": [
+        "industrial machinery",
+        "hydraulic equipment"
+      ],
+      "families": [
+        "Trommelbremsen",
+        "Scheibenbremsen",
+        "Hydraulikpuffer",
+        "Kupplungen",
+        "Laufräder, Laufradsätze",
+        "Seiltrommeln",
+        "Lokomotivzugeinrichtungen"
+      ],
+      "primaryIntent": "SAALFELDER HEBEZEUGBAU GMBH conveying and material-handling systems",
+      "secondaryIntents": [
+        "SAALFELDER HEBEZEUGBAU GMBH industrial equipment",
+        "SAALFELDER HEBEZEUGBAU GMBH sourcing",
+        "SAALFELDER HEBEZEUGBAU GMBH industrial machinery",
+        "SAALFELDER HEBEZEUGBAU GMBH hydraulic equipment"
+      ],
+      "titleCore": "SAALFELDER HEBEZEUGBAU GMBH Conveying and material-handling systems",
+      "metaFactual": "SAALFELDER HEBEZEUGBAU GMBH manufacturer profile covering conveying and material-handling systems, industrial machinery, and hydraulic equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 4,
+        "categories": 3,
+        "families": 7
+      }
+    },
+    {
       "brandId": "sachs",
       "displayName": "SACHS",
       "primaryCategory": "brakes and couplings",
@@ -67625,6 +67968,49 @@
       }
     },
     {
+      "brandId": "spectro",
+      "displayName": "SPECTRO Analytical Instruments",
+      "primaryCategory": "measurement and instrumentation",
+      "secondaryCategories": [
+        "industrial automation and control"
+      ],
+      "families": [
+        "ICP-OES Spectrometers",
+        "ICP-MS Spectrometers",
+        "XRF Spectrometers",
+        "Handheld XRF Analyzers",
+        "Mobile Metal Analyzers",
+        "Stationary Metal Analyzers",
+        "SPECTRO ARCOS",
+        "SPECTROGREEN",
+        "SPECTRO GENESIS",
+        "SPECTROGREEN MS",
+        "SPECTRO XEPOS",
+        "SPECTROCUBE",
+        "SPECTRO MIDEX",
+        "SPECTROSCOUT",
+        "SPECTRO xSORT",
+        "SPECTROTEST",
+        "SPECTROPORT",
+        "SPECTROLAB S",
+        "SPECTROMAXx",
+        "SPECTROCHECK"
+      ],
+      "primaryIntent": "SPECTRO Analytical Instruments measurement and instrumentation",
+      "secondaryIntents": [
+        "SPECTRO Analytical Instruments industrial equipment",
+        "SPECTRO Analytical Instruments sourcing",
+        "SPECTRO Analytical Instruments industrial automation and control"
+      ],
+      "titleCore": "SPECTRO Analytical Instruments Measurement and instrumentation",
+      "metaFactual": "SPECTRO Analytical Instruments manufacturer profile covering measurement and instrumentation and industrial automation and control, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 2,
+        "families": 20
+      }
+    },
+    {
       "brandId": "spg-co",
       "displayName": "SPG",
       "primaryCategory": "electric motors",
@@ -68833,6 +69219,7 @@
       "displayName": "SWARCO",
       "primaryCategory": "industrial sensors",
       "secondaryCategories": [
+        "alarm and signalling systems",
         "industrial software"
       ],
       "families": [
@@ -68851,13 +69238,14 @@
       "secondaryIntents": [
         "SWARCO industrial equipment",
         "SWARCO sourcing",
+        "SWARCO alarm and signalling systems",
         "SWARCO industrial software"
       ],
       "titleCore": "SWARCO Industrial sensors",
-      "metaFactual": "SWARCO manufacturer profile covering industrial sensors and industrial software, based on official company and product sources.",
+      "metaFactual": "SWARCO manufacturer profile covering industrial sensors, alarm and signalling systems, and industrial software, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 2,
+        "categories": 3,
         "families": 10
       }
     },
@@ -70298,6 +70686,59 @@
         "sourceRecords": 2,
         "categories": 2,
         "families": 16
+      }
+    },
+    {
+      "brandId": "tetra-pak",
+      "displayName": "Tetra Pak",
+      "primaryCategory": "industrial machinery",
+      "secondaryCategories": [
+        "thermal-management equipment",
+        "filtration and water systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Tetra Brik Aseptic",
+        "Tetra Top",
+        "Tetra Rex",
+        "Tetra Recart",
+        "Tetra Fino Aseptic",
+        "Tetra Wedge Aseptic",
+        "Tetra Classic Aseptic",
+        "Tetra Pak Factory OS",
+        "Tetra Pak Pasteurizer D",
+        "Tetra Pak Homogenizer",
+        "Tetra Pak High Shear Mixer",
+        "Tetra Pak Continuous Freezer A2",
+        "Tetra Pak Multilane Wrapper A4",
+        "E3/Speed Hyper",
+        "E3/Speed",
+        "E3/Flex",
+        "E3/CompactFlex",
+        "A3/Speed",
+        "A3/CompactFlex",
+        "A3/Flex",
+        "A1",
+        "TT/3",
+        "TR/G7",
+        "TR/27",
+        "TR/28",
+        "R1",
+        "R2"
+      ],
+      "primaryIntent": "Tetra Pak industrial machinery",
+      "secondaryIntents": [
+        "Tetra Pak industrial equipment",
+        "Tetra Pak sourcing",
+        "Tetra Pak thermal-management equipment",
+        "Tetra Pak filtration and water systems"
+      ],
+      "titleCore": "Tetra Pak Industrial machinery",
+      "metaFactual": "Tetra Pak manufacturer profile covering industrial machinery, thermal-management equipment, and filtration and water systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 5,
+        "categories": 4,
+        "families": 27
       }
     },
     {

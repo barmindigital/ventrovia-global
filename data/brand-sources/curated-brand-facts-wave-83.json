@@ -1,69 +1,14 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "gts",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "GTS is used by several unrelated active industrial manufacturers, including transformer, test-system, grinding-technology and sealing businesses. The queue identity contains no legal-name, country or product-scope discriminator.",
-      "attemptedUrls": ["https://www.gts-srl.it/", "https://www.gts-online.net/", "https://www.gtsgrinding.eu/"]
-    },
-    {
-      "manufacturerId": "gunther",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "GUNTHER can refer to unrelated current manufacturers, including Günther temperature-sensing products and Günther food-processing machinery. The raw identity provides no safe discriminator.",
-      "attemptedUrls": ["https://www.guenther.eu/", "https://www.guenther-maschinenbau.de/en/"]
-    },
-    {
-      "manufacturerId": "gutekunst",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Gutekunst Federn and Gutekunst Formfedern are separate active German spring manufacturers with distinct official domains and product scopes. The undifferentiated record cannot be assigned automatically.",
-      "attemptedUrls": ["https://www.gutekunst-net.de/en/", "https://www.gutekunst-formfedern.de/en/"]
-    },
-    {
-      "manufacturerId": "halberg",
-      "status": "LEGACY_SOURCE_INSUFFICIENT",
-      "checkedAt": "2026-08-24",
-      "reason": "HALBERG is plausibly a historical pump identity associated with KSB, but no explicit current manufacturer-owned page was found that safely resolves this record and its product scope.",
-      "attemptedUrls": ["https://www.ksb.com/"]
-    },
-    {
-      "manufacturerId": "halco",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "HALCO is shared by unrelated current manufacturers, including Halco Rock Tools and Halco USA fastening products. The queue record lacks a country or product-scope discriminator.",
-      "attemptedUrls": ["https://halco.uk/", "https://halcousa.com/"]
-    },
-    {
-      "manufacturerId": "hammond",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Hammond Manufacturing and Hammond Power Solutions are distinct current manufacturers of different product ranges. The raw HAMMOND identity cannot safely select one official domain.",
-      "attemptedUrls": ["https://www.hammfg.com/", "https://www.hammondpowersolutions.com/"]
-    },
-    {
-      "manufacturerId": "haug",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "HAUG is used by unrelated current industrial businesses, including ionisation equipment and compressor or machinery companies. The raw record contains no product or legal-entity discriminator.",
-      "attemptedUrls": ["https://www.haug.de/en/", "https://www.haug.ch/en/"]
-    },
-    {
-      "manufacturerId": "hcr-heinrich-cremer",
-      "status": "LEGACY_SOURCE_INSUFFICIENT",
-      "checkedAt": "2026-08-24",
-      "reason": "The former HCR Heinrich Cremer range is referenced by a current spare-parts provider, but no authoritative current manufacturer or explicit parent-company page establishes a publishable legacy identity and scope.",
-      "attemptedUrls": ["https://www.hcr.de/"]
-    },
-    {
-      "manufacturerId": "helios",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "HELIOS is used by multiple unrelated active manufacturers. Helios Ventilatoren is a strong candidate, but the queue identity has no product-scope or legal-name discriminator sufficient for automatic publication.",
-      "attemptedUrls": ["https://www.heliosventilatoren.de/en/", "https://www.helios-heaters.com/"]
-    }
+    {"manufacturerId":"gts","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"GTS is used by several unrelated active industrial manufacturers, including transformer, test-system, grinding-technology and sealing businesses. The queue identity contains no legal-name, country or product-scope discriminator.","attemptedUrls":["https://www.gts-srl.it/","https://www.gts-online.net/","https://www.gtsgrinding.eu/"]},
+    {"manufacturerId":"gunther","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"GUNTHER can refer to unrelated current manufacturers, including Günther temperature-sensing products and Günther food-processing machinery. The raw identity provides no safe discriminator.","attemptedUrls":["https://www.guenther.eu/","https://www.guenther-maschinenbau.de/en/"]},
+    {"manufacturerId":"gutekunst","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Gutekunst Federn and Gutekunst Formfedern are separate active German spring manufacturers with distinct official domains and product scopes. The undifferentiated record cannot be assigned automatically.","attemptedUrls":["https://www.gutekunst-net.de/en/","https://www.gutekunst-formfedern.de/en/"]},
+    {"manufacturerId":"halco","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"HALCO is shared by unrelated current manufacturers, including Halco Rock Tools and Halco USA fastening products. The queue record lacks a country or product-scope discriminator.","attemptedUrls":["https://halco.uk/","https://halcousa.com/"]},
+    {"manufacturerId":"hammond","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"Hammond Manufacturing and Hammond Power Solutions are distinct current manufacturers of different product ranges. The raw HAMMOND identity cannot safely select one official domain.","attemptedUrls":["https://www.hammfg.com/","https://www.hammondpowersolutions.com/"]},
+    {"manufacturerId":"haug","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"HAUG is used by unrelated current industrial businesses, including ionisation equipment and compressor or machinery companies. The raw record contains no product or legal-entity discriminator.","attemptedUrls":["https://www.haug.de/en/","https://www.haug.ch/en/"]},
+    {"manufacturerId":"hcr-heinrich-cremer","status":"LEGACY_SOURCE_INSUFFICIENT","checkedAt":"2026-08-24","reason":"The former HCR Heinrich Cremer range is referenced by a current spare-parts provider, but no authoritative current manufacturer or explicit parent-company page establishes a publishable legacy identity and scope.","attemptedUrls":["https://www.hcr.de/"]},
+    {"manufacturerId":"helios","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"HELIOS is used by multiple unrelated active manufacturers. Helios Ventilatoren is a strong candidate, but the queue identity has no product-scope or legal-name discriminator sufficient for automatic publication.","attemptedUrls":["https://www.heliosventilatoren.de/en/","https://www.helios-heaters.com/"]}
   ],
   "profiles": [
     {
