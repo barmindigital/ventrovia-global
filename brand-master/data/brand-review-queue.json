@@ -1,47 +1,47 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 335,
+  "totalReview": 308,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "count": 253,
-      "share": 0.7552
+      "count": 226,
+      "share": 0.7338
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
       "count": 44,
-      "share": 0.1313
+      "share": 0.1429
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
       "count": 14,
-      "share": 0.0418
+      "share": 0.0455
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
       "count": 11,
-      "share": 0.0328
+      "share": 0.0357
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 5,
-      "share": 0.0149
+      "share": 0.0162
     },
     {
       "blockerCategory": "POSSIBLE_DUPLICATE",
       "count": 5,
-      "share": 0.0149
+      "share": 0.0162
     },
     {
       "blockerCategory": "OTHER",
       "count": 2,
-      "share": 0.006
+      "share": 0.0065
     },
     {
       "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
       "count": 1,
-      "share": 0.003
+      "share": 0.0032
     }
   ],
   "fastReviewCandidates": [
@@ -452,18 +452,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "prisma",
-      "displayName": "PRISMA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "PRISMA is a generic name used by unrelated manufacturers; the local identity record has no alias, product discriminator or independent source that proves one specific entity.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "andritz-gouda",
       "displayName": "ANDRITZ",
       "aliases": [],
@@ -713,22 +701,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "itec",
-      "displayName": "ITEC",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "ITEC is a generic acronym used by multiple manufacturers in different industrial sectors; no canonical product scope or independent identity signal is present in the queue record.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.itec.de/",
-        "https://www.itec-ltd.co.uk/",
-        "https://www.itec.co.jp/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "arttech",
       "displayName": "ARTTECH",
       "aliases": [],
@@ -830,21 +802,6 @@
         "https://pelikan-z.cz/"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "valvola",
-      "displayName": "VALVOLA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "VALVOLA is the Italian generic word for valve and does not resolve to a uniquely identifiable manufacturer. Search discovery returned multiple unrelated valve companies without an identity discriminator in the repository record.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.audco.it/en/",
-        "https://www.valv.com/"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "filu-filter",
@@ -1573,18 +1530,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "charlotte",
-      "displayName": "CHARLOTTE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "CHARLOTTE is a generic name used by multiple companies and brands. No queue-level discriminator ties it unambiguously to one manufacturer-owned source.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "chemineer",
       "displayName": "CHEMINEER",
       "aliases": [],
@@ -1753,20 +1698,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "crystal",
-      "displayName": "CRYSTAL",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "CRYSTAL is a generic name used by multiple instrumentation, electronics and industrial manufacturers. The raw record provides no authoritative discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=CRYSTAL+industrial+instrumentation+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "csf",
       "displayName": "CSF",
       "aliases": [],
@@ -1927,18 +1858,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "east-ind",
-      "displayName": "EAST",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "EAST is a generic name used by multiple unrelated industrial businesses. The queue record provides no discriminator that safely identifies one manufacturer-owned source.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "ecco",
       "displayName": "ECCO",
       "aliases": [],
@@ -1975,18 +1894,6 @@
       "blockerCode": "AMBIGUOUS_IDENTITY",
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "reason": "ECONEX is shared by multiple unrelated manufacturers and technology businesses. No queue-level discriminator establishes one canonical industrial entity.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "ecotech",
-      "displayName": "ECOTECH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "ECOTECH is a generic name used by several unrelated environmental and industrial-equipment companies. A unique manufacturer identity cannot be established from the queue record.",
       "detail": null,
       "attemptedUrls": [],
       "effortClass": "EXPENSIVE"
@@ -2034,18 +1941,6 @@
         "https://www.regalbeloit.com/"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "elektra",
-      "displayName": "ELEKTRA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "ELEKTRA is a generic name shared by unrelated electrical, heating and industrial businesses. The raw identity cannot be assigned to one manufacturer-owned domain safely.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "elma",
@@ -2266,22 +2161,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "fluid-systems",
-      "displayName": "FLUID SYSTEMS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "FLUID SYSTEMS is a generic name used by unrelated solids-control, hydronic-equipment, automotive and membrane businesses. No source-backed discriminator selects one manufacturer.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://fluidsystems.com/",
-        "https://fluid-systems.com/",
-        "https://tifluidsystems.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "fms",
       "displayName": "FMS",
       "aliases": [],
@@ -2293,18 +2172,6 @@
       "attemptedUrls": [
         "https://www.fms-technology.com/en/"
       ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "four-star",
-      "displayName": "FOUR-STAR",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "Four Star is a generic name shared by unrelated businesses. The queue record has no product or corporate discriminator that can establish one manufacturer-owned source safely.",
-      "detail": null,
-      "attemptedUrls": [],
       "effortClass": "EXPENSIVE"
     },
     {
@@ -2336,18 +2203,6 @@
         "https://fubag.ru/"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "galvi",
-      "displayName": "GALVI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "Galvi is a short generic name used in unrelated industrial and materials contexts. No queue-level discriminator resolves the intended manufacturer-owned identity.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "general-electric",
@@ -2637,22 +2492,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "hitech",
-      "displayName": "HITECH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "Hitech is a generic name shared by unrelated manufacturers in packaging, instrumentation, machine tooling and materials. No queue-level evidence resolves the intended entity.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.hitechtech.com/",
-        "https://www.hitechgroup.com/",
-        "https://www.hitechresins.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "hubner",
       "displayName": "HUBNER",
       "aliases": [],
@@ -2769,20 +2608,6 @@
         "https://www.google.com/search?q=Innovari+energy+official+company"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "innova-systems",
-      "displayName": "INNOVASYSTEMS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "Innova Systems is a generic name shared by unrelated software, engineering, security and equipment companies. The repository record has no authoritative discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Innova+Systems%22+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "inotec",
@@ -3112,20 +2937,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "matrix",
-      "displayName": "MATRIX",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "MATRIX is a generic name shared by many unrelated manufacturers across automation, machine tools, valves, fitness equipment and other sectors. The repository identity has no reliable discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=MATRIX+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "maxseal",
       "displayName": "MAXSEAL",
       "aliases": [],
@@ -3273,20 +3084,6 @@
         "https://www.morganadvancedmaterials.com/en-gb/what-we-do/businesses/"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "motor-power",
-      "displayName": "MOTOR POWER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "MOTOR POWER is a generic name used by multiple unrelated motor, repair and power-equipment businesses. The repository identity lacks a legal-name, domain or product-scope discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Motor+Power%22+industrial+motors+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "motorola",
@@ -3754,20 +3551,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "psi",
-      "displayName": "PSI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "PSI is a generic acronym used by multiple unrelated industrial software, process-equipment and engineering companies. The record has no product, legal-name or geography discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=PSI+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "purex",
       "displayName": "PUREX",
       "aliases": [],
@@ -3807,20 +3590,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.google.com/search?q=QUADRO+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "quick-tech",
-      "displayName": "QUICK TECH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "QUICK TECH is a generic name shared by unrelated machinery, electronics and service businesses. No official-domain, geography or product discriminator exists in the repository record.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Quick+Tech%22+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
     },
@@ -3880,20 +3649,6 @@
       "attemptedUrls": [
         "https://www.rehm-group.com/",
         "https://www.rehm-online.de/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "revo",
-      "displayName": "REVO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "REVO is a generic name used by multiple unrelated businesses and also by industrial product series. No first-party evidence connects the bare repository record to one canonical manufacturer.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=REVO+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
     },
@@ -4026,20 +3781,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "saip",
-      "displayName": "SAIP",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "SAIP is a short acronym used by unrelated industrial entities. Although a polyurethane-equipment company was found, the bare registry record has no legal-name, geography or product-scope discriminator that proves this is the intended manufacturer.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.saipequipment.com/en/home-en/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "salmson",
       "displayName": "SALMSON",
       "aliases": [],
@@ -4052,20 +3793,6 @@
         "https://wilo.com/"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "sami",
-      "displayName": "SAMI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "SAMI is a generic name and acronym shared by unrelated current businesses. The registry record contains no domain, legal-name, geography or product-scope discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=SAMI+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "samil-industry",
@@ -4285,20 +4012,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "sino",
-      "displayName": "SINO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "SINO is a generic name used by unrelated industrial manufacturers and product brands. The repository record has no legal name, product scope or geography discriminator needed to select one official domain safely.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=SINO+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "sks-sensors",
       "displayName": "SKS SENSORS",
       "aliases": [],
@@ -4429,20 +4142,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "stem",
-      "displayName": "STEM",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "STEM is a generic word and acronym used by unrelated organizations and product businesses. No domain, legal name, geography or industrial scope in the registry record identifies one manufacturer.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=STEM+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "stoz",
       "displayName": "STOZ",
       "aliases": [],
@@ -4499,20 +4198,6 @@
         "https://royalmfg.com/wp-content/uploads/2020/07/Grease-Brochure-4-CATEGORIES-FR28-PRINTER-1.pdf"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "swan",
-      "displayName": "SWAN",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "SWAN is a generic name shared by unrelated current industrial, analytical-instrument and consumer businesses. The registry record has no domain, legal name, geography or product-scope discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=SWAN+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "soderhamn",
@@ -4793,20 +4478,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "ttv",
-      "displayName": "TTV",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "TTV is a short acronym used by multiple unrelated industrial businesses. The registry record does not provide a legal name, domain or product-scope discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=TTV+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "turbo-controls",
       "displayName": "TURBO CONTROLS",
       "aliases": [],
@@ -4895,20 +4566,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "uas",
-      "displayName": "UAS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "UAS is a generic acronym used by unrelated industrial organizations. The registry record contains no legal-name, domain, geography or product-scope discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=UAS+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "ultrafilter",
       "displayName": "ULTRAFILTER",
       "aliases": [],
@@ -4936,20 +4593,6 @@
         "https://www.alkegen.com/"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "united-pumps",
-      "displayName": "UNITED PUMPS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "UNITED PUMPS is a generic name used by multiple pump companies and historical product references. No unique current manufacturer-owned identity was established.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22United+Pumps%22+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "unitek",
@@ -5048,21 +4691,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.google.com/search?q=VERDI+industrial+manufacturer+official"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "vti",
-      "displayName": "VTI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "VTI is a generic acronym used by unrelated industrial companies. The registry record does not provide a legal name, domain, geography or product-scope discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.vti.de/",
-        "https://www.google.com/search?q=VTI+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
     },

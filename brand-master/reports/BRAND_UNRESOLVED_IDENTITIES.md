@@ -2,19 +2,19 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-This report classifies all 335 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
+This report classifies all 308 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
 
 ## Pareto by blocker
 
 | Blocker category | Records | Share |
 | --- | ---: | ---: |
-| AMBIGUOUS_IDENTITY | 253 | 75.5% |
-| ACQUISITION_OR_LEGACY | 44 | 13.1% |
-| SOURCE_ACCESS_BLOCKED | 14 | 4.2% |
-| OFFICIAL_SOURCE_NOT_ESTABLISHED | 11 | 3.3% |
-| NOT_MANUFACTURER_OR_SCOPE_MISMATCH | 5 | 1.5% |
-| POSSIBLE_DUPLICATE | 5 | 1.5% |
-| OTHER | 2 | 0.6% |
+| AMBIGUOUS_IDENTITY | 226 | 73.4% |
+| ACQUISITION_OR_LEGACY | 44 | 14.3% |
+| SOURCE_ACCESS_BLOCKED | 14 | 4.5% |
+| OFFICIAL_SOURCE_NOT_ESTABLISHED | 11 | 3.6% |
+| NOT_MANUFACTURER_OR_SCOPE_MISMATCH | 5 | 1.6% |
+| POSSIBLE_DUPLICATE | 5 | 1.6% |
+| OTHER | 2 | 0.7% |
 | INSUFFICIENT_PRODUCT_SCOPE | 1 | 0.3% |
 
 ## Bounded-research queue

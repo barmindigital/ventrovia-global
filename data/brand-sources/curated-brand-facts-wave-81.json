@@ -1,34 +1,8 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "four-star",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Four Star is a generic name shared by unrelated businesses. The queue record has no product or corporate discriminator that can establish one manufacturer-owned source safely.",
-      "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "frymakoruma",
-      "status": "BLOCKED_LEGACY_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Romaco is the plausible current corporate owner, but the accessible current official pages did not provide a brand-specific FrymaKoruma identity and product page sufficient for publication under the strict gate.",
-      "attemptedUrls": ["https://www.romaco.com/", "https://www.romaco.com/about-us"]
-    },
-    {
-      "manufacturerId": "fubag",
-      "status": "BLOCKED_IDENTITY_SCOPE",
-      "checkedAt": "2026-08-24",
-      "reason": "FUBAG-branded commercial sites expose products but do not clearly establish a manufacturer-owned corporate identity or legal manufacturing entity suitable for Tier A verification.",
-      "attemptedUrls": ["https://www.fubag.com/", "https://fubag.ru/"]
-    },
-    {
-      "manufacturerId": "galvi",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "Galvi is a short generic name used in unrelated industrial and materials contexts. No queue-level discriminator resolves the intended manufacturer-owned identity.",
-      "attemptedUrls": []
-    }
+    {"manufacturerId":"frymakoruma","status":"BLOCKED_LEGACY_IDENTITY","checkedAt":"2026-08-24","reason":"Romaco is the plausible current corporate owner, but the accessible current official pages did not provide a brand-specific FrymaKoruma identity and product page sufficient for publication under the strict gate.","attemptedUrls":["https://www.romaco.com/","https://www.romaco.com/about-us"]},
+    {"manufacturerId":"fubag","status":"BLOCKED_IDENTITY_SCOPE","checkedAt":"2026-08-24","reason":"FUBAG-branded commercial sites expose products but do not clearly establish a manufacturer-owned corporate identity or legal manufacturing entity suitable for Tier A verification.","attemptedUrls":["https://www.fubag.com/","https://fubag.ru/"]}
   ],
   "profiles": [
     {

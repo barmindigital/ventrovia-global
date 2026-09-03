@@ -1,132 +1,21 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "trotec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TROTEC is used by unrelated current manufacturers in climate and measurement equipment and laser-processing systems. The bare registry record has no legal name, geography or product-scope discriminator.",
-      "attemptedUrls": ["https://www.trotec.com/", "https://www.troteclaser.com/"]
-    },
-    {
-      "manufacturerId": "ttv",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TTV is a short acronym used by multiple unrelated industrial businesses. The registry record does not provide a legal name, domain or product-scope discriminator.",
-      "attemptedUrls": ["https://www.google.com/search?q=TTV+industrial+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "turbo-controls",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "No current manufacturer-owned HTTPS source could be tied unambiguously to the bare TURBO CONTROLS identity and a specific product scope.",
-      "attemptedUrls": ["https://www.google.com/search?q=%22Turbo+Controls%22+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "turbo-srl",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TURBO SRL is a generic legal-style name shared by unrelated Italian companies. The registry record lacks geography and product-scope evidence needed to select one entity.",
-      "attemptedUrls": ["https://www.google.com/search?q=%22Turbo+Srl%22+industrial+manufacturer"]
-    },
-    {
-      "manufacturerId": "turn-act",
-      "status": "LEGACY_IDENTITY_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "TURN-ACT appears in historical actuator references associated with Compact Automation and ITT Enidine, but no current manufacturer-owned brand page was available to establish a standalone current identity.",
-      "attemptedUrls": ["https://www.itt.com/", "https://www.enidine.com/"]
-    },
-    {
-      "manufacturerId": "turolla",
-      "status": "ACQUIRED_BRAND_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "TUROLLA has acquisition and ownership history connected with Danfoss and Sauer-Danfoss. A standalone current manufacturer identity could not be established without risking a canonical duplicate.",
-      "attemptedUrls": ["https://www.danfoss.com/", "https://www.google.com/search?q=Turolla+official+manufacturer"]
-    },
-    {
-      "manufacturerId": "tuthill",
-      "status": "LEGACY_IDENTITY_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "The former Tuthill corporation divested multiple industrial businesses to different owners. The bare TUTHILL record does not identify a surviving product business or current canonical manufacturer.",
-      "attemptedUrls": ["https://www.tuthill.com/", "https://www.ingersollrand.com/"]
-    },
-    {
-      "manufacturerId": "tyco",
-      "status": "AMBIGUOUS_ACQUIRED_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "TYCO is a former corporate identity whose businesses now span multiple owners and continuing commercial brands. The bare record cannot be assigned safely to one current manufacturer.",
-      "attemptedUrls": ["https://www.johnsoncontrols.com/", "https://www.te.com/"]
-    },
-    {
-      "manufacturerId": "uas",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "UAS is a generic acronym used by unrelated industrial organizations. The registry record contains no legal-name, domain, geography or product-scope discriminator.",
-      "attemptedUrls": ["https://www.google.com/search?q=UAS+industrial+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "ultrafilter",
-      "status": "AMBIGUOUS_ACQUIRED_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "ULTRAFILTER is both a generic filtration term and a historical compressed-air filtration brand associated with corporate ownership changes. The bare record is insufficient for a unique current identity.",
-      "attemptedUrls": ["https://www.donaldson.com/", "https://www.google.com/search?q=Ultrafilter+compressed+air+official"]
-    },
-    {
-      "manufacturerId": "unifrax",
-      "status": "LEGACY_IDENTITY_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "UNIFRAX was combined into the current Alkegen identity. Publishing a new standalone manufacturer profile would risk a stale legacy identity and canonical duplication.",
-      "attemptedUrls": ["https://www.alkegen.com/"]
-    },
-    {
-      "manufacturerId": "united-pumps",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "UNITED PUMPS is a generic name used by multiple pump companies and historical product references. No unique current manufacturer-owned identity was established.",
-      "attemptedUrls": ["https://www.google.com/search?q=%22United+Pumps%22+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "unitek",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "UNITEK is shared by unrelated electronics, welding, automation and machinery companies. The registry record lacks the discriminator needed to select one manufacturer.",
-      "attemptedUrls": ["https://www.google.com/search?q=UNITEK+industrial+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "val-co-",
-      "status": "LEGACY_IDENTITY_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "The registry label identifies Val.Co as a GHM Group member, while the official group history states that Val.Co and other GHM brands were merged under Senseca. A standalone current profile would duplicate the successor identity.",
-      "attemptedUrls": ["https://environmental.senseca.com/ghm-group/", "https://www.senseca.com/"]
-    },
-    {
-      "manufacturerId": "valtec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "VALTEC is used by unrelated valve, plumbing, automation and electronics businesses. The bare registry identity has no legal-name or product-scope discriminator.",
-      "attemptedUrls": ["https://www.google.com/search?q=VALTEC+industrial+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "vama",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "VAMA is shared by unrelated industrial and commercial companies. The registry record has no legal name, geography or official-domain evidence that resolves the identity.",
-      "attemptedUrls": ["https://www.google.com/search?q=VAMA+industrial+manufacturer+official"]
-    },
-    {
-      "manufacturerId": "vela-stm-s-p-a",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "No current manufacturer-owned HTTPS source could be tied conclusively to the exact VELA STM S.P.A registry identity and its product scope.",
-      "attemptedUrls": ["https://www.google.com/search?q=%22VELA+STM+S.p.A.%22"]
-    },
-    {
-      "manufacturerId": "ventilex-drygenic",
-      "status": "PRODUCT_LINE_CANONICAL_REVIEW",
-      "checkedAt": "2026-08-24",
-      "reason": "The official Ventilex site identifies DryGenic as an air-dehumidifier product family, not a standalone manufacturer. Publishing the combined label would create a product-line manufacturer page.",
-      "attemptedUrls": ["https://www.ventilex.com/", "https://www.ventilex.com/wp-content/uploads/General-brochure-Ventilex-DryGenic-Air-Dehumidifier-V3.pdf"]
-    }
+    {"manufacturerId":"trotec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TROTEC is used by unrelated current manufacturers in climate and measurement equipment and laser-processing systems. The bare registry record has no legal name, geography or product-scope discriminator.","attemptedUrls":["https://www.trotec.com/","https://www.troteclaser.com/"]},
+    {"manufacturerId":"turbo-controls","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"No current manufacturer-owned HTTPS source could be tied unambiguously to the bare TURBO CONTROLS identity and a specific product scope.","attemptedUrls":["https://www.google.com/search?q=%22Turbo+Controls%22+manufacturer+official"]},
+    {"manufacturerId":"turbo-srl","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"TURBO SRL is a generic legal-style name shared by unrelated Italian companies. The registry record lacks geography and product-scope evidence needed to select one entity.","attemptedUrls":["https://www.google.com/search?q=%22Turbo+Srl%22+industrial+manufacturer"]},
+    {"manufacturerId":"turn-act","status":"LEGACY_IDENTITY_REVIEW","checkedAt":"2026-08-24","reason":"TURN-ACT appears in historical actuator references associated with Compact Automation and ITT Enidine, but no current manufacturer-owned brand page was available to establish a standalone current identity.","attemptedUrls":["https://www.itt.com/","https://www.enidine.com/"]},
+    {"manufacturerId":"turolla","status":"ACQUIRED_BRAND_REVIEW","checkedAt":"2026-08-24","reason":"TUROLLA has acquisition and ownership history connected with Danfoss and Sauer-Danfoss. A standalone current manufacturer identity could not be established without risking a canonical duplicate.","attemptedUrls":["https://www.danfoss.com/","https://www.google.com/search?q=Turolla+official+manufacturer"]},
+    {"manufacturerId":"tuthill","status":"LEGACY_IDENTITY_REVIEW","checkedAt":"2026-08-24","reason":"The former Tuthill corporation divested multiple industrial businesses to different owners. The bare TUTHILL record does not identify a surviving product business or current canonical manufacturer.","attemptedUrls":["https://www.tuthill.com/","https://www.ingersollrand.com/"]},
+    {"manufacturerId":"tyco","status":"AMBIGUOUS_ACQUIRED_IDENTITY","checkedAt":"2026-08-24","reason":"TYCO is a former corporate identity whose businesses now span multiple owners and continuing commercial brands. The bare record cannot be assigned safely to one current manufacturer.","attemptedUrls":["https://www.johnsoncontrols.com/","https://www.te.com/"]},
+    {"manufacturerId":"ultrafilter","status":"AMBIGUOUS_ACQUIRED_IDENTITY","checkedAt":"2026-08-24","reason":"ULTRAFILTER is both a generic filtration term and a historical compressed-air filtration brand associated with corporate ownership changes. The bare record is insufficient for a unique current identity.","attemptedUrls":["https://www.donaldson.com/","https://www.google.com/search?q=Ultrafilter+compressed+air+official"]},
+    {"manufacturerId":"unifrax","status":"LEGACY_IDENTITY_REVIEW","checkedAt":"2026-08-24","reason":"UNIFRAX was combined into the current Alkegen identity. Publishing a new standalone manufacturer profile would risk a stale legacy identity and canonical duplication.","attemptedUrls":["https://www.alkegen.com/"]},
+    {"manufacturerId":"unitek","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"UNITEK is shared by unrelated electronics, welding, automation and machinery companies. The registry record lacks the discriminator needed to select one manufacturer.","attemptedUrls":["https://www.google.com/search?q=UNITEK+industrial+manufacturer+official"]},
+    {"manufacturerId":"val-co-","status":"LEGACY_IDENTITY_REVIEW","checkedAt":"2026-08-24","reason":"The registry label identifies Val.Co as a GHM Group member, while the official group history states that Val.Co and other GHM brands were merged under Senseca. A standalone current profile would duplicate the successor identity.","attemptedUrls":["https://environmental.senseca.com/ghm-group/","https://www.senseca.com/"]},
+    {"manufacturerId":"valtec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"VALTEC is used by unrelated valve, plumbing, automation and electronics businesses. The bare registry identity has no legal-name or product-scope discriminator.","attemptedUrls":["https://www.google.com/search?q=VALTEC+industrial+manufacturer+official"]},
+    {"manufacturerId":"vama","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"VAMA is shared by unrelated industrial and commercial companies. The registry record has no legal name, geography or official-domain evidence that resolves the identity.","attemptedUrls":["https://www.google.com/search?q=VAMA+industrial+manufacturer+official"]},
+    {"manufacturerId":"vela-stm-s-p-a","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"No current manufacturer-owned HTTPS source could be tied conclusively to the exact VELA STM S.P.A registry identity and its product scope.","attemptedUrls":["https://www.google.com/search?q=%22VELA+STM+S.p.A.%22"]},
+    {"manufacturerId":"ventilex-drygenic","status":"PRODUCT_LINE_CANONICAL_REVIEW","checkedAt":"2026-08-24","reason":"The official Ventilex site identifies DryGenic as an air-dehumidifier product family, not a standalone manufacturer. Publishing the combined label would create a product-line manufacturer page.","attemptedUrls":["https://www.ventilex.com/","https://www.ventilex.com/wp-content/uploads/General-brochure-Ventilex-DryGenic-Air-Dehumidifier-V3.pdf"]}
   ],
   "profiles": [
     {

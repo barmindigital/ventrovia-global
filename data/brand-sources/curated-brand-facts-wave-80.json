@@ -1,55 +1,12 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "fas",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FAS is used by several unrelated active manufacturers, including lifting-equipment, aquaculture and conveying, vending-machine, foundry and fire-protection businesses. The queue identity contains no legal-name, country or product-scope discriminator.",
-      "attemptedUrls": ["https://www.fasitaly.com/", "https://fas.vr.it/", "https://www.fas.it/it/", "https://www.fasspa.net/en/"]
-    },
-    {
-      "manufacturerId": "fema",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FEMA is shared by unrelated current industrial manufacturers in electro-hydraulics, instrumentation and power-transmission equipment. The raw identity cannot safely select one official domain.",
-      "attemptedUrls": ["https://www.fema-corp.com/", "https://www.fema.es/index-en", "https://fema-group.com/en/"]
-    },
-    {
-      "manufacturerId": "fib",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FIB is a generic abbreviation used by multiple unrelated companies and industry organizations. No authoritative repository discriminator establishes a single manufacturer identity.",
-      "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "filtron",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FILTRON is used by unrelated current filtration and process-equipment manufacturers in several countries. The undifferentiated record cannot be assigned safely to the MANN+HUMMEL automotive brand or another Filtron business.",
-      "attemptedUrls": ["https://filtron.eu/en.html?changeLang=1", "https://www.filtronsrl.com.ar/", "https://www.filtronindia.com/"]
-    },
-    {
-      "manufacturerId": "firestone",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FIRESTONE can refer to distinct current tyre, industrial air-spring and building-products identities. The queue record has no legal-name or product-scope discriminator.",
-      "attemptedUrls": ["https://www.firestone.com/", "https://www.firestoneairide.com/", "https://www.holcimelevate.com/brands/firestone"]
-    },
-    {
-      "manufacturerId": "fluid-systems",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FLUID SYSTEMS is a generic name used by unrelated solids-control, hydronic-equipment, automotive and membrane businesses. No source-backed discriminator selects one manufacturer.",
-      "attemptedUrls": ["https://fluidsystems.com/", "https://fluid-systems.com/", "https://tifluidsystems.com/"]
-    },
-    {
-      "manufacturerId": "fms",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "FMS is a short generic abbreviation used by multiple industrial companies. Although FMS Force Measuring Systems is a plausible candidate, the raw record does not provide a legal-name or product-scope discriminator sufficient for automatic publication.",
-      "attemptedUrls": ["https://www.fms-technology.com/en/"]
-    }
+    {"manufacturerId":"fas","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"FAS is used by several unrelated active manufacturers, including lifting-equipment, aquaculture and conveying, vending-machine, foundry and fire-protection businesses. The queue identity contains no legal-name, country or product-scope discriminator.","attemptedUrls":["https://www.fasitaly.com/","https://fas.vr.it/","https://www.fas.it/it/","https://www.fasspa.net/en/"]},
+    {"manufacturerId":"fema","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"FEMA is shared by unrelated current industrial manufacturers in electro-hydraulics, instrumentation and power-transmission equipment. The raw identity cannot safely select one official domain.","attemptedUrls":["https://www.fema-corp.com/","https://www.fema.es/index-en","https://fema-group.com/en/"]},
+    {"manufacturerId":"fib","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"FIB is a generic abbreviation used by multiple unrelated companies and industry organizations. No authoritative repository discriminator establishes a single manufacturer identity.","attemptedUrls":[]},
+    {"manufacturerId":"filtron","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"FILTRON is used by unrelated current filtration and process-equipment manufacturers in several countries. The undifferentiated record cannot be assigned safely to the MANN+HUMMEL automotive brand or another Filtron business.","attemptedUrls":["https://filtron.eu/en.html?changeLang=1","https://www.filtronsrl.com.ar/","https://www.filtronindia.com/"]},
+    {"manufacturerId":"firestone","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"FIRESTONE can refer to distinct current tyre, industrial air-spring and building-products identities. The queue record has no legal-name or product-scope discriminator.","attemptedUrls":["https://www.firestone.com/","https://www.firestoneairide.com/","https://www.holcimelevate.com/brands/firestone"]},
+    {"manufacturerId":"fms","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"FMS is a short generic abbreviation used by multiple industrial companies. Although FMS Force Measuring Systems is a plausible candidate, the raw record does not provide a legal-name or product-scope discriminator sufficient for automatic publication.","attemptedUrls":["https://www.fms-technology.com/en/"]}
   ],
   "profiles": [
     {
