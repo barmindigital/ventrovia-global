@@ -35,11 +35,14 @@ const rawBlockedIdentities = sourceBatches.flatMap((batch) => batch.blockedIdent
 const duplicateValues = (values) => [
   ...new Set(values.filter((value, index) => values.indexOf(value) !== index)),
 ];
+// Keeps letters of any script, not just a-z: stripping Cyrillic collapsed every
+// Russian legal name to the empty string, so two unrelated companies named only in
+// Russian registered as the same identity. Punctuation and spacing still go.
 const normalizeIdentity = (value) => value
   .normalize("NFKD")
   .replace(/\p{Diacritic}/gu, "")
   .toLocaleLowerCase("en")
-  .replace(/[^a-z0-9]+/gu, "");
+  .replace(/[^\p{Letter}\p{Number}]+/gu, "");
 const duplicateProfiles = duplicateValues(rawProfiles.map((profile) => profile.manufacturerId));
 const duplicateDisplayNames = duplicateValues(
   rawProfiles.map((profile) => profile.displayName.trim().toLocaleLowerCase("en")),

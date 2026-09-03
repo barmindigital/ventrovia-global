@@ -1,47 +1,47 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 369,
+  "totalReview": 356,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "count": 267,
-      "share": 0.7236
+      "share": 0.75
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
       "count": 46,
-      "share": 0.1247
+      "share": 0.1292
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "count": 27,
-      "share": 0.0732
+      "count": 17,
+      "share": 0.0478
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "count": 13,
-      "share": 0.0352
+      "count": 12,
+      "share": 0.0337
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 5,
-      "share": 0.0136
+      "share": 0.014
     },
     {
       "blockerCategory": "POSSIBLE_DUPLICATE",
       "count": 5,
-      "share": 0.0136
+      "share": 0.014
     },
     {
       "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "count": 4,
-      "share": 0.0108
+      "count": 2,
+      "share": 0.0056
     },
     {
       "blockerCategory": "OTHER",
       "count": 2,
-      "share": 0.0054
+      "share": 0.0056
     }
   ],
   "fastReviewCandidates": [
@@ -58,30 +58,6 @@
         "https://pragatimachines.com/",
         "https://pragati-automation.com/"
       ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "specken-drumag",
-      "displayName": "SPECKEN DRUMAG GMBH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "reason": "Only secondary company material was accessible for SPECKEN-DRUMAG; no current manufacturer-owned identity and product source was verified.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "urlinski",
-      "displayName": "URLINSKI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "INSUFFICIENT_OFFICIAL_EVIDENCE",
-      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
-      "detail": "Targeted discovery did not produce an accessible first-party product source sufficient for publication.",
-      "attemptedUrls": [],
       "effortClass": "NORMAL"
     },
     {
@@ -232,18 +208,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "jaron-technologies",
-      "displayName": "JARON TECHNOLOGIES",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "No reachable manufacturer-owned domain or explicit current parent-company source was found for Jaron Technologies. Secondary directory and resale references do not satisfy the identity gate.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "lambert-motors",
       "displayName": "LAMBERT MOTORS",
       "aliases": [],
@@ -314,21 +278,6 @@
       "attemptedUrls": [
         "https://mink-buersten.com/en/",
         "https://mink-buersten.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "moeller-eaton",
-      "displayName": "MOELLER ELECTRIC (EATON)",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The official Eaton Moeller HTTPS product page did not complete a normal release-verifier request and timed out. The series identity is clear, but unavailable evidence is not promoted automatically.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.eaton.com/us/en-us/catalog/industrial-control--drives--automation---sensors/dil-contactors.html",
-        "https://www.eaton.com/us/en-us/products/controls-drives-automation-sensors.html"
       ],
       "effortClass": "NORMAL"
     },
@@ -409,35 +358,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "rs-seliger",
-      "displayName": "ROMAN SELIGER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The official Roman Seliger site did not complete an HTTPS response during release verification. No reseller source was promoted in its place.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.rs-seliger.de/en/",
-        "https://www.rs-seliger.de/en/products/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "roots",
-      "displayName": "ROOTS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The current ROOTS manufacturer site returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was used for publication.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.rootsblower.com/en/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "rosati-fratelli",
       "displayName": "ROSATI FRATELLI",
       "aliases": [],
@@ -467,65 +387,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "samoa",
-      "displayName": "SAMOA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "SAMOA Industrial's official product pages returned HTTP 403 during release verification. The restriction was respected and cached search text was not promoted to AVAILABLE evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.samoaindustrial.com/en/web/usa/products",
-        "https://www.samoaindustrial.com/en/g/lubrication-equipment"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "schaffner",
-      "displayName": "SCHAFFNER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Schaffner's current official TE Connectivity brand and product pages returned HTTP 403 during release verification. Cached snippets were not used as AVAILABLE publication evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.te.com/en/products/brands/schaffner.html",
-        "https://www.te.com/en/products/emi-and-emc-solutions/emc-filters/power-line-filters.html"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "schlick",
-      "displayName": "SCHLICK",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The apparent manufacturer-owned SCHLICK nozzle site returned an HTTPS edge error during repeated verification, so identity and product scope could not be released safely.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.duesen-schlick.com/en/",
-        "https://www.duesen-schlick.com/en/products/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "seagate",
-      "displayName": "SEAGATE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Seagate's official product directory returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was substituted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.seagate.com/products/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "smedegaard",
       "displayName": "SMEDEGAARD",
       "aliases": [],
@@ -536,21 +397,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.smedegaard.dk/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "sofrance",
-      "displayName": "SOFRANCE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Official Safran references indicate a historical SOFRANCE filtration identity, but the relevant current parent-company pages were inaccessible during validation. A current successor profile was not inferred from third-party sources.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.safran-group.com/",
-        "https://www.safran-group.com/companies/safran-filtration-systems"
       ],
       "effortClass": "NORMAL"
     },
@@ -579,21 +425,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.sud-electric.ch/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "system-plast",
-      "displayName": "SYSTEM PLAST",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "System Plast product surfaces were identified on the brand and Regal Rexnord domains, but direct HTTPS verification returned HTTP 403. Distributor material was not accepted as a replacement for first-party evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.systemplastsmartguide.com/",
-        "https://www.regalrexnord.com/brands/system-plast"
       ],
       "effortClass": "NORMAL"
     },
@@ -706,18 +537,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "specken-drumag",
-      "displayName": "SPECKEN DRUMAG GMBH",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "reason": "Only secondary company material was accessible for SPECKEN-DRUMAG; no current manufacturer-owned identity and product source was verified.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "prisma",
       "displayName": "PRISMA",
       "aliases": [],
@@ -767,18 +586,6 @@
       "detail": "Targeted discovery did not establish a manufacturer-owned source that uniquely matches the repository identity.",
       "attemptedUrls": [],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "urlinski",
-      "displayName": "URLINSKI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "INSUFFICIENT_OFFICIAL_EVIDENCE",
-      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
-      "detail": "Targeted discovery did not produce an accessible first-party product source sufficient for publication.",
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "spco",
@@ -2606,21 +2413,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "esq",
-      "displayName": "ESQ",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "Only reseller-controlled pages were found for the ESQ record. No manufacturer-owned company or product source was available to prove canonical identity and specialization.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://esq.nt-rt.ru/en",
-        "https://www.google.com/search?q=ESQ+ELCOM+manufacturer+official"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "euro-cold",
       "displayName": "EURO COLD",
       "aliases": [],
@@ -3343,18 +3135,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "jaron-technologies",
-      "displayName": "JARON TECHNOLOGIES",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "No reachable manufacturer-owned domain or explicit current parent-company source was found for Jaron Technologies. Secondary directory and resale references do not satisfy the identity gate.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "jbc",
       "displayName": "JBC",
       "aliases": [],
@@ -3780,21 +3560,6 @@
         "https://www.google.com/search?q=%22MMT+SRL%22+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "moeller-eaton",
-      "displayName": "MOELLER ELECTRIC (EATON)",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The official Eaton Moeller HTTPS product page did not complete a normal release-verifier request and timed out. The series identity is clear, but unavailable evidence is not promoted automatically.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.eaton.com/us/en-us/catalog/industrial-control--drives--automation---sensors/dil-contactors.html",
-        "https://www.eaton.com/us/en-us/products/controls-drives-automation-sensors.html"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "morgan-advanced-materials",
@@ -4538,35 +4303,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "rs-seliger",
-      "displayName": "ROMAN SELIGER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The official Roman Seliger site did not complete an HTTPS response during release verification. No reseller source was promoted in its place.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.rs-seliger.de/en/",
-        "https://www.rs-seliger.de/en/products/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "roots",
-      "displayName": "ROOTS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The current ROOTS manufacturer site returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was used for publication.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.rootsblower.com/en/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "rosati-fratelli",
       "displayName": "ROSATI FRATELLI",
       "aliases": [],
@@ -4722,21 +4458,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "samoa",
-      "displayName": "SAMOA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "SAMOA Industrial's official product pages returned HTTP 403 during release verification. The restriction was respected and cached search text was not promoted to AVAILABLE evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.samoaindustrial.com/en/web/usa/products",
-        "https://www.samoaindustrial.com/en/g/lubrication-equipment"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "samsung",
       "displayName": "SAMSUNG",
       "aliases": [],
@@ -4776,36 +4497,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.danfoss.com/en/about-danfoss/our-businesses/power-solutions/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "schaffner",
-      "displayName": "SCHAFFNER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Schaffner's current official TE Connectivity brand and product pages returned HTTP 403 during release verification. Cached snippets were not used as AVAILABLE publication evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.te.com/en/products/brands/schaffner.html",
-        "https://www.te.com/en/products/emi-and-emc-solutions/emc-filters/power-line-filters.html"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "schlick",
-      "displayName": "SCHLICK",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The apparent manufacturer-owned SCHLICK nozzle site returned an HTTPS edge error during repeated verification, so identity and product scope could not be released safely.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.duesen-schlick.com/en/",
-        "https://www.duesen-schlick.com/en/products/"
       ],
       "effortClass": "NORMAL"
     },
@@ -4864,20 +4555,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.kohlersdmo.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "seagate",
-      "displayName": "SEAGATE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Seagate's official product directory returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was substituted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.seagate.com/products/"
       ],
       "effortClass": "NORMAL"
     },
@@ -5036,21 +4713,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.smedegaard.dk/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "sofrance",
-      "displayName": "SOFRANCE",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Official Safran references indicate a historical SOFRANCE filtration identity, but the relevant current parent-company pages were inaccessible during validation. A current successor profile was not inferred from third-party sources.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.safran-group.com/",
-        "https://www.safran-group.com/companies/safran-filtration-systems"
       ],
       "effortClass": "NORMAL"
     },
@@ -5227,21 +4889,6 @@
         "https://www.google.com/search?q=SWAN+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "system-plast",
-      "displayName": "SYSTEM PLAST",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "System Plast product surfaces were identified on the brand and Regal Rexnord domains, but direct HTTPS verification returned HTTP 403. Distributor material was not accepted as a replacement for first-party evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.systemplastsmartguide.com/",
-        "https://www.regalrexnord.com/brands/system-plast"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "soderhamn",

@@ -23397,60 +23397,202 @@
     },
     {
       "id": "specken-drumag",
-      "canonicalName": "SPECKEN DRUMAG GMBH",
-      "displayName": "SPECKEN DRUMAG GMBH",
+      "canonicalName": "Drumag GmbH",
+      "displayName": "DRUMAG",
       "slug": "specken-drumag",
-      "aliases": [],
+      "aliases": [
+        "Drumag",
+        "Specken-Drumag"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "drumag.com",
+      "officialWebsite": "https://drumag.com/en/",
+      "country": "Germany",
+      "headquarters": "Bad Säckingen, Germany",
+      "foundedYear": 1951,
+      "parentCompany": "Valeta Group",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "First-party sources establish DRUMAG in pneumatic equipment, hydraulic equipment, industrial valves and flow control, compressors and compressed-air systems, and industrial automation and control. Official company information dates its foundation to 1951.",
+          "fullDescription": [
+            "The confirmed DRUMAG record is based on official sources for pneumatic equipment, hydraulic equipment, industrial valves and flow control, compressors and compressed-air systems, and industrial automation and control. The confirmed country record is Germany. The documented headquarters is Bad Säckingen, Germany. Official company information dates its foundation to 1951. The documented corporate parent is Valeta Group.",
+            "The documented product structure includes COMBOBOX, HPE hydropneumatic feed unit, HPL-B hydropneumatic feed unit, HPU pressure intensifier, HPW air-oil actuator, HPZL hydropneumatic cylinder, DSO-HPE rotary actuator, M Microcylinder, OV Oval cylinders, and RT Telescopic cylinders. Family membership alone does not establish a model's configuration, compatibility or current production status.",
+            "Published applications span industrial processing, energy, industrial manufacturing, packaging, and agriculture."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
+      "categories": [
+        {
+          "id": "pneumatic-equipment",
+          "label": "pneumatic equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-specken-drumag-company",
+            "brand-specken-drumag-product-catalogue",
+            "brand-specken-drumag-legacy-domain"
+          ]
+        },
+        {
+          "id": "hydraulic-equipment",
+          "label": "hydraulic equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-specken-drumag-company",
+            "brand-specken-drumag-product-catalogue",
+            "brand-specken-drumag-legacy-domain"
+          ]
+        },
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-specken-drumag-company",
+            "brand-specken-drumag-product-catalogue",
+            "brand-specken-drumag-legacy-domain"
+          ]
+        },
+        {
+          "id": "compressors-and-compressed-air-systems",
+          "label": "compressors and compressed-air systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-specken-drumag-company",
+            "brand-specken-drumag-product-catalogue",
+            "brand-specken-drumag-legacy-domain"
+          ]
+        },
+        {
+          "id": "industrial-automation-and-control",
+          "label": "industrial automation and control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-specken-drumag-company",
+            "brand-specken-drumag-product-catalogue",
+            "brand-specken-drumag-legacy-domain"
+          ]
+        }
+      ],
+      "productGroups": [
+        "pneumatic equipment",
+        "hydraulic equipment",
+        "industrial valves and flow control",
+        "compressors and compressed-air systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "COMBOBOX",
+        "HPE hydropneumatic feed unit",
+        "HPL-B hydropneumatic feed unit",
+        "HPU pressure intensifier",
+        "HPW air-oil actuator",
+        "HPZL hydropneumatic cylinder",
+        "DSO-HPE rotary actuator",
+        "M Microcylinder",
+        "OV Oval cylinders",
+        "RT Telescopic cylinders",
+        "S Rodless cylinder",
+        "W Short-stroke cylinders",
+        "ERC3 Electric cylinder",
+        "RCD Electric cylinder",
+        "RCP5 Electric cylinder"
+      ],
+      "series": [
+        "A Series",
+        "B Series",
+        "AA/AB Series",
+        "PS Series",
+        "BE/BE12 Series",
+        "AC Series",
+        "CL/CM Series",
+        "AF/AG Series",
+        "ZU series",
+        "ZAR series",
+        "ZHSS series",
+        "ZU 250 series",
+        "SDAT series",
+        "X Series"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "industrial manufacturing",
+        "packaging",
+        "agriculture"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://drumag.com/en/movement/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://drumag.com/en/movement/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://drumag.com/en/services/"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-19",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "brand-specken-drumag-company",
+        "brand-specken-drumag-product-catalogue",
+        "brand-specken-drumag-legacy-domain"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "DRUMAG Pneumatic equipment",
+        "siteSuffix": null,
+        "metaFactual": "DRUMAG manufacturer profile covering pneumatic equipment, hydraulic equipment, and industrial valves and flow control, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "DRUMAG pneumatic equipment",
+        "secondaryIntents": [
+          "DRUMAG industrial equipment",
+          "DRUMAG sourcing",
+          "DRUMAG hydraulic equipment",
+          "DRUMAG industrial valves and flow control"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-        "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-        "reason": "Only secondary company material was accessible for SPECKEN-DRUMAG; no current manufacturer-owned identity and product source was verified.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
+        "score": 90,
+        "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 10,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "atlas-copco",
@@ -48187,60 +48329,177 @@
     },
     {
       "id": "urlinski",
-      "canonicalName": "URLINSKI",
-      "displayName": "URLINSKI",
+      "canonicalName": "FIRMA \"URLIŃSKI\"",
+      "displayName": "URLIŃSKI",
       "slug": "urlinski",
-      "aliases": [],
+      "aliases": [
+        "URLIŃSKI",
+        "Urliński"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "urlinski.com.pl",
+      "officialWebsite": "https://en.urlinski.com.pl/",
+      "country": "Poland",
+      "headquarters": "Warszawa, Poland",
+      "foundedYear": 1984,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "FIRMA \"URLIŃSKI\" is documented in official material for industrial mixing equipment, industrial machinery, laboratory and analytical equipment, and process equipment. Official product material names MZUTL, MZUTS, MZUT, MM-ZUT, MHZ, MZUT-EMBF, MF-L, MW-P, MP, and MS.",
+          "fullDescription": [
+            "Manufacturer-owned material confirms FIRMA \"URLIŃSKI\" and a portfolio centred on industrial mixing equipment, industrial machinery, laboratory and analytical equipment, and process equipment. The confirmed country record is Poland. The documented headquarters is Warszawa, Poland. Official company information dates its foundation to 1984.",
+            "Named product families, ranges and series include MZUTL, MZUTS, MZUT, MM-ZUT, MHZ, MZUT-EMBF, MF-L, MW-P, MP, and MS. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
+            "The source-backed industry scope covers food and pharmaceutical processing and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
+      "categories": [
+        {
+          "id": "industrial-mixing-equipment",
+          "label": "industrial mixing equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-urlinski-about",
+            "brand-urlinski-contact",
+            "brand-urlinski-cosmetics",
+            "brand-urlinski-pharmacy"
+          ]
+        },
+        {
+          "id": "industrial-machinery",
+          "label": "industrial machinery",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-urlinski-about",
+            "brand-urlinski-contact",
+            "brand-urlinski-cosmetics",
+            "brand-urlinski-pharmacy"
+          ]
+        },
+        {
+          "id": "laboratory-and-analytical-equipment",
+          "label": "laboratory and analytical equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-urlinski-about",
+            "brand-urlinski-contact",
+            "brand-urlinski-cosmetics",
+            "brand-urlinski-pharmacy"
+          ]
+        },
+        {
+          "id": "process-equipment",
+          "label": "process equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-urlinski-about",
+            "brand-urlinski-contact",
+            "brand-urlinski-cosmetics",
+            "brand-urlinski-pharmacy"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial mixing equipment",
+        "industrial machinery",
+        "laboratory and analytical equipment",
+        "process equipment"
+      ],
+      "families": [
+        "MZUTL",
+        "MZUTS",
+        "MZUT",
+        "MM-ZUT",
+        "MHZ",
+        "MZUT-EMBF",
+        "MF-L",
+        "MW-P",
+        "MP",
+        "MS",
+        "ZB"
+      ],
+      "series": [
+        "MZUTL 2",
+        "MZUTL 5",
+        "MZUTL 10 CCF",
+        "MZUTL 15 CC",
+        "MZUTL 30",
+        "MZUTL 50",
+        "MZUTL 50 C",
+        "MZUTL 1000",
+        "MZUTL-H 50 CCF",
+        "MZUT 100",
+        "MZUT-EMBF 50",
+        "MM-ZUT 10 CCF",
+        "MW-P 200 F",
+        "MF-L 40",
+        "MP 12P",
+        "ZB 1000 ES"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": null,
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "brand-urlinski-about",
+        "brand-urlinski-contact",
+        "brand-urlinski-cosmetics",
+        "brand-urlinski-pharmacy"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "URLIŃSKI Industrial mixing equipment",
+        "siteSuffix": null,
+        "metaFactual": "URLIŃSKI manufacturer profile covering industrial mixing equipment, industrial machinery, and laboratory and analytical equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "URLIŃSKI industrial mixing equipment",
+        "secondaryIntents": [
+          "URLIŃSKI industrial equipment",
+          "URLIŃSKI sourcing",
+          "URLIŃSKI industrial machinery",
+          "URLIŃSKI laboratory and analytical equipment"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "INSUFFICIENT_OFFICIAL_EVIDENCE",
-        "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-        "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
-        "detail": "Targeted discovery did not produce an accessible first-party product source sufficient for publication.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "welch-vacuum",
@@ -203293,63 +203552,148 @@
     },
     {
       "id": "esq",
-      "canonicalName": "ESQ",
+      "canonicalName": "Общество с ограниченной ответственностью «Элком»",
       "displayName": "ESQ",
       "slug": "esq",
-      "aliases": [],
+      "aliases": [
+        "Elcom"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "elcomspb.ru",
+      "officialWebsite": "https://www.elcomspb.ru/",
+      "country": "Russia",
+      "headquarters": "Saint Petersburg, Russia",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-        "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-        "reason": "Only reseller-controlled pages were found for the ESQ record. No manufacturer-owned company or product source was available to prove canonical identity and specialization.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://esq.nt-rt.ru/en",
-          "https://www.google.com/search?q=ESQ+ELCOM+manufacturer+official"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+        "en": {
+          "shortDescription": "ESQ publishes official information for electric motors, industrial automation and control, pumps and pumping systems, and gear units and geared drives. The published range names ESQ PR IEC(DIN), ESQ HT, and ESQ FR.",
+          "fullDescription": [
+            "Official ESQ sources document the manufacturer identity and its work in electric motors, industrial automation and control, pumps and pumping systems, and gear units and geared drives. The confirmed country record is Russia. The documented headquarters is Saint Petersburg, Russia.",
+            "The official range identifies ESQ PR IEC(DIN), ESQ HT, and ESQ FR. Exact variants, options and operating limits remain model-specific.",
+            "Official material associates the range with industrial processing, industrial manufacturing, energy, and oil and gas."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "categories": [
+        {
+          "id": "electric-motors",
+          "label": "electric motors",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-esq-about",
+            "brand-esq-catalog"
+          ]
+        },
+        {
+          "id": "industrial-automation-and-control",
+          "label": "industrial automation and control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-esq-about",
+            "brand-esq-catalog"
+          ]
+        },
+        {
+          "id": "pumps-and-pumping-systems",
+          "label": "pumps and pumping systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-esq-about",
+            "brand-esq-catalog"
+          ]
+        },
+        {
+          "id": "gear-units-and-geared-drives",
+          "label": "gear units and geared drives",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-esq-about",
+            "brand-esq-catalog"
+          ]
+        }
+      ],
+      "productGroups": [
+        "electric motors",
+        "industrial automation and control",
+        "pumps and pumping systems",
+        "gear units and geared drives"
+      ],
+      "families": [],
+      "series": [
+        "ESQ PR IEC(DIN)",
+        "ESQ HT",
+        "ESQ FR"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy",
+        "oil and gas"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.elcomspb.ru/retail/"
+        }
+      ],
+      "logo": null,
+      "sourceRecordIds": [
+        "brand-esq-about",
+        "brand-esq-catalog"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "ESQ Electric motors",
+        "siteSuffix": null,
+        "metaFactual": "ESQ manufacturer profile covering electric motors, industrial automation and control, and pumps and pumping systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "ESQ electric motors",
+        "secondaryIntents": [
+          "ESQ industrial equipment",
+          "ESQ sourcing",
+          "ESQ industrial automation and control",
+          "ESQ pumps and pumping systems"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
+      "reviewStatus": {
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
+        "attemptedUrls": []
+      },
+      "completeness": {
+        "score": 85,
+        "indicator": "BRAND_COMPLETE",
+        "verificationIndependent": true,
+        "breakdown": {
+          "identitySource": 20,
+          "officialDomain": 10,
+          "logo": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 5,
+          "seo": 5
+        }
+      },
+      "notes": null
     },
     {
       "id": "esr-pollmeier-gmbh",
@@ -247203,60 +247547,138 @@
     },
     {
       "id": "jaron-technologies",
-      "canonicalName": "JARON TECHNOLOGIES",
-      "displayName": "JARON TECHNOLOGIES",
+      "canonicalName": "Jaron Technologies LLC",
+      "displayName": "Jaron Technologies",
       "slug": "jaron-technologies",
-      "aliases": [],
+      "aliases": [
+        "JARON TECHNOLOGIES LLC"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "jarontech.com",
+      "officialWebsite": "https://jarontech.com/",
+      "country": "US",
+      "headquarters": "Pampa, Texas, United States",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Jaron Technologies publishes official information for measurement and instrumentation and laboratory and analytical equipment. The published range names Carbon Black Press, Mass Strength Tester, Individual Pellet Hardness Tester, Portable Sieve Residue Tester, Multiple Station Sieve Residue Tester, Void Volume Tester, Stainless Steel OAN Bowls, and Stainless Steel Paddles for OAN testers.",
+          "fullDescription": [
+            "Official Jaron Technologies sources document the manufacturer identity and its work in measurement and instrumentation and laboratory and analytical equipment. The confirmed country record is US. The documented headquarters is Pampa, Texas, United States.",
+            "The official range identifies Carbon Black Press, Mass Strength Tester, Individual Pellet Hardness Tester, Portable Sieve Residue Tester, Multiple Station Sieve Residue Tester, Void Volume Tester, Stainless Steel OAN Bowls, and Stainless Steel Paddles for OAN testers. Exact variants, options and operating limits remain model-specific.",
+            "Official material associates the range with chemical processing and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "measurement-and-instrumentation",
+          "label": "measurement and instrumentation",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-jaron-technologies-home",
+            "brand-jaron-technologies-about",
+            "brand-jaron-technologies-products",
+            "brand-jaron-technologies-contact"
+          ]
+        },
+        {
+          "id": "laboratory-and-analytical-equipment",
+          "label": "laboratory and analytical equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-jaron-technologies-home",
+            "brand-jaron-technologies-about",
+            "brand-jaron-technologies-products",
+            "brand-jaron-technologies-contact"
+          ]
+        }
+      ],
+      "productGroups": [
+        "measurement and instrumentation",
+        "laboratory and analytical equipment"
+      ],
+      "families": [
+        "Carbon Black Press",
+        "Mass Strength Tester",
+        "Individual Pellet Hardness Tester",
+        "Portable Sieve Residue Tester",
+        "Multiple Station Sieve Residue Tester",
+        "Void Volume Tester",
+        "Stainless Steel OAN Bowls",
+        "Stainless Steel Paddles for OAN testers"
+      ],
       "series": [],
-      "industries": [],
-      "documents": [],
+      "industries": [
+        "chemical processing",
+        "industrial processing"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://jarontech.com/index_files/Page789.htm"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://jarontech.com/index_files/Page789.htm"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "brand-jaron-technologies-home",
+        "brand-jaron-technologies-about",
+        "brand-jaron-technologies-products",
+        "brand-jaron-technologies-contact"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Jaron Technologies Measurement and instrumentation",
+        "siteSuffix": null,
+        "metaFactual": "Jaron Technologies manufacturer profile covering measurement and instrumentation and laboratory and analytical equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Jaron Technologies measurement and instrumentation",
+        "secondaryIntents": [
+          "Jaron Technologies industrial equipment",
+          "Jaron Technologies sourcing",
+          "Jaron Technologies laboratory and analytical equipment"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "No reachable manufacturer-owned domain or explicit current parent-company source was found for Jaron Technologies. Secondary directory and resale references do not satisfy the identity gate.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
+        "score": 90,
+        "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 10,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "jaure-kop-flex",
@@ -282064,63 +282486,133 @@
     },
     {
       "id": "moeller-eaton",
-      "canonicalName": "MOELLER ELECTRIC (EATON)",
-      "displayName": "MOELLER ELECTRIC (EATON)",
+      "canonicalName": "Moeller GmbH",
+      "displayName": "Moeller (Eaton)",
       "slug": "moeller-eaton",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
+      "aliases": [
+        "Moeller",
+        "Klöckner-Moeller",
+        "Moeller Group"
+      ],
+      "formerNames": [
+        "Klöckner-Moeller"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "eaton.com",
+      "officialWebsite": "https://www.eaton.com/us/en-us/company/about-us/our-heritage/klockner-moeller-moeller.html",
+      "country": "Germany",
       "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
+      "foundedYear": 1899,
+      "parentCompany": "Eaton",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "First-party sources establish Moeller (Eaton) in industrial automation and control and electrical equipment. Official company information dates its foundation to 1899.",
+          "fullDescription": [
+            "The confirmed Moeller (Eaton) record is based on official sources for industrial automation and control and electrical equipment. The confirmed country record is Germany. Official company information dates its foundation to 1899. The documented corporate parent is Eaton.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "Published applications span industrial processing, industrial manufacturing, and construction."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "industrial-automation-and-control",
+          "label": "industrial automation and control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-moeller-eaton-heritage"
+          ]
+        },
+        {
+          "id": "electrical-equipment",
+          "label": "electrical equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-moeller-eaton-heritage"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial automation and control",
+        "electrical equipment"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "construction"
+      ],
       "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "logo": {
+        "status": "PUBLISHABLE",
+        "assetPath": "brand-assets/logos/moeller-eaton.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eaton_Corporation_Logo.svg",
+        "originalUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Eaton_Corporation_Logo.svg",
+        "sourceType": "RIGHTS_CLEARED_EXTERNAL_SOURCE",
+        "retrievedAt": "2026-08-17",
+        "checksum": "a68449cdc761682b49df6928395be4c701a8e05f538fac9645fe2d9477ad1725",
+        "fileType": "SVG",
+        "dimensions": {
+          "width": 892.91339,
+          "height": 291.61417
+        },
+        "license": "Public domain (PD-textlogo)",
+        "rightsStatus": "RIGHTS_CONFIRMED",
+        "publicationStatus": "PUBLISHABLE",
+        "presentationBackground": "light"
+      },
+      "sourceRecordIds": [
+        "brand-moeller-eaton-heritage"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Moeller (Eaton) Industrial automation and control",
+        "siteSuffix": null,
+        "metaFactual": "Moeller (Eaton) manufacturer profile covering industrial automation and control and electrical equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Moeller (Eaton) industrial automation and control",
+        "secondaryIntents": [
+          "Moeller (Eaton) industrial equipment",
+          "Moeller (Eaton) sourcing",
+          "Moeller (Eaton) electrical equipment"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "The official Eaton Moeller HTTPS product page did not complete a normal release-verifier request and timed out. The series identity is clear, but unavailable evidence is not promoted automatically.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.eaton.com/us/en-us/catalog/industrial-control--drives--automation---sensors/dil-contactors.html",
-          "https://www.eaton.com/us/en-us/products/controls-drives-automation-sensors.html"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 10,
+        "score": 75,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 10,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
+          "countryAndHeadquarters": 5,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "mogensen",
@@ -318580,63 +319072,101 @@
     },
     {
       "id": "rs-seliger",
-      "canonicalName": "ROMAN SELIGER",
+      "canonicalName": "RS Roman Seliger Armaturenfabrik GmbH",
       "displayName": "ROMAN SELIGER",
       "slug": "rs-seliger",
-      "aliases": [],
+      "aliases": [
+        "Roman Seliger",
+        "RS Roman Seliger",
+        "RS"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "staubli.com",
+      "officialWebsite": "https://www.staubli.com/",
+      "country": "Germany",
+      "headquarters": "Norderstedt, Germany",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Stäubli Group",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Official ROMAN SELIGER material documents a product scope covering brakes and couplings. The confirmed country record is Germany.",
+          "fullDescription": [
+            "RS Roman Seliger Armaturenfabrik GmbH is represented by manufacturer-owned evidence for brakes and couplings. The confirmed country record is Germany. The documented headquarters is Norderstedt, Germany. The documented corporate parent is Stäubli Group.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "The confirmed market and application context includes oil and gas."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "brakes-and-couplings",
+          "label": "brakes and couplings",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-rs-seliger-press-release"
+          ]
+        }
+      ],
+      "productGroups": [
+        "brakes and couplings"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
+      "industries": [
+        "oil and gas"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "brand-rs-seliger-press-release"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "ROMAN SELIGER Brakes and couplings",
+        "siteSuffix": null,
+        "metaFactual": "ROMAN SELIGER manufacturer profile covering brakes and couplings, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "ROMAN SELIGER brakes and couplings",
+        "secondaryIntents": [
+          "ROMAN SELIGER industrial equipment",
+          "ROMAN SELIGER sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "The official Roman Seliger site did not complete an HTTPS response during release verification. No reseller source was promoted in its place.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.rs-seliger.de/en/",
-          "https://www.rs-seliger.de/en/products/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 70,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "romess",
@@ -318931,62 +319461,175 @@
     },
     {
       "id": "roots",
-      "canonicalName": "ROOTS",
+      "canonicalName": "Industrial Technologies and Services LLC d/b/a Roots",
       "displayName": "ROOTS",
       "slug": "roots",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "aliases": [
+        "Roots",
+        "Roots Blower"
+      ],
+      "formerNames": [
+        "P. H. and F. M. Roots Company"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "rootsblower.com",
+      "officialWebsite": "https://www.rootsblower.com/",
+      "country": "United States",
+      "headquarters": "Connersville, Indiana, United States",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Ingersoll Rand",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Official ROOTS material documents a product scope covering industrial fans and blowers, compressors and compressed-air systems, and vacuum equipment. Documented families and lines include PD Blowers, URAI Series, RAM Blower Series, RCS Blower Series, RAS/RGS Blowers, Roots Flo Blower and Vacuum, Centrifugal Compressors, Truck Blowers, Universal RAI, and Universal RAI-DSL.",
+          "fullDescription": [
+            "Industrial Technologies and Services LLC d/b/a Roots is represented by manufacturer-owned evidence for industrial fans and blowers, compressors and compressed-air systems, and vacuum equipment. The confirmed country record is United States. The documented headquarters is Connersville, Indiana, United States. The documented corporate parent is Ingersoll Rand.",
+            "Official product material names PD Blowers, URAI Series, RAM Blower Series, RCS Blower Series, RAS/RGS Blowers, Roots Flo Blower and Vacuum, Centrifugal Compressors, Truck Blowers, Universal RAI, and Universal RAI-DSL. Technical characteristics should be checked against the document for the exact model or series.",
+            "The confirmed market and application context includes industrial processing, industrial manufacturing, food and pharmaceutical processing, chemical processing, water and wastewater, and wood and paper processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
+      "categories": [
+        {
+          "id": "industrial-fans-and-blowers",
+          "label": "industrial fans and blowers",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-roots-history",
+            "brand-roots-about",
+            "brand-roots-home",
+            "brand-roots-terms"
+          ]
+        },
+        {
+          "id": "compressors-and-compressed-air-systems",
+          "label": "compressors and compressed-air systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-roots-history",
+            "brand-roots-about",
+            "brand-roots-home",
+            "brand-roots-terms"
+          ]
+        },
+        {
+          "id": "vacuum-equipment",
+          "label": "vacuum equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-roots-history",
+            "brand-roots-about",
+            "brand-roots-home",
+            "brand-roots-terms"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial fans and blowers",
+        "compressors and compressed-air systems",
+        "vacuum equipment"
+      ],
+      "families": [
+        "PD Blowers",
+        "URAI Series",
+        "RAM Blower Series",
+        "RCS Blower Series",
+        "RAS/RGS Blowers",
+        "Roots Flo Blower and Vacuum",
+        "Centrifugal Compressors",
+        "Truck Blowers"
+      ],
+      "series": [
+        "Universal RAI",
+        "Universal RAI-DSL",
+        "Universal RAI-J",
+        "Universal RAI-G",
+        "Universal RAI-J DSL",
+        "RAM",
+        "RAM-J",
+        "RAM-VJ",
+        "RAM-GJ",
+        "RAM-DPJ",
+        "RAM-DVJ",
+        "RAM-TRI-RAM",
+        "RCS",
+        "RCS-J",
+        "RCS-VJ",
+        "RCS-DVJ",
+        "RAS Rotary Positive Blowers",
+        "RGS Rotary Positive Blowers",
+        "Roots Flo",
+        "DVJ Whispair Exhauster",
+        "OIB Centrifugal Compressor",
+        "H Centrifugal Compressor",
+        "Tri-Nado"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "water and wastewater",
+        "wood and paper processing",
+        "oil and gas"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "brand-roots-history",
+        "brand-roots-about",
+        "brand-roots-home",
+        "brand-roots-terms"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "ROOTS Industrial fans and blowers",
+        "siteSuffix": null,
+        "metaFactual": "ROOTS manufacturer profile covering industrial fans and blowers, compressors and compressed-air systems, and vacuum equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "ROOTS industrial fans and blowers",
+        "secondaryIntents": [
+          "ROOTS industrial equipment",
+          "ROOTS sourcing",
+          "ROOTS compressors and compressed-air systems",
+          "ROOTS vacuum equipment"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "The current ROOTS manufacturer site returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was used for publication.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.rootsblower.com/en/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "ropex",
@@ -324609,63 +325252,173 @@
     },
     {
       "id": "samoa",
-      "canonicalName": "SAMOA",
+      "canonicalName": "SAMOA Industrial, S.A.",
       "displayName": "SAMOA",
       "slug": "samoa",
-      "aliases": [],
+      "aliases": [
+        "SAMOA Industrial",
+        "SAMOA Industrial, S.A."
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "samoaindustrial.com",
+      "officialWebsite": "https://www.samoaindustrial.com/en/",
+      "country": "Spain",
+      "headquarters": "Gijón, Spain",
+      "foundedYear": 1958,
       "parentCompany": null,
       "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "SAMOA Industrial's official product pages returned HTTP 403 during release verification. The restriction was respected and cached search text was not promoted to AVAILABLE evidence.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.samoaindustrial.com/en/web/usa/products",
-          "https://www.samoaindustrial.com/en/g/lubrication-equipment"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+        "en": {
+          "shortDescription": "Official SAMOA material documents a product scope covering pumps and pumping systems, pneumatic equipment, industrial valves and flow control, and industrial automation and control. Documented families and lines include Lubrication equipment, Process pumps, Applied industrial fluid solutions, Pneumatic piston pumps, Pneumatic diaphragm pumps, Hand-held equipment, Electric pumps, Reels, Dispensing valves, and Mobile units and packages.",
+          "fullDescription": [
+            "SAMOA Industrial, S.A. is represented by manufacturer-owned evidence for pumps and pumping systems, pneumatic equipment, industrial valves and flow control, and industrial automation and control. The confirmed country record is Spain. The documented headquarters is Gijón, Spain. Official company information dates its foundation to 1958.",
+            "Official product material names Lubrication equipment, Process pumps, Applied industrial fluid solutions, Pneumatic piston pumps, Pneumatic diaphragm pumps, Hand-held equipment, Electric pumps, Reels, Dispensing valves, and Mobile units and packages. Technical characteristics should be checked against the document for the exact model or series.",
+            "The confirmed market and application context includes industrial processing, transportation, oil and gas, marine applications, energy, and construction."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "categories": [
+        {
+          "id": "pumps-and-pumping-systems",
+          "label": "pumps and pumping systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-samoa-history",
+            "brand-samoa-products",
+            "brand-samoa-lubrication-equipment",
+            "brand-samoa-legal"
+          ]
+        },
+        {
+          "id": "pneumatic-equipment",
+          "label": "pneumatic equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-samoa-history",
+            "brand-samoa-products",
+            "brand-samoa-lubrication-equipment",
+            "brand-samoa-legal"
+          ]
+        },
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-samoa-history",
+            "brand-samoa-products",
+            "brand-samoa-lubrication-equipment",
+            "brand-samoa-legal"
+          ]
+        },
+        {
+          "id": "industrial-automation-and-control",
+          "label": "industrial automation and control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-samoa-history",
+            "brand-samoa-products",
+            "brand-samoa-lubrication-equipment",
+            "brand-samoa-legal"
+          ]
+        }
+      ],
+      "productGroups": [
+        "pumps and pumping systems",
+        "pneumatic equipment",
+        "industrial valves and flow control",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Lubrication equipment",
+        "Process pumps",
+        "Applied industrial fluid solutions",
+        "Pneumatic piston pumps",
+        "Pneumatic diaphragm pumps",
+        "Hand-held equipment",
+        "Electric pumps",
+        "Reels",
+        "Dispensing valves",
+        "Mobile units and packages",
+        "Electronic fluid management systems",
+        "Waste fluid management",
+        "Spare parts"
+      ],
+      "series": [
+        "Directflo"
+      ],
+      "industries": [
+        "industrial processing",
+        "transportation",
+        "oil and gas",
+        "marine applications",
+        "energy",
+        "construction"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.samoaindustrial.com/en/products"
+        }
+      ],
+      "logo": null,
+      "sourceRecordIds": [
+        "brand-samoa-history",
+        "brand-samoa-products",
+        "brand-samoa-lubrication-equipment",
+        "brand-samoa-legal"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SAMOA Pumps and pumping systems",
+        "siteSuffix": null,
+        "metaFactual": "SAMOA manufacturer profile covering pumps and pumping systems, pneumatic equipment, and industrial valves and flow control, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SAMOA pumps and pumping systems",
+        "secondaryIntents": [
+          "SAMOA industrial equipment",
+          "SAMOA sourcing",
+          "SAMOA pneumatic equipment",
+          "SAMOA industrial valves and flow control"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
+      "reviewStatus": {
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
+        "attemptedUrls": []
+      },
+      "completeness": {
+        "score": 85,
+        "indicator": "BRAND_COMPLETE",
+        "verificationIndependent": true,
+        "breakdown": {
+          "identitySource": 20,
+          "officialDomain": 10,
+          "logo": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 5,
+          "seo": 5
+        }
+      },
+      "notes": null
     },
     {
       "id": "samsung",
@@ -326310,63 +327063,135 @@
     },
     {
       "id": "schaffner",
-      "canonicalName": "SCHAFFNER",
+      "canonicalName": "Schaffner",
       "displayName": "SCHAFFNER",
       "slug": "schaffner",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "te.com",
+      "officialWebsite": "https://www.te.com/en/products/brands/schaffner.html",
       "country": null,
       "headquarters": null,
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "TE Connectivity",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Manufacturer-owned sources identify SCHAFFNER with electrical equipment and electronic components. The documented corporate parent is TE Connectivity.",
+          "fullDescription": [
+            "The SCHAFFNER identity and product scope are established through official company and product material covering electrical equipment and electronic components. The documented corporate parent is TE Connectivity.",
+            "Published families and lines include EMC Filters, EMC Chokes, Power Quality, and Custom EMI Solutions. They provide portfolio context without replacing model-specific technical documentation.",
+            "SCHAFFNER materials reference industrial processing, industrial manufacturing, energy, transportation, factory automation, and laboratory and life-science applications."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "electrical-equipment",
+          "label": "electrical equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-schaffner-te-brand-page"
+          ]
+        },
+        {
+          "id": "electronic-components",
+          "label": "electronic components",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-schaffner-te-brand-page"
+          ]
+        }
+      ],
+      "productGroups": [
+        "electrical equipment",
+        "electronic components"
+      ],
+      "families": [
+        "EMC Filters",
+        "EMC Chokes",
+        "Power Quality",
+        "Custom EMI Solutions"
+      ],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy",
+        "transportation",
+        "factory automation",
+        "laboratory and life-science applications"
+      ],
       "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "logo": {
+        "status": "PUBLISHABLE",
+        "assetPath": "brand-assets/logos/schaffner.png",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALogo_Schaffner.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Logo_Schaffner.svg",
+        "sourceType": "RIGHTS_CLEARED_EXTERNAL_SOURCE",
+        "retrievedAt": "2026-08-17",
+        "checksum": "42bfc2259b13e266a0a95c481842c63be2d02771f9b57b86ca7514676f48e73c",
+        "fileType": "PNG",
+        "dimensions": {
+          "width": 500,
+          "height": 56
+        },
+        "license": "Public domain (Wikimedia Commons)",
+        "rightsStatus": "RIGHTS_CONFIRMED",
+        "publicationStatus": "PUBLISHABLE",
+        "presentationBackground": "light"
+      },
+      "sourceRecordIds": [
+        "brand-schaffner-te-brand-page"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SCHAFFNER Electrical equipment",
+        "siteSuffix": null,
+        "metaFactual": "SCHAFFNER manufacturer profile covering electrical equipment and electronic components, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SCHAFFNER electrical equipment",
+        "secondaryIntents": [
+          "SCHAFFNER industrial equipment",
+          "SCHAFFNER sourcing",
+          "SCHAFFNER electronic components"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "Schaffner's current official TE Connectivity brand and product pages returned HTTP 403 during release verification. Cached snippets were not used as AVAILABLE publication evidence.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.te.com/en/products/brands/schaffner.html",
-          "https://www.te.com/en/products/emi-and-emc-solutions/emc-filters/power-line-filters.html"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 10,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 10,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
           "countryAndHeadquarters": 0,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "schaltbau",
@@ -327076,63 +327901,166 @@
     },
     {
       "id": "schlick",
-      "canonicalName": "SCHLICK",
+      "canonicalName": "Düsen-Schlick GmbH",
       "displayName": "SCHLICK",
       "slug": "schlick",
-      "aliases": [],
+      "aliases": [
+        "SCHLICK",
+        "Düsen-Schlick",
+        "Duesen-Schlick",
+        "Duesen-Schlick GmbH"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "myschlick.com",
+      "officialWebsite": "https://myschlick.com/en",
+      "country": "Germany",
+      "headquarters": "Untersiemau, Germany",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "The apparent manufacturer-owned SCHLICK nozzle site returned an HTTPS edge error during repeated verification, so identity and product scope could not be released safely.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.duesen-schlick.com/en/",
-          "https://www.duesen-schlick.com/en/products/"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+        "en": {
+          "shortDescription": "SCHLICK publishes official information for coating and finishing equipment, filling and packaging machinery, and industrial cleaning systems. The published range names Anti-Bearding Technology, Professional Coating Arm (PCA), Spray-unit, Two-substance nozzles, Three- and four-substance nozzles, Pressure nozzles, (Tank-) Cleaning nozzles, Dosing Systems, and EHS Products.",
+          "fullDescription": [
+            "Official SCHLICK sources document the manufacturer identity and its work in coating and finishing equipment, filling and packaging machinery, and industrial cleaning systems. The confirmed country record is Germany. The documented headquarters is Untersiemau, Germany.",
+            "The official range identifies Anti-Bearding Technology, Professional Coating Arm (PCA), Spray-unit, Two-substance nozzles, Three- and four-substance nozzles, Pressure nozzles, (Tank-) Cleaning nozzles, Dosing Systems, and EHS Products. Exact variants, options and operating limits remain model-specific.",
+            "Official material associates the range with food and pharmaceutical processing, chemical processing, industrial processing, and agriculture."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "categories": [
+        {
+          "id": "coating-and-finishing-equipment",
+          "label": "coating and finishing equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-schlick-home",
+            "brand-schlick-products",
+            "brand-schlick-abc",
+            "brand-schlick-ehs",
+            "brand-schlick-test-research",
+            "brand-schlick-imprint"
+          ]
+        },
+        {
+          "id": "filling-and-packaging-machinery",
+          "label": "filling and packaging machinery",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-schlick-home",
+            "brand-schlick-products",
+            "brand-schlick-abc",
+            "brand-schlick-ehs",
+            "brand-schlick-test-research",
+            "brand-schlick-imprint"
+          ]
+        },
+        {
+          "id": "industrial-cleaning-systems",
+          "label": "industrial cleaning systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-schlick-home",
+            "brand-schlick-products",
+            "brand-schlick-abc",
+            "brand-schlick-ehs",
+            "brand-schlick-test-research",
+            "brand-schlick-imprint"
+          ]
+        }
+      ],
+      "productGroups": [
+        "coating and finishing equipment",
+        "filling and packaging machinery",
+        "industrial cleaning systems"
+      ],
+      "families": [
+        "Anti-Bearding Technology",
+        "Professional Coating Arm (PCA)",
+        "Spray-unit",
+        "Two-substance nozzles",
+        "Three- and four-substance nozzles",
+        "Pressure nozzles",
+        "(Tank-) Cleaning nozzles",
+        "Dosing Systems",
+        "EHS Products"
+      ],
+      "series": [],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "industrial processing",
+        "agriculture"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://myschlick.com/en/products"
+        },
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://myschlick.com/en/ehs-products"
+        }
+      ],
+      "logo": null,
+      "sourceRecordIds": [
+        "brand-schlick-home",
+        "brand-schlick-products",
+        "brand-schlick-abc",
+        "brand-schlick-ehs",
+        "brand-schlick-test-research",
+        "brand-schlick-imprint"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SCHLICK Coating and finishing equipment",
+        "siteSuffix": null,
+        "metaFactual": "SCHLICK manufacturer profile covering coating and finishing equipment, filling and packaging machinery, and industrial cleaning systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SCHLICK coating and finishing equipment",
+        "secondaryIntents": [
+          "SCHLICK industrial equipment",
+          "SCHLICK sourcing",
+          "SCHLICK filling and packaging machinery",
+          "SCHLICK industrial cleaning systems"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
+      "reviewStatus": {
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
+        "attemptedUrls": []
+      },
+      "completeness": {
+        "score": 85,
+        "indicator": "BRAND_COMPLETE",
+        "verificationIndependent": true,
+        "breakdown": {
+          "identitySource": 20,
+          "officialDomain": 10,
+          "logo": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 5,
+          "seo": 5
+        }
+      },
+      "notes": null
     },
     {
       "id": "schmidt-kupplung",
@@ -328581,62 +329509,191 @@
     },
     {
       "id": "seagate",
-      "canonicalName": "SEAGATE",
+      "canonicalName": "Seagate Technology LLC",
       "displayName": "SEAGATE",
       "slug": "seagate",
-      "aliases": [],
+      "aliases": [
+        "Seagate",
+        "Seagate Technology"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "seagate.com",
+      "officialWebsite": "https://www.seagate.com/",
+      "country": "United States",
+      "headquarters": "Fremont, California, United States",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "Seagate's official product directory returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was substituted.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.seagate.com/products/"
-        ]
-      },
-      "completeness": {
-        "score": 10,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 10,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+        "en": {
+          "shortDescription": "First-party sources establish SEAGATE in electronic components and infrastructure technologies. The confirmed country record is United States.",
+          "fullDescription": [
+            "The confirmed SEAGATE record is based on official sources for electronic components and infrastructure technologies. The confirmed country record is United States. The documented headquarters is Fremont, California, United States.",
+            "The documented product structure includes Exos, Nytro, IronWolf, SkyHawk, BarraCuda, FireCuda, Ultra Touch, Mozaic, Nytro 1361 Series, and Nytro 5350 Series. Family membership alone does not establish a model's configuration, compatibility or current production status.",
+            "Published applications span telecommunications and laboratory and life-science applications."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "categories": [
+        {
+          "id": "electronic-components",
+          "label": "electronic components",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-seagate-products",
+            "brand-seagate-hard-drives",
+            "brand-seagate-enterprise-drives",
+            "brand-seagate-nas-drives",
+            "brand-seagate-video-analytics",
+            "brand-seagate-gaming-drives",
+            "brand-seagate-our-story",
+            "brand-seagate-privacy"
+          ]
+        },
+        {
+          "id": "infrastructure-technologies",
+          "label": "infrastructure technologies",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-seagate-products",
+            "brand-seagate-hard-drives",
+            "brand-seagate-enterprise-drives",
+            "brand-seagate-nas-drives",
+            "brand-seagate-video-analytics",
+            "brand-seagate-gaming-drives",
+            "brand-seagate-our-story",
+            "brand-seagate-privacy"
+          ]
+        }
+      ],
+      "productGroups": [
+        "electronic components",
+        "infrastructure technologies"
+      ],
+      "families": [
+        "Exos",
+        "Nytro",
+        "IronWolf",
+        "SkyHawk",
+        "BarraCuda",
+        "FireCuda",
+        "Ultra Touch",
+        "Mozaic"
+      ],
+      "series": [
+        "Nytro 1361 Series",
+        "Nytro 5350 Series",
+        "Nytro 5550 Series",
+        "IronWolf Pro",
+        "SkyHawk AI",
+        "FireCuda 530"
+      ],
+      "industries": [
+        "telecommunications",
+        "laboratory and life-science applications"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.seagate.com/products/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.seagate.com/products/hard-drives/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.seagate.com/products/enterprise-drives/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.seagate.com/products/nas-drives/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.seagate.com/products/video-analytics/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.seagate.com/products/gaming-drives/"
+        }
+      ],
+      "logo": {
+        "status": "PUBLISHABLE",
+        "assetPath": "brand-assets/logos/seagate.svg",
+        "sourceUrl": "https://branding.seagate.com/productpage/3fc51aba-c35a-4eff-a833-a258b0440bd2",
+        "originalUrl": "https://cdn.jsdelivr.net/npm/simple-icons@16.27.1/icons/seagate.svg",
+        "sourceType": "RIGHTS_CLEARED_EXTERNAL_SOURCE",
+        "retrievedAt": "2026-08-17",
+        "checksum": "6fa1ce05134491cd92c31a977eb6af2c7efc28b804aa3dc5b002e587a7f19a25",
+        "fileType": "SVG",
+        "dimensions": {
+          "width": 24,
+          "height": 24
+        },
+        "license": "CC0-1.0 (Simple Icons)",
+        "rightsStatus": "RIGHTS_CONFIRMED",
+        "publicationStatus": "PUBLISHABLE",
+        "presentationBackground": "light"
+      },
+      "sourceRecordIds": [
+        "brand-seagate-products",
+        "brand-seagate-hard-drives",
+        "brand-seagate-enterprise-drives",
+        "brand-seagate-nas-drives",
+        "brand-seagate-video-analytics",
+        "brand-seagate-gaming-drives",
+        "brand-seagate-our-story",
+        "brand-seagate-privacy"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SEAGATE Electronic components",
+        "siteSuffix": null,
+        "metaFactual": "SEAGATE manufacturer profile covering electronic components and infrastructure technologies, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SEAGATE electronic components",
+        "secondaryIntents": [
+          "SEAGATE industrial equipment",
+          "SEAGATE sourcing",
+          "SEAGATE infrastructure technologies"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
+      "reviewStatus": {
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
+        "attemptedUrls": []
+      },
+      "completeness": {
+        "score": 100,
+        "indicator": "BRAND_COMPLETE",
+        "verificationIndependent": true,
+        "breakdown": {
+          "identitySource": 20,
+          "officialDomain": 10,
+          "logo": 10,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 10,
+          "seo": 5
+        }
+      },
+      "notes": null
     },
     {
       "id": "sed-flowcontrol",
@@ -339063,63 +340120,110 @@
     },
     {
       "id": "sofrance",
-      "canonicalName": "SOFRANCE",
-      "displayName": "SOFRANCE",
+      "canonicalName": "Safran Filtration Systems",
+      "displayName": "Safran Filtration Systems",
       "slug": "sofrance",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "aliases": [
+        "Safran Filtration Systems, Nexon Site"
+      ],
+      "formerNames": [
+        "Sofrance"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "safran-group.com",
+      "officialWebsite": "https://www.safran-group.com/locations/france/safran-filtration-systems-nexon-site-2081448",
+      "country": "France",
+      "headquarters": "Nexon, France",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Safran Landing Systems",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Official Safran Filtration Systems material documents a product scope covering filtration and water systems. The confirmed country record is France.",
+          "fullDescription": [
+            "Safran Filtration Systems is represented by manufacturer-owned evidence for filtration and water systems. The confirmed country record is France. The documented headquarters is Nexon, France. The documented corporate parent is Safran Landing Systems.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "The confirmed market and application context includes aerospace, industrial processing, and energy."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "filtration-and-water-systems",
+          "label": "filtration and water systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-sofrance-nexon-site",
+            "brand-sofrance-name-glossary-2016"
+          ]
+        }
+      ],
+      "productGroups": [
+        "filtration and water systems"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
-      "documents": [],
+      "industries": [
+        "aerospace",
+        "industrial processing",
+        "energy"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.safran-group.com/sites/default/files/2021-07/safran-ddr2016-va.pdf"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "brand-sofrance-nexon-site",
+        "brand-sofrance-name-glossary-2016"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Safran Filtration Systems Filtration and water systems",
+        "siteSuffix": null,
+        "metaFactual": "Safran Filtration Systems manufacturer profile covering filtration and water systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Safran Filtration Systems filtration and water systems",
+        "secondaryIntents": [
+          "Safran Filtration Systems industrial equipment",
+          "Safran Filtration Systems sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "Official Safran references indicate a historical SOFRANCE filtration identity, but the relevant current parent-company pages were inaccessible during validation. A current successor profile was not inferred from third-party sources.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.safran-group.com/",
-          "https://www.safran-group.com/companies/safran-filtration-systems"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 75,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "countryAndHeadquarters": 10,
+          "documents": 5,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "solartron",
@@ -347677,63 +348781,181 @@
     },
     {
       "id": "system-plast",
-      "canonicalName": "SYSTEM PLAST",
+      "canonicalName": "System Plast S.r.l.",
       "displayName": "SYSTEM PLAST",
       "slug": "system-plast",
-      "aliases": [],
+      "aliases": [
+        "System Plast",
+        "System Plast S.p.A"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "regalrexnord.com",
+      "officialWebsite": "https://www.regalrexnord.com/brands/system-plast",
+      "country": "Italy",
+      "headquarters": "Telgate, Italy",
+      "foundedYear": 1985,
+      "parentCompany": "Regal Rexnord Corporation",
       "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "System Plast product surfaces were identified on the brand and Regal Rexnord domains, but direct HTTPS verification returned HTTP 403. Distributor material was not accepted as a replacement for first-party evidence.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.systemplastsmartguide.com/",
-          "https://www.regalrexnord.com/brands/system-plast"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+        "en": {
+          "shortDescription": "Manufacturer-owned sources identify SYSTEM PLAST with conveying and material-handling systems, industrial chains, and bearings. The confirmed country record is Italy.",
+          "fullDescription": [
+            "The SYSTEM PLAST identity and product scope are established through official company and product material covering conveying and material-handling systems, industrial chains, and bearings. The confirmed country record is Italy. The documented headquarters is Telgate, Italy. Official company information dates its foundation to 1985. The documented corporate parent is Regal Rexnord Corporation.",
+            "Published families and lines include ModSort, Nolu, ValuGuide, iCOF, Extra Plus, ModSort Trident, ValuFlex, ValuTrac, SpeedSet, and Nolu-S. They provide portfolio context without replacing model-specific technical documentation.",
+            "SYSTEM PLAST materials reference food and pharmaceutical processing, packaging, logistics and warehousing, and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "categories": [
+        {
+          "id": "conveying-and-material-handling-systems",
+          "label": "conveying and material-handling systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-system-plast-brand",
+            "brand-system-plast-products",
+            "brand-system-plast-history",
+            "brand-system-plast-contact",
+            "brand-system-plast-nolu",
+            "brand-system-plast-valuguide",
+            "brand-system-plast-wear-strips"
+          ]
+        },
+        {
+          "id": "industrial-chains",
+          "label": "industrial chains",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-system-plast-brand",
+            "brand-system-plast-products",
+            "brand-system-plast-history",
+            "brand-system-plast-contact",
+            "brand-system-plast-nolu",
+            "brand-system-plast-valuguide",
+            "brand-system-plast-wear-strips"
+          ]
+        },
+        {
+          "id": "bearings",
+          "label": "bearings",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-system-plast-brand",
+            "brand-system-plast-products",
+            "brand-system-plast-history",
+            "brand-system-plast-contact",
+            "brand-system-plast-nolu",
+            "brand-system-plast-valuguide",
+            "brand-system-plast-wear-strips"
+          ]
+        }
+      ],
+      "productGroups": [
+        "conveying and material-handling systems",
+        "industrial chains",
+        "bearings"
+      ],
+      "families": [
+        "ModSort",
+        "Nolu",
+        "ValuGuide",
+        "iCOF",
+        "Extra Plus"
+      ],
+      "series": [
+        "ModSort Trident",
+        "ValuFlex",
+        "ValuTrac",
+        "SpeedSet",
+        "Nolu-S",
+        "Nolu-SR",
+        "Nolu-SX",
+        "Nolu Clean"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "packaging",
+        "logistics and warehousing",
+        "industrial processing"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.regalrexnord.com/brands/system-plast/products"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.regalrexnord.com/brands/system-plast/history"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.regalrexnord.com/brands/System-Plast/Products/ValuGuide"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.regalrexnord.com/brands/System-Plast/Products/Nolu"
+        }
+      ],
+      "logo": null,
+      "sourceRecordIds": [
+        "brand-system-plast-brand",
+        "brand-system-plast-products",
+        "brand-system-plast-history",
+        "brand-system-plast-contact",
+        "brand-system-plast-nolu",
+        "brand-system-plast-valuguide",
+        "brand-system-plast-wear-strips"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SYSTEM PLAST Conveying and material-handling systems",
+        "siteSuffix": null,
+        "metaFactual": "SYSTEM PLAST manufacturer profile covering conveying and material-handling systems, industrial chains, and bearings, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SYSTEM PLAST conveying and material-handling systems",
+        "secondaryIntents": [
+          "SYSTEM PLAST industrial equipment",
+          "SYSTEM PLAST sourcing",
+          "SYSTEM PLAST industrial chains",
+          "SYSTEM PLAST bearings"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
+      "reviewStatus": {
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
+        "attemptedUrls": []
+      },
+      "completeness": {
+        "score": 90,
+        "indicator": "BRAND_COMPLETE",
+        "verificationIndependent": true,
+        "breakdown": {
+          "identitySource": 20,
+          "officialDomain": 10,
+          "logo": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 10,
+          "seo": 5
+        }
+      },
+      "notes": null
     },
     {
       "id": "system-res",

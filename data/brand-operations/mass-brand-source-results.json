@@ -7880,19 +7880,73 @@
   },
   {
     "manufacturerId": "specken-drumag",
-    "displayName": "SPECKEN DRUMAG GMBH",
-    "status": "BRAND_REVIEW",
+    "displayName": "DRUMAG",
+    "status": "BRAND_SAFE",
     "priority": 164,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_INSUFFICIENT_OFFICIAL_SOURCE",
-      "reason": "Only secondary company material was accessible for SPECKEN-DRUMAG; no current manufacturer-owned identity and product source was verified."
+    "effortClass": "FAST",
+    "domain": "drumag.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW",
+        "url": "https://drumag.com/en/company/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE",
+        "url": "https://drumag.com/en/movement/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "B",
+        "scope": "LEGACY_BRAND_DOMAIN_REDIRECT",
+        "url": "https://specken-drumag.com/en/company/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pneumatic equipment",
+        "hydraulic equipment",
+        "industrial valves and flow control",
+        "compressors and compressed-air systems",
+        "industrial automation and control"
+      ],
+      "families": [
+        "COMBOBOX",
+        "HPE hydropneumatic feed unit",
+        "HPL-B hydropneumatic feed unit",
+        "HPU pressure intensifier",
+        "HPW air-oil actuator",
+        "HPZL hydropneumatic cylinder",
+        "DSO-HPE rotary actuator",
+        "M Microcylinder",
+        "OV Oval cylinders",
+        "RT Telescopic cylinders",
+        "S Rodless cylinder",
+        "W Short-stroke cylinders",
+        "ERC3 Electric cylinder",
+        "RCD Electric cylinder",
+        "RCP5 Electric cylinder"
+      ],
+      "industries": [
+        "industrial processing",
+        "energy",
+        "industrial manufacturing",
+        "packaging",
+        "agriculture"
+      ],
+      "country": "Germany",
+      "headquarters": "Bad Säckingen, Germany"
     },
-    "checkedAt": "2026-08-19",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -16066,18 +16120,72 @@
   },
   {
     "manufacturerId": "urlinski",
-    "displayName": "URLINSKI",
-    "status": "BRAND_REVIEW",
+    "displayName": "URLIŃSKI",
+    "status": "BRAND_SAFE",
     "priority": 329,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE"
+    "effortClass": "FAST",
+    "domain": "urlinski.com.pl",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "ABOUT_COMPANY",
+        "url": "https://en.urlinski.com.pl/about-us/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "LEGAL_NAME_AND_ADDRESS",
+        "url": "https://en.urlinski.com.pl/contact/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_COSMETICS",
+        "url": "https://en.urlinski.com.pl/cosmetics/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_PHARMACY",
+        "url": "https://en.urlinski.com.pl/pharmacy/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial mixing equipment",
+        "industrial machinery",
+        "laboratory and analytical equipment",
+        "process equipment"
+      ],
+      "families": [
+        "MZUTL",
+        "MZUTS",
+        "MZUT",
+        "MM-ZUT",
+        "MHZ",
+        "MZUT-EMBF",
+        "MF-L",
+        "MW-P",
+        "MP",
+        "MS",
+        "ZB"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "industrial processing"
+      ],
+      "country": "Poland",
+      "headquarters": "Warszawa, Poland"
     },
-    "checkedAt": null,
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -69664,18 +69772,47 @@
   {
     "manufacturerId": "esq",
     "displayName": "ESQ",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 1406,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "reason": "Only reseller-controlled pages were found for the ESQ record. No manufacturer-owned company or product source was available to prove canonical identity and specialization."
+    "effortClass": "FAST",
+    "domain": "elcomspb.ru",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_PROFILE_AND_LEGAL_DETAILS",
+        "url": "https://www.elcomspb.ru/about/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE",
+        "url": "https://www.elcomspb.ru/retail/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electric motors",
+        "industrial automation and control",
+        "pumps and pumping systems",
+        "gear units and geared drives"
+      ],
+      "families": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy",
+        "oil and gas"
+      ],
+      "country": "Russia",
+      "headquarters": "Saint Petersburg, Russia"
     },
-    "checkedAt": "2026-08-24",
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
     "nextReviewAt": null
   },
   {
@@ -83362,20 +83499,68 @@
   },
   {
     "manufacturerId": "jaron-technologies",
-    "displayName": "JARON TECHNOLOGIES",
-    "status": "BRAND_REVIEW",
+    "displayName": "Jaron Technologies",
+    "status": "BRAND_SAFE",
     "priority": 1741,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "No reachable manufacturer-owned domain or explicit current parent-company source was found for Jaron Technologies. Secondary directory and resale references do not satisfy the identity gate."
+    "effortClass": "FAST",
+    "domain": "jarontech.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW",
+        "url": "https://jarontech.com/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "ABOUT_COMPANY",
+        "url": "https://jarontech.com/index_files/Page482.htm",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "PRODUCT_LIST",
+        "url": "https://jarontech.com/index_files/Page789.htm",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "CONTACT_AND_ADDRESS",
+        "url": "https://jarontech.com/index_files/Page634.htm",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "measurement and instrumentation",
+        "laboratory and analytical equipment"
+      ],
+      "families": [
+        "Carbon Black Press",
+        "Mass Strength Tester",
+        "Individual Pellet Hardness Tester",
+        "Portable Sieve Residue Tester",
+        "Multiple Station Sieve Residue Tester",
+        "Void Volume Tester",
+        "Stainless Steel OAN Bowls",
+        "Stainless Steel Paddles for OAN testers"
+      ],
+      "industries": [
+        "chemical processing",
+        "industrial processing"
+      ],
+      "country": "US",
+      "headquarters": "Pampa, Texas, United States"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "jaure-kop-flex",
@@ -94030,20 +94215,39 @@
   },
   {
     "manufacturerId": "moeller-eaton",
-    "displayName": "MOELLER ELECTRIC (EATON)",
-    "status": "BRAND_REVIEW",
+    "displayName": "Moeller (Eaton)",
+    "status": "BRAND_SAFE",
     "priority": 1994,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The official Eaton Moeller HTTPS product page did not complete a normal release-verifier request and timed out. The series identity is clear, but unavailable evidence is not promoted automatically."
+    "effortClass": "FAST",
+    "domain": "eaton.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_HERITAGE",
+        "url": "https://www.eaton.com/us/en-us/company/about-us/our-heritage/klockner-moeller-moeller.html",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial automation and control",
+        "electrical equipment"
+      ],
+      "families": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "construction"
+      ],
+      "country": "Germany",
+      "headquarters": null
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "mogensen",
@@ -105449,19 +105653,35 @@
   {
     "manufacturerId": "rs-seliger",
     "displayName": "ROMAN SELIGER",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2272,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The official Roman Seliger site did not complete an HTTPS response during release verification. No reseller source was promoted in its place."
+    "effortClass": "FAST",
+    "domain": "staubli.com",
+    "sources": [
+      {
+        "type": "PRESS_RELEASE",
+        "tier": "A",
+        "scope": "ACQUISITION_ANNOUNCEMENT_AND_PRODUCT_SPECIALISATION",
+        "url": "https://assets.staubli.com/user_upload/MR_Staubli_RS_RomanSeliger_Armaturenfabrik_GmbH_EN.pdf",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "brakes and couplings"
+      ],
+      "families": [],
+      "industries": [
+        "oil and gas"
+      ],
+      "country": "Germany",
+      "headquarters": "Norderstedt, Germany"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "romess",
@@ -105559,19 +105779,73 @@
   {
     "manufacturerId": "roots",
     "displayName": "ROOTS",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2275,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The current ROOTS manufacturer site returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was used for publication."
+    "effortClass": "FAST",
+    "domain": "rootsblower.com",
+    "sources": [
+      {
+        "type": "HISTORY_PAGE",
+        "tier": "A",
+        "scope": "COMPANY_HISTORY_AND_OWNERSHIP",
+        "url": "https://www.rootsblower.com/en/about-us/history/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "ABOUT_PAGE",
+        "tier": "A",
+        "scope": "COMPANY_AGE_AND_APPLICATIONS",
+        "url": "https://www.rootsblower.com/en/about-us/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE_AND_SERIES_NAMES",
+        "url": "https://www.rootsblower.com/en/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_PAGE",
+        "tier": "A",
+        "scope": "LEGAL_ENTITY_NAME",
+        "url": "https://www.rootsblower.com/en/terms-and-conditions/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "industrial fans and blowers",
+        "compressors and compressed-air systems",
+        "vacuum equipment"
+      ],
+      "families": [
+        "PD Blowers",
+        "URAI Series",
+        "RAM Blower Series",
+        "RCS Blower Series",
+        "RAS/RGS Blowers",
+        "Roots Flo Blower and Vacuum",
+        "Centrifugal Compressors",
+        "Truck Blowers"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "water and wastewater",
+        "wood and paper processing",
+        "oil and gas"
+      ],
+      "country": "United States",
+      "headquarters": "Connersville, Indiana, United States"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "ropex",
@@ -107389,19 +107663,78 @@
   {
     "manufacturerId": "samoa",
     "displayName": "SAMOA",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2321,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "SAMOA Industrial's official product pages returned HTTP 403 during release verification. The restriction was respected and cached search text was not promoted to AVAILABLE evidence."
+    "effortClass": "FAST",
+    "domain": "samoaindustrial.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_HISTORY",
+        "url": "https://www.samoaindustrial.com/en/history",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_LINES_AND_HEADQUARTERS",
+        "url": "https://www.samoaindustrial.com/en/products",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_PRODUCT_CATEGORY",
+        "tier": "A",
+        "scope": "LUBRICATION_EQUIPMENT_CATEGORIES",
+        "url": "https://www.samoaindustrial.com/g/lubrication-equipment",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_NOTICE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_REGISTERED_OFFICE",
+        "url": "https://www.samoaindustrial.com/en/legal",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "pumps and pumping systems",
+        "pneumatic equipment",
+        "industrial valves and flow control",
+        "industrial automation and control"
+      ],
+      "families": [
+        "Lubrication equipment",
+        "Process pumps",
+        "Applied industrial fluid solutions",
+        "Pneumatic piston pumps",
+        "Pneumatic diaphragm pumps",
+        "Hand-held equipment",
+        "Electric pumps",
+        "Reels",
+        "Dispensing valves",
+        "Mobile units and packages",
+        "Electronic fluid management systems",
+        "Waste fluid management",
+        "Spare parts"
+      ],
+      "industries": [
+        "industrial processing",
+        "transportation",
+        "oil and gas",
+        "marine applications",
+        "energy",
+        "construction"
+      ],
+      "country": "Spain",
+      "headquarters": "Gijón, Spain"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "samsung",
@@ -107955,19 +108288,46 @@
   {
     "manufacturerId": "schaffner",
     "displayName": "SCHAFFNER",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2335,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Schaffner's current official TE Connectivity brand and product pages returned HTTP 403 during release verification. Cached snippets were not used as AVAILABLE publication evidence."
+    "effortClass": "FAST",
+    "domain": "te.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_OVERVIEW",
+        "url": "https://www.te.com/en/products/brands/schaffner.html",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electrical equipment",
+        "electronic components"
+      ],
+      "families": [
+        "EMC Filters",
+        "EMC Chokes",
+        "Power Quality",
+        "Custom EMI Solutions"
+      ],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing",
+        "energy",
+        "transportation",
+        "factory automation",
+        "laboratory and life-science applications"
+      ],
+      "country": null,
+      "headquarters": null
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "schaltbau",
@@ -108220,19 +108580,85 @@
   {
     "manufacturerId": "schlick",
     "displayName": "SCHLICK",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2341,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "The apparent manufacturer-owned SCHLICK nozzle site returned an HTTPS edge error during repeated verification, so identity and product scope could not be released safely."
+    "effortClass": "FAST",
+    "domain": "myschlick.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW_AND_PORTFOLIO",
+        "url": "https://myschlick.com/en",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_CATALOG",
+        "tier": "A",
+        "scope": "NOZZLE_PRODUCT_RANGE",
+        "url": "https://myschlick.com/en/products",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "ANTI_BEARDING_TECHNOLOGY_AND_MODELS",
+        "url": "https://myschlick.com/en/products/models/anti-bearding-technology",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_PAGE",
+        "tier": "A",
+        "scope": "EHS_HIGH_PRESSURE_RANGE",
+        "url": "https://myschlick.com/en/ehs-products",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "COMPANY_PAGE",
+        "tier": "A",
+        "scope": "TEST_AND_RESEARCH_INFRASTRUCTURE",
+        "url": "https://myschlick.com/en/test-and-research",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_NOTICE",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
+        "url": "https://myschlick.com/en/imprint",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "coating and finishing equipment",
+        "filling and packaging machinery",
+        "industrial cleaning systems"
+      ],
+      "families": [
+        "Anti-Bearding Technology",
+        "Professional Coating Arm (PCA)",
+        "Spray-unit",
+        "Two-substance nozzles",
+        "Three- and four-substance nozzles",
+        "Pressure nozzles",
+        "(Tank-) Cleaning nozzles",
+        "Dosing Systems",
+        "EHS Products"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "chemical processing",
+        "industrial processing",
+        "agriculture"
+      ],
+      "country": "Germany",
+      "headquarters": "Untersiemau, Germany"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "schmidt-kupplung",
@@ -108707,19 +109133,95 @@
   {
     "manufacturerId": "seagate",
     "displayName": "SEAGATE",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2354,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "PUBLISHABLE",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Seagate's official product directory returned HTTP 429 during release verification. Rate limiting was respected and no secondary source was substituted."
+    "effortClass": "FAST",
+    "domain": "seagate.com",
+    "sources": [
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FULL_PRODUCT_DIRECTORY",
+        "url": "https://www.seagate.com/products/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.seagate.com/products/hard-drives/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY_AND_SERIES",
+        "url": "https://www.seagate.com/products/enterprise-drives/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.seagate.com/products/nas-drives/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.seagate.com/products/video-analytics/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "FAMILY_CATEGORY",
+        "url": "https://www.seagate.com/products/gaming-drives/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "ABOUT",
+        "tier": "A",
+        "scope": "COMPANY_OVERVIEW",
+        "url": "https://www.seagate.com/our-story/",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
+        "url": "https://www.seagate.com/legal/privacy/privacy-policy/",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "electronic components",
+        "infrastructure technologies"
+      ],
+      "families": [
+        "Exos",
+        "Nytro",
+        "IronWolf",
+        "SkyHawk",
+        "BarraCuda",
+        "FireCuda",
+        "Ultra Touch",
+        "Mozaic"
+      ],
+      "industries": [
+        "telecommunications",
+        "laboratory and life-science applications"
+      ],
+      "country": "United States",
+      "headquarters": "Fremont, California, United States"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "PUBLISHABLE",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "sed-flowcontrol",
@@ -111854,20 +112356,45 @@
   },
   {
     "manufacturerId": "sofrance",
-    "displayName": "SOFRANCE",
-    "status": "BRAND_REVIEW",
+    "displayName": "Safran Filtration Systems",
+    "status": "BRAND_SAFE",
     "priority": 2433,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "Official Safran references indicate a historical SOFRANCE filtration identity, but the relevant current parent-company pages were inaccessible during validation. A current successor profile was not inferred from third-party sources."
+    "effortClass": "FAST",
+    "domain": "safran-group.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "INDUSTRIAL_SITE_PROFILE",
+        "url": "https://www.safran-group.com/locations/france/safran-filtration-systems-nexon-site-2081448",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_DOCUMENT",
+        "tier": "A",
+        "scope": "CORPORATE_NAME_HISTORY",
+        "url": "https://www.safran-group.com/sites/default/files/2021-07/safran-ddr2016-va.pdf",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "filtration and water systems"
+      ],
+      "families": [],
+      "industries": [
+        "aerospace",
+        "industrial processing",
+        "energy"
+      ],
+      "country": "France",
+      "headquarters": "Nexon, France"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "solartron",
@@ -114753,19 +115280,88 @@
   {
     "manufacturerId": "system-plast",
     "displayName": "SYSTEM PLAST",
-    "status": "BRAND_REVIEW",
+    "status": "BRAND_SAFE",
     "priority": 2498,
-    "effortClass": "BLOCKED",
-    "domain": null,
-    "sources": [],
-    "facts": null,
-    "logoStatus": "MISSING",
-    "blocker": {
-      "code": "BLOCKED_EXTERNAL_SOURCE",
-      "reason": "System Plast product surfaces were identified on the brand and Regal Rexnord domains, but direct HTTPS verification returned HTTP 403. Distributor material was not accepted as a replacement for first-party evidence."
+    "effortClass": "FAST",
+    "domain": "regalrexnord.com",
+    "sources": [
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "BRAND_OVERVIEW",
+        "url": "https://www.regalrexnord.com/brands/system-plast",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "PRODUCT_DIRECTORY",
+        "tier": "A",
+        "scope": "PRODUCT_RANGE",
+        "url": "https://www.regalrexnord.com/brands/system-plast/products",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "COMPANY_HISTORY_PAGE",
+        "tier": "A",
+        "scope": "COMPANY_HISTORY",
+        "url": "https://www.regalrexnord.com/brands/system-plast/history",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "LEGAL_NOTICE_AND_CONTACT",
+        "tier": "A",
+        "scope": "LEGAL_IDENTITY_AND_HEADQUARTERS",
+        "url": "https://www.regalrexnord.com/brands/system-plast/contact",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_FAMILY_NOLU",
+        "url": "https://www.regalrexnord.com/brands/System-Plast/Products/Nolu",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_FAMILY_VALUGUIDE",
+        "url": "https://www.regalrexnord.com/brands/System-Plast/Products/ValuGuide",
+        "checkedAt": "2026-09-03"
+      },
+      {
+        "type": "OFFICIAL_WEBSITE",
+        "tier": "A",
+        "scope": "PRODUCT_SERIES_NOLU_S",
+        "url": "https://www.regalrexnord.com/regal-rexnord-insights/system-plast-wear-strips",
+        "checkedAt": "2026-09-03"
+      }
+    ],
+    "facts": {
+      "identity": true,
+      "specialization": [
+        "conveying and material-handling systems",
+        "industrial chains",
+        "bearings"
+      ],
+      "families": [
+        "ModSort",
+        "Nolu",
+        "ValuGuide",
+        "iCOF",
+        "Extra Plus"
+      ],
+      "industries": [
+        "food and pharmaceutical processing",
+        "packaging",
+        "logistics and warehousing",
+        "industrial processing"
+      ],
+      "country": "Italy",
+      "headquarters": "Telgate, Italy"
     },
-    "checkedAt": "2026-08-24",
-    "nextReviewAt": "2026-09-19"
+    "logoStatus": "MISSING",
+    "blocker": null,
+    "checkedAt": "2026-09-03",
+    "nextReviewAt": null
   },
   {
     "manufacturerId": "system-res",

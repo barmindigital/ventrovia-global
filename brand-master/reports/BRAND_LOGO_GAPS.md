@@ -2,15 +2,15 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-- SAFE brands: 2366
-- SAFE with publishable identity-matched logo: 2062
-- SAFE without logo: 304
-- Registry mappings excluded because identity is not SAFE: 35
+- SAFE brands: 2379
+- SAFE with publishable identity-matched logo: 2065
+- SAFE without logo: 314
+- Registry mappings excluded because identity is not SAFE: 32
 
 ## Priority distribution
 
-- HIGH: 303
-- NORMAL: 1
+- HIGH: 312
+- NORMAL: 2
 
 ## First 100 gaps
 
@@ -26,6 +26,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Pedrollo (`pedrollo`) — pedrollo.com
 - Liverani (`liverani`) — liverani.com
 - Hamworthy (`hamworthy`) — hamworthy.com
+- DRUMAG (`specken-drumag`) — drumag.com
 - Waukesha Cherry-Burrell (`waukesha`) — spxflow.com
 - Champion Pneumatic (`champion`) — championpneumatic.com
 - Gefran (`gefran`) — gefran.com
@@ -47,6 +48,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - Dynisco (`dynisco`) — dynisco.com
 - Hankison (`hankison`) — hankisonair.com
 - LTN Servotechnik (`ltn-servotechnik`) — heidenhain.de
+- URLIŃSKI (`urlinski`) — urlinski.com.pl
 - Welch (`welch-vacuum`) — welchvacuum.com
 - GEMELS (`gemels`) — gemels.com
 - Nicotra Gebhardt (`nicotra`) — nicotra-gebhardt.com
@@ -112,7 +114,5 @@ Generated: 2026-08-24T00:00:00.000Z
 - SCHAUDT (`schaudt`) — grinding.com
 - YTRON (`ytron`) — ytron.com
 - Thomas (`thomas`) — thomaspumps.com
-- HSD (`hsd`) — hsdmechatronics.com
-- KRANZ KUHRMEIER (`kranz-kuhrmeier`) — kranz-packungen.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.
