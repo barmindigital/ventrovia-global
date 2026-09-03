@@ -5,7 +5,7 @@
   "framework": null,
   "siteBrand": null,
   "sourceScope": "INDEPENDENT_MANUFACTURER_BRAND_KNOWLEDGE",
-  "totalBrands": 2735,
+  "totalBrands": 2730,
   "brands": [
     {
       "id": "bosch-rexroth",
@@ -2806,63 +2806,104 @@
     },
     {
       "id": "pragati",
-      "canonicalName": "PRAGATI",
-      "displayName": "PRAGATI",
+      "canonicalName": "Pragati Automation Pvt. Ltd.",
+      "displayName": "Pragati Automation",
       "slug": "pragati",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "pragati-automation.com",
+      "officialWebsite": "https://www.pragati-automation.com/",
+      "country": "India",
+      "headquarters": "Peenya Industrial Area, Bangalore 560058, India",
+      "foundedYear": 1977,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Manufacturer-owned sources identify Pragati Automation with industrial machinery. The confirmed country record is India.",
+          "fullDescription": [
+            "The Pragati Automation identity and product scope are established through official company and product material covering industrial machinery. The confirmed country record is India. The documented headquarters is Peenya Industrial Area, Bangalore 560058, India. Official company information dates its foundation to 1977.",
+            "Published families and lines include ATC (Automatic Tool Changer). They provide portfolio context without replacing model-specific technical documentation.",
+            "Pragati Automation materials reference industrial manufacturing and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "industrial-machinery",
+          "label": "industrial machinery",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "pragati-atc-drum-vmc",
+            "pragati-about",
+            "pragati-contact"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial machinery"
+      ],
+      "families": [
+        "ATC (Automatic Tool Changer)"
+      ],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-17",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "pragati-atc-drum-vmc",
+        "pragati-about",
+        "pragati-contact"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Pragati Automation Industrial machinery",
+        "siteSuffix": null,
+        "metaFactual": "Pragati Automation manufacturer profile covering industrial machinery, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Pragati Automation industrial machinery",
+        "secondaryIntents": [
+          "Pragati Automation industrial equipment",
+          "Pragati Automation sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-        "reason": "The historical name Pragati can refer to unrelated machine-tool and automation manufacturers; the local entity cannot yet be tied to one official company without stronger evidence.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://pragatimachines.com/",
-          "https://pragati-automation.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "vemat-motori",
@@ -11104,60 +11145,179 @@
     },
     {
       "id": "invent",
-      "canonicalName": "INVENT",
-      "displayName": "INVENT",
+      "canonicalName": "Invent Armaturen AG",
+      "displayName": "Invent Armaturen AG",
       "slug": "invent",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "invent-armaturen.ch",
+      "officialWebsite": "https://www.invent-armaturen.ch/",
+      "country": "Switzerland",
+      "headquarters": "Bellach, Switzerland",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "The source-backed Invent Armaturen AG portfolio covers pumps and pumping systems, industrial valves and flow control, and filtration and water systems. The confirmed country record is Switzerland.",
+          "fullDescription": [
+            "Invent Armaturen AG is documented through first-party sources that describe pumps and pumping systems, industrial valves and flow control, and filtration and water systems. The confirmed country record is Switzerland. The documented headquarters is Bellach, Switzerland.",
+            "Invent Armaturen AG publishes information for Prozess-Pumpen (technological pumps), Standard-/Spezial-/Absperr-Armaturen (valves), Pumpenschutz-Armaturen (pump protection valves), Nieder- und Hochdruck Filter/Schmutzfänger (low/high-pressure strainers), JEX, 2CDX/CDX, EVM, LPS, LMR/SNL, and LN/L. These names are retained as source-backed family data rather than as model-level specifications.",
+            "Documented application contexts include chemical processing, food and pharmaceutical processing, wood and paper processing, and energy."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
+      "categories": [
+        {
+          "id": "pumps-and-pumping-systems",
+          "label": "pumps and pumping systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "invent-armaturen-home",
+            "invent-armaturen-vorwort",
+            "invent-armaturen-impressum",
+            "invent-armaturen-prozess-pumpen",
+            "invent-armaturen-haus-pumpen",
+            "invent-armaturen-hd-filter",
+            "invent-armaturen-pumpenschutz"
+          ]
+        },
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "invent-armaturen-home",
+            "invent-armaturen-vorwort",
+            "invent-armaturen-impressum",
+            "invent-armaturen-prozess-pumpen",
+            "invent-armaturen-haus-pumpen",
+            "invent-armaturen-hd-filter",
+            "invent-armaturen-pumpenschutz"
+          ]
+        },
+        {
+          "id": "filtration-and-water-systems",
+          "label": "filtration and water systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "invent-armaturen-home",
+            "invent-armaturen-vorwort",
+            "invent-armaturen-impressum",
+            "invent-armaturen-prozess-pumpen",
+            "invent-armaturen-haus-pumpen",
+            "invent-armaturen-hd-filter",
+            "invent-armaturen-pumpenschutz"
+          ]
+        }
+      ],
+      "productGroups": [
+        "pumps and pumping systems",
+        "industrial valves and flow control",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Prozess-Pumpen (technological pumps)",
+        "Standard-/Spezial-/Absperr-Armaturen (valves)",
+        "Pumpenschutz-Armaturen (pump protection valves)",
+        "Nieder- und Hochdruck Filter/Schmutzfänger (low/high-pressure strainers)"
+      ],
+      "series": [
+        "JEX",
+        "2CDX/CDX",
+        "EVM",
+        "LPS",
+        "LMR/SNL",
+        "LN/L",
+        "LSN",
+        "LS/LC/LCP",
+        "LSB",
+        "KS",
+        "MP/MPA/MPB/MPV",
+        "MRM",
+        "ND 551",
+        "ND 552",
+        "NHD 553",
+        "NHD 554",
+        "HD 555",
+        "HD 556"
+      ],
+      "industries": [
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "wood and paper processing",
+        "energy"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.invent-armaturen.ch/de/systemübersicht"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.invent-armaturen.ch/sites/default/files/produkte/pdf/InventArmaturen_Broschüre.pdf"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-19",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "invent-armaturen-home",
+        "invent-armaturen-vorwort",
+        "invent-armaturen-impressum",
+        "invent-armaturen-prozess-pumpen",
+        "invent-armaturen-haus-pumpen",
+        "invent-armaturen-hd-filter",
+        "invent-armaturen-pumpenschutz"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Invent Armaturen AG Pumps and pumping systems",
+        "siteSuffix": null,
+        "metaFactual": "Invent Armaturen AG manufacturer profile covering pumps and pumping systems, industrial valves and flow control, and filtration and water systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Invent Armaturen AG pumps and pumping systems",
+        "secondaryIntents": [
+          "Invent Armaturen AG industrial equipment",
+          "Invent Armaturen AG sourcing",
+          "Invent Armaturen AG industrial valves and flow control",
+          "Invent Armaturen AG filtration and water systems"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "INVENT is shared by unrelated companies and the local record has no independent identifier that proves a single industrial manufacturer.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
+        "score": 90,
+        "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 10,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "asco-numatics",
@@ -29880,15 +30040,15 @@
       "officialDomain": "esapyronics.com",
       "officialWebsite": "https://www.esapyronics.com/",
       "country": "Italy",
-      "headquarters": null,
+      "headquarters": "Curno (Bergamo), Italy",
       "foundedYear": 1977,
       "parentCompany": "SIAD Group",
       "descriptions": {
         "en": {
           "shortDescription": "First-party sources establish ESA Pyronics in industrial automation and control, industrial valves and flow control, and thermal-management equipment. Official company information dates its foundation to 1977.",
           "fullDescription": [
-            "The confirmed ESA Pyronics record is based on official sources for industrial automation and control, industrial valves and flow control, and thermal-management equipment. The confirmed country record is Italy. Official company information dates its foundation to 1977. The documented corporate parent is SIAD Group.",
-            "The documented product structure includes Industrial Burners, Burner Controls, Solenoid Valves and Regulators, Combustion Instruments, and Combustion Automation Systems. Family membership alone does not establish a model's configuration, compatibility or current production status.",
+            "The confirmed ESA Pyronics record is based on official sources for industrial automation and control, industrial valves and flow control, and thermal-management equipment. The confirmed country record is Italy. The documented headquarters is Curno (Bergamo), Italy. Official company information dates its foundation to 1977. The documented corporate parent is SIAD Group.",
+            "The documented product structure includes Industrial Burners, Burner Controls, Solenoid Valves and Regulators, Combustion Instruments, Combustion Automation Systems, ESTRO, GENIO, TARC-II, DPG/E, and UV2. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span industrial processing, industrial manufacturing, and energy."
           ],
           "language": "en",
@@ -29940,7 +30100,16 @@
         "Combustion Instruments",
         "Combustion Automation Systems"
       ],
-      "series": [],
+      "series": [
+        "ESTRO",
+        "GENIO",
+        "TARC-II",
+        "DPG/E",
+        "UV2",
+        "MRBV",
+        "TBV",
+        "WBV"
+      ],
       "industries": [
         "industrial processing",
         "industrial manufacturing",
@@ -30004,7 +30173,7 @@
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 95,
+        "score": 100,
         "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
@@ -30014,7 +30183,7 @@
           "description": 15,
           "categories": 10,
           "families": 10,
-          "countryAndHeadquarters": 5,
+          "countryAndHeadquarters": 10,
           "documents": 10,
           "seo": 5
         }
@@ -69529,67 +69698,138 @@
     },
     {
       "id": "econosto",
-      "canonicalName": "ECONOSTO",
+      "canonicalName": "ECONOSTO Oy",
       "displayName": "ECONOSTO",
       "slug": "econosto",
-      "aliases": [],
+      "aliases": [
+        "ECONOSTO Oy",
+        "Econosto"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "econosto.fi",
+      "officialWebsite": "https://www.econosto.fi/en/",
+      "country": "Finland",
+      "headquarters": "Kuopio, Finland",
+      "foundedYear": 1987,
+      "parentCompany": "KLINGER Finland",
       "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-19",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "ACQUISITION_OR_LEGACY",
-        "reason": "The generic repository identity ECONOSTO cannot be bound safely to one current manufacturer. Official manufacturer-owned sources identify ECONOSTO Oy in Kuopio, Finland, as a valve supplier within KLINGER Finland, while separate official sources identify Siekmann Econosto GmbH in Dortmund, Germany, as an industrial-valve manufacturer and supplier within ERIKS. The repository record has no domain, legal name, country, alias or product-scope discriminator that selects one of these distinct current entities or the wider Royal Econosto legacy.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.econosto.fi/en/",
-          "https://www.econosto.fi/en/company/",
-          "https://www.econosto.fi/en/products/",
-          "https://siekmann-econosto.de/en/",
-          "https://siekmann-econosto.de/en/about-us/",
-          "https://www.siekmann-econosto.de/en/geschichte/"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+        "en": {
+          "shortDescription": "First-party sources establish ECONOSTO in industrial valves and flow control and lifting and crane systems. Official company information dates its foundation to 1987.",
+          "fullDescription": [
+            "The confirmed ECONOSTO record is based on official sources for industrial valves and flow control and lifting and crane systems. The confirmed country record is Finland. The documented headquarters is Kuopio, Finland. Official company information dates its foundation to 1987. The documented corporate parent is KLINGER Finland.",
+            "The documented product structure includes Butterfly Valves, Ball Valves, Knife Gate Valves, Check Valves, Safety Valves, Pressure Reducing Valves, Wedge Gate Valve, Soft Sealing Gate Valve, and Pneumatic and Electric Control Valves. Family membership alone does not establish a model's configuration, compatibility or current production status.",
+            "Published applications span industrial processing, marine applications, and water and wastewater."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "categories": [
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-econosto-company",
+            "brand-econosto-products",
+            "brand-klinger-finland-econosto-acquisition"
+          ]
+        },
+        {
+          "id": "lifting-and-crane-systems",
+          "label": "lifting and crane systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-econosto-company",
+            "brand-econosto-products",
+            "brand-klinger-finland-econosto-acquisition"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial valves and flow control",
+        "lifting and crane systems"
+      ],
+      "families": [
+        "Butterfly Valves",
+        "Ball Valves",
+        "Knife Gate Valves",
+        "Check Valves",
+        "Safety Valves",
+        "Pressure Reducing Valves",
+        "Wedge Gate Valve",
+        "Soft Sealing Gate Valve",
+        "Pneumatic and Electric Control Valves"
+      ],
+      "series": [],
+      "industries": [
+        "industrial processing",
+        "marine applications",
+        "water and wastewater"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.econosto.fi/en/products/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://klinger.fi/en/klinger-finland-acquires-econosto-oy"
+        }
+      ],
+      "logo": null,
+      "sourceRecordIds": [
+        "brand-econosto-company",
+        "brand-econosto-products",
+        "brand-klinger-finland-econosto-acquisition"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "ECONOSTO Industrial valves and flow control",
+        "siteSuffix": null,
+        "metaFactual": "ECONOSTO manufacturer profile covering industrial valves and flow control and lifting and crane systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "ECONOSTO industrial valves and flow control",
+        "secondaryIntents": [
+          "ECONOSTO industrial equipment",
+          "ECONOSTO sourcing",
+          "ECONOSTO lifting and crane systems"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
+      "reviewStatus": {
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
+        "detail": null,
+        "attemptedUrls": []
+      },
+      "completeness": {
+        "score": 90,
+        "indicator": "BRAND_COMPLETE",
+        "verificationIndependent": true,
+        "breakdown": {
+          "identitySource": 20,
+          "officialDomain": 10,
+          "logo": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
+          "documents": 10,
+          "seo": 5
+        }
+      },
+      "notes": null
     },
     {
       "id": "elephant-brakes",
@@ -71444,68 +71684,6 @@
         }
       },
       "notes": null
-    },
-    {
-      "id": "fam",
-      "canonicalName": "FAM",
-      "displayName": "FAM",
-      "slug": "fam",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-19",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "The short repository identity FAM cannot be bound safely to one manufacturer. Official sources identify FAM Minerals & Mining GmbH as a BEUMER Group bulk-material and mining-systems company, while the unrelated FAM brand within FAM STUMABO manufactures industrial food-cutting equipment. The repository record has no official domain, legal name, country or product-scope discriminator that selects one of these active identities.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.beumergroup.com/about-us/fam/",
-          "https://www.beumergroup.com/press/beumer-group-acquires-full-control-of-the-fam-group-of-magdeburg/",
-          "https://fam-stumabo.com/news-events/fam-stumabo-unveils-new-logo-and-a-brand-new-website/",
-          "https://fam-stumabo.com/legal-disclaimer/"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
-        }
-      },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
     },
     {
       "id": "faulhaber-gmbh",
@@ -77051,69 +77229,6 @@
         }
       },
       "notes": null
-    },
-    {
-      "id": "lta",
-      "canonicalName": "LTA",
-      "displayName": "LTA",
-      "slug": "lta",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-19",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "The short repository identity LTA cannot be resolved to one manufacturer without an independent discriminator. LTA Lufttechnik GmbH manufactures industrial filtration and extraction systems, while unrelated active businesses use LTA for CNC machining, poultry-processing equipment and engineered inflatable structures. The repository record contains no official domain, alias or product scope that proves the intended entity.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.lta-filter.com/en/",
-          "https://www.lta-filter.com/en/imprint/",
-          "https://lta-machining.com/",
-          "https://www.ltadistributing.com/",
-          "https://www.ltaprojects.com/projects/"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
-        }
-      },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
     },
     {
       "id": "mankenberg",
@@ -95363,63 +95478,131 @@
     },
     {
       "id": "seco",
-      "canonicalName": "SECO",
+      "canonicalName": "Seco Tools AB",
       "displayName": "SECO",
       "slug": "seco",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "secotools.com",
+      "officialWebsite": "https://www.secotools.com/",
+      "country": "Sweden",
+      "headquarters": "Fagersta, Sweden",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Sandvik AB",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "First-party sources establish SECO in industrial tools and contract manufacturing and fabrication. The confirmed country record is Sweden.",
+          "fullDescription": [
+            "The confirmed SECO record is based on official sources for industrial tools and contract manufacturing and fabrication. The confirmed country record is Sweden. The documented headquarters is Fagersta, Sweden. The documented corporate parent is Sandvik AB.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "Published applications span industrial manufacturing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "industrial-tools",
+          "label": "industrial tools",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "seco-profile",
+            "seco-milling",
+            "seco-model-page"
+          ]
+        },
+        {
+          "id": "contract-manufacturing-and-fabrication",
+          "label": "contract manufacturing and fabrication",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "seco-profile",
+            "seco-milling",
+            "seco-model-page"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial tools",
+        "contract manufacturing and fabrication"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial manufacturing"
+      ],
       "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-20",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "logo": {
+        "status": "PUBLISHABLE",
+        "assetPath": "brand-assets/logos/seco.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seco_Logo.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Seco_Logo.svg",
+        "sourceType": "RIGHTS_CLEARED_EXTERNAL_SOURCE",
+        "retrievedAt": "2026-08-17",
+        "checksum": "ab2b8158a06c3e1506533df367e49bc975be7c7271af0325bc03049f9ba84211",
+        "fileType": "SVG",
+        "dimensions": {
+          "width": 503.23,
+          "height": 103.6
+        },
+        "license": "Public domain (Wikimedia Commons)",
+        "rightsStatus": "RIGHTS_CONFIRMED",
+        "publicationStatus": "PUBLISHABLE",
+        "presentationBackground": "light"
+      },
+      "sourceRecordIds": [
+        "seco-profile",
+        "seco-milling",
+        "seco-model-page"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SECO Industrial tools",
+        "siteSuffix": null,
+        "metaFactual": "SECO manufacturer profile covering industrial tools and contract manufacturing and fabrication, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SECO industrial tools",
+        "secondaryIntents": [
+          "SECO industrial equipment",
+          "SECO sourcing",
+          "SECO contract manufacturing and fabrication"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "SECO resolves to multiple unrelated manufacturer-owned businesses, including Seco cutting tools and SECO laboratory equipment. The record lacks a product or legal-entity discriminator.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.secotools.com/",
-          "https://www.secoeng.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 10,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 10,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "sterling-sihi",
@@ -95678,63 +95861,6 @@
         }
       },
       "notes": null
-    },
-    {
-      "id": "vector-pumps",
-      "canonicalName": "VECTOR",
-      "displayName": "VECTOR",
-      "slug": "vector-pumps",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-20",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "The generic name VECTOR PUMPS did not resolve to a unique manufacturer-owned corporate and product source. Similar-name pump businesses and distributor listings were not sufficient for canonical identity.",
-        "detail": null,
-        "attemptedUrls": []
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
-        }
-      },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
     },
     {
       "id": "wollin",
@@ -111331,63 +111457,118 @@
     },
     {
       "id": "norton",
-      "canonicalName": "NORTON",
-      "displayName": "NORTON",
+      "canonicalName": "Norton Clipper",
+      "displayName": "Norton Clipper",
       "slug": "norton",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
+      "aliases": [
+        "NORTON",
+        "Norton Abrasives"
+      ],
+      "formerNames": [
+        "Clipper"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "nortonabrasives.com",
+      "officialWebsite": "https://www.nortonabrasives.com/",
+      "country": "France",
       "headquarters": null,
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Saint-Gobain Abrasives (Compagnie de Saint-Gobain)",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "The source-backed Norton Clipper portfolio covers welding and cutting equipment. Its documented corporate parent is Saint-Gobain Abrasives (Compagnie de Saint-Gobain).",
+          "fullDescription": [
+            "Norton Clipper is documented through first-party sources that describe welding and cutting equipment. The confirmed country record is France. The documented corporate parent is Saint-Gobain Abrasives (Compagnie de Saint-Gobain).",
+            "Norton Clipper publishes information for Diamond Tools, Norton Clipper Machines, Abrasives, Tile saws (table and rail saws), Masonry saws, Handheld cut-off saws, Floor saws, and Drilling rigs. These names are retained as source-backed family data rather than as model-level specifications.",
+            "Documented application contexts include construction and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
+      "categories": [
+        {
+          "id": "welding-and-cutting-equipment",
+          "label": "welding and cutting equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "saint-gobain-media-norton-clipper-catalog"
+          ]
+        }
+      ],
+      "productGroups": [
+        "welding and cutting equipment"
+      ],
+      "families": [
+        "Diamond Tools",
+        "Norton Clipper Machines",
+        "Abrasives"
+      ],
+      "series": [
+        "Tile saws (table and rail saws)",
+        "Masonry saws",
+        "Handheld cut-off saws",
+        "Floor saws",
+        "Drilling rigs"
+      ],
+      "industries": [
+        "construction",
+        "industrial processing"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://media.saint-gobain.com/Abrasives/Norton/Sweden/2023/NORTON-CLIPPER-BUILDING-CONSTRUCTION/"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-20",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "saint-gobain-media-norton-clipper-catalog"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Norton Clipper Welding and cutting equipment",
+        "siteSuffix": null,
+        "metaFactual": "Norton Clipper manufacturer profile covering welding and cutting equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Norton Clipper welding and cutting equipment",
+        "secondaryIntents": [
+          "Norton Clipper industrial equipment",
+          "Norton Clipper sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "NORTON is shared by unrelated industrial and commercial brands. The repository label has no domain, country, legal name or product discriminator that safely selects one manufacturer-owned source.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.nortonabrasives.com/",
-          "https://www.nortonmotorcycles.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 5,
+          "documents": 5,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "pentronic",
@@ -116579,64 +116760,108 @@
     },
     {
       "id": "rodon",
-      "canonicalName": "RODON",
+      "canonicalName": "Rodon International B.V.",
       "displayName": "RODON",
       "slug": "rodon",
-      "aliases": [],
+      "aliases": [
+        "Rodon Parts"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "rodon-int.com",
+      "officialWebsite": "https://rodon-int.com/",
+      "country": "Netherlands",
+      "headquarters": "Hillegom, Netherlands",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Manufacturer-owned sources identify RODON with industrial tools. The confirmed country record is Netherlands.",
+          "fullDescription": [
+            "The RODON identity and product scope are established through official company and product material covering industrial tools. The confirmed country record is Netherlands. The documented headquarters is Hillegom, Netherlands.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "RODON materials reference food and pharmaceutical processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "industrial-tools",
+          "label": "industrial tools",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "rodon-int-home",
+            "rodon-int-profile",
+            "rodon-int-blades"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial tools"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
-      "documents": [],
+      "industries": [
+        "food and pharmaceutical processing"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://rodon-int.com/products"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "rodon-int-home",
+        "rodon-int-profile",
+        "rodon-int-blades"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "RODON Industrial tools",
+        "siteSuffix": null,
+        "metaFactual": "RODON manufacturer profile covering industrial tools, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "RODON industrial tools",
+        "secondaryIntents": [
+          "RODON industrial equipment",
+          "RODON sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "RODON matches several unrelated industrial companies and product brands. No queue evidence distinguishes the intended entity strongly enough for publication.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.rodongroup.com/",
-          "https://rodon.com/",
-          "https://www.rodonparts.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 75,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "countryAndHeadquarters": 10,
+          "documents": 5,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "sacemi-gamar",
@@ -120075,64 +120300,144 @@
     },
     {
       "id": "mez-brno",
-      "canonicalName": "MEZ BRNO",
-      "displayName": "MEZ BRNO",
+      "canonicalName": "EM Brno s.r.o.",
+      "displayName": "EM Brno",
       "slug": "mez-brno",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "aliases": [
+        "MEZ Brno",
+        "MEZ"
+      ],
+      "formerNames": [
+        "MEZ Brno",
+        "Moravské elektrotechnické závody",
+        "MEZ Židenice",
+        "Elektromotor SVET",
+        "Strojírna Bratří Richtrové"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "embrno.cz",
+      "officialWebsite": "https://old.embrno.cz/",
+      "country": "Czech Republic",
+      "headquarters": "Brno, Czech Republic",
+      "foundedYear": 1909,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "The source-backed EM Brno portfolio covers electric motors, drive and motion-control systems, and lifting and crane systems. The confirmed country record is Czech Republic.",
+          "fullDescription": [
+            "EM Brno is documented through first-party sources that describe electric motors, drive and motion-control systems, and lifting and crane systems. The confirmed country record is Czech Republic. The documented headquarters is Brno, Czech Republic. Official company information dates its foundation to 1909.",
+            "EM Brno publishes information for M, 3M, V, 1AY, 4TM/5TM, EP, AOM, 5NK, MEZOLIFT NL, and LUN. These names are retained as source-backed family data rather than as model-level specifications.",
+            "Documented application contexts include industrial manufacturing and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "electric-motors",
+          "label": "electric motors",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "embrno-history",
+            "embrno-product-range"
+          ]
+        },
+        {
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "embrno-history",
+            "embrno-product-range"
+          ]
+        },
+        {
+          "id": "lifting-and-crane-systems",
+          "label": "lifting and crane systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "embrno-history",
+            "embrno-product-range"
+          ]
+        }
+      ],
+      "productGroups": [
+        "electric motors",
+        "drive and motion-control systems",
+        "lifting and crane systems"
+      ],
+      "families": [
+        "M",
+        "3M",
+        "V",
+        "1AY",
+        "4TM/5TM",
+        "EP",
+        "AOM",
+        "5NK",
+        "MEZOLIFT NL",
+        "LUN"
+      ],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial manufacturing",
+        "industrial processing"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "embrno-history",
+        "embrno-product-range"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "EM Brno Electric motors",
+        "siteSuffix": null,
+        "metaFactual": "EM Brno manufacturer profile covering electric motors, drive and motion-control systems, and lifting and crane systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "EM Brno electric motors",
+        "secondaryIntents": [
+          "EM Brno industrial equipment",
+          "EM Brno sourcing",
+          "EM Brno drive and motion-control systems",
+          "EM Brno lifting and crane systems"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "MEZ BRNO is associated with several current successor and related motor businesses. The raw identity does not establish which current manufacturer entity should own the canonical page.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.mez.cz/",
-          "https://www.mezmotors.cz/",
-          "https://www.mez-brno.cz/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "microsonic",
@@ -121225,125 +121530,235 @@
     },
     {
       "id": "sti",
-      "canonicalName": "STI",
-      "displayName": "STI",
+      "canonicalName": "IMI Bopp & Reuther",
+      "displayName": "IMI Bopp & Reuther",
       "slug": "sti",
-      "aliases": [],
+      "aliases": [
+        "STI",
+        "Bopp & Reuther",
+        "IMI CCI"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "imiplc.com",
+      "officialWebsite": "https://processautomation.imiplc.com/about-us/brands/imi-bopp-and-reuther",
       "country": null,
-      "headquarters": null,
+      "headquarters": "Birmingham, United Kingdom (IMI plc parent)",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "IMI plc",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "The source-backed IMI Bopp & Reuther portfolio covers industrial valves and flow control. Its documented corporate parent is IMI plc.",
+          "fullDescription": [
+            "IMI Bopp & Reuther is documented through first-party sources that describe industrial valves and flow control. The documented headquarters is Birmingham, United Kingdom (IMI plc parent). The documented corporate parent is IMI plc.",
+            "IMI Bopp & Reuther publishes information for Si safety valves, ARS bypass valves, MSV reheater safety valves, Si, ARS, and MSV. These names are retained as source-backed family data rather than as model-level specifications.",
+            "Documented application contexts include energy, oil and gas, and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
+      "categories": [
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "imiplc-bopp-reuther-brand",
+            "imiplc-si6-safety-valve",
+            "imiplc-msv-reheater-safety-valve",
+            "imiplc-ars-bypass-valve"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Si safety valves",
+        "ARS bypass valves",
+        "MSV reheater safety valves"
+      ],
+      "series": [
+        "Si",
+        "ARS",
+        "MSV"
+      ],
+      "industries": [
+        "energy",
+        "oil and gas",
+        "industrial processing"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://processautomation.imiplc.com/about-us/brands/imi-bopp-and-reuther"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://processautomation.imiplc.com/products/safety-valves/si-6-high-flow-safety-valve"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://processautomation.imiplc.com/products/isolation-valves/msv-reheater-safety-valve"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://processautomation.imiplc.com/products/control-valves/ars-high-pressure-turbine-bypass-valve-with-steam-assist-desuperheating"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "imiplc-bopp-reuther-brand",
+        "imiplc-si6-safety-valve",
+        "imiplc-msv-reheater-safety-valve",
+        "imiplc-ars-bypass-valve"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "IMI Bopp & Reuther Industrial valves and flow control",
+        "siteSuffix": null,
+        "metaFactual": "IMI Bopp & Reuther manufacturer profile covering industrial valves and flow control, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "IMI Bopp & Reuther industrial valves and flow control",
+        "secondaryIntents": [
+          "IMI Bopp & Reuther industrial equipment",
+          "IMI Bopp & Reuther sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "STI is used by multiple unrelated industrial manufacturers, including safety, transport and process-equipment businesses. The queue record lacks a product or geography discriminator.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.sti-usa.com/",
-          "https://www.sti-industrie.com/",
-          "https://www.sti-global.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 5,
+          "documents": 5,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "supervac",
-      "canonicalName": "SUPERVAC",
+      "canonicalName": "Supervac Maschinenbau GmbH",
       "displayName": "SUPERVAC",
       "slug": "supervac",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "https://www.supervac.at",
+      "officialWebsite": "https://www.supervac.at/?lang=en",
       "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "headquarters": "Kalterer Gasse 10, 2340 Mödling, Austria",
+      "foundedYear": 1952,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "SUPERVAC publishes official information for filling and packaging machinery. The documented headquarters is Kalterer Gasse 10, 2340 Mödling, Austria.",
+          "fullDescription": [
+            "Official SUPERVAC sources document the manufacturer identity and its work in filling and packaging machinery. The documented headquarters is Kalterer Gasse 10, 2340 Mödling, Austria. Official company information dates its foundation to 1952.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "Official material associates the range with food and pharmaceutical processing and packaging."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "filling-and-packaging-machinery",
+          "label": "filling and packaging machinery",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "supervac-unternehmen",
+            "supervac-brand-history",
+            "supervac-produkte",
+            "supervac-home"
+          ]
+        }
+      ],
+      "productGroups": [
+        "filling and packaging machinery"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
+      "industries": [
+        "food and pharmaceutical processing",
+        "packaging"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "supervac-unternehmen",
+        "supervac-brand-history",
+        "supervac-produkte",
+        "supervac-home"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SUPERVAC Filling and packaging machinery",
+        "siteSuffix": null,
+        "metaFactual": "SUPERVAC manufacturer profile covering filling and packaging machinery, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SUPERVAC filling and packaging machinery",
+        "secondaryIntents": [
+          "SUPERVAC industrial equipment",
+          "SUPERVAC sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "SUPERVAC corresponds to separate manufacturers of vacuum packaging machinery, ventilation equipment and vacuum systems. A canonical match cannot be made from the raw name alone.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.supervac.at/",
-          "https://supervac.com/",
-          "https://www.supervac.co/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 65,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
+          "countryAndHeadquarters": 5,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "thyssen-krupp",
@@ -140259,62 +140674,110 @@
     },
     {
       "id": "lvf",
-      "canonicalName": "LVF",
+      "canonicalName": "LVF S.p.A.",
       "displayName": "LVF",
       "slug": "lvf",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "lvf.it",
+      "officialWebsite": "https://www.lvf.it/",
+      "country": "Italy",
+      "headquarters": "Via Giuseppe Mazzini 6, 24060 San Paolo d'Argon (BG), Italy",
+      "foundedYear": 1984,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "The source-backed LVF portfolio covers industrial valves and flow control. The confirmed country record is Italy.",
+          "fullDescription": [
+            "LVF is documented through first-party sources that describe industrial valves and flow control. The confirmed country record is Italy. The documented headquarters is Via Giuseppe Mazzini 6, 24060 San Paolo d'Argon (BG), Italy. Official company information dates its foundation to 1984.",
+            "LVF publishes information for Gate Valves, Globe Valves, Check Valves, Ball Valves, Modular DB&B and SB&B Valves, Through Conduit Gate Valves, and Actuated/Motorized Gate Valves. These names are retained as source-backed family data rather than as model-level specifications.",
+            "Documented application contexts include oil and gas, chemical processing, energy, and marine applications."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "lvf-it-company-profile",
+            "lvf-it-gate-valves"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Gate Valves",
+        "Globe Valves",
+        "Check Valves",
+        "Ball Valves",
+        "Modular DB&B and SB&B Valves",
+        "Through Conduit Gate Valves",
+        "Actuated/Motorized Gate Valves"
+      ],
       "series": [],
-      "industries": [],
+      "industries": [
+        "oil and gas",
+        "chemical processing",
+        "energy",
+        "marine applications"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "lvf-it-company-profile",
+        "lvf-it-gate-valves"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "LVF Industrial valves and flow control",
+        "siteSuffix": null,
+        "metaFactual": "LVF manufacturer profile covering industrial valves and flow control, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "LVF industrial valves and flow control",
+        "secondaryIntents": [
+          "LVF industrial equipment",
+          "LVF sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "LVF is a generic abbreviation and the surfaced valve sites do not provide enough manufacturer-owned corporate evidence to resolve the intended entity safely.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.lvfvalve.cn/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "mas-lambertoni",
@@ -146357,63 +146820,122 @@
     },
     {
       "id": "oteco",
-      "canonicalName": "OTECO",
-      "displayName": "OTECO",
+      "canonicalName": "OTECO, Inc.",
+      "displayName": "OTECO Inc.",
       "slug": "oteco",
-      "aliases": [],
+      "aliases": [
+        "OTECO"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "oteco.com",
+      "officialWebsite": "https://oteco.com/",
+      "country": "United States",
+      "headquarters": "Houston, Texas, USA",
+      "foundedYear": 1948,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "First-party sources establish OTECO Inc. in measurement and instrumentation and industrial valves and flow control. Official company information dates its foundation to 1948.",
+          "fullDescription": [
+            "The confirmed OTECO Inc. record is based on official sources for measurement and instrumentation and industrial valves and flow control. The confirmed country record is United States. The documented headquarters is Houston, Texas, USA. Official company information dates its foundation to 1948.",
+            "The documented product structure includes Pressure Gauges, Gate Valves, Relief Valves, Fluid End Consumables, Model 6, Model 7, and Model 8. Family membership alone does not establish a model's configuration, compatibility or current production status.",
+            "Published applications span oil and gas."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
+      "categories": [
+        {
+          "id": "measurement-and-instrumentation",
+          "label": "measurement and instrumentation",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "oteco-pressure-gauges",
+            "oteco-homepage"
+          ]
+        },
+        {
+          "id": "industrial-valves-and-flow-control",
+          "label": "industrial valves and flow control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "oteco-pressure-gauges",
+            "oteco-homepage"
+          ]
+        }
+      ],
+      "productGroups": [
+        "measurement and instrumentation",
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Pressure Gauges",
+        "Gate Valves",
+        "Relief Valves",
+        "Fluid End Consumables"
+      ],
+      "series": [
+        "Model 6",
+        "Model 7",
+        "Model 8"
+      ],
+      "industries": [
+        "oil and gas"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-20",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "oteco-pressure-gauges",
+        "oteco-homepage"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "OTECO Inc. Measurement and instrumentation",
+        "siteSuffix": null,
+        "metaFactual": "OTECO Inc. manufacturer profile covering measurement and instrumentation and industrial valves and flow control, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "OTECO Inc. measurement and instrumentation",
+        "secondaryIntents": [
+          "OTECO Inc. industrial equipment",
+          "OTECO Inc. sourcing",
+          "OTECO Inc. industrial valves and flow control"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "OTECO is used by more than one industrial business and the repository record provides no legal name, country, domain or product discriminator. An authoritative identity match was not established.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.otecousa.com/",
-          "https://www.oteco.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "varmec",
@@ -147712,63 +148234,166 @@
     },
     {
       "id": "jvm",
-      "canonicalName": "JVM",
-      "displayName": "JVM",
+      "canonicalName": "Jöst GmbH + Co. KG",
+      "displayName": "JVM (Jöst GmbH + Co. KG)",
       "slug": "jvm",
-      "aliases": [],
+      "aliases": [
+        "JVM",
+        "JVM Drives",
+        "JVM Antriebe"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "joest.com",
+      "officialWebsite": "https://www.joest.com/jvm-drives/",
       "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
+      "headquarters": "Gewerbestraße 28-32, 48249 Dülmen, Germany",
+      "foundedYear": 1919,
+      "parentCompany": "Jöst GmbH + Co. KG",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Jöst GmbH + Co. KG is documented in official material for filling and packaging machinery, industrial vibration equipment, conveying and material-handling systems, and drive and motion-control systems. Official product material names JVM Dosing Drives (Series JD/JDA/JDE), JVM Exciters, JVM Magnetic Drives, and JVM Unbalance Motors.",
+          "fullDescription": [
+            "Manufacturer-owned material confirms Jöst GmbH + Co. KG and a portfolio centred on filling and packaging machinery, industrial vibration equipment, conveying and material-handling systems, and drive and motion-control systems. The documented headquarters is Gewerbestraße 28-32, 48249 Dülmen, Germany. Official company information dates its foundation to 1919. The documented corporate parent is Jöst GmbH + Co. KG.",
+            "Named product families, ranges and series include JVM Dosing Drives (Series JD/JDA/JDE), JVM Exciters, JVM Magnetic Drives, and JVM Unbalance Motors. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
+            "The source-backed industry scope covers chemical processing, food and pharmaceutical processing, mining, industrial manufacturing, waste management, and agriculture."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "filling-and-packaging-machinery",
+          "label": "filling and packaging machinery",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "joest-jvm-dosing-drives",
+            "joest-company",
+            "j-vm-redirect"
+          ]
+        },
+        {
+          "id": "industrial-vibration-equipment",
+          "label": "industrial vibration equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "joest-jvm-dosing-drives",
+            "joest-company",
+            "j-vm-redirect"
+          ]
+        },
+        {
+          "id": "conveying-and-material-handling-systems",
+          "label": "conveying and material-handling systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "joest-jvm-dosing-drives",
+            "joest-company",
+            "j-vm-redirect"
+          ]
+        },
+        {
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "joest-jvm-dosing-drives",
+            "joest-company",
+            "j-vm-redirect"
+          ]
+        }
+      ],
+      "productGroups": [
+        "filling and packaging machinery",
+        "industrial vibration equipment",
+        "conveying and material-handling systems",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "JVM Dosing Drives (Series JD/JDA/JDE)",
+        "JVM Exciters",
+        "JVM Magnetic Drives",
+        "JVM Unbalance Motors"
+      ],
       "series": [],
-      "industries": [],
-      "documents": [],
+      "industries": [
+        "chemical processing",
+        "food and pharmaceutical processing",
+        "mining",
+        "industrial manufacturing",
+        "waste management",
+        "agriculture"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.joest.com/jvm-drives/dosing-drives/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.joest.com/jvm-drives/en/products-page/dosing-drives/"
+        },
+        {
+          "type": "OFFICIAL_DOCUMENTATION",
+          "url": "https://www.joest.com/company/"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-20",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "joest-jvm-dosing-drives",
+        "joest-company",
+        "j-vm-redirect"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "JVM (Jöst GmbH + Co. KG) Filling and packaging machinery",
+        "siteSuffix": null,
+        "metaFactual": "JVM (Jöst GmbH + Co. KG) manufacturer profile covering filling and packaging machinery, industrial vibration equipment, and conveying and material-handling systems, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "JVM (Jöst GmbH + Co. KG) filling and packaging machinery",
+        "secondaryIntents": [
+          "JVM (Jöst GmbH + Co. KG) industrial equipment",
+          "JVM (Jöst GmbH + Co. KG) sourcing",
+          "JVM (Jöst GmbH + Co. KG) industrial vibration equipment",
+          "JVM (Jöst GmbH + Co. KG) conveying and material-handling systems"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-        "reason": "The three-letter JVM identity is insufficient to select one manufacturer. Searches produced unrelated industrial entities and no domain or product discriminator is present in the repository record.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.j-v-m.com/",
-          "https://www.joest.com/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 5,
+          "documents": 5,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "munters",
@@ -167613,63 +168238,145 @@
     },
     {
       "id": "berger",
-      "canonicalName": "BERGER",
-      "displayName": "BERGER",
+      "canonicalName": "Schneider Electric Motion Deutschland (formerly Berger Lahr)",
+      "displayName": "Berger Lahr (Schneider Electric)",
       "slug": "berger",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
+      "aliases": [
+        "BERGER",
+        "Berger Lahr",
+        "Berger-Lahr"
+      ],
+      "formerNames": [
+        "Berger Lahr",
+        "Berger-Lahr GmbH & Co. KG"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "se.com",
+      "officialWebsite": "https://www.se.com",
       "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
+      "headquarters": "Lahr, Germany",
+      "foundedYear": 1941,
+      "parentCompany": "Schneider Electric SE",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Berger Lahr (Schneider Electric) publishes official information for drive and motion-control systems, electric motors, and industrial automation and control. The published range names STE, STA, STM, and Lexium.",
+          "fullDescription": [
+            "Official Berger Lahr (Schneider Electric) sources document the manufacturer identity and its work in drive and motion-control systems, electric motors, and industrial automation and control. The documented headquarters is Lahr, Germany. Official company information dates its foundation to 1941. The documented corporate parent is Schneider Electric SE.",
+            "The official range identifies STE, STA, STM, and Lexium. Exact variants, options and operating limits remain model-specific.",
+            "Official material associates the range with factory automation and industrial manufacturing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
+      "categories": [
+        {
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "se-uk-berger-lahr-brand-history",
+            "se-ie-ste-sta-stm-berger-lahr-range"
+          ]
+        },
+        {
+          "id": "electric-motors",
+          "label": "electric motors",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "se-uk-berger-lahr-brand-history",
+            "se-ie-ste-sta-stm-berger-lahr-range"
+          ]
+        },
+        {
+          "id": "industrial-automation-and-control",
+          "label": "industrial automation and control",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "se-uk-berger-lahr-brand-history",
+            "se-ie-ste-sta-stm-berger-lahr-range"
+          ]
+        }
+      ],
+      "productGroups": [
+        "drive and motion-control systems",
+        "electric motors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "STE",
+        "STA",
+        "STM",
+        "Lexium"
+      ],
+      "series": [
+        "STE",
+        "STA",
+        "STM"
+      ],
+      "industries": [
+        "factory automation",
+        "industrial manufacturing"
+      ],
+      "documents": [
+        {
+          "type": "OFFICIAL_CATALOG",
+          "url": "https://www.se.com/ie/en/product-range/60037-ste-sta-stm-berger-lahr/"
+        }
+      ],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-20",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "se-uk-berger-lahr-brand-history",
+        "se-ie-ste-sta-stm-berger-lahr-range"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Berger Lahr (Schneider Electric) Drive and motion-control systems",
+        "siteSuffix": null,
+        "metaFactual": "Berger Lahr (Schneider Electric) manufacturer profile covering drive and motion-control systems, electric motors, and industrial automation and control, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Berger Lahr (Schneider Electric) drive and motion-control systems",
+        "secondaryIntents": [
+          "Berger Lahr (Schneider Electric) industrial equipment",
+          "Berger Lahr (Schneider Electric) sourcing",
+          "Berger Lahr (Schneider Electric) electric motors",
+          "Berger Lahr (Schneider Electric) industrial automation and control"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "BERGER is a shared surname and industrial brand across unrelated machine, automation, motor and tooling businesses. A safe canonical entity cannot be inferred from the name alone.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.bergerholding.com/",
-          "https://www.berger-tools.co.uk/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 5,
+          "documents": 5,
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "bertoli",
@@ -269634,63 +270341,121 @@
     },
     {
       "id": "magneta",
-      "canonicalName": "MAGNETA",
-      "displayName": "MAGNETA",
+      "canonicalName": "Kendrion Aerzen (formerly Magneta GmbH & Co. KG)",
+      "displayName": "Magneta",
       "slug": "magneta",
       "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "formerNames": [
+        "Magneta GmbH & Co. KG"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "kendrion.com",
+      "officialWebsite": "https://www.kendrion.com/en/products-services/industrial-clutches/magnetic-particle-clutches-brakes",
+      "country": "Germany",
+      "headquarters": "Aerzen, Germany (31855 Aerzen)",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Kendrion N.V.",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Official Magneta material documents a product scope covering brakes and couplings and electrical equipment. Documented families and lines include Magnetic Particle Clutches, Magnetic Particle Brakes, and Controllers for magnetic particle clutches/brakes.",
+          "fullDescription": [
+            "Kendrion Aerzen (formerly Magneta GmbH & Co. KG) is represented by manufacturer-owned evidence for brakes and couplings and electrical equipment. The confirmed country record is Germany. The documented headquarters is Aerzen, Germany (31855 Aerzen). The documented corporate parent is Kendrion N.V..",
+            "Official product material names Magnetic Particle Clutches, Magnetic Particle Brakes, and Controllers for magnetic particle clutches/brakes. Technical characteristics should be checked against the document for the exact model or series.",
+            "The confirmed market and application context includes industrial processing and industrial manufacturing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
+      "categories": [
+        {
+          "id": "brakes-and-couplings",
+          "label": "brakes and couplings",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "kendrion-history",
+            "kendrion-locations",
+            "kendrion-magnetic-particle-clutches"
+          ]
+        },
+        {
+          "id": "electrical-equipment",
+          "label": "electrical equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "kendrion-history",
+            "kendrion-locations",
+            "kendrion-magnetic-particle-clutches"
+          ]
+        }
+      ],
+      "productGroups": [
+        "brakes and couplings",
+        "electrical equipment"
+      ],
+      "families": [
+        "Magnetic Particle Clutches",
+        "Magnetic Particle Brakes",
+        "Controllers for magnetic particle clutches/brakes"
+      ],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial processing",
+        "industrial manufacturing"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "kendrion-history",
+        "kendrion-locations",
+        "kendrion-magnetic-particle-clutches"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Magneta Brakes and couplings",
+        "siteSuffix": null,
+        "metaFactual": "Magneta manufacturer profile covering brakes and couplings and electrical equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Magneta brakes and couplings",
+        "secondaryIntents": [
+          "Magneta industrial equipment",
+          "Magneta sourcing",
+          "Magneta electrical equipment"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "Manufacturer-owned magneta HTTPS pages and documents did not establish a working connection during the release check. The product identity is plausible, but publication remains blocked until the official source is reachable.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://magneta.de/",
-          "https://www.magneta.de/download/doku/Magnetpulverkupplungen_Katalog_deutsch_englisch_.pdf"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "magnetek",
@@ -302362,63 +303127,142 @@
     },
     {
       "id": "pedro-gil",
-      "canonicalName": "PEDRO GIL",
-      "displayName": "PEDRO GIL",
+      "canonicalName": "Pedro Gil",
+      "displayName": "Pedro Gil",
       "slug": "pedro-gil",
-      "aliases": [],
+      "aliases": [
+        "PEDRO GIL"
+      ],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "pedrogil.com",
+      "officialWebsite": "https://www.pedrogil.com/",
+      "country": "Spain",
+      "headquarters": "C. Salvador Albert i Riera, 9 (Pol. Ind. Vallmorena), 08339 Vilassar de Dalt, Barcelona, Spain",
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Ingersoll Rand",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Pedro Gil is documented in official material for compressors and compressed-air systems, vacuum equipment, and industrial fans and blowers. Official product material names Lobe Blowers, Screw Blowers, Turbo Blowers, Vacuum Pumps, TPG Turbo Blower, RPG Lobe Blower, RV, RNV, RVRB, and SCREW.",
+          "fullDescription": [
+            "Manufacturer-owned material confirms Pedro Gil and a portfolio centred on compressors and compressed-air systems, vacuum equipment, and industrial fans and blowers. The confirmed country record is Spain. The documented headquarters is C. Salvador Albert i Riera, 9 (Pol. Ind. Vallmorena), 08339 Vilassar de Dalt, Barcelona, Spain. The documented corporate parent is Ingersoll Rand.",
+            "Named product families, ranges and series include Lobe Blowers, Screw Blowers, Turbo Blowers, Vacuum Pumps, TPG Turbo Blower, RPG Lobe Blower, RV, RNV, RVRB, and SCREW. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
+            "The source-backed industry scope covers water and wastewater and industrial processing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
+      "categories": [
+        {
+          "id": "compressors-and-compressed-air-systems",
+          "label": "compressors and compressed-air systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "pedrogil-homepage",
+            "pedrogil-company",
+            "pedrogil-ingersoll-news"
+          ]
+        },
+        {
+          "id": "vacuum-equipment",
+          "label": "vacuum equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "pedrogil-homepage",
+            "pedrogil-company",
+            "pedrogil-ingersoll-news"
+          ]
+        },
+        {
+          "id": "industrial-fans-and-blowers",
+          "label": "industrial fans and blowers",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "pedrogil-homepage",
+            "pedrogil-company",
+            "pedrogil-ingersoll-news"
+          ]
+        }
+      ],
+      "productGroups": [
+        "compressors and compressed-air systems",
+        "vacuum equipment",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "Lobe Blowers",
+        "Screw Blowers",
+        "Turbo Blowers",
+        "Vacuum Pumps"
+      ],
+      "series": [
+        "TPG Turbo Blower",
+        "RPG Lobe Blower",
+        "RV",
+        "RNV",
+        "RVRB",
+        "SCREW"
+      ],
+      "industries": [
+        "water and wastewater",
+        "industrial processing"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "pedrogil-homepage",
+        "pedrogil-company",
+        "pedrogil-ingersoll-news"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "Pedro Gil Compressors and compressed-air systems",
+        "siteSuffix": null,
+        "metaFactual": "Pedro Gil manufacturer profile covering compressors and compressed-air systems, vacuum equipment, and industrial fans and blowers, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "Pedro Gil compressors and compressed-air systems",
+        "secondaryIntents": [
+          "Pedro Gil industrial equipment",
+          "Pedro Gil sourcing",
+          "Pedro Gil vacuum equipment",
+          "Pedro Gil industrial fans and blowers"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "The official Pedro Gil HTTPS site and its product document endpoint returned HTTP 429 during release verification. The rate restriction was respected and no reseller source was substituted.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.pedrogil.com/",
-          "https://www.pedrogil.com/en-au/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 80,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
+          "description": 15,
+          "categories": 10,
+          "families": 10,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "peg",
@@ -305344,65 +306188,6 @@
         }
       },
       "notes": null
-    },
-    {
-      "id": "pioneer",
-      "canonicalName": "PIONEER",
-      "displayName": "PIONEER",
-      "slug": "pioneer",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "AMBIGUOUS_IDENTITY",
-        "reason": "PIONEER is a non-unique manufacturer name used by unrelated pump, bearing, electrical and electronics businesses. The bare repository record cannot be assigned to one official domain without a material wrong-identity risk.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://www.google.com/search?q=Pioneer+industrial+manufacturer+official"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
-        }
-      },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
     },
     {
       "id": "piovan",
@@ -310034,66 +310819,6 @@
         "attemptedUrls": [
           "https://www.pvtvm.com/",
           "https://pvtvm.com/"
-        ]
-      },
-      "completeness": {
-        "score": 0,
-        "indicator": "BRAND_INCOMPLETE",
-        "verificationIndependent": true,
-        "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
-          "logo": 0,
-          "description": 0,
-          "categories": 0,
-          "families": 0,
-          "countryAndHeadquarters": 0,
-          "documents": 0,
-          "seo": 0
-        }
-      },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
-    },
-    {
-      "id": "pyronics",
-      "canonicalName": "PYRONICS",
-      "displayName": "PYRONICS",
-      "slug": "pyronics",
-      "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
-      "parentCompany": null,
-      "descriptions": {
-        "en": null
-      },
-      "categories": [],
-      "productGroups": [],
-      "families": [],
-      "series": [],
-      "industries": [],
-      "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
-      "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "AMBIGUOUS_IDENTITY",
-        "blockerCategory": "ACQUISITION_OR_LEGACY",
-        "reason": "PYRONICS may refer to a legacy North American combustion brand or to the distinct ESA Pyronics business already represented separately in the repository. Current Honeywell pages document thermal products but do not establish the exact PYRONICS record as a current brand entity.",
-        "detail": null,
-        "attemptedUrls": [
-          "https://process.honeywell.com/us/en/products/thermal-solutions",
-          "https://www.esapyronics.com/"
         ]
       },
       "completeness": {
@@ -319922,62 +320647,116 @@
     },
     {
       "id": "rosati-fratelli",
-      "canonicalName": "ROSATI FRATELLI",
+      "canonicalName": "Wingfan S.r.l.",
       "displayName": "ROSATI FRATELLI",
       "slug": "rosati-fratelli",
       "aliases": [],
-      "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
-      "country": null,
-      "headquarters": null,
-      "foundedYear": null,
+      "formerNames": [
+        "Rosati S.r.l.",
+        "Rosati Fratelli"
+      ],
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "wingfansrl.it",
+      "officialWebsite": "https://www.wingfansrl.it/",
+      "country": "Italy",
+      "headquarters": "Turin, Italy",
+      "foundedYear": 1935,
       "parentCompany": null,
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "Manufacturer-owned sources identify ROSATI FRATELLI with industrial fans and blowers and thermal-management equipment. The confirmed country record is Italy.",
+          "fullDescription": [
+            "The ROSATI FRATELLI identity and product scope are established through official company and product material covering industrial fans and blowers and thermal-management equipment. The confirmed country record is Italy. The documented headquarters is Turin, Italy. Official company information dates its foundation to 1935.",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "ROSATI FRATELLI materials reference transportation, industrial processing, and building systems."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "industrial-fans-and-blowers",
+          "label": "industrial fans and blowers",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "wingfan-chisiamo",
+            "wingfan-home"
+          ]
+        },
+        {
+          "id": "thermal-management-equipment",
+          "label": "thermal-management equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "wingfan-chisiamo",
+            "wingfan-home"
+          ]
+        }
+      ],
+      "productGroups": [
+        "industrial fans and blowers",
+        "thermal-management equipment"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
+      "industries": [
+        "transportation",
+        "industrial processing",
+        "building systems"
+      ],
       "documents": [],
       "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "sourceRecordIds": [
+        "wingfan-chisiamo",
+        "wingfan-home"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "ROSATI FRATELLI Industrial fans and blowers",
+        "siteSuffix": null,
+        "metaFactual": "ROSATI FRATELLI manufacturer profile covering industrial fans and blowers and thermal-management equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "ROSATI FRATELLI industrial fans and blowers",
+        "secondaryIntents": [
+          "ROSATI FRATELLI industrial equipment",
+          "ROSATI FRATELLI sourcing",
+          "ROSATI FRATELLI thermal-management equipment"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-        "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-        "reason": "No current manufacturer-owned HTTPS company and product source matching ROSATI FRATELLI could be verified.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.google.com/search?q=%22Rosati+Fratelli%22+manufacturer+official"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 0,
+        "score": 70,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 0,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
-          "countryAndHeadquarters": 0,
+          "countryAndHeadquarters": 10,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "rosemount",
@@ -320647,15 +321426,15 @@
       "officialDomain": "rosta.com",
       "officialWebsite": "https://www.rosta.com/en/",
       "country": "Switzerland",
-      "headquarters": null,
+      "headquarters": "Hunzenschwil, Switzerland",
       "foundedYear": null,
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Official ROSTA material documents a product scope covering industrial vibration equipment and belt-drive components. Documented families and lines include Oscillating Mounts, Tensioning Elements, Motor Bases, Anti-Vibration Mounts, and Rubber Suspension Units.",
+          "shortDescription": "Official ROSTA material documents a product scope covering industrial vibration equipment and belt-drive components. Documented families and lines include Oscillating Mounts, Tensioning Elements, Motor Bases, Anti-Vibration Mounts, Rubber Suspension Units, AWI, ESL, V, HS, and HSI.",
           "fullDescription": [
-            "ROSTA AG is represented by manufacturer-owned evidence for industrial vibration equipment and belt-drive components. The confirmed country record is Switzerland.",
-            "Official product material names Oscillating Mounts, Tensioning Elements, Motor Bases, Anti-Vibration Mounts, and Rubber Suspension Units. Technical characteristics should be checked against the document for the exact model or series.",
+            "ROSTA AG is represented by manufacturer-owned evidence for industrial vibration equipment and belt-drive components. The confirmed country record is Switzerland. The documented headquarters is Hunzenschwil, Switzerland.",
+            "Official product material names Oscillating Mounts, Tensioning Elements, Motor Bases, Anti-Vibration Mounts, Rubber Suspension Units, AWI, ESL, V, HS, and HSI. Technical characteristics should be checked against the document for the exact model or series.",
             "The confirmed market and application context includes industrial processing, mining, and food and pharmaceutical processing."
           ],
           "language": "en",
@@ -320694,7 +321473,27 @@
         "Anti-Vibration Mounts",
         "Rubber Suspension Units"
       ],
-      "series": [],
+      "series": [
+        "AWI",
+        "ESL",
+        "V",
+        "HS",
+        "HSI",
+        "N",
+        "NOX",
+        "DK-A",
+        "DK-C",
+        "DK-S",
+        "DO-A",
+        "DO-C",
+        "DO-S",
+        "DR-A",
+        "DR-C",
+        "DR-S",
+        "DW-A",
+        "DW-C",
+        "DW-S"
+      ],
       "industries": [
         "industrial processing",
         "mining",
@@ -320756,7 +321555,7 @@
         "attemptedUrls": []
       },
       "completeness": {
-        "score": 95,
+        "score": 100,
         "indicator": "BRAND_COMPLETE",
         "verificationIndependent": true,
         "breakdown": {
@@ -320766,7 +321565,7 @@
           "description": 15,
           "categories": 10,
           "families": 10,
-          "countryAndHeadquarters": 5,
+          "countryAndHeadquarters": 10,
           "documents": 10,
           "seo": 5
         }
@@ -323705,58 +324504,111 @@
       "slug": "saf-fro",
       "aliases": [],
       "formerNames": [],
-      "identityStatus": "REVIEW_REQUIRED",
-      "lifecycleStatus": "UNKNOWN",
-      "publicationStatus": "BRAND_REVIEW",
-      "officialDomain": null,
-      "officialWebsite": null,
+      "identityStatus": "CONFIRMED",
+      "lifecycleStatus": "CURRENT",
+      "publicationStatus": "BRAND_SAFE",
+      "officialDomain": "lincolnelectric.com",
+      "officialWebsite": "https://www.lincolnelectric.com/en-gb/Products/Brands",
       "country": null,
       "headquarters": null,
       "foundedYear": null,
-      "parentCompany": null,
+      "parentCompany": "Lincoln Electric Holdings, Inc.",
       "descriptions": {
-        "en": null
+        "en": {
+          "shortDescription": "The source-backed SAF-FRO portfolio covers welding and cutting equipment. Its documented corporate parent is Lincoln Electric Holdings, Inc..",
+          "fullDescription": [
+            "SAF-FRO is documented through first-party sources that describe welding and cutting equipment. The documented corporate parent is Lincoln Electric Holdings, Inc..",
+            "The available official sources confirm the categories shown in this record. Exact technical characteristics and model status remain subject to the relevant manufacturer documentation.",
+            "Documented application contexts include industrial manufacturing."
+          ],
+          "language": "en",
+          "status": "READY",
+          "presentationCopyIncluded": false
+        }
       },
-      "categories": [],
-      "productGroups": [],
+      "categories": [
+        {
+          "id": "welding-and-cutting-equipment",
+          "label": "welding and cutting equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "lincoln-brands-en",
+            "lincoln-safro-catalog"
+          ]
+        }
+      ],
+      "productGroups": [
+        "welding and cutting equipment"
+      ],
       "families": [],
       "series": [],
-      "industries": [],
+      "industries": [
+        "industrial manufacturing"
+      ],
       "documents": [],
-      "logo": null,
-      "sourceRecordIds": [],
-      "checkedAt": "2026-08-24",
-      "contentStatus": "NOT_READY",
-      "seoStatus": "NOT_READY",
-      "seo": null,
+      "logo": {
+        "status": "PUBLISHABLE",
+        "assetPath": "brand-assets/logos/saf-fro.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Saf-Fro.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Logo_Saf-Fro.jpg",
+        "sourceType": "RIGHTS_CLEARED_EXTERNAL_SOURCE",
+        "retrievedAt": "2026-08-17",
+        "checksum": "20dc4c8dfce03c777d74800b4ae207b5b7acb664af0474eb00daef9a07d6149b",
+        "fileType": "JPG",
+        "dimensions": {
+          "width": 1080,
+          "height": 1080
+        },
+        "license": "CC BY-SA 4.0",
+        "rightsStatus": "RIGHTS_CONFIRMED",
+        "publicationStatus": "PUBLISHABLE",
+        "presentationBackground": "light"
+      },
+      "sourceRecordIds": [
+        "lincoln-brands-en",
+        "lincoln-safro-catalog"
+      ],
+      "checkedAt": "2026-09-03",
+      "contentStatus": "EN_CONTENT_READY",
+      "seoStatus": "SEO_CORE_READY",
+      "seo": {
+        "titleCore": "SAF-FRO Welding and cutting equipment",
+        "siteSuffix": null,
+        "metaFactual": "SAF-FRO manufacturer profile covering welding and cutting equipment, based on official company and product sources.",
+        "siteSpecificCta": null,
+        "primaryIntent": "SAF-FRO welding and cutting equipment",
+        "secondaryIntents": [
+          "SAF-FRO industrial equipment",
+          "SAF-FRO sourcing"
+        ],
+        "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
+      },
       "reviewStatus": {
-        "state": "REQUIRES_REVIEW",
-        "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-        "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-        "reason": "The apparent SAF-FRO manufacturer-owned HTTPS site did not complete a response during repeated verification, so current identity and product scope could not be released safely.",
+        "state": "RESOLVED",
+        "blockerCode": null,
+        "blockerCategory": null,
+        "reason": null,
         "detail": null,
-        "attemptedUrls": [
-          "https://www.saf-fro.com/",
-          "https://www.saf-fro.com/products/"
-        ]
+        "attemptedUrls": []
       },
       "completeness": {
-        "score": 10,
+        "score": 70,
         "indicator": "BRAND_INCOMPLETE",
         "verificationIndependent": true,
         "breakdown": {
-          "identitySource": 0,
-          "officialDomain": 0,
+          "identitySource": 20,
+          "officialDomain": 10,
           "logo": 10,
-          "description": 0,
-          "categories": 0,
+          "description": 15,
+          "categories": 10,
           "families": 0,
           "countryAndHeadquarters": 0,
           "documents": 0,
-          "seo": 0
+          "seo": 5
         }
       },
-      "notes": "No canonical manufacturer identity is asserted until the review blocker is resolved."
+      "notes": null
     },
     {
       "id": "sagola",

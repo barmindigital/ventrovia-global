@@ -602,6 +602,27 @@
       }
     },
     {
+      "brandId": "pragati",
+      "displayName": "Pragati Automation",
+      "primaryCategory": "industrial machinery",
+      "secondaryCategories": [],
+      "families": [
+        "ATC (Automatic Tool Changer)"
+      ],
+      "primaryIntent": "Pragati Automation industrial machinery",
+      "secondaryIntents": [
+        "Pragati Automation industrial equipment",
+        "Pragati Automation sourcing"
+      ],
+      "titleCore": "Pragati Automation Industrial machinery",
+      "metaFactual": "Pragati Automation manufacturer profile covering industrial machinery, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 1,
+        "families": 1
+      }
+    },
+    {
       "brandId": "vemat-motori",
       "displayName": "VEMAT Motori",
       "primaryCategory": "electric motors",
@@ -2242,6 +2263,53 @@
         "sourceRecords": 1,
         "categories": 3,
         "families": 6
+      }
+    },
+    {
+      "brandId": "invent",
+      "displayName": "Invent Armaturen AG",
+      "primaryCategory": "pumps and pumping systems",
+      "secondaryCategories": [
+        "industrial valves and flow control",
+        "filtration and water systems"
+      ],
+      "families": [
+        "Prozess-Pumpen (technological pumps)",
+        "Standard-/Spezial-/Absperr-Armaturen (valves)",
+        "Pumpenschutz-Armaturen (pump protection valves)",
+        "Nieder- und Hochdruck Filter/Schmutzfänger (low/high-pressure strainers)",
+        "JEX",
+        "2CDX/CDX",
+        "EVM",
+        "LPS",
+        "LMR/SNL",
+        "LN/L",
+        "LSN",
+        "LS/LC/LCP",
+        "LSB",
+        "KS",
+        "MP/MPA/MPB/MPV",
+        "MRM",
+        "ND 551",
+        "ND 552",
+        "NHD 553",
+        "NHD 554",
+        "HD 555",
+        "HD 556"
+      ],
+      "primaryIntent": "Invent Armaturen AG pumps and pumping systems",
+      "secondaryIntents": [
+        "Invent Armaturen AG industrial equipment",
+        "Invent Armaturen AG sourcing",
+        "Invent Armaturen AG industrial valves and flow control",
+        "Invent Armaturen AG filtration and water systems"
+      ],
+      "titleCore": "Invent Armaturen AG Pumps and pumping systems",
+      "metaFactual": "Invent Armaturen AG manufacturer profile covering pumps and pumping systems, industrial valves and flow control, and filtration and water systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 7,
+        "categories": 3,
+        "families": 22
       }
     },
     {
@@ -6083,7 +6151,15 @@
         "Burner Controls",
         "Solenoid Valves and Regulators",
         "Combustion Instruments",
-        "Combustion Automation Systems"
+        "Combustion Automation Systems",
+        "ESTRO",
+        "GENIO",
+        "TARC-II",
+        "DPG/E",
+        "UV2",
+        "MRBV",
+        "TBV",
+        "WBV"
       ],
       "primaryIntent": "ESA Pyronics industrial automation and control",
       "secondaryIntents": [
@@ -6097,7 +6173,7 @@
       "evidenceCoverage": {
         "sourceRecords": 2,
         "categories": 3,
-        "families": 5
+        "families": 13
       }
     },
     {
@@ -14617,6 +14693,38 @@
       }
     },
     {
+      "brandId": "econosto",
+      "displayName": "ECONOSTO",
+      "primaryCategory": "industrial valves and flow control",
+      "secondaryCategories": [
+        "lifting and crane systems"
+      ],
+      "families": [
+        "Butterfly Valves",
+        "Ball Valves",
+        "Knife Gate Valves",
+        "Check Valves",
+        "Safety Valves",
+        "Pressure Reducing Valves",
+        "Wedge Gate Valve",
+        "Soft Sealing Gate Valve",
+        "Pneumatic and Electric Control Valves"
+      ],
+      "primaryIntent": "ECONOSTO industrial valves and flow control",
+      "secondaryIntents": [
+        "ECONOSTO industrial equipment",
+        "ECONOSTO sourcing",
+        "ECONOSTO lifting and crane systems"
+      ],
+      "titleCore": "ECONOSTO Industrial valves and flow control",
+      "metaFactual": "ECONOSTO manufacturer profile covering industrial valves and flow control and lifting and crane systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 2,
+        "families": 9
+      }
+    },
+    {
       "brandId": "elephant-brakes",
       "displayName": "Elephant Brakes",
       "primaryCategory": "brakes and couplings",
@@ -20082,6 +20190,28 @@
       }
     },
     {
+      "brandId": "seco",
+      "displayName": "SECO",
+      "primaryCategory": "industrial tools",
+      "secondaryCategories": [
+        "contract manufacturing and fabrication"
+      ],
+      "families": [],
+      "primaryIntent": "SECO industrial tools",
+      "secondaryIntents": [
+        "SECO industrial equipment",
+        "SECO sourcing",
+        "SECO contract manufacturing and fabrication"
+      ],
+      "titleCore": "SECO Industrial tools",
+      "metaFactual": "SECO manufacturer profile covering industrial tools and contract manufacturing and fabrication, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 2,
+        "families": 0
+      }
+    },
+    {
       "brandId": "sterling-sihi",
       "displayName": "STERLING SIHI",
       "primaryCategory": "pumps and pumping systems",
@@ -23541,6 +23671,34 @@
       }
     },
     {
+      "brandId": "norton",
+      "displayName": "Norton Clipper",
+      "primaryCategory": "welding and cutting equipment",
+      "secondaryCategories": [],
+      "families": [
+        "Diamond Tools",
+        "Norton Clipper Machines",
+        "Abrasives",
+        "Tile saws (table and rail saws)",
+        "Masonry saws",
+        "Handheld cut-off saws",
+        "Floor saws",
+        "Drilling rigs"
+      ],
+      "primaryIntent": "Norton Clipper welding and cutting equipment",
+      "secondaryIntents": [
+        "Norton Clipper industrial equipment",
+        "Norton Clipper sourcing"
+      ],
+      "titleCore": "Norton Clipper Welding and cutting equipment",
+      "metaFactual": "Norton Clipper manufacturer profile covering welding and cutting equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 1,
+        "categories": 1,
+        "families": 8
+      }
+    },
+    {
       "brandId": "pentronic",
       "displayName": "Pentronic",
       "primaryCategory": "industrial sensors",
@@ -24625,6 +24783,25 @@
       }
     },
     {
+      "brandId": "rodon",
+      "displayName": "RODON",
+      "primaryCategory": "industrial tools",
+      "secondaryCategories": [],
+      "families": [],
+      "primaryIntent": "RODON industrial tools",
+      "secondaryIntents": [
+        "RODON industrial equipment",
+        "RODON sourcing"
+      ],
+      "titleCore": "RODON Industrial tools",
+      "metaFactual": "RODON manufacturer profile covering industrial tools, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 1,
+        "families": 0
+      }
+    },
+    {
       "brandId": "sacemi-gamar",
       "displayName": "Sacemi-Gamar",
       "primaryCategory": "pumps and pumping systems",
@@ -25347,6 +25524,41 @@
       }
     },
     {
+      "brandId": "mez-brno",
+      "displayName": "EM Brno",
+      "primaryCategory": "electric motors",
+      "secondaryCategories": [
+        "drive and motion-control systems",
+        "lifting and crane systems"
+      ],
+      "families": [
+        "M",
+        "3M",
+        "V",
+        "1AY",
+        "4TM/5TM",
+        "EP",
+        "AOM",
+        "5NK",
+        "MEZOLIFT NL",
+        "LUN"
+      ],
+      "primaryIntent": "EM Brno electric motors",
+      "secondaryIntents": [
+        "EM Brno industrial equipment",
+        "EM Brno sourcing",
+        "EM Brno drive and motion-control systems",
+        "EM Brno lifting and crane systems"
+      ],
+      "titleCore": "EM Brno Electric motors",
+      "metaFactual": "EM Brno manufacturer profile covering electric motors, drive and motion-control systems, and lifting and crane systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 3,
+        "families": 10
+      }
+    },
+    {
       "brandId": "microsonic",
       "displayName": "microsonic",
       "primaryCategory": "industrial sensors",
@@ -25582,6 +25794,51 @@
         "sourceRecords": 3,
         "categories": 5,
         "families": 8
+      }
+    },
+    {
+      "brandId": "sti",
+      "displayName": "IMI Bopp & Reuther",
+      "primaryCategory": "industrial valves and flow control",
+      "secondaryCategories": [],
+      "families": [
+        "Si safety valves",
+        "ARS bypass valves",
+        "MSV reheater safety valves",
+        "Si",
+        "ARS",
+        "MSV"
+      ],
+      "primaryIntent": "IMI Bopp & Reuther industrial valves and flow control",
+      "secondaryIntents": [
+        "IMI Bopp & Reuther industrial equipment",
+        "IMI Bopp & Reuther sourcing"
+      ],
+      "titleCore": "IMI Bopp & Reuther Industrial valves and flow control",
+      "metaFactual": "IMI Bopp & Reuther manufacturer profile covering industrial valves and flow control, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 4,
+        "categories": 1,
+        "families": 6
+      }
+    },
+    {
+      "brandId": "supervac",
+      "displayName": "SUPERVAC",
+      "primaryCategory": "filling and packaging machinery",
+      "secondaryCategories": [],
+      "families": [],
+      "primaryIntent": "SUPERVAC filling and packaging machinery",
+      "secondaryIntents": [
+        "SUPERVAC industrial equipment",
+        "SUPERVAC sourcing"
+      ],
+      "titleCore": "SUPERVAC Filling and packaging machinery",
+      "metaFactual": "SUPERVAC manufacturer profile covering filling and packaging machinery, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 4,
+        "categories": 1,
+        "families": 0
       }
     },
     {
@@ -29537,6 +29794,33 @@
       }
     },
     {
+      "brandId": "lvf",
+      "displayName": "LVF",
+      "primaryCategory": "industrial valves and flow control",
+      "secondaryCategories": [],
+      "families": [
+        "Gate Valves",
+        "Globe Valves",
+        "Check Valves",
+        "Ball Valves",
+        "Modular DB&B and SB&B Valves",
+        "Through Conduit Gate Valves",
+        "Actuated/Motorized Gate Valves"
+      ],
+      "primaryIntent": "LVF industrial valves and flow control",
+      "secondaryIntents": [
+        "LVF industrial equipment",
+        "LVF sourcing"
+      ],
+      "titleCore": "LVF Industrial valves and flow control",
+      "metaFactual": "LVF manufacturer profile covering industrial valves and flow control, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 1,
+        "families": 7
+      }
+    },
+    {
       "brandId": "mas-lambertoni",
       "displayName": "M.A.S. Lambertoni",
       "primaryCategory": "industrial machinery",
@@ -30665,6 +30949,36 @@
       }
     },
     {
+      "brandId": "oteco",
+      "displayName": "OTECO Inc.",
+      "primaryCategory": "measurement and instrumentation",
+      "secondaryCategories": [
+        "industrial valves and flow control"
+      ],
+      "families": [
+        "Pressure Gauges",
+        "Gate Valves",
+        "Relief Valves",
+        "Fluid End Consumables",
+        "Model 6",
+        "Model 7",
+        "Model 8"
+      ],
+      "primaryIntent": "OTECO Inc. measurement and instrumentation",
+      "secondaryIntents": [
+        "OTECO Inc. industrial equipment",
+        "OTECO Inc. sourcing",
+        "OTECO Inc. industrial valves and flow control"
+      ],
+      "titleCore": "OTECO Inc. Measurement and instrumentation",
+      "metaFactual": "OTECO Inc. manufacturer profile covering measurement and instrumentation and industrial valves and flow control, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 2,
+        "families": 7
+      }
+    },
+    {
       "brandId": "varmec",
       "displayName": "Varmec",
       "primaryCategory": "gear units and geared drives",
@@ -30897,6 +31211,36 @@
         "sourceRecords": 2,
         "categories": 4,
         "families": 13
+      }
+    },
+    {
+      "brandId": "jvm",
+      "displayName": "JVM (Jöst GmbH + Co. KG)",
+      "primaryCategory": "filling and packaging machinery",
+      "secondaryCategories": [
+        "industrial vibration equipment",
+        "conveying and material-handling systems",
+        "drive and motion-control systems"
+      ],
+      "families": [
+        "JVM Dosing Drives (Series JD/JDA/JDE)",
+        "JVM Exciters",
+        "JVM Magnetic Drives",
+        "JVM Unbalance Motors"
+      ],
+      "primaryIntent": "JVM (Jöst GmbH + Co. KG) filling and packaging machinery",
+      "secondaryIntents": [
+        "JVM (Jöst GmbH + Co. KG) industrial equipment",
+        "JVM (Jöst GmbH + Co. KG) sourcing",
+        "JVM (Jöst GmbH + Co. KG) industrial vibration equipment",
+        "JVM (Jöst GmbH + Co. KG) conveying and material-handling systems"
+      ],
+      "titleCore": "JVM (Jöst GmbH + Co. KG) Filling and packaging machinery",
+      "metaFactual": "JVM (Jöst GmbH + Co. KG) manufacturer profile covering filling and packaging machinery, industrial vibration equipment, and conveying and material-handling systems, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 4,
+        "families": 4
       }
     },
     {
@@ -34780,6 +35124,35 @@
         "sourceRecords": 2,
         "categories": 3,
         "families": 10
+      }
+    },
+    {
+      "brandId": "berger",
+      "displayName": "Berger Lahr (Schneider Electric)",
+      "primaryCategory": "drive and motion-control systems",
+      "secondaryCategories": [
+        "electric motors",
+        "industrial automation and control"
+      ],
+      "families": [
+        "STE",
+        "STA",
+        "STM",
+        "Lexium"
+      ],
+      "primaryIntent": "Berger Lahr (Schneider Electric) drive and motion-control systems",
+      "secondaryIntents": [
+        "Berger Lahr (Schneider Electric) industrial equipment",
+        "Berger Lahr (Schneider Electric) sourcing",
+        "Berger Lahr (Schneider Electric) electric motors",
+        "Berger Lahr (Schneider Electric) industrial automation and control"
+      ],
+      "titleCore": "Berger Lahr (Schneider Electric) Drive and motion-control systems",
+      "metaFactual": "Berger Lahr (Schneider Electric) manufacturer profile covering drive and motion-control systems, electric motors, and industrial automation and control, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 3,
+        "families": 7
       }
     },
     {
@@ -54673,6 +55046,32 @@
       }
     },
     {
+      "brandId": "magneta",
+      "displayName": "Magneta",
+      "primaryCategory": "brakes and couplings",
+      "secondaryCategories": [
+        "electrical equipment"
+      ],
+      "families": [
+        "Magnetic Particle Clutches",
+        "Magnetic Particle Brakes",
+        "Controllers for magnetic particle clutches/brakes"
+      ],
+      "primaryIntent": "Magneta brakes and couplings",
+      "secondaryIntents": [
+        "Magneta industrial equipment",
+        "Magneta sourcing",
+        "Magneta electrical equipment"
+      ],
+      "titleCore": "Magneta Brakes and couplings",
+      "metaFactual": "Magneta manufacturer profile covering brakes and couplings and electrical equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 2,
+        "families": 3
+      }
+    },
+    {
       "brandId": "magnetek",
       "displayName": "Magnetek",
       "primaryCategory": "drive and motion-control systems",
@@ -60912,6 +61311,41 @@
       }
     },
     {
+      "brandId": "pedro-gil",
+      "displayName": "Pedro Gil",
+      "primaryCategory": "compressors and compressed-air systems",
+      "secondaryCategories": [
+        "vacuum equipment",
+        "industrial fans and blowers"
+      ],
+      "families": [
+        "Lobe Blowers",
+        "Screw Blowers",
+        "Turbo Blowers",
+        "Vacuum Pumps",
+        "TPG Turbo Blower",
+        "RPG Lobe Blower",
+        "RV",
+        "RNV",
+        "RVRB",
+        "SCREW"
+      ],
+      "primaryIntent": "Pedro Gil compressors and compressed-air systems",
+      "secondaryIntents": [
+        "Pedro Gil industrial equipment",
+        "Pedro Gil sourcing",
+        "Pedro Gil vacuum equipment",
+        "Pedro Gil industrial fans and blowers"
+      ],
+      "titleCore": "Pedro Gil Compressors and compressed-air systems",
+      "metaFactual": "Pedro Gil manufacturer profile covering compressors and compressed-air systems, vacuum equipment, and industrial fans and blowers, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 3,
+        "categories": 3,
+        "families": 10
+      }
+    },
+    {
       "brandId": "peg",
       "displayName": "PEG",
       "primaryCategory": "industrial machinery",
@@ -64254,6 +64688,28 @@
       }
     },
     {
+      "brandId": "rosati-fratelli",
+      "displayName": "ROSATI FRATELLI",
+      "primaryCategory": "industrial fans and blowers",
+      "secondaryCategories": [
+        "thermal-management equipment"
+      ],
+      "families": [],
+      "primaryIntent": "ROSATI FRATELLI industrial fans and blowers",
+      "secondaryIntents": [
+        "ROSATI FRATELLI industrial equipment",
+        "ROSATI FRATELLI sourcing",
+        "ROSATI FRATELLI thermal-management equipment"
+      ],
+      "titleCore": "ROSATI FRATELLI Industrial fans and blowers",
+      "metaFactual": "ROSATI FRATELLI manufacturer profile covering industrial fans and blowers and thermal-management equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 2,
+        "families": 0
+      }
+    },
+    {
       "brandId": "rosemount",
       "displayName": "Rosemount",
       "primaryCategory": "measurement and instrumentation",
@@ -64383,7 +64839,26 @@
         "Tensioning Elements",
         "Motor Bases",
         "Anti-Vibration Mounts",
-        "Rubber Suspension Units"
+        "Rubber Suspension Units",
+        "AWI",
+        "ESL",
+        "V",
+        "HS",
+        "HSI",
+        "N",
+        "NOX",
+        "DK-A",
+        "DK-C",
+        "DK-S",
+        "DO-A",
+        "DO-C",
+        "DO-S",
+        "DR-A",
+        "DR-C",
+        "DR-S",
+        "DW-A",
+        "DW-C",
+        "DW-S"
       ],
       "primaryIntent": "ROSTA industrial vibration equipment",
       "secondaryIntents": [
@@ -64396,7 +64871,7 @@
       "evidenceCoverage": {
         "sourceRecords": 1,
         "categories": 2,
-        "families": 5
+        "families": 24
       }
     },
     {
@@ -64955,6 +65430,25 @@
         "sourceRecords": 1,
         "categories": 2,
         "families": 5
+      }
+    },
+    {
+      "brandId": "saf-fro",
+      "displayName": "SAF-FRO",
+      "primaryCategory": "welding and cutting equipment",
+      "secondaryCategories": [],
+      "families": [],
+      "primaryIntent": "SAF-FRO welding and cutting equipment",
+      "secondaryIntents": [
+        "SAF-FRO industrial equipment",
+        "SAF-FRO sourcing"
+      ],
+      "titleCore": "SAF-FRO Welding and cutting equipment",
+      "metaFactual": "SAF-FRO manufacturer profile covering welding and cutting equipment, based on official company and product sources.",
+      "evidenceCoverage": {
+        "sourceRecords": 2,
+        "categories": 1,
+        "families": 0
       }
     },
     {

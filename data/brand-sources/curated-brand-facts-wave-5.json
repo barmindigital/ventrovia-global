@@ -1,27 +1,8 @@
 {
   "checkedAt": "2026-08-19",
   "blockedIdentities": [
-    {
-      "manufacturerId": "invent",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-19",
-      "reason": "INVENT is shared by unrelated companies and the local record has no independent identifier that proves a single industrial manufacturer.",
-      "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "vesta",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-19",
-      "reason": "VESTA is used by multiple unrelated industrial businesses and the local record does not contain a reliable discriminator.",
-      "attemptedUrls": []
-    },
-    {
-      "manufacturerId": "stmsi",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-19",
-      "reason": "The short STMSI name cannot be resolved to one manufacturer-owned domain with sufficient confidence.",
-      "attemptedUrls": []
-    }
+    {"manufacturerId":"vesta","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-19","reason":"VESTA is used by multiple unrelated industrial businesses and the local record does not contain a reliable discriminator.","attemptedUrls":[]},
+    {"manufacturerId":"stmsi","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-19","reason":"The short STMSI name cannot be resolved to one manufacturer-owned domain with sufficient confidence.","attemptedUrls":[]}
   ],
   "profiles": [
     {

@@ -1,48 +1,10 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "eltacon",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "The ELTACON label did not resolve to a manufacturer-owned domain with a verifiable legal identity and substantive current product portfolio. Name-only matching would create a wrong-company risk.",
-      "attemptedUrls": ["https://eltacon.eu/", "https://www.eltacon.de/"]
-    },
-    {
-      "manufacturerId": "oteco",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "OTECO is used by more than one industrial business and the repository record provides no legal name, country, domain or product discriminator. An authoritative identity match was not established.",
-      "attemptedUrls": ["https://www.otecousa.com/", "https://www.oteco.com/"]
-    },
-    {
-      "manufacturerId": "bb-battery",
-      "status": "BLOCKED_EXTERNAL_SOURCE",
-      "checkedAt": "2026-08-20",
-      "reason": "The likely B.B. Battery manufacturer domain timed out and no alternate manufacturer-owned About and Products source could be validated without relying on distributors.",
-      "attemptedUrls": ["https://www.bb-battery.com/"]
-    },
-    {
-      "manufacturerId": "envirotech",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "ENVIROTECH is shared by unrelated environmental, pump, valve and process-equipment businesses. The repository record lacks a legal-name, location or product discriminator required for a safe match.",
-      "attemptedUrls": ["https://www.envirotech.com/", "https://www.unitedenvirotech.com/"]
-    },
-    {
-      "manufacturerId": "itw-packaging-systems-group",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "ITW Packaging Systems Group is a historical umbrella identity covering multiple continuing ITW packaging brands. Current manufacturer-owned evidence does not support publishing it as one current product manufacturer without editorial entity resolution.",
-      "attemptedUrls": ["https://www.itw.com/", "https://www.signode.com/"]
-    },
-    {
-      "manufacturerId": "jvm",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "The three-letter JVM identity is insufficient to select one manufacturer. Searches produced unrelated industrial entities and no domain or product discriminator is present in the repository record.",
-      "attemptedUrls": ["https://www.j-v-m.com/", "https://www.joest.com/"]
-    }
+    {"manufacturerId":"eltacon","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-20","reason":"The ELTACON label did not resolve to a manufacturer-owned domain with a verifiable legal identity and substantive current product portfolio. Name-only matching would create a wrong-company risk.","attemptedUrls":["https://eltacon.eu/","https://www.eltacon.de/"]},
+    {"manufacturerId":"bb-battery","status":"BLOCKED_EXTERNAL_SOURCE","checkedAt":"2026-08-20","reason":"The likely B.B. Battery manufacturer domain timed out and no alternate manufacturer-owned About and Products source could be validated without relying on distributors.","attemptedUrls":["https://www.bb-battery.com/"]},
+    {"manufacturerId":"envirotech","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-20","reason":"ENVIROTECH is shared by unrelated environmental, pump, valve and process-equipment businesses. The repository record lacks a legal-name, location or product discriminator required for a safe match.","attemptedUrls":["https://www.envirotech.com/","https://www.unitedenvirotech.com/"]},
+    {"manufacturerId":"itw-packaging-systems-group","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-20","reason":"ITW Packaging Systems Group is a historical umbrella identity covering multiple continuing ITW packaging brands. Current manufacturer-owned evidence does not support publishing it as one current product manufacturer without editorial entity resolution.","attemptedUrls":["https://www.itw.com/","https://www.signode.com/"]}
   ],
   "profiles": [
     {

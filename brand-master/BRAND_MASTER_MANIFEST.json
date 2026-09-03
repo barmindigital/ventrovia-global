@@ -5,16 +5,16 @@
   "sourceCommit": "2a6ef0a92c9025b3a973bb8adcad1a8d224448e2",
   "scope": "PORTABLE_FRAMEWORK_NEUTRAL_BRAND_KNOWLEDGE",
   "counts": {
-    "brandsTotal": 2735,
-    "brandSafe": 2379,
-    "brandReview": 356,
-    "brandComplete": 2349,
-    "safeWithLogo": 2065,
-    "safeWithoutLogo": 314,
-    "countries": 2206,
-    "headquarters": 1360,
-    "familyEvidence": 2359,
-    "sourceRecords": 4614,
+    "brandsTotal": 2730,
+    "brandSafe": 2396,
+    "brandReview": 334,
+    "brandComplete": 2351,
+    "safeWithLogo": 2067,
+    "safeWithoutLogo": 329,
+    "countries": 2218,
+    "headquarters": 1377,
+    "familyEvidence": 2371,
+    "sourceRecords": 4663,
     "categories": 100
   },
   "policies": {
@@ -9421,6 +9421,12 @@
       "role": "BRAND_LOGO"
     },
     {
+      "path": "brand-assets/logos/saf-fro.jpg",
+      "size": 85806,
+      "sha256": "20dc4c8dfce03c777d74800b4ae207b5b7acb664af0474eb00daef9a07d6149b",
+      "role": "BRAND_LOGO"
+    },
+    {
       "path": "brand-assets/logos/sagola.png",
       "size": 8419,
       "sha256": "67d87f0da1b4e28832dd31f49a4b4824370390622cbc6052dc892fb98913db5d",
@@ -9742,6 +9748,12 @@
       "path": "brand-assets/logos/seagate.svg",
       "size": 2392,
       "sha256": "6fa1ce05134491cd92c31a977eb6af2c7efc28b804aa3dc5b002e587a7f19a25",
+      "role": "BRAND_LOGO"
+    },
+    {
+      "path": "brand-assets/logos/seco.svg",
+      "size": 1175,
+      "sha256": "ab2b8158a06c3e1506533df367e49bc975be7c7271af0325bc03049f9ba84211",
       "role": "BRAND_LOGO"
     },
     {
@@ -12422,68 +12434,68 @@
     },
     {
       "path": "data/brand-category-taxonomy.json",
-      "size": 142197,
-      "sha256": "b1e549fcd471afb19c41365f0da064752d941af95bcf0885206a8eaf0a550f6f",
+      "size": 142809,
+      "sha256": "e74ead9c766272921b421df4ad7b05646c62c525d585f6986c409636551e8597",
       "role": "DATA"
     },
     {
       "path": "data/brand-completeness.json",
-      "size": 1312091,
-      "sha256": "7d88e30b024af08985560220973becd920308286339b5aaca6463a467ad41333",
+      "size": 1309392,
+      "sha256": "b4140594caa70cd57775eb7ad15fdd59e90edf302672a0e23a34ee34102cb63a",
       "role": "DATA"
     },
     {
       "path": "data/brand-content-quality-audit.json",
       "size": 1241,
-      "sha256": "f7160cced1fbdacbf186ac9f1da800fbf186036c7af24b1fc14c01edd806e6ee",
+      "sha256": "7c7606cf6d8a4e779e33ebacea6e3c75533e2114cba89b054c081e44519b4f20",
       "role": "DATA"
     },
     {
       "path": "data/brand-duplicate-candidates.json",
-      "size": 157129,
-      "sha256": "4e196d6a0365875deb1130735987672415652383eafd3e3be1a69a5dcbfa9fbc",
+      "size": 158109,
+      "sha256": "7337c22542792a1914a854f6aa2fa5a41948e29dafe3b703a9cfdea84c483612",
       "role": "DATA"
     },
     {
       "path": "data/brand-logo-gaps.json",
-      "size": 130851,
-      "sha256": "fd8679e09f6e6fb3a63d94eb486ef796233a01b7a73cee6504837b742593f382",
+      "size": 137078,
+      "sha256": "9606e57e0e28fd14e797101bac728a1a12da62536c14700d80884e62ad348801",
       "role": "DATA"
     },
     {
       "path": "data/brand-master.csv",
-      "size": 2478951,
-      "sha256": "ba1725d2265bdbb2dbfcc928bdad01ef6f5a1459cb92de4577618e008dc2ce8b",
+      "size": 2490762,
+      "sha256": "37b2f5bb4ef857f206543bca88ebe405be0bc4dcbd1109309cc80f46e66e40ce",
       "role": "DATA"
     },
     {
       "path": "data/brand-master.json",
-      "size": 13879048,
-      "sha256": "a1d3964196e07c8387395086170f4ff375a7d424133201fb74ba3a4299965686",
+      "size": 13915503,
+      "sha256": "1edb7994e7bfd1e4bf08c68098c0040db5dcb716f0ea709d1f83924ba859f25b",
       "role": "DATA"
     },
     {
       "path": "data/brand-review-queue.json",
-      "size": 237732,
-      "sha256": "05e5b90f66e81f7d633ea8e3a61d23defc04b16893d991f81f9c4c70832d9f6b",
+      "size": 220241,
+      "sha256": "f65265cb1cd3fa6358dc79c12bde08f59d087c284dbe0f053aa07f42263ce260",
       "role": "DATA"
     },
     {
       "path": "data/brand-seo-semantic-map.json",
-      "size": 2526548,
-      "sha256": "c3e42ee54f421628aa3485bcdc1e5f99433fbb1a5501aa28219ffcaa9952cae0",
+      "size": 2543138,
+      "sha256": "f8bc70b4d21eb943748a1a9bc292f465906aacbac9d576e7292783611b4cc83d",
       "role": "DATA"
     },
     {
       "path": "data/brand-slug-aliases.json",
-      "size": 665415,
-      "sha256": "7bcd03c40244fec51c9bb1ce5e4f22f17b468f3204bd4048a0beef6fc7a8133e",
+      "size": 665953,
+      "sha256": "dab1a5735a235dfd491e997fe52b04e553f1bd388c19012490ca7658cb42240b",
       "role": "DATA"
     },
     {
       "path": "data/brand-sources.json",
-      "size": 1846552,
-      "sha256": "1181bd6afa98cacd569e1a56070c2ec26d25269591bf375c925243f80064c744",
+      "size": 1865753,
+      "sha256": "de8107a9921162a20db9a5af81461426ab0208186300032773c01b4f5f6918ce",
       "role": "DATA"
     },
     {
@@ -12507,7 +12519,7 @@
     {
       "path": "reports/BRAND_CONTENT_PORTABILITY_AUDIT.md",
       "size": 741,
-      "sha256": "c79b1e790ad21b38e5637962f3ce7b242839ff00fafbb0596a3b84d638fb664d",
+      "sha256": "a37f37d9fc454cfd0548fcf108afd3d637e0c4eedc2a4801dca160a0d6b13ef2",
       "role": "REPORT"
     },
     {
@@ -12518,20 +12530,20 @@
     },
     {
       "path": "reports/BRAND_LOGO_GAPS.md",
-      "size": 5010,
-      "sha256": "ffaad3be21c8f7833cd6f97affea69c0902da2a5e8baf661d3195e3b25db50f8",
+      "size": 5061,
+      "sha256": "1d0b64e902fdbd09194a5b67cbda085745e9d78ce042f6745a178ec974522a8e",
       "role": "REPORT"
     },
     {
       "path": "reports/BRAND_MASTER_COMPLETENESS.md",
       "size": 760,
-      "sha256": "a96da827ed80ed4a611be60b2b612da3ce83809013cffc6c42ad49a566985f90",
+      "sha256": "7c39bbb844ab4df1eabb46b0937efd271e4713a24945149db7e0c3981fb9aef0",
       "role": "REPORT"
     },
     {
       "path": "reports/BRAND_UNRESOLVED_IDENTITIES.md",
-      "size": 2698,
-      "sha256": "147145486de57a93f27c9baed2028b4ba0dd4e2467f68d5a12055a0857661379",
+      "size": 2418,
+      "sha256": "48495468b30dfe008f05c01238952209716f4a5b9585e8ed720d23c35bc4630b",
       "role": "REPORT"
     },
     {

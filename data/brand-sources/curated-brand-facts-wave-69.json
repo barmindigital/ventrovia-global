@@ -1,41 +1,7 @@
 {
   "checkedAt": "2026-08-24",
   "blockedIdentities": [
-    {
-      "manufacturerId": "rodon",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "RODON matches several unrelated industrial companies and product brands. No queue evidence distinguishes the intended entity strongly enough for publication.",
-      "attemptedUrls": ["https://www.rodongroup.com/", "https://rodon.com/", "https://www.rodonparts.com/"]
-    },
-    {
-      "manufacturerId": "itec",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "ITEC is a generic acronym used by multiple manufacturers in different industrial sectors; no canonical product scope or independent identity signal is present in the queue record.",
-      "attemptedUrls": ["https://www.itec.de/", "https://www.itec-ltd.co.uk/", "https://www.itec.co.jp/"]
-    },
-    {
-      "manufacturerId": "mez-brno",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "MEZ BRNO is associated with several current successor and related motor businesses. The raw identity does not establish which current manufacturer entity should own the canonical page.",
-      "attemptedUrls": ["https://www.mez.cz/", "https://www.mezmotors.cz/", "https://www.mez-brno.cz/"]
-    },
-    {
-      "manufacturerId": "sti",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "STI is used by multiple unrelated industrial manufacturers, including safety, transport and process-equipment businesses. The queue record lacks a product or geography discriminator.",
-      "attemptedUrls": ["https://www.sti-usa.com/", "https://www.sti-industrie.com/", "https://www.sti-global.com/"]
-    },
-    {
-      "manufacturerId": "supervac",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-24",
-      "reason": "SUPERVAC corresponds to separate manufacturers of vacuum packaging machinery, ventilation equipment and vacuum systems. A canonical match cannot be made from the raw name alone.",
-      "attemptedUrls": ["https://www.supervac.at/", "https://supervac.com/", "https://www.supervac.co/"]
-    }
+    {"manufacturerId":"itec","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-24","reason":"ITEC is a generic acronym used by multiple manufacturers in different industrial sectors; no canonical product scope or independent identity signal is present in the queue record.","attemptedUrls":["https://www.itec.de/","https://www.itec-ltd.co.uk/","https://www.itec.co.jp/"]}
   ],
   "profiles": [
     {

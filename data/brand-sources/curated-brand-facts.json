@@ -7,15 +7,7 @@
     "logoRule": "A logo candidate is publishable only when identity and reuse status are both explicit.",
     "dealerRule": "No profile may claim official dealer, representative, stock, price or manufacturer warranty status."
   },
-  "blockedIdentities": [
-    {
-      "manufacturerId": "pragati",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-17",
-      "reason": "The historical name Pragati can refer to unrelated machine-tool and automation manufacturers; the local entity cannot yet be tied to one official company without stronger evidence.",
-      "attemptedUrls": ["https://pragatimachines.com/", "https://pragati-automation.com/"]
-    }
-  ],
+  "blockedIdentities": [],
   "profiles": [
     {
       "manufacturerId": "bosch-rexroth",

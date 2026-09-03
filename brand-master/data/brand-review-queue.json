@@ -1,65 +1,50 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 356,
+  "totalReview": 334,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "count": 267,
-      "share": 0.75
+      "count": 253,
+      "share": 0.7575
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "count": 46,
-      "share": 0.1292
+      "count": 44,
+      "share": 0.1317
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "count": 17,
-      "share": 0.0478
+      "count": 14,
+      "share": 0.0419
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "count": 12,
-      "share": 0.0337
+      "count": 10,
+      "share": 0.0299
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
       "count": 5,
-      "share": 0.014
+      "share": 0.015
     },
     {
       "blockerCategory": "POSSIBLE_DUPLICATE",
       "count": 5,
-      "share": 0.014
-    },
-    {
-      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "count": 2,
-      "share": 0.0056
+      "share": 0.015
     },
     {
       "blockerCategory": "OTHER",
       "count": 2,
-      "share": 0.0056
+      "share": 0.006
+    },
+    {
+      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
+      "count": 1,
+      "share": 0.003
     }
   ],
   "fastReviewCandidates": [
-    {
-      "brandId": "pragati",
-      "displayName": "PRAGATI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "The historical name Pragati can refer to unrelated machine-tool and automation manufacturers; the local entity cannot yet be tied to one official company without stronger evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://pragatimachines.com/",
-        "https://pragati-automation.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
     {
       "brandId": "kovosvit-mas",
       "displayName": "KOVOSVIT MAS",
@@ -223,21 +208,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "magneta",
-      "displayName": "MAGNETA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Manufacturer-owned magneta HTTPS pages and documents did not establish a working connection during the release check. The product identity is plausible, but publication remains blocked until the official source is reachable.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://magneta.de/",
-        "https://www.magneta.de/download/doku/Magnetpulverkupplungen_Katalog_deutsch_englisch_.pdf"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "mercer-valve",
       "displayName": "MERCER VALVE",
       "aliases": [],
@@ -298,21 +268,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "pedro-gil",
-      "displayName": "PEDRO GIL",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The official Pedro Gil HTTPS site and its product document endpoint returned HTTP 429 during release verification. The rate restriction was respected and no reseller source was substituted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.pedrogil.com/",
-        "https://www.pedrogil.com/en-au/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "pvtvm",
       "displayName": "PVTVM",
       "aliases": [],
@@ -354,35 +309,6 @@
       "attemptedUrls": [
         "https://robotpumps.com/",
         "https://www.robotpumps.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "rosati-fratelli",
-      "displayName": "ROSATI FRATELLI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "No current manufacturer-owned HTTPS company and product source matching ROSATI FRATELLI could be verified.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Rosati+Fratelli%22+manufacturer+official"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "saf-fro",
-      "displayName": "SAF-FRO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The apparent SAF-FRO manufacturer-owned HTTPS site did not complete a response during repeated verification, so current identity and product scope could not be released safely.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.saf-fro.com/",
-        "https://www.saf-fro.com/products/"
       ],
       "effortClass": "NORMAL"
     },
@@ -473,33 +399,6 @@
     }
   ],
   "records": [
-    {
-      "brandId": "pragati",
-      "displayName": "PRAGATI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "The historical name Pragati can refer to unrelated machine-tool and automation manufacturers; the local entity cannot yet be tied to one official company without stronger evidence.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://pragatimachines.com/",
-        "https://pragati-automation.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "invent",
-      "displayName": "INVENT",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "INVENT is shared by unrelated companies and the local record has no independent identifier that proves a single industrial manufacturer.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
-    },
     {
       "brandId": "vesta",
       "displayName": "VESTA",
@@ -648,42 +547,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "econosto",
-      "displayName": "ECONOSTO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "The generic repository identity ECONOSTO cannot be bound safely to one current manufacturer. Official manufacturer-owned sources identify ECONOSTO Oy in Kuopio, Finland, as a valve supplier within KLINGER Finland, while separate official sources identify Siekmann Econosto GmbH in Dortmund, Germany, as an industrial-valve manufacturer and supplier within ERIKS. The repository record has no domain, legal name, country, alias or product-scope discriminator that selects one of these distinct current entities or the wider Royal Econosto legacy.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.econosto.fi/en/",
-        "https://www.econosto.fi/en/company/",
-        "https://www.econosto.fi/en/products/",
-        "https://siekmann-econosto.de/en/",
-        "https://siekmann-econosto.de/en/about-us/",
-        "https://www.siekmann-econosto.de/en/geschichte/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "fam",
-      "displayName": "FAM",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "The short repository identity FAM cannot be bound safely to one manufacturer. Official sources identify FAM Minerals & Mining GmbH as a BEUMER Group bulk-material and mining-systems company, while the unrelated FAM brand within FAM STUMABO manufactures industrial food-cutting equipment. The repository record has no official domain, legal name, country or product-scope discriminator that selects one of these active identities.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.beumergroup.com/about-us/fam/",
-        "https://www.beumergroup.com/press/beumer-group-acquires-full-control-of-the-fam-group-of-magdeburg/",
-        "https://fam-stumabo.com/news-events/fam-stumabo-unveils-new-logo-and-a-brand-new-website/",
-        "https://fam-stumabo.com/legal-disclaimer/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "kovosvit-mas",
       "displayName": "KOVOSVIT MAS",
       "aliases": [],
@@ -700,24 +563,6 @@
         "https://references.kovosvit.cz/en/katalog/stroj/6.html"
       ],
       "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "lta",
-      "displayName": "LTA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "The short repository identity LTA cannot be resolved to one manufacturer without an independent discriminator. LTA Lufttechnik GmbH manufactures industrial filtration and extraction systems, while unrelated active businesses use LTA for CNC machining, poultry-processing equipment and engineered inflatable structures. The repository record contains no official domain, alias or product scope that proves the intended entity.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.lta-filter.com/en/",
-        "https://www.lta-filter.com/en/imprint/",
-        "https://lta-machining.com/",
-        "https://www.ltadistributing.com/",
-        "https://www.ltaprojects.com/projects/"
-      ],
-      "effortClass": "EXPENSIVE"
     },
     {
       "brandId": "orion",
@@ -792,33 +637,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "seco",
-      "displayName": "SECO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "SECO resolves to multiple unrelated manufacturer-owned businesses, including Seco cutting tools and SECO laboratory equipment. The record lacks a product or legal-entity discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.secotools.com/",
-        "https://www.secoeng.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "vector-pumps",
-      "displayName": "VECTOR",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "The generic name VECTOR PUMPS did not resolve to a unique manufacturer-owned corporate and product source. Similar-name pump businesses and distributor listings were not sufficient for canonical identity.",
-      "detail": null,
-      "attemptedUrls": [],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "cbi",
       "displayName": "CBI",
       "aliases": [],
@@ -879,37 +697,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "norton",
-      "displayName": "NORTON",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "NORTON is shared by unrelated industrial and commercial brands. The repository label has no domain, country, legal name or product discriminator that safely selects one manufacturer-owned source.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.nortonabrasives.com/",
-        "https://www.nortonmotorcycles.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "rodon",
-      "displayName": "RODON",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "RODON matches several unrelated industrial companies and product brands. No queue evidence distinguishes the intended entity strongly enough for publication.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.rodongroup.com/",
-        "https://rodon.com/",
-        "https://www.rodonparts.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "itec",
       "displayName": "ITEC",
       "aliases": [],
@@ -922,54 +709,6 @@
         "https://www.itec.de/",
         "https://www.itec-ltd.co.uk/",
         "https://www.itec.co.jp/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "mez-brno",
-      "displayName": "MEZ BRNO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "MEZ BRNO is associated with several current successor and related motor businesses. The raw identity does not establish which current manufacturer entity should own the canonical page.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.mez.cz/",
-        "https://www.mezmotors.cz/",
-        "https://www.mez-brno.cz/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "sti",
-      "displayName": "STI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "STI is used by multiple unrelated industrial manufacturers, including safety, transport and process-equipment businesses. The queue record lacks a product or geography discriminator.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.sti-usa.com/",
-        "https://www.sti-industrie.com/",
-        "https://www.sti-global.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "supervac",
-      "displayName": "SUPERVAC",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "SUPERVAC corresponds to separate manufacturers of vacuum packaging machinery, ventilation equipment and vacuum systems. A canonical match cannot be made from the raw name alone.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.supervac.at/",
-        "https://supervac.com/",
-        "https://www.supervac.co/"
       ],
       "effortClass": "EXPENSIVE"
     },
@@ -1057,20 +796,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.loenne.de/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "lvf",
-      "displayName": "LVF",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "LVF is a generic abbreviation and the surfaced valve sites do not provide enough manufacturer-owned corporate evidence to resolve the intended entity safely.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.lvfvalve.cn/"
       ],
       "effortClass": "EXPENSIVE"
     },
@@ -1208,21 +933,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "oteco",
-      "displayName": "OTECO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "OTECO is used by more than one industrial business and the repository record provides no legal name, country, domain or product discriminator. An authoritative identity match was not established.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.otecousa.com/",
-        "https://www.oteco.com/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
       "brandId": "bb-battery",
       "displayName": "BB BATTERY",
       "aliases": [],
@@ -1265,21 +975,6 @@
         "https://www.signode.com/"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "jvm",
-      "displayName": "JVM",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "INSUFFICIENT_PRODUCT_SCOPE",
-      "reason": "The three-letter JVM identity is insufficient to select one manufacturer. Searches produced unrelated industrial entities and no domain or product discriminator is present in the repository record.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.j-v-m.com/",
-        "https://www.joest.com/"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "a-flow",
@@ -1662,21 +1357,6 @@
       "detail": null,
       "attemptedUrls": [
         "https://www.beha.no/about-beha/?lang=en"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "berger",
-      "displayName": "BERGER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "BERGER is a shared surname and industrial brand across unrelated machine, automation, motor and tooling businesses. A safe canonical entity cannot be inferred from the name alone.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.bergerholding.com/",
-        "https://www.berger-tools.co.uk/"
       ],
       "effortClass": "EXPENSIVE"
     },
@@ -3356,21 +3036,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "magneta",
-      "displayName": "MAGNETA",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "Manufacturer-owned magneta HTTPS pages and documents did not establish a working connection during the release check. The product identity is plausible, but publication remains blocked until the official source is reachable.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://magneta.de/",
-        "https://www.magneta.de/download/doku/Magnetpulverkupplungen_Katalog_deutsch_englisch_.pdf"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "magnetic",
       "displayName": "MAGNETIC",
       "aliases": [],
@@ -3972,21 +3637,6 @@
       "effortClass": "EXPENSIVE"
     },
     {
-      "brandId": "pedro-gil",
-      "displayName": "PEDRO GIL",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The official Pedro Gil HTTPS site and its product document endpoint returned HTTP 429 during release verification. The rate restriction was respected and no reseller source was substituted.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.pedrogil.com/",
-        "https://www.pedrogil.com/en-au/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "petrogas",
       "displayName": "PETROGAS",
       "aliases": [],
@@ -4012,20 +3662,6 @@
       "attemptedUrls": [
         "https://www.piller.com/",
         "https://www.piller.de/"
-      ],
-      "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "pioneer",
-      "displayName": "PIONEER",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "AMBIGUOUS_IDENTITY",
-      "reason": "PIONEER is a non-unique manufacturer name used by unrelated pump, bearing, electrical and electronics businesses. The bare repository record cannot be assigned to one official domain without a material wrong-identity risk.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=Pioneer+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
     },
@@ -4125,21 +3761,6 @@
       "attemptedUrls": [
         "https://www.pvtvm.com/",
         "https://pvtvm.com/"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
-      "brandId": "pyronics",
-      "displayName": "PYRONICS",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "AMBIGUOUS_IDENTITY",
-      "blockerCategory": "ACQUISITION_OR_LEGACY",
-      "reason": "PYRONICS may refer to a legacy North American combustion brand or to the distinct ESA Pyronics business already represented separately in the repository. Current Honeywell pages document thermal products but do not establish the exact PYRONICS record as a current brand entity.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://process.honeywell.com/us/en/products/thermal-solutions",
-        "https://www.esapyronics.com/"
       ],
       "effortClass": "NORMAL"
     },
@@ -4303,20 +3924,6 @@
       "effortClass": "NORMAL"
     },
     {
-      "brandId": "rosati-fratelli",
-      "displayName": "ROSATI FRATELLI",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
-      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "reason": "No current manufacturer-owned HTTPS company and product source matching ROSATI FRATELLI could be verified.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.google.com/search?q=%22Rosati+Fratelli%22+manufacturer+official"
-      ],
-      "effortClass": "NORMAL"
-    },
-    {
       "brandId": "rosen",
       "displayName": "ROSEN",
       "aliases": [],
@@ -4371,21 +3978,6 @@
         "https://www.google.com/search?q=SAE+industrial+manufacturer+official"
       ],
       "effortClass": "EXPENSIVE"
-    },
-    {
-      "brandId": "saf-fro",
-      "displayName": "SAF-FRO",
-      "aliases": [],
-      "state": "REQUIRES_REVIEW",
-      "blockerCode": "BLOCKED_EXTERNAL_SOURCE",
-      "blockerCategory": "SOURCE_ACCESS_BLOCKED",
-      "reason": "The apparent SAF-FRO manufacturer-owned HTTPS site did not complete a response during repeated verification, so current identity and product scope could not be released safely.",
-      "detail": null,
-      "attemptedUrls": [
-        "https://www.saf-fro.com/",
-        "https://www.saf-fro.com/products/"
-      ],
-      "effortClass": "NORMAL"
     },
     {
       "brandId": "saint-gobain-performance",

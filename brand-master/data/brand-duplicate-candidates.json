@@ -587,6 +587,15 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "berger",
+      "parentCompany": "Schneider Electric SE",
+      "formerNames": [
+        "Berger Lahr",
+        "Berger-Lahr GmbH & Co. KG"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "berger-lahr",
       "parentCompany": "Schneider Electric SE",
       "formerNames": [],
@@ -1439,6 +1448,12 @@
     {
       "brandId": "ecolab-engineering-gmbh",
       "parentCompany": "Ecolab Inc.",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "econosto",
+      "parentCompany": "KLINGER Finland",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -2624,6 +2639,12 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "jvm",
+      "parentCompany": "Jöst GmbH + Co. KG",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "kabelschlepp",
       "parentCompany": "Tsubakimoto Chain Co.",
       "formerNames": [],
@@ -3007,6 +3028,14 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "magneta",
+      "parentCompany": "Kendrion N.V.",
+      "formerNames": [
+        "Magneta GmbH & Co. KG"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "magnetek",
       "parentCompany": "Columbus McKinnon Corporation",
       "formerNames": [],
@@ -3210,6 +3239,18 @@
       "brandId": "meyn",
       "parentCompany": "CTB, Inc.",
       "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "mez-brno",
+      "parentCompany": null,
+      "formerNames": [
+        "MEZ Brno",
+        "Moravské elektrotechnické závody",
+        "MEZ Židenice",
+        "Elektromotor SVET",
+        "Strojírna Bratří Richtrové"
+      ],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -3498,6 +3539,14 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "norton",
+      "parentCompany": "Saint-Gobain Abrasives (Compagnie de Saint-Gobain)",
+      "formerNames": [
+        "Clipper"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "novaseptic",
       "parentCompany": "Merck KGaA, Darmstadt, Germany",
       "formerNames": [],
@@ -3673,6 +3722,12 @@
       "formerNames": [
         "PCM Pompes"
       ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "pedro-gil",
+      "parentCompany": "Ingersoll Rand",
+      "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -4006,6 +4061,15 @@
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
+      "brandId": "rosati-fratelli",
+      "parentCompany": null,
+      "formerNames": [
+        "Rosati S.r.l.",
+        "Rosati Fratelli"
+      ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
       "brandId": "rosemount",
       "parentCompany": "Emerson Electric Co.",
       "formerNames": [],
@@ -4107,6 +4171,12 @@
     {
       "brandId": "sachs",
       "parentCompany": "ZF Friedrichshafen AG",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "saf-fro",
+      "parentCompany": "Lincoln Electric Holdings, Inc.",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4223,6 +4293,12 @@
     {
       "brandId": "schroedahl",
       "parentCompany": "CIRCOR International",
+      "formerNames": [],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "seco",
+      "parentCompany": "Sandvik AB",
       "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
@@ -4518,6 +4594,12 @@
       "formerNames": [
         "CA Stewart"
       ],
+      "status": "CONFIRMED_PROFILE_RELATIONSHIP"
+    },
+    {
+      "brandId": "sti",
+      "parentCompany": "IMI plc",
+      "formerNames": [],
       "status": "CONFIRMED_PROFILE_RELATIONSHIP"
     },
     {
@@ -5322,13 +5404,6 @@
       "reason": "Danaher Motion was a former umbrella business whose product lines now belong to different current companies and brands. No single current manufacturer-owned identity can represent the undifferentiated record safely."
     },
     {
-      "brandId": "econosto",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "The generic repository identity ECONOSTO cannot be bound safely to one current manufacturer. Official manufacturer-owned sources identify ECONOSTO Oy in Kuopio, Finland, as a valve supplier within KLINGER Finland, while separate official sources identify Siekmann Econosto GmbH in Dortmund, Germany, as an industrial-valve manufacturer and supplier within ERIKS. The repository record has no domain, legal name, country, alias or product-scope discriminator that selects one of these distinct current entities or the wider Royal Econosto legacy."
-    },
-    {
       "brandId": "ele-fantini",
       "parentCompany": null,
       "formerNames": [],
@@ -5453,13 +5528,6 @@
       "formerNames": [],
       "status": "REVIEW_REQUIRED",
       "reason": "Only historical third-party and legacy catalog references were found for OLEOSTAR. No current manufacturer-owned HTTPS source establishes an independent identity and product scope."
-    },
-    {
-      "brandId": "pyronics",
-      "parentCompany": null,
-      "formerNames": [],
-      "status": "REVIEW_REQUIRED",
-      "reason": "PYRONICS may refer to a legacy North American combustion brand or to the distinct ESA Pyronics business already represented separately in the repository. Current Honeywell pages document thermal products but do not establish the exact PYRONICS record as a current brand entity."
     },
     {
       "brandId": "regal-beloit-bv",

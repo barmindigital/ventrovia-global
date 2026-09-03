@@ -42,4 +42,9 @@ export const mergedManufacturerSlugs: ReadonlyArray<{ from: string; to: string }
   { from: "santasalo", to: "david-brown" },
   { from: "negele", to: "anderson-negele-negele-messtechnik-gmbh" },
   { from: "mtl", to: "mtl-instruments" },
+  { from: "fam", to: "rosta" },
+  { from: "lta", to: "junker" },
+  { from: "pyronics", to: "esa-pyronics-international" },
+  { from: "vector-pumps", to: "wanner-engineering" },
+  { from: "pioneer", to: "pioneer-pump" },
 ];

@@ -2,24 +2,26 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-- SAFE brands: 2379
-- SAFE with publishable identity-matched logo: 2065
-- SAFE without logo: 314
-- Registry mappings excluded because identity is not SAFE: 32
+- SAFE brands: 2396
+- SAFE with publishable identity-matched logo: 2067
+- SAFE without logo: 329
+- Registry mappings excluded because identity is not SAFE: 30
 
 ## Priority distribution
 
-- HIGH: 312
-- NORMAL: 2
+- HIGH: 325
+- NORMAL: 4
 
 ## First 100 gaps
 
 - Elco (`elco-motors`) — elco-spa.com
 - HERZ (`herz`) — herz.eu
+- Pragati Automation (`pragati`) — pragati-automation.com
 - Thomson (`thomson`) — thomsonlinear.com
 - Lutz Pumpen (`lutz-pumpen-gmbh`) — lutzpumps.com
 - Duplomatic (`duplomatic`) — duplomaticms.com
 - Franklin Electric (`franklin-electric`) — franklinwater.com
+- Invent Armaturen AG (`invent`) — invent-armaturen.ch
 - SIMOTOP (`simotop`) — simotopgroup.com
 - Gruner (`gruner-ag`) — gruner.de
 - DUNGS (`dungs`) — dungs.com
@@ -65,6 +67,7 @@ Generated: 2026-08-24T00:00:00.000Z
 - ARON (`aron`) — dana.com
 - Bradman Lake (`bradman_lake`) — bradmanlake.com
 - Concens (`concens`) — concens.com
+- ECONOSTO (`econosto`) — econosto.fi
 - FRIEDRICH Schwingtechnik (`friedrich-schwingtechnik-gmbh`) — friedrich-schwingtechnik.de
 - GF Machining Solutions (`gf-agie-charmilles`) — machining.com
 - GSM (`gsm`) — stmspa.com
@@ -101,18 +104,15 @@ Generated: 2026-08-24T00:00:00.000Z
 - IDAM (`idam`) — schaeffler.com
 - KLIMA CELJE (`klima-celje`) — klima-celje.si
 - Mecafrance (`mecafrance`) — mecafrance-bonn.de
+- Norton Clipper (`norton`) — nortonabrasives.com
 - Rotex (`rotex`) — therotexgroup.com
 - TAKISAWA (`takisawa`) — takisawa.co.jp
 - FREYMATIC (`freymatic`) — freymatic.com
 - Fybroc (`fybroc`) — tuskind.com
 - Royal Pas Reform (`pas-reform`) — pasreform.com
+- RODON (`rodon`) — rodon-int.com
 - Sethco (`sethco`) — tuskind.com
 - Vuototecnica (`vuototecnica`) — vuototecnica.net
 - HERZOG (`herzog`) — herzog-maschinenfabrik.de
-- INTORQ (`intorq`) — kendrion.com
-- microsonic (`microsonic`) — microsonic.de
-- SCHAUDT (`schaudt`) — grinding.com
-- YTRON (`ytron`) — ytron.com
-- Thomas (`thomas`) — thomaspumps.com
 
 The full machine-readable queue is `data/brand-logo-gaps.json`. A missing logo never lowers identity verification, and a logo is never assigned through fuzzy matching alone.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalBrands": 2735,
+  "totalBrands": 2730,
   "records": [
     {
       "brandId": "bosch-rexroth",
@@ -366,19 +366,19 @@
     },
     {
       "brandId": "pragati",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -1449,21 +1449,21 @@
     },
     {
       "brandId": "invent",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 90,
+      "indicator": "BRAND_COMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
@@ -3902,7 +3902,7 @@
       "brandId": "esa-pyronics-international",
       "identityStatus": "CONFIRMED",
       "publicationStatus": "BRAND_SAFE",
-      "score": 95,
+      "score": 100,
       "indicator": "BRAND_COMPLETE",
       "verificationIndependent": true,
       "fields": {
@@ -3912,7 +3912,7 @@
         "category": true,
         "families": true,
         "country": true,
-        "headquarters": false,
+        "headquarters": true,
         "logo": true,
         "documents": true
       }
@@ -8764,21 +8764,21 @@
     },
     {
       "brandId": "econosto",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 90,
+      "indicator": "BRAND_COMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
@@ -8950,25 +8950,6 @@
         "headquarters": true,
         "logo": true,
         "documents": true
-      }
-    },
-    {
-      "brandId": "fam",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
-      "verificationIndependent": true,
-      "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
-        "logo": false,
-        "documents": false
       }
     },
     {
@@ -9520,25 +9501,6 @@
         "headquarters": false,
         "logo": false,
         "documents": true
-      }
-    },
-    {
-      "brandId": "lta",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
-      "verificationIndependent": true,
-      "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
-        "logo": false,
-        "documents": false
       }
     },
     {
@@ -11728,20 +11690,20 @@
     },
     {
       "brandId": "seco",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 10,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
         "families": false,
-        "country": false,
-        "headquarters": false,
-        "logo": false,
+        "country": true,
+        "headquarters": true,
+        "logo": true,
         "documents": false
       }
     },
@@ -11781,25 +11743,6 @@
         "headquarters": true,
         "logo": false,
         "documents": true
-      }
-    },
-    {
-      "brandId": "vector-pumps",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
-      "verificationIndependent": true,
-      "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
-        "logo": false,
-        "documents": false
       }
     },
     {
@@ -13799,21 +13742,21 @@
     },
     {
       "brandId": "norton",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
         "headquarters": false,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
@@ -14464,21 +14407,21 @@
     },
     {
       "brandId": "rodon",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 75,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
         "families": false,
-        "country": false,
-        "headquarters": false,
+        "country": true,
+        "headquarters": true,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
@@ -14901,19 +14844,19 @@
     },
     {
       "brandId": "mez-brno",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -15053,38 +14996,38 @@
     },
     {
       "brandId": "sti",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
         "country": false,
-        "headquarters": false,
+        "headquarters": true,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
       "brandId": "supervac",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 65,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
         "families": false,
         "country": false,
-        "headquarters": false,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -17561,19 +17504,19 @@
     },
     {
       "brandId": "lvf",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -18473,19 +18416,19 @@
     },
     {
       "brandId": "oteco",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -18682,21 +18625,21 @@
     },
     {
       "brandId": "jvm",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
         "country": false,
-        "headquarters": false,
+        "headquarters": true,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
@@ -21551,21 +21494,21 @@
     },
     {
       "brandId": "berger",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
         "country": false,
-        "headquarters": false,
+        "headquarters": true,
         "logo": false,
-        "documents": false
+        "documents": true
       }
     },
     {
@@ -36105,19 +36048,19 @@
     },
     {
       "brandId": "magneta",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -40760,19 +40703,19 @@
     },
     {
       "brandId": "pedro-gil",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 80,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
+        "families": true,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -41174,25 +41117,6 @@
         "headquarters": false,
         "logo": true,
         "documents": true
-      }
-    },
-    {
-      "brandId": "pioneer",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
-      "verificationIndependent": true,
-      "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
-        "logo": false,
-        "documents": false
       }
     },
     {
@@ -41843,25 +41767,6 @@
     },
     {
       "brandId": "pvtvm",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
-      "indicator": "BRAND_INCOMPLETE",
-      "verificationIndependent": true,
-      "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
-        "families": false,
-        "country": false,
-        "headquarters": false,
-        "logo": false,
-        "documents": false
-      }
-    },
-    {
-      "brandId": "pyronics",
       "identityStatus": "REVIEW_REQUIRED",
       "publicationStatus": "BRAND_REVIEW",
       "score": 0,
@@ -43268,19 +43173,19 @@
     },
     {
       "brandId": "rosati-fratelli",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 0,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 70,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
         "families": false,
-        "country": false,
-        "headquarters": false,
+        "country": true,
+        "headquarters": true,
         "logo": false,
         "documents": false
       }
@@ -43384,7 +43289,7 @@
       "brandId": "rosta",
       "identityStatus": "CONFIRMED",
       "publicationStatus": "BRAND_SAFE",
-      "score": 95,
+      "score": 100,
       "indicator": "BRAND_COMPLETE",
       "verificationIndependent": true,
       "fields": {
@@ -43394,7 +43299,7 @@
         "category": true,
         "families": true,
         "country": true,
-        "headquarters": false,
+        "headquarters": true,
         "logo": true,
         "documents": true
       }
@@ -43819,20 +43724,20 @@
     },
     {
       "brandId": "saf-fro",
-      "identityStatus": "REVIEW_REQUIRED",
-      "publicationStatus": "BRAND_REVIEW",
-      "score": 10,
+      "identityStatus": "CONFIRMED",
+      "publicationStatus": "BRAND_SAFE",
+      "score": 70,
       "indicator": "BRAND_INCOMPLETE",
       "verificationIndependent": true,
       "fields": {
-        "identity": false,
-        "source": false,
-        "description": false,
-        "category": false,
+        "identity": true,
+        "source": true,
+        "description": true,
+        "category": true,
         "families": false,
         "country": false,
         "headquarters": false,
-        "logo": false,
+        "logo": true,
         "documents": false
       }
     },

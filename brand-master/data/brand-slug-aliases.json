@@ -4444,10 +4444,18 @@
         "BOPP AND REUTHER"
       ],
       "safeAliasSlugs": [
-        "bopp-and-reuther-messtechnik",
-        "bopp-and-reuther"
+        "bopp-and-reuther-messtechnik"
       ],
-      "blockedAliasSlugs": []
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "bopp-and-reuther",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "bopp-reuther-messtechnik",
+            "sti"
+          ]
+        }
+      ]
     },
     {
       "brandId": "ceccato",
@@ -5415,9 +5423,13 @@
       "brandId": "econosto",
       "canonicalSlug": "econosto",
       "nameAliases": [
-        "ECONOSTO"
+        "ECONOSTO",
+        "ECONOSTO Oy",
+        "Econosto"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "econosto-oy"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -5546,15 +5558,6 @@
         "facet-enterprises-inc",
         "warner-lewis-company"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "fam",
-      "canonicalSlug": "fam",
-      "nameAliases": [
-        "FAM"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -5951,15 +5954,6 @@
       "safeAliasSlugs": [
         "hoffman-and-lamson"
       ],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "lta",
-      "canonicalSlug": "lta",
-      "nameAliases": [
-        "LTA"
-      ],
-      "safeAliasSlugs": [],
       "blockedAliasSlugs": []
     },
     {
@@ -7499,21 +7493,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "vector-pumps",
-      "canonicalSlug": "vector-pumps",
-      "nameAliases": [
-        "VECTOR"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": [
-        {
-          "aliasSlug": "vector",
-          "reason": "MULTIPLE_IDENTITY_OWNERS",
-          "owners": []
-        }
-      ]
-    },
-    {
       "brandId": "wollin",
       "canonicalSlug": "wollin",
       "nameAliases": [
@@ -8756,9 +8735,14 @@
       "brandId": "norton",
       "canonicalSlug": "norton",
       "nameAliases": [
-        "NORTON"
+        "NORTON",
+        "Norton Abrasives",
+        "Clipper"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "norton-abrasives",
+        "clipper"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -9171,9 +9155,12 @@
       "brandId": "rodon",
       "canonicalSlug": "rodon",
       "nameAliases": [
-        "RODON"
+        "RODON",
+        "Rodon Parts"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "rodon-parts"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -9462,9 +9449,21 @@
       "brandId": "mez-brno",
       "canonicalSlug": "mez-brno",
       "nameAliases": [
-        "MEZ BRNO"
+        "MEZ BRNO",
+        "MEZ Brno",
+        "MEZ",
+        "Moravské elektrotechnické závody",
+        "MEZ Židenice",
+        "Elektromotor SVET",
+        "Strojírna Bratří Richtrové"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "mez",
+        "moravske-elektrotechnicke-zavody",
+        "mez-zidenice",
+        "elektromotor-svet",
+        "strojirna-bratri-richtrove"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -9556,10 +9555,23 @@
       "brandId": "sti",
       "canonicalSlug": "sti",
       "nameAliases": [
-        "STI"
+        "STI",
+        "Bopp & Reuther",
+        "IMI CCI"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "imi-cci"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "bopp-and-reuther",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": [
+            "bopp-reuther-messtechnik",
+            "sti"
+          ]
+        }
+      ]
     },
     {
       "brandId": "supervac",
@@ -11913,9 +11925,14 @@
       "brandId": "jvm",
       "canonicalSlug": "jvm",
       "nameAliases": [
-        "JVM"
+        "JVM",
+        "JVM Drives",
+        "JVM Antriebe"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "jvm-drives",
+        "jvm-antriebe"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -13716,10 +13733,23 @@
       "brandId": "berger",
       "canonicalSlug": "berger",
       "nameAliases": [
-        "BERGER"
+        "BERGER",
+        "Berger Lahr",
+        "Berger-Lahr",
+        "Berger-Lahr GmbH & Co. KG"
       ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [
+        "berger-lahr-gmbh-and-co-kg"
+      ],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "berger-lahr",
+          "reason": "COLLIDES_WITH_CANONICAL_SLUG",
+          "owners": [
+            "berger"
+          ]
+        }
+      ]
     },
     {
       "brandId": "bertoli",
@@ -22324,9 +22354,12 @@
       "brandId": "magneta",
       "canonicalSlug": "magneta",
       "nameAliases": [
-        "MAGNETA"
+        "MAGNETA",
+        "Magneta GmbH & Co. KG"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "magneta-gmbh-and-co-kg"
+      ],
       "blockedAliasSlugs": []
     },
     {
@@ -25241,15 +25274,6 @@
       "blockedAliasSlugs": []
     },
     {
-      "brandId": "pioneer",
-      "canonicalSlug": "pioneer",
-      "nameAliases": [
-        "PIONEER"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
       "brandId": "piovan",
       "canonicalSlug": "piovan",
       "nameAliases": [
@@ -25644,15 +25668,6 @@
       "canonicalSlug": "pvtvm",
       "nameAliases": [
         "PVTVM"
-      ],
-      "safeAliasSlugs": [],
-      "blockedAliasSlugs": []
-    },
-    {
-      "brandId": "pyronics",
-      "canonicalSlug": "pyronics",
-      "nameAliases": [
-        "PYRONICS"
       ],
       "safeAliasSlugs": [],
       "blockedAliasSlugs": []
@@ -26453,9 +26468,13 @@
       "brandId": "rosati-fratelli",
       "canonicalSlug": "rosati-fratelli",
       "nameAliases": [
-        "ROSATI FRATELLI"
+        "ROSATI FRATELLI",
+        "Rosati S.r.l.",
+        "Rosati Fratelli"
       ],
-      "safeAliasSlugs": [],
+      "safeAliasSlugs": [
+        "rosati-s-r-l"
+      ],
       "blockedAliasSlugs": []
     },
     {

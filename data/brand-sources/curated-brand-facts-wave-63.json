@@ -1,27 +1,8 @@
 {
   "checkedAt": "2026-08-20",
   "blockedIdentities": [
-    {
-      "manufacturerId": "berger",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "BERGER is a shared surname and industrial brand across unrelated machine, automation, motor and tooling businesses. A safe canonical entity cannot be inferred from the name alone.",
-      "attemptedUrls": ["https://www.bergerholding.com/", "https://www.berger-tools.co.uk/"]
-    },
-    {
-      "manufacturerId": "bilopack",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "BILOPACK did not resolve to a unique manufacturer-owned source with legal identity and current product evidence; similar packaging-company names cannot be mapped by fuzzy matching.",
-      "attemptedUrls": ["https://www.bilopack.com/", "https://bilopack.it/"]
-    },
-    {
-      "manufacturerId": "binder",
-      "status": "AMBIGUOUS_IDENTITY",
-      "checkedAt": "2026-08-20",
-      "reason": "BINDER is used by unrelated active manufacturers of connectors, environmental simulation equipment and other industrial products. The repository label lacks the discriminator needed for a safe identity match.",
-      "attemptedUrls": ["https://www.binder-connector.com/", "https://www.binder-world.com/"]
-    }
+    {"manufacturerId":"bilopack","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-20","reason":"BILOPACK did not resolve to a unique manufacturer-owned source with legal identity and current product evidence; similar packaging-company names cannot be mapped by fuzzy matching.","attemptedUrls":["https://www.bilopack.com/","https://bilopack.it/"]},
+    {"manufacturerId":"binder","status":"AMBIGUOUS_IDENTITY","checkedAt":"2026-08-20","reason":"BINDER is used by unrelated active manufacturers of connectors, environmental simulation equipment and other industrial products. The repository label lacks the discriminator needed for a safe identity match.","attemptedUrls":["https://www.binder-connector.com/","https://www.binder-world.com/"]}
   ],
   "profiles": [
     {
