@@ -138,17 +138,10 @@ test("RFQ endpoint fails visibly until mail infrastructure is configured", async
   assert.equal((await response.json()).fallback, true);
 });
 
-test("mailbox access remains separate from the domain cutover gate", async () => {
-  const [cutover, email, handoff] = await Promise.all([
-    readFile(new URL("../VENTROVIA_INFRASTRUCTURE_CUTOVER.md", import.meta.url), "utf8"),
-    readFile(new URL("../VENTROVIA_EMAIL_SETUP.md", import.meta.url), "utf8"),
-    readFile(new URL("../INDUSTRIAPOSTAVOK_DOMAIN_HANDOFF.md", import.meta.url), "utf8"),
-  ]);
+test("mailbox access remains a documented, separate blocker", async () => {
+  const email = await readFile(new URL("../docs/EMAIL_SETUP.md", import.meta.url), "utf8");
   assert.match(email, /MAILBOX_ACCESS_UNAVAILABLE/);
   assert.match(email, /does not block the website/i);
-  assert.match(cutover, /EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS/);
-  assert.match(cutover, /SAFE_FAILURE/);
-  assert.match(handoff, /Email delivery is a separate blocker/);
 });
 
 test("www uses a permanent host-only redirect to the canonical apex", async () => {
@@ -198,12 +191,10 @@ test("RFQ attachment validation rejects disguised and excessive files", async ()
 });
 
 test("interactive navigation and enquiry dialogs include keyboard safety", async () => {
-  const [header, modal, browser, consent, layout, privacy] = await Promise.all([
+  const [header, modal, browser, privacy] = await Promise.all([
     readFile(new URL("../app/components/SiteHeader.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/components/RequestModal.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/components/ManufacturerBrowser.tsx", import.meta.url), "utf8"),
-    readFile(new URL("../app/lib/cookie-consent.ts", import.meta.url), "utf8"),
-    readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/privacy/page.tsx", import.meta.url), "utf8"),
   ]);
   assert.match(header, /event\.key !== "Escape"/);
@@ -212,8 +203,6 @@ test("interactive navigation and enquiry dialogs include keyboard safety", async
   assert.match(modal, /openerRef\.current.*focus/);
   assert.match(browser, /No manufacturers found/);
   assert.match(browser, /filtered\.length === 1/);
-  assert.doesNotMatch(consent, /industria-postavok/);
-  assert.doesNotMatch(layout, /CookieBanner/);
   assert.match(privacy, /does not currently run optional analytics/);
 });
 

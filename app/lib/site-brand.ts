@@ -37,7 +37,3 @@ export const SITE_BRAND = Object.freeze({
 // Ventrovia has one canonical public identity. A stale deployment variable from
 // the former Russian site must never rewrite metadata back to the retired host.
 export const SITE_URL = SITE_BRAND.canonicalBase;
-
-export const INTERNATIONAL_PUBLIC_SITE_ENABLED =
-  process.env.VENTROVIA_INTERNATIONAL_SITE_ENABLED?.trim().toLowerCase() !==
-  "false";

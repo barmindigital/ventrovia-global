@@ -31,7 +31,6 @@ export type SiteContent = {
     weekdays: string;
     weekend: string;
   };
-  companyHistory: Array<{ year: string; text: string }>;
 };
 
 const rawSiteContent = content as SiteContent;

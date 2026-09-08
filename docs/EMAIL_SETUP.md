@@ -5,11 +5,10 @@ Target recipient: `sales@ventroviaglobal.com`.
 Operational status: `MAILBOX_ACCESS_UNAVAILABLE` and
 `EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS`.
 
-Mailbox access is outside the current migration scope. Do not attempt password
-recovery, password changes, login, ownership changes, authentication bypasses,
-or mailbox creation without separate authorization from the mailbox owner.
-This blocker does not block the website, `.com` DNS cutover, SSL, canonical
-host, Ventrovia production, or the later `.ru` detach.
+Mailbox access belongs to the mailbox owner. Do not attempt password recovery,
+login, ownership changes or mailbox creation without their separate
+authorization. This blocker does not block the website itself: until delivery
+is verified the RFQ form returns a visible error with a `mailto:` fallback.
 
 ## Current public DNS evidence
 
@@ -20,8 +19,8 @@ host, Ventrovia production, or the later `.ru` detach.
 - DMARC at `_dmarc`: absent;
 - mailbox existence, outbound authorization and real delivery: unverified;
 - Timeweb Mail is not provisioned for this account; mail is external;
-- current Sites environment: no production variables, therefore RFQ delivery
-  intentionally returns HTTP 503 with a visible `mailto:` fallback.
+- production has no mail variables yet, therefore RFQ delivery intentionally
+  returns HTTP 503 with a visible `mailto:` fallback.
 
 The MX and DKIM records strongly indicate a partial Google Workspace setup, but
 they do not prove that the `sales` mailbox exists or receives mail.

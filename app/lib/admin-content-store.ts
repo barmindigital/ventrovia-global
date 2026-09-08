@@ -135,13 +135,5 @@ export function validateSiteContent(value: unknown): SiteContent {
   draft.contacts.weekdays = requireString(draft.contacts?.weekdays, "contacts.weekdays", 120);
   draft.contacts.weekend = requireString(draft.contacts?.weekend, "contacts.weekend", 120);
 
-  if (!Array.isArray(draft.companyHistory) || draft.companyHistory.length > 30) {
-    throw new Error("companyHistory must contain at most 30 items");
-  }
-  draft.companyHistory = draft.companyHistory.map((item, index) => ({
-    year: requireString(item?.year, `companyHistory.${index}.year`, 20),
-    text: requireString(item?.text, `companyHistory.${index}.text`, 1400),
-  }));
-
   return draft;
 }

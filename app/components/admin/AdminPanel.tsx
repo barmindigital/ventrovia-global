@@ -194,30 +194,6 @@ export function AdminPanel() {
     setContent((current) => current && ({ ...current, contacts: { ...current.contacts, [field]: value } }));
   }
 
-  function updateHistory(index: number, field: "year" | "text", value: string) {
-    setContent((current) => {
-      if (!current) return current;
-      const companyHistory = current.companyHistory.map((item, itemIndex) =>
-        itemIndex === index ? { ...item, [field]: value } : item,
-      );
-      return { ...current, companyHistory };
-    });
-  }
-
-  function addHistoryItem() {
-    setContent((current) => current && ({
-      ...current,
-      companyHistory: [...current.companyHistory, { year: "Year", text: "Source-backed event description" }],
-    }));
-  }
-
-  function removeHistoryItem(index: number) {
-    setContent((current) => current && ({
-      ...current,
-      companyHistory: current.companyHistory.filter((_, itemIndex) => itemIndex !== index),
-    }));
-  }
-
   if (authenticated === null) {
     return <main className={styles.page}><div className={styles.loginWrap}><p className={styles.status}>Loading administration…</p></div></main>;
   }
@@ -226,7 +202,7 @@ export function AdminPanel() {
     return (
       <main className={styles.page}>
         <div className={styles.loginWrap}>
-          <form className={`${styles.loginCard} ym-disable-keys`} onSubmit={login}>
+          <form className={`${styles.loginCard}`} onSubmit={login}>
             <p className={styles.eyebrow}>VENTROVIA</p>
             <h1>Site administration</h1>
             <p className={styles.hint}>Authorised editors can manage public copy, contact details and SEO settings.</p>
@@ -332,23 +308,6 @@ export function AdminPanel() {
           </div>
         </section>
 
-        <section className={styles.section}>
-          <h2>Company history</h2>
-          <p className={styles.hint}>Only source-backed corporate events may be published.</p>
-          <div className={styles.historyGrid}>
-            {content.companyHistory.map((item, index) => (
-              <article className={styles.historyCard} key={`${item.year}-${index}`}>
-                <h3>Event {index + 1}</h3>
-                <EditableField label="Year" value={item.year} onChange={(value) => updateHistory(index, "year", value)} />
-                <EditableField label="Description" value={item.text} onChange={(value) => updateHistory(index, "text", value)} multiline maxLength={1400} />
-                <button className={styles.buttonDanger} type="button" onClick={() => removeHistoryItem(index)} disabled={content.companyHistory.length <= 1}>Remove event</button>
-              </article>
-            ))}
-          </div>
-          <div className={styles.rowActions}>
-            <button className={styles.buttonGhost} type="button" onClick={addHistoryItem}>Add event</button>
-          </div>
-        </section>
       </div>
     </main>
   );

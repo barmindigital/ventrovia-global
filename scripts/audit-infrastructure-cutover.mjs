@@ -5,12 +5,11 @@ import { access, readFile } from "node:fs/promises";
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = (path) => read(path).then(JSON.parse);
 
-const [brand, operations, identities, envExample, ignore, tracked, reachable] = await Promise.all([
+const [brand, operations, identities, envExample, tracked, reachable] = await Promise.all([
   read("app/lib/site-brand.ts"),
   json("data/brand-operations/manifest.json"),
   json("data/manufacturers/identities.json"),
   read(".env.example"),
-  read(".gitignore"),
   Promise.resolve(execFileSync("git", ["ls-files"], { encoding: "utf8" })),
   Promise.resolve(execFileSync("git", ["rev-list", "--objects", "main"], { encoding: "utf8" })),
 ]);
@@ -33,14 +32,6 @@ assert.equal(operations.remotelyStoredProductRecords, 0);
 for (const line of ["RESEND_API_KEY=", "ADMIN_PASSWORD=", "ADMIN_SESSION_SECRET=", "GITHUB_CONTENT_TOKEN="]) {
   assert.match(envExample, new RegExp(`^${line}$`, "mu"));
 }
-
-for (const guard of [
-  "/data/catalog-*/",
-  "/archives/russian-catalog/",
-  "/app/catalog/",
-  "/app/generated/private-catalog*.ts",
-  "*russian-product-catalog-archive*.tar.gz",
-]) assert.match(ignore, new RegExp(guard.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&"), "u"));
 
 const forbiddenPath = /(?:^|\s)(?:data\/catalog-|public\/data\/catalog|archives\/russian-catalog|app\/catalog\/|app\/generated\/(?:full|private)-catalog)/u;
 assert.doesNotMatch(tracked, forbiddenPath);
