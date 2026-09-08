@@ -1,7 +1,7 @@
 # Ventrovia
 
 International manufacturer knowledge base and industrial RFQ website for
-`https://ventroviaglobal.com`. Next.js 16 (App Router), React 19, TypeScript.
+`https://aihamyn.ae`. Next.js 16 (App Router), React 19, TypeScript.
 
 ## What the site contains
 
@@ -69,6 +69,6 @@ generated file is stale.
 
 ## Deployment
 
-Canonical origin: `https://ventroviaglobal.com` (`www` redirects to the apex).
+Canonical origin: `https://aihamyn.ae` (`www` redirects to the apex).
 See `docs/DEPLOYMENT.md` for the hosting and DNS checklist and
 `docs/EMAIL_SETUP.md` for RFQ mail delivery.

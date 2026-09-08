@@ -14,7 +14,7 @@ const [brand, operations, identities, envExample, tracked, reachable] = await Pr
   Promise.resolve(execFileSync("git", ["rev-list", "--objects", "main"], { encoding: "utf8" })),
 ]);
 
-assert.match(brand, /canonicalBase: "https:\/\/ventroviaglobal\.com"/u);
+assert.match(brand, /canonicalBase: "https:\/\/aihamyn\.ae"/u);
 assert.match(brand, /sales@ventroviaglobal\.com/u);
 assert.match(brand, /\+971557254463/u);
 assert.doesNotMatch(brand, /VENTORVIA|Индустрия Поставок/u);

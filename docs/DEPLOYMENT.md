@@ -2,8 +2,8 @@
 
 ## Target
 
-- Primary origin: `https://ventroviaglobal.com`
-- Secondary host: `www.ventroviaglobal.com`, permanently redirected to the apex
+- Primary origin: `https://aihamyn.ae`
+- Secondary host: `www.aihamyn.ae`, permanently redirected to the apex
   (configured in `next.config.ts`)
 - Hosting: Timeweb App Platform, application `industria-postavok` (ID 231783),
   deployed automatically from the `main` branch of the GitHub repository
@@ -26,8 +26,8 @@ RESEND_API_KEY=<server-side secret, only after EMAIL_SETUP.md is complete>
 1. `pnpm check` passes locally.
 2. Push `main`; Timeweb builds with `pnpm build:timeweb` and starts with
    `pnpm start:timeweb`.
-3. In Timeweb **Settings → Domains** both `ventroviaglobal.com` and
-   `www.ventroviaglobal.com` must be attached; copy the exact A/CNAME targets
+3. In Timeweb **Settings → Domains** both `aihamyn.ae` and
+   `www.aihamyn.ae` must be attached; copy the exact A/CNAME targets
    the panel shows.
 4. At REG.RU point the apex and `www` records to those targets. Do not guess an
    IP address.
@@ -39,7 +39,7 @@ RESEND_API_KEY=<server-side secret, only after EMAIL_SETUP.md is complete>
 
 After the domain serves the release, verify ownership in Google Search Console
 and Bing Webmaster Tools from the owner's own accounts and submit
-`https://ventroviaglobal.com/sitemap.xml`. Only manufacturers with verified
+`https://aihamyn.ae/sitemap.xml`. Only manufacturers with verified
 profiles are listed in the sitemap; the remaining identities stay `noindex`.
 
 ## Rollback

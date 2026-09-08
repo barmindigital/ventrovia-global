@@ -7,7 +7,7 @@ const valueFor = (name, fallback) => {
   const index = args.indexOf(name);
   return index >= 0 ? args[index + 1] : fallback;
 };
-const base = new URL(valueFor("--base", "https://ventroviaglobal.com"));
+const base = new URL(valueFor("--base", "https://aihamyn.ae"));
 const output = valueFor(
   "--output",
   "data/brand-operations/prelaunch-production-audit.json",

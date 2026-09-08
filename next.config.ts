@@ -29,8 +29,8 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/:path*",
-        has: [{ type: "host", value: "www.ventroviaglobal.com" }],
-        destination: "https://ventroviaglobal.com/:path*",
+        has: [{ type: "host", value: "www.aihamyn.ae" }],
+        destination: "https://aihamyn.ae/:path*",
         permanent: true,
       },
       ...mergedManufacturerSlugs.map(({ from, to }) => ({

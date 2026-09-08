@@ -21,7 +21,7 @@ assert.equal(knowledge.metrics.enSeoReady, knowledge.profiles.length);
 assert.doesNotMatch(knowledgeSource, /[А-Яа-яЁё]/u);
 assert.doesNotMatch(publicContent, /[А-Яа-яЁё]/u);
 assert.doesNotMatch(`${brandConfig}\n${publicContent}`, /VENTORVIA/u);
-assert.match(brandConfig, /ventroviaglobal\.com/u);
+assert.match(brandConfig, /aihamyn\.ae/u);
 assert.match(brandConfig, /sales@ventroviaglobal\.com/u);
 assert.match(brandConfig, /\+971557254463/u);
 
@@ -59,7 +59,7 @@ console.log(
     {
       status: "healthy",
       brand: "VENTROVIA",
-      domain: "ventroviaglobal.com",
+      domain: "aihamyn.ae",
       publicLanguage: "en",
       enContentReady: knowledge.metrics.enContentReady,
       enSeoReady: knowledge.metrics.enSeoReady,

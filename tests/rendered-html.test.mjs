@@ -12,7 +12,7 @@ const context = { waitUntil() {}, passThroughOnException() {} };
 const env = { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } };
 
 async function render(pathname = "/") {
-  return (await worker()).fetch(new Request(`https://ventroviaglobal.com${pathname}`, { headers: { accept: "text/html" } }), env, context);
+  return (await worker()).fetch(new Request(`https://aihamyn.ae${pathname}`, { headers: { accept: "text/html" } }), env, context);
 }
 
 async function html(pathname = "/") {
@@ -102,8 +102,8 @@ test("sitemap contains only corporate and verified manufacturer URLs", async () 
     manifest.indexableManufacturerPages,
   );
   assert.equal((source.match(/\/catalog(?:\/|<)/g) ?? []).length, 0);
-  assert.match(source, /https:\/\/ventroviaglobal\.com\/manufacturers/);
-  assert.match(source, /https:\/\/ventroviaglobal\.com\/services/);
+  assert.match(source, /https:\/\/aihamyn\.ae\/manufacturers/);
+  assert.match(source, /https:\/\/aihamyn\.ae\/services/);
 });
 
 test("all product, category, payload and product-admin routes are absent", async () => {
@@ -129,7 +129,7 @@ test("brand administration is authenticated and server-only", async () => {
 });
 
 test("RFQ endpoint fails visibly until mail infrastructure is configured", async () => {
-  const response = await (await worker()).fetch(new Request("https://ventroviaglobal.com/api/request", {
+  const response = await (await worker()).fetch(new Request("https://aihamyn.ae/api/request", {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ name: "Procurement Manager", company: "Example Industrial", email: "buyer@example.com", product: "Model requested by buyer", consent: "yes", requestType: "supply", requestSource: "contacts_page" }),
@@ -146,8 +146,8 @@ test("mailbox access remains a documented, separate blocker", async () => {
 
 test("www uses a permanent host-only redirect to the canonical apex", async () => {
   const config = await readFile(new URL("../next.config.ts", import.meta.url), "utf8");
-  assert.match(config, /www\.ventroviaglobal\.com/);
-  assert.match(config, /https:\/\/ventroviaglobal\.com\/:path\*/);
+  assert.match(config, /www\.aihamyn\.ae/);
+  assert.match(config, /https:\/\/aihamyn\.ae\/:path\*/);
   assert.match(config, /permanent: true/);
   assert.doesNotMatch(config, /www\.industriapostavok\.ru/);
 });
@@ -173,7 +173,7 @@ test("RFQ attachment validation rejects disguised and excessive files", async ()
     form.set("email", "buyer@example.com");
     form.set("consent", "yes");
     files.forEach((file) => form.append("file", file, file.name));
-    return (await worker()).fetch(new Request("https://ventroviaglobal.com/api/request", {
+    return (await worker()).fetch(new Request("https://aihamyn.ae/api/request", {
       method: "POST",
       body: form,
     }), env, context);
