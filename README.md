@@ -32,7 +32,7 @@ owner data mounted.
 
 ## Data boundaries
 
-- `data/manufacturers/identities.json`: compact 2,806-manufacturer identity index.
+- `data/manufacturers/identities.json`: compact 2,703-manufacturer identity index.
 - `data/brand-sources/`: reviewed manufacturer-owned source facts.
 - `data/brand-knowledge-international/`: English public Brand Knowledge profiles.
 - `data/brand-operations/`: private brand-health reports used only by authenticated admin routes.

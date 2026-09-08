@@ -5,9 +5,10 @@ import { access, readFile } from "node:fs/promises";
 const read = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8");
 const json = (path) => read(path).then(JSON.parse);
 
-const [brand, operations, envExample, ignore, tracked, reachable] = await Promise.all([
+const [brand, operations, identities, envExample, ignore, tracked, reachable] = await Promise.all([
   read("app/lib/site-brand.ts"),
   json("data/brand-operations/manifest.json"),
+  json("data/manufacturers/identities.json"),
   read(".env.example"),
   read(".gitignore"),
   Promise.resolve(execFileSync("git", ["ls-files"], { encoding: "utf8" })),
@@ -18,7 +19,7 @@ assert.match(brand, /canonicalBase: "https:\/\/ventroviaglobal\.com"/u);
 assert.match(brand, /sales@ventroviaglobal\.com/u);
 assert.match(brand, /\+971557254463/u);
 assert.doesNotMatch(brand, /VENTORVIA|Индустрия Поставок/u);
-assert.equal(operations.manufacturerCount, 2806);
+assert.equal(operations.manufacturerCount, identities.manufacturerCount);
 assert.equal(operations.profileCount, operations.seoReadiness.BRAND_SAFE);
 assert.equal(operations.indexableManufacturerPages, operations.profileCount);
 assert.equal(

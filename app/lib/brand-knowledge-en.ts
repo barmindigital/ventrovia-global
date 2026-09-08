@@ -335,7 +335,7 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   const productFamilies = englishFamilies;
   const series = englishSeries;
   const familyNames = unique([...productFamilies, ...series]);
-  const sourceTypes = unique(profile.sources.map((source) => source.type.toLocaleLowerCase("en")))
+  const sourceTypes = unique(profile.sources.map((source) => source.type.toLocaleLowerCase("en").replaceAll("_", " ")))
     .slice(0, 3)
     .join(", ");
 

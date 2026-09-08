@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         <RevealOnScroll className="business-stats company-facts" stagger>
           <Link href="/contacts"><strong>Dubai</strong><span>operating base in the UAE</span></Link>
-          <Link href="/manufacturers"><strong>2,800+</strong><span>manufacturer identities preserved</span></Link>
+          <Link href="/manufacturers"><strong>2,300+</strong><span>verified manufacturer profiles</span></Link>
           <Link href="#request"><strong>RFQ</strong><span>model and specification review</span></Link>
           <Link href="/about"><strong>Worldwide</strong><span>international market focus</span></Link>
         </RevealOnScroll>

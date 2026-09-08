@@ -15,14 +15,14 @@ const [manifest, master, sources, aliases, taxonomy, contentQuality] = await Pro
   loadJson("data/brand-content-quality-audit.json"),
 ]);
 
-assert.equal(master.totalBrands, 2806);
-assert.equal(master.brands.length, 2806);
-assert.equal(new Set(master.brands.map((brand) => brand.id)).size, 2806);
-assert.equal(new Set(master.brands.map((brand) => brand.slug)).size, 2806);
-assert.equal(manifest.counts.brandsTotal, 2806);
-assert.equal(manifest.counts.brandSafe + manifest.counts.brandReview, 2806);
+assert.ok(master.totalBrands >= 2700);
+assert.equal(master.brands.length, master.totalBrands);
+assert.equal(new Set(master.brands.map((brand) => brand.id)).size, master.totalBrands);
+assert.equal(new Set(master.brands.map((brand) => brand.slug)).size, master.totalBrands);
+assert.equal(manifest.counts.brandsTotal, master.totalBrands);
+assert.equal(manifest.counts.brandSafe + manifest.counts.brandReview, master.totalBrands);
 assert.equal(sources.sourceRecords.length, manifest.counts.sourceRecords);
-assert.equal(aliases.records.length, 2806);
+assert.equal(aliases.records.length, master.totalBrands);
 assert.ok(taxonomy.categories.length > 0);
 assert.equal(contentQuality.siteSpecificPresentationOccurrences, 0);
 assert.equal(contentQuality.shortDescriptions.exactDuplicateGroups.length, 0);

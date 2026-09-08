@@ -19204,13 +19204,13 @@ const brandLogoRegistrySecondary: BrandLogo[] = [
   },
   {
     slug: "ena",
-    name: "ЭНА (ENA)",
+    name: "ENA",
     src: "/images/brand-logos/ena.png",
     sourcePage: "https://www.ena.ru/",
     originalFile: "https://www.ena.ru/bitrix/templates/main/images/logo-eha.png",
     license: "Official manufacturer website asset — identification use; rights retained by brand owner",
     licenseUrl: "https://www.ena.ru/",
-    attribution: "ЭНА (ENA); asset served by the official manufacturer website",
+    attribution: "AO ENA; asset served by the official manufacturer website",
   },
   {
     slug: "freund",

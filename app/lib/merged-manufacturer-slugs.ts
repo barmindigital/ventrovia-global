@@ -1,5 +1,5 @@
-// Записи реестра, слитые с каноническим брендом. Старые адреса ведут на канонический профиль,
-// чтобы уже проиндексированные ссылки не превращались в 404.
+// Registry records merged into a canonical brand. Old addresses redirect to the
+// canonical profile so already indexed links do not turn into 404s.
 export const mergedManufacturerSlugs: ReadonlyArray<{ from: string; to: string }> = [
   { from: "agie-charmilles", to: "agiecharmilles" },
   { from: "ari-stevi-comeval", to: "ari-armaturen" },
