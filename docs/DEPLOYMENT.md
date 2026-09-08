@@ -5,8 +5,13 @@
 - Primary origin: `https://aihamyn.ae`
 - Secondary host: `www.aihamyn.ae`, permanently redirected to the apex
   (configured in `next.config.ts`)
-- Hosting: Timeweb App Platform, application `industria-postavok` (ID 231783),
-  deployed automatically from the `main` branch of the GitHub repository
+- Hosting: Timeweb App Platform, backend application `ventrovia` (ID 250775,
+  Amsterdam, Node.js 24), built from the `main` branch of
+  `barmindigital/ventrovia-global`. The repository is connected by URL, so
+  auto-deploy is off: after pushing `main`, open the app's **Деплой** tab and
+  start a deploy manually. Build command `pnpm install --frozen-lockfile &&
+  pnpm run build:timeweb`, start command `pnpm run start:timeweb`, health
+  check path `/`. Public IP `72.56.72.134`.
 - Registrar and authoritative DNS: REG.RU (`ns1.reg.ru`, `ns2.reg.ru`)
 
 ## Environment variables
@@ -24,8 +29,8 @@ RESEND_API_KEY=<server-side secret, only after EMAIL_SETUP.md is complete>
 ## Release checklist
 
 1. `pnpm check` passes locally.
-2. Push `main`; Timeweb builds with `pnpm build:timeweb` and starts with
-   `pnpm start:timeweb`.
+2. Push `main`, then start a deploy from the Timeweb **Деплой** tab (the app
+   builds with `pnpm build:timeweb` and starts with `pnpm start:timeweb`).
 3. In Timeweb **Settings → Domains** both `aihamyn.ae` and
    `www.aihamyn.ae` must be attached; copy the exact A/CNAME targets
    the panel shows.
