@@ -150,7 +150,7 @@ export function RequestForm({
     const requestTypeLabel = REQUEST_TYPE_LABELS[requestType];
     const requestSourceLabel = REQUEST_SOURCE_LABELS[source];
     const fallbackSubject = [
-      "Ventrovia website enquiry",
+      "Aihamyn Hampa Trading website enquiry",
       requestTypeLabel,
       requestSourceLabel,
       requestType === "equipment" && draft.product ? draft.product : "",

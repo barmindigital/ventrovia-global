@@ -1,6 +1,6 @@
-# Ventrovia email setup
+# Aihamyn Hampa Trading email setup
 
-Target recipient: `sales@ventroviaglobal.com`.
+Target recipient: `info@aihamyn.ae`.
 
 Operational status: `MAILBOX_ACCESS_UNAVAILABLE` and
 `EMAIL_PRODUCTION = BLOCKED_MAILBOX_ACCESS`.
@@ -51,7 +51,7 @@ already matches it. Official instructions:
 4. Confirm both Google and Resend DKIM checks are green.
 5. After SPF/DKIM have been stable for at least 48 hours, add DMARC with an
    initial monitoring policy (`p=none`) and a reporting mailbox controlled by
-   Ventrovia. Do not invent a reporting address. Review reports before moving
+   Aihamyn Hampa Trading. Do not invent a reporting address. Review reports before moving
    to quarantine/reject.
 
 Official references:
@@ -65,7 +65,7 @@ Official references:
 After the Resend sending domain is verified, set these server-side in Timeweb:
 
 ```text
-REQUEST_TO_EMAIL=sales@ventroviaglobal.com
+REQUEST_TO_EMAIL=info@aihamyn.ae
 REQUEST_FROM_EMAIL=<exact verified sender accepted by Resend>
 RESEND_API_KEY=<new server-side secret>
 ```

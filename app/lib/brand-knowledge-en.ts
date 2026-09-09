@@ -318,10 +318,10 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   ];
   const familyLead = unique([...englishFamilies, ...englishSeries]).slice(0, 3);
   const shortDescriptions = [
-    `${identityLines[0]}${familyLead.length ? ` Documented lines include ${list(familyLead)}.` : ""} Ventrovia reviews enquiries against the relevant manufacturer documentation.`,
+    `${identityLines[0]}${familyLead.length ? ` Documented lines include ${list(familyLead)}.` : ""} Aihamyn Hampa Trading reviews enquiries against the relevant manufacturer documentation.`,
     `${identityLines[1]}${country ? ` The verified brand record is associated with ${country}.` : ""} Submit the exact designation for an international sourcing review.`,
     `${identityLines[2]}${familyLead.length ? ` Official documentation names ${list(familyLead)}.` : ""} Commercial review starts with the complete model or specification.`,
-    `${identityLines[3]}${profile.parentCompany ? ` The documented corporate group is ${profile.parentCompany}.` : ""} Ventrovia handles specification-led RFQs without implying an authorised relationship.`,
+    `${identityLines[3]}${profile.parentCompany ? ` The documented corporate group is ${profile.parentCompany}.` : ""} Aihamyn Hampa Trading handles specification-led RFQs without implying an authorised relationship.`,
     `${identityLines[4]}${familyLead.length ? ` The published range includes ${list(familyLead)}.` : ""} Exact configuration and supply status are checked for each request.`,
     `${identityLines[5]}${profile.foundedYear ? ` The official company record dates its foundation to ${profile.foundedYear}.` : ""} Buyers can submit a model, part number or technical file for review.`,
   ];
@@ -342,7 +342,7 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   const identityParagraphs = [
     `${profile.officialName} is represented here through manufacturer-owned evidence for ${list(productCategories.slice(0, 6))}.`,
     `The verified ${profile.displayName} record is based on official company and product material covering ${list(productCategories.slice(0, 6))}.`,
-    `Ventrovia identifies ${profile.displayName} through its own published sources and limits this profile to ${list(productCategories.slice(0, 6))}.`,
+    `Aihamyn Hampa Trading identifies ${profile.displayName} through its own published sources and limits this profile to ${list(productCategories.slice(0, 6))}.`,
     `Official ${profile.displayName} information confirms a product scope centred on ${list(productCategories.slice(0, 6))}.`,
     `${possessive(profile.displayName)} manufacturer documentation establishes the brand identity and its work in ${list(productCategories.slice(0, 6))}.`,
     `This profile uses first-party ${profile.displayName} sources to describe ${list(productCategories.slice(0, 6))}.`,
@@ -350,18 +350,18 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
   const familyParagraphs = [
     `Named product families and lines include ${list(familyNames.slice(0, 8))}. These names organise the documented range; they do not transfer specifications or compatibility from one model to another.`,
     `The published range names ${list(familyNames.slice(0, 8))}. Selection still requires the technical record for the requested model, because family membership alone is not a compatibility statement.`,
-    `Official material lists ${list(familyNames.slice(0, 8))}. Ventrovia treats these as family-level evidence and checks exact characteristics only at model or document level.`,
+    `Official material lists ${list(familyNames.slice(0, 8))}. Aihamyn Hampa Trading treats these as family-level evidence and checks exact characteristics only at model or document level.`,
     `Documented lines include ${list(familyNames.slice(0, 8))}. Their presence helps route an RFQ but does not prove current production, interchangeability or a particular configuration.`,
     `${profile.displayName} publishes information for ${list(familyNames.slice(0, 8))}. A commercial enquiry is therefore matched to the requested designation rather than inferred from the family name.`,
     `The official product structure includes ${list(familyNames.slice(0, 8))}. Model status, options and operating limits remain subject to the applicable manufacturer document.`,
   ];
   const applicationParagraphs = [
     `Documented application areas include ${list(industries.slice(0, 5))}. Buyers should provide the operating context together with the exact model or part number.`,
-    `The source-backed application scope covers ${list(industries.slice(0, 5))}. Ventrovia uses the submitted specification to review the requested configuration and commercial path.`,
+    `The source-backed application scope covers ${list(industries.slice(0, 5))}. Aihamyn Hampa Trading uses the submitted specification to review the requested configuration and commercial path.`,
     `Official sources associate the range with ${list(industries.slice(0, 5))}. An RFQ should include duty, media or interface details where they affect selection.`,
     `Published applications span ${list(industries.slice(0, 5))}. Pricing and lead-time review begins only after the requested equipment is identified precisely.`,
     `The documented market context includes ${list(industries.slice(0, 5))}. The complete designation and technical file help avoid assumptions about suitability.`,
-    `${profile.displayName} materials reference ${list(industries.slice(0, 5))}. Ventrovia reviews each enquiry on its own specification and does not infer availability from this profile.`,
+    `${profile.displayName} materials reference ${list(industries.slice(0, 5))}. Aihamyn Hampa Trading reviews each enquiry on its own specification and does not infer availability from this profile.`,
   ];
 
   const fullDescription = [

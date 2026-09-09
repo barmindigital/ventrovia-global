@@ -125,7 +125,7 @@ test("legacy deployment variables cannot restore the retired Russian host", asyn
   ]);
 
   assert.match(brandSource, /export const SITE_URL = SITE_BRAND\.canonicalBase/);
-  assert.match(requestSource, /VENTROVIA_EMAIL_PATTERN/);
+  assert.match(requestSource, /REQUEST_EMAIL_PATTERN/);
   assert.match(requestSource, /siteContent\.contacts\.email/);
   assert.doesNotMatch(
     brandSource,

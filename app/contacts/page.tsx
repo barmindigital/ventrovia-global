@@ -33,8 +33,8 @@ export default async function ContactsPage({ searchParams }: ContactsPageProps) 
         <aside className="contact-aside">
           <p className="eyebrow">Sales enquiries</p>
           <h2>Contact our sourcing team</h2>
-          <div className="contact-lines"><PhoneAction>{SITE_BRAND.phoneDisplay}</PhoneAction><a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a></div>
-          <div className="contact-hours" aria-label="Office address"><strong>{SITE_BRAND.baseLocation}</strong><span>{SITE_BRAND.address.line1}</span><span>{SITE_BRAND.address.line2}</span><span>{SITE_BRAND.address.line3}</span></div>
+          <div className="contact-lines"><PhoneAction>{SITE_BRAND.phoneDisplay}</PhoneAction><a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a><a href={`mailto:${SITE_BRAND.emailSecondary}`}>{SITE_BRAND.emailSecondary}</a></div>
+          <div className="contact-hours" aria-label="Office address"><strong>{SITE_BRAND.baseLocation}</strong>{[SITE_BRAND.address.line1, SITE_BRAND.address.line2, SITE_BRAND.address.line3].filter(Boolean).map((line) => <span key={line}>{line}</span>)}</div>
           <p>Include the manufacturer, complete model, part number, quantity and target delivery requirement. A specification can be attached when the request contains several lines.</p>
         </aside>
         <RequestForm defaultProduct={requirement} requestContext={requirement ? `Requirement: ${requirement}` : ""} requestType={requirement ? "equipment" : "supply"} source="contacts_page" />

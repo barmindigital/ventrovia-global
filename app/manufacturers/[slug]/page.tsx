@@ -46,9 +46,9 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
 }
 
 const commercialFaq = (name: string) => [
-  { question: `How can I request ${name} equipment?`, answer: "Send the complete model, part number or a clear nameplate image. Ventrovia will review the requirement before providing pricing and lead-time information." },
+  { question: `How can I request ${name} equipment?`, answer: "Send the complete model, part number or a clear nameplate image. Aihamyn Hampa Trading will review the requirement before providing pricing and lead-time information." },
   { question: "Can I request an obsolete or hard-to-find model?", answer: "Yes. Include every available identifier and document. Availability, possible replacement and commercial terms must be confirmed for the individual requirement." },
-  { question: "Can Ventrovia review an alternative?", answer: "An alternative can be considered only after the relevant technical parameters and operating conditions are checked. Similar-looking part numbers are not treated as proof of compatibility." },
+  { question: "Can Aihamyn Hampa Trading review an alternative?", answer: "An alternative can be considered only after the relevant technical parameters and operating conditions are checked. Similar-looking part numbers are not treated as proof of compatibility." },
   { question: "Can I upload a specification?", answer: "Yes. Attach a list containing the manufacturer and complete designation for each line so the request can be reviewed as one RFQ." },
 ];
 

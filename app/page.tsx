@@ -79,7 +79,7 @@ export default function Home() {
             <div>
               <p className="eyebrow">A structured commercial workflow</p>
               <h2>Industrial sourcing services</h2>
-              <p className="section-intro">Ventrovia supports the commercial sourcing process from requirement review through international supply coordination. Scope and terms are confirmed for every RFQ.</p>
+              <p className="section-intro">Aihamyn Hampa Trading supports the commercial sourcing process from requirement review through international supply coordination. Scope and terms are confirmed for every RFQ.</p>
             </div>
           </div>
           <div className="service-points-grid service-cards">
@@ -106,9 +106,9 @@ export default function Home() {
 
       <section className="section shell" id="about">
         <div className="company-intro">
-          <div><p className="eyebrow">About Ventrovia</p><h2><span>Global reach.</span><span>Precise industrial RFQs.</span></h2></div>
+          <div><p className="eyebrow">About Aihamyn Hampa Trading</p><h2><span>Global reach.</span><span>Precise industrial RFQs.</span></h2></div>
           <div>
-            <p>Ventrovia is a Dubai-based international industrial sourcing and supply business. Our public knowledge base helps buyers identify manufacturers and confirmed product areas before submitting an RFQ.</p>
+            <p>Aihamyn Hampa Trading is a Dubai-based international industrial sourcing and supply business. Our public knowledge base helps buyers identify manufacturers and confirmed product areas before submitting an RFQ.</p>
             <div className="company-actions"><Link className="text-link" href="/about">How we work <span aria-hidden="true">→</span></Link></div>
           </div>
         </div>

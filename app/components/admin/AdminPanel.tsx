@@ -203,7 +203,7 @@ export function AdminPanel() {
       <main className={styles.page}>
         <div className={styles.loginWrap}>
           <form className={`${styles.loginCard}`} onSubmit={login}>
-            <p className={styles.eyebrow}>VENTROVIA</p>
+            <p className={styles.eyebrow}>AIHAMYN HAMPA TRADING</p>
             <h1>Site administration</h1>
             <p className={styles.hint}>Authorised editors can manage public copy, contact details and SEO settings.</p>
             <EditableField label="Password" value={password} onChange={setPassword} type="password" />

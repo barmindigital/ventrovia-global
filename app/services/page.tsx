@@ -57,7 +57,7 @@ const services = [
   {
     number: "02",
     title: "Manufacturer sourcing",
-    text: "Use the Ventrovia manufacturer knowledge base to identify a brand and send an enquiry against its confirmed product areas.",
+    text: "Use the Aihamyn Hampa Trading manufacturer knowledge base to identify a brand and send an enquiry against its confirmed product areas.",
   },
   {
     number: "03",
@@ -72,7 +72,7 @@ const services = [
   {
     number: "05",
     title: "Procurement support",
-    text: "Ventrovia helps procurement teams clarify the requested scope, quantity, documentation and delivery requirement for an actionable RFQ.",
+    text: "Aihamyn Hampa Trading helps procurement teams clarify the requested scope, quantity, documentation and delivery requirement for an actionable RFQ.",
   },
   {
     number: "06",

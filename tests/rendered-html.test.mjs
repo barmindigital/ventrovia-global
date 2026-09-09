@@ -21,13 +21,13 @@ async function html(pathname = "/") {
   return response.text();
 }
 
-test("homepage is the English Ventrovia international site", async () => {
+test("homepage is the English Aihamyn Hampa Trading international site", async () => {
   const source = await html();
   assert.match(source, /lang="en"/);
-  assert.match(source, /VENTROVIA/);
+  assert.match(source, /AIHAMYN HAMPA TRADING/);
   assert.match(source, /Industrial equipment[\s\S]{0,100}sourcing worldwide/i);
   assert.match(source, /Request an Offer/);
-  assert.match(source, /Dubai, UAE/);
+  assert.match(source, /Dubai, (UAE|United Arab Emirates)/);
   assert.doesNotMatch(source, /Индустрия Поставок|industriapostavok|VENTORVIA|href="\/catalog"/i);
 });
 
@@ -37,13 +37,13 @@ test("brand assets and central contact configuration stay in sync", async () => 
     readFile(new URL("../app/components/SiteHeader.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/components/SiteFooter.tsx", import.meta.url), "utf8"),
   ]);
-  assert.match(brand, /name: "Ventrovia"/);
-  assert.match(brand, /tagline: "GLOBAL INDUSTRIAL TRADE"/);
-  assert.match(brand, /sales@ventroviaglobal\.com/);
-  assert.match(brand, /\+971557254463/);
+  assert.match(brand, /name: "Aihamyn Hampa Trading – FZCO"/);
+  assert.match(brand, /tagline: "GLOBAL PROCUREMENT & INDUSTRIAL SUPPLY"/);
+  assert.match(brand, /info@aihamyn\.ae/);
+  assert.match(brand, /\+971509812776/);
   assert.match(`${header}\n${footer}`, /SITE_BRAND/);
   const assets = await readdir(new URL("../public/brand", import.meta.url));
-  assert.ok(assets.includes("ventrovia-horizontal-tagline-dark.svg"));
+  assert.ok(assets.includes("aihamyn-horizontal-tagline-dark.svg"));
   for (const file of assets) assert.doesNotMatch(await readFile(new URL(`../public/brand/${file}`, import.meta.url), "utf8"), /VENTORVIA/);
 });
 

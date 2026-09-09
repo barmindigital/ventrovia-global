@@ -1,4 +1,4 @@
-# Ventrovia brand assets
+# Aihamyn Hampa Trading brand assets
 
 ## Source concept
 

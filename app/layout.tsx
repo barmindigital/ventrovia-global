@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: siteContent.site.defaultSeoTitle,
-    // Page titles already carry the Ventrovia suffix where it adds value.
-    // Keeping the root template neutral prevents duplicate "| Ventrovia" text.
+    // Page titles already carry the Aihamyn Hampa Trading suffix where it adds value.
+    // Keeping the root template neutral prevents duplicate "| Aihamyn Hampa Trading" text.
     template: "%s",
   },
   description: publicSiteDescription,
@@ -59,7 +59,6 @@ const organizationJsonLd = {
   description: publicSiteDescription,
   address: {
     "@type": "PostalAddress",
-    streetAddress: `${SITE_BRAND.address.line1}, ${SITE_BRAND.address.line2}`,
     addressLocality: "Dubai",
     addressCountry: "AE",
   },

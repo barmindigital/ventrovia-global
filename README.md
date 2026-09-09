@@ -1,4 +1,4 @@
-# Ventrovia
+# Aihamyn Hampa Trading
 
 International manufacturer knowledge base and industrial RFQ website for
 `https://aihamyn.ae`. Next.js 16 (App Router), React 19, TypeScript.

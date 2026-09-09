@@ -21,8 +21,8 @@ Set these in the hosting control panel (never commit them):
 ```text
 ADMIN_PASSWORD=<strong password>
 ADMIN_SESSION_SECRET=<random secret>
-REQUEST_TO_EMAIL=sales@ventroviaglobal.com
-REQUEST_FROM_EMAIL=Ventrovia RFQ <requests@ventroviaglobal.com>
+REQUEST_TO_EMAIL=info@aihamyn.ae
+REQUEST_FROM_EMAIL=Aihamyn Hampa Trading RFQ <requests@aihamyn.ae>
 RESEND_API_KEY=<server-side secret, only after EMAIL_SETUP.md is complete>
 ```
 

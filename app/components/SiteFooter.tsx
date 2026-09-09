@@ -10,7 +10,7 @@ export function SiteFooter() {
       <div className="shell footer-grid">
         <div>
           <Link className="brand brand-footer brand-ventrovia" href="/">
-            <Image alt={`${SITE_BRAND.displayName} — ${SITE_BRAND.tagline}`} height={70} src={SITE_BRAND.logos.horizontalTaglineLight} unoptimized width={270} />
+            <Image alt={`${SITE_BRAND.displayName} — ${SITE_BRAND.tagline}`} height={62} src={SITE_BRAND.logos.horizontalTaglineLight} unoptimized width={339} />
           </Link>
           <p className="footer-note">International industrial sourcing and supply coordination based on complete models, part numbers and technical specifications.</p>
         </div>
@@ -22,7 +22,7 @@ export function SiteFooter() {
         </div>
         <div>
           <h2>Company</h2>
-          <Link href="/about">About Ventrovia</Link>
+          <Link href="/about">About us</Link>
           <Link href="/contacts">Contact</Link>
           <Link href="/privacy">Privacy Policy</Link>
         </div>
@@ -32,9 +32,8 @@ export function SiteFooter() {
             <strong>{SITE_BRAND.baseLocation}</strong><br />
             <PhoneAction>{SITE_BRAND.phoneDisplay}</PhoneAction><br />
             <a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a><br />
-            {SITE_BRAND.address.line1}<br />
-            {SITE_BRAND.address.line2}<br />
-            {SITE_BRAND.address.line3}
+            <a href={`mailto:${SITE_BRAND.emailSecondary}`}>{SITE_BRAND.emailSecondary}</a><br />
+            {[SITE_BRAND.address.line1, SITE_BRAND.address.line2, SITE_BRAND.address.line3].filter(Boolean).map((line) => <span key={line}>{line}<br /></span>)}
           </div>
         </div>
       </div>

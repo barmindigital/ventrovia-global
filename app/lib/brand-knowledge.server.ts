@@ -69,9 +69,9 @@ export function brandDisplayName(slug: string, fallback: string) {
 
 export function brandSeoTitle(slug: string, fallback: string) {
   const profile = profiles.get(slug);
-  if (!profile) return `${fallback} equipment sourcing | Ventrovia`;
+  if (!profile) return `${fallback} equipment sourcing | Aihamyn Hampa Trading`;
   const primaryCategory = profile.productCategories[0];
-  return `${profile.displayName} ${primaryCategory} | Ventrovia`;
+  return `${profile.displayName} ${primaryCategory} | Aihamyn Hampa Trading`;
 }
 
 export function brandMetaDescription(slug: string, fallback: string) {
