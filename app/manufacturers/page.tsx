@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "../lib/open-graph";
 import Link from "next/link";
 import { Fragment } from "react";
 import { ManufacturerBrowser } from "../components/ManufacturerBrowser";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: pageContent.seoTitle,
   description: pageContent.seoDescription,
   alternates: { canonical: "/manufacturers" },
-  openGraph: { url: "/manufacturers", title: pageContent.seoTitle, description: pageContent.seoDescription },
+  openGraph: pageOpenGraph({ url: "/manufacturers", title: pageContent.seoTitle, description: pageContent.seoDescription }),
 };
 
 const listedManufacturers = manufacturers.filter(({ slug }) => isBrandIndexable(slug));

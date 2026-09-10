@@ -9,6 +9,7 @@ import { AttributionCapture } from "./components/AttributionCapture";
 import { serializeJsonLd } from "./lib/json-ld";
 import { siteContent } from "./lib/site-content";
 import { SITE_BRAND, SITE_URL } from "./lib/site-brand";
+import { pageOpenGraph } from "./lib/open-graph";
 
 const publicSiteDescription = siteContent.site.defaultSeoDescription;
 
@@ -23,22 +24,11 @@ export const metadata: Metadata = {
   description: publicSiteDescription,
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
-  openGraph: {
-    type: "website",
-    locale: "en",
-    siteName: SITE_BRAND.displayName,
+  openGraph: pageOpenGraph({
     title: siteContent.site.openGraphTitle,
     description: siteContent.site.openGraphDescription,
     url: SITE_URL,
-    images: [
-      {
-        url: SITE_BRAND.logos.social,
-        width: 1200,
-        height: 630,
-        alt: `${SITE_BRAND.displayName} — ${SITE_BRAND.tagline}`,
-      },
-    ],
-  },
+  }),
   twitter: { card: "summary_large_image", images: [SITE_BRAND.logos.social] },
   icons: {
     icon: "/favicon.svg",

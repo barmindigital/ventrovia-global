@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "../lib/open-graph";
 import Link from "next/link";
 import { Fragment } from "react";
 import { RequestCta } from "../components/RequestCta";
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   title: pageContent.seoTitle,
   description: pageContent.seoDescription,
   alternates: { canonical: "/about" },
-  openGraph: { title: pageContent.seoTitle, description: pageContent.seoDescription, url: "/about" },
+  openGraph: pageOpenGraph({ title: pageContent.seoTitle, description: pageContent.seoDescription, url: "/about" }),
 };
 
 export default function AboutPage() {

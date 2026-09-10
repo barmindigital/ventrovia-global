@@ -15,9 +15,9 @@ const [brand, operations, identities, envExample, tracked, reachable] = await Pr
 ]);
 
 assert.match(brand, /canonicalBase: "https:\/\/aihamyn\.ae"/u);
-assert.match(brand, /sales@ventroviaglobal\.com/u);
-assert.match(brand, /\+971557254463/u);
-assert.doesNotMatch(brand, /VENTORVIA|Индустрия Поставок/u);
+assert.match(brand, /info@aihamyn\.ae/u);
+assert.match(brand, /\+971509812776/u);
+assert.doesNotMatch(brand, /VENTORVIA|Индустрия Поставок|Lazarchuk|Vitalii/u);
 assert.equal(operations.manufacturerCount, identities.manufacturerCount);
 assert.equal(operations.profileCount, operations.seoReadiness.BRAND_SAFE);
 assert.equal(operations.indexableManufacturerPages, operations.profileCount);

@@ -22,11 +22,11 @@ assert.doesNotMatch(knowledgeSource, /[А-Яа-яЁё]/u);
 assert.doesNotMatch(publicContent, /[А-Яа-яЁё]/u);
 assert.doesNotMatch(`${brandConfig}\n${publicContent}`, /VENTORVIA/u);
 assert.match(brandConfig, /aihamyn\.ae/u);
-assert.match(brandConfig, /sales@ventroviaglobal\.com/u);
-assert.match(brandConfig, /\+971557254463/u);
+assert.match(brandConfig, /info@aihamyn\.ae/u);
+assert.match(brandConfig, /\+971509812776/u);
 
 const titles = knowledge.profiles.map((profile) =>
-  `${profile.displayName} ${profile.productCategories[0]} | Ventrovia`,
+  `${profile.displayName} ${profile.productCategories[0]} | Aihamyn Hampa Trading`,
 );
 const descriptions = knowledge.profiles.map((profile) =>
   `Source ${profile.displayName} equipment across ${profile.productCategories

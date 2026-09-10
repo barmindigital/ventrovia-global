@@ -1195,6 +1195,7 @@
       "displayName": "ARGO-HYTOS",
       "primaryCategory": "hydraulic equipment",
       "secondaryCategories": [
+        "filtration and water systems",
         "industrial sensors"
       ],
       "families": [
@@ -1207,13 +1208,14 @@
       "secondaryIntents": [
         "ARGO-HYTOS industrial equipment",
         "ARGO-HYTOS sourcing",
+        "ARGO-HYTOS filtration and water systems",
         "ARGO-HYTOS industrial sensors"
       ],
       "titleCore": "ARGO-HYTOS Hydraulic equipment",
-      "metaFactual": "ARGO-HYTOS manufacturer profile covering hydraulic equipment and industrial sensors, based on official company and product sources.",
+      "metaFactual": "ARGO-HYTOS manufacturer profile covering hydraulic equipment, filtration and water systems, and industrial sensors, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 2,
+        "categories": 3,
         "families": 4
       }
     },
@@ -2645,8 +2647,9 @@
     {
       "brandId": "hydac",
       "displayName": "HYDAC",
-      "primaryCategory": "hydraulic equipment",
+      "primaryCategory": "filtration and water systems",
       "secondaryCategories": [
+        "hydraulic equipment",
         "industrial valves and flow control",
         "thermal-management equipment",
         "industrial sensors",
@@ -2659,18 +2662,18 @@
         "PGE",
         "PGI"
       ],
-      "primaryIntent": "HYDAC hydraulic equipment",
+      "primaryIntent": "HYDAC filtration and water systems",
       "secondaryIntents": [
         "HYDAC industrial equipment",
         "HYDAC sourcing",
-        "HYDAC industrial valves and flow control",
-        "HYDAC thermal-management equipment"
+        "HYDAC hydraulic equipment",
+        "HYDAC industrial valves and flow control"
       ],
-      "titleCore": "HYDAC Hydraulic equipment",
-      "metaFactual": "HYDAC manufacturer profile covering hydraulic equipment, industrial valves and flow control, and thermal-management equipment, based on official company and product sources.",
+      "titleCore": "HYDAC Filtration and water systems",
+      "metaFactual": "HYDAC manufacturer profile covering filtration and water systems, hydraulic equipment, and industrial valves and flow control, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 5,
+        "categories": 6,
         "families": 5
       }
     },
@@ -2944,29 +2947,24 @@
     {
       "brandId": "donaldson",
       "displayName": "Donaldson",
-      "primaryCategory": "electric motors",
-      "secondaryCategories": [
-        "hydraulic equipment",
-        "filtration and water systems"
-      ],
+      "primaryCategory": "filtration and water systems",
+      "secondaryCategories": [],
       "families": [
         "Engine & Equipment Filtration",
         "Industrial Air Filtration",
         "Industrial Gases & Process Filtration",
         "Gas Turbine Filtration"
       ],
-      "primaryIntent": "Donaldson electric motors",
+      "primaryIntent": "Donaldson filtration and water systems",
       "secondaryIntents": [
         "Donaldson industrial equipment",
-        "Donaldson sourcing",
-        "Donaldson hydraulic equipment",
-        "Donaldson filtration and water systems"
+        "Donaldson sourcing"
       ],
-      "titleCore": "Donaldson Electric motors",
-      "metaFactual": "Donaldson manufacturer profile covering electric motors, hydraulic equipment, and filtration and water systems, based on official company and product sources.",
+      "titleCore": "Donaldson Filtration and water systems",
+      "metaFactual": "Donaldson manufacturer profile covering filtration and water systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 1,
         "families": 4
       }
     },
@@ -4231,7 +4229,7 @@
     {
       "brandId": "mahle",
       "displayName": "MAHLE Industry",
-      "primaryCategory": "electric motors",
+      "primaryCategory": "industrial engines",
       "secondaryCategories": [
         "thermal-management equipment",
         "drive and motion-control systems"
@@ -4241,15 +4239,15 @@
         "Industrial Thermal Management",
         "Electric Drives"
       ],
-      "primaryIntent": "MAHLE Industry electric motors",
+      "primaryIntent": "MAHLE Industry industrial engines",
       "secondaryIntents": [
         "MAHLE Industry industrial equipment",
         "MAHLE Industry sourcing",
         "MAHLE Industry thermal-management equipment",
         "MAHLE Industry drive and motion-control systems"
       ],
-      "titleCore": "MAHLE Industry Electric motors",
-      "metaFactual": "MAHLE Industry manufacturer profile covering electric motors, thermal-management equipment, and drive and motion-control systems, based on official company and product sources.",
+      "titleCore": "MAHLE Industry Industrial engines",
+      "metaFactual": "MAHLE Industry manufacturer profile covering industrial engines, thermal-management equipment, and drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
         "categories": 3,
@@ -4590,8 +4588,7 @@
       "displayName": "Wachendorff",
       "primaryCategory": "encoders and feedback systems",
       "secondaryCategories": [
-        "measurement and instrumentation",
-        "electric motors"
+        "measurement and instrumentation"
       ],
       "families": [
         "Incremental Encoders",
@@ -4610,14 +4607,13 @@
       "secondaryIntents": [
         "Wachendorff industrial equipment",
         "Wachendorff sourcing",
-        "Wachendorff measurement and instrumentation",
-        "Wachendorff electric motors"
+        "Wachendorff measurement and instrumentation"
       ],
       "titleCore": "Wachendorff Encoders and feedback systems",
-      "metaFactual": "Wachendorff manufacturer profile covering encoders and feedback systems, measurement and instrumentation, and electric motors, based on official company and product sources.",
+      "metaFactual": "Wachendorff manufacturer profile covering encoders and feedback systems and measurement and instrumentation, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 2,
         "families": 11
       }
     },
@@ -5061,9 +5057,8 @@
     {
       "brandId": "mp-filtri",
       "displayName": "MP Filtri",
-      "primaryCategory": "hydraulic equipment",
+      "primaryCategory": "filtration and water systems",
       "secondaryCategories": [
-        "filtration and water systems",
         "brakes and couplings"
       ],
       "families": [
@@ -5073,18 +5068,17 @@
         "Power Transmission",
         "Tank Accessories"
       ],
-      "primaryIntent": "MP Filtri hydraulic equipment",
+      "primaryIntent": "MP Filtri filtration and water systems",
       "secondaryIntents": [
         "MP Filtri industrial equipment",
         "MP Filtri sourcing",
-        "MP Filtri filtration and water systems",
         "MP Filtri brakes and couplings"
       ],
-      "titleCore": "MP Filtri Hydraulic equipment",
-      "metaFactual": "MP Filtri manufacturer profile covering hydraulic equipment, filtration and water systems, and brakes and couplings, based on official company and product sources.",
+      "titleCore": "MP Filtri Filtration and water systems",
+      "metaFactual": "MP Filtri manufacturer profile covering filtration and water systems and brakes and couplings, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 2,
         "families": 5
       }
     },
@@ -8673,6 +8667,7 @@
       "primaryCategory": "electric motors",
       "secondaryCategories": [
         "gear units and geared drives",
+        "drive and motion-control systems",
         "linear-motion components",
         "encoders and feedback systems"
       ],
@@ -8689,13 +8684,13 @@
         "Dunkermotoren industrial equipment",
         "Dunkermotoren sourcing",
         "Dunkermotoren gear units and geared drives",
-        "Dunkermotoren linear-motion components"
+        "Dunkermotoren drive and motion-control systems"
       ],
       "titleCore": "Dunkermotoren Electric motors",
-      "metaFactual": "Dunkermotoren manufacturer profile covering electric motors, gear units and geared drives, and linear-motion components, based on official company and product sources.",
+      "metaFactual": "Dunkermotoren manufacturer profile covering electric motors, gear units and geared drives, and drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 4,
+        "categories": 5,
         "families": 6
       }
     },
@@ -13608,9 +13603,7 @@
       "brandId": "benshaw",
       "displayName": "Benshaw",
       "primaryCategory": "drive and motion-control systems",
-      "secondaryCategories": [
-        "electric motors"
-      ],
+      "secondaryCategories": [],
       "families": [
         "Low-Voltage Soft Starters",
         "Medium-Voltage Soft Starters",
@@ -13633,14 +13626,13 @@
       "primaryIntent": "Benshaw drive and motion-control systems",
       "secondaryIntents": [
         "Benshaw industrial equipment",
-        "Benshaw sourcing",
-        "Benshaw electric motors"
+        "Benshaw sourcing"
       ],
       "titleCore": "Benshaw Drive and motion-control systems",
-      "metaFactual": "Benshaw manufacturer profile covering drive and motion-control systems and electric motors, based on official company and product sources.",
+      "metaFactual": "Benshaw manufacturer profile covering drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 4,
-        "categories": 2,
+        "categories": 1,
         "families": 17
       }
     },
@@ -14282,7 +14274,7 @@
     {
       "brandId": "curtis",
       "displayName": "Curtis Instruments",
-      "primaryCategory": "electric motors",
+      "primaryCategory": "drive and motion-control systems",
       "secondaryCategories": [
         "measurement and instrumentation",
         "industrial battery and energy-storage systems"
@@ -14305,15 +14297,15 @@
         "AC F-Series",
         "Curtis Integrated Toolkit"
       ],
-      "primaryIntent": "Curtis Instruments electric motors",
+      "primaryIntent": "Curtis Instruments drive and motion-control systems",
       "secondaryIntents": [
         "Curtis Instruments industrial equipment",
         "Curtis Instruments sourcing",
         "Curtis Instruments measurement and instrumentation",
         "Curtis Instruments industrial battery and energy-storage systems"
       ],
-      "titleCore": "Curtis Instruments Electric motors",
-      "metaFactual": "Curtis Instruments manufacturer profile covering electric motors, measurement and instrumentation, and industrial battery and energy-storage systems, based on official company and product sources.",
+      "titleCore": "Curtis Instruments Drive and motion-control systems",
+      "metaFactual": "Curtis Instruments manufacturer profile covering drive and motion-control systems, measurement and instrumentation, and industrial battery and energy-storage systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 4,
         "categories": 3,
@@ -14325,7 +14317,7 @@
       "displayName": "Cutler-Hammer",
       "primaryCategory": "industrial automation and control",
       "secondaryCategories": [
-        "electric motors"
+        "drive and motion-control systems"
       ],
       "families": [
         "Legacy Cutler-Hammer Circuit Breakers",
@@ -14342,10 +14334,10 @@
       "secondaryIntents": [
         "Cutler-Hammer industrial equipment",
         "Cutler-Hammer sourcing",
-        "Cutler-Hammer electric motors"
+        "Cutler-Hammer drive and motion-control systems"
       ],
       "titleCore": "Cutler-Hammer Industrial automation and control",
-      "metaFactual": "Cutler-Hammer manufacturer profile covering industrial automation and control and electric motors, based on official company and product sources.",
+      "metaFactual": "Cutler-Hammer manufacturer profile covering industrial automation and control and drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 4,
         "categories": 2,
@@ -14389,7 +14381,6 @@
       "displayName": "DEPRAG",
       "primaryCategory": "industrial automation and control",
       "secondaryCategories": [
-        "electric motors",
         "pneumatic equipment",
         "measurement and instrumentation"
       ],
@@ -14420,14 +14411,14 @@
       "secondaryIntents": [
         "DEPRAG industrial equipment",
         "DEPRAG sourcing",
-        "DEPRAG electric motors",
-        "DEPRAG pneumatic equipment"
+        "DEPRAG pneumatic equipment",
+        "DEPRAG measurement and instrumentation"
       ],
       "titleCore": "DEPRAG Industrial automation and control",
-      "metaFactual": "DEPRAG manufacturer profile covering industrial automation and control, electric motors, and pneumatic equipment, based on official company and product sources.",
+      "metaFactual": "DEPRAG manufacturer profile covering industrial automation and control, pneumatic equipment, and measurement and instrumentation, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 5,
-        "categories": 4,
+        "categories": 3,
         "families": 21
       }
     },
@@ -15266,9 +15257,7 @@
       "brandId": "filtration-group",
       "displayName": "Filtration Group",
       "primaryCategory": "filtration and water systems",
-      "secondaryCategories": [
-        "hydraulic equipment"
-      ],
+      "secondaryCategories": [],
       "families": [
         "Air Purification Systems",
         "Hydraulic Filtration",
@@ -15282,14 +15271,13 @@
       "primaryIntent": "Filtration Group filtration and water systems",
       "secondaryIntents": [
         "Filtration Group industrial equipment",
-        "Filtration Group sourcing",
-        "Filtration Group hydraulic equipment"
+        "Filtration Group sourcing"
       ],
       "titleCore": "Filtration Group Filtration and water systems",
-      "metaFactual": "Filtration Group manufacturer profile covering filtration and water systems and hydraulic equipment, based on official company and product sources.",
+      "metaFactual": "Filtration Group manufacturer profile covering filtration and water systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 5,
-        "categories": 2,
+        "categories": 1,
         "families": 8
       }
     },
@@ -16396,9 +16384,8 @@
     {
       "brandId": "mannesmann-demag",
       "displayName": "MANNESMANN DEMAG",
-      "primaryCategory": "electric motors",
+      "primaryCategory": "pneumatic equipment",
       "secondaryCategories": [
-        "pneumatic equipment",
         "machine-tool spindles",
         "robotics and automation components",
         "industrial tools"
@@ -16417,18 +16404,18 @@
         "SME",
         "BME"
       ],
-      "primaryIntent": "MANNESMANN DEMAG electric motors",
+      "primaryIntent": "MANNESMANN DEMAG pneumatic equipment",
       "secondaryIntents": [
         "MANNESMANN DEMAG industrial equipment",
         "MANNESMANN DEMAG sourcing",
-        "MANNESMANN DEMAG pneumatic equipment",
-        "MANNESMANN DEMAG machine-tool spindles"
+        "MANNESMANN DEMAG machine-tool spindles",
+        "MANNESMANN DEMAG robotics and automation components"
       ],
-      "titleCore": "MANNESMANN DEMAG Electric motors",
-      "metaFactual": "MANNESMANN DEMAG manufacturer profile covering electric motors, pneumatic equipment, and machine-tool spindles, based on official company and product sources.",
+      "titleCore": "MANNESMANN DEMAG Pneumatic equipment",
+      "metaFactual": "MANNESMANN DEMAG manufacturer profile covering pneumatic equipment, machine-tool spindles, and robotics and automation components, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 8,
-        "categories": 5,
+        "categories": 4,
         "families": 12
       }
     },
@@ -17151,7 +17138,6 @@
       "displayName": "Salami",
       "primaryCategory": "pumps and pumping systems",
       "secondaryCategories": [
-        "electric motors",
         "hydraulic equipment",
         "industrial automation and control"
       ],
@@ -17167,14 +17153,14 @@
       "secondaryIntents": [
         "Salami industrial equipment",
         "Salami sourcing",
-        "Salami electric motors",
-        "Salami hydraulic equipment"
+        "Salami hydraulic equipment",
+        "Salami industrial automation and control"
       ],
       "titleCore": "Salami Pumps and pumping systems",
-      "metaFactual": "Salami manufacturer profile covering pumps and pumping systems, electric motors, and hydraulic equipment, based on official company and product sources.",
+      "metaFactual": "Salami manufacturer profile covering pumps and pumping systems, hydraulic equipment, and industrial automation and control, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 3,
-        "categories": 4,
+        "categories": 3,
         "families": 6
       }
     },
@@ -17183,8 +17169,7 @@
       "displayName": "Samhydraulik",
       "primaryCategory": "hydraulic equipment",
       "secondaryCategories": [
-        "pumps and pumping systems",
-        "electric motors"
+        "pumps and pumping systems"
       ],
       "families": [
         "Variable-Displacement Axial-Piston Motors",
@@ -17204,14 +17189,13 @@
       "secondaryIntents": [
         "Samhydraulik industrial equipment",
         "Samhydraulik sourcing",
-        "Samhydraulik pumps and pumping systems",
-        "Samhydraulik electric motors"
+        "Samhydraulik pumps and pumping systems"
       ],
       "titleCore": "Samhydraulik Hydraulic equipment",
-      "metaFactual": "Samhydraulik manufacturer profile covering hydraulic equipment, pumps and pumping systems, and electric motors, based on official company and product sources.",
+      "metaFactual": "Samhydraulik manufacturer profile covering hydraulic equipment and pumps and pumping systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 3,
-        "categories": 3,
+        "categories": 2,
         "families": 12
       }
     },
@@ -17718,9 +17702,8 @@
     {
       "brandId": "tsa-bologna",
       "displayName": "TSA Bologna",
-      "primaryCategory": "electric motors",
+      "primaryCategory": "pneumatic equipment",
       "secondaryCategories": [
-        "pneumatic equipment",
         "industrial tools"
       ],
       "families": [
@@ -17735,18 +17718,17 @@
         "Pneumatic Motor Accessories",
         "M Series"
       ],
-      "primaryIntent": "TSA Bologna electric motors",
+      "primaryIntent": "TSA Bologna pneumatic equipment",
       "secondaryIntents": [
         "TSA Bologna industrial equipment",
         "TSA Bologna sourcing",
-        "TSA Bologna pneumatic equipment",
         "TSA Bologna industrial tools"
       ],
-      "titleCore": "TSA Bologna Electric motors",
-      "metaFactual": "TSA Bologna manufacturer profile covering electric motors, pneumatic equipment, and industrial tools, based on official company and product sources.",
+      "titleCore": "TSA Bologna Pneumatic equipment",
+      "metaFactual": "TSA Bologna manufacturer profile covering pneumatic equipment and industrial tools, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 5,
-        "categories": 3,
+        "categories": 2,
         "families": 10
       }
     },
@@ -17957,8 +17939,7 @@
       "displayName": "van Dinther",
       "primaryCategory": "pumps and pumping systems",
       "secondaryCategories": [
-        "hydraulic equipment",
-        "electric motors"
+        "hydraulic equipment"
       ],
       "families": [
         "Radial Piston Pumps",
@@ -17973,14 +17954,13 @@
       "secondaryIntents": [
         "van Dinther industrial equipment",
         "van Dinther sourcing",
-        "van Dinther hydraulic equipment",
-        "van Dinther electric motors"
+        "van Dinther hydraulic equipment"
       ],
       "titleCore": "van Dinther Pumps and pumping systems",
-      "metaFactual": "van Dinther manufacturer profile covering pumps and pumping systems, hydraulic equipment, and electric motors, based on official company and product sources.",
+      "metaFactual": "van Dinther manufacturer profile covering pumps and pumping systems and hydraulic equipment, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 3,
-        "categories": 3,
+        "categories": 2,
         "families": 7
       }
     },
@@ -18671,8 +18651,7 @@
       "displayName": "Dynex",
       "primaryCategory": "pumps and pumping systems",
       "secondaryCategories": [
-        "hydraulic equipment",
-        "electric motors"
+        "hydraulic equipment"
       ],
       "families": [
         "Fixed-Displacement Pumps",
@@ -18696,14 +18675,13 @@
       "secondaryIntents": [
         "Dynex industrial equipment",
         "Dynex sourcing",
-        "Dynex hydraulic equipment",
-        "Dynex electric motors"
+        "Dynex hydraulic equipment"
       ],
       "titleCore": "Dynex Pumps and pumping systems",
-      "metaFactual": "Dynex manufacturer profile covering pumps and pumping systems, hydraulic equipment, and electric motors, based on official company and product sources.",
+      "metaFactual": "Dynex manufacturer profile covering pumps and pumping systems and hydraulic equipment, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 2,
         "families": 16
       }
     },
@@ -18933,7 +18911,6 @@
       "displayName": "Pall Corporation",
       "primaryCategory": "filtration and water systems",
       "secondaryCategories": [
-        "hydraulic equipment",
         "industrial cleaning systems"
       ],
       "families": [
@@ -18947,14 +18924,13 @@
       "secondaryIntents": [
         "Pall Corporation industrial equipment",
         "Pall Corporation sourcing",
-        "Pall Corporation hydraulic equipment",
         "Pall Corporation industrial cleaning systems"
       ],
       "titleCore": "Pall Corporation Filtration and water systems",
-      "metaFactual": "Pall Corporation manufacturer profile covering filtration and water systems, hydraulic equipment, and industrial cleaning systems, based on official company and product sources.",
+      "metaFactual": "Pall Corporation manufacturer profile covering filtration and water systems and industrial cleaning systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 2,
         "families": 5
       }
     },
@@ -19220,8 +19196,9 @@
     {
       "brandId": "white-drive",
       "displayName": "White Drive Products",
-      "primaryCategory": "industrial valves and flow control",
+      "primaryCategory": "hydraulic equipment",
       "secondaryCategories": [
+        "industrial valves and flow control",
         "industrial sensors"
       ],
       "families": [
@@ -19239,17 +19216,18 @@
         "OMEW",
         "LAGC"
       ],
-      "primaryIntent": "White Drive Products industrial valves and flow control",
+      "primaryIntent": "White Drive Products hydraulic equipment",
       "secondaryIntents": [
         "White Drive Products industrial equipment",
         "White Drive Products sourcing",
+        "White Drive Products industrial valves and flow control",
         "White Drive Products industrial sensors"
       ],
-      "titleCore": "White Drive Products Industrial valves and flow control",
-      "metaFactual": "White Drive Products manufacturer profile covering industrial valves and flow control and industrial sensors, based on official company and product sources.",
+      "titleCore": "White Drive Products Hydraulic equipment",
+      "metaFactual": "White Drive Products manufacturer profile covering hydraulic equipment, industrial valves and flow control, and industrial sensors, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 2,
+        "categories": 3,
         "families": 13
       }
     },
@@ -19699,9 +19677,8 @@
     {
       "brandId": "ikron",
       "displayName": "IKRON",
-      "primaryCategory": "hydraulic equipment",
+      "primaryCategory": "filtration and water systems",
       "secondaryCategories": [
-        "filtration and water systems",
         "pumps and pumping systems"
       ],
       "families": [
@@ -19712,18 +19689,17 @@
         "High-Pressure Filters",
         "Hand Pumps and Accessories"
       ],
-      "primaryIntent": "IKRON hydraulic equipment",
+      "primaryIntent": "IKRON filtration and water systems",
       "secondaryIntents": [
         "IKRON industrial equipment",
         "IKRON sourcing",
-        "IKRON filtration and water systems",
         "IKRON pumps and pumping systems"
       ],
-      "titleCore": "IKRON Hydraulic equipment",
-      "metaFactual": "IKRON manufacturer profile covering hydraulic equipment, filtration and water systems, and pumps and pumping systems, based on official company and product sources.",
+      "titleCore": "IKRON Filtration and water systems",
+      "metaFactual": "IKRON manufacturer profile covering filtration and water systems and pumps and pumping systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 1,
-        "categories": 3,
+        "categories": 2,
         "families": 6
       }
     },
@@ -19793,7 +19769,9 @@
       "brandId": "perkins",
       "displayName": "Perkins",
       "primaryCategory": "electric motors",
-      "secondaryCategories": [],
+      "secondaryCategories": [
+        "industrial engines"
+      ],
       "families": [
         "Industrial Diesel Engines",
         "Electric Power Engines",
@@ -19811,13 +19789,14 @@
       "primaryIntent": "Perkins electric motors",
       "secondaryIntents": [
         "Perkins industrial equipment",
-        "Perkins sourcing"
+        "Perkins sourcing",
+        "Perkins industrial engines"
       ],
       "titleCore": "Perkins Electric motors",
-      "metaFactual": "Perkins manufacturer profile covering electric motors, based on official company and product sources.",
+      "metaFactual": "Perkins manufacturer profile covering electric motors and industrial engines, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 1,
+        "categories": 2,
         "families": 12
       }
     },
@@ -20382,7 +20361,6 @@
       "displayName": "Casappa",
       "primaryCategory": "pumps and pumping systems",
       "secondaryCategories": [
-        "electric motors",
         "hydraulic equipment",
         "industrial automation and control"
       ],
@@ -20398,14 +20376,14 @@
       "secondaryIntents": [
         "Casappa industrial equipment",
         "Casappa sourcing",
-        "Casappa electric motors",
-        "Casappa hydraulic equipment"
+        "Casappa hydraulic equipment",
+        "Casappa industrial automation and control"
       ],
       "titleCore": "Casappa Pumps and pumping systems",
-      "metaFactual": "Casappa manufacturer profile covering pumps and pumping systems, electric motors, and hydraulic equipment, based on official company and product sources.",
+      "metaFactual": "Casappa manufacturer profile covering pumps and pumping systems, hydraulic equipment, and industrial automation and control, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 4,
+        "categories": 3,
         "families": 6
       }
     },
@@ -23298,9 +23276,7 @@
       "brandId": "emotron-ab",
       "displayName": "Emotron",
       "primaryCategory": "drive and motion-control systems",
-      "secondaryCategories": [
-        "electric motors"
-      ],
+      "secondaryCategories": [],
       "families": [
         "Industrial Drives",
         "Softstarters",
@@ -23311,14 +23287,13 @@
       "primaryIntent": "Emotron drive and motion-control systems",
       "secondaryIntents": [
         "Emotron industrial equipment",
-        "Emotron sourcing",
-        "Emotron electric motors"
+        "Emotron sourcing"
       ],
       "titleCore": "Emotron Drive and motion-control systems",
-      "metaFactual": "Emotron manufacturer profile covering drive and motion-control systems and electric motors, based on official company and product sources.",
+      "metaFactual": "Emotron manufacturer profile covering drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 2,
+        "categories": 1,
         "families": 5
       }
     },
@@ -29461,8 +29436,7 @@
       "displayName": "SOTRAS",
       "primaryCategory": "filtration and water systems",
       "secondaryCategories": [
-        "process equipment",
-        "hydraulic equipment"
+        "process equipment"
       ],
       "families": [
         "Air-Oil Separators",
@@ -29477,14 +29451,13 @@
       "secondaryIntents": [
         "SOTRAS industrial equipment",
         "SOTRAS sourcing",
-        "SOTRAS process equipment",
-        "SOTRAS hydraulic equipment"
+        "SOTRAS process equipment"
       ],
       "titleCore": "SOTRAS Filtration and water systems",
-      "metaFactual": "SOTRAS manufacturer profile covering filtration and water systems, process equipment, and hydraulic equipment, based on official company and product sources.",
+      "metaFactual": "SOTRAS manufacturer profile covering filtration and water systems and process equipment, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 2,
         "families": 7
       }
     },
@@ -30501,6 +30474,7 @@
       "primaryCategory": "electric motors",
       "secondaryCategories": [
         "linear-motion components",
+        "drive and motion-control systems",
         "industrial automation and control",
         "vacuum equipment"
       ],
@@ -30524,13 +30498,13 @@
         "Phytron industrial equipment",
         "Phytron sourcing",
         "Phytron linear-motion components",
-        "Phytron industrial automation and control"
+        "Phytron drive and motion-control systems"
       ],
       "titleCore": "Phytron Electric motors",
-      "metaFactual": "Phytron manufacturer profile covering electric motors, linear-motion components, and industrial automation and control, based on official company and product sources.",
+      "metaFactual": "Phytron manufacturer profile covering electric motors, linear-motion components, and drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 4,
+        "categories": 5,
         "families": 13
       }
     },
@@ -30704,8 +30678,10 @@
     {
       "brandId": "waukesha-engine",
       "displayName": "Waukesha Engine",
-      "primaryCategory": "electric motors",
-      "secondaryCategories": [],
+      "primaryCategory": "industrial engines",
+      "secondaryCategories": [
+        "drive and motion-control systems"
+      ],
       "families": [
         "Gas Engines",
         "Engine Controls",
@@ -30717,16 +30693,17 @@
         "VGF",
         "ESM 2"
       ],
-      "primaryIntent": "Waukesha Engine electric motors",
+      "primaryIntent": "Waukesha Engine industrial engines",
       "secondaryIntents": [
         "Waukesha Engine industrial equipment",
-        "Waukesha Engine sourcing"
+        "Waukesha Engine sourcing",
+        "Waukesha Engine drive and motion-control systems"
       ],
-      "titleCore": "Waukesha Engine Electric motors",
-      "metaFactual": "Waukesha Engine manufacturer profile covering electric motors, based on official company and product sources.",
+      "titleCore": "Waukesha Engine Industrial engines",
+      "metaFactual": "Waukesha Engine manufacturer profile covering industrial engines and drive and motion-control systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 1,
+        "categories": 2,
         "families": 9
       }
     },
@@ -36953,8 +36930,8 @@
       "displayName": "Caproni",
       "primaryCategory": "pumps and pumping systems",
       "secondaryCategories": [
-        "electric motors",
-        "hydraulic equipment"
+        "hydraulic equipment",
+        "electric motors"
       ],
       "families": [
         "Hydraulic Gear Pumps and Motors",
@@ -36975,11 +36952,11 @@
       "secondaryIntents": [
         "Caproni industrial equipment",
         "Caproni sourcing",
-        "Caproni electric motors",
-        "Caproni hydraulic equipment"
+        "Caproni hydraulic equipment",
+        "Caproni electric motors"
       ],
       "titleCore": "Caproni Pumps and pumping systems",
-      "metaFactual": "Caproni manufacturer profile covering pumps and pumping systems, electric motors, and hydraulic equipment, based on official company and product sources.",
+      "metaFactual": "Caproni manufacturer profile covering pumps and pumping systems, hydraulic equipment, and electric motors, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
         "categories": 3,
@@ -39706,7 +39683,7 @@
       "displayName": "Deutronic",
       "primaryCategory": "electrical power systems",
       "secondaryCategories": [
-        "electric motors",
+        "drive and motion-control systems",
         "measurement and instrumentation"
       ],
       "families": [
@@ -39720,11 +39697,11 @@
       "secondaryIntents": [
         "Deutronic industrial equipment",
         "Deutronic sourcing",
-        "Deutronic electric motors",
+        "Deutronic drive and motion-control systems",
         "Deutronic measurement and instrumentation"
       ],
       "titleCore": "Deutronic Electrical power systems",
-      "metaFactual": "Deutronic manufacturer profile covering electrical power systems, electric motors, and measurement and instrumentation, based on official company and product sources.",
+      "metaFactual": "Deutronic manufacturer profile covering electrical power systems, drive and motion-control systems, and measurement and instrumentation, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
         "categories": 3,
@@ -40334,7 +40311,7 @@
       "displayName": "Düsterloh",
       "primaryCategory": "hydraulic equipment",
       "secondaryCategories": [
-        "electric motors",
+        "pneumatic equipment",
         "gear units and geared drives"
       ],
       "families": [
@@ -40348,11 +40325,11 @@
       "secondaryIntents": [
         "Düsterloh industrial equipment",
         "Düsterloh sourcing",
-        "Düsterloh electric motors",
+        "Düsterloh pneumatic equipment",
         "Düsterloh gear units and geared drives"
       ],
       "titleCore": "Düsterloh Hydraulic equipment",
-      "metaFactual": "Düsterloh manufacturer profile covering hydraulic equipment, electric motors, and gear units and geared drives, based on official company and product sources.",
+      "metaFactual": "Düsterloh manufacturer profile covering hydraulic equipment, pneumatic equipment, and gear units and geared drives, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
         "categories": 3,
@@ -43251,10 +43228,8 @@
     {
       "brandId": "filtrec",
       "displayName": "FILTREC",
-      "primaryCategory": "hydraulic equipment",
-      "secondaryCategories": [
-        "filtration and water systems"
-      ],
+      "primaryCategory": "filtration and water systems",
+      "secondaryCategories": [],
       "families": [
         "Hydraulic Filters",
         "Filter Elements",
@@ -43263,17 +43238,16 @@
         "Oil Separation",
         "Contamination Control"
       ],
-      "primaryIntent": "FILTREC hydraulic equipment",
+      "primaryIntent": "FILTREC filtration and water systems",
       "secondaryIntents": [
         "FILTREC industrial equipment",
-        "FILTREC sourcing",
-        "FILTREC filtration and water systems"
+        "FILTREC sourcing"
       ],
-      "titleCore": "FILTREC Hydraulic equipment",
-      "metaFactual": "FILTREC manufacturer profile covering hydraulic equipment and filtration and water systems, based on official company and product sources.",
+      "titleCore": "FILTREC Filtration and water systems",
+      "metaFactual": "FILTREC manufacturer profile covering filtration and water systems, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 1,
-        "categories": 2,
+        "categories": 1,
         "families": 6
       }
     },
@@ -58400,7 +58374,9 @@
       "brandId": "mtu",
       "displayName": "mtu",
       "primaryCategory": "electric motors",
-      "secondaryCategories": [],
+      "secondaryCategories": [
+        "industrial engines"
+      ],
       "families": [
         "Diesel Engines",
         "Generator Sets",
@@ -58410,13 +58386,14 @@
       "primaryIntent": "mtu electric motors",
       "secondaryIntents": [
         "mtu industrial equipment",
-        "mtu sourcing"
+        "mtu sourcing",
+        "mtu industrial engines"
       ],
       "titleCore": "mtu Electric motors",
-      "metaFactual": "mtu manufacturer profile covering electric motors, based on official company and product sources.",
+      "metaFactual": "mtu manufacturer profile covering electric motors and industrial engines, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 1,
-        "categories": 1,
+        "categories": 2,
         "families": 4
       }
     },
@@ -62049,7 +62026,6 @@
       "primaryCategory": "hydraulic equipment",
       "secondaryCategories": [
         "pumps and pumping systems",
-        "electric motors",
         "industrial valves and flow control",
         "industrial automation and control"
       ],
@@ -62065,13 +62041,13 @@
         "Poclain Hydraulics industrial equipment",
         "Poclain Hydraulics sourcing",
         "Poclain Hydraulics pumps and pumping systems",
-        "Poclain Hydraulics electric motors"
+        "Poclain Hydraulics industrial valves and flow control"
       ],
       "titleCore": "Poclain Hydraulics Hydraulic equipment",
-      "metaFactual": "Poclain Hydraulics manufacturer profile covering hydraulic equipment, pumps and pumping systems, and electric motors, based on official company and product sources.",
+      "metaFactual": "Poclain Hydraulics manufacturer profile covering hydraulic equipment, pumps and pumping systems, and industrial valves and flow control, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 1,
-        "categories": 5,
+        "categories": 4,
         "families": 5
       }
     },
@@ -73127,7 +73103,6 @@
       "displayName": "UFI Filters",
       "primaryCategory": "filtration and water systems",
       "secondaryCategories": [
-        "hydraulic equipment",
         "thermal-management equipment"
       ],
       "families": [
@@ -73144,14 +73119,13 @@
       "secondaryIntents": [
         "UFI Filters industrial equipment",
         "UFI Filters sourcing",
-        "UFI Filters hydraulic equipment",
         "UFI Filters thermal-management equipment"
       ],
       "titleCore": "UFI Filters Filtration and water systems",
-      "metaFactual": "UFI Filters manufacturer profile covering filtration and water systems, hydraulic equipment, and thermal-management equipment, based on official company and product sources.",
+      "metaFactual": "UFI Filters manufacturer profile covering filtration and water systems and thermal-management equipment, based on official company and product sources.",
       "evidenceCoverage": {
         "sourceRecords": 2,
-        "categories": 3,
+        "categories": 2,
         "families": 8
       }
     },

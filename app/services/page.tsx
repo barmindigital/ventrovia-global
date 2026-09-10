@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "../lib/open-graph";
 import Link from "next/link";
 import { RequestCta } from "../components/RequestCta";
 import { serializeJsonLd } from "../lib/json-ld";
@@ -11,11 +12,11 @@ export const metadata: Metadata = {
   title: pageContent.seoTitle,
   description: pageContent.seoDescription,
   alternates: { canonical: "/services" },
-  openGraph: {
+  openGraph: pageOpenGraph({
     title: pageContent.seoTitle,
     description: pageContent.seoDescription,
     url: "/services",
-  },
+  }),
 };
 
 const serviceJsonLd = {

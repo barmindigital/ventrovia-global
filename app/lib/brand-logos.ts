@@ -5276,7 +5276,7 @@ const brandLogoRegistryBase: BrandLogo[] = [
     originalFile:
       "https://upload.wikimedia.org/wikipedia/commons/1/1d/HKS_%28company%29_logo.png",
     license: "Public domain (Wikimedia Commons)",
-    attribution: "HKS Co., Ltd.. 718 Bot at English Wikipedia",
+    attribution: "HKS Co., Ltd.; 718 Bot at English Wikipedia",
   },
   {
     slug: "nexen",

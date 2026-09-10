@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "./lib/open-graph";
 import Image from "next/image";
 import Link from "next/link";
 import { RequestCta } from "./components/RequestCta";
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
   title: pageContent.seoTitle,
   description: pageContent.seoDescription,
   alternates: { canonical: "/" },
-  openGraph: { url: "/", title: pageContent.seoTitle, description: pageContent.seoDescription },
+  openGraph: pageOpenGraph({ url: "/", title: pageContent.seoTitle, description: pageContent.seoDescription }),
 };
 
 export default function Home() {
@@ -134,8 +135,7 @@ export default function Home() {
             const logo = brandLogoBySlug(brand.slug);
             return (
               <Link className={`brand-chip brand-chip-logo${logo?.presentationBackground === "dark" ? " logo-on-dark" : ""}`} href={`/manufacturers/${brand.slug}`} key={brand.slug}>
-                {logo ? <Image alt={`${brand.name} logo`} height={72} loading="lazy" src={logo.src} unoptimized width={180} /> : <strong>{brand.name}</strong>}
-                <span>{brand.name}</span>
+                {logo ? <><Image alt={`${brand.name} logo`} height={72} loading="lazy" src={logo.src} unoptimized width={180} /><span>{brand.name}</span></> : <strong>{brand.name}</strong>}
               </Link>
             );
           })}

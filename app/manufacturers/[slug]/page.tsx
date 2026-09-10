@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "../../lib/open-graph";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
@@ -41,7 +42,8 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
     description,
     alternates: { canonical },
     robots: { index: isBrandIndexable(brand.slug), follow: true },
-    openGraph: { type: "website", url: canonical, title, description, images: logo ? [{ url: logo.src, alt: `${name} logo` }] : undefined },
+    // Social networks do not render SVG previews; those brands use the site image.
+    openGraph: pageOpenGraph({ url: canonical, title, description, ...(logo && !/\.svg$/i.test(logo.src) ? { images: [{ url: logo.src, alt: `${name} logo` }] } : {}) }),
   };
 }
 
@@ -137,7 +139,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <section className="section shell">
         <div className="section-heading"><div><p className="eyebrow">Questions and answers</p><h2>Preparing an RFQ</h2></div></div>
         <div className="brand-faq-grid">{faq.map((item) => <article className="content-card" key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div>
-        <p className="trademark-note">The {displayName} trademark belongs to its respective owner and is used for identification. Source links and trademark references do not imply a commercial relationship with the trademark owner.{logo && <> <Link href="/manufacturers/logos">Logo source</Link></>}</p>
+        <p className="trademark-note">{/^the\s/i.test(displayName) ? displayName : `The ${displayName}`} trademark belongs to its respective owner and is used for identification. Source links and trademark references do not imply a commercial relationship with the trademark owner.{logo && <> <Link href="/manufacturers/logos">Logo source</Link></>}</p>
       </section>
 
       {brandJsonLd && <script dangerouslySetInnerHTML={{ __html: serializeJsonLd(brandJsonLd) }} type="application/ld+json" />}

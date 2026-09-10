@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "../lib/open-graph";
 import Link from "next/link";
 import { Fragment } from "react";
 import { RequestForm } from "../components/RequestForm";
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   title: pageContent.seoTitle,
   description: pageContent.seoDescription,
   alternates: { canonical: "/contacts" },
-  openGraph: { title: pageContent.seoTitle, description: pageContent.seoDescription, url: "/contacts" },
+  openGraph: pageOpenGraph({ title: pageContent.seoTitle, description: pageContent.seoDescription, url: "/contacts" }),
 };
 
 type ContactsPageProps = { searchParams: Promise<{ requirement?: string }> };

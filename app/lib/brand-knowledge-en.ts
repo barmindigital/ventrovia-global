@@ -107,6 +107,13 @@ const categoryRules: Array<[RegExp, string]> = [
   [/FRL/iu, "compressed-air preparation"],
   [/3D-датчик/iu, "3D sensors"],
   [/насос/iu, "pumps and pumping systems"],
+  // Engine filters, hydraulic/air motors and combustion engines are not electric motors.
+  [/фильтр/iu, "filtration and water systems"],
+  [/гидравлическ.*двигател|гидромотор/iu, "hydraulic equipment"],
+  [/пневматическ.*двигател|пневмомотор/iu, "pneumatic equipment"],
+  [/обратн.*связ/iu, "encoders and feedback systems"],
+  [/(?:управлен|контроллер|привод).*двигател/iu, "drive and motion-control systems"],
+  [/(?:газов|судов|морск|крупн).*(?<!электро)двигател/iu, "industrial engines"],
   [/электродвигател|двигател/iu, "electric motors"],
   [/энкодер|резольвер|тахогенератор/iu, "encoders and feedback systems"],
   [/датчик|измерительн.*щуп|инклинометр|тензодатчик/iu, "industrial sensors"],
@@ -278,6 +285,11 @@ function possessive(value: string) {
   return /s$/iu.test(value) ? `${value}'` : `${value}'s`;
 }
 
+// Company names such as "Donaldson Company, Inc." already end with a full stop.
+function beforeFullStop(value: string) {
+  return value.replace(/\.+$/u, "");
+}
+
 export type EnglishBrandProfile = Omit<
   SourceBackedBrand,
   "shortDescription" | "fullDescription" | "productCategories" | "industries"
@@ -321,16 +333,16 @@ export function toEnglishBrandProfile(profile: SourceBackedBrand): EnglishBrandP
     `${identityLines[0]}${familyLead.length ? ` Documented lines include ${list(familyLead)}.` : ""} Aihamyn Hampa Trading reviews enquiries against the relevant manufacturer documentation.`,
     `${identityLines[1]}${country ? ` The verified brand record is associated with ${country}.` : ""} Submit the exact designation for an international sourcing review.`,
     `${identityLines[2]}${familyLead.length ? ` Official documentation names ${list(familyLead)}.` : ""} Commercial review starts with the complete model or specification.`,
-    `${identityLines[3]}${profile.parentCompany ? ` The documented corporate group is ${profile.parentCompany}.` : ""} Aihamyn Hampa Trading handles specification-led RFQs without implying an authorised relationship.`,
+    `${identityLines[3]}${profile.parentCompany ? ` The documented corporate group is ${beforeFullStop(profile.parentCompany)}.` : ""} Aihamyn Hampa Trading handles specification-led RFQs without implying an authorised relationship.`,
     `${identityLines[4]}${familyLead.length ? ` The published range includes ${list(familyLead)}.` : ""} Exact configuration and supply status are checked for each request.`,
     `${identityLines[5]}${profile.foundedYear ? ` The official company record dates its foundation to ${profile.foundedYear}.` : ""} Buyers can submit a model, part number or technical file for review.`,
   ];
 
   const locationFacts = [
-    country ? `Brand origin: ${country}.` : "",
-    headquarters ? `Headquarters: ${headquarters}.` : "",
+    country ? `Brand origin: ${beforeFullStop(country)}.` : "",
+    headquarters ? `Headquarters: ${beforeFullStop(headquarters)}.` : "",
     profile.foundedYear ? `The official company record dates its foundation to ${profile.foundedYear}.` : "",
-    profile.parentCompany ? `The documented corporate group is ${profile.parentCompany}.` : "",
+    profile.parentCompany ? `The documented corporate group is ${beforeFullStop(profile.parentCompany)}.` : "",
   ].filter(Boolean);
   const productFamilies = englishFamilies;
   const series = englishSeries;

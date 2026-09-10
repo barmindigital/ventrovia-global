@@ -5826,9 +5826,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "ARGO-HYTOS is documented in official material for hydraulic equipment and industrial sensors. Official product material names Valves, Filtration, Hydraulic Power Units, and Fluid Management.",
+          "shortDescription": "ARGO-HYTOS is documented in official material for hydraulic equipment, filtration and water systems, and industrial sensors. Official product material names Valves, Filtration, Hydraulic Power Units, and Fluid Management.",
           "fullDescription": [
-            "Manufacturer-owned material confirms ARGO-HYTOS and a portfolio centred on hydraulic equipment and industrial sensors.",
+            "Manufacturer-owned material confirms ARGO-HYTOS and a portfolio centred on hydraulic equipment, filtration and water systems, and industrial sensors.",
             "Named product families, ranges and series include Valves, Filtration, Hydraulic Power Units, and Fluid Management. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers industrial processing."
           ],
@@ -5849,6 +5849,16 @@
           ]
         },
         {
+          "id": "filtration-and-water-systems",
+          "label": "filtration and water systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-argo-hytos-products",
+            "brand-argo-hytos-filtration"
+          ]
+        },
+        {
           "id": "industrial-sensors",
           "label": "industrial sensors",
           "evidenceStatus": "SOURCE_BACKED",
@@ -5861,6 +5871,7 @@
       ],
       "productGroups": [
         "hydraulic equipment",
+        "filtration and water systems",
         "industrial sensors"
       ],
       "families": [
@@ -5907,12 +5918,13 @@
       "seo": {
         "titleCore": "ARGO-HYTOS Hydraulic equipment",
         "siteSuffix": null,
-        "metaFactual": "ARGO-HYTOS manufacturer profile covering hydraulic equipment and industrial sensors, based on official company and product sources.",
+        "metaFactual": "ARGO-HYTOS manufacturer profile covering hydraulic equipment, filtration and water systems, and industrial sensors, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "ARGO-HYTOS hydraulic equipment",
         "secondaryIntents": [
           "ARGO-HYTOS industrial equipment",
           "ARGO-HYTOS sourcing",
+          "ARGO-HYTOS filtration and water systems",
           "ARGO-HYTOS industrial sensors"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -13085,9 +13097,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "HYDAC publishes official information for hydraulic equipment, industrial valves and flow control, thermal-management equipment, industrial sensors, and linear-motion components. The published range names OF5, FAM, PPV, PGE, and PGI.",
+          "shortDescription": "HYDAC publishes official information for filtration and water systems, hydraulic equipment, industrial valves and flow control, thermal-management equipment, industrial sensors, and linear-motion components. The published range names OF5, FAM, PPV, PGE, and PGI.",
           "fullDescription": [
-            "Official HYDAC sources document the manufacturer identity and its work in hydraulic equipment, industrial valves and flow control, thermal-management equipment, industrial sensors, and linear-motion components. The confirmed country record is Germany. The documented headquarters is Sulzbach/Saar, Germany.",
+            "Official HYDAC sources document the manufacturer identity and its work in filtration and water systems, hydraulic equipment, industrial valves and flow control, thermal-management equipment, industrial sensors, and linear-motion components. The confirmed country record is Germany. The documented headquarters is Sulzbach/Saar, Germany.",
             "The official range identifies OF5, FAM, PPV, PGE, and PGI. Exact variants, options and operating limits remain model-specific."
           ],
           "language": "en",
@@ -13096,6 +13108,16 @@
         }
       },
       "categories": [
+        {
+          "id": "filtration-and-water-systems",
+          "label": "filtration and water systems",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-hydac-products",
+            "brand-hydac-registered-office"
+          ]
+        },
         {
           "id": "hydraulic-equipment",
           "label": "hydraulic equipment",
@@ -13148,6 +13170,7 @@
         }
       ],
       "productGroups": [
+        "filtration and water systems",
         "hydraulic equipment",
         "industrial valves and flow control",
         "thermal-management equipment",
@@ -13195,16 +13218,16 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "HYDAC Hydraulic equipment",
+        "titleCore": "HYDAC Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "HYDAC manufacturer profile covering hydraulic equipment, industrial valves and flow control, and thermal-management equipment, based on official company and product sources.",
+        "metaFactual": "HYDAC manufacturer profile covering filtration and water systems, hydraulic equipment, and industrial valves and flow control, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "HYDAC hydraulic equipment",
+        "primaryIntent": "HYDAC filtration and water systems",
         "secondaryIntents": [
           "HYDAC industrial equipment",
           "HYDAC sourcing",
-          "HYDAC industrial valves and flow control",
-          "HYDAC thermal-management equipment"
+          "HYDAC hydraulic equipment",
+          "HYDAC industrial valves and flow control"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -14707,9 +14730,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed Donaldson portfolio covers electric motors, hydraulic equipment, and filtration and water systems.",
+          "shortDescription": "The source-backed Donaldson portfolio covers filtration and water systems.",
           "fullDescription": [
-            "Donaldson is documented through first-party sources that describe electric motors, hydraulic equipment, and filtration and water systems.",
+            "Donaldson is documented through first-party sources that describe filtration and water systems.",
             "Donaldson publishes information for Engine & Equipment Filtration, Industrial Air Filtration, Industrial Gases & Process Filtration, and Gas Turbine Filtration. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include industrial processing, transportation, mining, and energy."
           ],
@@ -14719,26 +14742,6 @@
         }
       },
       "categories": [
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-donaldson-company",
-            "brand-donaldson-products"
-          ]
-        },
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-donaldson-company",
-            "brand-donaldson-products"
-          ]
-        },
         {
           "id": "filtration-and-water-systems",
           "label": "filtration and water systems",
@@ -14751,8 +14754,6 @@
         }
       ],
       "productGroups": [
-        "electric motors",
-        "hydraulic equipment",
         "filtration and water systems"
       ],
       "families": [
@@ -14800,16 +14801,14 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "Donaldson Electric motors",
+        "titleCore": "Donaldson Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "Donaldson manufacturer profile covering electric motors, hydraulic equipment, and filtration and water systems, based on official company and product sources.",
+        "metaFactual": "Donaldson manufacturer profile covering filtration and water systems, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "Donaldson electric motors",
+        "primaryIntent": "Donaldson filtration and water systems",
         "secondaryIntents": [
           "Donaldson industrial equipment",
-          "Donaldson sourcing",
-          "Donaldson hydraulic equipment",
-          "Donaldson filtration and water systems"
+          "Donaldson sourcing"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -21068,9 +21067,9 @@
       "parentCompany": "MAHLE Group",
       "descriptions": {
         "en": {
-          "shortDescription": "MAHLE is documented in official material for electric motors, thermal-management equipment, and drive and motion-control systems. Official product material names Large Engine Components, Industrial Thermal Management, and Electric Drives.",
+          "shortDescription": "MAHLE is documented in official material for industrial engines, thermal-management equipment, and drive and motion-control systems. Official product material names Large Engine Components, Industrial Thermal Management, and Electric Drives.",
           "fullDescription": [
-            "Manufacturer-owned material confirms MAHLE and a portfolio centred on electric motors, thermal-management equipment, and drive and motion-control systems. The confirmed country record is Germany. The documented headquarters is Stuttgart, Germany. Official company information dates its foundation to 1920. The documented corporate parent is MAHLE Group.",
+            "Manufacturer-owned material confirms MAHLE and a portfolio centred on industrial engines, thermal-management equipment, and drive and motion-control systems. The confirmed country record is Germany. The documented headquarters is Stuttgart, Germany. Official company information dates its foundation to 1920. The documented corporate parent is MAHLE Group.",
             "Named product families, ranges and series include Large Engine Components, Industrial Thermal Management, and Electric Drives. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers transportation, marine applications, and rail."
           ],
@@ -21081,8 +21080,8 @@
       },
       "categories": [
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "industrial-engines",
+          "label": "industrial engines",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -21112,7 +21111,7 @@
         }
       ],
       "productGroups": [
-        "electric motors",
+        "industrial engines",
         "thermal-management equipment",
         "drive and motion-control systems"
       ],
@@ -21159,11 +21158,11 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "MAHLE Industry Electric motors",
+        "titleCore": "MAHLE Industry Industrial engines",
         "siteSuffix": null,
-        "metaFactual": "MAHLE Industry manufacturer profile covering electric motors, thermal-management equipment, and drive and motion-control systems, based on official company and product sources.",
+        "metaFactual": "MAHLE Industry manufacturer profile covering industrial engines, thermal-management equipment, and drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "MAHLE Industry electric motors",
+        "primaryIntent": "MAHLE Industry industrial engines",
         "secondaryIntents": [
           "MAHLE Industry industrial equipment",
           "MAHLE Industry sourcing",
@@ -22842,9 +22841,9 @@
       "parentCompany": "Wachendorff Group",
       "descriptions": {
         "en": {
-          "shortDescription": "Wachendorff Automation GmbH & Co. KG is documented in official material for encoders and feedback systems, measurement and instrumentation, and electric motors. Official product material names Incremental Encoders, Absolute Encoders, Redundant Encoders, Motor Feedback, Draw-Wire Systems, Measuring Systems, WDGI, WDGA, WDGN, and WDGR.",
+          "shortDescription": "Wachendorff Automation GmbH & Co. KG is documented in official material for encoders and feedback systems and measurement and instrumentation. Official product material names Incremental Encoders, Absolute Encoders, Redundant Encoders, Motor Feedback, Draw-Wire Systems, Measuring Systems, WDGI, WDGA, WDGN, and WDGR.",
           "fullDescription": [
-            "Manufacturer-owned material confirms Wachendorff Automation GmbH & Co. KG and a portfolio centred on encoders and feedback systems, measurement and instrumentation, and electric motors. The confirmed country record is Germany. The documented corporate parent is Wachendorff Group.",
+            "Manufacturer-owned material confirms Wachendorff Automation GmbH & Co. KG and a portfolio centred on encoders and feedback systems and measurement and instrumentation. The confirmed country record is Germany. The documented corporate parent is Wachendorff Group.",
             "Named product families, ranges and series include Incremental Encoders, Absolute Encoders, Redundant Encoders, Motor Feedback, Draw-Wire Systems, Measuring Systems, WDGI, WDGA, WDGN, and WDGR. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers industrial processing, factory automation, and industrial manufacturing."
           ],
@@ -22873,22 +22872,11 @@
             "brand-wachendorff-products",
             "brand-wachendorff-downloads"
           ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-wachendorff-products",
-            "brand-wachendorff-downloads"
-          ]
         }
       ],
       "productGroups": [
         "encoders and feedback systems",
-        "measurement and instrumentation",
-        "electric motors"
+        "measurement and instrumentation"
       ],
       "families": [
         "Incremental Encoders",
@@ -22948,14 +22936,13 @@
       "seo": {
         "titleCore": "Wachendorff Encoders and feedback systems",
         "siteSuffix": null,
-        "metaFactual": "Wachendorff manufacturer profile covering encoders and feedback systems, measurement and instrumentation, and electric motors, based on official company and product sources.",
+        "metaFactual": "Wachendorff manufacturer profile covering encoders and feedback systems and measurement and instrumentation, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Wachendorff encoders and feedback systems",
         "secondaryIntents": [
           "Wachendorff industrial equipment",
           "Wachendorff sourcing",
-          "Wachendorff measurement and instrumentation",
-          "Wachendorff electric motors"
+          "Wachendorff measurement and instrumentation"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -24993,9 +24980,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed MP Filtri portfolio covers hydraulic equipment, filtration and water systems, and brakes and couplings. The confirmed country record is Italy.",
+          "shortDescription": "The source-backed MP Filtri portfolio covers filtration and water systems and brakes and couplings. The confirmed country record is Italy.",
           "fullDescription": [
-            "MP Filtri is documented through first-party sources that describe hydraulic equipment, filtration and water systems, and brakes and couplings. The confirmed country record is Italy. The documented headquarters is Pessano con Bornago, Italy. Official company information dates its foundation to 1964.",
+            "MP Filtri is documented through first-party sources that describe filtration and water systems and brakes and couplings. The confirmed country record is Italy. The documented headquarters is Pessano con Bornago, Italy. Official company information dates its foundation to 1964.",
             "MP Filtri publishes information for Hydraulic Filtration, Contamination Monitoring, Mobile Filtration Units, Power Transmission, and Tank Accessories. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include industrial processing, mining, and energy."
           ],
@@ -25005,16 +24992,6 @@
         }
       },
       "categories": [
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-mp-filtri-home",
-            "brand-mp-filtri-founding-year"
-          ]
-        },
         {
           "id": "filtration-and-water-systems",
           "label": "filtration and water systems",
@@ -25037,7 +25014,6 @@
         }
       ],
       "productGroups": [
-        "hydraulic equipment",
         "filtration and water systems",
         "brakes and couplings"
       ],
@@ -25090,15 +25066,14 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "MP Filtri Hydraulic equipment",
+        "titleCore": "MP Filtri Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "MP Filtri manufacturer profile covering hydraulic equipment, filtration and water systems, and brakes and couplings, based on official company and product sources.",
+        "metaFactual": "MP Filtri manufacturer profile covering filtration and water systems and brakes and couplings, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "MP Filtri hydraulic equipment",
+        "primaryIntent": "MP Filtri filtration and water systems",
         "secondaryIntents": [
           "MP Filtri industrial equipment",
           "MP Filtri sourcing",
-          "MP Filtri filtration and water systems",
           "MP Filtri brakes and couplings"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -42125,9 +42100,9 @@
       "parentCompany": "AMETEK",
       "descriptions": {
         "en": {
-          "shortDescription": "Official Dunkermotoren material documents a product scope covering electric motors, gear units and geared drives, linear-motion components, and encoders and feedback systems. Documented families and lines include BLDC Motors, Brushed DC Motors, AC Motors, Gearboxes, Controllers, and Linear Systems.",
+          "shortDescription": "Official Dunkermotoren material documents a product scope covering electric motors, gear units and geared drives, drive and motion-control systems, linear-motion components, and encoders and feedback systems. Documented families and lines include BLDC Motors, Brushed DC Motors, AC Motors, Gearboxes, Controllers, and Linear Systems.",
           "fullDescription": [
-            "Dunkermotoren is represented by manufacturer-owned evidence for electric motors, gear units and geared drives, linear-motion components, and encoders and feedback systems. The confirmed country record is Germany. The documented headquarters is Bonndorf, Germany. The documented corporate parent is AMETEK.",
+            "Dunkermotoren is represented by manufacturer-owned evidence for electric motors, gear units and geared drives, drive and motion-control systems, linear-motion components, and encoders and feedback systems. The confirmed country record is Germany. The documented headquarters is Bonndorf, Germany. The documented corporate parent is AMETEK.",
             "Official product material names BLDC Motors, Brushed DC Motors, AC Motors, Gearboxes, Controllers, and Linear Systems. Technical characteristics should be checked against the document for the exact model or series.",
             "The confirmed market and application context includes factory automation, industrial manufacturing, and laboratory and life-science applications."
           ],
@@ -42150,6 +42125,16 @@
         {
           "id": "gear-units-and-geared-drives",
           "label": "gear units and geared drives",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-dunkermotoren-products",
+            "brand-dunkermotoren-registered-office"
+          ]
+        },
+        {
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -42181,6 +42166,7 @@
       "productGroups": [
         "electric motors",
         "gear units and geared drives",
+        "drive and motion-control systems",
         "linear-motion components",
         "encoders and feedback systems"
       ],
@@ -42232,14 +42218,14 @@
       "seo": {
         "titleCore": "Dunkermotoren Electric motors",
         "siteSuffix": null,
-        "metaFactual": "Dunkermotoren manufacturer profile covering electric motors, gear units and geared drives, and linear-motion components, based on official company and product sources.",
+        "metaFactual": "Dunkermotoren manufacturer profile covering electric motors, gear units and geared drives, and drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Dunkermotoren electric motors",
         "secondaryIntents": [
           "Dunkermotoren industrial equipment",
           "Dunkermotoren sourcing",
           "Dunkermotoren gear units and geared drives",
-          "Dunkermotoren linear-motion components"
+          "Dunkermotoren drive and motion-control systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -64793,9 +64779,9 @@
       "parentCompany": "Amconex Group",
       "descriptions": {
         "en": {
-          "shortDescription": "Manufacturer-owned sources identify Benshaw with drive and motion-control systems and electric motors. The confirmed country record is United States.",
+          "shortDescription": "Manufacturer-owned sources identify Benshaw with drive and motion-control systems. The confirmed country record is United States.",
           "fullDescription": [
-            "The Benshaw identity and product scope are established through official company and product material covering drive and motion-control systems and electric motors. The confirmed country record is United States. The documented headquarters is Pittsburgh, Pennsylvania, USA. Official company information dates its foundation to 1983. The documented corporate parent is Amconex Group.",
+            "The Benshaw identity and product scope are established through official company and product material covering drive and motion-control systems. The confirmed country record is United States. The documented headquarters is Pittsburgh, Pennsylvania, USA. Official company information dates its foundation to 1983. The documented corporate parent is Amconex Group.",
             "Published families and lines include Low-Voltage Soft Starters, Medium-Voltage Soft Starters, Across-the-Line Starters, Variable-Frequency Drives, Motor Control Centres, Packaged Motor-Control Systems, Control and Protection Products, CSXi, EMX4, and RB2/RB3. They provide portfolio context without replacing model-specific technical documentation.",
             "Benshaw materials reference transportation, food and pharmaceutical processing, agriculture, marine applications, mining, and oil and gas."
           ],
@@ -64816,23 +64802,10 @@
             "brand-benshaw-drives",
             "brand-benshaw-product-line"
           ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-benshaw-about",
-            "brand-benshaw-starters",
-            "brand-benshaw-drives",
-            "brand-benshaw-product-line"
-          ]
         }
       ],
       "productGroups": [
-        "drive and motion-control systems",
-        "electric motors"
+        "drive and motion-control systems"
       ],
       "families": [
         "Low-Voltage Soft Starters",
@@ -64922,13 +64895,12 @@
       "seo": {
         "titleCore": "Benshaw Drive and motion-control systems",
         "siteSuffix": null,
-        "metaFactual": "Benshaw manufacturer profile covering drive and motion-control systems and electric motors, based on official company and product sources.",
+        "metaFactual": "Benshaw manufacturer profile covering drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Benshaw drive and motion-control systems",
         "secondaryIntents": [
           "Benshaw industrial equipment",
-          "Benshaw sourcing",
-          "Benshaw electric motors"
+          "Benshaw sourcing"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -67797,9 +67769,9 @@
       "parentCompany": "Parker Hannifin Corporation",
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed Curtis Instruments portfolio covers electric motors, measurement and instrumentation, and industrial battery and energy-storage systems. Its documented corporate parent is Parker Hannifin Corporation.",
+          "shortDescription": "The source-backed Curtis Instruments portfolio covers drive and motion-control systems, measurement and instrumentation, and industrial battery and energy-storage systems. Its documented corporate parent is Parker Hannifin Corporation.",
           "fullDescription": [
-            "Curtis Instruments is documented through first-party sources that describe electric motors, measurement and instrumentation, and industrial battery and energy-storage systems. The confirmed country record is United States. The documented headquarters is Mount Kisco, New York, USA. Official company information dates its foundation to 1960. The documented corporate parent is Parker Hannifin Corporation.",
+            "Curtis Instruments is documented through first-party sources that describe drive and motion-control systems, measurement and instrumentation, and industrial battery and energy-storage systems. The confirmed country record is United States. The documented headquarters is Mount Kisco, New York, USA. Official company information dates its foundation to 1960. The documented corporate parent is Parker Hannifin Corporation.",
             "Curtis Instruments publishes information for AC Motor Controllers, SepEx Motor Controllers, Brushed DC Permanent Magnet Controllers, Series Motor Controllers, CAN and Serial Instrumentation, Acuity Battery Monitoring System, CAN Modules, DC/DC Converters, Battery Chargers, and DC Contactors. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include transportation, logistics and warehousing, and laboratory and life-science applications."
           ],
@@ -67810,8 +67782,8 @@
       },
       "categories": [
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -67847,7 +67819,7 @@
         }
       ],
       "productGroups": [
-        "electric motors",
+        "drive and motion-control systems",
         "measurement and instrumentation",
         "industrial battery and energy-storage systems"
       ],
@@ -67918,11 +67890,11 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "Curtis Instruments Electric motors",
+        "titleCore": "Curtis Instruments Drive and motion-control systems",
         "siteSuffix": null,
-        "metaFactual": "Curtis Instruments manufacturer profile covering electric motors, measurement and instrumentation, and industrial battery and energy-storage systems, based on official company and product sources.",
+        "metaFactual": "Curtis Instruments manufacturer profile covering drive and motion-control systems, measurement and instrumentation, and industrial battery and energy-storage systems, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "Curtis Instruments electric motors",
+        "primaryIntent": "Curtis Instruments drive and motion-control systems",
         "secondaryIntents": [
           "Curtis Instruments industrial equipment",
           "Curtis Instruments sourcing",
@@ -67980,9 +67952,9 @@
       "parentCompany": "Eaton",
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish Cutler-Hammer in industrial automation and control and electric motors. Official company information dates its foundation to 1893.",
+          "shortDescription": "First-party sources establish Cutler-Hammer in industrial automation and control and drive and motion-control systems. Official company information dates its foundation to 1893.",
           "fullDescription": [
-            "The confirmed Cutler-Hammer record is based on official sources for industrial automation and control and electric motors. Official company information dates its foundation to 1893. The documented corporate parent is Eaton.",
+            "The confirmed Cutler-Hammer record is based on official sources for industrial automation and control and drive and motion-control systems. Official company information dates its foundation to 1893. The documented corporate parent is Eaton.",
             "The documented product structure includes Legacy Cutler-Hammer Circuit Breakers, Legacy Cutler-Hammer Motor Control Centers, Series C Replacement Circuit Breakers, Freedom and Unitrol MCC Replacement Equipment, Series C, Freedom, Freedom 2100, Unitrol, and Type 5600. Family membership alone does not establish a model's configuration, compatibility or current production status."
           ],
           "language": "en",
@@ -68004,8 +67976,8 @@
           ]
         },
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -68018,7 +67990,7 @@
       ],
       "productGroups": [
         "industrial automation and control",
-        "electric motors"
+        "drive and motion-control systems"
       ],
       "families": [
         "Legacy Cutler-Hammer Circuit Breakers",
@@ -68078,13 +68050,13 @@
       "seo": {
         "titleCore": "Cutler-Hammer Industrial automation and control",
         "siteSuffix": null,
-        "metaFactual": "Cutler-Hammer manufacturer profile covering industrial automation and control and electric motors, based on official company and product sources.",
+        "metaFactual": "Cutler-Hammer manufacturer profile covering industrial automation and control and drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Cutler-Hammer industrial automation and control",
         "secondaryIntents": [
           "Cutler-Hammer industrial equipment",
           "Cutler-Hammer sourcing",
-          "Cutler-Hammer electric motors"
+          "Cutler-Hammer drive and motion-control systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -68307,9 +68279,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Official DEPRAG material documents a product scope covering industrial automation and control, electric motors, pneumatic equipment, and measurement and instrumentation. Documented families and lines include Handheld Screwdrivers, Stationary Screwdrivers, Screwdriving Systems, Torque Measurement Technology, Feeding Systems, Assembly Systems and Lines, Automatic Screwdriving Machines, Air Motors, Air Tools, and Industrial Software.",
+          "shortDescription": "Official DEPRAG material documents a product scope covering industrial automation and control, pneumatic equipment, and measurement and instrumentation. Documented families and lines include Handheld Screwdrivers, Stationary Screwdrivers, Screwdriving Systems, Torque Measurement Technology, Feeding Systems, Assembly Systems and Lines, Automatic Screwdriving Machines, Air Motors, Air Tools, and Industrial Software.",
           "fullDescription": [
-            "DEPRAG SCHULZ GMBH u. CO. KG is represented by manufacturer-owned evidence for industrial automation and control, electric motors, pneumatic equipment, and measurement and instrumentation. The confirmed country record is Germany. The documented headquarters is Amberg, Bavaria, Germany. Official company information dates its foundation to 1931.",
+            "DEPRAG SCHULZ GMBH u. CO. KG is represented by manufacturer-owned evidence for industrial automation and control, pneumatic equipment, and measurement and instrumentation. The confirmed country record is Germany. The documented headquarters is Amberg, Bavaria, Germany. Official company information dates its foundation to 1931.",
             "Official product material names Handheld Screwdrivers, Stationary Screwdrivers, Screwdriving Systems, Torque Measurement Technology, Feeding Systems, Assembly Systems and Lines, Automatic Screwdriving Machines, Air Motors, Air Tools, and Industrial Software. Technical characteristics should be checked against the document for the exact model or series.",
             "The confirmed market and application context includes transportation, industrial processing, laboratory and life-science applications, industrial manufacturing, and aerospace."
           ],
@@ -68322,19 +68294,6 @@
         {
           "id": "industrial-automation-and-control",
           "label": "industrial automation and control",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-deprag-home-products",
-            "brand-deprag-history",
-            "brand-deprag-worldwide",
-            "brand-deprag-sitemap",
-            "brand-deprag-complete-line"
-          ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -68374,7 +68333,6 @@
       ],
       "productGroups": [
         "industrial automation and control",
-        "electric motors",
         "pneumatic equipment",
         "measurement and instrumentation"
       ],
@@ -68455,14 +68413,14 @@
       "seo": {
         "titleCore": "DEPRAG Industrial automation and control",
         "siteSuffix": null,
-        "metaFactual": "DEPRAG manufacturer profile covering industrial automation and control, electric motors, and pneumatic equipment, based on official company and product sources.",
+        "metaFactual": "DEPRAG manufacturer profile covering industrial automation and control, pneumatic equipment, and measurement and instrumentation, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "DEPRAG industrial automation and control",
         "secondaryIntents": [
           "DEPRAG industrial equipment",
           "DEPRAG sourcing",
-          "DEPRAG electric motors",
-          "DEPRAG pneumatic equipment"
+          "DEPRAG pneumatic equipment",
+          "DEPRAG measurement and instrumentation"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -72266,9 +72224,9 @@
       "parentCompany": "Madison Industries",
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish Filtration Group in filtration and water systems and hydraulic equipment. The confirmed country record is United States.",
+          "shortDescription": "First-party sources establish Filtration Group in filtration and water systems. The confirmed country record is United States.",
           "fullDescription": [
-            "The confirmed Filtration Group record is based on official sources for filtration and water systems and hydraulic equipment. The confirmed country record is United States. The documented corporate parent is Madison Industries.",
+            "The confirmed Filtration Group record is based on official sources for filtration and water systems. The confirmed country record is United States. The documented corporate parent is Madison Industries.",
             "The documented product structure includes Air Purification Systems, Hydraulic Filtration, Fluid Filtration Systems, Automatic Filters, Process Filtration Systems, Separation Systems, Filter Elements and Housings, and Membrane Filtration Systems. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span chemical processing, food and pharmaceutical processing, energy, oil and gas, marine applications, and industrial manufacturing."
           ],
@@ -72290,24 +72248,10 @@
             "brand-filtration-group-industrial-products",
             "brand-filtration-group-process-products"
           ]
-        },
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-filtration-group-about",
-            "brand-filtration-group-businesses",
-            "brand-filtration-group-industrial-about",
-            "brand-filtration-group-industrial-products",
-            "brand-filtration-group-process-products"
-          ]
         }
       ],
       "productGroups": [
-        "filtration and water systems",
-        "hydraulic equipment"
+        "filtration and water systems"
       ],
       "families": [
         "Air Purification Systems",
@@ -72372,13 +72316,12 @@
       "seo": {
         "titleCore": "Filtration Group Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "Filtration Group manufacturer profile covering filtration and water systems and hydraulic equipment, based on official company and product sources.",
+        "metaFactual": "Filtration Group manufacturer profile covering filtration and water systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Filtration Group filtration and water systems",
         "secondaryIntents": [
           "Filtration Group industrial equipment",
-          "Filtration Group sourcing",
-          "Filtration Group hydraulic equipment"
+          "Filtration Group sourcing"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -77479,9 +77422,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "MANNESMANN DEMAG publishes official information for electric motors, pneumatic equipment, machine-tool spindles, robotics and automation components, and industrial tools. The published range names Air Motors, Pneumatic Grinding Spindles, Electric Grinding Spindles and Brush Drives, Robot Deburring Spindles, Chipping Hammers and Tampers, Chisels, Pneumatic Grinding, Drilling, Brushing and Filing Tools, Screwdriving Tools, Accessories, and VSpin.",
+          "shortDescription": "MANNESMANN DEMAG publishes official information for pneumatic equipment, machine-tool spindles, robotics and automation components, and industrial tools. The published range names Air Motors, Pneumatic Grinding Spindles, Electric Grinding Spindles and Brush Drives, Robot Deburring Spindles, Chipping Hammers and Tampers, Chisels, Pneumatic Grinding, Drilling, Brushing and Filing Tools, Screwdriving Tools, Accessories, and VSpin.",
           "fullDescription": [
-            "Official MANNESMANN DEMAG sources document the manufacturer identity and its work in electric motors, pneumatic equipment, machine-tool spindles, robotics and automation components, and industrial tools. The confirmed country record is Germany. The documented headquarters is Renningen, Germany. Official company information dates its foundation to 1875.",
+            "Official MANNESMANN DEMAG sources document the manufacturer identity and its work in pneumatic equipment, machine-tool spindles, robotics and automation components, and industrial tools. The confirmed country record is Germany. The documented headquarters is Renningen, Germany. Official company information dates its foundation to 1875.",
             "The official range identifies Air Motors, Pneumatic Grinding Spindles, Electric Grinding Spindles and Brush Drives, Robot Deburring Spindles, Chipping Hammers and Tampers, Chisels, Pneumatic Grinding, Drilling, Brushing and Filing Tools, Screwdriving Tools, Accessories, and VSpin. Exact variants, options and operating limits remain model-specific.",
             "Official material associates the range with factory automation, industrial manufacturing, industrial processing, and construction."
           ],
@@ -77491,22 +77434,6 @@
         }
       },
       "categories": [
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-mannesmann-demag-website",
-            "brand-mannesmann-demag-about-history",
-            "brand-mannesmann-demag-imprint",
-            "brand-mannesmann-demag-products",
-            "brand-mannesmann-demag-air-motors-spindles",
-            "brand-mannesmann-demag-applications",
-            "brand-mannesmann-demag-downloads",
-            "brand-mannesmann-demag-catalogs"
-          ]
-        },
         {
           "id": "pneumatic-equipment",
           "label": "pneumatic equipment",
@@ -77573,7 +77500,6 @@
         }
       ],
       "productGroups": [
-        "electric motors",
         "pneumatic equipment",
         "machine-tool spindles",
         "robotics and automation components",
@@ -77651,16 +77577,16 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "MANNESMANN DEMAG Electric motors",
+        "titleCore": "MANNESMANN DEMAG Pneumatic equipment",
         "siteSuffix": null,
-        "metaFactual": "MANNESMANN DEMAG manufacturer profile covering electric motors, pneumatic equipment, and machine-tool spindles, based on official company and product sources.",
+        "metaFactual": "MANNESMANN DEMAG manufacturer profile covering pneumatic equipment, machine-tool spindles, and robotics and automation components, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "MANNESMANN DEMAG electric motors",
+        "primaryIntent": "MANNESMANN DEMAG pneumatic equipment",
         "secondaryIntents": [
           "MANNESMANN DEMAG industrial equipment",
           "MANNESMANN DEMAG sourcing",
-          "MANNESMANN DEMAG pneumatic equipment",
-          "MANNESMANN DEMAG machine-tool spindles"
+          "MANNESMANN DEMAG machine-tool spindles",
+          "MANNESMANN DEMAG robotics and automation components"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -81079,9 +81005,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Salami S.p.A. is documented in official material for pumps and pumping systems, electric motors, hydraulic equipment, and industrial automation and control. Official product material names Gear Pumps, Gear Motors, Flow Dividers, Directional Control Valves, Integrated Hydraulic Systems, and Electronic Controls.",
+          "shortDescription": "Salami S.p.A. is documented in official material for pumps and pumping systems, hydraulic equipment, and industrial automation and control. Official product material names Gear Pumps, Gear Motors, Flow Dividers, Directional Control Valves, Integrated Hydraulic Systems, and Electronic Controls.",
           "fullDescription": [
-            "Manufacturer-owned material confirms Salami S.p.A. and a portfolio centred on pumps and pumping systems, electric motors, hydraulic equipment, and industrial automation and control. The confirmed country record is Italy. The documented headquarters is Modena, Italy. Official company information dates its foundation to 1956.",
+            "Manufacturer-owned material confirms Salami S.p.A. and a portfolio centred on pumps and pumping systems, hydraulic equipment, and industrial automation and control. The confirmed country record is Italy. The documented headquarters is Modena, Italy. Official company information dates its foundation to 1956.",
             "Named product families, ranges and series include Gear Pumps, Gear Motors, Flow Dividers, Directional Control Valves, Integrated Hydraulic Systems, and Electronic Controls. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers agriculture and industrial processing."
           ],
@@ -81094,17 +81020,6 @@
         {
           "id": "pumps-and-pumping-systems",
           "label": "pumps and pumping systems",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-salami-company",
-            "brand-salami-products",
-            "brand-salami-valves"
-          ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -81138,7 +81053,6 @@
       ],
       "productGroups": [
         "pumps and pumping systems",
-        "electric motors",
         "hydraulic equipment",
         "industrial automation and control"
       ],
@@ -81185,14 +81099,14 @@
       "seo": {
         "titleCore": "Salami Pumps and pumping systems",
         "siteSuffix": null,
-        "metaFactual": "Salami manufacturer profile covering pumps and pumping systems, electric motors, and hydraulic equipment, based on official company and product sources.",
+        "metaFactual": "Salami manufacturer profile covering pumps and pumping systems, hydraulic equipment, and industrial automation and control, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Salami pumps and pumping systems",
         "secondaryIntents": [
           "Salami industrial equipment",
           "Salami sourcing",
-          "Salami electric motors",
-          "Salami hydraulic equipment"
+          "Salami hydraulic equipment",
+          "Salami industrial automation and control"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -81243,9 +81157,9 @@
       "parentCompany": "Dana Incorporated",
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed Samhydraulik portfolio covers hydraulic equipment, pumps and pumping systems, and electric motors. Its documented corporate parent is Dana Incorporated.",
+          "shortDescription": "The source-backed Samhydraulik portfolio covers hydraulic equipment and pumps and pumping systems. Its documented corporate parent is Dana Incorporated.",
           "fullDescription": [
-            "Samhydraulik is documented through first-party sources that describe hydraulic equipment, pumps and pumping systems, and electric motors. The confirmed country record is Italy. The documented corporate parent is Dana Incorporated.",
+            "Samhydraulik is documented through first-party sources that describe hydraulic equipment and pumps and pumping systems. The confirmed country record is Italy. The documented corporate parent is Dana Incorporated.",
             "Samhydraulik publishes information for Variable-Displacement Axial-Piston Motors, Fixed-Displacement Axial-Piston Motors, Open-Loop Axial-Piston Pumps, Closed-Loop Axial-Piston Pumps, SH7V, SH9V, SH11C, H1C, H1V, and HD1. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include mining and industrial processing."
           ],
@@ -81276,23 +81190,11 @@
             "brand-wave107-samhydraulik-dana-pumps",
             "brand-wave107-samhydraulik-dana-brochure"
           ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-wave107-samhydraulik-dana-motors",
-            "brand-wave107-samhydraulik-dana-pumps",
-            "brand-wave107-samhydraulik-dana-brochure"
-          ]
         }
       ],
       "productGroups": [
         "hydraulic equipment",
-        "pumps and pumping systems",
-        "electric motors"
+        "pumps and pumping systems"
       ],
       "families": [
         "Variable-Displacement Axial-Piston Motors",
@@ -81357,14 +81259,13 @@
       "seo": {
         "titleCore": "Samhydraulik Hydraulic equipment",
         "siteSuffix": null,
-        "metaFactual": "Samhydraulik manufacturer profile covering hydraulic equipment, pumps and pumping systems, and electric motors, based on official company and product sources.",
+        "metaFactual": "Samhydraulik manufacturer profile covering hydraulic equipment and pumps and pumping systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Samhydraulik hydraulic equipment",
         "secondaryIntents": [
           "Samhydraulik industrial equipment",
           "Samhydraulik sourcing",
-          "Samhydraulik pumps and pumping systems",
-          "Samhydraulik electric motors"
+          "Samhydraulik pumps and pumping systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -83672,9 +83573,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "TSA Bologna publishes official information for electric motors, pneumatic equipment, and industrial tools. The published range names Vane Air Motors, Radial-Piston Air Motors, Compact Piston Air Motors, Worm-Geared Pneumatic Motors, Planetary Pneumatic Gearmotors, Articulated Reaction Arms, Telescopic Reaction Arms, Air Treatment Units, Pneumatic Motor Accessories, and M Series.",
+          "shortDescription": "TSA Bologna publishes official information for pneumatic equipment and industrial tools. The published range names Vane Air Motors, Radial-Piston Air Motors, Compact Piston Air Motors, Worm-Geared Pneumatic Motors, Planetary Pneumatic Gearmotors, Articulated Reaction Arms, Telescopic Reaction Arms, Air Treatment Units, Pneumatic Motor Accessories, and M Series.",
           "fullDescription": [
-            "Official TSA Bologna sources document the manufacturer identity and its work in electric motors, pneumatic equipment, and industrial tools. The confirmed country record is Italy. The documented headquarters is Zola Predosa, Bologna, Italy. Official company information dates its foundation to 1984.",
+            "Official TSA Bologna sources document the manufacturer identity and its work in pneumatic equipment and industrial tools. The confirmed country record is Italy. The documented headquarters is Zola Predosa, Bologna, Italy. Official company information dates its foundation to 1984.",
             "The official range identifies Vane Air Motors, Radial-Piston Air Motors, Compact Piston Air Motors, Worm-Geared Pneumatic Motors, Planetary Pneumatic Gearmotors, Articulated Reaction Arms, Telescopic Reaction Arms, Air Treatment Units, Pneumatic Motor Accessories, and M Series. Exact variants, options and operating limits remain model-specific.",
             "Official material associates the range with industrial processing."
           ],
@@ -83684,19 +83585,6 @@
         }
       },
       "categories": [
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-tsa-bologna-company",
-            "brand-tsa-bologna-contact",
-            "brand-tsa-bologna-products",
-            "brand-tsa-bologna-downloads",
-            "brand-tsa-bologna-vane-motors"
-          ]
-        },
         {
           "id": "pneumatic-equipment",
           "label": "pneumatic equipment",
@@ -83725,7 +83613,6 @@
         }
       ],
       "productGroups": [
-        "electric motors",
         "pneumatic equipment",
         "industrial tools"
       ],
@@ -83801,15 +83688,14 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "TSA Bologna Electric motors",
+        "titleCore": "TSA Bologna Pneumatic equipment",
         "siteSuffix": null,
-        "metaFactual": "TSA Bologna manufacturer profile covering electric motors, pneumatic equipment, and industrial tools, based on official company and product sources.",
+        "metaFactual": "TSA Bologna manufacturer profile covering pneumatic equipment and industrial tools, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "TSA Bologna electric motors",
+        "primaryIntent": "TSA Bologna pneumatic equipment",
         "secondaryIntents": [
           "TSA Bologna industrial equipment",
           "TSA Bologna sourcing",
-          "TSA Bologna pneumatic equipment",
           "TSA Bologna industrial tools"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -84860,9 +84746,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed van Dinther portfolio covers pumps and pumping systems, hydraulic equipment, and electric motors. The confirmed country record is Germany.",
+          "shortDescription": "The source-backed van Dinther portfolio covers pumps and pumping systems and hydraulic equipment. The confirmed country record is Germany.",
           "fullDescription": [
-            "van Dinther is documented through first-party sources that describe pumps and pumping systems, hydraulic equipment, and electric motors. The confirmed country record is Germany. The documented headquarters is Gelsenkirchen, Germany.",
+            "van Dinther is documented through first-party sources that describe pumps and pumping systems and hydraulic equipment. The confirmed country record is Germany. The documented headquarters is Gelsenkirchen, Germany.",
             "van Dinther publishes information for Radial Piston Pumps, Compact High-Pressure Units, 4RDE Directional Valves, Screw Pumps, Gear Pumps, Hydraulic Motors, and 4RDE. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include industrial processing and industrial manufacturing."
           ],
@@ -84893,23 +84779,11 @@
             "brand-van-dinther-products",
             "brand-van-dinther-registered-office"
           ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-van-dinther-home",
-            "brand-van-dinther-products",
-            "brand-van-dinther-registered-office"
-          ]
         }
       ],
       "productGroups": [
         "pumps and pumping systems",
-        "hydraulic equipment",
-        "electric motors"
+        "hydraulic equipment"
       ],
       "families": [
         "Radial Piston Pumps",
@@ -84965,14 +84839,13 @@
       "seo": {
         "titleCore": "van Dinther Pumps and pumping systems",
         "siteSuffix": null,
-        "metaFactual": "van Dinther manufacturer profile covering pumps and pumping systems, hydraulic equipment, and electric motors, based on official company and product sources.",
+        "metaFactual": "van Dinther manufacturer profile covering pumps and pumping systems and hydraulic equipment, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "van Dinther pumps and pumping systems",
         "secondaryIntents": [
           "van Dinther industrial equipment",
           "van Dinther sourcing",
-          "van Dinther hydraulic equipment",
-          "van Dinther electric motors"
+          "van Dinther hydraulic equipment"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -88182,9 +88055,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish Dynex in pumps and pumping systems, hydraulic equipment, and electric motors. Official company information dates its foundation to 1977.",
+          "shortDescription": "First-party sources establish Dynex in pumps and pumping systems and hydraulic equipment. Official company information dates its foundation to 1977.",
           "fullDescription": [
-            "The confirmed Dynex record is based on official sources for pumps and pumping systems, hydraulic equipment, and electric motors. The confirmed country record is United States. The documented headquarters is Pewaukee, Wisconsin, United States. Official company information dates its foundation to 1977.",
+            "The confirmed Dynex record is based on official sources for pumps and pumping systems and hydraulic equipment. The confirmed country record is United States. The documented headquarters is Pewaukee, Wisconsin, United States. Official company information dates its foundation to 1977.",
             "The documented product structure includes Fixed-Displacement Pumps, Variable-Delivery Pumps, Pressure-Control Valves, Directional-Control Valves, Hydraulic Motors, Power Units, PF500, PF1000, PF2000, and PF4000. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span industrial processing and energy."
           ],
@@ -88213,22 +88086,11 @@
             "brand-dynex-products",
             "brand-dynex-history"
           ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-dynex-products",
-            "brand-dynex-history"
-          ]
         }
       ],
       "productGroups": [
         "pumps and pumping systems",
-        "hydraulic equipment",
-        "electric motors"
+        "hydraulic equipment"
       ],
       "families": [
         "Fixed-Displacement Pumps",
@@ -88292,14 +88154,13 @@
       "seo": {
         "titleCore": "Dynex Pumps and pumping systems",
         "siteSuffix": null,
-        "metaFactual": "Dynex manufacturer profile covering pumps and pumping systems, hydraulic equipment, and electric motors, based on official company and product sources.",
+        "metaFactual": "Dynex manufacturer profile covering pumps and pumping systems and hydraulic equipment, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Dynex pumps and pumping systems",
         "secondaryIntents": [
           "Dynex industrial equipment",
           "Dynex sourcing",
-          "Dynex hydraulic equipment",
-          "Dynex electric motors"
+          "Dynex hydraulic equipment"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -89429,9 +89290,9 @@
       "parentCompany": "Danaher Corporation",
       "descriptions": {
         "en": {
-          "shortDescription": "Pall Corporation publishes official information for filtration and water systems, hydraulic equipment, and industrial cleaning systems. The published range names Hydraulic and Lube Filtration, Process Filtration, Membranes, Coalescers, and Purification Systems.",
+          "shortDescription": "Pall Corporation publishes official information for filtration and water systems and industrial cleaning systems. The published range names Hydraulic and Lube Filtration, Process Filtration, Membranes, Coalescers, and Purification Systems.",
           "fullDescription": [
-            "Official Pall Corporation sources document the manufacturer identity and its work in filtration and water systems, hydraulic equipment, and industrial cleaning systems. The confirmed country record is United States. Official company information dates its foundation to 1946. The documented corporate parent is Danaher Corporation.",
+            "Official Pall Corporation sources document the manufacturer identity and its work in filtration and water systems and industrial cleaning systems. The confirmed country record is United States. Official company information dates its foundation to 1946. The documented corporate parent is Danaher Corporation.",
             "The official range identifies Hydraulic and Lube Filtration, Process Filtration, Membranes, Coalescers, and Purification Systems. Exact variants, options and operating limits remain model-specific.",
             "Official material associates the range with aerospace, electronics and semiconductor manufacturing, food and pharmaceutical processing, chemical processing, mining, and wood and paper processing."
           ],
@@ -89452,16 +89313,6 @@
           ]
         },
         {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-pall-about",
-            "brand-pall-industrial"
-          ]
-        },
-        {
           "id": "industrial-cleaning-systems",
           "label": "industrial cleaning systems",
           "evidenceStatus": "SOURCE_BACKED",
@@ -89474,7 +89325,6 @@
       ],
       "productGroups": [
         "filtration and water systems",
-        "hydraulic equipment",
         "industrial cleaning systems"
       ],
       "families": [
@@ -89527,13 +89377,12 @@
       "seo": {
         "titleCore": "Pall Corporation Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "Pall Corporation manufacturer profile covering filtration and water systems, hydraulic equipment, and industrial cleaning systems, based on official company and product sources.",
+        "metaFactual": "Pall Corporation manufacturer profile covering filtration and water systems and industrial cleaning systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Pall Corporation filtration and water systems",
         "secondaryIntents": [
           "Pall Corporation industrial equipment",
           "Pall Corporation sourcing",
-          "Pall Corporation hydraulic equipment",
           "Pall Corporation industrial cleaning systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -90748,9 +90597,9 @@
       "parentCompany": "Interpump Group",
       "descriptions": {
         "en": {
-          "shortDescription": "Manufacturer-owned sources identify White Drive Products with industrial valves and flow control and industrial sensors. The confirmed country record is United States.",
+          "shortDescription": "Manufacturer-owned sources identify White Drive Products with hydraulic equipment, industrial valves and flow control, and industrial sensors. The confirmed country record is United States.",
           "fullDescription": [
-            "The White Drive Products identity and product scope are established through official company and product material covering industrial valves and flow control and industrial sensors. The confirmed country record is United States. The documented corporate parent is Interpump Group.",
+            "The White Drive Products identity and product scope are established through official company and product material covering hydraulic equipment, industrial valves and flow control, and industrial sensors. The confirmed country record is United States. The documented corporate parent is Interpump Group.",
             "Published families and lines include Orbital Motors, Hydraulic Steering Units, Priority Valves, Steering Sensors, OMM, OML, SbX, Orbital X, OSPM, and OMS. They provide portfolio context without replacing model-specific technical documentation.",
             "White Drive Products materials reference agriculture."
           ],
@@ -90760,6 +90609,16 @@
         }
       },
       "categories": [
+        {
+          "id": "hydraulic-equipment",
+          "label": "hydraulic equipment",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-white-drive-about",
+            "brand-white-drive-products"
+          ]
+        },
         {
           "id": "industrial-valves-and-flow-control",
           "label": "industrial valves and flow control",
@@ -90782,6 +90641,7 @@
         }
       ],
       "productGroups": [
+        "hydraulic equipment",
         "industrial valves and flow control",
         "industrial sensors"
       ],
@@ -90841,14 +90701,15 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "White Drive Products Industrial valves and flow control",
+        "titleCore": "White Drive Products Hydraulic equipment",
         "siteSuffix": null,
-        "metaFactual": "White Drive Products manufacturer profile covering industrial valves and flow control and industrial sensors, based on official company and product sources.",
+        "metaFactual": "White Drive Products manufacturer profile covering hydraulic equipment, industrial valves and flow control, and industrial sensors, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "White Drive Products industrial valves and flow control",
+        "primaryIntent": "White Drive Products hydraulic equipment",
         "secondaryIntents": [
           "White Drive Products industrial equipment",
           "White Drive Products sourcing",
+          "White Drive Products industrial valves and flow control",
           "White Drive Products industrial sensors"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -93011,9 +92872,9 @@
       "parentCompany": "Casappa S.p.A.",
       "descriptions": {
         "en": {
-          "shortDescription": "IKRON S.r.l. is documented in official material for hydraulic equipment, filtration and water systems, and pumps and pumping systems. Official product material names Suction Filters, Return Filters, Spin-On Filters, Medium-Pressure Filters, High-Pressure Filters, and Hand Pumps and Accessories.",
+          "shortDescription": "IKRON S.r.l. is documented in official material for filtration and water systems and pumps and pumping systems. Official product material names Suction Filters, Return Filters, Spin-On Filters, Medium-Pressure Filters, High-Pressure Filters, and Hand Pumps and Accessories.",
           "fullDescription": [
-            "Manufacturer-owned material confirms IKRON S.r.l. and a portfolio centred on hydraulic equipment, filtration and water systems, and pumps and pumping systems. The confirmed country record is Italy. The documented headquarters is Lemignano di Collecchio, Parma, Italy. Official company information dates its foundation to 1997. The documented corporate parent is Casappa S.p.A..",
+            "Manufacturer-owned material confirms IKRON S.r.l. and a portfolio centred on filtration and water systems and pumps and pumping systems. The confirmed country record is Italy. The documented headquarters is Lemignano di Collecchio, Parma, Italy. Official company information dates its foundation to 1997. The documented corporate parent is Casappa S.p.A..",
             "Named product families, ranges and series include Suction Filters, Return Filters, Spin-On Filters, Medium-Pressure Filters, High-Pressure Filters, and Hand Pumps and Accessories. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers agriculture and industrial processing."
           ],
@@ -93023,15 +92884,6 @@
         }
       },
       "categories": [
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-ikron-home-products"
-          ]
-        },
         {
           "id": "filtration-and-water-systems",
           "label": "filtration and water systems",
@@ -93052,7 +92904,6 @@
         }
       ],
       "productGroups": [
-        "hydraulic equipment",
         "filtration and water systems",
         "pumps and pumping systems"
       ],
@@ -93095,15 +92946,14 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "IKRON Hydraulic equipment",
+        "titleCore": "IKRON Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "IKRON manufacturer profile covering hydraulic equipment, filtration and water systems, and pumps and pumping systems, based on official company and product sources.",
+        "metaFactual": "IKRON manufacturer profile covering filtration and water systems and pumps and pumping systems, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "IKRON hydraulic equipment",
+        "primaryIntent": "IKRON filtration and water systems",
         "secondaryIntents": [
           "IKRON industrial equipment",
           "IKRON sourcing",
-          "IKRON filtration and water systems",
           "IKRON pumps and pumping systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -93519,9 +93369,9 @@
       "parentCompany": "Caterpillar Inc.",
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish Perkins in electric motors. The confirmed country record is United Kingdom.",
+          "shortDescription": "First-party sources establish Perkins in electric motors and industrial engines. The confirmed country record is United Kingdom.",
           "fullDescription": [
-            "The confirmed Perkins record is based on official sources for electric motors. The confirmed country record is United Kingdom. The documented headquarters is Peterborough, United Kingdom. The documented corporate parent is Caterpillar Inc..",
+            "The confirmed Perkins record is based on official sources for electric motors and industrial engines. The confirmed country record is United Kingdom. The documented headquarters is Peterborough, United Kingdom. The documented corporate parent is Caterpillar Inc..",
             "The documented product structure includes Industrial Diesel Engines, Electric Power Engines, Marine Engines, 400 Series, 500 Series, 900 Series, 1100 Series, 1200 Series, 1700 Series, and 2000 Series. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span industrial processing, agriculture, energy, and marine applications."
           ],
@@ -93540,10 +93390,21 @@
             "brand-perkins-products",
             "brand-perkins-sitemap"
           ]
+        },
+        {
+          "id": "industrial-engines",
+          "label": "industrial engines",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-perkins-products",
+            "brand-perkins-sitemap"
+          ]
         }
       ],
       "productGroups": [
-        "electric motors"
+        "electric motors",
+        "industrial engines"
       ],
       "families": [
         "Industrial Diesel Engines",
@@ -93605,12 +93466,13 @@
       "seo": {
         "titleCore": "Perkins Electric motors",
         "siteSuffix": null,
-        "metaFactual": "Perkins manufacturer profile covering electric motors, based on official company and product sources.",
+        "metaFactual": "Perkins manufacturer profile covering electric motors and industrial engines, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Perkins electric motors",
         "secondaryIntents": [
           "Perkins industrial equipment",
-          "Perkins sourcing"
+          "Perkins sourcing",
+          "Perkins industrial engines"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -96385,9 +96247,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Official Casappa material documents a product scope covering pumps and pumping systems, electric motors, hydraulic equipment, and industrial automation and control. Documented families and lines include Gear Pumps, Piston Pumps, Hydraulic Motors, Flow Dividers, Electrohydraulic Controls, and Integrated Hydraulic Systems.",
+          "shortDescription": "Official Casappa material documents a product scope covering pumps and pumping systems, hydraulic equipment, and industrial automation and control. Documented families and lines include Gear Pumps, Piston Pumps, Hydraulic Motors, Flow Dividers, Electrohydraulic Controls, and Integrated Hydraulic Systems.",
           "fullDescription": [
-            "Casappa S.p.A. is represented by manufacturer-owned evidence for pumps and pumping systems, electric motors, hydraulic equipment, and industrial automation and control. The confirmed country record is Italy. The documented headquarters is Lemignano di Collecchio, Parma, Italy.",
+            "Casappa S.p.A. is represented by manufacturer-owned evidence for pumps and pumping systems, hydraulic equipment, and industrial automation and control. The confirmed country record is Italy. The documented headquarters is Lemignano di Collecchio, Parma, Italy.",
             "Official product material names Gear Pumps, Piston Pumps, Hydraulic Motors, Flow Dividers, Electrohydraulic Controls, and Integrated Hydraulic Systems. Technical characteristics should be checked against the document for the exact model or series.",
             "The confirmed market and application context includes agriculture and industrial processing."
           ],
@@ -96400,16 +96262,6 @@
         {
           "id": "pumps-and-pumping-systems",
           "label": "pumps and pumping systems",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-casappa-home",
-            "brand-casappa-downloads"
-          ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -96440,7 +96292,6 @@
       ],
       "productGroups": [
         "pumps and pumping systems",
-        "electric motors",
         "hydraulic equipment",
         "industrial automation and control"
       ],
@@ -96495,14 +96346,14 @@
       "seo": {
         "titleCore": "Casappa Pumps and pumping systems",
         "siteSuffix": null,
-        "metaFactual": "Casappa manufacturer profile covering pumps and pumping systems, electric motors, and hydraulic equipment, based on official company and product sources.",
+        "metaFactual": "Casappa manufacturer profile covering pumps and pumping systems, hydraulic equipment, and industrial automation and control, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Casappa pumps and pumping systems",
         "secondaryIntents": [
           "Casappa industrial equipment",
           "Casappa sourcing",
-          "Casappa electric motors",
-          "Casappa hydraulic equipment"
+          "Casappa hydraulic equipment",
+          "Casappa industrial automation and control"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -109855,9 +109706,9 @@
       "parentCompany": "CG Power and Industrial Solutions",
       "descriptions": {
         "en": {
-          "shortDescription": "Manufacturer-owned sources identify Emotron with drive and motion-control systems and electric motors. The confirmed country record is Sweden.",
+          "shortDescription": "Manufacturer-owned sources identify Emotron with drive and motion-control systems. The confirmed country record is Sweden.",
           "fullDescription": [
-            "The Emotron identity and product scope are established through official company and product material covering drive and motion-control systems and electric motors. The confirmed country record is Sweden. The documented headquarters is Helsingborg, Sweden. The documented corporate parent is CG Power and Industrial Solutions.",
+            "The Emotron identity and product scope are established through official company and product material covering drive and motion-control systems. The confirmed country record is Sweden. The documented headquarters is Helsingborg, Sweden. The documented corporate parent is CG Power and Industrial Solutions.",
             "Published families and lines include Industrial Drives, Softstarters, Motor-Mounted Drives, Cabinet Solutions, and Motor-Control Systems. They provide portfolio context without replacing model-specific technical documentation.",
             "Emotron materials reference water and wastewater, transportation, marine applications, and energy."
           ],
@@ -109876,21 +109727,10 @@
             "brand-emotron-company-brochure",
             "brand-emotron-home"
           ]
-        },
-        {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-emotron-company-brochure",
-            "brand-emotron-home"
-          ]
         }
       ],
       "productGroups": [
-        "drive and motion-control systems",
-        "electric motors"
+        "drive and motion-control systems"
       ],
       "families": [
         "Industrial Drives",
@@ -109944,13 +109784,12 @@
       "seo": {
         "titleCore": "Emotron Drive and motion-control systems",
         "siteSuffix": null,
-        "metaFactual": "Emotron manufacturer profile covering drive and motion-control systems and electric motors, based on official company and product sources.",
+        "metaFactual": "Emotron manufacturer profile covering drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Emotron drive and motion-control systems",
         "secondaryIntents": [
           "Emotron industrial equipment",
-          "Emotron sourcing",
-          "Emotron electric motors"
+          "Emotron sourcing"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -139187,9 +139026,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish SOTRAS in filtration and water systems, process equipment, and hydraulic equipment. Official company information dates its foundation to 1975.",
+          "shortDescription": "First-party sources establish SOTRAS in filtration and water systems and process equipment. Official company information dates its foundation to 1975.",
           "fullDescription": [
-            "The confirmed SOTRAS record is based on official sources for filtration and water systems, process equipment, and hydraulic equipment. The confirmed country record is Italy. The documented headquarters is Borgaro Torinese, Italy. Official company information dates its foundation to 1975.",
+            "The confirmed SOTRAS record is based on official sources for filtration and water systems and process equipment. The confirmed country record is Italy. The documented headquarters is Borgaro Torinese, Italy. Official company information dates its foundation to 1975.",
             "The documented product structure includes Air-Oil Separators, Vacuum Pump Demisters, Vacuum Air Filters, Refrigeration and Gas Filters, Hydraulic Filters, Compressed Air Filters, and Dust Filter Cartridges. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span industrial processing."
           ],
@@ -139218,22 +139057,11 @@
             "brand-sotras-home",
             "brand-sotras-products"
           ]
-        },
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-sotras-home",
-            "brand-sotras-products"
-          ]
         }
       ],
       "productGroups": [
         "filtration and water systems",
-        "process equipment",
-        "hydraulic equipment"
+        "process equipment"
       ],
       "families": [
         "Air-Oil Separators",
@@ -139286,14 +139114,13 @@
       "seo": {
         "titleCore": "SOTRAS Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "SOTRAS manufacturer profile covering filtration and water systems, process equipment, and hydraulic equipment, based on official company and product sources.",
+        "metaFactual": "SOTRAS manufacturer profile covering filtration and water systems and process equipment, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "SOTRAS filtration and water systems",
         "secondaryIntents": [
           "SOTRAS industrial equipment",
           "SOTRAS sourcing",
-          "SOTRAS process equipment",
-          "SOTRAS hydraulic equipment"
+          "SOTRAS process equipment"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -144265,9 +144092,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed Phytron portfolio covers electric motors, linear-motion components, industrial automation and control, and vacuum equipment. The confirmed country record is Germany.",
+          "shortDescription": "The source-backed Phytron portfolio covers electric motors, linear-motion components, drive and motion-control systems, industrial automation and control, and vacuum equipment. The confirmed country record is Germany.",
           "fullDescription": [
-            "Phytron is documented through first-party sources that describe electric motors, linear-motion components, industrial automation and control, and vacuum equipment. The confirmed country record is Germany.",
+            "Phytron is documented through first-party sources that describe electric motors, linear-motion components, drive and motion-control systems, industrial automation and control, and vacuum equipment. The confirmed country record is Germany.",
             "Phytron publishes information for Motors and Actuators, Amplifiers and Controllers, Mechanics and Equipment, ZSS, phyBASIC, ZSH, ESS, ESH, VSS, and VSH. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include factory automation."
           ],
@@ -144290,6 +144117,16 @@
         {
           "id": "linear-motion-components",
           "label": "linear-motion components",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-phytron-motors",
+            "brand-phytron-sitemap"
+          ]
+        },
+        {
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -144321,6 +144158,7 @@
       "productGroups": [
         "electric motors",
         "linear-motion components",
+        "drive and motion-control systems",
         "industrial automation and control",
         "vacuum equipment"
       ],
@@ -144386,14 +144224,14 @@
       "seo": {
         "titleCore": "Phytron Electric motors",
         "siteSuffix": null,
-        "metaFactual": "Phytron manufacturer profile covering electric motors, linear-motion components, and industrial automation and control, based on official company and product sources.",
+        "metaFactual": "Phytron manufacturer profile covering electric motors, linear-motion components, and drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Phytron electric motors",
         "secondaryIntents": [
           "Phytron industrial equipment",
           "Phytron sourcing",
           "Phytron linear-motion components",
-          "Phytron industrial automation and control"
+          "Phytron drive and motion-control systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -145569,9 +145407,9 @@
       "parentCompany": "INNIO Group",
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish Waukesha Engine in electric motors. The confirmed country record is United States.",
+          "shortDescription": "First-party sources establish Waukesha Engine in industrial engines and drive and motion-control systems. The confirmed country record is United States.",
           "fullDescription": [
-            "The confirmed Waukesha Engine record is based on official sources for electric motors. The confirmed country record is United States. The documented corporate parent is INNIO Group.",
+            "The confirmed Waukesha Engine record is based on official sources for industrial engines and drive and motion-control systems. The confirmed country record is United States. The documented corporate parent is INNIO Group.",
             "The documented product structure includes Gas Engines, Engine Controls, Digital Solutions, reUp Remanufacturing, 275GL+, VHP, mobileFLEX, VGF, and ESM 2. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span oil and gas and energy."
           ],
@@ -145582,8 +145420,18 @@
       },
       "categories": [
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "industrial-engines",
+          "label": "industrial engines",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-waukesha-about",
+            "brand-waukesha-engines"
+          ]
+        },
+        {
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -145593,7 +145441,8 @@
         }
       ],
       "productGroups": [
-        "electric motors"
+        "industrial engines",
+        "drive and motion-control systems"
       ],
       "families": [
         "Gas Engines",
@@ -145644,14 +145493,15 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "Waukesha Engine Electric motors",
+        "titleCore": "Waukesha Engine Industrial engines",
         "siteSuffix": null,
-        "metaFactual": "Waukesha Engine manufacturer profile covering electric motors, based on official company and product sources.",
+        "metaFactual": "Waukesha Engine manufacturer profile covering industrial engines and drive and motion-control systems, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "Waukesha Engine electric motors",
+        "primaryIntent": "Waukesha Engine industrial engines",
         "secondaryIntents": [
           "Waukesha Engine industrial equipment",
-          "Waukesha Engine sourcing"
+          "Waukesha Engine sourcing",
+          "Waukesha Engine drive and motion-control systems"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -177448,9 +177298,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "First-party sources establish Caproni in pumps and pumping systems, electric motors, and hydraulic equipment. The confirmed country record is Bulgaria.",
+          "shortDescription": "First-party sources establish Caproni in pumps and pumping systems, hydraulic equipment, and electric motors. The confirmed country record is Bulgaria.",
           "fullDescription": [
-            "The confirmed Caproni record is based on official sources for pumps and pumping systems, electric motors, and hydraulic equipment. The confirmed country record is Bulgaria. The documented headquarters is Kazanlak, Bulgaria.",
+            "The confirmed Caproni record is based on official sources for pumps and pumping systems, hydraulic equipment, and electric motors. The confirmed country record is Bulgaria. The documented headquarters is Kazanlak, Bulgaria.",
             "The documented product structure includes Hydraulic Gear Pumps and Motors, Hydraulic Orbital Motors, Hydraulic Valves, Hydraulic Cylinders, Hydraulic Power Units, Flow Dividers, AC and DC Motors, Group 10, Group 20, and Group 30. Family membership alone does not establish a model's configuration, compatibility or current production status.",
             "Published applications span agriculture and industrial processing."
           ],
@@ -177471,8 +177321,8 @@
           ]
         },
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "hydraulic-equipment",
+          "label": "hydraulic equipment",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -177481,8 +177331,8 @@
           ]
         },
         {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
+          "id": "electric-motors",
+          "label": "electric motors",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -177493,8 +177343,8 @@
       ],
       "productGroups": [
         "pumps and pumping systems",
-        "electric motors",
-        "hydraulic equipment"
+        "hydraulic equipment",
+        "electric motors"
       ],
       "families": [
         "Hydraulic Gear Pumps and Motors",
@@ -177551,14 +177401,14 @@
       "seo": {
         "titleCore": "Caproni Pumps and pumping systems",
         "siteSuffix": null,
-        "metaFactual": "Caproni manufacturer profile covering pumps and pumping systems, electric motors, and hydraulic equipment, based on official company and product sources.",
+        "metaFactual": "Caproni manufacturer profile covering pumps and pumping systems, hydraulic equipment, and electric motors, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Caproni pumps and pumping systems",
         "secondaryIntents": [
           "Caproni industrial equipment",
           "Caproni sourcing",
-          "Caproni electric motors",
-          "Caproni hydraulic equipment"
+          "Caproni hydraulic equipment",
+          "Caproni electric motors"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -191644,9 +191494,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Deutronic publishes official information for electrical power systems, electric motors, and measurement and instrumentation. The published range names Battery Chargers, DC/DC Converters, Power Supplies, Motor Controllers, and Test Systems.",
+          "shortDescription": "Deutronic publishes official information for electrical power systems, drive and motion-control systems, and measurement and instrumentation. The published range names Battery Chargers, DC/DC Converters, Power Supplies, Motor Controllers, and Test Systems.",
           "fullDescription": [
-            "Official Deutronic sources document the manufacturer identity and its work in electrical power systems, electric motors, and measurement and instrumentation. The confirmed country record is Germany. The documented headquarters is Adlkofen, Germany. Official company information dates its foundation to 1983.",
+            "Official Deutronic sources document the manufacturer identity and its work in electrical power systems, drive and motion-control systems, and measurement and instrumentation. The confirmed country record is Germany. The documented headquarters is Adlkofen, Germany. Official company information dates its foundation to 1983.",
             "The official range identifies Battery Chargers, DC/DC Converters, Power Supplies, Motor Controllers, and Test Systems. Exact variants, options and operating limits remain model-specific.",
             "Official material associates the range with transportation and factory automation."
           ],
@@ -191667,8 +191517,8 @@
           ]
         },
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "drive-and-motion-control-systems",
+          "label": "drive and motion-control systems",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -191689,7 +191539,7 @@
       ],
       "productGroups": [
         "electrical power systems",
-        "electric motors",
+        "drive and motion-control systems",
         "measurement and instrumentation"
       ],
       "families": [
@@ -191742,13 +191592,13 @@
       "seo": {
         "titleCore": "Deutronic Electrical power systems",
         "siteSuffix": null,
-        "metaFactual": "Deutronic manufacturer profile covering electrical power systems, electric motors, and measurement and instrumentation, based on official company and product sources.",
+        "metaFactual": "Deutronic manufacturer profile covering electrical power systems, drive and motion-control systems, and measurement and instrumentation, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Deutronic electrical power systems",
         "secondaryIntents": [
           "Deutronic industrial equipment",
           "Deutronic sourcing",
-          "Deutronic electric motors",
+          "Deutronic drive and motion-control systems",
           "Deutronic measurement and instrumentation"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -195091,9 +194941,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Düsterloh Fluidtechnik GmbH is documented in official material for hydraulic equipment, electric motors, and gear units and geared drives. Official product material names Hydraulic Motors, Pneumatic Motors, Pneumatic Starters, Hydraulic Power Units, and Gearboxes.",
+          "shortDescription": "Düsterloh Fluidtechnik GmbH is documented in official material for hydraulic equipment, pneumatic equipment, and gear units and geared drives. Official product material names Hydraulic Motors, Pneumatic Motors, Pneumatic Starters, Hydraulic Power Units, and Gearboxes.",
           "fullDescription": [
-            "Manufacturer-owned material confirms Düsterloh Fluidtechnik GmbH and a portfolio centred on hydraulic equipment, electric motors, and gear units and geared drives. The confirmed country record is Germany. The documented headquarters is Hattingen, Germany.",
+            "Manufacturer-owned material confirms Düsterloh Fluidtechnik GmbH and a portfolio centred on hydraulic equipment, pneumatic equipment, and gear units and geared drives. The confirmed country record is Germany. The documented headquarters is Hattingen, Germany.",
             "Named product families, ranges and series include Hydraulic Motors, Pneumatic Motors, Pneumatic Starters, Hydraulic Power Units, and Gearboxes. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers industrial manufacturing, mining, and marine applications."
           ],
@@ -195114,8 +194964,8 @@
           ]
         },
         {
-          "id": "electric-motors",
-          "label": "electric motors",
+          "id": "pneumatic-equipment",
+          "label": "pneumatic equipment",
           "evidenceStatus": "SOURCE_BACKED",
           "evidenceScope": "PROFILE_LEVEL",
           "sourceRecordIds": [
@@ -195136,7 +194986,7 @@
       ],
       "productGroups": [
         "hydraulic equipment",
-        "electric motors",
+        "pneumatic equipment",
         "gear units and geared drives"
       ],
       "families": [
@@ -195190,13 +195040,13 @@
       "seo": {
         "titleCore": "Düsterloh Hydraulic equipment",
         "siteSuffix": null,
-        "metaFactual": "Düsterloh manufacturer profile covering hydraulic equipment, electric motors, and gear units and geared drives, based on official company and product sources.",
+        "metaFactual": "Düsterloh manufacturer profile covering hydraulic equipment, pneumatic equipment, and gear units and geared drives, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Düsterloh hydraulic equipment",
         "secondaryIntents": [
           "Düsterloh industrial equipment",
           "Düsterloh sourcing",
-          "Düsterloh electric motors",
+          "Düsterloh pneumatic equipment",
           "Düsterloh gear units and geared drives"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
@@ -210304,9 +210154,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Filtrec S.p.A. is documented in official material for hydraulic equipment and filtration and water systems. Official product material names Hydraulic Filters, Filter Elements, Process Filters, Air Filters, Oil Separation, and Contamination Control.",
+          "shortDescription": "Filtrec S.p.A. is documented in official material for filtration and water systems. Official product material names Hydraulic Filters, Filter Elements, Process Filters, Air Filters, Oil Separation, and Contamination Control.",
           "fullDescription": [
-            "Manufacturer-owned material confirms Filtrec S.p.A. and a portfolio centred on hydraulic equipment and filtration and water systems. The confirmed country record is Italy.",
+            "Manufacturer-owned material confirms Filtrec S.p.A. and a portfolio centred on filtration and water systems. The confirmed country record is Italy.",
             "Named product families, ranges and series include Hydraulic Filters, Filter Elements, Process Filters, Air Filters, Oil Separation, and Contamination Control. These names describe the published portfolio; model-level characteristics remain subject to the applicable manufacturer document.",
             "The source-backed industry scope covers industrial processing."
           ],
@@ -210316,15 +210166,6 @@
         }
       },
       "categories": [
-        {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "wave80-filtrec-home"
-          ]
-        },
         {
           "id": "filtration-and-water-systems",
           "label": "filtration and water systems",
@@ -210336,7 +210177,6 @@
         }
       ],
       "productGroups": [
-        "hydraulic equipment",
         "filtration and water systems"
       ],
       "families": [
@@ -210382,15 +210222,14 @@
       "contentStatus": "EN_CONTENT_READY",
       "seoStatus": "SEO_CORE_READY",
       "seo": {
-        "titleCore": "FILTREC Hydraulic equipment",
+        "titleCore": "FILTREC Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "FILTREC manufacturer profile covering hydraulic equipment and filtration and water systems, based on official company and product sources.",
+        "metaFactual": "FILTREC manufacturer profile covering filtration and water systems, based on official company and product sources.",
         "siteSpecificCta": null,
-        "primaryIntent": "FILTREC hydraulic equipment",
+        "primaryIntent": "FILTREC filtration and water systems",
         "secondaryIntents": [
           "FILTREC industrial equipment",
-          "FILTREC sourcing",
-          "FILTREC filtration and water systems"
+          "FILTREC sourcing"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -286838,9 +286677,9 @@
       "parentCompany": "Rolls-Royce Power Systems AG",
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed mtu portfolio covers electric motors. Its documented corporate parent is Rolls-Royce Power Systems AG.",
+          "shortDescription": "The source-backed mtu portfolio covers electric motors and industrial engines. Its documented corporate parent is Rolls-Royce Power Systems AG.",
           "fullDescription": [
-            "mtu is documented through first-party sources that describe electric motors. The confirmed country record is Germany. The documented corporate parent is Rolls-Royce Power Systems AG.",
+            "mtu is documented through first-party sources that describe electric motors and industrial engines. The confirmed country record is Germany. The documented corporate parent is Rolls-Royce Power Systems AG.",
             "mtu publishes information for Diesel Engines, Generator Sets, Marine Propulsion Systems, and Distributed Energy Systems. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include energy, marine applications, transportation, and industrial processing."
           ],
@@ -286858,10 +286697,20 @@
           "sourceRecordIds": [
             "brand-mtu-applications"
           ]
+        },
+        {
+          "id": "industrial-engines",
+          "label": "industrial engines",
+          "evidenceStatus": "SOURCE_BACKED",
+          "evidenceScope": "PROFILE_LEVEL",
+          "sourceRecordIds": [
+            "brand-mtu-applications"
+          ]
         }
       ],
       "productGroups": [
-        "electric motors"
+        "electric motors",
+        "industrial engines"
       ],
       "families": [
         "Diesel Engines",
@@ -286909,12 +286758,13 @@
       "seo": {
         "titleCore": "mtu Electric motors",
         "siteSuffix": null,
-        "metaFactual": "mtu manufacturer profile covering electric motors, based on official company and product sources.",
+        "metaFactual": "mtu manufacturer profile covering electric motors and industrial engines, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "mtu electric motors",
         "secondaryIntents": [
           "mtu industrial equipment",
-          "mtu sourcing"
+          "mtu sourcing",
+          "mtu industrial engines"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -306377,9 +306227,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "Poclain Hydraulics publishes official information for hydraulic equipment, pumps and pumping systems, electric motors, industrial valves and flow control, and industrial automation and control. The published range names Hydraulic Motors, Hydraulic Pumps, Hydraulic Valves, Electronic Control Units, and Hydrostatic Transmissions.",
+          "shortDescription": "Poclain Hydraulics publishes official information for hydraulic equipment, pumps and pumping systems, industrial valves and flow control, and industrial automation and control. The published range names Hydraulic Motors, Hydraulic Pumps, Hydraulic Valves, Electronic Control Units, and Hydrostatic Transmissions.",
           "fullDescription": [
-            "Official Poclain Hydraulics sources document the manufacturer identity and its work in hydraulic equipment, pumps and pumping systems, electric motors, industrial valves and flow control, and industrial automation and control. The confirmed country record is France.",
+            "Official Poclain Hydraulics sources document the manufacturer identity and its work in hydraulic equipment, pumps and pumping systems, industrial valves and flow control, and industrial automation and control. The confirmed country record is France.",
             "The official range identifies Hydraulic Motors, Hydraulic Pumps, Hydraulic Valves, Electronic Control Units, and Hydrostatic Transmissions. Exact variants, options and operating limits remain model-specific.",
             "Official material associates the range with agriculture and industrial processing."
           ],
@@ -306408,15 +306258,6 @@
           ]
         },
         {
-          "id": "electric-motors",
-          "label": "electric motors",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-poclain-products"
-          ]
-        },
-        {
           "id": "industrial-valves-and-flow-control",
           "label": "industrial valves and flow control",
           "evidenceStatus": "SOURCE_BACKED",
@@ -306438,7 +306279,6 @@
       "productGroups": [
         "hydraulic equipment",
         "pumps and pumping systems",
-        "electric motors",
         "industrial valves and flow control",
         "industrial automation and control"
       ],
@@ -306487,14 +306327,14 @@
       "seo": {
         "titleCore": "Poclain Hydraulics Hydraulic equipment",
         "siteSuffix": null,
-        "metaFactual": "Poclain Hydraulics manufacturer profile covering hydraulic equipment, pumps and pumping systems, and electric motors, based on official company and product sources.",
+        "metaFactual": "Poclain Hydraulics manufacturer profile covering hydraulic equipment, pumps and pumping systems, and industrial valves and flow control, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "Poclain Hydraulics hydraulic equipment",
         "secondaryIntents": [
           "Poclain Hydraulics industrial equipment",
           "Poclain Hydraulics sourcing",
           "Poclain Hydraulics pumps and pumping systems",
-          "Poclain Hydraulics electric motors"
+          "Poclain Hydraulics industrial valves and flow control"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"
       },
@@ -362940,9 +362780,9 @@
       "parentCompany": null,
       "descriptions": {
         "en": {
-          "shortDescription": "The source-backed UFI Filters portfolio covers filtration and water systems, hydraulic equipment, and thermal-management equipment. The confirmed country record is Italy.",
+          "shortDescription": "The source-backed UFI Filters portfolio covers filtration and water systems and thermal-management equipment. The confirmed country record is Italy.",
           "fullDescription": [
-            "UFI Filters is documented through first-party sources that describe filtration and water systems, hydraulic equipment, and thermal-management equipment. The confirmed country record is Italy. Official company information dates its foundation to 1971.",
+            "UFI Filters is documented through first-party sources that describe filtration and water systems and thermal-management equipment. The confirmed country record is Italy. Official company information dates its foundation to 1971.",
             "UFI Filters publishes information for Air Filters, Oil Filters, Fuel Filters, Cabin Filters, Hydraulic Filters, Thermal Management Systems, UFI MULTITUBE, and ARGENTIUM. These names are retained as source-backed family data rather than as model-level specifications.",
             "Documented application contexts include transportation, marine applications, aerospace, and industrial processing."
           ],
@@ -362963,16 +362803,6 @@
           ]
         },
         {
-          "id": "hydraulic-equipment",
-          "label": "hydraulic equipment",
-          "evidenceStatus": "SOURCE_BACKED",
-          "evidenceScope": "PROFILE_LEVEL",
-          "sourceRecordIds": [
-            "brand-ufi-filters-official",
-            "brand-ufi-filters-group"
-          ]
-        },
-        {
           "id": "thermal-management-equipment",
           "label": "thermal-management equipment",
           "evidenceStatus": "SOURCE_BACKED",
@@ -362985,7 +362815,6 @@
       ],
       "productGroups": [
         "filtration and water systems",
-        "hydraulic equipment",
         "thermal-management equipment"
       ],
       "families": [
@@ -363040,13 +362869,12 @@
       "seo": {
         "titleCore": "UFI Filters Filtration and water systems",
         "siteSuffix": null,
-        "metaFactual": "UFI Filters manufacturer profile covering filtration and water systems, hydraulic equipment, and thermal-management equipment, based on official company and product sources.",
+        "metaFactual": "UFI Filters manufacturer profile covering filtration and water systems and thermal-management equipment, based on official company and product sources.",
         "siteSpecificCta": null,
         "primaryIntent": "UFI Filters filtration and water systems",
         "secondaryIntents": [
           "UFI Filters industrial equipment",
           "UFI Filters sourcing",
-          "UFI Filters hydraulic equipment",
           "UFI Filters thermal-management equipment"
         ],
         "titlePolicy": "APPEND_NEW_SITE_SUFFIX_AT_RENDER_TIME"

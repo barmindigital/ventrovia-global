@@ -70,7 +70,7 @@ export function ManufacturerBrowser({ manufacturers }: { manufacturers: PublicMa
           <button className="button button-outline" onClick={() => { setQuery(""); setLetter("All"); setVisibleCount(63); }} type="button">Clear search</button>
         </div>
       )}
-      {visibleCount < filtered.length && <div className="manufacturer-more"><button className="button button-outline" onClick={() => setVisibleCount((count) => count + 63)} type="button">Show 63 more</button><span>Showing {formatCount(Math.min(visibleCount, filtered.length))} of {formatCount(filtered.length)}</span></div>}
+      {visibleCount < filtered.length && <div className="manufacturer-more"><button className="button button-outline" onClick={() => setVisibleCount((count) => count + 63)} type="button">Show {formatCount(Math.min(63, filtered.length - visibleCount))} more</button><span>Showing {formatCount(Math.min(visibleCount, filtered.length))} of {formatCount(filtered.length)}</span></div>}
       <p className="trademark-note">All trademarks belong to their respective owners and are used for identification. Displaying a logo does not indicate authorised-dealer status. <Link href="/manufacturers/logos">Logo sources and rights</Link></p>
     </>
   );

@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "../lib/open-graph";
 import Link from "next/link";
 import { SITE_BRAND } from "../lib/site-brand";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy | Aihamyn Hampa Trading",
   description: "How Aihamyn Hampa Trading processes contact details, RFQ information, attachments and essential website data.",
   alternates: { canonical: "/privacy" },
+  openGraph: pageOpenGraph({
+    title: "Privacy Policy | Aihamyn Hampa Trading",
+    description: "How Aihamyn Hampa Trading processes contact details, RFQ information, attachments and essential website data.",
+    url: "/privacy",
+  }),
 };
 
 export default function PrivacyPage() {

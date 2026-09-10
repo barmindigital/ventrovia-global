@@ -17,6 +17,8 @@ export function PhoneAction({ children, className, label }: PhoneActionProps) {
   const phoneHref = `tel:${siteContent.contacts.phoneHref}`;
 
   const showPhone = async (event: MouseEvent<HTMLAnchorElement>) => {
+    // On phones and tablets the tel: link dials straight away.
+    if (window.matchMedia("(pointer: coarse)").matches) return;
     event.preventDefault();
     let copySucceeded = false;
     try {

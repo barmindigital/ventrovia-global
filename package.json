@@ -31,6 +31,8 @@
     "package:brands:master": "node scripts/package-brand-master.mjs",
     "audit:brands": "node scripts/generate-brand-operations.mjs --check && node scripts/audit-international-runtime.mjs",
     "test": "pnpm run build && node --test tests/*.test.mjs",
+    "test:e2e": "node --test --test-concurrency=1 --test-reporter=spec tests/e2e/site.e2e.mjs",
+    "test:e2e:full": "E2E_FULL=1 node --test --test-concurrency=1 --test-reporter=spec tests/e2e/site.e2e.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "typecheck": "tsc --noEmit --incremental false",
     "check": "pnpm run lint && pnpm run typecheck && pnpm test && pnpm audit:visual && pnpm audit:international && pnpm audit:infrastructure && pnpm audit:bundle && pnpm audit:brands:master"

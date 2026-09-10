@@ -249,7 +249,7 @@ export async function POST(request: Request) {
       {
         ok: false,
         fallback: true,
-        message: "Email delivery is not yet connected. Please use the email link below.",
+        message: "Online submission is temporarily unavailable. Please send your enquiry by email using the link below.",
       },
       { status: 503 },
     );
