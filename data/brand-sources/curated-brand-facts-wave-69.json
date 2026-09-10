@@ -72,11 +72,12 @@
       "productFamilies": ["Gear Pumps and Motors", "Vane Pumps and Motors", "Piston Pumps and Motors", "Dump Pumps", "Hydraulic Valves", "Hydraulic Cylinders"],
       "series": ["T6", "T7", "MHUP"],
       "industries": ["Мобильная техника", "Промышленная гидравлика", "Транспорт"],
-      "officialCatalogs": ["https://www.hydraulex.com/pdfs/Metaris_Gear_Product_TechnicalCatalog-web.pdf", "https://www.hydraulex.com/pdfs/Metaris_Vane_Product_TechnicalCatalog_web.pdf"],
-      "documentationSources": ["https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php", "https://www.hydraulex.com/metaris-mhup-unloader-pump.php"],
+      "officialCatalogs": [],
+      "documentationSources": ["https://www.hydraulex.com/metaris-v-vq-industrial-mobile-vane-pumps"],
       "sources": [
         {"sourceId":"brand-metaris-parent","tier":"B","type":"OFFICIAL_PARENT_PRODUCT_DIRECTORY","scope":"CURRENT_BRAND_IDENTITY_AND_HYDRAULIC_PORTFOLIO","url":"https://www.hydraulex.com/sitemap.php","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-metaris-vane-products","tier":"A","type":"PRODUCT_PAGE","scope":"T6_T7_VANE_PUMP_FAMILY","url":"https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"brand-metaris-vane-products","tier":"A","type":"PRODUCT_PAGE","scope":"T6_T7_VANE_PUMP_FAMILY","url":"https://www.hydraulex.com/metaris-t6-t7-interchange-vane-pumps.php","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"brand-metaris-vane-products-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_PRODUCT_PAGE","url":"https://www.hydraulex.com/metaris-v-vq-industrial-mobile-vane-pumps","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -123,11 +124,12 @@
       "productFamilies": ["Connecting Fittings", "Shut-Off Valves", "Control Fittings", "Aseptic Components", "Accessories"],
       "series": [],
       "industries": ["Пищевая промышленность", "Фармацевтическая промышленность", "Химическая промышленность"],
-      "officialCatalogs": ["https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf", "https://www.niobfluid.cz/katalogy_2021/07_prislusenstvi_cz_ru.pdf"],
+      "officialCatalogs": ["https://www.niobfluid.cz/ke-stazeni.html", "https://www.niobfluid.cz/katalogy_2021/07_prislusenstvi_cz_ru.pdf"],
       "documentationSources": ["https://www.niobfluid.cz/"],
       "sources": [
         {"sourceId":"brand-niob-fluid-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"LEGAL_IDENTITY_AND_STAINLESS_FLOW_COMPONENT_SCOPE","url":"https://www.niobfluid.cz/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-niob-fluid-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"CONNECTING_SHUTOFF_CONTROL_AND_ASEPTIC_FITTINGS","url":"https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"brand-niob-fluid-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"CONNECTING_SHUTOFF_CONTROL_AND_ASEPTIC_FITTINGS","url":"https://www.niobfluid.cz/niob_fluid_katalog_02_Spoj_arm_web_ende.pdf","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"brand-niob-fluid-catalog-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_OFFICIAL_CATALOG","url":"https://www.niobfluid.cz/ke-stazeni.html","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -503,10 +505,10 @@
       "series": ["mic+", "mic", "nero", "pico+", "nano", "cube", "lcs+", "lcs", "sks", "ucs", "esf-1", "esp-4", "ews", "bks+"],
       "industries": ["Промышленная автоматизация", "Упаковочная промышленность", "Машиностроение", "Логистика"],
       "officialCatalogs":["https://www.microsonic.de/en/support/download/online-catalogue.htm"],
-      "documentationSources": ["https://www.microsonic.de/en/products.htm"],
+      "documentationSources": [],
       "sources": [
         {"sourceId":"brand-microsonic-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_ULTRASONIC_SENSOR_SPECIALISATION","url":"https://www.microsonic.de/en.htm","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-microsonic-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DISTANCE_LABEL_THROUGH_BEAM_AND_EDGE_SENSOR_FAMILIES","url":"https://www.microsonic.de/en/products.htm","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"brand-microsonic-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DISTANCE_LABEL_THROUGH_BEAM_AND_EDGE_SENSOR_FAMILIES","url":"https://www.microsonic.de/en/products.htm","status":"UNAVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -729,10 +731,10 @@
       "series": [],
       "industries": ["Металлообработка", "Строительство", "Камнеобработка", "Машиностроение"],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.tyrolit.group/en/products"],
+      "documentationSources": [],
       "sources": [
         {"sourceId":"brand-tyrolit-home","tier":"A","type":"ABOUT_AND_PRODUCT_DIRECTORY","scope":"CURRENT_IDENTITY_COUNTRY_AND_ABRASIVE_TECHNOLOGY_SPECIALISATION","url":"https://www.tyrolit.group/en","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-tyrolit-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GRINDING_CUTTING_DRILLING_DRESSING_AND_SAWING_FAMILIES","url":"https://www.tyrolit.group/en/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"brand-tyrolit-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"GRINDING_CUTTING_DRILLING_DRESSING_AND_SAWING_FAMILIES","url":"https://www.tyrolit.group/en/products","status":"UNAVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -803,7 +805,7 @@
       "productFamilies": ["Positive Displacement Blowers", "Screw Compressors", "Screw Blowers", "Turbo Blowers", "Control Technology"],
       "series": ["Delta Blower", "Delta Hybrid", "Delta Screw", "Generation 5", "SI", "DS", "SW", "AERtronic", "AERsmart"],
       "industries": ["Водоподготовка", "Пневмотранспорт", "Химическая промышленность", "Пищевая промышленность", "Цементная промышленность", "Морская промышленность"],
-      "officialCatalogs": ["https://www.aerzen.com/fileadmin/user_upload/02_documents/02-01_products/02-01-01_product_overview/Produktuebersicht__A1-004-21__EN_web.pdf"],
+      "officialCatalogs": [],
       "documentationSources": ["https://www.aerzen.com/sitemap", "https://www.aerzen.com/products/screw-compressors/overview"],
       "sources": [
         {"sourceId":"brand-aerzen-company","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_FOUNDED_HEADQUARTERS_AND_COMPRESSION_SPECIALISATION","url":"https://www.aerzen.com/de/unternehmen/profil/unser-kerngeschaeft-komprimierung-von-gasen","status":"AVAILABLE","checkedAt":"2026-08-24"},
@@ -829,10 +831,10 @@
       "series": [],
       "industries": ["Химическая промышленность", "Нефтехимическая промышленность", "Водоподготовка", "Горнодобывающая промышленность", "Целлюлозно-бумажная промышленность"],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.affetti.com/en/products/"],
+      "documentationSources": [],
       "sources": [
         {"sourceId":"brand-affetti-home","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_CORROSION_RESISTANT_PUMP_SPECIALISATION","url":"https://www.affetti.com/en/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"brand-affetti-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CENTRIFUGAL_MAGNETIC_DRIVE_SELF_PRIMING_SUMP_AND_VOLUMETRIC_PUMP_FAMILIES","url":"https://www.affetti.com/en/products/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"brand-affetti-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"CENTRIFUGAL_MAGNETIC_DRIVE_SELF_PRIMING_SUMP_AND_VOLUMETRIC_PUMP_FAMILIES","url":"https://www.affetti.com/en/products/","status":"UNAVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -878,7 +880,7 @@
       "productFamilies": ["Quarter-Turn Actuators", "Multi-Turn Actuators", "Continuous Modulating Actuators", "Fail-Safe Actuators", "Explosion-Proof Actuators", "Control Systems"],
       "series": ["AQ", "AT", "AQX", "SQ", "ST", "BT", "SQX", "STX", "FQ", "FSE", "INTELLI+"],
       "industries": ["Энергетика", "Нефтегазовая промышленность", "Водоподготовка", "Морская промышленность", "Атомная энергетика"],
-      "officialCatalogs": ["https://www.bernardcontrols.com/ressources/_documentation/source/1/eca1947-2350-brochure_AT_ENG_GRP_rev03c_.pdf"],
+      "officialCatalogs": ["https://www.bernardcontrols.com/ressources/_documentation/source/1/1280c7b9-2350-brochure_AT_ENG_GRP_rev04a.pdf"],
       "documentationSources": ["https://www.bernardcontrols.com/en/our-solutions/range"],
       "sources": [
         {"sourceId":"brand-bernard-controls-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HEADQUARTERS_AND_ELECTRIC_ACTUATION_SPECIALISATION","url":"https://www.bernardcontrols.com/en/our-group/electric-actuator-specialist","status":"AVAILABLE","checkedAt":"2026-08-24"},

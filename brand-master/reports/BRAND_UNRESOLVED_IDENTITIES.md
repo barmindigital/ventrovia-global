@@ -2,16 +2,16 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-This report classifies all 308 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
+This report classifies all 309 unresolved records. REVIEW is an explicit data-quality state; it is not converted to SAFE without authoritative identity and product-scope evidence.
 
 ## Pareto by blocker
 
 | Blocker category | Records | Share |
 | --- | ---: | ---: |
-| AMBIGUOUS_IDENTITY | 226 | 73.4% |
-| ACQUISITION_OR_LEGACY | 44 | 14.3% |
+| AMBIGUOUS_IDENTITY | 226 | 73.1% |
+| ACQUISITION_OR_LEGACY | 44 | 14.2% |
 | SOURCE_ACCESS_BLOCKED | 14 | 4.5% |
-| OFFICIAL_SOURCE_NOT_ESTABLISHED | 11 | 3.6% |
+| OFFICIAL_SOURCE_NOT_ESTABLISHED | 12 | 3.9% |
 | NOT_MANUFACTURER_OR_SCOPE_MISMATCH | 5 | 1.6% |
 | POSSIBLE_DUPLICATE | 5 | 1.6% |
 | OTHER | 2 | 0.7% |
@@ -19,7 +19,7 @@ This report classifies all 308 unresolved records. REVIEW is an explicit data-qu
 
 ## Bounded-research queue
 
-The following 25 records are the first retry cohort because their blocker may be resolved through a bounded official-source pass. They remain REVIEW until that pass succeeds.
+The following 26 records are the first retry cohort because their blocker may be resolved through a bounded official-source pass. They remain REVIEW until that pass succeeds.
 
 - KOVOSVIT MAS (`kovosvit-mas`) — SOURCE_ACCESS_BLOCKED
 - RAYCHEM (`raychem`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
@@ -31,6 +31,7 @@ The following 25 records are the first retry cohort because their blocker may be
 - DUTCHI MOTORS (`dutchi-motors`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - HIGRAMIX (`higramix`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - HIRSCHMANN (`hirschmann`) — SOURCE_ACCESS_BLOCKED
+- ICME MOTORS (`icme`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - JACKLE (`jackle`) — SOURCE_ACCESS_BLOCKED
 - LAMBERT MOTORS (`lambert-motors`) — OFFICIAL_SOURCE_NOT_ESTABLISHED
 - MERCER VALVE (`mercer-valve`) — SOURCE_ACCESS_BLOCKED

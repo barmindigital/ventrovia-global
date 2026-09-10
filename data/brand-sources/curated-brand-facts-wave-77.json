@@ -468,10 +468,10 @@
       "series": [],
       "industries": ["Станкостроение", "Металлообработка"],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.deta.com.tw/products"],
+      "documentationSources": [],
       "sources": [
         {"sourceId":"wave77-deta-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_FOUNDATION_LOCATION_AND_CNC_AUTOMATION_SCOPE","url":"https://www.deta.com.tw/aboutus","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-deta-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TOOL_CHANGER_WORKPIECE_CHANGER_ROTARY_TABLE_AND_PERIPHERAL_EQUIPMENT_GROUPS","url":"https://www.deta.com.tw/products","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"wave77-deta-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"TOOL_CHANGER_WORKPIECE_CHANGER_ROTARY_TABLE_AND_PERIPHERAL_EQUIPMENT_GROUPS","url":"https://www.deta.com.tw/products","status":"UNAVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -751,10 +751,11 @@
       "series": [],
       "industries": ["Автомобильная промышленность", "Промышленное оборудование"],
       "officialCatalogs": [],
-      "documentationSources": ["https://www.doga.es/product-category/motors/"],
+      "documentationSources": ["https://www.doga.es/product-category/brushless-motors/"],
       "sources": [
         {"sourceId":"wave77-doga-about","tier":"A","type":"ABOUT","scope":"MANUFACTURER_IDENTITY_COUNTRY_AND_ENGINEERING_SCOPE","url":"https://www.doga.es/global-engineering-and-manufacturing/about-us/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-doga-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTOR_GEARMOTOR_WIPER_WASHER_ELECTRONICS_AND_PLASTIC_SYSTEM_GROUPS","url":"https://www.doga.es/product-category/motors/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"wave77-doga-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MOTOR_GEARMOTOR_WIPER_WASHER_ELECTRONICS_AND_PLASTIC_SYSTEM_GROUPS","url":"https://www.doga.es/product-category/motors/","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"wave77-doga-products-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_PRODUCT_DIRECTORY","url":"https://www.doga.es/product-category/brushless-motors/","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -864,10 +865,11 @@
       "series": [],
       "industries": ["Промышленное строительство", "Складская логистика"],
       "officialCatalogs":["https://www.doorhan.com/products"],
-      "documentationSources": ["https://www.doorhan.com/catalog/"],
+      "documentationSources": ["https://www.doorhan.com/products"],
       "sources": [
         {"sourceId":"wave77-doorhan-about","tier":"A","type":"ABOUT","scope":"GROUP_IDENTITY_AND_DOOR_GATE_LOADING_BUILDING_SCOPE","url":"https://www.doorhan.com/about/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-doorhan-catalog","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DOOR_GATE_AUTOMATION_LOADING_AND_BUILDING_PRODUCT_GROUPS","url":"https://www.doorhan.com/catalog/","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"wave77-doorhan-catalog","tier":"A","type":"PRODUCT_DIRECTORY","scope":"DOOR_GATE_AUTOMATION_LOADING_AND_BUILDING_PRODUCT_GROUPS","url":"https://www.doorhan.com/catalog/","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"wave77-doorhan-catalog-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_PRODUCT_DIRECTORY","url":"https://www.doorhan.com/products","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -988,7 +990,7 @@
       "displayName": "Dossena",
       "aliases": ["DOSSENA"],
       "formerNames": [],
-      "officialWebsite": "https://www.dossena.it/",
+      "officialWebsite": "https://dossena.it/",
       "officialDomains": ["dossena.it"],
       "country": "Italy",
       "headquarters": null,
@@ -1003,11 +1005,12 @@
       "productFamilies": ["Protection Relays", "Control Relays", "Measuring Instruments", "Electrical Network Monitoring"],
       "series": [],
       "industries": ["Энергетика", "Промышленная автоматизация"],
-      "officialCatalogs": ["https://www.dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf"],
-      "documentationSources": ["https://www.dossena.it/"],
+      "officialCatalogs": ["https://dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf"],
+      "documentationSources": ["https://dossena.it/"],
       "sources": [
-        {"sourceId":"wave77-dossena-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_ELECTRICAL_PROTECTION_CONTROL_MEASUREMENT_SCOPE","url":"https://www.dossena.it/","status":"AVAILABLE","checkedAt":"2026-08-24"},
-        {"sourceId":"wave77-dossena-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"PROTECTION_RELAY_CONTROL_RELAY_AND_MEASUREMENT_PRODUCT_GROUPS","url":"https://www.dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}
+        {"sourceId":"wave77-dossena-home","tier":"A","type":"OFFICIAL_WEBSITE","scope":"MANUFACTURER_IDENTITY_AND_ELECTRICAL_PROTECTION_CONTROL_MEASUREMENT_SCOPE","url":"https://www.dossena.it/","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"wave77-dossena-catalog","tier":"A","type":"OFFICIAL_CATALOG","scope":"PROTECTION_RELAY_CONTROL_RELAY_AND_MEASUREMENT_PRODUCT_GROUPS","url":"https://dossena.it/download/Catalogo%20DOSSENA%202019-2020.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"wave77-dossena-home-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_OFFICIAL_WEBSITE","url":"https://dossena.it/","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {

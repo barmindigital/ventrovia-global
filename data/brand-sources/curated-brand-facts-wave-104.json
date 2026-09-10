@@ -415,11 +415,12 @@
       "series": [],
       "industries": ["Химическая промышленность", "Энергетика", "Пищевая промышленность", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": ["https://vahterus.com/products/"],
+      "documentationSources": [],
       "sources": [
-        {"sourceId": "brand-vahterus-official", "tier": "A", "type": "OFFICIAL_SITE", "scope": "MANUFACTURER_IDENTITY_AND_PLATE_SHELL_SCOPE", "url": "https://vahterus.com/", "status": "AVAILABLE", "checkedAt": "2026-08-24"},
-        {"sourceId": "brand-vahterus-products", "tier": "A", "type": "PRODUCT_DIRECTORY", "scope": "HEAT_EXCHANGER_PRODUCT_SCOPE", "url": "https://vahterus.com/products/", "status": "AVAILABLE", "checkedAt": "2026-08-24"}
-      ,{"sourceId":"brand-vahterus-founding-year","tier":"A","type":"COMPANY_HISTORY_PAGE","scope":"FOUNDING_YEAR","url":"https://vahterus.com/company/","status":"AVAILABLE","checkedAt":"2026-09-01"}]
+        {"sourceId":"brand-vahterus-official","tier":"A","type":"OFFICIAL_SITE","scope":"MANUFACTURER_IDENTITY_AND_PLATE_SHELL_SCOPE","url":"https://vahterus.com/","status":"AVAILABLE","checkedAt":"2026-08-24"},
+        {"sourceId":"brand-vahterus-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"HEAT_EXCHANGER_PRODUCT_SCOPE","url":"https://vahterus.com/products/","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"brand-vahterus-founding-year","tier":"A","type":"COMPANY_HISTORY_PAGE","scope":"FOUNDING_YEAR","url":"https://vahterus.com/company/","status":"AVAILABLE","checkedAt":"2026-09-01"}
+      ]
     },
     {
       "manufacturerId": "vaisala",
@@ -490,7 +491,7 @@
       "productFamilies": ["Driving Assistance Systems", "Electric Powertrain Systems", "Thermal Management Systems", "Lighting Systems", "Wiper Systems", "Interior Experience"],
       "series": ["SCALA", "360Vue", "AquaBlade"],
       "industries": ["Автомобильная промышленность", "Транспорт"],
-      "officialCatalogs":["https://www.valeo.com/dokumentation"],
+      "officialCatalogs":[],
       "documentationSources": ["https://www.valeo.com/en/valeo-technologies-portfolio/"],
       "sources": [
         {"sourceId": "brand-valeo-mission", "tier": "A", "type": "ABOUT_PAGE", "scope": "COMPANY_IDENTITY_AND_CORE_ACTIVITY_SCOPE", "url": "https://www.valeo.com/en/mission-and-key-figures/", "status": "AVAILABLE", "checkedAt": "2026-08-24"},

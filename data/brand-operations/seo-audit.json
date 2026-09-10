@@ -30079,17 +30079,17 @@
   },
   {
     "manufacturerId": "icme",
-    "indexable": true,
+    "indexable": false,
     "canonicalExpected": "/manufacturers/icme",
-    "title": "ICME Motors electric motors | Ventrovia",
-    "metaDescription": "Source ICME Motors equipment across electric motors. Send the complete part number, model or specification for pricing and lead-time review.",
-    "primaryIntent": "ICME Motors electric motors",
+    "title": "ICME MOTORS equipment sourcing | Ventrovia",
+    "metaDescription": "Request sourcing support for ICME MOTORS equipment using the complete model, part number or technical specification.",
+    "primaryIntent": "ICME MOTORS equipment sourcing",
     "secondaryIntents": [
-      "ICME Motors industrial equipment",
-      "ICME Motors RFQ"
+      "ICME MOTORS industrial equipment",
+      "ICME MOTORS RFQ"
     ],
-    "metadataPolicy": "UNIQUE_FACTUAL",
-    "brandSchemaAllowed": true,
+    "metadataPolicy": "NOINDEX_RFQ_ONLY",
+    "brandSchemaAllowed": false,
     "breadcrumbSchemaAllowed": true,
     "productDataAllowed": false,
     "productSchemaAllowed": false,

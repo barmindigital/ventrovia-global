@@ -72,7 +72,7 @@
       "productFamilies": ["UV Systems", "LED UV Systems", "EXIcure", "THERMOcure", "UV Analyzer", "Laboratory Units"],
       "series": ["BLK", "MBS C", "MBS L", "LEDcure NX", "HANDcure", "SPOTcure"],
       "industries": ["Полиграфическая промышленность", "Промышленное производство", "Электроника"],
-      "officialCatalogs": ["https://www.ist-uv.com/fileadmin/IST-UV/Unternehmen/Broschueren/IST_METZ_Gesamtproduktkatalog-2024_EN_web.pdf"],
+      "officialCatalogs": [],
       "documentationSources": ["https://www.ist-uv.com/en-us/products", "https://www.ist-uv.com/en-us/company/downloads"],
       "sources": [{"sourceId":"wave86-ist-metz-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_UV_LED_IR_EXCIMER_PRODUCT_SCOPE","url":"https://www.ist-uv.com/en-us/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
@@ -139,7 +139,7 @@
       "productFamilies": ["Inverters", "Pressure and Flow Controllers", "Pressure Switches", "Pump-Control Accessories"],
       "series": ["Nettuno", "Sirio", "Brio", "Argo", "Spin", "PM", "PT", "PS"],
       "industries": ["Водоснабжение и водоочистка", "Промышленное производство"],
-      "officialCatalogs": ["https://www.italtecnica.com/sites/default/files/Catalogo%20A5%202026_1.pdf"],
+      "officialCatalogs": ["https://www.italtecnica.com/en/download-center"],
       "documentationSources": ["https://www.italtecnica.com/en/content/products"],
       "sources": [{"sourceId":"wave86-italtecnica-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"MANUFACTURER_IDENTITY_LOCATION_AND_PUMP_CONTROL_PRODUCT_SCOPE","url":"https://www.italtecnica.com/en/content/products","status":"AVAILABLE","checkedAt":"2026-08-24"}]
     },
@@ -362,9 +362,9 @@
       "productFamilies": ["Power Quality Analyzers", "Energy Meters", "Residual Current Monitoring", "Data Loggers", "Energy Management Software"],
       "series": ["UMG", "GridVis"],
       "industries": ["Электроэнергетика", "Промышленное производство", "Здания и HVAC"],
-      "officialCatalogs": ["https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf"],
+      "officialCatalogs": ["https://www.janitza.com/en/downloads"],
       "documentationSources": ["https://www.janitza.com/"],
-      "sources": [{"sourceId":"wave86-janitza-guide","tier":"A","type":"OFFICIAL_PRODUCT_GUIDE","scope":"MANUFACTURER_IDENTITY_AND_POWER_QUALITY_ENERGY_MONITORING_SCOPE","url":"https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "sources": [{"sourceId":"wave86-janitza-guide","tier":"A","type":"OFFICIAL_PRODUCT_GUIDE","scope":"MANUFACTURER_IDENTITY_AND_POWER_QUALITY_ENERGY_MONITORING_SCOPE","url":"https://assets.janitza.com/2sy6zv1cbi8q/12nFzgio1Cpq9Awcki9GhC/d283c8629abdd14342927d11ed6d9dc6/Janitza_electronics-Product_Selection_Guide_2026.pdf","status":"UNAVAILABLE","checkedAt":"2026-09-10"},{"sourceId":"wave86-janitza-guide-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_OFFICIAL_PRODUCT_GUIDE","url":"https://www.janitza.com/en/downloads","status":"AVAILABLE","checkedAt":"2026-09-10"}]
     },
     {
       "manufacturerId": "jaure-kop-flex",
@@ -571,8 +571,8 @@
       "displayName": "John Zink Hamworthy Combustion",
       "aliases": ["JOHN ZINK HAMWORTHY COMBUSTION", "John Zink", "Hamworthy Combustion"],
       "formerNames": [],
-      "officialWebsite": "https://www.hamworthy-combustion.com/",
-      "officialDomains": ["hamworthy-combustion.com", "johnzinkhamworthy.com"],
+      "officialWebsite": "https://www.johnzink.com/",
+      "officialDomains": ["hamworthy-combustion.com", "johnzinkhamworthy.com", "johnzink.com"],
       "country": null,
       "headquarters": null,
       "foundedYear": null,
@@ -585,8 +585,8 @@
       "series": [],
       "industries": ["Нефтегазовая промышленность", "Химическая промышленность", "Энергетика", "Промышленное производство"],
       "officialCatalogs": [],
-      "documentationSources": ["https://hamworthy-combustion.com/products-applications/", "https://www.hamworthy-combustion.com/about/"],
-      "sources": [{"sourceId":"wave86-john-zink-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_RELATION_AND_COMBUSTION_EMISSIONS_SCOPE","url":"https://hamworthy-combustion.com/products-applications/","status":"AVAILABLE","checkedAt":"2026-08-24"}]
+      "documentationSources": ["https://www.johnzink.com/products"],
+      "sources": [{"sourceId":"wave86-john-zink-products","tier":"A","type":"PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_RELATION_AND_COMBUSTION_EMISSIONS_SCOPE","url":"https://hamworthy-combustion.com/products-applications/","status":"UNAVAILABLE","checkedAt":"2026-09-10"},{"sourceId":"wave86-john-zink-products-current","tier":"A","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_PRODUCT_DIRECTORY","url":"https://www.johnzink.com/products","status":"AVAILABLE","checkedAt":"2026-09-10"}]
     },
     {
       "manufacturerId": "jokab-safety",

@@ -62,7 +62,7 @@
       "displayName": "Benier / Kaak Dough Technology",
       "aliases": ["BENIER", "Benier Nederland", "KAAK DOUGH TECHNOLOGY"],
       "formerNames": ["Benier Nederland B.V.", "Benier"],
-      "officialWebsite": "https://kaak.com/locations/royalkaak-dough-technology/",
+      "officialWebsite": "https://kaak.com/locations/kaak-dough-technology/",
       "officialDomains": ["kaak.com"],
       "country": "Netherlands",
       "headquarters": "Nieuwkuijk, Netherlands",
@@ -76,10 +76,11 @@
       "series": ["Benier", "DrieM"],
       "industries": ["Хлебопекарная промышленность", "Промышленные пекарни", "Пищевое производство"],
       "officialCatalogs": [],
-      "documentationSources": ["https://kaak.com/benier-nederland-b-v/", "https://kaak.com/locations/royalkaak-dough-technology/"],
+      "documentationSources": ["https://kaak.com/benier-nederland-b-v/", "https://kaak.com/locations/kaak-dough-technology/"],
       "sources": [
         {"sourceId":"brand-benier-kaak-rename","tier":"B","type":"PARENT_BRAND_HISTORY","scope":"FORMER_NAME_CURRENT_IDENTITY_PARENT_LOCATION_HISTORY_AND_PRODUCT_SCOPE","url":"https://kaak.com/benier-nederland-b-v/","status":"AVAILABLE","checkedAt":"2026-08-20"},
-        {"sourceId":"brand-benier-kaak-products","tier":"B","type":"PARENT_COMPANY_PROFILE","scope":"PRODUCT_GROUPS_BRANDS_AND_BAKERY_APPLICATIONS","url":"https://kaak.com/locations/royalkaak-dough-technology/","status":"AVAILABLE","checkedAt":"2026-08-20"}
+        {"sourceId":"brand-benier-kaak-products","tier":"B","type":"PARENT_COMPANY_PROFILE","scope":"PRODUCT_GROUPS_BRANDS_AND_BAKERY_APPLICATIONS","url":"https://kaak.com/locations/royalkaak-dough-technology/","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"brand-benier-kaak-products-current","tier":"B","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_PARENT_COMPANY_PROFILE","url":"https://kaak.com/locations/kaak-dough-technology/","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
@@ -127,7 +128,7 @@
       "productFamilies": ["Glow Plugs", "Pressure Sensor Glow Plugs", "Glow Control Units", "Spark Plugs", "Ignition Coils", "Engine Sensors"],
       "series": ["ISS", "PSG", "CGP", "Ultra", "Ultra Plus Titan"],
       "industries": ["Автомобильная промышленность", "Дизельные двигатели", "Автомобильный сервис"],
-      "officialCatalogs": ["https://www.beruparts.eu/content/dam/marketing/emea/beru/catalogue/spark-glow-plugs-ignition-catalogue.pdf"],
+      "officialCatalogs": [],
       "documentationSources": ["https://www.beruparts.eu/"],
       "sources": [
         {"sourceId":"brand-beru-official-overview","tier":"A","type":"OFFICIAL_DOCUMENT","scope":"BRAND_OWNERSHIP_PRODUCT_GROUPS_SERIES_AND_TECHNOLOGIES","url":"https://www.beruparts.eu/content/dam/marketing/emea/beru/brochure/en-all-about-coil-plugs-new.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"},

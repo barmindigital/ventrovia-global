@@ -2,14 +2,14 @@
 
 Generated: 2026-08-24T00:00:00.000Z
 
-- SAFE brands: 2395
+- SAFE brands: 2394
 - SAFE with publishable identity-matched logo: 2090
-- SAFE without logo: 305
+- SAFE without logo: 304
 - Registry mappings excluded because identity is not SAFE: 30
 
 ## Priority distribution
 
-- HIGH: 305
+- HIGH: 304
 
 ## First 100 gaps
 

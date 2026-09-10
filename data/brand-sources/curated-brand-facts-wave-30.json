@@ -430,7 +430,7 @@
       "officialCatalogs": [
         "https://www.facetfiltration.com/resources/catalogs/",
         "https://www.facetfiltration.com/wp-content/uploads/sites/2/2026/01/Aviation-Brochure-20260126.pdf",
-        "https://www.facetfiltration.com/wp-content/uploads/sites/2/2022/03/Facet-Industrial-Applications_20230915LTR.pdf"
+        "https://www.facetfiltration.com/products/industrial-products/"
       ],
       "documentationSources": [
         "https://www.facetfiltration.com/products/",
@@ -497,8 +497,8 @@
           "type": "OFFICIAL_PRODUCT_BROCHURE",
           "scope": "INDUSTRIAL_FAMILY_CATEGORY_SERIES_AND_APPLICATION",
           "url": "https://www.facetfiltration.com/wp-content/uploads/sites/2/2022/03/Facet-Industrial-Applications_20230915LTR.pdf",
-          "status": "AVAILABLE",
-          "checkedAt": "2026-08-19"
+          "status": "UNAVAILABLE",
+          "checkedAt": "2026-09-10"
         },
         {
           "sourceId": "brand-facet-filtration-donaldson-acquisition",
@@ -517,6 +517,15 @@
           "url": "https://www.donaldson.com/en/resources/news/donaldson-acquires-facet-fuel-fluid-filtration/",
           "status": "AVAILABLE",
           "checkedAt": "2026-08-19"
+        },
+        {
+          "sourceId": "brand-facet-filtration-industrial-brochure-current",
+          "tier": "A",
+          "type": "CURRENT_OFFICIAL_PAGE",
+          "scope": "REPLACES_REMOVED_OFFICIAL_PRODUCT_BROCHURE",
+          "url": "https://www.facetfiltration.com/products/industrial-products/",
+          "status": "AVAILABLE",
+          "checkedAt": "2026-09-10"
         }
       ]
     }

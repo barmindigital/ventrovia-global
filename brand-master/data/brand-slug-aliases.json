@@ -19891,13 +19891,16 @@
       "brandId": "icme",
       "canonicalSlug": "icme",
       "nameAliases": [
-        "ICME MOTORS",
-        "ICME"
+        "ICME MOTORS"
       ],
-      "safeAliasSlugs": [
-        "icme-motors"
-      ],
-      "blockedAliasSlugs": []
+      "safeAliasSlugs": [],
+      "blockedAliasSlugs": [
+        {
+          "aliasSlug": "icme-motors",
+          "reason": "MULTIPLE_IDENTITY_OWNERS",
+          "owners": []
+        }
+      ]
     },
     {
       "brandId": "icp-das",

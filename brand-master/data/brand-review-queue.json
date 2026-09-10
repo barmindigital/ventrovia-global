@@ -1,27 +1,27 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-24T00:00:00.000Z",
-  "totalReview": 308,
+  "totalReview": 309,
   "blockerCounts": [
     {
       "blockerCategory": "AMBIGUOUS_IDENTITY",
       "count": 226,
-      "share": 0.7338
+      "share": 0.7314
     },
     {
       "blockerCategory": "ACQUISITION_OR_LEGACY",
       "count": 44,
-      "share": 0.1429
+      "share": 0.1424
     },
     {
       "blockerCategory": "SOURCE_ACCESS_BLOCKED",
       "count": 14,
-      "share": 0.0455
+      "share": 0.0453
     },
     {
       "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
-      "count": 11,
-      "share": 0.0357
+      "count": 12,
+      "share": 0.0388
     },
     {
       "blockerCategory": "NOT_MANUFACTURER_OR_SCOPE_MISMATCH",
@@ -190,6 +190,23 @@
       "attemptedUrls": [
         "https://www.belden.com/products/industrial-networking-cybersecurity/industrial-networking",
         "https://www.hirschmann-mcs.com/"
+      ],
+      "effortClass": "NORMAL"
+    },
+    {
+      "brandId": "icme",
+      "displayName": "ICME MOTORS",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+      "reason": "The recorded official domain icmemotori.com no longer resolves in DNS (checked 2026-09-10), and icme.it is a parked domain offered for sale. No other live manufacturer-owned HTTPS page for ICME S.p.A. could be found, so the profile has no available authoritative source until the company publishes a new site.",
+      "detail": null,
+      "attemptedUrls": [
+        "https://www.icmemotori.com/en/",
+        "https://www.icmemotori.com/en/products/",
+        "https://www.icme.it/",
+        "https://www.icmemotori.it/"
       ],
       "effortClass": "NORMAL"
     },
@@ -2536,6 +2553,23 @@
         "https://www.hyco.com.co/"
       ],
       "effortClass": "EXPENSIVE"
+    },
+    {
+      "brandId": "icme",
+      "displayName": "ICME MOTORS",
+      "aliases": [],
+      "state": "REQUIRES_REVIEW",
+      "blockerCode": "BLOCKED_NO_AUTHORITATIVE_SOURCE",
+      "blockerCategory": "OFFICIAL_SOURCE_NOT_ESTABLISHED",
+      "reason": "The recorded official domain icmemotori.com no longer resolves in DNS (checked 2026-09-10), and icme.it is a parked domain offered for sale. No other live manufacturer-owned HTTPS page for ICME S.p.A. could be found, so the profile has no available authoritative source until the company publishes a new site.",
+      "detail": null,
+      "attemptedUrls": [
+        "https://www.icmemotori.com/en/",
+        "https://www.icmemotori.com/en/products/",
+        "https://www.icme.it/",
+        "https://www.icmemotori.it/"
+      ],
+      "effortClass": "NORMAL"
     },
     {
       "brandId": "iks-group-of-companies",

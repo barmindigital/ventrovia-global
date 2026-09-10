@@ -96,7 +96,7 @@
       "productFamilies": ["Hybrid Inverters", "Battery Inverters", "Solar Chargers", "Integrated ESS Solutions", "Monitoring and Communication"],
       "series": ["next1", "next3", "xtender", "AJ", "vario", "infra"],
       "industries": ["Автономная энергетика", "Солнечная энергетика", "Резервное электроснабжение", "Микросети", "Мобильные энергетические системы"],
-      "officialCatalogs": ["https://studer-innotec.com/wp-content/uploads/2023/03/Web_Studer_catalogue_2025_v1.6.pdf"],
+      "officialCatalogs": [],
       "documentationSources": ["https://studer-innotec.com/products/", "https://studer-innotec.com/downloads/"],
       "sources": [
         {"sourceId":"brand-studer-company","tier":"A","type":"ABOUT_AND_HISTORY","scope":"LEGAL_IDENTITY_FORMER_NAME_FOUNDED_HEADQUARTERS_MANUFACTURING_AND_SPECIALISATION","url":"https://studer-innotec.com/company/","status":"AVAILABLE","checkedAt":"2026-08-20"},
@@ -323,7 +323,7 @@
       "productFamilies": ["Mounted Bearings", "Enclosed Gearing", "Mechanical Drives", "Couplings", "Conveyor Components", "IIoT Technologies"],
       "series": ["TXT", "Torque-Arm II", "Tigear-2", "Maxum XTR", "MagnaGear XTR", "Raptor", "Para-Flex", "OPTIFY"],
       "industries": ["Конвейерные системы", "Горнодобывающая промышленность", "Цементная промышленность", "Пищевая промышленность", "Энергетика"],
-      "officialCatalogs": ["https://dodgeindustrial.com/wp-content/uploads/2023/01/64b72e76-d976-4aee-b0b1-af2d004fed7b.pdf"],
+      "officialCatalogs": [],
       "documentationSources": ["https://dodgeindustrial.com/products/", "https://dodgeindustrial.com/document-library/"],
       "sources": [
         {"sourceId":"brand-dodge-about","tier":"A","type":"ABOUT","scope":"LEGAL_IDENTITY_HISTORY_HEADQUARTERS_AND_SPECIALISATION","url":"https://dodgeindustrial.com/about/","status":"AVAILABLE","checkedAt":"2026-08-20"},
@@ -412,8 +412,8 @@
       "displayName": "Exlar",
       "aliases": ["EXLAR", "Exlar Corporation"],
       "formerNames": [],
-      "officialWebsite": "https://www.cw-actuation.com/en-us/products",
-      "officialDomains": ["cw-actuation.com"],
+      "officialWebsite": "https://actuation.curtisswright.com/",
+      "officialDomains": ["cw-actuation.com", "actuation.curtisswright.com"],
       "country": "United States",
       "headquarters": "Chanhassen, Minnesota, United States",
       "foundedYear": null,
@@ -426,10 +426,11 @@
       "series": ["FTP", "FTX", "KX", "GTX", "GTW", "GSX", "Tritex TTX", "Tritex T2X", "R2G", "R2M", "RDG", "RDM"],
       "industries": ["Промышленная автоматизация", "Прессовое оборудование", "Машиностроение", "Испытательное оборудование"],
       "officialCatalogs": ["https://actuation.curtisswright.com/sites/default/files/Industrial-Exlar/Exlar-Products/Product-Overview-10-24.pdf"],
-      "documentationSources": ["https://www.cw-actuation.com/en-us/products"],
+      "documentationSources": ["https://actuation.curtisswright.com/"],
       "sources": [
-        {"sourceId":"brand-exlar-products","tier":"B","type":"PARENT_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_PRODUCT_GROUPS_AND_SERIES","url":"https://www.cw-actuation.com/en-us/products","status":"AVAILABLE","checkedAt":"2026-08-20"},
-        {"sourceId":"brand-exlar-product-overview","tier":"B","type":"PARENT_OFFICIAL_DOCUMENT","scope":"PRODUCT_GROUPS_SERIES_TECHNOLOGY_AND_HEADQUARTERS","url":"https://actuation.curtisswright.com/sites/default/files/Industrial-Exlar/Exlar-Products/Product-Overview-10-24.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"}
+        {"sourceId":"brand-exlar-products","tier":"B","type":"PARENT_PRODUCT_DIRECTORY","scope":"BRAND_IDENTITY_PARENT_PRODUCT_GROUPS_AND_SERIES","url":"https://www.cw-actuation.com/en-us/products","status":"UNAVAILABLE","checkedAt":"2026-09-10"},
+        {"sourceId":"brand-exlar-product-overview","tier":"B","type":"PARENT_OFFICIAL_DOCUMENT","scope":"PRODUCT_GROUPS_SERIES_TECHNOLOGY_AND_HEADQUARTERS","url":"https://actuation.curtisswright.com/sites/default/files/Industrial-Exlar/Exlar-Products/Product-Overview-10-24.pdf","status":"AVAILABLE","checkedAt":"2026-08-20"},
+        {"sourceId":"brand-exlar-products-current","tier":"B","type":"CURRENT_OFFICIAL_PAGE","scope":"REPLACES_REMOVED_PARENT_PRODUCT_DIRECTORY","url":"https://actuation.curtisswright.com/","status":"AVAILABLE","checkedAt":"2026-09-10"}
       ]
     },
     {
