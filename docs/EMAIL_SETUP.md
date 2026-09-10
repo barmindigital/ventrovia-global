@@ -25,6 +25,26 @@ is verified the RFQ form returns a visible error with a `mailto:` fallback.
 The MX and DKIM records strongly indicate a partial Google Workspace setup, but
 they do not prove that the `sales` mailbox exists or receives mail.
 
+## Direct delivery (current transport, no provider account)
+
+Without `RESEND_API_KEY`, `/api/request` delivers each enquiry itself: it looks
+up the MX of every recipient domain and speaks SMTP on port 25 with STARTTLS
+(`app/lib/direct-mail.ts`). Recipients are `REQUEST_TO_EMAIL`
+(default `info@aihamyn.ae`) and the secondary contact mailbox; the envelope and
+From address is `requests@aihamyn.ae`, HELO `mail.aihamyn.ae`. The outcome of
+every attempt is written to the Timeweb application log as `RFQ direct delivery`.
+If no recipient server accepts the message, the visitor gets the usual
+`mailto:` fallback, so an enquiry is never silently lost.
+
+For receiving servers (Google in particular) to accept these messages:
+
+1. SPF must authorise the app IP: `v=spf1 ip4:72.56.72.134 include:_spf.google.com ~all`.
+2. `mail.aihamyn.ae` must have an A record pointing to `72.56.72.134`.
+3. The IP needs reverse DNS (PTR) `mail.aihamyn.ae`; only Timeweb support can
+   set it for an App Platform IP.
+
+Tests set `MAIL_DELIVERY=disabled` so no test ever sends real mail.
+
 ## Receiving mailbox — deferred owner action
 
 Only an authorized mailbox/domain administrator may later confirm Gmail,

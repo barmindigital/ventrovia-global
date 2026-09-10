@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { sendDirect } from "@/app/lib/direct-mail";
 import { siteContent } from "@/app/lib/site-content";
 import { SITE_BRAND, SITE_URL } from "@/app/lib/site-brand";
 import {
@@ -17,6 +18,11 @@ const REQUEST_EMAIL = REQUEST_EMAIL_PATTERN.test(configuredRequestEmail)
 const FROM_EMAIL = REQUEST_EMAIL_PATTERN.test(configuredFromEmail)
   ? configuredFromEmail
   : `${SITE_BRAND.displayName} RFQ <requests@${new URL(SITE_URL).hostname}>`;
+// Without a Resend key the enquiry is delivered straight to the recipients' mail
+// servers from this host; SPF for aihamyn.ae authorises the host's IP.
+const DIRECT_RECIPIENTS = [...new Set([REQUEST_EMAIL, SITE_BRAND.emailSecondary])];
+const DIRECT_FROM_ADDRESS = `requests@${new URL(SITE_URL).hostname}`;
+const DIRECT_HELO_NAME = process.env.MAIL_HELO_NAME?.trim() || `mail.${new URL(SITE_URL).hostname}`;
 const MAX_FILE_BYTES = 15 * 1024 * 1024;
 const MAX_FILES = 5;
 const MAX_REQUEST_BYTES = MAX_FILE_BYTES + 128_000;
@@ -244,16 +250,6 @@ export async function POST(request: Request) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json(
-      {
-        ok: false,
-        fallback: true,
-        message: "Online submission is temporarily unavailable. Please send your enquiry by email using the link below.",
-      },
-      { status: 503 },
-    );
-  }
 
   const receivedAt = new Intl.DateTimeFormat("en-GB", {
     dateStyle: "medium",
@@ -324,6 +320,55 @@ export async function POST(request: Request) {
         .join("")}
     </table>
   `;
+
+  if (!apiKey && process.env.MAIL_DELIVERY === "disabled") {
+    return NextResponse.json(
+      {
+        ok: false,
+        fallback: true,
+        message: "Online submission is temporarily unavailable. Please send your enquiry by email using the link below.",
+      },
+      { status: 503 },
+    );
+  }
+
+  if (!apiKey) {
+    const delivery = await sendDirect(
+      {
+        fromAddress: DIRECT_FROM_ADDRESS,
+        fromName: `${SITE_BRAND.displayName} RFQ`,
+        to: DIRECT_RECIPIENTS,
+        replyTo: fields.email || undefined,
+        subject,
+        text,
+        html,
+        attachments: await Promise.all(
+          uploadedFiles.map(async (file) => ({
+            filename: safeAttachmentName(file.name),
+            contentType: file.type || "application/octet-stream",
+            content: new Uint8Array(await file.arrayBuffer()),
+          })),
+        ),
+      },
+      { heloName: DIRECT_HELO_NAME, timeoutMs: 15_000 },
+    ).catch((error: Error) => ({ delivered: false, results: [{ error: error.message }] }));
+    // The outcome lands in the Timeweb application log for every enquiry.
+    console.log("RFQ direct delivery", JSON.stringify(delivery.results));
+    if (!delivery.delivered) {
+      return NextResponse.json(
+        {
+          ok: false,
+          fallback: true,
+          message: "Online submission is temporarily unavailable. Please send your enquiry by email using the link below.",
+        },
+        { status: 502 },
+      );
+    }
+    return NextResponse.json({
+      ok: true,
+      message: "The enquiry was sent successfully.",
+    });
+  }
 
   const attachments = uploadedFiles.length
     ? await Promise.all(

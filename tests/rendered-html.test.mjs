@@ -8,6 +8,9 @@ async function worker() {
   return (await import(workerUrl.href)).default;
 }
 
+// The enquiry route would otherwise deliver real email straight to the recipients' mail servers.
+process.env.MAIL_DELIVERY = "disabled";
+
 const context = { waitUntil() {}, passThroughOnException() {} };
 const env = { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } };
 
@@ -128,7 +131,7 @@ test("brand administration is authenticated and server-only", async () => {
   assert.match(response.headers.get("cache-control") ?? "", /private, no-store/);
 });
 
-test("RFQ endpoint fails visibly until mail infrastructure is configured", async () => {
+test("RFQ endpoint fails visibly when mail delivery is unavailable", async () => {
   const response = await (await worker()).fetch(new Request("https://aihamyn.ae/api/request", {
     method: "POST",
     headers: { "content-type": "application/json" },
