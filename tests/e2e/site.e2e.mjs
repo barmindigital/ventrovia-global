@@ -16,7 +16,6 @@ const BASE = (process.env.E2E_BASE_URL ?? "https://aihamyn.ae").replace(/\/$/, "
 const PHONE_DISPLAY = "+971 50 981 2776";
 const PHONE_HREF = "tel:+971509812776";
 const EMAIL = "info@aihamyn.ae";
-const EMAIL_SECONDARY = "v9859697368@gmail.com";
 const KEY_PAGES = ["/", "/manufacturers", "/about", "/services", "/contacts", "/privacy", "/manufacturers/bosch-rexroth", "/manufacturers/logos"];
 const NAVIGATION = [
   ["Home", "/"],
@@ -37,6 +36,7 @@ const FORBIDDEN_TEXT = [
   [/\b(?:Inc|Ltd|Corp|Co|S\.p\.A|S\.r\.l)\.\./, "double full stop after a company suffix"],
   [/\bThe The\b/, "doubled article"],
   [/\+7[\s(]\d/, "former Russian phone number"],
+  [/v9859697368|@gmail\.com/i, "removed personal email"],
 ];
 
 let browser;
@@ -223,7 +223,7 @@ describe("Pages in the browser", () => {
         return { tel: [...footer.querySelectorAll('a[href^="tel:"]')].map((a) => a.getAttribute('href')), mail: [...footer.querySelectorAll('a[href^="mailto:"]')].map((a) => a.getAttribute('href')), text: footer.innerText };
       })()`);
       assert.deepEqual(footer.tel, [PHONE_HREF]);
-      assert.deepEqual(footer.mail, [`mailto:${EMAIL}`, `mailto:${EMAIL_SECONDARY}`]);
+      assert.deepEqual(footer.mail, [`mailto:${EMAIL}`]);
       assert.match(footer.text, /Dubai, United Arab Emirates/);
       assert.match(footer.text, new RegExp(PHONE_DISPLAY.replace(/\+/g, "\\+")));
     });
@@ -289,7 +289,7 @@ describe("Header, footer and contacts", () => {
   test("contact page lists both mailboxes and the phone", async () => {
     await page.goto(url("/contacts"));
     const contacts = await page.eval("[...document.querySelectorAll('.contact-lines a')].map((a) => a.getAttribute('href'))");
-    assert.deepEqual(contacts, [PHONE_HREF, `mailto:${EMAIL}`, `mailto:${EMAIL_SECONDARY}`]);
+    assert.deepEqual(contacts, [PHONE_HREF, `mailto:${EMAIL}`]);
   });
 
   test("quick-contact dock appears after the hero and can be collapsed", async () => {

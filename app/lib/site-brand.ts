@@ -10,7 +10,6 @@ export const SITE_BRAND = Object.freeze({
   locale: "en",
   baseLocation: "Dubai, United Arab Emirates",
   email: "info@aihamyn.ae",
-  emailSecondary: "v9859697368@gmail.com",
   phoneDisplay: "+971 50 981 2776",
   phoneHref: "+971509812776",
   address: {

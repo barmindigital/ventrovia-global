@@ -12,7 +12,7 @@ import {
 
 const configuredRequestEmail = process.env.REQUEST_TO_EMAIL?.trim() ?? "";
 const configuredFromEmail = process.env.REQUEST_FROM_EMAIL?.trim() ?? "";
-const REQUEST_EMAIL_PATTERN = /@(?:[a-z0-9-]+\.)*(?:aihamyn\.ae|gmail\.com)>?$/i;
+const REQUEST_EMAIL_PATTERN = /@(?:[a-z0-9-]+\.)*aihamyn\.ae>?$/i;
 const REQUEST_EMAIL = REQUEST_EMAIL_PATTERN.test(configuredRequestEmail)
   ? configuredRequestEmail
   : siteContent.contacts.email;

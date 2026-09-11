@@ -32,7 +32,6 @@ export function SiteFooter() {
             <strong>{SITE_BRAND.baseLocation}</strong><br />
             <PhoneAction>{SITE_BRAND.phoneDisplay}</PhoneAction><br />
             <a href={`mailto:${SITE_BRAND.email}`}>{SITE_BRAND.email}</a><br />
-            <a href={`mailto:${SITE_BRAND.emailSecondary}`}>{SITE_BRAND.emailSecondary}</a><br />
             {[SITE_BRAND.address.line1, SITE_BRAND.address.line2, SITE_BRAND.address.line3].filter(Boolean).map((line) => <span key={line}>{line}<br /></span>)}
           </div>
         </div>
