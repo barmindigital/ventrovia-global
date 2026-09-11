@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sendDirect } from "@/app/lib/direct-mail";
+import { hasForwardConfirmedReverseDns, sendDirect } from "@/app/lib/direct-mail";
 import { siteContent } from "@/app/lib/site-content";
 import { SITE_BRAND, SITE_URL } from "@/app/lib/site-brand";
 import {
@@ -105,6 +105,18 @@ async function hasExpectedFileSignature(file: File) {
   return signatures.some((signature) =>
     signature.every((value, index) => bytes[index] === value),
   );
+}
+
+let reverseDnsCheck: { ready: boolean; checkedAt: number } | null = null;
+
+// Checked at most every ten minutes, so delivery switches on by itself once
+// Timeweb publishes the PTR record for the app IP.
+async function directDeliveryReady() {
+  if (!reverseDnsCheck || Date.now() - reverseDnsCheck.checkedAt > 10 * 60_000) {
+    reverseDnsCheck = { ready: await hasForwardConfirmedReverseDns(DIRECT_HELO_NAME), checkedAt: Date.now() };
+    if (!reverseDnsCheck.ready) console.log(`RFQ direct delivery waits for reverse DNS of ${DIRECT_HELO_NAME}`);
+  }
+  return reverseDnsCheck.ready;
 }
 
 export async function POST(request: Request) {
@@ -321,7 +333,7 @@ export async function POST(request: Request) {
     </table>
   `;
 
-  if (!apiKey && process.env.MAIL_DELIVERY === "disabled") {
+  if (!apiKey && (process.env.MAIL_DELIVERY === "disabled" || !(await directDeliveryReady()))) {
     return NextResponse.json(
       {
         ok: false,

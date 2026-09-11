@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import test from "node:test";
 import tls from "node:tls";
-import { buildMessage, sendDirect } from "../app/lib/direct-mail.ts";
+import { buildMessage, hasForwardConfirmedReverseDns, sendDirect } from "../app/lib/direct-mail.ts";
 
 // A minimal SMTP server that records the dialogue and the DATA payload.
 function fakeSmtp({ rejectRecipient = null, dataReply = "250 2.0.0 OK queued", tlsCredentials = null } = {}) {
@@ -171,4 +171,12 @@ test("gives up cleanly when no MX host answers", async () => {
   });
   assert.equal(result.delivered, false);
   assert.match(result.results[0].error, /127\.0\.0\.1/);
+});
+
+test("delivery waits for forward-confirmed reverse DNS", async () => {
+  const lookup = async () => ["72.56.72.134"];
+  assert.equal(await hasForwardConfirmedReverseDns("mail.aihamyn.ae", { lookup, reverseLookup: async () => ["mail.aihamyn.ae."] }), true);
+  assert.equal(await hasForwardConfirmedReverseDns("mail.aihamyn.ae", { lookup, reverseLookup: async () => ["72-56-72-134.example-cloud.net"] }), false);
+  assert.equal(await hasForwardConfirmedReverseDns("mail.aihamyn.ae", { lookup, reverseLookup: async () => { throw new Error("ENOTFOUND"); } }), false);
+  assert.equal(await hasForwardConfirmedReverseDns("mail.aihamyn.ae", { lookup: async () => { throw new Error("ENOTFOUND"); } }), false);
 });

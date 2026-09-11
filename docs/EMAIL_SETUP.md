@@ -43,6 +43,11 @@ For receiving servers (Google in particular) to accept these messages:
 3. The IP needs reverse DNS (PTR) `mail.aihamyn.ae`; only Timeweb support can
    set it for an App Platform IP.
 
+Until step 3 is visible in DNS the route does not attempt delivery at all: it
+checks every ten minutes that `mail.aihamyn.ae` resolves to an address whose PTR
+points back to it, and keeps answering with the `mailto:` fallback meanwhile.
+Delivery therefore switches on by itself once Timeweb publishes the record.
+
 Tests set `MAIL_DELIVERY=disabled` so no test ever sends real mail.
 
 ## Receiving mailbox — deferred owner action

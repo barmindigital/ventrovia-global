@@ -3,7 +3,7 @@
 // servers judge the sender by SPF for the envelope domain and by the sending
 // IP's reverse DNS.
 import { randomUUID } from "node:crypto";
-import { resolveMx } from "node:dns/promises";
+import { resolve4, resolveMx, reverse } from "node:dns/promises";
 import net from "node:net";
 import tls from "node:tls";
 
@@ -298,4 +298,28 @@ export async function sendDirect(mail: OutgoingMail, options: DeliveryOptions) {
     delivered: results.some((result) => result.accepted.length > 0),
     results,
   };
+}
+
+// Receiving servers (Gmail in particular) refuse mail from an IP without
+// forward-confirmed reverse DNS, so delivery waits until the HELO name resolves
+// to an address whose PTR points back to that name.
+export async function hasForwardConfirmedReverseDns(
+  hostname: string,
+  resolvers: {
+    lookup?: (hostname: string) => Promise<string[]>;
+    reverseLookup?: (address: string) => Promise<string[]>;
+  } = {},
+) {
+  const lookup = resolvers.lookup ?? resolve4;
+  const reverseLookup = resolvers.reverseLookup ?? reverse;
+  try {
+    const addresses = await lookup(hostname);
+    for (const address of addresses) {
+      const names = await reverseLookup(address).catch(() => [] as string[]);
+      if (names.some((name) => name.replace(/\.$/, "").toLowerCase() === hostname.toLowerCase())) return true;
+    }
+  } catch {
+    // An unresolvable HELO name means delivery is not ready.
+  }
+  return false;
 }
