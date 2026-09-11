@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { hasForwardConfirmedReverseDns, sendDirect } from "@/app/lib/direct-mail";
+import { MAIL_RELAY_CERTIFICATE, MAIL_RELAY_HOST } from "@/app/lib/mail-relay";
 import { siteContent } from "@/app/lib/site-content";
 import { SITE_BRAND, SITE_URL } from "@/app/lib/site-brand";
 import {
@@ -18,11 +19,11 @@ const REQUEST_EMAIL = REQUEST_EMAIL_PATTERN.test(configuredRequestEmail)
 const FROM_EMAIL = REQUEST_EMAIL_PATTERN.test(configuredFromEmail)
   ? configuredFromEmail
   : `${SITE_BRAND.displayName} RFQ <requests@${new URL(SITE_URL).hostname}>`;
-// Without a Resend key the enquiry is delivered straight to the recipients' mail
-// servers from this host; SPF for aihamyn.ae authorises the host's IP.
-const DIRECT_RECIPIENTS = [...new Set([REQUEST_EMAIL, SITE_BRAND.emailSecondary])];
+// Without a Resend key the enquiry goes through our own relay server, which
+// delivers it to info@aihamyn.ae (see app/lib/mail-relay.ts).
+const DIRECT_RECIPIENTS = [REQUEST_EMAIL];
 const DIRECT_FROM_ADDRESS = `requests@${new URL(SITE_URL).hostname}`;
-const DIRECT_HELO_NAME = process.env.MAIL_HELO_NAME?.trim() || `mail.${new URL(SITE_URL).hostname}`;
+const DIRECT_HELO_NAME = new URL(SITE_URL).hostname;
 const MAX_FILE_BYTES = 15 * 1024 * 1024;
 const MAX_FILES = 5;
 const MAX_REQUEST_BYTES = MAX_FILE_BYTES + 128_000;
@@ -113,8 +114,8 @@ let reverseDnsCheck: { ready: boolean; checkedAt: number } | null = null;
 // Timeweb publishes the PTR record for the app IP.
 async function directDeliveryReady() {
   if (!reverseDnsCheck || Date.now() - reverseDnsCheck.checkedAt > 10 * 60_000) {
-    reverseDnsCheck = { ready: await hasForwardConfirmedReverseDns(DIRECT_HELO_NAME), checkedAt: Date.now() };
-    if (!reverseDnsCheck.ready) console.log(`RFQ direct delivery waits for reverse DNS of ${DIRECT_HELO_NAME}`);
+    reverseDnsCheck = { ready: await hasForwardConfirmedReverseDns(MAIL_RELAY_HOST), checkedAt: Date.now() };
+    if (!reverseDnsCheck.ready) console.log(`RFQ delivery waits for reverse DNS of ${MAIL_RELAY_HOST}`);
   }
   return reverseDnsCheck.ready;
 }
@@ -362,7 +363,12 @@ export async function POST(request: Request) {
           })),
         ),
       },
-      { heloName: DIRECT_HELO_NAME, timeoutMs: 15_000 },
+      {
+        heloName: DIRECT_HELO_NAME,
+        timeoutMs: 15_000,
+        lookupMx: async () => [{ exchange: MAIL_RELAY_HOST, priority: 0 }],
+        tlsOptions: { ca: MAIL_RELAY_CERTIFICATE },
+      },
     ).catch((error: Error) => ({ delivered: false, results: [{ error: error.message }] }));
     // The outcome lands in the Timeweb application log for every enquiry.
     console.log("RFQ direct delivery", JSON.stringify(delivery.results));

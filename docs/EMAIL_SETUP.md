@@ -25,28 +25,37 @@ is verified the RFQ form returns a visible error with a `mailto:` fallback.
 The MX and DKIM records strongly indicate a partial Google Workspace setup, but
 they do not prove that the `sales` mailbox exists or receives mail.
 
-## Direct delivery (current transport, no provider account)
+## Relay delivery (current transport, no provider account)
 
-Without `RESEND_API_KEY`, `/api/request` delivers each enquiry itself: it looks
-up the MX of every recipient domain and speaks SMTP on port 25 with STARTTLS
-(`app/lib/direct-mail.ts`). Recipients are `REQUEST_TO_EMAIL`
-(default `info@aihamyn.ae`) and the secondary contact mailbox; the envelope and
-From address is `requests@aihamyn.ae`, HELO `mail.aihamyn.ae`. The outcome of
-every attempt is written to the Timeweb application log as `RFQ direct delivery`.
-If no recipient server accepts the message, the visitor gets the usual
-`mailto:` fallback, so an enquiry is never silently lost.
+Timeweb does not set reverse DNS for App Platform IPs, and Gmail refuses mail
+from an IP without it, so the website does not deliver mail itself. Without
+`RESEND_API_KEY`, `/api/request` hands each enquiry over SMTP (STARTTLS, pinned
+certificate) to our relay server, which delivers it to `info@aihamyn.ae` only
+(`app/lib/direct-mail.ts`, `app/lib/mail-relay.ts`).
 
-For receiving servers (Google in particular) to accept these messages:
+Relay: Timeweb cloud server 9081233 "Ambitious Aquila", Frankfurt, 72.56.106.2,
+710 ₽/month, Ubuntu 26.04, SSH key `aihamyn_timeweb_ed25519` only.
 
-1. SPF must authorise the app IP: `v=spf1 ip4:72.56.72.134 include:_spf.google.com ~all`.
-2. `mail.aihamyn.ae` must have an A record pointing to `72.56.72.134`.
-3. The IP needs reverse DNS (PTR) `mail.aihamyn.ae`; only Timeweb support can
-   set it for an App Platform IP.
+- Postfix relays only for `127.0.0.0/8` and the website IP `72.56.72.134`;
+  `mydestination = localhost`, so it never stores mail for aihamyn.ae and sends
+  everything to the recipients' MX over IPv4.
+- OpenDKIM signs `aihamyn.ae` with selector `relay`
+  (`/etc/opendkim/keys/aihamyn.ae/relay.txt` holds the DNS value).
+- The firewall allows SSH from anywhere and port 25 only from 72.56.72.134.
+- TLS for the website connection uses a self-signed certificate for
+  mail.aihamyn.ae valid until 2036; the website pins it.
 
-Until step 3 is visible in DNS the route does not attempt delivery at all: it
-checks every ten minutes that `mail.aihamyn.ae` resolves to an address whose PTR
-points back to it, and keeps answering with the `mailto:` fallback meanwhile.
-Delivery therefore switches on by itself once Timeweb publishes the record.
+DNS for the relay:
+
+1. `mail.aihamyn.ae` A → `72.56.106.2`.
+2. SPF: `v=spf1 ip4:72.56.106.2 include:_spf.google.com ~all`.
+3. PTR for 72.56.106.2 → `mail.aihamyn.ae` (Timeweb panel, server → Сеть).
+4. DKIM: TXT `relay._domainkey` with the value from relay.txt.
+
+Until step 3 is visible in DNS the route makes no delivery attempt: it checks
+every ten minutes that mail.aihamyn.ae resolves to an address whose PTR points
+back to it and keeps the `mailto:` fallback meanwhile. Every attempt is logged
+as `RFQ direct delivery`.
 
 Tests set `MAIL_DELIVERY=disabled` so no test ever sends real mail.
 
