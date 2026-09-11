@@ -49,7 +49,7 @@ assert.ok(totalClientJsBytes < 1_050_000, "public JavaScript budget exceeded");
 
 console.log(JSON.stringify({
   status: "healthy",
-  mode: "VENTROVIA_BRAND_ONLY",
+  mode: "BRAND_ONLY",
   totalClientJsBytes,
   clientJsFiles: clientJs.length,
   publicCatalogAssets,

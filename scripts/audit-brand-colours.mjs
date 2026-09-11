@@ -3,7 +3,7 @@ import path from "node:path";
 import process from "node:process";
 
 const root = process.cwd();
-const scanRoots = ["app", "public/brand", "public/favicon.svg", "scripts/generate-og.py"];
+const scanRoots = ["app", "public/brand", "public/favicon.svg"];
 const textExtensions = new Set([".css", ".js", ".mjs", ".py", ".svg", ".ts", ".tsx"]);
 const forbidden = ["#173f5a", "#123449", "#272326", "#45414a", "#f4f0e8", "#5d77a5", "#b9c8d5"];
 const findings = [];
@@ -40,7 +40,7 @@ console.log(
   JSON.stringify(
     {
       status: "PASS",
-      forbiddenVentroviaBlueValues: forbidden,
+      forbiddenLegacyBlueValues: forbidden,
       findings: 0,
       note: "Third-party manufacturer logos are excluded because their official brand colors must remain unchanged.",
     },

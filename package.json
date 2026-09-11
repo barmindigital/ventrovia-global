@@ -1,5 +1,5 @@
 {
-  "name": "ventrovia-global",
+  "name": "aihamyn-site",
   "version": "2.0.0",
   "private": true,
   "engines": {
@@ -14,7 +14,7 @@
     "build:timeweb": "next build",
     "start:timeweb": "next start -p ${PORT:-3000}",
     "audit:bundle": "node scripts/audit-public-bundle.mjs",
-    "audit:visual": "node scripts/audit-ventrovia-blue-regression.mjs",
+    "audit:visual": "node scripts/audit-brand-colours.mjs",
     "audit:international": "node scripts/audit-international-runtime.mjs",
     "audit:infrastructure": "node scripts/audit-infrastructure-cutover.mjs",
     "audit:prelaunch": "node scripts/audit-prelaunch-production.mjs",

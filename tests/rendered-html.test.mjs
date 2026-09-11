@@ -141,10 +141,11 @@ test("RFQ endpoint fails visibly when mail delivery is unavailable", async () =>
   assert.equal((await response.json()).fallback, true);
 });
 
-test("mailbox access remains a documented, separate blocker", async () => {
+test("enquiry delivery through the relay is documented", async () => {
   const email = await readFile(new URL("../docs/EMAIL_SETUP.md", import.meta.url), "utf8");
-  assert.match(email, /MAILBOX_ACCESS_UNAVAILABLE/);
-  assert.match(email, /does not block the website/i);
+  assert.match(email, /mail\.aihamyn\.ae/);
+  assert.match(email, /info@aihamyn\.ae/);
+  assert.match(email, /MAIL_DELIVERY=disabled/);
 });
 
 test("www uses a permanent host-only redirect to the canonical apex", async () => {
@@ -210,7 +211,7 @@ test("interactive navigation and enquiry dialogs include keyboard safety", async
 });
 
 test("not-found response is English and noindex", async () => {
-  const response = await render("/missing-ventrovia-page");
+  const response = await render("/missing-page-check");
   assert.equal(response.status, 404);
   const source = await response.text();
   assert.match(source, /Page not found/i);
@@ -223,7 +224,7 @@ test("project identity and social preview are release-ready", async () => {
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
     access(new URL("../public/og.png", import.meta.url)),
   ]);
-  assert.match(packageSource, /"name": "ventrovia-global"/);
+  assert.match(packageSource, /"name": "aihamyn-site"/);
   assert.match(layout, /Organization/);
   assert.match(layout, /areaServed: "Worldwide"/);
   assert.match(layout, /addressCountry: "AE"/);

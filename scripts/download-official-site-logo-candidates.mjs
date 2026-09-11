@@ -26,7 +26,7 @@ const selectedCandidates = [
 ];
 const outputDirectory = path.join(process.cwd(), ".logo-work/official-site/assets");
 const userAgent =
-  "VentroviaBrandAssetAudit/1.0 (official manufacturer logo provenance review)";
+  "AihamynBrandAssetAudit/1.0 (official manufacturer logo provenance review)";
 const downloadTimeoutMs = 15_000;
 
 const extensionByMime = {

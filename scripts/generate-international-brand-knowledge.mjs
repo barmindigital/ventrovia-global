@@ -107,7 +107,7 @@ const sourceRecords = profiles.reduce(
 );
 
 const payload = {
-  version: "ventrovia-brand-knowledge-en-v1",
+  version: "brand-knowledge-en-v1",
   generatedAt: "2026-08-19T00:00:00.000Z",
   sourceLanguage: "structured-source-facts",
   publicLanguage: "en",

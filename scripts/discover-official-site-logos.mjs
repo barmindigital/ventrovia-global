@@ -12,7 +12,7 @@ const concurrency = Math.min(
   12,
 );
 const userAgent =
-  "VentroviaBrandAssetAudit/1.0 (official manufacturer logo provenance review)";
+  "AihamynBrandAssetAudit/1.0 (official manufacturer logo provenance review)";
 
 function decodeEntities(value = "") {
   return value

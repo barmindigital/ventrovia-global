@@ -21,24 +21,24 @@ Set these in the hosting control panel (never commit them):
 ```text
 ADMIN_PASSWORD=<strong password>
 ADMIN_SESSION_SECRET=<random secret>
-REQUEST_TO_EMAIL=info@aihamyn.ae
-REQUEST_FROM_EMAIL=Aihamyn Hampa Trading RFQ <requests@aihamyn.ae>
-RESEND_API_KEY=<server-side secret, only after EMAIL_SETUP.md is complete>
+REQUEST_TO_EMAIL=info@aihamyn.ae   # optional, this is the default
+RESEND_API_KEY=                    # optional; without it enquiries use the mail relay
 ```
 
 ## Release checklist
 
 1. `pnpm check` passes locally.
-2. Push `main`, then start a deploy from the Timeweb **Деплой** tab (the app
-   builds with `pnpm build:timeweb` and starts with `pnpm start:timeweb`).
+2. Push `main`. The deploy commit is pinned: in Timeweb open
+   **Настройки → Настройки деплоя**, select the new commit, press
+   **Сохранить данные** and confirm **Запустить** (the app builds with
+   `pnpm build:timeweb` and starts with `pnpm start:timeweb`).
 3. In Timeweb **Settings → Domains** both `aihamyn.ae` and
    `www.aihamyn.ae` must be attached; copy the exact A/CNAME targets
    the panel shows.
 4. At REG.RU point the apex and `www` records to those targets. Do not guess an
    IP address.
 5. Wait for propagation and for Let's Encrypt certificates on both hosts.
-6. Verify on the live hostname: `/`, `/manufacturers`, one manufacturer page,
-   `/robots.txt`, `/sitemap.xml`, and that `www` redirects once to the apex.
+6. Run `pnpm test:e2e:full` against the live site.
 
 ## Search engines
 

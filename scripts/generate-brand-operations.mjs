@@ -66,7 +66,7 @@ const weakCount = identityIndex.manufacturerCount - safeCount - reviewCount;
 const manifest = {
   version: 3,
   checkedAt: CHECKED_AT,
-  runtimeScope: "VENTROVIA_BRAND_ONLY",
+  runtimeScope: "BRAND_ONLY",
   manufacturerCount: identityIndex.manufacturerCount,
   profileCount: safeCount,
   blockedIdentityCount: reviewCount,
@@ -157,8 +157,8 @@ const seoAudit = identityIndex.manufacturers.map((manufacturer) => {
   const indexable = Boolean(profile);
   const displayName = profile?.displayName ?? manufacturer.name;
   const title = profile
-    ? `${displayName} ${profile.productCategories[0]} | Ventrovia`
-    : `${displayName} equipment sourcing | Ventrovia`;
+    ? `${displayName} ${profile.productCategories[0]} | Aihamyn Hampa Trading`
+    : `${displayName} equipment sourcing | Aihamyn Hampa Trading`;
   const metaDescription = profile
     ? `Source ${displayName} equipment across ${profile.productCategories.slice(0, 3).join(", ")}. Send the complete part number, model or specification for pricing and lead-time review.`
     : `Request sourcing support for ${displayName} equipment using the complete model, part number or technical specification.`;

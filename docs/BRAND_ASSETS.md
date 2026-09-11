@@ -1,43 +1,32 @@
 # Aihamyn Hampa Trading brand assets
 
-## Source concept
+## Source
 
-The production mark is reconstructed from the supplied four-page PDF concept.
-The geometric modular symbol, technical character, horizontal proportions and
-tagline relationship are retained. The source PDF contained the spelling
-`VENTORVIA`; every production asset uses the correct brand name `VENTROVIA`.
-
-The PDF itself is a design reference and is not published by the website.
+The mark follows the printed business card of Aihamyn Hampa Trading – FZCO: the
+"A" symbol with a globe, the company name and the tagline
+"GLOBAL PROCUREMENT & INDUSTRIAL SUPPLY".
 
 ## Production files
 
-- `public/brand/ventrovia-symbol-dark.svg`
-- `public/brand/ventrovia-symbol-light.svg`
-- `public/brand/ventrovia-horizontal-dark.svg`
-- `public/brand/ventrovia-horizontal-light.svg`
-- `public/brand/ventrovia-horizontal-tagline-dark.svg`
-- `public/brand/ventrovia-horizontal-tagline-light.svg`
-- `public/brand/ventrovia-app-icon.svg`
-- `public/favicon.svg`
-- `public/og.png`
+- `public/brand/aihamyn-symbol-{dark,light,monochrome}.svg`
+- `public/brand/aihamyn-horizontal-{dark,light,monochrome}.svg`
+- `public/brand/aihamyn-horizontal-tagline-{dark,light,monochrome}.svg`
+- `public/brand/aihamyn-app-icon.svg`
+- `public/favicon.svg`, `public/favicon.ico` (16/32/48 px),
+  `public/apple-touch-icon.png` (180 px)
+- `public/og.jpg` — 1200×630 link-preview image
 
-## Palette adaptation
+## Palette
 
-The original navy technical direction is adapted to the established site
-system rather than replacing the complete interface palette.
+- burgundy ground: `#5A1F22`
+- gold mark: `#C9A46A`
+- ink (text in the wordmark): `#332F2A`
 
-- primary navy: `#173F5A`
-- deep surface navy: `#123449`
-- industrial charcoal: `#272326`
-- light mark: `#FFFFFF`
-- existing conversion accent: the site's controlled red accent remains the CTA
-  colour and is not applied to the core logo.
-
-Light variants are for navy or dark photographic surfaces. Dark variants are
-for white and light-neutral surfaces. Do not recolour, distort, crop or rebuild
-the mark from screenshots.
+Dark variants are for white and light surfaces, light variants for dark or
+photographic surfaces, monochrome variants for single-colour printing. Do not
+recolour, distort, crop or rebuild the mark from screenshots.
 
 ## Source of truth
 
-Public components must use `app/lib/site-brand.ts`. Contact details, canonical
-domain and logo paths must not be hardcoded elsewhere.
+Public components use `app/lib/site-brand.ts`. Contact details, canonical
+domain and logo paths are not hardcoded elsewhere.

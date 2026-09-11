@@ -6,7 +6,7 @@ International manufacturer knowledge base and industrial RFQ website for
 ## What the site contains
 
 - Home, Services, About, Contact and Privacy pages in English.
-- `/manufacturers` — 2,395 manufacturers with verified English profiles and
+- `/manufacturers` — 2,394 manufacturers with verified English profiles and
   2,090 reviewed logos. Manufacturer pages are generated from
   `data/brand-knowledge-international/profiles.json`.
 - Specification-led RFQ forms (`/api/request`).
@@ -30,10 +30,9 @@ The e2e suite drives a headless Chrome (set `CHROME_PATH` if it is not in the
 default location) and answers `/api/request` inside the browser, so it never
 sends a real enquiry email.
 
-Copy `.env.example` to `.env.local` for local secrets. Nothing works without
-`ADMIN_PASSWORD` and `ADMIN_SESSION_SECRET` for the admin area; the RFQ form
-fails visibly until `RESEND_API_KEY` and the mail addresses are configured
-(see `docs/EMAIL_SETUP.md`).
+Copy `.env.example` to `.env.local` for local secrets. The admin area needs
+`ADMIN_PASSWORD` and `ADMIN_SESSION_SECRET`. Enquiries are delivered to
+`info@aihamyn.ae` through the project's mail relay (see `docs/EMAIL_SETUP.md`).
 
 ## Project layout
 
@@ -70,8 +69,8 @@ generated file is stale.
 
 - `pnpm build:timeweb` / `pnpm start:timeweb` — the production build used on
   Timeweb App Platform (`next build`).
-- `pnpm build` / `pnpm start` — the Worker bundle (`vinext`) used by the test
-  suite and the Sites mirror.
+- `pnpm build` / `pnpm start` — the Worker bundle (`vinext`) used by the unit
+  test suite.
 
 ## Deployment
 

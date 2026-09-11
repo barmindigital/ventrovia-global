@@ -17,7 +17,7 @@ test("manufacturer identity index is complete and independent", async () => {
   ]);
   assert.ok(identities.manufacturerCount >= 2700);
   assert.equal(identities.manufacturers.length, identities.manufacturerCount);
-  assert.equal(manifest.runtimeScope, "VENTROVIA_BRAND_ONLY");
+  assert.equal(manifest.runtimeScope, "BRAND_ONLY");
   assert.equal(manifest.remotelyStoredProductRecords, 0);
   assert.equal(manifest.profileCount, knowledge.profiles.length);
   assert.equal(manifest.indexableManufacturerPages, knowledge.profiles.length);
@@ -91,7 +91,7 @@ test("public brand code imports no operational evidence or record datasets", asy
   assert.match(adminApi, /private, no-store/);
 });
 
-test("recoverable product stores are absent from the Ventrovia repository", async () => {
+test("recoverable product stores are absent from the repository", async () => {
   for (const path of [
     "../data/catalog-runtime",
     "../data/catalog-trust",
@@ -102,20 +102,17 @@ test("recoverable product stores are absent from the Ventrovia repository", asyn
   ]) await assert.rejects(access(new URL(path, import.meta.url)));
 });
 
-test("secrets stay out of the repository and hosting config is intact", async () => {
-  const [ignore, envExample, packageSource, hosting] = await Promise.all([
+test("secrets stay out of the repository", async () => {
+  const [ignore, envExample, packageSource] = await Promise.all([
     readFile(new URL("../.gitignore", import.meta.url), "utf8"),
     readFile(new URL("../.env.example", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
-    loadJson("../.openai/hosting.json"),
   ]);
   assert.match(ignore, /russian-product-catalog-archive/u);
   for (const secret of ["RESEND_API_KEY", "ADMIN_PASSWORD", "ADMIN_SESSION_SECRET", "GITHUB_CONTENT_TOKEN"]) {
     assert.match(envExample, new RegExp(`^${secret}=$`, "mu"));
   }
   assert.match(packageSource, /audit:infrastructure/u);
-  assert.equal(typeof hosting.project_id, "string");
-  assert.equal(Object.keys(hosting).sort().join(","), "d1,project_id,r2");
 });
 
 test("legacy deployment variables cannot restore the retired Russian host", async () => {

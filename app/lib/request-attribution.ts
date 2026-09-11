@@ -1,5 +1,5 @@
 export const REQUEST_ATTRIBUTION_KEY =
-  "ventrovia-request-attribution";
+  "aihamyn-request-attribution";
 
 export const REQUEST_TYPE_LABELS = {
   supply: "Supply enquiry",

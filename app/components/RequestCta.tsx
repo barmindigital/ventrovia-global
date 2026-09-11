@@ -6,7 +6,7 @@ import type {
   RequestType,
 } from "../lib/request-attribution";
 
-export const REQUEST_MODAL_EVENT = "ventrovia:open-request";
+export const REQUEST_MODAL_EVENT = "aihamyn:open-request";
 
 type RequestCtaProps = {
   children?: ReactNode;

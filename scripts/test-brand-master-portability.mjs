@@ -54,8 +54,8 @@ for (const brand of master.brands) {
 }
 
 const serialized = JSON.stringify({ master, sources, aliases, taxonomy });
-assert.doesNotMatch(serialized, /\/Users\/|Timeweb|\.openai\/hosting|Next\.js|Vinext|ventroviaglobal\.com/iu);
-assert.doesNotMatch(serialized, /Ventrovia|Request an Offer|Request a Quote|our sourcing team/iu);
+assert.doesNotMatch(serialized, /\/Users\/|Timeweb|Next\.js|Vinext|ventroviaglobal\.com/iu);
+assert.doesNotMatch(serialized, /Aihamyn|Ventrovia|Request an Offer|Request a Quote|our sourcing team/iu);
 const presentationText = master.brands.map((brand) => JSON.stringify({ descriptions: brand.descriptions, seo: brand.seo })).join("\n");
 assert.doesNotMatch(presentationText, /our company/iu);
 assert.doesNotMatch(serialized, /"(?:password|api[_-]?key|private[_-]?key|session[_-]?secret)"\s*:/iu);

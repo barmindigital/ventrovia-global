@@ -11,7 +11,7 @@ import {
   type RequestType,
 } from "@/app/lib/request-attribution";
 
-const REQUEST_DRAFT_KEY = "ventrovia-request-draft";
+const REQUEST_DRAFT_KEY = "aihamyn-request-draft";
 const MAX_FILE_SIZE = 15 * 1024 * 1024;
 const MAX_FILES = 5;
 const ALLOWED_FILE_PATTERN = /\.(pdf|xls|xlsx|doc|docx|jpg|jpeg|png)$/i;
@@ -226,7 +226,7 @@ export function RequestForm({
         analyticsWindow.dataLayer = analyticsWindow.dataLayer ?? [];
         analyticsWindow.dataLayer.push(analyticsEvent);
         window.dispatchEvent(
-          new CustomEvent("ventrovia:request-sent", {
+          new CustomEvent("aihamyn:request-sent", {
             detail: analyticsEvent,
           }),
         );

@@ -69,7 +69,7 @@ console.log(
   JSON.stringify(
     {
       status: "healthy",
-      brand: "VENTROVIA",
+      brand: "AIHAMYN",
       domain: "aihamyn.ae",
       publicLanguage: "en",
       enContentReady: knowledge.metrics.enContentReady,

@@ -69,7 +69,7 @@ async function fetchWithTimeout(url, options = {}) {
   return fetch(url, {
     ...options,
     headers: {
-      "User-Agent": "VentroviaPrelaunchAudit/1.0 (+owner-authorized)",
+      "User-Agent": "AihamynPrelaunchAudit/1.0 (+owner-authorized)",
       ...(options.headers ?? {}),
     },
     redirect: "follow",
@@ -249,7 +249,7 @@ const metaDuplicates = duplicateValues(indexablePages.map(({ metaDescription }) 
 const productLikeSitemapUrls = sitemapUrls.filter((url) => /\/(?:catalog|products?|sku)(?:\/|$)/iu.test(new URL(url).pathname));
 
 const report = {
-  audit: "VENTROVIA_FULL_INTERNATIONAL_PRELAUNCH",
+  audit: "AIHAMYN_FULL_INTERNATIONAL_PRELAUNCH",
   baseUrl: base.origin,
   startedAt,
   finishedAt: new Date().toISOString(),

@@ -232,7 +232,7 @@ function blockerCategory(item) {
 function portableReviewText(value) {
   if (!value) return null;
   return value
-    .replaceAll("Ventrovia", "the Brand Master")
+    .replaceAll("Aihamyn Hampa Trading", "the Brand Master")
     .replaceAll("current industrial Brand Knowledge taxonomy", "target industrial-equipment scope");
 }
 
@@ -677,7 +677,7 @@ outputs.set("reports/BRAND_LOGO_GAPS.md", logoMarkdown());
 outputs.set("reports/BRAND_MASTER_COMPLETENESS.md", completenessMarkdown());
 outputs.set("reports/BRAND_CONTENT_PORTABILITY_AUDIT.md", contentPortabilityMarkdown());
 
-const siteSpecificPattern = /Ventrovia|Request an Offer|Request a Quote|our sourcing team|our company/iu;
+const siteSpecificPattern = /Aihamyn|Ventrovia|Request an Offer|Request a Quote|our sourcing team|our company/iu;
 const presentationPayload = brands
   .map((brand) => JSON.stringify({ descriptions: brand.descriptions, seo: brand.seo }))
   .join("\n");
