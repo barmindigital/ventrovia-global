@@ -31,7 +31,7 @@ export const SITE_BRAND = Object.freeze({
     horizontalTaglineMonochrome:
       "/brand/aihamyn-horizontal-tagline-monochrome.svg",
     appIcon: "/brand/aihamyn-app-icon.svg",
-    social: "/og.png",
+    social: "/og.jpg",
   },
 });
 

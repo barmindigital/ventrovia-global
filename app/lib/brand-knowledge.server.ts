@@ -67,20 +67,30 @@ export function brandDisplayName(slug: string, fallback: string) {
   return profiles.get(slug)?.displayName ?? fallback;
 }
 
+const SEO_TITLE_LIMIT = 60;
+const SEO_DESCRIPTION_LIMIT = 160;
+
+// Search results cut titles near 60 characters and descriptions near 160, so the
+// brand suffix and the number of product areas shrink until the text fits.
 export function brandSeoTitle(slug: string, fallback: string) {
   const profile = profiles.get(slug);
-  if (!profile) return `${fallback} equipment sourcing | Aihamyn Hampa Trading`;
-  const primaryCategory = profile.productCategories[0];
-  return `${profile.displayName} ${primaryCategory} | Aihamyn Hampa Trading`;
+  const subject = profile ? `${profile.displayName} ${profile.productCategories[0]}` : `${fallback} equipment sourcing`;
+  return [`${subject} | Aihamyn Hampa Trading`, `${subject} | Aihamyn`].find((title) => title.length <= SEO_TITLE_LIMIT) ?? subject;
 }
 
 export function brandMetaDescription(slug: string, fallback: string) {
   const profile = profiles.get(slug);
-  if (profile) {
-    const areas = profile.productCategories.slice(0, 3).join(", ");
-    return `Source ${profile.displayName} equipment across ${areas}. Send the complete part number, model or specification for pricing and lead-time review.`;
+  if (!profile) {
+    return `Request sourcing support for ${fallback} equipment using the complete model, part number or technical specification.`;
   }
-  return `Request sourcing support for ${fallback} equipment using the complete model, part number or technical specification.`;
+  const candidates = [3, 2, 1].flatMap((count) => {
+    const areas = profile.productCategories.slice(0, count).join(", ");
+    return [
+      `Source ${profile.displayName} equipment across ${areas}. Send the part number, model or specification for pricing and lead time.`,
+      `Source ${profile.displayName} ${areas}. Send the part number or model for pricing and lead time.`,
+    ];
+  });
+  return candidates.find((description) => description.length <= SEO_DESCRIPTION_LIMIT) ?? candidates.at(-1)!;
 }
 
 export const indexableBrandSlugs = Object.freeze([...profiles.keys()]);

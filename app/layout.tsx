@@ -31,9 +31,12 @@ export const metadata: Metadata = {
   }),
   twitter: { card: "summary_large_image", images: [SITE_BRAND.logos.social] },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: SITE_BRAND.logos.appIcon,
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "16x16 32x32 48x48" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
   },
 };
 

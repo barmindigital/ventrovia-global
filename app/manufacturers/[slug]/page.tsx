@@ -31,7 +31,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: BrandPageProps): Promise<Metadata> {
   const { slug } = await params;
   const brand = manufacturerBySlug(slug);
-  if (!brand) return {};
+  if (!brand) return { title: "Page not found | Aihamyn Hampa Trading", robots: { index: false, follow: true } };
   const name = brandDisplayName(brand.slug, brand.name);
   const canonical = `/manufacturers/${brand.slug}`;
   const title = brandSeoTitle(brand.slug, brand.name);

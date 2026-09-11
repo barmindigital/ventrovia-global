@@ -25,16 +25,27 @@ assert.match(brandConfig, /aihamyn\.ae/u);
 assert.match(brandConfig, /info@aihamyn\.ae/u);
 assert.match(brandConfig, /\+971509812776/u);
 
-const titles = knowledge.profiles.map((profile) =>
-  `${profile.displayName} ${profile.productCategories[0]} | Aihamyn Hampa Trading`,
-);
-const descriptions = knowledge.profiles.map((profile) =>
-  `Source ${profile.displayName} equipment across ${profile.productCategories
-    .slice(0, 3)
-    .join(", ")}. Send the complete part number, model or specification for pricing and lead-time review.`,
-);
+// Mirrors brandSeoTitle / brandMetaDescription in app/lib/brand-knowledge.server.ts.
+const titles = knowledge.profiles.map((profile) => {
+  const subject = `${profile.displayName} ${profile.productCategories[0]}`;
+  return [`${subject} | Aihamyn Hampa Trading`, `${subject} | Aihamyn`].find((title) => title.length <= 60) ?? subject;
+});
+const descriptions = knowledge.profiles.map((profile) => {
+  const candidates = [3, 2, 1].flatMap((count) => {
+    const areas = profile.productCategories.slice(0, count).join(", ");
+    return [
+      `Source ${profile.displayName} equipment across ${areas}. Send the part number, model or specification for pricing and lead time.`,
+      `Source ${profile.displayName} ${areas}. Send the part number or model for pricing and lead time.`,
+    ];
+  });
+  return candidates.find((description) => description.length <= 160) ?? candidates.at(-1);
+});
 assert.equal(new Set(titles).size, titles.length);
 assert.equal(new Set(descriptions).size, descriptions.length);
+const overlongTitles = titles.filter((title) => title.length > 60).length;
+const overlongDescriptions = descriptions.filter((description) => description.length > 160).length;
+assert.ok(overlongTitles <= titles.length * 0.05, `${overlongTitles} brand titles exceed 60 characters`);
+assert.ok(overlongDescriptions <= descriptions.length * 0.02, `${overlongDescriptions} brand descriptions exceed 160 characters`);
 for (const profile of knowledge.profiles) {
   assert.equal(profile.contentLanguage, "en");
   assert.equal(profile.enContentStatus, "EN_CONTENT_READY");

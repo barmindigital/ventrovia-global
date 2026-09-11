@@ -154,6 +154,16 @@ describe("HTTP layer", () => {
     assert.equal(response.headers.get("x-content-type-options"), "nosniff");
     assert.ok(response.headers.get("x-frame-options") || /frame-ancestors/.test(response.headers.get("content-security-policy") ?? ""));
     assert.ok(response.headers.get("referrer-policy"));
+    assert.match(response.headers.get("content-security-policy") ?? "", /object-src 'none'/);
+    assert.equal(response.headers.get("x-powered-by"), null);
+  });
+
+  test("favicon and home-screen icons are published", async () => {
+    for (const [pathname, type] of [["/favicon.ico", /icon/], ["/favicon.svg", /svg/], ["/apple-touch-icon.png", /png/], ["/og.jpg", /jpeg/]]) {
+      const response = await fetch(url(pathname));
+      assert.equal(response.status, 200, pathname);
+      assert.match(response.headers.get("content-type") ?? "", type, pathname);
+    }
   });
 
   test("admin API refuses unauthenticated access", async () => {
@@ -223,6 +233,7 @@ describe("Pages in the browser", () => {
     for (const pathname of ["/this-page-does-not-exist", "/manufacturers/no-such-manufacturer-xyz"]) {
       await page.goto(url(pathname));
       assert.equal(await page.eval("document.querySelector('h1').innerText"), "Page not found", pathname);
+      assert.match(await page.eval("document.title"), /Page not found/, `${pathname}: tab title`);
       assert.ok(await page.eval(`!!document.querySelector('.site-header .desktop-nav a[href="/"]') && !!document.querySelector('main a[href="/manufacturers"]')`), `${pathname}: navigation`);
     }
   });

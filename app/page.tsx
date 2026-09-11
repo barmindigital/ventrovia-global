@@ -121,7 +121,7 @@ export default function Home() {
         </RevealOnScroll>
         <div className="geography-panel" id="geography">
           <div><p className="eyebrow">Worldwide scope</p><h3>International industrial sourcing</h3><p>Every route, delivery scope and lead time is confirmed for the individual requirement. Our location in Dubai supports a global business focus without limiting sourcing to a single region.</p></div>
-          <Image alt="Worldwide industrial sourcing map" height={941} src="/images/company/international-reach-map.png" unoptimized width={1672} />
+          <Image alt="Worldwide industrial sourcing map" height={941} src="/images/company/international-reach-map.webp" unoptimized width={1672} />
         </div>
       </section>
 

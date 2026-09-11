@@ -9,12 +9,16 @@ import { manufacturerMatchesQuery, normalizeSearchText } from "../lib/internatio
 type PublicManufacturer = {
   slug: string;
   name: string;
-  aliases: string[];
-  logoSrc?: string;
-  logoBackground?: "light" | "dark";
+  aliases?: string[];
+  /** File name inside /images/brand-logos/, or an absolute path. */
+  logo?: string;
+  logoOnDark?: boolean;
   descriptor?: string;
-  readiness: "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
 };
+
+const LOGO_DIRECTORY = "/images/brand-logos/";
+const logoSource = (logo: string) => (logo.startsWith("/") ? logo : `${LOGO_DIRECTORY}${logo}`);
+const searchNames = (manufacturer: PublicManufacturer) => [manufacturer.name, ...(manufacturer.aliases ?? [])];
 
 const formatCount = (value: number) => new Intl.NumberFormat("en").format(value);
 
@@ -24,12 +28,12 @@ export function ManufacturerBrowser({ manufacturers }: { manufacturers: PublicMa
   const [visibleCount, setVisibleCount] = useState(63);
   const filtered = useMemo(() => {
     const normalizedQuery = normalizeSearchText(query);
-    const hasExactAlias = normalizedQuery && manufacturers.some((manufacturer) => manufacturer.aliases.some((alias) => normalizeSearchText(alias) === normalizedQuery));
+    const hasExactAlias = normalizedQuery && manufacturers.some((manufacturer) => searchNames(manufacturer).some((alias) => normalizeSearchText(alias) === normalizedQuery));
     return manufacturers.filter((manufacturer) => {
       const matchesLetter = letter === "All" || manufacturer.name.toLocaleUpperCase("en").startsWith(letter);
       const matchesQuery = hasExactAlias
-        ? manufacturer.aliases.some((alias) => normalizeSearchText(alias) === normalizedQuery)
-        : manufacturerMatchesQuery(manufacturer, query);
+        ? searchNames(manufacturer).some((alias) => normalizeSearchText(alias) === normalizedQuery)
+        : manufacturerMatchesQuery({ aliases: searchNames(manufacturer) }, query);
       return matchesLetter && matchesQuery;
     });
   }, [letter, manufacturers, query]);
@@ -51,14 +55,14 @@ export function ManufacturerBrowser({ manufacturers }: { manufacturers: PublicMa
       </div>
       <div className="manufacturer-list">
         {visibleManufacturers.map((manufacturer) => {
-          const logo = manufacturer.logoSrc;
+          const logo = manufacturer.logo ? logoSource(manufacturer.logo) : undefined;
           return (
             <Link className="manufacturer-card" href={`/manufacturers/${manufacturer.slug}`} key={manufacturer.slug}>
-              <span aria-label={logo ? undefined : `Text identity for ${manufacturer.name}`} className={`brand-card-visual${logo ? ` has-logo${manufacturer.logoBackground === "dark" ? " logo-on-dark" : ""}` : ` wordmark ${brandWordmarkTone(manufacturer.slug)}`}`} role={logo ? undefined : "img"}>
+              <span aria-label={logo ? undefined : `Text identity for ${manufacturer.name}`} className={`brand-card-visual${logo ? ` has-logo${manufacturer.logoOnDark ? " logo-on-dark" : ""}` : ` wordmark ${brandWordmarkTone(manufacturer.slug)}`}`} role={logo ? undefined : "img"}>
                 {logo ? <Image alt={`${manufacturer.name} logo`} height={80} src={logo} unoptimized width={180} /> : <><span aria-hidden="true" className="brand-wordmark-initials" data-initials={brandInitials(manufacturer.name)} /><span className="brand-wordmark-copy"><strong>{manufacturer.name}</strong><small>manufacturer</small></span></>}
               </span>
               <h2>{manufacturer.name}</h2>
-              <p><span>{manufacturer.descriptor ?? (manufacturer.readiness === "BRAND_SAFE" ? "Source-backed manufacturer profile" : "RFQ by manufacturer and model")}</span></p>
+              <p><span>{manufacturer.descriptor || "Source-backed manufacturer profile"}</span></p>
             </Link>
           );
         })}
