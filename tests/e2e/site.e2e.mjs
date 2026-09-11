@@ -286,7 +286,7 @@ describe("Header, footer and contacts", () => {
     assert.equal(await page.eval("document.querySelector('.phone-popover')"), null);
   });
 
-  test("contact page lists both mailboxes and the phone", async () => {
+  test("contact page lists the mailbox and the phone", async () => {
     await page.goto(url("/contacts"));
     const contacts = await page.eval("[...document.querySelectorAll('.contact-lines a')].map((a) => a.getAttribute('href'))");
     assert.deepEqual(contacts, [PHONE_HREF, `mailto:${EMAIL}`]);
