@@ -114,14 +114,14 @@ img {
 
 .brand-logo img {
   width: auto;
-  height: 46px;
+  height: 52px;
   object-fit: contain;
 }
 
 /* The company name beside the mark is live text in the site font, not part of the image. */
 .brand-name {
   font-family: "Onest Variable", Onest, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: 0.04em;
@@ -140,7 +140,7 @@ img {
 }
 
 .brand-footer .brand-name {
-  font-size: 17px;
+  font-size: 18px;
   color: white;
 }
 
@@ -2728,7 +2728,7 @@ img {
 
   /* On phones the name wraps to two lines so mark, name and menu button fit a 320 px screen. */
   .brand-logo img {
-    height: 38px;
+    height: 42px;
   }
 
   .brand {
@@ -2737,7 +2737,7 @@ img {
 
   .brand-name {
     max-width: 10.5em;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.02em;
     white-space: normal;
   }

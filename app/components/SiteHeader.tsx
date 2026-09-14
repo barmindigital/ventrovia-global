@@ -50,7 +50,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link className="brand brand-logo" href="/" aria-label={`${SITE_BRAND.name} home`} onClick={closeMobileMenu}>
-          <Image alt="" height={46} priority src={SITE_BRAND.logos.symbolDark} unoptimized width={61} />
+          <Image alt="" height={52} priority src={SITE_BRAND.logos.symbolDark} unoptimized width={69} />
           <span className="brand-name">{SITE_BRAND.displayName}</span>
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
