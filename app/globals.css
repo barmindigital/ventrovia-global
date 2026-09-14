@@ -118,9 +118,39 @@ img {
   object-fit: contain;
 }
 
+/* The company name beside the mark is live text in the site font, not part of the image. */
+.brand-name {
+  font-family: "Onest Variable", Onest, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.brand-text {
+  display: grid;
+  gap: 6px;
+}
+
 .brand-footer.brand-logo img {
   width: auto;
-  height: 66px;
+  height: 58px;
+}
+
+.brand-footer .brand-name {
+  font-size: 17px;
+  color: white;
+}
+
+.brand-tagline {
+  font-family: "Onest Variable", Onest, sans-serif;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: #d6ac6d;
+  white-space: nowrap;
 }
 
 .desktop-nav {
@@ -2696,9 +2726,33 @@ img {
     gap: 16px;
   }
 
-  /* The wordmark shrinks with the screen so logo, gap and menu button fit a 320 px phone. */
+  /* On phones the name wraps to two lines so mark, name and menu button fit a 320 px screen. */
   .brand-logo img {
-    height: clamp(34px, calc((100vw - 80px) * 180 / 1150), 46px);
+    height: 38px;
+  }
+
+  .brand {
+    gap: 10px;
+  }
+
+  .brand-name {
+    max-width: 10.5em;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    white-space: normal;
+  }
+
+  .brand-footer .brand-name {
+    max-width: none;
+    font-size: 15px;
+  }
+
+  .brand-footer.brand-logo img {
+    height: 50px;
+  }
+
+  .brand-tagline {
+    white-space: normal;
   }
 
   .mobile-menu nav {

@@ -10,7 +10,11 @@ export function SiteFooter() {
       <div className="shell footer-grid">
         <div>
           <Link className="brand brand-footer brand-logo" href="/">
-            <Image alt={`${SITE_BRAND.displayName} — ${SITE_BRAND.tagline}`} height={62} src={SITE_BRAND.logos.horizontalTaglineLight} unoptimized width={348} />
+            <Image alt="" height={58} src={SITE_BRAND.logos.symbolLight} unoptimized width={76} />
+            <span className="brand-text">
+              <span className="brand-name">{SITE_BRAND.displayName}</span>
+              <span className="brand-tagline">{SITE_BRAND.tagline}</span>
+            </span>
           </Link>
           <p className="footer-note">International industrial sourcing and supply coordination based on complete models, part numbers and technical specifications.</p>
         </div>
