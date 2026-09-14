@@ -2693,6 +2693,12 @@ img {
 
   .header-inner {
     min-height: 72px;
+    gap: 16px;
+  }
+
+  /* The wordmark shrinks with the screen so logo, gap and menu button fit a 320 px phone. */
+  .brand-logo img {
+    height: clamp(34px, calc((100vw - 80px) * 180 / 1150), 46px);
   }
 
   .mobile-menu nav {

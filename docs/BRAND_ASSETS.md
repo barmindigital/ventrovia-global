@@ -2,9 +2,11 @@
 
 ## Source
 
-The mark follows the printed business card of Aihamyn Hampa Trading – FZCO: the
-"A" symbol with a globe, the company name and the tagline
-"GLOBAL PROCUREMENT & INDUSTRIAL SUPPLY".
+The mark is the approved Aihamyn Hampa Trading – FZCO logo: a gold "A" crossed
+by a swoosh, with a globe at its right foot. The original artwork is kept in
+`assets/brand/aihamyn-mark-source.png` (1254×1254, transparent). The SVG files
+are a vector trace of that artwork; the wordmark sets the company name and the
+tagline "GLOBAL PROCUREMENT & INDUSTRIAL SUPPLY" beside it.
 
 ## Production files
 
@@ -19,7 +21,7 @@ The mark follows the printed business card of Aihamyn Hampa Trading – FZCO: th
 ## Palette
 
 - burgundy ground: `#5A1F22`
-- gold mark: `#C9A46A`
+- gold mark and tagline: `#D6AC6D`
 - ink (text in the wordmark): `#332F2A`
 
 Dark variants are for white and light surfaces, light variants for dark or
