@@ -40,9 +40,20 @@ export type BrandKnowledgeProfile = {
 
 export type BrandReadiness = "BRAND_SAFE" | "BRAND_WEAK" | "BRAND_REVIEW";
 
+// Catalogue and documentation entries are rendered as outbound links, so only
+// absolute web addresses are kept; a bare catalogue title would become a 404.
+const isWebAddress = (value: string) => /^https?:\/\//iu.test(value);
+
 const profiles = new Map(
   (internationalKnowledge.profiles as BrandKnowledgeProfile[]).map(
-    (profile) => [canonicalManufacturerSlug(profile.manufacturerId), profile],
+    (profile) => [
+      canonicalManufacturerSlug(profile.manufacturerId),
+      {
+        ...profile,
+        officialCatalogs: profile.officialCatalogs.filter(isWebAddress),
+        documentationSources: profile.documentationSources.filter(isWebAddress),
+      },
+    ],
   ),
 );
 const blocked = new Set(

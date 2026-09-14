@@ -5,13 +5,14 @@
 - Primary origin: `https://aihamyn.ae`
 - Secondary host: `www.aihamyn.ae`, permanently redirected to the apex
   (configured in `next.config.ts`)
-- Hosting: Timeweb App Platform, backend application `ventrovia` (ID 250775,
-  Amsterdam, Node.js 24), built from the `main` branch of
-  `barmindigital/ventrovia-global`. The repository is connected by URL, so
-  auto-deploy is off: after pushing `main`, open the app's **Деплой** tab and
-  start a deploy manually. Build command `pnpm install --frozen-lockfile &&
+- Hosting: Timeweb App Platform, backend application `AIHAMYN` (ID 250775,
+  Amsterdam, Node.js 24), built from the `main` branch of the private
+  repository `yanianya/aihamyn`, connected through the Timeweb GitHub
+  integration. Build command `pnpm install --frozen-lockfile &&
   pnpm run build:timeweb`, start command `pnpm run start:timeweb`, health
   check path `/`. Public IP `72.56.72.134`.
+- Enquiry mail relay: Timeweb cloud server `aihamyn-mail` (`72.56.106.2`,
+  `mail.aihamyn.ae`), see `docs/EMAIL_SETUP.md`.
 - Registrar and authoritative DNS: REG.RU (`ns1.reg.ru`, `ns2.reg.ru`)
 
 ## Environment variables

@@ -1,22 +1,22 @@
 {
-  "audit": "VENTROVIA_FULL_INTERNATIONAL_PRELAUNCH",
-  "baseUrl": "https://ventroviaglobal.com",
-  "startedAt": "2026-08-20T15:05:11.321Z",
-  "finishedAt": "2026-08-20T15:07:06.511Z",
-  "durationMs": 115187,
+  "audit": "AIHAMYN_FULL_INTERNATIONAL_PRELAUNCH",
+  "baseUrl": "https://aihamyn.ae",
+  "startedAt": "2026-09-14T12:22:58.434Z",
+  "finishedAt": "2026-09-14T12:24:22.427Z",
+  "durationMs": 83992,
   "settings": {
     "concurrency": 8,
     "requestTimeoutMs": 20000,
     "maximumPages": 5000
   },
   "summary": {
-    "sitemapUrls": 836,
-    "manufacturerSitemapUrls": 830,
+    "sitemapUrls": 2400,
+    "manufacturerSitemapUrls": 2394,
     "productSitemapUrls": 0,
-    "crawledPages": 843,
-    "queuedPages": 843,
+    "crawledPages": 2402,
+    "queuedPages": 2402,
     "fetchFailures": 0,
-    "pageIssues": 0,
+    "pageIssues": 1,
     "indexableIssues": 0,
     "titleDuplicates": 0,
     "metaDuplicates": 0,
@@ -24,13 +24,13 @@
     "oldIdentityPages": 0,
     "mixedContentPages": 0,
     "russianCharacterIndexablePages": 0,
-    "internalAssets": 542,
+    "internalAssets": 2139,
     "brokenAssets": 0
   },
   "gates": {
     "sitemapMatchesExpectedBrandSurface": true,
     "productSitemapZero": true,
-    "allInternalPagesReachable": true,
+    "allInternalPagesReachable": false,
     "indexableMetadata": true,
     "uniqueTitles": true,
     "uniqueMetaDescriptions": true,
@@ -41,14 +41,38 @@
     "assetsReachable": true
   },
   "failures": [],
-  "pageIssues": [],
+  "pageIssues": [
+    {
+      "url": "https://aihamyn.ae/manufacturers/THE%20BIG%20GREEN%20BOOK",
+      "status": 404,
+      "finalUrl": "https://aihamyn.ae/manufacturers/THE%20BIG%20GREEN%20BOOK",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 15097,
+      "durationMs": 181,
+      "inSitemap": false,
+      "canonical": "https://aihamyn.ae",
+      "title": "Page not found | Aihamyn Hampa Trading",
+      "metaDescription": "International industrial sourcing and supply coordination for equipment, parts and hard-to-find requirements. Send a model, part number or specification for review.",
+      "htmlLanguage": "",
+      "h1Count": 0,
+      "emptyH1Count": 0,
+      "noindex": true,
+      "oldIdentity": false,
+      "russianCharacters": false,
+      "mixedContent": false,
+      "productSchema": false,
+      "invalidHrefs": [],
+      "unsafeExternalLinks": [],
+      "internalLinks": []
+    }
+  ],
   "indexableIssues": [],
   "titleDuplicates": [],
   "metaDuplicates": [],
   "assetIssues": [],
   "performance": {
-    "totalHtmlBytes": 33680787,
-    "medianPageMs": 118,
-    "p95PageMs": 227
+    "totalHtmlBytes": 96697087,
+    "medianPageMs": 133,
+    "p95PageMs": 187
   }
 }
