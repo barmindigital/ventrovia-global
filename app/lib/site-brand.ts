@@ -30,7 +30,8 @@ export const SITE_BRAND = Object.freeze({
     horizontalTaglineMonochrome:
       "/brand/aihamyn-horizontal-tagline-monochrome.svg",
     appIcon: "/brand/aihamyn-app-icon.svg",
-    social: "/og.jpg",
+    // The version query makes messengers fetch the redrawn preview instead of a cached copy.
+    social: "/og.jpg?v=20260915",
   },
 });
 
