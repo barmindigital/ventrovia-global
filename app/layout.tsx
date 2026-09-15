@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@fontsource-variable/onest";
+import "./fonts.css";
 import "./globals.css";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";

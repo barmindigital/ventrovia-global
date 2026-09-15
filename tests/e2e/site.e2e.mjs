@@ -232,7 +232,7 @@ describe("Pages in the browser", () => {
   test("404 page shows the site navigation and a way back", async () => {
     for (const pathname of ["/this-page-does-not-exist", "/manufacturers/no-such-manufacturer-xyz"]) {
       await page.goto(url(pathname));
-      assert.equal(await page.eval("document.querySelector('h1').innerText"), "Page not found", pathname);
+      assert.equal(await page.eval("document.querySelector('h1').textContent.trim()"), "Page not found", pathname);
       assert.match(await page.eval("document.title"), /Page not found/, `${pathname}: tab title`);
       assert.ok(await page.eval(`!!document.querySelector('.site-header .desktop-nav a[href="/"]') && !!document.querySelector('main a[href="/manufacturers"]')`), `${pathname}: navigation`);
     }
@@ -390,7 +390,7 @@ describe("Enquiry form", () => {
     await openRequestModal(".header-cta");
     await fillValidEnquiry();
     await page.click(".request-modal .button-submit");
-    await page.waitFor("document.querySelector('.request-success')?.innerText.includes('Your enquiry has been sent')");
+    await page.waitFor("document.querySelector('.request-success')?.textContent.includes('Your enquiry has been sent')");
     assert.equal(intercepted.length, 1);
     assert.equal(intercepted[0].method, "POST");
     const body = intercepted[0].postData ?? "";

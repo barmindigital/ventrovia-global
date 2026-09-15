@@ -13,6 +13,8 @@
   --muted: #5b544b;
   --success: #5f906e;
   --shadow: 0 24px 60px rgba(107, 100, 89, 0.14);
+  --font-display: "Libre Baskerville", Baskerville, "Times New Roman", serif;
+  --font-text: "Open Sans Variable", "Open Sans", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -27,10 +29,30 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "Onest Variable", Onest, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-text);
   font-size: 16px;
-  font-weight: 520;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Typography: Libre Baskerville capitals for display headings, Open Sans for everything else.
+   Display lines keep generous leading so descenders such as the tail of Q never touch the next line. */
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+h3 {
+  font-family: var(--font-text);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 a {
@@ -120,11 +142,11 @@ img {
 
 /* The company name beside the mark is live text in the site font, not part of the image. */
 .brand-name {
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-display);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: 0.04em;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--ink);
   white-space: nowrap;
 }
@@ -144,10 +166,25 @@ img {
   color: white;
 }
 
+/* In the footer column the lockup wraps onto balanced lines instead of running into the next column. */
+.brand-footer .brand-text {
+  min-width: 0;
+}
+
+.brand-footer .brand-name,
+.brand-footer .brand-tagline {
+  white-space: normal;
+  text-wrap: balance;
+}
+
+.brand-footer .brand-tagline {
+  line-height: 1.5;
+}
+
 .brand-tagline {
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-text);
   font-size: 10.5px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.14em;
   color: #d6ac6d;
   white-space: nowrap;
@@ -205,7 +242,7 @@ img {
   border-radius: 8px;
   background: var(--violet);
   font-size: 14px;
-  font-weight: 820;
+  font-weight: 700;
   transition: background 0.2s ease, border-color 0.2s ease;
 }
 
@@ -302,7 +339,7 @@ img {
   color: var(--ink-soft);
   border-right: 1px solid var(--line);
   font-size: clamp(15px, 1.05vw, 18px);
-  font-weight: 740;
+  font-weight: 700;
   line-height: 1.45;
 }
 
@@ -327,7 +364,7 @@ img {
   margin: 0 0 22px;
   color: var(--violet);
   font-size: 13px;
-  font-weight: 850;
+  font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
 }
@@ -336,15 +373,10 @@ img {
 .section h2,
 .page-hero h1 {
   margin: 0;
-  font-family: "Onest Variable", Onest, sans-serif;
-  font-weight: 760;
-  line-height: 1.02;
-  letter-spacing: -0.035em;
-}
-
-.hero h1,
-.page-hero h1 {
-  font-weight: 840;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.05em;
 }
 
 .hero h1 {
@@ -357,7 +389,7 @@ img {
   margin: 28px 0 0;
   color: var(--ink-soft);
   font-size: 19px;
-  font-weight: 620;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -377,7 +409,7 @@ img {
   padding: 0 24px;
   border-radius: 8px;
   font-size: 15px;
-  font-weight: 820;
+  font-weight: 700;
   transition:
     color 0.2s ease,
     border-color 0.2s ease,
@@ -424,7 +456,8 @@ img {
   align-items: center;
   color: var(--violet-deep);
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .text-link span {
@@ -527,9 +560,9 @@ img {
 }
 
 .hero-badge strong {
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-text);
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -565,7 +598,7 @@ img {
   border-bottom: 1px solid var(--line);
   color: var(--violet-deep);
   background: transparent;
-  font-weight: 800;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -633,8 +666,8 @@ img {
   align-items: flex-end;
   align-self: end;
   margin: 0 0 10px;
-  font-size: 22px;
-  line-height: 1.2;
+  font-size: 15px;
+  line-height: 1.35;
 }
 
 .service-cards p {
@@ -682,14 +715,14 @@ img {
 .company-facts > a strong {
   color: var(--violet);
   font-size: 38px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.04em;
 }
 
 .company-facts > a span {
   color: var(--ink-soft);
   font-size: 14px;
-  font-weight: 650;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -715,8 +748,11 @@ img {
 
 .geography-panel h3 {
   margin: 0;
-  font-size: clamp(28px, 3vw, 42px);
-  line-height: 1.08;
+  font-family: var(--font-display);
+  font-size: clamp(24px, 2.6vw, 36px);
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.05em;
 }
 
 .geography-panel p:not(.eyebrow) {
@@ -836,7 +872,7 @@ img {
 .selected-file-name strong {
   overflow: hidden;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -927,8 +963,8 @@ img {
 
 .request-modal-heading h2 {
   margin: 0;
-  font-size: clamp(34px, 5vw, 50px);
-  line-height: 1;
+  font-size: clamp(28px, 4.2vw, 42px);
+  line-height: 1.22;
 }
 
 .request-modal-heading p:not(.eyebrow) {
@@ -1047,7 +1083,7 @@ img {
   color: white;
   background: var(--violet);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .phone-popover > button {
@@ -1356,7 +1392,7 @@ img {
   margin: 0;
   color: rgba(255, 255, 255, 0.9);
   font-size: clamp(14px, 1.05vw, 15px);
-  font-weight: 650;
+  font-weight: 700;
   line-height: 1.48;
 }
 
@@ -1382,8 +1418,21 @@ img {
 
 .section h2,
 .page-hero h1 {
-  font-size: clamp(40px, 4.2vw, 60px);
-  font-weight: 720;
+  font-size: clamp(30px, 3vw, 44px);
+}
+
+/* Phones: section and page titles scale with the screen; card titles further down keep their own sizes. */
+@media (max-width: 560px) {
+  .hero h1,
+  .section h2,
+  .page-hero h1 {
+    letter-spacing: 0.03em;
+  }
+
+  .section h2,
+  .page-hero h1 {
+    font-size: clamp(24px, 7vw, 30px);
+  }
 }
 
 .section-intro {
@@ -1391,7 +1440,7 @@ img {
   margin: 18px 0 0;
   color: var(--muted);
   font-size: 16px;
-  font-weight: 520;
+  font-weight: 400;
   line-height: 1.7;
 }
 
@@ -1440,14 +1489,14 @@ img {
 .business-stats strong {
   color: var(--violet);
   font-size: 38px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.04em;
 }
 
 .business-stats span {
   color: var(--ink-soft);
   font-size: 14px;
-  font-weight: 650;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -1455,7 +1504,7 @@ img {
   margin: 0 0 9px;
   color: var(--violet);
   font-size: 11px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -1475,7 +1524,7 @@ img {
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.42);
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-text);
   font-size: 19px;
   font-weight: 700;
   text-align: center;
@@ -1503,7 +1552,7 @@ img {
 .brand-chip-logo span {
   color: var(--ink);
   font-size: 12px;
-  font-weight: 680;
+  font-weight: 700;
 }
 
 .brand-chip-logo.logo-on-dark {
@@ -1540,7 +1589,7 @@ img {
 }
 
 .process-panel h2 {
-  font-size: clamp(38px, 4vw, 54px);
+  font-size: clamp(32px, 3.4vw, 46px);
 }
 
 .process-panel > div > p:not(.eyebrow) {
@@ -1567,7 +1616,7 @@ img {
   margin-bottom: 26px;
   color: var(--muted);
   font-size: 13px;
-  font-weight: 560;
+  font-weight: 400;
 }
 
 .breadcrumbs a:hover {
@@ -1586,7 +1635,7 @@ img {
   margin: 22px 0 0;
   color: var(--ink-soft);
   font-size: 17px;
-  font-weight: 520;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -1595,15 +1644,15 @@ img {
   flex: 0 0 auto;
   color: var(--muted);
   font-size: 13px;
-  font-weight: 650;
+  font-weight: 700;
   text-align: right;
 }
 
 .page-count strong {
   color: var(--violet-deep);
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-text);
   font-size: 38px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .empty-state {
@@ -1615,7 +1664,7 @@ img {
 }
 
 .empty-state h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .empty-state p {
@@ -1657,7 +1706,7 @@ img {
   cursor: pointer;
   font: inherit;
   font-size: 12px;
-  font-weight: 650;
+  font-weight: 700;
 }
 
 .manufacturer-alphabet button:hover,
@@ -1682,7 +1731,7 @@ img {
   margin-top: 30px;
   color: var(--muted);
   font-size: 13px;
-  font-weight: 560;
+  font-weight: 400;
 }
 
 .manufacturer-card {
@@ -1704,8 +1753,10 @@ img {
 
 .manufacturer-card h2 {
   margin: 24px 0 0;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .manufacturer-card p {
@@ -1715,7 +1766,7 @@ img {
   margin: 26px 0 0;
   color: var(--muted);
   font-size: 13px;
-  font-weight: 540;
+  font-weight: 400;
 }
 
 .manufacturer-card:hover p {
@@ -1742,7 +1793,7 @@ img {
   color: var(--violet-deep);
   font-size: 15px;
   font-style: normal;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
@@ -1763,7 +1814,7 @@ img {
   color: var(--wordmark-ink, white);
   background: var(--wordmark-accent, #d31027);
   font-size: 17px;
-  font-weight: 820;
+  font-weight: 700;
   letter-spacing: -0.04em;
 }
 
@@ -1785,7 +1836,7 @@ img {
   overflow: hidden;
   color: var(--violet-deep);
   font-size: 12px;
-  font-weight: 760;
+  font-weight: 700;
   line-height: 1.12;
   letter-spacing: -0.015em;
   overflow-wrap: anywhere;
@@ -1926,7 +1977,7 @@ img {
 
 .brand-wordmark-hero strong {
   font-size: clamp(20px, 3vw, 32px);
-  font-weight: 720;
+  font-weight: 700;
   line-height: 1.05;
   overflow-wrap: anywhere;
 }
@@ -1973,7 +2024,7 @@ img {
   color: var(--muted);
   background: rgba(255, 255, 255, 0.48);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.6;
 }
 
@@ -1985,11 +2036,22 @@ img {
 
 .logo-source-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
+/* Long source and licence lines wrap inside the card instead of widening the grid. */
+.logo-source-card > div {
+  min-width: 0;
+}
+
+.logo-source-card h2,
+.logo-source-card p {
+  overflow-wrap: anywhere;
+}
+
 .logo-source-card {
+  min-width: 0;
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
   gap: 24px;
@@ -2000,11 +2062,15 @@ img {
   background: rgba(255, 255, 255, 0.58);
 }
 
+/* The preview frame has a fixed height; the single grid track keeps tall logos inside it. */
 .logo-source-preview {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
   place-items: center;
   height: 110px;
   padding: 16px;
+  overflow: hidden;
   border-radius: 10px;
   background: white;
 }
@@ -2012,7 +2078,12 @@ img {
 .logo-source-preview img {
   width: 100%;
   height: 100%;
+  min-height: 0;
   object-fit: contain;
+}
+
+.logo-source-card a + a {
+  margin-left: 16px;
 }
 
 .logo-source-preview.logo-on-dark {
@@ -2021,7 +2092,18 @@ img {
 
 .logo-source-card h2 {
   margin: 0 0 10px;
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+/* Landscape tablets keep two columns; a narrower preview leaves long brand names room to stay whole. */
+@media (max-width: 1100px) {
+  .logo-source-card {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 18px;
+  }
 }
 
 .logo-source-card p {
@@ -2064,9 +2146,9 @@ img {
 }
 
 .brand-facts strong {
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-text);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .brand-hero-actions {
@@ -2082,7 +2164,7 @@ img {
   margin-top: 22px;
   color: var(--violet-deep);
   font-size: 14px;
-  font-weight: 650;
+  font-weight: 700;
 }
 
 .brand-knowledge-section {
@@ -2102,7 +2184,7 @@ img {
   color: var(--violet-deep);
   background: rgba(242, 235, 221, 0.58);
   font-size: 12px;
-  font-weight: 630;
+  font-weight: 400;
 }
 
 .brand-scope-note {
@@ -2155,20 +2237,14 @@ img {
   background: rgba(255, 255, 255, 0.52);
 }
 
-.content-card h2,
-.content-card h3 {
-  font-family: "Onest Variable", Onest, sans-serif;
-  font-weight: 500;
-}
-
 .content-card h2 {
   margin: 0 0 20px;
-  font-size: 34px;
+  font-size: clamp(24px, 2.4vw, 30px);
 }
 
 .content-card h3 {
   margin: 28px 0 10px;
-  font-size: 22px;
+  font-size: 15px;
 }
 
 .content-card p,
@@ -2199,12 +2275,12 @@ img {
   display: block;
   margin-bottom: 30px;
   color: var(--violet);
-  font-family: "Onest Variable", Onest, sans-serif;
+  font-family: var(--font-text);
   font-size: 15px;
 }
 
 .value-card h2 {
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .value-card p {
@@ -2225,7 +2301,7 @@ img {
 }
 
 .contact-aside h2 {
-  font-size: 36px;
+  font-size: clamp(26px, 2.6vw, 32px);
 }
 
 .contact-aside p {
@@ -2244,7 +2320,7 @@ img {
   color: var(--violet);
   border-bottom: 1px solid rgba(180, 83, 60, 0.32);
   font-size: 16px;
-  font-weight: 650;
+  font-weight: 700;
 }
 
 .contact-hours {
@@ -2261,13 +2337,13 @@ img {
   margin-bottom: 3px;
   color: var(--ink);
   font-size: 15px;
-  font-weight: 760;
+  font-weight: 700;
 }
 
 .contact-hours span {
   color: var(--ink-soft);
   font-size: 14px;
-  font-weight: 620;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -2342,7 +2418,7 @@ img {
 .button-submit {
   min-width: 190px;
   min-height: 54px;
-  font-weight: 850;
+  font-weight: 700;
 }
 
 .button-submit:disabled {
@@ -2353,7 +2429,7 @@ img {
 .form-feedback {
   color: #f2ebdd;
   font-size: 13px;
-  font-weight: 520;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -2435,7 +2511,7 @@ img {
 .contact-dock-copy small {
   color: rgba(255, 255, 255, 0.62);
   font-size: 10px;
-  font-weight: 650;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -2443,7 +2519,7 @@ img {
 .contact-dock-copy strong {
   color: white;
   font-size: 12px;
-  font-weight: 760;
+  font-weight: 700;
 }
 
 .contact-dock-status {
@@ -2491,13 +2567,15 @@ img {
   min-height: 40px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 9px;
   padding: 10px 15px;
+  white-space: nowrap;
   color: white;
   border-radius: 12px;
   background: #d31027;
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
   transition:
     background 0.2s ease,
@@ -2549,7 +2627,10 @@ img {
 .footer-grid > div > h2 {
   margin: 4px 0 18px;
   color: rgba(255, 255, 255, 0.46);
+  font-family: var(--font-text);
   font-size: 10px;
+  font-weight: 700;
+  line-height: 1.4;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -2699,7 +2780,7 @@ img {
   }
 
   .logo-source-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .process-panel {
@@ -2736,10 +2817,11 @@ img {
   }
 
   .brand-name {
-    max-width: 10.5em;
-    font-size: 14px;
+    max-width: 13em;
+    font-size: 13px;
     letter-spacing: 0.02em;
     white-space: normal;
+    text-wrap: balance;
   }
 
   .brand-footer .brand-name {
@@ -2909,15 +2991,19 @@ img {
   }
 
   .contact-dock-copy {
-    margin-right: auto;
-  }
-
-  .contact-dock-copy small {
     display: none;
   }
 
   .contact-dock-cta {
     min-height: 40px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .contact-dock-cta {
+    gap: 6px;
+    padding: 10px 12px;
   }
 }
 
@@ -2942,7 +3028,17 @@ img {
 }
 
 .hero h1 {
-  font-size: clamp(38px, 3.3vw, 50px);
+  font-size: clamp(34px, 3.1vw, 46px);
+}
+
+@media (max-width: 1100px) {
+  .hero h1 {
+    font-size: clamp(28px, 3.1vw, 34px);
+  }
+
+  .hero h1 span {
+    white-space: normal;
+  }
 }
 
 .company-facts {
@@ -2961,7 +3057,7 @@ img {
   }
 
   .hero h1 {
-    font-size: clamp(34px, 5.8vw, 46px);
+    font-size: clamp(30px, 4.9vw, 40px);
   }
 }
 
@@ -3044,14 +3140,17 @@ img {
   color: #6b6459;
   background: #f2ebdd;
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .request-success h3 {
   max-width: 660px;
   margin: 0;
-  font-size: clamp(34px, 5vw, 54px);
-  line-height: 1.05;
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4.2vw, 46px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.05em;
 }
 
 .request-success > p:last-child {
@@ -3106,5 +3205,63 @@ img {
   .request-modal .request-success {
     min-height: min(560px, 100dvh);
     padding-inline: 8px;
+  }
+}
+
+/* Phones: capitals in Libre Baskerville are wide. Display headings scale with the screen,
+   and a word that still cannot fit breaks with a hyphen instead of widening the page. */
+@media (max-width: 560px) {
+  h1,
+  h2 {
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  .text-link {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 380px) {
+  .contact-dock-cta svg {
+    display: none;
+  }
+}
+
+/* Phones: single-column grids never grow past the screen because of one long line inside a card. */
+@media (max-width: 560px) {
+  .brand-sections,
+  .logo-source-list,
+  .logo-source-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .content-card,
+  .logo-source-card,
+  .logo-source-card > div {
+    min-width: 0;
+  }
+
+  .content-card h3,
+  .content-card p,
+  .content-card li,
+  .logo-source-card p {
+    overflow-wrap: anywhere;
+  }
+}
+
+/* Small phones: cards give their titles enough room so long words such as INTERNATIONAL stay whole. */
+@media (max-width: 380px) {
+  .content-card {
+    padding: 24px 20px;
+  }
+
+  .value-card {
+    padding: 22px 20px;
+  }
+
+  .content-card h2,
+  .value-card h2 {
+    font-size: 20px;
   }
 }
